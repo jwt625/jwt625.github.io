@@ -14,7 +14,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     /*background-color: rgba(39, 168, 34, 0.06);*/
 }
 
