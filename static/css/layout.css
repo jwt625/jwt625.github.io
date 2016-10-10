@@ -2,7 +2,7 @@
 
 body {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 21px;
     color: rgb(48, 48, 48);
     border-top: 5px solid #27a822;
@@ -31,12 +31,13 @@ p, address {
 }
 
 .me {
-    width: 100px;
-    height: 100px;
+    width: 170px;
+    height: 170px;
     border-radius: 50px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 header > h1, section > h1 {
@@ -45,7 +46,7 @@ header > h1, section > h1 {
 
 header > h1 {
     line-height: 100%;
-    font-size: 250%;
+    font-size: 280%;
     margin-bottom: 20px;
 }
 
@@ -62,7 +63,7 @@ section {
 }
 
 section > h1 {
-    font-size: 140%;
+    font-size: 180%;
     line-height: 120%;
     text-transform: uppercase;
 }
