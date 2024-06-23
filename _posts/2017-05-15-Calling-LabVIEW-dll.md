@@ -1,7 +1,9 @@
 ---
 title: "Calling LabVIEW dll in MATLAB and exploring dll based on .NET"
 categories:
+  - Tips
   - Blog
+  - Tutorial
 tags:
   - LabView
   - MATLAB
@@ -10,7 +12,7 @@ tags:
 ---
 
 
-(This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/05/calling-labview-dll-in-matlab-and.html). Excuse my broken English at the time.)
+(This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/05/calling-labview-dll-in-matlab-and.html). Bear with my broken English at the time.)
 
 # Introduction
 I was trying to control a remote instrument (Quantum Design DynaCool). The instrument is connected to a remote computer. Only LabVIEW controlling programs are provided. But I love MATLAB (and hate LabView) and most other instruments are controlled via MATLAB visa. The LabVIEW programs provided are based on a dll file called QDInstrument.dll.
