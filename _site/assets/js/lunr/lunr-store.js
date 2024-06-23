@@ -35,6 +35,18 @@ var store = [{
         "url": "/blog/post-link/",
         "teaser": null
       },{
+        "title": "Setup ThuThesis (on Win8.1)",
+        "excerpt":"(This post is migrated from my old Blogspot. Excuse my broken English at the time.) ThuThesis is a LaTeX template for undergrad/grad/postdoc thesis work at Tsinghua University. Installation See github repo of THUThesis Problems I met and solutions I was trying to use ThuThesis on Windows8.1 machine with CTeX_2.9.2.164 installed....","categories": ["Blog"],
+        "tags": ["latex","Thesis","Tsinghua"],
+        "url": "/blog/setup-thuthesis/",
+        "teaser": null
+      },{
+        "title": "Calling LabVIEW dll in MATLAB and exploring dll based on .NET",
+        "excerpt":"(This post is migrated from my old Blogspot. Excuse my broken English at the time.) Introduction I was trying to control a remote instrument (Quantum Design DynaCool). The instrument is connected to a remote computer. Only LabVIEW controlling programs are provided. But I love MATLAB (and hate LabView) and most...","categories": ["Blog"],
+        "tags": ["LabView","MATLAB","DLL",".NET"],
+        "url": "/blog/Calling-LabVIEW-dll/",
+        "teaser": null
+      },{
         "title": "Welcome to Jekyll!",
         "excerpt":"You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...","categories": ["blog"],
         "tags": ["Jekyll","update"],
