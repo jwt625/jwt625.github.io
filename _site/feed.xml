@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-23T15:46:52-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">MM</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><author><name>First Lastname</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-04-18T12:34:30-07:00</published><updated>2019-04-18T12:34:30-07:00</updated><id>http://localhost:4000/blog/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/welcome-to-jekyll/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span>
+</code></pre></div></div>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>First Lastname</name></author><category term="blog" /><category term="Jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Post: Link</title><link href="http://localhost:4000/blog/post-link/" rel="alternate" type="text/html" title="Post: Link" /><published>2010-03-07T00:00:00-08:00</published><updated>2010-03-07T00:00:00-08:00</updated><id>http://localhost:4000/blog/post-link</id><content type="html" xml:base="http://localhost:4000/blog/post-link/"><![CDATA[<p>This theme supports <strong>link posts</strong>, made famous by John Gruber. To use, just add <code class="language-plaintext highlighter-rouge">link: http://url-you-want-linked</code> to the post’s YAML front matter and you’re done.</p>
+
+<blockquote>
+  <p>And this is how a quote looks.</p>
+</blockquote>
+
+<p>Some <a href="#">link</a> can also be shown.</p>]]></content><author><name>First Lastname</name></author><category term="Blog" /><category term="link" /><category term="Post Formats" /><summary type="html"><![CDATA[This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.]]></summary></entry><entry><title type="html">Post: Notice</title><link href="http://localhost:4000/blog/post-notice/" rel="alternate" type="text/html" title="Post: Notice" /><published>2010-02-05T00:00:00-08:00</published><updated>2010-02-05T00:00:00-08:00</updated><id>http://localhost:4000/blog/post-notice</id><content type="html" xml:base="http://localhost:4000/blog/post-notice/"><![CDATA[<p>A notice displays information that explains nearby content. Often used to call attention to a particular detail.</p>
+
+<p>When using Kramdown <code class="language-plaintext highlighter-rouge">{: .notice}</code> can be added after a sentence to assign the <code class="language-plaintext highlighter-rouge">.notice</code> to the <code class="language-plaintext highlighter-rouge">&lt;p&gt;&lt;/p&gt;</code> element.</p>
+
+<p class="notice"><strong>Changes in Service:</strong> We just updated our <a href="#">privacy policy</a> here to better service our customers. We recommend reviewing the changes.</p>
+
+<p class="notice--primary"><strong>Primary Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. <a href="#">Praesent libero</a>. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+
+<p class="notice--info"><strong>Info Notice:</strong> Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+
+<p class="notice--warning"><strong>Warning Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Integer nec odio</a>. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+
+<p class="notice--danger"><strong>Danger Notice:</strong> Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
+
+<p class="notice--success"><strong>Success Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at <a href="#">nibh elementum</a> imperdiet.</p>
+
+<p>Want to wrap several paragraphs or other elements in a notice? Using Liquid to capture the content and then filter it with <code class="language-plaintext highlighter-rouge">markdownify</code> is a good way to go.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% capture notice-2 %}
+#### New Site Features
+
+* You can now have cover images on blog pages
+* Drafts will now auto-save while writing
+{% endcapture %}
+
+<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice"</span><span class="nt">&gt;</span>{{ notice-2 | markdownify }}<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<div class="notice">
+  
+<h4 id="new-site-features">New Site Features</h4>
+
+<ul>
+  <li>You can now have cover images on blog pages</li>
+  <li>Drafts will now auto-save while writing</li>
+</ul>
+
+</div>
+
+<p>Or you could skip the capture and stick with straight HTML.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;h4&gt;</span>Message<span class="nt">&lt;/h4&gt;</span>
+  <span class="nt">&lt;p&gt;</span>A basic message.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<div class="notice">
+  <h4>Message</h4>
+  <p>A basic message.</p>
+</div>]]></content><author><name>First Lastname</name></author><category term="Blog" /><category term="Post Formats" /><category term="notice" /><summary type="html"><![CDATA[A notice displays information that explains nearby content. Often used to call attention to a particular detail.]]></summary></entry><entry><title type="html">Post: Quote</title><link href="http://localhost:4000/blog/post-quote/" rel="alternate" type="text/html" title="Post: Quote" /><published>2010-02-05T00:00:00-08:00</published><updated>2010-02-05T00:00:00-08:00</updated><id>http://localhost:4000/blog/post-quote</id><content type="html" xml:base="http://localhost:4000/blog/post-quote/"><![CDATA[<blockquote>
+  <p>Only one thing is impossible for God: To find any sense in any copyright law on the planet.</p>
+</blockquote>
+
+<blockquote>
+  <p><cite><a href="http://www.brainyquote.com/quotes/quotes/m/marktwain163473.html">Mark Twain</a></cite></p>
+</blockquote>]]></content><author><name>First Lastname</name></author><category term="Blog" /><category term="Post Formats" /><category term="quote" /><summary type="html"><![CDATA[Only one thing is impossible for God: To find any sense in any copyright law on the planet. Mark Twain]]></summary></entry><entry><title type="html">Post: Chat</title><link href="http://localhost:4000/blog/post-chat/" rel="alternate" type="text/html" title="Post: Chat" /><published>2010-01-08T00:00:00-08:00</published><updated>2010-01-08T00:00:00-08:00</updated><id>http://localhost:4000/blog/post-chat</id><content type="html" xml:base="http://localhost:4000/blog/post-chat/"><![CDATA[<p>Abbott: Strange as it may seem, they give ball players nowadays very peculiar names.</p>
+
+<p>Costello: Funny names?</p>
+
+<p>Abbott: Nicknames, nicknames. Now, on the St. Louis team we have Who’s on first, What’s on second, I Don’t Know is on third–</p>
+
+<p>Costello: That’s what I want to find out. I want you to tell me the names of the fellows on the St. Louis team.</p>
+
+<p>Abbott: I’m telling you. Who’s on first, What’s on second, I Don’t Know is on third–</p>
+
+<p>Costello: You know the fellows’ names?</p>
+
+<p>Abbott: Yes.</p>
+
+<p>Costello: Well, then who’s playing first?</p>
+
+<p>Abbott: Yes.</p>
+
+<p>Costello: I mean the fellow’s name on first base.</p>
+
+<p>Abbott: Who.</p>
+
+<p>Costello: The fellow playin’ first base.</p>
+
+<p>Abbott: Who.</p>
+
+<p>Costello: The guy on first base.</p>
+
+<p>Abbott: Who is on first.</p>
+
+<p>Costello: Well, what are you askin’ me for?</p>
+
+<p>Abbott: I’m not asking you–I’m telling you. Who is on first.</p>
+
+<p>Costello: I’m asking you–who’s on first?</p>
+
+<p>Abbott: That’s the man’s name.</p>
+
+<p>Costello: That’s who’s name?</p>
+
+<p>Abbott: Yes.</p>
+
+<p>Costello: When you pay off the first baseman every month, who gets the money?</p>
+
+<p>Abbott: Every dollar of it. And why not, the man’s entitled to it.</p>
+
+<p>Costello: Who is?</p>
+
+<p>Abbott: Yes.</p>
+
+<p>Costello: So who gets it?</p>
+
+<p>Abbott: Why shouldn’t he? Sometimes his wife comes down and collects it.</p>
+
+<p>Costello: Who’s wife?</p>
+
+<p>Abbott: Yes. After all, the man earns it.</p>
+
+<p>Costello: Who does?</p>
+
+<p>Abbott: Absolutely.</p>
+
+<p>Costello: Well, all I’m trying to find out is what’s the guy’s name on first base?</p>
+
+<p>Abbott: Oh, no, no. What is on second base.</p>
+
+<p>Costello: I’m not asking you who’s on second.</p>
+
+<p>Abbott: Who’s on first!</p>
+
+<p>Costello: St. Louis has a good outfield?</p>
+
+<p>Abbott: Oh, absolutely.</p>
+
+<p>Costello: The left fielder’s name?</p>
+
+<p>Abbott: Why.</p>
+
+<p>Costello: I don’t know, I just thought I’d ask.</p>
+
+<p>Abbott: Well, I just thought I’d tell you.</p>
+
+<p>Costello: Then tell me who’s playing left field?</p>
+
+<p>Abbott: Who’s playing first.</p>
+
+<p>Costello: Stay out of the infield! The left fielder’s name?</p>
+
+<p>Abbott: Why.</p>
+
+<p>Costello: Because.</p>
+
+<p>Abbott: Oh, he’s center field.</p>
+
+<p>Costello: Wait a minute. You got a pitcher on this team?</p>
+
+<p>Abbott: Wouldn’t this be a fine team without a pitcher?</p>
+
+<p>Costello: Tell me the pitcher’s name.</p>
+
+<p>Abbott: Tomorrow.</p>
+
+<p>Costello: Now, when the guy at bat bunts the ball–me being a good catcher–I want to throw the guy out at first base, so I pick up the ball and throw it to who?</p>
+
+<p>Abbott: Now, that’s he first thing you’ve said right.</p>
+
+<p>Costello: I DON’T EVEN KNOW WHAT I’M TALKING ABOUT!</p>
+
+<p>Abbott: Don’t get excited. Take it easy.</p>
+
+<p>Costello: I throw the ball to first base, whoever it is grabs the ball, so the guy runs to second. Who picks up the ball and throws it to what. What throws it to I don’t know. I don’t know throws it back to tomorrow–a triple play.</p>
+
+<p>Abbott: Yeah, it could be.</p>
+
+<p>Costello: Another guy gets up and it’s a long ball to center.</p>
+
+<p>Abbott: Because.</p>
+
+<p>Costello: Why? I don’t know. And I don’t care.</p>
+
+<p>Abbott: What was that?</p>
+
+<p>Costello: I said, I DON’T CARE!</p>
+
+<p>Abbott: Oh, that’s our shortstop!</p>]]></content><author><name>First Lastname</name></author><category term="Blog" /><category term="chat" /><category term="Post Formats" /><summary type="html"><![CDATA[Abbott: Strange as it may seem, they give ball players nowadays very peculiar names.]]></summary></entry><entry><title type="html">Post: Modified Date</title><link href="http://localhost:4000/blog/post-modified/" rel="alternate" type="text/html" title="Post: Modified Date" /><published>2010-01-07T00:00:00-08:00</published><updated>2016-03-09T13:20:02-08:00</updated><id>http://localhost:4000/blog/post-modified</id><content type="html" xml:base="http://localhost:4000/blog/post-modified/"><![CDATA[<p>This post has been updated and should show a modified date if used in a layout.</p>
+
+<p>All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, “Oh, why can’t you remain like this for ever!” This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.</p>]]></content><author><name>First Lastname</name></author><category term="Blog" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html"><![CDATA[This post has been updated and should show a modified date if used in a layout.]]></summary></entry><entry><title type="html">Post: Standard</title><link href="http://localhost:4000/blog/post-standard/" rel="alternate" type="text/html" title="Post: Standard" /><published>2010-01-07T00:00:00-08:00</published><updated>2010-01-07T00:00:00-08:00</updated><id>http://localhost:4000/blog/post-standard</id><content type="html" xml:base="http://localhost:4000/blog/post-standard/"><![CDATA[<p>All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, “Oh, why can’t you remain like this for ever!” This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end.</p>
+
+<p>Mrs. Darling first heard of Peter when she was tidying up her children’s minds. It is the nightly custom of every good mother after her children are asleep to rummage in their minds and put things straight for next morning, repacking into their proper places the many articles that have wandered during the day.</p>
+
+<!--more-->
+
+<p>This post has a manual excerpt <code class="language-plaintext highlighter-rouge">&lt;!--more--&gt;</code> set after the second paragraph. The following YAML Front Matter has also be applied:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">excerpt_separator</span><span class="pi">:</span> <span class="s2">"</span><span class="s">&lt;!--more--&gt;"</span>
+</code></pre></div></div>
+
+<p>If you could keep awake (but of course you can’t) you would see your own mother doing this, and you would find it very interesting to watch her. It is quite like tidying up drawers. You would see her on her knees, I expect, lingering humorously over some of your contents, wondering where on earth you had picked this thing up, making discoveries sweet and not so sweet, pressing this to her cheek as if it were as nice as a kitten, and hurriedly stowing that out of sight. When you wake in the morning, the naughtiness and evil passions with which you went to bed have been folded up small and placed at the bottom of your mind and on the top, beautifully aired, are spread out your prettier thoughts, ready for you to put on.</p>
+
+<p>I don’t know whether you have ever seen a map of a person’s mind. Doctors sometimes draw maps of other parts of you, and your own map can become intensely interesting, but catch them trying to draw a map of a child’s mind, which is not only confused, but keeps going round all the time. There are zigzag lines on it, just like your temperature on a card, and these are probably roads in the island, for the Neverland is always more or less an island, with astonishing splashes of colour here and there, and coral reefs and rakish-looking craft in the offing, and savages and lonely lairs, and gnomes who are mostly tailors, and caves through which a river runs, and princes with six elder brothers, and a hut fast going to decay, and one very small old lady with a hooked nose. It would be an easy map if that were all, but there is also first day at school, religion, fathers, the round pond, needle-work, murders, hangings, verbs that take the dative, chocolate pudding day, getting into braces, say ninety-nine, three-pence for pulling out your tooth yourself, and so on, and either these are part of the island or they are another map showing through, and it is all rather confusing, especially as nothing will stand still.</p>
+
+<p>Of course the Neverlands vary a good deal. John’s, for instance, had a lagoon with flamingoes flying over it at which John was shooting, while Michael, who was very small, had a flamingo with lagoons flying over it. John lived in a boat turned upside down on the sands, Michael in a wigwam, Wendy in a house of leaves deftly sewn together. John had no friends, Michael had friends at night, Wendy had a pet wolf forsaken by its parents, but on the whole the Neverlands have a family resemblance, and if they stood still in a row you could say of them that they have each other’s nose, and so forth. On these magic shores children at play are for ever beaching their coracles [simple boat]. We too have been there; we can still hear the sound of the surf, though we shall land no more.</p>
+
+<p>Of all delectable islands the Neverland is the snuggest and most compact, not large and sprawly, you know, with tedious distances between one adventure and another, but nicely crammed. When you play at it by day with the chairs and table-cloth, it is not in the least alarming, but in the two minutes before you go to sleep it becomes very real. That is why there are night-lights.</p>
+
+<p>Occasionally in her travels through her children’s minds Mrs. Darling found things she could not understand, and of these quite the most perplexing was the word Peter. She knew of no Peter, and yet he was here and there in John and Michael’s minds, while Wendy’s began to be scrawled all over with him. The name stood out in bolder letters than any of the other words, and as Mrs. Darling gazed she felt that it had an oddly cocky appearance.</p>]]></content><author><name>First Lastname</name></author><category term="Blog" /><category term="Post Formats" /><category term="readability" /><category term="standard" /><summary type="html"><![CDATA[All children, except one, grow up. They soon know that they will grow up, and the way Wendy knew was this. One day when she was two years old she was playing in a garden, and she plucked another flower and ran with it to her mother. I suppose she must have looked rather delightful, for Mrs. Darling put her hand to her heart and cried, “Oh, why can’t you remain like this for ever!” This was all that passed between them on the subject, but henceforth Wendy knew that she must grow up. You always know after you are two. Two is the beginning of the end. Mrs. Darling first heard of Peter when she was tidying up her children’s minds. It is the nightly custom of every good mother after her children are asleep to rummage in their minds and put things straight for next morning, repacking into their proper places the many articles that have wandered during the day.]]></summary></entry></feed>
