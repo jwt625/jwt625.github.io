@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Post: Link - Outside Five Sigma</title>
-<meta name="description" content="This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.">
+<!-- begin _includes/seo.html --><title>Use Bold SimHei in CTeX (and in THUThesis) - Outside Five Sigma</title>
+<meta name="description" content="(This post is migrated from my old Blogspot. Bear with my broken English at the time.)">
 
 
   <meta name="author" content="First Lastname">
@@ -23,26 +23,26 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Outside Five Sigma">
-<meta property="og:title" content="Post: Link">
-<meta property="og:url" content="http://localhost:4000/blog/post-link/">
+<meta property="og:title" content="Use Bold SimHei in CTeX (and in THUThesis)">
+<meta property="og:url" content="http://localhost:4000/tips/using-bold-simHei-Thuthesis/">
 
 
-  <meta property="og:description" content="This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2010-03-07T00:00:00-08:00">
+  <meta property="og:description" content="(This post is migrated from my old Blogspot. Bear with my broken English at the time.)">
 
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/blog/post-link/">
+
+  <meta property="article:published_time" content="2017-06-11T00:00:00-07:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/tips/using-bold-simHei-Thuthesis/">
 
 
 
@@ -269,16 +269,16 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Post: Link">
-    <meta itemprop="description" content="This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.">
-    <meta itemprop="datePublished" content="2010-03-07T00:00:00-08:00">
+    <meta itemprop="headline" content="Use Bold SimHei in CTeX (and in THUThesis)">
+    <meta itemprop="description" content="(This post is migrated from my old Blogspot. Bear with my broken English at the time.)">
+    <meta itemprop="datePublished" content="2017-06-11T00:00:00-07:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="http://localhost:4000/blog/post-link/" itemprop="url">Post: Link
+            <a href="http://localhost:4000/tips/using-bold-simHei-Thuthesis/" itemprop="url">Use Bold SimHei in CTeX (and in THUThesis)
 </a>
           </h1>
           
@@ -295,7 +295,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          3 minute read
         
       </span>
     
@@ -307,15 +307,74 @@
 
       <section class="page__content" itemprop="text">
         
-        <p>This theme supports <strong>link posts</strong>, made famous by John Gruber. To use, just add <code class="language-plaintext highlighter-rouge">link: http://url-you-want-linked</code> to the post’s YAML front matter and you’re done.</p>
+        <p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/06/use-bold-simhei-in-ctex-and-in-thuthesis.html">Blogspot</a>. Bear with my broken English at the time.)</p>
 
-<blockquote>
-  <p>And this is how a quote looks.</p>
-</blockquote>
+<p>[toc]</p>
 
-<p>Some <a href="#">link</a> can also be shown.</p>
+<h2 id="problem">Problem</h2>
 
-        <div><a href="https://github.com" class="btn btn--primary">Direct Link</a></div>
+<p>Tsinghua requires the subtitle of undergrad thesis to be in Bold SimHei, but in the current version of <a href="https://github.com/xueruini/thuthesis">THUThesis</a> template it’s SimHei, not Bold SimHei (might be fixed when you read this).</p>
+
+<p>The easiest way to do this is to make the cover in Word, convert it to pdf and replace the old cover. I don’t want to do it in this way because I can’t learn anything through it.</p>
+
+<p>Firstly I have to find out where THUThesis defines and describes the cover, etc.</p>
+
+<h2 id="modify-thuthesis">Modify THUThesis</h2>
+
+<p><code class="language-plaintext highlighter-rouge">thuthesis.cfg</code> defines commands that stand for some common content, such as the content on the cover page and on the authorization page. You can find <code class="language-plaintext highlighter-rouge">\thu@bachelor@subtitle</code> in it.</p>
+
+<p><code class="language-plaintext highlighter-rouge">thuthesis.cls</code> describes the detailed layout and style information of those common content. You can find <code class="language-plaintext highlighter-rouge">\thu@bachelor@subtitle</code> in it with some format commands around, as in the following figure. You can see that the subtitle is set to be xiaochu and in heiti (command <code class="language-plaintext highlighter-rouge">\heiti</code> is defined by CTeX) with 0.5 ziju.</p>
+
+<p><img src="https://lh3.googleusercontent.com/B6Cx3KSGrRcQxm49kFN2eYu8PEYohxJ_80n4WZLaQKiFtf8rlCVLWruxj4DcAOTm2L8z9dw=s700" alt="modificationInThuthesis.cls" title="modification.png" /></p>
+
+<p>I modified the original command (in red) to some new command (in green). I firstly tried directly adding <code class="language-plaintext highlighter-rouge">\textbf</code> so that I expect Bold SimHei would be used. However, I saw the following warning message:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[no file]:54: LaTeX Font Warning: Font shape `TU/SimHei(0)/b/n' undefined(Font)              using `TU/SimHei(0)/m/n' instead on input line 54.
+</code></pre></div></div>
+
+<p>The problem is that SimHei we usually have on Windows is Zhongyi SimHei(中易黑体) and does not come with bold or italic version, while in contrast Microsoft YaHei has a bold version. The installed fonts can be found in control panel as in the following figure. But in Microsoft Word we can indeed ‘bold’ words in SimHei, in this case that’s an ‘electronic’ bold generated by Word, I think, not a bold version of the font itself.</p>
+
+<p><img src="https://lh3.googleusercontent.com/DkuXjaxJ_4nC86DauMSYt4tpw8ALOzuGLIW7r-L8rVry7mJxI7JZ9kSwqnRfMQI8-cl_Amo=s700" alt="FontsInControlPanel" title="fontsInControlPanel.png" /></p>
+
+<p>Next, I naively thought YaHei might look similar to SimHei so I include the YaHei font in <code class="language-plaintext highlighter-rouge">main.tex</code> by CTeX command <code class="language-plaintext highlighter-rouge">\newCJKfontfamily\msyh{Microsoft YaHei}</code> and use <code class="language-plaintext highlighter-rouge">\msyh\textbf</code> in <code class="language-plaintext highlighter-rouge">thuthesis.cls</code>, as on the line 521. The result didn’t even make me satisfied, not to mention those ‘tough’ administrative staff.</p>
+
+<p>The final solution I found is to create the Bold SimHei font by my self (actually partly bold to save time) and use it. I called it SimHeiBoldTmp and included it in main.tex by <code class="language-plaintext highlighter-rouge">\newCJKfontfamily\htbd{SimHeiBoldTmp}</code>, hence the final changes in <code class="language-plaintext highlighter-rouge">thuthesis.cls</code> is as in figure 1 (note the <code class="language-plaintext highlighter-rouge">\textbf</code> command is not required since the font itself is bold. It’s still an ugly solution since I haven’t figure out the correct way to add a bold version subset to an existing font).</p>
+
+<h2 id="edit-font-and-use-new-font">Edit font and use new font</h2>
+
+<p>As Word can generate the bold version of an existing font, we can also do it. I use <a href="http://fontforge.github.io/en-US/">fontforge</a> for this purpose. It has detailed documents about editing fonts (e.g., <a href="http://designwithfontforge.com/en-US/Bold_and_Other_Weights.html">how to bold</a>). I believe you could figure out how to bold an existing font after playing with it for 5min. If you didn’t, it’s in Element-&gt;Style-&gt;Change Weight. Embolden by 6 em units is approximately proper for SimHei by comparing the effect between Bold SinHei in Word.</p>
+
+<p>It is time consuming to ‘bold’ all the characters, so I just ‘bold’ the characters I need and character ‘ 中’ for confirming the change in preview. I found the unicode of the characters I need in some online converter such as <a href="http://www.pinyin.info/tools/converter/chars2uninumbers.html">this one</a> so that I could locate those characters in fontforge.</p>
+
+<p>I saved the new font as SimHeiBoldTmpp.ttf and the preview looks like this (you can see the character ‘中’ is changed):
+<img src="https://lh3.googleusercontent.com/k70ZAu3XssW67omSnbuZosHSmFJE9bQLIJflcxgB3Lz5k7c67K77WhsYQ1WyspzNd0zKl3U=s700" alt="SimHeiBoldPreview" title="SimHeiBoldPreview.png" /></p>
+
+<p>After installing the new font, you should be able to find and use it in Word and also tex, such as the following test .tex file:</p>
+<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\documentclass</span><span class="p">{</span>ctexart<span class="p">}</span>
+<span class="k">\setCJKmainfont</span><span class="na">[BoldFont={* Bold}]</span><span class="p">{</span>Microsoft YaHei<span class="p">}</span>
+<span class="k">\newCJKfontfamily\htbd</span><span class="p">{</span>SimHeiBoldTmp<span class="p">}</span> <span class="c">%include the new SinHeiBoldTmp font as \htbd</span>
+<span class="nt">\begin{document}</span>
+<span class="k">\Huge</span>
+雅黑 综合论文
+<span class="k">\textbf</span><span class="p">{</span>雅黑粗 综合论文<span class="p">}</span>
+
+<span class="p">{</span><span class="k">\heiti</span> 黑体 综合论文<span class="p">}</span>
+
+<span class="p">{</span><span class="k">\htbd</span> 黑体 综合论文<span class="p">}</span>
+
+<span class="p">{</span><span class="k">\heiti</span> <span class="k">\textbf</span> 黑体 综合论文<span class="p">}</span>
+<span class="nt">\end{document}</span>
+</code></pre></div></div>
+<p>The result is:
+<img src="https://lh3.googleusercontent.com/j7ffkvYl50homp3ERNe7SbLSv-52sYbhMNe8Nl7PulSEn-2dHm59VaC6JF5hgtp0VsMxdmY=s700" alt="testResult" title="testResult.png" />
+where the last line of the document generates the same ‘font undefined’ error and ordinary SimHei shows up.</p>
+
+<p>Finally, I could include the font in <code class="language-plaintext highlighter-rouge">main.tex</code> for my thesis by <code class="language-plaintext highlighter-rouge">\newCJKfontfamily\htbd{SimHeiBoldTmp}</code> and the modified <code class="language-plaintext highlighter-rouge">thuthesis.cls</code> file to use bold SimHei for the subtitle.</p>
+
+<p>Below is the comparison between old cover, new cover and the example cover
+<img src="https://lh3.googleusercontent.com/7zcUMZaUzOmpH_TmXkhaPCtvzQ97EUnx0S67g58hb3vtCkEKdMtdFVaurAVki2KbhoFQefo=s700" alt="comparison" title="comparison.png" /></p>
+
+
+        
       </section>
 
       <footer class="page__meta">
@@ -330,9 +389,11 @@
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/#link" class="page__taxonomy-item p-category" rel="tag">link</a><span class="sep">, </span>
+      <a href="/tags/#latex" class="page__taxonomy-item p-category" rel="tag">LaTeX</a><span class="sep">, </span>
     
-      <a href="/tags/#post-formats" class="page__taxonomy-item p-category" rel="tag">Post Formats</a>
+      <a href="/tags/#thesis" class="page__taxonomy-item p-category" rel="tag">Thesis</a><span class="sep">, </span>
+    
+      <a href="/tags/#tsinghua" class="page__taxonomy-item p-category" rel="tag">Tsinghua</a>
     
     </span>
   </p>
@@ -349,7 +410,7 @@
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      <a href="/categories/#blog" class="page__taxonomy-item p-category" rel="tag">Blog</a>
+      <a href="/categories/#tips" class="page__taxonomy-item p-category" rel="tag">Tips</a>
     
     </span>
   </p>
@@ -357,29 +418,29 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2010-03-07T00:00:00-08:00">March 7, 2010</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2017-06-11T00:00:00-07:00">June 11, 2017</time></p>
 
       </footer>
 
       <section class="page__share">
   
 
-  <a href="https://twitter.com/intent/tweet?text=Post%3A+Link%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fpost-link%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Use+Bold+SimHei+in+CTeX+%28and+in+THUThesis%29%20http%3A%2F%2Flocalhost%3A4000%2Ftips%2Fusing-bold-simHei-Thuthesis%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fpost-link%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftips%2Fusing-bold-simHei-Thuthesis%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blog/post-link/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/tips/using-bold-simHei-Thuthesis/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/blog/post-quote/" class="pagination--pager" title="Post: Quote
+      <a href="/tips/Tips-for-LaTeXing-in-Sublime/" class="pagination--pager" title="Tips for LaTeXing in Sublime
 ">Previous</a>
     
     
-      <a href="/blog/tutorial/setup-thuthesis/" class="pagination--pager" title="Setup ThuThesis (on Win8.1)
+      <a href="/tips/jupyter-tips/" class="pagination--pager" title="Jupyter Notebook Tips
 ">Next</a>
     
   </nav>
@@ -531,7 +592,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/tips/using-bold-simHei-Thuthesis/" rel="permalink">Use Bold SimHei in CTeX (and in THUThesis)
+        <a href="/tips/Tips-for-LaTeXing-in-Sublime/" rel="permalink">Tips for LaTeXing in Sublime
 </a>
       
     </h2>
@@ -549,7 +610,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          3 minute read
+          less than 1 minute read
         
       </span>
     

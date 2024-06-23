@@ -10,25 +10,24 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Outside Five Sigma - Outside Five Sigma</title>
-<meta name="description" content="Memories are long term averages, and outside five sigmas.">
+<!-- begin _includes/seo.html --><title>Tips for LaTeXing in Sublime - Outside Five Sigma</title>
+<meta name="description" content="(This post is migrated from my old Blogspot. Bear with my broken English at the time.)">
 
 
   <meta name="author" content="First Lastname">
   
+  <meta property="article:author" content="First Lastname">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Outside Five Sigma">
-<meta property="og:title" content="Outside Five Sigma">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="Tips for LaTeXing in Sublime">
+<meta property="og:url" content="http://localhost:4000/tips/Tips-for-LaTeXing-in-Sublime/">
 
 
-  <meta property="og:description" content="Memories are long term averages, and outside five sigmas.">
-
-
-
+  <meta property="og:description" content="(This post is migrated from my old Blogspot. Bear with my broken English at the time.)">
 
 
 
@@ -36,24 +35,17 @@
 
 
 
-
-
-<link rel="canonical" href="http://localhost:4000/">
-
-
-
-  <link rel="next" href="http://localhost:4000/page2/">
+  <meta property="article:published_time" content="2017-05-23T00:00:00-07:00">
 
 
 
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-    "name": null,
-    "url": "http://localhost:4000/"
-}
-</script>
+
+
+
+<link rel="canonical" href="http://localhost:4000/tips/Tips-for-LaTeXing-in-Sublime/">
+
+
+
 
 
 
@@ -90,7 +82,7 @@
 
   </head>
 
-  <body class="layout--home">
+  <body class="layout--single">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -154,6 +146,8 @@
 
     <div class="initial-content">
       
+
+
 
 
 
@@ -274,24 +268,158 @@
 
 
 
-  <div class="archive">
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Tips for LaTeXing in Sublime">
+    <meta itemprop="description" content="(This post is migrated from my old Blogspot. Bear with my broken English at the time.)">
+    <meta itemprop="datePublished" content="2017-05-23T00:00:00-07:00">
     
-      <h1 id="page-title" class="page__title"></h1>
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="http://localhost:4000/tips/Tips-for-LaTeXing-in-Sublime/" itemprop="url">Tips for LaTeXing in Sublime
+</a>
+          </h1>
+          
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/05/tips-for-latexing-in-sublime.html">Blogspot</a>. Bear with my broken English at the time.)</p>
+
+<h1 id="environment">Environment</h1>
+<p>I’m using Sublime (both 2 and 3) on Windows, with <a href="https://github.com/SublimeText/LaTeXTools">LaTeXTools</a> plugin for using LaTeX.</p>
+
+<h1 id="shortcuts-for-latextools">Shortcuts for LaTeXTools</h1>
+<p>Comma means its a ‘combo’ shortcut, you push the first set of buttons and then the second button.</p>
+
+<p>delete temp files: <code class="language-plaintext highlighter-rouge">ctrl+l</code>, <code class="language-plaintext highlighter-rouge">Backspace</code>
+forward search in pdf: <code class="language-plaintext highlighter-rouge">ctrl+l, j</code>
+More to be added.</p>
+
+<h1 id="inverse-search-from-sumatra-pdf">Inverse search from Sumatra PDF</h1>
+<p>The default option for Sumatra PDF to perform inverse search might be WinEdit. I’d like it to be Sublime.</p>
+
+<p>So for me in Sumatra PDF, go to <code class="language-plaintext highlighter-rouge">Settings -&gt; Options</code>, set the inverse search command to <code class="language-plaintext highlighter-rouge">"C:\Program Files\Sublime Text 3\sublime_text.exe" "%f:%l"</code></p>
+
+<p>If you are using other editors, you can refer to <a href="https://tex.stackexchange.com/questions/125546/the-sumatrapdf-inverse-search-for-any-arbitrary-editor">The SumatraPDF Inverse-Search for any arbitrary Editor</a>.</p>
+
+<h1 id="auto-completion-for-labels-and-refs-across-multiple-files">Auto-completion for labels and refs across multiple files</h1>
+<p>Looks like it’s supported. Simply add %!TEX root = relativePathToYour/main.tex on the first line of your separated .tex file.</p>
+
+<p>See <a href="https://tex.stackexchange.com/questions/345519/sublime-text-reference-completion-across-multiple-files-using-latextools-and-im">Sublime Text: Reference completion across multiple files using LaTeXTools and import</a> for reference.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#latex" class="page__taxonomy-item p-category" rel="tag">LaTeX</a><span class="sep">, </span>
+    
+      <a href="/tags/#sublime" class="page__taxonomy-item p-category" rel="tag">sublime</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#tips" class="page__taxonomy-item p-category" rel="tag">Tips</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2017-05-23T00:00:00-07:00">May 23, 2017</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Tips+for+LaTeXing+in+Sublime%20http%3A%2F%2Flocalhost%3A4000%2Ftips%2FTips-for-LaTeXing-in-Sublime%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftips%2FTips-for-LaTeXing-in-Sublime%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/tips/Tips-for-LaTeXing-in-Sublime/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/tips/blog/tutorial/Calling-LabVIEW-dll/" class="pagination--pager" title="Calling LabVIEW dll in MATLAB and exploring dll based on .NET
+">Previous</a>
     
     
+      <a href="/tips/using-bold-simHei-Thuthesis/" class="pagination--pager" title="Use Bold SimHei in CTeX (and in THUThesis)
+">Next</a>
+    
+  </nav>
 
-<h3 class="archive__subtitle">Recent Posts</h3>
+    </div>
 
+    
+  </article>
 
-
-
-<div class="entries-list">
+  
   
     
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -325,12 +453,13 @@
   </article>
 </div>
 
-  
     
+      
+      
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -366,12 +495,13 @@
   </article>
 </div>
 
-  
     
+      
+      
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -407,12 +537,13 @@
   </article>
 </div>
 
-  
     
+      
+      
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -448,103 +579,12 @@
   </article>
 </div>
 
-  
     
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/tips/Tips-for-LaTeXing-in-Sublime/" rel="permalink">Tips for LaTeXing in Sublime
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">(This post is migrated from my old Blogspot. Bear with my broken English at the time.)
-
-</p>
-  </article>
-</div>
-
-  
-</div>
-
-
-  
-    
-<nav class="pagination">
-  
-  
-  <ul>
-    
-    
-    <li><a href="#" class="disabled"><span aria-hidden="true">Previous</span></a></li>
-    
-
-    
-    
-      <li><a href="#" class="disabled current">1</a></li>
-    
-
-    
-    
-
-    
-    
-    
-
-    
-      
-        
-        
-        
-        <li><a href="/page2/">2</a></li>
-      
-    
-
-    
-    
-
-    
-      <li><a href="/page3/">3</a></li>
-    
-
-    
-    
-      <li><a href="/page2/">Next</a></li>
-    
-  </ul>
-</nav>
-
-
-  
-
-
-
   </div>
+</div>
+
+  
+  
 </div>
 
       

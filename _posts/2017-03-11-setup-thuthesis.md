@@ -2,13 +2,14 @@
 title: "Setup ThuThesis (on Win8.1)"
 categories:
   - Blog
+  - Tutorial
 tags:
-  - latex
+  - LaTeX
   - Thesis
   - Tsinghua
 ---
 
-(This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/03/setup-thuthesis.html). Excuse my broken English at the time.)
+(This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/03/setup-thuthesis.html). Bear with my broken English at the time.)
 
 ThuThesis is a LaTeX template for undergrad/grad/postdoc thesis work at Tsinghua University.
 
