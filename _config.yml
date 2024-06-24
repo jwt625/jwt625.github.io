@@ -59,7 +59,8 @@ plugins:
 
 author:
   name   : "Wentao"
-  avatar : "/assets/images/bio-photo-2.png"
+  avatar : "/assets/images/bio-photo-2.jpg"
+  avatar_url: "/assets/images/bio-photo-2.jpg"
   bio    : "Memories are the long term averages, and the outside five sigmas."
   links:
     - label: "Google Scholar"
