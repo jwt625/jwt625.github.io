@@ -5,7 +5,7 @@ categories:
   - Tips
 tags:
   - LaTeX
-  - sublime
+  - Sublime
 ---
 
 (This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/05/tips-for-latexing-in-sublime.html). Bear with my broken English at the time.)
