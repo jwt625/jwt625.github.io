@@ -78,7 +78,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Welcome!",
-        "excerpt":"Many aspects of this blog is still under construction. If you are interested, come back later (maybe a week or two). I kept the example posts since I’m still learning this template. They are all in 2010 and you could ignore those. TODO: finish the About page [] start collecting...","categories": ["Blog"],
+        "excerpt":"Many aspects of this blog is still under construction. If you are interested, come back later (maybe a week or two). You can checkout the About page for now. I kept the example posts since I’m still learning this template. They are all in 2010 and you could ignore those....","categories": ["Blog"],
         "tags": [],
         "url": "/blog/welcome/",
         "teaser": null
