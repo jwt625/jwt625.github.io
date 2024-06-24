@@ -1,12 +1,14 @@
 ---
 title: "Jupyter Notebook Tips"
+toc: true
 categories:
   - Tips
 tags:
   - JupyterNotebook
 ---
 
-[toc]
+
+(This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/09/jupyter-notebook-tips.html). Bear with my broken English at the time.)
 
 
 ## Shortcuts

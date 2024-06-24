@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-23T16:52:41-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-04-18T12:34:30-07:00</published><updated>2019-04-18T12:34:30-07:00</updated><id>http://localhost:4000/blog/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/welcome-to-jekyll/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
-
-<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span>
-</code></pre></div></div>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>Wentao</name></author><category term="blog" /><category term="Jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Qutip tips</title><link href="http://localhost:4000/tips/qutip-tips/" rel="alternate" type="text/html" title="Qutip tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/qutip-tips</id><content type="html" xml:base="http://localhost:4000/tips/qutip-tips/"><![CDATA[<p>[toc]</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-23T22:51:14-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">Qutip tips</title><link href="http://localhost:4000/tips/qutip-tips/" rel="alternate" type="text/html" title="Qutip tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/qutip-tips</id><content type="html" xml:base="http://localhost:4000/tips/qutip-tips/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/09/qutip-tips.html">Blogspot</a>. Bear with my broken English at the time.)</p>
 
 <h2 id="installation">Installation</h2>
 
@@ -35,7 +22,7 @@
 
 <blockquote>
   <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
-</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="Qutip" /><summary type="html"><![CDATA[[toc]]]></summary></entry><entry><title type="html">Jupyter Notebook Tips</title><link href="http://localhost:4000/tips/jupyter-tips/" rel="alternate" type="text/html" title="Jupyter Notebook Tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/jupyter-tips</id><content type="html" xml:base="http://localhost:4000/tips/jupyter-tips/"><![CDATA[<p>[toc]</p>
+</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="Qutip" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Jupyter Notebook Tips</title><link href="http://localhost:4000/tips/jupyter-tips/" rel="alternate" type="text/html" title="Jupyter Notebook Tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/jupyter-tips</id><content type="html" xml:base="http://localhost:4000/tips/jupyter-tips/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/09/jupyter-notebook-tips.html">Blogspot</a>. Bear with my broken English at the time.)</p>
 
 <h2 id="shortcuts">Shortcuts</h2>
 
@@ -183,9 +170,7 @@
 
 <blockquote>
   <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
-</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="JupyterNotebook" /><summary type="html"><![CDATA[[toc]]]></summary></entry><entry><title type="html">Use Bold SimHei in CTeX (and in THUThesis)</title><link href="http://localhost:4000/tips/using-bold-simHei-Thuthesis/" rel="alternate" type="text/html" title="Use Bold SimHei in CTeX (and in THUThesis)" /><published>2017-06-11T00:00:00-07:00</published><updated>2017-06-11T00:00:00-07:00</updated><id>http://localhost:4000/tips/using-bold-simHei-Thuthesis</id><content type="html" xml:base="http://localhost:4000/tips/using-bold-simHei-Thuthesis/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/06/use-bold-simhei-in-ctex-and-in-thuthesis.html">Blogspot</a>. Bear with my broken English at the time.)</p>
-
-<p>[toc]</p>
+</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="JupyterNotebook" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Use Bold SimHei in CTeX (and in THUThesis)</title><link href="http://localhost:4000/tips/using-bold-simHei-Thuthesis/" rel="alternate" type="text/html" title="Use Bold SimHei in CTeX (and in THUThesis)" /><published>2017-06-11T00:00:00-07:00</published><updated>2017-06-11T00:00:00-07:00</updated><id>http://localhost:4000/tips/using-bold-simHei-Thuthesis</id><content type="html" xml:base="http://localhost:4000/tips/using-bold-simHei-Thuthesis/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/06/use-bold-simhei-in-ctex-and-in-thuthesis.html">Blogspot</a>. Bear with my broken English at the time.)</p>
 
 <h2 id="problem">Problem</h2>
 
@@ -326,66 +311,4 @@ More to be added.</p>
   <li>Error messages are very important!</li>
   <li>Check the MiKTeX update twice or more</li>
   <li>Packages displayed in the package manager are not only the installed ones but are all available packages.</li>
-</ul>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Tutorial" /><category term="LaTeX" /><category term="Thesis" /><category term="Tsinghua" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Post: Link</title><link href="http://localhost:4000/blog/post-link/" rel="alternate" type="text/html" title="Post: Link" /><published>2010-03-07T00:00:00-08:00</published><updated>2010-03-07T00:00:00-08:00</updated><id>http://localhost:4000/blog/post-link</id><content type="html" xml:base="http://localhost:4000/blog/post-link/"><![CDATA[<p>This theme supports <strong>link posts</strong>, made famous by John Gruber. To use, just add <code class="language-plaintext highlighter-rouge">link: http://url-you-want-linked</code> to the post’s YAML front matter and you’re done.</p>
-
-<blockquote>
-  <p>And this is how a quote looks.</p>
-</blockquote>
-
-<p>Some <a href="#">link</a> can also be shown.</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="link" /><category term="Post Formats" /><summary type="html"><![CDATA[This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.]]></summary></entry><entry><title type="html">Post: Quote</title><link href="http://localhost:4000/blog/post-quote/" rel="alternate" type="text/html" title="Post: Quote" /><published>2010-02-05T00:00:00-08:00</published><updated>2010-02-05T00:00:00-08:00</updated><id>http://localhost:4000/blog/post-quote</id><content type="html" xml:base="http://localhost:4000/blog/post-quote/"><![CDATA[<blockquote>
-  <p>Only one thing is impossible for God: To find any sense in any copyright law on the planet.</p>
-</blockquote>
-
-<blockquote>
-  <p><cite><a href="http://www.brainyquote.com/quotes/quotes/m/marktwain163473.html">Mark Twain</a></cite></p>
-</blockquote>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Post Formats" /><category term="quote" /><summary type="html"><![CDATA[Only one thing is impossible for God: To find any sense in any copyright law on the planet. Mark Twain]]></summary></entry><entry><title type="html">Post: Notice</title><link href="http://localhost:4000/blog/post-notice/" rel="alternate" type="text/html" title="Post: Notice" /><published>2010-02-05T00:00:00-08:00</published><updated>2010-02-05T00:00:00-08:00</updated><id>http://localhost:4000/blog/post-notice</id><content type="html" xml:base="http://localhost:4000/blog/post-notice/"><![CDATA[<p>A notice displays information that explains nearby content. Often used to call attention to a particular detail.</p>
-
-<p>When using Kramdown <code class="language-plaintext highlighter-rouge">{: .notice}</code> can be added after a sentence to assign the <code class="language-plaintext highlighter-rouge">.notice</code> to the <code class="language-plaintext highlighter-rouge">&lt;p&gt;&lt;/p&gt;</code> element.</p>
-
-<p class="notice"><strong>Changes in Service:</strong> We just updated our <a href="#">privacy policy</a> here to better service our customers. We recommend reviewing the changes.</p>
-
-<p class="notice--primary"><strong>Primary Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. <a href="#">Praesent libero</a>. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-<p class="notice--info"><strong>Info Notice:</strong> Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-<p class="notice--warning"><strong>Warning Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Integer nec odio</a>. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-<p class="notice--danger"><strong>Danger Notice:</strong> Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-<p class="notice--success"><strong>Success Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at <a href="#">nibh elementum</a> imperdiet.</p>
-
-<p>Want to wrap several paragraphs or other elements in a notice? Using Liquid to capture the content and then filter it with <code class="language-plaintext highlighter-rouge">markdownify</code> is a good way to go.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% capture notice-2 %}
-#### New Site Features
-
-* You can now have cover images on blog pages
-* Drafts will now auto-save while writing
-{% endcapture %}
-
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice"</span><span class="nt">&gt;</span>{{ notice-2 | markdownify }}<span class="nt">&lt;/div&gt;</span>
-</code></pre></div></div>
-
-<div class="notice">
-  
-<h4 id="new-site-features">New Site Features</h4>
-
-<ul>
-  <li>You can now have cover images on blog pages</li>
-  <li>Drafts will now auto-save while writing</li>
-</ul>
-
-</div>
-
-<p>Or you could skip the capture and stick with straight HTML.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;h4&gt;</span>Message<span class="nt">&lt;/h4&gt;</span>
-  <span class="nt">&lt;p&gt;</span>A basic message.<span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-</code></pre></div></div>
-
-<div class="notice">
-  <h4>Message</h4>
-  <p>A basic message.</p>
-</div>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Post Formats" /><category term="notice" /><summary type="html"><![CDATA[A notice displays information that explains nearby content. Often used to call attention to a particular detail.]]></summary></entry></feed>
+</ul>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Tutorial" /><category term="LaTeX" /><category term="Thesis" /><category term="Tsinghua" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry></feed>

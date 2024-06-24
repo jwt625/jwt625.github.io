@@ -1,5 +1,6 @@
 ---
 title: "Setup ThuThesis (on Win8.1)"
+toc: true
 categories:
   - Blog
   - Tutorial
