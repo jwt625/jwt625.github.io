@@ -55,7 +55,7 @@ var store = [{
       },{
         "title": "Tips for LaTeXing in Sublime",
         "excerpt":"(This post is migrated from my old Blogspot. Bear with my broken English at the time.) Environment I’m using Sublime (both 2 and 3) on Windows, with LaTeXTools plugin for using LaTeX. Shortcuts for LaTeXTools Comma means its a ‘combo’ shortcut, you push the first set of buttons and then...","categories": ["Tips"],
-        "tags": ["LaTeX","sublime"],
+        "tags": ["LaTeX","Sublime"],
         "url": "/tips/Tips-for-LaTeXing-in-Sublime/",
         "teaser": null
       },{
@@ -75,6 +75,12 @@ var store = [{
         "excerpt":"(This post is migrated from my old Blogspot. Bear with my broken English at the time.) Installation See qutip manual first. On Linux: If conda install qutip reports package not found, use conda install -c conda-forge qutip or conda install -c conda-forge/label/broken qutip (from https://anaconda.org/conda-forge/qutip) When run testing (see qutip...","categories": ["Tips"],
         "tags": ["Qutip"],
         "url": "/tips/qutip-tips/",
+        "teaser": null
+      },{
+        "title": "I build a shed with a friend in his backyard",
+        "excerpt":"This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up next.   ","categories": ["Blog"],
+        "tags": ["Woodwork","Construction"],
+        "url": "/blog/shed/",
         "teaser": null
       },{
         "title": "Welcome!",

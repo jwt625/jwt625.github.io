@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-23T23:28:10-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">Welcome!</title><link href="http://localhost:4000/blog/welcome/" rel="alternate" type="text/html" title="Welcome!" /><published>2024-06-23T00:00:00-07:00</published><updated>2024-06-23T00:00:00-07:00</updated><id>http://localhost:4000/blog/welcome</id><content type="html" xml:base="http://localhost:4000/blog/welcome/"><![CDATA[<p>Many aspects of this blog is still under construction. If you are interested, come back later (maybe a week or two). You can checkout the <a href="/about/">About</a> page for now.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-23T23:39:44-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">Welcome!</title><link href="http://localhost:4000/blog/welcome/" rel="alternate" type="text/html" title="Welcome!" /><published>2024-06-23T00:00:00-07:00</published><updated>2024-06-23T00:00:00-07:00</updated><id>http://localhost:4000/blog/welcome</id><content type="html" xml:base="http://localhost:4000/blog/welcome/"><![CDATA[<p>Many aspects of this blog is still under construction. If you are interested, come back later (maybe a week or two). You can checkout the <a href="/about/">About</a> page for now.</p>
 
 <p>I kept the example posts since I’m still learning <a href="https://github.com/mmistakes/minimal-mistakes">this template</a>. They are all in 2010 and you could ignore those.</p>
 
@@ -6,7 +6,7 @@
 <ul class="task-list">
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />finish the About page</li>
   <li class="task-list-item">[] start collecting the outside five sigma stuff I find into a weekly post</li>
-</ul>]]></content><author><name>Wentao</name></author><category term="Blog" /><summary type="html"><![CDATA[Many aspects of this blog is still under construction. If you are interested, come back later (maybe a week or two). You can checkout the About page for now.]]></summary></entry><entry><title type="html">Jupyter Notebook Tips</title><link href="http://localhost:4000/tips/jupyter-tips/" rel="alternate" type="text/html" title="Jupyter Notebook Tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/jupyter-tips</id><content type="html" xml:base="http://localhost:4000/tips/jupyter-tips/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/09/jupyter-notebook-tips.html">Blogspot</a>. Bear with my broken English at the time.)</p>
+</ul>]]></content><author><name>Wentao</name></author><category term="Blog" /><summary type="html"><![CDATA[Many aspects of this blog is still under construction. If you are interested, come back later (maybe a week or two). You can checkout the About page for now.]]></summary></entry><entry><title type="html">I build a shed with a friend in his backyard</title><link href="http://localhost:4000/blog/shed/" rel="alternate" type="text/html" title="I build a shed with a friend in his backyard" /><published>2024-01-01T00:00:00-08:00</published><updated>2024-01-01T00:00:00-08:00</updated><id>http://localhost:4000/blog/shed</id><content type="html" xml:base="http://localhost:4000/blog/shed/"><![CDATA[<p>This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up next.</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Woodwork" /><category term="Construction" /><summary type="html"><![CDATA[This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up next.]]></summary></entry><entry><title type="html">Jupyter Notebook Tips</title><link href="http://localhost:4000/tips/jupyter-tips/" rel="alternate" type="text/html" title="Jupyter Notebook Tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/jupyter-tips</id><content type="html" xml:base="http://localhost:4000/tips/jupyter-tips/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/09/jupyter-notebook-tips.html">Blogspot</a>. Bear with my broken English at the time.)</p>
 
 <h2 id="shortcuts">Shortcuts</h2>
 
@@ -262,7 +262,7 @@ More to be added.</p>
 <h1 id="auto-completion-for-labels-and-refs-across-multiple-files">Auto-completion for labels and refs across multiple files</h1>
 <p>Looks like it’s supported. Simply add %!TEX root = relativePathToYour/main.tex on the first line of your separated .tex file.</p>
 
-<p>See <a href="https://tex.stackexchange.com/questions/345519/sublime-text-reference-completion-across-multiple-files-using-latextools-and-im">Sublime Text: Reference completion across multiple files using LaTeXTools and import</a> for reference.</p>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="LaTeX" /><category term="sublime" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Calling LabVIEW dll in MATLAB and exploring dll based on .NET</title><link href="http://localhost:4000/tips/blog/tutorial/Calling-LabVIEW-dll/" rel="alternate" type="text/html" title="Calling LabVIEW dll in MATLAB and exploring dll based on .NET" /><published>2017-05-15T00:00:00-07:00</published><updated>2017-05-15T00:00:00-07:00</updated><id>http://localhost:4000/tips/blog/tutorial/Calling-LabVIEW-dll</id><content type="html" xml:base="http://localhost:4000/tips/blog/tutorial/Calling-LabVIEW-dll/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/05/calling-labview-dll-in-matlab-and.html">Blogspot</a>. Bear with my broken English at the time.)</p>
+<p>See <a href="https://tex.stackexchange.com/questions/345519/sublime-text-reference-completion-across-multiple-files-using-latextools-and-im">Sublime Text: Reference completion across multiple files using LaTeXTools and import</a> for reference.</p>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="LaTeX" /><category term="Sublime" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Calling LabVIEW dll in MATLAB and exploring dll based on .NET</title><link href="http://localhost:4000/tips/blog/tutorial/Calling-LabVIEW-dll/" rel="alternate" type="text/html" title="Calling LabVIEW dll in MATLAB and exploring dll based on .NET" /><published>2017-05-15T00:00:00-07:00</published><updated>2017-05-15T00:00:00-07:00</updated><id>http://localhost:4000/tips/blog/tutorial/Calling-LabVIEW-dll</id><content type="html" xml:base="http://localhost:4000/tips/blog/tutorial/Calling-LabVIEW-dll/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/05/calling-labview-dll-in-matlab-and.html">Blogspot</a>. Bear with my broken English at the time.)</p>
 
 <h1 id="introduction">Introduction</h1>
 <p>I was trying to control a remote instrument (Quantum Design DynaCool). The instrument is connected to a remote computer. Only LabVIEW controlling programs are provided. But I love MATLAB (and hate LabView) and most other instruments are controlled via MATLAB visa. The LabVIEW programs provided are based on a dll file called QDInstrument.dll.</p>
@@ -338,54 +338,4 @@ More to be added.</p>
   <p>And this is how a quote looks.</p>
 </blockquote>
 
-<p>Some <a href="#">link</a> can also be shown.</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="link" /><category term="Post Formats" /><summary type="html"><![CDATA[This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.]]></summary></entry><entry><title type="html">Post: Notice</title><link href="http://localhost:4000/blog/post-notice/" rel="alternate" type="text/html" title="Post: Notice" /><published>2010-02-05T00:00:00-08:00</published><updated>2010-02-05T00:00:00-08:00</updated><id>http://localhost:4000/blog/post-notice</id><content type="html" xml:base="http://localhost:4000/blog/post-notice/"><![CDATA[<p>A notice displays information that explains nearby content. Often used to call attention to a particular detail.</p>
-
-<p>When using Kramdown <code class="language-plaintext highlighter-rouge">{: .notice}</code> can be added after a sentence to assign the <code class="language-plaintext highlighter-rouge">.notice</code> to the <code class="language-plaintext highlighter-rouge">&lt;p&gt;&lt;/p&gt;</code> element.</p>
-
-<p class="notice"><strong>Changes in Service:</strong> We just updated our <a href="#">privacy policy</a> here to better service our customers. We recommend reviewing the changes.</p>
-
-<p class="notice--primary"><strong>Primary Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. <a href="#">Praesent libero</a>. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-<p class="notice--info"><strong>Info Notice:</strong> Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing elit</a>. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-<p class="notice--warning"><strong>Warning Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Integer nec odio</a>. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-<p class="notice--danger"><strong>Danger Notice:</strong> Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</p>
-
-<p class="notice--success"><strong>Success Notice:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at <a href="#">nibh elementum</a> imperdiet.</p>
-
-<p>Want to wrap several paragraphs or other elements in a notice? Using Liquid to capture the content and then filter it with <code class="language-plaintext highlighter-rouge">markdownify</code> is a good way to go.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% capture notice-2 %}
-#### New Site Features
-
-* You can now have cover images on blog pages
-* Drafts will now auto-save while writing
-{% endcapture %}
-
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice"</span><span class="nt">&gt;</span>{{ notice-2 | markdownify }}<span class="nt">&lt;/div&gt;</span>
-</code></pre></div></div>
-
-<div class="notice">
-  
-<h4 id="new-site-features">New Site Features</h4>
-
-<ul>
-  <li>You can now have cover images on blog pages</li>
-  <li>Drafts will now auto-save while writing</li>
-</ul>
-
-</div>
-
-<p>Or you could skip the capture and stick with straight HTML.</p>
-
-<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"notice"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;h4&gt;</span>Message<span class="nt">&lt;/h4&gt;</span>
-  <span class="nt">&lt;p&gt;</span>A basic message.<span class="nt">&lt;/p&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-</code></pre></div></div>
-
-<div class="notice">
-  <h4>Message</h4>
-  <p>A basic message.</p>
-</div>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Post Formats" /><category term="notice" /><summary type="html"><![CDATA[A notice displays information that explains nearby content. Often used to call attention to a particular detail.]]></summary></entry></feed>
+<p>Some <a href="#">link</a> can also be shown.</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="link" /><category term="Post Formats" /><summary type="html"><![CDATA[This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.]]></summary></entry></feed>
