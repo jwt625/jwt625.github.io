@@ -1,5 +1,6 @@
 ---
 title: "Calling LabVIEW dll in MATLAB and exploring dll based on .NET"
+toc: true
 categories:
   - Tips
   - Blog

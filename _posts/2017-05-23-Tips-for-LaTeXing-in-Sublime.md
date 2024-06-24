@@ -1,5 +1,6 @@
 ---
 title: "Tips for LaTeXing in Sublime"
+toc: true
 categories:
   - Tips
 tags:

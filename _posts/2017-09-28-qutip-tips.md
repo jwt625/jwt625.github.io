@@ -4,9 +4,10 @@ categories:
   - Tips
 tags:
   - Qutip
+toc: true
 ---
 
-[toc]
+(This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/09/qutip-tips.html). Bear with my broken English at the time.)
 
 ## Installation
 
