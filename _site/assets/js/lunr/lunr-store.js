@@ -77,7 +77,7 @@ var store = [{
         "url": "/tips/qutip-tips/",
         "teaser": null
       },{
-        "title": "I build a shed with a friend in his backyard",
+        "title": "I built a shed with a friend in his backyard",
         "excerpt":"This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up next.   ","categories": ["Blog"],
         "tags": ["Woodwork","Construction"],
         "url": "/blog/shed/",
