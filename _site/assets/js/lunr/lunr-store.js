@@ -78,7 +78,7 @@ var store = [{
         "teaser": null
       },{
         "title": "I built a shed with a friend in his backyard",
-        "excerpt":"This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up next.   ","categories": ["Blog"],
+        "excerpt":"This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).   ","categories": ["Blog"],
         "tags": ["Woodwork","Construction"],
         "url": "/blog/shed/",
         "teaser": null
