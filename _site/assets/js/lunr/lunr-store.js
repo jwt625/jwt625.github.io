@@ -84,7 +84,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Welcome!",
-        "excerpt":"Many aspects of this blog is still under construction. If you are interested, come back later (maybe a week or two). You can checkout the About page for now. I kept the example posts since I’m still learning this template. They are all in 2010 and you could ignore those....","categories": ["Blog"],
+        "excerpt":"This blog serves two main purpose: for you and for me to have fun, and to reduce the global sum of suffering of mankind by sharing my sufferings and learnings. That said, if you read, learnt and avoided some suffering, go pick something else to suffer from and share your...","categories": ["Blog"],
         "tags": [],
         "url": "/blog/welcome/",
         "teaser": null
