@@ -5,6 +5,7 @@ categories:
 tags:
   - Qutip
 toc: true
+toc_sticky: True
 ---
 
 (This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/09/qutip-tips.html). Bear with my broken English at the time.)

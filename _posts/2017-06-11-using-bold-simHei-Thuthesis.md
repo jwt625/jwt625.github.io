@@ -7,6 +7,7 @@ tags:
   - LaTeX
   - Tsinghua
   - Thesis
+toc_sticky: True
 ---
 
 (This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/06/use-bold-simhei-in-ctex-and-in-thuthesis.html). Bear with my broken English at the time.)

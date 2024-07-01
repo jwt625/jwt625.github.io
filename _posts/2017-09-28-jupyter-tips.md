@@ -5,6 +5,7 @@ categories:
   - Tips
 tags:
   - JupyterNotebook
+toc_sticky: True
 ---
 
 

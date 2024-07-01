@@ -8,6 +8,7 @@ tags:
   - LaTeX
   - Thesis
   - Tsinghua
+toc_sticky: True
 ---
 
 (This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/03/setup-thuthesis.html). Bear with my broken English at the time.)
