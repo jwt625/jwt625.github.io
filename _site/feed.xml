@@ -1,358 +1,292 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-25T16:04:21-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">Welcome!</title><link href="http://localhost:4000/blog/welcome/" rel="alternate" type="text/html" title="Welcome!" /><published>2024-06-23T00:00:00-07:00</published><updated>2024-06-23T00:00:00-07:00</updated><id>http://localhost:4000/blog/welcome</id><content type="html" xml:base="http://localhost:4000/blog/welcome/"><![CDATA[<p>This blog serves two main purpose: for you and for me to have fun, and to reduce the global sum of suffering of mankind by sharing my sufferings and learnings. That said, if you read, learnt and avoided some suffering, go pick something else to suffer from and share your learnings. Many aspects of this blog is still under construction. If you are interested, come back later (maybe a week or two). You can checkout the <a href="/about/">About</a> page for now.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-30T19:14:19-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#1)</title><link href="http://localhost:4000/ofs/weekly-OFS/" rel="alternate" type="text/html" title="This week’s outside five sigma (#1)" /><published>2024-06-30T00:00:00-07:00</published><updated>2024-06-30T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS/"><![CDATA[This is the first weekly outside five sigma. I'll slowly figure out what is the best format. Right now I'm thinking one sentence, with one image, and one source.
 
-<p>I kept the example posts since I’m still learning <a href="https://github.com/mmistakes/minimal-mistakes">this template</a>. They are all in 2010 and you could ignore those.</p>
+The Border Gateway Protocol (BGP) was sketched out in 1989 by engineers on the back of "three ketchup-stained napkins", and is still known as the three-napkin protocol.
+- [The long life of a quick 'fix'](https://www.washingtonpost.com/sf/business/2015/05/31/net-of-insecurity-part-2/)
+![Yakov Rekhter and Kirk Lougheed 01](/assets/images/BGP01.avif)  ![Yakov Rekhter and Kirk Lougheed 02](/assets/images/BGP02.avif)
 
-<h1 id="todo">TODO</h1>
-<ul class="task-list">
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />finish the About page</li>
-  <li class="task-list-item">[] start collecting the outside five sigma stuff I find into a weekly post</li>
-  <li class="task-list-item">[] write up about the shed build</li>
-  <li class="task-list-item">[] write up the Sep 2023 road trip (drove a big loop around west coast, 6000 miles in four weeks)</li>
-  <li class="task-list-item">[] write up the Blender projects during PhD</li>
-</ul>
+SF is losing population, and a lot more Asian babies in San Benito
+- [SF Chronicle](https://www.sfchronicle.com/projects/2024/california-population-changing/)
+![Four counties with distinct changes](/assets/images/sfchronicle-cal-population-20240626.PNG)
 
-<h1 id="projects-in-planning">Projects in planning</h1>
-<ul>
-  <li>combining <a href="https://github.com/facebookresearch/segment-anything">SAM</a> and <a href="https://github.com/UZ-SLAMLab/ORB_SLAM3">SLAM</a> for tracking where all my shits are
-    <ul>
-      <li>build glasses with <a href="https://github.com/BasedHardware/OpenGlass">OpenGlass</a></li>
-      <li>playing with <a href="https://github.com/roboflow/supervision">roboflow/supervision</a></li>
-    </ul>
-  </li>
-  <li>meshtastic with a bunch of sensors</li>
-  <li>Test out low cost open source XYZ nanopositioners from Edwin Hwu (<a href="https://www.sciencedirect.com/science/article/pii/S2468067222000621">link</a>)</li>
-  <li>Alex’s <a href="https://github.com/AlexanderKoch-Koch/low_cost_robot">low cost robot arm</a></li>
-  <li>local LLM + HAM radio? (get your license already you procrastinating piece of REDACTED)</li>
-</ul>]]></content><author><name>Wentao</name></author><category term="Blog" /><summary type="html"><![CDATA[This blog serves two main purpose: for you and for me to have fun, and to reduce the global sum of suffering of mankind by sharing my sufferings and learnings. That said, if you read, learnt and avoided some suffering, go pick something else to suffer from and share your learnings. Many aspects of this blog is still under construction. If you are interested, come back later (maybe a week or two). You can checkout the About page for now.]]></summary></entry><entry><title type="html">I built a shed with a friend in his backyard</title><link href="http://localhost:4000/blog/shed/" rel="alternate" type="text/html" title="I built a shed with a friend in his backyard" /><published>2024-01-01T00:00:00-08:00</published><updated>2024-01-01T00:00:00-08:00</updated><id>http://localhost:4000/blog/shed</id><content type="html" xml:base="http://localhost:4000/blog/shed/"><![CDATA[<p>This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Woodwork" /><category term="Construction" /><summary type="html"><![CDATA[This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).]]></summary></entry><entry><title type="html">Qutip tips</title><link href="http://localhost:4000/tips/qutip-tips/" rel="alternate" type="text/html" title="Qutip tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/qutip-tips</id><content type="html" xml:base="http://localhost:4000/tips/qutip-tips/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/09/qutip-tips.html">Blogspot</a>. Bear with my broken English at the time.)</p>
+A 80x60 pixel Mitsubishi Electric thermal diode infrared sensor (MIR8060B1-01-S) is about $150
+- from [Will Whang](https://x.com/will_whang/status/1806601128748191946)
+![MIR8060B1-01-S](/assets/images/MIR8060B1-01-S.PNG)
 
-<h2 id="installation">Installation</h2>
 
-<p>See <a href="http://qutip.org/docs/latest/index.html">qutip manual</a> first.</p>
+Microsoft [Generative AI for beginners](https://github.com/microsoft/generative-ai-for-beginners)
+- ![msft-gen-ai-beginner](/assets/images/msft-gen-ai-beginner.PNG)
 
-<p>On Linux:</p>
+A 3.5 in floppy disk chopping off a 5.25 in floppy disk, "Compatibles PC Magazine 2" 1987
+- source found by [@_NicoleRuggiero](https://x.com/_NicoleRuggiero/status/1806762418464497754)
+![3p5-5p25-floppy-disk.jfif](/assets/images/3p5-5p25-floppy-disk.jfif)
 
-<ul>
-  <li>If <code class="language-plaintext highlighter-rouge">conda install qutip</code> reports package not found, use <code class="language-plaintext highlighter-rouge">conda install -c conda-forge qutip </code> or <code class="language-plaintext highlighter-rouge">conda install -c conda-forge/label/broken qutip</code> (from https://anaconda.org/conda-forge/qutip)</li>
-  <li>When run testing (see <a href="http://qutip.org/docs/latest/installation.html#verifying-the-installation">qutip manual</a>) and encountered error about gcc or cc1plus, install gcc or g++, or reinstall them using <code class="language-plaintext highlighter-rouge">sudo apt-get install --reinstall gcc</code>.</li>
-</ul>
 
-<h2 id="usage">Usage</h2>
+"Lightweight and super strong, Tullomer offers many advantages over carbon fiber, steel, aluminum, and other polymers in countless applications"
+- https://z-polymers.com/
+- image from [@joeltelling](https://x.com/joeltelling/status/1806609287701316036)
+![tullomer-joetelling.jfif](/assets/images/tullomer-joetelling.jfif)
 
-<h2 id="resources">Resources</h2>
+Super Heavy grid fin is 16 ft tall
+- image rendered by [@Neopork85](https://x.com/Neopork85/status/1374373547515146245)
+![superheavy-grid-fins.webp](/assets/images/superheavy-grid-fins.webp)
 
-<ul>
-  <li><a href="https://github.com/jrjohansson/qutip-lectures">qutip lectures</a></li>
-  <li><a href="http://nbviewer.jupyter.org/github/qutip/qutip-notebooks/tree/master/examples/">qutip examples</a></li>
-</ul>
 
-<blockquote>
-  <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
-</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="Qutip" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Jupyter Notebook Tips</title><link href="http://localhost:4000/tips/jupyter-tips/" rel="alternate" type="text/html" title="Jupyter Notebook Tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/jupyter-tips</id><content type="html" xml:base="http://localhost:4000/tips/jupyter-tips/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/09/jupyter-notebook-tips.html">Blogspot</a>. Bear with my broken English at the time.)</p>
+ST microelectronics has demo of SWIR sensor "using quantum dot conversion film on top of the traditional CMOS sensor to lower the cost". Hope they start selling it soon...
+- info and image from [Will Whang](https://x.com/will_whang/status/1671633663203880960)
+![ST-SWIR.jfif](/assets/images/ST-SWIR.jfif)
 
-<h2 id="shortcuts">Shortcuts</h2>
 
-<p>Source:</p>
+Flies use blood cells to take a deep breath
+- [Nature news and views](https://www.nature.com/articles/d41586-024-01649-6)
+![The-role-of-blood-cells-in-gas-exchange-of-fly-larvae.webp](/assets/images/The-role-of-blood-cells-in-gas-exchange-of-fly-larvae.webp)]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="BGP" /><summary type="html"><![CDATA[This is the first weekly outside five sigma. I’ll slowly figure out what is the best format. Right now I’m thinking one sentence, with one image, and one source.]]></summary></entry><entry><title type="html">Welcome!</title><link href="http://localhost:4000/blog/welcome/" rel="alternate" type="text/html" title="Welcome!" /><published>2024-06-23T00:00:00-07:00</published><updated>2024-06-23T00:00:00-07:00</updated><id>http://localhost:4000/blog/welcome</id><content type="html" xml:base="http://localhost:4000/blog/welcome/"><![CDATA[This blog serves two main purpose: for you and for me to have fun, and to reduce the global sum of suffering of mankind by sharing my sufferings and learnings. That said, if you read, learnt and avoided some suffering, go pick something else to suffer from and share your learnings. Many aspects of this blog is still under construction. If you are interested, come back later (maybe a week or two). You can checkout the [About]({{ "/about/" | relative_url }}) page for now.
 
-<ul>
-  <li>https://ipython.org/ipython-doc/1/interactive/notebook.html#keyboard-shortcuts</li>
-</ul>
+I kept the example posts since I'm still learning [this template](https://github.com/mmistakes/minimal-mistakes). They are all in 2010 and you could ignore those.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">shortcut</th>
-      <th style="text-align: left">action</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Shift-Enter</td>
-      <td style="text-align: left">run cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-Enter</td>
-      <td style="text-align: left">run cell in-place</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Shift-Enter</td>
-      <td style="text-align: left">run cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-Enter</td>
-      <td style="text-align: left">run cell in-place</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Alt-Enter</td>
-      <td style="text-align: left">run cell, insert below</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m x</td>
-      <td style="text-align: left">cut cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m c</td>
-      <td style="text-align: left">copy cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m v</td>
-      <td style="text-align: left">paste cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m d</td>
-      <td style="text-align: left">delete cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m z</td>
-      <td style="text-align: left">undo last cell deletion</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m -</td>
-      <td style="text-align: left">split cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m a</td>
-      <td style="text-align: left">insert cell above</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m b</td>
-      <td style="text-align: left">insert cell below</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m o</td>
-      <td style="text-align: left">toggle output</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m O</td>
-      <td style="text-align: left">toggle output scroll</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m l</td>
-      <td style="text-align: left">toggle line numbers</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m s</td>
-      <td style="text-align: left">save notebook</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m j</td>
-      <td style="text-align: left">move cell down</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m k</td>
-      <td style="text-align: left">move cell up</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m y</td>
-      <td style="text-align: left">code cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m m</td>
-      <td style="text-align: left">markdown cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m t</td>
-      <td style="text-align: left">raw cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m 1-6</td>
-      <td style="text-align: left">heading 1-6 cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m p</td>
-      <td style="text-align: left">select previous</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m n</td>
-      <td style="text-align: left">select next</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m i</td>
-      <td style="text-align: left">interrupt kernel</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m .</td>
-      <td style="text-align: left">restart kernel</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m h</td>
-      <td style="text-align: left">show keyboard shortcuts</td>
-    </tr>
-  </tbody>
-</table>
+# TODO
+- [x] finish the About page
+- [] start collecting the outside five sigma stuff I find into a weekly post
+- [] write up about the shed build
+- [] write up the Sep 2023 road trip (drove a big loop around west coast, 6000 miles in four weeks)
+- [] write up the Blender projects during PhD
 
-<h3 id="view-documentations-and-arguments-of-function">View documentations and arguments of function:</h3>
+# Projects in planning
+- combining [SAM](https://github.com/facebookresearch/segment-anything) and [SLAM](https://github.com/UZ-SLAMLab/ORB_SLAM3) for tracking where all my shits are
+  - build glasses with [OpenGlass](https://github.com/BasedHardware/OpenGlass)
+  - playing with [roboflow/supervision](https://github.com/roboflow/supervision)
+- meshtastic with a bunch of sensors
+- Test out low cost open source XYZ nanopositioners from Edwin Hwu ([link](https://www.sciencedirect.com/science/article/pii/S2468067222000621))
+- Test out [openUC2](https://x.com/OpenUc2)
+- Alex's [low cost robot arm](https://github.com/AlexanderKoch-Koch/low_cost_robot)
+- local LLM + HAM radio? (get your license already you procrastinating piece of REDACTED)
+  - [x] obtain technician license (20240629)]]></content><author><name>Wentao</name></author><category term="Blog" /><summary type="html"><![CDATA[This blog serves two main purpose: for you and for me to have fun, and to reduce the global sum of suffering of mankind by sharing my sufferings and learnings. That said, if you read, learnt and avoided some suffering, go pick something else to suffer from and share your learnings. Many aspects of this blog is still under construction. If you are interested, come back later (maybe a week or two). You can checkout the About page for now.]]></summary></entry><entry><title type="html">I built a shed with a friend in his backyard</title><link href="http://localhost:4000/blog/shed/" rel="alternate" type="text/html" title="I built a shed with a friend in his backyard" /><published>2024-01-01T00:00:00-08:00</published><updated>2024-01-01T00:00:00-08:00</updated><id>http://localhost:4000/blog/shed</id><content type="html" xml:base="http://localhost:4000/blog/shed/"><![CDATA[This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Woodwork" /><category term="Construction" /><summary type="html"><![CDATA[This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).]]></summary></entry><entry><title type="html">Jupyter Notebook Tips</title><link href="http://localhost:4000/tips/jupyter-tips/" rel="alternate" type="text/html" title="Jupyter Notebook Tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/jupyter-tips</id><content type="html" xml:base="http://localhost:4000/tips/jupyter-tips/"><![CDATA[(This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/09/jupyter-notebook-tips.html). Bear with my broken English at the time.)
 
-<ul>
-  <li>Shift + Tab</li>
-</ul>
 
-<h2 id="pdf-output-requirements">PDF output requirements</h2>
+## Shortcuts
 
-<ul>
-  <li><a href="http://pandoc.org/">pandoc</a></li>
-  <li>xelatex. E.g.: <code class="language-plaintext highlighter-rouge">sudo apt-get install texlive-xetex</code></li>
-</ul>
+Source: 
 
-<blockquote>
-  <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
-</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="JupyterNotebook" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Use Bold SimHei in CTeX (and in THUThesis)</title><link href="http://localhost:4000/tips/using-bold-simHei-Thuthesis/" rel="alternate" type="text/html" title="Use Bold SimHei in CTeX (and in THUThesis)" /><published>2017-06-11T00:00:00-07:00</published><updated>2017-06-11T00:00:00-07:00</updated><id>http://localhost:4000/tips/using-bold-simHei-Thuthesis</id><content type="html" xml:base="http://localhost:4000/tips/using-bold-simHei-Thuthesis/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/06/use-bold-simhei-in-ctex-and-in-thuthesis.html">Blogspot</a>. Bear with my broken English at the time.)</p>
+- https://ipython.org/ipython-doc/1/interactive/notebook.html#keyboard-shortcuts
 
-<h2 id="problem">Problem</h2>
+|shortcut|action|
+|:---|:---|
+|Shift-Enter|	run cell|
+|Ctrl-Enter	|run cell in-place|
+|Shift-Enter|	run cell|
+|Ctrl-Enter|	run cell in-place
+|Alt-Enter	|run cell, insert below
+|Ctrl-m x|	cut cell
+|Ctrl-m c|	copy cell
+|Ctrl-m v|	paste cell
+|Ctrl-m d|	delete cell
+|Ctrl-m z|	undo last cell deletion
+|Ctrl-m -|	split cell
+|Ctrl-m a|	insert cell above
+|Ctrl-m b|	insert cell below
+|Ctrl-m o|	toggle output
+|Ctrl-m O|	toggle output scroll
+|Ctrl-m l|	toggle line numbers
+|Ctrl-m s|	save notebook
+|Ctrl-m j|	move cell down
+|Ctrl-m k|	move cell up
+|Ctrl-m y|	code cell
+|Ctrl-m m|	markdown cell
+|Ctrl-m t|	raw cell
+|Ctrl-m 1-6|	heading 1-6 cell
+|Ctrl-m p|	select previous
+|Ctrl-m n|	select next
+|Ctrl-m i|	interrupt kernel
+|Ctrl-m .|	restart kernel
+|Ctrl-m h|	show keyboard shortcuts
 
-<p>Tsinghua requires the subtitle of undergrad thesis to be in Bold SimHei, but in the current version of <a href="https://github.com/xueruini/thuthesis">THUThesis</a> template it’s SimHei, not Bold SimHei (might be fixed when you read this).</p>
 
-<p>The easiest way to do this is to make the cover in Word, convert it to pdf and replace the old cover. I don’t want to do it in this way because I can’t learn anything through it.</p>
+### View documentations and arguments of function:
 
-<p>Firstly I have to find out where THUThesis defines and describes the cover, etc.</p>
+- Shift + Tab
 
-<h2 id="modify-thuthesis">Modify THUThesis</h2>
+## PDF output requirements
 
-<p><code class="language-plaintext highlighter-rouge">thuthesis.cfg</code> defines commands that stand for some common content, such as the content on the cover page and on the authorization page. You can find <code class="language-plaintext highlighter-rouge">\thu@bachelor@subtitle</code> in it.</p>
+- [pandoc](http://pandoc.org/)
+- xelatex. E.g.: `sudo apt-get install texlive-xetex`
 
-<p><code class="language-plaintext highlighter-rouge">thuthesis.cls</code> describes the detailed layout and style information of those common content. You can find <code class="language-plaintext highlighter-rouge">\thu@bachelor@subtitle</code> in it with some format commands around, as in the following figure. You can see that the subtitle is set to be xiaochu and in heiti (command <code class="language-plaintext highlighter-rouge">\heiti</code> is defined by CTeX) with 0.5 ziju.</p>
+> Written with [StackEdit](https://stackedit.io/).]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="JupyterNotebook" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Qutip tips</title><link href="http://localhost:4000/tips/qutip-tips/" rel="alternate" type="text/html" title="Qutip tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/qutip-tips</id><content type="html" xml:base="http://localhost:4000/tips/qutip-tips/"><![CDATA[(This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/09/qutip-tips.html). Bear with my broken English at the time.)
 
-<p><img src="https://lh3.googleusercontent.com/B6Cx3KSGrRcQxm49kFN2eYu8PEYohxJ_80n4WZLaQKiFtf8rlCVLWruxj4DcAOTm2L8z9dw=s700" alt="modificationInThuthesis.cls" title="modification.png" /></p>
+## Installation
 
-<p>I modified the original command (in red) to some new command (in green). I firstly tried directly adding <code class="language-plaintext highlighter-rouge">\textbf</code> so that I expect Bold SimHei would be used. However, I saw the following warning message:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[no file]:54: LaTeX Font Warning: Font shape `TU/SimHei(0)/b/n' undefined(Font)              using `TU/SimHei(0)/m/n' instead on input line 54.
-</code></pre></div></div>
+See [qutip manual](http://qutip.org/docs/latest/index.html) first.
 
-<p>The problem is that SimHei we usually have on Windows is Zhongyi SimHei(中易黑体) and does not come with bold or italic version, while in contrast Microsoft YaHei has a bold version. The installed fonts can be found in control panel as in the following figure. But in Microsoft Word we can indeed ‘bold’ words in SimHei, in this case that’s an ‘electronic’ bold generated by Word, I think, not a bold version of the font itself.</p>
+On Linux:
 
-<p><img src="https://lh3.googleusercontent.com/DkuXjaxJ_4nC86DauMSYt4tpw8ALOzuGLIW7r-L8rVry7mJxI7JZ9kSwqnRfMQI8-cl_Amo=s700" alt="FontsInControlPanel" title="fontsInControlPanel.png" /></p>
+- If `conda install qutip` reports package not found, use `conda install -c conda-forge qutip ` or `conda install -c conda-forge/label/broken qutip` (from https://anaconda.org/conda-forge/qutip)
+- When run testing (see [qutip manual](http://qutip.org/docs/latest/installation.html#verifying-the-installation)) and encountered error about gcc or cc1plus, install gcc or g++, or reinstall them using `sudo apt-get install --reinstall gcc`.
 
-<p>Next, I naively thought YaHei might look similar to SimHei so I include the YaHei font in <code class="language-plaintext highlighter-rouge">main.tex</code> by CTeX command <code class="language-plaintext highlighter-rouge">\newCJKfontfamily\msyh{Microsoft YaHei}</code> and use <code class="language-plaintext highlighter-rouge">\msyh\textbf</code> in <code class="language-plaintext highlighter-rouge">thuthesis.cls</code>, as on the line 521. The result didn’t even make me satisfied, not to mention those ‘tough’ administrative staff.</p>
+## Usage
 
-<p>The final solution I found is to create the Bold SimHei font by my self (actually partly bold to save time) and use it. I called it SimHeiBoldTmp and included it in main.tex by <code class="language-plaintext highlighter-rouge">\newCJKfontfamily\htbd{SimHeiBoldTmp}</code>, hence the final changes in <code class="language-plaintext highlighter-rouge">thuthesis.cls</code> is as in figure 1 (note the <code class="language-plaintext highlighter-rouge">\textbf</code> command is not required since the font itself is bold. It’s still an ugly solution since I haven’t figure out the correct way to add a bold version subset to an existing font).</p>
 
-<h2 id="edit-font-and-use-new-font">Edit font and use new font</h2>
+## Resources
 
-<p>As Word can generate the bold version of an existing font, we can also do it. I use <a href="http://fontforge.github.io/en-US/">fontforge</a> for this purpose. It has detailed documents about editing fonts (e.g., <a href="http://designwithfontforge.com/en-US/Bold_and_Other_Weights.html">how to bold</a>). I believe you could figure out how to bold an existing font after playing with it for 5min. If you didn’t, it’s in Element-&gt;Style-&gt;Change Weight. Embolden by 6 em units is approximately proper for SimHei by comparing the effect between Bold SinHei in Word.</p>
+- [qutip lectures](https://github.com/jrjohansson/qutip-lectures)
+- [qutip examples](http://nbviewer.jupyter.org/github/qutip/qutip-notebooks/tree/master/examples/)
 
-<p>It is time consuming to ‘bold’ all the characters, so I just ‘bold’ the characters I need and character ‘ 中’ for confirming the change in preview. I found the unicode of the characters I need in some online converter such as <a href="http://www.pinyin.info/tools/converter/chars2uninumbers.html">this one</a> so that I could locate those characters in fontforge.</p>
+> Written with [StackEdit](https://stackedit.io/).]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="Qutip" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Use Bold SimHei in CTeX (and in THUThesis)</title><link href="http://localhost:4000/tips/using-bold-simHei-Thuthesis/" rel="alternate" type="text/html" title="Use Bold SimHei in CTeX (and in THUThesis)" /><published>2017-06-11T00:00:00-07:00</published><updated>2017-06-11T00:00:00-07:00</updated><id>http://localhost:4000/tips/using-bold-simHei-Thuthesis</id><content type="html" xml:base="http://localhost:4000/tips/using-bold-simHei-Thuthesis/"><![CDATA[(This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/06/use-bold-simhei-in-ctex-and-in-thuthesis.html). Bear with my broken English at the time.)
 
-<p>I saved the new font as SimHeiBoldTmpp.ttf and the preview looks like this (you can see the character ‘中’ is changed):
-<img src="https://lh3.googleusercontent.com/k70ZAu3XssW67omSnbuZosHSmFJE9bQLIJflcxgB3Lz5k7c67K77WhsYQ1WyspzNd0zKl3U=s700" alt="SimHeiBoldPreview" title="SimHeiBoldPreview.png" /></p>
 
-<p>After installing the new font, you should be able to find and use it in Word and also tex, such as the following test .tex file:</p>
-<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\documentclass</span><span class="p">{</span>ctexart<span class="p">}</span>
-<span class="k">\setCJKmainfont</span><span class="na">[BoldFont={* Bold}]</span><span class="p">{</span>Microsoft YaHei<span class="p">}</span>
-<span class="k">\newCJKfontfamily\htbd</span><span class="p">{</span>SimHeiBoldTmp<span class="p">}</span> <span class="c">%include the new SinHeiBoldTmp font as \htbd</span>
-<span class="nt">\begin{document}</span>
-<span class="k">\Huge</span>
+## Problem
+
+Tsinghua requires the subtitle of undergrad thesis to be in Bold SimHei, but in the current version of [THUThesis](https://github.com/xueruini/thuthesis) template it's SimHei, not Bold SimHei (might be fixed when you read this).
+
+The easiest way to do this is to make the cover in Word, convert it to pdf and replace the old cover. I don't want to do it in this way because I can't learn anything through it.
+
+Firstly I have to find out where THUThesis defines and describes the cover, etc.
+
+## Modify THUThesis
+
+`thuthesis.cfg` defines commands that stand for some common content, such as the content on the cover page and on the authorization page. You can find `\thu@bachelor@subtitle` in it.
+
+`thuthesis.cls` describes the detailed layout and style information of those common content. You can find `\thu@bachelor@subtitle` in it with some format commands around, as in the following figure. You can see that the subtitle is set to be xiaochu and in heiti (command `\heiti` is defined by CTeX) with 0.5 ziju.
+
+![modificationInThuthesis.cls](https://lh3.googleusercontent.com/B6Cx3KSGrRcQxm49kFN2eYu8PEYohxJ_80n4WZLaQKiFtf8rlCVLWruxj4DcAOTm2L8z9dw=s700 "modification.png")
+
+I modified the original command (in red) to some new command (in green). I firstly tried directly adding `\textbf` so that I expect Bold SimHei would be used. However, I saw the following warning message:
+```
+[no file]:54: LaTeX Font Warning: Font shape `TU/SimHei(0)/b/n' undefined(Font)              using `TU/SimHei(0)/m/n' instead on input line 54.
+```
+
+The problem is that SimHei we usually have on Windows is Zhongyi SimHei(中易黑体) and does not come with bold or italic version, while in contrast Microsoft YaHei has a bold version. The installed fonts can be found in control panel as in the following figure. But in Microsoft Word we can indeed 'bold' words in SimHei, in this case that's an 'electronic' bold generated by Word, I think, not a bold version of the font itself.
+
+![FontsInControlPanel](https://lh3.googleusercontent.com/DkuXjaxJ_4nC86DauMSYt4tpw8ALOzuGLIW7r-L8rVry7mJxI7JZ9kSwqnRfMQI8-cl_Amo=s700 "fontsInControlPanel.png")
+
+Next, I naively thought YaHei might look similar to SimHei so I include the YaHei font in `main.tex` by CTeX command `\newCJKfontfamily\msyh{Microsoft YaHei}` and use `\msyh\textbf` in `thuthesis.cls`, as on the line 521. The result didn't even make me satisfied, not to mention those 'tough' administrative staff.
+
+The final solution I found is to create the Bold SimHei font by my self (actually partly bold to save time) and use it. I called it SimHeiBoldTmp and included it in main.tex by `\newCJKfontfamily\htbd{SimHeiBoldTmp}`, hence the final changes in `thuthesis.cls` is as in figure 1 (note the `\textbf` command is not required since the font itself is bold. It's still an ugly solution since I haven't figure out the correct way to add a bold version subset to an existing font).
+
+
+
+## Edit font and use new font
+
+As Word can generate the bold version of an existing font, we can also do it. I use [fontforge](http://fontforge.github.io/en-US/) for this purpose. It has detailed documents about editing fonts (e.g., [how to bold](http://designwithfontforge.com/en-US/Bold_and_Other_Weights.html)). I believe you could figure out how to bold an existing font after playing with it for 5min. If you didn't, it's in Element->Style->Change Weight. Embolden by 6 em units is approximately proper for SimHei by comparing the effect between Bold SinHei in Word.
+
+It is time consuming to 'bold' all the characters, so I just 'bold' the characters I need and character ' 中' for confirming the change in preview. I found the unicode of the characters I need in some online converter such as [this one](http://www.pinyin.info/tools/converter/chars2uninumbers.html) so that I could locate those characters in fontforge.
+
+I saved the new font as SimHeiBoldTmpp.ttf and the preview looks like this (you can see the character '中' is changed):
+![SimHeiBoldPreview](https://lh3.googleusercontent.com/k70ZAu3XssW67omSnbuZosHSmFJE9bQLIJflcxgB3Lz5k7c67K77WhsYQ1WyspzNd0zKl3U=s700 "SimHeiBoldPreview.png")
+
+After installing the new font, you should be able to find and use it in Word and also tex, such as the following test .tex file:
+```tex
+\documentclass{ctexart}
+\setCJKmainfont[BoldFont={* Bold}]{Microsoft YaHei}
+\newCJKfontfamily\htbd{SimHeiBoldTmp} %include the new SinHeiBoldTmp font as \htbd
+\begin{document}
+\Huge
 雅黑 综合论文
-<span class="k">\textbf</span><span class="p">{</span>雅黑粗 综合论文<span class="p">}</span>
+\textbf{雅黑粗 综合论文}
 
-<span class="p">{</span><span class="k">\heiti</span> 黑体 综合论文<span class="p">}</span>
+{\heiti 黑体 综合论文}
 
-<span class="p">{</span><span class="k">\htbd</span> 黑体 综合论文<span class="p">}</span>
+{\htbd 黑体 综合论文}
 
-<span class="p">{</span><span class="k">\heiti</span> <span class="k">\textbf</span> 黑体 综合论文<span class="p">}</span>
-<span class="nt">\end{document}</span>
-</code></pre></div></div>
-<p>The result is:
-<img src="https://lh3.googleusercontent.com/j7ffkvYl50homp3ERNe7SbLSv-52sYbhMNe8Nl7PulSEn-2dHm59VaC6JF5hgtp0VsMxdmY=s700" alt="testResult" title="testResult.png" />
-where the last line of the document generates the same ‘font undefined’ error and ordinary SimHei shows up.</p>
+{\heiti \textbf 黑体 综合论文}
+\end{document}
+```
+The result is:
+![testResult](https://lh3.googleusercontent.com/j7ffkvYl50homp3ERNe7SbLSv-52sYbhMNe8Nl7PulSEn-2dHm59VaC6JF5hgtp0VsMxdmY=s700 "testResult.png")
+where the last line of the document generates the same 'font undefined' error and ordinary SimHei shows up.
 
-<p>Finally, I could include the font in <code class="language-plaintext highlighter-rouge">main.tex</code> for my thesis by <code class="language-plaintext highlighter-rouge">\newCJKfontfamily\htbd{SimHeiBoldTmp}</code> and the modified <code class="language-plaintext highlighter-rouge">thuthesis.cls</code> file to use bold SimHei for the subtitle.</p>
+Finally, I could include the font in `main.tex` for my thesis by `\newCJKfontfamily\htbd{SimHeiBoldTmp}` and the modified `thuthesis.cls` file to use bold SimHei for the subtitle.
 
-<p>Below is the comparison between old cover, new cover and the example cover
-<img src="https://lh3.googleusercontent.com/7zcUMZaUzOmpH_TmXkhaPCtvzQ97EUnx0S67g58hb3vtCkEKdMtdFVaurAVki2KbhoFQefo=s700" alt="comparison" title="comparison.png" /></p>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="LaTeX" /><category term="Tsinghua" /><category term="Thesis" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Tips for LaTeXing in Sublime</title><link href="http://localhost:4000/tips/Tips-for-LaTeXing-in-Sublime/" rel="alternate" type="text/html" title="Tips for LaTeXing in Sublime" /><published>2017-05-23T00:00:00-07:00</published><updated>2017-05-23T00:00:00-07:00</updated><id>http://localhost:4000/tips/Tips-for-LaTeXing-in-Sublime</id><content type="html" xml:base="http://localhost:4000/tips/Tips-for-LaTeXing-in-Sublime/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/05/tips-for-latexing-in-sublime.html">Blogspot</a>. Bear with my broken English at the time.)</p>
+Below is the comparison between old cover, new cover and the example cover
+![comparison](https://lh3.googleusercontent.com/7zcUMZaUzOmpH_TmXkhaPCtvzQ97EUnx0S67g58hb3vtCkEKdMtdFVaurAVki2KbhoFQefo=s700 "comparison.png")]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="LaTeX" /><category term="Tsinghua" /><category term="Thesis" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Tips for LaTeXing in Sublime</title><link href="http://localhost:4000/tips/Tips-for-LaTeXing-in-Sublime/" rel="alternate" type="text/html" title="Tips for LaTeXing in Sublime" /><published>2017-05-23T00:00:00-07:00</published><updated>2017-05-23T00:00:00-07:00</updated><id>http://localhost:4000/tips/Tips-for-LaTeXing-in-Sublime</id><content type="html" xml:base="http://localhost:4000/tips/Tips-for-LaTeXing-in-Sublime/"><![CDATA[(This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/05/tips-for-latexing-in-sublime.html). Bear with my broken English at the time.)
 
-<h1 id="environment">Environment</h1>
-<p>I’m using Sublime (both 2 and 3) on Windows, with <a href="https://github.com/SublimeText/LaTeXTools">LaTeXTools</a> plugin for using LaTeX.</p>
+# Environment
+I’m using Sublime (both 2 and 3) on Windows, with [LaTeXTools](https://github.com/SublimeText/LaTeXTools) plugin for using LaTeX.
 
-<h1 id="shortcuts-for-latextools">Shortcuts for LaTeXTools</h1>
-<p>Comma means its a ‘combo’ shortcut, you push the first set of buttons and then the second button.</p>
+# Shortcuts for LaTeXTools
+Comma means its a ‘combo’ shortcut, you push the first set of buttons and then the second button.
 
-<p>delete temp files: <code class="language-plaintext highlighter-rouge">ctrl+l</code>, <code class="language-plaintext highlighter-rouge">Backspace</code>
-forward search in pdf: <code class="language-plaintext highlighter-rouge">ctrl+l, j</code>
-More to be added.</p>
+delete temp files: `ctrl+l`, `Backspace`
+forward search in pdf: `ctrl+l, j`
+More to be added.
 
-<h1 id="inverse-search-from-sumatra-pdf">Inverse search from Sumatra PDF</h1>
-<p>The default option for Sumatra PDF to perform inverse search might be WinEdit. I’d like it to be Sublime.</p>
+# Inverse search from Sumatra PDF
+The default option for Sumatra PDF to perform inverse search might be WinEdit. I’d like it to be Sublime.
 
-<p>So for me in Sumatra PDF, go to <code class="language-plaintext highlighter-rouge">Settings -&gt; Options</code>, set the inverse search command to <code class="language-plaintext highlighter-rouge">"C:\Program Files\Sublime Text 3\sublime_text.exe" "%f:%l"</code></p>
+So for me in Sumatra PDF, go to `Settings -> Options`, set the inverse search command to `"C:\Program Files\Sublime Text 3\sublime_text.exe" "%f:%l"`
 
-<p>If you are using other editors, you can refer to <a href="https://tex.stackexchange.com/questions/125546/the-sumatrapdf-inverse-search-for-any-arbitrary-editor">The SumatraPDF Inverse-Search for any arbitrary Editor</a>.</p>
+If you are using other editors, you can refer to [The SumatraPDF Inverse-Search for any arbitrary Editor](https://tex.stackexchange.com/questions/125546/the-sumatrapdf-inverse-search-for-any-arbitrary-editor).
 
-<h1 id="auto-completion-for-labels-and-refs-across-multiple-files">Auto-completion for labels and refs across multiple files</h1>
-<p>Looks like it’s supported. Simply add %!TEX root = relativePathToYour/main.tex on the first line of your separated .tex file.</p>
+# Auto-completion for labels and refs across multiple files
+Looks like it’s supported. Simply add %!TEX root = relativePathToYour/main.tex on the first line of your separated .tex file.
 
-<p>See <a href="https://tex.stackexchange.com/questions/345519/sublime-text-reference-completion-across-multiple-files-using-latextools-and-im">Sublime Text: Reference completion across multiple files using LaTeXTools and import</a> for reference.</p>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="LaTeX" /><category term="Sublime" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Calling LabVIEW dll in MATLAB and exploring dll based on .NET</title><link href="http://localhost:4000/tips/blog/tutorial/Calling-LabVIEW-dll/" rel="alternate" type="text/html" title="Calling LabVIEW dll in MATLAB and exploring dll based on .NET" /><published>2017-05-15T00:00:00-07:00</published><updated>2017-05-15T00:00:00-07:00</updated><id>http://localhost:4000/tips/blog/tutorial/Calling-LabVIEW-dll</id><content type="html" xml:base="http://localhost:4000/tips/blog/tutorial/Calling-LabVIEW-dll/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/05/calling-labview-dll-in-matlab-and.html">Blogspot</a>. Bear with my broken English at the time.)</p>
+See [Sublime Text: Reference completion across multiple files using LaTeXTools and import](https://tex.stackexchange.com/questions/345519/sublime-text-reference-completion-across-multiple-files-using-latextools-and-im) for reference.]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="LaTeX" /><category term="Sublime" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Calling LabVIEW dll in MATLAB and exploring dll based on .NET</title><link href="http://localhost:4000/tips/blog/tutorial/Calling-LabVIEW-dll/" rel="alternate" type="text/html" title="Calling LabVIEW dll in MATLAB and exploring dll based on .NET" /><published>2017-05-15T00:00:00-07:00</published><updated>2017-05-15T00:00:00-07:00</updated><id>http://localhost:4000/tips/blog/tutorial/Calling-LabVIEW-dll</id><content type="html" xml:base="http://localhost:4000/tips/blog/tutorial/Calling-LabVIEW-dll/"><![CDATA[(This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/05/calling-labview-dll-in-matlab-and.html). Bear with my broken English at the time.)
 
-<h1 id="introduction">Introduction</h1>
-<p>I was trying to control a remote instrument (Quantum Design DynaCool). The instrument is connected to a remote computer. Only LabVIEW controlling programs are provided. But I love MATLAB (and hate LabView) and most other instruments are controlled via MATLAB visa. The LabVIEW programs provided are based on a dll file called QDInstrument.dll.</p>
+# Introduction
+I was trying to control a remote instrument (Quantum Design DynaCool). The instrument is connected to a remote computer. Only LabVIEW controlling programs are provided. But I love MATLAB (and hate LabView) and most other instruments are controlled via MATLAB visa. The LabVIEW programs provided are based on a dll file called QDInstrument.dll.
 
-<p>I first tried packing LabVIEW vi to dll files and then use them in MATLAB. The final solution is directly using the QDInstrument.dll</p>
+I first tried packing LabVIEW vi to dll files and then use them in MATLAB. The final solution is directly using the QDInstrument.dll
 
-<p>This article will describe problems I met and solutions.</p>
+This article will describe problems I met and solutions.
 
-<h1 id="create-dll-from-labview-vi">Create dll from LabVIEW vi</h1>
-<p>LabVIEW provides this functionality. See <a href="http://digital.ni.com/public.nsf/allkb/A3804F88FCDB1E6286257CE00043C1A7">How Do I Create a DLL from a LabVIEW Project?</a></p>
+# Create dll from LabVIEW vi
+LabVIEW provides this functionality. See [How Do I Create a DLL from a LabVIEW Project?](http://digital.ni.com/public.nsf/allkb/A3804F88FCDB1E6286257CE00043C1A7)
 
-<p>vi’s are converted to functions in the dll. That’s it.</p>
+vi’s are converted to functions in the dll. That’s it.
 
-<h1 id="load-dll-and-call-functions-inside-in-matlab">Load dll and call functions inside in MATLAB</h1>
-<p>Use loadlibrary in MATLAB to load dll library. But it’s not that simple! I got different error message on different platform, e.g., <code class="language-plaintext highlighter-rouge">index out of range</code> on MATLAB R2014a, and something like lack of compiler on MATLAB R2016a, and it’s the problem.</p>
+# Load dll and call functions inside in MATLAB
+Use loadlibrary in MATLAB to load dll library. But it’s not that simple! I got different error message on different platform, e.g., `index out of range` on MATLAB R2014a, and something like lack of compiler on MATLAB R2016a, and it’s the problem.
 
-<p>I tried installing <code class="language-plaintext highlighter-rouge">mingw-w64</code>, which is suggested by MATLAB. The problem is still there. I wasted some time on it and the final solution I found is installing Visual Studio, Visual Studio 2012 in my case. It must have a bunch of compilers so that MATLAB is very happy.</p>
+I tried installing `mingw-w64`, which is suggested by MATLAB. The problem is still there. I wasted some time on it and the final solution I found is installing Visual Studio, Visual Studio 2012 in my case. It must have a bunch of compilers so that MATLAB is very happy.
 
-<p>But, after VS2012 installed, the error message changed to <code class="language-plaintext highlighter-rouge">not a valid win32 program</code>, or <code class="language-plaintext highlighter-rouge">not a valid win64</code> perhaps. I should note down those error message next time. I found that now the problem is that my LabVIEW is 32-bit but MATLAB is 64-bit. A 32-bit MATLAB setup.exe should be found in <code class="language-plaintext highlighter-rouge">\bin\win32\setup.exe</code> in the virtual drive for MATLAB version later than…hmm…2014a? So I installed a 32-bit MATLAB R2014a and no error message!</p>
+But, after VS2012 installed, the error message changed to `not a valid win32 program`, or `not a valid win64` perhaps. I should note down those error message next time. I found that now the problem is that my LabVIEW is 32-bit but MATLAB is 64-bit. A 32-bit MATLAB setup.exe should be found in `\bin\win32\setup.exe` in the virtual drive for MATLAB version later than…hmm…2014a? So I installed a 32-bit MATLAB R2014a and no error message!
 
-<p>Now I can control the instrument via dll generated from vi created by me, which I know the interface. I can see functions inside the dll using <code class="language-plaintext highlighter-rouge">libfunctions</code> and call functions via <code class="language-plaintext highlighter-rouge">calllib</code> in MATLAB. It’s working fine. I started packaging them into a pretty MATLAB class. Then I found that they were not working so smooth. A client is created each function call and it’s completely unnecessary.</p>
+Now I can control the instrument via dll generated from vi created by me, which I know the interface. I can see functions inside the dll using `libfunctions` and call functions via `calllib` in MATLAB. It’s working fine. I started packaging them into a pretty MATLAB class. Then I found that they were not working so smooth. A client is created each function call and it’s completely unnecessary.
 
-<p>Since I could see that a client object is created within LabVIEW, and then the creating process is packaged into functions inside LabVIEW dll. I have to understand and use QDInstrument.dll to avoid this.</p>
+Since I could see that a client object is created within LabVIEW, and then the creating process is packaged into functions inside LabVIEW dll. I have to understand and use QDInstrument.dll to avoid this.
 
-<h1 id="net-in-matlab">.NET in MATLAB</h1>
-<p>I don’know csharp but it’s similar to <code class="language-plaintext highlighter-rouge">c/c++</code>. To use the QDInstrument.dll provided by the seller, I have to know the interface, or better read the code.</p>
+# .NET in MATLAB
+I don’know csharp but it’s similar to `c/c++`. To use the QDInstrument.dll provided by the seller, I have to know the interface, or better read the code.
 
-<p>I use a brilliant tool called <a href="http://ilspy.net/">ILSpy</a> and it provides plug-in for Visual Studio or VS Code. Create an empty Visual C# project and include the dll file, then you can right click on it and <code class="language-plaintext highlighter-rouge">open it in ILSpy</code>.</p>
+I use a brilliant tool called [ILSpy](http://ilspy.net/) and it provides plug-in for Visual Studio or VS Code. Create an empty Visual C# project and include the dll file, then you can right click on it and `open it in ILSpy`.
 
-<p>MATLAB also has plenty of documents about coding with .NET library and assembly. You can use <code class="language-plaintext highlighter-rouge">NET.addAssembly</code> to add the dll file. Then TAB should work for classes and functions in the dll. Use TAB to explore the dll file. I found the function I want to use in ILSpy and try to call it in MATLAB. The function take a enumeration as one of the input argument and getting that object in MATLAB took me some time. The enumeration is defined in an abstract class hence I got errors everytime I tried to directly call the enumeration via that abstract class. Finally, other routine can be found to get that object, but it always returns the first item in the enumeration. After trying random stuff, I found that simply use TAB one more time on the enumeration, all items are provided. I really felt fooled after finding that.</p>
+MATLAB also has plenty of documents about coding with .NET library and assembly. You can use `NET.addAssembly` to add the dll file. Then TAB should work for classes and functions in the dll. Use TAB to explore the dll file. I found the function I want to use in ILSpy and try to call it in MATLAB. The function take a enumeration as one of the input argument and getting that object in MATLAB took me some time. The enumeration is defined in an abstract class hence I got errors everytime I tried to directly call the enumeration via that abstract class. Finally, other routine can be found to get that object, but it always returns the first item in the enumeration. After trying random stuff, I found that simply use TAB one more time on the enumeration, all items are provided. I really felt fooled after finding that.
 
-<p>Hence the point is, you might need objects defined within the dll for calling functions from the dll, and you can get those objects by exploring options MATLAB provide via TAB.</p>
+Hence the point is, you might need objects defined within the dll for calling functions from the dll, and you can get those objects by exploring options MATLAB provide via TAB.
 
-<p>Another possible issue might be calling function with ref Keyword. See Call .NET Methods With ref Keyword</p>
+Another possible issue might be calling function with ref Keyword. See Call .NET Methods With ref Keyword
 
-<p>The problem I still have: When I restart MATLAB and add the assembly for the first time, MATLAB seems not knowing the whole content of that dll. I have to load multiple times and try random stuff (like class and enumerations in the dll) to make TAB work in MATLAB, i.e., showing candidate object in that dll for my partial input.</p>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="Blog" /><category term="Tutorial" /><category term="LabView" /><category term="MATLAB" /><category term="DLL" /><category term=".NET" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Setup ThuThesis (on Win8.1)</title><link href="http://localhost:4000/blog/tutorial/setup-thuthesis/" rel="alternate" type="text/html" title="Setup ThuThesis (on Win8.1)" /><published>2017-03-11T00:00:00-08:00</published><updated>2017-03-11T00:00:00-08:00</updated><id>http://localhost:4000/blog/tutorial/setup-thuthesis</id><content type="html" xml:base="http://localhost:4000/blog/tutorial/setup-thuthesis/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/03/setup-thuthesis.html">Blogspot</a>. Bear with my broken English at the time.)</p>
+The problem I still have: When I restart MATLAB and add the assembly for the first time, MATLAB seems not knowing the whole content of that dll. I have to load multiple times and try random stuff (like class and enumerations in the dll) to make TAB work in MATLAB, i.e., showing candidate object in that dll for my partial input.]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="Blog" /><category term="Tutorial" /><category term="LabView" /><category term="MATLAB" /><category term="DLL" /><category term=".NET" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Setup ThuThesis (on Win8.1)</title><link href="http://localhost:4000/blog/tutorial/setup-thuthesis/" rel="alternate" type="text/html" title="Setup ThuThesis (on Win8.1)" /><published>2017-03-11T00:00:00-08:00</published><updated>2017-03-11T00:00:00-08:00</updated><id>http://localhost:4000/blog/tutorial/setup-thuthesis</id><content type="html" xml:base="http://localhost:4000/blog/tutorial/setup-thuthesis/"><![CDATA[(This post is migrated from my old [Blogspot](https://jwt625.blogspot.com/2017/03/setup-thuthesis.html). Bear with my broken English at the time.)
 
-<p>ThuThesis is a LaTeX template for undergrad/grad/postdoc thesis work at Tsinghua University.</p>
+ThuThesis is a LaTeX template for undergrad/grad/postdoc thesis work at Tsinghua University.
 
-<h1 id="installation">Installation</h1>
-<p>See github repo of THUThesis</p>
+# Installation
+See github repo of THUThesis
 
-<h1 id="problems-i-met-and-solutions">Problems I met and solutions</h1>
-<p>I was trying to use ThuThesis on Windows8.1 machine with <code class="language-plaintext highlighter-rouge">CTeX_2.9.2.164</code> installed.</p>
+# Problems I met and solutions
+I was trying to use ThuThesis on Windows8.1 machine with `CTeX_2.9.2.164` installed.
 
-<p>When trying command xelatex main(in Windows command line within the THUThesis folder), I got a bunch of Undefined control sequence error about \ctexset command and about Chinese characters inside the thuthesis.cfg file. So I tried manually including ctex package, but it not only didn’t solve the problem but cause more error about multidefinition of some command. After google and stackexchange, I thought I should update MiKTeX.</p>
+When trying command xelatex main(in Windows command line within the THUThesis folder), I got a bunch of Undefined control sequence error about \ctexset command and about Chinese characters inside the thuthesis.cfg file. So I tried manually including ctex package, but it not only didn’t solve the problem but cause more error about multidefinition of some command. After google and stackexchange, I thought I should update MiKTeX.
 
-<p>When running the update for the first time, I noticed only some default selected packages are to be update, and I couldn’t check the select all box. After the update, xelatex broke down with some error about lack of dll files, in my case icule44.dll and icuuc44.dll (and more because I stopped downloading them). I felt bad downloading dll files one by one so I went to check the update again and now the select all box worked. After waiting until all packages are up to date, xelatex is alive.</p>
+When running the update for the first time, I noticed only some default selected packages are to be update, and I couldn’t check the select all box. After the update, xelatex broke down with some error about lack of dll files, in my case icule44.dll and icuuc44.dll (and more because I stopped downloading them). I felt bad downloading dll files one by one so I went to check the update again and now the select all box worked. After waiting until all packages are up to date, xelatex is alive.
 
-<p>However the xelatex main still fails. I went through the error message and found that it’s due to lack of packages and failure of auto-installation. Installing dvipdfmx and miktex-dvipdfmx-bin-2.9 via the package manager, ThuThesis finally worked.</p>
+However the xelatex main still fails. I went through the error message and found that it’s due to lack of packages and failure of auto-installation. Installing dvipdfmx and miktex-dvipdfmx-bin-2.9 via the package manager, ThuThesis finally worked.
 
-<h1 id="tips">Tips</h1>
-<ul>
-  <li>Error messages are very important!</li>
-  <li>Check the MiKTeX update twice or more</li>
-  <li>Packages displayed in the package manager are not only the installed ones but are all available packages.</li>
-</ul>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Tutorial" /><category term="LaTeX" /><category term="Thesis" /><category term="Tsinghua" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2010-04-18T12:34:30-07:00</published><updated>2010-04-18T12:34:30-07:00</updated><id>http://localhost:4000/blog/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/welcome-to-jekyll/"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+# Tips
+- Error messages are very important!
+- Check the MiKTeX update twice or more
+- Packages displayed in the package manager are not only the installed ones but are all available packages.]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Tutorial" /><category term="LaTeX" /><category term="Thesis" /><category term="Tsinghua" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2010-04-18T12:34:30-07:00</published><updated>2010-04-18T12:34:30-07:00</updated><id>http://localhost:4000/blog/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/welcome-to-jekyll/"><![CDATA[You'll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+Jekyll also offers powerful support for code snippets:
 
-<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span>
-</code></pre></div></div>
+```ruby
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+```
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Post: Link</title><link href="http://localhost:4000/blog/post-link/" rel="alternate" type="text/html" title="Post: Link" /><published>2010-03-07T00:00:00-08:00</published><updated>2010-03-07T00:00:00-08:00</updated><id>http://localhost:4000/blog/post-link</id><content type="html" xml:base="http://localhost:4000/blog/post-link/"><![CDATA[<p>This theme supports <strong>link posts</strong>, made famous by John Gruber. To use, just add <code class="language-plaintext highlighter-rouge">link: http://url-you-want-linked</code> to the post’s YAML front matter and you’re done.</p>
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-<blockquote>
-  <p>And this is how a quote looks.</p>
-</blockquote>
-
-<p>Some <a href="#">link</a> can also be shown.</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="link" /><category term="Post Formats" /><summary type="html"><![CDATA[This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.]]></summary></entry></feed>
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
