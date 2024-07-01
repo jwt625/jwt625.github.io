@@ -81,17 +81,17 @@ var store = [{
         "excerpt":"This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).   ","categories": ["Blog"],
         "tags": ["Woodwork","Construction"],
         "url": "/blog/shed/",
-        "teaser": null
+        "teaser": "/assets/images/shed-banner.JPG"
       },{
         "title": "Welcome!",
         "excerpt":"This blog serves two main purpose: for you and for me to have fun, and to reduce the global sum of suffering of mankind by sharing my sufferings and learnings. That said, if you read, learnt and avoided some suffering, go pick something else to suffer from and share your...","categories": ["Blog"],
         "tags": [],
         "url": "/blog/welcome/",
-        "teaser": null
+        "teaser": "/assets/images/IMG_1559.JPG"
       },{
         "title": "This week's outside five sigma (#1)",
         "excerpt":"This is the first weekly outside five sigma. I’ll slowly figure out what is the best format. Right now I’m thinking one sentence, with one image, and one source. The Border Gateway Protocol (BGP) was sketched out in 1989 by engineers on the back of “three ketchup-stained napkins”, and is...","categories": ["OFS"],
         "tags": ["BGP","LLM","SWIR","Nature"],
         "url": "/ofs/weekly-OFS-1/",
-        "teaser": null
+        "teaser": "/assets/images/superheavy-grid-fins.webp"
       }]

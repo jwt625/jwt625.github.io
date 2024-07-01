@@ -2,7 +2,8 @@
 permalink: /about/
 title: "About"
 header:
-    overlay_image: /assets/images/IMG_0800.JPG
+    # overlay_image: /assets/images/IMG_0800.JPG
+    image: /assets/images/IMG_0800.JPG
 ---
 
 Hi there, this is Wentao. I messed with chemistry around 13, then math & physics from high school to PhD, and nanofabrication for making microwave and photonics devices between 2015 - 2024. Now I'm messing with IoT, computer vision and robotics. I plan to dump my random thoughts and projects here. I will try to have better writing than the notes I take during the projects.
