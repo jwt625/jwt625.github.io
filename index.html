@@ -5,3 +5,24 @@
 layout: home
 author_profile: true
 ---
+
+<div class="posts">
+    {% for post in paginator.posts %}
+      <article class="post">
+        {% if post.header.teaser %}
+          <div class="post-teaser">
+            <img src="{{ post.header.teaser }}" alt="{{ post.title }}">
+          </div>
+        {% endif %}
+        <header>
+          <h2 class="post-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h2>
+          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        </header>
+        <div class="post-excerpt">
+          {{ post.excerpt }}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
