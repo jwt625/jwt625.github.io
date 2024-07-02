@@ -77,6 +77,12 @@ var store = [{
         "url": "/tips/qutip-tips/",
         "teaser": null
       },{
+        "title": "Energy to Transmit One Bit",
+        "excerpt":"(See [original](http://large.stanford.edu/courses/2018/ph240/jiang1/)) # Introduction The internet has become an essential tool for people to communicate, for both work and entertainment. Since the first internet service providers in 1989, the population of internet users around the world has reached 2.5 billion in 2013. [1] Along with the growth of the internet,...","categories": ["Blog"],
+        "tags": ["Telecom","Energy"],
+        "url": "/blog/energy-transmit-one-bit/",
+        "teaser": "/assets/images/submarine-cable-network-prev.png"
+      },{
         "title": "I built a shed with a friend in his backyard",
         "excerpt":"This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).   ","categories": ["Blog"],
         "tags": ["Woodwork","Construction"],
