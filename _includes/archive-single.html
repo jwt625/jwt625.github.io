@@ -26,9 +26,9 @@
     </h2>
     {% include page__meta.html type=include.type %}
     <!-- add teaser, WTJ, 20240630 -->
-    {% if post.header.teaser %}
-      <div class="post-teaser">
-        <img src="{{ post.header.teaser }}" alt="{{ post.title }}">
+    {% if post.header.cover %}
+      <div class="post-cover">
+        <img src="{{ post.header.cover }}" alt="{{ post.title }}">
       </div>
     {% endif %}
     {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
