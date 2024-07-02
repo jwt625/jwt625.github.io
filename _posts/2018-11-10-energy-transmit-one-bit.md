@@ -15,7 +15,7 @@ header:
   overlay_filter: 0.5
 ---
 
-(See [original](http://large.stanford.edu/courses/2018/ph240/jiang1/))
+
 
 # Introduction
 
@@ -23,7 +23,9 @@ The internet has become an essential tool for people to communicate, for both wo
 
 Given the limited natural resources we have and the fact that the advance in ICT results in a positive impact on electricity consumption, it is necessary to exam and reduce the energy we spend on transmitting one bit of information. [3] I will consider two simple case, the energy required to transmit one bit using electrical cables and the energy required to transmit one bit, with optical fibers.
 
+# Part I: Energy of Electrical Signals
 
+To transmit an electrical signal, a voltage is built up on one end of the electrical cable, and the voltage propagates through the cable to the other end. The energy involved in this process is essentially used to charge up the capacitance of the wire, which is proportional to the length of the wire. Therefore, we will measure the capacitance by unit length and also the energy spent by unit distance the signal propagates. With estimations of the unit length capacitance, the voltage used for encoding the bit and the length involved, we can estimated the energy by $E ~ CV^2$.
 
 
 # References
@@ -41,3 +43,5 @@ Given the limited natural resources we have and the fact that the advance in ICT
 [6] C. C. Hu, Modern Semiconductor Devices for Integrated Circuits (Pearson, 2009).
 
 [7] R. S. Tucker, "Green Optical Communications - Part I: Energy Limitations in Transport," IEEE J Sel. Top. Quant. 17, 245 (2011).
+
+(First published at [http://large.stanford.edu/courses/2018/ph240/jiang1/](http://large.stanford.edu/courses/2018/ph240/jiang1/))

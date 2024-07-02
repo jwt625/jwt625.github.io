@@ -78,7 +78,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Energy to Transmit One Bit",
-        "excerpt":"(See [original](http://large.stanford.edu/courses/2018/ph240/jiang1/)) # Introduction The internet has become an essential tool for people to communicate, for both work and entertainment. Since the first internet service providers in 1989, the population of internet users around the world has reached 2.5 billion in 2013. [1] Along with the growth of the internet,...","categories": ["Blog"],
+        "excerpt":"Introduction The internet has become an essential tool for people to communicate, for both work and entertainment. Since the first internet service providers in 1989, the population of internet users around the world has reached 2.5 billion in 2013. [1] Along with the growth of the internet, the amount of...","categories": ["Blog"],
         "tags": ["Telecom","Energy"],
         "url": "/blog/energy-transmit-one-bit/",
         "teaser": "/assets/images/submarine-cable-network-prev.png"
