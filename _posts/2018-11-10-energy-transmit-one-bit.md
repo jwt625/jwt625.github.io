@@ -16,6 +16,11 @@ header:
   overlay_filter: 0.5
 ---
 
+**TL;DR**: ~ 10 pJ for electrical and 1 ~ 10 fJ for optical. These are order of magnitude estimations and could be very off from actual numbers. For more practical numbers, Prof. David Miller has a great paper in 2017 on energies for optoelectronic communications. If you find this article interesting, check out his paper: [Attojoule Optoelectronics for Low-Energy Information Processing and Communications](https://ieeexplore.ieee.org/abstract/document/7805240).
+
+![energies-in-communication.PNG](/assets/images/energies-in-communication.PNG)
+
+*Energies for communications and computations, From Prof. Miller's 2017 paper.*
 
 
 # Introduction
