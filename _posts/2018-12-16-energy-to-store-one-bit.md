@@ -81,3 +81,6 @@ In conclusion, I estimate the energy consuption for storing one bit in SSD (~ 0.
 [5] L. Kish and C. Granqvist, "Does Information Have Mass?" Proc. IEEE 101, 1895 (2013).
 
 [6] T Bostoen, S. Mullender, and Y. Berbers, "Power-Reduction Techniques for Data-Center Storage Systems," ACM Comput. Surv. 45, 33 (2013).
+
+
+(First published at [http://large.stanford.edu/courses/2018/ph240/jiang2/](http://large.stanford.edu/courses/2018/ph240/jiang2/))
