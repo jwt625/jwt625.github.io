@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Energy to Transmit One Bit - Outside Five Sigma</title>
-<meta name="description" content="TL;DR: ~ 10 pJ for electrical and 1 ~ 10 fJ for optical. These are order of magnitude estimations and could be very off from actual numbers. For more practical numbers, Prof. David Miller has a great paper in 2017 on energies for optoelectronic communications. If you find this article interesting, check out his paper: Attojoule Optoelectronics for Low-Energy Information Processing and Communications.">
+<!-- begin _includes/seo.html --><title>Energy to Store One Bit - Outside Five Sigma</title>
+<meta name="description" content="TL;DR: ~ 0.4 fJ for SSD and ~ 100 fJ for HDD, limited by physics of the implementation. For actual energy consumption of commercial SSD and HDD, they are both ~ 1 nJ. On the data center level, ~ 0.2 mJ.">
 
 
   <meta name="author" content="Wentao">
@@ -23,28 +23,28 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Outside Five Sigma">
-<meta property="og:title" content="Energy to Transmit One Bit">
-<meta property="og:url" content="http://localhost:4000/blog/energy-transmit-one-bit/">
+<meta property="og:title" content="Energy to Store One Bit">
+<meta property="og:url" content="http://localhost:4000/blog/energy-to-store-one-bit/">
 
 
-  <meta property="og:description" content="TL;DR: ~ 10 pJ for electrical and 1 ~ 10 fJ for optical. These are order of magnitude estimations and could be very off from actual numbers. For more practical numbers, Prof. David Miller has a great paper in 2017 on energies for optoelectronic communications. If you find this article interesting, check out his paper: Attojoule Optoelectronics for Low-Energy Information Processing and Communications.">
-
-
-
-  <meta property="og:image" content="http://localhost:4000/assets/images/submarine-cable-network-prev.png">
+  <meta property="og:description" content="TL;DR: ~ 0.4 fJ for SSD and ~ 100 fJ for HDD, limited by physics of the implementation. For actual energy consumption of commercial SSD and HDD, they are both ~ 1 nJ. On the data center level, ~ 0.2 mJ.">
 
 
 
-
-
-  <meta property="article:published_time" content="2018-11-10T00:00:00-08:00">
+  <meta property="og:image" content="http://localhost:4000/assets/images/HDD-read-head.PNG">
 
 
 
 
 
+  <meta property="article:published_time" content="2018-12-16T00:00:00-08:00">
 
-<link rel="canonical" href="http://localhost:4000/blog/energy-transmit-one-bit/">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/blog/energy-to-store-one-bit/">
 
 
 
@@ -161,13 +161,13 @@
 
 
 <div class="page__hero--overlay"
-  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/submarine-cable-network-prev.png');"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/HDD-read-head.PNG');"
 >
   
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          Energy to Transmit One Bit
+          Energy to Store One Bit
 
         
       </h1>
@@ -180,7 +180,7 @@
       <span class="page__meta-date">
         <i class="far fa-calendar-alt" aria-hidden="true"></i>
         
-        <time datetime="2018-11-10T00:00:00-08:00">November 10, 2018</time>
+        <time datetime="2018-12-16T00:00:00-08:00">December 16, 2018</time>
       </span>
     
 
@@ -193,7 +193,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          5 minute read
+          7 minute read
         
       </span>
     
@@ -326,9 +326,9 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Energy to Transmit One Bit">
-    <meta itemprop="description" content="TL;DR: ~ 10 pJ for electrical and 1 ~ 10 fJ for optical. These are order of magnitude estimations and could be very off from actual numbers. For more practical numbers, Prof. David Miller has a great paper in 2017 on energies for optoelectronic communications. If you find this article interesting, check out his paper: Attojoule Optoelectronics for Low-Energy Information Processing and Communications.">
-    <meta itemprop="datePublished" content="2018-11-10T00:00:00-08:00">
+    <meta itemprop="headline" content="Energy to Store One Bit">
+    <meta itemprop="description" content="TL;DR: ~ 0.4 fJ for SSD and ~ 100 fJ for HDD, limited by physics of the implementation. For actual energy consumption of commercial SSD and HDD, they are both ~ 1 nJ. On the data center level, ~ 0.2 mJ.">
+    <meta itemprop="datePublished" content="2018-12-16T00:00:00-08:00">
     
 
     <div class="page__inner-wrap">
@@ -339,69 +339,63 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#introduction">Introduction</a></li><li><a href="#part-i-energy-of-electrical-signals">Part I: Energy of Electrical Signals</a></li><li><a href="#part-ii-energy-of-optical-signals">Part II: Energy of Optical Signals</a></li><li><a href="#conclusion">Conclusion</a></li><li><a href="#references">References</a></li></ul>
+              <ul class="toc__menu"><li><a href="#introduction">Introduction</a></li><li><a href="#working-principle-and-associated-energy-to-store-one-bit-in-ssd-and-hdd">Working Principle and Associated Energy to Store One Bit in SSD and HDD</a></li><li><a href="#actual-energy-consumption-of-commercial-ssdhdd-and-data-centers">Actual Energy Consumption of Commercial SSD/HDD and Data Centers</a></li><li><a href="#conclusion">Conclusion</a></li><li><a href="#references">References</a></li></ul>
             </nav>
           </aside>
         
-        <p><strong>TL;DR</strong>: ~ 10 pJ for electrical and 1 ~ 10 fJ for optical. These are order of magnitude estimations and could be very off from actual numbers. For more practical numbers, Prof. David Miller has a great paper in 2017 on energies for optoelectronic communications. If you find this article interesting, check out his paper: <a href="https://ieeexplore.ieee.org/abstract/document/7805240">Attojoule Optoelectronics for Low-Energy Information Processing and Communications</a>.</p>
-
-<p><img src="/assets/images/energies-in-communication.PNG" alt="energies-in-communication.PNG" /></p>
-
-<p><em>Energies for communications and computations, From Prof. Miller’s 2017 paper.</em></p>
+        <p><strong>TL;DR</strong>: ~ 0.4 fJ for SSD and ~ 100 fJ for HDD, limited by physics of the implementation. For actual energy consumption of commercial SSD and HDD, they are both ~ 1 nJ. On the data center level, ~ 0.2 mJ.</p>
 
 <h1 id="introduction">Introduction</h1>
 
-<p>The internet has become an essential tool for people to communicate, for both work and entertainment. Since the first internet service providers in 1989, the population of internet users around the world has reached 2.5 billion in 2013. [1] Along with the growth of the internet, the amount of energy comsumed by information communication technology (ICT) is also drastically increasing. From 2007 to 2012, the worldwide electricity consumption has increased by 10.1% on annual average, from 219 TWh to 354 TWh. In the same time period, the share of energy consumption for communication networks in total electricity consumption has grown from 1.3% to 1.8%. [2]</p>
+<p>With the rapid growth of internet and information technology, more and more people work online, keep their documents online and leave a lot of data while using social network service such as Facebook and Twitter. All these increasing amount of data goes to data centers of these companies. As a result, the power consumption of data centers in the U.S. has increased from 70 billion kWh in 2014 to more than 90 billion kWh in 2017. [1] These two numbers correspond to 1.7% and 2.3% of the total electric power generated in the U.S. in 2014 and 2017, respecitvely. [2] This is a considerable amount of energy. It motivates us to understand the essential energy required to store one bit of information in our current approach, which should help us identify where most of the energy is consumed.</p>
 
-<p>Given the limited natural resources we have and the fact that the advance in ICT results in a positive impact on electricity consumption, it is necessary to exam and reduce the energy we spend on transmitting one bit of information. [3] I will consider two simple case, the energy required to transmit one bit using electrical cables and the energy required to transmit one bit, with optical fibers.</p>
+<p>The data storage devices, or computer memory devices, have a long history. With the advance of technology, our ability to make good computer memory has improved from few bytes in the early 1940s to more than few hundreds of Gbits within one single inch squared. [3] For massive data storage, the two categories of data storage devices are solid-state drive (SSD), and hard disk drive (HDD). Their working principles and functioning are quite different.</p>
 
-<h1 id="part-i-energy-of-electrical-signals">Part I: Energy of Electrical Signals</h1>
+<p>For research about SSD and HDD development, most efforts were aimed at higher data density, higher transfer rate and lower error rate. There were also discussions about power management but at a rather high level. Here I’ll try to carry out order-of-magnitude estimation of the energy required to store one bit of information based on the underlying physics, and compare the estimates to the actual power consumption of the commercial drives and data centers.</p>
 
-<p>To transmit an electrical signal, a voltage is built up on one end of the electrical cable, and the voltage propagates through the cable to the other end. The energy involved in this process is essentially used to charge up the capacitance of the wire, which is proportional to the length of the wire. Therefore, we will measure the capacitance by unit length and also the energy spent by unit distance the signal propagates. With estimations of the unit length capacitance, the voltage used for encoding the bit and the length involved, we can estimated the energy by $E \sim CV^2$.</p>
+<p><img src="/assets/images/float-gate-transistor.png" alt="float-gate-transistor.png" /></p>
 
-<p>However, for long range connections, only the length occupied by one single bit is charged and consumes energy. The length for each bit can be approximated by the propagation speed multiplied by the clock cycle. Take USB 3.0 as an example (see Fig. 1), the 5 Gbps transfer rate corresponds to clock cycle $\sim 200~\text{ps}$. [4] The electromagnetic wave propagates at the speed of light, which gives the corresponded length scale to be 6 cm. Longer sigal occupies longer length, and requires more energy.</p>
+<p><em>Fig. 1: Schematic drawing of a floating gate transistor, which is the basic of flash memory (Source: <a href="https://commons.wikimedia.org/wiki/File:Floating_gate_transistor-en.svg">Wikimedia Commons</a>)</em></p>
 
-<p>For estimating the unit length capacitance, the first thing to notice is that the unit length capacitance of different electrical cables and transmission lines are roughly on the same order of magnitude. For example, the capacitance of a typical 50 Ω coaxial cable is around 1.5 pF/cm. In comparison, on-chip interconnections have size that’s smaller than the coaxial cable by five orders of magnitude, but the corresponded capacitance is ~ 2 pF/cm, comparable to coaxial cables. [5]</p>
+<h1 id="working-principle-and-associated-energy-to-store-one-bit-in-ssd-and-hdd">Working Principle and Associated Energy to Store One Bit in SSD and HDD</h1>
 
-<p>Typical voltage involved in semiconductor devices are ~ 1V. [6] Putting the estimations of unit length capacitance, length of one bit and the operating voltage together, the energy for one bit using electrical signal is on the order of 10 pJ.</p>
+<p>The building block of flash-based SSDs is floating-gate transistor. A schematic drawing of a single floating-gate transistor is shown in Fig. 1. It contains a pair of source/drain and a control gate as an ordinary transistor has, but in addition, there is a floating gate inside the control gate and the channel between source and drain. As a result of quantum mechanics, when the control gate is biased by the proper voltage, not only the source and drain is connected, but electrons can also tunnel onto the floating gate through the isolator - keeping the source and drain connected even when the voltage on the control gate is removed. Electrons that have already tunneled onto the floating gate could take years to leak out, making the floating-gate transistor a single unit of a non-volatile memory. [4]</p>
 
-<p><img src="/assets/images/USB3p0-connector.jpg" alt="USB3p0-connector.jpg" /></p>
+<p>In flash-based SSD, the storage process is essentially charging the floating-gate island. The floating-gate transistor could be modeled as various capacitances, and the physical quantities I’m interested in is charge on the floating-gate $Q = C_\text{CG}\Delta V_\text{th}$ and energy required to charge up the floating-gate $E \sim QV_\text{FG}$. [4] $C_\text{CG}$ is the capacitance between the control gate and the floating-gate, $\Delta V_\text{th}$ is the voltage difference on the control gate between idle and read/write operation, and $V_\text{FG}$ is the voltage of the floating-gate. I use the capacitance of parallel plate to estimate the value of $C_\text{CG} = \epsilon \epsilon_\text{r} A/d$. For 40 nm technical node, A ~ 0.002 μm$^2$, d ~ 10 nm, $\epsilon_\text{r} = 3.9$ for silicon dioxide isolation layer. For typical configuration from Micheloni et al., $\Delta V_\text{th} \sim 5\sim\text{V}$ and $V_\text{FG} \sim 10~\text{V}$. [4] Putting everything together, $C_\text{CG} \sim 7 \times 10^{-3}~\text{fF}$, $Q \sim 3.5 \times 10^{-17}~\text{C}$ and $E \sim 3.5 \times 10^{-16}~$J = 0.35 fJ. As a further check on this estimate, notice that, as mentioned in Micheloni et al., the typical number of electrons on the floating-gate island is around 200. This reasonably matches with the charge $Q \sim 3.5 \times 10^{-17}~$ C. [4]</p>
 
-<p><em>Fig. 1: USB 3.0 connector (Source: <a href="https://commons.wikimedia.org/wiki/File:Connector_USB_3_IMGP6022_wp.jpg">Wikimedia Commons</a>)</em></p>
+<p>For a hard drive disk, the fundamental process is magnetisation of the recording material and magnetoresistive sensing of the recorded information. As shown in Fig. 2, the read/write head of a HDD is brought to the vicinity of the disk, the magnetic stray fields from the head set the magnetisation of the local “grain” (magnetic domain) of the recording material.</p>
 
-<h1 id="part-ii-energy-of-optical-signals">Part II: Energy of Optical Signals</h1>
+<p>According to Plumer, for magnetic recording with areal density ~ 10 Gb/in$^2$, one bit contains roughly a 20 by 40 array of 13 × 13 × 20 nm$^3$ grains. [3] Assuming the thickness of the bit is comparable to the other two dimensions (longitudinal recording), the resulting volumn of one bit is on the order of V ~ 0.05 μm$^3$ = 5 × 10$^{-20}$ m$^3$. The saturation magnetisation of the material is on the order of M = 1000 emu/cc = 10$^6$ A/m, and the field in the medium is typically H = 5000 Oe = 0.4 × 10$^6$ A/m. The magnetic energy stored in this bit is estimated by E ~ M·B·V = μ$_0$ M(H+M)V = 8.8 × 10$^{-14}$ J ~ 100 fJ. A quick comparison shows that the energy stored in one bit in HDD is roughly two orders of magnitude higher than in SSD.</p>
 
-<p>The most important difference between optical signal and electrical signal is that, instead of charging up the cable or electromagnetic medium to a certain voltage, the signals are carried by photons. The photons are converted to voltages at the photodetector, and this photon detection is essentially a quantum process: ~ 1 electron is excited from each absorbed photon. For photons at wavelength $\lambda = 1.55$ μm which is typically used in fiber communication, the energy of one single photon hν ~ 1 eV, where eV is the electron-volt (energy of one electron at one volt). The current from 1 nW oof optical power at this wavelength is ~ 1 nA. With a 1 GΩ load resistor, the photodetector generates ~ 1 V. [5]</p>
+<p>Another important comparison is with Kish et al, who used thermal leakage considerations at room temperature to obtained a minimum energy of E ~ 3 × 10$^{-19}$ J = 0.0003 fJ for a ten-year-lifetime storage of one bit. [5] This energy is a few orders of magnitude smaller than the estimate for recent SSD and HDD.</p>
 
-<p>In reality, the photocurrent charges up the capacitance from the detector circuit, and the resulting voltage must be enough to flip a CMOS logic gate, typically U = 1 V. Assuming a total capacitance $C_\text{TOT} = 1$ fF, then the total charge required is $Q = CU$. [5] The number of electrons roughly equals the number of photons impinging on the detector, which is $N_\text{photon} = E/h\nu = N_\text{electron} = Q/e$. Thus the energy per bit is $E = h\nu\cdot CU/e = 1$ fJ. This estimate is roughly equal that based on an optical signal-to-noise ratio. The energy consumption of optically amplified transportation in the ideal case and limited by Shannon bound is estimated to be 4.4 fJ per bit. [7]</p>
+<p><img src="/assets/images/HDD-big.jpg" alt="HDD-big.jpg" /></p>
 
-<p><img src="/assets/images/optical-fiber.jpg" alt="optical-fiber.jpg" /></p>
+<p><em>Fig. 2: A close look of the read/write head of a HDD. Its mirror image is visible because of the reflection of the disk. (Source: <a href="https://commons.wikimedia.org/wiki/File:Hard_disk_head.jpg">Wikimedia Commons</a>)</em></p>
 
-<p><em>Fig. 2: Optical fibers along with a 1 euro cent coin. (Source: <a href="https://commons.wikimedia.org/wiki/File:Optical-fiber-pbc.jpg">Wikimedia Commons</a>)</em></p>
+<h1 id="actual-energy-consumption-of-commercial-ssdhdd-and-data-centers">Actual Energy Consumption of Commercial SSD/HDD and Data Centers</h1>
+
+<p>The above energy estimate should be the lower bound of the full drive. since only processes at a single memory unit are considered, and all the wiring and controls of the device are ignored. To estimate the effective read/write energy of one bit for a commercial drive, I take the division of the average operating power by the average data transfer rate. For a typical SSD, the average read/write speed is on the order of 0.7 GB/s, and the average active power is on the order of 7 W. [1] The resulting energy per bit is ~ 10$^{-8}$ J/Byte ~ 10$^{-9}$ J/bit = 1 nJ/bit. Using the same method for HDD, the average read/write speed is on the order of 200 MB/s and average operating power 10 W. [1] The corresponding energy per bit is ~ 1.3 × 10$^{-8}$ J/Byte ~ 1.5 × 10$^{-9}$ J/bit = 1.5 nJ/bit. The energy consumption on the drive level is comparable between SSD and HDD and is roughly seven and four orders of magnitude higher than the energy stored in one single bit respectively. A possible explanation is that most of the energy is dissipated by rotation of the disk and movement of the read/write arm in HDD, by charging the wiring to every bit in SSD, and the I/O electronics in both case. [6]</p>
+
+<p>On the data center level, the effective average energy consumption per bit is calculated from total electricity use and the total data center storage in the same manner as for the single-drive-level. In 2014, the annual electricity use for all data center in the U.S. is E ~ 70 billion kWh = 2.5 × 10$^{17}$ J. The storage capacity in the same year is ~ 150 million TB = 1.2 × 10$^{21}$ bits. [1] The ratio gives 0.0002 J/bit = 0.2 mJ/bit. However, this estimate uses the total capacity of the data centers, not the actual number of read/write operations. It’s reasonable to assume that the read/write operations could be approximated by the capacity to within one or two orders of magnitude. Regardless of this inaccuracy, the amount of energy by one bit on average is much higher than the single-drive value. The actual power consumed by storage is less than 20% of the total power consumption for data centers. Most energy consumption is from infrastructure and servers. (See, for example, Fig. 21 in Shehabi et al). [1]</p>
 
 <h1 id="conclusion">Conclusion</h1>
 
-<p>From the simple estimation discussed above, we show that on an electric channel with similar capacitance, data rate and signal voltage, the energy required by one bit is on the level of 10 pJ, four orders of magnitude larger than the energy of one bit via a typical optical fiber. In addition, the short wavelength of optical signal also enables much smaller cable cross section (see Fig. 2). As a result of this energy scale difference, modern submarine cables are using optical fibers for intercontinential communication.</p>
-
-<p>One more thing to notice is that, our computers are built with electronic components. At the end of optical fibers, optoelectronic components and photodetectors are necessary to transduce electrical signal to optical signal. The optical fibers also have finite loss and repeaters or amplifiers are required for long range communication. They contribute to most of the energy consumption for optical fiber communication. As a result, the figure of merit is energy per bit per distance and it’s typically orders of magnitude higher than the simple estimation in part II. [7]</p>
+<p>In conclusion, I estimate the energy consuption for storing one bit in SSD (~ 0.35 fJ) and HDD (~ 100 fJ) based on the related physical processes and typical device parameters. The estimated energy scale is compared to the average energy consumption in commercial drives and data centers. In commercial SSD and HDD, the energy consumption for one bit is ~ 1 nJ on average. On the data center level, the effective average energy consumption per bit is ~ 0.2 mJ. When moving to higher level, the dominated energy consumption is no longer from the storage itself, but from infrastructure and I/O.</p>
 
 <h1 id="references">References</h1>
 
-<p>[1] J. D. Negroponte, S. J. Palmisano, and A. Segal, Defending an Open, Global, Secure and Resilient Internet (Council on Foreign Relations Press, 2013).</p>
+<p>[1] A. Shehabi et al., “United States Data Center Energy Usage Report,” Lawrence Berkeley National Laboratory, <a href="http://large.stanford.edu/courses/2018/ph240/jiang2/docs/lbnl-1005775.pdf">LBNL-1005775</a>, June 2016.</p>
 
-<p>[2] S. Lambert et al., “Worldwide Electricity Consumption of Communication Networks,” Opt. Express 20, B513 (2012).</p>
+<p>[2] “Monthly Energy Review November 2018,” U.S Energy Information Administration, <a href="http://large.stanford.edu/courses/2018/ph240/jiang2/docs/doe-eia-0035-2018-11.pdf">DOE/EIA-0035(2018/11)</a>, November 2018.”</p>
 
-<p>[3] K. Saidi, H. Toumi, and S. Zaidi, “Impact of Information Communication Technology and Economic Growth on the Electricity Consumption: Empirical Evidence from 67 Countries,” J Knowl. Econ. 8, 789 (2017).</p>
+<p>[3] M. Plumer, Ed., The Physics of Ultra-High-Density Magnetic Recording (Springer, 2001).</p>
 
-<p>[4] B. Dudley, “<a href="https://www.seattletimes.com/business/comcast-to-shuffle-channels-in-august/">Comcast to Shuffle Channels in August</a>,” Seattle Times, 2 Jul 09.</p>
+<p>[4] R. Micheloni, A. Marelli, K. Eshghi, Inside Solid State Drives (SSDs) (Springer, 2012).</p>
 
-<p>[5] D. A. B. Miller, “Attojoule Optoelectronics for Low-Energy Information Processing and Communications,” J. Lightwave Technol. 35, 346 (2017).</p>
+<p>[5] L. Kish and C. Granqvist, “Does Information Have Mass?” Proc. IEEE 101, 1895 (2013).</p>
 
-<p>[6] C. C. Hu, Modern Semiconductor Devices for Integrated Circuits (Pearson, 2009).</p>
-
-<p>[7] R. S. Tucker, “Green Optical Communications - Part I: Energy Limitations in Transport,” IEEE J Sel. Top. Quant. 17, 245 (2011).</p>
-
-<p>(First published at <a href="http://large.stanford.edu/courses/2018/ph240/jiang1/">http://large.stanford.edu/courses/2018/ph240/jiang1/</a>)</p>
+<p>[6] T Bostoen, S. Mullender, and Y. Berbers, “Power-Reduction Techniques for Data-Center Storage Systems,” ACM Comput. Surv. 45, 33 (2013).</p>
 
         
       </section>
@@ -445,29 +439,29 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2018-11-10T00:00:00-08:00">November 10, 2018</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2018-12-16T00:00:00-08:00">December 16, 2018</time></p>
 
       </footer>
 
       <section class="page__share">
   
 
-  <a href="https://twitter.com/intent/tweet?text=Energy+to+Transmit+One+Bit%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fenergy-transmit-one-bit%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Energy+to+Store+One+Bit%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fenergy-to-store-one-bit%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fenergy-transmit-one-bit%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fenergy-to-store-one-bit%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blog/energy-transmit-one-bit/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blog/energy-to-store-one-bit/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/tips/qutip-tips/" class="pagination--pager" title="Qutip tips
+      <a href="/blog/energy-transmit-one-bit/" class="pagination--pager" title="Energy to Transmit One Bit
 ">Previous</a>
     
     
-      <a href="/blog/energy-to-store-one-bit/" class="pagination--pager" title="Energy to Store One Bit
+      <a href="/blog/shed/" class="pagination--pager" title="I built a shed with a friend in his backyard
 ">Next</a>
     
   </nav>
@@ -657,7 +651,7 @@
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/blog/energy-to-store-one-bit/" rel="permalink">Energy to Store One Bit
+        <a href="/blog/energy-transmit-one-bit/" rel="permalink">Energy to Transmit One Bit
 </a>
       
     </h2>
@@ -669,7 +663,7 @@
       <span class="page__meta-date">
         <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
         
-        <time datetime="2018-12-16T00:00:00-08:00">December 16, 2018</time>
+        <time datetime="2018-11-10T00:00:00-08:00">November 10, 2018</time>
       </span>
     
 
@@ -682,7 +676,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
-          7 minute read
+          5 minute read
         
       </span>
     
@@ -692,10 +686,10 @@
     <!-- add teaser, WTJ, 20240630 -->
     
       <div class="post-cover">
-        <img src="/assets/images/HDD-read-head.PNG" alt="Energy to Store One Bit">
+        <img src="/assets/images/submarine-cable-network-prev.png" alt="Energy to Transmit One Bit">
       </div>
     
-    <p class="archive__item-excerpt" itemprop="description">TL;DR: ~ 0.4 fJ for SSD and ~ 100 fJ for HDD, limited by physics of the implementation. For actual energy consumption of commercial SSD and HDD, they are bot...</p>
+    <p class="archive__item-excerpt" itemprop="description">TL;DR: ~ 10 pJ for electrical and 1 ~ 10 fJ for optical. These are order of magnitude estimations and could be very off from actual numbers. For more practic...</p>
 
   </article>
 </div>
@@ -776,8 +770,8 @@
     
   <script>
     var disqus_config = function () {
-      this.page.url = "http://localhost:4000/blog/energy-transmit-one-bit/";  /* Replace PAGE_URL with your page's canonical URL variable */
-      this.page.identifier = "/blog/energy-transmit-one-bit"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+      this.page.url = "http://localhost:4000/blog/energy-to-store-one-bit/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/blog/energy-to-store-one-bit"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
     };
     (function() { /* DON'T EDIT BELOW THIS LINE */
       var d = document, s = d.createElement('script');

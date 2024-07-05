@@ -83,6 +83,12 @@ var store = [{
         "url": "/blog/energy-transmit-one-bit/",
         "teaser": null
       },{
+        "title": "Energy to Store One Bit",
+        "excerpt":"TL;DR: ~ 0.4 fJ for SSD and ~ 100 fJ for HDD, limited by physics of the implementation. For actual energy consumption of commercial SSD and HDD, they are both ~ 1 nJ. On the data center level, ~ 0.2 mJ. Introduction With the rapid growth of internet and information...","categories": ["Blog"],
+        "tags": ["Telecom","Energy"],
+        "url": "/blog/energy-to-store-one-bit/",
+        "teaser": null
+      },{
         "title": "I built a shed with a friend in his backyard",
         "excerpt":"This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).   ","categories": ["Blog"],
         "tags": ["Woodwork","Construction"],
