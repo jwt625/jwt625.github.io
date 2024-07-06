@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-06T13:18:36-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#2)</title><link href="http://localhost:4000/ofs/weekly-OFS-2/" rel="alternate" type="text/html" title="This week’s outside five sigma (#2)" /><published>2024-07-06T00:00:00-07:00</published><updated>2024-07-06T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-2</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-2/"><![CDATA[<ol>
-  <li>You can make RF cavities and filters with beautiful 3D printed copper cages
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-06T14:03:03-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#2)</title><link href="http://localhost:4000/ofs/weekly-OFS-2/" rel="alternate" type="text/html" title="This week’s outside five sigma (#2)" /><published>2024-07-06T00:00:00-07:00</published><updated>2024-07-06T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-2</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-2/"><![CDATA[<ol>
+  <li>You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor.
     <ul>
       <li><a href="https://www.shapeways.com/materials/copper">shapeways</a></li>
       <li><a href="https://x.com/wavedrom/status/1809054376276738440">RF filters made with it</a>
@@ -25,7 +25,45 @@
 <img src="/assets/images/Haptics-Non-invasive-Brain-Stimulation.png" alt="Haptics-Non-invasive-Brain-Stimulation.png" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="BMI" /><category term="HCI" /><category term="RF" /><category term="3D-print" /><summary type="html"><![CDATA[You can make RF cavities and filters with beautiful 3D printed copper cages shapeways RF filters made with it]]></summary></entry><entry><title type="html">This week’s outside five sigma (#1)</title><link href="http://localhost:4000/ofs/weekly-OFS-1/" rel="alternate" type="text/html" title="This week’s outside five sigma (#1)" /><published>2024-06-30T00:00:00-07:00</published><updated>2024-06-30T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-1</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-1/"><![CDATA[This is the first weekly outside five sigma. I'll slowly figure out what is the best format. Right now I'm thinking one sentence, with one image, and one source.
+  <li><a href="https://www.scia-systems.com/">scia systems</a> make amazing ion beam trimming machines. It takes less than 10 min to trim a full 12 in wafers from thickness variation of 1.3 nm to 0.3 nm.
+    <ul>
+      <li><a href="https://www.scia-systems.com/products/ion-beam-trimming/scia-trim-300">scia Trim 300</a>
+<img src="/assets/images/scia-trim-300.png" alt="scia-trim-300.png" /></li>
+    </ul>
+  </li>
+  <li>Daniel Fisher gave a talk in May 2019 at the Stanford Applied Physics/Physics colloquium, covered many aspects about life and physics, and the orders of magnitude.
+    <ul>
+      <li>Youtube video: <a href="https://www.youtube.com/watch?v=kRZHiU9Co70&amp;ab_channel=StanfordPhysics">Daniel Fisher - “Physicists and Evolution : Puzzles and Expectations”</a>
+<img src="/assets/images/bacteria-daniel-fisher.png" alt="bacteria-daniel-fisher.png" /></li>
+    </ul>
+  </li>
+  <li>You can control an “elephant trunk” using just three actuators, longitudinal and two twist.
+    <ul>
+      <li>Article in Physics: <a href="https://physics.aps.org/articles/v17/98">Mimicking an Elephant Trunk</a></li>
+      <li>PRL paper: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.248402">Minimal Design of the Elephant Trunk as an Active Filament
+</a>
+<img src="/assets/images/elephant-trunk-PRL.png" alt="elephant-trunk-PRL.png" /></li>
+    </ul>
+  </li>
+  <li>A 256x192 pixel thermal camera for 8-14 um is as cheap as $200
+    <ul>
+      <li>Amazon: <a href="https://www.amazon.com/GOYOJO-Resolution-Industrial-Inspection-Detection/dp/B0CPSNT331">Mini Mobile Thermal Imager for Android Phone</a>
+<img src="/assets/images/thermal-camera-256x192.png" alt="thermal-camera-256x192.png" /></li>
+    </ul>
+  </li>
+  <li>Pose estimation / tracking location of people indoor has been a thing for quite a while (2018)
+    <ul>
+      <li><a href="http://rfpose.csail.mit.edu/">Through-Wall Human Pose Estimation Using Radio Signals</a>
+<img src="/assets/images/human-pose-estimation-radio-wifi.png" alt="human-pose-estimation-radio-wifi.png" /></li>
+    </ul>
+  </li>
+  <li>E. Coli’s flagella motors could exist in bundles with interlocked gears to sync their rotations
+    <ul>
+      <li>PNAS paper: <a href="https://www.pnas.org/doi/full/10.1073/pnas.1215274109">Architecture of a flagellar apparatus in the fast-swimming magnetotactic bacterium MO-1</a>
+<img src="/assets/images/flagella-motor-bundle-SEM.png" alt="flagella-motor-bundle-SEM.png" /></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="BMI" /><category term="HCI" /><category term="RF" /><category term="3D-print" /><summary type="html"><![CDATA[You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor. shapeways RF filters made with it]]></summary></entry><entry><title type="html">This week’s outside five sigma (#1)</title><link href="http://localhost:4000/ofs/weekly-OFS-1/" rel="alternate" type="text/html" title="This week’s outside five sigma (#1)" /><published>2024-06-30T00:00:00-07:00</published><updated>2024-06-30T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-1</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-1/"><![CDATA[This is the first weekly outside five sigma. I'll slowly figure out what is the best format. Right now I'm thinking one sentence, with one image, and one source.
 
 1. The Border Gateway Protocol (BGP) was sketched out in 1989 by engineers on the back of "three ketchup-stained napkins", and is still known as the three-napkin protocol.
 - [The long life of a quick 'fix'](https://www.washingtonpost.com/sf/business/2015/05/31/net-of-insecurity-part-2/)

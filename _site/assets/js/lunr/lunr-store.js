@@ -108,7 +108,7 @@ var store = [{
         "teaser": null
       },{
         "title": "This week's outside five sigma (#2)",
-        "excerpt":"You can make RF cavities and filters with beautiful 3D printed copper cages shapeways RF filters made with it You can epitaxial a thin layer of NaCl and use it for liftoff scientific reports paper: Water-Soluble Epitaxial NaCl Thin Film for Fabrication of Flexible Devices Thunderbolt-5 is as cheap as...","categories": ["OFS"],
+        "excerpt":"You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor. shapeways RF filters made with it You can epitaxial a thin layer of NaCl and use it for liftoff scientific reports paper: Water-Soluble Epitaxial...","categories": ["OFS"],
         "tags": ["Nanofab","BMI","HCI","RF","3D-print"],
         "url": "/ofs/weekly-OFS-2/",
         "teaser": null
