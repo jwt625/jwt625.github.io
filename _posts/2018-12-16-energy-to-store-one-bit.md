@@ -3,7 +3,9 @@ title: "Energy to Store One Bit"
 categories:
   - Blog
 tags:
-  - Telecom
+  - Storage
+  - SSD
+  - HDD
   - Energy
 toc: True
 toc_sticky: True
