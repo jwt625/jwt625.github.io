@@ -5,6 +5,8 @@ categories:
 tags:
   - Telecom
   - Energy
+  - USB
+  - Fiber
 toc: True
 toc_sticky: True
 pin: true
