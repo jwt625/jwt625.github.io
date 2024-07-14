@@ -1,69 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-06T15:31:00-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#2)</title><link href="http://localhost:4000/ofs/weekly-OFS-2/" rel="alternate" type="text/html" title="This week’s outside five sigma (#2)" /><published>2024-07-06T00:00:00-07:00</published><updated>2024-07-06T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-2</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-2/"><![CDATA[<ol>
-  <li>You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-13T23:44:35-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#3)</title><link href="http://localhost:4000/ofs/weekly-OFS-3/" rel="alternate" type="text/html" title="This week’s outside five sigma (#3)" /><published>2024-07-13T00:00:00-07:00</published><updated>2024-07-13T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-3</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-3/"><![CDATA[<ol>
+  <li>The <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.033603">nanodumbbell</a> can now be rotated vertically with a trapping laser and a spinning laser.
     <ul>
-      <li><a href="https://www.shapeways.com/materials/copper">shapeways</a></li>
-      <li><a href="https://x.com/wavedrom/status/1809054376276738440">RF filters made with it</a>
-<img src="/assets/images/2880x720_SW_Copper-scaled.avif" alt="2880x720_SW_Copper-scaled.avif" /></li>
+      <li>PRL paper: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.253601">Long-Axis Spinning of an Optically Levitated Particle: A Levitated Spinning Top</a></li>
+      <li>the acceleration of one nanosphere is around $10^{12}g$ and the stress between them is $2~\text{GPa}$.
+<img src="/assets/images/nanodumbbell.jfif" alt="nanodumbbell.jfif" /></li>
     </ul>
   </li>
-  <li>You can epitaxial a thin layer of NaCl and use it for liftoff
+  <li>The mean center of the United States population has been moving west and south.
     <ul>
-      <li>scientific reports paper: <a href="https://www.nature.com/articles/s41598-017-09603-5">Water-Soluble Epitaxial NaCl Thin Film for Fabrication of Flexible Devices</a>
-<img src="/assets/images/41598_2017_9603_Fig1_HTML.webp" alt="41598_2017_9603_Fig1_HTML.webp" /></li>
+      <li>Wikipedia <a href="https://en.wikipedia.org/wiki/Mean_center_of_the_United_States_population">Mean center of the United States population</a>
+<img src="/assets/images/mean_center_of_population.jfif" alt="mean_center_of_population.jfif" /></li>
     </ul>
   </li>
-  <li>Thunderbolt-5 is as cheap as $23, and it offers 80 to 120 Gbps, and 240 W charging.
+  <li>“ALE is a space startup company that I started in 2011 to create the world’s first human-made shooting star.”
     <ul>
-      <li><a href="https://www.tomshardware.com/peripherals/thunderbolt/worlds-first-thunderbolt-5-cable-launched-120-gbps-and-240w-charging-for-23-dollars">Tom’s hardware</a></li>
-      <li><a href="https://www.amazon.com/dp/B0D2PK1ZQ2">Amazon</a>
-<img src="/assets/images/thunderbolt-5.webp" alt="thunderbolt-5.webp" /></li>
+      <li><a href="https://star-ale.com/en/company/">https://star-ale.com/en/company/</a>
+<img src="/assets/images/sky_canvas.jpg" alt="sky_canvas.jpg" /></li>
     </ul>
   </li>
-  <li>You could non-invasively tickle your brain with magnetic field to introduce haptics.
+  <li>You can use an array of $N$ MEMS IMU sensors to improve the performance by $\sim\sqrt{N}$.
     <ul>
-      <li>ACM paper: <a href="https://dl.acm.org/doi/10.1145/3613904.3642483">Haptic Source-Effector: Full-Body Haptics via Non-Invasive Brain Stimulation</a>
-<img src="/assets/images/Haptics-Non-invasive-Brain-Stimulation.png" alt="Haptics-Non-invasive-Brain-Stimulation.png" /></li>
+      <li>Twitter thread from <a href="https://x.com/will_whang/status/1807299074049372190">Will Whang</a></li>
+      <li>Figure from IEEE paper: <a href="https://ieeexplore.ieee.org/document/9430468">Purely Inertial Navigation with a Low-Cost MEMS Sensor Array</a>
+<img src="/assets/images/MEMS_IMU_array.jfif" alt="MEMS_IMU_array.jfif" /></li>
     </ul>
   </li>
-  <li><a href="https://www.scia-systems.com/">scia systems</a> make amazing ion beam trimming machines. It takes less than 10 min to trim a full 12 in wafers from thickness variation of 1.3 nm to 0.3 nm.
+  <li>Brushing plutonium button with wire brush and you will see sparks.
     <ul>
-      <li><a href="https://www.scia-systems.com/products/ion-beam-trimming/scia-trim-300">scia Trim 300</a>
-<img src="/assets/images/scia-trim-300.png" alt="scia-trim-300.png" /></li>
+      <li>DOE Office of Scientific and Technical INformation report: <a href="https://www.osti.gov/biblio/2282522">BYU Lecture Series: Plutonium Metal Production [Slides]</a>
+<img src="/assets/images/plutonium_metal_production.PNG" alt="plutonium_metal_production.PNG" /></li>
     </ul>
   </li>
-  <li>Daniel Fisher gave a talk in May 2019 at the Stanford Applied Physics/Physics colloquium, covered many aspects about life and physics, and the orders of magnitude.
+  <li>Researchers at Nanosystems Initiative Munich rendered a microscopic DNA on a macroscopic lathe. It might look like AI generated, only the DNA is CGI.
     <ul>
-      <li>Youtube video: <a href="https://www.youtube.com/watch?v=kRZHiU9Co70&amp;ab_channel=StanfordPhysics">Daniel Fisher - “Physicists and Evolution : Puzzles and Expectations”</a>
-<img src="/assets/images/bacteria-daniel-fisher.png" alt="bacteria-daniel-fisher.png" /></li>
+      <li>Physics article: <a href="https://physics.aps.org/articles/v14/98">A Gentle Twist on DNA</a>
+<img src="/assets/images/DNA_on_lathe.png" alt="DNA_on_lathe.png" /></li>
     </ul>
   </li>
-  <li>You can control an “elephant trunk” using just three actuators, longitudinal and two twist.
+  <li>Deep convolutional networks took inspiration of cat visual cortex, deciphered by Hubel and Wiesel in 1962 “by tapping the signals from the nerve cells in the various cell layers of the brain cortex”.
     <ul>
-      <li>Article in Physics: <a href="https://physics.aps.org/articles/v17/98">Mimicking an Elephant Trunk</a></li>
-      <li>PRL paper: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.248402">Minimal Design of the Elephant Trunk as an Active Filament
-</a>
-<img src="/assets/images/elephant-trunk-PRL.png" alt="elephant-trunk-PRL.png" /></li>
+      <li>Original paper: <a href="https://physoc.onlinelibrary.wiley.com/doi/epdf/10.1113/jphysiol.1962.sp006837">Receptive fields, binocular interaction and functional architecture in the cat’s visual cortex</a></li>
+      <li>They won the <a href="https://www.nobelprize.org/prizes/medicine/1981/summary/">1981 Nobel prize in Physiology or Medicine</a>
+<img src="/assets/images/cat_visual_cortex_receptive_fields.png" alt="cat_visual_cortex_receptive_fields.png" /></li>
     </ul>
   </li>
-  <li>A 256x192 pixel thermal camera for 8-14 um is as cheap as $200
+  <li>Using a prism and the evanescent field to couple light from free space to on-chip photonic circuits (called thin-film light guides) at the time is as early as 1970.
     <ul>
-      <li>Amazon: <a href="https://www.amazon.com/GOYOJO-Resolution-Industrial-Inspection-Detection/dp/B0CPSNT331">Mini Mobile Thermal Imager for Android Phone</a>
-<img src="/assets/images/thermal-camera-256x192.png" alt="thermal-camera-256x192.png" /></li>
+      <li>Paper from P. K. Tien and R. Ulrich: <a href="https://opg.optica.org/josa/abstract.cfm?uri=josa-60-10-1325">Theory of Prism–Film Coupler and Thin-Film Light Guides</a>
+<img src="/assets/images/experiment_arrangement_mode_spectrum_thin_film_waveguide.png" alt="experiment_arrangement_mode_spectrum_thin_film_waveguide.png" /></li>
     </ul>
   </li>
-  <li>Pose estimation / tracking location of people indoor has been a thing for quite a while (2018)
+  <li>Chick-fil-A has better edge compute and IoT data logging than many of your SaaS companies
     <ul>
-      <li><a href="http://rfpose.csail.mit.edu/">Through-Wall Human Pose Estimation Using Radio Signals</a>
-<img src="/assets/images/human-pose-estimation-radio-wifi.png" alt="human-pose-estimation-radio-wifi.png" /></li>
+      <li>Medium article: <a href="https://medium.com/chick-fil-atech/observability-at-the-edge-b2385065ab6e">Observability at the Edge</a>
+<img src="/assets/images/chick_fil_A_edge_observability.jfif" alt="chick_fil_A_edge_observability.jfif" /></li>
     </ul>
   </li>
-  <li>E. Coli’s flagella motors could exist in bundles with interlocked gears to sync their rotations
+  <li>The Mpemba effect is the name given to the observation that a liquid (typically water) which is initially hot can freeze faster than the same liquid which begins cold, under otherwise similar conditions.
     <ul>
-      <li>PNAS paper: <a href="https://www.pnas.org/doi/full/10.1073/pnas.1215274109">Architecture of a flagellar apparatus in the fast-swimming magnetotactic bacterium MO-1</a>
-<img src="/assets/images/flagella-motor-bundle-SEM.png" alt="flagella-motor-bundle-SEM.png" /></li>
+      <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/Mpemba_effect">Mpemba effect</a></li>
+      <li>Original paper from E. B. Mpemba: <a href="https://iopscience.iop.org/article/10.1088/0031-9120/4/3/312">Cool?</a>
+<img src="/assets/images/Mpemba_Effect_temperatures_plot.png" alt="Mpemba_Effect_temperatures_plot.png" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="BMI" /><category term="HCI" /><category term="RF" /><category term="3D-print" /><summary type="html"><![CDATA[You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor. shapeways RF filters made with it]]></summary></entry><entry><title type="html">This week’s outside five sigma (#1)</title><link href="http://localhost:4000/ofs/weekly-OFS-1/" rel="alternate" type="text/html" title="This week’s outside five sigma (#1)" /><published>2024-06-30T00:00:00-07:00</published><updated>2024-06-30T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-1</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-1/"><![CDATA[<p>This is the first weekly outside five sigma. I’ll slowly figure out what is the best format. Right now I’m thinking one sentence, with one image, and one source.</p>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanosphere" /><category term="Satellite" /><category term="MEMS" /><category term="Plutonium" /><category term="DNA" /><category term="CNN" /><category term="Photonics" /><category term="IoT" /><summary type="html"><![CDATA[The nanodumbbell can now be rotated vertically with a trapping laser and a spinning laser. PRL paper: Long-Axis Spinning of an Optically Levitated Particle: A Levitated Spinning Top the acceleration of one nanosphere is around $10^{12}g$ and the stress between them is $2~\text{GPa}$.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#2)</title><link href="http://localhost:4000/ofs/weekly-OFS-2/" rel="alternate" type="text/html" title="This week’s outside five sigma (#2)" /><published>2024-07-06T00:00:00-07:00</published><updated>2024-07-06T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-2</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-2/"><![CDATA[1. You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor.
+- [shapeways](https://www.shapeways.com/materials/copper)
+- [RF filters made with it](https://x.com/wavedrom/status/1809054376276738440)
+![2880x720_SW_Copper-scaled.avif](/assets/images/2880x720_SW_Copper-scaled.avif)
+
+
+2. You can epitaxial a thin layer of NaCl and use it for liftoff
+- scientific reports paper: [Water-Soluble Epitaxial NaCl Thin Film for Fabrication of Flexible Devices](https://www.nature.com/articles/s41598-017-09603-5)
+![41598_2017_9603_Fig1_HTML.webp](/assets/images/41598_2017_9603_Fig1_HTML.webp)
+
+
+3. Thunderbolt-5 is as cheap as $23, and it offers 80 to 120 Gbps, and 240 W charging.
+- [Tom's hardware](https://www.tomshardware.com/peripherals/thunderbolt/worlds-first-thunderbolt-5-cable-launched-120-gbps-and-240w-charging-for-23-dollars)
+- [Amazon](https://www.amazon.com/dp/B0D2PK1ZQ2)
+![thunderbolt-5.webp](/assets/images/thunderbolt-5.webp)
+
+4. You could non-invasively tickle your brain with magnetic field to introduce haptics.
+- ACM paper: [Haptic Source-Effector: Full-Body Haptics via Non-Invasive Brain Stimulation](https://dl.acm.org/doi/10.1145/3613904.3642483)
+![Haptics-Non-invasive-Brain-Stimulation.png](/assets/images/Haptics-Non-invasive-Brain-Stimulation.png)
+
+
+5. [scia systems](https://www.scia-systems.com/) make amazing ion beam trimming machines. It takes less than 10 min to trim a full 12 in wafers from thickness variation of 1.3 nm to 0.3 nm.
+- [scia Trim 300](https://www.scia-systems.com/products/ion-beam-trimming/scia-trim-300)
+![scia-trim-300.png](/assets/images/scia-trim-300.png)
+
+
+6. Daniel Fisher gave a talk in May 2019 at the Stanford Applied Physics/Physics colloquium, covered many aspects about life and physics, and the orders of magnitude.
+- Youtube video: [Daniel Fisher - “Physicists and Evolution : Puzzles and Expectations”](https://www.youtube.com/watch?v=kRZHiU9Co70&ab_channel=StanfordPhysics)
+![bacteria-daniel-fisher.png](/assets/images/bacteria-daniel-fisher.png)
+
+
+7. You can control an "elephant trunk" using just three actuators, longitudinal and two twist.
+- Article in Physics: [Mimicking an Elephant Trunk](https://physics.aps.org/articles/v17/98)
+- PRL paper: [Minimal Design of the Elephant Trunk as an Active Filament
+](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.248402)
+![elephant-trunk-PRL.png](/assets/images/elephant-trunk-PRL.png)
+
+
+8. A 256x192 pixel thermal camera for 8-14 um is as cheap as $200
+- Amazon: [Mini Mobile Thermal Imager for Android Phone](https://www.amazon.com/GOYOJO-Resolution-Industrial-Inspection-Detection/dp/B0CPSNT331)
+![thermal-camera-256x192.png](/assets/images/thermal-camera-256x192.png)
+
+
+9. Pose estimation / tracking location of people indoor has been a thing for quite a while (2018)
+- [Through-Wall Human Pose Estimation Using Radio Signals](http://rfpose.csail.mit.edu/)
+![human-pose-estimation-radio-wifi.png](/assets/images/human-pose-estimation-radio-wifi.png)
+
+
+10. E. Coli's flagella motors could exist in bundles with interlocked gears to sync their rotations
+- PNAS paper: [Architecture of a flagellar apparatus in the fast-swimming magnetotactic bacterium MO-1](https://www.pnas.org/doi/full/10.1073/pnas.1215274109)
+![flagella-motor-bundle-SEM.png](/assets/images/flagella-motor-bundle-SEM.png)]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="BMI" /><category term="HCI" /><category term="RF" /><category term="3D-print" /><category term="Actuator" /><category term="Camera" /><summary type="html"><![CDATA[You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor. shapeways RF filters made with it]]></summary></entry><entry><title type="html">This week’s outside five sigma (#1)</title><link href="http://localhost:4000/ofs/weekly-OFS-1/" rel="alternate" type="text/html" title="This week’s outside five sigma (#1)" /><published>2024-06-30T00:00:00-07:00</published><updated>2024-06-30T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-1</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-1/"><![CDATA[<p>This is the first weekly outside five sigma. I’ll slowly figure out what is the best format. Right now I’m thinking one sentence, with one image, and one source.</p>
 
 <ol>
   <li>The Border Gateway Protocol (BGP) was sketched out in 1989 by engineers on the back of “three ketchup-stained napkins”, and is still known as the three-napkin protocol.
@@ -273,31 +323,7 @@
 
 <p>[7] R. S. Tucker, “Green Optical Communications - Part I: Energy Limitations in Transport,” IEEE J Sel. Top. Quant. 17, 245 (2011).</p>
 
-<p>(First published at <a href="http://large.stanford.edu/courses/2018/ph240/jiang1/">http://large.stanford.edu/courses/2018/ph240/jiang1/</a>)</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Telecom" /><category term="Energy" /><category term="USB" /><category term="Fiber" /><summary type="html"><![CDATA[TL;DR: ~ 10 pJ for electrical and 1 ~ 10 fJ for optical. These are order of magnitude estimations and could be very off from actual numbers. For more practical numbers, Prof. David Miller has a great paper in 2017 on energies for optoelectronic communications. If you find this article interesting, check out his paper: Attojoule Optoelectronics for Low-Energy Information Processing and Communications.]]></summary></entry><entry><title type="html">Qutip tips</title><link href="http://localhost:4000/tips/qutip-tips/" rel="alternate" type="text/html" title="Qutip tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/qutip-tips</id><content type="html" xml:base="http://localhost:4000/tips/qutip-tips/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/09/qutip-tips.html">Blogspot</a>. Bear with my broken English at the time.)</p>
-
-<h2 id="installation">Installation</h2>
-
-<p>See <a href="http://qutip.org/docs/latest/index.html">qutip manual</a> first.</p>
-
-<p>On Linux:</p>
-
-<ul>
-  <li>If <code class="language-plaintext highlighter-rouge">conda install qutip</code> reports package not found, use <code class="language-plaintext highlighter-rouge">conda install -c conda-forge qutip </code> or <code class="language-plaintext highlighter-rouge">conda install -c conda-forge/label/broken qutip</code> (from https://anaconda.org/conda-forge/qutip)</li>
-  <li>When run testing (see <a href="http://qutip.org/docs/latest/installation.html#verifying-the-installation">qutip manual</a>) and encountered error about gcc or cc1plus, install gcc or g++, or reinstall them using <code class="language-plaintext highlighter-rouge">sudo apt-get install --reinstall gcc</code>.</li>
-</ul>
-
-<h2 id="usage">Usage</h2>
-
-<h2 id="resources">Resources</h2>
-
-<ul>
-  <li><a href="https://github.com/jrjohansson/qutip-lectures">qutip lectures</a></li>
-  <li><a href="http://nbviewer.jupyter.org/github/qutip/qutip-notebooks/tree/master/examples/">qutip examples</a></li>
-</ul>
-
-<blockquote>
-  <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
-</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="Qutip" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Jupyter Notebook Tips</title><link href="http://localhost:4000/tips/jupyter-tips/" rel="alternate" type="text/html" title="Jupyter Notebook Tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/jupyter-tips</id><content type="html" xml:base="http://localhost:4000/tips/jupyter-tips/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/09/jupyter-notebook-tips.html">Blogspot</a>. Bear with my broken English at the time.)</p>
+<p>(First published at <a href="http://large.stanford.edu/courses/2018/ph240/jiang1/">http://large.stanford.edu/courses/2018/ph240/jiang1/</a>)</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Telecom" /><category term="Energy" /><category term="USB" /><category term="Fiber" /><summary type="html"><![CDATA[TL;DR: ~ 10 pJ for electrical and 1 ~ 10 fJ for optical. These are order of magnitude estimations and could be very off from actual numbers. For more practical numbers, Prof. David Miller has a great paper in 2017 on energies for optoelectronic communications. If you find this article interesting, check out his paper: Attojoule Optoelectronics for Low-Energy Information Processing and Communications.]]></summary></entry><entry><title type="html">Jupyter Notebook Tips</title><link href="http://localhost:4000/tips/jupyter-tips/" rel="alternate" type="text/html" title="Jupyter Notebook Tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/jupyter-tips</id><content type="html" xml:base="http://localhost:4000/tips/jupyter-tips/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/09/jupyter-notebook-tips.html">Blogspot</a>. Bear with my broken English at the time.)</p>
 
 <h2 id="shortcuts">Shortcuts</h2>
 
@@ -445,7 +471,31 @@
 
 <blockquote>
   <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
-</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="JupyterNotebook" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Use Bold SimHei in CTeX (and in THUThesis)</title><link href="http://localhost:4000/tips/using-bold-simHei-Thuthesis/" rel="alternate" type="text/html" title="Use Bold SimHei in CTeX (and in THUThesis)" /><published>2017-06-11T00:00:00-07:00</published><updated>2017-06-11T00:00:00-07:00</updated><id>http://localhost:4000/tips/using-bold-simHei-Thuthesis</id><content type="html" xml:base="http://localhost:4000/tips/using-bold-simHei-Thuthesis/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/06/use-bold-simhei-in-ctex-and-in-thuthesis.html">Blogspot</a>. Bear with my broken English at the time.)</p>
+</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="JupyterNotebook" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Qutip tips</title><link href="http://localhost:4000/tips/qutip-tips/" rel="alternate" type="text/html" title="Qutip tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/qutip-tips</id><content type="html" xml:base="http://localhost:4000/tips/qutip-tips/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/09/qutip-tips.html">Blogspot</a>. Bear with my broken English at the time.)</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>See <a href="http://qutip.org/docs/latest/index.html">qutip manual</a> first.</p>
+
+<p>On Linux:</p>
+
+<ul>
+  <li>If <code class="language-plaintext highlighter-rouge">conda install qutip</code> reports package not found, use <code class="language-plaintext highlighter-rouge">conda install -c conda-forge qutip </code> or <code class="language-plaintext highlighter-rouge">conda install -c conda-forge/label/broken qutip</code> (from https://anaconda.org/conda-forge/qutip)</li>
+  <li>When run testing (see <a href="http://qutip.org/docs/latest/installation.html#verifying-the-installation">qutip manual</a>) and encountered error about gcc or cc1plus, install gcc or g++, or reinstall them using <code class="language-plaintext highlighter-rouge">sudo apt-get install --reinstall gcc</code>.</li>
+</ul>
+
+<h2 id="usage">Usage</h2>
+
+<h2 id="resources">Resources</h2>
+
+<ul>
+  <li><a href="https://github.com/jrjohansson/qutip-lectures">qutip lectures</a></li>
+  <li><a href="http://nbviewer.jupyter.org/github/qutip/qutip-notebooks/tree/master/examples/">qutip examples</a></li>
+</ul>
+
+<blockquote>
+  <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
+</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="Qutip" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Use Bold SimHei in CTeX (and in THUThesis)</title><link href="http://localhost:4000/tips/using-bold-simHei-Thuthesis/" rel="alternate" type="text/html" title="Use Bold SimHei in CTeX (and in THUThesis)" /><published>2017-06-11T00:00:00-07:00</published><updated>2017-06-11T00:00:00-07:00</updated><id>http://localhost:4000/tips/using-bold-simHei-Thuthesis</id><content type="html" xml:base="http://localhost:4000/tips/using-bold-simHei-Thuthesis/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/06/use-bold-simhei-in-ctex-and-in-thuthesis.html">Blogspot</a>. Bear with my broken English at the time.)</p>
 
 <h2 id="problem">Problem</h2>
 
@@ -507,26 +557,4 @@ where the last line of the document generates the same ‘font undefined’ erro
 <p>Finally, I could include the font in <code class="language-plaintext highlighter-rouge">main.tex</code> for my thesis by <code class="language-plaintext highlighter-rouge">\newCJKfontfamily\htbd{SimHeiBoldTmp}</code> and the modified <code class="language-plaintext highlighter-rouge">thuthesis.cls</code> file to use bold SimHei for the subtitle.</p>
 
 <p>Below is the comparison between old cover, new cover and the example cover
-<img src="https://lh3.googleusercontent.com/7zcUMZaUzOmpH_TmXkhaPCtvzQ97EUnx0S67g58hb3vtCkEKdMtdFVaurAVki2KbhoFQefo=s700" alt="comparison" title="comparison.png" /></p>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="LaTeX" /><category term="Tsinghua" /><category term="Thesis" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Tips for LaTeXing in Sublime</title><link href="http://localhost:4000/tips/Tips-for-LaTeXing-in-Sublime/" rel="alternate" type="text/html" title="Tips for LaTeXing in Sublime" /><published>2017-05-23T00:00:00-07:00</published><updated>2017-05-23T00:00:00-07:00</updated><id>http://localhost:4000/tips/Tips-for-LaTeXing-in-Sublime</id><content type="html" xml:base="http://localhost:4000/tips/Tips-for-LaTeXing-in-Sublime/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/05/tips-for-latexing-in-sublime.html">Blogspot</a>. Bear with my broken English at the time.)</p>
-
-<h1 id="environment">Environment</h1>
-<p>I’m using Sublime (both 2 and 3) on Windows, with <a href="https://github.com/SublimeText/LaTeXTools">LaTeXTools</a> plugin for using LaTeX.</p>
-
-<h1 id="shortcuts-for-latextools">Shortcuts for LaTeXTools</h1>
-<p>Comma means its a ‘combo’ shortcut, you push the first set of buttons and then the second button.</p>
-
-<p>delete temp files: <code class="language-plaintext highlighter-rouge">ctrl+l</code>, <code class="language-plaintext highlighter-rouge">Backspace</code>
-forward search in pdf: <code class="language-plaintext highlighter-rouge">ctrl+l, j</code>
-More to be added.</p>
-
-<h1 id="inverse-search-from-sumatra-pdf">Inverse search from Sumatra PDF</h1>
-<p>The default option for Sumatra PDF to perform inverse search might be WinEdit. I’d like it to be Sublime.</p>
-
-<p>So for me in Sumatra PDF, go to <code class="language-plaintext highlighter-rouge">Settings -&gt; Options</code>, set the inverse search command to <code class="language-plaintext highlighter-rouge">"C:\Program Files\Sublime Text 3\sublime_text.exe" "%f:%l"</code></p>
-
-<p>If you are using other editors, you can refer to <a href="https://tex.stackexchange.com/questions/125546/the-sumatrapdf-inverse-search-for-any-arbitrary-editor">The SumatraPDF Inverse-Search for any arbitrary Editor</a>.</p>
-
-<h1 id="auto-completion-for-labels-and-refs-across-multiple-files">Auto-completion for labels and refs across multiple files</h1>
-<p>Looks like it’s supported. Simply add %!TEX root = relativePathToYour/main.tex on the first line of your separated .tex file.</p>
-
-<p>See <a href="https://tex.stackexchange.com/questions/345519/sublime-text-reference-completion-across-multiple-files-using-latextools-and-im">Sublime Text: Reference completion across multiple files using LaTeXTools and import</a> for reference.</p>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="LaTeX" /><category term="Sublime" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry></feed>
+<img src="https://lh3.googleusercontent.com/7zcUMZaUzOmpH_TmXkhaPCtvzQ97EUnx0S67g58hb3vtCkEKdMtdFVaurAVki2KbhoFQefo=s700" alt="comparison" title="comparison.png" /></p>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="LaTeX" /><category term="Tsinghua" /><category term="Thesis" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry></feed>
