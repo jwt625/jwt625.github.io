@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-13T23:44:35-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#3)</title><link href="http://localhost:4000/ofs/weekly-OFS-3/" rel="alternate" type="text/html" title="This week’s outside five sigma (#3)" /><published>2024-07-13T00:00:00-07:00</published><updated>2024-07-13T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-3</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-3/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-19T22:59:24-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">How to wirebond (practical)</title><link href="http://localhost:4000/tutorial/how-to-wirebond/" rel="alternate" type="text/html" title="How to wirebond (practical)" /><published>2024-07-19T00:00:00-07:00</published><updated>2024-07-19T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/how-to-wirebond</id><content type="html" xml:base="http://localhost:4000/tutorial/how-to-wirebond/"><![CDATA[<p>What you are looking at is a microwave coplanar waveguide, sitting on an overpriced (?) PCB from Rogers, with the ground and signal wirebonded, under the stereoscope of a manual <a href="https://snsf.stanford.edu/facilities/fab/wirebonder">West Bond 7476E wire bonder</a>.</p>
+
+<p><img src="/assets/images/West-Bond-7476E.jpg" alt="West-Bond-7476E.jpg" /></p>
+
+<p>I choose wirebonding as the topic of the first blog of hopefully a series about practical nanofabrication, because it was the first tool I got trained to use in the early 2015, and it was the last tool I used before I draw an end of my hands-on nanofab journey at Stanford. It is also at a good scale, the boundary between the macro and micro world, where things are small yet not too small for you to see under optical microscope, and you got to control, touch, and feel things with your own hands (the manual wireebonder pretty much shrinks the motion of your hand, and really feels like an extension of your arm after you get good at it). Let’s jump right in after I throw some reference for <a href="https://en.wikipedia.org/wiki/Wire_bonding">basics</a> and <a href="https://www.accessengineeringlibrary.com/content/book/9780071476232">advanced</a> (also on <a href="https://www.amazon.com/WIRE-BONDING-MICROELECTRONICS-George-Harman/dp/0071476237">Amazon</a>). This book is really really good. If you are not satisfied by the emprical practice or suspecting the statements here (as you always should), read and trust this book instead.</p>
+
+<h1 id="preparation">Preparation</h1>
+
+<p>When you come and sit in front of the wirebonder, the first, and the most important advice, which is also the first one I got during my training, is to make yourself comfortable. Adjust the chair, loosen your belt, collar or tie, whatever you need. You will need focus and endurance, and making yourself comfortable is as important as making your chip feel secure and comfortable. I would also give this advice in general for nanofab, you should warm up your arms, wrists and fingers before you develop in 25% TMAH or pour some acids. I’m getting derailed, let’s focus back on wirebonding.</p>
+
+<p>After you’ve prepared yourself, it’s time to prepare your sample. Actually it is usually done before you come to the wirebonder, preparing, soldering and cleaning the PCB, gluing the chip to the PCB etc. Maybe these will be covered in a future blog (I’m learning from the academics as they cite themselves and say <em>in preparation</em>). What is worth mentioning here is that, you should keep the height of the wirebonder wedge/tip in mind when you design your own fixture, or the size and height of the holder and spacer aluminum blocks you have. Does your PCB fits between the clamps? Is it ok to double-sided tape your PCB to the holder/Al block? Will it crack when you try to pry it off the double-sided tape? Will the PCB bend and pop your chip out of it? Run the whole process of getting your sample under the wirebonder tip during the preparation in your head, as well as how you are going to safely remove it afterwards.</p>
+
+<p>It’s also worth mentioning that how well your chip and PCB are secured can affect your whole wirebonding experience because it affects <strong>how well the ultrasonic power is applied and absorbed</strong>. Avoid holding and securing your jig or fixture by hand. Your hand is a very good vibration attenuator even without you sensing any of the vibration at the ultrasonic frequency and its short duration. You want the power to be dissipated and absorbed at the wirebonding interface, i.e., between the wire and the metal pad, not by your finger, and not by the wacky glue or epoxy. Clamp your PCB is better than taping it. If you have to, use thinner tape, and tape it firmly. Make sure you have fully cured or baked the adhesive/epoxy you have under or around your chip, and make sure the chip and PCB is horizontal. Most wirebonders do not have the luxury of tilting the tip to match the surface of your chip. Avoid using 3D printed jig as they are too light. If you do, clamp or tape it to a more heavy and firm metal holder or block.</p>
+
+<h1 id="parameters">Parameters</h1>
+
+<p>You turn on the machine, and start flipping through the settings. I do not have it in front of me, but I’m familiar with it enough to see all the settings, and so should you after using it a handful of times, at least for the most important ones. The West Bond machines have recommended values for most parameters, and you would need to be doing crazy shit (like trying to wirebond with NbTi wires) to go more than 0.3x or 3x of the recommendation (and it still did not work).</p>
+
+<p>The most important ones are <strong>power</strong>, and <strong>duration</strong>, for both bond one and two. When you see the squished wire is too flat, either the power or the duration is too high. The next most important parameter is the force, controlled by a spring that can be adjusted by a knob holding it. Most staff member would tell you not to ever touch the force, but I always at least check the force. You never know what state the previous user would leave the tool in. This is how the force gauge looks like:</p>
+
+<p><img src="/assets/images/9101-04A-tester-gauge-with-hook-5-50-grams.jfif" alt="9101-04A-tester-gauge-with-hook-5-50-grams.jfif" /></p>
+
+<p><em>Force gauge, from <a href="https://www.terrauniversal.com/portable-wire-bond-strength-tester.html">Terra Universal</a></em></p>
+
+<p>To be continued…</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Wirebond" /><category term="Packaging" /><summary type="html"><![CDATA[What you are looking at is a microwave coplanar waveguide, sitting on an overpriced (?) PCB from Rogers, with the ground and signal wirebonded, under the stereoscope of a manual West Bond 7476E wire bonder.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#3)</title><link href="http://localhost:4000/ofs/weekly-OFS-3/" rel="alternate" type="text/html" title="This week’s outside five sigma (#3)" /><published>2024-07-13T00:00:00-07:00</published><updated>2024-07-13T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-3</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-3/"><![CDATA[<ol>
   <li>The <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.033603">nanodumbbell</a> can now be rotated vertically with a trapping laser and a spinning laser.
     <ul>
       <li>PRL paper: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.253601">Long-Axis Spinning of an Optically Levitated Particle: A Levitated Spinning Top</a></li>
@@ -63,57 +87,72 @@
 <img src="/assets/images/Mpemba_Effect_temperatures_plot.png" alt="Mpemba_Effect_temperatures_plot.png" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanosphere" /><category term="Satellite" /><category term="MEMS" /><category term="Plutonium" /><category term="DNA" /><category term="CNN" /><category term="Photonics" /><category term="IoT" /><summary type="html"><![CDATA[The nanodumbbell can now be rotated vertically with a trapping laser and a spinning laser. PRL paper: Long-Axis Spinning of an Optically Levitated Particle: A Levitated Spinning Top the acceleration of one nanosphere is around $10^{12}g$ and the stress between them is $2~\text{GPa}$.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#2)</title><link href="http://localhost:4000/ofs/weekly-OFS-2/" rel="alternate" type="text/html" title="This week’s outside five sigma (#2)" /><published>2024-07-06T00:00:00-07:00</published><updated>2024-07-06T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-2</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-2/"><![CDATA[1. You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor.
-- [shapeways](https://www.shapeways.com/materials/copper)
-- [RF filters made with it](https://x.com/wavedrom/status/1809054376276738440)
-![2880x720_SW_Copper-scaled.avif](/assets/images/2880x720_SW_Copper-scaled.avif)
-
-
-2. You can epitaxial a thin layer of NaCl and use it for liftoff
-- scientific reports paper: [Water-Soluble Epitaxial NaCl Thin Film for Fabrication of Flexible Devices](https://www.nature.com/articles/s41598-017-09603-5)
-![41598_2017_9603_Fig1_HTML.webp](/assets/images/41598_2017_9603_Fig1_HTML.webp)
-
-
-3. Thunderbolt-5 is as cheap as $23, and it offers 80 to 120 Gbps, and 240 W charging.
-- [Tom's hardware](https://www.tomshardware.com/peripherals/thunderbolt/worlds-first-thunderbolt-5-cable-launched-120-gbps-and-240w-charging-for-23-dollars)
-- [Amazon](https://www.amazon.com/dp/B0D2PK1ZQ2)
-![thunderbolt-5.webp](/assets/images/thunderbolt-5.webp)
-
-4. You could non-invasively tickle your brain with magnetic field to introduce haptics.
-- ACM paper: [Haptic Source-Effector: Full-Body Haptics via Non-Invasive Brain Stimulation](https://dl.acm.org/doi/10.1145/3613904.3642483)
-![Haptics-Non-invasive-Brain-Stimulation.png](/assets/images/Haptics-Non-invasive-Brain-Stimulation.png)
-
-
-5. [scia systems](https://www.scia-systems.com/) make amazing ion beam trimming machines. It takes less than 10 min to trim a full 12 in wafers from thickness variation of 1.3 nm to 0.3 nm.
-- [scia Trim 300](https://www.scia-systems.com/products/ion-beam-trimming/scia-trim-300)
-![scia-trim-300.png](/assets/images/scia-trim-300.png)
-
-
-6. Daniel Fisher gave a talk in May 2019 at the Stanford Applied Physics/Physics colloquium, covered many aspects about life and physics, and the orders of magnitude.
-- Youtube video: [Daniel Fisher - “Physicists and Evolution : Puzzles and Expectations”](https://www.youtube.com/watch?v=kRZHiU9Co70&ab_channel=StanfordPhysics)
-![bacteria-daniel-fisher.png](/assets/images/bacteria-daniel-fisher.png)
-
-
-7. You can control an "elephant trunk" using just three actuators, longitudinal and two twist.
-- Article in Physics: [Mimicking an Elephant Trunk](https://physics.aps.org/articles/v17/98)
-- PRL paper: [Minimal Design of the Elephant Trunk as an Active Filament
-](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.248402)
-![elephant-trunk-PRL.png](/assets/images/elephant-trunk-PRL.png)
-
-
-8. A 256x192 pixel thermal camera for 8-14 um is as cheap as $200
-- Amazon: [Mini Mobile Thermal Imager for Android Phone](https://www.amazon.com/GOYOJO-Resolution-Industrial-Inspection-Detection/dp/B0CPSNT331)
-![thermal-camera-256x192.png](/assets/images/thermal-camera-256x192.png)
-
-
-9. Pose estimation / tracking location of people indoor has been a thing for quite a while (2018)
-- [Through-Wall Human Pose Estimation Using Radio Signals](http://rfpose.csail.mit.edu/)
-![human-pose-estimation-radio-wifi.png](/assets/images/human-pose-estimation-radio-wifi.png)
-
-
-10. E. Coli's flagella motors could exist in bundles with interlocked gears to sync their rotations
-- PNAS paper: [Architecture of a flagellar apparatus in the fast-swimming magnetotactic bacterium MO-1](https://www.pnas.org/doi/full/10.1073/pnas.1215274109)
-![flagella-motor-bundle-SEM.png](/assets/images/flagella-motor-bundle-SEM.png)]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="BMI" /><category term="HCI" /><category term="RF" /><category term="3D-print" /><category term="Actuator" /><category term="Camera" /><summary type="html"><![CDATA[You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor. shapeways RF filters made with it]]></summary></entry><entry><title type="html">This week’s outside five sigma (#1)</title><link href="http://localhost:4000/ofs/weekly-OFS-1/" rel="alternate" type="text/html" title="This week’s outside five sigma (#1)" /><published>2024-06-30T00:00:00-07:00</published><updated>2024-06-30T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-1</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-1/"><![CDATA[<p>This is the first weekly outside five sigma. I’ll slowly figure out what is the best format. Right now I’m thinking one sentence, with one image, and one source.</p>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanosphere" /><category term="Satellite" /><category term="MEMS" /><category term="Plutonium" /><category term="DNA" /><category term="CNN" /><category term="Photonics" /><category term="IoT" /><summary type="html"><![CDATA[The nanodumbbell can now be rotated vertically with a trapping laser and a spinning laser. PRL paper: Long-Axis Spinning of an Optically Levitated Particle: A Levitated Spinning Top the acceleration of one nanosphere is around $10^{12}g$ and the stress between them is $2~\text{GPa}$.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#2)</title><link href="http://localhost:4000/ofs/weekly-OFS-2/" rel="alternate" type="text/html" title="This week’s outside five sigma (#2)" /><published>2024-07-06T00:00:00-07:00</published><updated>2024-07-06T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-2</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-2/"><![CDATA[<ol>
+  <li>You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor.
+    <ul>
+      <li><a href="https://www.shapeways.com/materials/copper">shapeways</a></li>
+      <li><a href="https://x.com/wavedrom/status/1809054376276738440">RF filters made with it</a>
+<img src="/assets/images/2880x720_SW_Copper-scaled.avif" alt="2880x720_SW_Copper-scaled.avif" /></li>
+    </ul>
+  </li>
+  <li>You can epitaxial a thin layer of NaCl and use it for liftoff
+    <ul>
+      <li>scientific reports paper: <a href="https://www.nature.com/articles/s41598-017-09603-5">Water-Soluble Epitaxial NaCl Thin Film for Fabrication of Flexible Devices</a>
+<img src="/assets/images/41598_2017_9603_Fig1_HTML.webp" alt="41598_2017_9603_Fig1_HTML.webp" /></li>
+    </ul>
+  </li>
+  <li>Thunderbolt-5 is as cheap as $23, and it offers 80 to 120 Gbps, and 240 W charging.
+    <ul>
+      <li><a href="https://www.tomshardware.com/peripherals/thunderbolt/worlds-first-thunderbolt-5-cable-launched-120-gbps-and-240w-charging-for-23-dollars">Tom’s hardware</a></li>
+      <li><a href="https://www.amazon.com/dp/B0D2PK1ZQ2">Amazon</a>
+<img src="/assets/images/thunderbolt-5.webp" alt="thunderbolt-5.webp" /></li>
+    </ul>
+  </li>
+  <li>You could non-invasively tickle your brain with magnetic field to introduce haptics.
+    <ul>
+      <li>ACM paper: <a href="https://dl.acm.org/doi/10.1145/3613904.3642483">Haptic Source-Effector: Full-Body Haptics via Non-Invasive Brain Stimulation</a>
+<img src="/assets/images/Haptics-Non-invasive-Brain-Stimulation.png" alt="Haptics-Non-invasive-Brain-Stimulation.png" /></li>
+    </ul>
+  </li>
+  <li><a href="https://www.scia-systems.com/">scia systems</a> make amazing ion beam trimming machines. It takes less than 10 min to trim a full 12 in wafers from thickness variation of 1.3 nm to 0.3 nm.
+    <ul>
+      <li><a href="https://www.scia-systems.com/products/ion-beam-trimming/scia-trim-300">scia Trim 300</a>
+<img src="/assets/images/scia-trim-300.png" alt="scia-trim-300.png" /></li>
+    </ul>
+  </li>
+  <li>Daniel Fisher gave a talk in May 2019 at the Stanford Applied Physics/Physics colloquium, covered many aspects about life and physics, and the orders of magnitude.
+    <ul>
+      <li>Youtube video: <a href="https://www.youtube.com/watch?v=kRZHiU9Co70&amp;ab_channel=StanfordPhysics">Daniel Fisher - “Physicists and Evolution : Puzzles and Expectations”</a>
+<img src="/assets/images/bacteria-daniel-fisher.png" alt="bacteria-daniel-fisher.png" /></li>
+    </ul>
+  </li>
+  <li>You can control an “elephant trunk” using just three actuators, longitudinal and two twist.
+    <ul>
+      <li>Article in Physics: <a href="https://physics.aps.org/articles/v17/98">Mimicking an Elephant Trunk</a></li>
+      <li>PRL paper: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.248402">Minimal Design of the Elephant Trunk as an Active Filament
+</a>
+<img src="/assets/images/elephant-trunk-PRL.png" alt="elephant-trunk-PRL.png" /></li>
+    </ul>
+  </li>
+  <li>A 256x192 pixel thermal camera for 8-14 um is as cheap as $200
+    <ul>
+      <li>Amazon: <a href="https://www.amazon.com/GOYOJO-Resolution-Industrial-Inspection-Detection/dp/B0CPSNT331">Mini Mobile Thermal Imager for Android Phone</a>
+<img src="/assets/images/thermal-camera-256x192.png" alt="thermal-camera-256x192.png" /></li>
+    </ul>
+  </li>
+  <li>Pose estimation / tracking location of people indoor has been a thing for quite a while (2018)
+    <ul>
+      <li><a href="http://rfpose.csail.mit.edu/">Through-Wall Human Pose Estimation Using Radio Signals</a>
+<img src="/assets/images/human-pose-estimation-radio-wifi.png" alt="human-pose-estimation-radio-wifi.png" /></li>
+    </ul>
+  </li>
+  <li>E. Coli’s flagella motors could exist in bundles with interlocked gears to sync their rotations
+    <ul>
+      <li>PNAS paper: <a href="https://www.pnas.org/doi/full/10.1073/pnas.1215274109">Architecture of a flagellar apparatus in the fast-swimming magnetotactic bacterium MO-1</a>
+<img src="/assets/images/flagella-motor-bundle-SEM.png" alt="flagella-motor-bundle-SEM.png" /></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="BMI" /><category term="HCI" /><category term="RF" /><category term="3D-print" /><category term="Actuator" /><category term="Camera" /><summary type="html"><![CDATA[You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor. shapeways RF filters made with it]]></summary></entry><entry><title type="html">This week’s outside five sigma (#1)</title><link href="http://localhost:4000/ofs/weekly-OFS-1/" rel="alternate" type="text/html" title="This week’s outside five sigma (#1)" /><published>2024-06-30T00:00:00-07:00</published><updated>2024-06-30T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-1</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-1/"><![CDATA[<p>This is the first weekly outside five sigma. I’ll slowly figure out what is the best format. Right now I’m thinking one sentence, with one image, and one source.</p>
 
 <ol>
   <li>The Border Gateway Protocol (BGP) was sketched out in 1989 by engineers on the back of “three ketchup-stained napkins”, and is still known as the three-napkin protocol.
@@ -495,66 +534,4 @@
 
 <blockquote>
   <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
-</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="Qutip" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Use Bold SimHei in CTeX (and in THUThesis)</title><link href="http://localhost:4000/tips/using-bold-simHei-Thuthesis/" rel="alternate" type="text/html" title="Use Bold SimHei in CTeX (and in THUThesis)" /><published>2017-06-11T00:00:00-07:00</published><updated>2017-06-11T00:00:00-07:00</updated><id>http://localhost:4000/tips/using-bold-simHei-Thuthesis</id><content type="html" xml:base="http://localhost:4000/tips/using-bold-simHei-Thuthesis/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/06/use-bold-simhei-in-ctex-and-in-thuthesis.html">Blogspot</a>. Bear with my broken English at the time.)</p>
-
-<h2 id="problem">Problem</h2>
-
-<p>Tsinghua requires the subtitle of undergrad thesis to be in Bold SimHei, but in the current version of <a href="https://github.com/xueruini/thuthesis">THUThesis</a> template it’s SimHei, not Bold SimHei (might be fixed when you read this).</p>
-
-<p>The easiest way to do this is to make the cover in Word, convert it to pdf and replace the old cover. I don’t want to do it in this way because I can’t learn anything through it.</p>
-
-<p>Firstly I have to find out where THUThesis defines and describes the cover, etc.</p>
-
-<h2 id="modify-thuthesis">Modify THUThesis</h2>
-
-<p><code class="language-plaintext highlighter-rouge">thuthesis.cfg</code> defines commands that stand for some common content, such as the content on the cover page and on the authorization page. You can find <code class="language-plaintext highlighter-rouge">\thu@bachelor@subtitle</code> in it.</p>
-
-<p><code class="language-plaintext highlighter-rouge">thuthesis.cls</code> describes the detailed layout and style information of those common content. You can find <code class="language-plaintext highlighter-rouge">\thu@bachelor@subtitle</code> in it with some format commands around, as in the following figure. You can see that the subtitle is set to be xiaochu and in heiti (command <code class="language-plaintext highlighter-rouge">\heiti</code> is defined by CTeX) with 0.5 ziju.</p>
-
-<p><img src="https://lh3.googleusercontent.com/B6Cx3KSGrRcQxm49kFN2eYu8PEYohxJ_80n4WZLaQKiFtf8rlCVLWruxj4DcAOTm2L8z9dw=s700" alt="modificationInThuthesis.cls" title="modification.png" /></p>
-
-<p>I modified the original command (in red) to some new command (in green). I firstly tried directly adding <code class="language-plaintext highlighter-rouge">\textbf</code> so that I expect Bold SimHei would be used. However, I saw the following warning message:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[no file]:54: LaTeX Font Warning: Font shape `TU/SimHei(0)/b/n' undefined(Font)              using `TU/SimHei(0)/m/n' instead on input line 54.
-</code></pre></div></div>
-
-<p>The problem is that SimHei we usually have on Windows is Zhongyi SimHei(中易黑体) and does not come with bold or italic version, while in contrast Microsoft YaHei has a bold version. The installed fonts can be found in control panel as in the following figure. But in Microsoft Word we can indeed ‘bold’ words in SimHei, in this case that’s an ‘electronic’ bold generated by Word, I think, not a bold version of the font itself.</p>
-
-<p><img src="https://lh3.googleusercontent.com/DkuXjaxJ_4nC86DauMSYt4tpw8ALOzuGLIW7r-L8rVry7mJxI7JZ9kSwqnRfMQI8-cl_Amo=s700" alt="FontsInControlPanel" title="fontsInControlPanel.png" /></p>
-
-<p>Next, I naively thought YaHei might look similar to SimHei so I include the YaHei font in <code class="language-plaintext highlighter-rouge">main.tex</code> by CTeX command <code class="language-plaintext highlighter-rouge">\newCJKfontfamily\msyh{Microsoft YaHei}</code> and use <code class="language-plaintext highlighter-rouge">\msyh\textbf</code> in <code class="language-plaintext highlighter-rouge">thuthesis.cls</code>, as on the line 521. The result didn’t even make me satisfied, not to mention those ‘tough’ administrative staff.</p>
-
-<p>The final solution I found is to create the Bold SimHei font by my self (actually partly bold to save time) and use it. I called it SimHeiBoldTmp and included it in main.tex by <code class="language-plaintext highlighter-rouge">\newCJKfontfamily\htbd{SimHeiBoldTmp}</code>, hence the final changes in <code class="language-plaintext highlighter-rouge">thuthesis.cls</code> is as in figure 1 (note the <code class="language-plaintext highlighter-rouge">\textbf</code> command is not required since the font itself is bold. It’s still an ugly solution since I haven’t figure out the correct way to add a bold version subset to an existing font).</p>
-
-<h2 id="edit-font-and-use-new-font">Edit font and use new font</h2>
-
-<p>As Word can generate the bold version of an existing font, we can also do it. I use <a href="http://fontforge.github.io/en-US/">fontforge</a> for this purpose. It has detailed documents about editing fonts (e.g., <a href="http://designwithfontforge.com/en-US/Bold_and_Other_Weights.html">how to bold</a>). I believe you could figure out how to bold an existing font after playing with it for 5min. If you didn’t, it’s in Element-&gt;Style-&gt;Change Weight. Embolden by 6 em units is approximately proper for SimHei by comparing the effect between Bold SinHei in Word.</p>
-
-<p>It is time consuming to ‘bold’ all the characters, so I just ‘bold’ the characters I need and character ‘ 中’ for confirming the change in preview. I found the unicode of the characters I need in some online converter such as <a href="http://www.pinyin.info/tools/converter/chars2uninumbers.html">this one</a> so that I could locate those characters in fontforge.</p>
-
-<p>I saved the new font as SimHeiBoldTmpp.ttf and the preview looks like this (you can see the character ‘中’ is changed):
-<img src="https://lh3.googleusercontent.com/k70ZAu3XssW67omSnbuZosHSmFJE9bQLIJflcxgB3Lz5k7c67K77WhsYQ1WyspzNd0zKl3U=s700" alt="SimHeiBoldPreview" title="SimHeiBoldPreview.png" /></p>
-
-<p>After installing the new font, you should be able to find and use it in Word and also tex, such as the following test .tex file:</p>
-<div class="language-tex highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">\documentclass</span><span class="p">{</span>ctexart<span class="p">}</span>
-<span class="k">\setCJKmainfont</span><span class="na">[BoldFont={* Bold}]</span><span class="p">{</span>Microsoft YaHei<span class="p">}</span>
-<span class="k">\newCJKfontfamily\htbd</span><span class="p">{</span>SimHeiBoldTmp<span class="p">}</span> <span class="c">%include the new SinHeiBoldTmp font as \htbd</span>
-<span class="nt">\begin{document}</span>
-<span class="k">\Huge</span>
-雅黑 综合论文
-<span class="k">\textbf</span><span class="p">{</span>雅黑粗 综合论文<span class="p">}</span>
-
-<span class="p">{</span><span class="k">\heiti</span> 黑体 综合论文<span class="p">}</span>
-
-<span class="p">{</span><span class="k">\htbd</span> 黑体 综合论文<span class="p">}</span>
-
-<span class="p">{</span><span class="k">\heiti</span> <span class="k">\textbf</span> 黑体 综合论文<span class="p">}</span>
-<span class="nt">\end{document}</span>
-</code></pre></div></div>
-<p>The result is:
-<img src="https://lh3.googleusercontent.com/j7ffkvYl50homp3ERNe7SbLSv-52sYbhMNe8Nl7PulSEn-2dHm59VaC6JF5hgtp0VsMxdmY=s700" alt="testResult" title="testResult.png" />
-where the last line of the document generates the same ‘font undefined’ error and ordinary SimHei shows up.</p>
-
-<p>Finally, I could include the font in <code class="language-plaintext highlighter-rouge">main.tex</code> for my thesis by <code class="language-plaintext highlighter-rouge">\newCJKfontfamily\htbd{SimHeiBoldTmp}</code> and the modified <code class="language-plaintext highlighter-rouge">thuthesis.cls</code> file to use bold SimHei for the subtitle.</p>
-
-<p>Below is the comparison between old cover, new cover and the example cover
-<img src="https://lh3.googleusercontent.com/7zcUMZaUzOmpH_TmXkhaPCtvzQ97EUnx0S67g58hb3vtCkEKdMtdFVaurAVki2KbhoFQefo=s700" alt="comparison" title="comparison.png" /></p>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="LaTeX" /><category term="Tsinghua" /><category term="Thesis" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry></feed>
+</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="Qutip" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry></feed>

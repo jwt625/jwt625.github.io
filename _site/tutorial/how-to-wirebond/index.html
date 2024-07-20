@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>I built a shed with a friend in his backyard - Outside Five Sigma</title>
-<meta name="description" content="This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).">
+<!-- begin _includes/seo.html --><title>How to wirebond (practical) - Outside Five Sigma</title>
+<meta name="description" content="What you are looking at is a microwave coplanar waveguide, sitting on an overpriced (?) PCB from Rogers, with the ground and signal wirebonded, under the stereoscope of a manual West Bond 7476E wire bonder.">
 
 
   <meta name="author" content="Wentao">
@@ -23,28 +23,28 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Outside Five Sigma">
-<meta property="og:title" content="I built a shed with a friend in his backyard">
-<meta property="og:url" content="http://localhost:4000/blog/shed/">
+<meta property="og:title" content="How to wirebond (practical)">
+<meta property="og:url" content="http://localhost:4000/tutorial/how-to-wirebond/">
 
 
-  <meta property="og:description" content="This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).">
-
-
-
-  <meta property="og:image" content="http://localhost:4000/assets/images/shed-banner.JPG">
+  <meta property="og:description" content="What you are looking at is a microwave coplanar waveguide, sitting on an overpriced (?) PCB from Rogers, with the ground and signal wirebonded, under the stereoscope of a manual West Bond 7476E wire bonder.">
 
 
 
-
-
-  <meta property="article:published_time" content="2024-01-01T00:00:00-08:00">
+  <meta property="og:image" content="http://localhost:4000/assets/images/IMG_8543_meander_wirebond_20220408.JPG">
 
 
 
 
 
+  <meta property="article:published_time" content="2024-07-19T00:00:00-07:00">
 
-<link rel="canonical" href="http://localhost:4000/blog/shed/">
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/tutorial/how-to-wirebond/">
 
 
 
@@ -161,13 +161,13 @@
 
 
 <div class="page__hero--overlay"
-  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/shed-banner.JPG');"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/IMG_8543_meander_wirebond_20220408.JPG');"
 >
   
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          I built a shed with a friend in his backyard
+          How to wirebond (practical)
 
         
       </h1>
@@ -180,7 +180,7 @@
       <span class="page__meta-date">
         <i class="far fa-calendar-alt" aria-hidden="true"></i>
         
-        <time datetime="2024-01-01T00:00:00-08:00">January 1, 2024</time>
+        <time datetime="2024-07-19T00:00:00-07:00">July 19, 2024</time>
       </span>
     
 
@@ -193,7 +193,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          4 minute read
         
       </span>
     
@@ -326,9 +326,9 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="I built a shed with a friend in his backyard">
-    <meta itemprop="description" content="This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).">
-    <meta itemprop="datePublished" content="2024-01-01T00:00:00-08:00">
+    <meta itemprop="headline" content="How to wirebond (practical)">
+    <meta itemprop="description" content="What you are looking at is a microwave coplanar waveguide, sitting on an overpriced (?) PCB from Rogers, with the ground and signal wirebonded, under the stereoscope of a manual West Bond 7476E wire bonder.">
+    <meta itemprop="datePublished" content="2024-07-19T00:00:00-07:00">
     
 
     <div class="page__inner-wrap">
@@ -339,12 +339,35 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              
+              <ul class="toc__menu"><li><a href="#preparation">Preparation</a></li><li><a href="#parameters">Parameters</a></li></ul>
             </nav>
           </aside>
         
-        <p>This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).</p>
+        <p>What you are looking at is a microwave coplanar waveguide, sitting on an overpriced (?) PCB from Rogers, with the ground and signal wirebonded, under the stereoscope of a manual <a href="https://snsf.stanford.edu/facilities/fab/wirebonder">West Bond 7476E wire bonder</a>.</p>
 
+<p><img src="/assets/images/West-Bond-7476E.jpg" alt="West-Bond-7476E.jpg" /></p>
+
+<p>I choose wirebonding as the topic of the first blog of hopefully a series about practical nanofabrication, because it was the first tool I got trained to use in the early 2015, and it was the last tool I used before I draw an end of my hands-on nanofab journey at Stanford. It is also at a good scale, the boundary between the macro and micro world, where things are small yet not too small for you to see under optical microscope, and you got to control, touch, and feel things with your own hands (the manual wireebonder pretty much shrinks the motion of your hand, and really feels like an extension of your arm after you get good at it). Let’s jump right in after I throw some reference for <a href="https://en.wikipedia.org/wiki/Wire_bonding">basics</a> and <a href="https://www.accessengineeringlibrary.com/content/book/9780071476232">advanced</a> (also on <a href="https://www.amazon.com/WIRE-BONDING-MICROELECTRONICS-George-Harman/dp/0071476237">Amazon</a>). This book is really really good. If you are not satisfied by the emprical practice or suspecting the statements here (as you always should), read and trust this book instead.</p>
+
+<h1 id="preparation">Preparation</h1>
+
+<p>When you come and sit in front of the wirebonder, the first, and the most important advice, which is also the first one I got during my training, is to make yourself comfortable. Adjust the chair, loosen your belt, collar or tie, whatever you need. You will need focus and endurance, and making yourself comfortable is as important as making your chip feel secure and comfortable. I would also give this advice in general for nanofab, you should warm up your arms, wrists and fingers before you develop in 25% TMAH or pour some acids. I’m getting derailed, let’s focus back on wirebonding.</p>
+
+<p>After you’ve prepared yourself, it’s time to prepare your sample. Actually it is usually done before you come to the wirebonder, preparing, soldering and cleaning the PCB, gluing the chip to the PCB etc. Maybe these will be covered in a future blog (I’m learning from the academics as they cite themselves and say <em>in preparation</em>). What is worth mentioning here is that, you should keep the height of the wirebonder wedge/tip in mind when you design your own fixture, or the size and height of the holder and spacer aluminum blocks you have. Does your PCB fits between the clamps? Is it ok to double-sided tape your PCB to the holder/Al block? Will it crack when you try to pry it off the double-sided tape? Will the PCB bend and pop your chip out of it? Run the whole process of getting your sample under the wirebonder tip during the preparation in your head, as well as how you are going to safely remove it afterwards.</p>
+
+<p>It’s also worth mentioning that how well your chip and PCB are secured can affect your whole wirebonding experience because it affects <strong>how well the ultrasonic power is applied and absorbed</strong>. Avoid holding and securing your jig or fixture by hand. Your hand is a very good vibration attenuator even without you sensing any of the vibration at the ultrasonic frequency and its short duration. You want the power to be dissipated and absorbed at the wirebonding interface, i.e., between the wire and the metal pad, not by your finger, and not by the wacky glue or epoxy. Clamp your PCB is better than taping it. If you have to, use thinner tape, and tape it firmly. Make sure you have fully cured or baked the adhesive/epoxy you have under or around your chip, and make sure the chip and PCB is horizontal. Most wirebonders do not have the luxury of tilting the tip to match the surface of your chip. Avoid using 3D printed jig as they are too light. If you do, clamp or tape it to a more heavy and firm metal holder or block.</p>
+
+<h1 id="parameters">Parameters</h1>
+
+<p>You turn on the machine, and start flipping through the settings. I do not have it in front of me, but I’m familiar with it enough to see all the settings, and so should you after using it a handful of times, at least for the most important ones. The West Bond machines have recommended values for most parameters, and you would need to be doing crazy shit (like trying to wirebond with NbTi wires) to go more than 0.3x or 3x of the recommendation (and it still did not work).</p>
+
+<p>The most important ones are <strong>power</strong>, and <strong>duration</strong>, for both bond one and two. When you see the squished wire is too flat, either the power or the duration is too high. The next most important parameter is the force, controlled by a spring that can be adjusted by a knob holding it. Most staff member would tell you not to ever touch the force, but I always at least check the force. You never know what state the previous user would leave the tool in. This is how the force gauge looks like:</p>
+
+<p><img src="/assets/images/9101-04A-tester-gauge-with-hook-5-50-grams.jfif" alt="9101-04A-tester-gauge-with-hook-5-50-grams.jfif" /></p>
+
+<p><em>Force gauge, from <a href="https://www.terrauniversal.com/portable-wire-bond-strength-tester.html">Terra Universal</a></em></p>
+
+<p>To be continued…</p>
 
         
       </section>
@@ -361,9 +384,11 @@
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
     
-      <a href="/tags/#construction" class="page__taxonomy-item p-category" rel="tag">Construction</a><span class="sep">, </span>
+      <a href="/tags/#nanofab" class="page__taxonomy-item p-category" rel="tag">Nanofab</a><span class="sep">, </span>
     
-      <a href="/tags/#woodwork" class="page__taxonomy-item p-category" rel="tag">Woodwork</a>
+      <a href="/tags/#packaging" class="page__taxonomy-item p-category" rel="tag">Packaging</a><span class="sep">, </span>
+    
+      <a href="/tags/#wirebond" class="page__taxonomy-item p-category" rel="tag">Wirebond</a>
     
     </span>
   </p>
@@ -380,7 +405,7 @@
     <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
     <span itemprop="keywords">
     
-      <a href="/categories/#blog" class="page__taxonomy-item p-category" rel="tag">Blog</a>
+      <a href="/categories/#tutorial" class="page__taxonomy-item p-category" rel="tag">Tutorial</a>
     
     </span>
   </p>
@@ -388,30 +413,29 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-01-01T00:00:00-08:00">January 1, 2024</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-07-19T00:00:00-07:00">July 19, 2024</time></p>
 
       </footer>
 
       <section class="page__share">
   
 
-  <a href="https://twitter.com/intent/tweet?text=I+built+a+shed+with+a+friend+in+his+backyard%20http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fshed%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=How+to+wirebond+%28practical%29%20http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2Fhow-to-wirebond%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fblog%2Fshed%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2Fhow-to-wirebond%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/blog/shed/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/tutorial/how-to-wirebond/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
   <nav class="pagination">
     
-      <a href="/blog/energy-to-store-one-bit/" class="pagination--pager" title="Energy to Store One Bit
+      <a href="/ofs/weekly-OFS-3/" class="pagination--pager" title="This week’s outside five sigma (#3)
 ">Previous</a>
     
     
-      <a href="/blog/welcome/" class="pagination--pager" title="Welcome!
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -427,60 +451,6 @@
   
   <h2 class="page__related-title">You May Also Enjoy</h2>
   <div class="grid__wrapper">
-    
-      
-      
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/tutorial/how-to-wirebond/" rel="permalink">How to wirebond (practical)
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2024-07-19T00:00:00-07:00">July 19, 2024</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
-        
-          4 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <!-- add teaser, WTJ, 20240630 -->
-    
-      <div class="post-cover">
-        <img src="/assets/images/IMG_8543_meander_wirebond_20220408.JPG" alt="How to wirebond (practical)">
-      </div>
-    
-    <p class="archive__item-excerpt" itemprop="description">What you are looking at is a microwave coplanar waveguide, sitting on an overpriced (?) PCB from Rogers, with the ground and signal wirebonded, under the ste...</p>
-
-  </article>
-</div>
-
     
       
       
@@ -648,6 +618,60 @@
 </div>
 
     
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/welcome/" rel="permalink">Welcome!
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-06-23T00:00:00-07:00">June 23, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/IMG_1559.JPG" alt="Welcome!">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">This blog serves two main purpose: for you and for me to have fun, and to reduce the global sum of suffering of mankind by sharing my sufferings and learning...</p>
+
+  </article>
+</div>
+
+    
   </div>
 </div>
 
@@ -723,8 +747,8 @@
     
   <script>
     var disqus_config = function () {
-      this.page.url = "http://localhost:4000/blog/shed/";  /* Replace PAGE_URL with your page's canonical URL variable */
-      this.page.identifier = "/blog/shed"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+      this.page.url = "http://localhost:4000/tutorial/how-to-wirebond/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/tutorial/how-to-wirebond"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
     };
     (function() { /* DON'T EDIT BELOW THIS LINE */
       var d = document, s = d.createElement('script');
@@ -743,6 +767,31 @@
 
 
     <!-- add mathjax, WTJ, 20240702 -->
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+  
+  
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+  </script>
+  
+  
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
     
 
   </body>

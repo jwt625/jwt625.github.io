@@ -108,7 +108,7 @@ var store = [{
         "teaser": null
       },{
         "title": "This week's outside five sigma (#2)",
-        "excerpt":"1. You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor. - [shapeways](https://www.shapeways.com/materials/copper) - [RF filters made with it](https://x.com/wavedrom/status/1809054376276738440) ![2880x720_SW_Copper-scaled.avif](/assets/images/2880x720_SW_Copper-scaled.avif) 2. You can epitaxial a thin layer of NaCl and use it for liftoff...","categories": ["OFS"],
+        "excerpt":"You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor. shapeways RF filters made with it You can epitaxial a thin layer of NaCl and use it for liftoff scientific reports paper: Water-Soluble Epitaxial...","categories": ["OFS"],
         "tags": ["Nanofab","BMI","HCI","RF","3D-print","Actuator","Camera"],
         "url": "/ofs/weekly-OFS-2/",
         "teaser": null
@@ -117,5 +117,11 @@ var store = [{
         "excerpt":"The nanodumbbell can now be rotated vertically with a trapping laser and a spinning laser. PRL paper: Long-Axis Spinning of an Optically Levitated Particle: A Levitated Spinning Top the acceleration of one nanosphere is around $10^{12}g$ and the stress between them is $2~\\text{GPa}$. The mean center of the United States...","categories": ["OFS"],
         "tags": ["Nanosphere","Satellite","MEMS","Plutonium","DNA","CNN","Photonics","IoT"],
         "url": "/ofs/weekly-OFS-3/",
+        "teaser": null
+      },{
+        "title": "How to wirebond (practical)",
+        "excerpt":"What you are looking at is a microwave coplanar waveguide, sitting on an overpriced (?) PCB from Rogers, with the ground and signal wirebonded, under the stereoscope of a manual West Bond 7476E wire bonder. I choose wirebonding as the topic of the first blog of hopefully a series about...","categories": ["Tutorial"],
+        "tags": ["Nanofab","Wirebond","Packaging"],
+        "url": "/tutorial/how-to-wirebond/",
         "teaser": null
       }]
