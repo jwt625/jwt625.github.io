@@ -16,6 +16,9 @@ header:
   overlay_filter: 0.5
 ---
 
+
+![IMG_8543_meander_wirebond_20220408.JPG](/assets/images/IMG_8543_meander_wirebond_20220408.JPG)
+
 What you are looking at is a microwave coplanar waveguide, sitting on an overpriced (?) PCB from Rogers, with the ground and signal wirebonded, under the stereoscope of a manual [West Bond 7476E wire bonder](https://snsf.stanford.edu/facilities/fab/wirebonder).
 
 ![West-Bond-7476E.jpg](/assets/images/West-Bond-7476E.jpg)
