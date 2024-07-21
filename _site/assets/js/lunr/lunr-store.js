@@ -120,8 +120,14 @@ var store = [{
         "teaser": null
       },{
         "title": "How to wirebond (practical)",
-        "excerpt":"What you are looking at is a microwave coplanar waveguide, sitting on an overpriced (?) PCB from Rogers, with the ground and signal wirebonded, under the stereoscope of a manual West Bond 7476E wire bonder. I choose wirebonding as the topic of the first blog of hopefully a series about...","categories": ["Tutorial"],
+        "excerpt":"![IMG_8543_meander_wirebond_20220408.JPG](/assets/images/IMG_8543_meander_wirebond_20220408.JPG) What you are looking at is a microwave coplanar waveguide, sitting on an overpriced (?) PCB from Rogers, with the ground and signal wirebonded, under the stereoscope of a manual [West Bond 7476E wire bonder](https://snsf.stanford.edu/facilities/fab/wirebonder). ![West-Bond-7476E.jpg](/assets/images/West-Bond-7476E.jpg) I choose wirebonding as the topic of the first blog of hopefully a...","categories": ["Tutorial"],
         "tags": ["Nanofab","Wirebond","Packaging"],
         "url": "/tutorial/how-to-wirebond/",
+        "teaser": null
+      },{
+        "title": "This week's outside five sigma (#4)",
+        "excerpt":"SmartBolts makes fasteners with built-in visual indicators for monitoring preload. Their youtube channel has a demonstration. It seems to be based on thickness change of a light absorbing fluid (patent). halfbakery is a website collecting random half baked ideas. I found it when trying to see if ultrasonic ice cream...","categories": ["OFS"],
+        "tags": ["LaTeX","Manufacturing","Trump","GPS","CAD","Nanofab"],
+        "url": "/ofs/weekly-OFS-4/",
         "teaser": null
       }]

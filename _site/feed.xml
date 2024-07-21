@@ -1,30 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-19T23:02:57-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">How to wirebond (practical)</title><link href="http://localhost:4000/tutorial/how-to-wirebond/" rel="alternate" type="text/html" title="How to wirebond (practical)" /><published>2024-07-19T00:00:00-07:00</published><updated>2024-07-19T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/how-to-wirebond</id><content type="html" xml:base="http://localhost:4000/tutorial/how-to-wirebond/"><![CDATA[<p><img src="/assets/images/IMG_8543_meander_wirebond_20220408.JPG" alt="IMG_8543_meander_wirebond_20220408.JPG" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-20T22:46:35-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#4)</title><link href="http://localhost:4000/ofs/weekly-OFS-4/" rel="alternate" type="text/html" title="This week’s outside five sigma (#4)" /><published>2024-07-20T00:00:00-07:00</published><updated>2024-07-20T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-4</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-4/"><![CDATA[<ol>
+  <li><a href="https://smartbolts.com/">SmartBolts</a> makes fasteners with built-in visual indicators for monitoring preload.
+    <ul>
+      <li>Their youtube channel has a <a href="https://www.youtube.com/watch?v=BZy7CbpQAvY&amp;ab_channel=SmartBolts">demonstration</a>.</li>
+      <li>It seems to be based on thickness change of a light absorbing fluid (<a href="https://portal.unifiedpatents.com/patents/patent/US-4904132-A">patent</a>).
+<img src="/assets/images/DTI_SmartBolts_ Demonstration.gif" alt="DTI_SmartBolts_ Demonstration.gif" /></li>
+    </ul>
+  </li>
+  <li><a href="https://www.halfbakery.com/">halfbakery</a> is a website collecting random half baked ideas.
+    <ul>
+      <li>I found it when trying to see if ultrasonic ice cream scoop exists: <a href="https://www.halfbakery.com/idea/Vibroscoop">Vibroscoop</a>
+<img src="/assets/images/halfbakery_20240720.PNG" alt="halfbakery_20240720.PNG" /></li>
+    </ul>
+  </li>
+  <li><a href="https://www.langmuirsystems.com/">Langmuir systems</a> is making cheaper manifacturing tools.
+    <ul>
+      <li>They have a sub $5000 <a href="https://www.langmuirsystems.com/titan25t">CNC press brake</a>.
+<img src="/assets/images/langmuir_systems_titan_25T.png" alt="langmuir_systems_titan_25T.png" /></li>
+    </ul>
+  </li>
+  <li>Some cheap GPS modules are cheaper than$10 bucks now. However a lot of people were saying this specific one is old and not reliable.
+    <ul>
+      <li>Twitter <a href="https://x.com/jwt0625/status/1804037737147961742">thread</a>.
+<img src="/assets/images/cheap_GPS.jfif" alt="cheap_GPS.jfif" /></li>
+    </ul>
+  </li>
+  <li>You can now generate CAD from text description. Works for common needs, still not able to generate niche stuff like a mmw horn antenna.
+    <ul>
+      <li><a href="https://zoo.dev/text-to-cad">https://zoo.dev/text-to-cad</a>
+<img src="/assets/images/zoo_text_to_cad_1.png" alt="zoo_text_to_cad_1.png" />
+<img src="/assets/images/zoo_text_to_cad_2.png" alt="zoo_text_to_cad_2.png" /></li>
+    </ul>
+  </li>
+  <li>You need to wear swimming glasses with plumbing for emergency eye wash in orbit.
+    <ul>
+      <li>Twitter <a href="https://x.com/astro_Pettit/status/1811285088631406670">post</a> from Don Pettit.
+<img src="/assets/images/orbital_eye_wash.jfif" alt="orbital_eye_wash.jfif" /></li>
+    </ul>
+  </li>
+  <li>
+    <p>Trump survived an assasination attempt. This is non-tech but such an outside-five-sigma event (or actually kind of expected) so here it is.
+<img src="/assets/images/trump_assasination.jfif" alt="trump_assasination.jfif" /></p>
+  </li>
+  <li>Sodium-potassium amalgam could dissolve fluorocarbon polymers after plasma etch.
+    <ul>
+      <li>From paper <a href="https://lss.fnal.gov/archive/2023/pub/fermilab-pub-23-330-etd.pdf">Improved Coherence in Optically-Defned Niobium Trilayer Junction Qubits</a>
+<img src="/assets/images/NaK_dissolves_fluorocarbon_polymer.jfif" alt="NaK_dissolves_fluorocarbon_polymer.jfif" /></li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://pypi.org/project/smoltex/">smoltex</a> is a handy natural language to latex tool.
+<img src="/assets/images/smoltex_20240720.png" alt="smoltex_20240720.png" /></p>
+  </li>
+  <li>Researchers at Cornell made laser actuated um-scale robots that are safe to transfer with pippette (old news from 2020).
+    <ul>
+      <li>Paper: <a href="https://www.nature.com/articles/s41586-020-2626-9">Electronically integrated, mass-manufactured, microscopic robots</a></li>
+    </ul>
+  </li>
+</ol>
 
-<p>What you are looking at is a microwave coplanar waveguide, sitting on an overpriced (?) PCB from Rogers, with the ground and signal wirebonded, under the stereoscope of a manual <a href="https://snsf.stanford.edu/facilities/fab/wirebonder">West Bond 7476E wire bonder</a>.</p>
+<p>
+  <video width="600" height="400" controls="">
+    <source src="/assets/images/um-scale-robot-41586_2020_2626_MOESM5_ESM.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</p>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="LaTeX" /><category term="Manufacturing" /><category term="Trump" /><category term="GPS" /><category term="CAD" /><category term="Nanofab" /><summary type="html"><![CDATA[SmartBolts makes fasteners with built-in visual indicators for monitoring preload. Their youtube channel has a demonstration. It seems to be based on thickness change of a light absorbing fluid (patent).]]></summary></entry><entry><title type="html">How to wirebond (practical)</title><link href="http://localhost:4000/tutorial/how-to-wirebond/" rel="alternate" type="text/html" title="How to wirebond (practical)" /><published>2024-07-19T00:00:00-07:00</published><updated>2024-07-19T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/how-to-wirebond</id><content type="html" xml:base="http://localhost:4000/tutorial/how-to-wirebond/"><![CDATA[![IMG_8543_meander_wirebond_20220408.JPG](/assets/images/IMG_8543_meander_wirebond_20220408.JPG)
 
-<p><img src="/assets/images/West-Bond-7476E.jpg" alt="West-Bond-7476E.jpg" /></p>
+What you are looking at is a microwave coplanar waveguide, sitting on an overpriced (?) PCB from Rogers, with the ground and signal wirebonded, under the stereoscope of a manual [West Bond 7476E wire bonder](https://snsf.stanford.edu/facilities/fab/wirebonder).
 
-<p>I choose wirebonding as the topic of the first blog of hopefully a series about practical nanofabrication, because it was the first tool I got trained to use in the early 2015, and it was the last tool I used before I draw an end of my hands-on nanofab journey at Stanford. It is also at a good scale, the boundary between the macro and micro world, where things are small yet not too small for you to see under optical microscope, and you got to control, touch, and feel things with your own hands (the manual wireebonder pretty much shrinks the motion of your hand, and really feels like an extension of your arm after you get good at it). Let’s jump right in after I throw some reference for <a href="https://en.wikipedia.org/wiki/Wire_bonding">basics</a> and <a href="https://www.accessengineeringlibrary.com/content/book/9780071476232">advanced</a> (also on <a href="https://www.amazon.com/WIRE-BONDING-MICROELECTRONICS-George-Harman/dp/0071476237">Amazon</a>). This book is really really good. If you are not satisfied by the emprical practice or suspecting the statements here (as you always should), read and trust this book instead.</p>
+![West-Bond-7476E.jpg](/assets/images/West-Bond-7476E.jpg)
 
-<h1 id="preparation">Preparation</h1>
+I choose wirebonding as the topic of the first blog of hopefully a series about practical nanofabrication, because it was the first tool I got trained to use in the early 2015, and it was the last tool I used before I draw an end of my hands-on nanofab journey at Stanford. It is also at a good scale, the boundary between the macro and micro world, where things are small yet not too small for you to see under optical microscope, and you got to control, touch, and feel things with your own hands (the manual wireebonder pretty much shrinks the motion of your hand, and really feels like an extension of your arm after you get good at it). Let's jump right in after I throw some reference for [basics](https://en.wikipedia.org/wiki/Wire_bonding) and [advanced](https://www.accessengineeringlibrary.com/content/book/9780071476232) (also on [Amazon](https://www.amazon.com/WIRE-BONDING-MICROELECTRONICS-George-Harman/dp/0071476237)). This book is really really good. If you are not satisfied by the emprical practice or suspecting the statements here (as you always should), read and trust this book instead.
 
-<p>When you come and sit in front of the wirebonder, the first, and the most important advice, which is also the first one I got during my training, is to make yourself comfortable. Adjust the chair, loosen your belt, collar or tie, whatever you need. You will need focus and endurance, and making yourself comfortable is as important as making your chip feel secure and comfortable. I would also give this advice in general for nanofab, you should warm up your arms, wrists and fingers before you develop in 25% TMAH or pour some acids. I’m getting derailed, let’s focus back on wirebonding.</p>
+# Preparation
 
-<p>After you’ve prepared yourself, it’s time to prepare your sample. Actually it is usually done before you come to the wirebonder, preparing, soldering and cleaning the PCB, gluing the chip to the PCB etc. Maybe these will be covered in a future blog (I’m learning from the academics as they cite themselves and say <em>in preparation</em>). What is worth mentioning here is that, you should keep the height of the wirebonder wedge/tip in mind when you design your own fixture, or the size and height of the holder and spacer aluminum blocks you have. Does your PCB fits between the clamps? Is it ok to double-sided tape your PCB to the holder/Al block? Will it crack when you try to pry it off the double-sided tape? Will the PCB bend and pop your chip out of it? Run the whole process of getting your sample under the wirebonder tip during the preparation in your head, as well as how you are going to safely remove it afterwards.</p>
+When you come and sit in front of the wirebonder, the first, and the most important advice, which is also the first one I got during my training, is to make yourself comfortable. Adjust the chair, loosen your belt, collar or tie, whatever you need. You will need focus and endurance, and making yourself comfortable is as important as making your chip feel secure and comfortable. I would also give this advice in general for nanofab, you should warm up your arms, wrists and fingers before you develop in 25% TMAH or pour some acids. I'm getting derailed, let's focus back on wirebonding.
 
-<p>It’s also worth mentioning that how well your chip and PCB are secured can affect your whole wirebonding experience because it affects <strong>how well the ultrasonic power is applied and absorbed</strong>. Avoid holding and securing your jig or fixture by hand. Your hand is a very good vibration attenuator even without you sensing any of the vibration at the ultrasonic frequency and its short duration. You want the power to be dissipated and absorbed at the wirebonding interface, i.e., between the wire and the metal pad, not by your finger, and not by the wacky glue or epoxy. Clamp your PCB is better than taping it. If you have to, use thinner tape, and tape it firmly. Make sure you have fully cured or baked the adhesive/epoxy you have under or around your chip, and make sure the chip and PCB is horizontal. Most wirebonders do not have the luxury of tilting the tip to match the surface of your chip. Avoid using 3D printed jig as they are too light. If you do, clamp or tape it to a more heavy and firm metal holder or block.</p>
+After you've prepared yourself, it's time to prepare your sample. Actually it is usually done before you come to the wirebonder, preparing, soldering and cleaning the PCB, gluing the chip to the PCB etc. Maybe these will be covered in a future blog (I'm learning from the academics as they cite themselves and say *in preparation*). What is worth mentioning here is that, you should keep the height of the wirebonder wedge/tip in mind when you design your own fixture, or the size and height of the holder and spacer aluminum blocks you have. Does your PCB fits between the clamps? Is it ok to double-sided tape your PCB to the holder/Al block? Will it crack when you try to pry it off the double-sided tape? Will the PCB bend and pop your chip out of it? Run the whole process of getting your sample under the wirebonder tip during the preparation in your head, as well as how you are going to safely remove it afterwards.
 
-<h1 id="parameters">Parameters</h1>
+It's also worth mentioning that how well your chip and PCB are secured can affect your whole wirebonding experience because it affects **how well the ultrasonic power is applied and absorbed**. Avoid holding and securing your jig or fixture by hand. Your hand is a very good vibration attenuator even without you sensing any of the vibration at the ultrasonic frequency and its short duration. You want the power to be dissipated and absorbed at the wirebonding interface, i.e., between the wire and the metal pad, not by your finger, and not by the wacky glue or epoxy. Clamp your PCB is better than taping it. If you have to, use thinner tape, and tape it firmly. Make sure you have fully cured or baked the adhesive/epoxy you have under or around your chip, and make sure the chip and PCB is horizontal. Most wirebonders do not have the luxury of tilting the tip to match the surface of your chip. Avoid using 3D printed jig as they are too light. If you do, clamp or tape it to a more heavy and firm metal holder or block.
 
-<p>You turn on the machine, and start flipping through the settings. I do not have it in front of me, but I’m familiar with it enough to see all the settings, and so should you after using it a handful of times, at least for the most important ones. The West Bond machines have recommended values for most parameters, and you would need to be doing crazy shit (like trying to wirebond with NbTi wires) to go more than 0.3x or 3x of the recommendation (and it still did not work).</p>
 
-<p>The most important ones are <strong>power</strong>, and <strong>duration</strong>, for both bond one and two. When you see the squished wire is too flat, either the power or the duration is too high. The next most important parameter is the force, controlled by a spring that can be adjusted by a knob holding it. Most staff member would tell you not to ever touch the force, but I always at least check the force. You never know what state the previous user would leave the tool in. This is how the force gauge looks like:</p>
+# Parameters
 
-<p><img src="/assets/images/9101-04A-tester-gauge-with-hook-5-50-grams.jfif" alt="9101-04A-tester-gauge-with-hook-5-50-grams.jfif" /></p>
+You turn on the machine, and start flipping through the settings. I do not have it in front of me, but I'm familiar with it enough to see all the settings, and so should you after using it a handful of times, at least for the most important ones. The West Bond machines have recommended values for most parameters, and you would need to be doing crazy shit (like trying to wirebond with NbTi wires) to go more than 0.3x or 3x of the recommendation (and it still did not work).
 
-<p><em>Force gauge, from <a href="https://www.terrauniversal.com/portable-wire-bond-strength-tester.html">Terra Universal</a></em></p>
+The most important ones are **power**, and **duration**, for both bond one and two. When you see the squished wire is too flat, either the power or the duration is too high. The next most important parameter is the force, controlled by a spring that can be adjusted by a knob holding it. Most staff member would tell you not to ever touch the force, but I always at least check the force. You never know what state the previous user would leave the tool in. This is how the force gauge looks like:
 
-<p>To be continued…</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Wirebond" /><category term="Packaging" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">This week’s outside five sigma (#3)</title><link href="http://localhost:4000/ofs/weekly-OFS-3/" rel="alternate" type="text/html" title="This week’s outside five sigma (#3)" /><published>2024-07-13T00:00:00-07:00</published><updated>2024-07-13T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-3</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-3/"><![CDATA[<ol>
+![9101-04A-tester-gauge-with-hook-5-50-grams.jfif](/assets/images/9101-04A-tester-gauge-with-hook-5-50-grams.jfif)
+
+*Force gauge, from [Terra Universal](https://www.terrauniversal.com/portable-wire-bond-strength-tester.html)*
+
+
+To be continued...]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Wirebond" /><category term="Packaging" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">This week’s outside five sigma (#3)</title><link href="http://localhost:4000/ofs/weekly-OFS-3/" rel="alternate" type="text/html" title="This week’s outside five sigma (#3)" /><published>2024-07-13T00:00:00-07:00</published><updated>2024-07-13T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-3</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-3/"><![CDATA[<ol>
   <li>The <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.033603">nanodumbbell</a> can now be rotated vertically with a trapping laser and a spinning laser.
     <ul>
       <li>PRL paper: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.253601">Long-Axis Spinning of an Optically Levitated Particle: A Levitated Spinning Top</a></li>
@@ -512,28 +579,4 @@
 
 <blockquote>
   <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
-</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="JupyterNotebook" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry><entry><title type="html">Qutip tips</title><link href="http://localhost:4000/tips/qutip-tips/" rel="alternate" type="text/html" title="Qutip tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/qutip-tips</id><content type="html" xml:base="http://localhost:4000/tips/qutip-tips/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/09/qutip-tips.html">Blogspot</a>. Bear with my broken English at the time.)</p>
-
-<h2 id="installation">Installation</h2>
-
-<p>See <a href="http://qutip.org/docs/latest/index.html">qutip manual</a> first.</p>
-
-<p>On Linux:</p>
-
-<ul>
-  <li>If <code class="language-plaintext highlighter-rouge">conda install qutip</code> reports package not found, use <code class="language-plaintext highlighter-rouge">conda install -c conda-forge qutip </code> or <code class="language-plaintext highlighter-rouge">conda install -c conda-forge/label/broken qutip</code> (from https://anaconda.org/conda-forge/qutip)</li>
-  <li>When run testing (see <a href="http://qutip.org/docs/latest/installation.html#verifying-the-installation">qutip manual</a>) and encountered error about gcc or cc1plus, install gcc or g++, or reinstall them using <code class="language-plaintext highlighter-rouge">sudo apt-get install --reinstall gcc</code>.</li>
-</ul>
-
-<h2 id="usage">Usage</h2>
-
-<h2 id="resources">Resources</h2>
-
-<ul>
-  <li><a href="https://github.com/jrjohansson/qutip-lectures">qutip lectures</a></li>
-  <li><a href="http://nbviewer.jupyter.org/github/qutip/qutip-notebooks/tree/master/examples/">qutip examples</a></li>
-</ul>
-
-<blockquote>
-  <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
-</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="Qutip" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry></feed>
+</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="JupyterNotebook" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry></feed>
