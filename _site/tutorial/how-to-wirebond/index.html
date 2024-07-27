@@ -193,7 +193,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          4 minute read
+          11 minute read
         
       </span>
     
@@ -339,7 +339,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#preparation">Preparation</a></li><li><a href="#parameters">Parameters</a></li></ul>
+              <ul class="toc__menu"><li><a href="#preparation">Preparation</a></li><li><a href="#parameters">Parameters</a><ul><li><a href="#drop-before-clamp">Drop before clamp</a></li></ul></li><li><a href="#movement">Movement</a></li><li><a href="#feeding-the-wire">Feeding the wire</a></li></ul>
             </nav>
           </aside>
         
@@ -349,7 +349,7 @@
 
 <p><img src="/assets/images/West-Bond-7476E.jpg" alt="West-Bond-7476E.jpg" /></p>
 
-<p>I choose wirebonding as the topic of the first blog of hopefully a series about practical nanofabrication, because it was the first tool I got trained to use in the early 2015, and it was the last tool I used before I draw an end of my hands-on nanofab journey at Stanford. It is also at a good scale, the boundary between the macro and micro world, where things are small yet not too small for you to see under optical microscope, and you got to control, touch, and feel things with your own hands (the manual wireebonder pretty much shrinks the motion of your hand, and really feels like an extension of your arm after you get good at it). Let’s jump right in after I throw some reference for <a href="https://en.wikipedia.org/wiki/Wire_bonding">basics</a> and <a href="https://www.accessengineeringlibrary.com/content/book/9780071476232">advanced</a> (also on <a href="https://www.amazon.com/WIRE-BONDING-MICROELECTRONICS-George-Harman/dp/0071476237">Amazon</a>). This book is really really good. If you are not satisfied by the emprical practice or suspecting the statements here (as you always should), read and trust this book instead.</p>
+<p>I choose wirebonding as the topic of the first blog of hopefully a series about practical nanofabrication, because it was the first tool I got trained to use in the early 2015, and it was the last tool I used before I draw an end of my hands-on nanofab journey at Stanford. It is also at a good scale, the boundary between the macro and micro world, where things are small yet not too small for you to see under optical microscope, and you got to control, touch, and feel things with your own hands (the manual wirebonder pretty much shrinks the motion of your hand, and really feels like an extension of your arm after you get good at it). Let’s jump right in after I throw some reference for <a href="https://en.wikipedia.org/wiki/Wire_bonding">basics</a> and <a href="https://www.accessengineeringlibrary.com/content/book/9780071476232">advanced</a> (also on <a href="https://www.amazon.com/WIRE-BONDING-MICROELECTRONICS-George-Harman/dp/0071476237">Amazon</a>). This book is really really good. If you are not satisfied by the emprical practice or suspecting the statements here (as you always should), read and trust this book instead.</p>
 
 <h1 id="preparation">Preparation</h1>
 
@@ -359,17 +359,54 @@
 
 <p>It’s also worth mentioning that how well your chip and PCB are secured can affect your whole wirebonding experience because it affects <strong>how well the ultrasonic power is applied and absorbed</strong>. Avoid holding and securing your jig or fixture by hand. Your hand is a very good vibration attenuator even without you sensing any of the vibration at the ultrasonic frequency and its short duration. You want the power to be dissipated and absorbed at the wirebonding interface, i.e., between the wire and the metal pad, not by your finger, and not by the wacky glue or epoxy. Clamp your PCB is better than taping it. If you have to, use thinner tape, and tape it firmly. Make sure you have fully cured or baked the adhesive/epoxy you have under or around your chip, and make sure the chip and PCB is horizontal. Most wirebonders do not have the luxury of tilting the tip to match the surface of your chip. Avoid using 3D printed jig as they are too light. If you do, clamp or tape it to a more heavy and firm metal holder or block.</p>
 
+<p>The macro-scale preparation is important, so is the micro-scale, by which I mean the surface condition of the PCB and the chip. How flat is the metal contact of your PCB? What material is the contact, does it have native oxide, if so can you remove it? Get something that is known to bond well like gold plating. Did you left flux or glue residual on the PCB and are they covering the contact? Does your chip still have protection resist? Make sure your contacts are flat and clean for both bonds. I have been assuming you are doing two bonds per wire for making electrical contact, but many tools are also capable of making a single bond, which might be useful for laying down studs if you are doing crazy stuff like flip-chip bonding with those studs.</p>
+
 <h1 id="parameters">Parameters</h1>
 
 <p>You turn on the machine, and start flipping through the settings. I do not have it in front of me, but I’m familiar with it enough to see all the settings, and so should you after using it a handful of times, at least for the most important ones. The West Bond machines have recommended values for most parameters, and you would need to be doing crazy shit (like trying to wirebond with NbTi wires) to go more than 0.3x or 3x of the recommendation (and it still did not work).</p>
 
-<p>The most important ones are <strong>power</strong>, and <strong>duration</strong>, for both bond one and two. When you see the squished wire is too flat, either the power or the duration is too high. The next most important parameter is the force, controlled by a spring that can be adjusted by a knob holding it. Most staff member would tell you not to ever touch the force, but I always at least check the force. You never know what state the previous user would leave the tool in. This is how the force gauge looks like:</p>
+<p>The most important ones are <strong>power</strong>, and <strong>duration</strong>, for both bond one and two. When you see the squished wire is too flat, either the power or the duration is too high, and the wire could easily break off from the first bond. When the wire still looks pretty rounded, they are both too small, and the bond might not stick.</p>
+
+<p>The next most important parameter is the force, controlled by a spring that can be adjusted by a knob holding it. Most staff member would tell you not to ever touch the force, but I always at least <strong>check the force</strong>. You never know what state the previous user would leave the tool in. Just like when you are using any electronics test equipments like a VNA or oscilloscope, the best practice is to reset all the settings to default and then adjust your own settings. However, many fab equipments especially the old and manual ones do not have such basic functionality, and thus it is even more important to check the settings that you care about. Having a good sense of what and how much each and every steps and parameters matter to your process is in general a type of intuition and experience you should aim to accumulate and practice, and optimize your time, energy, and attention accordingly. Focus more on the ones that matter more, and cut and simplify the ones that do not matter. I’m getting derailed again lol.</p>
+
+<p>This is how the force gauge looks like:</p>
 
 <p><img src="/assets/images/9101-04A-tester-gauge-with-hook-5-50-grams.jfif" alt="9101-04A-tester-gauge-with-hook-5-50-grams.jfif" /></p>
 
 <p><em>Force gauge, from <a href="https://www.terrauniversal.com/portable-wire-bond-strength-tester.html">Terra Universal</a></em></p>
 
+<p>The knob on the top is for turning that little red needle/pointer back, so that it will be pushed by the actual pointer and indicate the max amount of force applied to the gauge. You hold it horizontally with the tip of the lever or arm against the end of the wirebonder arm that is holding the wirebonder tip, and start pushing it up until you hear the beeping sound. I feel like this part needs a good photo, but also as long as you could push the wirebonder arm up reliably and near the location of where the tip is, you would be measuring the force that the tip would apply to the wire. The exact location does not matter unless you care about the force better than ~10%.</p>
+
+<h2 id="drop-before-clamp">Drop before clamp</h2>
+
+<p>You keep going through the parameters, you see loop height and tail length. These are either not effective or not critical. The length of the tail is how much the clamp behind the tip would send the wire out after you finish up the second bond, and it could matter if you have really tight spacing of adjacent wires. The next parameter after these two is worth mentioning: <strong>drop before clamp</strong>. This is controlling when the clamp closes to hold the wire in place when you are moving from the first bond to the second bond: you move the tip from the first bond to the second bond following an arc shaped movement, during which the wire gets pulled more out of the tip by the first bond. When you passed the apex and start lowering the tip, this is the amount of drop after which the clamp closes. I find that I only either use the default value, or set it to zero (do not clamp) when I am free roaming. Clamping the wire is almost necessary for making short wirebonds, since the wire is stiff enough when it is short, and would refuse to bend without held by the clamp. Friction between the wire and the hole in the tip that the wire passes through is not strong enough to deform a short wire. Without bending it properly, you would end up with a very low profile wirebond, and risk of shorting it to circuits on the chip.</p>
+
+<p>The reason to not enable the clamp for me is mainly when the layout was not properly designed for wirebonding, or the dicing of the chip was off, and the bond pads end up far from the edge of the chip. In both these cases, I need to form a long wirebond (sometimes up to ~ 5 mm which would start having low Q resonances around 5 to 10 GHz). It is hard to estimate how much length I need for such wirebonds, and I would turn off the clamping so that I could freely move around as needed.</p>
+
+<h1 id="movement">Movement</h1>
+
+<p>Now the parameters are all set (usually not the case for the first session with a new sets of PCBs and chips, or when you have not used it for a while, and you’ll need a lot of playing and tuning), it is time to start your performance. It is not just your performance, it is your performance with the wirebonder, with the wire, with your PCB, and with your chip.</p>
+
+<p>What I mean by that, is you should think about how the wirebonder, the wire, the PCB, and your chip would feel about your movement. For example, the force is usually on the order of tens of mg, so there is no need at all to try pushing down on the lever you are holding with your right hand. And the ultrasonic power duration is typically tens of ms, you do not need to dwell for seconds. Even the gravity of the lever or the wirebonder arm would be able to initiate the bond, and you will hear the pneumatic actuation of the clamp, the “tss” (hearing the ultrasound is wishful thinking). This is the music, the chorus with the “beep”, the sound track of your performance. You should hear the following ones:</p>
+<ol>
+  <li>after you touch down and make the first bond, the clamp let go the wire</li>
+  <li>(optional if <em>drop before clamp</em> is 0) when you start moving downward towards the second bond, the clamp closes after you have moved down the amount of <strong>drop before clamp</strong></li>
+  <li>after you touch down on the second bond, it lets go again so that the second bond could pull a bit of the wire out when you start moving up (if the drop before clamp is off, it will close first when you are making the second bond, and then open. These two happens in quick succession and might be hard to distinguish)</li>
+  <li>after you moved up by the length of the tail, the clamp closes, and pulls the wire off the second bond, and leaving a tail of the wire that you could see protruding out of the tip.</li>
+</ol>
+
+<p>You should also hear a “beep” as soon as you touch down on either bond (also in the settings and usually on by default). If any of these sound is missing, that means either the tool is glitched (e.g., did not sense your touch down), or confused (maybe you moved too fast, or maybe you dwelled on a bond for too long), or if you bumped into something (e.g. the arm running into your fixture, or the wirebond tip running onto connectors on your PCB) and triggered the force or accelerometer used to sense the touch down, you’ll hear an extra “tss” and a “beep” that is not suppose to sound. If the clamp is supposed to be closed but it is open, feed once and it will close. If it is supposed to be open but it is closed, push the switch that toggle between “feed” and “open” to “open”.</p>
+
+<p><em>Touch down</em>: actually before the touch down, you want to check that the wire tail is properly below the tip. It should point downward out of the south side of the tip under the stereoscope, not the other sides. If not, try “open” and “feed”, and you’ll get a longer tail to push around and bond it off. After you get the wire properly under the tip, lower the tip and the wire vertically to make the first bond. Relax so that you hand is not shaky and moves the tip around horizontally during the touch down. Shake too much and you would break the wire from the smooshed part of the wire (the first bond).</p>
+
+<p><em>Drawing the wire</em>: before you start the wirebonding, take a look from the side of the tip, and get a sense of the orientation of the wire, which is held by the hole near the end of the tip. Try moving the tip around along that direction or orientation, and that is the best initial movement for drawing the wire after the first bond. If you move vertically up or horizontally forward after the first bond, you are either bending the joint between the intact wire and the smooshed wire too much, or pulling the wire with too much friction. Pulling along the direction of the hole minimizes the friction between the wire and the tip, and puts less stress at the first bond.</p>
+
+<p><em>Forming the arch</em>: this part is tricky to describe… Maybe I’ll think about it in my dream tonight.</p>
+
+<h1 id="feeding-the-wire">Feeding the wire</h1>
+
 <p>To be continued…</p>
+
 
         
       </section>
@@ -437,7 +474,8 @@
 ">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="/ofs/weekly-OFS-4/" class="pagination--pager" title="This week’s outside five sigma (#4)
+">Next</a>
     
   </nav>
 
@@ -453,6 +491,64 @@
   
   <h2 class="page__related-title">You May Also Enjoy</h2>
   <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-4/" rel="permalink">This week’s outside five sigma (#4)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-07-20T00:00:00-07:00">July 20, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/DTI_SmartBolts_ Demonstration.gif" alt="This week's outside five sigma (#4)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  SmartBolts makes fasteners with built-in visual indicators for monitoring preload.
+    
+      Their youtube channel has a demonstration.
+      It seems to...</p>
+
+  </article>
+</div>
+
     
       
       
@@ -615,60 +711,6 @@
       </div>
     
     <p class="archive__item-excerpt" itemprop="description">This is the first weekly outside five sigma. I’ll slowly figure out what is the best format. Right now I’m thinking one sentence, with one image, and one sou...</p>
-
-  </article>
-</div>
-
-    
-      
-      
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/blog/welcome/" rel="permalink">Welcome!
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2024-06-23T00:00:00-07:00">June 23, 2024</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
-        
-          1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <!-- add teaser, WTJ, 20240630 -->
-    
-      <div class="post-cover">
-        <img src="/assets/images/IMG_1559.JPG" alt="Welcome!">
-      </div>
-    
-    <p class="archive__item-excerpt" itemprop="description">This blog serves two main purpose: for you and for me to have fun, and to reduce the global sum of suffering of mankind by sharing my sufferings and learning...</p>
 
   </article>
 </div>
