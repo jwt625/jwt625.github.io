@@ -114,7 +114,7 @@ var store = [{
         "teaser": null
       },{
         "title": "This week's outside five sigma (#3)",
-        "excerpt":"1. The [nanodumbbell](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.033603) can now be rotated vertically with a trapping laser and a spinning laser. - PRL paper: [Long-Axis Spinning of an Optically Levitated Particle: A Levitated Spinning Top](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.253601) - the acceleration of one nanosphere is around $10^{12}g$ and the stress between them is $2~\\text{GPa}$. ![nanodumbbell.jfif](/assets/images/nanodumbbell.jfif) 2. The mean...","categories": ["OFS"],
+        "excerpt":"The nanodumbbell can now be rotated vertically with a trapping laser and a spinning laser. PRL paper: Long-Axis Spinning of an Optically Levitated Particle: A Levitated Spinning Top the acceleration of one nanosphere is around $10^{12}g$ and the stress between them is $2~\\text{GPa}$. The mean center of the United States...","categories": ["OFS"],
         "tags": ["Nanosphere","Satellite","MEMS","Plutonium","DNA","CNN","Photonics","IoT"],
         "url": "/ofs/weekly-OFS-3/",
         "teaser": null
@@ -126,7 +126,7 @@ var store = [{
         "teaser": null
       },{
         "title": "This week's outside five sigma (#4)",
-        "excerpt":"1. [SmartBolts](https://smartbolts.com/) makes fasteners with built-in visual indicators for monitoring preload. - Their youtube channel has a [demonstration](https://www.youtube.com/watch?v=BZy7CbpQAvY&ab_channel=SmartBolts). - It seems to be based on thickness change of a light absorbing fluid ([patent](https://portal.unifiedpatents.com/patents/patent/US-4904132-A)). ![DTI_SmartBolts_ Demonstration.gif](/assets/images/DTI_SmartBolts_ Demonstration.gif) 2. [halfbakery](https://www.halfbakery.com/) is a website collecting random half baked ideas. - I found it...","categories": ["OFS"],
+        "excerpt":"SmartBolts makes fasteners with built-in visual indicators for monitoring preload. Their youtube channel has a demonstration. It seems to be based on thickness change of a light absorbing fluid (patent). halfbakery is a website collecting random half baked ideas. I found it when trying to see if ultrasonic ice cream...","categories": ["OFS"],
         "tags": ["LaTeX","Manufacturing","Trump","GPS","CAD","Nanofab"],
         "url": "/ofs/weekly-OFS-4/",
         "teaser": null
