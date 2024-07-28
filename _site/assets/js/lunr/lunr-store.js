@@ -130,4 +130,10 @@ var store = [{
         "tags": ["LaTeX","Manufacturing","Trump","GPS","CAD","Nanofab"],
         "url": "/ofs/weekly-OFS-4/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#5)",
+        "excerpt":"AR assisted welding is as old as more than 12 years ago. Youtube video: High Dynamic Range (HDR) Video Image Processing For Digital Glass IEEE spectrum article: Steve Mann: My “Augmediated” Life – What I’ve learned from 35 years of wearing computerized eyewear Crowdstrike broke many Windows machines and triggered...","categories": ["OFS"],
+        "tags": ["Nanofab","Microwave","IT","AR"],
+        "url": "/ofs/weekly-OFS-5/",
+        "teaser": null
       }]

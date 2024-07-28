@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-27T10:24:40-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#4)</title><link href="http://localhost:4000/ofs/weekly-OFS-4/" rel="alternate" type="text/html" title="This week’s outside five sigma (#4)" /><published>2024-07-20T00:00:00-07:00</published><updated>2024-07-20T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-4</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-4/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-28T13:48:06-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#5)</title><link href="http://localhost:4000/ofs/weekly-OFS-5/" rel="alternate" type="text/html" title="This week’s outside five sigma (#5)" /><published>2024-07-28T00:00:00-07:00</published><updated>2024-07-28T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-5</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-5/"><![CDATA[<ol>
+  <li>AR assisted welding is as old as more than 12 years ago.
+    <ul>
+      <li>Youtube video: <a href="https://www.youtube.com/watch?v=ygcm0AQXX9k&amp;ab_channel=Leonardolo">High Dynamic Range (HDR) Video Image Processing For Digital Glass</a></li>
+      <li>IEEE spectrum article: <a href="https://spectrum.ieee.org/steve-mann-my-augmediated-life">Steve Mann: My “Augmediated” Life – What I’ve learned from 35 years of wearing computerized eyewear</a>
+<img src="/assets/images/2024/AR_welding.png" alt="AR_welding" /></li>
+    </ul>
+  </li>
+  <li>Crowdstrike broke many Windows machines and triggered a mass IT outage with a null <code class="language-plaintext highlighter-rouge">.sys</code> file.
+    <ul>
+      <li>CISA article: <a href="https://www.cisa.gov/news-events/alerts/2024/07/19/widespread-it-outage-due-crowdstrike-update">Widespread IT Outage Due to CrowdStrike Update</a></li>
+      <li>Crowdstrike blog: <a href="https://www.crowdstrike.com/blog/falcon-update-for-windows-hosts-technical-details/">Technical Details: Falcon Content Update for Windows Hosts</a></li>
+      <li>image from <a href="https://x.com/christian_tail/status/1814299095261147448">twitter thread</a>
+<img src="/assets/images/2024/crowdstrike_null.png" alt="crowdstrike_null.png" /></li>
+    </ul>
+  </li>
+  <li>AliExpress sells microwave chemical reactor
+    <ul>
+      <li><a href="https://www.aliexpress.us/item/3256805500031151.html">Lab Multiwave Solid-phase Microwave Reactor Continuous Radiation Heating Oven</a>
+<img src="/assets/images/2024/aliexpress_microwave_chem_reactor.png" alt="aliexpress_microwave_chem_reactor.png" /></li>
+    </ul>
+  </li>
+  <li>You could buld a plasma reactor with microwave and some gas plumbing. Zohman, Aviv and LaRue, Jerry did it at Chapman University.
+    <ul>
+      <li><a href="https://digitalcommons.chapman.edu/cusrd_abstracts/511/">Designing &amp; Building a Microwave Plasma Reactor for Graphene Synthesis</a></li>
+      <li>Youtube video: <a href="https://www.youtube.com/watch?v=84Rshv4f9tk&amp;ab_channel=AvivZohman">Aviv Zohman - Microwave Plasma Reactor for Graphene Synthesis</a>
+<img src="/assets/images/2024/microwave_plasma_reactor.jpeg" alt="microwave_plasma_reactor.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Questwise Ventures makes tiny OLED screens
+    <ul>
+      <li>World’s Smallest 0.32” OLED 60x32 Display Screen, on <a href="https://www.tindie.com/products/questwise-ventures/worlds-smallest-032-oled-60x32-display-screen/">tindie</a>
+<img src="/assets/images/2024/questwise_ventures_tiny_OLED.jpg" alt="questwise_ventures_tiny_OLED.jpg" /></li>
+    </ul>
+  </li>
+  <li>Low-spec LiDAR can be as cheap as $9 likely thanks to roomba.
+    <ul>
+      <li>AliExpress: <a href="https://www.aliexpress.us/item/3256806933155420.html">Mini 360 degree ranging modeling and mapping ROS robot LiDAR 360 degree scanning TOF LiDAR</a>
+<img src="/assets/images/2024/cheap_lidar_aliexpress.png" alt="cheap_lidar_aliexpress.png" /></li>
+    </ul>
+  </li>
+  <li>exo lets you run your own AI cluster at home with everyday devices
+    <ul>
+      <li>Github: <a href="https://github.com/exo-explore/exo">exo</a></li>
+      <li>Alex Cheema shows how he runs Llama 3.1 405B distributed across two macbooks on <a href="https://x.com/ac_crypto/status/1815969489990869369">Twitter</a>
+<img src="/assets/images/2024/exo_llama_405B.png" alt="exo_llama_405B.png" /></li>
+    </ul>
+  </li>
+  <li><a href="https://www.skipwithjoy.com/">Skip</a> is a start up spinoff from Google X that puts BLDC motors at your knee joints so that you could go hiking at 90 years old
+    <ul>
+      <li><img src="/assets/images/2024/skip_with_joy.jpeg" alt="skip_with_joy.jpeg" /></li>
+    </ul>
+  </li>
+  <li>On <strong>December 9, 1968</strong>, Doug Engelbart and his team presented a demo that included the mouse, word processing, real-time collabration, video conferencing, and many more. This is even before ARPANET which is a year later.
+    <ul>
+      <li><a href="https://dougengelbart.org/">Doug Engelbart Institute</a></li>
+      <li>Youtube video from SRI: <a href="https://www.youtube.com/watch?v=B6rKUf9DWRI&amp;ab_channel=SRI">1968 “Mother of All Demos” by SRI’s Doug Engelbart and Team</a>
+<img src="/assets/images/2024/mother_of_all_demo_doug_engelbart.png" alt="mother_of_all_demo_doug_engelbart.png" /></li>
+    </ul>
+  </li>
+  <li>You can slam your laptop to type Morse code
+    <ul>
+      <li>Github: <a href="https://github.com/veggiedefender/open-and-shut">Open and Shut</a></li>
+    </ul>
+  </li>
+</ol>
+<p>
+  <video width="600" height="400" controls="">
+    <source src="/assets/images/2024/open_and_shut_Morse.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</p>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="Microwave" /><category term="IT" /><category term="AR" /><summary type="html"><![CDATA[AR assisted welding is as old as more than 12 years ago. Youtube video: High Dynamic Range (HDR) Video Image Processing For Digital Glass IEEE spectrum article: Steve Mann: My “Augmediated” Life – What I’ve learned from 35 years of wearing computerized eyewear]]></summary></entry><entry><title type="html">This week’s outside five sigma (#4)</title><link href="http://localhost:4000/ofs/weekly-OFS-4/" rel="alternate" type="text/html" title="This week’s outside five sigma (#4)" /><published>2024-07-20T00:00:00-07:00</published><updated>2024-07-20T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-4</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-4/"><![CDATA[<ol>
   <li><a href="https://smartbolts.com/">SmartBolts</a> makes fasteners with built-in visual indicators for monitoring preload.
     <ul>
       <li>Their youtube channel has a <a href="https://www.youtube.com/watch?v=BZy7CbpQAvY&amp;ab_channel=SmartBolts">demonstration</a>.</li>
@@ -491,152 +562,4 @@
 
 <p>[7] R. S. Tucker, “Green Optical Communications - Part I: Energy Limitations in Transport,” IEEE J Sel. Top. Quant. 17, 245 (2011).</p>
 
-<p>(First published at <a href="http://large.stanford.edu/courses/2018/ph240/jiang1/">http://large.stanford.edu/courses/2018/ph240/jiang1/</a>)</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Telecom" /><category term="Energy" /><category term="USB" /><category term="Fiber" /><summary type="html"><![CDATA[TL;DR: ~ 10 pJ for electrical and 1 ~ 10 fJ for optical. These are order of magnitude estimations and could be very off from actual numbers. For more practical numbers, Prof. David Miller has a great paper in 2017 on energies for optoelectronic communications. If you find this article interesting, check out his paper: Attojoule Optoelectronics for Low-Energy Information Processing and Communications.]]></summary></entry><entry><title type="html">Jupyter Notebook Tips</title><link href="http://localhost:4000/tips/jupyter-tips/" rel="alternate" type="text/html" title="Jupyter Notebook Tips" /><published>2017-09-28T00:00:00-07:00</published><updated>2017-09-28T00:00:00-07:00</updated><id>http://localhost:4000/tips/jupyter-tips</id><content type="html" xml:base="http://localhost:4000/tips/jupyter-tips/"><![CDATA[<p>(This post is migrated from my old <a href="https://jwt625.blogspot.com/2017/09/jupyter-notebook-tips.html">Blogspot</a>. Bear with my broken English at the time.)</p>
-
-<h2 id="shortcuts">Shortcuts</h2>
-
-<p>Source:</p>
-
-<ul>
-  <li>https://ipython.org/ipython-doc/1/interactive/notebook.html#keyboard-shortcuts</li>
-</ul>
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: left">shortcut</th>
-      <th style="text-align: left">action</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Shift-Enter</td>
-      <td style="text-align: left">run cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-Enter</td>
-      <td style="text-align: left">run cell in-place</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Shift-Enter</td>
-      <td style="text-align: left">run cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-Enter</td>
-      <td style="text-align: left">run cell in-place</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Alt-Enter</td>
-      <td style="text-align: left">run cell, insert below</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m x</td>
-      <td style="text-align: left">cut cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m c</td>
-      <td style="text-align: left">copy cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m v</td>
-      <td style="text-align: left">paste cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m d</td>
-      <td style="text-align: left">delete cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m z</td>
-      <td style="text-align: left">undo last cell deletion</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m -</td>
-      <td style="text-align: left">split cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m a</td>
-      <td style="text-align: left">insert cell above</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m b</td>
-      <td style="text-align: left">insert cell below</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m o</td>
-      <td style="text-align: left">toggle output</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m O</td>
-      <td style="text-align: left">toggle output scroll</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m l</td>
-      <td style="text-align: left">toggle line numbers</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m s</td>
-      <td style="text-align: left">save notebook</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m j</td>
-      <td style="text-align: left">move cell down</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m k</td>
-      <td style="text-align: left">move cell up</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m y</td>
-      <td style="text-align: left">code cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m m</td>
-      <td style="text-align: left">markdown cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m t</td>
-      <td style="text-align: left">raw cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m 1-6</td>
-      <td style="text-align: left">heading 1-6 cell</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m p</td>
-      <td style="text-align: left">select previous</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m n</td>
-      <td style="text-align: left">select next</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m i</td>
-      <td style="text-align: left">interrupt kernel</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m .</td>
-      <td style="text-align: left">restart kernel</td>
-    </tr>
-    <tr>
-      <td style="text-align: left">Ctrl-m h</td>
-      <td style="text-align: left">show keyboard shortcuts</td>
-    </tr>
-  </tbody>
-</table>
-
-<h3 id="view-documentations-and-arguments-of-function">View documentations and arguments of function:</h3>
-
-<ul>
-  <li>Shift + Tab</li>
-</ul>
-
-<h2 id="pdf-output-requirements">PDF output requirements</h2>
-
-<ul>
-  <li><a href="http://pandoc.org/">pandoc</a></li>
-  <li>xelatex. E.g.: <code class="language-plaintext highlighter-rouge">sudo apt-get install texlive-xetex</code></li>
-</ul>
-
-<blockquote>
-  <p>Written with <a href="https://stackedit.io/">StackEdit</a>.</p>
-</blockquote>]]></content><author><name>Wentao</name></author><category term="Tips" /><category term="JupyterNotebook" /><summary type="html"><![CDATA[(This post is migrated from my old Blogspot. Bear with my broken English at the time.)]]></summary></entry></feed>
+<p>(First published at <a href="http://large.stanford.edu/courses/2018/ph240/jiang1/">http://large.stanford.edu/courses/2018/ph240/jiang1/</a>)</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Telecom" /><category term="Energy" /><category term="USB" /><category term="Fiber" /><summary type="html"><![CDATA[TL;DR: ~ 10 pJ for electrical and 1 ~ 10 fJ for optical. These are order of magnitude estimations and could be very off from actual numbers. For more practical numbers, Prof. David Miller has a great paper in 2017 on energies for optoelectronic communications. If you find this article interesting, check out his paper: Attojoule Optoelectronics for Low-Energy Information Processing and Communications.]]></summary></entry></feed>
