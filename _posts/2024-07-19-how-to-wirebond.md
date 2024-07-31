@@ -95,7 +95,21 @@ You should also hear a "beep" as soon as you touch down on either bond (also in 
 
 Actually before the touch down, you want to check that the wire tail is properly below the tip. It should point downward out of the south side of the tip under the stereoscope, not the other sides. If not, try "open" and "feed", and you'll get a longer tail to push around and bond it off. After you get the wire properly under the tip, lower the tip and the wire vertically to make the first bond. Relax so that you hand is not shaky and moves the tip around horizontally during the touch down. Shake too much and you would break the wire from the smooshed part of the wire (the first bond).
 
-The touch down of the first bond is the most likely step where you'll break the wire or clog the tip.
+
+## Debug the first bond
+
+The first bond is the most likely step where you'll break the wire or clog the tip, or tuning the recipe until the wire starts to stick. If the power or time or force is too weak, you'll see the wire does not stick to the pad, and just came off when you lift up the tip, or it might stay for a while and then break off when you are half way towards the second bond. You could move somewhere irrelevant but has exposed metal or bond pad on your PCB to bond off the excess wire, or "open" and "feed" (wirebonder will still be in "bond 2"), and then bond it off. If the excess wire is very short, you can just "feed", and the wirebonder will be in "bond 1" and ready for another try.
+
+If the wire broke immediately after the first bond, you will see just the bonded wire on the pad with no wire attached to it or getting pulled out of the tip when you start moving the tip up from the first bond. There are a few cases that could cause the wire to break:
+1. The bond power, time and/or force is off, and the heel of the wire on the first bond cracked or too weak.
+2. There is a knot on the wire that formed during threading, and the knot is wider than the hole on the tip.
+3. The wire got stuck somewhere upstream, e.g., winded on one of the screw or under a washer near the wire spool
+4. The wire got damaged during threading or manipulation, and is too weak to pull and turn the spool
+
+If this is the first time the wire broke, check the later cases, and make sure the wire is clean and in the right place. If it is already the 2nd or 3rd or 20th time, you are likely already in the debug and recipe tuning process (case 1), and the reflect you should have is to just "feed" the wire, and try feeding it a few times if you do not see the wires immediately. Sometimes the wire does not break in a clean way, and the clamp would struggle to feed it, and you will just see the tip of the wire shaking around when "feed". If you could see a little bit of the end of the wire, congratulations, the wire is still threaded through the hole, and try "open" and "feed". This will feed a much longer segment of the wire out of the tip, and set the wirebonder to "bond 2" for you to bond off the excess wire. 
+
+If you are unlucky, you will see under the stereo microscope some wire starts to bend out of being behind the tip when you "open" and "feed". In this case, the best choice is to pull the wire out, cut off the dirty and bent end, and thread it through the tip. If you could see a bit of the wire still sticking out of the tip in the front (south), and you are confident in your tweezer skill, try "open", and then use tweezers to grab and pull the wire more from the front of the tip (it is still threaded through the hole), and then you could "feed" or "close", cut with scissors if the excess is super long (> 1 cm), make sure the wirebond is in "bond 2", and bond off the excess.
+
 
 
 ## Drawing and forming the wire
@@ -109,7 +123,17 @@ Before you start the wirebonding, take a look from the side of the tip, and get 
 
 # Threading the wire
 
+![wirebond_tip_1.png](/assets/images/2024/wirebond_tip_1.png)
+![wirebond_tip_2.png](/assets/images/2024/wirebond_tip_2.png)
+*SEM images of the tip and the hole on it in which the wire threads through. From [Stanford SNSF](https://drive.google.com/file/d/13c3TfuGcX3p-ovXERelZnxbrHZo0tBIx/view).*
+
 To be continued...
+
+
+## Replacing the tip
+
+
+
 
 
 
