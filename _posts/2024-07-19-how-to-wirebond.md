@@ -139,32 +139,51 @@ I have been yapping too much... I really need more drawings and less words. Anyw
 
 During the part about debuging the first bond, we talked about how to feed the wire when it breaks after yoru first bond, and how if you are unlucky, you'll see the wire curling up behind the tip, and you likely have to pull it out and thread it. Relax, take a few deep breath, you will be attempting to thread for a while if this is your first time.
 
+## Preparation
 
 First, you need a good pair of tweezers. The wire we are working with is typically 25 um, that is 10x thinner than your hair. You can easily pinch a kink or even break the wire by just clamping onto it with a crappy pair of tweezers, or more likely you won't be able to hold it tight because of dirts, bumps, or bends on the tweezer tips. You want a pair of clean, straight, and sharp tip tweezers. The best ones I find are the ones with narrow width but thicker along the opening and closing direction of the tweezers, or where the tweezer tip has a relatively fast tapering instead of a thin and slow tapering. This type of design lets you grab a well defined spot on the wire, while still have relatively better stiffness of the tweezer tip. Some sharp tweezers are too skinny and are easily bent. If they are easily bent and they are not yours, you will find the tips bent.vIf you can, have yourself a dedicated sharp tip tweezers for your wirebonding sessions.
 
 Second, prepare the wire. There are a few aspects about preparing the wire. Let's start from the spool. When you cut off old wire and pull more fresh one, do it slowly so that the spool is not turning because of inertia after you stopped pulling. Dealing with a mess of loose wire is the worst nightmare on the wirebonder. Next, check the wire is not stuck or caught anywhere. You could easily pull it off from where it got caught, and would have more stuff to thread through if it broke before some of the guide tubes. Before you grab the wire for threading, make sure the end of the wire is locally straight, no small loops, no kinks, nothing that would get caught at the hole when you have threaded the very end of the wire. Lastly, check the clamp is actually open, and the wire is between the two halves of the clamp when it came out of the tube (needs a picture here). This is not necessary at this point, but better make sure it is the case so that later the wire would be in between the clamp all the way from the tube to the tip.
 
+To illustrate how weak the wire is, let's do some order of magnitude estimations. The wire diameter is 25 um, that is a cross section of ~ 500 um$^2$. The Young's modulus of aluminum is 69 GPa. Assuming the wire would break at 0.5% deformation, and we get as little as **0.17 N** could break the wire. How much is 0.17 N? Let's say your tweezer is 15 g, then its weight is about 0.15 N. Hmm this actually turns out to be really close to how much the wire could hold... Someone should do this experiment. In practice, the wire is 1% silicon to help strengthening it, but you get the point.
 
-Now, **how you grab the wire** determines more than 60% how easy the threading will be. There are two aspects about grabbing the wire for threading. 
+
+## Grab the wire
+
+Now, **how you grab the wire** determines more than 80% how easy the threading will be. There are two aspects about grabbing the wire for threading. 
 1. The first aspect is the length of the wire between its end and where you grab it. This piece of wire is going to provide the stiffness to overcome the friction between the wire and the hole, so the shorter it is, the easier or more robust the wire is for you to poke it around the end of the tip to find the hole. On the other hand, this length would be the maximum you have to thread through the hole, and you want enough length so that you could be able to grab the threaded part of it on the other side of the hole to pull more out. I'd say after some practice, you should be able to grab wires as short as 1 mm or less, so I typically leave 5 mm or so when I grab the wire for threading. 
 2. The second aspect is how the wire curves. The wire has a natural curvature from the diameter of the spool, which is around 15 mm ish. Grabbing the wire such that the curvature makes it bends left or right does not make sense for threading, so the remaining choice is whether to grab it such that it bends clockwise, or counterclockwise. To be more accurate, you are likely holding the wire, as well as looking at the wire and the tip from the right hand side of the tool I find it more comfortable to hold the wire near horizontal and pointing the tangential direction downward a bit at the location of the tweezer (I really need to make a drawing here). This way I could rest my hand or wrist against the table or the wirebonder platform. I would pick the curvature of the wire to be bending counterclockwise (going from where the tweezer is holding to the end of the wire). The wire would be bending more downward from the curvature, and matching better with the direction of the hole on the tip.
 
 
-The actual threading: 
+The actual threading is relatively straight forward once you grabbed the wire nicely. Take a look at the SEM image of the tip and the hole on the tip above. It is not that scary. As soon as you get a good sense of where the hole is, you will be able to get it in two or three tries. If you get the wire through the hole in one go, time to brag it to your colleagues. However, if this is the first few times you are threading, be prepared to keep trying for 10 min to one hour, and do some push-up to release your anger along the way (or just let it go and take a walk). I do have a few advice for the threading process:
+1. Think about your hand and the tweezers as flexible fixtures. You want to support your hand and the tweezer nicely, and the motion needed for threading to be comfortable for your hand and arm.
+2. watch the state of the end of the wire closely, and start with smaller motion: when you see the wire starts to deform a bit, that means the end of the wire is not hitting the hole, and you should slightly adjust the location you are poking and try again. Once you pushed too hard and the wire end is bent, you'll need to cut it off and restart from the grabbing part (adjusting the wire length, bending direction etc). So start small and slow and try more times for your own learning. If you keep hitting and not getting the wire through, while you are getting more confident you are poking around the right spot, **then** start poking with larger motion and more force. Maybe the hole is a bit dirty and the friction is higher. Or try again with a shorter wire length sticking out of the tweezer tip so that it is more stiff.
 
+
+Once you got a little bit of wire through the tip, do not celebrate too early, finish the whole process and celebrate after you have bonded off the excess wire. Check the wire is not tangled or looped onto anything. Check the wire is not forming a loop because of twist. When you pull more wire through the tip at the front side, the loop could stay there and simply get shrunk and stuck into the hole, or pinch and break the wire. When everything looks good, start pulling the wire using your tweezers, and watch to make sure the wire falls in between the clamps. Pull steady and slow so that the spool will not overshoot when you stop pulling. Close the clamp, try feed, and watch if the wire is actually feeding. The tool should be in "bond 2", if not, "open" and then "feed". Bond off the excess wire, and finally, congratulations! you have done the threading!
 
 
 
 ## Replacing the tip
 
+This is part of threading the wire because it is bound to happen every 10 threadings or so. You will start suspecting if the tip hole is clogged when you consistently feel you have poked half way into the hole, but the wire is just not coming through. You could feel even when you clean up the bent end of the wire, start again with a shorter and thus stiffer wire, you still feel it slides into the hole, refuse to go through, and the wire bent again and again as you increase the force trying to thread it through. Congratulations, the tip is likely clogged.
 
+One way to check if the tip is clogged if your chip is nicely reflective, is to look at reflection of the tip. You need to play with the tilt of your chip, the height of the tip, as well as the focus and zoom of the scope to put the image of the tip into your view. 
 
-
+The tip replacement should be in the standard training, so I won't describe the location of the screw, how the tip is stored and how to slide it on and off etc. The thing that is worth noting is the height of the tip. If the tip is mounted too high, the clamp behind it would end up being the lowest point, and make contact with the chip or bond pad before the tip and the wire. If the clamp is too low, the wire would be also too low and out of the clamp. The range or tolerance for the relative height between the clamp and the tip is likely 1 mm or 2. If you are not sure, check sideway to see if it is too low, and try feed and check if the wire is being fed by the clamp properly.
 
 
 # How many wirebonds do I need?
 
+As many as you could fit onto your bond pad.
+
+Sorry I'm just kidding. I'd do at least two regardless of what frequency you are working with just in case one of them is broken. For RF/microwve chips, I almost always have three for the signal, and as many on the ground and as closely spaced as possible. However, when parasitics matter, like when the wirebond is part of and resonance, then you want just a single wirebond, and make it as short as possible. There are two good reference on intuition and rule of thumb for the effect of wirebonds: [Microwave Package Design for Superconducting Quantum Processors](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020306) is a relatively recent one, and an older one that I could not find it any more (it is also from the superconducting circuit community and I remember it is on Applied Physics Letter). One of my recent paper also had one section in the [SI](/assets/doc/41567_2023_2129_MOESM1_ESM.pdf) on modeling of cross-chip wirebond. We built the model together and my labmate Sultan wrote up the section and made the beautiful drawings and figure.
+
+![cross_chip_wirebond_model](/assets/images/2024/cross_chip_wirebond_model.png)
+
+In short, at least two if you are not confident on the reliability of the wirebond. The shorter and the fewer the better if you are working at higher frequencies. One wirebond by itself is roughly 1 nH/mm, and you will start getting resonances around 6 GHz when the length is around 6 mm.
 
 
 # Looking back
+
 
