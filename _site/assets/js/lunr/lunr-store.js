@@ -136,4 +136,10 @@ var store = [{
         "tags": ["Nanofab","Microwave","IT","AR","BLDC","HCI","Llama","LiDAR","OLED"],
         "url": "/ofs/weekly-OFS-5/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#6)",
+        "excerpt":"(Old) You could adapt a Dremel into a centrifuge Thingiverse: DremelFuge - A One-Piece Centrifuge for Rotary Tools Trust your gut feeling, it is scientifically proven more effective than concious forecast (for future stock performance) PNAS paper: Brain activity of professional investors signals future stock performance WSJ: What Our Brains...","categories": ["OFS"],
+        "tags": ["Nanofab","Lens","Battery","2D_material","SAM","Photonics","Optics"],
+        "url": "/ofs/weekly-OFS-6/",
+        "teaser": null
       }]

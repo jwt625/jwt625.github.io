@@ -1,4 +1,72 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-07-31T21:59:18-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#5)</title><link href="http://localhost:4000/ofs/weekly-OFS-5/" rel="alternate" type="text/html" title="This week’s outside five sigma (#5)" /><published>2024-07-28T00:00:00-07:00</published><updated>2024-07-28T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-5</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-5/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-04T13:34:55-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#6)</title><link href="http://localhost:4000/ofs/weekly-OFS-6/" rel="alternate" type="text/html" title="This week’s outside five sigma (#6)" /><published>2024-08-04T00:00:00-07:00</published><updated>2024-08-04T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-6</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-6/"><![CDATA[<ol>
+  <li>(Old) You could adapt a Dremel into a centrifuge
+    <ul>
+      <li>Thingiverse: <a href="https://www.thingiverse.com/thing:1483">DremelFuge - A One-Piece Centrifuge for Rotary Tools</a>
+<img src="/assets/images/2024/2009-12-30-dermel_centrifuge.webp" alt="/assets/images/2024/2009-12-30-dermel_centrifuge.webp" /></li>
+    </ul>
+  </li>
+  <li>Trust your gut feeling, it is scientifically proven more effective than concious forecast (for future stock performance)
+    <ul>
+      <li>PNAS paper: <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2307982121">Brain activity of professional investors signals future stock performance</a></li>
+      <li>WSJ: <a href="https://www.wsj.com/finance/investing/what-our-brains-know-about-stocksbut-wont-tell-us-880d5d72">What Our Brains Know About Stocks—but Won’t Tell Us</a>
+<img src="/assets/images/2024/PNAS_brain_activity_future_stock.jpeg" alt="PNAS_brain_activity_future_stock.jpeg" /></li>
+    </ul>
+  </li>
+  <li>The list of thin-film lithium niobate foundries keeps growing…
+    <ul>
+      <li>From <a href="https://quantumcomputinginc.com/technology/thin-film-lithium-niobate-foundry">Quantum Computing Inc. - Thin film lithium niobate foundry</a></li>
+      <li>The company itself is old. The Stevens Institute of Technology people are likely behind the LN stuff. One of their previous work that kinda “scopped” Hong Tang’s <a href="https://opg.optica.org/optica/fulltext.cfm?uri=optica-6-12-1455&amp;id=423402">work</a>: <a href="https://opg.optica.org/optica/fulltext.cfm?uri=optica-6-9-1244&amp;id=420689">Ultra-efficient frequency conversion in quasi-phase-matched lithium niobate microrings</a>
+<img src="/assets/images/2024/LN_foundry_QuantumComputingInc.jpeg" alt="LN_foundry_QuantumComputingInc.jpeg" /></li>
+    </ul>
+  </li>
+  <li>“As the most-read industry report, Volta Foundations Battery Report summarizes the most significant developments in the battery industry. Crowd-sourced from top industry and academia experts, this report seeks to provide a comprehensive and accessible overview of the latest battery research, policy and business landscape.”
+    <ul>
+      <li><a href="https://volta.foundation/battery-report">Battery Report (2023)</a>
+<img src="/assets/images/2024/volta_annual_battery_report_2023.jpeg" alt="volta_annual_battery_report_2023.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Some 2D materials have refractive index at 1 um as high as 4.5 while having “low loss”, pretty insane. Silicon is 3.45 and barly still works at 1 um.
+    <ul>
+      <li>Nature Photonics paper <a href="https://www.nature.com/articles/s41566-024-01444-9">Combining ultrahigh index with exceptional nonlinearity in resonant transition metal dichalcogenide nanodisks</a>
+<img src="/assets/images/2024/nature_photonics_MoS2_nanodisk.jpeg" alt="nature_photonics_MoS2_nanodisk.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Meta released SAM2
+    <ul>
+      <li>Blog: <a href="https://ai.meta.com/blog/segment-anything-2/">Introducing SAM 2: The next generation of Meta Segment Anything Model for videos and images</a></li>
+      <li><a href="https://github.com/facebookresearch/segment-anything-2">github</a></li>
+      <li><a href="https://dingboard.com/">Dingboard</a> is built off SAM1. Yacine’s <a href="https://x.com/yacineMTB/status/1818285294728470897">tweet</a>.
+<img src="/assets/images/2024/SAM2.png" alt="SAM2" /></li>
+    </ul>
+  </li>
+  <li>Humans can detect a single photo and sense roughness on the order of 10 nm.
+    <ul>
+      <li>Nature comm paper: <a href="https://www.nature.com/articles/ncomms12172">Direct detection of a single photon by human</a></li>
+      <li>Scientific Report paper: <a href="https://www.nature.com/articles/srep02617">Feeling Small: Exploring the Tactile Perception Limits</a>
+<img src="/assets/images/2024/nature_comm_direct_detection_single_photon_human_eye.png" alt="nature_comm_direct_detection_single_photon_human_eye.png" /></li>
+    </ul>
+  </li>
+  <li><a href="https://www.thefisheyelist.com/">https://www.thefisheyelist.com/</a> has a great collection of different fisheye lense cameras.
+    <ul>
+      <li><a href="https://www.thefisheyelist.com/lens/aeg-17mm-fisheye/">AEG 17mm f/6.3</a></li>
+      <li>Another great lens design resource: <a href="https://www.lens-designs.com/">A file exchange site for lens designs</a>
+<img src="/assets/images/2024/all_sky_cam_AEG_berlin.webp" alt="all_sky_cam_AEG_berlin.webp" /></li>
+    </ul>
+  </li>
+  <li>Most drone parts are made in China
+    <ul>
+      <li><a href="https://x.com/RayWangTaiwan/status/1818625687697473591">Twitter post</a>
+<img src="/assets/images/2024/drone_part_source.jpeg" alt="drone_part_source.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Great paper on what it takes to change refractive index from Jacob B Khurgin:
+    <ul>
+      <li><a href="https://arxiv.org/abs/2308.16011">Energy and Power requirements for alteration of the refractive index</a></li>
+      <li>He has another great paper on why refractive index it is what it is: <a href="https://arxiv.org/abs/2112.01205">Expanding photonic palette: exploring high index materials</a>
+<img src="/assets/images/2024/refractive_index_change_Jacob_Khurgin.jpeg" alt="refractive_index_change_Jacob_Khurgin.jpeg" /></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="Lens" /><category term="Battery" /><category term="2D_material" /><category term="SAM" /><category term="Photonics" /><category term="Optics" /><summary type="html"><![CDATA[(Old) You could adapt a Dremel into a centrifuge Thingiverse: DremelFuge - A One-Piece Centrifuge for Rotary Tools]]></summary></entry><entry><title type="html">This week’s outside five sigma (#5)</title><link href="http://localhost:4000/ofs/weekly-OFS-5/" rel="alternate" type="text/html" title="This week’s outside five sigma (#5)" /><published>2024-07-28T00:00:00-07:00</published><updated>2024-07-28T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-5</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-5/"><![CDATA[<ol>
   <li>AR assisted welding is as old as more than 12 years ago.
     <ul>
       <li>Youtube video: <a href="https://www.youtube.com/watch?v=ygcm0AQXX9k&amp;ab_channel=Leonardolo">High Dynamic Range (HDR) Video Image Processing For Digital Glass</a></li>
@@ -582,62 +650,4 @@
 
 <p>[6] T Bostoen, S. Mullender, and Y. Berbers, “Power-Reduction Techniques for Data-Center Storage Systems,” ACM Comput. Surv. 45, 33 (2013).</p>
 
-<p>(First published at <a href="http://large.stanford.edu/courses/2018/ph240/jiang2/">http://large.stanford.edu/courses/2018/ph240/jiang2/</a>)</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Storage" /><category term="SSD" /><category term="HDD" /><category term="Energy" /><summary type="html"><![CDATA[TL;DR: ~ 0.4 fJ for SSD and ~ 100 fJ for HDD, limited by physics of the implementation. For actual energy consumption of commercial SSD and HDD, they are both ~ 1 nJ. On the data center level, ~ 0.2 mJ.]]></summary></entry><entry><title type="html">Energy to Transmit One Bit</title><link href="http://localhost:4000/blog/energy-transmit-one-bit/" rel="alternate" type="text/html" title="Energy to Transmit One Bit" /><published>2018-11-10T00:00:00-08:00</published><updated>2018-11-10T00:00:00-08:00</updated><id>http://localhost:4000/blog/energy-transmit-one-bit</id><content type="html" xml:base="http://localhost:4000/blog/energy-transmit-one-bit/"><![CDATA[<p><strong>TL;DR</strong>: ~ 10 pJ for electrical and 1 ~ 10 fJ for optical. These are order of magnitude estimations and could be very off from actual numbers. For more practical numbers, Prof. David Miller has a great paper in 2017 on energies for optoelectronic communications. If you find this article interesting, check out his paper: <a href="https://ieeexplore.ieee.org/abstract/document/7805240">Attojoule Optoelectronics for Low-Energy Information Processing and Communications</a>.</p>
-
-<p><img src="/assets/images/energies-in-communication.PNG" alt="energies-in-communication.PNG" /></p>
-
-<p><em>Energies for communications and computations, From Prof. Miller’s 2017 paper.</em></p>
-
-<h1 id="introduction">Introduction</h1>
-
-<p>The internet has become an essential tool for people to communicate, for both work and entertainment. Since the first internet service providers in 1989, the population of internet users around the world has reached 2.5 billion in 2013. [1] Along with the growth of the internet, the amount of energy comsumed by information communication technology (ICT) is also drastically increasing. From 2007 to 2012, the worldwide electricity consumption has increased by 10.1% on annual average, from 219 TWh to 354 TWh. In the same time period, the share of energy consumption for communication networks in total electricity consumption has grown from 1.3% to 1.8%. [2]</p>
-
-<p>Given the limited natural resources we have and the fact that the advance in ICT results in a positive impact on electricity consumption, it is necessary to exam and reduce the energy we spend on transmitting one bit of information. [3] I will consider two simple case, the energy required to transmit one bit using electrical cables and the energy required to transmit one bit, with optical fibers.</p>
-
-<h1 id="part-i-energy-of-electrical-signals">Part I: Energy of Electrical Signals</h1>
-
-<p>To transmit an electrical signal, a voltage is built up on one end of the electrical cable, and the voltage propagates through the cable to the other end. The energy involved in this process is essentially used to charge up the capacitance of the wire, which is proportional to the length of the wire. Therefore, we will measure the capacitance by unit length and also the energy spent by unit distance the signal propagates. With estimations of the unit length capacitance, the voltage used for encoding the bit and the length involved, we can estimated the energy by $E \sim CV^2$.</p>
-
-<p>However, for long range connections, only the length occupied by one single bit is charged and consumes energy. The length for each bit can be approximated by the propagation speed multiplied by the clock cycle. Take USB 3.0 as an example (see Fig. 1), the 5 Gbps transfer rate corresponds to clock cycle $\sim 200~\text{ps}$. [4] The electromagnetic wave propagates at the speed of light, which gives the corresponded length scale to be 6 cm. Longer sigal occupies longer length, and requires more energy.</p>
-
-<p>For estimating the unit length capacitance, the first thing to notice is that the unit length capacitance of different electrical cables and transmission lines are roughly on the same order of magnitude. For example, the capacitance of a typical 50 Ω coaxial cable is around 1.5 pF/cm. In comparison, on-chip interconnections have size that’s smaller than the coaxial cable by five orders of magnitude, but the corresponded capacitance is ~ 2 pF/cm, comparable to coaxial cables. [5]</p>
-
-<p>Typical voltage involved in semiconductor devices are ~ 1V. [6] Putting the estimations of unit length capacitance, length of one bit and the operating voltage together, the energy for one bit using electrical signal is on the order of 10 pJ.</p>
-
-<p><img src="/assets/images/USB3p0-connector.jpg" alt="USB3p0-connector.jpg" /></p>
-
-<p><em>Fig. 1: USB 3.0 connector (Source: <a href="https://commons.wikimedia.org/wiki/File:Connector_USB_3_IMGP6022_wp.jpg">Wikimedia Commons</a>)</em></p>
-
-<h1 id="part-ii-energy-of-optical-signals">Part II: Energy of Optical Signals</h1>
-
-<p>The most important difference between optical signal and electrical signal is that, instead of charging up the cable or electromagnetic medium to a certain voltage, the signals are carried by photons. The photons are converted to voltages at the photodetector, and this photon detection is essentially a quantum process: ~ 1 electron is excited from each absorbed photon. For photons at wavelength $\lambda = 1.55$ μm which is typically used in fiber communication, the energy of one single photon hν ~ 1 eV, where eV is the electron-volt (energy of one electron at one volt). The current from 1 nW oof optical power at this wavelength is ~ 1 nA. With a 1 GΩ load resistor, the photodetector generates ~ 1 V. [5]</p>
-
-<p>In reality, the photocurrent charges up the capacitance from the detector circuit, and the resulting voltage must be enough to flip a CMOS logic gate, typically U = 1 V. Assuming a total capacitance $C_\text{TOT} = 1$ fF, then the total charge required is $Q = CU$. [5] The number of electrons roughly equals the number of photons impinging on the detector, which is $N_\text{photon} = E/h\nu = N_\text{electron} = Q/e$. Thus the energy per bit is $E = h\nu\cdot CU/e = 1$ fJ. This estimate is roughly equal that based on an optical signal-to-noise ratio. The energy consumption of optically amplified transportation in the ideal case and limited by Shannon bound is estimated to be 4.4 fJ per bit. [7]</p>
-
-<p><img src="/assets/images/optical-fiber.jpg" alt="optical-fiber.jpg" /></p>
-
-<p><em>Fig. 2: Optical fibers along with a 1 euro cent coin. (Source: <a href="https://commons.wikimedia.org/wiki/File:Optical-fiber-pbc.jpg">Wikimedia Commons</a>)</em></p>
-
-<h1 id="conclusion">Conclusion</h1>
-
-<p>From the simple estimation discussed above, we show that on an electric channel with similar capacitance, data rate and signal voltage, the energy required by one bit is on the level of 10 pJ, four orders of magnitude larger than the energy of one bit via a typical optical fiber. In addition, the short wavelength of optical signal also enables much smaller cable cross section (see Fig. 2). As a result of this energy scale difference, modern submarine cables are using optical fibers for intercontinential communication.</p>
-
-<p>One more thing to notice is that, our computers are built with electronic components. At the end of optical fibers, optoelectronic components and photodetectors are necessary to transduce electrical signal to optical signal. The optical fibers also have finite loss and repeaters or amplifiers are required for long range communication. They contribute to most of the energy consumption for optical fiber communication. As a result, the figure of merit is energy per bit per distance and it’s typically orders of magnitude higher than the simple estimation in part II. [7]</p>
-
-<h1 id="references">References</h1>
-
-<p>[1] J. D. Negroponte, S. J. Palmisano, and A. Segal, Defending an Open, Global, Secure and Resilient Internet (Council on Foreign Relations Press, 2013).</p>
-
-<p>[2] S. Lambert et al., “Worldwide Electricity Consumption of Communication Networks,” Opt. Express 20, B513 (2012).</p>
-
-<p>[3] K. Saidi, H. Toumi, and S. Zaidi, “Impact of Information Communication Technology and Economic Growth on the Electricity Consumption: Empirical Evidence from 67 Countries,” J Knowl. Econ. 8, 789 (2017).</p>
-
-<p>[4] B. Dudley, “<a href="https://www.seattletimes.com/business/comcast-to-shuffle-channels-in-august/">Comcast to Shuffle Channels in August</a>,” Seattle Times, 2 Jul 09.</p>
-
-<p>[5] D. A. B. Miller, “Attojoule Optoelectronics for Low-Energy Information Processing and Communications,” J. Lightwave Technol. 35, 346 (2017).</p>
-
-<p>[6] C. C. Hu, Modern Semiconductor Devices for Integrated Circuits (Pearson, 2009).</p>
-
-<p>[7] R. S. Tucker, “Green Optical Communications - Part I: Energy Limitations in Transport,” IEEE J Sel. Top. Quant. 17, 245 (2011).</p>
-
-<p>(First published at <a href="http://large.stanford.edu/courses/2018/ph240/jiang1/">http://large.stanford.edu/courses/2018/ph240/jiang1/</a>)</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Telecom" /><category term="Energy" /><category term="USB" /><category term="Fiber" /><summary type="html"><![CDATA[TL;DR: ~ 10 pJ for electrical and 1 ~ 10 fJ for optical. These are order of magnitude estimations and could be very off from actual numbers. For more practical numbers, Prof. David Miller has a great paper in 2017 on energies for optoelectronic communications. If you find this article interesting, check out his paper: Attojoule Optoelectronics for Low-Energy Information Processing and Communications.]]></summary></entry></feed>
+<p>(First published at <a href="http://large.stanford.edu/courses/2018/ph240/jiang2/">http://large.stanford.edu/courses/2018/ph240/jiang2/</a>)</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Storage" /><category term="SSD" /><category term="HDD" /><category term="Energy" /><summary type="html"><![CDATA[TL;DR: ~ 0.4 fJ for SSD and ~ 100 fJ for HDD, limited by physics of the implementation. For actual energy consumption of commercial SSD and HDD, they are both ~ 1 nJ. On the data center level, ~ 0.2 mJ.]]></summary></entry></feed>
