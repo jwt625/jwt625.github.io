@@ -145,7 +145,7 @@ var store = [{
       },{
         "title": "This week's outside five sigma (#7)",
         "excerpt":"Phase sensitive innovations Inc. uses electro-optic frequency upconversion from mmW to telecom wavelength and free-space optics to achieve mmW phased array imaging paper: Millimeter-Wave and Sub-THz Phased-Array Imaging Systems Based on Electro-Optic Up-Conversion and Optical Beamforming Coca-cola people modeled the back emf of the dispensor’s flow control module by taylor...","categories": ["OFS"],
-        "tags": ["mmWave"],
+        "tags": ["mmWave","Nanofab","Sensor","Laser","PCB","Simulation","PhasedArray","3D_printing"],
         "url": "/ofs/weekly-OFS-7/",
         "teaser": null
       }]
