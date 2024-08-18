@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-15T23:06:52-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">Yapping on ebeam lithography</title><link href="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/" rel="alternate" type="text/html" title="Yapping on ebeam lithography" /><published>2024-08-15T00:00:00-07:00</published><updated>2024-08-15T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/yapping-on-ebeam-lithography</id><content type="html" xml:base="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/"><![CDATA[<p>Under construction…</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-18T12:54:19-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#8)</title><link href="http://localhost:4000/ofs/weekly-OFS-8/" rel="alternate" type="text/html" title="This week’s outside five sigma (#8)" /><published>2024-08-18T00:00:00-07:00</published><updated>2024-08-18T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-8</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-8/"><![CDATA[<ol>
+  <li>“Researchers from the University of Tokyo have trained a humanoid robot called Musashi to autonomously drive a micro car.”
+    <ul>
+      <li>Youtube: <a href="https://www.youtube.com/watch?app=desktop&amp;v=B1h4guaNiGs">Japan’s Musashi Humanoid Robot Driver Takes On Tokyo Roads</a></li>
+      <li>Paper: <a href="https://ieeexplore.ieee.org/abstract/document/9091842">Toward Autonomous Driving by Musculoskeletal Humanoids: A Study of Developed Hardware and Learning-Based Software</a>
+<img src="/assets/images/2024/humaniod_self_driving.png" alt="humaniod_self_driving.png" /></li>
+    </ul>
+  </li>
+  <li>PsiQuantum showed off their big 4 K fridge.
+    <ul>
+      <li><a href="https://x.com/PsiQuantum/status/1822294081260974123">Twitter post</a>.
+<img src="/assets/images/2024/psiquantum_fridge.jpeg" alt="psiquantum_fridge.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Stycast could slowly leak heat under sub 100 mK
+    <ul>
+      <li><a href="https://x.com/QuantumWitness/status/1822427302397161505">Twitter post</a></li>
+      <li>Paper: <a href="https://parpia.lassp.cornell.edu/sites/parpia/files/publications/Pub137.pdf">Acoustic and thermal properties of Stycast 1266 below 100 mK</a>
+<img src="/assets/images/2024/stycast_leak_heat.png" alt="stycast_leak_heat.png" /></li>
+    </ul>
+  </li>
+  <li>You can use a monochromatic sodium lamp and a flame with sodium chloride that absorbs more light from the lamp than it emits.
+    <ul>
+      <li>Youtube: <a href="https://www.youtube.com/watch?v=F0LWtieip9E">Making Black Fire</a>
+<img src="/assets/images/2024/black_flame_sodium_chloride.png" alt="black_flame_sodium_chloride.png" /></li>
+    </ul>
+  </li>
+  <li>Photon Valley Inc. sells “tweezers for grabbing optics.
+    <ul>
+      <li>Website: <a href="https://photonvalleyinc.com/products/og15-opticgrab-og1-og5-bundle">OG15 COMBO PACK: OPTIC GRAB OG1 &amp; OG5 Bundle</a>
+<img src="/assets/images/2024/OG15_OPTIC_GRAB.jpeg" alt="OG15_OPTIC_GRAB.jpeg" /></li>
+    </ul>
+  </li>
+  <li>FEMTO puts schematics on the enclosure of their photoreceivers / photodetectors:
+    <ul>
+      <li><a href="https://www.femto.de/en/silizium-und-ingaas-fotoempfaenger-fotodetektoren/dc-bis-200-mhz-variable-verstaerkung-oe-300/">200 MHz Variable Gain Photoreceiver OE-300</a>
+<img src="/assets/images/2024/OE-300-Si-10_photodetector_receiver.jpeg" alt="OE-300-Si-10_photodetector_receiver.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Use the dead body of a spider as a microhydraulic gripper
+    <ul>
+      <li>IEEE Spectrum: <a href="https://spectrum.ieee.org/robot-bugs">Necrobotics: Dead Spiders Reincarnated as Robot Grippers</a></li>
+      <li>Paper: <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/advs.202201174">Necrobotics: Biotic Materials as Ready-to-Use Actuators</a>
+<img src="/assets/images/2024/dead_spider_gripper.png" alt="dead_spider_gripper.png" /></li>
+    </ul>
+  </li>
+  <li>You probably have seen the chamfered microstrip bends (Mitered bends) for lower reflection, turns out you could cut anywhere you want around the corner.
+    <ul>
+      <li>Slides from Simberian: <a href="https://www.simberian.com/AppNotes/BendsOptimization_2008_05.pdf">Minimal-reflection bends in micro-strip lines</a>
+<img src="/assets/images/2024/chamfer_microstrip_bend.jpeg" alt="chamfer_microstrip_bend.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Video-assistant referee (VAR) is getting replaced with a few dozens of iphones. They’ll be able to track 10,000 points per player instead of 50.
+    <ul>
+      <li>Wired: <a href="https://www.wired.com/story/the-english-premier-league-has-a-new-iphone-powered-offside-detection-system/">The English Premier League Will Ditch Its Hated VAR Offside Tech for a Fleet of iPhones</a>
+<img src="/assets/images/2024/iphone_VAR.jpeg" alt="iphone_VAR.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Distributed Acoustic Sensing (DAS) could use  underground optical fiber to hear you driving  from tens and maybe hundreds of miles away.
+    <ul>
+      <li>Paper: <a href="https://www.mdpi.com/1424-8220/23/12/5727">Traffic Vibration Signal Analysis of DAS Fiber Optic Cables with Different Coupling Based on an Improved Wavelet Thresholding Method</a>
+<img src="/assets/images/2024/Distributed_acoustic_sensing.jpeg" alt="Distributed_acoustic_sensing.jpeg" /></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Quantum" /><category term="Stycast" /><category term="Cryogenics" /><category term="Humanoid" /><category term="Robotics" /><category term="Self-driving" /><category term="Optics" /><category term="Microwave" /><category term="Sensing" /><summary type="html"><![CDATA[“Researchers from the University of Tokyo have trained a humanoid robot called Musashi to autonomously drive a micro car.” Youtube: Japan’s Musashi Humanoid Robot Driver Takes On Tokyo Roads Paper: Toward Autonomous Driving by Musculoskeletal Humanoids: A Study of Developed Hardware and Learning-Based Software]]></summary></entry><entry><title type="html">Yapping on ebeam lithography</title><link href="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/" rel="alternate" type="text/html" title="Yapping on ebeam lithography" /><published>2024-08-15T00:00:00-07:00</published><updated>2024-08-15T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/yapping-on-ebeam-lithography</id><content type="html" xml:base="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/"><![CDATA[<p>Under construction…</p>
 
 <p>Think about and focus on what you could offer different and extra compared to existing documents.</p>
 
@@ -140,58 +204,73 @@
   <li>Altissimo, Matteo. “E-beam lithography for micro-/nanofabrication.” Biomicrofluidics 4.2 (2010). <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2917861/">link</a></li>
   <li>Chen, Yifang. “Nanofabrication by electron beam lithography and its applications: A review.” Microelectronic Engineering 135 (2015): 57-72. <a href="https://www.sciencedirect.com/science/article/abs/pii/S016793171500101X?via%3Dihub">link</a></li>
   <li>Gilmour Jr, Alexander S., and A. S. Gilmour. Klystrons, traveling wave tubes, magnetrons, crossed-field amplifiers, and gyrotrons. Artech House, 2011.</li>
-</ol>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Lithography" /><category term="Electron" /><summary type="html"><![CDATA[Under construction…]]></summary></entry><entry><title type="html">This week’s outside five sigma (#7)</title><link href="http://localhost:4000/ofs/weekly-OFS-7/" rel="alternate" type="text/html" title="This week’s outside five sigma (#7)" /><published>2024-08-11T00:00:00-07:00</published><updated>2024-08-11T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-7</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-7/"><![CDATA[1. Phase sensitive innovations Inc. uses electro-optic frequency upconversion from mmW to telecom wavelength and free-space optics to achieve mmW phased array imaging
-- paper: [Millimeter-Wave and Sub-THz Phased-Array Imaging Systems Based on Electro-Optic Up-Conversion and Optical Beamforming](https://ieeexplore.ieee.org/abstract/document/10225255)
-![/assets/images/2024/mmw_phased_array_electro_optic.jfif](/assets/images/2024/mmw_phased_array_electro_optic.jfif)
-
-
-2. Coca-cola people modeled the back emf of the dispensor's flow control module by taylor expansion of pressure into 26 terms of 6 features (time, voltage etc.), and got ~90% accuracy within +- 10 psi
-- Blog: [Coca-Cola Develops Virtual Pressure Sensor with Machine Learning to Improve Beverage Dispenser Diagnostics](https://www.mathworks.com/company/user_stories/coca-cola-develops-virtual-pressure-sensor-with-machine-learning-to-improve-beverage-dispenser-diagnostics.html)
-- Slides: [ww-2023-expo-pseudo-pressure-sensor-to-improve-diagnostics-in-a-solenoid-actuated-valve.pdf](/assets/doc/2024/ww-2023-expo-pseudo-pressure-sensor-to-improve-diagnostics-in-a-solenoid-actuated-valve.pdf)
-![coca_cola_valve_virtual_sensor.jfif](/assets/images/2024/coca_cola_valve_virtual_sensor.jfif)
-
-
-3. Using stealth dicing the right way, you could cut sub 50 nm lines, with 1000-10,000 aspect ratio into various materials, and drill specific shapes.
-- Nature Photonics paper: [Super-stealth dicing of transparent solids with nanometric precision](https://www.nature.com/articles/s41566-024-01437-8)
-- [Arxiv version](https://arxiv.org/abs/2308.02352)
-![nat_photonics_stealth_dicing_202408.jfif](/assets/images/2024/nat_photonics_stealth_dicing_202408.jfif)
-
-
-4. Suzhou Everbright Photonics makes laser chips that are as small as a long grain rice ($0.34~\text{mm}\times 5.6~\text{mm} \times 0.15~\text{mm} $), and has CW mode output power of 50 W! ($\approx$ ten thousand laser pointers)
-- [EverBright Product center](https://en.everbrightphotonics.com/products_list.html)
-- [specs](/assets/doc/2024/EB-BC-050-0915-10-058.pdf)
-![everbright_50W_laser_chip.jfif](/assets/images/2024/everbright_50W_laser_chip.jfif)
-
-
-5. Eiesu Electronics Co. in Japan offers service to fix wrong PCB routing
-- [website](https://www.eiesu.com/)
-![Ayes_Electric_PCB_service_1](/assets/images/2024/Ayes_Electric_PCB_service_1.jfif)
-![Ayes_Electric_PCB_service_2](/assets/images/2024/Ayes_Electric_PCB_service_2.png)
-
-
-6. Bio and medical fields call computer simulation *in silico* experiments.
-- [Ansys Advantage Issue 1, 2024](https://www.ansys.com/content/dam/ansys-advantage/volume-xix-issue-1-2024/ansys-advantage-issue-1-2024.pdf)
-- [backup](/assets/doc/2024/ansys-advantage-issue-1-2024.pdf)
-![in_silico_device_testing.jfif](/assets/images/2024/in_silico_device_testing.jfif)
-
-
-7. A school of fish swim together like a set of 3D phased array antenna to noise cancel each other's acoustic emission.
-- Paper: [Effect of schooling on flow generated sounds from carangiform swimmers](https://iopscience.iop.org/article/10.1088/1748-3190/ad3a4e)
-![effect_schooling_fish.jfif](/assets/images/2024/effect_schooling_fish.jfif)
-
-8. If your signal is too weak, add some noise and saturate your detector. You might get better results from stochastic resonance.
-- Wikipedia: [Stochastic resonance](https://en.wikipedia.org/wiki/Stochastic_resonance)
-![stochastic_resonance.png](/assets/images/2024/stochastic_resonance.png)
-
-9. Tilt your laptop screen when you suspect a curve is slightly not linear
-- xkcd 2701: [Change in Slope](https://xkcd.com/2701/)
-![change_in_slope_2x.png](/assets/images/2024/change_in_slope_2x.png)
-
-
-
-10. 3D FLIGHTLAB: Modular Test Bench for Aerial Vehicles at Home
-- [Kickstarter](https://www.kickstarter.com/projects/3dflightlab/3d-flightlab-modular-test-bench-for-aerial-vehicles-at-home)
-![3D_flightlab_drone_test_bench.avif](/assets/images/2024/3D_flightlab_drone_test_bench.avif)]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="mmWave" /><category term="Nanofab" /><category term="Sensor" /><category term="Laser" /><category term="PCB" /><category term="Simulation" /><category term="PhasedArray" /><category term="3D_printing" /><summary type="html"><![CDATA[Phase sensitive innovations Inc. uses electro-optic frequency upconversion from mmW to telecom wavelength and free-space optics to achieve mmW phased array imaging paper: Millimeter-Wave and Sub-THz Phased-Array Imaging Systems Based on Electro-Optic Up-Conversion and Optical Beamforming]]></summary></entry><entry><title type="html">This week’s outside five sigma (#6)</title><link href="http://localhost:4000/ofs/weekly-OFS-6/" rel="alternate" type="text/html" title="This week’s outside five sigma (#6)" /><published>2024-08-04T00:00:00-07:00</published><updated>2024-08-04T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-6</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-6/"><![CDATA[<ol>
+</ol>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Lithography" /><category term="Electron" /><summary type="html"><![CDATA[Under construction…]]></summary></entry><entry><title type="html">This week’s outside five sigma (#7)</title><link href="http://localhost:4000/ofs/weekly-OFS-7/" rel="alternate" type="text/html" title="This week’s outside five sigma (#7)" /><published>2024-08-11T00:00:00-07:00</published><updated>2024-08-11T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-7</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-7/"><![CDATA[<ol>
+  <li>Phase sensitive innovations Inc. uses electro-optic frequency upconversion from mmW to telecom wavelength and free-space optics to achieve mmW phased array imaging
+    <ul>
+      <li>paper: <a href="https://ieeexplore.ieee.org/abstract/document/10225255">Millimeter-Wave and Sub-THz Phased-Array Imaging Systems Based on Electro-Optic Up-Conversion and Optical Beamforming</a>
+<img src="/assets/images/2024/mmw_phased_array_electro_optic.jfif" alt="/assets/images/2024/mmw_phased_array_electro_optic.jfif" /></li>
+    </ul>
+  </li>
+  <li>Coca-cola people modeled the back emf of the dispensor’s flow control module by taylor expansion of pressure into 26 terms of 6 features (time, voltage etc.), and got ~90% accuracy within +- 10 psi
+    <ul>
+      <li>Blog: <a href="https://www.mathworks.com/company/user_stories/coca-cola-develops-virtual-pressure-sensor-with-machine-learning-to-improve-beverage-dispenser-diagnostics.html">Coca-Cola Develops Virtual Pressure Sensor with Machine Learning to Improve Beverage Dispenser Diagnostics</a></li>
+      <li>Slides: <a href="/assets/doc/2024/ww-2023-expo-pseudo-pressure-sensor-to-improve-diagnostics-in-a-solenoid-actuated-valve.pdf">ww-2023-expo-pseudo-pressure-sensor-to-improve-diagnostics-in-a-solenoid-actuated-valve.pdf</a>
+<img src="/assets/images/2024/coca_cola_valve_virtual_sensor.jfif" alt="coca_cola_valve_virtual_sensor.jfif" /></li>
+    </ul>
+  </li>
+  <li>Using stealth dicing the right way, you could cut sub 50 nm lines, with 1000-10,000 aspect ratio into various materials, and drill specific shapes.
+    <ul>
+      <li>Nature Photonics paper: <a href="https://www.nature.com/articles/s41566-024-01437-8">Super-stealth dicing of transparent solids with nanometric precision</a></li>
+      <li><a href="https://arxiv.org/abs/2308.02352">Arxiv version</a>
+<img src="/assets/images/2024/nat_photonics_stealth_dicing_202408.jfif" alt="nat_photonics_stealth_dicing_202408.jfif" /></li>
+    </ul>
+  </li>
+  <li>Suzhou Everbright Photonics makes laser chips that are as small as a long grain rice ($0.34~\text{mm}\times 5.6~\text{mm} \times 0.15~\text{mm} $), and has CW mode output power of 50 W! ($\approx$ ten thousand laser pointers)
+    <ul>
+      <li><a href="https://en.everbrightphotonics.com/products_list.html">EverBright Product center</a></li>
+      <li><a href="/assets/doc/2024/EB-BC-050-0915-10-058.pdf">specs</a>
+<img src="/assets/images/2024/everbright_50W_laser_chip.jfif" alt="everbright_50W_laser_chip.jfif" /></li>
+    </ul>
+  </li>
+  <li>Eiesu Electronics Co. in Japan offers service to fix wrong PCB routing
+    <ul>
+      <li><a href="https://www.eiesu.com/">website</a>
+<img src="/assets/images/2024/Ayes_Electric_PCB_service_1.jfif" alt="Ayes_Electric_PCB_service_1" />
+<img src="/assets/images/2024/Ayes_Electric_PCB_service_2.png" alt="Ayes_Electric_PCB_service_2" /></li>
+    </ul>
+  </li>
+  <li>Bio and medical fields call computer simulation <em>in silico</em> experiments.
+    <ul>
+      <li><a href="https://www.ansys.com/content/dam/ansys-advantage/volume-xix-issue-1-2024/ansys-advantage-issue-1-2024.pdf">Ansys Advantage Issue 1, 2024</a></li>
+      <li><a href="/assets/doc/2024/ansys-advantage-issue-1-2024.pdf">backup</a>
+<img src="/assets/images/2024/in_silico_device_testing.jfif" alt="in_silico_device_testing.jfif" /></li>
+    </ul>
+  </li>
+  <li>A school of fish swim together like a set of 3D phased array antenna to noise cancel each other’s acoustic emission.
+    <ul>
+      <li>Paper: <a href="https://iopscience.iop.org/article/10.1088/1748-3190/ad3a4e">Effect of schooling on flow generated sounds from carangiform swimmers</a>
+<img src="/assets/images/2024/effect_schooling_fish.jfif" alt="effect_schooling_fish.jfif" /></li>
+    </ul>
+  </li>
+  <li>If your signal is too weak, add some noise and saturate your detector. You might get better results from stochastic resonance.
+    <ul>
+      <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/Stochastic_resonance">Stochastic resonance</a>
+<img src="/assets/images/2024/stochastic_resonance.png" alt="stochastic_resonance.png" /></li>
+    </ul>
+  </li>
+  <li>Tilt your laptop screen when you suspect a curve is slightly not linear
+    <ul>
+      <li>xkcd 2701: <a href="https://xkcd.com/2701/">Change in Slope</a>
+<img src="/assets/images/2024/change_in_slope_2x.png" alt="change_in_slope_2x.png" /></li>
+    </ul>
+  </li>
+  <li>3D FLIGHTLAB: Modular Test Bench for Aerial Vehicles at Home
+    <ul>
+      <li><a href="https://www.kickstarter.com/projects/3dflightlab/3d-flightlab-modular-test-bench-for-aerial-vehicles-at-home">Kickstarter</a>
+<img src="/assets/images/2024/3D_flightlab_drone_test_bench.avif" alt="3D_flightlab_drone_test_bench.avif" /></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="mmWave" /><category term="Nanofab" /><category term="Sensor" /><category term="Laser" /><category term="PCB" /><category term="Simulation" /><category term="PhasedArray" /><category term="3D_printing" /><summary type="html"><![CDATA[Phase sensitive innovations Inc. uses electro-optic frequency upconversion from mmW to telecom wavelength and free-space optics to achieve mmW phased array imaging paper: Millimeter-Wave and Sub-THz Phased-Array Imaging Systems Based on Electro-Optic Up-Conversion and Optical Beamforming]]></summary></entry><entry><title type="html">This week’s outside five sigma (#6)</title><link href="http://localhost:4000/ofs/weekly-OFS-6/" rel="alternate" type="text/html" title="This week’s outside five sigma (#6)" /><published>2024-08-04T00:00:00-07:00</published><updated>2024-08-04T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-6</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-6/"><![CDATA[<ol>
   <li>(Old) You could adapt a Dremel into a centrifuge
     <ul>
       <li>Thingiverse: <a href="https://www.thingiverse.com/thing:1483">DremelFuge - A One-Piece Centrifuge for Rotary Tools</a>
@@ -755,38 +834,4 @@
     </ul>
   </li>
   <li><a href="https://github.com/fuglede">Søren Fuglede Jørgensen</a> built a font file which is also a large language model and an inference engine for that model: <a href="https://fuglede.github.io/llama.ttf/">llama.ttf</a>.</li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="BGP" /><category term="LLM" /><category term="SWIR" /><category term="Nature" /><category term="3D-print" /><summary type="html"><![CDATA[This is the first weekly outside five sigma. I’ll slowly figure out what is the best format. Right now I’m thinking one sentence, with one image, and one source.]]></summary></entry><entry><title type="html">Welcome!</title><link href="http://localhost:4000/blog/welcome/" rel="alternate" type="text/html" title="Welcome!" /><published>2024-06-23T00:00:00-07:00</published><updated>2024-06-23T00:00:00-07:00</updated><id>http://localhost:4000/blog/welcome</id><content type="html" xml:base="http://localhost:4000/blog/welcome/"><![CDATA[<p>This blog serves two main purpose: for you and for me to have fun, and to reduce the global sum of suffering of mankind by sharing my sufferings and learnings. That said, if you read, learnt and avoided some suffering, go pick something else to suffer from and share your learnings. Many aspects of this blog is still under construction. If you are interested, come back later (maybe a week or two). You can checkout the <a href="/about/">About</a> page for now.</p>
-
-<p>I kept the example posts since I’m still learning <a href="https://github.com/mmistakes/minimal-mistakes">this template</a>. They are all in 2010 and you could ignore those.</p>
-
-<h1 id="todo">TODO</h1>
-<ul class="task-list">
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />finish the About page</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />start collecting the outside five sigma stuff I find into a weekly post</li>
-  <li class="task-list-item">[] write up about the shed build</li>
-  <li class="task-list-item">[] write up the Sep 2023 road trip (drove a big loop around west coast, 6000 miles in four weeks)</li>
-  <li class="task-list-item">[] write up the Blender projects during PhD</li>
-</ul>
-
-<h1 id="projects-in-planning">Projects in planning</h1>
-<ul>
-  <li>combining <a href="https://github.com/facebookresearch/segment-anything">SAM</a> and <a href="https://github.com/UZ-SLAMLab/ORB_SLAM3">SLAM</a> for tracking where all my shits are
-    <ul>
-      <li>build glasses with <a href="https://github.com/BasedHardware/OpenGlass">OpenGlass</a></li>
-      <li>playing with <a href="https://github.com/roboflow/supervision">roboflow/supervision</a></li>
-    </ul>
-  </li>
-  <li>meshtastic with a bunch of sensors</li>
-  <li>Test out low cost open source XYZ nanopositioners from Edwin Hwu (<a href="https://www.sciencedirect.com/science/article/pii/S2468067222000621">link</a>)</li>
-  <li>Test out <a href="https://x.com/OpenUc2">openUC2</a>
-    <ul>
-      <li>as well as <a href="https://openflexure.org/projects/microscope/">open flexure</a></li>
-    </ul>
-  </li>
-  <li>Alex’s <a href="https://github.com/AlexanderKoch-Koch/low_cost_robot">low cost robot arm</a></li>
-  <li>local LLM + HAM radio? (get your license already you procrastinating piece of REDACTED)
-    <ul class="task-list">
-      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />obtain technician license (20240629)</li>
-    </ul>
-  </li>
-</ul>]]></content><author><name>Wentao</name></author><category term="Blog" /><summary type="html"><![CDATA[This blog serves two main purpose: for you and for me to have fun, and to reduce the global sum of suffering of mankind by sharing my sufferings and learnings. That said, if you read, learnt and avoided some suffering, go pick something else to suffer from and share your learnings. Many aspects of this blog is still under construction. If you are interested, come back later (maybe a week or two). You can checkout the About page for now.]]></summary></entry></feed>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="BGP" /><category term="LLM" /><category term="SWIR" /><category term="Nature" /><category term="3D-print" /><summary type="html"><![CDATA[This is the first weekly outside five sigma. I’ll slowly figure out what is the best format. Right now I’m thinking one sentence, with one image, and one source.]]></summary></entry></feed>

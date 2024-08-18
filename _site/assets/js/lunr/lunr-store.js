@@ -144,7 +144,7 @@ var store = [{
         "teaser": null
       },{
         "title": "This week's outside five sigma (#7)",
-        "excerpt":"1. Phase sensitive innovations Inc. uses electro-optic frequency upconversion from mmW to telecom wavelength and free-space optics to achieve mmW phased array imaging - paper: [Millimeter-Wave and Sub-THz Phased-Array Imaging Systems Based on Electro-Optic Up-Conversion and Optical Beamforming](https://ieeexplore.ieee.org/abstract/document/10225255) ![/assets/images/2024/mmw_phased_array_electro_optic.jfif](/assets/images/2024/mmw_phased_array_electro_optic.jfif) 2. Coca-cola people modeled the back emf of the dispensor's flow...","categories": ["OFS"],
+        "excerpt":"Phase sensitive innovations Inc. uses electro-optic frequency upconversion from mmW to telecom wavelength and free-space optics to achieve mmW phased array imaging paper: Millimeter-Wave and Sub-THz Phased-Array Imaging Systems Based on Electro-Optic Up-Conversion and Optical Beamforming Coca-cola people modeled the back emf of the dispensor’s flow control module by taylor...","categories": ["OFS"],
         "tags": ["mmWave","Nanofab","Sensor","Laser","PCB","Simulation","PhasedArray","3D_printing"],
         "url": "/ofs/weekly-OFS-7/",
         "teaser": null
@@ -153,5 +153,11 @@ var store = [{
         "excerpt":"Under construction… Think about and focus on what you could offer different and extra compared to existing documents. TODO: gather references &amp; documents [] pick some cool looking SEMs [] think about which part you want to add drawings Outline: My journey History Raith 150 Two (2015 - 2017) JEOL...","categories": ["Tutorial"],
         "tags": ["Nanofab","Lithography","Electron"],
         "url": "/tutorial/yapping-on-ebeam-lithography/",
+        "teaser": null
+      },{
+        "title": "This week's outside five sigma (#8)",
+        "excerpt":"“Researchers from the University of Tokyo have trained a humanoid robot called Musashi to autonomously drive a micro car.” Youtube: Japan’s Musashi Humanoid Robot Driver Takes On Tokyo Roads Paper: Toward Autonomous Driving by Musculoskeletal Humanoids: A Study of Developed Hardware and Learning-Based Software PsiQuantum showed off their big 4...","categories": ["OFS"],
+        "tags": ["Quantum","Stycast","Cryogenics","Humanoid","Robotics","Self-driving","Optics","Microwave","Sensing"],
+        "url": "/ofs/weekly-OFS-8/",
         "teaser": null
       }]
