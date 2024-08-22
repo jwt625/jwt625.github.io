@@ -150,7 +150,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Yapping on ebeam lithography",
-        "excerpt":"Under construction… Think about and focus on what you could offer different and extra compared to existing documents. TODO: gather references &amp; documents [] pick some cool looking SEMs [] think about which part you want to add drawings Outline: My journey History Raith 150 Two (2015 - 2017) JEOL...","categories": ["Tutorial"],
+        "excerpt":"Under construction… Think about and focus on what you could offer different and extra compared to existing documents. TODO and change log: gather references &amp; documents pick some cool looking SEMs 20240821: finished intro journey section [] think about which part you want to add drawings A quick rundown of...","categories": ["Tutorial"],
         "tags": ["Nanofab","Lithography","Electron"],
         "url": "/tutorial/yapping-on-ebeam-lithography/",
         "teaser": null
