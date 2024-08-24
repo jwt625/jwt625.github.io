@@ -1,0 +1,871 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>This week’s outside five sigma (#9) - Outside Five Sigma</title>
+<meta name="description" content="I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts            Twitter thread       I should write it into a blog">
+
+
+  <meta name="author" content="Wentao">
+  
+  <meta property="article:author" content="Wentao">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Outside Five Sigma">
+<meta property="og:title" content="This week’s outside five sigma (#9)">
+<meta property="og:url" content="http://localhost:4000/ofs/weekly-OFS-9/">
+
+
+  <meta property="og:description" content="I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts            Twitter thread       I should write it into a blog">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/2024/MFC_sensor.jfif">
+
+
+
+
+
+  <meta property="article:published_time" content="2024-08-24T00:00:00-07:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/ofs/weekly-OFS-9/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Outside Five Sigma Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+
+  </head>
+
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/twm.JPG" alt="Outside Five Sigma"></a>
+        
+        <a class="site-title" href="/">
+          Outside Five Sigma
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/posts/"
+                
+                
+              >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/categories/"
+                
+                
+              >Categories</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/tags/"
+                
+                
+              >Tags</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/2024/MFC_sensor.jfif');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          This week’s outside five sigma (#9)
+
+        
+      </h1>
+      
+      
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-24T00:00:00-07:00">August 24, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/bio-photo-2.jpg" alt="Wentao" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Wentao</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Memories are the long term averages, and the outside five sigmas.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="This week’s outside five sigma (#9)">
+    <meta itemprop="description" content="  I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts          Twitter thread      I should write it into a blog      ">
+    <meta itemprop="datePublished" content="2024-08-24T00:00:00-07:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              
+            </nav>
+          </aside>
+        
+        <ol>
+  <li>I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts
+    <ul>
+      <li><a href="https://x.com/jwt0625/status/1825038035458879580">Twitter thread</a></li>
+      <li>I should write it into a blog
+<img src="/assets/images/2024/MFC_valve.jfif" alt="MFC_valve.jfif" />
+<img src="/assets/images/2024/MFC_sensor.jfif" alt="MFC_sensor.jfif" /></li>
+    </ul>
+  </li>
+  <li>All major electronic gear control manufacturers now support wireless shifting, and the wireless signal could be captured and replayed/hacked.
+    <ul>
+      <li>Paper: <a href="https://www.usenix.org/system/files/woot24-motallebighomi.pdf">MakeShift: Security Analysis of Shimano Di2 Wireless Gear Shifting in Bicycles</a>
+<img src="/assets/images/2024/shimano_bike_electronic_wireless_gear_shifter.jfif" alt="shimano_bike_electronic_wireless_gear_shifter.jfif" />
+<img src="/assets/images/2024/shimano_bike_electronic_wireless_gear_shifter_2.jfif" alt="shimano_bike_electronic_wireless_gear_shifter_2.jfif" /></li>
+    </ul>
+  </li>
+  <li>Minecraft’s new update enables you to make a “ring resonator” for mine cart with powered rails and use a switch to launch the accelerated mine cart out of the ring. It works exactly as a Q-switched laser
+    <ul>
+      <li><a href="https://x.com/WitchOfDusk/status/1824243197159112726">Twitter post</a>
+<img src="/assets/images/2024/Minecraft_update_ring_launch.gif" alt="Minecraft_update_ring_launch.gif" /></li>
+    </ul>
+  </li>
+  <li>When you make a lens with discrete flat surfaces, it samples the scene with gaps and creates a mosaic image. I ran a ray tracing simulation to show how it works.
+    <ul>
+      <li><a href="https://x.com/Hakusi_Katei/status/1807591865132466324">Twitter post</a> from <a href="https://x.com/Hakusi_Katei">@Hakusi_Katei</a></li>
+      <li><a href="https://monoli.easy-myshop.jp/">shop</a>
+<img src="/assets/images/2024/minecraft_lens_pixel_mirror.jfif" alt="minecraft_lens_pixel_mirror.jfif" />
+<img src="/assets/images/2024/minecraft_lens_pixel_mirror_ray_tracing.jfif" alt="minecraft_lens_pixel_mirror_ray_tracing.jfif" /></li>
+    </ul>
+  </li>
+  <li>SendCutSend has a series of great guidelines on how to best use their services.
+    <ul>
+      <li><a href="https://sendcutsend.com/guidelines/">website</a>
+<img src="/assets/images/2024/sendcutsend_guidelines.PNG" alt="sendcutsend_guidelines.PNG" /></li>
+    </ul>
+  </li>
+  <li>The YOLO vision model guy has a My Little Pony style resume
+    <ul>
+      <li>Google Scholar: <a href="https://scholar.google.com/citations?user=TDk_NfkAAAAJ&amp;hl=en&amp;oi=sra">Joseph Redmon</a></li>
+      <li><a href="https://web.archive.org/web/20200302013000/https://pjreddie.com/static/Redmon%20Resume.pdf">Wayback machine</a>
+<img src="/assets/images/2024/My_Little_Resume_Joseph_redmon.PNG" alt="My_Little_Resume_Joseph_redmon.PNG" /></li>
+    </ul>
+  </li>
+  <li><a href="https://clayhaight.com/">Clayton</a> (and team) shipped a quiet leaf picking robot to Nat Friedman
+    <ul>
+      <li><a href="https://x.com/clayhaight/status/1825245517745656143">Twitter post</a>
+<img src="/assets/images/2024/leaf_picking_robot.PNG" alt="leaf_picking_robot.PNG" /></li>
+    </ul>
+  </li>
+  <li>Zhiyuan Robot debuted their Lingxi-01 robot after two months of development
+    <ul>
+      <li>Youtube: <a href="https://www.youtube.com/watch?v=e04nYc0VTUg&amp;t=2952s&amp;ab_channel=XTech">2024智元年度新品发布会全程</a></li>
+      <li>Company website (very slow to load for me): <a href="https://www.zhiyuan-robot.com/">智元机器人</a>
+<img src="/assets/images/2024/zhiyuan_lingxi_01.PNG" alt="zhiyuan_lingxi_01.PNG" />
+<img src="/assets/images/2024/zhiyuan_lingxi_01.jfif" alt="zhiyuan_lingxi_02.jfif" /></li>
+    </ul>
+  </li>
+  <li>The biggest pdf dataset contains only “roughly 8.4~ million pdfs that uncompressed total 8TB”.
+    <ul>
+      <li>Blogpost: <a href="https://snats.xyz/pages/articles/classifying_a_bunch_of_pdfs.html">Classifying all of the pdfs on the internet</a>
+<img src="/assets/images/2024/pdf_classification_piechart_equally_distributed.png" alt="pdf_classification_piechart_equally_distributed.png" /></li>
+    </ul>
+  </li>
+  <li>Unitree released the mass production version of their humaniod robot G1
+    <ul>
+      <li><a href="https://x.com/UnitreeRobotics/status/1825435336736120880">Twitter post</a></li>
+      <li>Website: <a href="https://www.unitree.com/g1">Humanoid robot G1</a>
+<img src="/assets/images/2024/unitree_G1.PNG" alt="unitree_G1.PNG" />
+<img src="/assets/images/2024/unitree_G1_02.PNG" alt="unitree_G1_02.PNG" /></li>
+    </ul>
+  </li>
+</ol>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#bike" class="page__taxonomy-item p-category" rel="tag">Bike</a><span class="sep">, </span>
+    
+      <a href="/tags/#iot" class="page__taxonomy-item p-category" rel="tag">IoT</a><span class="sep">, </span>
+    
+      <a href="/tags/#laser" class="page__taxonomy-item p-category" rel="tag">Laser</a><span class="sep">, </span>
+    
+      <a href="/tags/#manufacturing" class="page__taxonomy-item p-category" rel="tag">Manufacturing</a><span class="sep">, </span>
+    
+      <a href="/tags/#minecraft" class="page__taxonomy-item p-category" rel="tag">Minecraft</a><span class="sep">, </span>
+    
+      <a href="/tags/#optics" class="page__taxonomy-item p-category" rel="tag">Optics</a><span class="sep">, </span>
+    
+      <a href="/tags/#pdf" class="page__taxonomy-item p-category" rel="tag">Pdf</a><span class="sep">, </span>
+    
+      <a href="/tags/#robotics" class="page__taxonomy-item p-category" rel="tag">Robotics</a><span class="sep">, </span>
+    
+      <a href="/tags/#sendcutsend" class="page__taxonomy-item p-category" rel="tag">SendCutSend</a><span class="sep">, </span>
+    
+      <a href="/tags/#wireless" class="page__taxonomy-item p-category" rel="tag">Wireless</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#ofs" class="page__taxonomy-item p-category" rel="tag">OFS</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-08-24T00:00:00-07:00">August 24, 2024</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=This+week%27s+outside+five+sigma+%28%239%29%20http%3A%2F%2Flocalhost%3A4000%2Fofs%2Fweekly-OFS-9%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fofs%2Fweekly-OFS-9%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/ofs/weekly-OFS-9/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/ofs/weekly-OFS-8/" class="pagination--pager" title="This week’s outside five sigma (#8)
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-8/" rel="permalink">This week’s outside five sigma (#8)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-18T00:00:00-07:00">August 18, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/humaniod_self_driving.png" alt="This week's outside five sigma (#8)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  “Researchers from the University of Tokyo have trained a humanoid robot called Musashi to autonomously drive a micro car.”
+    
+      Youtube: Japan’s Mus...</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tutorial/yapping-on-ebeam-lithography/" rel="permalink">Yapping on ebeam lithography
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-15T00:00:00-07:00">August 15, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/tracer-bild2-2.png" alt="Yapping on ebeam lithography">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Under construction…
+
+</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-7/" rel="permalink">This week’s outside five sigma (#7)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-11T00:00:00-07:00">August 11, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/mmw_phased_array_electro_optic.jfif" alt="This week's outside five sigma (#7)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  Phase sensitive innovations Inc. uses electro-optic frequency upconversion from mmW to telecom wavelength and free-space optics to achieve mmW phased arra...</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-6/" rel="permalink">This week’s outside five sigma (#6)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-04T00:00:00-07:00">August 4, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/2009-12-30-dermel_centrifuge.webp" alt="This week's outside five sigma (#6)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  (Old) You could adapt a Dremel into a centrifuge
+    
+      Thingiverse: DremelFuge - A One-Piece Centrifuge for Rotary Tools
+
+    
+  
+
+
+</p>
+
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Google Scholar</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">Outside Five Sigma</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/ofs/weekly-OFS-9/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/ofs/weekly-OFS-9"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jwt625.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+    <!-- add mathjax, WTJ, 20240702 -->
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+  
+  
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+  </script>
+  
+  
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+    
+
+  </body>
+</html>

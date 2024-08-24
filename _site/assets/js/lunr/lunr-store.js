@@ -160,4 +160,10 @@ var store = [{
         "tags": ["Quantum","Stycast","Cryogenics","Humanoid","Robotics","Self-driving","Optics","Microwave","Sensing"],
         "url": "/ofs/weekly-OFS-8/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#9)",
+        "excerpt":"I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts Twitter thread I should write it into a blog All major electronic gear control manufacturers now support wireless shifting, and the wireless signal could be captured and replayed/hacked. Paper: MakeShift: Security Analysis of Shimano Di2 Wireless...","categories": ["OFS"],
+        "tags": ["Bike","Wireless","IoT","Laser","Minecraft","Optics","SendCutSend","Manufacturing","Robotics","Pdf"],
+        "url": "/ofs/weekly-OFS-9/",
+        "teaser": null
       }]

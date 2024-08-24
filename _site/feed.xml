@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-21T23:02:30-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#8)</title><link href="http://localhost:4000/ofs/weekly-OFS-8/" rel="alternate" type="text/html" title="This week’s outside five sigma (#8)" /><published>2024-08-18T00:00:00-07:00</published><updated>2024-08-18T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-8</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-8/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-24T11:37:08-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#9)</title><link href="http://localhost:4000/ofs/weekly-OFS-9/" rel="alternate" type="text/html" title="This week’s outside five sigma (#9)" /><published>2024-08-24T00:00:00-07:00</published><updated>2024-08-24T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-9</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-9/"><![CDATA[<ol>
+  <li>I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts
+    <ul>
+      <li><a href="https://x.com/jwt0625/status/1825038035458879580">Twitter thread</a></li>
+      <li>I should write it into a blog
+<img src="/assets/images/2024/MFC_valve.jfif" alt="MFC_valve.jfif" />
+<img src="/assets/images/2024/MFC_sensor.jfif" alt="MFC_sensor.jfif" /></li>
+    </ul>
+  </li>
+  <li>All major electronic gear control manufacturers now support wireless shifting, and the wireless signal could be captured and replayed/hacked.
+    <ul>
+      <li>Paper: <a href="https://www.usenix.org/system/files/woot24-motallebighomi.pdf">MakeShift: Security Analysis of Shimano Di2 Wireless Gear Shifting in Bicycles</a>
+<img src="/assets/images/2024/shimano_bike_electronic_wireless_gear_shifter.jfif" alt="shimano_bike_electronic_wireless_gear_shifter.jfif" />
+<img src="/assets/images/2024/shimano_bike_electronic_wireless_gear_shifter_2.jfif" alt="shimano_bike_electronic_wireless_gear_shifter_2.jfif" /></li>
+    </ul>
+  </li>
+  <li>Minecraft’s new update enables you to make a “ring resonator” for mine cart with powered rails and use a switch to launch the accelerated mine cart out of the ring. It works exactly as a Q-switched laser
+    <ul>
+      <li><a href="https://x.com/WitchOfDusk/status/1824243197159112726">Twitter post</a>
+<img src="/assets/images/2024/Minecraft_update_ring_launch.gif" alt="Minecraft_update_ring_launch.gif" /></li>
+    </ul>
+  </li>
+  <li>When you make a lens with discrete flat surfaces, it samples the scene with gaps and creates a mosaic image. I ran a ray tracing simulation to show how it works.
+    <ul>
+      <li><a href="https://x.com/Hakusi_Katei/status/1807591865132466324">Twitter post</a> from <a href="https://x.com/Hakusi_Katei">@Hakusi_Katei</a></li>
+      <li><a href="https://monoli.easy-myshop.jp/">shop</a>
+<img src="/assets/images/2024/minecraft_lens_pixel_mirror.jfif" alt="minecraft_lens_pixel_mirror.jfif" />
+<img src="/assets/images/2024/minecraft_lens_pixel_mirror_ray_tracing.jfif" alt="minecraft_lens_pixel_mirror_ray_tracing.jfif" /></li>
+    </ul>
+  </li>
+  <li>SendCutSend has a series of great guidelines on how to best use their services.
+    <ul>
+      <li><a href="https://sendcutsend.com/guidelines/">website</a>
+<img src="/assets/images/2024/sendcutsend_guidelines.PNG" alt="sendcutsend_guidelines.PNG" /></li>
+    </ul>
+  </li>
+  <li>The YOLO vision model guy has a My Little Pony style resume
+    <ul>
+      <li>Google Scholar: <a href="https://scholar.google.com/citations?user=TDk_NfkAAAAJ&amp;hl=en&amp;oi=sra">Joseph Redmon</a></li>
+      <li><a href="https://web.archive.org/web/20200302013000/https://pjreddie.com/static/Redmon%20Resume.pdf">Wayback machine</a>
+<img src="/assets/images/2024/My_Little_Resume_Joseph_redmon.PNG" alt="My_Little_Resume_Joseph_redmon.PNG" /></li>
+    </ul>
+  </li>
+  <li><a href="https://clayhaight.com/">Clayton</a> (and team) shipped a quiet leaf picking robot to Nat Friedman
+    <ul>
+      <li><a href="https://x.com/clayhaight/status/1825245517745656143">Twitter post</a>
+<img src="/assets/images/2024/leaf_picking_robot.PNG" alt="leaf_picking_robot.PNG" /></li>
+    </ul>
+  </li>
+  <li>Zhiyuan Robot debuted their Lingxi-01 robot after two months of development
+    <ul>
+      <li>Youtube: <a href="https://www.youtube.com/watch?v=e04nYc0VTUg&amp;t=2952s&amp;ab_channel=XTech">2024智元年度新品发布会全程</a></li>
+      <li>Company website (very slow to load for me): <a href="https://www.zhiyuan-robot.com/">智元机器人</a>
+<img src="/assets/images/2024/zhiyuan_lingxi_01.PNG" alt="zhiyuan_lingxi_01.PNG" />
+<img src="/assets/images/2024/zhiyuan_lingxi_01.jfif" alt="zhiyuan_lingxi_02.jfif" /></li>
+    </ul>
+  </li>
+  <li>The biggest pdf dataset contains only “roughly 8.4~ million pdfs that uncompressed total 8TB”.
+    <ul>
+      <li>Blogpost: <a href="https://snats.xyz/pages/articles/classifying_a_bunch_of_pdfs.html">Classifying all of the pdfs on the internet</a>
+<img src="/assets/images/2024/pdf_classification_piechart_equally_distributed.png" alt="pdf_classification_piechart_equally_distributed.png" /></li>
+    </ul>
+  </li>
+  <li>Unitree released the mass production version of their humaniod robot G1
+    <ul>
+      <li><a href="https://x.com/UnitreeRobotics/status/1825435336736120880">Twitter post</a></li>
+      <li>Website: <a href="https://www.unitree.com/g1">Humanoid robot G1</a>
+<img src="/assets/images/2024/unitree_G1.PNG" alt="unitree_G1.PNG" />
+<img src="/assets/images/2024/unitree_G1_02.PNG" alt="unitree_G1_02.PNG" /></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Bike" /><category term="Wireless" /><category term="IoT" /><category term="Laser" /><category term="Minecraft" /><category term="Optics" /><category term="SendCutSend" /><category term="Manufacturing" /><category term="Robotics" /><category term="Pdf" /><summary type="html"><![CDATA[I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts Twitter thread I should write it into a blog]]></summary></entry><entry><title type="html">This week’s outside five sigma (#8)</title><link href="http://localhost:4000/ofs/weekly-OFS-8/" rel="alternate" type="text/html" title="This week’s outside five sigma (#8)" /><published>2024-08-18T00:00:00-07:00</published><updated>2024-08-18T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-8</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-8/"><![CDATA[<ol>
   <li>“Researchers from the University of Tokyo have trained a humanoid robot called Musashi to autonomously drive a micro car.”
     <ul>
       <li>Youtube: <a href="https://www.youtube.com/watch?app=desktop&amp;v=B1h4guaNiGs">Japan’s Musashi Humanoid Robot Driver Takes On Tokyo Roads</a></li>
@@ -821,68 +892,4 @@
 <img src="/assets/images/flagella-motor-bundle-SEM.png" alt="flagella-motor-bundle-SEM.png" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="BMI" /><category term="HCI" /><category term="RF" /><category term="3D-print" /><category term="Actuator" /><category term="Camera" /><summary type="html"><![CDATA[You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor. shapeways RF filters made with it]]></summary></entry><entry><title type="html">This week’s outside five sigma (#1)</title><link href="http://localhost:4000/ofs/weekly-OFS-1/" rel="alternate" type="text/html" title="This week’s outside five sigma (#1)" /><published>2024-06-30T00:00:00-07:00</published><updated>2024-06-30T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-1</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-1/"><![CDATA[<p>This is the first weekly outside five sigma. I’ll slowly figure out what is the best format. Right now I’m thinking one sentence, with one image, and one source.</p>
-
-<ol>
-  <li>The Border Gateway Protocol (BGP) was sketched out in 1989 by engineers on the back of “three ketchup-stained napkins”, and is still known as the three-napkin protocol.
-    <ul>
-      <li><a href="https://www.washingtonpost.com/sf/business/2015/05/31/net-of-insecurity-part-2/">The long life of a quick ‘fix’</a>
-<img src="/assets/images/BGP01.avif" alt="Yakov Rekhter and Kirk Lougheed 01" />  <img src="/assets/images/BGP02.avif" alt="Yakov Rekhter and Kirk Lougheed 02" /></li>
-    </ul>
-  </li>
-  <li>SF is losing population, and a lot more Asian babies in San Benito
-    <ul>
-      <li><a href="https://www.sfchronicle.com/projects/2024/california-population-changing/">SF Chronicle</a>
-<img src="/assets/images/sfchronicle-cal-population-20240626.PNG" alt="Four counties with distinct changes" /></li>
-    </ul>
-  </li>
-  <li>A 80x60 pixel Mitsubishi Electric thermal diode infrared sensor (MIR8060B1-01-S) is about $150
-    <ul>
-      <li>from <a href="https://x.com/will_whang/status/1806601128748191946">Will Whang</a>
-<img src="/assets/images/MIR8060B1-01-S.PNG" alt="MIR8060B1-01-S" /></li>
-    </ul>
-  </li>
-  <li>Microsoft <a href="https://github.com/microsoft/generative-ai-for-beginners">Generative AI for beginners</a>
-    <ul>
-      <li><img src="/assets/images/msft-gen-ai-beginner.PNG" alt="msft-gen-ai-beginner" /></li>
-    </ul>
-  </li>
-  <li>A 3.5 in floppy disk chopping off a 5.25 in floppy disk, “Compatibles PC Magazine 2” 1987
-    <ul>
-      <li>source found by <a href="https://x.com/_NicoleRuggiero/status/1806762418464497754">@_NicoleRuggiero</a>
-<img src="/assets/images/3p5-5p25-floppy-disk.jfif" alt="3p5-5p25-floppy-disk.jfif" /></li>
-    </ul>
-  </li>
-  <li>“Lightweight and super strong, Tullomer offers many advantages over carbon fiber, steel, aluminum, and other polymers in countless applications”
-    <ul>
-      <li><a href="https://z-polymers.com/">https://z-polymers.com/</a></li>
-      <li>image from <a href="https://x.com/joeltelling/status/1806609287701316036">@joeltelling</a>
-<img src="/assets/images/tullomer-joetelling.jfif" alt="tullomer-joetelling.jfif" /></li>
-    </ul>
-  </li>
-  <li>Super Heavy grid fin is 16 ft tall
-    <ul>
-      <li>image rendered by <a href="https://x.com/Neopork85/status/1374373547515146245">@Neopork85</a>
-<img src="/assets/images/superheavy-grid-fins.webp" alt="superheavy-grid-fins.webp" /></li>
-    </ul>
-  </li>
-  <li>ST microelectronics has demo of SWIR sensor “using quantum dot conversion film on top of the traditional CMOS sensor to lower the cost”. Usually SWIR cameras are $10k+. Hope ST starts selling it soon…
-    <ul>
-      <li>info and image from <a href="https://x.com/will_whang/status/1671633663203880960">Will Whang</a>
-<img src="/assets/images/ST-SWIR.jfif" alt="ST-SWIR.jfif" /></li>
-    </ul>
-  </li>
-  <li>Flies use blood cells to take a deep breath
-    <ul>
-      <li><a href="https://www.nature.com/articles/d41586-024-01649-6">Nature news and views</a>
-<img src="/assets/images/The-role-of-blood-cells-in-gas-exchange-of-fly-larvae.webp" alt="The-role-of-blood-cells-in-gas-exchange-of-fly-larvae.webp" /></li>
-    </ul>
-  </li>
-  <li><a href="https://x.com/fabianstelzer/status/1805326248261910552">@fabianstelzer</a> made an <a href="https://glif.app/@fab1an/glifs/clxtc53mi0000ghv10g6irjqj">automated Wojak meme generator in Glif</a>
-    <ul>
-      <li>Here is one I generated
-<img src="/assets/images/wojak-meme-quantum-compute.jfif" alt="wojak-meme-quantum-compute.jfif" /></li>
-    </ul>
-  </li>
-  <li><a href="https://github.com/fuglede">Søren Fuglede Jørgensen</a> built a font file which is also a large language model and an inference engine for that model: <a href="https://fuglede.github.io/llama.ttf/">llama.ttf</a>.</li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="BGP" /><category term="LLM" /><category term="SWIR" /><category term="Nature" /><category term="3D-print" /><summary type="html"><![CDATA[This is the first weekly outside five sigma. I’ll slowly figure out what is the best format. Right now I’m thinking one sentence, with one image, and one source.]]></summary></entry></feed>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="BMI" /><category term="HCI" /><category term="RF" /><category term="3D-print" /><category term="Actuator" /><category term="Camera" /><summary type="html"><![CDATA[You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor. shapeways RF filters made with it]]></summary></entry></feed>
