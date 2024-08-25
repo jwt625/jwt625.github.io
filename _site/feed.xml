@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-24T11:37:08-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#9)</title><link href="http://localhost:4000/ofs/weekly-OFS-9/" rel="alternate" type="text/html" title="This week’s outside five sigma (#9)" /><published>2024-08-24T00:00:00-07:00</published><updated>2024-08-24T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-9</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-9/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-24T22:45:15-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#9)</title><link href="http://localhost:4000/ofs/weekly-OFS-9/" rel="alternate" type="text/html" title="This week’s outside five sigma (#9)" /><published>2024-08-24T00:00:00-07:00</published><updated>2024-08-24T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-9</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-9/"><![CDATA[<ol>
   <li>I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts
     <ul>
       <li><a href="https://x.com/jwt0625/status/1825038035458879580">Twitter thread</a></li>
@@ -69,7 +69,63 @@
 <img src="/assets/images/2024/unitree_G1_02.PNG" alt="unitree_G1_02.PNG" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Bike" /><category term="Wireless" /><category term="IoT" /><category term="Laser" /><category term="Minecraft" /><category term="Optics" /><category term="SendCutSend" /><category term="Manufacturing" /><category term="Robotics" /><category term="Pdf" /><summary type="html"><![CDATA[I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts Twitter thread I should write it into a blog]]></summary></entry><entry><title type="html">This week’s outside five sigma (#8)</title><link href="http://localhost:4000/ofs/weekly-OFS-8/" rel="alternate" type="text/html" title="This week’s outside five sigma (#8)" /><published>2024-08-18T00:00:00-07:00</published><updated>2024-08-18T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-8</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-8/"><![CDATA[<ol>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Bike" /><category term="Wireless" /><category term="IoT" /><category term="Laser" /><category term="Minecraft" /><category term="Optics" /><category term="SendCutSend" /><category term="Manufacturing" /><category term="Robotics" /><category term="Pdf" /><summary type="html"><![CDATA[I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts Twitter thread I should write it into a blog]]></summary></entry><entry><title type="html">Celerity mass flow meter teardown</title><link href="http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter/" rel="alternate" type="text/html" title="Celerity mass flow meter teardown" /><published>2024-08-20T00:00:00-07:00</published><updated>2024-08-20T00:00:00-07:00</updated><id>http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter</id><content type="html" xml:base="http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter/"><![CDATA[<p>Teardown of the Celerity mass flow meter</p>
+
+<p><img src="/assets/images/2024/MFC_Teardown_20240817230453.png" alt="MFC_Teardown_20240817230453.png" /></p>
+
+<h1 id="very-brief-intro-to-mass-flow-meter-and-controller">Very brief intro to mass flow meter and controller</h1>
+
+<p>If you are working in any kind of physical fabrication or manufacturing, you have likely encountered usage of various gases and liquids. To have a repeatable process, you would want to control the flow of your gas or liquid well, and that is done with a mass flow controlel (MFC).</p>
+
+<p>In my case, I have seen it on more than half of the cleanroom equipments. Any kind of etcher (RIE, Ion milling) or gas/vapor based deposition tool (PVD, CVD, ALD), as long as there is gas involved, there would be a few MFCs hidden inside the tool that set your SF6 or O2 flow to the 50 sccm you wanted. And they could occasionally fuck up and ruin your process, so learn, appreciate, and prey for their well-being!</p>
+
+<p>There are quite a few kinds of MFC, but they all have at least two parts, one part that is sensing the flow, and the other part that is controlling the flow (and some electronics with how to readout and calibrate the flow, and apply the control). There are many good reads for this, and <a href="https://www.mks.com/mass-flow-technology-technote">this one</a> is particularly good (I admit I only read this one and <a href="https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/">another one</a>). A very common and cheap type of MFC is the rotameters where you pbb have seen them on nitrogen dessicator or machines with liquid/water flows that does not require high precision. We will focus on the ones with finer measurement control, and more specifically thermal mass flow meter based controllers. Another interesting type of flow meter is using Coriolis force and are called <a href="https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/">Coriolis flow meters</a>. They</p>
+
+<p><img src="/assets/images/2024/thermal_mass_flow_sensor_config.jpg" alt="thermal_mass_flow_sensor_config.jpg" />
+<em>Different sensor configuration of a thermal mass flow meter. From <a href="https://www.mks.com/mass-flow-technology-technote">MKS</a>.</em></p>
+
+<p>The core idea of the sensing part is, think about what the flow is and could carry (mass -&gt; momentum, temperature -&gt; heat), and how do you induce a change of it and measure its effect because of the flow. In the case of the thermal mass flow sensing, it is the temperature distribution. In the case of the Coriolis flow meters, it is the vibration phase of the sensing tube.</p>
+
+<p><img src="/assets/images/2024/thermal_mass_flow_temperature_distribution.jpg" alt="thermal_mass_flow_temperature_distribution.jpg" />
+<em>Asymmetric temperature distribution on the sensing tube because of the flow. From <a href="https://www.mks.com/mass-flow-technology-technote">MKS</a>.</em></p>
+
+<p>The control and actuation part of the flow controller is relatively more straight forward. Any method to increase the impedance of the flow could slow it down. Stick a “finger” into the path, or moving a cover up and down at a hole the flow must go thru, you name it.</p>
+
+<h1 id="initial-teardown">Initial teardown</h1>
+
+<p>Opening it up is pretty straight forward.</p>
+
+<p>Screws removed:</p>
+<ul>
+  <li>two on the flaps of the case that connect the case to the in and out port flange</li>
+  <li>two on the two sides of the D-type connector</li>
+  <li>cut the seal, now could lift off the case</li>
+  <li>one on the back of the PCB that mounts it to the side of the sensor. It also holds the insulating paper between the back of the PCB and the inner side of the case (preventing electrical short)</li>
+</ul>
+
+<p>The board with the external connectors (a D type, two that look like ethernet, and one test leads (?) sticking out from the board itself) can be unplugged from the main board.</p>
+
+<p><img src="/assets/images/2024/MFC_Teardown_20240817230505.png" alt="MFC_Teardown_20240817230505.png" />
+<img src="/assets/images/2024/MFC_Teardown_20240817230511.png" alt="MFC_Teardown_20240817230511.png" /></p>
+
+<p>The flexible cable is actually soldered onto the main PCB… I tried to desolder it, and then find out it is also glued onto the PCB on one side. My patience ran out and I just cut it in half.</p>
+
+<p><img src="/assets/images/2024/MFC_Teardown_20240817230520.png" alt="MFC_Teardown_20240817230520.png" /></p>
+
+<h1 id="valve">Valve</h1>
+
+<p>It took me a while to trial and realize the enclosure is screwed on. I was thinking maybe they welded it really well to prevent any leak, but the hole at the top where the cable is coming out looks suspicious. The enclosure is actually part of a voice coil / solenoid.</p>
+
+<p><img src="/assets/images/2024/MFC_Teardown_20240817230531.png" alt="MFC_Teardown_20240817230531.png" /></p>
+
+<p>Further open the lid underneath the solenoid, there is a flexure inside, and a manifold to guide the gas around.</p>
+
+<p><img src="/assets/images/2024/MFC_Teardown_20240817230541.png" alt="MFC_Teardown_20240817230541.png" />
+<img src="/assets/images/2024/MFC_Teardown_20240817230549.png" alt="MFC_Teardown_20240817230549.png" /></p>
+
+<p>The gas flow path/manifold is beautiful, it goes around and up thru the two side channels, and then pass down thru the center which is covered by the flexure.</p>
+
+<p>(To be continued… (20240824) )</p>]]></content><author><name>Wentao</name></author><category term="Teardown" /><category term="Solenoid" /><category term="Magnet" /><category term="Flexure" /><category term="Nanofab" /><summary type="html"><![CDATA[Teardown of the Celerity mass flow meter]]></summary></entry><entry><title type="html">This week’s outside five sigma (#8)</title><link href="http://localhost:4000/ofs/weekly-OFS-8/" rel="alternate" type="text/html" title="This week’s outside five sigma (#8)" /><published>2024-08-18T00:00:00-07:00</published><updated>2024-08-18T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-8</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-8/"><![CDATA[<ol>
   <li>“Researchers from the University of Tokyo have trained a humanoid robot called Musashi to autonomously drive a micro car.”
     <ul>
       <li>Youtube: <a href="https://www.youtube.com/watch?app=desktop&amp;v=B1h4guaNiGs">Japan’s Musashi Humanoid Robot Driver Takes On Tokyo Roads</a></li>
@@ -827,69 +883,4 @@
 <img src="/assets/images/Mpemba_Effect_temperatures_plot.png" alt="Mpemba_Effect_temperatures_plot.png" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanosphere" /><category term="Satellite" /><category term="MEMS" /><category term="Plutonium" /><category term="DNA" /><category term="CNN" /><category term="Photonics" /><category term="IoT" /><summary type="html"><![CDATA[The nanodumbbell can now be rotated vertically with a trapping laser and a spinning laser. PRL paper: Long-Axis Spinning of an Optically Levitated Particle: A Levitated Spinning Top the acceleration of one nanosphere is around $10^{12}g$ and the stress between them is $2~\text{GPa}$.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#2)</title><link href="http://localhost:4000/ofs/weekly-OFS-2/" rel="alternate" type="text/html" title="This week’s outside five sigma (#2)" /><published>2024-07-06T00:00:00-07:00</published><updated>2024-07-06T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-2</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-2/"><![CDATA[<ol>
-  <li>You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor.
-    <ul>
-      <li><a href="https://www.shapeways.com/materials/copper">shapeways</a></li>
-      <li><a href="https://x.com/wavedrom/status/1809054376276738440">RF filters made with it</a>
-<img src="/assets/images/2880x720_SW_Copper-scaled.avif" alt="2880x720_SW_Copper-scaled.avif" /></li>
-    </ul>
-  </li>
-  <li>You can epitaxial a thin layer of NaCl and use it for liftoff
-    <ul>
-      <li>scientific reports paper: <a href="https://www.nature.com/articles/s41598-017-09603-5">Water-Soluble Epitaxial NaCl Thin Film for Fabrication of Flexible Devices</a>
-<img src="/assets/images/41598_2017_9603_Fig1_HTML.webp" alt="41598_2017_9603_Fig1_HTML.webp" /></li>
-    </ul>
-  </li>
-  <li>Thunderbolt-5 is as cheap as $23, and it offers 80 to 120 Gbps, and 240 W charging.
-    <ul>
-      <li><a href="https://www.tomshardware.com/peripherals/thunderbolt/worlds-first-thunderbolt-5-cable-launched-120-gbps-and-240w-charging-for-23-dollars">Tom’s hardware</a></li>
-      <li><a href="https://www.amazon.com/dp/B0D2PK1ZQ2">Amazon</a>
-<img src="/assets/images/thunderbolt-5.webp" alt="thunderbolt-5.webp" /></li>
-    </ul>
-  </li>
-  <li>You could non-invasively tickle your brain with magnetic field to introduce haptics.
-    <ul>
-      <li>ACM paper: <a href="https://dl.acm.org/doi/10.1145/3613904.3642483">Haptic Source-Effector: Full-Body Haptics via Non-Invasive Brain Stimulation</a>
-<img src="/assets/images/Haptics-Non-invasive-Brain-Stimulation.png" alt="Haptics-Non-invasive-Brain-Stimulation.png" /></li>
-    </ul>
-  </li>
-  <li><a href="https://www.scia-systems.com/">scia systems</a> make amazing ion beam trimming machines. It takes less than 10 min to trim a full 12 in wafers from thickness variation of 1.3 nm to 0.3 nm.
-    <ul>
-      <li><a href="https://www.scia-systems.com/products/ion-beam-trimming/scia-trim-300">scia Trim 300</a>
-<img src="/assets/images/scia-trim-300.png" alt="scia-trim-300.png" /></li>
-    </ul>
-  </li>
-  <li>Daniel Fisher gave a talk in May 2019 at the Stanford Applied Physics/Physics colloquium, covered many aspects about life and physics, and the orders of magnitude.
-    <ul>
-      <li>Youtube video: <a href="https://www.youtube.com/watch?v=kRZHiU9Co70&amp;ab_channel=StanfordPhysics">Daniel Fisher - “Physicists and Evolution : Puzzles and Expectations”</a>
-<img src="/assets/images/bacteria-daniel-fisher.png" alt="bacteria-daniel-fisher.png" /></li>
-    </ul>
-  </li>
-  <li>You can control an “elephant trunk” using just three actuators, longitudinal and two twist.
-    <ul>
-      <li>Article in Physics: <a href="https://physics.aps.org/articles/v17/98">Mimicking an Elephant Trunk</a></li>
-      <li>PRL paper: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.248402">Minimal Design of the Elephant Trunk as an Active Filament
-</a>
-<img src="/assets/images/elephant-trunk-PRL.png" alt="elephant-trunk-PRL.png" /></li>
-    </ul>
-  </li>
-  <li>A 256x192 pixel thermal camera for 8-14 um is as cheap as $200
-    <ul>
-      <li>Amazon: <a href="https://www.amazon.com/GOYOJO-Resolution-Industrial-Inspection-Detection/dp/B0CPSNT331">Mini Mobile Thermal Imager for Android Phone</a>
-<img src="/assets/images/thermal-camera-256x192.png" alt="thermal-camera-256x192.png" /></li>
-    </ul>
-  </li>
-  <li>Pose estimation / tracking location of people indoor has been a thing for quite a while (2018)
-    <ul>
-      <li><a href="http://rfpose.csail.mit.edu/">Through-Wall Human Pose Estimation Using Radio Signals</a>
-<img src="/assets/images/human-pose-estimation-radio-wifi.png" alt="human-pose-estimation-radio-wifi.png" /></li>
-    </ul>
-  </li>
-  <li>E. Coli’s flagella motors could exist in bundles with interlocked gears to sync their rotations
-    <ul>
-      <li>PNAS paper: <a href="https://www.pnas.org/doi/full/10.1073/pnas.1215274109">Architecture of a flagellar apparatus in the fast-swimming magnetotactic bacterium MO-1</a>
-<img src="/assets/images/flagella-motor-bundle-SEM.png" alt="flagella-motor-bundle-SEM.png" /></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="BMI" /><category term="HCI" /><category term="RF" /><category term="3D-print" /><category term="Actuator" /><category term="Camera" /><summary type="html"><![CDATA[You can make RF cavities and filters with beautiful 3D printed copper cages. It likely helps reducing participation of the metal and improves the quality factor. shapeways RF filters made with it]]></summary></entry></feed>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanosphere" /><category term="Satellite" /><category term="MEMS" /><category term="Plutonium" /><category term="DNA" /><category term="CNN" /><category term="Photonics" /><category term="IoT" /><summary type="html"><![CDATA[The nanodumbbell can now be rotated vertically with a trapping laser and a spinning laser. PRL paper: Long-Axis Spinning of an Optically Levitated Particle: A Levitated Spinning Top the acceleration of one nanosphere is around $10^{12}g$ and the stress between them is $2~\text{GPa}$.]]></summary></entry></feed>

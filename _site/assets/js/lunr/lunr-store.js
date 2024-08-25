@@ -161,6 +161,12 @@ var store = [{
         "url": "/ofs/weekly-OFS-8/",
         "teaser": null
       },{
+        "title": "Celerity mass flow meter teardown",
+        "excerpt":"Teardown of the Celerity mass flow meter Very brief intro to mass flow meter and controller If you are working in any kind of physical fabrication or manufacturing, you have likely encountered usage of various gases and liquids. To have a repeatable process, you would want to control the flow...","categories": ["Teardown"],
+        "tags": ["Solenoid","Magnet","Flexure","Nanofab"],
+        "url": "/teardown/Teardown-celerity-mass-flow-meter/",
+        "teaser": null
+      },{
         "title": "This week's outside five sigma (#9)",
         "excerpt":"I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts Twitter thread I should write it into a blog All major electronic gear control manufacturers now support wireless shifting, and the wireless signal could be captured and replayed/hacked. Paper: MakeShift: Security Analysis of Shimano Di2 Wireless...","categories": ["OFS"],
         "tags": ["Bike","Wireless","IoT","Laser","Minecraft","Optics","SendCutSend","Manufacturing","Robotics","Pdf"],

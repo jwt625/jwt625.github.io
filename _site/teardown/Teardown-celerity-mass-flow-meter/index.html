@@ -1,0 +1,844 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Celerity mass flow meter teardown - Outside Five Sigma</title>
+<meta name="description" content="Teardown of the Celerity mass flow meter">
+
+
+  <meta name="author" content="Wentao">
+  
+  <meta property="article:author" content="Wentao">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Outside Five Sigma">
+<meta property="og:title" content="Celerity mass flow meter teardown">
+<meta property="og:url" content="http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter/">
+
+
+  <meta property="og:description" content="Teardown of the Celerity mass flow meter">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/2024/MFC_Teardown_20240817230453.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2024-08-20T00:00:00-07:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Outside Five Sigma Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+
+  </head>
+
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/twm.JPG" alt="Outside Five Sigma"></a>
+        
+        <a class="site-title" href="/">
+          Outside Five Sigma
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/posts/"
+                
+                
+              >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/categories/"
+                
+                
+              >Categories</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/tags/"
+                
+                
+              >Tags</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/2024/MFC_Teardown_20240817230453.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Celerity mass flow meter teardown
+
+        
+      </h1>
+      
+      
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-20T00:00:00-07:00">August 20, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          3 minute read
+        
+      </span>
+    
+  </p>
+
+
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/bio-photo-2.jpg" alt="Wentao" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Wentao</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Memories are the long term averages, and the outside five sigmas.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Celerity mass flow meter teardown">
+    <meta itemprop="description" content="Teardown of the Celerity mass flow meter">
+    <meta itemprop="datePublished" content="2024-08-20T00:00:00-07:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#very-brief-intro-to-mass-flow-meter-and-controller">Very brief intro to mass flow meter and controller</a></li><li><a href="#initial-teardown">Initial teardown</a></li><li><a href="#valve">Valve</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p>Teardown of the Celerity mass flow meter</p>
+
+<p><img src="/assets/images/2024/MFC_Teardown_20240817230453.png" alt="MFC_Teardown_20240817230453.png" /></p>
+
+<h1 id="very-brief-intro-to-mass-flow-meter-and-controller">Very brief intro to mass flow meter and controller</h1>
+
+<p>If you are working in any kind of physical fabrication or manufacturing, you have likely encountered usage of various gases and liquids. To have a repeatable process, you would want to control the flow of your gas or liquid well, and that is done with a mass flow controlel (MFC).</p>
+
+<p>In my case, I have seen it on more than half of the cleanroom equipments. Any kind of etcher (RIE, Ion milling) or gas/vapor based deposition tool (PVD, CVD, ALD), as long as there is gas involved, there would be a few MFCs hidden inside the tool that set your SF6 or O2 flow to the 50 sccm you wanted. And they could occasionally fuck up and ruin your process, so learn, appreciate, and prey for their well-being!</p>
+
+<p>There are quite a few kinds of MFC, but they all have at least two parts, one part that is sensing the flow, and the other part that is controlling the flow (and some electronics with how to readout and calibrate the flow, and apply the control). There are many good reads for this, and <a href="https://www.mks.com/mass-flow-technology-technote">this one</a> is particularly good (I admit I only read this one and <a href="https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/">another one</a>). A very common and cheap type of MFC is the rotameters where you pbb have seen them on nitrogen dessicator or machines with liquid/water flows that does not require high precision. We will focus on the ones with finer measurement control, and more specifically thermal mass flow meter based controllers. Another interesting type of flow meter is using Coriolis force and are called <a href="https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/">Coriolis flow meters</a>. They</p>
+
+<p><img src="/assets/images/2024/thermal_mass_flow_sensor_config.jpg" alt="thermal_mass_flow_sensor_config.jpg" />
+<em>Different sensor configuration of a thermal mass flow meter. From <a href="https://www.mks.com/mass-flow-technology-technote">MKS</a>.</em></p>
+
+<p>The core idea of the sensing part is, think about what the flow is and could carry (mass -&gt; momentum, temperature -&gt; heat), and how do you induce a change of it and measure its effect because of the flow. In the case of the thermal mass flow sensing, it is the temperature distribution. In the case of the Coriolis flow meters, it is the vibration phase of the sensing tube.</p>
+
+<p><img src="/assets/images/2024/thermal_mass_flow_temperature_distribution.jpg" alt="thermal_mass_flow_temperature_distribution.jpg" />
+<em>Asymmetric temperature distribution on the sensing tube because of the flow. From <a href="https://www.mks.com/mass-flow-technology-technote">MKS</a>.</em></p>
+
+<p>The control and actuation part of the flow controller is relatively more straight forward. Any method to increase the impedance of the flow could slow it down. Stick a “finger” into the path, or moving a cover up and down at a hole the flow must go thru, you name it.</p>
+
+<h1 id="initial-teardown">Initial teardown</h1>
+
+<p>Opening it up is pretty straight forward.</p>
+
+<p>Screws removed:</p>
+<ul>
+  <li>two on the flaps of the case that connect the case to the in and out port flange</li>
+  <li>two on the two sides of the D-type connector</li>
+  <li>cut the seal, now could lift off the case</li>
+  <li>one on the back of the PCB that mounts it to the side of the sensor. It also holds the insulating paper between the back of the PCB and the inner side of the case (preventing electrical short)</li>
+</ul>
+
+<p>The board with the external connectors (a D type, two that look like ethernet, and one test leads (?) sticking out from the board itself) can be unplugged from the main board.</p>
+
+<p><img src="/assets/images/2024/MFC_Teardown_20240817230505.png" alt="MFC_Teardown_20240817230505.png" />
+<img src="/assets/images/2024/MFC_Teardown_20240817230511.png" alt="MFC_Teardown_20240817230511.png" /></p>
+
+<p>The flexible cable is actually soldered onto the main PCB… I tried to desolder it, and then find out it is also glued onto the PCB on one side. My patience ran out and I just cut it in half.</p>
+
+<p><img src="/assets/images/2024/MFC_Teardown_20240817230520.png" alt="MFC_Teardown_20240817230520.png" /></p>
+
+<h1 id="valve">Valve</h1>
+
+<p>It took me a while to trial and realize the enclosure is screwed on. I was thinking maybe they welded it really well to prevent any leak, but the hole at the top where the cable is coming out looks suspicious. The enclosure is actually part of a voice coil / solenoid.</p>
+
+<p><img src="/assets/images/2024/MFC_Teardown_20240817230531.png" alt="MFC_Teardown_20240817230531.png" /></p>
+
+<p>Further open the lid underneath the solenoid, there is a flexure inside, and a manifold to guide the gas around.</p>
+
+<p><img src="/assets/images/2024/MFC_Teardown_20240817230541.png" alt="MFC_Teardown_20240817230541.png" />
+<img src="/assets/images/2024/MFC_Teardown_20240817230549.png" alt="MFC_Teardown_20240817230549.png" /></p>
+
+<p>The gas flow path/manifold is beautiful, it goes around and up thru the two side channels, and then pass down thru the center which is covered by the flexure.</p>
+
+<p>(To be continued… (20240824) )</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#flexure" class="page__taxonomy-item p-category" rel="tag">Flexure</a><span class="sep">, </span>
+    
+      <a href="/tags/#magnet" class="page__taxonomy-item p-category" rel="tag">Magnet</a><span class="sep">, </span>
+    
+      <a href="/tags/#nanofab" class="page__taxonomy-item p-category" rel="tag">Nanofab</a><span class="sep">, </span>
+    
+      <a href="/tags/#solenoid" class="page__taxonomy-item p-category" rel="tag">Solenoid</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#teardown" class="page__taxonomy-item p-category" rel="tag">Teardown</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-08-20T00:00:00-07:00">August 20, 2024</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Celerity+mass+flow+meter+teardown%20http%3A%2F%2Flocalhost%3A4000%2Fteardown%2FTeardown-celerity-mass-flow-meter%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fteardown%2FTeardown-celerity-mass-flow-meter%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/ofs/weekly-OFS-8/" class="pagination--pager" title="This week’s outside five sigma (#8)
+">Previous</a>
+    
+    
+      <a href="/ofs/weekly-OFS-9/" class="pagination--pager" title="This week’s outside five sigma (#9)
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-9/" rel="permalink">This week’s outside five sigma (#9)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-24T00:00:00-07:00">August 24, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/MFC_sensor.jfif" alt="This week's outside five sigma (#9)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts
+    
+      Twitter thread
+      I should write it into a blog
+
+
+    
+ ...</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-8/" rel="permalink">This week’s outside five sigma (#8)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-18T00:00:00-07:00">August 18, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/humaniod_self_driving.png" alt="This week's outside five sigma (#8)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  “Researchers from the University of Tokyo have trained a humanoid robot called Musashi to autonomously drive a micro car.”
+    
+      Youtube: Japan’s Mus...</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tutorial/yapping-on-ebeam-lithography/" rel="permalink">Yapping on ebeam lithography
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-15T00:00:00-07:00">August 15, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/tracer-bild2-2.png" alt="Yapping on ebeam lithography">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Under construction…
+
+</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-7/" rel="permalink">This week’s outside five sigma (#7)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-11T00:00:00-07:00">August 11, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/mmw_phased_array_electro_optic.jfif" alt="This week's outside five sigma (#7)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  Phase sensitive innovations Inc. uses electro-optic frequency upconversion from mmW to telecom wavelength and free-space optics to achieve mmW phased arra...</p>
+
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Google Scholar</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">Outside Five Sigma</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/teardown/Teardown-celerity-mass-flow-meter"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jwt625.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+    <!-- add mathjax, WTJ, 20240702 -->
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+  
+  
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+  </script>
+  
+  
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+    
+
+  </body>
+</html>
