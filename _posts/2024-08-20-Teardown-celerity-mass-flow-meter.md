@@ -19,6 +19,7 @@ header:
 
 
 Teardown of the Celerity mass flow meter
+- add how you got it
 
 
 ![MFC_Teardown_20240817230453.png](/assets/images/2024/MFC_Teardown_20240817230453.png)
@@ -83,4 +84,9 @@ Further open the lid underneath the solenoid, there is a flexure inside, and a m
 The gas flow path/manifold is beautiful, it goes around and up thru the two side channels, and then pass down thru the center which is covered by the flexure.
 
 (To be continued... (20240824) )
+
+
+# Sensing tube
+
+
 
