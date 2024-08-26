@@ -116,7 +116,7 @@ Zooming in onto the sensor tube, we can clearly see two wires coiled around the 
 
 You can see how the traces from the flex cable are connected to the two wires exactly as you would expect from the two-wire sensor schematics.
 
-I'll stop here for now. I wanted to do some order-of-magnitude estimations for why the sensor tube is this length and diameters, look into the valve more (solenoids specs, flexure spring constant and resonant freq etc.), as well as the control electronics. For now I need to go sleep and prep for the new week... Hope you have enjoyed the photos!
+I'll stop here for now. I wanted to do some order-of-magnitude estimations for why the sensor tube is this length and diameters, look into the valve more (solenoids specs, flexure spring constant and resonant freq etc.), as well as the control electronics. Oh as well as MEMS based MFCs (see [this](https://pubs.aip.org/aip/rsi/article-abstract/91/10/105006/363406/A-microfluidic-flow-meter-with-micromachined)). For now I need to go sleep and prep for the new week... Hope you have enjoyed the photos!
 
 
 
