@@ -161,9 +161,9 @@ var store = [{
         "url": "/ofs/weekly-OFS-8/",
         "teaser": null
       },{
-        "title": "Celerity mass flow meter teardown",
-        "excerpt":"Teardown of the Celerity mass flow meter Very brief intro to mass flow meter and controller If you are working in any kind of physical fabrication or manufacturing, you have likely encountered usage of various gases and liquids. To have a repeatable process, you would want to control the flow...","categories": ["Teardown"],
-        "tags": ["Solenoid","Magnet","Flexure","Nanofab"],
+        "title": "Teardown Celerity mass flow meter",
+        "excerpt":"This blog is about the teardown of a Celerity mass flow meter, with a bit of background materials. I got this cute thing at the electronics flea market for only 40 bucks. It got a price tag of \\$375 and the guy asked \\$75. This is a pretty old unit...","categories": ["Teardown"],
+        "tags": ["Solenoid","Magnet","Flexure","Nanofab","Control"],
         "url": "/teardown/Teardown-celerity-mass-flow-meter/",
         "teaser": null
       },{

@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Celerity mass flow meter teardown - Outside Five Sigma</title>
-<meta name="description" content="Teardown of the Celerity mass flow meter">
+<!-- begin _includes/seo.html --><title>Teardown Celerity mass flow meter - Outside Five Sigma</title>
+<meta name="description" content="This blog is about the teardown of a Celerity mass flow meter, with a bit of background materials. I got this cute thing at the electronics flea market for only 40 bucks. It got a price tag of \$375 and the guy asked \$75. This is a pretty old unit from Celerity, which has “technology heritage of industry leaders such as Tylan, Mykrolis and UNIT Instruments”, and got acquired by Brooks in 2009 (source). Here is how it looks after opening its jacket:">
 
 
   <meta name="author" content="Wentao">
@@ -23,11 +23,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Outside Five Sigma">
-<meta property="og:title" content="Celerity mass flow meter teardown">
+<meta property="og:title" content="Teardown Celerity mass flow meter">
 <meta property="og:url" content="http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter/">
 
 
-  <meta property="og:description" content="Teardown of the Celerity mass flow meter">
+  <meta property="og:description" content="This blog is about the teardown of a Celerity mass flow meter, with a bit of background materials. I got this cute thing at the electronics flea market for only 40 bucks. It got a price tag of \$375 and the guy asked \$75. This is a pretty old unit from Celerity, which has “technology heritage of industry leaders such as Tylan, Mykrolis and UNIT Instruments”, and got acquired by Brooks in 2009 (source). Here is how it looks after opening its jacket:">
 
 
 
@@ -167,7 +167,7 @@
     <div class="wrapper">
       <h1 id="page-title" class="page__title" itemprop="headline">
         
-          Celerity mass flow meter teardown
+          Teardown Celerity mass flow meter
 
         
       </h1>
@@ -193,7 +193,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          3 minute read
+          5 minute read
         
       </span>
     
@@ -326,8 +326,8 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Celerity mass flow meter teardown">
-    <meta itemprop="description" content="Teardown of the Celerity mass flow meter">
+    <meta itemprop="headline" content="Teardown Celerity mass flow meter">
+    <meta itemprop="description" content="This blog is about the teardown of a Celerity mass flow meter, with a bit of background materials. I got this cute thing at the electronics flea market for only 40 bucks. It got a price tag of \$375 and the guy asked \$75. This is a pretty old unit from Celerity, which has “technology heritage of industry leaders such as Tylan, Mykrolis and UNIT Instruments”, and got acquired by Brooks in 2009 (source). Here is how it looks after opening its jacket:">
     <meta itemprop="datePublished" content="2024-08-20T00:00:00-07:00">
     
 
@@ -339,13 +339,15 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#very-brief-intro-to-mass-flow-meter-and-controller">Very brief intro to mass flow meter and controller</a></li><li><a href="#initial-teardown">Initial teardown</a></li><li><a href="#valve">Valve</a></li></ul>
+              <ul class="toc__menu"><li><a href="#very-brief-intro-to-mass-flow-meter-and-controller">Very brief intro to mass flow meter and controller</a></li><li><a href="#initial-teardown">Initial teardown</a></li><li><a href="#valve">Valve</a></li><li><a href="#sensing-tube">Sensing tube</a></li></ul>
             </nav>
           </aside>
         
-        <p>Teardown of the Celerity mass flow meter</p>
+        <p>This blog is about the teardown of a Celerity mass flow meter, with a bit of background materials. I got this cute thing at the electronics flea market for only 40 bucks. It got a price tag of \$375 and the guy asked \$75. This is a pretty old unit from Celerity, which has “technology heritage of industry leaders such as Tylan, Mykrolis and UNIT Instruments”, and got acquired by Brooks in 2009 (<a href="https://www.brooksinstrument.com/en/about-us/history">source</a>). Here is how it looks after opening its jacket:</p>
 
 <p><img src="/assets/images/2024/MFC_Teardown_20240817230453.png" alt="MFC_Teardown_20240817230453.png" /></p>
+
+<p>Here is some background about mass flow meters. If you are here for the porns, jump to the next section.</p>
 
 <h1 id="very-brief-intro-to-mass-flow-meter-and-controller">Very brief intro to mass flow meter and controller</h1>
 
@@ -367,15 +369,13 @@
 
 <h1 id="initial-teardown">Initial teardown</h1>
 
-<p>Opening it up is pretty straight forward.</p>
-
-<p>Screws removed:</p>
-<ul>
+<p>Opening it up is pretty straight forward. Screws removed:</p>
+<ol>
   <li>two on the flaps of the case that connect the case to the in and out port flange</li>
   <li>two on the two sides of the D-type connector</li>
-  <li>cut the seal, now could lift off the case</li>
+  <li>cut the “warranty void” seal, now could lift off the case</li>
   <li>one on the back of the PCB that mounts it to the side of the sensor. It also holds the insulating paper between the back of the PCB and the inner side of the case (preventing electrical short)</li>
-</ul>
+</ol>
 
 <p>The board with the external connectors (a D type, two that look like ethernet, and one test leads (?) sticking out from the board itself) can be unplugged from the main board.</p>
 
@@ -388,7 +388,7 @@
 
 <h1 id="valve">Valve</h1>
 
-<p>It took me a while to trial and realize the enclosure is screwed on. I was thinking maybe they welded it really well to prevent any leak, but the hole at the top where the cable is coming out looks suspicious. The enclosure is actually part of a voice coil / solenoid.</p>
+<p>It took me a while to trial and realize the enclosure is screwed on. I was thinking maybe they welded it really well to prevent any leak, but the hole at the top where the cable is coming out looks suspicious. The enclosure is actually part of a solenoid. The coil looks and feels dirt cheap, wrapped with teflon tape (?).</p>
 
 <p><img src="/assets/images/2024/MFC_Teardown_20240817230531.png" alt="MFC_Teardown_20240817230531.png" /></p>
 
@@ -397,9 +397,38 @@
 <p><img src="/assets/images/2024/MFC_Teardown_20240817230541.png" alt="MFC_Teardown_20240817230541.png" />
 <img src="/assets/images/2024/MFC_Teardown_20240817230549.png" alt="MFC_Teardown_20240817230549.png" /></p>
 
-<p>The gas flow path/manifold is beautiful, it goes around and up thru the two side channels, and then pass down thru the center which is covered by the flexure.</p>
+<p>The gas flow path/manifold is beautiful, it goes around and up thru the two side channels, and then pass down thru the center which is covered by the flexure. I have no idea how they machined and polished the surface. To be fair the surface seems to have one principle curvature (I think this is the correct jargon based on my rotting differential geometry knowledge) that is constant, so it can be polished with one rotating disk or sphere.</p>
 
-<p>(To be continued… (20240824) )</p>
+<p>The next day, I dug out the digital scope I got right before my defense hoping to show people the device I made (turns out they were way too small to see), and took some nicer pictures. Here they are:</p>
+
+<p><img src="/assets/images/2024/MFC_flexure_S20240818_0007.jpg" alt="MFC_flexure_S20240818_0007.jpg" />
+<em>Close-up look of the flexure from the top side. It got the magnet visible on the top to be sucked up by the solenoid.</em></p>
+
+<p><img src="/assets/images/2024/MFC_valve_manifold_S20240818_0008.jpg" alt="MFC_valve_manifold_S20240818_0008.jpg" />
+<em>Gas manifold for the valve.</em></p>
+
+<p><img src="/assets/images/2024/MFC_valve_in_out_S20240818_0010.jpg" alt="MFC_valve_in_out_S20240818_0010.jpg" />
+<em>Inlet and outlet to the valve from the main body of the MFC.</em></p>
+
+<h1 id="sensing-tube">Sensing tube</h1>
+
+<p>After removing the sensor from the main body of the MFC, the only visible thing is just a tiny inlet and outlet opening. The actual sensor tube is inside the enclosure. The inlet/outlet hole is tiny, ~ 1 mm diameter.</p>
+
+<p><img src="/assets/images/2024/MFC_sensor_inlet_S20240818_0004.jpg" alt="MFC_sensor_inlet_S20240818_0004.jpg" /></p>
+
+<p>The enclosure of the sensor can be easily pried off. It is glued onto the base that got screwed onto the main MFC body, and there is no easy non-destructive way to open it. The sensor tube is covered by normal looking foam. I peeled it off with tweezers. It has aged and is super fragile.</p>
+
+<p><img src="/assets/images/2024/MFC_sensor_opened_20240818214143.png" alt="MFC_sensor_opened_20240818214143.png" />
+<img src="/assets/images/2024/MFC_sensor_tube_20240818214150.png" alt="MFC_sensor_tube_20240818214150.png" /></p>
+
+<p>Zooming in onto the sensor tube, we can clearly see two wires coiled around the sensor tube. It is a two-wire sensor as shown in the illustration in the first section.</p>
+
+<p><img src="/assets/images/2024/MFC_sensor_top_view_20240818214155.png" alt="MFC_sensor_top_view_20240818214155.png" />
+<img src="/assets/images/2024/MFC_sensor_side_view_20240818214203.png" alt="MFC_sensor_side_view_20240818214203.png" /></p>
+
+<p>You can see how the traces from the flex cable are connected to the two wires exactly as you would expect from the two-wire sensor schematics.</p>
+
+<p>I’ll stop here for now. I wanted to do some order-of-magnitude estimations for why the sensor tube is this length and diameters, look into the valve more (solenoids specs, flexure spring constant and resonant freq etc.), as well as the control electronics. For now I need to go sleep and prep for the new week… Hope you have enjoyed the photos!</p>
 
 
         
@@ -416,6 +445,8 @@
   <p class="page__taxonomy">
     <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
     <span itemprop="keywords">
+    
+      <a href="/tags/#control" class="page__taxonomy-item p-category" rel="tag">Control</a><span class="sep">, </span>
     
       <a href="/tags/#flexure" class="page__taxonomy-item p-category" rel="tag">Flexure</a><span class="sep">, </span>
     
@@ -455,7 +486,7 @@
       <section class="page__share">
   
 
-  <a href="https://twitter.com/intent/tweet?text=Celerity+mass+flow+meter+teardown%20http%3A%2F%2Flocalhost%3A4000%2Fteardown%2FTeardown-celerity-mass-flow-meter%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Teardown+Celerity+mass+flow+meter%20http%3A%2F%2Flocalhost%3A4000%2Fteardown%2FTeardown-celerity-mass-flow-meter%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
   <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fteardown%2FTeardown-celerity-mass-flow-meter%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
