@@ -33,7 +33,7 @@ If you are working in any kind of physical fabrication or manufacturing, you hav
 
 In my case, I have seen it on more than half of the cleanroom equipments. Any kind of etcher (RIE, Ion milling) or gas/vapor based deposition tool (PVD, CVD, ALD), as long as there is gas involved, there would be a few MFCs hidden inside the tool that set your SF6 or O2 flow to the 50 sccm you wanted. And they could occasionally fuck up and ruin your process, so learn, appreciate, and prey for their well-being!
 
-There are quite a few kinds of MFC, but they all have at least two parts, one part that is sensing the flow, and the other part that is controlling the flow (and some electronics with how to readout and calibrate the flow, and apply the control). There are many good reads for this, and [this one](https://www.mks.com/mass-flow-technology-technote) is particularly good (I admit I only read this one and [another one](https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/)). A very common and cheap type of MFC is the rotameters where you pbb have seen them on nitrogen dessicator or machines with liquid/water flows that does not require high precision. We will focus on the ones with finer measurement control, and more specifically thermal mass flow meter based controllers. Another interesting type of flow meter is using Coriolis force and are called [Coriolis flow meters](https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/). They 
+There are quite a few kinds of MFC, but they all have at least two parts, one part that is sensing the flow, and the other part that is controlling the flow (and some electronics with how to readout and calibrate the flow, and apply the control). There are many good reads for this, and [this one](https://www.mks.com/mass-flow-technology-technote) is particularly good (I admit I only read this one and [another one](https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/)). A very common and cheap type of MFC is the rotameters where you pbb have seen them on nitrogen dessicator or machines with liquid/water flows that does not require high precision. We will focus on the ones with finer measurement control, and more specifically thermal mass flow meter based controllers. Another interesting type of flow meter is using Coriolis force and are called [Coriolis flow meters](https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/). They actuate and sense the vibration of the sensor tube, which depends on the mass or density of the flow. When the flow is running, the two legs (in and out) of the sensor tubes would vibrate with a phase difference  because of the angular momentum from the vibration carried by the flow.
 
 ![thermal_mass_flow_sensor_config.jpg](/assets/images/2024/thermal_mass_flow_sensor_config.jpg)
 *Different sensor configuration of a thermal mass flow meter. From [MKS](https://www.mks.com/mass-flow-technology-technote).*
@@ -104,6 +104,12 @@ After removing the sensor from the main body of the MFC, the only visible thing 
 
 ![MFC_sensor_inlet_S20240818_0004.jpg](/assets/images/2024/MFC_sensor_inlet_S20240818_0004.jpg)
 
+![MFC_sensor_opened](/assets/images/2024/MFC_sensor_opened.jpeg)
+*Sensor block removed from the main body of the MFC. The solenoid above the valve was removed in this photo.*
+
+I noticed that every single mating surface, e.g., between the valve enclosure and the main body, or between the sensor module/block and the main body, there is always a spacer. It is likely similar to the copper flange on high vacuum equipments, a clean way to provide sealing without any vacuum lubricant or grease that could cause potential contamination.
+
+
 The enclosure of the sensor can be easily pried off. It is glued onto the base that got screwed onto the main MFC body, and there is no easy non-destructive way to open it. The sensor tube is covered by normal looking foam. I peeled it off with tweezers. It has aged and is super fragile.
 
 ![MFC_sensor_opened_20240818214143.png](/assets/images/2024/MFC_sensor_opened_20240818214143.png)
@@ -116,7 +122,18 @@ Zooming in onto the sensor tube, we can clearly see two wires coiled around the 
 
 You can see how the traces from the flex cable are connected to the two wires exactly as you would expect from the two-wire sensor schematics.
 
+
+# Final thoughts: why does the sensor tube look like this?
+
+There are likely a few factors that play in how the dimensions of the sensor tube got determined. For thermal based sensing:
+- time scale of thermalization of the gas to the tube
+- typical flow rate and its corresponding time scale of the flow through the sensing tube
+
+
+
+
 I'll stop here for now. I wanted to do some order-of-magnitude estimations for why the sensor tube is this length and diameters, look into the valve more (solenoids specs, flexure spring constant and resonant freq etc.), as well as the control electronics. Oh as well as MEMS based MFCs (see [this](https://pubs.aip.org/aip/rsi/article-abstract/91/10/105006/363406/A-microfluidic-flow-meter-with-micromachined)). For now I need to go sleep and prep for the new week... Hope you have enjoyed the photos!
+
 
 
 

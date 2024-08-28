@@ -1,75 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-25T23:03:56-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#9)</title><link href="http://localhost:4000/ofs/weekly-OFS-9/" rel="alternate" type="text/html" title="This week’s outside five sigma (#9)" /><published>2024-08-24T00:00:00-07:00</published><updated>2024-08-24T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-9</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-9/"><![CDATA[<ol>
-  <li>I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts
-    <ul>
-      <li><a href="https://x.com/jwt0625/status/1825038035458879580">Twitter thread</a></li>
-      <li>I should write it into a blog
-<img src="/assets/images/2024/MFC_valve.jfif" alt="MFC_valve.jfif" />
-<img src="/assets/images/2024/MFC_sensor.jfif" alt="MFC_sensor.jfif" /></li>
-    </ul>
-  </li>
-  <li>All major electronic gear control manufacturers now support wireless shifting, and the wireless signal could be captured and replayed/hacked.
-    <ul>
-      <li>Paper: <a href="https://www.usenix.org/system/files/woot24-motallebighomi.pdf">MakeShift: Security Analysis of Shimano Di2 Wireless Gear Shifting in Bicycles</a>
-<img src="/assets/images/2024/shimano_bike_electronic_wireless_gear_shifter.jfif" alt="shimano_bike_electronic_wireless_gear_shifter.jfif" />
-<img src="/assets/images/2024/shimano_bike_electronic_wireless_gear_shifter_2.jfif" alt="shimano_bike_electronic_wireless_gear_shifter_2.jfif" /></li>
-    </ul>
-  </li>
-  <li>Minecraft’s new update enables you to make a “ring resonator” for mine cart with powered rails and use a switch to launch the accelerated mine cart out of the ring. It works exactly as a Q-switched laser
-    <ul>
-      <li><a href="https://x.com/WitchOfDusk/status/1824243197159112726">Twitter post</a>
-<img src="/assets/images/2024/Minecraft_update_ring_launch.gif" alt="Minecraft_update_ring_launch.gif" /></li>
-    </ul>
-  </li>
-  <li>When you make a lens with discrete flat surfaces, it samples the scene with gaps and creates a mosaic image. I ran a ray tracing simulation to show how it works.
-    <ul>
-      <li><a href="https://x.com/Hakusi_Katei/status/1807591865132466324">Twitter post</a> from <a href="https://x.com/Hakusi_Katei">@Hakusi_Katei</a></li>
-      <li><a href="https://monoli.easy-myshop.jp/">shop</a>
-<img src="/assets/images/2024/minecraft_lens_pixel_mirror.jfif" alt="minecraft_lens_pixel_mirror.jfif" />
-<img src="/assets/images/2024/minecraft_lens_pixel_mirror_ray_tracing.jfif" alt="minecraft_lens_pixel_mirror_ray_tracing.jfif" /></li>
-    </ul>
-  </li>
-  <li>SendCutSend has a series of great guidelines on how to best use their services.
-    <ul>
-      <li><a href="https://sendcutsend.com/guidelines/">website</a>
-<img src="/assets/images/2024/sendcutsend_guidelines.PNG" alt="sendcutsend_guidelines.PNG" /></li>
-    </ul>
-  </li>
-  <li>The YOLO vision model guy has a My Little Pony style resume
-    <ul>
-      <li>Google Scholar: <a href="https://scholar.google.com/citations?user=TDk_NfkAAAAJ&amp;hl=en&amp;oi=sra">Joseph Redmon</a></li>
-      <li><a href="https://web.archive.org/web/20200302013000/https://pjreddie.com/static/Redmon%20Resume.pdf">Wayback machine</a>
-<img src="/assets/images/2024/My_Little_Resume_Joseph_redmon.PNG" alt="My_Little_Resume_Joseph_redmon.PNG" /></li>
-    </ul>
-  </li>
-  <li><a href="https://clayhaight.com/">Clayton</a> (and team) shipped a quiet leaf picking robot to Nat Friedman
-    <ul>
-      <li><a href="https://x.com/clayhaight/status/1825245517745656143">Twitter post</a>
-<img src="/assets/images/2024/leaf_picking_robot.PNG" alt="leaf_picking_robot.PNG" /></li>
-    </ul>
-  </li>
-  <li>Zhiyuan Robot debuted their Lingxi-01 robot after two months of development
-    <ul>
-      <li>Youtube: <a href="https://www.youtube.com/watch?v=e04nYc0VTUg&amp;t=2952s&amp;ab_channel=XTech">2024智元年度新品发布会全程</a></li>
-      <li>Company website (very slow to load for me): <a href="https://www.zhiyuan-robot.com/">智元机器人</a>
-<img src="/assets/images/2024/zhiyuan_lingxi_01.PNG" alt="zhiyuan_lingxi_01.PNG" />
-<img src="/assets/images/2024/zhiyuan_lingxi_01.jfif" alt="zhiyuan_lingxi_02.jfif" /></li>
-    </ul>
-  </li>
-  <li>The biggest pdf dataset contains only “roughly 8.4~ million pdfs that uncompressed total 8TB”.
-    <ul>
-      <li>Blogpost: <a href="https://snats.xyz/pages/articles/classifying_a_bunch_of_pdfs.html">Classifying all of the pdfs on the internet</a>
-<img src="/assets/images/2024/pdf_classification_piechart_equally_distributed.png" alt="pdf_classification_piechart_equally_distributed.png" /></li>
-    </ul>
-  </li>
-  <li>Unitree released the mass production version of their humaniod robot G1
-    <ul>
-      <li><a href="https://x.com/UnitreeRobotics/status/1825435336736120880">Twitter post</a></li>
-      <li>Website: <a href="https://www.unitree.com/g1">Humanoid robot G1</a>
-<img src="/assets/images/2024/unitree_G1.PNG" alt="unitree_G1.PNG" />
-<img src="/assets/images/2024/unitree_G1_02.PNG" alt="unitree_G1_02.PNG" /></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Bike" /><category term="Wireless" /><category term="IoT" /><category term="Laser" /><category term="Minecraft" /><category term="Optics" /><category term="SendCutSend" /><category term="Manufacturing" /><category term="Robotics" /><category term="Pdf" /><summary type="html"><![CDATA[I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts Twitter thread I should write it into a blog]]></summary></entry><entry><title type="html">Teardown Celerity mass flow meter</title><link href="http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter/" rel="alternate" type="text/html" title="Teardown Celerity mass flow meter" /><published>2024-08-20T00:00:00-07:00</published><updated>2024-08-20T00:00:00-07:00</updated><id>http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter</id><content type="html" xml:base="http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter/"><![CDATA[<p>This blog is about the teardown of a Celerity mass flow meter, with a bit of background materials. I got this cute thing at the electronics flea market for only 40 bucks. It got a price tag of \$375 and the guy asked \$75. This is a pretty old unit from Celerity, which has “technology heritage of industry leaders such as Tylan, Mykrolis and UNIT Instruments”, and got acquired by Brooks in 2009 (<a href="https://www.brooksinstrument.com/en/about-us/history">source</a>). Here is how it looks after opening its jacket:</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-27T22:17:30-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#9)</title><link href="http://localhost:4000/ofs/weekly-OFS-9/" rel="alternate" type="text/html" title="This week’s outside five sigma (#9)" /><published>2024-08-24T00:00:00-07:00</published><updated>2024-08-24T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-9</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-9/"><![CDATA[1. I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts
+- [Twitter thread](https://x.com/jwt0625/status/1825038035458879580)
+- I should write it into a blog
+![MFC_valve.jfif](/assets/images/2024/MFC_valve.jfif)
+![MFC_sensor.jfif](/assets/images/2024/MFC_sensor.jfif)
+
+2. All major electronic gear control manufacturers now support wireless shifting, and the wireless signal could be captured and replayed/hacked.
+- Paper: [MakeShift: Security Analysis of Shimano Di2 Wireless Gear Shifting in Bicycles](https://www.usenix.org/system/files/woot24-motallebighomi.pdf)
+![shimano_bike_electronic_wireless_gear_shifter.jfif](/assets/images/2024/shimano_bike_electronic_wireless_gear_shifter.jfif)
+![shimano_bike_electronic_wireless_gear_shifter_2.jfif](/assets/images/2024/shimano_bike_electronic_wireless_gear_shifter_2.jfif)
+
+
+3. Minecraft's new update enables you to make a "ring resonator" for mine cart with powered rails and use a switch to launch the accelerated mine cart out of the ring. It works exactly as a Q-switched laser
+- [Twitter post](https://x.com/WitchOfDusk/status/1824243197159112726)
+![Minecraft_update_ring_launch.gif](/assets/images/2024/Minecraft_update_ring_launch.gif)
+
+
+4. When you make a lens with discrete flat surfaces, it samples the scene with gaps and creates a mosaic image. I ran a ray tracing simulation to show how it works.
+- [Twitter post](https://x.com/Hakusi_Katei/status/1807591865132466324) from [@Hakusi_Katei](https://x.com/Hakusi_Katei)
+- [shop](https://monoli.easy-myshop.jp/)
+![minecraft_lens_pixel_mirror.jfif](/assets/images/2024/minecraft_lens_pixel_mirror.jfif)
+![minecraft_lens_pixel_mirror_ray_tracing.jfif](/assets/images/2024/minecraft_lens_pixel_mirror_ray_tracing.jfif)
+
+
+5. SendCutSend has a series of great guidelines on how to best use their services.
+- [website](https://sendcutsend.com/guidelines/)
+![sendcutsend_guidelines.PNG](/assets/images/2024/sendcutsend_guidelines.PNG)
+
+6. The YOLO vision model guy has a My Little Pony style resume
+- Google Scholar: [Joseph Redmon](https://scholar.google.com/citations?user=TDk_NfkAAAAJ&hl=en&oi=sra)
+- [Wayback machine](https://web.archive.org/web/20200302013000/https://pjreddie.com/static/Redmon%20Resume.pdf)
+![My_Little_Resume_Joseph_redmon.PNG](/assets/images/2024/My_Little_Resume_Joseph_redmon.PNG)
+
+
+7. [Clayton](https://clayhaight.com/) (and team) shipped a quiet leaf picking robot to Nat Friedman
+- [Twitter post](https://x.com/clayhaight/status/1825245517745656143)
+![leaf_picking_robot.PNG](/assets/images/2024/leaf_picking_robot.PNG)
+
+
+8. Zhiyuan Robot debuted their Lingxi-01 robot after two months of development
+- Youtube: [2024智元年度新品发布会全程](https://www.youtube.com/watch?v=e04nYc0VTUg&t=2952s&ab_channel=XTech)
+- Company website (very slow to load for me): [智元机器人](https://www.zhiyuan-robot.com/)
+![zhiyuan_lingxi_01.PNG](/assets/images/2024/zhiyuan_lingxi_01.PNG)
+![zhiyuan_lingxi_02.jfif](/assets/images/2024/zhiyuan_lingxi_01.jfif)
+
+
+9. The biggest pdf dataset contains only "roughly 8.4~ million pdfs that uncompressed total 8TB".
+- Blogpost: [Classifying all of the pdfs on the internet](https://snats.xyz/pages/articles/classifying_a_bunch_of_pdfs.html)
+![pdf_classification_piechart_equally_distributed.png](/assets/images/2024/pdf_classification_piechart_equally_distributed.png)
+
+
+10. Unitree released the mass production version of their humaniod robot G1
+- [Twitter post](https://x.com/UnitreeRobotics/status/1825435336736120880)
+- Website: [Humanoid robot G1](https://www.unitree.com/g1)
+![unitree_G1.PNG](/assets/images/2024/unitree_G1.PNG)
+![unitree_G1_02.PNG](/assets/images/2024/unitree_G1_02.PNG)]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Bike" /><category term="Wireless" /><category term="IoT" /><category term="Laser" /><category term="Minecraft" /><category term="Optics" /><category term="SendCutSend" /><category term="Manufacturing" /><category term="Robotics" /><category term="Pdf" /><summary type="html"><![CDATA[I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts Twitter thread I should write it into a blog]]></summary></entry><entry><title type="html">Teardown Celerity mass flow meter</title><link href="http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter/" rel="alternate" type="text/html" title="Teardown Celerity mass flow meter" /><published>2024-08-20T00:00:00-07:00</published><updated>2024-08-20T00:00:00-07:00</updated><id>http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter</id><content type="html" xml:base="http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter/"><![CDATA[<p>This blog is about the teardown of a Celerity mass flow meter, with a bit of background materials. I got this cute thing at the electronics flea market for only 40 bucks. It got a price tag of \$375 and the guy asked \$75. This is a pretty old unit from Celerity, which has “technology heritage of industry leaders such as Tylan, Mykrolis and UNIT Instruments”, and got acquired by Brooks in 2009 (<a href="https://www.brooksinstrument.com/en/about-us/history">source</a>). Here is how it looks after opening its jacket:</p>
 
 <p><img src="/assets/images/2024/MFC_Teardown_20240817230453.png" alt="MFC_Teardown_20240817230453.png" /></p>
 
@@ -81,7 +65,7 @@
 
 <p>In my case, I have seen it on more than half of the cleanroom equipments. Any kind of etcher (RIE, Ion milling) or gas/vapor based deposition tool (PVD, CVD, ALD), as long as there is gas involved, there would be a few MFCs hidden inside the tool that set your SF6 or O2 flow to the 50 sccm you wanted. And they could occasionally fuck up and ruin your process, so learn, appreciate, and prey for their well-being!</p>
 
-<p>There are quite a few kinds of MFC, but they all have at least two parts, one part that is sensing the flow, and the other part that is controlling the flow (and some electronics with how to readout and calibrate the flow, and apply the control). There are many good reads for this, and <a href="https://www.mks.com/mass-flow-technology-technote">this one</a> is particularly good (I admit I only read this one and <a href="https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/">another one</a>). A very common and cheap type of MFC is the rotameters where you pbb have seen them on nitrogen dessicator or machines with liquid/water flows that does not require high precision. We will focus on the ones with finer measurement control, and more specifically thermal mass flow meter based controllers. Another interesting type of flow meter is using Coriolis force and are called <a href="https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/">Coriolis flow meters</a>. They</p>
+<p>There are quite a few kinds of MFC, but they all have at least two parts, one part that is sensing the flow, and the other part that is controlling the flow (and some electronics with how to readout and calibrate the flow, and apply the control). There are many good reads for this, and <a href="https://www.mks.com/mass-flow-technology-technote">this one</a> is particularly good (I admit I only read this one and <a href="https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/">another one</a>). A very common and cheap type of MFC is the rotameters where you pbb have seen them on nitrogen dessicator or machines with liquid/water flows that does not require high precision. We will focus on the ones with finer measurement control, and more specifically thermal mass flow meter based controllers. Another interesting type of flow meter is using Coriolis force and are called <a href="https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/">Coriolis flow meters</a>. They actuate and sense the vibration of the sensor tube, which depends on the mass or density of the flow. When the flow is running, the two legs (in and out) of the sensor tubes would vibrate with a phase difference  because of the angular momentum from the vibration carried by the flow.</p>
 
 <p><img src="/assets/images/2024/thermal_mass_flow_sensor_config.jpg" alt="thermal_mass_flow_sensor_config.jpg" />
 <em>Different sensor configuration of a thermal mass flow meter. From <a href="https://www.mks.com/mass-flow-technology-technote">MKS</a>.</em></p>
@@ -142,6 +126,11 @@
 
 <p><img src="/assets/images/2024/MFC_sensor_inlet_S20240818_0004.jpg" alt="MFC_sensor_inlet_S20240818_0004.jpg" /></p>
 
+<p><img src="/assets/images/2024/MFC_sensor_opened.jpeg" alt="MFC_sensor_opened" />
+<em>Sensor block removed from the main body of the MFC. The solenoid above the valve was removed in this photo.</em></p>
+
+<p>I noticed that every single mating surface, e.g., between the valve enclosure and the main body, or between the sensor module/block and the main body, there is always a spacer. It is likely similar to the copper flange on high vacuum equipments, a clean way to provide sealing without any vacuum lubricant or grease that could cause potential contamination.</p>
+
 <p>The enclosure of the sensor can be easily pried off. It is glued onto the base that got screwed onto the main MFC body, and there is no easy non-destructive way to open it. The sensor tube is covered by normal looking foam. I peeled it off with tweezers. It has aged and is super fragile.</p>
 
 <p><img src="/assets/images/2024/MFC_sensor_opened_20240818214143.png" alt="MFC_sensor_opened_20240818214143.png" />
@@ -153,6 +142,14 @@
 <img src="/assets/images/2024/MFC_sensor_side_view_20240818214203.png" alt="MFC_sensor_side_view_20240818214203.png" /></p>
 
 <p>You can see how the traces from the flex cable are connected to the two wires exactly as you would expect from the two-wire sensor schematics.</p>
+
+<h1 id="final-thoughts-why-does-the-sensor-tube-look-like-this">Final thoughts: why does the sensor tube look like this?</h1>
+
+<p>There are likely a few factors that play in how the dimensions of the sensor tube got determined. For thermal based sensing:</p>
+<ul>
+  <li>time scale of thermalization of the gas to the tube</li>
+  <li>typical flow rate and its corresponding time scale of the flow through the sensing tube</li>
+</ul>
 
 <p>I’ll stop here for now. I wanted to do some order-of-magnitude estimations for why the sensor tube is this length and diameters, look into the valve more (solenoids specs, flexure spring constant and resonant freq etc.), as well as the control electronics. Oh as well as MEMS based MFCs (see <a href="https://pubs.aip.org/aip/rsi/article-abstract/91/10/105006/363406/A-microfluidic-flow-meter-with-micromachined">this</a>). For now I need to go sleep and prep for the new week… Hope you have enjoyed the photos!</p>]]></content><author><name>Wentao</name></author><category term="Teardown" /><category term="Solenoid" /><category term="Magnet" /><category term="Flexure" /><category term="Nanofab" /><category term="Control" /><summary type="html"><![CDATA[This blog is about the teardown of a Celerity mass flow meter, with a bit of background materials. I got this cute thing at the electronics flea market for only 40 bucks. It got a price tag of \$375 and the guy asked \$75. This is a pretty old unit from Celerity, which has “technology heritage of industry leaders such as Tylan, Mykrolis and UNIT Instruments”, and got acquired by Brooks in 2009 (source). Here is how it looks after opening its jacket:]]></summary></entry><entry><title type="html">This week’s outside five sigma (#8)</title><link href="http://localhost:4000/ofs/weekly-OFS-8/" rel="alternate" type="text/html" title="This week’s outside five sigma (#8)" /><published>2024-08-18T00:00:00-07:00</published><updated>2024-08-18T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-8</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-8/"><![CDATA[<ol>
   <li>“Researchers from the University of Tokyo have trained a humanoid robot called Musashi to autonomously drive a micro car.”
@@ -229,6 +226,8 @@
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />20240821: finished intro journey section</li>
   <li class="task-list-item">[] think about which part you want to add drawings</li>
 </ul>
+
+<h1 id="what-is-ebeam-litho-and-why">What is EBeam litho, and why?</h1>
 
 <h1 id="a-quick-rundown-of-my-ebeam-lithography-journey">A quick rundown of my ebeam lithography journey</h1>
 
@@ -398,6 +397,7 @@
   <li>Caltech KNI lab: <a href="https://lab.kni.caltech.edu/EBPG_5000%2B:_100_kV_Electron_Beam_Lithography">EBPG 5000+: 100 kV Electron Beam Lithography</a></li>
   <li>Stanford <a href="https://drive.google.com/file/d/1QefNaVA8mRoXeRkXaiWEuVK5TIaO3ECp/view">EBL Practical Guide</a> (<a href="/assets/doc/2024/EBL Practical Guide-Feb 2024.pdf">backup</a>)</li>
   <li>BEAMER training from GenISys: <a href="https://www.genisys-gmbh.com/webinar-series-beamer-training.html">Webinar Series - BEAMER Training</a></li>
+  <li>Yale Institute for Nanoscience and Quantum Engineering: <a href="https://nano.yale.edu/electron-beam-lithography-training">Electron-Beam Lithography Training</a>.</li>
 </ol>
 
 <h2 id="training-videos">Training videos</h2>

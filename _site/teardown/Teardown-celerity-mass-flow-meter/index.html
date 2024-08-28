@@ -193,7 +193,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          5 minute read
+          6 minute read
         
       </span>
     
@@ -339,7 +339,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#very-brief-intro-to-mass-flow-meter-and-controller">Very brief intro to mass flow meter and controller</a></li><li><a href="#initial-teardown">Initial teardown</a></li><li><a href="#valve">Valve</a></li><li><a href="#sensing-tube">Sensing tube</a></li></ul>
+              <ul class="toc__menu"><li><a href="#very-brief-intro-to-mass-flow-meter-and-controller">Very brief intro to mass flow meter and controller</a></li><li><a href="#initial-teardown">Initial teardown</a></li><li><a href="#valve">Valve</a></li><li><a href="#sensing-tube">Sensing tube</a></li><li><a href="#final-thoughts-why-does-the-sensor-tube-look-like-this">Final thoughts: why does the sensor tube look like this?</a></li></ul>
             </nav>
           </aside>
         
@@ -355,7 +355,7 @@
 
 <p>In my case, I have seen it on more than half of the cleanroom equipments. Any kind of etcher (RIE, Ion milling) or gas/vapor based deposition tool (PVD, CVD, ALD), as long as there is gas involved, there would be a few MFCs hidden inside the tool that set your SF6 or O2 flow to the 50 sccm you wanted. And they could occasionally fuck up and ruin your process, so learn, appreciate, and prey for their well-being!</p>
 
-<p>There are quite a few kinds of MFC, but they all have at least two parts, one part that is sensing the flow, and the other part that is controlling the flow (and some electronics with how to readout and calibrate the flow, and apply the control). There are many good reads for this, and <a href="https://www.mks.com/mass-flow-technology-technote">this one</a> is particularly good (I admit I only read this one and <a href="https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/">another one</a>). A very common and cheap type of MFC is the rotameters where you pbb have seen them on nitrogen dessicator or machines with liquid/water flows that does not require high precision. We will focus on the ones with finer measurement control, and more specifically thermal mass flow meter based controllers. Another interesting type of flow meter is using Coriolis force and are called <a href="https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/">Coriolis flow meters</a>. They</p>
+<p>There are quite a few kinds of MFC, but they all have at least two parts, one part that is sensing the flow, and the other part that is controlling the flow (and some electronics with how to readout and calibrate the flow, and apply the control). There are many good reads for this, and <a href="https://www.mks.com/mass-flow-technology-technote">this one</a> is particularly good (I admit I only read this one and <a href="https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/">another one</a>). A very common and cheap type of MFC is the rotameters where you pbb have seen them on nitrogen dessicator or machines with liquid/water flows that does not require high precision. We will focus on the ones with finer measurement control, and more specifically thermal mass flow meter based controllers. Another interesting type of flow meter is using Coriolis force and are called <a href="https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/">Coriolis flow meters</a>. They actuate and sense the vibration of the sensor tube, which depends on the mass or density of the flow. When the flow is running, the two legs (in and out) of the sensor tubes would vibrate with a phase difference  because of the angular momentum from the vibration carried by the flow.</p>
 
 <p><img src="/assets/images/2024/thermal_mass_flow_sensor_config.jpg" alt="thermal_mass_flow_sensor_config.jpg" />
 <em>Different sensor configuration of a thermal mass flow meter. From <a href="https://www.mks.com/mass-flow-technology-technote">MKS</a>.</em></p>
@@ -416,6 +416,11 @@
 
 <p><img src="/assets/images/2024/MFC_sensor_inlet_S20240818_0004.jpg" alt="MFC_sensor_inlet_S20240818_0004.jpg" /></p>
 
+<p><img src="/assets/images/2024/MFC_sensor_opened.jpeg" alt="MFC_sensor_opened" />
+<em>Sensor block removed from the main body of the MFC. The solenoid above the valve was removed in this photo.</em></p>
+
+<p>I noticed that every single mating surface, e.g., between the valve enclosure and the main body, or between the sensor module/block and the main body, there is always a spacer. It is likely similar to the copper flange on high vacuum equipments, a clean way to provide sealing without any vacuum lubricant or grease that could cause potential contamination.</p>
+
 <p>The enclosure of the sensor can be easily pried off. It is glued onto the base that got screwed onto the main MFC body, and there is no easy non-destructive way to open it. The sensor tube is covered by normal looking foam. I peeled it off with tweezers. It has aged and is super fragile.</p>
 
 <p><img src="/assets/images/2024/MFC_sensor_opened_20240818214143.png" alt="MFC_sensor_opened_20240818214143.png" />
@@ -427,6 +432,14 @@
 <img src="/assets/images/2024/MFC_sensor_side_view_20240818214203.png" alt="MFC_sensor_side_view_20240818214203.png" /></p>
 
 <p>You can see how the traces from the flex cable are connected to the two wires exactly as you would expect from the two-wire sensor schematics.</p>
+
+<h1 id="final-thoughts-why-does-the-sensor-tube-look-like-this">Final thoughts: why does the sensor tube look like this?</h1>
+
+<p>There are likely a few factors that play in how the dimensions of the sensor tube got determined. For thermal based sensing:</p>
+<ul>
+  <li>time scale of thermalization of the gas to the tube</li>
+  <li>typical flow rate and its corresponding time scale of the flow through the sensing tube</li>
+</ul>
 
 <p>I’ll stop here for now. I wanted to do some order-of-magnitude estimations for why the sensor tube is this length and diameters, look into the valve more (solenoids specs, flexure spring constant and resonant freq etc.), as well as the control electronics. Oh as well as MEMS based MFCs (see <a href="https://pubs.aip.org/aip/rsi/article-abstract/91/10/105006/363406/A-microfluidic-flow-meter-with-micromachined">this</a>). For now I need to go sleep and prep for the new week… Hope you have enjoyed the photos!</p>
 
