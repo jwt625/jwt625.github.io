@@ -168,7 +168,7 @@ var store = [{
         "teaser": null
       },{
         "title": "This week's outside five sigma (#9)",
-        "excerpt":"1. I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts - [Twitter thread](https://x.com/jwt0625/status/1825038035458879580) - I should write it into a blog ![MFC_valve.jfif](/assets/images/2024/MFC_valve.jfif) ![MFC_sensor.jfif](/assets/images/2024/MFC_sensor.jfif) 2. All major electronic gear control manufacturers now support wireless shifting, and the wireless signal could be captured and replayed/hacked. - Paper:...","categories": ["OFS"],
+        "excerpt":"I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts Twitter thread I should write it into a blog All major electronic gear control manufacturers now support wireless shifting, and the wireless signal could be captured and replayed/hacked. Paper: MakeShift: Security Analysis of Shimano Di2 Wireless...","categories": ["OFS"],
         "tags": ["Bike","Wireless","IoT","Laser","Minecraft","Optics","SendCutSend","Manufacturing","Robotics","Pdf"],
         "url": "/ofs/weekly-OFS-9/",
         "teaser": null
