@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-27T23:34:11-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#9)</title><link href="http://localhost:4000/ofs/weekly-OFS-9/" rel="alternate" type="text/html" title="This week’s outside five sigma (#9)" /><published>2024-08-24T00:00:00-07:00</published><updated>2024-08-24T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-9</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-9/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-01T22:30:26-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#10)</title><link href="http://localhost:4000/ofs/weekly-OFS-10/" rel="alternate" type="text/html" title="This week’s outside five sigma (#10)" /><published>2024-09-01T00:00:00-07:00</published><updated>2024-09-01T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-10</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-10/"><![CDATA[<ol>
+  <li>Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975.
+    <ul>
+      <li>Team 6502 <a href="https://www.team6502.org/">website</a>
+<img src="/assets/images/2024/MOS_Tech_6502.jpeg" alt="MOS_Tech_6502" /></li>
+    </ul>
+  </li>
+  <li>This LEGO enthusiast makes really good 3D model / part list / assembling instruction for the designs
+    <ul>
+      <li>Website: <a href="https://www.chrismcveigh.com/cm/welcome.html">CHRIS MCVEIGH’S BUILDING GUIDES</a>
+<img src="/assets/images/2024/LEGO_computer_1.jpeg" alt="LEGO_computer_1.jpeg" />
+<img src="/assets/images/2024/LEGO_computer_2.jpeg" alt="LEGO_computer_2.jpeg" /></li>
+    </ul>
+  </li>
+  <li>
+    <p>The wafer holders are worth 10s to 100s bucks for big wafers! Do not throw them away when you ordered old wafers for decoration
+<img src="/assets/images/2024/wafer_holder_12in.png" alt="wafer_holder_12in.png" /></p>
+  </li>
+  <li>HDMI to screw terminal adapters exist… I need to come up with a fun project to use them.
+    <ul>
+      <li>On Amazon: <a href="https://www.amazon.com/SinLoon-Solderless-Extension-Connector-Screwdriver/dp/B07M98XCL6/ref=asc_df_B07M98XCL6/">SinLoon HDMI Solderless Adapter Gold Plated HDMI Extension Cable Connector</a>
+<img src="/assets/images/2024/HDMI_to_screw_terminal.jpg" alt="HDMI_to_screw_terminal.jpg" /></li>
+    </ul>
+  </li>
+  <li>Just owning it would already make your feel less stressed and more satisfied with your life.
+    <ul>
+      <li>Nature human behavior paper: <a href="https://www.nature.com/articles/s41562-024-01948-y">Causal effect of video gaming on mental well-being in Japan 2020–2022</a>
+<img src="/assets/images/2024/owning_game_console_stress_life_satisfaction.jpeg" alt="owning_game_console_stress_life_satisfaction.jpeg" /></li>
+    </ul>
+  </li>
+  <li>You can do passive radar with scattered waves from Starlink
+    <ul>
+      <li>Paper: <a href="https://ieeexplore.ieee.org/document/10149600">Analysis of Starlink Users’ downlink for passive radar applications: signal characteristics and ambiguity function performance</a></li>
+      <li>News: <a href="https://www.airforce-technology.com/news/germany-demonstrates-passive-radar-system-using-starlink-satellite-radiation/">Germany demonstrates passive radar system using Starlink satellite radiation</a>
+<img src="/assets/images/2024/passive_radar_starlink_JB21-Verteidigung-Cristallini-Bild2.webp" alt="passive_radar_starlink_JB21-Verteidigung-Cristallini-Bild2.webp" /></li>
+    </ul>
+  </li>
+  <li>“As chipmaking required finer and finer features, engineers had to produce more and more complex designs to project those features onto the silicon. Inverse lithography (ILT) is the latest development”
+    <ul>
+      <li>Blog: <a href="https://spectrum.ieee.org/inverse-lithography">Nvidia Speeds Key Chipmaking Computation by 40x</a>
+<img src="/assets/images/2024/Nvidia_OPC_mask_correction.jpeg" alt="Nvidia_OPC_mask_correction.jpeg" /></li>
+    </ul>
+  </li>
+  <li>A group of Japanese researchers made a prosthetic tail with potential applications including active momentum alteration
+    <ul>
+      <li>Paper: <a href="https://dl.acm.org/doi/10.1145/3306214.3338573">Arque: artificial biomimicry-inspired tail for extending innate body functions</a>
+<img src="/assets/images/2024/prosthetic_tail.png" alt="prosthetic_tail.png" /></li>
+    </ul>
+  </li>
+  <li>Six to seven discrete depth would be enough to fool Human vision
+    <ul>
+      <li>Optics Express paper: <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-29-7-9878&amp;id=449280">Optimal allocation of quantized human eye depth perception for multi-focal 3D display design</a>
+<img src="/assets/images/2024/human_vision_discrere_depth.jpeg" alt="human_vision_discrere_depth.jpeg" /></li>
+    </ul>
+  </li>
+  <li>I always have thought it is the signal from the left eye going to the right half of the brain and vice versa. It is actually the visual field instead.
+    <ul>
+      <li>Screenshots from Youtube video: <a href="https://www.youtube.com/watch?v=yQ6VOOd73MA&amp;ab_channel=NOVAPBSOfficial">Your Brain: Who’s in Control? | Full Documentary | NOVA | PBS</a>
+<img src="/assets/images/2024/visual_signal_brain_1.jpeg" alt="visual_signal_brain_1.jpeg" />
+<img src="/assets/images/2024/visual_signal_brain_2.jpeg" alt="visual_signal_brain_2.jpeg" /></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="Semiconductor" /><category term="Vision" /><category term="Nanofab" /><category term="Electronics" /><category term="Behavior" /><category term="Radar" /><category term="Starlink" /><category term="Lithography" /><category term="Robotics" /><category term="LEGO" /><summary type="html"><![CDATA[Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975. Team 6502 website]]></summary></entry><entry><title type="html">This week’s outside five sigma (#9)</title><link href="http://localhost:4000/ofs/weekly-OFS-9/" rel="alternate" type="text/html" title="This week’s outside five sigma (#9)" /><published>2024-08-24T00:00:00-07:00</published><updated>2024-08-24T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-9</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-9/"><![CDATA[<ol>
   <li>I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts
     <ul>
       <li><a href="https://x.com/jwt0625/status/1825038035458879580">Twitter thread</a></li>
@@ -863,69 +925,4 @@
 
 <p>At the very end, I should acknowledge all the trainings and help I have received during these years of fun and suffering at both the Tsinghua cleanroom and the Stanford cleanroom. There are many staff that are way more knowledgeable and way more willing to help. It is just they are always busy. And to avoid any potential trouble, part of this work was performed at the Stanford Nano Shared Facilities (SNSF), supported by the National Science Foundation under award ECCS-2026822 (see also <a href="https://snsf.stanford.edu/labmembers/policies/acknowledgements">SNSF Acknowledgements</a>).</p>
 
-<p>I hope you had some fun reading this, and also learnt some random stuff. See you again (hopefully soon)!</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Wirebond" /><category term="Packaging" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">This week’s outside five sigma (#3)</title><link href="http://localhost:4000/ofs/weekly-OFS-3/" rel="alternate" type="text/html" title="This week’s outside five sigma (#3)" /><published>2024-07-13T00:00:00-07:00</published><updated>2024-07-13T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-3</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-3/"><![CDATA[<ol>
-  <li>The <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.033603">nanodumbbell</a> can now be rotated vertically with a trapping laser and a spinning laser.
-    <ul>
-      <li>PRL paper: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.253601">Long-Axis Spinning of an Optically Levitated Particle: A Levitated Spinning Top</a></li>
-      <li>the acceleration of one nanosphere is around $10^{12}g$ and the stress between them is $2~\text{GPa}$.
-<img src="/assets/images/nanodumbbell.jfif" alt="nanodumbbell.jfif" /></li>
-    </ul>
-  </li>
-  <li>The mean center of the United States population has been moving west and south.
-    <ul>
-      <li>Wikipedia <a href="https://en.wikipedia.org/wiki/Mean_center_of_the_United_States_population">Mean center of the United States population</a>
-<img src="/assets/images/mean_center_of_population.jfif" alt="mean_center_of_population.jfif" /></li>
-    </ul>
-  </li>
-  <li>“ALE is a space startup company that I started in 2011 to create the world’s first human-made shooting star.”
-    <ul>
-      <li><a href="https://star-ale.com/en/company/">https://star-ale.com/en/company/</a>
-<img src="/assets/images/sky_canvas.jpg" alt="sky_canvas.jpg" /></li>
-    </ul>
-  </li>
-  <li>You can use an array of $N$ MEMS IMU sensors to improve the performance by $\sim\sqrt{N}$.
-    <ul>
-      <li>Twitter thread from <a href="https://x.com/will_whang/status/1807299074049372190">Will Whang</a></li>
-      <li>Figure from IEEE paper: <a href="https://ieeexplore.ieee.org/document/9430468">Purely Inertial Navigation with a Low-Cost MEMS Sensor Array</a>
-<img src="/assets/images/MEMS_IMU_array.jfif" alt="MEMS_IMU_array.jfif" /></li>
-    </ul>
-  </li>
-  <li>Brushing plutonium button with wire brush and you will see sparks.
-    <ul>
-      <li>DOE Office of Scientific and Technical INformation report: <a href="https://www.osti.gov/biblio/2282522">BYU Lecture Series: Plutonium Metal Production [Slides]</a>
-<img src="/assets/images/plutonium_metal_production.PNG" alt="plutonium_metal_production.PNG" /></li>
-    </ul>
-  </li>
-  <li>Researchers at Nanosystems Initiative Munich rendered a microscopic DNA on a macroscopic lathe. It might look like AI generated, only the DNA is CGI.
-    <ul>
-      <li>Physics article: <a href="https://physics.aps.org/articles/v14/98">A Gentle Twist on DNA</a>
-<img src="/assets/images/DNA_on_lathe.png" alt="DNA_on_lathe.png" /></li>
-    </ul>
-  </li>
-  <li>Deep convolutional networks took inspiration of cat visual cortex, deciphered by Hubel and Wiesel in 1962 “by tapping the signals from the nerve cells in the various cell layers of the brain cortex”.
-    <ul>
-      <li>Original paper: <a href="https://physoc.onlinelibrary.wiley.com/doi/epdf/10.1113/jphysiol.1962.sp006837">Receptive fields, binocular interaction and functional architecture in the cat’s visual cortex</a></li>
-      <li>They won the <a href="https://www.nobelprize.org/prizes/medicine/1981/summary/">1981 Nobel prize in Physiology or Medicine</a>
-<img src="/assets/images/cat_visual_cortex_receptive_fields.png" alt="cat_visual_cortex_receptive_fields.png" /></li>
-    </ul>
-  </li>
-  <li>Using a prism and the evanescent field to couple light from free space to on-chip photonic circuits (called thin-film light guides) at the time is as early as 1970.
-    <ul>
-      <li>Paper from P. K. Tien and R. Ulrich: <a href="https://opg.optica.org/josa/abstract.cfm?uri=josa-60-10-1325">Theory of Prism–Film Coupler and Thin-Film Light Guides</a>
-<img src="/assets/images/experiment_arrangement_mode_spectrum_thin_film_waveguide.png" alt="experiment_arrangement_mode_spectrum_thin_film_waveguide.png" /></li>
-    </ul>
-  </li>
-  <li>Chick-fil-A has better edge compute and IoT data logging than many of your SaaS companies
-    <ul>
-      <li>Medium article: <a href="https://medium.com/chick-fil-atech/observability-at-the-edge-b2385065ab6e">Observability at the Edge</a>
-<img src="/assets/images/chick_fil_A_edge_observability.jfif" alt="chick_fil_A_edge_observability.jfif" /></li>
-    </ul>
-  </li>
-  <li>The Mpemba effect is the name given to the observation that a liquid (typically water) which is initially hot can freeze faster than the same liquid which begins cold, under otherwise similar conditions.
-    <ul>
-      <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/Mpemba_effect">Mpemba effect</a></li>
-      <li>Original paper from E. B. Mpemba: <a href="https://iopscience.iop.org/article/10.1088/0031-9120/4/3/312">Cool?</a>
-<img src="/assets/images/Mpemba_Effect_temperatures_plot.png" alt="Mpemba_Effect_temperatures_plot.png" /></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanosphere" /><category term="Satellite" /><category term="MEMS" /><category term="Plutonium" /><category term="DNA" /><category term="CNN" /><category term="Photonics" /><category term="IoT" /><summary type="html"><![CDATA[The nanodumbbell can now be rotated vertically with a trapping laser and a spinning laser. PRL paper: Long-Axis Spinning of an Optically Levitated Particle: A Levitated Spinning Top the acceleration of one nanosphere is around $10^{12}g$ and the stress between them is $2~\text{GPa}$.]]></summary></entry></feed>
+<p>I hope you had some fun reading this, and also learnt some random stuff. See you again (hopefully soon)!</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Wirebond" /><category term="Packaging" /><summary type="html"><![CDATA[]]></summary></entry></feed>

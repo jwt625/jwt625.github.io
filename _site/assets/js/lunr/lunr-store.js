@@ -172,4 +172,10 @@ var store = [{
         "tags": ["Bike","Wireless","IoT","Laser","Minecraft","Optics","SendCutSend","Manufacturing","Robotics","Pdf"],
         "url": "/ofs/weekly-OFS-9/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#10)",
+        "excerpt":"Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975. Team 6502 website This LEGO enthusiast makes really good 3D model / part list / assembling instruction for the designs Website: CHRIS MCVEIGH’S BUILDING...","categories": ["OFS"],
+        "tags": ["Nanofab","Semiconductor","Vision","Nanofab","Electronics","Behavior","Radar","Starlink","Lithography","Robotics","LEGO"],
+        "url": "/ofs/weekly-OFS-10/",
+        "teaser": null
       }]
