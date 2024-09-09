@@ -174,14 +174,14 @@ var store = [{
         "teaser": null
       },{
         "title": "This week's outside five sigma (#10)",
-        "excerpt":"1. Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975. - Team 6502 [website](https://www.team6502.org/) ![MOS_Tech_6502](/assets/images/2024/MOS_Tech_6502.jpeg) 2. This LEGO enthusiast makes really good 3D model / part list / assembling instruction for the designs...","categories": ["OFS"],
+        "excerpt":"Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975. Team 6502 website This LEGO enthusiast makes really good 3D model / part list / assembling instruction for the designs Website: CHRIS MCVEIGH’S BUILDING...","categories": ["OFS"],
         "tags": ["Nanofab","Semiconductor","Vision","Nanofab","Electronics","Behavior","Radar","Starlink","Lithography","Robotics","LEGO"],
         "url": "/ofs/weekly-OFS-10/",
         "teaser": null
       },{
         "title": "This week's outside five sigma (#11)",
         "excerpt":"This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff. Paper: Ultra-Wideband RF-Photonics...","categories": ["OFS"],
-        "tags": ["AWG","Integrated_photonics","SC_qubit","Nanofab","Math","Encryption","Laser","Behavior","Biology"],
+        "tags": ["AWG","Integrated_photonics","SC_qubit","Nanofab","Math","Encryption","Laser","Behavior","Biology","Robotics","Art","Mechanics","Simulation","Photonics","Optics"],
         "url": "/ofs/weekly-OFS-11/",
         "teaser": null
       }]

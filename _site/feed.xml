@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-08T22:17:05-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#11)</title><link href="http://localhost:4000/ofs/weekly-OFS-11/" rel="alternate" type="text/html" title="This week’s outside five sigma (#11)" /><published>2024-09-08T00:00:00-07:00</published><updated>2024-09-08T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-11</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-11/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-08T22:28:02-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#11)</title><link href="http://localhost:4000/ofs/weekly-OFS-11/" rel="alternate" type="text/html" title="This week’s outside five sigma (#11)" /><published>2024-09-08T00:00:00-07:00</published><updated>2024-09-08T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-11</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-11/"><![CDATA[<ol>
   <li>This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff.
     <ul>
       <li>Paper: <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10659116">Ultra-Wideband RF-Photonics Technology for Microwave</a>
@@ -55,58 +55,104 @@
 <img src="/assets/images/2024/bees_jerking_flowers.jfif" alt="bees_jerking_flowers.jfif" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="AWG" /><category term="Integrated_photonics" /><category term="SC_qubit" /><category term="Nanofab" /><category term="Math" /><category term="Encryption" /><category term="Laser" /><category term="Behavior" /><category term="Biology" /><summary type="html"><![CDATA[This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff. Paper: Ultra-Wideband RF-Photonics Technology for Microwave]]></summary></entry><entry><title type="html">This week’s outside five sigma (#10)</title><link href="http://localhost:4000/ofs/weekly-OFS-10/" rel="alternate" type="text/html" title="This week’s outside five sigma (#10)" /><published>2024-09-01T00:00:00-07:00</published><updated>2024-09-01T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-10</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-10/"><![CDATA[1. Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975.
-- Team 6502 [website](https://www.team6502.org/)
-![MOS_Tech_6502](/assets/images/2024/MOS_Tech_6502.jpeg)
-
-
-2. This LEGO enthusiast makes really good 3D model / part list / assembling instruction for the designs
-- Website: [CHRIS MCVEIGH’S BUILDING GUIDES](https://www.chrismcveigh.com/cm/welcome.html)
-![LEGO_computer_1.jpeg](/assets/images/2024/LEGO_computer_1.jpeg)
-![LEGO_computer_2.jpeg](/assets/images/2024/LEGO_computer_2.jpeg)
-
-
-3. The wafer holders are worth 10s to 100s bucks for big wafers! Do not throw them away when you ordered old wafers for decoration
-![wafer_holder_12in.png](/assets/images/2024/wafer_holder_12in.png)
-
-
-4. HDMI to screw terminal adapters exist... I need to come up with a fun project to use them.
-- On Amazon: [SinLoon HDMI Solderless Adapter Gold Plated HDMI Extension Cable Connector](https://www.amazon.com/SinLoon-Solderless-Extension-Connector-Screwdriver/dp/B07M98XCL6/ref=asc_df_B07M98XCL6/)
-![HDMI_to_screw_terminal.jpg](/assets/images/2024/HDMI_to_screw_terminal.jpg)
-
-
-5. Just owning it would already make your feel less stressed and more satisfied with your life.
-- Nature human behavior paper: [Causal effect of video gaming on mental well-being in Japan 2020–2022](https://www.nature.com/articles/s41562-024-01948-y)
-![owning_game_console_stress_life_satisfaction.jpeg](/assets/images/2024/owning_game_console_stress_life_satisfaction.jpeg)
-
-
-6. You can do passive radar with scattered waves from Starlink
-- Paper: [Analysis of Starlink Users' downlink for passive radar applications: signal characteristics and ambiguity function performance](https://ieeexplore.ieee.org/document/10149600)
-- News: [Germany demonstrates passive radar system using Starlink satellite radiation](https://www.airforce-technology.com/news/germany-demonstrates-passive-radar-system-using-starlink-satellite-radiation/)
-![passive_radar_starlink_JB21-Verteidigung-Cristallini-Bild2.webp](/assets/images/2024/passive_radar_starlink_JB21-Verteidigung-Cristallini-Bild2.webp)
-
-
-
-7. "As chipmaking required finer and finer features, engineers had to produce more and more complex designs to project those features onto the silicon. Inverse lithography (ILT) is the latest development"
-- Blog: [Nvidia Speeds Key Chipmaking Computation by 40x](https://spectrum.ieee.org/inverse-lithography)
-![Nvidia_OPC_mask_correction.jpeg](/assets/images/2024/Nvidia_OPC_mask_correction.jpeg)
-
-
-8. A group of Japanese researchers made a prosthetic tail with potential applications including active momentum alteration
-- Paper: [Arque: artificial biomimicry-inspired tail for extending innate body functions](https://dl.acm.org/doi/10.1145/3306214.3338573)
-![prosthetic_tail.png](/assets/images/2024/prosthetic_tail.png)
-
-
-9. Six to seven discrete depth would be enough to fool Human vision
-- Optics Express paper: [Optimal allocation of quantized human eye depth perception for multi-focal 3D display design](https://opg.optica.org/oe/fulltext.cfm?uri=oe-29-7-9878&id=449280)
-![human_vision_discrere_depth.jpeg](/assets/images/2024/human_vision_discrere_depth.jpeg)
-
-
-
-10.  I always have thought it is the signal from the left eye going to the right half of the brain and vice versa. It is actually the visual field instead.
-- Screenshots from Youtube video: [Your Brain: Who's in Control? | Full Documentary | NOVA | PBS](https://www.youtube.com/watch?v=yQ6VOOd73MA&ab_channel=NOVAPBSOfficial)
-![visual_signal_brain_1.jpeg](/assets/images/2024/visual_signal_brain_1.jpeg)
-![visual_signal_brain_2.jpeg](/assets/images/2024/visual_signal_brain_2.jpeg)]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="Semiconductor" /><category term="Vision" /><category term="Nanofab" /><category term="Electronics" /><category term="Behavior" /><category term="Radar" /><category term="Starlink" /><category term="Lithography" /><category term="Robotics" /><category term="LEGO" /><summary type="html"><![CDATA[Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975. Team 6502 website]]></summary></entry><entry><title type="html">This week’s outside five sigma (#9)</title><link href="http://localhost:4000/ofs/weekly-OFS-9/" rel="alternate" type="text/html" title="This week’s outside five sigma (#9)" /><published>2024-08-24T00:00:00-07:00</published><updated>2024-08-24T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-9</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-9/"><![CDATA[<ol>
+  <li>This is not just robots on mushroom, this is mushroom roots controlling robots with their electrical signals… Would you raise the fungi, and then use a 24-bit ADC and going thru the EMI shielding hussle to sense ~ 100 uV signal from fungi roots to actuate your robot?
+    <ul>
+      <li>Paper: <a href="https://www.science.org/doi/10.1126/scirobotics.adk8019">Sensorimotor control of robots mediated by electrophysiological measurements of fungal mycelia</a></li>
+      <li><a href="https://x.com/jwt0625/status/1830128032029507626">Tweet</a> with more images and videos.
+<img src="/assets/images/2024/mushroom_tentacle_robot.jfif" alt="mushroom_tentacle_robot.jfif" /></li>
+    </ul>
+  </li>
+  <li>Phone vibration motors are less than one buck each
+    <ul>
+      <li>Amazon: <a href="https://www.amazon.com/Vibration-Coreless-Vibrating-electronic-accessories/dp/B0D2PZBMYW/ref=asc_df_B0D2PZBMYW/?th=1">15pcs DC Vibration Motor 6mm x10mm Micro Coreless Vibrating Motor</a>
+<img src="/assets/images/2024/phone_vib_motor.jfif" alt="phone_vib_motor.jfif" /></li>
+    </ul>
+  </li>
+  <li>Thomas Wilfred’s art looks like AI generated light field animation, but it is actually fully mechanical. And the beautiful thing is, his patent on it just turned 100 years old.
+    <ul>
+      <li>Patent: <a href="https://patents.google.com/patent/US1749011A/en">Light-projection display</a></li>
+      <li><a href="https://www.getty.edu/publications/keepitmoving/case-studies/4-snow/">Conserving Thomas Wilfred’s Lumia Suite, Opus 158</a> (<a href="/assets/doc/2024/Conserving Thomas Wilfred’s Lumia Suite __ Keep It Moving_.pdf">backup</a>)
+<img src="/assets/images/2024/Thomas_Wilfred_art.jfif" alt="Thomas_Wilfred_art.jfif" />
+<img src="/assets/images/2024/Thomas_Wilfred_setup.jfif" alt="Thomas_Wilfred_setup.jfif" /></li>
+    </ul>
+  </li>
+  <li>When you didn’t have FEM, you would bruteforce thru the math, build an equivalence of your structure in plastic, and directly measure &amp; visualize the solution.
+    <ul>
+      <li>Paper: <a href="https://pubs.aip.org/aip/jap/article-abstract/50/7/4567/500582/Photoelastic-waveguides-and-their-effect-on-stripe">Photoelastic waveguides and their effect on stripe‐geometry GaAs/Ga$_{1−x}$Al$_x$As lasers</a>
+<img src="/assets/images/2024/strain_thin_film_solution.png" alt="strain_thin_film_solution.png" />
+<img src="/assets/images/2024/strain_thin_film_measurement.png" alt="strain_thin_film_measurement.png" /></li>
+    </ul>
+  </li>
+  <li>The astronomers (the AWG paper at the beginning of this blog) and high energy physicists having the coolest shit. This paper is GPU accelerated optical photon simulation, but the photons are from a 200 GeV muon.
+    <ul>
+      <li>Paper: <a href="https://www.epj-conferences.org/articles/epjconf/pdf/2024/05/epjconf_chep2024_11014.pdf">Opticks : GPU Optical Photon Simulation via NVIDIA OptiX</a></li>
+      <li>Project: <a href="https://simoncblyth.bitbucket.io/">Opticks Publications, Presentations, Notes</a>
+<img src="/assets/images/2024/photon_from_200GeV_muon.jfif" alt="photon_from_200GeV_muon.jfif" /></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="AWG" /><category term="Integrated_photonics" /><category term="SC_qubit" /><category term="Nanofab" /><category term="Math" /><category term="Encryption" /><category term="Laser" /><category term="Behavior" /><category term="Biology" /><category term="Robotics" /><category term="Art" /><category term="Mechanics" /><category term="Simulation" /><category term="Photonics" /><category term="Optics" /><summary type="html"><![CDATA[This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff. Paper: Ultra-Wideband RF-Photonics Technology for Microwave]]></summary></entry><entry><title type="html">This week’s outside five sigma (#10)</title><link href="http://localhost:4000/ofs/weekly-OFS-10/" rel="alternate" type="text/html" title="This week’s outside five sigma (#10)" /><published>2024-09-01T00:00:00-07:00</published><updated>2024-09-01T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-10</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-10/"><![CDATA[<ol>
+  <li>Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975.
+    <ul>
+      <li>Team 6502 <a href="https://www.team6502.org/">website</a>
+<img src="/assets/images/2024/MOS_Tech_6502.jpeg" alt="MOS_Tech_6502" /></li>
+    </ul>
+  </li>
+  <li>This LEGO enthusiast makes really good 3D model / part list / assembling instruction for the designs
+    <ul>
+      <li>Website: <a href="https://www.chrismcveigh.com/cm/welcome.html">CHRIS MCVEIGH’S BUILDING GUIDES</a>
+<img src="/assets/images/2024/LEGO_computer_1.jpeg" alt="LEGO_computer_1.jpeg" />
+<img src="/assets/images/2024/LEGO_computer_2.jpeg" alt="LEGO_computer_2.jpeg" /></li>
+    </ul>
+  </li>
+  <li>
+    <p>The wafer holders are worth 10s to 100s bucks for big wafers! Do not throw them away when you ordered old wafers for decoration
+<img src="/assets/images/2024/wafer_holder_12in.png" alt="wafer_holder_12in.png" /></p>
+  </li>
+  <li>HDMI to screw terminal adapters exist… I need to come up with a fun project to use them.
+    <ul>
+      <li>On Amazon: <a href="https://www.amazon.com/SinLoon-Solderless-Extension-Connector-Screwdriver/dp/B07M98XCL6/ref=asc_df_B07M98XCL6/">SinLoon HDMI Solderless Adapter Gold Plated HDMI Extension Cable Connector</a>
+<img src="/assets/images/2024/HDMI_to_screw_terminal.jpg" alt="HDMI_to_screw_terminal.jpg" /></li>
+    </ul>
+  </li>
+  <li>Just owning it would already make your feel less stressed and more satisfied with your life.
+    <ul>
+      <li>Nature human behavior paper: <a href="https://www.nature.com/articles/s41562-024-01948-y">Causal effect of video gaming on mental well-being in Japan 2020–2022</a>
+<img src="/assets/images/2024/owning_game_console_stress_life_satisfaction.jpeg" alt="owning_game_console_stress_life_satisfaction.jpeg" /></li>
+    </ul>
+  </li>
+  <li>You can do passive radar with scattered waves from Starlink
+    <ul>
+      <li>Paper: <a href="https://ieeexplore.ieee.org/document/10149600">Analysis of Starlink Users’ downlink for passive radar applications: signal characteristics and ambiguity function performance</a></li>
+      <li>News: <a href="https://www.airforce-technology.com/news/germany-demonstrates-passive-radar-system-using-starlink-satellite-radiation/">Germany demonstrates passive radar system using Starlink satellite radiation</a>
+<img src="/assets/images/2024/passive_radar_starlink_JB21-Verteidigung-Cristallini-Bild2.webp" alt="passive_radar_starlink_JB21-Verteidigung-Cristallini-Bild2.webp" /></li>
+    </ul>
+  </li>
+  <li>“As chipmaking required finer and finer features, engineers had to produce more and more complex designs to project those features onto the silicon. Inverse lithography (ILT) is the latest development”
+    <ul>
+      <li>Blog: <a href="https://spectrum.ieee.org/inverse-lithography">Nvidia Speeds Key Chipmaking Computation by 40x</a>
+<img src="/assets/images/2024/Nvidia_OPC_mask_correction.jpeg" alt="Nvidia_OPC_mask_correction.jpeg" /></li>
+    </ul>
+  </li>
+  <li>A group of Japanese researchers made a prosthetic tail with potential applications including active momentum alteration
+    <ul>
+      <li>Paper: <a href="https://dl.acm.org/doi/10.1145/3306214.3338573">Arque: artificial biomimicry-inspired tail for extending innate body functions</a>
+<img src="/assets/images/2024/prosthetic_tail.png" alt="prosthetic_tail.png" /></li>
+    </ul>
+  </li>
+  <li>Six to seven discrete depth would be enough to fool Human vision
+    <ul>
+      <li>Optics Express paper: <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-29-7-9878&amp;id=449280">Optimal allocation of quantized human eye depth perception for multi-focal 3D display design</a>
+<img src="/assets/images/2024/human_vision_discrere_depth.jpeg" alt="human_vision_discrere_depth.jpeg" /></li>
+    </ul>
+  </li>
+  <li>I always have thought it is the signal from the left eye going to the right half of the brain and vice versa. It is actually the visual field instead.
+    <ul>
+      <li>Screenshots from Youtube video: <a href="https://www.youtube.com/watch?v=yQ6VOOd73MA&amp;ab_channel=NOVAPBSOfficial">Your Brain: Who’s in Control? | Full Documentary | NOVA | PBS</a>
+<img src="/assets/images/2024/visual_signal_brain_1.jpeg" alt="visual_signal_brain_1.jpeg" />
+<img src="/assets/images/2024/visual_signal_brain_2.jpeg" alt="visual_signal_brain_2.jpeg" /></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="Semiconductor" /><category term="Vision" /><category term="Nanofab" /><category term="Electronics" /><category term="Behavior" /><category term="Radar" /><category term="Starlink" /><category term="Lithography" /><category term="Robotics" /><category term="LEGO" /><summary type="html"><![CDATA[Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975. Team 6502 website]]></summary></entry><entry><title type="html">This week’s outside five sigma (#9)</title><link href="http://localhost:4000/ofs/weekly-OFS-9/" rel="alternate" type="text/html" title="This week’s outside five sigma (#9)" /><published>2024-08-24T00:00:00-07:00</published><updated>2024-08-24T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-9</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-9/"><![CDATA[<ol>
   <li>I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts
     <ul>
       <li><a href="https://x.com/jwt0625/status/1825038035458879580">Twitter thread</a></li>
