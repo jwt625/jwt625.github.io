@@ -1,66 +1,112 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-01T22:30:46-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#10)</title><link href="http://localhost:4000/ofs/weekly-OFS-10/" rel="alternate" type="text/html" title="This week’s outside five sigma (#10)" /><published>2024-09-01T00:00:00-07:00</published><updated>2024-09-01T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-10</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-10/"><![CDATA[<ol>
-  <li>Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-08T22:17:05-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#11)</title><link href="http://localhost:4000/ofs/weekly-OFS-11/" rel="alternate" type="text/html" title="This week’s outside five sigma (#11)" /><published>2024-09-08T00:00:00-07:00</published><updated>2024-09-08T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-11</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-11/"><![CDATA[<ol>
+  <li>This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff.
     <ul>
-      <li>Team 6502 <a href="https://www.team6502.org/">website</a>
-<img src="/assets/images/2024/MOS_Tech_6502.jpeg" alt="MOS_Tech_6502" /></li>
+      <li>Paper: <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10659116">Ultra-Wideband RF-Photonics Technology for Microwave</a>
+<img src="/assets/images/2024/spiral_AWG.png" alt="spiral_AWG.png" /></li>
     </ul>
   </li>
-  <li>This LEGO enthusiast makes really good 3D model / part list / assembling instruction for the designs
+  <li>A dc-biased Josephson junction in series with two microwave resonators emits entangled beams of microwaves leaking out of the resonators
     <ul>
-      <li>Website: <a href="https://www.chrismcveigh.com/cm/welcome.html">CHRIS MCVEIGH’S BUILDING GUIDES</a>
-<img src="/assets/images/2024/LEGO_computer_1.jpeg" alt="LEGO_computer_1.jpeg" />
-<img src="/assets/images/2024/LEGO_computer_2.jpeg" alt="LEGO_computer_2.jpeg" /></li>
+      <li>Paper: <a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.11.031008">Generating Two Continuous Entangled Microwave Beams Using a dc-Biased Josephson Junction</a>
+<img src="/assets/images/2024/DC_biased_JJ.png" alt="DC_biased_JJ.png" /></li>
     </ul>
   </li>
-  <li>
-    <p>The wafer holders are worth 10s to 100s bucks for big wafers! Do not throw them away when you ordered old wafers for decoration
-<img src="/assets/images/2024/wafer_holder_12in.png" alt="wafer_holder_12in.png" /></p>
-  </li>
-  <li>HDMI to screw terminal adapters exist… I need to come up with a fun project to use them.
+  <li>Google showed their surface code is getting better with higher distance. This very roughly means that the superconducting qubits are goos enough for quantum computing, the question is now how and how fast can it scale.
     <ul>
-      <li>On Amazon: <a href="https://www.amazon.com/SinLoon-Solderless-Extension-Connector-Screwdriver/dp/B07M98XCL6/ref=asc_df_B07M98XCL6/">SinLoon HDMI Solderless Adapter Gold Plated HDMI Extension Cable Connector</a>
-<img src="/assets/images/2024/HDMI_to_screw_terminal.jpg" alt="HDMI_to_screw_terminal.jpg" /></li>
+      <li>Paper: <a href="https://arxiv.org/abs/2408.13687">Quantum error correction below the surface code threshold</a>
+<img src="/assets/images/2024/google_surface_code_threshold.PNG" alt="google_surface_code_threshold.PNG" /></li>
     </ul>
   </li>
-  <li>Just owning it would already make your feel less stressed and more satisfied with your life.
+  <li>Behold, we will soon have microbatteries in our brains and balls (not really, but they actually have comparable sizes). And you could use it to power electrochemical actuators for micro-robots.
     <ul>
-      <li>Nature human behavior paper: <a href="https://www.nature.com/articles/s41562-024-01948-y">Causal effect of video gaming on mental well-being in Japan 2020–2022</a>
-<img src="/assets/images/2024/owning_game_console_stress_life_satisfaction.jpeg" alt="owning_game_console_stress_life_satisfaction.jpeg" /></li>
+      <li>Paper: <a href="https://www.science.org/doi/10.1126/scirobotics.ade4642">High energy density picoliter-scale zinc-air microbatteries for colloidal robotics</a>
+<img src="/assets/images/2024/microbatteries.jfif" alt="microbatteries.jfif" /></li>
     </ul>
   </li>
-  <li>You can do passive radar with scattered waves from Starlink
+  <li>The volume of the unit sphere peaks at a dimensionality of exactly 5, and the area peaks at 7 dimensions.
     <ul>
-      <li>Paper: <a href="https://ieeexplore.ieee.org/document/10149600">Analysis of Starlink Users’ downlink for passive radar applications: signal characteristics and ambiguity function performance</a></li>
-      <li>News: <a href="https://www.airforce-technology.com/news/germany-demonstrates-passive-radar-system-using-starlink-satellite-radiation/">Germany demonstrates passive radar system using Starlink satellite radiation</a>
-<img src="/assets/images/2024/passive_radar_starlink_JB21-Verteidigung-Cristallini-Bild2.webp" alt="passive_radar_starlink_JB21-Verteidigung-Cristallini-Bild2.webp" /></li>
+      <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/N-sphere">n-sphere</a>
+<img src="/assets/images/2024/File_Hypersphere_volume_and_surface_area_graphs.svg" alt="File_Hypersphere_volume_and_surface_area_graphs.svg" /></li>
     </ul>
   </li>
-  <li>“As chipmaking required finer and finer features, engineers had to produce more and more complex designs to project those features onto the silicon. Inverse lithography (ILT) is the latest development”
+  <li>This is one of my favorite paper, from the S of the RSA, on how to share a secret to n people while you need k of them to help you decode it. Any (k-1) people would have no idea what it is.
     <ul>
-      <li>Blog: <a href="https://spectrum.ieee.org/inverse-lithography">Nvidia Speeds Key Chipmaking Computation by 40x</a>
-<img src="/assets/images/2024/Nvidia_OPC_mask_correction.jpeg" alt="Nvidia_OPC_mask_correction.jpeg" /></li>
+      <li>Paper: <a href="https://dl.acm.org/doi/abs/10.1145/359168.359176">How to share a secret</a>
+<img src="/assets/images/2024/Shamir_share_a_secret.jfif" alt="Shamir_share_a_secret.jfif" /></li>
     </ul>
   </li>
-  <li>A group of Japanese researchers made a prosthetic tail with potential applications including active momentum alteration
+  <li>Chemical oxygen–iodine laser (COIL), as well as other chemical lasers, are basically putting two mirrors around a rocket engine exhaust.
     <ul>
-      <li>Paper: <a href="https://dl.acm.org/doi/10.1145/3306214.3338573">Arque: artificial biomimicry-inspired tail for extending innate body functions</a>
-<img src="/assets/images/2024/prosthetic_tail.png" alt="prosthetic_tail.png" /></li>
+      <li>ScienceDirect: <a href="https://www.sciencedirect.com/topics/physics-and-astronomy/chemical-laser">Chemical Laser</a>
+<img src="/assets/images/2024/COIL_laser.png" alt="COIL_laser.png" /></li>
     </ul>
   </li>
-  <li>Six to seven discrete depth would be enough to fool Human vision
+  <li>Want your kids to be more stress-tolerant, grow faster and stronger? Record your fights with your breeding partner and replay it to your kids before they were born! That’s what these science weirdos did to seagull eggs and found out about…
     <ul>
-      <li>Optics Express paper: <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-29-7-9878&amp;id=449280">Optimal allocation of quantized human eye depth perception for multi-focal 3D display design</a>
-<img src="/assets/images/2024/human_vision_discrere_depth.jpeg" alt="human_vision_discrere_depth.jpeg" /></li>
+      <li>Paper: <a href="https://www.science.org/doi/full/10.1126/sciadv.adn8542">Lasting benefits of embryonic eavesdropping on parent-parent communication</a>
+<img src="/assets/images/2024/talkative_parents_1.jfif" alt="talkative_parents_1.jfif" />
+<img src="/assets/images/2024/talkative_parents_2.jfif" alt="talkative_parents_2.jfif" /></li>
     </ul>
   </li>
-  <li>I always have thought it is the signal from the left eye going to the right half of the brain and vice versa. It is actually the visual field instead.
+  <li>Science hippies watch bees jerking off flowers and then jerk off flowers themselves. The bees could do it at 400 Hz!
     <ul>
-      <li>Screenshots from Youtube video: <a href="https://www.youtube.com/watch?v=yQ6VOOd73MA&amp;ab_channel=NOVAPBSOfficial">Your Brain: Who’s in Control? | Full Documentary | NOVA | PBS</a>
-<img src="/assets/images/2024/visual_signal_brain_1.jpeg" alt="visual_signal_brain_1.jpeg" />
-<img src="/assets/images/2024/visual_signal_brain_2.jpeg" alt="visual_signal_brain_2.jpeg" /></li>
+      <li>Paper: <a href="https://www.science.org/content/article/head-banging-bumble-bees-bite-flowers-shake-loose-more-pollen">Head-banging bumble bees bite flowers to shake loose more pollen</a></li>
+      <li><a href="https://x.com/jwt0625/status/1829893872232906925">Tweet</a> with more videos.
+<img src="/assets/images/2024/bees_jerking_flowers.jfif" alt="bees_jerking_flowers.jfif" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="Semiconductor" /><category term="Vision" /><category term="Nanofab" /><category term="Electronics" /><category term="Behavior" /><category term="Radar" /><category term="Starlink" /><category term="Lithography" /><category term="Robotics" /><category term="LEGO" /><summary type="html"><![CDATA[Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975. Team 6502 website]]></summary></entry><entry><title type="html">This week’s outside five sigma (#9)</title><link href="http://localhost:4000/ofs/weekly-OFS-9/" rel="alternate" type="text/html" title="This week’s outside five sigma (#9)" /><published>2024-08-24T00:00:00-07:00</published><updated>2024-08-24T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-9</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-9/"><![CDATA[<ol>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="AWG" /><category term="Integrated_photonics" /><category term="SC_qubit" /><category term="Nanofab" /><category term="Math" /><category term="Encryption" /><category term="Laser" /><category term="Behavior" /><category term="Biology" /><summary type="html"><![CDATA[This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff. Paper: Ultra-Wideband RF-Photonics Technology for Microwave]]></summary></entry><entry><title type="html">This week’s outside five sigma (#10)</title><link href="http://localhost:4000/ofs/weekly-OFS-10/" rel="alternate" type="text/html" title="This week’s outside five sigma (#10)" /><published>2024-09-01T00:00:00-07:00</published><updated>2024-09-01T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-10</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-10/"><![CDATA[1. Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975.
+- Team 6502 [website](https://www.team6502.org/)
+![MOS_Tech_6502](/assets/images/2024/MOS_Tech_6502.jpeg)
+
+
+2. This LEGO enthusiast makes really good 3D model / part list / assembling instruction for the designs
+- Website: [CHRIS MCVEIGH’S BUILDING GUIDES](https://www.chrismcveigh.com/cm/welcome.html)
+![LEGO_computer_1.jpeg](/assets/images/2024/LEGO_computer_1.jpeg)
+![LEGO_computer_2.jpeg](/assets/images/2024/LEGO_computer_2.jpeg)
+
+
+3. The wafer holders are worth 10s to 100s bucks for big wafers! Do not throw them away when you ordered old wafers for decoration
+![wafer_holder_12in.png](/assets/images/2024/wafer_holder_12in.png)
+
+
+4. HDMI to screw terminal adapters exist... I need to come up with a fun project to use them.
+- On Amazon: [SinLoon HDMI Solderless Adapter Gold Plated HDMI Extension Cable Connector](https://www.amazon.com/SinLoon-Solderless-Extension-Connector-Screwdriver/dp/B07M98XCL6/ref=asc_df_B07M98XCL6/)
+![HDMI_to_screw_terminal.jpg](/assets/images/2024/HDMI_to_screw_terminal.jpg)
+
+
+5. Just owning it would already make your feel less stressed and more satisfied with your life.
+- Nature human behavior paper: [Causal effect of video gaming on mental well-being in Japan 2020–2022](https://www.nature.com/articles/s41562-024-01948-y)
+![owning_game_console_stress_life_satisfaction.jpeg](/assets/images/2024/owning_game_console_stress_life_satisfaction.jpeg)
+
+
+6. You can do passive radar with scattered waves from Starlink
+- Paper: [Analysis of Starlink Users' downlink for passive radar applications: signal characteristics and ambiguity function performance](https://ieeexplore.ieee.org/document/10149600)
+- News: [Germany demonstrates passive radar system using Starlink satellite radiation](https://www.airforce-technology.com/news/germany-demonstrates-passive-radar-system-using-starlink-satellite-radiation/)
+![passive_radar_starlink_JB21-Verteidigung-Cristallini-Bild2.webp](/assets/images/2024/passive_radar_starlink_JB21-Verteidigung-Cristallini-Bild2.webp)
+
+
+
+7. "As chipmaking required finer and finer features, engineers had to produce more and more complex designs to project those features onto the silicon. Inverse lithography (ILT) is the latest development"
+- Blog: [Nvidia Speeds Key Chipmaking Computation by 40x](https://spectrum.ieee.org/inverse-lithography)
+![Nvidia_OPC_mask_correction.jpeg](/assets/images/2024/Nvidia_OPC_mask_correction.jpeg)
+
+
+8. A group of Japanese researchers made a prosthetic tail with potential applications including active momentum alteration
+- Paper: [Arque: artificial biomimicry-inspired tail for extending innate body functions](https://dl.acm.org/doi/10.1145/3306214.3338573)
+![prosthetic_tail.png](/assets/images/2024/prosthetic_tail.png)
+
+
+9. Six to seven discrete depth would be enough to fool Human vision
+- Optics Express paper: [Optimal allocation of quantized human eye depth perception for multi-focal 3D display design](https://opg.optica.org/oe/fulltext.cfm?uri=oe-29-7-9878&id=449280)
+![human_vision_discrere_depth.jpeg](/assets/images/2024/human_vision_discrere_depth.jpeg)
+
+
+
+10.  I always have thought it is the signal from the left eye going to the right half of the brain and vice versa. It is actually the visual field instead.
+- Screenshots from Youtube video: [Your Brain: Who's in Control? | Full Documentary | NOVA | PBS](https://www.youtube.com/watch?v=yQ6VOOd73MA&ab_channel=NOVAPBSOfficial)
+![visual_signal_brain_1.jpeg](/assets/images/2024/visual_signal_brain_1.jpeg)
+![visual_signal_brain_2.jpeg](/assets/images/2024/visual_signal_brain_2.jpeg)]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="Semiconductor" /><category term="Vision" /><category term="Nanofab" /><category term="Electronics" /><category term="Behavior" /><category term="Radar" /><category term="Starlink" /><category term="Lithography" /><category term="Robotics" /><category term="LEGO" /><summary type="html"><![CDATA[Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975. Team 6502 website]]></summary></entry><entry><title type="html">This week’s outside five sigma (#9)</title><link href="http://localhost:4000/ofs/weekly-OFS-9/" rel="alternate" type="text/html" title="This week’s outside five sigma (#9)" /><published>2024-08-24T00:00:00-07:00</published><updated>2024-08-24T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-9</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-9/"><![CDATA[<ol>
   <li>I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts
     <ul>
       <li><a href="https://x.com/jwt0625/status/1825038035458879580">Twitter thread</a></li>
@@ -759,170 +805,4 @@
     <source src="/assets/images/um-scale-robot-41586_2020_2626_MOESM5_ESM.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
-</p>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="LaTeX" /><category term="Manufacturing" /><category term="Trump" /><category term="GPS" /><category term="CAD" /><category term="Nanofab" /><summary type="html"><![CDATA[SmartBolts makes fasteners with built-in visual indicators for monitoring preload. Their youtube channel has a demonstration. It seems to be based on thickness change of a light absorbing fluid (patent).]]></summary></entry><entry><title type="html">How to wirebond (practical)</title><link href="http://localhost:4000/tutorial/how-to-wirebond/" rel="alternate" type="text/html" title="How to wirebond (practical)" /><published>2024-07-19T00:00:00-07:00</published><updated>2024-07-19T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/how-to-wirebond</id><content type="html" xml:base="http://localhost:4000/tutorial/how-to-wirebond/"><![CDATA[<p><img src="/assets/images/IMG_8543_meander_wirebond_20220408.JPG" alt="IMG_8543_meander_wirebond_20220408.JPG" /></p>
-
-<p>What you are looking at is a microwave coplanar waveguide, sitting on an overpriced (?) PCB from Rogers, with the ground and signal wirebonded, under the stereoscope of a manual <a href="https://snsf.stanford.edu/facilities/fab/wirebonder">West Bond 7476E wire bonder</a>.</p>
-
-<p><img src="/assets/images/West-Bond-7476E.jpg" alt="West-Bond-7476E.jpg" /></p>
-
-<p>I choose wirebonding as the topic of the first blog of hopefully a series about practical nanofabrication, because it was the first tool I got trained to use in the early 2015, and it was the last tool I used before I draw an end of my hands-on nanofab journey at Stanford. It is also at a good scale, the boundary between the macro and micro world, where things are small yet not too small for you to see under optical microscope, and you got to control, touch, and feel things with your own hands (the manual wirebonder pretty much shrinks the motion of your hand, and really feels like an extension of your arm after you get good at it). Let’s jump right in after I throw some reference for <a href="https://en.wikipedia.org/wiki/Wire_bonding">basics</a> and <a href="https://www.accessengineeringlibrary.com/content/book/9780071476232">advanced</a> (also on <a href="https://www.amazon.com/WIRE-BONDING-MICROELECTRONICS-George-Harman/dp/0071476237">Amazon</a>). This book is really really good. If you are not satisfied by the emprical practice or suspecting the statements here (as you always should), read and trust this book instead.</p>
-
-<h1 id="preparation">Preparation</h1>
-
-<p>When you come and sit in front of the wirebonder, the first, and the most important advice, which is also the first one I got during my training, is to make yourself comfortable. Adjust the chair, loosen your belt, collar or tie, whatever you need. You will need focus and endurance, and making yourself comfortable is as important as making your chip feel secure and comfortable. I would also give this advice in general for nanofab, you should warm up your arms, wrists and fingers before you develop in 25% TMAH or pour some acids. I’m getting derailed, let’s focus back on wirebonding.</p>
-
-<p>After you’ve prepared yourself, it’s time to prepare your sample. Actually it is usually done before you come to the wirebonder, preparing, soldering and cleaning the PCB, gluing the chip to the PCB etc. Maybe these will be covered in a future blog (I’m learning from the academics as they cite themselves and say <em>in preparation</em>). What is worth mentioning here is that, you should keep the height of the wirebonder wedge/tip in mind when you design your own fixture, or the size and height of the holder and spacer aluminum blocks you have. Does your PCB fits between the clamps? Is it ok to double-sided tape your PCB to the holder/Al block? Will it crack when you try to pry it off the double-sided tape? Will the PCB bend and pop your chip out of it? Run the whole process of getting your sample under the wirebonder tip during the preparation in your head, as well as how you are going to safely remove it afterwards.</p>
-
-<p>It’s also worth mentioning that how well your chip and PCB are secured can affect your whole wirebonding experience because it affects <strong>how well the ultrasonic power is applied and absorbed</strong>. Avoid holding and securing your jig or fixture by hand. Your hand is a very good vibration attenuator even without you sensing any of the vibration at the ultrasonic frequency and its short duration. You want the power to be dissipated and absorbed at the wirebonding interface, i.e., between the wire and the metal pad, not by your finger, and not by the wacky glue or epoxy. Clamp your PCB is better than taping it. If you have to, use thinner tape, and tape it firmly. Make sure you have fully cured or baked the adhesive/epoxy you have under or around your chip, and make sure the chip and PCB is horizontal. Most wirebonders do not have the luxury of tilting the tip to match the surface of your chip. Avoid using 3D printed jig as they are too light. If you do, clamp or tape it to a more heavy and firm metal holder or block.</p>
-
-<p>The macro-scale preparation is important, so is the micro-scale, by which I mean the surface condition of the PCB and the chip. How flat is the metal contact of your PCB? What material is the contact, does it have native oxide, if so can you remove it? Get something that is known to bond well like gold plating. Did you left flux or glue residual on the PCB and are they covering the contact? Does your chip still have protection resist? Make sure your contacts are flat and clean for both bonds. If the pads on your PCB are bumpy by eye (e.g. visibly not flat at glancing angle against a light source), you are going to suffer.</p>
-
-<p>I have been assuming you are doing two bonds per wire for making electrical contact, but many tools are also capable of making a single bond, which might be useful for laying down studs if you are doing crazy stuff like flip-chip bonding with those studs.</p>
-
-<h1 id="parameters">Parameters</h1>
-
-<p>You turn on the machine, and start flipping through the settings. I do not have it in front of me, but I’m familiar with it enough to see all the settings, and so should you after using it a handful of times, at least for the most important ones. The West Bond machines have recommended values for most parameters, and you would need to be doing crazy shit (like trying to wirebond with NbTi wires) to go more than 0.3x or 3x of the recommendation (and it still did not work).</p>
-
-<h2 id="ultrasonic-power-and-duration">Ultrasonic power and duration</h2>
-
-<p>The most important ones are <strong>power</strong>, and <strong>duration</strong>, for both bond one and two. When you see the squished wire is too flat, either the power or the duration is too high, and the wire could easily break off from the first bond. When the wire still looks pretty rounded, they are both too small, and the bond might not stick. West bond has a <a href="http://westbondmachining.com/wedge_bond_guide.htm">guide for wedge bond</a> with SEM images of good and bad bonds. Stanford SNSF also has a great <a href="https://drive.google.com/file/d/13c3TfuGcX3p-ovXERelZnxbrHZo0tBIx/view">presentation</a> on the effects of power and duration:</p>
-
-<p><img src="/assets/images/wirebond_SEM_stanford.png" alt="wirebond_SEM_stanford.png" /></p>
-
-<h2 id="bond-force">Bond force</h2>
-
-<p>The next most important parameter is the force, controlled by a spring that can be adjusted by a knob holding it. Most staff member would tell you not to ever touch the force, but I always at least <strong>check the force</strong>. You never know what state the previous user would leave the tool in. Just like when you are using any electronics test equipments like a VNA or oscilloscope, the best practice is to reset all the settings to default and then adjust your own settings. However, many fab equipments especially the old and manual ones do not have such basic functionality, and thus it is even more important to check the settings that you care about. Having a good sense of what and how much each and every steps and parameters matter to your process is in general a type of intuition and experience you should aim to accumulate and practice, and optimize your time, energy, and attention accordingly. Focus more on the ones that matter more, and cut and simplify the ones that do not matter. I’m getting derailed again lol.</p>
-
-<p>This is how the force gauge looks like:</p>
-
-<p><img src="/assets/images/9101-04A-tester-gauge-with-hook-5-50-grams.jfif" alt="9101-04A-tester-gauge-with-hook-5-50-grams.jfif" /></p>
-
-<p><em>Force gauge, from <a href="https://www.terrauniversal.com/portable-wire-bond-strength-tester.html">Terra Universal</a></em></p>
-
-<p>The knob on the top is for turning that little red needle/pointer back, so that it will be pushed by the actual pointer and indicate the max amount of force applied to the gauge. You hold it horizontally with the tip of the lever or arm against the end of the wirebonder arm that is holding the wirebonder tip, and start pushing it up until you hear the beeping sound. I feel like this part needs a good photo, but also as long as you could push the wirebonder arm up reliably and near the location of where the tip is, you would be measuring the force that the tip would apply to the wire. The exact location does not matter unless you care about the force better than ~10%.</p>
-
-<h2 id="drop-before-clamp">Drop before clamp</h2>
-
-<p>You keep going through the parameters, you see loop height and tail length. These are either not effective or not critical. The length of the tail is how much the clamp behind the tip would send the wire out after you finish up the second bond, and it could matter if you have really tight spacing of adjacent wires. The next parameter after these two is worth mentioning: <strong>drop before clamp</strong>. This is controlling when the clamp closes to hold the wire in place when you are moving from the first bond to the second bond: you move the tip from the first bond to the second bond following an arc shaped movement, during which the wire gets pulled more out of the tip by the first bond. When you passed the apex and start lowering the tip, this is the amount of drop after which the clamp closes. I find that I only either use the default value, or set it to zero (do not clamp) when I am free roaming. Clamping the wire is almost necessary for making short wirebonds, since the wire is stiff enough when it is short, and would refuse to bend without held by the clamp. Friction between the wire and the hole in the tip that the wire passes through is not strong enough to deform a short wire. Without bending it properly, you would end up with a very low profile wirebond, and risk of shorting it to circuits on the chip.</p>
-
-<p>The reason to not enable the clamp for me is mainly when the layout was not properly designed for wirebonding, or the dicing of the chip was off, and the bond pads end up far from the edge of the chip. In both these cases, I need to form a long wirebond (sometimes up to ~ 5 mm which would start having low Q resonances around 5 to 10 GHz). It is hard to estimate how much length I need for such wirebonds, and I would turn off the clamping so that I could freely move around as needed.</p>
-
-<h1 id="movement">Movement</h1>
-
-<p>Now the parameters are all set (usually not the case for the first session with a new sets of PCBs and chips, or when you have not used it for a while, and you’ll need a lot of playing and tuning), it is time to start your performance. It is not just your performance, it is your performance with the wirebonder, with the wire, with your PCB, and with your chip.</p>
-
-<p><img src="/assets/images/wirebond_process_fig1p2_george_harman.png" alt="wirebond_process_fig1p2_george_harman.png" /></p>
-
-<p><em>Process of wedge bond, from Fig. 1-2 of <a href="https://www.accessengineeringlibrary.com/content/book/9780071476232">Harman</a></em></p>
-
-<p>What I mean by that, is you should think about how the wirebonder, the wire, the PCB, and your chip would feel about your movement. For example, the force is usually on the order of tens of mg, so there is no need at all to try pushing down on the lever you are holding with your right hand. And the ultrasonic power duration is typically tens of ms, you do not need to dwell for seconds. Even the gravity of the lever or the wirebonder arm would be able to initiate the bond, and you will hear the pneumatic actuation of the clamp, the “tss” (hearing the ultrasound is wishful thinking). This is the music, the chorus with the “beep”, the sound track of your performance.</p>
-
-<h2 id="movement-of-the-clamp">Movement of the clamp</h2>
-
-<p>You should hear the following “tss” sound of the pneumatic actuation of the clamp:</p>
-<ol>
-  <li>after you touch down and make the first bond, the clamp let go the wire</li>
-  <li>(optional if <em>drop before clamp</em> is 0) when you start moving downward towards the second bond, the clamp closes after you have moved down the amount of <strong>drop before clamp</strong></li>
-  <li>after you touch down on the second bond, it lets go again so that the second bond could pull a bit of the wire out when you start moving up (if the drop before clamp is off, it will close first when you are making the second bond, and then open. These two happens in quick succession and might be hard to distinguish)</li>
-  <li>after you moved up by the length of the tail, the clamp closes, and pulls the wire off the second bond, and leaving a tail of the wire that you could see protruding out of the tip.</li>
-</ol>
-
-<p>You should also hear a “beep” as soon as you touch down on either bond (also in the settings and usually on by default). If any of these sound is missing, that means either the tool is glitched (e.g., did not sense your touch down), or confused (maybe you moved too fast, or maybe you dwelled on a bond for too long), or if you bumped into something (e.g. the arm running into your fixture, or the wirebond tip running onto connectors on your PCB) and triggered the force or accelerometer used to sense the touch down, you’ll hear an extra “tss” and a “beep” that is not suppose to sound. If the clamp is supposed to be closed but it is open, feed once and it will close. If it is supposed to be open but it is closed, push the switch that toggle between “feed” and “open” to “open”.</p>
-
-<h2 id="touch-down">Touch down</h2>
-
-<p>Actually before the touch down, you want to check that the wire tail is properly below the tip. It should point downward out of the south side of the tip under the stereoscope, not the other sides. If not, try “open” and “feed”, and you’ll get a longer tail to push around and bond it off. After you get the wire properly under the tip, lower the tip and the wire vertically to make the first bond. Relax so that you hand is not shaky and moves the tip around horizontally during the touch down. Shake too much and you would break the wire from the smooshed part of the wire (the first bond).</p>
-
-<h2 id="debug-the-first-bond">Debug the first bond</h2>
-
-<p>The first bond is the most likely step where you’ll break the wire or clog the tip, or tuning the recipe until the wire starts to stick. If the power or time or force is too weak, you’ll see the wire does not stick to the pad, and just came off when you lift up the tip, or it might stay for a while and then break off when you are half way towards the second bond. You could move somewhere irrelevant but has exposed metal or bond pad on your PCB to bond off the excess wire, or “open” and “feed” (wirebonder will still be in “bond 2”), and then bond it off. If the excess wire is very short, you can just “feed”, and the wirebonder will be in “bond 1” and ready for another try.</p>
-
-<p>If the wire broke immediately after the first bond, you will see just the bonded wire on the pad with no wire attached to it or getting pulled out of the tip when you start moving the tip up from the first bond. There are a few cases that could cause the wire to break:</p>
-<ol>
-  <li>The bond power, time and/or force is off, and the heel of the wire on the first bond cracked or too weak.</li>
-  <li>There is a knot on the wire that formed during threading, and the knot is wider than the hole on the tip.</li>
-  <li>The wire got stuck somewhere upstream, e.g., winded on one of the screw or under a washer near the wire spool</li>
-  <li>The wire got damaged during threading or manipulation, and is too weak to pull and turn the spool</li>
-</ol>
-
-<p>If this is the first time the wire broke, check the later cases, and make sure the wire is clean and in the right place. If it is already the 2nd or 3rd or 20th time, you are likely already in the debug and recipe tuning process (case 1), and the reflect you should have is to just “feed” the wire, and try feeding it a few times if you do not see the wires immediately. Sometimes the wire does not break in a clean way, and the clamp would struggle to feed it, and you will just see the tip of the wire shaking around when “feed”. If you could see a little bit of the end of the wire, congratulations, the wire is still threaded through the hole, and try “open” and “feed”. This will feed a much longer segment of the wire out of the tip, and set the wirebonder to “bond 2” for you to bond off the excess wire.</p>
-
-<p>If you are unlucky, you will see under the stereo microscope some wire starts to bend out of being behind the tip when you “open” and “feed”. In this case, the best choice is to pull the wire out, cut off the dirty and bent end, and thread it through the tip (jump to the section on threading). If you could see a bit of the wire still sticking out of the tip in the front (south), and you are confident in your tweezer skill, try “open”, and then use tweezers to grab and pull the wire more from the front of the tip (it is still threaded through the hole), and then you could “feed” or “close”, cut with scissors if the excess is super long (&gt; 1 cm), make sure the wirebond is in “bond 2”, and bond off the excess.</p>
-
-<p><em>Which bond should I pick as the first bond?</em> I personally almost always pick the bond on the PCB for the first bond. You’ll have much more metal thickness for you to attempt to destroy during debugging, instead of the mere few hundred nanometer you have on your chip. The PCB is also in general more stable and horizontal than your chip (at least for me since I’m always in a rush gluing the chip and end up doing a bad job). One thing that could change this is height difference between the first and second bond, or objects in the way. More specifically, it is almost impossible to do the first bond near a rising edge. Two reasons: the rising edge would either blocks your view to the bond, or would run into the clamp behind the tip. As a result, always start with the high ground, and then put the second bond after the height drop.</p>
-
-<h2 id="drawing-and-forming-the-wire">Drawing and forming the wire</h2>
-
-<p>Before you start the wirebonding, take a look from the side of the tip, and get a sense of the orientation of the wire, which is held by the hole near the end of the tip. Try moving the tip around along that direction or orientation, and that is the best initial movement for drawing the wire after the first bond. If you move vertically up or horizontally forward after the first bond, you are either bending the joint between the intact wire and the smooshed wire too much, or pulling the wire with too much friction. Pulling along the direction of the hole minimizes the friction between the wire and the tip, and puts less stress at the first bond.</p>
-
-<p><em>Forming the arch</em>: this part is tricky to describe… Maybe I’ll think about it in my dream tonight. Ok I have spent two nights not thinking about it, so let’s just go. Actually forming the arch begins even before the first bond. Keep in mind that for wedge bonding on the manual wirebonder, the wire is pulled from north towards south under the tip where it would get pressed and applied the ultrasound. This means that you are suppose to move from south to north, or from near the bottom of your view towards the top. As a result, <strong>route planning</strong> is the first step. If you are a sane person (or working with higher frequencies like microwave) and designed the PCB and the chip properly, your wirebonds should be short and easily within reach of the microscope FoV and the wirebonder arm. Chances are, you are rushing and made some design mistakes, or trying to hack or repurpose a PCB for a different chip, or you have very different thickness between your chip and your PCB: you will end up making some long wirebonds. Make sure you know or have a good sense of where the first and second bond will be, play with the microscope zoom and focus to make sure you could see both locations nice and clear, and move around the tip to make sure it could reach both locations both laterally and in height, esp. when there is a considerable height change. Once you have some practice of wirebonding, you’ll realize there is a quite loose tolerance on how vertical the traval of the tip needs to be. As long as the wedge could still hold down onto the wire, you will be able to make the bond, and this will come in handy whenever you have made some other mistakes that prevent the tip from traveling along a straight line (e.g. you put a connector on the PCB too close to the first bond and it blocks the view of the first bond, or if you have made the wrong wirebond order, and the travel is blocked by another wirebond).</p>
-
-<p><em>Height difference</em>: in the previous section we mentioned that you should start high and drop the second bond onto the lower level. Another thing to plan for is prepare for the wire length you need for the height change. As soon as you start dropping the height of the tip around or below the elevation of the first bond, the wire starts to form a sharper and sharper angle at the tip (because the wire comes down from the first bond, goes through the hole, and then bends up as it always is behind the tip). This makes it hard or nearly impossible to continue drawing it out. The friction or stiffness of the wire would be way too strong for the first bond to hold, and you will easily pull the wire off from the first bond when you keep lowering it. The solution: move up and forward until you have enough length of the wire, and then start lowering towards the second bond. If the height drop is so much that you cannot see the second bond at all because the edge of the chip or PCB blocks your view, there are pretty much two options: give it a try and trust your gut and hand. As long as the params are good and you are consistent, you do not need to see the bond to make it. Or, rotate the holder a bit so that it is less blocked, and make the wirebond at an angle wrt. the cliff instead of perpendicular. You could probably rotate the holder so that the edge of the cliff is about +- 15 deg or so away from the up direction, and you could try going along -+ 15 deg off from the vertical path that the tip is supposed to travel, likely still tolerable for the wire to be under the tip (damn this part really needs a drawing). As a result, you get 30 deg between the direction of the wire and the direction of the edge/cliff, and hopefully that gives enough separation for the second bond to be not blocked by the cliff.</p>
-
-<p><img src="/assets/images/2024/wirebond_height_change_20240731.jpg" alt="height_difference" />
-<em>How to deal with big height drop: rotate the chip and travel direction to avoid block of view to the second bond.</em></p>
-
-<p><em>Coordinate your hand movement</em>: The coordination is mainly for long wirebond, where you will need to adjust the microscope focus with your left hand while moving the wirebonder arm with your right hand. In more extreme cases (&gt; 10 cm length wirebonds), you’ll also need to zoom-out to see where you are moving towards, move around the holder with your left hand for rough positioning, zoom-in again to see the tip and bond pads clear enough, and then make the second bond with your right hand. Another scenario that would need both hands, is when things either blocks your view, or physically blocks the tip, and you will need some creative ways to get around the obstacle such as make the first bond while it is visible or accessible, and then rotate the holder so that the movement of the tip is vertical to keep the pulled wire underneath it. I find around 30 to 45 deg to be the max rotation tolerable, or you will need some strong first bond to hold onto the torque from the rotation.</p>
-
-<h1 id="threading-the-wire">Threading the wire</h1>
-
-<p>I have been yapping too much… I really need more drawings and less words. Anyway here are some nice SEMs to cleanse your mind from my gibberish before I yap more on how to thread the wire.</p>
-
-<p><img src="/assets/images/2024/wirebond_tip_1.png" alt="wirebond_tip_1.png" />
-<img src="/assets/images/2024/wirebond_tip_2.png" alt="wirebond_tip_2.png" />
-<em>SEM images of the tip and the hole on it in which the wire threads through. From <a href="https://drive.google.com/file/d/13c3TfuGcX3p-ovXERelZnxbrHZo0tBIx/view">Stanford SNSF</a>.</em></p>
-
-<p>During the part about debuging the first bond, we talked about how to feed the wire when it breaks after yoru first bond, and how if you are unlucky, you’ll see the wire curling up behind the tip, and you likely have to pull it out and thread it. Relax, take a few deep breath, you will be attempting to thread for a while if this is your first time.</p>
-
-<h2 id="preparation-1">Preparation</h2>
-
-<p>First, you need a good pair of tweezers. The wire we are working with is typically 25 um, that is 10x thinner than your hair. You can easily pinch a kink or even break the wire by just clamping onto it with a crappy pair of tweezers, or more likely you won’t be able to hold it tight because of dirts, bumps, or bends on the tweezer tips. You want a pair of clean, straight, and sharp tip tweezers. The best ones I find are the ones with narrow width but thicker along the opening and closing direction of the tweezers, or where the tweezer tip has a relatively fast tapering instead of a thin and slow tapering. This type of design lets you grab a well defined spot on the wire, while still have relatively better stiffness of the tweezer tip. Some sharp tweezers are too skinny and are easily bent. If they are easily bent and they are not yours, you will find the tips bent.vIf you can, have yourself a dedicated sharp tip tweezers for your wirebonding sessions.</p>
-
-<p>Second, prepare the wire. There are a few aspects about preparing the wire. Let’s start from the spool. When you cut off old wire and pull more fresh one, do it slowly so that the spool is not turning because of inertia after you stopped pulling. Dealing with a mess of loose wire is the worst nightmare on the wirebonder. Next, check the wire is not stuck or caught anywhere. You could easily pull it off from where it got caught, and would have more stuff to thread through if it broke before some of the guide tubes. Before you grab the wire for threading, make sure the end of the wire is locally straight, no small loops, no kinks, nothing that would get caught at the hole when you have threaded the very end of the wire. Lastly, check the clamp is actually open, and the wire is between the two halves of the clamp when it came out of the tube (needs a picture here). This is not necessary at this point, but better make sure it is the case so that later the wire would be in between the clamp all the way from the tube to the tip.</p>
-
-<p>To illustrate how weak the wire is, let’s do some order of magnitude estimations. The wire diameter is 25 um, that is a cross section of ~ 500 um$^2$. The Young’s modulus of aluminum is 69 GPa. Assuming the wire would break at 0.5% deformation, and we get as little as <strong>0.17 N</strong> could break the wire. How much is 0.17 N? Let’s say your tweezer is 15 g, then its weight is about 0.15 N. Hmm this actually turns out to be really close to how much the wire could hold… Someone should do this experiment. In practice, the wire is 1% silicon to help strengthening it, but you get the point.</p>
-
-<h2 id="grab-the-wire">Grab the wire</h2>
-
-<p>Now, <strong>how you grab the wire</strong> determines more than 80% how easy the threading will be. There are two aspects about grabbing the wire for threading.</p>
-<ol>
-  <li>The first aspect is the length of the wire between its end and where you grab it. This piece of wire is going to provide the stiffness to overcome the friction between the wire and the hole, so the shorter it is, the easier or more robust the wire is for you to poke it around the end of the tip to find the hole. On the other hand, this length would be the maximum you have to thread through the hole, and you want enough length so that you could be able to grab the threaded part of it on the other side of the hole to pull more out. I’d say after some practice, you should be able to grab wires as short as 1 mm or less, so I typically leave 5 mm or so when I grab the wire for threading.</li>
-  <li>The second aspect is how the wire curves. The wire has a natural curvature from the diameter of the spool, which is around 15 mm ish. Grabbing the wire such that the curvature makes it bends left or right does not make sense for threading, so the remaining choice is whether to grab it such that it bends clockwise, or counterclockwise. To be more accurate, you are likely holding the wire, as well as looking at the wire and the tip from the right hand side of the tool I find it more comfortable to hold the wire near horizontal and pointing the tangential direction downward a bit at the location of the tweezer (I really need to make a drawing here). This way I could rest my hand or wrist against the table or the wirebonder platform. I would pick the curvature of the wire to be bending counterclockwise (going from where the tweezer is holding to the end of the wire). The wire would be bending more downward from the curvature, and matching better with the direction of the hole on the tip.</li>
-</ol>
-
-<p><img src="/assets/images/2024/wirebond_wire_bend_drawing_20240731.jpg" alt="wire_curve" />
-<em>Illustration of different curvature of the wire for threading.</em></p>
-
-<p>The actual threading is relatively straight forward once you grabbed the wire nicely. Take a look at the SEM image of the tip and the hole on the tip above. It is not that scary. As soon as you get a good sense of where the hole is, you will be able to get it in two or three tries. If you get the wire through the hole in one go, time to brag it to your colleagues. However, if this is the first few times you are threading, be prepared to keep trying for 10 min to one hour, and do some push-up to release your anger along the way (or just let it go and take a walk). I do have a few advice for the threading process:</p>
-<ol>
-  <li>Think about your hand and the tweezers as flexible fixtures. You want to support your hand and the tweezer nicely, and the motion needed for threading to be comfortable for your hand and arm.</li>
-  <li>watch the state of the end of the wire closely, and start with smaller motion: when you see the wire starts to deform a bit, that means the end of the wire is not hitting the hole, and you should slightly adjust the location you are poking and try again. Once you pushed too hard and the wire end is bent, you’ll need to cut it off and restart from the grabbing part (adjusting the wire length, bending direction etc). So start small and slow and try more times for your own learning. If you keep hitting and not getting the wire through, while you are getting more confident you are poking around the right spot, <strong>then</strong> start poking with larger motion and more force. Maybe the hole is a bit dirty and the friction is higher. Or try again with a shorter wire length sticking out of the tweezer tip so that it is more stiff.</li>
-</ol>
-
-<p>Once you got a little bit of wire through the tip, do not celebrate too early, finish the whole process and celebrate after you have bonded off the excess wire. Check the wire is not tangled or looped onto anything. Check the wire is not forming a loop because of twist. When you pull more wire through the tip at the front side, the loop could stay there and simply get shrunk and stuck into the hole, or pinch and break the wire. When everything looks good, start pulling the wire using your tweezers, and watch to make sure the wire falls in between the clamps. Pull steady and slow so that the spool will not overshoot when you stop pulling. Close the clamp, try feed, and watch if the wire is actually feeding. The tool should be in “bond 2”, if not, “open” and then “feed”. Bond off the excess wire, and finally, congratulations! you have done the threading!</p>
-
-<h2 id="replacing-the-tip">Replacing the tip</h2>
-
-<p>This is part of threading the wire because it is bound to happen every 10 threadings or so. You will start suspecting if the tip hole is clogged when you consistently feel you have poked half way into the hole, but the wire is just not coming through. You could feel even when you clean up the bent end of the wire, start again with a shorter and thus stiffer wire, you still feel it slides into the hole, refuse to go through, and the wire bent again and again as you increase the force trying to thread it through. Congratulations, the tip is likely clogged.</p>
-
-<p>One way to check if the tip is clogged if your chip is nicely reflective, is to look at reflection of the tip. You need to play with the tilt of your chip, the height of the tip, as well as the focus and zoom of the scope to put the image of the tip into your view.</p>
-
-<p>The tip replacement should be in the standard training, so I won’t describe the location of the screw, how the tip is stored and how to slide it on and off etc. The thing that is worth noting is the height of the tip. If the tip is mounted too high, the clamp behind it would end up being the lowest point, and make contact with the chip or bond pad before the tip and the wire. If the clamp is too low, the wire would be also too low and out of the clamp. The range or tolerance for the relative height between the clamp and the tip is likely 1 mm or 2. If you are not sure, check sideway to see if it is too low, and try feed and check if the wire is being fed by the clamp properly.</p>
-
-<h1 id="how-many-wirebonds-do-i-need">How many wirebonds do I need?</h1>
-
-<p>As many as you could fit onto your bond pad.</p>
-
-<p>Sorry I’m just kidding. I’d do at least two regardless of what frequency you are working with just in case one of them is broken. For RF/microwve chips, I almost always have three for the signal, and as many on the ground and as closely spaced as possible. However, when parasitics matter, like when the wirebond is part of and resonance, then you want just a single wirebond, and make it as short as possible. There are two good reference on intuition and rule of thumb for the effect of wirebonds: <a href="https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020306">Microwave Package Design for Superconducting Quantum Processors</a> is a relatively recent one, and an older one that I could not find it any more (it is also from the superconducting circuit community and I remember it is on Applied Physics Letter). One of my recent paper also had one section in the <a href="/assets/doc/41567_2023_2129_MOESM1_ESM.pdf">SI</a> on modeling of cross-chip wirebond. We built the model together and my labmate Sultan wrote up the section and made the beautiful drawings and figure.</p>
-
-<p><img src="/assets/images/2024/cross_chip_wirebond_model.png" alt="cross_chip_wirebond_model" /></p>
-
-<p>In short, at least two if you are not confident on the reliability of the wirebond. The shorter and the fewer the better if you are working at higher frequencies. One wirebond by itself is roughly 1 nH/mm, and you will start getting resonances around 6 GHz when the length is around 6 mm.</p>
-
-<h1 id="looking-back">Looking back</h1>
-
-<p>This is my first real blog in a while, and somehow I yapped it into a 30 min read… Now I look at it near the end, I feel like the quality is pretty bad. There are many sketches I planned to do but ended up not doing any of them. Fuck it I’m going to add the sketches now. Ok 20 min later, I made two drawings. I’m still trying to figure out how I would like to pursue the style of this series of blogs on nanofab. I would like them to be more unique, to provide value and information you usually only get with hands-on training or shadowing, and also offer some entertainment at the same time. If you have any advice or feedback, please let me know!</p>
-
-<p>At the very end, I should acknowledge all the trainings and help I have received during these years of fun and suffering at both the Tsinghua cleanroom and the Stanford cleanroom. There are many staff that are way more knowledgeable and way more willing to help. It is just they are always busy. And to avoid any potential trouble, part of this work was performed at the Stanford Nano Shared Facilities (SNSF), supported by the National Science Foundation under award ECCS-2026822 (see also <a href="https://snsf.stanford.edu/labmembers/policies/acknowledgements">SNSF Acknowledgements</a>).</p>
-
-<p>I hope you had some fun reading this, and also learnt some random stuff. See you again (hopefully soon)!</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Wirebond" /><category term="Packaging" /><summary type="html"><![CDATA[]]></summary></entry></feed>
+</p>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="LaTeX" /><category term="Manufacturing" /><category term="Trump" /><category term="GPS" /><category term="CAD" /><category term="Nanofab" /><summary type="html"><![CDATA[SmartBolts makes fasteners with built-in visual indicators for monitoring preload. Their youtube channel has a demonstration. It seems to be based on thickness change of a light absorbing fluid (patent).]]></summary></entry></feed>
