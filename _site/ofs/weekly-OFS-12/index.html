@@ -1,0 +1,909 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>This week’s outside five sigma (#12) - Outside Five Sigma</title>
+<meta name="description" content="Thomae’s function (on this book cover) is somehow linked to the visual density of points of a 2D grid.            Twitter thread">
+
+
+  <meta name="author" content="Wentao">
+  
+  <meta property="article:author" content="Wentao">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Outside Five Sigma">
+<meta property="og:title" content="This week’s outside five sigma (#12)">
+<meta property="og:url" content="http://localhost:4000/ofs/weekly-OFS-12/">
+
+
+  <meta property="og:description" content="Thomae’s function (on this book cover) is somehow linked to the visual density of points of a 2D grid.            Twitter thread">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/2024/I5_tree_grid_thomae_function.jpeg">
+
+
+
+
+
+  <meta property="article:published_time" content="2024-09-15T00:00:00-07:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/ofs/weekly-OFS-12/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Outside Five Sigma Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+
+  </head>
+
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/twm.JPG" alt="Outside Five Sigma"></a>
+        
+        <a class="site-title" href="/">
+          Outside Five Sigma
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/posts/"
+                
+                
+              >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/categories/"
+                
+                
+              >Categories</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/tags/"
+                
+                
+              >Tags</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/2024/I5_tree_grid_thomae_function.jpeg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          This week’s outside five sigma (#12)
+
+        
+      </h1>
+      
+      
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-09-15T00:00:00-07:00">September 15, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/bio-photo-2.jpg" alt="Wentao" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Wentao</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Memories are the long term averages, and the outside five sigmas.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="This week’s outside five sigma (#12)">
+    <meta itemprop="description" content="  Thomae’s function (on this book cover) is somehow linked to the visual density of points of a 2D grid.          Twitter thread      ">
+    <meta itemprop="datePublished" content="2024-09-15T00:00:00-07:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              
+            </nav>
+          </aside>
+        
+        <ol>
+  <li>Thomae’s function (on this book cover) is somehow linked to the visual density of points of a 2D grid.
+    <ul>
+      <li><a href="https://x.com/jwt0625/status/1831694447870144747">Twitter thread</a>
+<img src="/assets/images/2024/I5_tree_grid_thomae_function.jpeg" alt="I5_tree_grid_thomae_function.jpeg" />
+<img src="/assets/images/2024/Thomae_function_grid_angular_density.png" alt="Thomae_function_grid_angular_density.png" /></li>
+    </ul>
+  </li>
+  <li>Next time when you are spending $200 to get 8 GB more memory for your macbook, remember that money is more than enough to buy you two credit card-sized single-board computers with 8 GB RAM, 2.5 GbE Ethernet, PCIe 3.0, and WiFi 6E.
+    <ul>
+      <li>Blog: <a href="https://liliputing.com/orange-pi-5-max-is-a-credit-card-sized-rk3588-pc-with-2-5-gbe-ethernet-pcie-3-0-and-wifi-6e/">Orange Pi 5 Max is a credit card-sized RK3588 PC with 2.5 GbE Ethernet, PCIe 3.0, and WiFi 6E</a>
+<img src="/assets/images/2024/orange_pi_aliexpress.jpeg" alt="orange_pi_aliexpress.jpeg" /></li>
+    </ul>
+  </li>
+  <li>You can take a piece of lithium tantalate crystal, heat it up from -30 C to 10 C in 3 min, and it produces E field high enough to generate and accelerate deuteron &gt; 100 keV and cause fusion.
+    <ul>
+      <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/Pyroelectric_fusion">Pyroelectric fusion</a></li>
+      <li>Paper: <a href="https://www.nature.com/articles/nature03575">Observation of nuclear fusion driven by a pyroelectric crystal</a>
+<img src="/assets/images/2024/pyroelectric_fusion_lithium_tantalate_nature.jpeg" alt="pyroelectric_fusion_lithium_tantalate_nature.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Laser spark plug is a thing, and people have built it into a four-piston engine car and drove with it.
+    <ul>
+      <li>Paper 1: <a href="https://opg.optica.org/oe/viewmedia.cfm?uri=oe-32-17-30344&amp;html=true">Laser ignition of hydrogen/air mixtures in a constant-volume combustion chamber using a pulse-burst Nd:YAG/Cr4+:YAG laser spark plug</a></li>
+      <li>Paper 2: <a href="https://www.technologytoday.us/columnPDF/LIC3-1_Taira.pdf">World First Laser Ignited Gasoline Engine Vehicle</a>
+<img src="/assets/images/2024/laser_spark_plug1.jpeg" alt="laser_spark_plug1.jpeg" />
+<img src="/assets/images/2024/laser_spark_plug2.jpeg" alt="laser_spark_plug2.jpeg" /></li>
+    </ul>
+  </li>
+  <li>I had a lot of fun making this laser alignment chart.
+    <ul>
+      <li><a href="https://x.com/jwt0625/status/1829379139104800846">Tweet</a>
+<img src="/assets/images/2024/laser_alignment_chart.jpeg" alt="laser_alignment_chart.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Hellman’s Real Mayonnaise is the mayonnaise approved by physicists for inertial confinement fusion studies. They shape it real nice, spin it, watch it deform &amp; break off to study Rayleigh-Taylor instability.
+    <ul>
+      <li>Paper: <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.053104">Rayleigh-Taylor-instability experiments with elastic-plastic materials</a>
+<img src="/assets/images/2024/mayonnaise_rayleigh_tayler_instability.jpeg" alt="mayonnaise_rayleigh_tayler_instability.jpeg" />
+<img src="/assets/images/2024/mayonnaise_rayleigh_tayler_instability2.jpeg" alt="mayonnaise_rayleigh_tayler_instability2.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Laser ablation of water looks like miniaturized explosion
+    <ul>
+      <li>Paper: <a href="https://pubs.acs.org/doi/full/10.1021/cr010379n">Mechanisms of Pulsed Laser Ablation of Biological Tissues</a></li>
+      <li>More picture in <a href="https://x.com/jwt0625/status/1832213671130656884">twitter thread</a>
+<img src="/assets/images/2024/laser_ablation_water.jpeg" alt="laser_ablation_water.jpeg" /></li>
+    </ul>
+  </li>
+  <li>This repo/app makes animated “QR code” to transfer data at ~100 kB/s without using any RF signal. It uses 16 symbols * 4 colors, and 12400 tiles per frame to get 7.5 kB (+some error correction bytes) per frame. It has a beta mode thats &gt; 1 Mbps and pbb could still be much faster.
+    <ul>
+      <li>Github: <a href="https://github.com/sz3/libcimbar">libcimbar: Color Icon Matrix Barcodes</a>
+<img src="/assets/images/2024/animated_QR_code.png" alt="animated_QR_code.png" /></li>
+    </ul>
+  </li>
+  <li>You can dope silicon with neutron radiation.
+    <ul>
+      <li>MIT nuclear reactor lab: <a href="https://nrl.mit.edu/facilities/ntds">Neutron Transmutation Doping of Silicon</a>
+<img src="/assets/images/2024/dope_Si_with_neutron_radiation_facilities_ntds_1_diagram_780x422.jpg" alt="dope_Si_with_neutron_radiation_facilities_ntds_1_diagram_780x422.jpg" /></li>
+    </ul>
+  </li>
+  <li>Electron beam pumped lasers and LEDs exist where electrical injection is problematic due to doping, transport or contacting issues.
+    <ul>
+      <li>Paper: <a href="https://iopscience.iop.org/article/10.1088/1361-6463/ac6237">Electron beam pumped light emitting devices</a>
+<img src="/assets/images/2024/electron_beam_pumped_LED.png" alt="electron_beam_pumped_LED.png" /></li>
+    </ul>
+  </li>
+  <li>You could literally and non-invasively tickle your brain with magnetic field or electromagnetic pulses. (transcranial magnetic stimulation (TMS))
+    <ul>
+      <li>Paper: <a href="https://lab.plopes.org/published/2024-CHI-HapticSourceEffector.pdf">Haptic Source-effector: Full-body Haptics via Non-invasive Brain Stimulation</a>
+<img src="/assets/images/2024/full_body_haptics_magnetic_brain_stimulation.jpeg" alt="full_body_haptics_magnetic_brain_stimulation.jpeg" /></li>
+    </ul>
+  </li>
+  <li>This paper cooled down a tardigrade with a qubit, and also modeled it as a cubic dielectrics.
+    <ul>
+      <li>Paper: <a href="https://arxiv.org/abs/2112.07978">Entanglement between superconducting qubits and a tardigrade</a>
+<img src="/assets/images/2024/tardigrade_qubit_1.jpeg" alt="tardigrade_qubit_1.jpeg" />
+<img src="/assets/images/2024/tardigrade_qubit_2.jpeg" alt="tardigrade_qubit_2.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Related to above, the US Navy also tried hooking microtubules up to qubits
+    <ul>
+      <li><a href="https://x.com/APOideas/status/1804460858321318039">Tweet</a></li>
+      <li>Report: <a href="https://apps.dtic.mil/sti/pdfs/AD1175159.pdf">Biological Brain Microtubules Interfaced with Semiconductor Qubits</a>
+<img src="/assets/images/2024/tubulin_monomer_qubit.jpeg" alt="tubulin_monomer_qubit.jpeg" /></li>
+    </ul>
+  </li>
+  <li>This paper has great plots of AI computing power vs. time, and made comparison between AI training vs. uranium enrichment
+    <ul>
+      <li>Paper From OpenAI and Cambridge/Oxford folks: <a href="https://arxiv.org/abs/2402.08797">Computing Power and the Governance of Artificial Intelligence</a>
+<img src="/assets/images/2024/ai_computing_power_governance.jpeg" alt="ai_computing_power_governance.jpeg" />
+<img src="/assets/images/2024/ai_computing_power_governance_uranium_enrichment.jpeg" alt="ai_computing_power_governance_uranium_enrichment.jpeg" /></li>
+    </ul>
+  </li>
+  <li>SiTime makes these mems clock chips, and they were developed from Tom Kenny’s lab at Stanford. Their Epi-seal process for encapsulating the mems devices is amazing art.
+    <ul>
+      <li>Company: <a href="https://www.sitime.com/products">SiTime</a></li>
+      <li>Epi-seal process: <a href="http://micromachine.stanford.edu/?p=projects&amp;id=28">MEMS inertial sensors in Epi-seal</a>
+<img src="/assets/images/2024/epi_seal_1.jpeg" alt="epi_seal_1.jpeg" />
+<img src="/assets/images/2024/epi_seal_2.jpeg" alt="epi_seal_2.jpeg" /></li>
+    </ul>
+  </li>
+</ol>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#ai" class="page__taxonomy-item p-category" rel="tag">AI</a><span class="sep">, </span>
+    
+      <a href="/tags/#barcode" class="page__taxonomy-item p-category" rel="tag">Barcode</a><span class="sep">, </span>
+    
+      <a href="/tags/#fusion" class="page__taxonomy-item p-category" rel="tag">Fusion</a><span class="sep">, </span>
+    
+      <a href="/tags/#laser" class="page__taxonomy-item p-category" rel="tag">Laser</a><span class="sep">, </span>
+    
+      <a href="/tags/#laser-ablation" class="page__taxonomy-item p-category" rel="tag">Laser-ablation</a><span class="sep">, </span>
+    
+      <a href="/tags/#math" class="page__taxonomy-item p-category" rel="tag">Math</a><span class="sep">, </span>
+    
+      <a href="/tags/#mayonnaise" class="page__taxonomy-item p-category" rel="tag">Mayonnaise</a><span class="sep">, </span>
+    
+      <a href="/tags/#mems" class="page__taxonomy-item p-category" rel="tag">MEMS</a><span class="sep">, </span>
+    
+      <a href="/tags/#mini-pc" class="page__taxonomy-item p-category" rel="tag">Mini-PC</a><span class="sep">, </span>
+    
+      <a href="/tags/#nanofab" class="page__taxonomy-item p-category" rel="tag">Nanofab</a><span class="sep">, </span>
+    
+      <a href="/tags/#pyroelectrics" class="page__taxonomy-item p-category" rel="tag">Pyroelectrics</a><span class="sep">, </span>
+    
+      <a href="/tags/#qubit" class="page__taxonomy-item p-category" rel="tag">Qubit</a><span class="sep">, </span>
+    
+      <a href="/tags/#rayleigh-taylor-instability" class="page__taxonomy-item p-category" rel="tag">Rayleigh-Taylor-instability</a><span class="sep">, </span>
+    
+      <a href="/tags/#silicon" class="page__taxonomy-item p-category" rel="tag">Silicon</a><span class="sep">, </span>
+    
+      <a href="/tags/#tms" class="page__taxonomy-item p-category" rel="tag">TMS</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#ofs" class="page__taxonomy-item p-category" rel="tag">OFS</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-09-15T00:00:00-07:00">September 15, 2024</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=This+week%27s+outside+five+sigma+%28%2312%29%20http%3A%2F%2Flocalhost%3A4000%2Fofs%2Fweekly-OFS-12%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fofs%2Fweekly-OFS-12%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/ofs/weekly-OFS-12/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/ofs/weekly-OFS-11/" class="pagination--pager" title="This week’s outside five sigma (#11)
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-11/" rel="permalink">This week’s outside five sigma (#11)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-09-08T00:00:00-07:00">September 8, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/spiral_AWG.png" alt="This week's outside five sigma (#11)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (14...</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-10/" rel="permalink">This week’s outside five sigma (#10)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-09-01T00:00:00-07:00">September 1, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/MOS_Tech_6502.jpeg" alt="This week's outside five sigma (#10)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975.
+    
+      Team 6502 ...</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-9/" rel="permalink">This week’s outside five sigma (#9)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-24T00:00:00-07:00">August 24, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/MFC_sensor.jfif" alt="This week's outside five sigma (#9)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts
+    
+      Twitter thread
+      I should write it into a blog
+
+
+    
+ ...</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/teardown/Teardown-celerity-mass-flow-meter/" rel="permalink">Teardown Celerity mass flow meter
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-20T00:00:00-07:00">August 20, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/MFC_Teardown_20240817230453.png" alt="Teardown Celerity mass flow meter">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">This blog is about the teardown of a Celerity mass flow meter, with a bit of background materials. I got this cute thing at the electronics flea market for o...</p>
+
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Google Scholar</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">Outside Five Sigma</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/ofs/weekly-OFS-12/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/ofs/weekly-OFS-12"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jwt625.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+    <!-- add mathjax, WTJ, 20240702 -->
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+  
+  
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+  </script>
+  
+  
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+    
+
+  </body>
+</html>

@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-13T21:38:01-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#11)</title><link href="http://localhost:4000/ofs/weekly-OFS-11/" rel="alternate" type="text/html" title="This week’s outside five sigma (#11)" /><published>2024-09-08T00:00:00-07:00</published><updated>2024-09-08T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-11</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-11/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-15T13:09:24-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#12)</title><link href="http://localhost:4000/ofs/weekly-OFS-12/" rel="alternate" type="text/html" title="This week’s outside five sigma (#12)" /><published>2024-09-15T00:00:00-07:00</published><updated>2024-09-15T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-12</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-12/"><![CDATA[<ol>
+  <li>Thomae’s function (on this book cover) is somehow linked to the visual density of points of a 2D grid.
+    <ul>
+      <li><a href="https://x.com/jwt0625/status/1831694447870144747">Twitter thread</a>
+<img src="/assets/images/2024/I5_tree_grid_thomae_function.jpeg" alt="I5_tree_grid_thomae_function.jpeg" />
+<img src="/assets/images/2024/Thomae_function_grid_angular_density.png" alt="Thomae_function_grid_angular_density.png" /></li>
+    </ul>
+  </li>
+  <li>Next time when you are spending $200 to get 8 GB more memory for your macbook, remember that money is more than enough to buy you two credit card-sized single-board computers with 8 GB RAM, 2.5 GbE Ethernet, PCIe 3.0, and WiFi 6E.
+    <ul>
+      <li>Blog: <a href="https://liliputing.com/orange-pi-5-max-is-a-credit-card-sized-rk3588-pc-with-2-5-gbe-ethernet-pcie-3-0-and-wifi-6e/">Orange Pi 5 Max is a credit card-sized RK3588 PC with 2.5 GbE Ethernet, PCIe 3.0, and WiFi 6E</a>
+<img src="/assets/images/2024/orange_pi_aliexpress.jpeg" alt="orange_pi_aliexpress.jpeg" /></li>
+    </ul>
+  </li>
+  <li>You can take a piece of lithium tantalate crystal, heat it up from -30 C to 10 C in 3 min, and it produces E field high enough to generate and accelerate deuteron &gt; 100 keV and cause fusion.
+    <ul>
+      <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/Pyroelectric_fusion">Pyroelectric fusion</a></li>
+      <li>Paper: <a href="https://www.nature.com/articles/nature03575">Observation of nuclear fusion driven by a pyroelectric crystal</a>
+<img src="/assets/images/2024/pyroelectric_fusion_lithium_tantalate_nature.jpeg" alt="pyroelectric_fusion_lithium_tantalate_nature.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Laser spark plug is a thing, and people have built it into a four-piston engine car and drove with it.
+    <ul>
+      <li>Paper 1: <a href="https://opg.optica.org/oe/viewmedia.cfm?uri=oe-32-17-30344&amp;html=true">Laser ignition of hydrogen/air mixtures in a constant-volume combustion chamber using a pulse-burst Nd:YAG/Cr4+:YAG laser spark plug</a></li>
+      <li>Paper 2: <a href="https://www.technologytoday.us/columnPDF/LIC3-1_Taira.pdf">World First Laser Ignited Gasoline Engine Vehicle</a>
+<img src="/assets/images/2024/laser_spark_plug1.jpeg" alt="laser_spark_plug1.jpeg" />
+<img src="/assets/images/2024/laser_spark_plug2.jpeg" alt="laser_spark_plug2.jpeg" /></li>
+    </ul>
+  </li>
+  <li>I had a lot of fun making this laser alignment chart.
+    <ul>
+      <li><a href="https://x.com/jwt0625/status/1829379139104800846">Tweet</a>
+<img src="/assets/images/2024/laser_alignment_chart.jpeg" alt="laser_alignment_chart.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Hellman’s Real Mayonnaise is the mayonnaise approved by physicists for inertial confinement fusion studies. They shape it real nice, spin it, watch it deform &amp; break off to study Rayleigh-Taylor instability.
+    <ul>
+      <li>Paper: <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.053104">Rayleigh-Taylor-instability experiments with elastic-plastic materials</a>
+<img src="/assets/images/2024/mayonnaise_rayleigh_tayler_instability.jpeg" alt="mayonnaise_rayleigh_tayler_instability.jpeg" />
+<img src="/assets/images/2024/mayonnaise_rayleigh_tayler_instability2.jpeg" alt="mayonnaise_rayleigh_tayler_instability2.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Laser ablation of water looks like miniaturized explosion
+    <ul>
+      <li>Paper: <a href="https://pubs.acs.org/doi/full/10.1021/cr010379n">Mechanisms of Pulsed Laser Ablation of Biological Tissues</a></li>
+      <li>More picture in <a href="https://x.com/jwt0625/status/1832213671130656884">twitter thread</a>
+<img src="/assets/images/2024/laser_ablation_water.jpeg" alt="laser_ablation_water.jpeg" /></li>
+    </ul>
+  </li>
+  <li>This repo/app makes animated “QR code” to transfer data at ~100 kB/s without using any RF signal. It uses 16 symbols * 4 colors, and 12400 tiles per frame to get 7.5 kB (+some error correction bytes) per frame. It has a beta mode thats &gt; 1 Mbps and pbb could still be much faster.
+    <ul>
+      <li>Github: <a href="https://github.com/sz3/libcimbar">libcimbar: Color Icon Matrix Barcodes</a>
+<img src="/assets/images/2024/animated_QR_code.png" alt="animated_QR_code.png" /></li>
+    </ul>
+  </li>
+  <li>You can dope silicon with neutron radiation.
+    <ul>
+      <li>MIT nuclear reactor lab: <a href="https://nrl.mit.edu/facilities/ntds">Neutron Transmutation Doping of Silicon</a>
+<img src="/assets/images/2024/dope_Si_with_neutron_radiation_facilities_ntds_1_diagram_780x422.jpg" alt="dope_Si_with_neutron_radiation_facilities_ntds_1_diagram_780x422.jpg" /></li>
+    </ul>
+  </li>
+  <li>Electron beam pumped lasers and LEDs exist where electrical injection is problematic due to doping, transport or contacting issues.
+    <ul>
+      <li>Paper: <a href="https://iopscience.iop.org/article/10.1088/1361-6463/ac6237">Electron beam pumped light emitting devices</a>
+<img src="/assets/images/2024/electron_beam_pumped_LED.png" alt="electron_beam_pumped_LED.png" /></li>
+    </ul>
+  </li>
+  <li>You could literally and non-invasively tickle your brain with magnetic field or electromagnetic pulses. (transcranial magnetic stimulation (TMS))
+    <ul>
+      <li>Paper: <a href="https://lab.plopes.org/published/2024-CHI-HapticSourceEffector.pdf">Haptic Source-effector: Full-body Haptics via Non-invasive Brain Stimulation</a>
+<img src="/assets/images/2024/full_body_haptics_magnetic_brain_stimulation.jpeg" alt="full_body_haptics_magnetic_brain_stimulation.jpeg" /></li>
+    </ul>
+  </li>
+  <li>This paper cooled down a tardigrade with a qubit, and also modeled it as a cubic dielectrics.
+    <ul>
+      <li>Paper: <a href="https://arxiv.org/abs/2112.07978">Entanglement between superconducting qubits and a tardigrade</a>
+<img src="/assets/images/2024/tardigrade_qubit_1.jpeg" alt="tardigrade_qubit_1.jpeg" />
+<img src="/assets/images/2024/tardigrade_qubit_2.jpeg" alt="tardigrade_qubit_2.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Related to above, the US Navy also tried hooking microtubules up to qubits
+    <ul>
+      <li><a href="https://x.com/APOideas/status/1804460858321318039">Tweet</a></li>
+      <li>Report: <a href="https://apps.dtic.mil/sti/pdfs/AD1175159.pdf">Biological Brain Microtubules Interfaced with Semiconductor Qubits</a>
+<img src="/assets/images/2024/tubulin_monomer_qubit.jpeg" alt="tubulin_monomer_qubit.jpeg" /></li>
+    </ul>
+  </li>
+  <li>This paper has great plots of AI computing power vs. time, and made comparison between AI training vs. uranium enrichment
+    <ul>
+      <li>Paper From OpenAI and Cambridge/Oxford folks: <a href="https://arxiv.org/abs/2402.08797">Computing Power and the Governance of Artificial Intelligence</a>
+<img src="/assets/images/2024/ai_computing_power_governance.jpeg" alt="ai_computing_power_governance.jpeg" />
+<img src="/assets/images/2024/ai_computing_power_governance_uranium_enrichment.jpeg" alt="ai_computing_power_governance_uranium_enrichment.jpeg" /></li>
+    </ul>
+  </li>
+  <li>SiTime makes these mems clock chips, and they were developed from Tom Kenny’s lab at Stanford. Their Epi-seal process for encapsulating the mems devices is amazing art.
+    <ul>
+      <li>Company: <a href="https://www.sitime.com/products">SiTime</a></li>
+      <li>Epi-seal process: <a href="http://micromachine.stanford.edu/?p=projects&amp;id=28">MEMS inertial sensors in Epi-seal</a>
+<img src="/assets/images/2024/epi_seal_1.jpeg" alt="epi_seal_1.jpeg" />
+<img src="/assets/images/2024/epi_seal_2.jpeg" alt="epi_seal_2.jpeg" /></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Math" /><category term="Mini-PC" /><category term="Laser" /><category term="Fusion" /><category term="Pyroelectrics" /><category term="Mayonnaise" /><category term="Rayleigh-Taylor-instability" /><category term="Barcode" /><category term="Silicon" /><category term="Nanofab" /><category term="MEMS" /><category term="Qubit" /><category term="AI" /><category term="TMS" /><category term="Laser-ablation" /><summary type="html"><![CDATA[Thomae’s function (on this book cover) is somehow linked to the visual density of points of a 2D grid. Twitter thread]]></summary></entry><entry><title type="html">This week’s outside five sigma (#11)</title><link href="http://localhost:4000/ofs/weekly-OFS-11/" rel="alternate" type="text/html" title="This week’s outside five sigma (#11)" /><published>2024-09-08T00:00:00-07:00</published><updated>2024-09-08T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-11</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-11/"><![CDATA[<ol>
   <li>This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff.
     <ul>
       <li>Paper: <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10659116">Ultra-Wideband RF-Photonics Technology for Microwave</a>
@@ -786,69 +888,4 @@
     <source src="/assets/images/2024/open_and_shut_Morse.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
-</p>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="Microwave" /><category term="IT" /><category term="AR" /><category term="BLDC" /><category term="HCI" /><category term="Llama" /><category term="LiDAR" /><category term="OLED" /><summary type="html"><![CDATA[AR assisted welding is as old as more than 12 years ago. Youtube video: High Dynamic Range (HDR) Video Image Processing For Digital Glass IEEE spectrum article: Steve Mann: My “Augmediated” Life – What I’ve learned from 35 years of wearing computerized eyewear]]></summary></entry><entry><title type="html">This week’s outside five sigma (#4)</title><link href="http://localhost:4000/ofs/weekly-OFS-4/" rel="alternate" type="text/html" title="This week’s outside five sigma (#4)" /><published>2024-07-20T00:00:00-07:00</published><updated>2024-07-20T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-4</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-4/"><![CDATA[<ol>
-  <li><a href="https://smartbolts.com/">SmartBolts</a> makes fasteners with built-in visual indicators for monitoring preload.
-    <ul>
-      <li>Their youtube channel has a <a href="https://www.youtube.com/watch?v=BZy7CbpQAvY&amp;ab_channel=SmartBolts">demonstration</a>.</li>
-      <li>It seems to be based on thickness change of a light absorbing fluid (<a href="https://portal.unifiedpatents.com/patents/patent/US-4904132-A">patent</a>).
-<img src="/assets/images/DTI_SmartBolts_ Demonstration.gif" alt="DTI_SmartBolts_ Demonstration.gif" /></li>
-    </ul>
-  </li>
-  <li><a href="https://www.halfbakery.com/">halfbakery</a> is a website collecting random half baked ideas.
-    <ul>
-      <li>I found it when trying to see if ultrasonic ice cream scoop exists: <a href="https://www.halfbakery.com/idea/Vibroscoop">Vibroscoop</a>
-<img src="/assets/images/halfbakery_20240720.PNG" alt="halfbakery_20240720.PNG" /></li>
-    </ul>
-  </li>
-  <li><a href="https://www.langmuirsystems.com/">Langmuir systems</a> is making cheaper manifacturing tools.
-    <ul>
-      <li>They have a sub $5000 <a href="https://www.langmuirsystems.com/titan25t">CNC press brake</a>.
-<img src="/assets/images/langmuir_systems_titan_25T.png" alt="langmuir_systems_titan_25T.png" /></li>
-    </ul>
-  </li>
-  <li>Some cheap GPS modules are cheaper than$10 bucks now. However a lot of people were saying this specific one is old and not reliable.
-    <ul>
-      <li>Twitter <a href="https://x.com/jwt0625/status/1804037737147961742">thread</a>.
-<img src="/assets/images/cheap_GPS.jfif" alt="cheap_GPS.jfif" /></li>
-    </ul>
-  </li>
-  <li>You can now generate CAD from text description. Works for common needs, still not able to generate niche stuff like a mmw horn antenna.
-    <ul>
-      <li><a href="https://zoo.dev/text-to-cad">https://zoo.dev/text-to-cad</a>
-<img src="/assets/images/zoo_text_to_cad_1.png" alt="zoo_text_to_cad_1.png" />
-<img src="/assets/images/zoo_text_to_cad_2.png" alt="zoo_text_to_cad_2.png" /></li>
-    </ul>
-  </li>
-  <li>You need to wear swimming glasses with plumbing for emergency eye wash in orbit.
-    <ul>
-      <li>Twitter <a href="https://x.com/astro_Pettit/status/1811285088631406670">post</a> from Don Pettit.
-<img src="/assets/images/orbital_eye_wash.jfif" alt="orbital_eye_wash.jfif" /></li>
-    </ul>
-  </li>
-  <li>
-    <p>Trump survived an assasination attempt. This is non-tech but such an outside-five-sigma event (or actually kind of expected) so here it is.
-<img src="/assets/images/trump_assasination.jfif" alt="trump_assasination.jfif" /></p>
-  </li>
-  <li>Sodium-potassium amalgam could dissolve fluorocarbon polymers after plasma etch.
-    <ul>
-      <li>From paper <a href="https://lss.fnal.gov/archive/2023/pub/fermilab-pub-23-330-etd.pdf">Improved Coherence in Optically-Defned Niobium Trilayer Junction Qubits</a>
-<img src="/assets/images/NaK_dissolves_fluorocarbon_polymer.jfif" alt="NaK_dissolves_fluorocarbon_polymer.jfif" /></li>
-    </ul>
-  </li>
-  <li>
-    <p><a href="https://pypi.org/project/smoltex/">smoltex</a> is a handy natural language to latex tool.
-<img src="/assets/images/smoltex_20240720.png" alt="smoltex_20240720.png" /></p>
-  </li>
-  <li>Researchers at Cornell made laser actuated um-scale robots that are safe to transfer with pippette (old news from 2020).
-    <ul>
-      <li>Paper: <a href="https://www.nature.com/articles/s41586-020-2626-9">Electronically integrated, mass-manufactured, microscopic robots</a></li>
-    </ul>
-  </li>
-</ol>
-
-<p>
-  <video width="600" height="400" controls="">
-    <source src="/assets/images/um-scale-robot-41586_2020_2626_MOESM5_ESM.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-</p>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="LaTeX" /><category term="Manufacturing" /><category term="Trump" /><category term="GPS" /><category term="CAD" /><category term="Nanofab" /><summary type="html"><![CDATA[SmartBolts makes fasteners with built-in visual indicators for monitoring preload. Their youtube channel has a demonstration. It seems to be based on thickness change of a light absorbing fluid (patent).]]></summary></entry></feed>
+</p>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="Microwave" /><category term="IT" /><category term="AR" /><category term="BLDC" /><category term="HCI" /><category term="Llama" /><category term="LiDAR" /><category term="OLED" /><summary type="html"><![CDATA[AR assisted welding is as old as more than 12 years ago. Youtube video: High Dynamic Range (HDR) Video Image Processing For Digital Glass IEEE spectrum article: Steve Mann: My “Augmediated” Life – What I’ve learned from 35 years of wearing computerized eyewear]]></summary></entry></feed>
