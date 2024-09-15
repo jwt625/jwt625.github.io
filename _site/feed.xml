@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-15T13:15:57-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#12)</title><link href="http://localhost:4000/ofs/weekly-OFS-12/" rel="alternate" type="text/html" title="This week’s outside five sigma (#12)" /><published>2024-09-15T00:00:00-07:00</published><updated>2024-09-15T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-12</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-12/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-15T13:17:14-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#12)</title><link href="http://localhost:4000/ofs/weekly-OFS-12/" rel="alternate" type="text/html" title="This week’s outside five sigma (#12)" /><published>2024-09-15T00:00:00-07:00</published><updated>2024-09-15T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-12</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-12/"><![CDATA[<ol>
   <li>Thomae’s function is somehow linked to the visual density of points of a 2D grid.
     <ul>
       <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/Thomae's_function">Thomae’s function</a></li>
@@ -38,7 +38,7 @@
     <ul>
       <li>Paper: <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.053104">Rayleigh-Taylor-instability experiments with elastic-plastic materials</a>
 <img src="/assets/images/2024/mayonnaise_rayleigh_tayler_instability.jpeg" alt="mayonnaise_rayleigh_tayler_instability.jpeg" />
-<img src="/assets/images/2024/mayonnaise_rayleigh_tayler_instability2.jpeg" alt="mayonnaise_rayleigh_tayler_instability2.jpeg" /></li>
+<img src="/assets/images/2024/mayonnaise_rayleigh_tayler_instability2.png" alt="mayonnaise_rayleigh_tayler_instability2.jpeg" /></li>
     </ul>
   </li>
   <li>Laser ablation of water looks like miniaturized explosion
