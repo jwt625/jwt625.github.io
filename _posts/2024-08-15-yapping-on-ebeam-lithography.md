@@ -17,24 +17,74 @@ header:
 ---
 
 
-Under construction...
-
-Think about and focus on what you could offer different and extra compared to existing documents.
-
-TODO and change log:
-- [x] gather references & documents
-- [x] pick some cool looking SEMs
-- [x] 20240821: finished intro journey section
-- [] think about which part you want to add drawings
-
-
 
 # What is EBeam litho, and why?
 
+Ebeam lithography, as the name suggests, is using electron beams for lithography. [Lithograph](https://en.wikipedia.org/wiki/Lithography) has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the mask. It is a powerful technique at the time to mass produce drawings and maps, and later photos (photography). When people start to think about how to reduce the size of electronic circuits in the 1950s, they adopted photographic technique (using optics to shrink and project the pattern, expose and develop the [photoresist](https://en.wikipedia.org/wiki/Photoresist) just like in photography) and thus coined the term [photolithography](https://en.wikipedia.org/wiki/Photolithography). Circuit designers would draw the circuit layout on a big canvas, that would later [tapeout](https://en.wikipedia.org/wiki/Tape-out) (it is still called tapeout to this date even physical tape is no longer involved) and be shrinked into a [photomask](https://en.wikipedia.org/wiki/Photomask), and shrinked again by the photolitho system onto the wafer. The quest for shrinking the size of electronic circuits and transistors has been on a non-stop march, and shorter wavelengths are needed because of refractive limit of the resolution. But you know what has a much shorter wavelengths? Electrons!
+
+Let's quickly estimate typical "wavelengths" of electrons in an electron beam. Assuming 10 kV of acceleration, that makes its speed roughly $$0.2 c$$, where $$c$$ is the speed of light. This is without relativistic correction, which will be $$10\%$$ or $$ 20\%$$ so let's ignore it. The corresponding momentum is $$ 5\times 10^{-23}~\text{kg}\cdot\text{m/s} $$ (hmm this is suspiciously close to Boltzmann constant... whatever), and these electrons's [de Broglie wavelength](https://en.wikipedia.org/wiki/Matter_wave) would be $$ 1.2\times 10^{-11}~\text{m} $$ or 12 pm. If we were to get light with wavelength this small, they would be called [gamma rays](https://en.wikipedia.org/wiki/Gamma_ray).
+
+
+Electrons are used for many things even before [its discovery](https://www.britannica.com/science/atom/Discovery-of-electrons) in 1897, before which electron beams would only be called [cathode rays](https://en.wikipedia.org/wiki/Cathode_ray). Electrons are nice in many ways, it is "free" (heat up a metal enough and electrons would run out of it, see thermionic emission), it is charged, which means it's easy to manipulate with electric and magnetic field, and it interacts with stuff like generating fluorescence light.
+
+(To be continued)
 
 
 
-# A quick rundown of my ebeam lithography journey
+# Ebeam basics
+- How stable do things need to be
+- Why is the column this big
+- Where are the electrons going
+    - focusing (how is it done)
+    - current measurement
+    - beam calibration
+- Where is the stage going
+    - interferometer
+    - writefield (WF) size, calibration, stitching
+    - subfield (maybe?)
+- beam parameters
+    - Voltage, current
+    - shot pitch
+    - dose (DAC rate limit, dose sweep)
+
+# Practical
+- What resist to use
+    - positive vs. negative
+    - adhesion
+    - discharge layer
+    - selectivity
+    - liftoff
+- Fracturing (BEAMER)
+    - Oh god maybe this should be a different yap-post
+    - I should still start to write down things that matters
+    - Field control: fixed, manual, different ways to meander, fully manual with layers...
+    - multipass
+    - PEC
+- Mounting your chip
+    - front vs. back referenced
+    - height measurement (under uscope, in the tool with the LED)
+    - multiple chips
+- Locating your chip
+    - optical microscope / camera assistance
+    - using the SEM
+- Alignment
+    - desired marks (materials, thickness, locations, reusability)
+    - how to find the marks (manual & auto, mark params, scan params)
+- develop
+    - remove discharge layer
+    - be wary water + IPA could develop some resist unintentionally
+- feedback & optimization
+    - dose sweep
+- optimize your own workflow
+    - better estimation of the exposure time
+    - What is the bottleneck? What can be automated?
+- TBA...
+
+
+
+
+
+# Appendix: A quick rundown of my ebeam lithography journey
 
 I will use this section to quickly go through the ebeam tool I have used in the past, and the things I like and hate the most about them. With SEMs of devices made with these tools! (so that you don't fall asleep) I will also look back at what different aspects of ebeam litho I focused on during different periods of time, as well as resists and chip/substrates I have used. These are the stuff I have the most experience on and could speak about.
 
@@ -104,55 +154,6 @@ As for ebeam liftoff, I continued working with MMA/PMMA double layer, as well as
 As I have been boasting about my ebeam litho experience this whole section, I also would like to mention where I got all these knowledge so that I still sound like a reasonable human being and thus you would still be happy to continue reading. My lab manager/advisor at Tsinghua IIIS helped me start my cleanroom experience with nearly infinite patience. And as mentioned above, I really appreciate that he insisted on making us operate every single valve, shutter, and setpoints manually, immensely helped me with understanding of the working principles of various cleanroom tools and components. During my time at Stanford, many many senior lab members and cleanroom staff guided me and answered many questions from me, as well as worked on documentations of the existing process and for the cleanroom tools.
 
 Lastly, I would like to say that even with all these years of experience, I am no where near of being an expert on ebeam tool or ebeam lithography. Although I routinely do things that normal users would be afraid to do or never thought of doing (which I enjoy a lot), my experience and knowledge would pale in comparison to the amount the field engineers or ebeam engineers have. They have been working with these tools for their whole career, and only if they were more active in perserving their knowledge... If your facility has an ebeam engineer that is talkative and senior, talk to them! Ask them to share their knowledge!
-
-# Ebeam basics
-- How stable do things need to be
-- Why is the column this big
-- Where are the electrons going
-    - focusing (how is it done)
-    - current measurement
-    - beam calibration
-- Where is the stage going
-    - interferometer
-    - writefield (WF) size, calibration, stitching
-    - subfield (maybe?)
-- beam parameters
-    - Voltage, current
-    - shot pitch
-    - dose (DAC rate limit, dose sweep)
-
-# Practical
-- What resist to use
-    - positive vs. negative
-    - adhesion
-    - discharge layer
-    - selectivity
-    - liftoff
-- Fracturing (BEAMER)
-    - Oh god maybe this should be a different yap-post
-    - I should still start to write down things that matters
-    - Field control: fixed, manual, different ways to meander, fully manual with layers...
-    - multipass
-    - PEC
-- Mounting your chip
-    - front vs. back referenced
-    - height measurement (under uscope, in the tool with the LED)
-    - multiple chips
-- Locating your chip
-    - optical microscope / camera assistance
-    - using the SEM
-- Alignment
-    - desired marks (materials, thickness, locations, reusability)
-    - how to find the marks (manual & auto, mark params, scan params)
-- develop
-    - remove discharge layer
-    - be wary water + IPA could develop some resist unintentionally
-- feedback & optimization
-    - dose sweep
-- optimize your own workflow
-    - better estimation of the exposure time
-    - What is the bottleneck? What can be automated?
-- TBA...
 
 # References
 
