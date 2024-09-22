@@ -187,7 +187,13 @@ var store = [{
       },{
         "title": "This week's outside five sigma (#12)",
         "excerpt":"Thomae’s function is somehow linked to the visual density of points of a 2D grid. Wikipedia: Thomae’s function Twitter thread Next time when you are spending $200 to get 8 GB more memory for your macbook, remember that money is more than enough to buy you two credit card-sized single-board...","categories": ["OFS"],
-        "tags": ["Math","Mini-PC","Laser","Fusion","Pyroelectrics","Mayonnaise","Rayleigh-Taylor-instability","Barcode","Silicon","Nanofab","MEMS","Qubit","AI","TMS","Laser-ablation"],
+        "tags": ["Math","Mini-PC","Laser","Fusion","Pyroelectrics","Mayonnaise","Rayleigh-Taylor-instability","Barcode","Silicon","Nanofab","MEMS","Qubit","AI","TMS","Laser-ablation","Exfiltrate"],
         "url": "/ofs/weekly-OFS-12/",
+        "teaser": null
+      },{
+        "title": "This week's outside five sigma (#13)",
+        "excerpt":"A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly. Paper: PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels’ Cherenkov radiation can be used to identify different charged particles...","categories": ["OFS"],
+        "tags": ["Covert","Exfiltrate","Cherenkov","Oscilloscope","Electronics","EBL","Nanofab","Machining","Microwave","Hologram","AMO","Lockin","Thermography"],
+        "url": "/ofs/weekly-OFS-13/",
         "teaser": null
       }]

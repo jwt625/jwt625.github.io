@@ -1,0 +1,928 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>This week’s outside five sigma (#13) - Outside Five Sigma</title>
+<meta name="description" content="A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly.            Paper: PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels’">
+
+
+  <meta name="author" content="Wentao">
+  
+  <meta property="article:author" content="Wentao">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Outside Five Sigma">
+<meta property="og:title" content="This week’s outside five sigma (#13)">
+<meta property="og:url" content="http://localhost:4000/ofs/weekly-OFS-13/">
+
+
+  <meta property="og:description" content="A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly.            Paper: PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels’">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/2024/monitor_acoustic_spying.jpeg">
+
+
+
+
+
+  <meta property="article:published_time" content="2024-09-21T00:00:00-07:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/ofs/weekly-OFS-13/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Outside Five Sigma Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+
+  </head>
+
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/twm.JPG" alt="Outside Five Sigma"></a>
+        
+        <a class="site-title" href="/">
+          Outside Five Sigma
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/posts/"
+                
+                
+              >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/categories/"
+                
+                
+              >Categories</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/tags/"
+                
+                
+              >Tags</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/2024/monitor_acoustic_spying.jpeg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          This week’s outside five sigma (#13)
+
+        
+      </h1>
+      
+      
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-09-21T00:00:00-07:00">September 21, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/bio-photo-2.jpg" alt="Wentao" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Wentao</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Memories are the long term averages, and the outside five sigmas.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="This week’s outside five sigma (#13)">
+    <meta itemprop="description" content="  A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly.          Paper: PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels’      ">
+    <meta itemprop="datePublished" content="2024-09-21T00:00:00-07:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              
+            </nav>
+          </aside>
+        
+        <ol>
+  <li>A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly.
+    <ul>
+      <li>Paper: <a href="https://arxiv.org/abs/2409.04930">PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels’</a>
+<img src="/assets/images/2024/monitor_acoustic_spying.jpeg" alt="monitor_acoustic_spying.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Cherenkov radiation can be used to identify different charged particles with known momentum because they radiate into different directions (Ring-imaging Cherenkov (RICH) detector). Those photon hits an electron out of a cathode, accel by 20 kV, then hit silicon detector array
+    <ul>
+      <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/Ring-imaging_Cherenkov_detector">Ring-imaging Cherenkov detector</a></li>
+      <li>LHC outreach: <a href="https://lhcb-outreach.web.cern.ch/detector/rich-detectors/">RICH detectors</a></li>
+      <li><a href="https://indico.cern.ch/event/1094055/contributions/4972494/attachments/2506319/4307648/Jacques%20In%20Memoriam.pdf">Homage to Jacques Séguinot</a>, and <a href="https://www.diva-portal.org/smash/get/diva2:1803145/FULLTEXT01.pdf">another version</a>
+<img src="/assets/images/2024/RICH_detector_1.png" alt="RICH_detector_1.png" />
+<img src="/assets/images/2024/RICH_detector_2.jpeg" alt="RICH_detector_2.png" /></li>
+    </ul>
+  </li>
+  <li>Here comes “A new type of oscilloscope that’s fast, flexible, and completely open”
+    <ul>
+      <li>CrowdSupply: <a href="https://www.crowdsupply.com/eevengers/thunderscope">Thunderscope</a>
+<img src="/assets/images/2024/thunderscope_20240921.png" alt="thunderscope_20240921.png" /></li>
+    </ul>
+  </li>
+  <li>There is a name for academics hoarding &amp; guarding resources, and suppress others: the Gollum Effect
+    <ul>
+      <li>Paper: <a href="https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2022.889236/full">The Gollum Effect: The Issue of Research Opportunity Guarding in Academia</a></li>
+      <li>Paper: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4888507">The Shadow of the Ring: How the Gollum Effect Impacts Research and Careers</a>
+<img src="/assets/images/2024/gollum_effect.jpeg" alt="gollum_effect.jpeg" /></li>
+    </ul>
+  </li>
+  <li>If you got [REDACTED]+[REDACTED] or so a year to spare, you can get your layout level photonic circuit performance simulated on a single platform using device/component level sim with Tidy3D and circuit level sim with IPKISS.
+    <ul>
+      <li>Blog: <a href="https://www.flexcompute.com/blog/2024/09/10/luceda-photonics-pic-design-software-integrated-with-tidy3d/">Luceda Photonics Introduces Seamless Integration with Tidy3D for Enhanced Photonics Design and Simulation</a>
+<img src="/assets/images/2024/luceda_flexcompute.jpeg" alt="luceda_flexcompute.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Ultrasound makes bending easier just like in ultrasonic wirebonding, and you benefit more than the average because of nonlinearities. You could even further “cheat” with acoustic resonances.
+    <ul>
+      <li>Paper: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0041624X2300135X?via%3Dihub">Effect of high-power ultrasonic vibration on the flexible bending process of thin-walled circular tubes: Numerical and experimental research</a>
+<img src="/assets/images/2024/ultrasonic_assisted_bending_1.jpeg" alt="ultrasonic_assisted_bending_1.jpeg" />
+<img src="/assets/images/2024/ultrasonic_assisted_bending_2.jpeg" alt="ultrasonic_assisted_bending_2.jpeg" /></li>
+      <li>The term for this is ultrasonic-assisted flexible bending (UAFB), or more generally acoustic softening. It’s been intensely studied in various materials for the reason you could see below. Some 30 W/cm^2 ultrasonic power is better at softening zinc than heating it to 250 C.
+<img src="/assets/images/2024/ultrasonic_assisted_bending_3.png" alt="ultrasonic_assisted_bending_3.jpeg" />
+<img src="/assets/images/2024/ultrasonic_assisted_bending_4.png" alt="ultrasonic_assisted_bending_4.jpeg" /></li>
+      <li>Similar plots in the wirebonding book (George Harman, Wire Bonding in Microelectronics). For aluminum you get equivalence of 600C with 50 W/cm^2, a power level you could roughly get with 50 bucks.
+<img src="/assets/images/2024/ultrasonic_assisted_bending_5.jpeg" alt="ultrasonic_assisted_bending_5.jpeg" />
+<img src="/assets/images/2024/ultrasonic_assisted_bending_6.jpeg" alt="ultrasonic_assisted_bending_6.jpeg" /></li>
+    </ul>
+  </li>
+  <li>I’ve always thought ebeam litho as moving a single pixel around. Turns out there is a whole branch of shaped beam ones, this is one of them: reflective electron beam lithography (REBL). An array of small metallic pixels shape the beam reflectively, just like DMD but for electrons
+    <ul>
+      <li><a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7823/782316/Direct-write-electron-beam-lithography-a-historical-overview/10.1117/12.868477.short#_=_">Direct write electron beam lithography: a historical overview</a></li>
+      <li><a href="https://pubs.aip.org/avs/jvb/article-abstract/27/1/161/467317/REBL-A-novel-approach-to-high-speed-maskless">REBL: A novel approach to high speed maskless electron beam direct write lithography</a>
+<img src="/assets/images/2024/REBL_1.jpeg" alt="REBL_1.jpeg" />
+<img src="/assets/images/2024/REBL_2.jpeg" alt="REBL_2.jpeg" /></li>
+      <li>Now how do you reflect a few tens kV of electrons?? They are first decelerated by the electron optics before the DPG, and then he DPG only needs a few volts to either repel or capture the electrons. In a newer paper they showed SEMs of the DPG chip with lenslets on top of CMOS.
+<img src="/assets/images/2024/REBL_3.jpeg" alt="REBL_3.jpeg" />
+<img src="/assets/images/2024/REBL_4.jpeg" alt="REBL_4.jpeg" /></li>
+      <li>From KLA-tencor: <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8323/832311/REBL--design-progress-toward-16-nm-half-pitch-maskless/10.1117/12.919744.short">REBL: design progress toward 16 nm half-pitch maskless projection electron beam lithography</a>, supported by DARPA MTO with $30M in 2010. See <a href="https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Science_and_Technology/12-F-1039_2010-DARPA-Funding-List.pdf">2010 DARPA funding list</a></li>
+      <li>From 1975 to 1995, the pixel rate of ebeam direct write increased from 2e7 to 2e9, however wafer size ~4x and feature size shrinked ~10x, increasing the number of pixels by 1e3. Without massively parallel projection it would be &lt; 0.1 wph. Now 20 years later, we are still on 12in.
+<img src="/assets/images/2024/REBL_5.jpeg" alt="REBL_5.jpeg" />
+<img src="/assets/images/2024/REBL_6.jpeg" alt="REBL_6.jpeg" /></li>
+      <li>“In imaging, SEMs with multiple beams have started to show up:” <a href="https://www.zeiss.com/microscopy/us/products/sem-fib-sem/sem/multisem.html">Zeiss MultiSEM</a>, as well as Ebeam litho with multiple beams: <a href="https://multibeamcorp.com/">Multibeam Corp</a>. They have a talk on youtube: <a href="https://www.youtube.com/watch?v=d2JH6JxLa5w&amp;ab_channel=eBeamInitiative">Tech Talk: Multicolumn eBeam Lithography (MEBL)</a>
+<img src="/assets/images/2024/multibeam_1.jpeg" alt="multibeam_1.jpeg" />
+<img src="/assets/images/2024/multibeam_2.jpeg" alt="multibeam_2.jpeg" /></li>
+    </ul>
+  </li>
+  <li>In addition to high power LED headlights we all love, cars might get integrated holographic camera modules (IHCM). They could show you “robots, animals, cartoon characters, celebrities”, as well as the car itself, with overlapping range and tracking to make sure you always see it.
+    <ul>
+      <li><a href="https://patents.google.com/patent/US20240288823A1/en">Smart Vehicle Holograms</a>, patent filed by Ford Global Technologies LLC
+<img src="/assets/images/2024/IHCM_1.png" alt="IHCM_1.png" />
+<img src="/assets/images/2024/IHCM_2.png" alt="IHCM_2.png" /></li>
+    </ul>
+  </li>
+  <li>Rubidium vapor cells are very affordable on eBay
+    <ul>
+      <li><a href="https://x.com/oldestasian/status/1834601347439571053">Tweet</a></li>
+      <li>ebay: <a href="https://www.ebay.com/itm/124012486501">Rb High Precision Low Phase Noise Rubidium Tube Atomic Clock Soviet Ussr DIY</a>
+<img src="/assets/images/2024/Rb_vapor_cell_ebay.png" alt="Rb_vapor_cell_ebay.png" /></li>
+    </ul>
+  </li>
+  <li>Let me introduce you Yokogawa minimal Fab, when everyone is going larger wafers &amp; higher throughput, they make 0.5 in wafer tools all in one form factor, with almost all front-end capabilities, that does NOT need to be in a clean room.
+    <ul>
+      <li><a href="https://www.yokogawa.com/us/industries/semiconductor/minimal-fab/">Semiconductor Tools for Prototyping and Small-Volume Production</a></li>
+      <li><a href="https://x.com/jwt0625/status/1835111605623046556">Twitter thread</a> with more info and pictures</li>
+      <li><a href="/assets/doc/2024/minimal-fab-one-stop-solution.pdf">minimal-fab-one-stop-solution.pdf</a></li>
+      <li><a href="/assets/doc/2024/MakingDevicePrototype.pdf">MakingDevicePrototype.pdf</a>
+<img src="/assets/images/2024/minimal_fab_1.jpeg" alt="minimal_fab_1.jpeg" />
+<img src="/assets/images/2024/minimal_fab_2.jpeg" alt="minimal_fab_2.jpeg" /></li>
+    </ul>
+  </li>
+  <li>You can drill with microwave. It uses an extendable monopole antenna as the drill bit, the surface near it gets heat up the most, and also gets to absorb the microwave better. They can use a 1 kW at 2.45 GHz, common for a commercial microwave, to drill concrete holes of 2 mm diameter and 2 cm deep in less than one minute.
+    <ul>
+      <li>Paper: <a href="https://www.science.org/doi/10.1126/science.1077062">The Microwave Drill</a>
+<img src="/assets/images/2024/microwave_drilling.png" alt="microwave_drilling.png" /></li>
+    </ul>
+  </li>
+  <li>The activity of neurons associated with motor preparation decrease as stakes get too high. (Motor preparation = making calculations about how to complete a movement) “You just don’t perform better as the reward increases”. Find the optimal for you and shoot for that.
+    <ul>
+      <li>Article: <a href="https://www.nature.com/articles/d41586-024-02956-8">Why do we crumble under pressure? Science has the answer</a></li>
+      <li>Paper: <a href="https://www.cell.com/neuron/abstract/S0896-6273(24)00608-1">A neural basis of choking under pressure</a>
+<img src="/assets/images/2024/monkey_chock_under_pressure.jpeg" alt="monkey_chock_under_pressure.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Now some thermal camerasa are only a few hundred bucks and could do 25 Hz, lock-in thermography should be possible with those? You could getting more than 100x better temperature resolution with decent wait time (~ 1000 s).
+    <ul>
+      <li>paper: <a href="https://www-old.mpi-halle.mpg.de/mpi/publi/pdf/540_02.pdf">Lock-in IR-Thermography - a novel tool for material and device characterization</a></li>
+      <li>Tektronix: <a href="https://www.tek.com/en/documents/application-note/advancing-techniques-of-failure-analysis-using-source-measure-units-and-lock-in-thermography">Advancing Techniques of Failure Analysis Using Source Measure Units and Lock-in Thermography</a>
+<img src="/assets/images/2024/lockin_IR_thermography_1.jpeg" alt="lockin_IR_thermography_1.jpeg" />
+<img src="/assets/images/2024/lockin_IR_thermography_2.jpeg" alt="lockin_IR_thermography_2.jpeg" /></li>
+    </ul>
+  </li>
+</ol>
+
+<p><img src="/assets/images/2024/" alt="" />
+<img src="/assets/images/2024/" alt="" /></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#amo" class="page__taxonomy-item p-category" rel="tag">AMO</a><span class="sep">, </span>
+    
+      <a href="/tags/#cherenkov" class="page__taxonomy-item p-category" rel="tag">Cherenkov</a><span class="sep">, </span>
+    
+      <a href="/tags/#covert" class="page__taxonomy-item p-category" rel="tag">Covert</a><span class="sep">, </span>
+    
+      <a href="/tags/#ebl" class="page__taxonomy-item p-category" rel="tag">EBL</a><span class="sep">, </span>
+    
+      <a href="/tags/#electronics" class="page__taxonomy-item p-category" rel="tag">Electronics</a><span class="sep">, </span>
+    
+      <a href="/tags/#exfiltrate" class="page__taxonomy-item p-category" rel="tag">Exfiltrate</a><span class="sep">, </span>
+    
+      <a href="/tags/#hologram" class="page__taxonomy-item p-category" rel="tag">Hologram</a><span class="sep">, </span>
+    
+      <a href="/tags/#lockin" class="page__taxonomy-item p-category" rel="tag">Lockin</a><span class="sep">, </span>
+    
+      <a href="/tags/#machining" class="page__taxonomy-item p-category" rel="tag">Machining</a><span class="sep">, </span>
+    
+      <a href="/tags/#microwave" class="page__taxonomy-item p-category" rel="tag">Microwave</a><span class="sep">, </span>
+    
+      <a href="/tags/#nanofab" class="page__taxonomy-item p-category" rel="tag">Nanofab</a><span class="sep">, </span>
+    
+      <a href="/tags/#oscilloscope" class="page__taxonomy-item p-category" rel="tag">Oscilloscope</a><span class="sep">, </span>
+    
+      <a href="/tags/#thermography" class="page__taxonomy-item p-category" rel="tag">Thermography</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#ofs" class="page__taxonomy-item p-category" rel="tag">OFS</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-09-21T00:00:00-07:00">September 21, 2024</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=This+week%27s+outside+five+sigma+%28%2313%29%20http%3A%2F%2Flocalhost%3A4000%2Fofs%2Fweekly-OFS-13%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fofs%2Fweekly-OFS-13%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/ofs/weekly-OFS-13/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/ofs/weekly-OFS-12/" class="pagination--pager" title="This week’s outside five sigma (#12)
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-12/" rel="permalink">This week’s outside five sigma (#12)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-09-15T00:00:00-07:00">September 15, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/I5_tree_grid_thomae_function.jpeg" alt="This week's outside five sigma (#12)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  Thomae’s function is somehow linked to the visual density of points of a 2D grid.
+    
+      Wikipedia: Thomae’s function
+      Twitter thread
+
+
+    
+  
+
+
+</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-11/" rel="permalink">This week’s outside five sigma (#11)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-09-08T00:00:00-07:00">September 8, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/spiral_AWG.png" alt="This week's outside five sigma (#11)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (14...</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-10/" rel="permalink">This week’s outside five sigma (#10)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-09-01T00:00:00-07:00">September 1, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/MOS_Tech_6502.jpeg" alt="This week's outside five sigma (#10)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975.
+    
+      Team 6502 ...</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-9/" rel="permalink">This week’s outside five sigma (#9)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-08-24T00:00:00-07:00">August 24, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/MFC_sensor.jfif" alt="This week's outside five sigma (#9)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts
+    
+      Twitter thread
+      I should write it into a blog
+
+
+    
+ ...</p>
+
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Google Scholar</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">Outside Five Sigma</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/ofs/weekly-OFS-13/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/ofs/weekly-OFS-13"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jwt625.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+    <!-- add mathjax, WTJ, 20240702 -->
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+  
+  
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+  </script>
+  
+  
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+    
+
+  </body>
+</html>

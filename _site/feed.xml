@@ -1,4 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-15T23:10:35-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#12)</title><link href="http://localhost:4000/ofs/weekly-OFS-12/" rel="alternate" type="text/html" title="This week’s outside five sigma (#12)" /><published>2024-09-15T00:00:00-07:00</published><updated>2024-09-15T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-12</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-12/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-21T22:27:29-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#13)</title><link href="http://localhost:4000/ofs/weekly-OFS-13/" rel="alternate" type="text/html" title="This week’s outside five sigma (#13)" /><published>2024-09-21T00:00:00-07:00</published><updated>2024-09-21T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-13</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-13/"><![CDATA[<ol>
+  <li>A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly.
+    <ul>
+      <li>Paper: <a href="https://arxiv.org/abs/2409.04930">PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels’</a>
+<img src="/assets/images/2024/monitor_acoustic_spying.jpeg" alt="monitor_acoustic_spying.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Cherenkov radiation can be used to identify different charged particles with known momentum because they radiate into different directions (Ring-imaging Cherenkov (RICH) detector). Those photon hits an electron out of a cathode, accel by 20 kV, then hit silicon detector array
+    <ul>
+      <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/Ring-imaging_Cherenkov_detector">Ring-imaging Cherenkov detector</a></li>
+      <li>LHC outreach: <a href="https://lhcb-outreach.web.cern.ch/detector/rich-detectors/">RICH detectors</a></li>
+      <li><a href="https://indico.cern.ch/event/1094055/contributions/4972494/attachments/2506319/4307648/Jacques%20In%20Memoriam.pdf">Homage to Jacques Séguinot</a>, and <a href="https://www.diva-portal.org/smash/get/diva2:1803145/FULLTEXT01.pdf">another version</a>
+<img src="/assets/images/2024/RICH_detector_1.png" alt="RICH_detector_1.png" />
+<img src="/assets/images/2024/RICH_detector_2.jpeg" alt="RICH_detector_2.png" /></li>
+    </ul>
+  </li>
+  <li>Here comes “A new type of oscilloscope that’s fast, flexible, and completely open”
+    <ul>
+      <li>CrowdSupply: <a href="https://www.crowdsupply.com/eevengers/thunderscope">Thunderscope</a>
+<img src="/assets/images/2024/thunderscope_20240921.png" alt="thunderscope_20240921.png" /></li>
+    </ul>
+  </li>
+  <li>There is a name for academics hoarding &amp; guarding resources, and suppress others: the Gollum Effect
+    <ul>
+      <li>Paper: <a href="https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2022.889236/full">The Gollum Effect: The Issue of Research Opportunity Guarding in Academia</a></li>
+      <li>Paper: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4888507">The Shadow of the Ring: How the Gollum Effect Impacts Research and Careers</a>
+<img src="/assets/images/2024/gollum_effect.jpeg" alt="gollum_effect.jpeg" /></li>
+    </ul>
+  </li>
+  <li>If you got [REDACTED]+[REDACTED] or so a year to spare, you can get your layout level photonic circuit performance simulated on a single platform using device/component level sim with Tidy3D and circuit level sim with IPKISS.
+    <ul>
+      <li>Blog: <a href="https://www.flexcompute.com/blog/2024/09/10/luceda-photonics-pic-design-software-integrated-with-tidy3d/">Luceda Photonics Introduces Seamless Integration with Tidy3D for Enhanced Photonics Design and Simulation</a>
+<img src="/assets/images/2024/luceda_flexcompute.jpeg" alt="luceda_flexcompute.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Ultrasound makes bending easier just like in ultrasonic wirebonding, and you benefit more than the average because of nonlinearities. You could even further “cheat” with acoustic resonances.
+    <ul>
+      <li>Paper: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0041624X2300135X?via%3Dihub">Effect of high-power ultrasonic vibration on the flexible bending process of thin-walled circular tubes: Numerical and experimental research</a>
+<img src="/assets/images/2024/ultrasonic_assisted_bending_1.jpeg" alt="ultrasonic_assisted_bending_1.jpeg" />
+<img src="/assets/images/2024/ultrasonic_assisted_bending_2.jpeg" alt="ultrasonic_assisted_bending_2.jpeg" /></li>
+      <li>The term for this is ultrasonic-assisted flexible bending (UAFB), or more generally acoustic softening. It’s been intensely studied in various materials for the reason you could see below. Some 30 W/cm^2 ultrasonic power is better at softening zinc than heating it to 250 C.
+<img src="/assets/images/2024/ultrasonic_assisted_bending_3.png" alt="ultrasonic_assisted_bending_3.jpeg" />
+<img src="/assets/images/2024/ultrasonic_assisted_bending_4.png" alt="ultrasonic_assisted_bending_4.jpeg" /></li>
+      <li>Similar plots in the wirebonding book (George Harman, Wire Bonding in Microelectronics). For aluminum you get equivalence of 600C with 50 W/cm^2, a power level you could roughly get with 50 bucks.
+<img src="/assets/images/2024/ultrasonic_assisted_bending_5.jpeg" alt="ultrasonic_assisted_bending_5.jpeg" />
+<img src="/assets/images/2024/ultrasonic_assisted_bending_6.jpeg" alt="ultrasonic_assisted_bending_6.jpeg" /></li>
+    </ul>
+  </li>
+  <li>I’ve always thought ebeam litho as moving a single pixel around. Turns out there is a whole branch of shaped beam ones, this is one of them: reflective electron beam lithography (REBL). An array of small metallic pixels shape the beam reflectively, just like DMD but for electrons
+    <ul>
+      <li><a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7823/782316/Direct-write-electron-beam-lithography-a-historical-overview/10.1117/12.868477.short#_=_">Direct write electron beam lithography: a historical overview</a></li>
+      <li><a href="https://pubs.aip.org/avs/jvb/article-abstract/27/1/161/467317/REBL-A-novel-approach-to-high-speed-maskless">REBL: A novel approach to high speed maskless electron beam direct write lithography</a>
+<img src="/assets/images/2024/REBL_1.jpeg" alt="REBL_1.jpeg" />
+<img src="/assets/images/2024/REBL_2.jpeg" alt="REBL_2.jpeg" /></li>
+      <li>Now how do you reflect a few tens kV of electrons?? They are first decelerated by the electron optics before the DPG, and then he DPG only needs a few volts to either repel or capture the electrons. In a newer paper they showed SEMs of the DPG chip with lenslets on top of CMOS.
+<img src="/assets/images/2024/REBL_3.jpeg" alt="REBL_3.jpeg" />
+<img src="/assets/images/2024/REBL_4.jpeg" alt="REBL_4.jpeg" /></li>
+      <li>From KLA-tencor: <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8323/832311/REBL--design-progress-toward-16-nm-half-pitch-maskless/10.1117/12.919744.short">REBL: design progress toward 16 nm half-pitch maskless projection electron beam lithography</a>, supported by DARPA MTO with $30M in 2010. See <a href="https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Science_and_Technology/12-F-1039_2010-DARPA-Funding-List.pdf">2010 DARPA funding list</a></li>
+      <li>From 1975 to 1995, the pixel rate of ebeam direct write increased from 2e7 to 2e9, however wafer size ~4x and feature size shrinked ~10x, increasing the number of pixels by 1e3. Without massively parallel projection it would be &lt; 0.1 wph. Now 20 years later, we are still on 12in.
+<img src="/assets/images/2024/REBL_5.jpeg" alt="REBL_5.jpeg" />
+<img src="/assets/images/2024/REBL_6.jpeg" alt="REBL_6.jpeg" /></li>
+      <li>“In imaging, SEMs with multiple beams have started to show up:” <a href="https://www.zeiss.com/microscopy/us/products/sem-fib-sem/sem/multisem.html">Zeiss MultiSEM</a>, as well as Ebeam litho with multiple beams: <a href="https://multibeamcorp.com/">Multibeam Corp</a>. They have a talk on youtube: <a href="https://www.youtube.com/watch?v=d2JH6JxLa5w&amp;ab_channel=eBeamInitiative">Tech Talk: Multicolumn eBeam Lithography (MEBL)</a>
+<img src="/assets/images/2024/multibeam_1.jpeg" alt="multibeam_1.jpeg" />
+<img src="/assets/images/2024/multibeam_2.jpeg" alt="multibeam_2.jpeg" /></li>
+    </ul>
+  </li>
+  <li>In addition to high power LED headlights we all love, cars might get integrated holographic camera modules (IHCM). They could show you “robots, animals, cartoon characters, celebrities”, as well as the car itself, with overlapping range and tracking to make sure you always see it.
+    <ul>
+      <li><a href="https://patents.google.com/patent/US20240288823A1/en">Smart Vehicle Holograms</a>, patent filed by Ford Global Technologies LLC
+<img src="/assets/images/2024/IHCM_1.png" alt="IHCM_1.png" />
+<img src="/assets/images/2024/IHCM_2.png" alt="IHCM_2.png" /></li>
+    </ul>
+  </li>
+  <li>Rubidium vapor cells are very affordable on eBay
+    <ul>
+      <li><a href="https://x.com/oldestasian/status/1834601347439571053">Tweet</a></li>
+      <li>ebay: <a href="https://www.ebay.com/itm/124012486501">Rb High Precision Low Phase Noise Rubidium Tube Atomic Clock Soviet Ussr DIY</a>
+<img src="/assets/images/2024/Rb_vapor_cell_ebay.png" alt="Rb_vapor_cell_ebay.png" /></li>
+    </ul>
+  </li>
+  <li>Let me introduce you Yokogawa minimal Fab, when everyone is going larger wafers &amp; higher throughput, they make 0.5 in wafer tools all in one form factor, with almost all front-end capabilities, that does NOT need to be in a clean room.
+    <ul>
+      <li><a href="https://www.yokogawa.com/us/industries/semiconductor/minimal-fab/">Semiconductor Tools for Prototyping and Small-Volume Production</a></li>
+      <li><a href="https://x.com/jwt0625/status/1835111605623046556">Twitter thread</a> with more info and pictures</li>
+      <li><a href="/assets/doc/2024/minimal-fab-one-stop-solution.pdf">minimal-fab-one-stop-solution.pdf</a></li>
+      <li><a href="/assets/doc/2024/MakingDevicePrototype.pdf">MakingDevicePrototype.pdf</a>
+<img src="/assets/images/2024/minimal_fab_1.jpeg" alt="minimal_fab_1.jpeg" />
+<img src="/assets/images/2024/minimal_fab_2.jpeg" alt="minimal_fab_2.jpeg" /></li>
+    </ul>
+  </li>
+  <li>You can drill with microwave. It uses an extendable monopole antenna as the drill bit, the surface near it gets heat up the most, and also gets to absorb the microwave better. They can use a 1 kW at 2.45 GHz, common for a commercial microwave, to drill concrete holes of 2 mm diameter and 2 cm deep in less than one minute.
+    <ul>
+      <li>Paper: <a href="https://www.science.org/doi/10.1126/science.1077062">The Microwave Drill</a>
+<img src="/assets/images/2024/microwave_drilling.png" alt="microwave_drilling.png" /></li>
+    </ul>
+  </li>
+  <li>The activity of neurons associated with motor preparation decrease as stakes get too high. (Motor preparation = making calculations about how to complete a movement) “You just don’t perform better as the reward increases”. Find the optimal for you and shoot for that.
+    <ul>
+      <li>Article: <a href="https://www.nature.com/articles/d41586-024-02956-8">Why do we crumble under pressure? Science has the answer</a></li>
+      <li>Paper: <a href="https://www.cell.com/neuron/abstract/S0896-6273(24)00608-1">A neural basis of choking under pressure</a>
+<img src="/assets/images/2024/monkey_chock_under_pressure.jpeg" alt="monkey_chock_under_pressure.jpeg" /></li>
+    </ul>
+  </li>
+  <li>Now some thermal camerasa are only a few hundred bucks and could do 25 Hz, lock-in thermography should be possible with those? You could getting more than 100x better temperature resolution with decent wait time (~ 1000 s).
+    <ul>
+      <li>paper: <a href="https://www-old.mpi-halle.mpg.de/mpi/publi/pdf/540_02.pdf">Lock-in IR-Thermography - a novel tool for material and device characterization</a></li>
+      <li>Tektronix: <a href="https://www.tek.com/en/documents/application-note/advancing-techniques-of-failure-analysis-using-source-measure-units-and-lock-in-thermography">Advancing Techniques of Failure Analysis Using Source Measure Units and Lock-in Thermography</a>
+<img src="/assets/images/2024/lockin_IR_thermography_1.jpeg" alt="lockin_IR_thermography_1.jpeg" />
+<img src="/assets/images/2024/lockin_IR_thermography_2.jpeg" alt="lockin_IR_thermography_2.jpeg" /></li>
+    </ul>
+  </li>
+</ol>
+
+<p><img src="/assets/images/2024/" alt="" />
+<img src="/assets/images/2024/" alt="" /></p>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Covert" /><category term="Exfiltrate" /><category term="Cherenkov" /><category term="Oscilloscope" /><category term="Electronics" /><category term="EBL" /><category term="Nanofab" /><category term="Machining" /><category term="Microwave" /><category term="Hologram" /><category term="AMO" /><category term="Lockin" /><category term="Thermography" /><summary type="html"><![CDATA[A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly. Paper: PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels’]]></summary></entry><entry><title type="html">This week’s outside five sigma (#12)</title><link href="http://localhost:4000/ofs/weekly-OFS-12/" rel="alternate" type="text/html" title="This week’s outside five sigma (#12)" /><published>2024-09-15T00:00:00-07:00</published><updated>2024-09-15T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-12</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-12/"><![CDATA[<ol>
   <li>Thomae’s function is somehow linked to the visual density of points of a 2D grid.
     <ul>
       <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/Thomae's_function">Thomae’s function</a></li>
@@ -101,7 +215,7 @@
 <img src="/assets/images/2024/epi_seal_2.jpeg" alt="epi_seal_2.jpeg" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Math" /><category term="Mini-PC" /><category term="Laser" /><category term="Fusion" /><category term="Pyroelectrics" /><category term="Mayonnaise" /><category term="Rayleigh-Taylor-instability" /><category term="Barcode" /><category term="Silicon" /><category term="Nanofab" /><category term="MEMS" /><category term="Qubit" /><category term="AI" /><category term="TMS" /><category term="Laser-ablation" /><summary type="html"><![CDATA[Thomae’s function is somehow linked to the visual density of points of a 2D grid. Wikipedia: Thomae’s function Twitter thread]]></summary></entry><entry><title type="html">This week’s outside five sigma (#11)</title><link href="http://localhost:4000/ofs/weekly-OFS-11/" rel="alternate" type="text/html" title="This week’s outside five sigma (#11)" /><published>2024-09-08T00:00:00-07:00</published><updated>2024-09-08T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-11</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-11/"><![CDATA[<ol>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Math" /><category term="Mini-PC" /><category term="Laser" /><category term="Fusion" /><category term="Pyroelectrics" /><category term="Mayonnaise" /><category term="Rayleigh-Taylor-instability" /><category term="Barcode" /><category term="Silicon" /><category term="Nanofab" /><category term="MEMS" /><category term="Qubit" /><category term="AI" /><category term="TMS" /><category term="Laser-ablation" /><category term="Exfiltrate" /><summary type="html"><![CDATA[Thomae’s function is somehow linked to the visual density of points of a 2D grid. Wikipedia: Thomae’s function Twitter thread]]></summary></entry><entry><title type="html">This week’s outside five sigma (#11)</title><link href="http://localhost:4000/ofs/weekly-OFS-11/" rel="alternate" type="text/html" title="This week’s outside five sigma (#11)" /><published>2024-09-08T00:00:00-07:00</published><updated>2024-09-08T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-11</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-11/"><![CDATA[<ol>
   <li>This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff.
     <ul>
       <li>Paper: <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10659116">Ultra-Wideband RF-Photonics Technology for Microwave</a>
@@ -814,75 +928,4 @@
 <img src="/assets/images/2024/refractive_index_change_Jacob_Khurgin.jpeg" alt="refractive_index_change_Jacob_Khurgin.jpeg" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="Lens" /><category term="Battery" /><category term="2D_material" /><category term="SAM" /><category term="Photonics" /><category term="Optics" /><summary type="html"><![CDATA[(Old) You could adapt a Dremel into a centrifuge Thingiverse: DremelFuge - A One-Piece Centrifuge for Rotary Tools]]></summary></entry><entry><title type="html">This week’s outside five sigma (#5)</title><link href="http://localhost:4000/ofs/weekly-OFS-5/" rel="alternate" type="text/html" title="This week’s outside five sigma (#5)" /><published>2024-07-28T00:00:00-07:00</published><updated>2024-07-28T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-5</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-5/"><![CDATA[<ol>
-  <li>AR assisted welding is as old as more than 12 years ago.
-    <ul>
-      <li>Youtube video: <a href="https://www.youtube.com/watch?v=ygcm0AQXX9k&amp;ab_channel=Leonardolo">High Dynamic Range (HDR) Video Image Processing For Digital Glass</a></li>
-      <li>IEEE spectrum article: <a href="https://spectrum.ieee.org/steve-mann-my-augmediated-life">Steve Mann: My “Augmediated” Life – What I’ve learned from 35 years of wearing computerized eyewear</a>
-<img src="/assets/images/2024/AR_welding.png" alt="AR_welding" /></li>
-    </ul>
-  </li>
-  <li>Crowdstrike broke many Windows machines and triggered a mass IT outage with a null <code class="language-plaintext highlighter-rouge">.sys</code> file.
-    <ul>
-      <li>CISA article: <a href="https://www.cisa.gov/news-events/alerts/2024/07/19/widespread-it-outage-due-crowdstrike-update">Widespread IT Outage Due to CrowdStrike Update</a></li>
-      <li>Crowdstrike blog: <a href="https://www.crowdstrike.com/blog/falcon-update-for-windows-hosts-technical-details/">Technical Details: Falcon Content Update for Windows Hosts</a></li>
-      <li>image from <a href="https://x.com/christian_tail/status/1814299095261147448">twitter thread</a>
-<img src="/assets/images/2024/crowdstrike_null.png" alt="crowdstrike_null.png" /></li>
-    </ul>
-  </li>
-  <li>AliExpress sells microwave chemical reactor
-    <ul>
-      <li><a href="https://www.aliexpress.us/item/3256805500031151.html">Lab Multiwave Solid-phase Microwave Reactor Continuous Radiation Heating Oven</a>
-<img src="/assets/images/2024/aliexpress_microwave_chem_reactor.png" alt="aliexpress_microwave_chem_reactor.png" /></li>
-    </ul>
-  </li>
-  <li>You could buld a plasma reactor with microwave and some gas plumbing. Zohman, Aviv and LaRue, Jerry did it at Chapman University.
-    <ul>
-      <li><a href="https://digitalcommons.chapman.edu/cusrd_abstracts/511/">Designing &amp; Building a Microwave Plasma Reactor for Graphene Synthesis</a></li>
-      <li>Youtube video: <a href="https://www.youtube.com/watch?v=84Rshv4f9tk&amp;ab_channel=AvivZohman">Aviv Zohman - Microwave Plasma Reactor for Graphene Synthesis</a>
-<img src="/assets/images/2024/microwave_plasma_reactor.jpeg" alt="microwave_plasma_reactor.jpeg" /></li>
-    </ul>
-  </li>
-  <li>Questwise Ventures makes tiny OLED screens
-    <ul>
-      <li>World’s Smallest 0.32” OLED 60x32 Display Screen, on <a href="https://www.tindie.com/products/questwise-ventures/worlds-smallest-032-oled-60x32-display-screen/">tindie</a>
-<img src="/assets/images/2024/questwise_ventures_tiny_OLED.jpg" alt="questwise_ventures_tiny_OLED.jpg" /></li>
-    </ul>
-  </li>
-  <li>Low-spec LiDAR can be as cheap as $9 likely thanks to roomba.
-    <ul>
-      <li>AliExpress: <a href="https://www.aliexpress.us/item/3256806933155420.html">Mini 360 degree ranging modeling and mapping ROS robot LiDAR 360 degree scanning TOF LiDAR</a>
-<img src="/assets/images/2024/cheap_lidar_aliexpress.png" alt="cheap_lidar_aliexpress.png" /></li>
-    </ul>
-  </li>
-  <li>exo lets you run your own AI cluster at home with everyday devices
-    <ul>
-      <li>Github: <a href="https://github.com/exo-explore/exo">exo</a></li>
-      <li>Alex Cheema shows how he runs Llama 3.1 405B distributed across two macbooks on <a href="https://x.com/ac_crypto/status/1815969489990869369">Twitter</a>
-<img src="/assets/images/2024/exo_llama_405B.png" alt="exo_llama_405B.png" /></li>
-    </ul>
-  </li>
-  <li><a href="https://www.skipwithjoy.com/">Skip</a> is a start up spinoff from Google X that puts BLDC motors at your knee joints so that you could go hiking at 90 years old
-    <ul>
-      <li><img src="/assets/images/2024/skip_with_joy.jpeg" alt="skip_with_joy.jpeg" /></li>
-    </ul>
-  </li>
-  <li>On <strong>December 9, 1968</strong>, Doug Engelbart and his team presented a demo that included the mouse, word processing, real-time collabration, video conferencing, and many more. This is even before ARPANET which is a year later.
-    <ul>
-      <li><a href="https://dougengelbart.org/">Doug Engelbart Institute</a></li>
-      <li>Youtube video from SRI: <a href="https://www.youtube.com/watch?v=B6rKUf9DWRI&amp;ab_channel=SRI">1968 “Mother of All Demos” by SRI’s Doug Engelbart and Team</a>
-<img src="/assets/images/2024/mother_of_all_demo_doug_engelbart.png" alt="mother_of_all_demo_doug_engelbart.png" /></li>
-    </ul>
-  </li>
-  <li>You can slam your laptop to type Morse code
-    <ul>
-      <li>Github: <a href="https://github.com/veggiedefender/open-and-shut">Open and Shut</a></li>
-    </ul>
-  </li>
-</ol>
-<p>
-  <video width="600" height="400" controls="">
-    <source src="/assets/images/2024/open_and_shut_Morse.mp4" type="video/mp4" />
-    Your browser does not support the video tag.
-  </video>
-</p>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="Microwave" /><category term="IT" /><category term="AR" /><category term="BLDC" /><category term="HCI" /><category term="Llama" /><category term="LiDAR" /><category term="OLED" /><summary type="html"><![CDATA[AR assisted welding is as old as more than 12 years ago. Youtube video: High Dynamic Range (HDR) Video Image Processing For Digital Glass IEEE spectrum article: Steve Mann: My “Augmediated” Life – What I’ve learned from 35 years of wearing computerized eyewear]]></summary></entry></feed>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="Lens" /><category term="Battery" /><category term="2D_material" /><category term="SAM" /><category term="Photonics" /><category term="Optics" /><summary type="html"><![CDATA[(Old) You could adapt a Dremel into a centrifuge Thingiverse: DremelFuge - A One-Piece Centrifuge for Rotary Tools]]></summary></entry></feed>
