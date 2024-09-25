@@ -11,7 +11,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Yapping on ebeam lithography - Outside Five Sigma</title>
-<meta name="description" content="What is EBeam litho, and why?">
+<meta name="description" content="What is EBeam litho, and why">
 
 
   <meta name="author" content="Wentao">
@@ -27,7 +27,7 @@
 <meta property="og:url" content="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/">
 
 
-  <meta property="og:description" content="What is EBeam litho, and why?">
+  <meta property="og:description" content="What is EBeam litho, and why">
 
 
 
@@ -193,7 +193,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          9 minute read
+          11 minute read
         
       </span>
     
@@ -327,7 +327,7 @@
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Yapping on ebeam lithography">
-    <meta itemprop="description" content="What is EBeam litho, and why?">
+    <meta itemprop="description" content="What is EBeam litho, and why">
     <meta itemprop="datePublished" content="2024-08-15T00:00:00-07:00">
     
 
@@ -339,21 +339,38 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#what-is-ebeam-litho-and-why">What is EBeam litho, and why?</a></li><li><a href="#ebeam-basics">Ebeam basics</a></li><li><a href="#practical">Practical</a></li><li><a href="#appendix-a-quick-rundown-of-my-ebeam-lithography-journey">Appendix: A quick rundown of my ebeam lithography journey</a><ul><li><a href="#tools">Tools</a><ul><li><a href="#raith-150-two-2015---2017">Raith 150 Two (2015 - 2017)</a></li><li><a href="#jeol-jbx-6300fs-2017---2022">JEOL JBX 6300FS (2017 - 2022)</a></li><li><a href="#raith-voyager-2022---2023">Raith Voyager (2022 - 2023)</a></li><li><a href="#ebpg-5200-2023---2024">EBPG 5200+ (2023 - 2024)</a></li></ul></li><li><a href="#ebeam-sessions">Ebeam sessions</a></li><li><a href="#ebeam-resist">Ebeam resist</a></li><li><a href="#acknowledgements">Acknowledgements</a></li></ul></li><li><a href="#references">References</a><ul><li><a href="#lab-resources">Lab resources</a></li><li><a href="#training-videos">Training videos</a></li><li><a href="#papers">Papers</a></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#what-is-ebeam-litho-and-why">What is EBeam litho, and why</a></li><li><a href="#ebeam-basic-specs-and-why">Ebeam basic specs and why</a><ul><li><a href="#how-do-we-deflect-the-electron-beam">How do we deflect the electron beam</a></li></ul></li><li><a href="#practical">Practical</a></li><li><a href="#appendix-a-quick-rundown-of-my-ebeam-lithography-journey">Appendix: A quick rundown of my ebeam lithography journey</a><ul><li><a href="#tools">Tools</a><ul><li><a href="#raith-150-two-2015---2017">Raith 150 Two (2015 - 2017)</a></li><li><a href="#jeol-jbx-6300fs-2017---2022">JEOL JBX 6300FS (2017 - 2022)</a></li><li><a href="#raith-voyager-2022---2023">Raith Voyager (2022 - 2023)</a></li><li><a href="#ebpg-5200-2023---2024">EBPG 5200+ (2023 - 2024)</a></li></ul></li><li><a href="#ebeam-sessions">Ebeam sessions</a></li><li><a href="#ebeam-resist">Ebeam resist</a></li><li><a href="#acknowledgements">Acknowledgements</a></li></ul></li><li><a href="#references">References</a><ul><li><a href="#lab-resources">Lab resources</a></li><li><a href="#training-videos">Training videos</a></li><li><a href="#papers-and-books">Papers and books</a></li></ul></li></ul>
             </nav>
           </aside>
         
-        <h1 id="what-is-ebeam-litho-and-why">What is EBeam litho, and why?</h1>
+        <h1 id="what-is-ebeam-litho-and-why">What is EBeam litho, and why</h1>
 
 <p>Ebeam lithography, as the name suggests, is using electron beams for lithography. <a href="https://en.wikipedia.org/wiki/Lithography">Lithograph</a> has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the mask. It is a powerful technique at the time to mass produce drawings and maps, and later photos (photography). When people start to think about how to reduce the size of electronic circuits in the 1950s, they adopted photographic technique (using optics to shrink and project the pattern, expose and develop the <a href="https://en.wikipedia.org/wiki/Photoresist">photoresist</a> just like in photography) and thus coined the term <a href="https://en.wikipedia.org/wiki/Photolithography">photolithography</a>. Circuit designers would draw the circuit layout on a big canvas, that would later <a href="https://en.wikipedia.org/wiki/Tape-out">tapeout</a> (it is still called tapeout to this date even physical tape is no longer involved) and be shrinked into a <a href="https://en.wikipedia.org/wiki/Photomask">photomask</a>, and shrinked again by the photolitho system onto the wafer. The quest for shrinking the size of electronic circuits and transistors has been on a non-stop march, and shorter wavelengths are needed because of refractive limit of the resolution. But you know what has a much shorter wavelengths? Electrons!</p>
 
 <p>Let’s quickly estimate typical “wavelengths” of electrons in an electron beam. Assuming 10 kV of acceleration, that makes its speed roughly \(0.2 c\), where \(c\) is the speed of light. This is without relativistic correction, which will be \(10\%\) or \(20\%\) so let’s ignore it. The corresponding momentum is \(5\times 10^{-23}~\text{kg}\cdot\text{m/s}\) (hmm this is suspiciously close to Boltzmann constant… whatever), and these electrons’s <a href="https://en.wikipedia.org/wiki/Matter_wave">de Broglie wavelength</a> would be \(1.2\times 10^{-11}~\text{m}\) or 12 pm. If we were to get light with wavelength this small, they would be called <a href="https://en.wikipedia.org/wiki/Gamma_ray">gamma rays</a>.</p>
 
-<p>Electrons are used for many things even before <a href="https://www.britannica.com/science/atom/Discovery-of-electrons">its discovery</a> in 1897, before which electron beams would only be called <a href="https://en.wikipedia.org/wiki/Cathode_ray">cathode rays</a>. Electrons are nice in many ways, it is “free” (heat up a metal enough and electrons would run out of it, see thermionic emission), it is charged, which means it’s easy to manipulate with electric and magnetic field, and it interacts with stuff like generating fluorescence light.</p>
+<p>Electrons are used for many things even before <a href="https://www.britannica.com/science/atom/Discovery-of-electrons">its discovery</a> in 1897, before which electron beams would only be called <a href="https://en.wikipedia.org/wiki/Cathode_ray">cathode rays</a>. They are nice in many ways, it is “free” (heat up a metal enough and electrons would run out of it, see thermionic emission), it is charged, which means it’s easy to manipulate with electric and magnetic field, and it interacts with stuff like generating fluorescence light. Thus the cathode ray tube for display, and scanning electron microscopy for seeing small stuff.</p>
+
+<h1 id="ebeam-basic-specs-and-why">Ebeam basic specs and why</h1>
+
+<h2 id="how-do-we-deflect-the-electron-beam">How do we deflect the electron beam</h2>
+
+<p>The answer is simple: there are four fundamental force, and we really only have two options: electric field and magnetic field.</p>
+
+<p>Let’s try to estimate how much electric field or magnetic field we need to deflect the electrons by some reasonable angle.</p>
+<ul>
+  <li>It is funny to me that the wikipedia article on <a href="https://en.wikipedia.org/wiki/Electrostatic_deflection">electrostatic deflection</a> does not have a single voltage number in it (at the time of the writing: 20240924).</li>
+  <li>For electric field, it is simple: it should be comparable to \(V_a \cdot \tan\theta\), where \(V_a\) is the acceleration voltage, and \(\theta\) is the deflection angle. Hence for small deflection of a ~20 kV beam, it should be a couple hundred volts to a few kV.</li>
+  <li>For magnetic field, it depends on the radius of the trajectory which is limited by the size of the machine, and let’s say it is \(r = 0.1~\text{m}\). The resulting magnetic field \(B = mv/e/r \approx 5~\text{mT} = 50~\text{G}\) (assuming speed of 0.3c or 30 keV acceleration). Hmm this magnetic field is actually pretty close to the target for a few coils I winded lol, so I could straight tell you that you need ~2000 turns with a current of ~100 mA.</li>
+</ul>
+
+<p><img src="/assets/images/2024/ebeam/image45.png" alt="image45.png" />
+<em>The coil I winded for tuning superconducting resonators in a dilfridge. It uses NbTi wire from <a href="https://www.supercon-wire.com/">Supercon Inc.</a></em></p>
+
+<p>Well actually before we move on, let’s also estimate how much mass we need to deflect the beam with gravity lol. Assuming the same force and radius, we have \(e v  B = GMm/r^2\), and voila, \(M =\) 7e24 kg. Mass of the earth is 6e24 kg. Damn why are they so close. If we want this mass to fit inside the radius of the ebeam trajectory, it would be only 10x larger than the Schwarzschild radius.</p>
 
 <p>(To be continued)</p>
 
-<h1 id="ebeam-basics">Ebeam basics</h1>
 <ul>
   <li>How stable do things need to be</li>
   <li>Why is the column this big</li>
@@ -522,6 +539,7 @@
   <li>Stanford <a href="https://drive.google.com/file/d/1QefNaVA8mRoXeRkXaiWEuVK5TIaO3ECp/view">EBL Practical Guide</a> (<a href="/assets/doc/2024/EBL Practical Guide-Feb 2024.pdf">backup</a>)</li>
   <li>BEAMER training from GenISys: <a href="https://www.genisys-gmbh.com/webinar-series-beamer-training.html">Webinar Series - BEAMER Training</a></li>
   <li>Yale Institute for Nanoscience and Quantum Engineering: <a href="https://nano.yale.edu/electron-beam-lithography-training">Electron-Beam Lithography Training</a>.</li>
+  <li>The University of Manchester: <a href="https://research.manchester.ac.uk/en/equipments/raith-ebpg5200-100kv-e-beam-lithography-system-aka-vistec">Raith: EBPG5200 100kV e-Beam Lithography System (aka Vistec)</a></li>
 </ol>
 
 <h2 id="training-videos">Training videos</h2>
@@ -530,11 +548,12 @@
   <li><a href="https://www.youtube.com/watch?v=SQhP-k8iYWM">JEOL JBX-9300FS EBL (2 of 2) - training video (Georgia Tech - Microelectronics Research Center)</a></li>
 </ol>
 
-<h2 id="papers">Papers</h2>
+<h2 id="papers-and-books">Papers and books</h2>
 <ol>
   <li>Altissimo, Matteo. “E-beam lithography for micro-/nanofabrication.” Biomicrofluidics 4.2 (2010). <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2917861/">link</a></li>
   <li>Chen, Yifang. “Nanofabrication by electron beam lithography and its applications: A review.” Microelectronic Engineering 135 (2015): 57-72. <a href="https://www.sciencedirect.com/science/article/abs/pii/S016793171500101X?via%3Dihub">link</a></li>
   <li>Gilmour Jr, Alexander S., and A. S. Gilmour. Klystrons, traveling wave tubes, magnetrons, crossed-field amplifiers, and gyrotrons. Artech House, 2011.</li>
+  <li>Rai-Choudhury, Prosenjit. Handbook of microlithography, micromachining, and microfabrication: microlithography. Vol. 39. SPIE press, 1997.</li>
 </ol>
 
 

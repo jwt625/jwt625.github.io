@@ -150,7 +150,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Yapping on ebeam lithography",
-        "excerpt":"What is EBeam litho, and why? Ebeam lithography, as the name suggests, is using electron beams for lithography. Lithograph has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the...","categories": ["Tutorial"],
+        "excerpt":"What is EBeam litho, and why Ebeam lithography, as the name suggests, is using electron beams for lithography. Lithograph has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the...","categories": ["Tutorial"],
         "tags": ["Nanofab","Lithography","Electron"],
         "url": "/tutorial/yapping-on-ebeam-lithography/",
         "teaser": null
