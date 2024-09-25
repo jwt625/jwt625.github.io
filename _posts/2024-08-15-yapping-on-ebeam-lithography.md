@@ -18,20 +18,42 @@ header:
 
 
 
-# What is EBeam litho, and why?
+# What is EBeam litho, and why
 
 Ebeam lithography, as the name suggests, is using electron beams for lithography. [Lithograph](https://en.wikipedia.org/wiki/Lithography) has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the mask. It is a powerful technique at the time to mass produce drawings and maps, and later photos (photography). When people start to think about how to reduce the size of electronic circuits in the 1950s, they adopted photographic technique (using optics to shrink and project the pattern, expose and develop the [photoresist](https://en.wikipedia.org/wiki/Photoresist) just like in photography) and thus coined the term [photolithography](https://en.wikipedia.org/wiki/Photolithography). Circuit designers would draw the circuit layout on a big canvas, that would later [tapeout](https://en.wikipedia.org/wiki/Tape-out) (it is still called tapeout to this date even physical tape is no longer involved) and be shrinked into a [photomask](https://en.wikipedia.org/wiki/Photomask), and shrinked again by the photolitho system onto the wafer. The quest for shrinking the size of electronic circuits and transistors has been on a non-stop march, and shorter wavelengths are needed because of refractive limit of the resolution. But you know what has a much shorter wavelengths? Electrons!
 
-Let's quickly estimate typical "wavelengths" of electrons in an electron beam. Assuming 10 kV of acceleration, that makes its speed roughly $$0.2 c$$, where $$c$$ is the speed of light. This is without relativistic correction, which will be $$10\%$$ or $$ 20\%$$ so let's ignore it. The corresponding momentum is $$ 5\times 10^{-23}~\text{kg}\cdot\text{m/s} $$ (hmm this is suspiciously close to Boltzmann constant... whatever), and these electrons's [de Broglie wavelength](https://en.wikipedia.org/wiki/Matter_wave) would be $$ 1.2\times 10^{-11}~\text{m} $$ or 12 pm. If we were to get light with wavelength this small, they would be called [gamma rays](https://en.wikipedia.org/wiki/Gamma_ray).
+Let's quickly estimate typical "wavelengths" of electrons in an electron beam. Assuming 10 kV of acceleration, that makes its speed roughly $$0.2 c$$, where $$c$$ is the speed of light. This is without relativistic correction, which will be $$10\%$$ or $$ 20\%$$ so let's ignore it. The corresponding momentum is $$ 5\times 10^{-23}~\text{kg}\cdot\text{m/s} $$ (hmm this is suspiciously close to Boltzmann constant... whatever), and these electrons's [de Broglie wavelength](https://en.wikipedia.org/wiki/Matter_wave) would be $$ 1.2\times 10^{-11}~\text{m} $$ or 12 pm. If we were to get light with wavelength this small, they would be called [gamma rays](https://en.wikipedia.org/wiki/Gamma_ray). 
+
+Electrons are used for many things even before [its discovery](https://www.britannica.com/science/atom/Discovery-of-electrons) in 1897, before which electron beams would only be called [cathode rays](https://en.wikipedia.org/wiki/Cathode_ray). They are nice in many ways, it is "free" (heat up a metal enough and electrons would run out of it, see thermionic emission), it is charged, which means it's easy to manipulate with electric and magnetic field, and it interacts with stuff like generating fluorescence light. Thus the cathode ray tube for display, and scanning electron microscopy for seeing small stuff.
 
 
-Electrons are used for many things even before [its discovery](https://www.britannica.com/science/atom/Discovery-of-electrons) in 1897, before which electron beams would only be called [cathode rays](https://en.wikipedia.org/wiki/Cathode_ray). Electrons are nice in many ways, it is "free" (heat up a metal enough and electrons would run out of it, see thermionic emission), it is charged, which means it's easy to manipulate with electric and magnetic field, and it interacts with stuff like generating fluorescence light.
+# Ebeam basic specs and why
+
+
+## How do we deflect the electron beam
+
+The answer is simple: there are four fundamental force, and we really only have two options: electric field and magnetic field.
+
+
+Let's try to estimate how much electric field or magnetic field we need to deflect the electrons by some reasonable angle. 
+- It is funny to me that the wikipedia article on [electrostatic deflection](https://en.wikipedia.org/wiki/Electrostatic_deflection) does not have a single voltage number in it (at the time of the writing: 20240924). 
+- For electric field, it is simple: it should be comparable to $$ V_a \cdot \tan\theta $$, where $$V_a$$ is the acceleration voltage, and $$\theta$$ is the deflection angle. Hence for small deflection of a ~20 kV beam, it should be a couple hundred volts to a few kV. 
+- For magnetic field, it depends on the radius of the trajectory which is limited by the size of the machine, and let's say it is $$ r = 0.1~\text{m}$$. The resulting magnetic field $$B = mv/e/r \approx 5~\text{mT} = 50~\text{G}$$ (assuming speed of 0.3c or 30 keV acceleration). Hmm this magnetic field is actually pretty close to the target for a few coils I winded lol, so I could straight tell you that you need ~2000 turns with a current of ~100 mA.
+
+![image45.png](/assets/images/2024/ebeam/image45.png)
+*The coil I winded for tuning superconducting resonators in a dilfridge. It uses NbTi wire from [Supercon Inc.](https://www.supercon-wire.com/)*
+
+Well actually before we move on, let's also estimate how much mass we need to deflect the beam with gravity lol. Assuming the same force and radius, we have $$e v  B = GMm/r^2$$, and voila, $$M =$$ 7e24 kg. Mass of the earth is 6e24 kg. Damn why are they so close. If we want this mass to fit inside the radius of the ebeam trajectory, it would be only 10x larger than the Schwarzschild radius.
+
+
+
 
 (To be continued)
 
 
 
-# Ebeam basics
+
+
 - How stable do things need to be
 - Why is the column this big
 - Where are the electrons going
@@ -162,15 +184,19 @@ Lastly, I would like to say that even with all these years of experience, I am n
 2. Stanford [EBL Practical Guide](https://drive.google.com/file/d/1QefNaVA8mRoXeRkXaiWEuVK5TIaO3ECp/view) ([backup](/assets/doc/2024/EBL Practical Guide-Feb 2024.pdf))
 3. BEAMER training from GenISys: [Webinar Series - BEAMER Training](https://www.genisys-gmbh.com/webinar-series-beamer-training.html)
 4. Yale Institute for Nanoscience and Quantum Engineering: [Electron-Beam Lithography Training](https://nano.yale.edu/electron-beam-lithography-training).
+5. The University of Manchester: [Raith: EBPG5200 100kV e-Beam Lithography System (aka Vistec)](https://research.manchester.ac.uk/en/equipments/raith-ebpg5200-100kv-e-beam-lithography-system-aka-vistec)
+
 
 ## Training videos
 4. [JEOL JBX-9300FS EBL (1 of 2) - training video (Georgia Tech - Microelectronics Research Center)](https://www.youtube.com/watch?v=q8h5xYJX-_U)
 5. [JEOL JBX-9300FS EBL (2 of 2) - training video (Georgia Tech - Microelectronics Research Center)](https://www.youtube.com/watch?v=SQhP-k8iYWM)
 
 
-## Papers
+## Papers and books
 1. Altissimo, Matteo. "E-beam lithography for micro-/nanofabrication." Biomicrofluidics 4.2 (2010). [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2917861/)
 2. Chen, Yifang. "Nanofabrication by electron beam lithography and its applications: A review." Microelectronic Engineering 135 (2015): 57-72. [link](https://www.sciencedirect.com/science/article/abs/pii/S016793171500101X?via%3Dihub)
 3. Gilmour Jr, Alexander S., and A. S. Gilmour. Klystrons, traveling wave tubes, magnetrons, crossed-field amplifiers, and gyrotrons. Artech House, 2011.
+4. Rai-Choudhury, Prosenjit. Handbook of microlithography, micromachining, and microfabrication: microlithography. Vol. 39. SPIE press, 1997.
+
 
 
