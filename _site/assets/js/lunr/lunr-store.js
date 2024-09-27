@@ -149,12 +149,6 @@ var store = [{
         "url": "/ofs/weekly-OFS-7/",
         "teaser": null
       },{
-        "title": "Yapping on ebeam lithography",
-        "excerpt":"What is EBeam litho, and why Ebeam lithography, as the name suggests, is using electron beams for lithography. Lithograph has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the...","categories": ["Tutorial"],
-        "tags": ["Nanofab","Lithography","Electron"],
-        "url": "/tutorial/yapping-on-ebeam-lithography/",
-        "teaser": null
-      },{
         "title": "This week's outside five sigma (#8)",
         "excerpt":"“Researchers from the University of Tokyo have trained a humanoid robot called Musashi to autonomously drive a micro car.” Youtube: Japan’s Musashi Humanoid Robot Driver Takes On Tokyo Roads Paper: Toward Autonomous Driving by Musculoskeletal Humanoids: A Study of Developed Hardware and Learning-Based Software PsiQuantum showed off their big 4...","categories": ["OFS"],
         "tags": ["Quantum","Stycast","Cryogenics","Humanoid","Robotics","Self-driving","Optics","Microwave","Sensing"],
@@ -195,5 +189,11 @@ var store = [{
         "excerpt":"A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly. Paper: PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels’ Cherenkov radiation can be used to identify different charged particles...","categories": ["OFS"],
         "tags": ["Covert","Exfiltrate","Cherenkov","Oscilloscope","Electronics","EBL","Nanofab","Machining","Microwave","Hologram","AMO","Lockin","Thermography"],
         "url": "/ofs/weekly-OFS-13/",
+        "teaser": null
+      },{
+        "title": "Yapping on ebeam lithography",
+        "excerpt":"What is EBeam litho, and why Ebeam lithography, as the name suggests, is using electron beams for lithography. Lithograph has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the...","categories": ["Tutorial"],
+        "tags": ["Nanofab","Lithography","Electron"],
+        "url": "/tutorial/yapping-on-ebeam-lithography/",
         "teaser": null
       }]

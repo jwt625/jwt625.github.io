@@ -101,10 +101,6 @@
 <lastmod>2024-08-11T00:00:00-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/tutorial/yapping-on-ebeam-lithography/</loc>
-<lastmod>2024-08-15T00:00:00-07:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/ofs/weekly-OFS-8/</loc>
 <lastmod>2024-08-18T00:00:00-07:00</lastmod>
 </url>
@@ -131,6 +127,10 @@
 <url>
 <loc>http://localhost:4000/ofs/weekly-OFS-13/</loc>
 <lastmod>2024-09-21T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/tutorial/yapping-on-ebeam-lithography/</loc>
+<lastmod>2024-09-27T00:00:00-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>

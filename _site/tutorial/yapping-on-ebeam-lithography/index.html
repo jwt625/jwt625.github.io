@@ -31,13 +31,13 @@
 
 
 
-  <meta property="og:image" content="http://localhost:4000/assets/images/2024/tracer-bild2-2.png">
+  <meta property="og:image" content="http://localhost:4000/assets/images/2024/ebeam/jeol_jbx-6300_61255172.jpg">
 
 
 
 
 
-  <meta property="article:published_time" content="2024-08-15T00:00:00-07:00">
+  <meta property="article:published_time" content="2024-09-27T00:00:00-07:00">
 
 
 
@@ -161,7 +161,7 @@
 
 
 <div class="page__hero--overlay"
-  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/2024/tracer-bild2-2.png');"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/2024/ebeam/jeol_jbx-6300_61255172.jpg');"
 >
   
     <div class="wrapper">
@@ -180,7 +180,7 @@
       <span class="page__meta-date">
         <i class="far fa-calendar-alt" aria-hidden="true"></i>
         
-        <time datetime="2024-08-15T00:00:00-07:00">August 15, 2024</time>
+        <time datetime="2024-09-27T00:00:00-07:00">September 27, 2024</time>
       </span>
     
 
@@ -193,7 +193,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          11 minute read
+          12 minute read
         
       </span>
     
@@ -328,7 +328,7 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Yapping on ebeam lithography">
     <meta itemprop="description" content="What is EBeam litho, and why">
-    <meta itemprop="datePublished" content="2024-08-15T00:00:00-07:00">
+    <meta itemprop="datePublished" content="2024-09-27T00:00:00-07:00">
     
 
     <div class="page__inner-wrap">
@@ -345,11 +345,26 @@
         
         <h1 id="what-is-ebeam-litho-and-why">What is EBeam litho, and why</h1>
 
-<p>Ebeam lithography, as the name suggests, is using electron beams for lithography. <a href="https://en.wikipedia.org/wiki/Lithography">Lithograph</a> has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the mask. It is a powerful technique at the time to mass produce drawings and maps, and later photos (photography). When people start to think about how to reduce the size of electronic circuits in the 1950s, they adopted photographic technique (using optics to shrink and project the pattern, expose and develop the <a href="https://en.wikipedia.org/wiki/Photoresist">photoresist</a> just like in photography) and thus coined the term <a href="https://en.wikipedia.org/wiki/Photolithography">photolithography</a>. Circuit designers would draw the circuit layout on a big canvas, that would later <a href="https://en.wikipedia.org/wiki/Tape-out">tapeout</a> (it is still called tapeout to this date even physical tape is no longer involved) and be shrinked into a <a href="https://en.wikipedia.org/wiki/Photomask">photomask</a>, and shrinked again by the photolitho system onto the wafer. The quest for shrinking the size of electronic circuits and transistors has been on a non-stop march, and shorter wavelengths are needed because of refractive limit of the resolution. But you know what has a much shorter wavelengths? Electrons!</p>
+<p>Ebeam lithography, as the name suggests, is using electron beams for lithography. <a href="https://en.wikipedia.org/wiki/Lithography">Lithograph</a> has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the mask. It is a powerful technique at the time to mass produce drawings and maps, and later photos (photography).</p>
+
+<p>When people start to think about how to reduce the size of electronic circuits in the 1950s, they adopted photographic technique (using optics to shrink and project the pattern, expose and develop the <a href="https://en.wikipedia.org/wiki/Photoresist">photoresist</a> just like in photography) and thus coined the term <a href="https://en.wikipedia.org/wiki/Photolithography">photolithography</a>. Circuit designers would draw the circuit layout on a big canvas, that would later <a href="https://en.wikipedia.org/wiki/Tape-out">tapeout</a> (it is still called tapeout to this date even physical tape is no longer involved) and be shrinked into a <a href="https://en.wikipedia.org/wiki/Photomask">photomask</a>, and shrinked again by the photolitho system onto the wafer. The quest for shrinking the size of electronic circuits and transistors has been on a non-stop march, and shorter wavelengths are needed because of refractive limit of the resolution. But you know what has a much shorter wavelengths? Electrons!</p>
 
 <p>Let’s quickly estimate typical “wavelengths” of electrons in an electron beam. Assuming 10 kV of acceleration, that makes its speed roughly \(0.2 c\), where \(c\) is the speed of light. This is without relativistic correction, which will be \(10\%\) or \(20\%\) so let’s ignore it. The corresponding momentum is \(5\times 10^{-23}~\text{kg}\cdot\text{m/s}\) (hmm this is suspiciously close to Boltzmann constant… whatever), and these electrons’s <a href="https://en.wikipedia.org/wiki/Matter_wave">de Broglie wavelength</a> would be \(1.2\times 10^{-11}~\text{m}\) or 12 pm. If we were to get light with wavelength this small, they would be called <a href="https://en.wikipedia.org/wiki/Gamma_ray">gamma rays</a>.</p>
 
-<p>Electrons are used for many things even before <a href="https://www.britannica.com/science/atom/Discovery-of-electrons">its discovery</a> in 1897, before which electron beams would only be called <a href="https://en.wikipedia.org/wiki/Cathode_ray">cathode rays</a>. They are nice in many ways, it is “free” (heat up a metal enough and electrons would run out of it, see thermionic emission), it is charged, which means it’s easy to manipulate with electric and magnetic field, and it interacts with stuff like generating fluorescence light. Thus the cathode ray tube for display, and scanning electron microscopy for seeing small stuff.</p>
+<p>Another way to think about the wavelength or resolution ability of these tens of kV electrons is, 1 eV photons are around 1 um wavelength, so 10 keV photons would be 0.1 nm wavelength, pretty close to the calculation above. The reason why no one uses gamma rays for photolitho is probably they are hard to generate, and photons do not interact with each other except indirectly via atoms or nonlinear dielectrics, or high enough energy to have quantum electrodynamics shit going. People are already using mirrors for 13.5 nm photon EUV photolitho instead of lenses because of transmission loss, and those mirrors have crazy specs (the YouTube channel Asianometry has a series of videos (e.g.: <a href="https://www.youtube.com/watch?v=UdcFpjgCnP8">ASML’s High-NA EUV Lithography: A 2024 Update</a>) about EUV and they are very informative). Gamma rays would mostly just pass through things, and happily ionizing stuff along the way.</p>
+
+<p>Ok back to ebeam. Electrons are used for many things even before <a href="https://www.britannica.com/science/atom/Discovery-of-electrons">its discovery</a> in 1897, before which electron beams would only be called <a href="https://en.wikipedia.org/wiki/Cathode_ray">cathode rays</a>. They are nice in many ways, it is “free” (heat up a metal enough and electrons would run out of it, see thermionic emission), it is charged, which means it’s easy to manipulate with electric and magnetic field, and it interacts with stuff like generating fluorescence light. Thus the cathode ray tube for display, and scanning electron microscopy for seeing small stuff.</p>
+
+<p>The first use of ebeam for direct write lithography is more than 60 years old, and it has evolved into many different kinds for different purposes. Here we will focus on just some common aspects of ebeam litho, and tools that I have used which are all single pixel Gaussian beam, from Raith 150 Two, to JEOL JBX 6300FS (my favorite!), Raith Voyager, and most recently Raith EBPG 5200+.</p>
+
+<p><img src="/assets/images/2024/ebeam/ebeam_litho_evolution.png" alt="ebeam_evolution" />
+<em>From <a href="/assets/doc/2024/EBL_paper/pfeiffer2010.pdf">Pfeiffer2010</a></em></p>
+
+<p><img src="/assets/images/2024/ebeam/EBPG_history.png" alt="ebpg_histpry" />
+<em>History of EBPG. From <a href="https://nano.yale.edu/history">Yale: Electron-Beam Lithography Training » History</a></em></p>
+
+<p><img src="/assets/images/2024/ebeam/JEOL_JBX_history.jpg" alt="JEOL_JBX_history" />
+<em>History of JEOL JBX. From <a href="https://www.jeol.com/solutions/applications/details/se2024-01.php">Application note: Development of JBX-A9, Electron Beam Lithography System</a></em></p>
 
 <h1 id="ebeam-basic-specs-and-why">Ebeam basic specs and why</h1>
 
@@ -417,6 +432,12 @@
       <li>PEC</li>
     </ul>
   </li>
+</ul>
+
+<p><img src="/assets/images/2024/tracer-bild2-2.png" alt="tracer-bild2-2.png" />
+<em>Simulation of the scattering path of electrons.</em></p>
+
+<ul>
   <li>Mounting your chip
     <ul>
       <li>front vs. back referenced</li>
@@ -554,8 +575,10 @@
   <li>Chen, Yifang. “Nanofabrication by electron beam lithography and its applications: A review.” Microelectronic Engineering 135 (2015): 57-72. <a href="https://www.sciencedirect.com/science/article/abs/pii/S016793171500101X?via%3Dihub">link</a></li>
   <li>Gilmour Jr, Alexander S., and A. S. Gilmour. Klystrons, traveling wave tubes, magnetrons, crossed-field amplifiers, and gyrotrons. Artech House, 2011.</li>
   <li>Rai-Choudhury, Prosenjit. Handbook of microlithography, micromachining, and microfabrication: microlithography. Vol. 39. SPIE press, 1997.</li>
+  <li>Pfeiffer, Hans C. “Direct write electron beam lithography: a historical overview.” Photomask Technology 2010. Vol. 7823. SPIE, 2010.</li>
 </ol>
 
+<p>(This post is started on 2024-08-15, and finished on TBA. Last updated on TBA.)</p>
 
         
       </section>
@@ -601,7 +624,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-08-15T00:00:00-07:00">August 15, 2024</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-09-27T00:00:00-07:00">September 27, 2024</time></p>
 
       </footer>
 
@@ -619,12 +642,11 @@
       
   <nav class="pagination">
     
-      <a href="/ofs/weekly-OFS-7/" class="pagination--pager" title="This week’s outside five sigma (#7)
+      <a href="/ofs/weekly-OFS-13/" class="pagination--pager" title="This week’s outside five sigma (#13)
 ">Previous</a>
     
     
-      <a href="/ofs/weekly-OFS-8/" class="pagination--pager" title="This week’s outside five sigma (#8)
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -796,7 +818,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
-          3 minute read
+          2 minute read
         
       </span>
     
