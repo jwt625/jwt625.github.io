@@ -19,6 +19,7 @@ header:
 ---
 
 (Continuously updating)
+
 Last updated: 2024-09-30
 
 
@@ -69,4 +70,32 @@ See also [twitter thread](https://x.com/jwt0625/status/1837513786422710537).
 ![open_two_photon_uscope.jfif](/assets/images/2024/OpenHardware/open_two_photon_uscope.jfif)
 
 
+
+# Sensing, robotics and computer vision
+
+(under construction)
+
+1. [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini)
+
+
+2. Alex Koch's [low_cost_robot](https://github.com/AlexanderKoch-Koch/low_cost_robot) arm
+
+
+## Gripper
+
+1. [OpenGrip](https://github.com/clayhaight01/OpenGrip)
+
+2. UMI gripper: [universal_manipulation_interface](https://github.com/real-stanford/universal_manipulation_interface)
+
+
+## Vision
+
+1. [OpenGlass](https://github.com/BasedHardware/OpenGlass)
+
+
+# Electronics test equipments
+
+(under construction)
+
+1. [ThunderScope](https://github.com/EEVengers/ThunderScope)
 
