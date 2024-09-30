@@ -168,32 +168,44 @@ var store = [{
         "teaser": null
       },{
         "title": "This week's outside five sigma (#10)",
-        "excerpt":"Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975. Team 6502 website This LEGO enthusiast makes really good 3D model / part list / assembling instruction for the designs Website: CHRIS MCVEIGH’S BUILDING...","categories": ["OFS"],
+        "excerpt":"1. Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975. - Team 6502 [website](https://www.team6502.org/) ![MOS_Tech_6502](/assets/images/2024/MOS_Tech_6502.jpeg) 2. This LEGO enthusiast makes really good 3D model / part list / assembling instruction for the designs...","categories": ["OFS"],
         "tags": ["Nanofab","Semiconductor","Vision","Nanofab","Electronics","Behavior","Radar","Starlink","Lithography","Robotics","LEGO"],
         "url": "/ofs/weekly-OFS-10/",
         "teaser": null
       },{
         "title": "This week's outside five sigma (#11)",
-        "excerpt":"This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff. Paper: Ultra-Wideband RF-Photonics...","categories": ["OFS"],
+        "excerpt":"1. This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (< 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff. - Paper:...","categories": ["OFS"],
         "tags": ["AWG","Integrated_photonics","SC_qubit","Nanofab","Math","Encryption","Laser","Behavior","Biology","Robotics","Art","Mechanics","Simulation","Photonics","Optics"],
         "url": "/ofs/weekly-OFS-11/",
         "teaser": null
       },{
         "title": "This week's outside five sigma (#12)",
-        "excerpt":"Thomae’s function is somehow linked to the visual density of points of a 2D grid. Wikipedia: Thomae’s function Twitter thread Next time when you are spending $200 to get 8 GB more memory for your macbook, remember that money is more than enough to buy you two credit card-sized single-board...","categories": ["OFS"],
+        "excerpt":"1. Thomae's function is somehow linked to the visual density of points of a 2D grid. - Wikipedia: [Thomae's function](https://en.wikipedia.org/wiki/Thomae's_function) - [Twitter thread](https://x.com/jwt0625/status/1831694447870144747) ![I5_tree_grid_thomae_function.jpeg](/assets/images/2024/I5_tree_grid_thomae_function.jpeg) ![Thomae_function_grid_angular_density.png](/assets/images/2024/Thomae_function_grid_angular_density.png) 2. Next time when you are spending $200 to get 8 GB more memory for your macbook, remember that money is more than enough to...","categories": ["OFS"],
         "tags": ["Math","Mini-PC","Laser","Fusion","Pyroelectrics","Mayonnaise","Rayleigh-Taylor-instability","Barcode","Silicon","Nanofab","MEMS","Qubit","AI","TMS","Laser-ablation","Exfiltrate"],
         "url": "/ofs/weekly-OFS-12/",
         "teaser": null
       },{
         "title": "This week's outside five sigma (#13)",
-        "excerpt":"A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly. Paper: PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels’ Cherenkov radiation can be used to identify different charged particles...","categories": ["OFS"],
+        "excerpt":"1. A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly. - Paper: [PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels'](https://arxiv.org/abs/2409.04930) ![monitor_acoustic_spying.jpeg](/assets/images/2024/monitor_acoustic_spying.jpeg) 2. Cherenkov radiation can be used to...","categories": ["OFS"],
         "tags": ["Covert","Exfiltrate","Cherenkov","Oscilloscope","Electronics","EBL","Nanofab","Machining","Microwave","Hologram","AMO","Lockin","Thermography"],
         "url": "/ofs/weekly-OFS-13/",
         "teaser": null
       },{
         "title": "Yapping on ebeam lithography",
-        "excerpt":"What is EBeam litho, and why Ebeam lithography, as the name suggests, is using electron beams for lithography. Lithograph has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the...","categories": ["Tutorial"],
+        "excerpt":"# What is EBeam litho, and why Ebeam lithography, as the name suggests, is using electron beams for lithography. [Lithograph](https://en.wikipedia.org/wiki/Lithography) has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using...","categories": ["Tutorial"],
         "tags": ["Nanofab","Lithography","Electron"],
         "url": "/tutorial/yapping-on-ebeam-lithography/",
+        "teaser": null
+      },{
+        "title": "Open source hardware collections",
+        "excerpt":"(Continuously updating) Last updated: 2024-09-30 Cheap and open optics/photonics/positioner See also twitter thread. OpenFlexure: sub-micron-scale motion over a range of 8 × 8 × 4 mm. Drift less than 20 um over a week. https://openflexure.org/projects/microscope/ https://gitlab.com/openflexure/openflexure-microscope Paper: A one-piece 3D printed flexure translation stage for open-source microscopy OpenUC2: almost feels...","categories": ["Blog"],
+        "tags": ["OpenSource","Optics","Photonics","Nanopositioning","Flexure"],
+        "url": "/blog/open-source-collections/",
+        "teaser": null
+      },{
+        "title": "This week's outside five sigma (#14)",
+        "excerpt":"1. The nice rendering of the NIF fuel pellet/capsule holder got a cool flexure design. Turns out it is called thermomechanical packaging (TMP). Flexure is made of titanium & designed to apply pressure evenly. - Rendering image is from IEEE Spectrum: [Momentary Fusion Breakthroughs Face Hard Reality](https://spectrum.ieee.org/nuclear-fusion-breakthrough-long-road) - Blog: [Designing...","categories": ["OFS"],
+        "tags": ["Robotics","Prosthetic","Fusion","Electronics","Optimization","RL","Sensor","Sensing","Noise","MEMS","Blackhole","Optics","ifixit"],
+        "url": "/ofs/weekly-OFS-14/",
         "teaser": null
       }]
