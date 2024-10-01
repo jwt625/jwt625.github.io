@@ -191,12 +191,6 @@ var store = [{
         "url": "/ofs/weekly-OFS-13/",
         "teaser": null
       },{
-        "title": "Yapping on ebeam lithography",
-        "excerpt":"What is EBeam litho, and why Ebeam lithography, as the name suggests, is using electron beams for lithography. Lithograph has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the...","categories": ["Tutorial"],
-        "tags": ["Nanofab","Lithography","Electron"],
-        "url": "/tutorial/yapping-on-ebeam-lithography/",
-        "teaser": null
-      },{
         "title": "Open source hardware collections",
         "excerpt":"(Continuously updating) Last updated: 2024-09-30 Cheap and open optics/photonics/positioner See also twitter thread. OpenFlexure: sub-micron-scale motion over a range of 8 × 8 × 4 mm. Drift less than 20 um over a week. https://openflexure.org/projects/microscope/ https://gitlab.com/openflexure/openflexure-microscope Paper: A one-piece 3D printed flexure translation stage for open-source microscopy OpenUC2: almost feels...","categories": ["Blog"],
         "tags": ["OpenSource","Optics","Photonics","Nanopositioning","Flexure"],
@@ -207,5 +201,11 @@ var store = [{
         "excerpt":"The nice rendering of the NIF fuel pellet/capsule holder got a cool flexure design. Turns out it is called thermomechanical packaging (TMP). Flexure is made of titanium &amp; designed to apply pressure evenly. Rendering image is from IEEE Spectrum: Momentary Fusion Breakthroughs Face Hard Reality Blog: Designing for Ignition: Precise...","categories": ["OFS"],
         "tags": ["Robotics","Prosthetic","Fusion","Electronics","Optimization","RL","Sensor","Sensing","Noise","MEMS","Blackhole","Optics","ifixit","R2R","NIL"],
         "url": "/ofs/weekly-OFS-14/",
+        "teaser": null
+      },{
+        "title": "Yapping on ebeam lithography",
+        "excerpt":"The cover of this blog was the JEOL JBX 6300FS at Stanford SNSF. I love it. Here is the evolution of JEOL JBX series. History of JEOL JBX. From Application note: Development of JBX-A9, Electron Beam Lithography System What is EBeam litho, and why Ebeam lithography, as the name suggests,...","categories": ["Tutorial"],
+        "tags": ["Nanofab","Lithography","Electron"],
+        "url": "/tutorial/yapping-on-ebeam-lithography/",
         "teaser": null
       }]
