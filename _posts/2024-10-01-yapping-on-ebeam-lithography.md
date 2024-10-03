@@ -33,7 +33,7 @@ Let's quickly estimate typical "wavelengths" of electrons in an electron beam. A
 
 Another way to think about the wavelength or resolution ability of these tens of kV electrons is, 1 eV photons are around 1 um wavelength, so 10 keV photons would be 0.1 nm wavelength, pretty close to the calculation above. The reason why no one uses gamma rays for photolitho is probably they are hard to generate, and photons do not interact with each other except indirectly via atoms or nonlinear dielectrics, or high enough energy to have quantum electrodynamics shit going. People are already using mirrors for 13.5 nm photon EUV photolitho instead of lenses because of transmission loss, and those mirrors have crazy specs (the YouTube channel Asianometry has a series of videos (e.g.: [ASML's High-NA EUV Lithography: A 2024 Update](https://www.youtube.com/watch?v=UdcFpjgCnP8)) about EUV and they are very informative). Gamma rays would mostly just pass through things, and happily ionizing stuff along the way.
 
-Ok back to ebeam. Electrons are used for many things even before [its discovery](https://www.britannica.com/science/atom/Discovery-of-electrons) in 1897, before which electron beams would only be called [cathode rays](https://en.wikipedia.org/wiki/Cathode_ray). They are nice in many ways, it is "free" (heat up a metal enough and electrons would run out of it, see thermionic emission), it is charged, which means it's easy to manipulate with electric and magnetic field, and it interacts with stuff like generating fluorescence light. Thus the cathode ray tube for display, and scanning electron microscopy for seeing small stuff. As I elarnt recently, some ebeam litho equipments actually work more like a display, and it's called shaped beam.
+Ok back to ebeam. Electrons are used for many things even before [its discovery](https://www.britannica.com/science/atom/Discovery-of-electrons) in 1897, before which electron beams would only be called [cathode rays](https://en.wikipedia.org/wiki/Cathode_ray). They are nice in many ways, it is "free" (heat up a metal enough and electrons would run out of it, see thermionic emission), it is charged, which means it's easy to manipulate with electric and magnetic field, and it interacts with stuff like generating fluorescence light. Thus the cathode ray tube for display, and scanning electron microscopy for seeing small stuff. As I learnt recently, some ebeam litho equipments actually work more like a display, and it's called shaped beam.
 
 
 ![ebeam_evolution](/assets/images/2024/ebeam/ebeam_litho_evolution.png)
@@ -98,6 +98,15 @@ Overwhelming? They are all fun to understand and some of these numbers are crazy
 ### Electron source and emission
 
 
+I don't know much about this part. Need to read more and add more later.
+
+One fun thing I learnt recently is that, for high current stuff, the emission could be explosive arounf sharp features, and corrode the emitter. The advantage is that the emission current density can be much higher and in the range of $$10^6\sim10^8$$ A/cm^2.
+
+![emission_types](/assets/images/2024/ebeam/emission_types.png)
+![explosive_emission](/assets/images/2024/ebeam/explosive_emission.png)
+(From thesis [Relativistic magnetron with diffraction output and split cathode](https://digitalrepository.unm.edu/ece_etds/528/))
+
+
 ### Why higher voltage?
 
 The beam is better. Here are two examples I ran by tweaking the comsol charged particle tracing example a bit. It solves for how the ebeam will diverge from interacting with its own E and B field.
@@ -106,10 +115,10 @@ The beam is better. Here are two examples I ran by tweaking the comsol charged p
 
 The first solution shows the ebeam trajectories with 1e8 m/s beam or 30 kV, and the second solution shows a 2e8 m/s beam, or 175 kV (notice how nonlinear this velocity vs voltage is because of relativity. Try it yourself at [this calculator](https://www.ou.edu/research/electron/bmz5364/calc-kv.html).). I did not bother to change the current or size of the beam, but the point of having higher acceleration voltage is very clear.
 
-![ebeam_trajectory](/assets/images/2024/ebeam/trajectory_3A_v=1e8.PNG)
+![ebeam_trajectory_1e8](/assets/images/2024/ebeam/trajectory_3A_v=1e8.PNG)
 *Divergence of ebeam trajectory with 30 kV acceleration voltage.*
 
-![ebeam_trajectory](/assets/images/2024/ebeam/trajectory_3A_v=1e8.PNG)
+![ebeam_trajectory_2e8](/assets/images/2024/ebeam/trajectory_3A_v=2e8.PNG)
 *175 kV acceleration, much smaller divergence*
 
 Ok now let's see if we could do this with pen and paper instead of a fancy simulation.
