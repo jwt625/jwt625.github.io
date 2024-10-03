@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-01T08:30:22-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">Yapping on ebeam lithography</title><link href="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/" rel="alternate" type="text/html" title="Yapping on ebeam lithography" /><published>2024-10-01T00:00:00-07:00</published><updated>2024-10-01T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/yapping-on-ebeam-lithography</id><content type="html" xml:base="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/"><![CDATA[<p>The cover of this blog was the JEOL JBX 6300FS at Stanford <a href="https://snsf.stanford.edu/">SNSF</a>. I love it. Here is the evolution of JEOL JBX series.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-02T19:02:56-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">Yapping on ebeam lithography</title><link href="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/" rel="alternate" type="text/html" title="Yapping on ebeam lithography" /><published>2024-10-01T00:00:00-07:00</published><updated>2024-10-01T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/yapping-on-ebeam-lithography</id><content type="html" xml:base="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/"><![CDATA[<p>The cover of this blog was the JEOL JBX 6300FS at Stanford <a href="https://snsf.stanford.edu/">SNSF</a>. I love it. Here is the evolution of JEOL JBX series.</p>
 
 <p><img src="/assets/images/2024/ebeam/JEOL_JBX_history.jpg" alt="JEOL_JBX_history" />
 <em>History of JEOL JBX. From <a href="https://www.jeol.com/solutions/applications/details/se2024-01.php">Application note: Development of JBX-A9, Electron Beam Lithography System</a></em></p>
@@ -13,7 +13,7 @@
 
 <p>Another way to think about the wavelength or resolution ability of these tens of kV electrons is, 1 eV photons are around 1 um wavelength, so 10 keV photons would be 0.1 nm wavelength, pretty close to the calculation above. The reason why no one uses gamma rays for photolitho is probably they are hard to generate, and photons do not interact with each other except indirectly via atoms or nonlinear dielectrics, or high enough energy to have quantum electrodynamics shit going. People are already using mirrors for 13.5 nm photon EUV photolitho instead of lenses because of transmission loss, and those mirrors have crazy specs (the YouTube channel Asianometry has a series of videos (e.g.: <a href="https://www.youtube.com/watch?v=UdcFpjgCnP8">ASML’s High-NA EUV Lithography: A 2024 Update</a>) about EUV and they are very informative). Gamma rays would mostly just pass through things, and happily ionizing stuff along the way.</p>
 
-<p>Ok back to ebeam. Electrons are used for many things even before <a href="https://www.britannica.com/science/atom/Discovery-of-electrons">its discovery</a> in 1897, before which electron beams would only be called <a href="https://en.wikipedia.org/wiki/Cathode_ray">cathode rays</a>. They are nice in many ways, it is “free” (heat up a metal enough and electrons would run out of it, see thermionic emission), it is charged, which means it’s easy to manipulate with electric and magnetic field, and it interacts with stuff like generating fluorescence light. Thus the cathode ray tube for display, and scanning electron microscopy for seeing small stuff. As I elarnt recently, some ebeam litho equipments actually work more like a display, and it’s called shaped beam.</p>
+<p>Ok back to ebeam. Electrons are used for many things even before <a href="https://www.britannica.com/science/atom/Discovery-of-electrons">its discovery</a> in 1897, before which electron beams would only be called <a href="https://en.wikipedia.org/wiki/Cathode_ray">cathode rays</a>. They are nice in many ways, it is “free” (heat up a metal enough and electrons would run out of it, see thermionic emission), it is charged, which means it’s easy to manipulate with electric and magnetic field, and it interacts with stuff like generating fluorescence light. Thus the cathode ray tube for display, and scanning electron microscopy for seeing small stuff. As I learnt recently, some ebeam litho equipments actually work more like a display, and it’s called shaped beam.</p>
 
 <p><img src="/assets/images/2024/ebeam/ebeam_litho_evolution.png" alt="ebeam_evolution" />
 <em>From <a href="/assets/doc/2024/EBL_paper/pfeiffer2010.pdf">Pfeiffer2010</a></em></p>
@@ -71,6 +71,14 @@
 
 <h3 id="electron-source-and-emission">Electron source and emission</h3>
 
+<p>I don’t know much about this part. Need to read more and add more later.</p>
+
+<p>One fun thing I learnt recently is that, for high current stuff, the emission could be explosive arounf sharp features, and corrode the emitter. The advantage is that the emission current density can be much higher and in the range of \(10^6\sim10^8\) A/cm^2.</p>
+
+<p><img src="/assets/images/2024/ebeam/emission_types.png" alt="emission_types" />
+<img src="/assets/images/2024/ebeam/explosive_emission.png" alt="explosive_emission" />
+(From thesis <a href="https://digitalrepository.unm.edu/ece_etds/528/">Relativistic magnetron with diffraction output and split cathode</a>)</p>
+
 <h3 id="why-higher-voltage">Why higher voltage?</h3>
 
 <p>The beam is better. Here are two examples I ran by tweaking the comsol charged particle tracing example a bit. It solves for how the ebeam will diverge from interacting with its own E and B field.</p>
@@ -79,10 +87,10 @@
 
 <p>The first solution shows the ebeam trajectories with 1e8 m/s beam or 30 kV, and the second solution shows a 2e8 m/s beam, or 175 kV (notice how nonlinear this velocity vs voltage is because of relativity. Try it yourself at <a href="https://www.ou.edu/research/electron/bmz5364/calc-kv.html">this calculator</a>.). I did not bother to change the current or size of the beam, but the point of having higher acceleration voltage is very clear.</p>
 
-<p><img src="/assets/images/2024/ebeam/trajectory_3A_v=1e8.PNG" alt="ebeam_trajectory" />
+<p><img src="/assets/images/2024/ebeam/trajectory_3A_v=1e8.PNG" alt="ebeam_trajectory_1e8" />
 <em>Divergence of ebeam trajectory with 30 kV acceleration voltage.</em></p>
 
-<p><img src="/assets/images/2024/ebeam/trajectory_3A_v=1e8.PNG" alt="ebeam_trajectory" />
+<p><img src="/assets/images/2024/ebeam/trajectory_3A_v=2e8.PNG" alt="ebeam_trajectory_2e8" />
 <em>175 kV acceleration, much smaller divergence</em></p>
 
 <p>Ok now let’s see if we could do this with pen and paper instead of a fancy simulation.</p>
