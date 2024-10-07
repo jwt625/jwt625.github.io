@@ -141,6 +141,10 @@
 <lastmod>2024-10-01T00:00:00-07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/ofs/weekly-OFS-15/</loc>
+<lastmod>2024-10-06T00:00:00-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -172,6 +176,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/page7/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page8/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/assets/doc/2024/Conserving%20Thomas%20Wilfred%E2%80%99s%20Lumia%20Suite%20__%20Keep%20It%20Moving_.pdf</loc>
