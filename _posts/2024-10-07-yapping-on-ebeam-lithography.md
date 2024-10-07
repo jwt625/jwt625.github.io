@@ -22,6 +22,7 @@ The cover of this blog was the JEOL JBX 6300FS at Stanford [SNSF](https://snsf.s
 ![JEOL_JBX_history](/assets/images/2024/ebeam/JEOL_JBX_history.jpg)
 *History of JEOL JBX. From [Application note: Development of JBX-A9, Electron Beam Lithography System](https://www.jeol.com/solutions/applications/details/se2024-01.php)*
 
+*DISCLAIMER: I'm writing this blog for fun. You should always question the numbers and practices here, and consult your colleagues, ebeam staff, and the references here for your own judgement.*
 
 # What is EBeam litho, and why
 
@@ -56,7 +57,7 @@ I think many people, me included, do not appreciate the performance or requireme
 
 ## How do we deflect the electron beam
 
-The answer is simple: there are four fundamental force, and we really only have one option: electric field and/or magnetic field.
+The answer is simple: there are four fundamental forces, and we really only have one option: electric field and/or magnetic field.
 
 
 Let's try to estimate how much electric field or magnetic field we need to deflect the electrons by some reasonable angle. 
@@ -92,6 +93,20 @@ These are the specs, from the Unviersity of Manchester [link](https://research.m
 - Wafer Writing: Holders for 3”, 4”, 6”, and 8” Wafer Writing
 - Photomask Writing: Holders for 5” and 6” Mask Plate Writing
 
+Similar Specs from [JEOL JBX-6300FS](https://www.jeol.com/products/semiconductor/ebx/JBX-6300FS.php)
+- Electron gun: ZrO/W Shottky type
+- Acceleration Voltage: 25 kV (option), 50 kV, 100 kV
+    - A newer model [JBX-8100FS](https://www.jeol.com/products/semiconductor/ebx/JBX-8100FS.php) has 200 kV option
+- 5 nm min pattern, 2 nm beam diameter, 0.125 nm DAC resolution, 0.6 nm laser interferometer resolution
+- Max field size 
+- 19 bit DAC, 50 MHz scan speed
+- Maximum Write-Field Size: 2 mm x 2 mm
+- Stage Travel Range: 190 mm x 170 mm
+- Stitching and Overlay Accuracy: <= $$\pm9$$ nm
+- Hold up to 150 mm (6 in) wafer
+- Automatic beam adjustment, dose correction and position correction
+
+
 Overwhelming? They are all fun to understand and some of these numbers are crazy. Let's go thru them one by one.
 
 
@@ -122,6 +137,9 @@ The first solution shows the ebeam trajectories with 1e8 m/s beam or 30 kV, and 
 *175 kV acceleration, much smaller divergence*
 
 Ok now let's see if we could do this with pen and paper instead of a fancy simulation.
+
+
+### Beam current, higher? Lower?
 
 
 

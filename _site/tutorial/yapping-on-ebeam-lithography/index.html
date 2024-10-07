@@ -37,7 +37,7 @@
 
 
 
-  <meta property="article:published_time" content="2024-10-01T00:00:00-07:00">
+  <meta property="article:published_time" content="2024-10-07T00:00:00-07:00">
 
 
 
@@ -180,7 +180,7 @@
       <span class="page__meta-date">
         <i class="far fa-calendar-alt" aria-hidden="true"></i>
         
-        <time datetime="2024-10-01T00:00:00-07:00">October 1, 2024</time>
+        <time datetime="2024-10-07T00:00:00-07:00">October 7, 2024</time>
       </span>
     
 
@@ -193,7 +193,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          15 minute read
+          16 minute read
         
       </span>
     
@@ -328,7 +328,7 @@
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="Yapping on ebeam lithography">
     <meta itemprop="description" content="The cover of this blog was the JEOL JBX 6300FS at Stanford SNSF. I love it. Here is the evolution of JEOL JBX series.">
-    <meta itemprop="datePublished" content="2024-10-01T00:00:00-07:00">
+    <meta itemprop="datePublished" content="2024-10-07T00:00:00-07:00">
     
 
     <div class="page__inner-wrap">
@@ -339,7 +339,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#what-is-ebeam-litho-and-why">What is EBeam litho, and why</a></li><li><a href="#ebeam-basic-specs-and-why">Ebeam basic specs and why</a><ul><li><a href="#how-do-we-deflect-the-electron-beam">How do we deflect the electron beam</a></li><li><a href="#what-are-the-specs">What are the specs?</a><ul><li><a href="#electron-source-and-emission">Electron source and emission</a></li><li><a href="#why-higher-voltage">Why higher voltage?</a></li></ul></li></ul></li><li><a href="#practical">Practical</a></li><li><a href="#appendix-a-quick-rundown-of-my-ebeam-lithography-journey">Appendix: A quick rundown of my ebeam lithography journey</a><ul><li><a href="#tools">Tools</a><ul><li><a href="#raith-150-two-2015---2017">Raith 150 Two (2015 - 2017)</a></li><li><a href="#jeol-jbx-6300fs-2017---2022">JEOL JBX 6300FS (2017 - 2022)</a></li><li><a href="#raith-voyager-2022---2023">Raith Voyager (2022 - 2023)</a></li><li><a href="#ebpg-5200-2023---2024">EBPG 5200+ (2023 - 2024)</a></li></ul></li><li><a href="#ebeam-sessions">Ebeam sessions</a></li><li><a href="#ebeam-resist">Ebeam resist</a></li><li><a href="#acknowledgements">Acknowledgements</a></li></ul></li><li><a href="#references">References</a><ul><li><a href="#lab-resources">Lab resources</a></li><li><a href="#training-videos">Training videos</a></li><li><a href="#papers-and-books">Papers and books</a></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#what-is-ebeam-litho-and-why">What is EBeam litho, and why</a></li><li><a href="#ebeam-basic-specs-and-why">Ebeam basic specs and why</a><ul><li><a href="#how-do-we-deflect-the-electron-beam">How do we deflect the electron beam</a></li><li><a href="#what-are-the-specs">What are the specs?</a><ul><li><a href="#electron-source-and-emission">Electron source and emission</a></li><li><a href="#why-higher-voltage">Why higher voltage?</a></li><li><a href="#beam-current-higher-lower">Beam current, higher? Lower?</a></li></ul></li></ul></li><li><a href="#practical">Practical</a></li><li><a href="#appendix-a-quick-rundown-of-my-ebeam-lithography-journey">Appendix: A quick rundown of my ebeam lithography journey</a><ul><li><a href="#tools">Tools</a><ul><li><a href="#raith-150-two-2015---2017">Raith 150 Two (2015 - 2017)</a></li><li><a href="#jeol-jbx-6300fs-2017---2022">JEOL JBX 6300FS (2017 - 2022)</a></li><li><a href="#raith-voyager-2022---2023">Raith Voyager (2022 - 2023)</a></li><li><a href="#ebpg-5200-2023---2024">EBPG 5200+ (2023 - 2024)</a></li></ul></li><li><a href="#ebeam-sessions">Ebeam sessions</a></li><li><a href="#ebeam-resist">Ebeam resist</a></li><li><a href="#acknowledgements">Acknowledgements</a></li></ul></li><li><a href="#references">References</a><ul><li><a href="#lab-resources">Lab resources</a></li><li><a href="#training-videos">Training videos</a></li><li><a href="#papers-and-books">Papers and books</a></li></ul></li></ul>
             </nav>
           </aside>
         
@@ -347,6 +347,8 @@
 
 <p><img src="/assets/images/2024/ebeam/JEOL_JBX_history.jpg" alt="JEOL_JBX_history" />
 <em>History of JEOL JBX. From <a href="https://www.jeol.com/solutions/applications/details/se2024-01.php">Application note: Development of JBX-A9, Electron Beam Lithography System</a></em></p>
+
+<p><em>DISCLAIMER: I’m writing this blog for fun. You should always question the numbers and practices here, and consult your colleagues, ebeam staff, and the references here for your own judgement.</em></p>
 
 <h1 id="what-is-ebeam-litho-and-why">What is EBeam litho, and why</h1>
 
@@ -374,7 +376,7 @@
 
 <h2 id="how-do-we-deflect-the-electron-beam">How do we deflect the electron beam</h2>
 
-<p>The answer is simple: there are four fundamental force, and we really only have one option: electric field and/or magnetic field.</p>
+<p>The answer is simple: there are four fundamental forces, and we really only have one option: electric field and/or magnetic field.</p>
 
 <p>Let’s try to estimate how much electric field or magnetic field we need to deflect the electrons by some reasonable angle.</p>
 <ul>
@@ -412,6 +414,24 @@
   <li>Photomask Writing: Holders for 5” and 6” Mask Plate Writing</li>
 </ul>
 
+<p>Similar Specs from <a href="https://www.jeol.com/products/semiconductor/ebx/JBX-6300FS.php">JEOL JBX-6300FS</a></p>
+<ul>
+  <li>Electron gun: ZrO/W Shottky type</li>
+  <li>Acceleration Voltage: 25 kV (option), 50 kV, 100 kV
+    <ul>
+      <li>A newer model <a href="https://www.jeol.com/products/semiconductor/ebx/JBX-8100FS.php">JBX-8100FS</a> has 200 kV option</li>
+    </ul>
+  </li>
+  <li>5 nm min pattern, 2 nm beam diameter, 0.125 nm DAC resolution, 0.6 nm laser interferometer resolution</li>
+  <li>Max field size</li>
+  <li>19 bit DAC, 50 MHz scan speed</li>
+  <li>Maximum Write-Field Size: 2 mm x 2 mm</li>
+  <li>Stage Travel Range: 190 mm x 170 mm</li>
+  <li>Stitching and Overlay Accuracy: &lt;= \(\pm9\) nm</li>
+  <li>Hold up to 150 mm (6 in) wafer</li>
+  <li>Automatic beam adjustment, dose correction and position correction</li>
+</ul>
+
 <p>Overwhelming? They are all fun to understand and some of these numbers are crazy. Let’s go thru them one by one.</p>
 
 <h3 id="electron-source-and-emission">Electron source and emission</h3>
@@ -439,6 +459,8 @@
 <em>175 kV acceleration, much smaller divergence</em></p>
 
 <p>Ok now let’s see if we could do this with pen and paper instead of a fancy simulation.</p>
+
+<h3 id="beam-current-higher-lower">Beam current, higher? Lower?</h3>
 
 <p>(To be continued)</p>
 
@@ -680,7 +702,7 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-10-01T00:00:00-07:00">October 1, 2024</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-10-07T00:00:00-07:00">October 7, 2024</time></p>
 
       </footer>
 
@@ -698,12 +720,11 @@
       
   <nav class="pagination">
     
-      <a href="/ofs/weekly-OFS-14/" class="pagination--pager" title="This week’s outside five sigma (#14)
+      <a href="/ofs/weekly-OFS-15/" class="pagination--pager" title="This week’s outside five sigma (#15)
 ">Previous</a>
     
     
-      <a href="/ofs/weekly-OFS-15/" class="pagination--pager" title="This week’s outside five sigma (#15)
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
@@ -755,7 +776,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
-          5 minute read
+          4 minute read
         
       </span>
     

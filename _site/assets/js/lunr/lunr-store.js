@@ -203,15 +203,15 @@ var store = [{
         "url": "/ofs/weekly-OFS-14/",
         "teaser": null
       },{
-        "title": "Yapping on ebeam lithography",
-        "excerpt":"The cover of this blog was the JEOL JBX 6300FS at Stanford SNSF. I love it. Here is the evolution of JEOL JBX series. History of JEOL JBX. From Application note: Development of JBX-A9, Electron Beam Lithography System What is EBeam litho, and why Ebeam lithography, as the name suggests,...","categories": ["Tutorial"],
-        "tags": ["Nanofab","Lithography","Electron"],
-        "url": "/tutorial/yapping-on-ebeam-lithography/",
-        "teaser": null
-      },{
         "title": "This week's outside five sigma (#15)",
         "excerpt":"20241006, 11:35 pm: This is my first time trying to automate the weekly OFS process. The media is scrapped properly, but the link inside the tweets are not yet processed properly There are still quite some duplicates and extra tweets. Not fixing these yet since the whole thing might get...","categories": ["OFS"],
-        "tags": ["Optics","Laser"],
+        "tags": ["Optics","Laser","satellite","Nanofab","MEMS","Organ-on-a-chip","Electronics","Optoelectronic-tweezer","Wifi"],
         "url": "/ofs/weekly-OFS-15/",
+        "teaser": null
+      },{
+        "title": "Yapping on ebeam lithography",
+        "excerpt":"The cover of this blog was the JEOL JBX 6300FS at Stanford SNSF. I love it. Here is the evolution of JEOL JBX series. History of JEOL JBX. From Application note: Development of JBX-A9, Electron Beam Lithography System DISCLAIMER: I’m writing this blog for fun. You should always question the...","categories": ["Tutorial"],
+        "tags": ["Nanofab","Lithography","Electron"],
+        "url": "/tutorial/yapping-on-ebeam-lithography/",
         "teaser": null
       }]
