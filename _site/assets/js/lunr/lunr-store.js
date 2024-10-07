@@ -210,7 +210,7 @@ var store = [{
         "teaser": null
       },{
         "title": "This week's outside five sigma (#15)",
-        "excerpt":"20241006, 11:35 pm: This is my first time trying to automate the weekly OFS process. - The media is scrapped properly, but the link inside the tweets are not yet processed properly - There are still quite some duplicates and extra tweets. Not fixing these yet since the whole thing...","categories": ["OFS"],
+        "excerpt":"20241006, 11:35 pm: This is my first time trying to automate the weekly OFS process. The media is scrapped properly, but the link inside the tweets are not yet processed properly There are still quite some duplicates and extra tweets. Not fixing these yet since the whole thing might get...","categories": ["OFS"],
         "tags": ["Optics","Laser"],
         "url": "/ofs/weekly-OFS-15/",
         "teaser": null
