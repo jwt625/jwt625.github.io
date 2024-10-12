@@ -77,7 +77,7 @@ Ok this is derailing too much, let's focus back to the EBL specs.
 
 ## What are the specs?
 
-These are the specs, from the Unviersity of Manchester [link](https://research.manchester.ac.uk/en/equipments/raith-ebpg5200-100kv-e-beam-lithography-system-aka-vistec):
+These are the EBPG5200 specs, from the Unviersity of Manchester ([link](https://research.manchester.ac.uk/en/equipments/raith-ebpg5200-100kv-e-beam-lithography-system-aka-vistec)):
 - Electron Source: Thermal Field Emission
 - Acceleration Voltage: 20, 50, and 100 kV
 - Beam Current: 0.1 to 200 nA
@@ -136,11 +136,44 @@ The first solution shows the ebeam trajectories with 1e8 m/s beam or 30 kV, and 
 ![ebeam_trajectory_2e8](/assets/images/2024/ebeam/trajectory_3A_v=2e8.PNG)
 *175 kV acceleration, much smaller divergence*
 
-Ok now let's see if we could do this with pen and paper instead of a fancy simulation.
+Ok now let's see if we could do this with pen and paper instead of a fancy simulation. The logic is as follows: current density gives how much coulumb repulsion there is, and from how much time the beam has between it exits the electro-optics system and hitting the chip, we could calculate how much it has moved laterally. Warning, the following calculation is non-relativistic and probably off by a factory of order of unity.
+- Current of the beam is $$ I = eV\rho \pi (D/2)^2 $$.
+- Electric field for an electron at the edge of the beam: $$ E = \frac 1{2\epsilon_0}\rho e D/2 $$.
+- The amount of change on the beam diameter is $$ \Delta D = \frac 1 2 \frac{eE}{m} (L/v)^2 $$, where $$L$$ is travel length from the deflection/focusing field to the sample. 
+- As a resut, if we keep the current of the beam constant, the amount of expansion of the beam $$ \Delta D = \frac{e}{2\pi m \epsilon_0} I L^2 v^{-3} D^{-1}$$.
+- This looks scary, let's see if the dimensions and rough order of magnitude works out (btw I use [numbat.dev](https://numbat.dev/) for this kind of calculations. Highly recommnd.). Typical ebeam current is 1 nA with a diameter of 10 nm. The electron speed is 1e8 m/s. Assume $$L = 0.1$$ m. I'm getting $$\sim 3$$ um for $$\Delta D$$. This sounds much bigger than the actual beam size... Maybe the magnetic field is not negligible, and most importantly the focus should be already at the sample.
+- In any case, the $$v^{-3}$$ dependency is likely general.
+
+
+![beam_expansion_estimation.PNG](/assets/images/2024/ebeam/beam_expansion_estimation.PNG)
+*This is [numbat.dev](https://numbat.dev/), ladies and gentlemen.*
 
 
 ### Beam current, higher? Lower?
 
+The rule of thumb for current is, and as you could see from derivation in the previous section, the smaller it is, the smaller the beam could be focused, and it scales linearly (if I did not make any mistake deriving it).
+
+On the other hand, the major motivation to go to higher current beam is the exposure time. Life is short, and ebeam is expensive. Let's say Alice has a 10 mm by 10 mm chip (p.s. do not use square or near-square chips for anisotropic materials), and she is writing 0.1% of the chip area just like most people doing hands on fab (wasting most of the materials most of the time). The dose for Alice's resist is around 1000 uC/cm^2. From these and the current, Alice could easily calculate how much time the beam needs to be on to expose all the resist in all the area.
+
+
+![exposure_time_estimation.PNG](/assets/images/2024/ebeam/exposure_time_estimation.PNG)
+
+17 minutes! Not bad! That is only $177 on Stanford SNSF's EBPG5200 if Alice is an industry user (indirect cost included, see [Rates](https://snsf.stanford.edu/labmembers/rates)). However, both the time and the cost could very quickly climb up when Alice starts to expose say 1% of her chip, and use some novel resist that needs 3x higher dose, and trying to write five chips in one go. Boom, that is 150x more. So be smart and use higher current when you can, and always run the estimation especially now EBPG's `cebpg` or `cjob` came with an exposure time estimation which even takes into account the calibration and load/unload. I'd recommend you still do your own homework, and plan accordingly, so you don't need to panic when seeing an ETA of 5 hours in front of the ebeam computer.
+
+One thing to be aware about higher current beam (we are talking about the 100 nA + ones) is, they might not be used often, and could be out of calibration, so off that the calibration itself might not run properly. So be prepared to tune the beam yourself, or switch to a lower one until the calibration runs properly.
+
+
+
+### DAC clock rate and shot pitch / spot size
+
+I am not a digital guy, and am not equipped to appreciate the clock rate of a 20 bit DAC. What I could do here is to point out the limit or tradeoff between DAC rate, dose, and shot pitch or spot size. In short, the time a single shot need, is dose times the area, divided by the current, and it cannot be shorter than the rate the DAC could steer the beam. 
+- $$ \frac 1 {\text{DAC rate}} \sim \frac{\text{dose}\times \text{shot pitch}^2 /4 }{ \text{beam current}} $$.
+
+For our 50 MHz DAC rate from the spec, that is ~ 20 ns. If we are exposing 1000 uC/cm$$^2$$ with 1 nA at 8 nm shot pitch, the dwell time neede is 160 ns, and we are safe. But if you switch to a 10 nA beam, you'd need a larger shot pitch.
+
+
+
+### DAC resolution
 
 
 
