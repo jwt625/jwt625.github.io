@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-07T08:34:27-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">Yapping on ebeam lithography</title><link href="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/" rel="alternate" type="text/html" title="Yapping on ebeam lithography" /><published>2024-10-07T00:00:00-07:00</published><updated>2024-10-07T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/yapping-on-ebeam-lithography</id><content type="html" xml:base="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/"><![CDATA[<p>The cover of this blog was the JEOL JBX 6300FS at Stanford <a href="https://snsf.stanford.edu/">SNSF</a>. I love it. Here is the evolution of JEOL JBX series.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-11T23:41:02-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">Yapping on ebeam lithography</title><link href="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/" rel="alternate" type="text/html" title="Yapping on ebeam lithography" /><published>2024-10-07T00:00:00-07:00</published><updated>2024-10-07T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/yapping-on-ebeam-lithography</id><content type="html" xml:base="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/"><![CDATA[<p>The cover of this blog was the JEOL JBX 6300FS at Stanford <a href="https://snsf.stanford.edu/">SNSF</a>. I love it. Here is the evolution of JEOL JBX series.</p>
 
 <p><img src="/assets/images/2024/ebeam/JEOL_JBX_history.jpg" alt="JEOL_JBX_history" />
 <em>History of JEOL JBX. From <a href="https://www.jeol.com/solutions/applications/details/se2024-01.php">Application note: Development of JBX-A9, Electron Beam Lithography System</a></em></p>
@@ -51,7 +51,7 @@
 
 <h2 id="what-are-the-specs">What are the specs?</h2>
 
-<p>These are the specs, from the Unviersity of Manchester <a href="https://research.manchester.ac.uk/en/equipments/raith-ebpg5200-100kv-e-beam-lithography-system-aka-vistec">link</a>:</p>
+<p>These are the EBPG5200 specs, from the Unviersity of Manchester (<a href="https://research.manchester.ac.uk/en/equipments/raith-ebpg5200-100kv-e-beam-lithography-system-aka-vistec">link</a>):</p>
 <ul>
   <li>Electron Source: Thermal Field Emission</li>
   <li>Acceleration Voltage: 20, 50, and 100 kV</li>
@@ -113,9 +113,41 @@
 <p><img src="/assets/images/2024/ebeam/trajectory_3A_v=2e8.PNG" alt="ebeam_trajectory_2e8" />
 <em>175 kV acceleration, much smaller divergence</em></p>
 
-<p>Ok now let’s see if we could do this with pen and paper instead of a fancy simulation.</p>
+<p>Ok now let’s see if we could do this with pen and paper instead of a fancy simulation. The logic is as follows: current density gives how much coulumb repulsion there is, and from how much time the beam has between it exits the electro-optics system and hitting the chip, we could calculate how much it has moved laterally. Warning, the following calculation is non-relativistic and probably off by a factory of order of unity.</p>
+<ul>
+  <li>Current of the beam is \(I = eV\rho \pi (D/2)^2\).</li>
+  <li>Electric field for an electron at the edge of the beam: \(E = \frac 1{2\epsilon_0}\rho e D/2\).</li>
+  <li>The amount of change on the beam diameter is \(\Delta D = \frac 1 2 \frac{eE}{m} (L/v)^2\), where \(L\) is travel length from the deflection/focusing field to the sample.</li>
+  <li>As a resut, if we keep the current of the beam constant, the amount of expansion of the beam \(\Delta D = \frac{e}{2\pi m \epsilon_0} I L^2 v^{-3} D^{-1}\).</li>
+  <li>This looks scary, let’s see if the dimensions and rough order of magnitude works out (btw I use <a href="https://numbat.dev/">numbat.dev</a> for this kind of calculations. Highly recommnd.). Typical ebeam current is 1 nA with a diameter of 10 nm. The electron speed is 1e8 m/s. Assume \(L = 0.1\) m. I’m getting \(\sim 3\) um for \(\Delta D\). This sounds much bigger than the actual beam size… Maybe the magnetic field is not negligible, and most importantly the focus should be already at the sample.</li>
+  <li>In any case, the \(v^{-3}\) dependency is likely general.</li>
+</ul>
+
+<p><img src="/assets/images/2024/ebeam/beam_expansion_estimation.PNG" alt="beam_expansion_estimation.PNG" />
+<em>This is <a href="https://numbat.dev/">numbat.dev</a>, ladies and gentlemen.</em></p>
 
 <h3 id="beam-current-higher-lower">Beam current, higher? Lower?</h3>
+
+<p>The rule of thumb for current is, and as you could see from derivation in the previous section, the smaller it is, the smaller the beam could be focused, and it scales linearly (if I did not make any mistake deriving it).</p>
+
+<p>On the other hand, the major motivation to go to higher current beam is the exposure time. Life is short, and ebeam is expensive. Let’s say Alice has a 10 mm by 10 mm chip (p.s. do not use square or near-square chips for anisotropic materials), and she is writing 0.1% of the chip area just like most people doing hands on fab (wasting most of the materials most of the time). The dose for Alice’s resist is around 1000 uC/cm^2. From these and the current, Alice could easily calculate how much time the beam needs to be on to expose all the resist in all the area.</p>
+
+<p><img src="/assets/images/2024/ebeam/exposure_time_estimation.PNG" alt="exposure_time_estimation.PNG" /></p>
+
+<p>17 minutes! Not bad! That is only $177 on Stanford SNSF’s EBPG5200 if Alice is an industry user (indirect cost included, see <a href="https://snsf.stanford.edu/labmembers/rates">Rates</a>). However, both the time and the cost could very quickly climb up when Alice starts to expose say 1% of her chip, and use some novel resist that needs 3x higher dose, and trying to write five chips in one go. Boom, that is 150x more. So be smart and use higher current when you can, and always run the estimation especially now EBPG’s <code class="language-plaintext highlighter-rouge">cebpg</code> or <code class="language-plaintext highlighter-rouge">cjob</code> came with an exposure time estimation which even takes into account the calibration and load/unload. I’d recommend you still do your own homework, and plan accordingly, so you don’t need to panic when seeing an ETA of 5 hours in front of the ebeam computer.</p>
+
+<p>One thing to be aware about higher current beam (we are talking about the 100 nA + ones) is, they might not be used often, and could be out of calibration, so off that the calibration itself might not run properly. So be prepared to tune the beam yourself, or switch to a lower one until the calibration runs properly.</p>
+
+<h3 id="dac-clock-rate-and-shot-pitch--spot-size">DAC clock rate and shot pitch / spot size</h3>
+
+<p>I am not a digital guy, and am not equipped to appreciate the clock rate of a 20 bit DAC. What I could do here is to point out the limit or tradeoff between DAC rate, dose, and shot pitch or spot size. In short, the time a single shot need, is dose times the area, divided by the current, and it cannot be shorter than the rate the DAC could steer the beam.</p>
+<ul>
+  <li>\(\frac 1 {\text{DAC rate}} \sim \frac{\text{dose}\times \text{shot pitch}^2 /4 }{ \text{beam current}}\).</li>
+</ul>
+
+<p>For our 50 MHz DAC rate from the spec, that is ~ 20 ns. If we are exposing 1000 uC/cm\(^2\) with 1 nA at 8 nm shot pitch, the dwell time neede is 160 ns, and we are safe. But if you switch to a 10 nA beam, you’d need a larger shot pitch.</p>
+
+<h3 id="dac-resolution">DAC resolution</h3>
 
 <p>(To be continued)</p>
 
@@ -466,7 +498,99 @@ Chiplet Micro-Assembly Printer: https://ieeexplore.ieee.org/abstract/document/88
   </li>
   <li>One thing I found mind breaking yesterday and today is that, ink jet printing can be faster than FIVE METER PER SECOND.
 Consumer level functional metarial ink jet printer when? (e.g. print CuO nanoparticles then reduce &amp; sinter with laser to get conductive lines)</li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Optics" /><category term="Laser" /><category term="satellite" /><category term="Nanofab" /><category term="MEMS" /><category term="Organ-on-a-chip" /><category term="Electronics" /><category term="Optoelectronic-tweezer" /><category term="Wifi" /><summary type="html"><![CDATA[20241006, 11:35 pm: This is my first time trying to automate the weekly OFS process. The media is scrapped properly, but the link inside the tweets are not yet processed properly There are still quite some duplicates and extra tweets. Not fixing these yet since the whole thing might get re-generated again.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#14)</title><link href="http://localhost:4000/ofs/weekly-OFS-14/" rel="alternate" type="text/html" title="This week’s outside five sigma (#14)" /><published>2024-09-29T00:00:00-07:00</published><updated>2024-09-29T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-14</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-14/"><![CDATA[<ol>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Optics" /><category term="Laser" /><category term="satellite" /><category term="Nanofab" /><category term="MEMS" /><category term="Organ-on-a-chip" /><category term="Electronics" /><category term="Optoelectronic-tweezer" /><category term="Wifi" /><summary type="html"><![CDATA[20241006, 11:35 pm: This is my first time trying to automate the weekly OFS process. The media is scrapped properly, but the link inside the tweets are not yet processed properly There are still quite some duplicates and extra tweets. Not fixing these yet since the whole thing might get re-generated again.]]></summary></entry><entry><title type="html">Open source hardware collections</title><link href="http://localhost:4000/blog/open-source-collections/" rel="alternate" type="text/html" title="Open source hardware collections" /><published>2024-09-29T00:00:00-07:00</published><updated>2024-09-29T00:00:00-07:00</updated><id>http://localhost:4000/blog/open-source-collections</id><content type="html" xml:base="http://localhost:4000/blog/open-source-collections/"><![CDATA[<p>(Continuously updating)</p>
+
+<p>Last updated: 2024-09-30</p>
+
+<h1 id="cheap-and-open-opticsphotonicspositioner">Cheap and open optics/photonics/positioner</h1>
+
+<p>See also <a href="https://x.com/jwt0625/status/1837513786422710537">twitter thread</a>.</p>
+
+<ol>
+  <li>OpenFlexure: sub-micron-scale motion over a range of 8 × 8 × 4 mm. Drift less than 20 um over a week.
+    <ul>
+      <li><a href="https://openflexure.org/projects/microscope/">https://openflexure.org/projects/microscope/</a></li>
+      <li><a href="https://gitlab.com/openflexure/openflexure-microscope">https://gitlab.com/openflexure/openflexure-microscope</a></li>
+      <li>Paper: <a href="https://pubs.aip.org/aip/rsi/article/87/2/025104/1021864/A-one-piece-3D-printed-flexure-translation-stage">A one-piece 3D printed flexure translation stage for open-source microscopy</a>
+<img src="/assets/images/2024/OpenHardware/openflexure_1.jfif" alt="openflexure_1.jfif" />
+<img src="/assets/images/2024/OpenHardware/openflexure_2.jfif" alt="openflexure_2.jfif" />
+<img src="/assets/images/2024/OpenHardware/openflexure_3.jfif" alt="openflexure_3.jfif" /></li>
+    </ul>
+  </li>
+  <li>OpenUC2: almost feels like it is no longer open source with very intertwined webpage, until you go into their GitHub repo
+    <ul>
+      <li><a href="https://openuc2.com/">https://openuc2.com/</a></li>
+      <li><a href="https://github.com/openUC2/UC2-GIT">https://github.com/openUC2/UC2-GIT</a>
+<img src="/assets/images/2024/OpenHardware/openUC2_1.jfif" alt="openUC2_1.jfif" />
+<img src="/assets/images/2024/OpenHardware/openUC2_2.jfif" alt="openUC2_2.jfif" /></li>
+    </ul>
+  </li>
+  <li>Open source XYZ nanopositioner:
+    <ul>
+      <li>atomic-scale scanning resolution</li>
+      <li>nm-scale positioning resolution, cm-scale range</li>
+      <li>heavy load up to 12 kg (perp to motion)</li>
+      <li>simple design and low component cost</li>
+      <li>compact size and ultra-high vacuum compatibility</li>
+      <li><a href="https://www.hardware-x.com/article/S2468-0672(22)00062-1/fulltext">Low-cost, open-source XYZ nanopositioner for high-precision analytical applications</a>
+<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner.jfif" alt="open_XYZ_nanopositioner.jfif" />
+<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner_2.jfif" alt="open_XYZ_nanopositioner2.jfif" />
+<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner_3.jfif" alt="open_XYZ_nanopositioner3.jfif" />
+<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner_4.jfif" alt="open_XYZ_nanopositioner4.jfif" /></li>
+    </ul>
+  </li>
+  <li><a href="https://www.hardware-x.com/article/S2468-0672(24)00071-3/fulltext">Open Photonics: An integrated approach for building a 3D-printed motorized rotation stage system</a>
+    <ul>
+      <li>Rotation stage with 1 mRad precision and backlash, 150 urad resolution, and ~&lt;$100. They say the closest commercial one is thorlabs K10CR2, which is $1500
+<img src="/assets/images/2024/OpenHardware/open_rotational_stage_1.jfif" alt="open_rotational_stage_1.jfif" />
+<img src="/assets/images/2024/OpenHardware/open_rotational_stage_2.jfif" alt="open_rotational_stage_2.jfif" /></li>
+    </ul>
+  </li>
+  <li><a href="https://x.com/vnzloy/status/1838680488715653614">TWINKLE: An open-source two-photon microscope for teaching and research</a>
+    <ul>
+      <li>From <a href="https://x.com/vnzloy/status/1838680488715653614">tweet</a>
+<img src="/assets/images/2024/OpenHardware/open_two_photon_uscope.jfif" alt="open_two_photon_uscope.jfif" /></li>
+    </ul>
+  </li>
+</ol>
+
+<h1 id="sensing-robotics-and-computer-vision">Sensing, robotics and computer vision</h1>
+
+<p>(under construction)</p>
+
+<ol>
+  <li>
+    <p><a href="https://github.com/apirrone/Open_Duck_Mini">Open Duck Mini</a></p>
+  </li>
+  <li>
+    <p>Alex Koch’s <a href="https://github.com/AlexanderKoch-Koch/low_cost_robot">low_cost_robot</a> arm</p>
+  </li>
+</ol>
+
+<h2 id="gripper">Gripper</h2>
+
+<ol>
+  <li>
+    <p><a href="https://github.com/clayhaight01/OpenGrip">OpenGrip</a></p>
+  </li>
+  <li>
+    <p>UMI gripper: <a href="https://github.com/real-stanford/universal_manipulation_interface">universal_manipulation_interface</a></p>
+  </li>
+</ol>
+
+<h2 id="vision">Vision</h2>
+
+<ol>
+  <li><a href="https://github.com/BasedHardware/OpenGlass">OpenGlass</a></li>
+</ol>
+
+<h1 id="electronics-test-equipments">Electronics test equipments</h1>
+
+<p>(under construction)</p>
+
+<ol>
+  <li><a href="https://github.com/EEVengers/ThunderScope">ThunderScope</a></li>
+</ol>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="OpenSource" /><category term="Optics" /><category term="Photonics" /><category term="Nanopositioning" /><category term="Flexure" /><summary type="html"><![CDATA[(Continuously updating)]]></summary></entry><entry><title type="html">This week’s outside five sigma (#14)</title><link href="http://localhost:4000/ofs/weekly-OFS-14/" rel="alternate" type="text/html" title="This week’s outside five sigma (#14)" /><published>2024-09-29T00:00:00-07:00</published><updated>2024-09-29T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-14</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-14/"><![CDATA[<ol>
   <li>The nice rendering of the NIF fuel pellet/capsule holder got a cool flexure design. Turns out it is called thermomechanical packaging (TMP). Flexure is made of titanium &amp; designed to apply pressure evenly.
     <ul>
       <li>Rendering image is from IEEE Spectrum: <a href="https://spectrum.ieee.org/nuclear-fusion-breakthrough-long-road">Momentary Fusion Breakthroughs Face Hard Reality</a></li>
@@ -610,99 +734,7 @@ Consumer level functional metarial ink jet printer when? (e.g. print CuO nanopar
 <img src="/assets/images/2024/optical_compute_review_2.jfif" alt="optical_compute_review_2.jfif" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Robotics" /><category term="Prosthetic" /><category term="Fusion" /><category term="Electronics" /><category term="Optimization" /><category term="RL" /><category term="Sensor" /><category term="Sensing" /><category term="Noise" /><category term="MEMS" /><category term="Blackhole" /><category term="Optics" /><category term="ifixit" /><category term="R2R" /><category term="NIL" /><summary type="html"><![CDATA[The nice rendering of the NIF fuel pellet/capsule holder got a cool flexure design. Turns out it is called thermomechanical packaging (TMP). Flexure is made of titanium &amp; designed to apply pressure evenly. Rendering image is from IEEE Spectrum: Momentary Fusion Breakthroughs Face Hard Reality Blog: Designing for Ignition: Precise Changes Yield Historic Results Paper1: Assembly and metrology of NIF target subassemblies using robotic systems Paper2: Automation of NIF Target Fabrication]]></summary></entry><entry><title type="html">Open source hardware collections</title><link href="http://localhost:4000/blog/open-source-collections/" rel="alternate" type="text/html" title="Open source hardware collections" /><published>2024-09-29T00:00:00-07:00</published><updated>2024-09-29T00:00:00-07:00</updated><id>http://localhost:4000/blog/open-source-collections</id><content type="html" xml:base="http://localhost:4000/blog/open-source-collections/"><![CDATA[<p>(Continuously updating)</p>
-
-<p>Last updated: 2024-09-30</p>
-
-<h1 id="cheap-and-open-opticsphotonicspositioner">Cheap and open optics/photonics/positioner</h1>
-
-<p>See also <a href="https://x.com/jwt0625/status/1837513786422710537">twitter thread</a>.</p>
-
-<ol>
-  <li>OpenFlexure: sub-micron-scale motion over a range of 8 × 8 × 4 mm. Drift less than 20 um over a week.
-    <ul>
-      <li><a href="https://openflexure.org/projects/microscope/">https://openflexure.org/projects/microscope/</a></li>
-      <li><a href="https://gitlab.com/openflexure/openflexure-microscope">https://gitlab.com/openflexure/openflexure-microscope</a></li>
-      <li>Paper: <a href="https://pubs.aip.org/aip/rsi/article/87/2/025104/1021864/A-one-piece-3D-printed-flexure-translation-stage">A one-piece 3D printed flexure translation stage for open-source microscopy</a>
-<img src="/assets/images/2024/OpenHardware/openflexure_1.jfif" alt="openflexure_1.jfif" />
-<img src="/assets/images/2024/OpenHardware/openflexure_2.jfif" alt="openflexure_2.jfif" />
-<img src="/assets/images/2024/OpenHardware/openflexure_3.jfif" alt="openflexure_3.jfif" /></li>
-    </ul>
-  </li>
-  <li>OpenUC2: almost feels like it is no longer open source with very intertwined webpage, until you go into their GitHub repo
-    <ul>
-      <li><a href="https://openuc2.com/">https://openuc2.com/</a></li>
-      <li><a href="https://github.com/openUC2/UC2-GIT">https://github.com/openUC2/UC2-GIT</a>
-<img src="/assets/images/2024/OpenHardware/openUC2_1.jfif" alt="openUC2_1.jfif" />
-<img src="/assets/images/2024/OpenHardware/openUC2_2.jfif" alt="openUC2_2.jfif" /></li>
-    </ul>
-  </li>
-  <li>Open source XYZ nanopositioner:
-    <ul>
-      <li>atomic-scale scanning resolution</li>
-      <li>nm-scale positioning resolution, cm-scale range</li>
-      <li>heavy load up to 12 kg (perp to motion)</li>
-      <li>simple design and low component cost</li>
-      <li>compact size and ultra-high vacuum compatibility</li>
-      <li><a href="https://www.hardware-x.com/article/S2468-0672(22)00062-1/fulltext">Low-cost, open-source XYZ nanopositioner for high-precision analytical applications</a>
-<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner.jfif" alt="open_XYZ_nanopositioner.jfif" />
-<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner_2.jfif" alt="open_XYZ_nanopositioner2.jfif" />
-<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner_3.jfif" alt="open_XYZ_nanopositioner3.jfif" />
-<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner_4.jfif" alt="open_XYZ_nanopositioner4.jfif" /></li>
-    </ul>
-  </li>
-  <li><a href="https://www.hardware-x.com/article/S2468-0672(24)00071-3/fulltext">Open Photonics: An integrated approach for building a 3D-printed motorized rotation stage system</a>
-    <ul>
-      <li>Rotation stage with 1 mRad precision and backlash, 150 urad resolution, and ~&lt;$100. They say the closest commercial one is thorlabs K10CR2, which is $1500
-<img src="/assets/images/2024/OpenHardware/open_rotational_stage_1.jfif" alt="open_rotational_stage_1.jfif" />
-<img src="/assets/images/2024/OpenHardware/open_rotational_stage_2.jfif" alt="open_rotational_stage_2.jfif" /></li>
-    </ul>
-  </li>
-  <li><a href="https://x.com/vnzloy/status/1838680488715653614">TWINKLE: An open-source two-photon microscope for teaching and research</a>
-    <ul>
-      <li>From <a href="https://x.com/vnzloy/status/1838680488715653614">tweet</a>
-<img src="/assets/images/2024/OpenHardware/open_two_photon_uscope.jfif" alt="open_two_photon_uscope.jfif" /></li>
-    </ul>
-  </li>
-</ol>
-
-<h1 id="sensing-robotics-and-computer-vision">Sensing, robotics and computer vision</h1>
-
-<p>(under construction)</p>
-
-<ol>
-  <li>
-    <p><a href="https://github.com/apirrone/Open_Duck_Mini">Open Duck Mini</a></p>
-  </li>
-  <li>
-    <p>Alex Koch’s <a href="https://github.com/AlexanderKoch-Koch/low_cost_robot">low_cost_robot</a> arm</p>
-  </li>
-</ol>
-
-<h2 id="gripper">Gripper</h2>
-
-<ol>
-  <li>
-    <p><a href="https://github.com/clayhaight01/OpenGrip">OpenGrip</a></p>
-  </li>
-  <li>
-    <p>UMI gripper: <a href="https://github.com/real-stanford/universal_manipulation_interface">universal_manipulation_interface</a></p>
-  </li>
-</ol>
-
-<h2 id="vision">Vision</h2>
-
-<ol>
-  <li><a href="https://github.com/BasedHardware/OpenGlass">OpenGlass</a></li>
-</ol>
-
-<h1 id="electronics-test-equipments">Electronics test equipments</h1>
-
-<p>(under construction)</p>
-
-<ol>
-  <li><a href="https://github.com/EEVengers/ThunderScope">ThunderScope</a></li>
-</ol>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="OpenSource" /><category term="Optics" /><category term="Photonics" /><category term="Nanopositioning" /><category term="Flexure" /><summary type="html"><![CDATA[(Continuously updating)]]></summary></entry><entry><title type="html">This week’s outside five sigma (#13)</title><link href="http://localhost:4000/ofs/weekly-OFS-13/" rel="alternate" type="text/html" title="This week’s outside five sigma (#13)" /><published>2024-09-21T00:00:00-07:00</published><updated>2024-09-21T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-13</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-13/"><![CDATA[<ol>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Robotics" /><category term="Prosthetic" /><category term="Fusion" /><category term="Electronics" /><category term="Optimization" /><category term="RL" /><category term="Sensor" /><category term="Sensing" /><category term="Noise" /><category term="MEMS" /><category term="Blackhole" /><category term="Optics" /><category term="ifixit" /><category term="R2R" /><category term="NIL" /><summary type="html"><![CDATA[The nice rendering of the NIF fuel pellet/capsule holder got a cool flexure design. Turns out it is called thermomechanical packaging (TMP). Flexure is made of titanium &amp; designed to apply pressure evenly. Rendering image is from IEEE Spectrum: Momentary Fusion Breakthroughs Face Hard Reality Blog: Designing for Ignition: Precise Changes Yield Historic Results Paper1: Assembly and metrology of NIF target subassemblies using robotic systems Paper2: Automation of NIF Target Fabrication]]></summary></entry><entry><title type="html">This week’s outside five sigma (#13)</title><link href="http://localhost:4000/ofs/weekly-OFS-13/" rel="alternate" type="text/html" title="This week’s outside five sigma (#13)" /><published>2024-09-21T00:00:00-07:00</published><updated>2024-09-21T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-13</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-13/"><![CDATA[<ol>
   <li>A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly.
     <ul>
       <li>Paper: <a href="https://arxiv.org/abs/2409.04930">PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels’</a>
