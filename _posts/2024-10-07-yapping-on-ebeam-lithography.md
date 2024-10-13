@@ -24,7 +24,7 @@ The cover of this blog was the JEOL JBX 6300FS at Stanford [SNSF](https://snsf.s
 
 *DISCLAIMER: I'm writing this blog for fun. You should always question the numbers and practices here, and consult your colleagues, ebeam staff, and the references here for your own judgement.*
 
-# What is EBeam litho, and why
+# What is EBeam litho
 
 Ebeam lithography, as the name suggests, is using electron beams for lithography. [Lithograph](https://en.wikipedia.org/wiki/Lithography) has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the mask. It is a powerful technique at the time to mass produce drawings and maps, and later photos (photography).
 
@@ -50,7 +50,7 @@ The first use of ebeam for direct write lithography is more than 60 years old, a
 
 
 
-# Ebeam basic specs and why
+# Ebeam specs and why
 
 I think many people, me included, do not appreciate the performance or requirements of ebeam lithography (EBL) enough. Before we get into the details, let's get a taste of the way I would love more people to be doing and looking at things: order of magnitude estimations. Let's take the example of how to deflect the electron beam.
 
@@ -110,7 +110,7 @@ Similar Specs from [JEOL JBX-6300FS](https://www.jeol.com/products/semiconductor
 Overwhelming? They are all fun to understand and some of these numbers are crazy. Let's go thru them one by one.
 
 
-### Electron source and emission
+## Electron source and emission
 
 
 I don't know much about this part. Need to read more and add more later.
@@ -122,7 +122,7 @@ One fun thing I learnt recently is that, for high current stuff, the emission co
 (From thesis [Relativistic magnetron with diffraction output and split cathode](https://digitalrepository.unm.edu/ece_etds/528/))
 
 
-### Why higher voltage?
+## Why higher voltage?
 
 The beam is better. Here are two examples I ran by tweaking the comsol charged particle tracing example a bit. It solves for how the ebeam will diverge from interacting with its own E and B field.
 
@@ -149,7 +149,7 @@ Ok now let's see if we could do this with pen and paper instead of a fancy simul
 *This is [numbat.dev](https://numbat.dev/), ladies and gentlemen.*
 
 
-### Beam current, higher? Lower?
+## Beam current, higher? Lower?
 
 The rule of thumb for current is, and as you could see from derivation in the previous section, the smaller it is, the smaller the beam could be focused, and it scales linearly (if I did not make any mistake deriving it).
 
@@ -164,7 +164,7 @@ One thing to be aware about higher current beam (we are talking about the 100 nA
 
 
 
-### DAC clock rate and shot pitch / spot size
+## DAC clock rate and shot pitch / spot size
 
 I am not a digital guy, and am not equipped to appreciate the clock rate of a 20 bit DAC. What I could do here is to point out the limit or tradeoff between DAC rate, dose, and shot pitch or spot size. In short, the time a single shot need, is dose times the area, divided by the current, and it cannot be shorter than the rate the DAC could steer the beam. 
 - $$ \frac 1 {\text{DAC rate}} \sim \frac{\text{dose}\times \text{shot pitch}^2 /4 }{ \text{beam current}} $$.
@@ -173,7 +173,29 @@ For our 50 MHz DAC rate from the spec, that is ~ 20 ns. If we are exposing 1000 
 
 
 
-### DAC resolution
+## DAC resolution
+
+So how good is a 20 bit DAC, and why do we need it? 20 bit is $$2^{20} \approx 10^6$$,  that is a dynamic range of 60 dB.
+For comparison, for reading out voltages, an oscilloscope typically has 8 to 10 bit, and prefer to have a higher sampling rate (e.g. [Tektronix MSO](https://www.tek.com/en/datasheet/2-series-mso-mixed-signal-oscilloscope-datasheet)).
+At slower sampling rate, and for analog output, [NI DAQ](https://www.ni.com/pdf/product-flyers/multifunction-io.pdf) has 16 ~ 18 bit at around 1 MS/s. And for sensitive measurement such as lock-in amplifiers, you can find 14 ~ 16 bit at ~ 200 MS/s (e.g. Zurich Instruments [HF2LI](https://www.zhinst.com/ch/en/products/hf2li-lock-in-amplifier#specifications)).
+Someone who's an expert on DAC/ADC should make a tradeoff and price chart of all these specs.
+
+Back to DAC for ebeam, a dynamic range of 60 dB roughly means that we could have $$10^6$$ shots along x and y within a single write field. That is, how many distinct spots can we have before we have to move the stage.
+For a spot or step size of ~ 4 nm, that means the write field can be as big as ~ 4 mm (in principle). The max write field size on EBPG5200 is indeed 1 mm x 1 mm. You are writing a terapixel image onto your chip with the ebeam, and doing it one pixel at a time, and ~ 50 millions per second.
+- I would like to point out that I recently learnt that shaped beam, or electron projection lithography (EPL) has been improving, and they can do a few gigapixels per second by late 1990s, and a million beams in parallel. (See [Pfeiffer2010](/assets/doc/2024/EBL_paper/pfeiffer2010.pdf) and [Petric2009](https://pubs.aip.org/avs/jvb/article-abstract/27/1/161/467317/REBL-A-novel-approach-to-high-speed-maskless))
+
+![EBL_throughput_pixel_per_sec_pfeiffer2010.PNG](/assets/images/2024/ebeam/EBL_throughput_pixel_per_sec_pfeiffer2010.PNG)
+
+- One challenge there is sending data to the digital pattern generator (DPG), which "needed throughput with only 1 Tbit/s of compressed data sent to the DPG". ([Petric2009](https://pubs.aip.org/avs/jvb/article-abstract/27/1/161/467317/REBL-A-novel-approach-to-high-speed-maskless))
+
+
+
+## Stability
+
+
+
+
+
 
 
 
@@ -200,7 +222,48 @@ For our 50 MHz DAC rate from the spec, that is ~ 20 ns. If we are exposing 1000 
     - shot pitch
     - dose (DAC rate limit, dose sweep)
 
-# Practical
+# Practical stuff
+
+## Design and fracturing
+
+
+## Ebeam resist
+
+My first exposure of ebeam resist is with [MMA](https://en.wikipedia.org/wiki/Methyl_methacrylate)/[PMMA](https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)) double layer for Josephson junctions (JJ) ([Dolan bridge](https://en.wikipedia.org/wiki/Niemeyer%E2%80%93Dolan_technique)). It was such a long time ago and I did not have much "cleanroom consciousness" on what was important and what needed improvement. Later on I happened to need to make them again.
+
+![JJ_20200225_D1_45deg_020.jpg](/assets/images/2024/ebeam/JJ_20200225_D1_45deg_020.jpg)
+*Here is a JJ made with MMA/PMMA Dolan bridge. You could see the aluminum from the second angled evap hit the sidewall of the lower layer resist, and left a vertical flap standing after liftoff.*
+
+When I got started at Stanford cleanroom, the first process I shadowed and learnt was using [CSAR](https://www.allresist.com/portfolio-item/e-beam-resist-ar-p-6200-series-csar-62/) to mask silicon etch on silicon-on-insulator (SOI) substrate. It was a great choice for starters, as the dose is low ($\sim 300~\text{uC/cm}^2$, exposure would be fast) and pretty robust, the development is also short (sub one minute) and pretty robust. The only annoyance is the cleaning after the plasma etch.
+You could find a lot of SEM images of pattered silicon photonics, so here I wanted to show you that you could also use CSAR for liftoff (which to be honest you could probably also find a lot of SEM of).
+
+![20180216_dose_11_dev_1_1.jpg](/assets/images/2024/20180216_dose_11_dev_1_1.jpg)
+*One of the dose tests of CSAR liftoff of aluminum. The challenge here is a narrow and meandering gap between two metal electrodes. You could see the liftoff failed around the center, where the solvents really struggled to get in.*
+
+
+![20191022_LiSa_mechanics_A_012.jpg](/assets/images/2024/ebeam/20191022_LiSa_mechanics_A_012.jpg)
+*Here you are seeing thin-film lithium niobate (darker region in top-left) on sapphire (bright charged up region in bottom right), with aluminum electrodes evaporated on top, at large angles for it to climb the steep sidewall, and lifted off with CSAR.*
+
+
+After about half a year, I got into developing/optimizing a mask and etch process for thin-film lithium niobate. There were a lot of grinding, but the relevant part here is that together with a labmate, we started developing a recipe for HSQ ([Hydrogen silsesquioxane](https://en.wikipedia.org/wiki/Hydrogen_silsesquioxane)) resist, or Flowable oxide (FOx) might sound more familiar to some people, or spin-on glass.
+
+
+
+
+As for ebeam liftoff, I continued working with MMA/PMMA double layer, as well as PMMA/PMMA double layer with different concentrations and thickness. I also learnt and used single layer CSAR for liftoff. It sounds impossible or challenging because it is a single layer, but the exposure actually leaves a negative sidewall, and made the liftoff possible.
+
+
+
+
+## Dose
+
+
+## Calibrations
+
+
+
+
+
 - What resist to use
     - positive vs. negative
     - adhesion
@@ -241,7 +304,7 @@ For our 50 MHz DAC rate from the spec, that is ~ 20 ns. If we are exposing 1000 
 
 
 
-# Appendix: A quick rundown of my ebeam lithography journey
+# Appendix: a quick rundown of my ebeam lithography journey
 
 I will use this section to quickly go through the ebeam tool I have used in the past, and the things I like and hate the most about them. With SEMs of devices made with these tools! (so that you don't fall asleep) I will also look back at what different aspects of ebeam litho I focused on during different periods of time, as well as resists and chip/substrates I have used. These are the stuff I have the most experience on and could speak about.
 
@@ -250,7 +313,7 @@ I will use this section to quickly go through the ebeam tool I have used in the 
 ### Raith 150 Two (2015 - 2017)
 - Why is the GUI completely frozen when the sample plate is loading or unloading? Why can't I check my patterns or configure the beam/column parameters?
 - Why is there a joystick? Some people might like it but I absolutely do not want to accidentally bumped into it. Disabling the x and y channel on the joystick is the first thing I do when I got to the tool.
-- I am struggling to come up with a good thing about it. Maybe the lower beam voltage is good for not damaging 2D materials? The holder sucks (the one that literally works like a clipboard, I always worry about my chip being tilted..), the focusing step sucks, queuing up the schedule/job sucks, the GUI and toolbar are so stacked and not intuitive... I should stop here.
+- I am struggling to come up with a good thing about it. Maybe the lower beam voltage is good for not damaging 2D materials? The holder sucks (the one that literally works like a clipboard, I always worry about my chip being tilted..), the focusing sucks (you have to apply gold nanoparticles or make a scratch on your chip), queuing up the schedule/job sucks, the GUI and toolbar are so stacked and not intuitive... I should stop here.
 
 ![graphene_quantum_dot.jpeg](/assets/images/2024/graphene_quantum_dot.jpeg)
 *A graphene quantum dot with gate electrodes defined by ebeam litho with Raith 150 Two. The scalebar in (b) is 500 nm. [paper](https://pubs.acs.org/doi/full/10.1021/acs.nanolett.6b02522)*
@@ -259,7 +322,7 @@ I will use this section to quickly go through the ebeam tool I have used in the 
 - It is perfect, please do not change.
 - Hmm maybe make it easier to copy the log message from the GUI. Maybe this is partly because of the linux system, it took me a while to figure out I have to triple click to "select-all, and then drag-drop while holding the SCROLLING WHEEL to copy the log messages out.
 - It has one of the best loadlock / loading arm in the whole cleanroom. The cassette/holder is also front referenced, there is no need to tune the tilt and height of your chip. God I love the JEOL.
-
+- Writefield for low current beam is small though, 62.5 um. Why is it 62.5 um? Because it is 1000 um divided by $$2^4$$.
 
 
 ![LN_OMC_SEM.png](/assets/images/2024/LN_OMC_SEM.png)
@@ -271,6 +334,7 @@ I will use this section to quickly go through the ebeam tool I have used in the 
 
 ### Raith Voyager (2022 - 2023)
 - Same complains as Raith 150 Two. Very similar in terms of user experience.
+- Maybe the max writefield got larger?
 
 
 ### EBPG 5200+ (2023 - 2024)
@@ -289,22 +353,13 @@ I'm surprisingly organized enough to have spreadsheet to keep track of all my be
 - 2023 - 2024: 60?  Played with proximity effect correction a lot during this time.
 - 2021 - 2022: 109. Started and perfected automatic mark detection and alignment on JEOL.
 - 2019 - 2021: 92 (damn covid). Mainly grinding other fab process during this time. Explored with discharge layers when working with insulating substrate like sapphire.
-- 2017 - 2018: 73 + 89. Developing a certain fab process with a labmate, was doing beamwrite almost every week, sometimes more than once a week.
+- 2017 - 2018: 162. Developing a certain fab process with a labmate, was doing beamwrite almost every week, sometimes more than once a week.
 - pre 2017: sporadic. This was the graphene quantum dot period of my career. I did not know much about what is going on in the fab, but got a lot of operation-from-first-principle kind of experience since my lab manager does not trust automation, and want us to operate as manually as possible. It was a blessing in disguise.
 
 I have been talking about the spreadsheets for logging the beamwrite sessions. I should actually show you guys a screenshot of one. These are the parameters (most of them) I keep track of every single beamwrite, and hopefully you will have a much better idea what they are when you keep reading more.
 
 ![beamwrite_log_sheet.png](/assets/images/2024/beamwrite_log_sheet.png)
 *Log sheet I created for keeping track of beamwrites from me and the team. This is specifically for JEOL, but most of the parameters are relevant in general, and will make more sense as you read on.*
-
-## Ebeam resist
-
-My first exposure of ebeam resist is with [MMA](https://en.wikipedia.org/wiki/Methyl_methacrylate)/[PMMA](https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)) double layer for Josephson junctions ([Dolan bridge](https://en.wikipedia.org/wiki/Niemeyer%E2%80%93Dolan_technique)). It was such a long time ago and I did not have much "cleanroom consciousness" on what was important and what needed improvement.
-
-When I got started at Stanford cleanroom, the first process I shadowed and learnt was using [CSAR](https://www.allresist.com/portfolio-item/e-beam-resist-ar-p-6200-series-csar-62/) to mask silicon etch on silicon-on-insulator (SOI) substrate. It was a great choice for starters, as the dose is low ($\sim 300~\text{uC/cm}^2$, exposure would be fast) and pretty robust, the development is also short (sub one minute) and pretty robust. The only annoyance is the cleaning after the plasma etch. After about half a year, I got into developing/optimizing a mask and etch process for thin-film lithium niobate. There were a lot of grinding, but the relevant part here is that together with a labmate, we started developing a recipe for HSQ ([Hydrogen silsesquioxane](https://en.wikipedia.org/wiki/Hydrogen_silsesquioxane)) resist, or Flowable oxide (FOx) might sound more familiar to some people, or spin-on glass.
-
-As for ebeam liftoff, I continued working with MMA/PMMA double layer, as well as PMMA/PMMA double layer with different concentrations and thickness. I also learnt and used single layer CSAR for liftoff. It sounds impossible or challenging because it is a single layer, but the exposure actually leaves a negative sidewall, and made the liftoff possible.
-
 
 ## Acknowledgements
 

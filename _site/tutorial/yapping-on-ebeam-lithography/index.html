@@ -193,7 +193,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          19 minute read
+          22 minute read
         
       </span>
     
@@ -339,7 +339,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#what-is-ebeam-litho-and-why">What is EBeam litho, and why</a></li><li><a href="#ebeam-basic-specs-and-why">Ebeam basic specs and why</a><ul><li><a href="#how-do-we-deflect-the-electron-beam">How do we deflect the electron beam</a></li><li><a href="#what-are-the-specs">What are the specs?</a><ul><li><a href="#electron-source-and-emission">Electron source and emission</a></li><li><a href="#why-higher-voltage">Why higher voltage?</a></li><li><a href="#beam-current-higher-lower">Beam current, higher? Lower?</a></li><li><a href="#dac-clock-rate-and-shot-pitch--spot-size">DAC clock rate and shot pitch / spot size</a></li><li><a href="#dac-resolution">DAC resolution</a></li></ul></li></ul></li><li><a href="#practical">Practical</a></li><li><a href="#appendix-a-quick-rundown-of-my-ebeam-lithography-journey">Appendix: A quick rundown of my ebeam lithography journey</a><ul><li><a href="#tools">Tools</a><ul><li><a href="#raith-150-two-2015---2017">Raith 150 Two (2015 - 2017)</a></li><li><a href="#jeol-jbx-6300fs-2017---2022">JEOL JBX 6300FS (2017 - 2022)</a></li><li><a href="#raith-voyager-2022---2023">Raith Voyager (2022 - 2023)</a></li><li><a href="#ebpg-5200-2023---2024">EBPG 5200+ (2023 - 2024)</a></li></ul></li><li><a href="#ebeam-sessions">Ebeam sessions</a></li><li><a href="#ebeam-resist">Ebeam resist</a></li><li><a href="#acknowledgements">Acknowledgements</a></li></ul></li><li><a href="#references">References</a><ul><li><a href="#lab-resources">Lab resources</a></li><li><a href="#training-videos">Training videos</a></li><li><a href="#papers-and-books">Papers and books</a></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#what-is-ebeam-litho">What is EBeam litho</a></li><li><a href="#ebeam-specs-and-why">Ebeam specs and why</a><ul><li><a href="#how-do-we-deflect-the-electron-beam">How do we deflect the electron beam</a></li><li><a href="#what-are-the-specs">What are the specs?</a></li><li><a href="#electron-source-and-emission">Electron source and emission</a></li><li><a href="#why-higher-voltage">Why higher voltage?</a></li><li><a href="#beam-current-higher-lower">Beam current, higher? Lower?</a></li><li><a href="#dac-clock-rate-and-shot-pitch--spot-size">DAC clock rate and shot pitch / spot size</a></li><li><a href="#dac-resolution">DAC resolution</a></li><li><a href="#stability">Stability</a></li></ul></li><li><a href="#practical-stuff">Practical stuff</a><ul><li><a href="#design-and-fracturing">Design and fracturing</a></li><li><a href="#ebeam-resist">Ebeam resist</a></li><li><a href="#dose">Dose</a></li><li><a href="#calibrations">Calibrations</a></li></ul></li><li><a href="#appendix-a-quick-rundown-of-my-ebeam-lithography-journey">Appendix: a quick rundown of my ebeam lithography journey</a><ul><li><a href="#tools">Tools</a><ul><li><a href="#raith-150-two-2015---2017">Raith 150 Two (2015 - 2017)</a></li><li><a href="#jeol-jbx-6300fs-2017---2022">JEOL JBX 6300FS (2017 - 2022)</a></li><li><a href="#raith-voyager-2022---2023">Raith Voyager (2022 - 2023)</a></li><li><a href="#ebpg-5200-2023---2024">EBPG 5200+ (2023 - 2024)</a></li></ul></li><li><a href="#ebeam-sessions">Ebeam sessions</a></li><li><a href="#acknowledgements">Acknowledgements</a></li></ul></li><li><a href="#references">References</a><ul><li><a href="#lab-resources">Lab resources</a></li><li><a href="#training-videos">Training videos</a></li><li><a href="#papers-and-books">Papers and books</a></li></ul></li></ul>
             </nav>
           </aside>
         
@@ -350,7 +350,7 @@
 
 <p><em>DISCLAIMER: I’m writing this blog for fun. You should always question the numbers and practices here, and consult your colleagues, ebeam staff, and the references here for your own judgement.</em></p>
 
-<h1 id="what-is-ebeam-litho-and-why">What is EBeam litho, and why</h1>
+<h1 id="what-is-ebeam-litho">What is EBeam litho</h1>
 
 <p>Ebeam lithography, as the name suggests, is using electron beams for lithography. <a href="https://en.wikipedia.org/wiki/Lithography">Lithograph</a> has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the mask. It is a powerful technique at the time to mass produce drawings and maps, and later photos (photography).</p>
 
@@ -370,7 +370,7 @@
 <p><img src="/assets/images/2024/ebeam/EBPG_history.png" alt="ebpg_histpry" />
 <em>History of EBPG. From <a href="https://nano.yale.edu/history">Yale: Electron-Beam Lithography Training » History</a></em></p>
 
-<h1 id="ebeam-basic-specs-and-why">Ebeam basic specs and why</h1>
+<h1 id="ebeam-specs-and-why">Ebeam specs and why</h1>
 
 <p>I think many people, me included, do not appreciate the performance or requirements of ebeam lithography (EBL) enough. Before we get into the details, let’s get a taste of the way I would love more people to be doing and looking at things: order of magnitude estimations. Let’s take the example of how to deflect the electron beam.</p>
 
@@ -434,7 +434,7 @@
 
 <p>Overwhelming? They are all fun to understand and some of these numbers are crazy. Let’s go thru them one by one.</p>
 
-<h3 id="electron-source-and-emission">Electron source and emission</h3>
+<h2 id="electron-source-and-emission">Electron source and emission</h2>
 
 <p>I don’t know much about this part. Need to read more and add more later.</p>
 
@@ -444,7 +444,7 @@
 <img src="/assets/images/2024/ebeam/explosive_emission.png" alt="explosive_emission" />
 (From thesis <a href="https://digitalrepository.unm.edu/ece_etds/528/">Relativistic magnetron with diffraction output and split cathode</a>)</p>
 
-<h3 id="why-higher-voltage">Why higher voltage?</h3>
+<h2 id="why-higher-voltage">Why higher voltage?</h2>
 
 <p>The beam is better. Here are two examples I ran by tweaking the comsol charged particle tracing example a bit. It solves for how the ebeam will diverge from interacting with its own E and B field.</p>
 
@@ -471,7 +471,7 @@
 <p><img src="/assets/images/2024/ebeam/beam_expansion_estimation.PNG" alt="beam_expansion_estimation.PNG" />
 <em>This is <a href="https://numbat.dev/">numbat.dev</a>, ladies and gentlemen.</em></p>
 
-<h3 id="beam-current-higher-lower">Beam current, higher? Lower?</h3>
+<h2 id="beam-current-higher-lower">Beam current, higher? Lower?</h2>
 
 <p>The rule of thumb for current is, and as you could see from derivation in the previous section, the smaller it is, the smaller the beam could be focused, and it scales linearly (if I did not make any mistake deriving it).</p>
 
@@ -483,7 +483,7 @@
 
 <p>One thing to be aware about higher current beam (we are talking about the 100 nA + ones) is, they might not be used often, and could be out of calibration, so off that the calibration itself might not run properly. So be prepared to tune the beam yourself, or switch to a lower one until the calibration runs properly.</p>
 
-<h3 id="dac-clock-rate-and-shot-pitch--spot-size">DAC clock rate and shot pitch / spot size</h3>
+<h2 id="dac-clock-rate-and-shot-pitch--spot-size">DAC clock rate and shot pitch / spot size</h2>
 
 <p>I am not a digital guy, and am not equipped to appreciate the clock rate of a 20 bit DAC. What I could do here is to point out the limit or tradeoff between DAC rate, dose, and shot pitch or spot size. In short, the time a single shot need, is dose times the area, divided by the current, and it cannot be shorter than the rate the DAC could steer the beam.</p>
 <ul>
@@ -492,7 +492,26 @@
 
 <p>For our 50 MHz DAC rate from the spec, that is ~ 20 ns. If we are exposing 1000 uC/cm\(^2\) with 1 nA at 8 nm shot pitch, the dwell time neede is 160 ns, and we are safe. But if you switch to a 10 nA beam, you’d need a larger shot pitch.</p>
 
-<h3 id="dac-resolution">DAC resolution</h3>
+<h2 id="dac-resolution">DAC resolution</h2>
+
+<p>So how good is a 20 bit DAC, and why do we need it? 20 bit is \(2^{20} \approx 10^6\),  that is a dynamic range of 60 dB.
+For comparison, for reading out voltages, an oscilloscope typically has 8 to 10 bit, and prefer to have a higher sampling rate (e.g. <a href="https://www.tek.com/en/datasheet/2-series-mso-mixed-signal-oscilloscope-datasheet">Tektronix MSO</a>).
+At slower sampling rate, and for analog output, <a href="https://www.ni.com/pdf/product-flyers/multifunction-io.pdf">NI DAQ</a> has 16 ~ 18 bit at around 1 MS/s. And for sensitive measurement such as lock-in amplifiers, you can find 14 ~ 16 bit at ~ 200 MS/s (e.g. Zurich Instruments <a href="https://www.zhinst.com/ch/en/products/hf2li-lock-in-amplifier#specifications">HF2LI</a>).
+Someone who’s an expert on DAC/ADC should make a tradeoff and price chart of all these specs.</p>
+
+<p>Back to DAC for ebeam, a dynamic range of 60 dB roughly means that we could have \(10^6\) shots along x and y within a single write field. That is, how many distinct spots can we have before we have to move the stage.
+For a spot or step size of ~ 4 nm, that means the write field can be as big as ~ 4 mm (in principle). The max write field size on EBPG5200 is indeed 1 mm x 1 mm. You are writing a terapixel image onto your chip with the ebeam, and doing it one pixel at a time, and ~ 50 millions per second.</p>
+<ul>
+  <li>I would like to point out that I recently learnt that shaped beam, or electron projection lithography (EPL) has been improving, and they can do a few gigapixels per second by late 1990s, and a million beams in parallel. (See <a href="/assets/doc/2024/EBL_paper/pfeiffer2010.pdf">Pfeiffer2010</a> and <a href="https://pubs.aip.org/avs/jvb/article-abstract/27/1/161/467317/REBL-A-novel-approach-to-high-speed-maskless">Petric2009</a>)</li>
+</ul>
+
+<p><img src="/assets/images/2024/ebeam/EBL_throughput_pixel_per_sec_pfeiffer2010.PNG" alt="EBL_throughput_pixel_per_sec_pfeiffer2010.PNG" /></p>
+
+<ul>
+  <li>One challenge there is sending data to the digital pattern generator (DPG), which “needed throughput with only 1 Tbit/s of compressed data sent to the DPG”. (<a href="https://pubs.aip.org/avs/jvb/article-abstract/27/1/161/467317/REBL-A-novel-approach-to-high-speed-maskless">Petric2009</a>)</li>
+</ul>
+
+<h2 id="stability">Stability</h2>
 
 <p>(To be continued)</p>
 
@@ -522,7 +541,34 @@
   </li>
 </ul>
 
-<h1 id="practical">Practical</h1>
+<h1 id="practical-stuff">Practical stuff</h1>
+
+<h2 id="design-and-fracturing">Design and fracturing</h2>
+
+<h2 id="ebeam-resist">Ebeam resist</h2>
+
+<p>My first exposure of ebeam resist is with <a href="https://en.wikipedia.org/wiki/Methyl_methacrylate">MMA</a>/<a href="https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)">PMMA</a> double layer for Josephson junctions (JJ) (<a href="https://en.wikipedia.org/wiki/Niemeyer%E2%80%93Dolan_technique">Dolan bridge</a>). It was such a long time ago and I did not have much “cleanroom consciousness” on what was important and what needed improvement. Later on I happened to need to make them again.</p>
+
+<p><img src="/assets/images/2024/ebeam/JJ_20200225_D1_45deg_020.jpg" alt="JJ_20200225_D1_45deg_020.jpg" />
+<em>Here is a JJ made with MMA/PMMA Dolan bridge. You could see the aluminum from the second angled evap hit the sidewall of the lower layer resist, and left a vertical flap standing after liftoff.</em></p>
+
+<p>When I got started at Stanford cleanroom, the first process I shadowed and learnt was using <a href="https://www.allresist.com/portfolio-item/e-beam-resist-ar-p-6200-series-csar-62/">CSAR</a> to mask silicon etch on silicon-on-insulator (SOI) substrate. It was a great choice for starters, as the dose is low ($\sim 300~\text{uC/cm}^2$, exposure would be fast) and pretty robust, the development is also short (sub one minute) and pretty robust. The only annoyance is the cleaning after the plasma etch.
+You could find a lot of SEM images of pattered silicon photonics, so here I wanted to show you that you could also use CSAR for liftoff (which to be honest you could probably also find a lot of SEM of).</p>
+
+<p><img src="/assets/images/2024/20180216_dose_11_dev_1_1.jpg" alt="20180216_dose_11_dev_1_1.jpg" />
+<em>One of the dose tests of CSAR liftoff of aluminum. The challenge here is a narrow and meandering gap between two metal electrodes. You could see the liftoff failed around the center, where the solvents really struggled to get in.</em></p>
+
+<p><img src="/assets/images/2024/ebeam/20191022_LiSa_mechanics_A_012.jpg" alt="20191022_LiSa_mechanics_A_012.jpg" />
+<em>Here you are seeing thin-film lithium niobate (darker region in top-left) on sapphire (bright charged up region in bottom right), with aluminum electrodes evaporated on top, at large angles for it to climb the steep sidewall, and lifted off with CSAR.</em></p>
+
+<p>After about half a year, I got into developing/optimizing a mask and etch process for thin-film lithium niobate. There were a lot of grinding, but the relevant part here is that together with a labmate, we started developing a recipe for HSQ (<a href="https://en.wikipedia.org/wiki/Hydrogen_silsesquioxane">Hydrogen silsesquioxane</a>) resist, or Flowable oxide (FOx) might sound more familiar to some people, or spin-on glass.</p>
+
+<p>As for ebeam liftoff, I continued working with MMA/PMMA double layer, as well as PMMA/PMMA double layer with different concentrations and thickness. I also learnt and used single layer CSAR for liftoff. It sounds impossible or challenging because it is a single layer, but the exposure actually leaves a negative sidewall, and made the liftoff possible.</p>
+
+<h2 id="dose">Dose</h2>
+
+<h2 id="calibrations">Calibrations</h2>
+
 <ul>
   <li>What resist to use
     <ul>
@@ -587,7 +633,7 @@
   <li>TBA…</li>
 </ul>
 
-<h1 id="appendix-a-quick-rundown-of-my-ebeam-lithography-journey">Appendix: A quick rundown of my ebeam lithography journey</h1>
+<h1 id="appendix-a-quick-rundown-of-my-ebeam-lithography-journey">Appendix: a quick rundown of my ebeam lithography journey</h1>
 
 <p>I will use this section to quickly go through the ebeam tool I have used in the past, and the things I like and hate the most about them. With SEMs of devices made with these tools! (so that you don’t fall asleep) I will also look back at what different aspects of ebeam litho I focused on during different periods of time, as well as resists and chip/substrates I have used. These are the stuff I have the most experience on and could speak about.</p>
 
@@ -597,7 +643,7 @@
 <ul>
   <li>Why is the GUI completely frozen when the sample plate is loading or unloading? Why can’t I check my patterns or configure the beam/column parameters?</li>
   <li>Why is there a joystick? Some people might like it but I absolutely do not want to accidentally bumped into it. Disabling the x and y channel on the joystick is the first thing I do when I got to the tool.</li>
-  <li>I am struggling to come up with a good thing about it. Maybe the lower beam voltage is good for not damaging 2D materials? The holder sucks (the one that literally works like a clipboard, I always worry about my chip being tilted..), the focusing step sucks, queuing up the schedule/job sucks, the GUI and toolbar are so stacked and not intuitive… I should stop here.</li>
+  <li>I am struggling to come up with a good thing about it. Maybe the lower beam voltage is good for not damaging 2D materials? The holder sucks (the one that literally works like a clipboard, I always worry about my chip being tilted..), the focusing sucks (you have to apply gold nanoparticles or make a scratch on your chip), queuing up the schedule/job sucks, the GUI and toolbar are so stacked and not intuitive… I should stop here.</li>
 </ul>
 
 <p><img src="/assets/images/2024/graphene_quantum_dot.jpeg" alt="graphene_quantum_dot.jpeg" />
@@ -608,6 +654,7 @@
   <li>It is perfect, please do not change.</li>
   <li>Hmm maybe make it easier to copy the log message from the GUI. Maybe this is partly because of the linux system, it took me a while to figure out I have to triple click to “select-all, and then drag-drop while holding the SCROLLING WHEEL to copy the log messages out.</li>
   <li>It has one of the best loadlock / loading arm in the whole cleanroom. The cassette/holder is also front referenced, there is no need to tune the tilt and height of your chip. God I love the JEOL.</li>
+  <li>Writefield for low current beam is small though, 62.5 um. Why is it 62.5 um? Because it is 1000 um divided by \(2^4\).</li>
 </ul>
 
 <p><img src="/assets/images/2024/LN_OMC_SEM.png" alt="LN_OMC_SEM.png" />
@@ -619,6 +666,7 @@
 <h3 id="raith-voyager-2022---2023">Raith Voyager (2022 - 2023)</h3>
 <ul>
   <li>Same complains as Raith 150 Two. Very similar in terms of user experience.</li>
+  <li>Maybe the max writefield got larger?</li>
 </ul>
 
 <h3 id="ebpg-5200-2023---2024">EBPG 5200+ (2023 - 2024)</h3>
@@ -639,7 +687,7 @@
   <li>2023 - 2024: 60?  Played with proximity effect correction a lot during this time.</li>
   <li>2021 - 2022: 109. Started and perfected automatic mark detection and alignment on JEOL.</li>
   <li>2019 - 2021: 92 (damn covid). Mainly grinding other fab process during this time. Explored with discharge layers when working with insulating substrate like sapphire.</li>
-  <li>2017 - 2018: 73 + 89. Developing a certain fab process with a labmate, was doing beamwrite almost every week, sometimes more than once a week.</li>
+  <li>2017 - 2018: 162. Developing a certain fab process with a labmate, was doing beamwrite almost every week, sometimes more than once a week.</li>
   <li>pre 2017: sporadic. This was the graphene quantum dot period of my career. I did not know much about what is going on in the fab, but got a lot of operation-from-first-principle kind of experience since my lab manager does not trust automation, and want us to operate as manually as possible. It was a blessing in disguise.</li>
 </ul>
 
@@ -647,14 +695,6 @@
 
 <p><img src="/assets/images/2024/beamwrite_log_sheet.png" alt="beamwrite_log_sheet.png" />
 <em>Log sheet I created for keeping track of beamwrites from me and the team. This is specifically for JEOL, but most of the parameters are relevant in general, and will make more sense as you read on.</em></p>
-
-<h2 id="ebeam-resist">Ebeam resist</h2>
-
-<p>My first exposure of ebeam resist is with <a href="https://en.wikipedia.org/wiki/Methyl_methacrylate">MMA</a>/<a href="https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)">PMMA</a> double layer for Josephson junctions (<a href="https://en.wikipedia.org/wiki/Niemeyer%E2%80%93Dolan_technique">Dolan bridge</a>). It was such a long time ago and I did not have much “cleanroom consciousness” on what was important and what needed improvement.</p>
-
-<p>When I got started at Stanford cleanroom, the first process I shadowed and learnt was using <a href="https://www.allresist.com/portfolio-item/e-beam-resist-ar-p-6200-series-csar-62/">CSAR</a> to mask silicon etch on silicon-on-insulator (SOI) substrate. It was a great choice for starters, as the dose is low ($\sim 300~\text{uC/cm}^2$, exposure would be fast) and pretty robust, the development is also short (sub one minute) and pretty robust. The only annoyance is the cleaning after the plasma etch. After about half a year, I got into developing/optimizing a mask and etch process for thin-film lithium niobate. There were a lot of grinding, but the relevant part here is that together with a labmate, we started developing a recipe for HSQ (<a href="https://en.wikipedia.org/wiki/Hydrogen_silsesquioxane">Hydrogen silsesquioxane</a>) resist, or Flowable oxide (FOx) might sound more familiar to some people, or spin-on glass.</p>
-
-<p>As for ebeam liftoff, I continued working with MMA/PMMA double layer, as well as PMMA/PMMA double layer with different concentrations and thickness. I also learnt and used single layer CSAR for liftoff. It sounds impossible or challenging because it is a single layer, but the exposure actually leaves a negative sidewall, and made the liftoff possible.</p>
 
 <h2 id="acknowledgements">Acknowledgements</h2>
 
