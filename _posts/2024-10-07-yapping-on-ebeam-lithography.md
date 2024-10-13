@@ -237,7 +237,7 @@ My first exposure of ebeam resist is with [MMA](https://en.wikipedia.org/wiki/Me
 When I got started at Stanford cleanroom, the first process I shadowed and learnt was using [CSAR](https://www.allresist.com/portfolio-item/e-beam-resist-ar-p-6200-series-csar-62/) to mask silicon etch on silicon-on-insulator (SOI) substrate. It was a great choice for starters, as the dose is low ($\sim 300~\text{uC/cm}^2$, exposure would be fast) and pretty robust, the development is also short (sub one minute) and pretty robust. The only annoyance is the cleaning after the plasma etch.
 You could find a lot of SEM images of pattered silicon photonics, so here I wanted to show you that you could also use CSAR for liftoff (which to be honest you could probably also find a lot of SEM of).
 
-![20180216_dose_11_dev_1_1.jpg](/assets/images/2024/20180216_dose_11_dev_1_1.jpg)
+![20180216_dose_11_dev_1_1.jpg](/assets/images/2024/ebeam/20180216_dose_11_dev_1_1.jpg)
 *One of the dose tests of CSAR liftoff of aluminum. The challenge here is a narrow and meandering gap between two metal electrodes. You could see the liftoff failed around the center, where the solvents really struggled to get in.*
 
 
