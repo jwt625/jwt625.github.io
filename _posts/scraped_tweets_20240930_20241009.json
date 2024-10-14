@@ -1,0 +1,922 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1840566450685456552",
+        "tweets": [
+            {
+                "text": "I was thinking about if we could fill the magnetron cavities with silicon to shrink it by ~3x, and found out rapid microwave annealing:\nIt turns amorphous silicon into crystalline, and activates the dopants... Why did I suffer thru the trainings to get rapid thermal annealing...",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr_iTBaAAAt0QN?format=png",
+                        "local_path": "media\\20240930_004858_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr_v3xbkAAVq7X?format=jpg",
+                        "local_path": "media\\20240930_004858_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYsAanNasAAOyB3?format=png",
+                        "local_path": "media\\20240930_004858_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYsAxyMakAAokX8?format=jpg",
+                        "local_path": "media\\20240930_004858_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2WrqbMAAQ_rH?format=jpg",
+                        "local_path": "media\\20240930_004858_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2ZfBbcAAiaAw?format=jpg",
+                        "local_path": "media\\20240930_004858_5.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2aNdbAAARJ_i?format=jpg",
+                        "local_path": "media\\20240930_004858_6.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2bXVbsAAzFMk?format=jpg",
+                        "local_path": "media\\20240930_004858_7.jpg"
+                    }
+                ],
+                "timestamp": "2024-09-30T00:48:58+00:00"
+            },
+            {
+                "text": "Fig. 1-3: https://doi.org/10.1007/s00339-016-0220-7…\nFig. 4: https://doi.org/10.1063/1.3260245…",
+                "media": [],
+                "timestamp": "2024-09-30T01:39:04+00:00"
+            },
+            {
+                "text": "Since it's a bit relevant, here is a demonstration showing you could also drill concrete and rock with microwave and millimeter wave\n(I remember the book mentioned in the quoted tweet is about drilling on other planets. Let's see if I could find it..) ",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYsZLCAawAA6o3z?format=png",
+                        "local_path": "media\\20240930_032409_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYsZPKBaEAAwdSm?format=png",
+                        "local_path": "media\\20240930_032409_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYsZSlaaIAAWqwl?format=png",
+                        "local_path": "media\\20240930_032409_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYsZg4tbkAAMwTX?format=png",
+                        "local_path": "media\\20240930_032409_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-09-30T03:24:09+00:00"
+            },
+            {
+                "text": "Yes this one. Not sure why I was reading it...",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYsaRVxa8AAc6of?format=jpg",
+                        "local_path": "media\\20240930_032529_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-09-30T03:25:29+00:00"
+            },
+            {
+                "text": "I remember there's a small company doing \"near field\" ALD/ALE with a probe, I'll try to look it up later.",
+                "media": [],
+                "timestamp": "2024-09-30T14:43:53+00:00"
+            },
+            {
+                "text": "Seems like no vacuum. There’s a 100 nm thick oxide layer formed prior to the microwave, so really sounds like they just loaded the sample in a consumer microwave oven",
+                "media": [],
+                "timestamp": "2024-09-30T13:53:52+00:00"
+            },
+            {
+                "text": "I was thinking about if we could fill the magnetron cavities with silicon to shrink it by ~3x, and found out rapid microwave annealing:\nIt turns amorphous silicon into crystalline, and activates the dopants... Why did I suffer thru the trainings to get rapid thermal annealing...",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr_iTBaAAAt0QN?format=png",
+                        "local_path": "media\\20240930_004858_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr_v3xbkAAVq7X?format=jpg",
+                        "local_path": "media\\20240930_004858_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYsAanNasAAOyB3?format=png",
+                        "local_path": "media\\20240930_004858_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYsAxyMakAAokX8?format=jpg",
+                        "local_path": "media\\20240930_004858_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2WrqbMAAQ_rH?format=jpg",
+                        "local_path": "media\\20240930_004858_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2ZfBbcAAiaAw?format=jpg",
+                        "local_path": "media\\20240930_004858_5.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2aNdbAAARJ_i?format=jpg",
+                        "local_path": "media\\20240930_004858_6.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2bXVbsAAzFMk?format=jpg",
+                        "local_path": "media\\20240930_004858_7.jpg"
+                    }
+                ],
+                "timestamp": "2024-09-30T00:48:58+00:00"
+            },
+            {
+                "text": "Fig. 1-3: https://doi.org/10.1007/s00339-016-0220-7…\nFig. 4: https://doi.org/10.1063/1.3260245…",
+                "media": [],
+                "timestamp": "2024-09-30T01:39:04+00:00"
+            },
+            {
+                "text": "Since it's a bit relevant, here is a demonstration showing you could also drill concrete and rock with microwave and millimeter wave\n(I remember the book mentioned in the quoted tweet is about drilling on other planets. Let's see if I could find it..) ",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYsZLCAawAA6o3z?format=png",
+                        "local_path": "media\\20240930_032409_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYsZPKBaEAAwdSm?format=png",
+                        "local_path": "media\\20240930_032409_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYsZSlaaIAAWqwl?format=png",
+                        "local_path": "media\\20240930_032409_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYsZg4tbkAAMwTX?format=png",
+                        "local_path": "media\\20240930_032409_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-09-30T03:24:09+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1840764989965279537",
+        "tweets": [
+            {
+                "text": "I was thinking about if we could fill the magnetron cavities with silicon to shrink it by ~3x, and found out rapid microwave annealing:\nIt turns amorphous silicon into crystalline, and activates the dopants... Why did I suffer thru the trainings to get rapid thermal annealing...",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr_iTBaAAAt0QN?format=png",
+                        "local_path": "media\\20240930_013652_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr_v3xbkAAVq7X?format=jpg",
+                        "local_path": "media\\20240930_013652_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYsAanNasAAOyB3?format=png",
+                        "local_path": "media\\20240930_013652_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYsAxyMakAAokX8?format=jpg",
+                        "local_path": "media\\20240930_013652_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2WrqbMAAQ_rH?format=jpg",
+                        "local_path": "media\\20240930_013652_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2ZfBbcAAiaAw?format=jpg",
+                        "local_path": "media\\20240930_013652_5.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2aNdbAAARJ_i?format=jpg",
+                        "local_path": "media\\20240930_013652_6.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2bXVbsAAzFMk?format=jpg",
+                        "local_path": "media\\20240930_013652_7.jpg"
+                    }
+                ],
+                "timestamp": "2024-09-30T01:36:52+00:00"
+            },
+            {
+                "text": "I remember there's a small company doing \"near field\" ALD/ALE with a probe, I'll try to look it up later.",
+                "media": [],
+                "timestamp": "2024-09-30T14:43:53+00:00"
+            },
+            {
+                "text": "It's called direct-write ALD, and the company is ATLANT3D Nanosystems. They gave a talk at Stanford: https://nanolabs.stanford.edu/events/unique-direct-processing-platform-technology-mdalp…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYu1zcCawAAgKek?format=jpg",
+                        "local_path": "media\\20240930_144548_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-09-30T14:45:48+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1840924022802149452",
+        "tweets": [
+            {
+                "text": "This pressure measurement film is from fujifilm called Prescale, and introduced in 1977. The product line includes 9 types for different pressure range from kPa to almost GPa, each with ~ 6 dB range and 10% accuracy. The color is from breaking microcapsules.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYxGPOkaUAAMs5M?format=png",
+                        "local_path": "media\\20240930_173932_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYxGS8QbQAIv9jS?format=jpg",
+                        "local_path": "media\\20240930_173932_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYxGavUbMAAUy7G?format=jpg",
+                        "local_path": "media\\20240930_173932_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYvdxQcXAAAo4VM?format=jpg",
+                        "local_path": "media\\20240930_173932_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYvdxSdXAAACb4u?format=jpg",
+                        "local_path": "media\\20240930_173932_4.jpg"
+                    }
+                ],
+                "timestamp": "2024-09-30T17:39:32+00:00"
+            },
+            {
+                "text": "Fig. 1: https://fujifilm-innovation.tumblr.com/post/168661520780/the-film-that-changes-color-with-pressure…\nFig. 2: https://sensorprod.com/glossary/paper/fuji-paper.php…\nFig. 3: https://fujifilm.com/us/en/business/industrial-materials/measurement-film/prescale/feature…\nFig. 4: https://tekscan.com/sites/default/files/resources/Measurement%20Film%20Catalog%20Brochure.pdf…",
+                "media": [],
+                "timestamp": "2024-10-01T01:18:34+00:00"
+            },
+            {
+                "text": "They also have films for thermal and UV",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYxHVO_agAAuZko?format=jpg",
+                        "local_path": "media\\20241001_012123_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYxHY34bwAARfOv?format=jpg",
+                        "local_path": "media\\20241001_012123_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-01T01:21:23+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1841280256537444728",
+        "tweets": [
+            {
+                "text": "You've probably seen the array of pyramids in an anechoic chamber. You could make a \"pyramid\" of Hilbert curve so that it is 3D print friendly and still polarization insensitive. They used carbon-loaded HIPS and achieved lower than -20 dB reflectance over a wide frequency range.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GY2JhV0bEAA96GI?format=jpg",
+                        "local_path": "media\\20241002_005317_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY2JkulasAA7SN9?format=png",
+                        "local_path": "media\\20241002_005317_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY2Jmg0bAAA_0jP?format=png",
+                        "local_path": "media\\20241002_005317_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY2JoohboAAP9Hz?format=png",
+                        "local_path": "media\\20241002_005317_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-02T00:53:17+00:00"
+            },
+            {
+                "text": "Fig. 1: https://antennatestlab.com/antenna-examples/example-3-vivaldi-antennas-rfspace…\nFig. 2-4: A 3D-printed broadband millimeter wave absorber https://pubs.aip.org/aip/rsi/article/90/2/024701/361743…\nSaw it from Broadband millimeter-wave absorbers: a review https://doi.org/10.1017/S1759078722000162…",
+                "media": [],
+                "timestamp": "2024-10-02T00:55:14+00:00"
+            },
+            {
+                "text": "This is a good read on the historical aspects:\nElectromagnetic wave absorbers and anechoic chambers through the years https://doi.org/10.1109/TAP.1973.1140517…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GY2LdlRbAAAP57g?format=png",
+                        "local_path": "media\\20241002_005725_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-02T00:57:25+00:00"
+            },
+            {
+                "text": "-30 is typical",
+                "media": [],
+                "timestamp": "2024-10-02T13:36:37+00:00"
+            },
+            {
+                "text": "Damn that’s a bit pricy",
+                "media": [],
+                "timestamp": "2024-10-02T02:20:53+00:00"
+            },
+            {
+                "text": "Not very aerodynamic ",
+                "media": [],
+                "timestamp": "2024-10-02T13:33:35+00:00"
+            },
+            {
+                "text": "-30 dB is common, -60 dB ones exist",
+                "media": [],
+                "timestamp": "2024-10-02T13:36:14+00:00"
+            },
+            {
+                "text": "Not better, but easier to 3D print",
+                "media": [],
+                "timestamp": "2024-10-02T13:37:22+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1841496102165708962",
+        "tweets": [
+            {
+                "text": "Here is what you need to generate ~gigawatt (300 kV * 1 kA) pulsed microwave: a Marx generator (charging capacitors in parallel and discharge in series) submerged in a big oil tank, to discharge into a magnetron as well as a big Helmholtz coil pair.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5M3S-akAA1y9h?format=jpg",
+                        "local_path": "media\\20241002_151058_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5M6ura4AA2x2L?format=jpg",
+                        "local_path": "media\\20241002_151058_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5M9UOakAADFme?format=jpg",
+                        "local_path": "media\\20241002_151058_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5NB91bIAAajLr?format=jpg",
+                        "local_path": "media\\20241002_151058_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-02T15:10:58+00:00"
+            },
+            {
+                "text": "From thesis: Relativistic magnetron with diffraction output and split cathode\nhttps://digitalrepository.unm.edu/ece_etds/528/",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5PBZvaMAApOy9?format=jpg",
+                        "local_path": "media\\20241002_151153_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-02T15:11:53+00:00"
+            },
+            {
+                "text": "I was reading it because of this",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2WrqbMAAQ_rH?format=jpg",
+                        "local_path": "media\\20241002_151255_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2ZfBbcAAiaAw?format=jpg",
+                        "local_path": "media\\20241002_151255_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2aNdbAAARJ_i?format=jpg",
+                        "local_path": "media\\20241002_151255_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2bXVbsAAzFMk?format=jpg",
+                        "local_path": "media\\20241002_151255_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-02T15:12:55+00:00"
+            },
+            {
+                "text": "Also learnt there are two major ways of coupling out the microwave power, from the side (radial output = MRO) and from the center (diffraction output = MDO). MRO has large leakage current that does not produce microwave and has lower efficiency (~ 15% vs. ~50% for MDO).",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5PnDLasAE60wR?format=jpg",
+                        "local_path": "media\\20241002_151659_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5P9GpaAAEVdfd?format=jpg",
+                        "local_path": "media\\20241002_151659_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5P9uWaYAA-DPu?format=jpg",
+                        "local_path": "media\\20241002_151659_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5P_4kbYAEC_J3?format=png",
+                        "local_path": "media\\20241002_151659_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-02T15:16:59+00:00"
+            },
+            {
+                "text": "Part of this is for generation x-ray with z-pinch (https://fire.pppl.gov/fpa05_olson.pdf). I had no idea you could pinch stuff hard enough to do fusion.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5RcuDbwAAramU?format=jpg",
+                        "local_path": "media\\20241002_152634_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5SWJobgAIHHUf?format=png",
+                        "local_path": "media\\20241002_152634_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5SgVJb0AAqJWH?format=png",
+                        "local_path": "media\\20241002_152634_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-02T15:26:34+00:00"
+            },
+            {
+                "text": "I was reading it because of this",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2WrqbMAAQ_rH?format=jpg",
+                        "local_path": "media\\20241002_151255_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2ZfBbcAAiaAw?format=jpg",
+                        "local_path": "media\\20241002_151255_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2aNdbAAARJ_i?format=jpg",
+                        "local_path": "media\\20241002_151255_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYr2bXVbsAAzFMk?format=jpg",
+                        "local_path": "media\\20241002_151255_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-02T15:12:55+00:00"
+            },
+            {
+                "text": "Also learnt there are two major ways of coupling out the microwave power, from the side (radial output = MRO) and from the center (diffraction output = MDO). MRO has large leakage current that does not produce microwave and has lower efficiency (~ 15% vs. ~50% for MDO).",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5PnDLasAE60wR?format=jpg",
+                        "local_path": "media\\20241002_151659_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5P9GpaAAEVdfd?format=jpg",
+                        "local_path": "media\\20241002_151659_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5P9uWaYAA-DPu?format=jpg",
+                        "local_path": "media\\20241002_151659_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5P_4kbYAEC_J3?format=png",
+                        "local_path": "media\\20241002_151659_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-02T15:16:59+00:00"
+            },
+            {
+                "text": "Part of this is for generation x-ray with z-pinch (https://fire.pppl.gov/fpa05_olson.pdf). I had no idea you could pinch stuff hard enough to do fusion.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5RcuDbwAAramU?format=jpg",
+                        "local_path": "media\\20241002_152634_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5SWJobgAIHHUf?format=png",
+                        "local_path": "media\\20241002_152634_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5SgVJb0AAqJWH?format=png",
+                        "local_path": "media\\20241002_152634_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-02T15:26:34+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1840932075131855136",
+        "tweets": [
+            {
+                "text": "Unexpected \"alignment chart\" for extreme computing.\nI won't ask for too much, I'd be happy with the ultimate hot plasma laptop.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYxNVsmagAAVSKn?format=jpg",
+                        "local_path": "media\\20241001_014944_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-01T01:49:44+00:00"
+            },
+            {
+                "text": "From black hole computers: https://jstor.org/stable/26060763",
+                "media": [],
+                "timestamp": "2024-10-01T01:50:28+00:00"
+            },
+            {
+                "text": "When you are worried about space debris, the physicists are worried about too many satellites could collapse into a blackhole.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYxO9n9bQAQ_QWn?format=jpg",
+                        "local_path": "media\\20241001_015447_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-01T01:54:47+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1842017637079121966",
+        "tweets": [
+            {
+                "text": "First laser metal 3D printing aboard the ISS. It arrived on board January 2024 and installed in May. It prints ~ 4 h a day and finished total of over 200 layers by August for the first print.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1842015607753211904/pu/img/96dUS9_Lx7X4fXPx.jpg",
+                        "local_path": "media\\20241004_014322_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZAneXmbAAEnDNG?format=jpg",
+                        "local_path": "media\\20241004_014322_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZAnf1Ka4AAEVGO?format=jpg",
+                        "local_path": "media\\20241004_014322_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-04T01:43:22+00:00"
+            },
+            {
+                "text": "Article: Behind the scenes of the first metal part to be 3D-printed aboard the ISS",
+                "media": [],
+                "timestamp": "2024-10-04T01:43:44+00:00"
+            },
+            {
+                "text": "More about the printer here. Not much real detail",
+                "media": [],
+                "timestamp": "2024-10-04T04:32:49+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1842049382084182247",
+        "tweets": [
+            {
+                "text": "If you could write \"google-proof\" Q&A, you might get hired for some sweet hourly rates ($100 ~ $150/h)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZBF0lHbAAQLFbI?format=jpg",
+                        "local_path": "media\\20241004_034930_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZBF1k2aIAAuGO1?format=jpg",
+                        "local_path": "media\\20241004_034930_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZBF3BraoAAEvnW?format=jpg",
+                        "local_path": "media\\20241004_034930_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZBF73bbAAMF8kc?format=jpg",
+                        "local_path": "media\\20241004_034930_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-04T03:49:30+00:00"
+            },
+            {
+                "text": "GPQA: A Graduate-Level Google-Proof Q&A Benchmark",
+                "media": [],
+                "timestamp": "2024-10-04T03:49:49+00:00"
+            },
+            {
+                "text": "yeah there's a long way to go. These \"advanced textbook\" type of Q&A is what they could assemble and test \"easily\". Words are too plain to absorb so many of the practical arts and techniques",
+                "media": [],
+                "timestamp": "2024-10-04T04:06:54+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1842056788759212347",
+        "tweets": [
+            {
+                "text": "Injection-locking yourself out of Alzheimer is cool (\"Pulses of light and sound seem to have beneficial effects.\"), but a flash light (at 40 Hz) for TWO GRAND? a headset with a few LEDs for THREE GRAND??",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZBL7FJbAAEz0-K?format=jpg",
+                        "local_path": "media\\20241004_041856_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZBMApEaQAE39by?format=jpg",
+                        "local_path": "media\\20241004_041856_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZBMdHwbAAAVqzt?format=jpg",
+                        "local_path": "media\\20241004_041856_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZBMeLhbAAAuxt3?format=jpg",
+                        "local_path": "media\\20241004_041856_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-04T04:18:56+00:00"
+            },
+            {
+                "text": "See for yourself.\nArticle: https://nature.com/articles/d41586-024-03147-1…\nEVY Light: https://optoceutics.com/shop/evy-light-usa/…\nVielight headset: https://vielight.com/devices/neuro-vagus-combo/…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZBNChtawAAdqJS?format=jpg",
+                        "local_path": "media\\20241004_042104_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZBNHp7bAAEswrf?format=jpg",
+                        "local_path": "media\\20241004_042104_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZBNRryaIAARQ_c?format=jpg",
+                        "local_path": "media\\20241004_042104_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-04T04:21:04+00:00"
+            },
+            {
+                "text": "\"ahead of regulatory clearance\"\nGet the money quick while it still seems like it works!",
+                "media": [],
+                "timestamp": "2024-10-04T04:35:08+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1842283110970626131",
+        "tweets": [
+            {
+                "text": "You might have heard about or used periodic poling if you work in nonlinear optics. For some applications such as THz generation with optical rectification, the poling period is comparable to wafer thickness, and you can just stack wafers, and also get a big aperture as a bonus.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZEZhfrbAAAvwPO?format=jpg",
+                        "local_path": "media\\20241004_191816_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZEZm9dakAAG1A8?format=jpg",
+                        "local_path": "media\\20241004_191816_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZEZtaSaMAA-aFa?format=jpg",
+                        "local_path": "media\\20241004_191816_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZEZx8UaAAAmWnb?format=jpg",
+                        "local_path": "media\\20241004_191816_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-04T19:18:16+00:00"
+            },
+            {
+                "text": "Highly scalable multicycle THz production with a homemade periodically poled macrocrystal: https://nature.com/articles/s42005-020-00421-2…\nLarge-scale PPLN wafer stack: https://doi.org/10.1364/OE.475604…\nCryogenically cooled PPLN wafer stacks for multi-cycle terahertz pulses: https://doi.org/10.1063/5.0230877…",
+                "media": [],
+                "timestamp": "2024-10-04T19:20:39+00:00"
+            },
+            {
+                "text": "Thorlabs has a nice tutorial on periodically poled lithium niobate (PPLN): https://thorlabs.com/catalogpages/693.pdf…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZEb0kpaIAAMojv?format=jpg",
+                        "local_path": "media\\20241004_192546_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZEcALIakAAlw--?format=jpg",
+                        "local_path": "media\\20241004_192546_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZEcMsqbEAAtVtX?format=jpg",
+                        "local_path": "media\\20241004_192546_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZEccSmbUAAqXgA?format=jpg",
+                        "local_path": "media\\20241004_192546_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-04T19:25:46+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1842606510284894576",
+        "tweets": [
+            {
+                "text": "The video is so well made, I wish I had it to watch years ago when I was suffering during an experiment class reproducing one\nInterference and phase conjugating are so fun and useful in many ways, like determining the shape of a mirror you need, or wavefront/dispersion correction",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZI-kWxbgAAKP_3?format=jpg",
+                        "local_path": "media\\20241005_153817_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZI-x2vaMAA3bqt?format=jpg",
+                        "local_path": "media\\20241005_153817_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZI_d4ibsAAvxws?format=jpg",
+                        "local_path": "media\\20241005_153817_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZJAdL3akAAZO_9?format=jpg",
+                        "local_path": "media\\20241005_153817_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-05T15:38:17+00:00"
+            },
+            {
+                "text": "The video: How are holograms possible? | Optics puzzles 5\nhttps://youtube.com/watch?v=EmKQsSDlaa4…\nFig. 3: Free-Form Micro-Optics Enabling Ultra-Broadband Low-Loss Off-Chip Coupling\nhttps://doi.org/10.1002/lpor.202200025…\nFig. 4: Optical Phase Conjugation and Its Applications in Biology\nhttps://thesis.library.caltech.edu/9771/",
+                "media": [],
+                "timestamp": "2024-10-05T16:46:26+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1842703576377995572",
+        "tweets": [
+            {
+                "text": "They missed the opportunity of calling them kiki scanning and bouba scanning",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZKYUA2a8AAy-Uw?format=png",
+                        "local_path": "media\\20241005_230551_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-05T23:05:51+00:00"
+            },
+            {
+                "text": "Coherence Domain Optical Imaging Techniques:\nhttps://thesis.library.caltech.edu/4949/\nPretty cool how they scan the beam out of a fiber. I want to find some actual pictures",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZKYvGjbcAAl8T8?format=jpg",
+                        "local_path": "media\\20241005_230903_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZKY0kdawAAsNDP?format=jpg",
+                        "local_path": "media\\20241005_230903_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZKY4REaEAAQiY0?format=jpg",
+                        "local_path": "media\\20241005_230903_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-05T23:09:03+00:00"
+            },
+            {
+                "text": "Reading this thesis because of this paper where they imaged the USAF target thru half a mm thick chicken breast using phase conjugate (https://doi.org/10.1038/nphoton.2007.297…). I want to find actual pictures of their setup and sample (found the one for the samples: https://thesis.library.caltech.edu/5343/).",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZLi2Z0a4AACzGu?format=jpg",
+                        "local_path": "media\\20241006_043607_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZLjq-ybgAAPht5?format=jpg",
+                        "local_path": "media\\20241006_043607_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-06T04:36:07+00:00"
+            },
+            {
+                "text": "Does not look as impressive when you actually see the 0.5 mm thick chicken breast sample",
+                "media": [],
+                "timestamp": "2024-10-06T04:36:54+00:00"
+            },
+            {
+                "text": "Learnt the \"whole thing\" is called endoscopic OCT catheter, found a few better picture of its tip design (https://doi.org/10.1038/s41566-018-0224-2…), and they really just rotate the whole thing (https://doi.org/10.1109/JSTQE.2015.2510295… and https://doi.org/10.1038/s41598-020-65742-2…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZMJfTObAAAFXVj?format=jpg",
+                        "local_path": "media\\20241006_072539_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZMJtW2agAAsRpF?format=jpg",
+                        "local_path": "media\\20241006_072539_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZMJ84hbcAEbeJT?format=jpg",
+                        "local_path": "media\\20241006_072539_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZMKim6aMAAWFA0?format=jpg",
+                        "local_path": "media\\20241006_072539_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-06T07:25:39+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1842963830600781963",
+        "tweets": [
+            {
+                "text": "3D Printing of Nanoscale Photonic Structures.\nTwo-photon and two-step polymerization are able to achieve much smaller structures than I thought, and one way to do it is to heat-shrink after the print, and get different structured color with different temperatures.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZODtwfb0AAFgzA?format=jpg",
+                        "local_path": "media\\20241006_162312_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZOEHqmbgAANV4g?format=jpg",
+                        "local_path": "media\\20241006_162312_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZOE6GFaoAA6ehB?format=jpg",
+                        "local_path": "media\\20241006_162312_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZOE_c-b0AEOmVd?format=jpg",
+                        "local_path": "media\\20241006_162312_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-06T16:23:12+00:00"
+            },
+            {
+                "text": "From the recording of a seminar. More at ",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZOGNuSbEAArbZJ?format=jpg",
+                        "local_path": "media\\20241006_162509_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYxLOmObQAEuIBJ?format=jpg",
+                        "local_path": "media\\20241006_162509_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYxLPjnaIAAnX-5?format=jpg",
+                        "local_path": "media\\20241006_162509_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYxLXzPa4AAi2aV?format=jpg",
+                        "local_path": "media\\20241006_162509_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYxLZ1nbQAQ7SV-?format=jpg",
+                        "local_path": "media\\20241006_162509_4.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-06T16:25:09+00:00"
+            },
+            {
+                "text": "They mentioned the NA and bandwidth limit of a single layer metalens. It reminded me of a David Miller paper: Why optics needs thickness (https://doi.org/10.1126/science.ade3395…, https://arxiv.org/abs/2209.03552). Basically if you are manipulating a lot of modes, they need space to exist and propagate.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZOGwtEa0AAmHgg?format=jpg",
+                        "local_path": "media\\20241006_163055_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZOHL_8bsAAk3Da?format=jpg",
+                        "local_path": "media\\20241006_163055_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-06T16:30:55+00:00"
+            },
+            {
+                "text": "Its spray paint color is from nanostructures (like some butterflies) instead of pigments, so it does not fade",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZOQvH1acAA46g9?format=jpg",
+                        "local_path": "media\\20241006_171106_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-06T17:11:06+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1843896753311101142",
+        "tweets": [
+            {
+                "text": "TIL there is a light guide that connects the edge of a scintillator (a thin sheet of phosphor or plastic that fluoresces when struck) in a particle detector to the photodetector/multiplier.\nIt is made of funky shaped plexiglass, and can be very low loss when properly designed.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbU58cboAAfXQP?format=png",
+                        "local_path": "media\\20241009_061018_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbVO4Lb0AALFej?format=png",
+                        "local_path": "media\\20241009_061018_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbVQKSaAAAS8px?format=png",
+                        "local_path": "media\\20241009_061018_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbVRpVasAASgRU?format=png",
+                        "local_path": "media\\20241009_061018_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-09T06:10:18+00:00"
+            },
+            {
+                "text": "Fig. 1: https://indico.cern.ch/event/104466/attachments/15569/22558/scintillator_V2.pdf…\nFig. 2-4: Adiabatic light guide with S-shaped strips:",
+                "media": [],
+                "timestamp": "2024-10-09T06:10:56+00:00"
+            },
+            {
+                "text": "One company that sells them: Eljen Technology\nhttps://eljentechnology.com/products/light-guides-and-acrylic-plastic…",
+                "media": [],
+                "timestamp": "2024-10-09T06:11:58+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2024-10-09T14:15:40+00:00"
+            }
+        ]
+    }
+]

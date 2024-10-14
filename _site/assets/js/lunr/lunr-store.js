@@ -133,7 +133,7 @@ var store = [{
       },{
         "title": "This week's outside five sigma (#5)",
         "excerpt":"AR assisted welding is as old as more than 12 years ago. Youtube video: High Dynamic Range (HDR) Video Image Processing For Digital Glass IEEE spectrum article: Steve Mann: My “Augmediated” Life – What I’ve learned from 35 years of wearing computerized eyewear Crowdstrike broke many Windows machines and triggered...","categories": ["OFS"],
-        "tags": ["Nanofab","Microwave","IT","AR","BLDC","HCI","Llama","LiDAR","OLED"],
+        "tags": ["Nanofab","Microwave","Plasma","IT","AR","BLDC","HCI","Llama","LiDAR","OLED"],
         "url": "/ofs/weekly-OFS-5/",
         "teaser": null
       },{
@@ -209,8 +209,14 @@ var store = [{
         "url": "/ofs/weekly-OFS-15/",
         "teaser": null
       },{
+        "title": "This week's outside five sigma (#16)",
+        "excerpt":"I was thinking about if we could fill the magnetron cavities with silicon to shrink it by ~3x, and found out rapid microwave annealing: It turns amorphous silicon into crystalline, and activates the dopants… Why did I suffer thru the trainings to get rapid thermal annealing… Fig. 1-3: Crystallization and...","categories": ["OFS"],
+        "tags": ["Microwave","Anneal","Nanofab","ALD","ALE","FujiFilm","Antenna","Anechoic-chamber","Magnetron","Z-pinch","Blackhole","ISS","3D-print","AI","Alzheimer","PPLN","Hologram","OCT","Endoscope","Scintillator"],
+        "url": "/ofs/weekly-OFS-16/",
+        "teaser": null
+      },{
         "title": "Yapping on ebeam lithography",
-        "excerpt":"The cover of this blog was the JEOL JBX 6300FS at Stanford SNSF. I love it. Here is the evolution of JEOL JBX series. History of JEOL JBX. From Application note: Development of JBX-A9, Electron Beam Lithography System DISCLAIMER: I’m writing this blog for fun. You should always question the...","categories": ["Tutorial"],
+        "excerpt":"The cover of this blog was the JEOL JBX 6300FS at Stanford [SNSF](https://snsf.stanford.edu/). I love it. Here is the evolution of JEOL JBX series. ![JEOL_JBX_history](/assets/images/2024/ebeam/JEOL_JBX_history.jpg) *History of JEOL JBX. From [Application note: Development of JBX-A9, Electron Beam Lithography System](https://www.jeol.com/solutions/applications/details/se2024-01.php)* *DISCLAIMER: I'm writing this blog for fun. You should always question...","categories": ["Tutorial"],
         "tags": ["Nanofab","Lithography","Electron"],
         "url": "/tutorial/yapping-on-ebeam-lithography/",
         "teaser": null
