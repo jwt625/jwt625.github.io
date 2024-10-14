@@ -216,7 +216,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Yapping on ebeam lithography",
-        "excerpt":"The cover of this blog was the JEOL JBX 6300FS at Stanford [SNSF](https://snsf.stanford.edu/). I love it. Here is the evolution of JEOL JBX series. ![JEOL_JBX_history](/assets/images/2024/ebeam/JEOL_JBX_history.jpg) *History of JEOL JBX. From [Application note: Development of JBX-A9, Electron Beam Lithography System](https://www.jeol.com/solutions/applications/details/se2024-01.php)* *DISCLAIMER: I'm writing this blog for fun. You should always question...","categories": ["Tutorial"],
+        "excerpt":"The cover of this blog was the JEOL JBX 6300FS at Stanford SNSF. I love it. Here is the evolution of JEOL JBX series. History of JEOL JBX. From Application note: Development of JBX-A9, Electron Beam Lithography System DISCLAIMER: I’m writing this blog for fun. You should always question the...","categories": ["Tutorial"],
         "tags": ["Nanofab","Lithography","Electron"],
         "url": "/tutorial/yapping-on-ebeam-lithography/",
         "teaser": null
