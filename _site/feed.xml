@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-12T23:09:00-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">Yapping on ebeam lithography</title><link href="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/" rel="alternate" type="text/html" title="Yapping on ebeam lithography" /><published>2024-10-07T00:00:00-07:00</published><updated>2024-10-07T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/yapping-on-ebeam-lithography</id><content type="html" xml:base="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/"><![CDATA[<p>The cover of this blog was the JEOL JBX 6300FS at Stanford <a href="https://snsf.stanford.edu/">SNSF</a>. I love it. Here is the evolution of JEOL JBX series.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-13T17:48:07-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">Yapping on ebeam lithography</title><link href="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/" rel="alternate" type="text/html" title="Yapping on ebeam lithography" /><published>2024-10-07T00:00:00-07:00</published><updated>2024-10-07T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/yapping-on-ebeam-lithography</id><content type="html" xml:base="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/"><![CDATA[<p>The cover of this blog was the JEOL JBX 6300FS at Stanford <a href="https://snsf.stanford.edu/">SNSF</a>. I love it. Here is the evolution of JEOL JBX series.</p>
 
 <p><img src="/assets/images/2024/ebeam/JEOL_JBX_history.jpg" alt="JEOL_JBX_history" />
 <em>History of JEOL JBX. From <a href="https://www.jeol.com/solutions/applications/details/se2024-01.php">Application note: Development of JBX-A9, Electron Beam Lithography System</a></em></p>
@@ -8,6 +8,9 @@
 <h1 id="what-is-ebeam-litho">What is EBeam litho</h1>
 
 <p>Ebeam lithography, as the name suggests, is using electron beams for lithography. <a href="https://en.wikipedia.org/wiki/Lithography">Lithograph</a> has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the mask. It is a powerful technique at the time to mass produce drawings and maps, and later photos (photography).</p>
+
+<p><img src="/assets/images/2024/ebeam/Hands-SantaCruz-CuevaManos-P2210651b.jpg" alt="Hands" />
+<em>Hands, stenciled at the <a href="https://en.wikipedia.org/wiki/Cueva_de_las_Manos">Cave of the Hands</a></em></p>
 
 <p>When people start to think about how to reduce the size of electronic circuits in the 1950s, they adopted photographic technique (using optics to shrink and project the pattern, expose and develop the <a href="https://en.wikipedia.org/wiki/Photoresist">photoresist</a> just like in photography) and thus coined the term <a href="https://en.wikipedia.org/wiki/Photolithography">photolithography</a>. Circuit designers would draw the circuit layout on a big canvas, that would later <a href="https://en.wikipedia.org/wiki/Tape-out">tapeout</a> (it is still called tapeout to this date even physical tape is no longer involved) and be shrinked into a <a href="https://en.wikipedia.org/wiki/Photomask">photomask</a>, and shrinked again by the photolitho system onto the wafer. The quest for shrinking the size of electronic circuits and transistors has been on a non-stop march, and shorter wavelengths are needed because of refractive limit of the resolution. But you know what has a much shorter wavelengths? Electrons!</p>
 
@@ -168,37 +171,74 @@ For a spot or step size of ~ 4 nm, that means the write field can be as big as ~
 
 <h2 id="stability">Stability</h2>
 
-<p>(To be continued)</p>
+<p>Why is stability important? Here is an example of bad stability (writefield stitching), and maybe another one about dose/current drift if I could find an SEM for it. Basically anything that is being precisely controlled and could affect the properties of the beam (current/dose, size/focus, and position).</p>
 
+<p>(SEM image TBA)</p>
+
+<p>Let’s estimate how much change do we need to shift the beam by ~100 nm, which would be too much in many devices.</p>
 <ul>
-  <li>How stable do things need to be</li>
-  <li>Why is the column this big</li>
-  <li>Where are the electrons going
+  <li>For the field that deflects the ebeam, this is ~10x the beam spot size. Since the DAC dynamic range is 60 dB, this means a stability of \(10^{-5}\).</li>
+  <li>For the stage positioning, let’s see how much temperature variation would lead to a change of 100 nm for a 200 mm stainless steel cassette/holder.
     <ul>
-      <li>focusing (how is it done)</li>
-      <li>current measurement</li>
-      <li>beam calibration</li>
-    </ul>
-  </li>
-  <li>Where is the stage going
-    <ul>
-      <li>interferometer</li>
-      <li>writefield (WF) size, calibration, stitching</li>
-      <li>subfield (maybe?)</li>
-    </ul>
-  </li>
-  <li>beam parameters
-    <ul>
-      <li>Voltage, current</li>
-      <li>shot pitch</li>
-      <li>dose (DAC rate limit, dose sweep)</li>
+      <li>Steel (and many common metals) have a CTE of \(1\sim 2 \times 10^{-5}\), a 100 nm deformation out of 200 mm is \(\sim 10^{-6}\), thus the temperature stability has to be ~ 0.1 C.</li>
     </ul>
   </li>
 </ul>
 
+<p>How long would it take the cassette to thermalize after you have inevitably touched it and heated it up?</p>
+<ul>
+  <li>This depends on how the cassette is held, the path for heat dissipation could be as short as the thickness of the cassette (10 mm), or as long as the size of it (100 mm).</li>
+  <li><a href="https://en.wikipedia.org/wiki/Thermal_diffusivity">Thermal diffusivity</a> is very handy for time scale estimation for thermalization. All you need to remember is it has a unit of length squared over time, thus 10x longer thermalization path would take 100x longer time.</li>
+  <li>I’m actually not sure if the cassette is made of steel or aluminum. Let’s use aluminum since it has higher thermal diffusivity of \(\sim 100~\text{mm}^2/\text{s}\). As a result, it takes 1 s to 100 s for the heat to diffuse, and you probably would want to wait 10x of that for it to be within 1% of the original temperature difference (0.1 C of the 10 C temperature change from your finger).</li>
+</ul>
+
+<p>How about the magnets used in the electro-optic system?</p>
+<ul>
+  <li>This is because different current and writefields use different aperture and different settings on the magnets. Whenever you select and switch to a different beam, the system would demagnetize and then put it back.</li>
+  <li>I do not have a good answer.</li>
+  <li>The practice on the JEOL was to do the beam change at the beginning of everything, and thus when you have finished mounting and loading etc., there’s a good chance it is 15 min later.</li>
+  <li>On EBPG, the default wait time is 60 s.</li>
+</ul>
+
+<h2 id="how-does-the-ebeam-tool-know-it-is-in-a-good-state">How does the ebeam tool know it is in a good state?</h2>
+
+<p>There are mainly the following states that need to be good</p>
+<ul>
+  <li>properties of the beam: current/dose, size/focus, and position
+    <ul>
+      <li>current: measured by the Faraday cup. If the tool is dumb like Raith voyager, you’d need to remember to manually ask the tool to automatically calculate the dwell time for your target dose</li>
+      <li>size/focus: this will be covered in the calibration section. In short, it scans the beam off a marker or a sharp edge, and optimize the sharpness of the scan signal</li>
+      <li>position: also more in the calibration section. The tool points the beam to existing markers, use the beam to find the marker position, and thus correcting where the beam is pointing.</li>
+    </ul>
+  </li>
+  <li>position of the stage: measured with <a href="https://www.ligo.caltech.edu/page/what-is-interferometer">laser inteferometers</a>.</li>
+  <li>relative position between the stage and the beam: this is also called writefield stitching: the tool will move around the stage, and thus moving around a marker. The beam will then point around accordingly and look for the same marker, This links the position of where the stage is going and where the beam is going.</li>
+</ul>
+
 <h1 id="practical-stuff">Practical stuff</h1>
 
-<h2 id="design-and-fracturing">Design and fracturing</h2>
+<p>Ok hopefully I have yapped enough about the specs of the ebeam tool. The following will be practical stuff that I’d be talking you through if you are shadowing me through an ebeam session. It will probably be boring to read… I’ll just do it and see how I could improve it with fancy photos and stupid drawings.</p>
+
+<h2 id="design">Design</h2>
+
+<p>So you have something you want to make with ebeam? Have you thought about no? Make sure you really need ebeam because it is expensive, usually takes longer (30 min or more of preparation time vs. ~ 10 min), and more annoying to do. If your mean feature size is more than one or two microns, consider photolitho. If you have access to a maskless photolitho tool, then it is a no brainer. If not, then you might want to use ebeam to just save the wait time for your photomask.</p>
+
+<p>Ok, design, design… The first thing I could think of is, it is likely you’ll have another layer after your ebeam patterns. No matter what you are trying to do, ebeam features are probably too small for interfacing with the macroscopic world, and you’ll need some photolitho metal pads for contacting your probe, or even just some markers and labels to see your devices. Think about how the ebeam pattern is going to interface the photolitho patterns, and how are you going to find them in the maskless or mask aligners.</p>
+
+<p>Think about the locations and clearance for your chip. How are you going to mount your chip on the sample holder, how big is the shadow from the clamp on the holder, what is the orientation of your device and your chip in the design, and in the ebeam tool.</p>
+
+<p>Think about how is the beam and the stage are going to move on your chip to write your patterns or devices, how the writefield is going to be arranged on your patterns. Avoid unnecessary crossing of sensitive structures over the writefield boundaries. If you cannot avoid it, think about how to make the adjacent writefields also adjacent in time during the exposure, e.g., how is the writefield order, meander x or y, or floating, or manually assigned. This is a iterative process with the fracturing, as well as actually finish the layer and check the structures. Think about it more in advance could probably save you a few runs.</p>
+
+<h2 id="fracturing">Fracturing</h2>
+
+<p>About fracturing, you should really check out GenISys’s own <a href="https://www.genisys-gmbh.com/webinar-series-beamer-training.html">BEAMER training</a> materials, there are way more details there. BEAMER could also do booleans, transforms, arrays, assign dose factors etc. These are relatively straight forward and won’t be covered here, just go play.</p>
+
+<p>In short, fracturing is breaking your pattern into more primitive shapes that the ebeam tool would be more readily fill them with shots. And then arrange these fractured patterns into writefields, and tell the ebeam tool where are the writefields, and which field to write first.</p>
+
+<h3 id="proximity-effect-correction-pec">Proximity effect correction (PEC)</h3>
+
+<p><img src="/assets/images/2024/tracer-bild2-2.png" alt="tracer-bild2-2.png" />
+<em>Simulation of the scattering path of electrons.</em></p>
 
 <h2 id="ebeam-resist">Ebeam resist</h2>
 
@@ -220,20 +260,22 @@ You could find a lot of SEM images of pattered silicon photonics, so here I want
 
 <p>As for ebeam liftoff, I continued working with MMA/PMMA double layer, as well as PMMA/PMMA double layer with different concentrations and thickness. I also learnt and used single layer CSAR for liftoff. It sounds impossible or challenging because it is a single layer, but the exposure actually leaves a negative sidewall, and made the liftoff possible.</p>
 
-<h2 id="dose">Dose</h2>
-
-<h2 id="calibrations">Calibrations</h2>
-
+<p>Before moving on, I’d like to put down some quick tips on stuff that is related to resist:</p>
 <ul>
-  <li>What resist to use
+  <li>positive vs. negative: if there are more areas you would like to keep, use positive resist (exposed area gets developed away), and if you have more areas you’d like to etch, use negative resist</li>
+  <li>adhesion: use HMDS priming if you can. Use higher temperature dehydration bake if you can. Some thin metal layer like titanium could also help adhesion. O2 or ozone plasma could also help although I have not tried it personally.</li>
+  <li>discharge layer: important if your substrate is not conductive, like most dielectrics (quartz, lithium niobate, sapphire etc.). Many people like <a href="https://www.allresist.com/portfolio-item/protective-coating-ar-pc-5090-02-electra-92/">electra 92</a>, but I hated it, maybe because I was using an outdated bottle. I am a fan of 5~10 nm aluminum discharge layer. Be careful about using other metal for discharge, pick ones with low melting point. I’ve had 5 nm titanium discharge layer cross-linked top of resist because it was too hot. If your pattern does not involve alignment and does not span across multiple writefield, you might get away with no discharge layer.
     <ul>
-      <li>positive vs. negative</li>
-      <li>adhesion</li>
-      <li>discharge layer</li>
-      <li>selectivity</li>
-      <li>liftoff</li>
+      <li>remove the discharge layer: I remember electra you could remove with water? Please fact check me. Be wary that water plus IPA could unintentionally develop some resist. For aluminum, it gets etched in MF319 or MF26A. You could also use acids if you are a maniac.</li>
     </ul>
   </li>
+  <li>selectivity: Not sure what I want to say here. If this is a problem, consider thicker resist, harder resist (like HSQ), or methods that could harden it after the development, like a hard bake, or curing it with higher dose ebeam (e.g., <a href="https://doi.org/10.1116/1.2395949">Enhancing etch resistance of hydrogen silsesquioxane via postdevelop electron curing</a>, it’s a rare scene to see dose of 100 mC/cm\(^2\)).</li>
+  <li>liftoff: 80 C NMP (Remover PG) is very common and effective. Sometimes long overnight soak at room temperature could also help. Sonication definitely helps until it starts breaking your structures of delaminating the metal. Making sure you have the proper resist sidewall angle (if using single layer liftoff) or enough undercut is the best and most important factor for a successful liftoff. In terms of design, anything that helps with the access of the solvents to go underneath the gaps you are trying to liftoff would help the liftoff.</li>
+</ul>
+
+<h2 id="dose-and-dose-sweep">Dose and dose sweep</h2>
+
+<ul>
   <li>Fracturing (BEAMER)
     <ul>
       <li>Oh god maybe this should be a different yap-post</li>
@@ -245,8 +287,7 @@ You could find a lot of SEM images of pattered silicon photonics, so here I want
   </li>
 </ul>
 
-<p><img src="/assets/images/2024/tracer-bild2-2.png" alt="tracer-bild2-2.png" />
-<em>Simulation of the scattering path of electrons.</em></p>
+<h2 id="mounting-and-locating">Mounting and locating</h2>
 
 <ul>
   <li>Mounting your chip
@@ -262,16 +303,16 @@ You could find a lot of SEM images of pattered silicon photonics, so here I want
       <li>using the SEM</li>
     </ul>
   </li>
+</ul>
+
+<h2 id="calibrations">Calibrations</h2>
+
+<h2 id="alignment">Alignment</h2>
+<ul>
   <li>Alignment
     <ul>
       <li>desired marks (materials, thickness, locations, reusability)</li>
       <li>how to find the marks (manual &amp; auto, mark params, scan params)</li>
-    </ul>
-  </li>
-  <li>develop
-    <ul>
-      <li>remove discharge layer</li>
-      <li>be wary water + IPA could develop some resist unintentionally</li>
     </ul>
   </li>
   <li>feedback &amp; optimization
@@ -383,935 +424,813 @@ You could find a lot of SEM images of pattered silicon photonics, so here I want
   <li>Pfeiffer, Hans C. “Direct write electron beam lithography: a historical overview.” Photomask Technology 2010. Vol. 7823. SPIE, 2010.</li>
 </ol>
 
-<p>(This post is started on 2024-08-15, and finished on TBA. Last updated on TBA.)</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Lithography" /><category term="Electron" /><summary type="html"><![CDATA[The cover of this blog was the JEOL JBX 6300FS at Stanford SNSF. I love it. Here is the evolution of JEOL JBX series.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#15)</title><link href="http://localhost:4000/ofs/weekly-OFS-15/" rel="alternate" type="text/html" title="This week’s outside five sigma (#15)" /><published>2024-10-06T00:00:00-07:00</published><updated>2024-10-06T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-15</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-15/"><![CDATA[<p>20241006, 11:35 pm: This is my first time trying to automate the weekly OFS process.</p>
-<ul>
-  <li>The media is scrapped properly, but the link inside the tweets are not yet processed properly</li>
-  <li>There are still quite some duplicates and extra tweets. Not fixing these yet since the whole thing might get re-generated again.</li>
-</ul>
+<p>(This post is started on 2024-08-15, and finished on TBA. Last updated on TBA.)</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Lithography" /><category term="Electron" /><summary type="html"><![CDATA[The cover of this blog was the JEOL JBX 6300FS at Stanford SNSF. I love it. Here is the evolution of JEOL JBX series.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#15)</title><link href="http://localhost:4000/ofs/weekly-OFS-15/" rel="alternate" type="text/html" title="This week’s outside five sigma (#15)" /><published>2024-10-06T00:00:00-07:00</published><updated>2024-10-06T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-15</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-15/"><![CDATA[20241006, 11:35 pm: This is my first time trying to automate the weekly OFS process.
+- The media is scrapped properly, but the link inside the tweets are not yet processed properly
+- There are still quite some duplicates and extra tweets. Not fixing these yet since the whole thing might get re-generated again.
 
-<ol>
-  <li>Microplastics? No no no, it’s micro pig kidney, processed with micro dicer and micro grater made with DRIE (Bosch process).
+
+
+1. Microplastics? No no no, it's micro pig kidney, processed with micro dicer and micro grater made with DRIE (Bosch process).
 Stuff like this really makes me wonder how many interesting things are waiting to be done across multiple research fields.
-<img src="/assets/images/2024/20240803_20240928/20240924_015851_0.jpg" alt="20240924_015851_0.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_015851_1.jpg" alt="20240924_015851_1.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_015851_2.jpg" alt="20240924_015851_2.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_015851_3.jpg" alt="20240924_015851_3.jpg" />
-    <ul>
-      <li>From
+![20240924_015851_0.jpg](/assets/images/2024/20240803_20240928/20240924_015851_0.jpg)
+![20240924_015851_1.jpg](/assets/images/2024/20240803_20240928/20240924_015851_1.jpg)
+![20240924_015851_2.jpg](/assets/images/2024/20240803_20240928/20240924_015851_2.jpg)
+![20240924_015851_3.jpg](/assets/images/2024/20240803_20240928/20240924_015851_3.jpg)
+   - From
 Microdissection tools to generate organoids for modeling the tumor immune microenvironment https://nature.com/articles/s41378-024-00756-8…
 and
 Fabrication of a silicon μDicer for uniform microdissection of tissue samples https://pubs.aip.org/aip/apl/article/119/1/011904/40233…
-They made everything open including process params.</li>
-    </ul>
-  </li>
-  <li>Things always get weird on the wavelength scale… TIL that if you make your laser beam radially polarized, you could focus it 2x more than linearly polarized, and it generates a longitudinal E field at the focus that contains most of the power, ideal for accelerating electrons.
-<img src="/assets/images/2024/20240803_20240928/20240924_004809_0.jpg" alt="20240924_004809_0.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_004809_1.jpg" alt="20240924_004809_1.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_004809_2.jpg" alt="20240924_004809_2.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_004809_3.jpg" alt="20240924_004809_3.jpg" />
-    <ul>
-      <li>The polarization state is generated by putting a rotated Brewster angle polarizer inside your laser cavity, and it could work both reflectively or refractively. 
+They made everything open including process params.
+
+2. Things always get weird on the wavelength scale... TIL that if you make your laser beam radially polarized, you could focus it 2x more than linearly polarized, and it generates a longitudinal E field at the focus that contains most of the power, ideal for accelerating electrons.
+![20240924_004809_0.jpg](/assets/images/2024/20240803_20240928/20240924_004809_0.jpg)
+![20240924_004809_1.jpg](/assets/images/2024/20240803_20240928/20240924_004809_1.jpg)
+![20240924_004809_2.jpg](/assets/images/2024/20240803_20240928/20240924_004809_2.jpg)
+![20240924_004809_3.jpg](/assets/images/2024/20240803_20240928/20240924_004809_3.jpg)
+   - The polarization state is generated by putting a rotated Brewster angle polarizer inside your laser cavity, and it could work both reflectively or refractively. 
 Figures from 
 https://opg.optica.org/ao/abstract.cfm?uri=ao-29-26-3741…
 and
 https://opg.optica.org/ol/abstract.cfm?uri=ol-30-22-3063…
-<img src="/assets/images/2024/20240803_20240928/20240924_005209_0.jpg" alt="20240924_005209_0.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_005209_1.jpg" alt="20240924_005209_1.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_005209_2.jpg" alt="20240924_005209_2.jpg" /></li>
-      <li>The nice plots of the radial and axial E field is from Focusing of high numerical aperture cylindrical-vector beams(https://opg.optica.org/oe/abstract.cfm?uri=OE-7-2-77…). They showed the more you focus, the stronger axial field you get at the focus. People dream about it generating electron-positron pairs.
-<img src="/assets/images/2024/20240803_20240928/20240924_005712_0.jpg" alt="20240924_005712_0.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_005712_1.jpg" alt="20240924_005712_1.jpg" /></li>
-      <li>And people have measured and showed that the tight focus and axial field is real. Screenshots from https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.91.233901….
-(The pair generation figure above is from https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.125001…. I’m dumping all the links here so that I could find them later.)
-<img src="/assets/images/2024/20240803_20240928/20240924_010057_0.jpg" alt="20240924_010057_0.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_010057_1.jpg" alt="20240924_010057_1.jpg" /></li>
-      <li>I used to think (and still do to some extent) that many of the OAM (orbital angular momentum) beam is bs especially for communication, I guess there are weird effects that are just beyond the gaussian beam picture. Anyway here is a nice open access review: https://opg.optica.org/aop/fulltext.cfm?uri=aop-1-1-1&amp;id=176226…
-<img src="/assets/images/2024/20240803_20240928/20240924_010958_0.jpg" alt="20240924_010958_0.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_010958_1.jpg" alt="20240924_010958_1.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_010958_2.jpg" alt="20240924_010958_2.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_010958_3.jpg" alt="20240924_010958_3.jpg" /></li>
-      <li>And people have measured and showed that the tight focus and axial field is real. Screenshots from https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.91.233901….
-(The pair generation figure above is from https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.125001…. I’m dumping all the links here so that I could find them later.)
-<img src="/assets/images/2024/20240803_20240928/20240924_010057_0.jpg" alt="20240924_010057_0.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_010057_1.jpg" alt="20240924_010057_1.jpg" /></li>
-      <li>I used to think (and still do to some extent) that many of the OAM (orbital angular momentum) beam is bs especially for communication, I guess there are weird effects that are just beyond the gaussian beam picture. Anyway here is a nice open access review: https://opg.optica.org/aop/fulltext.cfm?uri=aop-1-1-1&amp;id=176226…
-<img src="/assets/images/2024/20240803_20240928/20240924_010958_0.jpg" alt="20240924_010958_0.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_010958_1.jpg" alt="20240924_010958_1.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_010958_2.jpg" alt="20240924_010958_2.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240924_010958_3.jpg" alt="20240924_010958_3.jpg" /></li>
-      <li>4pi focused laser pulse, damn that’s a new one for me (and 0.073 lambda^3, that’s comparable to a silicon 1D photonic crystal cavity, with no two-photon absorption or rbeakdown limit..</li>
-      <li>sounds like a fun project, you only need a pile of cover glass to polarize it (?), maybe I’ll start with some simulation first</li>
-    </ul>
-  </li>
-  <li>
-    <p>Today’s rabbit hole: DE-STARLITE: a directed energy planetary defense mission.
-Equipped with 100 kW MegaFlex PV arrays and 1 m diameter laser phased array, it heats the surface of hazardous asteroids to ~ 3,000 K so that the asteroid itself becomes the “propellant”.</p>
-  </li>
-  <li>Me: afraid of burning fiber connectors and components with a 1 W EYDFA.
+   ![20240924_005209_0.jpg](/assets/images/2024/20240803_20240928/20240924_005209_0.jpg)
+   ![20240924_005209_1.jpg](/assets/images/2024/20240803_20240928/20240924_005209_1.jpg)
+   ![20240924_005209_2.jpg](/assets/images/2024/20240803_20240928/20240924_005209_2.jpg)
+   - The nice plots of the radial and axial E field is from Focusing of high numerical aperture cylindrical-vector beams(https://opg.optica.org/oe/abstract.cfm?uri=OE-7-2-77…). They showed the more you focus, the stronger axial field you get at the focus. People dream about it generating electron-positron pairs.
+   ![20240924_005712_0.jpg](/assets/images/2024/20240803_20240928/20240924_005712_0.jpg)
+   ![20240924_005712_1.jpg](/assets/images/2024/20240803_20240928/20240924_005712_1.jpg)
+   - And people have measured and showed that the tight focus and axial field is real. Screenshots from https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.91.233901….
+(The pair generation figure above is from https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.125001…. I'm dumping all the links here so that I could find them later.)
+   ![20240924_010057_0.jpg](/assets/images/2024/20240803_20240928/20240924_010057_0.jpg)
+   ![20240924_010057_1.jpg](/assets/images/2024/20240803_20240928/20240924_010057_1.jpg)
+   - I used to think (and still do to some extent) that many of the OAM (orbital angular momentum) beam is bs especially for communication, I guess there are weird effects that are just beyond the gaussian beam picture. Anyway here is a nice open access review: https://opg.optica.org/aop/fulltext.cfm?uri=aop-1-1-1&id=176226…
+   ![20240924_010958_0.jpg](/assets/images/2024/20240803_20240928/20240924_010958_0.jpg)
+   ![20240924_010958_1.jpg](/assets/images/2024/20240803_20240928/20240924_010958_1.jpg)
+   ![20240924_010958_2.jpg](/assets/images/2024/20240803_20240928/20240924_010958_2.jpg)
+   ![20240924_010958_3.jpg](/assets/images/2024/20240803_20240928/20240924_010958_3.jpg)
+   - And people have measured and showed that the tight focus and axial field is real. Screenshots from https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.91.233901….
+(The pair generation figure above is from https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.125001…. I'm dumping all the links here so that I could find them later.)
+   ![20240924_010057_0.jpg](/assets/images/2024/20240803_20240928/20240924_010057_0.jpg)
+   ![20240924_010057_1.jpg](/assets/images/2024/20240803_20240928/20240924_010057_1.jpg)
+   - I used to think (and still do to some extent) that many of the OAM (orbital angular momentum) beam is bs especially for communication, I guess there are weird effects that are just beyond the gaussian beam picture. Anyway here is a nice open access review: https://opg.optica.org/aop/fulltext.cfm?uri=aop-1-1-1&id=176226…
+   ![20240924_010958_0.jpg](/assets/images/2024/20240803_20240928/20240924_010958_0.jpg)
+   ![20240924_010958_1.jpg](/assets/images/2024/20240803_20240928/20240924_010958_1.jpg)
+   ![20240924_010958_2.jpg](/assets/images/2024/20240803_20240928/20240924_010958_2.jpg)
+   ![20240924_010958_3.jpg](/assets/images/2024/20240803_20240928/20240924_010958_3.jpg)
+   - 4pi focused laser pulse, damn that's a new one for me (and 0.073 lambda^3, that's comparable to a silicon 1D photonic crystal cavity, with no two-photon absorption or rbeakdown limit..
+   - sounds like a fun project, you only need a pile of cover glass to polarize it (?), maybe I’ll start with some simulation first
+
+3. Today's rabbit hole: DE-STARLITE: a directed energy planetary defense mission.
+Equipped with 100 kW MegaFlex PV arrays and 1 m diameter laser phased array, it heats the surface of hazardous asteroids to ~ 3,000 K so that the asteroid itself becomes the "propellant".
+
+4. Me: afraid of burning fiber connectors and components with a 1 W EYDFA.
 Biblically accurate phase coherent fiber laser array (from Optonicus):
-    <ul>
-      <li>There’s not much info about it because it’s funded by darpa and ARL. There are similar stuff from other people like these:
-https://opg.optica.org/ol/fulltext.cfm?uri=ol-47-2-365&amp;id=468385…
+   - There's not much info about it because it's funded by darpa and ARL. There are similar stuff from other people like these:
+https://opg.optica.org/ol/fulltext.cfm?uri=ol-47-2-365&id=468385…
 wait I actually found one from Optonicus:
 https://opg.optica.org/ol/abstract.cfm?uri=ol-41-4-840…
-<img src="/assets/images/2024/20240803_20240928/20240925_020456_0.jpg" alt="20240925_020456_0.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240925_020456_1.jpg" alt="20240925_020456_1.jpg" /></li>
-      <li>that’s good to know</li>
-      <li>What the hell am I looking at</li>
-      <li>Yes. They call it adaptive fiber optics collimator (AFOC). Here is one example: (https://spiedigitallibrary.org/conference-proceedings-of-spie/5895/58950R/Design-of-adaptive-fiber-optics-collimator-for-free-space-communication/10.1117/12.618513.short#<em>=</em>…
+   ![20240925_020456_0.jpg](/assets/images/2024/20240803_20240928/20240925_020456_0.jpg)
+   ![20240925_020456_1.jpg](/assets/images/2024/20240803_20240928/20240925_020456_1.jpg)
+   - that's good to know
+   - What the hell am I looking at
+   - Yes. They call it adaptive fiber optics collimator (AFOC). Here is one example: (https://spiedigitallibrary.org/conference-proceedings-of-spie/5895/58950R/Design-of-adaptive-fiber-optics-collimator-for-free-space-communication/10.1117/12.618513.short#_=_…
 and
 https://ieeexplore.ieee.org/abstract/document/4768717…)
-<img src="/assets/images/2024/20240803_20240928/20240925_150624_0.jpg" alt="20240925_150624_0.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240925_150624_1.jpg" alt="20240925_150624_1.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240925_150624_2.jpg" alt="20240925_150624_2.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240925_150624_3.jpg" alt="20240925_150624_3.jpg" /></li>
-    </ul>
-  </li>
-  <li>Me: afraid of burning fiber connectors and components with a 1 W EYDFA.
+   ![20240925_150624_0.jpg](/assets/images/2024/20240803_20240928/20240925_150624_0.jpg)
+   ![20240925_150624_1.jpg](/assets/images/2024/20240803_20240928/20240925_150624_1.jpg)
+   ![20240925_150624_2.jpg](/assets/images/2024/20240803_20240928/20240925_150624_2.jpg)
+   ![20240925_150624_3.jpg](/assets/images/2024/20240803_20240928/20240925_150624_3.jpg)
+
+5. Me: afraid of burning fiber connectors and components with a 1 W EYDFA.
 Biblically accurate phase coherent fiber laser array (from Optonicus):
-<img src="/assets/images/2024/20240803_20240928/20240925_015944_0.jpg" alt="20240925_015944_0.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240925_015944_1.jpg" alt="20240925_015944_1.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240925_015944_2.jpg" alt="20240925_015944_2.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240925_015944_3.jpg" alt="20240925_015944_3.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240925_015944_4.jpg" alt="20240925_015944_4.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240925_015944_5.jpg" alt="20240925_015944_5.jpg" />
-    <ul>
-      <li>Yes. They call it adaptive fiber optics collimator (AFOC). Here is one example: (https://spiedigitallibrary.org/conference-proceedings-of-spie/5895/58950R/Design-of-adaptive-fiber-optics-collimator-for-free-space-communication/10.1117/12.618513.short#<em>=</em>…
+![20240925_015944_0.jpg](/assets/images/2024/20240803_20240928/20240925_015944_0.jpg)
+![20240925_015944_1.jpg](/assets/images/2024/20240803_20240928/20240925_015944_1.jpg)
+![20240925_015944_2.jpg](/assets/images/2024/20240803_20240928/20240925_015944_2.jpg)
+![20240925_015944_3.jpg](/assets/images/2024/20240803_20240928/20240925_015944_3.jpg)
+![20240925_015944_4.jpg](/assets/images/2024/20240803_20240928/20240925_015944_4.jpg)
+![20240925_015944_5.jpg](/assets/images/2024/20240803_20240928/20240925_015944_5.jpg)
+   - Yes. They call it adaptive fiber optics collimator (AFOC). Here is one example: (https://spiedigitallibrary.org/conference-proceedings-of-spie/5895/58950R/Design-of-adaptive-fiber-optics-collimator-for-free-space-communication/10.1117/12.618513.short#_=_…
 and
 https://ieeexplore.ieee.org/abstract/document/4768717…)
-<img src="/assets/images/2024/20240803_20240928/20240925_150624_0.jpg" alt="20240925_150624_0.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240925_150624_1.jpg" alt="20240925_150624_1.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240925_150624_2.jpg" alt="20240925_150624_2.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240925_150624_3.jpg" alt="20240925_150624_3.jpg" /></li>
-    </ul>
-  </li>
-  <li>
-    <p>Jack-o’-microlantern, aluminum (150 nm) on silicon, 2018
-Cryogenic pizza, NbTiN (10 nm) on sapphire, 2021</p>
-  </li>
-  <li>
-    <p>On page 82 of NASA Tech Briefs, April 1995
+   ![20240925_150624_0.jpg](/assets/images/2024/20240803_20240928/20240925_150624_0.jpg)
+   ![20240925_150624_1.jpg](/assets/images/2024/20240803_20240928/20240925_150624_1.jpg)
+   ![20240925_150624_2.jpg](/assets/images/2024/20240803_20240928/20240925_150624_2.jpg)
+   ![20240925_150624_3.jpg](/assets/images/2024/20240803_20240928/20240925_150624_3.jpg)
+
+6. Jack-o'-microlantern, aluminum (150 nm) on silicon, 2018
+Cryogenic pizza, NbTiN (10 nm) on sapphire, 2021
+
+7. On page 82 of NASA Tech Briefs, April 1995
 https://ntrs.nasa.gov/citations/20100033433…
-https://ntrs.nasa.gov/api/citations/20100033433/downloads/20100033433.pdf…</p>
-  </li>
-  <li>
-    <p>Never though I’d ever see extremely bad cavity in a paper title about laser. Turns out it is relevant for active optical clock (AOC). You get most of the benefit of a laser cavity (higher power, narrower linewidth), and the laser is more robust against environmental fluctuations.</p>
-  </li>
-  <li>
-    <p>I knew lab-on-a-chip, optics/photonics-on-a-chip, and chip scale atomic clock. Today I ran into a paper about heart-on-a-chip and found out there is a whole genre of organ-on-a-chip, including heart, brain, lung, liver, gut…</p>
-  </li>
-  <li>
-    <p>The real sweet electronics is the edible electronics</p>
-  </li>
-  <li>You’ve probably heard about optical tweezers, but what about optoelectronic tweezers?
+https://ntrs.nasa.gov/api/citations/20100033433/downloads/20100033433.pdf…
+
+8. Never though I'd ever see extremely bad cavity in a paper title about laser. Turns out it is relevant for active optical clock (AOC). You get most of the benefit of a laser cavity (higher power, narrower linewidth), and the laser is more robust against environmental fluctuations.
+
+10. I knew lab-on-a-chip, optics/photonics-on-a-chip, and chip scale atomic clock. Today I ran into a paper about heart-on-a-chip and found out there is a whole genre of organ-on-a-chip, including heart, brain, lung, liver, gut...
+
+11. The real sweet electronics is the edible electronics
+
+12. You've probably heard about optical tweezers, but what about optoelectronic tweezers?
 Shinning shaped light onto a photoconductive layer generates local electric field. The E field then could polarize and move particles and cells around, at 1e5 less power than optical tweezers.
-<img src="/assets/images/2024/20240803_20240928/20240928_000347_0.jpg" alt="20240928_000347_0.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240928_000347_1.jpg" alt="20240928_000347_1.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240928_000347_2.jpg" alt="20240928_000347_2.jpg" />
-<img src="/assets/images/2024/20240803_20240928/20240928_000347_3.jpg" alt="20240928_000347_3.jpg" />
-    <ul>
-      <li>From:
+![20240928_000347_0.jpg](/assets/images/2024/20240803_20240928/20240928_000347_0.jpg)
+![20240928_000347_1.jpg](/assets/images/2024/20240803_20240928/20240928_000347_1.jpg)
+![20240928_000347_2.jpg](/assets/images/2024/20240803_20240928/20240928_000347_2.jpg)
+![20240928_000347_3.jpg](/assets/images/2024/20240803_20240928/20240928_000347_3.jpg)
+   - From:
 Optoelectronic tweezers: https://nature.com/articles/nphoton.2011.98…
 Massively parallel manipulation of single cells and microparticles using optical images: https://nature.com/articles/nature03831…
-Dynamic manipulation and separation of individual semiconducting and metallic nanowires: https://nature.com/articles/nphoton.2007.277…</li>
-      <li>This method is explored at Xerox PARC for micro-assembly of chiplets where they’d be too small (10 um to few hundred um) for pick and place. The chiplets start in a dielectric fluid randomly, and then get sorted and moved in place with OET &amp; rolled onto a substrate.
-   <img src="/assets/images/2024/20240803_20240928/20240928_002912_0.jpg" alt="20240928_002912_0.jpg" />
-   <img src="/assets/images/2024/20240803_20240928/20240928_002912_1.jpg" alt="20240928_002912_1.jpg" />
-   <img src="/assets/images/2024/20240803_20240928/20240928_002912_2.jpg" alt="20240928_002912_2.jpg" />
-   <img src="/assets/images/2024/20240803_20240928/20240928_002912_3.jpg" alt="20240928_002912_3.jpg" /></li>
-      <li>See:
+Dynamic manipulation and separation of individual semiconducting and metallic nanowires: https://nature.com/articles/nphoton.2007.277…
+   - This method is explored at Xerox PARC for micro-assembly of chiplets where they'd be too small (10 um to few hundred um) for pick and place. The chiplets start in a dielectric fluid randomly, and then get sorted and moved in place with OET & rolled onto a substrate.
+   ![20240928_002912_0.jpg](/assets/images/2024/20240803_20240928/20240928_002912_0.jpg)
+   ![20240928_002912_1.jpg](/assets/images/2024/20240803_20240928/20240928_002912_1.jpg)
+   ![20240928_002912_2.jpg](/assets/images/2024/20240803_20240928/20240928_002912_2.jpg)
+   ![20240928_002912_3.jpg](/assets/images/2024/20240803_20240928/20240928_002912_3.jpg)
+   - See:
 Micro-object assembly with an optically addressed array: https://ieeexplore.ieee.org/abstract/document/7994140…
 Micro-Scale Chiplets Position Control: https://ieeexplore.ieee.org/abstract/document/8709705…
-Chiplet Micro-Assembly Printer: https://ieeexplore.ieee.org/abstract/document/8811339…</li>
-      <li>Here you go
-   <img src="/assets/images/2024/20240803_20240928/20240928_152558_0.jpg" alt="20240928_152558_0.jpg" />
-   <img src="/assets/images/2024/20240803_20240928/20240928_152558_1.jpg" alt="20240928_152558_1.jpg" />
-   <img src="/assets/images/2024/20240803_20240928/20240928_152558_2.jpg" alt="20240928_152558_2.jpg" />
-   <img src="/assets/images/2024/20240803_20240928/20240928_152558_3.jpg" alt="20240928_152558_3.jpg" /></li>
-    </ul>
-  </li>
-  <li>
-    <p>Folks I just found the coolest phd thesis I have seen so far! It’s about acoustic ecology of lobsters.</p>
-  </li>
-  <li>
-    <p>And a master thesis on See Through Walls with Wi-Fi. I’m gonna start calling myself an inverse synthetic aperture. https://mit.edu/~fadel/papers/Fadel_MS.pdf…</p>
-  </li>
-  <li>One thing I found mind breaking yesterday and today is that, ink jet printing can be faster than FIVE METER PER SECOND.
-Consumer level functional metarial ink jet printer when? (e.g. print CuO nanoparticles then reduce &amp; sinter with laser to get conductive lines)</li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Optics" /><category term="Laser" /><category term="satellite" /><category term="Nanofab" /><category term="MEMS" /><category term="Organ-on-a-chip" /><category term="Electronics" /><category term="Optoelectronic-tweezer" /><category term="Wifi" /><summary type="html"><![CDATA[20241006, 11:35 pm: This is my first time trying to automate the weekly OFS process. The media is scrapped properly, but the link inside the tweets are not yet processed properly There are still quite some duplicates and extra tweets. Not fixing these yet since the whole thing might get re-generated again.]]></summary></entry><entry><title type="html">Open source hardware collections</title><link href="http://localhost:4000/blog/open-source-collections/" rel="alternate" type="text/html" title="Open source hardware collections" /><published>2024-09-29T00:00:00-07:00</published><updated>2024-09-29T00:00:00-07:00</updated><id>http://localhost:4000/blog/open-source-collections</id><content type="html" xml:base="http://localhost:4000/blog/open-source-collections/"><![CDATA[<p>(Continuously updating)</p>
+Chiplet Micro-Assembly Printer: https://ieeexplore.ieee.org/abstract/document/8811339…
+   - Here you go
+   ![20240928_152558_0.jpg](/assets/images/2024/20240803_20240928/20240928_152558_0.jpg)
+   ![20240928_152558_1.jpg](/assets/images/2024/20240803_20240928/20240928_152558_1.jpg)
+   ![20240928_152558_2.jpg](/assets/images/2024/20240803_20240928/20240928_152558_2.jpg)
+   ![20240928_152558_3.jpg](/assets/images/2024/20240803_20240928/20240928_152558_3.jpg)
 
-<p>Last updated: 2024-09-30</p>
+13. Folks I just found the coolest phd thesis I have seen so far! It's about acoustic ecology of lobsters.
 
-<h1 id="cheap-and-open-opticsphotonicspositioner">Cheap and open optics/photonics/positioner</h1>
+14. And a master thesis on See Through Walls with Wi-Fi. I’m gonna start calling myself an inverse synthetic aperture. https://mit.edu/~fadel/papers/Fadel_MS.pdf…
 
-<p>See also <a href="https://x.com/jwt0625/status/1837513786422710537">twitter thread</a>.</p>
+15. One thing I found mind breaking yesterday and today is that, ink jet printing can be faster than FIVE METER PER SECOND.
+Consumer level functional metarial ink jet printer when? (e.g. print CuO nanoparticles then reduce & sinter with laser to get conductive lines)]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Optics" /><category term="Laser" /><category term="satellite" /><category term="Nanofab" /><category term="MEMS" /><category term="Organ-on-a-chip" /><category term="Electronics" /><category term="Optoelectronic-tweezer" /><category term="Wifi" /><summary type="html"><![CDATA[20241006, 11:35 pm: This is my first time trying to automate the weekly OFS process. The media is scrapped properly, but the link inside the tweets are not yet processed properly There are still quite some duplicates and extra tweets. Not fixing these yet since the whole thing might get re-generated again.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#14)</title><link href="http://localhost:4000/ofs/weekly-OFS-14/" rel="alternate" type="text/html" title="This week’s outside five sigma (#14)" /><published>2024-09-29T00:00:00-07:00</published><updated>2024-09-29T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-14</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-14/"><![CDATA[1. The nice rendering of the NIF fuel pellet/capsule holder got a cool flexure design. Turns out it is called thermomechanical packaging (TMP). Flexure is made of titanium & designed to apply pressure evenly.
+- Rendering image is from IEEE Spectrum: [Momentary Fusion Breakthroughs Face Hard Reality](https://spectrum.ieee.org/nuclear-fusion-breakthrough-long-road)
+- Blog: [Designing for Ignition: Precise Changes Yield Historic Results](https://lasers.llnl.gov/news/designing-for-ignition-precise-changes-yield-historic-results)
+- Paper1: [Assembly and metrology of NIF target subassemblies using robotic systems](https://www.cambridge.org/core/journals/high-power-laser-science-and-engineering/article/assembly-and-metrology-of-nif-target-subassemblies-using-robotic-systems/C55BA68AD8C5994BF248844B893E2B5B)
+- Paper2: [Automation of NIF Target Fabrication](https://www.tandfonline.com/doi/abs/10.13182/FST15-226)
+![LLNL_target_render.jfif](/assets/images/2024/LLNL_target_render.jfif)
+![LLNL_target_thermomechanical_packaging.jfif](/assets/images/2024/LLNL_target_thermomechanical_packaging.jfif)
+![LLNL_target_thermomechanical_packaging_flexure.jfif](/assets/images/2024/LLNL_target_thermomechanical_packaging_flexure.jfif)
 
-<ol>
-  <li>OpenFlexure: sub-micron-scale motion over a range of 8 × 8 × 4 mm. Drift less than 20 um over a week.
-    <ul>
-      <li><a href="https://openflexure.org/projects/microscope/">https://openflexure.org/projects/microscope/</a></li>
-      <li><a href="https://gitlab.com/openflexure/openflexure-microscope">https://gitlab.com/openflexure/openflexure-microscope</a></li>
-      <li>Paper: <a href="https://pubs.aip.org/aip/rsi/article/87/2/025104/1021864/A-one-piece-3D-printed-flexure-translation-stage">A one-piece 3D printed flexure translation stage for open-source microscopy</a>
-<img src="/assets/images/2024/OpenHardware/openflexure_1.jfif" alt="openflexure_1.jfif" />
-<img src="/assets/images/2024/OpenHardware/openflexure_2.jfif" alt="openflexure_2.jfif" />
-<img src="/assets/images/2024/OpenHardware/openflexure_3.jfif" alt="openflexure_3.jfif" /></li>
-    </ul>
-  </li>
-  <li>OpenUC2: almost feels like it is no longer open source with very intertwined webpage, until you go into their GitHub repo
-    <ul>
-      <li><a href="https://openuc2.com/">https://openuc2.com/</a></li>
-      <li><a href="https://github.com/openUC2/UC2-GIT">https://github.com/openUC2/UC2-GIT</a>
-<img src="/assets/images/2024/OpenHardware/openUC2_1.jfif" alt="openUC2_1.jfif" />
-<img src="/assets/images/2024/OpenHardware/openUC2_2.jfif" alt="openUC2_2.jfif" /></li>
-    </ul>
-  </li>
-  <li>Open source XYZ nanopositioner:
-    <ul>
-      <li>atomic-scale scanning resolution</li>
-      <li>nm-scale positioning resolution, cm-scale range</li>
-      <li>heavy load up to 12 kg (perp to motion)</li>
-      <li>simple design and low component cost</li>
-      <li>compact size and ultra-high vacuum compatibility</li>
-      <li><a href="https://www.hardware-x.com/article/S2468-0672(22)00062-1/fulltext">Low-cost, open-source XYZ nanopositioner for high-precision analytical applications</a>
-<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner.jfif" alt="open_XYZ_nanopositioner.jfif" />
-<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner_2.jfif" alt="open_XYZ_nanopositioner2.jfif" />
-<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner_3.jfif" alt="open_XYZ_nanopositioner3.jfif" />
-<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner_4.jfif" alt="open_XYZ_nanopositioner4.jfif" /></li>
-    </ul>
-  </li>
-  <li><a href="https://www.hardware-x.com/article/S2468-0672(24)00071-3/fulltext">Open Photonics: An integrated approach for building a 3D-printed motorized rotation stage system</a>
-    <ul>
-      <li>Rotation stage with 1 mRad precision and backlash, 150 urad resolution, and ~&lt;$100. They say the closest commercial one is thorlabs K10CR2, which is $1500
-<img src="/assets/images/2024/OpenHardware/open_rotational_stage_1.jfif" alt="open_rotational_stage_1.jfif" />
-<img src="/assets/images/2024/OpenHardware/open_rotational_stage_2.jfif" alt="open_rotational_stage_2.jfif" /></li>
-    </ul>
-  </li>
-  <li><a href="https://x.com/vnzloy/status/1838680488715653614">TWINKLE: An open-source two-photon microscope for teaching and research</a>
-    <ul>
-      <li>From <a href="https://x.com/vnzloy/status/1838680488715653614">tweet</a>
-<img src="/assets/images/2024/OpenHardware/open_two_photon_uscope.jfif" alt="open_two_photon_uscope.jfif" /></li>
-    </ul>
-  </li>
-</ol>
 
-<h1 id="sensing-robotics-and-computer-vision">Sensing, robotics and computer vision</h1>
+2. Found a nice short textbook on maths and methods used for photonics, with clean aesthetics and great quotes.
+- Github: [pbienst/active-math](https://github.com/pbienst/active-math/releases/tag/v20240807)
+- Lactures on [Youtube](https://www.youtube.com/channel/UCCrl_LDnXnXB19-2geTWhDQ)
+- More screenshots at [twitter thread](https://x.com/jwt0625/status/1835853180661628977)
+![mathematics_for_photonics.jfif](/assets/images/2024/mathematics_for_photonics.jfif)
+![mathematics_for_photonics2.jfif](/assets/images/2024/mathematics_for_photonics_2.jfif)
 
-<p>(under construction)</p>
 
-<ol>
-  <li>
-    <p><a href="https://github.com/apirrone/Open_Duck_Mini">Open Duck Mini</a></p>
-  </li>
-  <li>
-    <p>Alex Koch’s <a href="https://github.com/AlexanderKoch-Koch/low_cost_robot">low_cost_robot</a> arm</p>
-  </li>
-</ol>
+3. Would you implant magnets into your arm to track the muscle deformation, to get more arms? It's quite comparable to sota approach (using surface electromyography (EMG) signals). It directly measures muscle length and velocity, thus potentially bidirectional and more accurate.
+- Paper: [Restoration of grasping in an upper limb amputee using the myokinetic prosthesis with implanted magnets](https://www.science.org/doi/10.1126/scirobotics.adp3260)
+![myokinetic_prosthetic_hand.jfif](/assets/images/2024/myokinetic_prosthetic_hand.jfif)
+- This paper used a standard on describing and measuring pains called [The McGill Pain Questionnaire](https://pubs.asahq.org/anesthesiology/article/103/1/199/7382/The-McGill-Pain-QuestionnaireFrom-Description-to)
+![McGill_pain_questionnaire.png](/assets/images/2024/McGill_pain_questionnaire.png)
 
-<h2 id="gripper">Gripper</h2>
 
-<ol>
-  <li>
-    <p><a href="https://github.com/clayhaight01/OpenGrip">OpenGrip</a></p>
-  </li>
-  <li>
-    <p>UMI gripper: <a href="https://github.com/real-stanford/universal_manipulation_interface">universal_manipulation_interface</a></p>
-  </li>
-</ol>
+4. Stretchable versions of the Arduino Lilypad, SparkFun Sound Detector, SparkFun RGB and Gesture Sensor, made with oxidized gallium-indium (OGaIn) on VHB tape! They showed you can stretch them more than 400%, and made two inflatable blue and red cubes crawl and kiss each other
+- Paper: [Stretchable Arduinos embedded in soft robots](https://www.science.org/doi/10.1126/scirobotics.adn6844)
+- Github: [swoodman11/SoftArduino](https://github.com/swoodman11/SoftArduino)
+- Youtube (unlisted): [How to manufacture stretchable Arduinos](https://www.youtube.com/watch?v=nDWBUMG_oVs&ab_channel=StephanieWoodman)
+- More images and movie at [tweet](https://x.com/jwt0625/status/1836255577565278548)
+![stretchable_arduino.jfif](/assets/images/2024/stretchable_arduino.jfif)
+![stretchable_arduino_2.jfif](/assets/images/2024/stretchable_arduino_2.jfif)
 
-<h2 id="vision">Vision</h2>
 
-<ol>
-  <li><a href="https://github.com/BasedHardware/OpenGlass">OpenGlass</a></li>
-</ol>
+5. TIL there is a class of optimization algorithms inspired by how ant colonies function, and are good at solving problems \equiv finding good paths through graphs. Intuition: ants follow & leave pheromone. Shorter the path, ants travel more often -> stronger pheromone -> more ants.
+- Paper: [Dorigo1996: The Ant System: Optimization by a colony of cooperating agents](https://www.cs.unibo.it/babaoglu/courses/cas05-06/tutorials/Ant_Colony_Optimization.pdf)
+- Book: Software Agents for Future Communication Systems
+- Originally found this type of algo from this paper: [Ant-colony optimization-based multi-input multi-output (ACO-MIMO) equalization for low-complexity mode-division multiplexing (MDM) processing](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-17-29943&id=554303)
+![ant_colony.png](/assets/images/2024/ant_colony.png)
 
-<h1 id="electronics-test-equipments">Electronics test equipments</h1>
 
-<p>(under construction)</p>
+6. Campbell Scientific makes weather sensors based on light scattering
+- [CS125 Present Weather and Visibility Sensor](https://www.campbellsci.com/cs125)
+- [Twitter thread](https://x.com/jwt0625/status/1836469664404378058), where the original post is already from an account that no longer exists (11 days afterwards).
+![Campbell_weather_sensor.jfif](/assets/images/2024/Campbell_weather_sensor.jfif)
 
-<ol>
-  <li><a href="https://github.com/EEVengers/ThunderScope">ThunderScope</a></li>
-</ol>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="OpenSource" /><category term="Optics" /><category term="Photonics" /><category term="Nanopositioning" /><category term="Flexure" /><summary type="html"><![CDATA[(Continuously updating)]]></summary></entry><entry><title type="html">This week’s outside five sigma (#14)</title><link href="http://localhost:4000/ofs/weekly-OFS-14/" rel="alternate" type="text/html" title="This week’s outside five sigma (#14)" /><published>2024-09-29T00:00:00-07:00</published><updated>2024-09-29T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-14</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-14/"><![CDATA[<ol>
-  <li>The nice rendering of the NIF fuel pellet/capsule holder got a cool flexure design. Turns out it is called thermomechanical packaging (TMP). Flexure is made of titanium &amp; designed to apply pressure evenly.
-    <ul>
-      <li>Rendering image is from IEEE Spectrum: <a href="https://spectrum.ieee.org/nuclear-fusion-breakthrough-long-road">Momentary Fusion Breakthroughs Face Hard Reality</a></li>
-      <li>Blog: <a href="https://lasers.llnl.gov/news/designing-for-ignition-precise-changes-yield-historic-results">Designing for Ignition: Precise Changes Yield Historic Results</a></li>
-      <li>Paper1: <a href="https://www.cambridge.org/core/journals/high-power-laser-science-and-engineering/article/assembly-and-metrology-of-nif-target-subassemblies-using-robotic-systems/C55BA68AD8C5994BF248844B893E2B5B">Assembly and metrology of NIF target subassemblies using robotic systems</a></li>
-      <li>Paper2: <a href="https://www.tandfonline.com/doi/abs/10.13182/FST15-226">Automation of NIF Target Fabrication</a>
-<img src="/assets/images/2024/LLNL_target_render.jfif" alt="LLNL_target_render.jfif" />
-<img src="/assets/images/2024/LLNL_target_thermomechanical_packaging.jfif" alt="LLNL_target_thermomechanical_packaging.jfif" />
-<img src="/assets/images/2024/LLNL_target_thermomechanical_packaging_flexure.jfif" alt="LLNL_target_thermomechanical_packaging_flexure.jfif" /></li>
-    </ul>
-  </li>
-  <li>Found a nice short textbook on maths and methods used for photonics, with clean aesthetics and great quotes.
-    <ul>
-      <li>Github: <a href="https://github.com/pbienst/active-math/releases/tag/v20240807">pbienst/active-math</a></li>
-      <li>Lactures on <a href="https://www.youtube.com/channel/UCCrl_LDnXnXB19-2geTWhDQ">Youtube</a></li>
-      <li>More screenshots at <a href="https://x.com/jwt0625/status/1835853180661628977">twitter thread</a>
-<img src="/assets/images/2024/mathematics_for_photonics.jfif" alt="mathematics_for_photonics.jfif" />
-<img src="/assets/images/2024/mathematics_for_photonics_2.jfif" alt="mathematics_for_photonics2.jfif" /></li>
-    </ul>
-  </li>
-  <li>Would you implant magnets into your arm to track the muscle deformation, to get more arms? It’s quite comparable to sota approach (using surface electromyography (EMG) signals). It directly measures muscle length and velocity, thus potentially bidirectional and more accurate.
-    <ul>
-      <li>Paper: <a href="https://www.science.org/doi/10.1126/scirobotics.adp3260">Restoration of grasping in an upper limb amputee using the myokinetic prosthesis with implanted magnets</a>
-<img src="/assets/images/2024/myokinetic_prosthetic_hand.jfif" alt="myokinetic_prosthetic_hand.jfif" /></li>
-      <li>This paper used a standard on describing and measuring pains called <a href="https://pubs.asahq.org/anesthesiology/article/103/1/199/7382/The-McGill-Pain-QuestionnaireFrom-Description-to">The McGill Pain Questionnaire</a>
-<img src="/assets/images/2024/McGill_pain_questionnaire.png" alt="McGill_pain_questionnaire.png" /></li>
-    </ul>
-  </li>
-  <li>Stretchable versions of the Arduino Lilypad, SparkFun Sound Detector, SparkFun RGB and Gesture Sensor, made with oxidized gallium-indium (OGaIn) on VHB tape! They showed you can stretch them more than 400%, and made two inflatable blue and red cubes crawl and kiss each other
-    <ul>
-      <li>Paper: <a href="https://www.science.org/doi/10.1126/scirobotics.adn6844">Stretchable Arduinos embedded in soft robots</a></li>
-      <li>Github: <a href="https://github.com/swoodman11/SoftArduino">swoodman11/SoftArduino</a></li>
-      <li>Youtube (unlisted): <a href="https://www.youtube.com/watch?v=nDWBUMG_oVs&amp;ab_channel=StephanieWoodman">How to manufacture stretchable Arduinos</a></li>
-      <li>More images and movie at <a href="https://x.com/jwt0625/status/1836255577565278548">tweet</a>
-<img src="/assets/images/2024/stretchable_arduino.jfif" alt="stretchable_arduino.jfif" />
-<img src="/assets/images/2024/stretchable_arduino_2.jfif" alt="stretchable_arduino_2.jfif" /></li>
-    </ul>
-  </li>
-  <li>TIL there is a class of optimization algorithms inspired by how ant colonies function, and are good at solving problems \equiv finding good paths through graphs. Intuition: ants follow &amp; leave pheromone. Shorter the path, ants travel more often -&gt; stronger pheromone -&gt; more ants.
-    <ul>
-      <li>Paper: <a href="https://www.cs.unibo.it/babaoglu/courses/cas05-06/tutorials/Ant_Colony_Optimization.pdf">Dorigo1996: The Ant System: Optimization by a colony of cooperating agents</a></li>
-      <li>Book: Software Agents for Future Communication Systems</li>
-      <li>Originally found this type of algo from this paper: <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-17-29943&amp;id=554303">Ant-colony optimization-based multi-input multi-output (ACO-MIMO) equalization for low-complexity mode-division multiplexing (MDM) processing</a>
-<img src="/assets/images/2024/ant_colony.png" alt="ant_colony.png" /></li>
-    </ul>
-  </li>
-  <li>Campbell Scientific makes weather sensors based on light scattering
-    <ul>
-      <li><a href="https://www.campbellsci.com/cs125">CS125 Present Weather and Visibility Sensor</a></li>
-      <li><a href="https://x.com/jwt0625/status/1836469664404378058">Twitter thread</a>, where the original post is already from an account that no longer exists (11 days afterwards).
-<img src="/assets/images/2024/Campbell_weather_sensor.jfif" alt="Campbell_weather_sensor.jfif" /></li>
-    </ul>
-  </li>
-  <li>Floyd–Steinberg dithering is an image dithering algorithm, which “intentionally applied form of noise used to randomize quantization error, preventing large-scale patterns such as color banding in images.”
-    <ul>
-      <li>Here is a photo of one of my favorite traffic sign after the dithering.
-<img src="/assets/images/2024/TWM_sing_dithered.png" alt="TWM_sing_dithered.png" /></li>
-      <li>Originally found through this paper where many images are blurred on intention: <a href="https://www.sciencedirect.com/science/article/pii/S1369702102008398">Optical MEMS for telecoms</a>
-<img src="/assets/images/2024/pixel_art_laser.jfif" alt="pixel_art_laser.jfif" /></li>
-    </ul>
-  </li>
-  <li>Micromachining for Optical and Optoelectronic Systems, aka, optical table on a chip. The most amazing step of erecting the optical elements, is done by stick-slip actuators, or scratch drive actuators (SDA) as how they called it.
-    <ul>
-      <li>More screenshots in <a href="https://x.com/jwt0625/status/1836942609799070046">twitter thread</a></li>
-      <li>Paper1: <a href="https://ieeexplore.ieee.org/abstract/document/649660">Micromachining for optical and optoelectronic systems</a>. Also <a href="https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=f7d8b14a4cf8c8432644dc911c0f4348ffda294c">here</a>.</li>
-      <li>Paper2: <a href="https://opg.optica.org/viewmedia.cfm?r=1&amp;rwjcode=ol&amp;uri=ol-21-2-155">Realization of novel monolithic free-space optical disk pickup heads by surface micromachining</a>
-<img src="/assets/images/2024/optical_MEMS_1.png" alt="optical_MEMS_1.png" />
-<img src="/assets/images/2024/optical_MEMS_2.png" alt="optical_MEMS_2.png" /></li>
-      <li>Stick slip actuators are common esp. for positioners that are going to extreme environment like vacuum/cryogenic. It relies on breaking the static friction. If your chair has wheels, try moving around without touching anything else, and you’ll get it. (See also <a href="https://link.springer.com/chapter/10.1007/978-3-319-23853-1_1">A Review of Stick–Slip Nanopositioning Actuators</a>)
-<img src="/assets/images/2024/stick_slip.png" alt="stick_slip.png" /></li>
-      <li>While it sounds hard to do on chip, what you need is literally a floating big piece of silicon with a cross section that looks like a pry bar, and just apply +- 150 V alternatively, it will start crawling forward. It could do 80nm per step at 8um/s, and push up a piece of quartz. (See <a href="https://ieeexplore.ieee.org/document/557525">Scratch drive actuator with mechanical links for self-assembly of three-dimensional MEMS</a>)
-<img src="/assets/images/2024/stick_slip_2.png" alt="stick_slip_2.png" />
-<img src="/assets/images/2024/stick_slip_3.png" alt="stick_slip_3.png" /></li>
-      <li>This thread is an appreciation post because some of these work led to MEMS optical switch and tunable attenuators, which made some of my projects 10x faster and easier.</li>
-    </ul>
-    <ul>
-      <li><a href="https://ieeexplore.ieee.org/document/740714">A variable optical attenuator based on silicon micromechanics</a></li>
-      <li><a href="https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=8b41dad8d0683290d56f75906b828edd78ee968c">Optical MEMS in Bonded Silicon on Insulator</a></li>
-      <li><a href="https://www.sercalo.com/products">sercalo microtechnology</a>
-<img src="/assets/images/2024/MEMS_VOA.png" alt="MEMS_VOA.png" />
-<img src="/assets/images/2024/MEMS_VOA2.png" alt="MEMS_VOA2.png" /></li>
-    </ul>
-  </li>
-  <li>Astrophysics papers always have crazy units like gigayear, megaparsec (one parsec is ~20 trillion miles), power spectral density spanning from GHz to quadrillion Hz, and peak power of 1e39 W (~ a trillion suns).
-    <ul>
-      <li>Paper: <a href="https://www.nature.com/articles/s41586-024-07879-y">Black hole jets on the scale of the cosmic web</a>
-<img src="/assets/images/2024/black_hole_jet.jfif" alt="black_hole_jet.jfif" />
-<img src="/assets/images/2024/black_hole_jet2.jfif" alt="black_hole_jet2.jfif" /></li>
-    </ul>
-  </li>
-  <li>A few major differences between electrocaloric effect and thermoelectric effect is ceramic vs. semiconductor, E field vs. current, and cycling vs. “steady state”. This rabbit hole started with a paper on photocaloric, then you find out theres electro/mechano/magnetocaloric effect.
-    <ul>
-      <li>Book: <a href="https://link.springer.com/book/10.1007/978-3-642-40264-7">Electrocaloric Materials</a></li>
-      <li>Paper1: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.116401">Giant Photocaloric Effects across a Vast Temperature Range in Ferroelectric Perovskites</a></li>
-      <li>Paper2: <a href="https://www.nature.com/articles/nphys3271">Too cool to work</a>
-<img src="/assets/images/2024/cooling_tech.jfif" alt="cooling_tech.jfif" />
-<img src="/assets/images/2024/electro_mechano_caloric.jfif" alt="electro_mechano_caloric.jfif" /></li>
-      <li>ifixit has the best diagram for <a href="https://www.ifixit.com/Wiki/How_a_Refrigerator_Works">How Does a Refrigerator Work?</a>
-<img src="/assets/images/2024/ifixit_fridge.jfif" alt="ifixit_fridge.jfif" /></li>
-    </ul>
-  </li>
-  <li>Recent progress on force sensor has reached quectonewton (\(10^{-30}\)) level.
-    <ul>
-      <li>Paper: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.113403">Quectonewton Local Force Sensor</a>
-<img src="/assets/images/2024/quectonewton_force_sensor.png" alt="quectonewton_force_sensor.png" /></li>
-      <li>Previously I’ve seen a laser trapped nano-particle: capable of detecting 1e-20 newton and acceleration of 1e-7*g. They used it to detect the recoil from an 𝛼 decay (a single helium nucleus). Paper: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.023602">Mechanical Detection of Nuclear Decays</a>
-<img src="/assets/images/2024/laser_trapped_nanoparticle_sense_fission_recoil.jfif" alt="laser_trapped_nanoparticle_sense_fission_recoil.jfif" /></li>
-    </ul>
-  </li>
-  <li>The mold for roll-to-roll (R2R) nanoimprint lithography (NIL) can be made with a diamond chip and it is pretty insane
-    <ul>
-      <li><a href="https://x.com/jwt0625/status/1837656674733334807">Twitter thread</a>
-<img src="/assets/images/2024/R2R_NIL_mold_1.jfif" alt="R2R_NIL_mold_1.jfif" />
-<img src="/assets/images/2024/R2R_NIL_mold_2.jfif" alt="R2R_NIL_mold_2.jfif" /></li>
-      <li>The mold is an aluminum tube/cylinder with 6.5 in diameter. They use a diamond chip with patterns milled with FIB. The diamond chip is actuated by a piezo-drive at 45 kHz, along an elliptical path, and contact with the metal at matched speed for 1-2 us. The result: 10 cm^2/min.
-<img src="/assets/images/2024/R2R_NIL_mold_3.jfif" alt="R2R_NIL_mold_3.jfif" /></li>
-      <li>They have to control the vibration frequency and cylinder rotation speed down to 1e-7 relative accuracy, so that the stitching between each punch is ~&lt; 0.1 nm, much smaller than the patterns. It is done on a custom high precision lathe.
-<img src="/assets/images/2024/R2R_NIL_mold_4.png" alt="R2R_NIL_mold_4.png" /></li>
-      <li>They did not say how fast is the film rolled at, only a 20 in/min for how fast the photopolymer is coated. They also find missing indents sometimes, and they could even fix those by punching the metal cylinder again with a different diamond die.
-<img src="/assets/images/2024/R2R_NIL_mold_5.jfif" alt="R2R_NIL_mold_5.jfif" />
-<img src="/assets/images/2024/R2R_NIL_mold_6.jfif" alt="R2R_NIL_mold_6.jfif" />
-<img src="/assets/images/2024/R2R_NIL_mold_7.jfif" alt="R2R_NIL_mold_7.jfif" /></li>
-      <li>A few more on how important the alignment of the diamond die to the metal cylinder is, and shapes of the diamond, metal, and the polymer.</li>
-      <li>Paper1: <a href="https://iopscience.iop.org/article/10.1088/1361-6528/abd9f1/meta">Roll-to-roll nanoimprint lithography using a seamless cylindrical mold nanopatterned with a high-speed mastering process</a>. Also at <a href="https://iopscience.iop.org/article/10.1088/1361-6528/abd9f1/ampdf">here</a>
-<img src="/assets/images/2024/R2R_NIL_mold_8.jfif" alt="R2R_NIL_mold_8.jfif" />
-<img src="/assets/images/2024/R2R_NIL_mold_9.jfif" alt="R2R_NIL_mold_9.jfif" />
-<img src="/assets/images/2024/R2R_NIL_mold_10.jfif" alt="R2R_NIL_mold_10.jfif" /></li>
-    </ul>
-  </li>
-  <li>Found that there is a nice comsol blog on that veritasium video on closing a switch to turn on a light bulb
-    <ul>
-      <li><a href="https://www.comsol.com/blogs/how-long-does-it-take-an-engineer-to-turn-on-a-light-bulb">How Long Does It Take an Engineer to Turn on a Light Bulb?</a>
-<img src="/assets/images/2024/Blog_Header_Imgs_LightBult_CoverImg.png" alt="Blog_Header_Imgs_LightBult_CoverImg.png" /></li>
-    </ul>
-  </li>
-  <li>Here’s a pretty good recent review on optical/photonic compute, with plenty of references inside.
-    <ul>
-      <li><a href="https://www.nature.com/articles/s42254-023-00645-5">The physics of optical computing</a></li>
-      <li><a href="https://arxiv.org/abs/2308.00088">Arxiv version</a>
-<img src="/assets/images/2024/optical_compute_review_1.jfif" alt="optical_compute_review_1.jfif" />
-<img src="/assets/images/2024/optical_compute_review_2.jfif" alt="optical_compute_review_2.jfif" /></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Robotics" /><category term="Prosthetic" /><category term="Fusion" /><category term="Electronics" /><category term="Optimization" /><category term="RL" /><category term="Sensor" /><category term="Sensing" /><category term="Noise" /><category term="MEMS" /><category term="Blackhole" /><category term="Optics" /><category term="ifixit" /><category term="R2R" /><category term="NIL" /><summary type="html"><![CDATA[The nice rendering of the NIF fuel pellet/capsule holder got a cool flexure design. Turns out it is called thermomechanical packaging (TMP). Flexure is made of titanium &amp; designed to apply pressure evenly. Rendering image is from IEEE Spectrum: Momentary Fusion Breakthroughs Face Hard Reality Blog: Designing for Ignition: Precise Changes Yield Historic Results Paper1: Assembly and metrology of NIF target subassemblies using robotic systems Paper2: Automation of NIF Target Fabrication]]></summary></entry><entry><title type="html">This week’s outside five sigma (#13)</title><link href="http://localhost:4000/ofs/weekly-OFS-13/" rel="alternate" type="text/html" title="This week’s outside five sigma (#13)" /><published>2024-09-21T00:00:00-07:00</published><updated>2024-09-21T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-13</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-13/"><![CDATA[<ol>
-  <li>A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly.
-    <ul>
-      <li>Paper: <a href="https://arxiv.org/abs/2409.04930">PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels’</a>
-<img src="/assets/images/2024/monitor_acoustic_spying.jpeg" alt="monitor_acoustic_spying.jpeg" /></li>
-    </ul>
-  </li>
-  <li>Cherenkov radiation can be used to identify different charged particles with known momentum because they radiate into different directions (Ring-imaging Cherenkov (RICH) detector). Those photon hits an electron out of a cathode, accel by 20 kV, then hit silicon detector array
-    <ul>
-      <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/Ring-imaging_Cherenkov_detector">Ring-imaging Cherenkov detector</a></li>
-      <li>LHC outreach: <a href="https://lhcb-outreach.web.cern.ch/detector/rich-detectors/">RICH detectors</a></li>
-      <li><a href="https://indico.cern.ch/event/1094055/contributions/4972494/attachments/2506319/4307648/Jacques%20In%20Memoriam.pdf">Homage to Jacques Séguinot</a>, and <a href="https://www.diva-portal.org/smash/get/diva2:1803145/FULLTEXT01.pdf">another version</a>
-<img src="/assets/images/2024/RICH_detector_1.png" alt="RICH_detector_1.png" />
-<img src="/assets/images/2024/RICH_detector_2.jpeg" alt="RICH_detector_2.png" /></li>
-    </ul>
-  </li>
-  <li>Here comes “A new type of oscilloscope that’s fast, flexible, and completely open”
-    <ul>
-      <li>CrowdSupply: <a href="https://www.crowdsupply.com/eevengers/thunderscope">Thunderscope</a>
-<img src="/assets/images/2024/thunderscope_20240921.png" alt="thunderscope_20240921.png" /></li>
-    </ul>
-  </li>
-  <li>There is a name for academics hoarding &amp; guarding resources, and suppress others: the Gollum Effect
-    <ul>
-      <li>Paper: <a href="https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2022.889236/full">The Gollum Effect: The Issue of Research Opportunity Guarding in Academia</a></li>
-      <li>Paper: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4888507">The Shadow of the Ring: How the Gollum Effect Impacts Research and Careers</a>
-<img src="/assets/images/2024/gollum_effect.jpeg" alt="gollum_effect.jpeg" /></li>
-    </ul>
-  </li>
-  <li>If you got [REDACTED]+[REDACTED] or so a year to spare, you can get your layout level photonic circuit performance simulated on a single platform using device/component level sim with Tidy3D and circuit level sim with IPKISS.
-    <ul>
-      <li>Blog: <a href="https://www.flexcompute.com/blog/2024/09/10/luceda-photonics-pic-design-software-integrated-with-tidy3d/">Luceda Photonics Introduces Seamless Integration with Tidy3D for Enhanced Photonics Design and Simulation</a>
-<img src="/assets/images/2024/luceda_flexcompute.jpeg" alt="luceda_flexcompute.jpeg" /></li>
-    </ul>
-  </li>
-  <li>Ultrasound makes bending easier just like in ultrasonic wirebonding, and you benefit more than the average because of nonlinearities. You could even further “cheat” with acoustic resonances.
-    <ul>
-      <li>Paper: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0041624X2300135X?via%3Dihub">Effect of high-power ultrasonic vibration on the flexible bending process of thin-walled circular tubes: Numerical and experimental research</a>
-<img src="/assets/images/2024/ultrasonic_assisted_bending_1.jpeg" alt="ultrasonic_assisted_bending_1.jpeg" />
-<img src="/assets/images/2024/ultrasonic_assisted_bending_2.jpeg" alt="ultrasonic_assisted_bending_2.jpeg" /></li>
-      <li>The term for this is ultrasonic-assisted flexible bending (UAFB), or more generally acoustic softening. It’s been intensely studied in various materials for the reason you could see below. Some 30 W/cm^2 ultrasonic power is better at softening zinc than heating it to 250 C.
-<img src="/assets/images/2024/ultrasonic_assisted_bending_3.png" alt="ultrasonic_assisted_bending_3.jpeg" />
-<img src="/assets/images/2024/ultrasonic_assisted_bending_4.png" alt="ultrasonic_assisted_bending_4.jpeg" /></li>
-      <li>Similar plots in the wirebonding book (George Harman, Wire Bonding in Microelectronics). For aluminum you get equivalence of 600C with 50 W/cm^2, a power level you could roughly get with 50 bucks.
-<img src="/assets/images/2024/ultrasonic_assisted_bending_5.jpeg" alt="ultrasonic_assisted_bending_5.jpeg" />
-<img src="/assets/images/2024/ultrasonic_assisted_bending_6.jpeg" alt="ultrasonic_assisted_bending_6.jpeg" /></li>
-    </ul>
-  </li>
-  <li>I’ve always thought ebeam litho as moving a single pixel around. Turns out there is a whole branch of shaped beam ones, this is one of them: reflective electron beam lithography (REBL). An array of small metallic pixels shape the beam reflectively, just like DMD but for electrons
-    <ul>
-      <li><a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7823/782316/Direct-write-electron-beam-lithography-a-historical-overview/10.1117/12.868477.short#_=_">Direct write electron beam lithography: a historical overview</a></li>
-      <li><a href="https://pubs.aip.org/avs/jvb/article-abstract/27/1/161/467317/REBL-A-novel-approach-to-high-speed-maskless">REBL: A novel approach to high speed maskless electron beam direct write lithography</a>
-<img src="/assets/images/2024/REBL_1.jpeg" alt="REBL_1.jpeg" />
-<img src="/assets/images/2024/REBL_2.jpeg" alt="REBL_2.jpeg" /></li>
-      <li>Now how do you reflect a few tens kV of electrons?? They are first decelerated by the electron optics before the DPG, and then he DPG only needs a few volts to either repel or capture the electrons. In a newer paper they showed SEMs of the DPG chip with lenslets on top of CMOS.
-<img src="/assets/images/2024/REBL_3.jpeg" alt="REBL_3.jpeg" />
-<img src="/assets/images/2024/REBL_4.jpeg" alt="REBL_4.jpeg" /></li>
-      <li>From KLA-tencor: <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8323/832311/REBL--design-progress-toward-16-nm-half-pitch-maskless/10.1117/12.919744.short">REBL: design progress toward 16 nm half-pitch maskless projection electron beam lithography</a>, supported by DARPA MTO with $30M in 2010. See <a href="https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Science_and_Technology/12-F-1039_2010-DARPA-Funding-List.pdf">2010 DARPA funding list</a></li>
-      <li>From 1975 to 1995, the pixel rate of ebeam direct write increased from 2e7 to 2e9, however wafer size ~4x and feature size shrinked ~10x, increasing the number of pixels by 1e3. Without massively parallel projection it would be &lt; 0.1 wph. Now 20 years later, we are still on 12in.
-<img src="/assets/images/2024/REBL_5.jpeg" alt="REBL_5.jpeg" />
-<img src="/assets/images/2024/REBL_6.jpeg" alt="REBL_6.jpeg" /></li>
-      <li>“In imaging, SEMs with multiple beams have started to show up:” <a href="https://www.zeiss.com/microscopy/us/products/sem-fib-sem/sem/multisem.html">Zeiss MultiSEM</a>, as well as Ebeam litho with multiple beams: <a href="https://multibeamcorp.com/">Multibeam Corp</a>. They have a talk on youtube: <a href="https://www.youtube.com/watch?v=d2JH6JxLa5w&amp;ab_channel=eBeamInitiative">Tech Talk: Multicolumn eBeam Lithography (MEBL)</a>
-<img src="/assets/images/2024/multibeam_1.jpeg" alt="multibeam_1.jpeg" />
-<img src="/assets/images/2024/multibeam_2.jpeg" alt="multibeam_2.jpeg" /></li>
-    </ul>
-  </li>
-  <li>In addition to high power LED headlights we all love, cars might get integrated holographic camera modules (IHCM). They could show you “robots, animals, cartoon characters, celebrities”, as well as the car itself, with overlapping range and tracking to make sure you always see it.
-    <ul>
-      <li><a href="https://patents.google.com/patent/US20240288823A1/en">Smart Vehicle Holograms</a>, patent filed by Ford Global Technologies LLC
-<img src="/assets/images/2024/IHCM_1.png" alt="IHCM_1.png" />
-<img src="/assets/images/2024/IHCM_2.png" alt="IHCM_2.png" /></li>
-    </ul>
-  </li>
-  <li>Rubidium vapor cells are very affordable on eBay
-    <ul>
-      <li><a href="https://x.com/oldestasian/status/1834601347439571053">Tweet</a></li>
-      <li>ebay: <a href="https://www.ebay.com/itm/124012486501">Rb High Precision Low Phase Noise Rubidium Tube Atomic Clock Soviet Ussr DIY</a>
-<img src="/assets/images/2024/Rb_vapor_cell_ebay.png" alt="Rb_vapor_cell_ebay.png" /></li>
-    </ul>
-  </li>
-  <li>Let me introduce you Yokogawa minimal Fab, when everyone is going larger wafers &amp; higher throughput, they make 0.5 in wafer tools all in one form factor, with almost all front-end capabilities, that does NOT need to be in a clean room.
-    <ul>
-      <li><a href="https://www.yokogawa.com/us/industries/semiconductor/minimal-fab/">Semiconductor Tools for Prototyping and Small-Volume Production</a></li>
-      <li><a href="https://x.com/jwt0625/status/1835111605623046556">Twitter thread</a> with more info and pictures</li>
-      <li><a href="/assets/doc/2024/minimal-fab-one-stop-solution.pdf">minimal-fab-one-stop-solution.pdf</a></li>
-      <li><a href="/assets/doc/2024/MakingDevicePrototype.pdf">MakingDevicePrototype.pdf</a>
-<img src="/assets/images/2024/minimal_fab_1.jpeg" alt="minimal_fab_1.jpeg" />
-<img src="/assets/images/2024/minimal_fab_2.jpeg" alt="minimal_fab_2.jpeg" /></li>
-    </ul>
-  </li>
-  <li>You can drill with microwave. It uses an extendable monopole antenna as the drill bit, the surface near it gets heat up the most, and also gets to absorb the microwave better. They can use a 1 kW at 2.45 GHz, common for a commercial microwave, to drill concrete holes of 2 mm diameter and 2 cm deep in less than one minute.
-    <ul>
-      <li>Paper: <a href="https://www.science.org/doi/10.1126/science.1077062">The Microwave Drill</a>
-<img src="/assets/images/2024/microwave_drilling.png" alt="microwave_drilling.png" /></li>
-    </ul>
-  </li>
-  <li>The activity of neurons associated with motor preparation decrease as stakes get too high. (Motor preparation = making calculations about how to complete a movement) “You just don’t perform better as the reward increases”. Find the optimal for you and shoot for that.
-    <ul>
-      <li>Article: <a href="https://www.nature.com/articles/d41586-024-02956-8">Why do we crumble under pressure? Science has the answer</a></li>
-      <li>Paper: <a href="https://www.cell.com/neuron/abstract/S0896-6273(24)00608-1">A neural basis of choking under pressure</a>
-<img src="/assets/images/2024/monkey_chock_under_pressure.jpeg" alt="monkey_chock_under_pressure.jpeg" /></li>
-    </ul>
-  </li>
-  <li>Now some thermal camerasa are only a few hundred bucks and could do 25 Hz, lock-in thermography should be possible with those? You could getting more than 100x better temperature resolution with decent wait time (~ 1000 s).
-    <ul>
-      <li>paper: <a href="https://www-old.mpi-halle.mpg.de/mpi/publi/pdf/540_02.pdf">Lock-in IR-Thermography - a novel tool for material and device characterization</a></li>
-      <li>Tektronix: <a href="https://www.tek.com/en/documents/application-note/advancing-techniques-of-failure-analysis-using-source-measure-units-and-lock-in-thermography">Advancing Techniques of Failure Analysis Using Source Measure Units and Lock-in Thermography</a>
-<img src="/assets/images/2024/lockin_IR_thermography_1.jpeg" alt="lockin_IR_thermography_1.jpeg" />
-<img src="/assets/images/2024/lockin_IR_thermography_2.jpeg" alt="lockin_IR_thermography_2.jpeg" /></li>
-    </ul>
-  </li>
-</ol>
 
-<p><img src="/assets/images/2024/" alt="" />
-<img src="/assets/images/2024/" alt="" /></p>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Covert" /><category term="Exfiltrate" /><category term="Cherenkov" /><category term="Oscilloscope" /><category term="Electronics" /><category term="EBL" /><category term="Nanofab" /><category term="Machining" /><category term="Microwave" /><category term="Hologram" /><category term="AMO" /><category term="Lockin" /><category term="Thermography" /><summary type="html"><![CDATA[A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly. Paper: PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels’]]></summary></entry><entry><title type="html">This week’s outside five sigma (#12)</title><link href="http://localhost:4000/ofs/weekly-OFS-12/" rel="alternate" type="text/html" title="This week’s outside five sigma (#12)" /><published>2024-09-15T00:00:00-07:00</published><updated>2024-09-15T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-12</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-12/"><![CDATA[<ol>
-  <li>Thomae’s function is somehow linked to the visual density of points of a 2D grid.
-    <ul>
-      <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/Thomae's_function">Thomae’s function</a></li>
-      <li><a href="https://x.com/jwt0625/status/1831694447870144747">Twitter thread</a>
-<img src="/assets/images/2024/I5_tree_grid_thomae_function.jpeg" alt="I5_tree_grid_thomae_function.jpeg" />
-<img src="/assets/images/2024/Thomae_function_grid_angular_density.png" alt="Thomae_function_grid_angular_density.png" /></li>
-    </ul>
-  </li>
-  <li>Next time when you are spending $200 to get 8 GB more memory for your macbook, remember that money is more than enough to buy you two credit card-sized single-board computers with 8 GB RAM, 2.5 GbE Ethernet, PCIe 3.0, and WiFi 6E.
-    <ul>
-      <li>Blog: <a href="https://liliputing.com/orange-pi-5-max-is-a-credit-card-sized-rk3588-pc-with-2-5-gbe-ethernet-pcie-3-0-and-wifi-6e/">Orange Pi 5 Max is a credit card-sized RK3588 PC with 2.5 GbE Ethernet, PCIe 3.0, and WiFi 6E</a>
-<img src="/assets/images/2024/orange_pi_aliexpress.jpeg" alt="orange_pi_aliexpress.jpeg" /></li>
-    </ul>
-  </li>
-  <li>You can take a piece of lithium tantalate crystal, heat it up from -30 C to 10 C in 3 min, and it produces E field high enough to generate and accelerate deuteron &gt; 100 keV and cause fusion.
-    <ul>
-      <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/Pyroelectric_fusion">Pyroelectric fusion</a></li>
-      <li>Paper: <a href="https://www.nature.com/articles/nature03575">Observation of nuclear fusion driven by a pyroelectric crystal</a>
-<img src="/assets/images/2024/pyroelectric_fusion_lithium_tantalate_nature.jpeg" alt="pyroelectric_fusion_lithium_tantalate_nature.jpeg" /></li>
-    </ul>
-  </li>
-  <li>Laser spark plug is a thing, and people have built it into a four-piston engine car and drove with it.
-    <ul>
-      <li>Paper 1: <a href="https://opg.optica.org/oe/viewmedia.cfm?uri=oe-32-17-30344&amp;html=true">Laser ignition of hydrogen/air mixtures in a constant-volume combustion chamber using a pulse-burst Nd:YAG/Cr4+:YAG laser spark plug</a></li>
-      <li>Paper 2: <a href="https://www.technologytoday.us/columnPDF/LIC3-1_Taira.pdf">World First Laser Ignited Gasoline Engine Vehicle</a>
-<img src="/assets/images/2024/laser_spark_plug1.jpeg" alt="laser_spark_plug1.jpeg" />
-<img src="/assets/images/2024/laser_spark_plug2.jpeg" alt="laser_spark_plug2.jpeg" /></li>
-    </ul>
-  </li>
-  <li>I had a lot of fun making this laser alignment chart.
-    <ul>
-      <li><a href="https://x.com/jwt0625/status/1829379139104800846">Tweet</a>
-<img src="/assets/images/2024/laser_alignment_chart.jpeg" alt="laser_alignment_chart.jpeg" /></li>
-    </ul>
-  </li>
-  <li>Hellman’s Real Mayonnaise is the mayonnaise approved by physicists for inertial confinement fusion studies. They shape it real nice, spin it, watch it deform &amp; break off to study Rayleigh-Taylor instability.
-    <ul>
-      <li>Paper: <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.053104">Rayleigh-Taylor-instability experiments with elastic-plastic materials</a>
-<img src="/assets/images/2024/mayonnaise_rayleigh_tayler_instability.jpeg" alt="mayonnaise_rayleigh_tayler_instability.jpeg" />
-<img src="/assets/images/2024/mayonnaise_rayleigh_tayler_instability2.png" alt="mayonnaise_rayleigh_tayler_instability2.jpeg" /></li>
-    </ul>
-  </li>
-  <li>Laser ablation of water looks like miniaturized explosion
-    <ul>
-      <li>Paper: <a href="https://pubs.acs.org/doi/full/10.1021/cr010379n">Mechanisms of Pulsed Laser Ablation of Biological Tissues</a></li>
-      <li>More picture in <a href="https://x.com/jwt0625/status/1832213671130656884">twitter thread</a>
-<img src="/assets/images/2024/laser_ablation_water.jpeg" alt="laser_ablation_water.jpeg" /></li>
-    </ul>
-  </li>
-  <li>This repo/app makes animated “QR code” to transfer data at ~100 kB/s without using any RF signal. It uses 16 symbols * 4 colors, and 12400 tiles per frame to get 7.5 kB (+some error correction bytes) per frame. It has a beta mode thats &gt; 1 Mbps and pbb could still be much faster.
-    <ul>
-      <li>Github: <a href="https://github.com/sz3/libcimbar">libcimbar: Color Icon Matrix Barcodes</a>
-<img src="/assets/images/2024/animated_QR_code.png" alt="animated_QR_code.png" /></li>
-    </ul>
-  </li>
-  <li>You can dope silicon with neutron radiation.
-    <ul>
-      <li>MIT nuclear reactor lab: <a href="https://nrl.mit.edu/facilities/ntds">Neutron Transmutation Doping of Silicon</a>
-<img src="/assets/images/2024/dope_Si_with_neutron_radiation_facilities_ntds_1_diagram_780x422.jpg" alt="dope_Si_with_neutron_radiation_facilities_ntds_1_diagram_780x422.jpg" /></li>
-    </ul>
-  </li>
-  <li>Electron beam pumped lasers and LEDs exist where electrical injection is problematic due to doping, transport or contacting issues.
-    <ul>
-      <li>Paper: <a href="https://iopscience.iop.org/article/10.1088/1361-6463/ac6237">Electron beam pumped light emitting devices</a>
-<img src="/assets/images/2024/electron_beam_pumped_LED.png" alt="electron_beam_pumped_LED.png" /></li>
-    </ul>
-  </li>
-  <li>You could literally and non-invasively tickle your brain with magnetic field or electromagnetic pulses. (transcranial magnetic stimulation (TMS))
-    <ul>
-      <li>Paper: <a href="https://lab.plopes.org/published/2024-CHI-HapticSourceEffector.pdf">Haptic Source-effector: Full-body Haptics via Non-invasive Brain Stimulation</a>
-<img src="/assets/images/2024/full_body_haptics_magnetic_brain_stimulation.jpeg" alt="full_body_haptics_magnetic_brain_stimulation.jpeg" /></li>
-    </ul>
-  </li>
-  <li>This paper cooled down a tardigrade with a qubit, and also modeled it as a cubic dielectrics.
-    <ul>
-      <li>Paper: <a href="https://arxiv.org/abs/2112.07978">Entanglement between superconducting qubits and a tardigrade</a>
-<img src="/assets/images/2024/tardigrade_qubit_1.jpeg" alt="tardigrade_qubit_1.jpeg" />
-<img src="/assets/images/2024/tardigrade_qubit_2.jpeg" alt="tardigrade_qubit_2.jpeg" /></li>
-    </ul>
-  </li>
-  <li>Related to above, the US Navy also tried hooking microtubules up to qubits
-    <ul>
-      <li><a href="https://x.com/APOideas/status/1804460858321318039">Tweet</a></li>
-      <li>Report: <a href="https://apps.dtic.mil/sti/pdfs/AD1175159.pdf">Biological Brain Microtubules Interfaced with Semiconductor Qubits</a>
-<img src="/assets/images/2024/tubulin_monomer_qubit.jpeg" alt="tubulin_monomer_qubit.jpeg" /></li>
-    </ul>
-  </li>
-  <li>This paper has great plots of AI computing power vs. time, and made comparison between AI training vs. uranium enrichment
-    <ul>
-      <li>Paper From OpenAI and Cambridge/Oxford folks: <a href="https://arxiv.org/abs/2402.08797">Computing Power and the Governance of Artificial Intelligence</a>
-<img src="/assets/images/2024/ai_computing_power_governance.jpeg" alt="ai_computing_power_governance.jpeg" />
-<img src="/assets/images/2024/ai_computing_power_governance_uranium_enrichment.jpeg" alt="ai_computing_power_governance_uranium_enrichment.jpeg" /></li>
-    </ul>
-  </li>
-  <li>SiTime makes these mems clock chips, and they were developed from Tom Kenny’s lab at Stanford. Their Epi-seal process for encapsulating the mems devices is amazing art.
-    <ul>
-      <li>Company: <a href="https://www.sitime.com/products">SiTime</a></li>
-      <li>Epi-seal process: <a href="http://micromachine.stanford.edu/?p=projects&amp;id=28">MEMS inertial sensors in Epi-seal</a>
-<img src="/assets/images/2024/epi_seal_1.jpeg" alt="epi_seal_1.jpeg" />
-<img src="/assets/images/2024/epi_seal_2.jpeg" alt="epi_seal_2.jpeg" /></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Math" /><category term="Mini-PC" /><category term="Laser" /><category term="Fusion" /><category term="Pyroelectrics" /><category term="Mayonnaise" /><category term="Rayleigh-Taylor-instability" /><category term="Barcode" /><category term="Silicon" /><category term="Nanofab" /><category term="MEMS" /><category term="Qubit" /><category term="AI" /><category term="TMS" /><category term="Laser-ablation" /><category term="Exfiltrate" /><summary type="html"><![CDATA[Thomae’s function is somehow linked to the visual density of points of a 2D grid. Wikipedia: Thomae’s function Twitter thread]]></summary></entry><entry><title type="html">This week’s outside five sigma (#11)</title><link href="http://localhost:4000/ofs/weekly-OFS-11/" rel="alternate" type="text/html" title="This week’s outside five sigma (#11)" /><published>2024-09-08T00:00:00-07:00</published><updated>2024-09-08T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-11</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-11/"><![CDATA[<ol>
-  <li>This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff.
-    <ul>
-      <li>Paper: <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10659116">Ultra-Wideband RF-Photonics Technology for Microwave</a>
-<img src="/assets/images/2024/spiral_AWG.png" alt="spiral_AWG.png" /></li>
-    </ul>
-  </li>
-  <li>A dc-biased Josephson junction in series with two microwave resonators emits entangled beams of microwaves leaking out of the resonators
-    <ul>
-      <li>Paper: <a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.11.031008">Generating Two Continuous Entangled Microwave Beams Using a dc-Biased Josephson Junction</a>
-<img src="/assets/images/2024/DC_biased_JJ.png" alt="DC_biased_JJ.png" /></li>
-    </ul>
-  </li>
-  <li>Google showed their surface code is getting better with higher distance. This very roughly means that the superconducting qubits are goos enough for quantum computing, the question is now how and how fast can it scale.
-    <ul>
-      <li>Paper: <a href="https://arxiv.org/abs/2408.13687">Quantum error correction below the surface code threshold</a>
-<img src="/assets/images/2024/google_surface_code_threshold.PNG" alt="google_surface_code_threshold.PNG" /></li>
-    </ul>
-  </li>
-  <li>Behold, we will soon have microbatteries in our brains and balls (not really, but they actually have comparable sizes). And you could use it to power electrochemical actuators for micro-robots.
-    <ul>
-      <li>Paper: <a href="https://www.science.org/doi/10.1126/scirobotics.ade4642">High energy density picoliter-scale zinc-air microbatteries for colloidal robotics</a>
-<img src="/assets/images/2024/microbatteries.jfif" alt="microbatteries.jfif" /></li>
-    </ul>
-  </li>
-  <li>The volume of the unit sphere peaks at a dimensionality of exactly 5, and the area peaks at 7 dimensions.
-    <ul>
-      <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/N-sphere">n-sphere</a>
-<img src="/assets/images/2024/File_Hypersphere_volume_and_surface_area_graphs.svg" alt="File_Hypersphere_volume_and_surface_area_graphs.svg" /></li>
-    </ul>
-  </li>
-  <li>This is one of my favorite paper, from the S of the RSA, on how to share a secret to n people while you need k of them to help you decode it. Any (k-1) people would have no idea what it is.
-    <ul>
-      <li>Paper: <a href="https://dl.acm.org/doi/abs/10.1145/359168.359176">How to share a secret</a>
-<img src="/assets/images/2024/Shamir_share_a_secret.jfif" alt="Shamir_share_a_secret.jfif" /></li>
-    </ul>
-  </li>
-  <li>Chemical oxygen–iodine laser (COIL), as well as other chemical lasers, are basically putting two mirrors around a rocket engine exhaust.
-    <ul>
-      <li>ScienceDirect: <a href="https://www.sciencedirect.com/topics/physics-and-astronomy/chemical-laser">Chemical Laser</a>
-<img src="/assets/images/2024/COIL_laser.png" alt="COIL_laser.png" /></li>
-    </ul>
-  </li>
-  <li>Want your kids to be more stress-tolerant, grow faster and stronger? Record your fights with your breeding partner and replay it to your kids before they were born! That’s what these science weirdos did to seagull eggs and found out about…
-    <ul>
-      <li>Paper: <a href="https://www.science.org/doi/full/10.1126/sciadv.adn8542">Lasting benefits of embryonic eavesdropping on parent-parent communication</a>
-<img src="/assets/images/2024/talkative_parents_1.jfif" alt="talkative_parents_1.jfif" />
-<img src="/assets/images/2024/talkative_parents_2.jfif" alt="talkative_parents_2.jfif" /></li>
-    </ul>
-  </li>
-  <li>Science hippies watch bees jerking off flowers and then jerk off flowers themselves. The bees could do it at 400 Hz!
-    <ul>
-      <li>Paper: <a href="https://www.science.org/content/article/head-banging-bumble-bees-bite-flowers-shake-loose-more-pollen">Head-banging bumble bees bite flowers to shake loose more pollen</a></li>
-      <li><a href="https://x.com/jwt0625/status/1829893872232906925">Tweet</a> with more videos.
-<img src="/assets/images/2024/bees_jerking_flowers.jfif" alt="bees_jerking_flowers.jfif" /></li>
-    </ul>
-  </li>
-  <li>This is not just robots on mushroom, this is mushroom roots controlling robots with their electrical signals… Would you raise the fungi, and then use a 24-bit ADC and going thru the EMI shielding hussle to sense ~ 100 uV signal from fungi roots to actuate your robot?
-    <ul>
-      <li>Paper: <a href="https://www.science.org/doi/10.1126/scirobotics.adk8019">Sensorimotor control of robots mediated by electrophysiological measurements of fungal mycelia</a></li>
-      <li><a href="https://x.com/jwt0625/status/1830128032029507626">Tweet</a> with more images and videos.
-<img src="/assets/images/2024/mushroom_tentacle_robot.jfif" alt="mushroom_tentacle_robot.jfif" /></li>
-    </ul>
-  </li>
-  <li>Phone vibration motors are less than one buck each
-    <ul>
-      <li>Amazon: <a href="https://www.amazon.com/Vibration-Coreless-Vibrating-electronic-accessories/dp/B0D2PZBMYW/ref=asc_df_B0D2PZBMYW/?th=1">15pcs DC Vibration Motor 6mm x10mm Micro Coreless Vibrating Motor</a>
-<img src="/assets/images/2024/phone_vib_motor.jfif" alt="phone_vib_motor.jfif" /></li>
-    </ul>
-  </li>
-  <li>Thomas Wilfred’s art looks like AI generated light field animation, but it is actually fully mechanical. And the beautiful thing is, his patent on it just turned 100 years old.
-    <ul>
-      <li>Patent: <a href="https://patents.google.com/patent/US1749011A/en">Light-projection display</a></li>
-      <li><a href="https://www.getty.edu/publications/keepitmoving/case-studies/4-snow/">Conserving Thomas Wilfred’s Lumia Suite, Opus 158</a> (<a href="/assets/doc/2024/Conserving Thomas Wilfred’s Lumia Suite __ Keep It Moving_.pdf">backup</a>)
-<img src="/assets/images/2024/Thomas_Wilfred_art.jfif" alt="Thomas_Wilfred_art.jfif" />
-<img src="/assets/images/2024/Thomas_Wilfred_setup.jfif" alt="Thomas_Wilfred_setup.jfif" /></li>
-    </ul>
-  </li>
-  <li>When you didn’t have FEM, you would bruteforce thru the math, build an equivalence of your structure in plastic, and directly measure &amp; visualize the solution.
-    <ul>
-      <li>Paper: <a href="https://pubs.aip.org/aip/jap/article-abstract/50/7/4567/500582/Photoelastic-waveguides-and-their-effect-on-stripe">Photoelastic waveguides and their effect on stripe‐geometry GaAs/Ga$_{1−x}$Al$_x$As lasers</a>
-<img src="/assets/images/2024/strain_thin_film_solution.png" alt="strain_thin_film_solution.png" />
-<img src="/assets/images/2024/strain_thin_film_measurement.png" alt="strain_thin_film_measurement.png" /></li>
-    </ul>
-  </li>
-  <li>The astronomers (the AWG paper at the beginning of this blog) and high energy physicists having the coolest shit. This paper is GPU accelerated optical photon simulation, but the photons are from a 200 GeV muon.
-    <ul>
-      <li>Paper: <a href="https://www.epj-conferences.org/articles/epjconf/pdf/2024/05/epjconf_chep2024_11014.pdf">Opticks : GPU Optical Photon Simulation via NVIDIA OptiX</a></li>
-      <li>Project: <a href="https://simoncblyth.bitbucket.io/">Opticks Publications, Presentations, Notes</a>
-<img src="/assets/images/2024/photon_from_200GeV_muon.jfif" alt="photon_from_200GeV_muon.jfif" /></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="AWG" /><category term="Integrated_photonics" /><category term="SC_qubit" /><category term="Nanofab" /><category term="Math" /><category term="Encryption" /><category term="Laser" /><category term="Behavior" /><category term="Biology" /><category term="Robotics" /><category term="Art" /><category term="Mechanics" /><category term="Simulation" /><category term="Photonics" /><category term="Optics" /><summary type="html"><![CDATA[This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff. Paper: Ultra-Wideband RF-Photonics Technology for Microwave]]></summary></entry><entry><title type="html">This week’s outside five sigma (#10)</title><link href="http://localhost:4000/ofs/weekly-OFS-10/" rel="alternate" type="text/html" title="This week’s outside five sigma (#10)" /><published>2024-09-01T00:00:00-07:00</published><updated>2024-09-01T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-10</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-10/"><![CDATA[<ol>
-  <li>Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975.
-    <ul>
-      <li>Team 6502 <a href="https://www.team6502.org/">website</a>
-<img src="/assets/images/2024/MOS_Tech_6502.jpeg" alt="MOS_Tech_6502" /></li>
-    </ul>
-  </li>
-  <li>This LEGO enthusiast makes really good 3D model / part list / assembling instruction for the designs
-    <ul>
-      <li>Website: <a href="https://www.chrismcveigh.com/cm/welcome.html">CHRIS MCVEIGH’S BUILDING GUIDES</a>
-<img src="/assets/images/2024/LEGO_computer_1.jpeg" alt="LEGO_computer_1.jpeg" />
-<img src="/assets/images/2024/LEGO_computer_2.jpeg" alt="LEGO_computer_2.jpeg" /></li>
-    </ul>
-  </li>
-  <li>
-    <p>The wafer holders are worth 10s to 100s bucks for big wafers! Do not throw them away when you ordered old wafers for decoration
-<img src="/assets/images/2024/wafer_holder_12in.png" alt="wafer_holder_12in.png" /></p>
-  </li>
-  <li>HDMI to screw terminal adapters exist… I need to come up with a fun project to use them.
-    <ul>
-      <li>On Amazon: <a href="https://www.amazon.com/SinLoon-Solderless-Extension-Connector-Screwdriver/dp/B07M98XCL6/ref=asc_df_B07M98XCL6/">SinLoon HDMI Solderless Adapter Gold Plated HDMI Extension Cable Connector</a>
-<img src="/assets/images/2024/HDMI_to_screw_terminal.jpg" alt="HDMI_to_screw_terminal.jpg" /></li>
-    </ul>
-  </li>
-  <li>Just owning it would already make your feel less stressed and more satisfied with your life.
-    <ul>
-      <li>Nature human behavior paper: <a href="https://www.nature.com/articles/s41562-024-01948-y">Causal effect of video gaming on mental well-being in Japan 2020–2022</a>
-<img src="/assets/images/2024/owning_game_console_stress_life_satisfaction.jpeg" alt="owning_game_console_stress_life_satisfaction.jpeg" /></li>
-    </ul>
-  </li>
-  <li>You can do passive radar with scattered waves from Starlink
-    <ul>
-      <li>Paper: <a href="https://ieeexplore.ieee.org/document/10149600">Analysis of Starlink Users’ downlink for passive radar applications: signal characteristics and ambiguity function performance</a></li>
-      <li>News: <a href="https://www.airforce-technology.com/news/germany-demonstrates-passive-radar-system-using-starlink-satellite-radiation/">Germany demonstrates passive radar system using Starlink satellite radiation</a>
-<img src="/assets/images/2024/passive_radar_starlink_JB21-Verteidigung-Cristallini-Bild2.webp" alt="passive_radar_starlink_JB21-Verteidigung-Cristallini-Bild2.webp" /></li>
-    </ul>
-  </li>
-  <li>“As chipmaking required finer and finer features, engineers had to produce more and more complex designs to project those features onto the silicon. Inverse lithography (ILT) is the latest development”
-    <ul>
-      <li>Blog: <a href="https://spectrum.ieee.org/inverse-lithography">Nvidia Speeds Key Chipmaking Computation by 40x</a>
-<img src="/assets/images/2024/Nvidia_OPC_mask_correction.jpeg" alt="Nvidia_OPC_mask_correction.jpeg" /></li>
-    </ul>
-  </li>
-  <li>A group of Japanese researchers made a prosthetic tail with potential applications including active momentum alteration
-    <ul>
-      <li>Paper: <a href="https://dl.acm.org/doi/10.1145/3306214.3338573">Arque: artificial biomimicry-inspired tail for extending innate body functions</a>
-<img src="/assets/images/2024/prosthetic_tail.png" alt="prosthetic_tail.png" /></li>
-    </ul>
-  </li>
-  <li>Six to seven discrete depth would be enough to fool Human vision
-    <ul>
-      <li>Optics Express paper: <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-29-7-9878&amp;id=449280">Optimal allocation of quantized human eye depth perception for multi-focal 3D display design</a>
-<img src="/assets/images/2024/human_vision_discrere_depth.jpeg" alt="human_vision_discrere_depth.jpeg" /></li>
-    </ul>
-  </li>
-  <li>I always have thought it is the signal from the left eye going to the right half of the brain and vice versa. It is actually the visual field instead.
-    <ul>
-      <li>Screenshots from Youtube video: <a href="https://www.youtube.com/watch?v=yQ6VOOd73MA&amp;ab_channel=NOVAPBSOfficial">Your Brain: Who’s in Control? | Full Documentary | NOVA | PBS</a>
-<img src="/assets/images/2024/visual_signal_brain_1.jpeg" alt="visual_signal_brain_1.jpeg" />
-<img src="/assets/images/2024/visual_signal_brain_2.jpeg" alt="visual_signal_brain_2.jpeg" /></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="Semiconductor" /><category term="Vision" /><category term="Nanofab" /><category term="Electronics" /><category term="Behavior" /><category term="Radar" /><category term="Starlink" /><category term="Lithography" /><category term="Robotics" /><category term="LEGO" /><summary type="html"><![CDATA[Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975. Team 6502 website]]></summary></entry><entry><title type="html">This week’s outside five sigma (#9)</title><link href="http://localhost:4000/ofs/weekly-OFS-9/" rel="alternate" type="text/html" title="This week’s outside five sigma (#9)" /><published>2024-08-24T00:00:00-07:00</published><updated>2024-08-24T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-9</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-9/"><![CDATA[<ol>
-  <li>I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts
-    <ul>
-      <li><a href="https://x.com/jwt0625/status/1825038035458879580">Twitter thread</a></li>
-      <li>I should write it into a blog
-<img src="/assets/images/2024/MFC_valve.jfif" alt="MFC_valve.jfif" />
-<img src="/assets/images/2024/MFC_sensor.jfif" alt="MFC_sensor.jfif" /></li>
-    </ul>
-  </li>
-  <li>All major electronic gear control manufacturers now support wireless shifting, and the wireless signal could be captured and replayed/hacked.
-    <ul>
-      <li>Paper: <a href="https://www.usenix.org/system/files/woot24-motallebighomi.pdf">MakeShift: Security Analysis of Shimano Di2 Wireless Gear Shifting in Bicycles</a>
-<img src="/assets/images/2024/shimano_bike_electronic_wireless_gear_shifter.jfif" alt="shimano_bike_electronic_wireless_gear_shifter.jfif" />
-<img src="/assets/images/2024/shimano_bike_electronic_wireless_gear_shifter_2.jfif" alt="shimano_bike_electronic_wireless_gear_shifter_2.jfif" /></li>
-    </ul>
-  </li>
-  <li>Minecraft’s new update enables you to make a “ring resonator” for mine cart with powered rails and use a switch to launch the accelerated mine cart out of the ring. It works exactly as a Q-switched laser
-    <ul>
-      <li><a href="https://x.com/WitchOfDusk/status/1824243197159112726">Twitter post</a>
-<img src="/assets/images/2024/Minecraft_update_ring_launch.gif" alt="Minecraft_update_ring_launch.gif" /></li>
-    </ul>
-  </li>
-  <li>When you make a lens with discrete flat surfaces, it samples the scene with gaps and creates a mosaic image. I ran a ray tracing simulation to show how it works.
-    <ul>
-      <li><a href="https://x.com/Hakusi_Katei/status/1807591865132466324">Twitter post</a> from <a href="https://x.com/Hakusi_Katei">@Hakusi_Katei</a></li>
-      <li><a href="https://monoli.easy-myshop.jp/">shop</a>
-<img src="/assets/images/2024/minecraft_lens_pixel_mirror.jfif" alt="minecraft_lens_pixel_mirror.jfif" />
-<img src="/assets/images/2024/minecraft_lens_pixel_mirror_ray_tracing.jfif" alt="minecraft_lens_pixel_mirror_ray_tracing.jfif" /></li>
-    </ul>
-  </li>
-  <li>SendCutSend has a series of great guidelines on how to best use their services.
-    <ul>
-      <li><a href="https://sendcutsend.com/guidelines/">website</a>
-<img src="/assets/images/2024/sendcutsend_guidelines.PNG" alt="sendcutsend_guidelines.PNG" /></li>
-    </ul>
-  </li>
-  <li>The YOLO vision model guy has a My Little Pony style resume
-    <ul>
-      <li>Google Scholar: <a href="https://scholar.google.com/citations?user=TDk_NfkAAAAJ&amp;hl=en&amp;oi=sra">Joseph Redmon</a></li>
-      <li><a href="https://web.archive.org/web/20200302013000/https://pjreddie.com/static/Redmon%20Resume.pdf">Wayback machine</a>
-<img src="/assets/images/2024/My_Little_Resume_Joseph_redmon.PNG" alt="My_Little_Resume_Joseph_redmon.PNG" /></li>
-    </ul>
-  </li>
-  <li><a href="https://clayhaight.com/">Clayton</a> (and team) shipped a quiet leaf picking robot to Nat Friedman
-    <ul>
-      <li><a href="https://x.com/clayhaight/status/1825245517745656143">Twitter post</a>
-<img src="/assets/images/2024/leaf_picking_robot.PNG" alt="leaf_picking_robot.PNG" /></li>
-    </ul>
-  </li>
-  <li>Zhiyuan Robot debuted their Lingxi-01 robot after two months of development
-    <ul>
-      <li>Youtube: <a href="https://www.youtube.com/watch?v=e04nYc0VTUg&amp;t=2952s&amp;ab_channel=XTech">2024智元年度新品发布会全程</a></li>
-      <li>Company website (very slow to load for me): <a href="https://www.zhiyuan-robot.com/">智元机器人</a>
-<img src="/assets/images/2024/zhiyuan_lingxi_01.PNG" alt="zhiyuan_lingxi_01.PNG" />
-<img src="/assets/images/2024/zhiyuan_lingxi_01.jfif" alt="zhiyuan_lingxi_02.jfif" /></li>
-    </ul>
-  </li>
-  <li>The biggest pdf dataset contains only “roughly 8.4~ million pdfs that uncompressed total 8TB”.
-    <ul>
-      <li>Blogpost: <a href="https://snats.xyz/pages/articles/classifying_a_bunch_of_pdfs.html">Classifying all of the pdfs on the internet</a>
-<img src="/assets/images/2024/pdf_classification_piechart_equally_distributed.png" alt="pdf_classification_piechart_equally_distributed.png" /></li>
-    </ul>
-  </li>
-  <li>Unitree released the mass production version of their humaniod robot G1
-    <ul>
-      <li><a href="https://x.com/UnitreeRobotics/status/1825435336736120880">Twitter post</a></li>
-      <li>Website: <a href="https://www.unitree.com/g1">Humanoid robot G1</a>
-<img src="/assets/images/2024/unitree_G1.PNG" alt="unitree_G1.PNG" />
-<img src="/assets/images/2024/unitree_G1_02.PNG" alt="unitree_G1_02.PNG" /></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Bike" /><category term="Wireless" /><category term="IoT" /><category term="Laser" /><category term="Minecraft" /><category term="Optics" /><category term="SendCutSend" /><category term="Manufacturing" /><category term="Robotics" /><category term="Pdf" /><summary type="html"><![CDATA[I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts Twitter thread I should write it into a blog]]></summary></entry><entry><title type="html">Teardown Celerity mass flow meter</title><link href="http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter/" rel="alternate" type="text/html" title="Teardown Celerity mass flow meter" /><published>2024-08-20T00:00:00-07:00</published><updated>2024-08-20T00:00:00-07:00</updated><id>http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter</id><content type="html" xml:base="http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter/"><![CDATA[<p>This blog is about the teardown of a Celerity mass flow meter, with a bit of background materials. I got this cute thing at the electronics flea market for only 40 bucks. It got a price tag of \$375 and the guy asked \$75. This is a pretty old unit from Celerity, which has “technology heritage of industry leaders such as Tylan, Mykrolis and UNIT Instruments”, and got acquired by Brooks in 2009 (<a href="https://www.brooksinstrument.com/en/about-us/history">source</a>). Here is how it looks after opening its jacket:</p>
+7. Floyd–Steinberg dithering is an image dithering algorithm, which "intentionally applied form of noise used to randomize quantization error, preventing large-scale patterns such as color banding in images."
+- Here is a photo of one of my favorite traffic sign after the dithering.
+![TWM_sing_dithered.png](/assets/images/2024/TWM_sing_dithered.png)
+- Originally found through this paper where many images are blurred on intention: [Optical MEMS for telecoms](https://www.sciencedirect.com/science/article/pii/S1369702102008398)
+![pixel_art_laser.jfif](/assets/images/2024/pixel_art_laser.jfif)
 
-<p><img src="/assets/images/2024/MFC_Teardown_20240817230453.png" alt="MFC_Teardown_20240817230453.png" /></p>
 
-<p>Here is some background about mass flow meters. If you are here for the porns, jump to the next section.</p>
+8. Micromachining for Optical and Optoelectronic Systems, aka, optical table on a chip. The most amazing step of erecting the optical elements, is done by stick-slip actuators, or scratch drive actuators (SDA) as how they called it.
+- More screenshots in [twitter thread](https://x.com/jwt0625/status/1836942609799070046)
+- Paper1: [Micromachining for optical and optoelectronic systems](https://ieeexplore.ieee.org/abstract/document/649660). Also [here](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=f7d8b14a4cf8c8432644dc911c0f4348ffda294c).
+- Paper2: [Realization of novel monolithic free-space optical disk pickup heads by surface micromachining](https://opg.optica.org/viewmedia.cfm?r=1&rwjcode=ol&uri=ol-21-2-155)
+![optical_MEMS_1.png](/assets/images/2024/optical_MEMS_1.png)
+![optical_MEMS_2.png](/assets/images/2024/optical_MEMS_2.png)
+- Stick slip actuators are common esp. for positioners that are going to extreme environment like vacuum/cryogenic. It relies on breaking the static friction. If your chair has wheels, try moving around without touching anything else, and you'll get it. (See also [A Review of Stick–Slip Nanopositioning Actuators](https://link.springer.com/chapter/10.1007/978-3-319-23853-1_1))
+![stick_slip.png](/assets/images/2024/stick_slip.png)
+- While it sounds hard to do on chip, what you need is literally a floating big piece of silicon with a cross section that looks like a pry bar, and just apply +- 150 V alternatively, it will start crawling forward. It could do 80nm per step at 8um/s, and push up a piece of quartz. (See [Scratch drive actuator with mechanical links for self-assembly of three-dimensional MEMS](https://ieeexplore.ieee.org/document/557525))
+![stick_slip_2.png](/assets/images/2024/stick_slip_2.png)
+![stick_slip_3.png](/assets/images/2024/stick_slip_3.png)
+- This thread is an appreciation post because some of these work led to MEMS optical switch and tunable attenuators, which made some of my projects 10x faster and easier.
+    - [A variable optical attenuator based on silicon micromechanics](https://ieeexplore.ieee.org/document/740714)
+    - [Optical MEMS in Bonded Silicon on Insulator](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=8b41dad8d0683290d56f75906b828edd78ee968c)
+    - [sercalo microtechnology](https://www.sercalo.com/products)
+![MEMS_VOA.png](/assets/images/2024/MEMS_VOA.png)
+![MEMS_VOA2.png](/assets/images/2024/MEMS_VOA2.png)
 
-<h1 id="very-brief-intro-to-mass-flow-meter-and-controller">Very brief intro to mass flow meter and controller</h1>
 
-<p>If you are working in any kind of physical fabrication or manufacturing, you have likely encountered usage of various gases and liquids. To have a repeatable process, you would want to control the flow of your gas or liquid well, and that is done with a mass flow controlel (MFC).</p>
 
-<p>In my case, I have seen it on more than half of the cleanroom equipments. Any kind of etcher (RIE, Ion milling) or gas/vapor based deposition tool (PVD, CVD, ALD), as long as there is gas involved, there would be a few MFCs hidden inside the tool that set your SF6 or O2 flow to the 50 sccm you wanted. And they could occasionally fuck up and ruin your process, so learn, appreciate, and prey for their well-being!</p>
+9. Astrophysics papers always have crazy units like gigayear, megaparsec (one parsec is ~20 trillion miles), power spectral density spanning from GHz to quadrillion Hz, and peak power of 1e39 W (~ a trillion suns).
+- Paper: [Black hole jets on the scale of the cosmic web](https://www.nature.com/articles/s41586-024-07879-y)
+![black_hole_jet.jfif](/assets/images/2024/black_hole_jet.jfif)
+![black_hole_jet2.jfif](/assets/images/2024/black_hole_jet2.jfif)
 
-<p>There are quite a few kinds of MFC, but they all have at least two parts, one part that is sensing the flow, and the other part that is controlling the flow (and some electronics with how to readout and calibrate the flow, and apply the control). There are many good reads for this, and <a href="https://www.mks.com/mass-flow-technology-technote">this one</a> is particularly good (I admit I only read this one and <a href="https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/">another one</a>). A very common and cheap type of MFC is the rotameters where you pbb have seen them on nitrogen dessicator or machines with liquid/water flows that does not require high precision. We will focus on the ones with finer measurement control, and more specifically thermal mass flow meter based controllers. Another interesting type of flow meter is using Coriolis force and are called <a href="https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/">Coriolis flow meters</a>. They actuate and sense the vibration of the sensor tube, which depends on the mass or density of the flow. When the flow is running, the two legs (in and out) of the sensor tubes would vibrate with a phase difference  because of the angular momentum from the vibration carried by the flow.</p>
 
-<p><img src="/assets/images/2024/thermal_mass_flow_sensor_config.jpg" alt="thermal_mass_flow_sensor_config.jpg" />
-<em>Different sensor configuration of a thermal mass flow meter. From <a href="https://www.mks.com/mass-flow-technology-technote">MKS</a>.</em></p>
+10. A few major differences between electrocaloric effect and thermoelectric effect is ceramic vs. semiconductor, E field vs. current, and cycling vs. "steady state". This rabbit hole started with a paper on photocaloric, then you find out theres electro/mechano/magnetocaloric effect.
+- Book: [Electrocaloric Materials](https://link.springer.com/book/10.1007/978-3-642-40264-7)
+- Paper1: [Giant Photocaloric Effects across a Vast Temperature Range in Ferroelectric Perovskites](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.116401)
+- Paper2: [Too cool to work](https://www.nature.com/articles/nphys3271)
+![cooling_tech.jfif](/assets/images/2024/cooling_tech.jfif)
+![electro_mechano_caloric.jfif](/assets/images/2024/electro_mechano_caloric.jfif)
+- ifixit has the best diagram for [How Does a Refrigerator Work?](https://www.ifixit.com/Wiki/How_a_Refrigerator_Works)
+![ifixit_fridge.jfif](/assets/images/2024/ifixit_fridge.jfif)
 
-<p>The core idea of the sensing part is, think about what the flow is and could carry (mass -&gt; momentum, temperature -&gt; heat), and how do you induce a change of it and measure its effect because of the flow. In the case of the thermal mass flow sensing, it is the temperature distribution. In the case of the Coriolis flow meters, it is the vibration phase of the sensing tube.</p>
 
-<p><img src="/assets/images/2024/thermal_mass_flow_temperature_distribution.jpg" alt="thermal_mass_flow_temperature_distribution.jpg" />
-<em>Asymmetric temperature distribution on the sensing tube because of the flow. From <a href="https://www.mks.com/mass-flow-technology-technote">MKS</a>.</em></p>
+11. Recent progress on force sensor has reached quectonewton ($$10^{-30}$$) level.
+- Paper: [Quectonewton Local Force Sensor](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.113403)
+![quectonewton_force_sensor.png](/assets/images/2024/quectonewton_force_sensor.png)
+- Previously I've seen a laser trapped nano-particle: capable of detecting 1e-20 newton and acceleration of 1e-7*g. They used it to detect the recoil from an 𝛼 decay (a single helium nucleus). Paper: [Mechanical Detection of Nuclear Decays](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.023602)
+![laser_trapped_nanoparticle_sense_fission_recoil.jfif](/assets/images/2024/laser_trapped_nanoparticle_sense_fission_recoil.jfif)
 
-<p>The control and actuation part of the flow controller is relatively more straight forward. Any method to increase the impedance of the flow could slow it down. Stick a “finger” into the path, or moving a cover up and down at a hole the flow must go thru, you name it.</p>
 
-<h1 id="initial-teardown">Initial teardown</h1>
 
-<p>Opening it up is pretty straight forward. Screws removed:</p>
-<ol>
-  <li>two on the flaps of the case that connect the case to the in and out port flange</li>
-  <li>two on the two sides of the D-type connector</li>
-  <li>cut the “warranty void” seal, now could lift off the case</li>
-  <li>one on the back of the PCB that mounts it to the side of the sensor. It also holds the insulating paper between the back of the PCB and the inner side of the case (preventing electrical short)</li>
-</ol>
+12. The mold for roll-to-roll (R2R) nanoimprint lithography (NIL) can be made with a diamond chip and it is pretty insane
+- [Twitter thread](https://x.com/jwt0625/status/1837656674733334807)
+![R2R_NIL_mold_1.jfif](/assets/images/2024/R2R_NIL_mold_1.jfif)
+![R2R_NIL_mold_2.jfif](/assets/images/2024/R2R_NIL_mold_2.jfif)
+- The mold is an aluminum tube/cylinder with 6.5 in diameter. They use a diamond chip with patterns milled with FIB. The diamond chip is actuated by a piezo-drive at 45 kHz, along an elliptical path, and contact with the metal at matched speed for 1-2 us. The result: 10 cm^2/min.
+![R2R_NIL_mold_3.jfif](/assets/images/2024/R2R_NIL_mold_3.jfif)
+- They have to control the vibration frequency and cylinder rotation speed down to 1e-7 relative accuracy, so that the stitching between each punch is ~< 0.1 nm, much smaller than the patterns. It is done on a custom high precision lathe.
+![R2R_NIL_mold_4.png](/assets/images/2024/R2R_NIL_mold_4.png)
+- They did not say how fast is the film rolled at, only a 20 in/min for how fast the photopolymer is coated. They also find missing indents sometimes, and they could even fix those by punching the metal cylinder again with a different diamond die.
+![R2R_NIL_mold_5.jfif](/assets/images/2024/R2R_NIL_mold_5.jfif)
+![R2R_NIL_mold_6.jfif](/assets/images/2024/R2R_NIL_mold_6.jfif)
+![R2R_NIL_mold_7.jfif](/assets/images/2024/R2R_NIL_mold_7.jfif)
+- A few more on how important the alignment of the diamond die to the metal cylinder is, and shapes of the diamond, metal, and the polymer.
+- Paper1: [Roll-to-roll nanoimprint lithography using a seamless cylindrical mold nanopatterned with a high-speed mastering process](https://iopscience.iop.org/article/10.1088/1361-6528/abd9f1/meta). Also at [here](https://iopscience.iop.org/article/10.1088/1361-6528/abd9f1/ampdf)
+![R2R_NIL_mold_8.jfif](/assets/images/2024/R2R_NIL_mold_8.jfif)
+![R2R_NIL_mold_9.jfif](/assets/images/2024/R2R_NIL_mold_9.jfif)
+![R2R_NIL_mold_10.jfif](/assets/images/2024/R2R_NIL_mold_10.jfif)
 
-<p>The board with the external connectors (a D type, two that look like ethernet, and one test leads (?) sticking out from the board itself) can be unplugged from the main board.</p>
 
-<p><img src="/assets/images/2024/MFC_Teardown_20240817230505.png" alt="MFC_Teardown_20240817230505.png" />
-<img src="/assets/images/2024/MFC_Teardown_20240817230511.png" alt="MFC_Teardown_20240817230511.png" /></p>
 
-<p>The flexible cable is actually soldered onto the main PCB… I tried to desolder it, and then find out it is also glued onto the PCB on one side. My patience ran out and I just cut it in half.</p>
 
-<p><img src="/assets/images/2024/MFC_Teardown_20240817230520.png" alt="MFC_Teardown_20240817230520.png" /></p>
+13. Found that there is a nice comsol blog on that veritasium video on closing a switch to turn on a light bulb
+- [How Long Does It Take an Engineer to Turn on a Light Bulb?](https://www.comsol.com/blogs/how-long-does-it-take-an-engineer-to-turn-on-a-light-bulb)
+![Blog_Header_Imgs_LightBult_CoverImg.png](/assets/images/2024/Blog_Header_Imgs_LightBult_CoverImg.png)
 
-<h1 id="valve">Valve</h1>
 
-<p>It took me a while to trial and realize the enclosure is screwed on. I was thinking maybe they welded it really well to prevent any leak, but the hole at the top where the cable is coming out looks suspicious. The enclosure is actually part of a solenoid. The coil looks and feels dirt cheap, wrapped with teflon tape (?).</p>
+14. Here’s a pretty good recent review on optical/photonic compute, with plenty of references inside.
+- [The physics of optical computing](https://www.nature.com/articles/s42254-023-00645-5)
+- [Arxiv version](https://arxiv.org/abs/2308.00088)
+![optical_compute_review_1.jfif](/assets/images/2024/optical_compute_review_1.jfif)
+![optical_compute_review_2.jfif](/assets/images/2024/optical_compute_review_2.jfif)]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Robotics" /><category term="Prosthetic" /><category term="Fusion" /><category term="Electronics" /><category term="Optimization" /><category term="RL" /><category term="Sensor" /><category term="Sensing" /><category term="Noise" /><category term="MEMS" /><category term="Blackhole" /><category term="Optics" /><category term="ifixit" /><category term="R2R" /><category term="NIL" /><summary type="html"><![CDATA[The nice rendering of the NIF fuel pellet/capsule holder got a cool flexure design. Turns out it is called thermomechanical packaging (TMP). Flexure is made of titanium &amp; designed to apply pressure evenly. Rendering image is from IEEE Spectrum: Momentary Fusion Breakthroughs Face Hard Reality Blog: Designing for Ignition: Precise Changes Yield Historic Results Paper1: Assembly and metrology of NIF target subassemblies using robotic systems Paper2: Automation of NIF Target Fabrication]]></summary></entry><entry><title type="html">Open source hardware collections</title><link href="http://localhost:4000/blog/open-source-collections/" rel="alternate" type="text/html" title="Open source hardware collections" /><published>2024-09-29T00:00:00-07:00</published><updated>2024-09-29T00:00:00-07:00</updated><id>http://localhost:4000/blog/open-source-collections</id><content type="html" xml:base="http://localhost:4000/blog/open-source-collections/"><![CDATA[(Continuously updating)
 
-<p><img src="/assets/images/2024/MFC_Teardown_20240817230531.png" alt="MFC_Teardown_20240817230531.png" /></p>
+Last updated: 2024-09-30
 
-<p>Further open the lid underneath the solenoid, there is a flexure inside, and a manifold to guide the gas around.</p>
 
-<p><img src="/assets/images/2024/MFC_Teardown_20240817230541.png" alt="MFC_Teardown_20240817230541.png" />
-<img src="/assets/images/2024/MFC_Teardown_20240817230549.png" alt="MFC_Teardown_20240817230549.png" /></p>
+# Cheap and open optics/photonics/positioner
 
-<p>The gas flow path/manifold is beautiful, it goes around and up thru the two side channels, and then pass down thru the center which is covered by the flexure. I have no idea how they machined and polished the surface. To be fair the surface seems to have one principle curvature (I think this is the correct jargon based on my rotting differential geometry knowledge) that is constant, so it can be polished with one rotating disk or sphere.</p>
+See also [twitter thread](https://x.com/jwt0625/status/1837513786422710537).
 
-<p>The next day, I dug out the digital scope I got right before my defense hoping to show people the device I made (turns out they were way too small to see), and took some nicer pictures. Here they are:</p>
 
-<p><img src="/assets/images/2024/MFC_flexure_S20240818_0007.jpg" alt="MFC_flexure_S20240818_0007.jpg" />
-<em>Close-up look of the flexure from the top side. It got the magnet visible on the top to be sucked up by the solenoid.</em></p>
+1. OpenFlexure: sub-micron-scale motion over a range of 8 × 8 × 4 mm. Drift less than 20 um over a week.
+- [https://openflexure.org/projects/microscope/](https://openflexure.org/projects/microscope/)
+- [https://gitlab.com/openflexure/openflexure-microscope](https://gitlab.com/openflexure/openflexure-microscope)
+- Paper: [A one-piece 3D printed flexure translation stage for open-source microscopy](https://pubs.aip.org/aip/rsi/article/87/2/025104/1021864/A-one-piece-3D-printed-flexure-translation-stage)
+![openflexure_1.jfif](/assets/images/2024/OpenHardware/openflexure_1.jfif)
+![openflexure_2.jfif](/assets/images/2024/OpenHardware/openflexure_2.jfif)
+![openflexure_3.jfif](/assets/images/2024/OpenHardware/openflexure_3.jfif)
 
-<p><img src="/assets/images/2024/MFC_valve_manifold_S20240818_0008.jpg" alt="MFC_valve_manifold_S20240818_0008.jpg" />
-<em>Gas manifold for the valve.</em></p>
 
-<p><img src="/assets/images/2024/MFC_valve_in_out_S20240818_0010.jpg" alt="MFC_valve_in_out_S20240818_0010.jpg" />
-<em>Inlet and outlet to the valve from the main body of the MFC.</em></p>
 
-<h1 id="sensing-tube">Sensing tube</h1>
+2. OpenUC2: almost feels like it is no longer open source with very intertwined webpage, until you go into their GitHub repo
+- [https://openuc2.com/](https://openuc2.com/)
+- [https://github.com/openUC2/UC2-GIT](https://github.com/openUC2/UC2-GIT)
+![openUC2_1.jfif](/assets/images/2024/OpenHardware/openUC2_1.jfif)
+![openUC2_2.jfif](/assets/images/2024/OpenHardware/openUC2_2.jfif)
 
-<p>After removing the sensor from the main body of the MFC, the only visible thing is just a tiny inlet and outlet opening. The actual sensor tube is inside the enclosure. The inlet/outlet hole is tiny, ~ 1 mm diameter.</p>
 
-<p><img src="/assets/images/2024/MFC_sensor_inlet_S20240818_0004.jpg" alt="MFC_sensor_inlet_S20240818_0004.jpg" /></p>
 
-<p><img src="/assets/images/2024/MFC_sensor_opened.jpeg" alt="MFC_sensor_opened" />
-<em>Sensor block removed from the main body of the MFC. The solenoid above the valve was removed in this photo.</em></p>
+3. Open source XYZ nanopositioner:
+- atomic-scale scanning resolution
+- nm-scale positioning resolution, cm-scale range
+- heavy load up to 12 kg (perp to motion)
+- simple design and low component cost
+- compact size and ultra-high vacuum compatibility
+- [Low-cost, open-source XYZ nanopositioner for high-precision analytical applications](https://www.hardware-x.com/article/S2468-0672(22)00062-1/fulltext)
+![open_XYZ_nanopositioner.jfif](/assets/images/2024/OpenHardware/open_XYZ_nanopositioner.jfif)
+![open_XYZ_nanopositioner2.jfif](/assets/images/2024/OpenHardware/open_XYZ_nanopositioner_2.jfif)
+![open_XYZ_nanopositioner3.jfif](/assets/images/2024/OpenHardware/open_XYZ_nanopositioner_3.jfif)
+![open_XYZ_nanopositioner4.jfif](/assets/images/2024/OpenHardware/open_XYZ_nanopositioner_4.jfif)
 
-<p>I noticed that every single mating surface, e.g., between the valve enclosure and the main body, or between the sensor module/block and the main body, there is always a spacer. It is likely similar to the copper flange on high vacuum equipments, a clean way to provide sealing without any vacuum lubricant or grease that could cause potential contamination.</p>
 
-<p>The enclosure of the sensor can be easily pried off. It is glued onto the base that got screwed onto the main MFC body, and there is no easy non-destructive way to open it. The sensor tube is covered by normal looking foam. I peeled it off with tweezers. It has aged and is super fragile.</p>
+4. [Open Photonics: An integrated approach for building a 3D-printed motorized rotation stage system](https://www.hardware-x.com/article/S2468-0672(24)00071-3/fulltext)
+- Rotation stage with 1 mRad precision and backlash, 150 urad resolution, and ~<$100. They say the closest commercial one is thorlabs K10CR2, which is $1500
+![open_rotational_stage_1.jfif](/assets/images/2024/OpenHardware/open_rotational_stage_1.jfif)
+![open_rotational_stage_2.jfif](/assets/images/2024/OpenHardware/open_rotational_stage_2.jfif)
 
-<p><img src="/assets/images/2024/MFC_sensor_opened_20240818214143.png" alt="MFC_sensor_opened_20240818214143.png" />
-<img src="/assets/images/2024/MFC_sensor_tube_20240818214150.png" alt="MFC_sensor_tube_20240818214150.png" /></p>
 
-<p>Zooming in onto the sensor tube, we can clearly see two wires coiled around the sensor tube. It is a two-wire sensor as shown in the illustration in the first section.</p>
+5. [TWINKLE: An open-source two-photon microscope for teaching and research](https://x.com/vnzloy/status/1838680488715653614)
+- From [tweet](https://x.com/vnzloy/status/1838680488715653614)
+![open_two_photon_uscope.jfif](/assets/images/2024/OpenHardware/open_two_photon_uscope.jfif)
 
-<p><img src="/assets/images/2024/MFC_sensor_top_view_20240818214155.png" alt="MFC_sensor_top_view_20240818214155.png" />
-<img src="/assets/images/2024/MFC_sensor_side_view_20240818214203.png" alt="MFC_sensor_side_view_20240818214203.png" /></p>
 
-<p>You can see how the traces from the flex cable are connected to the two wires exactly as you would expect from the two-wire sensor schematics.</p>
 
-<h1 id="final-thoughts-why-does-the-sensor-tube-look-like-this">Final thoughts: why does the sensor tube look like this?</h1>
+# Sensing, robotics and computer vision
 
-<p>There are likely a few factors that play in how the dimensions of the sensor tube got determined. For thermal based sensing:</p>
-<ul>
-  <li>time scale of thermalization of the gas to the tube</li>
-  <li>typical flow rate and its corresponding time scale of the flow through the sensing tube</li>
-</ul>
+(under construction)
 
-<p>I’ll stop here for now. I wanted to do some order-of-magnitude estimations for why the sensor tube is this length and diameters, look into the valve more (solenoids specs, flexure spring constant and resonant freq etc.), as well as the control electronics. Oh as well as MEMS based MFCs (see <a href="https://pubs.aip.org/aip/rsi/article-abstract/91/10/105006/363406/A-microfluidic-flow-meter-with-micromachined">this</a>). For now I need to go sleep and prep for the new week… Hope you have enjoyed the photos!</p>]]></content><author><name>Wentao</name></author><category term="Teardown" /><category term="Solenoid" /><category term="Magnet" /><category term="Flexure" /><category term="Nanofab" /><category term="Control" /><summary type="html"><![CDATA[This blog is about the teardown of a Celerity mass flow meter, with a bit of background materials. I got this cute thing at the electronics flea market for only 40 bucks. It got a price tag of \$375 and the guy asked \$75. This is a pretty old unit from Celerity, which has “technology heritage of industry leaders such as Tylan, Mykrolis and UNIT Instruments”, and got acquired by Brooks in 2009 (source). Here is how it looks after opening its jacket:]]></summary></entry></feed>
+1. [Open Duck Mini](https://github.com/apirrone/Open_Duck_Mini)
+
+
+2. Alex Koch's [low_cost_robot](https://github.com/AlexanderKoch-Koch/low_cost_robot) arm
+
+
+## Gripper
+
+1. [OpenGrip](https://github.com/clayhaight01/OpenGrip)
+
+2. UMI gripper: [universal_manipulation_interface](https://github.com/real-stanford/universal_manipulation_interface)
+
+
+## Vision
+
+1. [OpenGlass](https://github.com/BasedHardware/OpenGlass)
+
+
+# Electronics test equipments
+
+(under construction)
+
+1. [ThunderScope](https://github.com/EEVengers/ThunderScope)]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="OpenSource" /><category term="Optics" /><category term="Photonics" /><category term="Nanopositioning" /><category term="Flexure" /><summary type="html"><![CDATA[(Continuously updating)]]></summary></entry><entry><title type="html">This week’s outside five sigma (#13)</title><link href="http://localhost:4000/ofs/weekly-OFS-13/" rel="alternate" type="text/html" title="This week’s outside five sigma (#13)" /><published>2024-09-21T00:00:00-07:00</published><updated>2024-09-21T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-13</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-13/"><![CDATA[1. A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly.
+- Paper: [PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels'](https://arxiv.org/abs/2409.04930)
+![monitor_acoustic_spying.jpeg](/assets/images/2024/monitor_acoustic_spying.jpeg)
+
+2. Cherenkov radiation can be used to identify different charged particles with known momentum because they radiate into different directions (Ring-imaging Cherenkov (RICH) detector). Those photon hits an electron out of a cathode, accel by 20 kV, then hit silicon detector array
+- Wikipedia: [Ring-imaging Cherenkov detector](https://en.wikipedia.org/wiki/Ring-imaging_Cherenkov_detector)
+- LHC outreach: [RICH detectors](https://lhcb-outreach.web.cern.ch/detector/rich-detectors/)
+- [Homage to Jacques Séguinot](https://indico.cern.ch/event/1094055/contributions/4972494/attachments/2506319/4307648/Jacques%20In%20Memoriam.pdf), and [another version](https://www.diva-portal.org/smash/get/diva2:1803145/FULLTEXT01.pdf)
+![RICH_detector_1.png](/assets/images/2024/RICH_detector_1.png)
+![RICH_detector_2.png](/assets/images/2024/RICH_detector_2.jpeg)
+
+
+3. Here comes "A new type of oscilloscope that’s fast, flexible, and completely open"
+- CrowdSupply: [Thunderscope](https://www.crowdsupply.com/eevengers/thunderscope)
+![thunderscope_20240921.png](/assets/images/2024/thunderscope_20240921.png)
+
+
+4. There is a name for academics hoarding & guarding resources, and suppress others: the Gollum Effect
+- Paper: [The Gollum Effect: The Issue of Research Opportunity Guarding in Academia](https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2022.889236/full)
+- Paper: [The Shadow of the Ring: How the Gollum Effect Impacts Research and Careers](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4888507)
+![gollum_effect.jpeg](/assets/images/2024/gollum_effect.jpeg)
+
+5. If you got \[REDACTED\]+\[REDACTED\] or so a year to spare, you can get your layout level photonic circuit performance simulated on a single platform using device/component level sim with Tidy3D and circuit level sim with IPKISS.
+- Blog: [Luceda Photonics Introduces Seamless Integration with Tidy3D for Enhanced Photonics Design and Simulation](https://www.flexcompute.com/blog/2024/09/10/luceda-photonics-pic-design-software-integrated-with-tidy3d/)
+![luceda_flexcompute.jpeg](/assets/images/2024/luceda_flexcompute.jpeg)
+
+
+6. Ultrasound makes bending easier just like in ultrasonic wirebonding, and you benefit more than the average because of nonlinearities. You could even further "cheat" with acoustic resonances.
+- Paper: [Effect of high-power ultrasonic vibration on the flexible bending process of thin-walled circular tubes: Numerical and experimental research](https://www.sciencedirect.com/science/article/abs/pii/S0041624X2300135X?via%3Dihub)
+![ultrasonic_assisted_bending_1.jpeg](/assets/images/2024/ultrasonic_assisted_bending_1.jpeg)
+![ultrasonic_assisted_bending_2.jpeg](/assets/images/2024/ultrasonic_assisted_bending_2.jpeg)
+- The term for this is ultrasonic-assisted flexible bending (UAFB), or more generally acoustic softening. It's been intensely studied in various materials for the reason you could see below. Some 30 W/cm^2 ultrasonic power is better at softening zinc than heating it to 250 C.
+![ultrasonic_assisted_bending_3.jpeg](/assets/images/2024/ultrasonic_assisted_bending_3.png)
+![ultrasonic_assisted_bending_4.jpeg](/assets/images/2024/ultrasonic_assisted_bending_4.png)
+- Similar plots in the wirebonding book (George Harman, Wire Bonding in Microelectronics). For aluminum you get equivalence of 600C with 50 W/cm^2, a power level you could roughly get with 50 bucks.
+![ultrasonic_assisted_bending_5.jpeg](/assets/images/2024/ultrasonic_assisted_bending_5.jpeg)
+![ultrasonic_assisted_bending_6.jpeg](/assets/images/2024/ultrasonic_assisted_bending_6.jpeg)
+
+
+7. I've always thought ebeam litho as moving a single pixel around. Turns out there is a whole branch of shaped beam ones, this is one of them: reflective electron beam lithography (REBL). An array of small metallic pixels shape the beam reflectively, just like DMD but for electrons
+- [Direct write electron beam lithography: a historical overview](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7823/782316/Direct-write-electron-beam-lithography-a-historical-overview/10.1117/12.868477.short#_=_)
+- [REBL: A novel approach to high speed maskless electron beam direct write lithography](https://pubs.aip.org/avs/jvb/article-abstract/27/1/161/467317/REBL-A-novel-approach-to-high-speed-maskless)
+![REBL_1.jpeg](/assets/images/2024/REBL_1.jpeg)
+![REBL_2.jpeg](/assets/images/2024/REBL_2.jpeg)
+- Now how do you reflect a few tens kV of electrons?? They are first decelerated by the electron optics before the DPG, and then he DPG only needs a few volts to either repel or capture the electrons. In a newer paper they showed SEMs of the DPG chip with lenslets on top of CMOS.
+![REBL_3.jpeg](/assets/images/2024/REBL_3.jpeg)
+![REBL_4.jpeg](/assets/images/2024/REBL_4.jpeg)
+- From KLA-tencor: [REBL: design progress toward 16 nm half-pitch maskless projection electron beam lithography](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8323/832311/REBL--design-progress-toward-16-nm-half-pitch-maskless/10.1117/12.919744.short), supported by DARPA MTO with $30M in 2010. See [2010 DARPA funding list](https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Science_and_Technology/12-F-1039_2010-DARPA-Funding-List.pdf)
+- From 1975 to 1995, the pixel rate of ebeam direct write increased from 2e7 to 2e9, however wafer size ~4x and feature size shrinked ~10x, increasing the number of pixels by 1e3. Without massively parallel projection it would be < 0.1 wph. Now 20 years later, we are still on 12in.
+![REBL_5.jpeg](/assets/images/2024/REBL_5.jpeg)
+![REBL_6.jpeg](/assets/images/2024/REBL_6.jpeg)
+- "In imaging, SEMs with multiple beams have started to show up:" [Zeiss MultiSEM](https://www.zeiss.com/microscopy/us/products/sem-fib-sem/sem/multisem.html), as well as Ebeam litho with multiple beams: [Multibeam Corp](https://multibeamcorp.com/). They have a talk on youtube: [Tech Talk: Multicolumn eBeam Lithography (MEBL)](https://www.youtube.com/watch?v=d2JH6JxLa5w&ab_channel=eBeamInitiative)
+![multibeam_1.jpeg](/assets/images/2024/multibeam_1.jpeg)
+![multibeam_2.jpeg](/assets/images/2024/multibeam_2.jpeg)
+
+
+
+8. In addition to high power LED headlights we all love, cars might get integrated holographic camera modules (IHCM). They could show you "robots, animals, cartoon characters, celebrities", as well as the car itself, with overlapping range and tracking to make sure you always see it.
+- [Smart Vehicle Holograms](https://patents.google.com/patent/US20240288823A1/en), patent filed by Ford Global Technologies LLC
+![IHCM_1.png](/assets/images/2024/IHCM_1.png)
+![IHCM_2.png](/assets/images/2024/IHCM_2.png)
+
+
+9. Rubidium vapor cells are very affordable on eBay
+- [Tweet](https://x.com/oldestasian/status/1834601347439571053)
+- ebay: [Rb High Precision Low Phase Noise Rubidium Tube Atomic Clock Soviet Ussr DIY](https://www.ebay.com/itm/124012486501)
+![Rb_vapor_cell_ebay.png](/assets/images/2024/Rb_vapor_cell_ebay.png)
+
+
+10. Let me introduce you Yokogawa minimal Fab, when everyone is going larger wafers & higher throughput, they make 0.5 in wafer tools all in one form factor, with almost all front-end capabilities, that does NOT need to be in a clean room.
+- [Semiconductor Tools for Prototyping and Small-Volume Production](https://www.yokogawa.com/us/industries/semiconductor/minimal-fab/)
+- [Twitter thread](https://x.com/jwt0625/status/1835111605623046556) with more info and pictures
+- [minimal-fab-one-stop-solution.pdf](/assets/doc/2024/minimal-fab-one-stop-solution.pdf)
+- [MakingDevicePrototype.pdf](/assets/doc/2024/MakingDevicePrototype.pdf)
+![minimal_fab_1.jpeg](/assets/images/2024/minimal_fab_1.jpeg)
+![minimal_fab_2.jpeg](/assets/images/2024/minimal_fab_2.jpeg)
+
+
+11. You can drill with microwave. It uses an extendable monopole antenna as the drill bit, the surface near it gets heat up the most, and also gets to absorb the microwave better. They can use a 1 kW at 2.45 GHz, common for a commercial microwave, to drill concrete holes of 2 mm diameter and 2 cm deep in less than one minute.
+- Paper: [The Microwave Drill](https://www.science.org/doi/10.1126/science.1077062)
+![microwave_drilling.png](/assets/images/2024/microwave_drilling.png)
+
+
+12. The activity of neurons associated with motor preparation decrease as stakes get too high. (Motor preparation = making calculations about how to complete a movement) “You just don't perform better as the reward increases”. Find the optimal for you and shoot for that.
+- Article: [Why do we crumble under pressure? Science has the answer](https://www.nature.com/articles/d41586-024-02956-8)
+- Paper: [A neural basis of choking under pressure](https://www.cell.com/neuron/abstract/S0896-6273(24)00608-1)
+![monkey_chock_under_pressure.jpeg](/assets/images/2024/monkey_chock_under_pressure.jpeg)
+
+
+13. Now some thermal camerasa are only a few hundred bucks and could do 25 Hz, lock-in thermography should be possible with those? You could getting more than 100x better temperature resolution with decent wait time (~ 1000 s).
+- paper: [Lock-in IR-Thermography - a novel tool for material and device characterization](https://www-old.mpi-halle.mpg.de/mpi/publi/pdf/540_02.pdf)
+- Tektronix: [Advancing Techniques of Failure Analysis Using Source Measure Units and Lock-in Thermography](https://www.tek.com/en/documents/application-note/advancing-techniques-of-failure-analysis-using-source-measure-units-and-lock-in-thermography)
+![lockin_IR_thermography_1.jpeg](/assets/images/2024/lockin_IR_thermography_1.jpeg)
+![lockin_IR_thermography_2.jpeg](/assets/images/2024/lockin_IR_thermography_2.jpeg)
+
+
+![](/assets/images/2024/)
+![](/assets/images/2024/)]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Covert" /><category term="Exfiltrate" /><category term="Cherenkov" /><category term="Oscilloscope" /><category term="Electronics" /><category term="EBL" /><category term="Nanofab" /><category term="Machining" /><category term="Microwave" /><category term="Hologram" /><category term="AMO" /><category term="Lockin" /><category term="Thermography" /><summary type="html"><![CDATA[A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly. Paper: PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels’]]></summary></entry><entry><title type="html">This week’s outside five sigma (#12)</title><link href="http://localhost:4000/ofs/weekly-OFS-12/" rel="alternate" type="text/html" title="This week’s outside five sigma (#12)" /><published>2024-09-15T00:00:00-07:00</published><updated>2024-09-15T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-12</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-12/"><![CDATA[1. Thomae's function is somehow linked to the visual density of points of a 2D grid.
+- Wikipedia: [Thomae's function](https://en.wikipedia.org/wiki/Thomae's_function)
+- [Twitter thread](https://x.com/jwt0625/status/1831694447870144747)
+![I5_tree_grid_thomae_function.jpeg](/assets/images/2024/I5_tree_grid_thomae_function.jpeg)
+![Thomae_function_grid_angular_density.png](/assets/images/2024/Thomae_function_grid_angular_density.png)
+
+
+2. Next time when you are spending $200 to get 8 GB more memory for your macbook, remember that money is more than enough to buy you two credit card-sized single-board computers with 8 GB RAM, 2.5 GbE Ethernet, PCIe 3.0, and WiFi 6E.
+- Blog: [Orange Pi 5 Max is a credit card-sized RK3588 PC with 2.5 GbE Ethernet, PCIe 3.0, and WiFi 6E](https://liliputing.com/orange-pi-5-max-is-a-credit-card-sized-rk3588-pc-with-2-5-gbe-ethernet-pcie-3-0-and-wifi-6e/)
+![orange_pi_aliexpress.jpeg](/assets/images/2024/orange_pi_aliexpress.jpeg)
+
+
+3. You can take a piece of lithium tantalate crystal, heat it up from -30 C to 10 C in 3 min, and it produces E field high enough to generate and accelerate deuteron > 100 keV and cause fusion.
+- Wikipedia: [Pyroelectric fusion](https://en.wikipedia.org/wiki/Pyroelectric_fusion)
+- Paper: [Observation of nuclear fusion driven by a pyroelectric crystal](https://www.nature.com/articles/nature03575)
+![pyroelectric_fusion_lithium_tantalate_nature.jpeg](/assets/images/2024/pyroelectric_fusion_lithium_tantalate_nature.jpeg)
+
+
+4. Laser spark plug is a thing, and people have built it into a four-piston engine car and drove with it.
+- Paper 1: [Laser ignition of hydrogen/air mixtures in a constant-volume combustion chamber using a pulse-burst Nd:YAG/Cr4+:YAG laser spark plug](https://opg.optica.org/oe/viewmedia.cfm?uri=oe-32-17-30344&html=true)
+- Paper 2: [World First Laser Ignited Gasoline Engine Vehicle](https://www.technologytoday.us/columnPDF/LIC3-1_Taira.pdf)
+![laser_spark_plug1.jpeg](/assets/images/2024/laser_spark_plug1.jpeg)
+![laser_spark_plug2.jpeg](/assets/images/2024/laser_spark_plug2.jpeg)
+
+
+5. I had a lot of fun making this laser alignment chart.
+- [Tweet](https://x.com/jwt0625/status/1829379139104800846)
+![laser_alignment_chart.jpeg](/assets/images/2024/laser_alignment_chart.jpeg)
+
+6. Hellman’s Real Mayonnaise is the mayonnaise approved by physicists for inertial confinement fusion studies. They shape it real nice, spin it, watch it deform & break off to study Rayleigh-Taylor instability.
+- Paper: [Rayleigh-Taylor-instability experiments with elastic-plastic materials](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.99.053104)
+![mayonnaise_rayleigh_tayler_instability.jpeg](/assets/images/2024/mayonnaise_rayleigh_tayler_instability.jpeg)
+![mayonnaise_rayleigh_tayler_instability2.jpeg](/assets/images/2024/mayonnaise_rayleigh_tayler_instability2.png)
+
+
+7. Laser ablation of water looks like miniaturized explosion
+- Paper: [Mechanisms of Pulsed Laser Ablation of Biological Tissues](https://pubs.acs.org/doi/full/10.1021/cr010379n)
+- More picture in [twitter thread](https://x.com/jwt0625/status/1832213671130656884)
+![laser_ablation_water.jpeg](/assets/images/2024/laser_ablation_water.jpeg)
+
+
+8. This repo/app makes animated “QR code” to transfer data at ~100 kB/s without using any RF signal. It uses 16 symbols * 4 colors, and 12400 tiles per frame to get 7.5 kB (+some error correction bytes) per frame. It has a beta mode thats > 1 Mbps and pbb could still be much faster.
+- Github: [libcimbar: Color Icon Matrix Barcodes](https://github.com/sz3/libcimbar)
+![animated_QR_code.png](/assets/images/2024/animated_QR_code.png)
+
+
+9. You can dope silicon with neutron radiation.
+- MIT nuclear reactor lab: [Neutron Transmutation Doping of Silicon](https://nrl.mit.edu/facilities/ntds)
+![dope_Si_with_neutron_radiation_facilities_ntds_1_diagram_780x422.jpg](/assets/images/2024/dope_Si_with_neutron_radiation_facilities_ntds_1_diagram_780x422.jpg)
+
+
+10. Electron beam pumped lasers and LEDs exist where electrical injection is problematic due to doping, transport or contacting issues.
+- Paper: [Electron beam pumped light emitting devices](https://iopscience.iop.org/article/10.1088/1361-6463/ac6237)
+![electron_beam_pumped_LED.png](/assets/images/2024/electron_beam_pumped_LED.png)
+
+
+11. You could literally and non-invasively tickle your brain with magnetic field or electromagnetic pulses. (transcranial magnetic stimulation (TMS))
+- Paper: [Haptic Source-effector: Full-body Haptics via Non-invasive Brain Stimulation](https://lab.plopes.org/published/2024-CHI-HapticSourceEffector.pdf)
+![full_body_haptics_magnetic_brain_stimulation.jpeg](/assets/images/2024/full_body_haptics_magnetic_brain_stimulation.jpeg)
+
+
+12. This paper cooled down a tardigrade with a qubit, and also modeled it as a cubic dielectrics.
+- Paper: [Entanglement between superconducting qubits and a tardigrade](https://arxiv.org/abs/2112.07978)
+![tardigrade_qubit_1.jpeg](/assets/images/2024/tardigrade_qubit_1.jpeg)
+![tardigrade_qubit_2.jpeg](/assets/images/2024/tardigrade_qubit_2.jpeg)
+
+13. Related to above, the US Navy also tried hooking microtubules up to qubits
+- [Tweet](https://x.com/APOideas/status/1804460858321318039)
+- Report: [Biological Brain Microtubules Interfaced with Semiconductor Qubits](https://apps.dtic.mil/sti/pdfs/AD1175159.pdf)
+![tubulin_monomer_qubit.jpeg](/assets/images/2024/tubulin_monomer_qubit.jpeg)
+
+
+14. This paper has great plots of AI computing power vs. time, and made comparison between AI training vs. uranium enrichment
+- Paper From OpenAI and Cambridge/Oxford folks: [Computing Power and the Governance of Artificial Intelligence](https://arxiv.org/abs/2402.08797)
+![ai_computing_power_governance.jpeg](/assets/images/2024/ai_computing_power_governance.jpeg)
+![ai_computing_power_governance_uranium_enrichment.jpeg](/assets/images/2024/ai_computing_power_governance_uranium_enrichment.jpeg)
+
+
+15. SiTime makes these mems clock chips, and they were developed from Tom Kenny’s lab at Stanford. Their Epi-seal process for encapsulating the mems devices is amazing art.
+- Company: [SiTime](https://www.sitime.com/products)
+- Epi-seal process: [MEMS inertial sensors in Epi-seal](http://micromachine.stanford.edu/?p=projects&id=28)
+![epi_seal_1.jpeg](/assets/images/2024/epi_seal_1.jpeg)
+![epi_seal_2.jpeg](/assets/images/2024/epi_seal_2.jpeg)]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Math" /><category term="Mini-PC" /><category term="Laser" /><category term="Fusion" /><category term="Pyroelectrics" /><category term="Mayonnaise" /><category term="Rayleigh-Taylor-instability" /><category term="Barcode" /><category term="Silicon" /><category term="Nanofab" /><category term="MEMS" /><category term="Qubit" /><category term="AI" /><category term="TMS" /><category term="Laser-ablation" /><category term="Exfiltrate" /><summary type="html"><![CDATA[Thomae’s function is somehow linked to the visual density of points of a 2D grid. Wikipedia: Thomae’s function Twitter thread]]></summary></entry><entry><title type="html">This week’s outside five sigma (#11)</title><link href="http://localhost:4000/ofs/weekly-OFS-11/" rel="alternate" type="text/html" title="This week’s outside five sigma (#11)" /><published>2024-09-08T00:00:00-07:00</published><updated>2024-09-08T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-11</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-11/"><![CDATA[1. This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (< 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff.
+- Paper: [Ultra-Wideband RF-Photonics Technology for Microwave](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10659116)
+![spiral_AWG.png](/assets/images/2024/spiral_AWG.png)
+
+
+2. A dc-biased Josephson junction in series with two microwave resonators emits entangled beams of microwaves leaking out of the resonators
+- Paper: [Generating Two Continuous Entangled Microwave Beams Using a dc-Biased Josephson Junction](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.11.031008)
+![DC_biased_JJ.png](/assets/images/2024/DC_biased_JJ.png)
+
+
+3. Google showed their surface code is getting better with higher distance. This very roughly means that the superconducting qubits are goos enough for quantum computing, the question is now how and how fast can it scale.
+- Paper: [Quantum error correction below the surface code threshold](https://arxiv.org/abs/2408.13687)
+![google_surface_code_threshold.PNG](/assets/images/2024/google_surface_code_threshold.PNG)
+
+
+4. Behold, we will soon have microbatteries in our brains and balls (not really, but they actually have comparable sizes). And you could use it to power electrochemical actuators for micro-robots.
+- Paper: [High energy density picoliter-scale zinc-air microbatteries for colloidal robotics](https://www.science.org/doi/10.1126/scirobotics.ade4642)
+![microbatteries.jfif](/assets/images/2024/microbatteries.jfif)
+
+
+5. The volume of the unit sphere peaks at a dimensionality of exactly 5, and the area peaks at 7 dimensions.
+- Wikipedia: [n-sphere](https://en.wikipedia.org/wiki/N-sphere)
+![File_Hypersphere_volume_and_surface_area_graphs.svg](/assets/images/2024/File_Hypersphere_volume_and_surface_area_graphs.svg)
+
+
+6. This is one of my favorite paper, from the S of the RSA, on how to share a secret to n people while you need k of them to help you decode it. Any (k-1) people would have no idea what it is.
+- Paper: [How to share a secret](https://dl.acm.org/doi/abs/10.1145/359168.359176)
+![Shamir_share_a_secret.jfif](/assets/images/2024/Shamir_share_a_secret.jfif)
+
+7. Chemical oxygen–iodine laser (COIL), as well as other chemical lasers, are basically putting two mirrors around a rocket engine exhaust.
+- ScienceDirect: [Chemical Laser](https://www.sciencedirect.com/topics/physics-and-astronomy/chemical-laser)
+![COIL_laser.png](/assets/images/2024/COIL_laser.png)
+
+8. Want your kids to be more stress-tolerant, grow faster and stronger? Record your fights with your breeding partner and replay it to your kids before they were born! That's what these science weirdos did to seagull eggs and found out about...
+- Paper: [Lasting benefits of embryonic eavesdropping on parent-parent communication](https://www.science.org/doi/full/10.1126/sciadv.adn8542)
+![talkative_parents_1.jfif](/assets/images/2024/talkative_parents_1.jfif)
+![talkative_parents_2.jfif](/assets/images/2024/talkative_parents_2.jfif)
+
+9. Science hippies watch bees jerking off flowers and then jerk off flowers themselves. The bees could do it at 400 Hz!
+- Paper: [Head-banging bumble bees bite flowers to shake loose more pollen](https://www.science.org/content/article/head-banging-bumble-bees-bite-flowers-shake-loose-more-pollen)
+- [Tweet](https://x.com/jwt0625/status/1829893872232906925) with more videos.
+![bees_jerking_flowers.jfif](/assets/images/2024/bees_jerking_flowers.jfif)
+
+10. This is not just robots on mushroom, this is mushroom roots controlling robots with their electrical signals... Would you raise the fungi, and then use a 24-bit ADC and going thru the EMI shielding hussle to sense ~ 100 uV signal from fungi roots to actuate your robot?
+- Paper: [Sensorimotor control of robots mediated by electrophysiological measurements of fungal mycelia](https://www.science.org/doi/10.1126/scirobotics.adk8019)
+- [Tweet](https://x.com/jwt0625/status/1830128032029507626) with more images and videos.
+![mushroom_tentacle_robot.jfif](/assets/images/2024/mushroom_tentacle_robot.jfif)
+
+
+11. Phone vibration motors are less than one buck each
+- Amazon: [15pcs DC Vibration Motor 6mm x10mm Micro Coreless Vibrating Motor](https://www.amazon.com/Vibration-Coreless-Vibrating-electronic-accessories/dp/B0D2PZBMYW/ref=asc_df_B0D2PZBMYW/?th=1)
+![phone_vib_motor.jfif](/assets/images/2024/phone_vib_motor.jfif)
+
+
+12. Thomas Wilfred’s art looks like AI generated light field animation, but it is actually fully mechanical. And the beautiful thing is, his patent on it just turned 100 years old.
+- Patent: [Light-projection display](https://patents.google.com/patent/US1749011A/en)
+- [Conserving Thomas Wilfred’s Lumia Suite, Opus 158](https://www.getty.edu/publications/keepitmoving/case-studies/4-snow/) ([backup](/assets/doc/2024/Conserving Thomas Wilfred’s Lumia Suite __ Keep It Moving_.pdf))
+![Thomas_Wilfred_art.jfif](/assets/images/2024/Thomas_Wilfred_art.jfif)
+![Thomas_Wilfred_setup.jfif](/assets/images/2024/Thomas_Wilfred_setup.jfif)
+
+13. When you didn't have FEM, you would bruteforce thru the math, build an equivalence of your structure in plastic, and directly measure & visualize the solution.
+- Paper: [Photoelastic waveguides and their effect on stripe‐geometry GaAs/Ga$_{1−x}$Al$_x$As lasers](https://pubs.aip.org/aip/jap/article-abstract/50/7/4567/500582/Photoelastic-waveguides-and-their-effect-on-stripe)
+![strain_thin_film_solution.png](/assets/images/2024/strain_thin_film_solution.png)
+![strain_thin_film_measurement.png](/assets/images/2024/strain_thin_film_measurement.png)
+
+
+14.  The astronomers (the AWG paper at the beginning of this blog) and high energy physicists having the coolest shit. This paper is GPU accelerated optical photon simulation, but the photons are from a 200 GeV muon.
+- Paper: [Opticks : GPU Optical Photon Simulation via NVIDIA OptiX](https://www.epj-conferences.org/articles/epjconf/pdf/2024/05/epjconf_chep2024_11014.pdf)
+- Project: [Opticks Publications, Presentations, Notes](https://simoncblyth.bitbucket.io/)
+![photon_from_200GeV_muon.jfif](/assets/images/2024/photon_from_200GeV_muon.jfif)]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="AWG" /><category term="Integrated_photonics" /><category term="SC_qubit" /><category term="Nanofab" /><category term="Math" /><category term="Encryption" /><category term="Laser" /><category term="Behavior" /><category term="Biology" /><category term="Robotics" /><category term="Art" /><category term="Mechanics" /><category term="Simulation" /><category term="Photonics" /><category term="Optics" /><summary type="html"><![CDATA[This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff. Paper: Ultra-Wideband RF-Photonics Technology for Microwave]]></summary></entry><entry><title type="html">This week’s outside five sigma (#10)</title><link href="http://localhost:4000/ofs/weekly-OFS-10/" rel="alternate" type="text/html" title="This week’s outside five sigma (#10)" /><published>2024-09-01T00:00:00-07:00</published><updated>2024-09-01T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-10</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-10/"><![CDATA[1. Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975.
+- Team 6502 [website](https://www.team6502.org/)
+![MOS_Tech_6502](/assets/images/2024/MOS_Tech_6502.jpeg)
+
+
+2. This LEGO enthusiast makes really good 3D model / part list / assembling instruction for the designs
+- Website: [CHRIS MCVEIGH’S BUILDING GUIDES](https://www.chrismcveigh.com/cm/welcome.html)
+![LEGO_computer_1.jpeg](/assets/images/2024/LEGO_computer_1.jpeg)
+![LEGO_computer_2.jpeg](/assets/images/2024/LEGO_computer_2.jpeg)
+
+
+3. The wafer holders are worth 10s to 100s bucks for big wafers! Do not throw them away when you ordered old wafers for decoration
+![wafer_holder_12in.png](/assets/images/2024/wafer_holder_12in.png)
+
+
+4. HDMI to screw terminal adapters exist... I need to come up with a fun project to use them.
+- On Amazon: [SinLoon HDMI Solderless Adapter Gold Plated HDMI Extension Cable Connector](https://www.amazon.com/SinLoon-Solderless-Extension-Connector-Screwdriver/dp/B07M98XCL6/ref=asc_df_B07M98XCL6/)
+![HDMI_to_screw_terminal.jpg](/assets/images/2024/HDMI_to_screw_terminal.jpg)
+
+
+5. Just owning it would already make your feel less stressed and more satisfied with your life.
+- Nature human behavior paper: [Causal effect of video gaming on mental well-being in Japan 2020–2022](https://www.nature.com/articles/s41562-024-01948-y)
+![owning_game_console_stress_life_satisfaction.jpeg](/assets/images/2024/owning_game_console_stress_life_satisfaction.jpeg)
+
+
+6. You can do passive radar with scattered waves from Starlink
+- Paper: [Analysis of Starlink Users' downlink for passive radar applications: signal characteristics and ambiguity function performance](https://ieeexplore.ieee.org/document/10149600)
+- News: [Germany demonstrates passive radar system using Starlink satellite radiation](https://www.airforce-technology.com/news/germany-demonstrates-passive-radar-system-using-starlink-satellite-radiation/)
+![passive_radar_starlink_JB21-Verteidigung-Cristallini-Bild2.webp](/assets/images/2024/passive_radar_starlink_JB21-Verteidigung-Cristallini-Bild2.webp)
+
+
+
+7. "As chipmaking required finer and finer features, engineers had to produce more and more complex designs to project those features onto the silicon. Inverse lithography (ILT) is the latest development"
+- Blog: [Nvidia Speeds Key Chipmaking Computation by 40x](https://spectrum.ieee.org/inverse-lithography)
+![Nvidia_OPC_mask_correction.jpeg](/assets/images/2024/Nvidia_OPC_mask_correction.jpeg)
+
+
+8. A group of Japanese researchers made a prosthetic tail with potential applications including active momentum alteration
+- Paper: [Arque: artificial biomimicry-inspired tail for extending innate body functions](https://dl.acm.org/doi/10.1145/3306214.3338573)
+![prosthetic_tail.png](/assets/images/2024/prosthetic_tail.png)
+
+
+9. Six to seven discrete depth would be enough to fool Human vision
+- Optics Express paper: [Optimal allocation of quantized human eye depth perception for multi-focal 3D display design](https://opg.optica.org/oe/fulltext.cfm?uri=oe-29-7-9878&id=449280)
+![human_vision_discrere_depth.jpeg](/assets/images/2024/human_vision_discrere_depth.jpeg)
+
+
+
+10.  I always have thought it is the signal from the left eye going to the right half of the brain and vice versa. It is actually the visual field instead.
+- Screenshots from Youtube video: [Your Brain: Who's in Control? | Full Documentary | NOVA | PBS](https://www.youtube.com/watch?v=yQ6VOOd73MA&ab_channel=NOVAPBSOfficial)
+![visual_signal_brain_1.jpeg](/assets/images/2024/visual_signal_brain_1.jpeg)
+![visual_signal_brain_2.jpeg](/assets/images/2024/visual_signal_brain_2.jpeg)]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="Semiconductor" /><category term="Vision" /><category term="Nanofab" /><category term="Electronics" /><category term="Behavior" /><category term="Radar" /><category term="Starlink" /><category term="Lithography" /><category term="Robotics" /><category term="LEGO" /><summary type="html"><![CDATA[Imagine a new chip comes out and makes your Nvidia GPU 5x cheaper. This is kind of what MOS Technology 6502 did to Motorola in 1975. Team 6502 website]]></summary></entry><entry><title type="html">This week’s outside five sigma (#9)</title><link href="http://localhost:4000/ofs/weekly-OFS-9/" rel="alternate" type="text/html" title="This week’s outside five sigma (#9)" /><published>2024-08-24T00:00:00-07:00</published><updated>2024-08-24T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-9</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-9/"><![CDATA[1. I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts
+- [Twitter thread](https://x.com/jwt0625/status/1825038035458879580)
+- I should write it into a blog
+![MFC_valve.jfif](/assets/images/2024/MFC_valve.jfif)
+![MFC_sensor.jfif](/assets/images/2024/MFC_sensor.jfif)
+
+2. All major electronic gear control manufacturers now support wireless shifting, and the wireless signal could be captured and replayed/hacked.
+- Paper: [MakeShift: Security Analysis of Shimano Di2 Wireless Gear Shifting in Bicycles](https://www.usenix.org/system/files/woot24-motallebighomi.pdf)
+![shimano_bike_electronic_wireless_gear_shifter.jfif](/assets/images/2024/shimano_bike_electronic_wireless_gear_shifter.jfif)
+![shimano_bike_electronic_wireless_gear_shifter_2.jfif](/assets/images/2024/shimano_bike_electronic_wireless_gear_shifter_2.jfif)
+
+
+3. Minecraft's new update enables you to make a "ring resonator" for mine cart with powered rails and use a switch to launch the accelerated mine cart out of the ring. It works exactly as a Q-switched laser
+- [Twitter post](https://x.com/WitchOfDusk/status/1824243197159112726)
+![Minecraft_update_ring_launch.gif](/assets/images/2024/Minecraft_update_ring_launch.gif)
+
+
+4. When you make a lens with discrete flat surfaces, it samples the scene with gaps and creates a mosaic image. I ran a ray tracing simulation to show how it works.
+- [Twitter post](https://x.com/Hakusi_Katei/status/1807591865132466324) from [@Hakusi_Katei](https://x.com/Hakusi_Katei)
+- [shop](https://monoli.easy-myshop.jp/)
+![minecraft_lens_pixel_mirror.jfif](/assets/images/2024/minecraft_lens_pixel_mirror.jfif)
+![minecraft_lens_pixel_mirror_ray_tracing.jfif](/assets/images/2024/minecraft_lens_pixel_mirror_ray_tracing.jfif)
+
+
+5. SendCutSend has a series of great guidelines on how to best use their services.
+- [website](https://sendcutsend.com/guidelines/)
+![sendcutsend_guidelines.PNG](/assets/images/2024/sendcutsend_guidelines.PNG)
+
+6. The YOLO vision model guy has a My Little Pony style resume
+- Google Scholar: [Joseph Redmon](https://scholar.google.com/citations?user=TDk_NfkAAAAJ&hl=en&oi=sra)
+- [Wayback machine](https://web.archive.org/web/20200302013000/https://pjreddie.com/static/Redmon%20Resume.pdf)
+![My_Little_Resume_Joseph_redmon.PNG](/assets/images/2024/My_Little_Resume_Joseph_redmon.PNG)
+
+
+7. [Clayton](https://clayhaight.com/) (and team) shipped a quiet leaf picking robot to Nat Friedman
+- [Twitter post](https://x.com/clayhaight/status/1825245517745656143)
+![leaf_picking_robot.PNG](/assets/images/2024/leaf_picking_robot.PNG)
+
+
+8. Zhiyuan Robot debuted their Lingxi-01 robot after two months of development
+- Youtube: [2024智元年度新品发布会全程](https://www.youtube.com/watch?v=e04nYc0VTUg&t=2952s&ab_channel=XTech)
+- Company website (very slow to load for me): [智元机器人](https://www.zhiyuan-robot.com/)
+![zhiyuan_lingxi_01.PNG](/assets/images/2024/zhiyuan_lingxi_01.PNG)
+![zhiyuan_lingxi_02.jfif](/assets/images/2024/zhiyuan_lingxi_01.jfif)
+
+
+9. The biggest pdf dataset contains only "roughly 8.4~ million pdfs that uncompressed total 8TB".
+- Blogpost: [Classifying all of the pdfs on the internet](https://snats.xyz/pages/articles/classifying_a_bunch_of_pdfs.html)
+![pdf_classification_piechart_equally_distributed.png](/assets/images/2024/pdf_classification_piechart_equally_distributed.png)
+
+
+10. Unitree released the mass production version of their humaniod robot G1
+- [Twitter post](https://x.com/UnitreeRobotics/status/1825435336736120880)
+- Website: [Humanoid robot G1](https://www.unitree.com/g1)
+![unitree_G1.PNG](/assets/images/2024/unitree_G1.PNG)
+![unitree_G1_02.PNG](/assets/images/2024/unitree_G1_02.PNG)]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Bike" /><category term="Wireless" /><category term="IoT" /><category term="Laser" /><category term="Minecraft" /><category term="Optics" /><category term="SendCutSend" /><category term="Manufacturing" /><category term="Robotics" /><category term="Pdf" /><summary type="html"><![CDATA[I opened an old mass-flow meter/controller (MFC) and took some pictures of its guts Twitter thread I should write it into a blog]]></summary></entry><entry><title type="html">Teardown Celerity mass flow meter</title><link href="http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter/" rel="alternate" type="text/html" title="Teardown Celerity mass flow meter" /><published>2024-08-20T00:00:00-07:00</published><updated>2024-08-20T00:00:00-07:00</updated><id>http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter</id><content type="html" xml:base="http://localhost:4000/teardown/Teardown-celerity-mass-flow-meter/"><![CDATA[This blog is about the teardown of a Celerity mass flow meter, with a bit of background materials. I got this cute thing at the electronics flea market for only 40 bucks. It got a price tag of \\$375 and the guy asked \\$75. This is a pretty old unit from Celerity, which has "technology heritage of industry leaders such as Tylan, Mykrolis and UNIT Instruments", and got acquired by Brooks in 2009 ([source](https://www.brooksinstrument.com/en/about-us/history)). Here is how it looks after opening its jacket:
+
+
+![MFC_Teardown_20240817230453.png](/assets/images/2024/MFC_Teardown_20240817230453.png)
+
+Here is some background about mass flow meters. If you are here for the porns, jump to the next section.
+
+
+# Very brief intro to mass flow meter and controller
+
+If you are working in any kind of physical fabrication or manufacturing, you have likely encountered usage of various gases and liquids. To have a repeatable process, you would want to control the flow of your gas or liquid well, and that is done with a mass flow controlel (MFC).
+
+In my case, I have seen it on more than half of the cleanroom equipments. Any kind of etcher (RIE, Ion milling) or gas/vapor based deposition tool (PVD, CVD, ALD), as long as there is gas involved, there would be a few MFCs hidden inside the tool that set your SF6 or O2 flow to the 50 sccm you wanted. And they could occasionally fuck up and ruin your process, so learn, appreciate, and prey for their well-being!
+
+There are quite a few kinds of MFC, but they all have at least two parts, one part that is sensing the flow, and the other part that is controlling the flow (and some electronics with how to readout and calibrate the flow, and apply the control). There are many good reads for this, and [this one](https://www.mks.com/mass-flow-technology-technote) is particularly good (I admit I only read this one and [another one](https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/)). A very common and cheap type of MFC is the rotameters where you pbb have seen them on nitrogen dessicator or machines with liquid/water flows that does not require high precision. We will focus on the ones with finer measurement control, and more specifically thermal mass flow meter based controllers. Another interesting type of flow meter is using Coriolis force and are called [Coriolis flow meters](https://www.bronkhorst.com/en-us/service-support/knowledge-base/coriolis-mass-flow-measuring-principle/). They actuate and sense the vibration of the sensor tube, which depends on the mass or density of the flow. When the flow is running, the two legs (in and out) of the sensor tubes would vibrate with a phase difference  because of the angular momentum from the vibration carried by the flow.
+
+![thermal_mass_flow_sensor_config.jpg](/assets/images/2024/thermal_mass_flow_sensor_config.jpg)
+*Different sensor configuration of a thermal mass flow meter. From [MKS](https://www.mks.com/mass-flow-technology-technote).*
+
+The core idea of the sensing part is, think about what the flow is and could carry (mass -> momentum, temperature -> heat), and how do you induce a change of it and measure its effect because of the flow. In the case of the thermal mass flow sensing, it is the temperature distribution. In the case of the Coriolis flow meters, it is the vibration phase of the sensing tube.
+
+
+![thermal_mass_flow_temperature_distribution.jpg](/assets/images/2024/thermal_mass_flow_temperature_distribution.jpg)
+*Asymmetric temperature distribution on the sensing tube because of the flow. From [MKS](https://www.mks.com/mass-flow-technology-technote).*
+
+
+The control and actuation part of the flow controller is relatively more straight forward. Any method to increase the impedance of the flow could slow it down. Stick a "finger" into the path, or moving a cover up and down at a hole the flow must go thru, you name it.
+
+
+# Initial teardown
+
+Opening it up is pretty straight forward. Screws removed:
+1. two on the flaps of the case that connect the case to the in and out port flange
+2. two on the two sides of the D-type connector
+3. cut the "warranty void" seal, now could lift off the case
+4. one on the back of the PCB that mounts it to the side of the sensor. It also holds the insulating paper between the back of the PCB and the inner side of the case (preventing electrical short)
+
+The board with the external connectors (a D type, two that look like ethernet, and one test leads (?) sticking out from the board itself) can be unplugged from the main board.
+
+
+![MFC_Teardown_20240817230505.png](/assets/images/2024/MFC_Teardown_20240817230505.png)
+![MFC_Teardown_20240817230511.png](/assets/images/2024/MFC_Teardown_20240817230511.png)
+
+The flexible cable is actually soldered onto the main PCB... I tried to desolder it, and then find out it is also glued onto the PCB on one side. My patience ran out and I just cut it in half.
+
+![MFC_Teardown_20240817230520.png](/assets/images/2024/MFC_Teardown_20240817230520.png)
+
+
+# Valve
+
+It took me a while to trial and realize the enclosure is screwed on. I was thinking maybe they welded it really well to prevent any leak, but the hole at the top where the cable is coming out looks suspicious. The enclosure is actually part of a solenoid. The coil looks and feels dirt cheap, wrapped with teflon tape (?).
+
+
+
+![MFC_Teardown_20240817230531.png](/assets/images/2024/MFC_Teardown_20240817230531.png)
+
+Further open the lid underneath the solenoid, there is a flexure inside, and a manifold to guide the gas around.
+
+
+![MFC_Teardown_20240817230541.png](/assets/images/2024/MFC_Teardown_20240817230541.png)
+![MFC_Teardown_20240817230549.png](/assets/images/2024/MFC_Teardown_20240817230549.png)
+
+The gas flow path/manifold is beautiful, it goes around and up thru the two side channels, and then pass down thru the center which is covered by the flexure. I have no idea how they machined and polished the surface. To be fair the surface seems to have one principle curvature (I think this is the correct jargon based on my rotting differential geometry knowledge) that is constant, so it can be polished with one rotating disk or sphere.
+
+The next day, I dug out the digital scope I got right before my defense hoping to show people the device I made (turns out they were way too small to see), and took some nicer pictures. Here they are:
+
+![MFC_flexure_S20240818_0007.jpg](/assets/images/2024/MFC_flexure_S20240818_0007.jpg)
+*Close-up look of the flexure from the top side. It got the magnet visible on the top to be sucked up by the solenoid.*
+
+![MFC_valve_manifold_S20240818_0008.jpg](/assets/images/2024/MFC_valve_manifold_S20240818_0008.jpg)
+*Gas manifold for the valve.*
+
+![MFC_valve_in_out_S20240818_0010.jpg](/assets/images/2024/MFC_valve_in_out_S20240818_0010.jpg)
+*Inlet and outlet to the valve from the main body of the MFC.*
+
+
+
+
+# Sensing tube
+
+After removing the sensor from the main body of the MFC, the only visible thing is just a tiny inlet and outlet opening. The actual sensor tube is inside the enclosure. The inlet/outlet hole is tiny, ~ 1 mm diameter.
+
+
+![MFC_sensor_inlet_S20240818_0004.jpg](/assets/images/2024/MFC_sensor_inlet_S20240818_0004.jpg)
+
+![MFC_sensor_opened](/assets/images/2024/MFC_sensor_opened.jpeg)
+*Sensor block removed from the main body of the MFC. The solenoid above the valve was removed in this photo.*
+
+I noticed that every single mating surface, e.g., between the valve enclosure and the main body, or between the sensor module/block and the main body, there is always a spacer. It is likely similar to the copper flange on high vacuum equipments, a clean way to provide sealing without any vacuum lubricant or grease that could cause potential contamination.
+
+
+The enclosure of the sensor can be easily pried off. It is glued onto the base that got screwed onto the main MFC body, and there is no easy non-destructive way to open it. The sensor tube is covered by normal looking foam. I peeled it off with tweezers. It has aged and is super fragile.
+
+![MFC_sensor_opened_20240818214143.png](/assets/images/2024/MFC_sensor_opened_20240818214143.png)
+![MFC_sensor_tube_20240818214150.png](/assets/images/2024/MFC_sensor_tube_20240818214150.png)
+
+Zooming in onto the sensor tube, we can clearly see two wires coiled around the sensor tube. It is a two-wire sensor as shown in the illustration in the first section.
+
+![MFC_sensor_top_view_20240818214155.png](/assets/images/2024/MFC_sensor_top_view_20240818214155.png)
+![MFC_sensor_side_view_20240818214203.png](/assets/images/2024/MFC_sensor_side_view_20240818214203.png)
+
+You can see how the traces from the flex cable are connected to the two wires exactly as you would expect from the two-wire sensor schematics.
+
+
+# Final thoughts: why does the sensor tube look like this?
+
+There are likely a few factors that play in how the dimensions of the sensor tube got determined. For thermal based sensing:
+- time scale of thermalization of the gas to the tube
+- typical flow rate and its corresponding time scale of the flow through the sensing tube
+
+
+
+
+I'll stop here for now. I wanted to do some order-of-magnitude estimations for why the sensor tube is this length and diameters, look into the valve more (solenoids specs, flexure spring constant and resonant freq etc.), as well as the control electronics. Oh as well as MEMS based MFCs (see [this](https://pubs.aip.org/aip/rsi/article-abstract/91/10/105006/363406/A-microfluidic-flow-meter-with-micromachined)). For now I need to go sleep and prep for the new week... Hope you have enjoyed the photos!]]></content><author><name>Wentao</name></author><category term="Teardown" /><category term="Solenoid" /><category term="Magnet" /><category term="Flexure" /><category term="Nanofab" /><category term="Control" /><summary type="html"><![CDATA[This blog is about the teardown of a Celerity mass flow meter, with a bit of background materials. I got this cute thing at the electronics flea market for only 40 bucks. It got a price tag of \$375 and the guy asked \$75. This is a pretty old unit from Celerity, which has “technology heritage of industry leaders such as Tylan, Mykrolis and UNIT Instruments”, and got acquired by Brooks in 2009 (source). Here is how it looks after opening its jacket:]]></summary></entry></feed>

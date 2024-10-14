@@ -193,7 +193,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          22 minute read
+          29 minute read
         
       </span>
     
@@ -339,7 +339,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#what-is-ebeam-litho">What is EBeam litho</a></li><li><a href="#ebeam-specs-and-why">Ebeam specs and why</a><ul><li><a href="#how-do-we-deflect-the-electron-beam">How do we deflect the electron beam</a></li><li><a href="#what-are-the-specs">What are the specs?</a></li><li><a href="#electron-source-and-emission">Electron source and emission</a></li><li><a href="#why-higher-voltage">Why higher voltage?</a></li><li><a href="#beam-current-higher-lower">Beam current, higher? Lower?</a></li><li><a href="#dac-clock-rate-and-shot-pitch--spot-size">DAC clock rate and shot pitch / spot size</a></li><li><a href="#dac-resolution">DAC resolution</a></li><li><a href="#stability">Stability</a></li></ul></li><li><a href="#practical-stuff">Practical stuff</a><ul><li><a href="#design-and-fracturing">Design and fracturing</a></li><li><a href="#ebeam-resist">Ebeam resist</a></li><li><a href="#dose">Dose</a></li><li><a href="#calibrations">Calibrations</a></li></ul></li><li><a href="#appendix-a-quick-rundown-of-my-ebeam-lithography-journey">Appendix: a quick rundown of my ebeam lithography journey</a><ul><li><a href="#tools">Tools</a><ul><li><a href="#raith-150-two-2015---2017">Raith 150 Two (2015 - 2017)</a></li><li><a href="#jeol-jbx-6300fs-2017---2022">JEOL JBX 6300FS (2017 - 2022)</a></li><li><a href="#raith-voyager-2022---2023">Raith Voyager (2022 - 2023)</a></li><li><a href="#ebpg-5200-2023---2024">EBPG 5200+ (2023 - 2024)</a></li></ul></li><li><a href="#ebeam-sessions">Ebeam sessions</a></li><li><a href="#acknowledgements">Acknowledgements</a></li></ul></li><li><a href="#references">References</a><ul><li><a href="#lab-resources">Lab resources</a></li><li><a href="#training-videos">Training videos</a></li><li><a href="#papers-and-books">Papers and books</a></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#what-is-ebeam-litho">What is EBeam litho</a></li><li><a href="#ebeam-specs-and-why">Ebeam specs and why</a><ul><li><a href="#how-do-we-deflect-the-electron-beam">How do we deflect the electron beam</a></li><li><a href="#what-are-the-specs">What are the specs?</a></li><li><a href="#electron-source-and-emission">Electron source and emission</a></li><li><a href="#why-higher-voltage">Why higher voltage?</a></li><li><a href="#beam-current-higher-lower">Beam current, higher? Lower?</a></li><li><a href="#dac-clock-rate-and-shot-pitch--spot-size">DAC clock rate and shot pitch / spot size</a></li><li><a href="#dac-resolution">DAC resolution</a></li><li><a href="#stability">Stability</a></li><li><a href="#how-does-the-ebeam-tool-know-it-is-in-a-good-state">How does the ebeam tool know it is in a good state?</a></li></ul></li><li><a href="#practical-stuff">Practical stuff</a><ul><li><a href="#design">Design</a></li><li><a href="#fracturing">Fracturing</a><ul><li><a href="#proximity-effect-correction-pec">Proximity effect correction (PEC)</a></li></ul></li><li><a href="#ebeam-resist">Ebeam resist</a></li><li><a href="#dose-and-dose-sweep">Dose and dose sweep</a></li><li><a href="#mounting-and-locating">Mounting and locating</a></li><li><a href="#calibrations">Calibrations</a></li><li><a href="#alignment">Alignment</a></li></ul></li><li><a href="#appendix-a-quick-rundown-of-my-ebeam-lithography-journey">Appendix: a quick rundown of my ebeam lithography journey</a><ul><li><a href="#tools">Tools</a><ul><li><a href="#raith-150-two-2015---2017">Raith 150 Two (2015 - 2017)</a></li><li><a href="#jeol-jbx-6300fs-2017---2022">JEOL JBX 6300FS (2017 - 2022)</a></li><li><a href="#raith-voyager-2022---2023">Raith Voyager (2022 - 2023)</a></li><li><a href="#ebpg-5200-2023---2024">EBPG 5200+ (2023 - 2024)</a></li></ul></li><li><a href="#ebeam-sessions">Ebeam sessions</a></li><li><a href="#acknowledgements">Acknowledgements</a></li></ul></li><li><a href="#references">References</a><ul><li><a href="#lab-resources">Lab resources</a></li><li><a href="#training-videos">Training videos</a></li><li><a href="#papers-and-books">Papers and books</a></li></ul></li></ul>
             </nav>
           </aside>
         
@@ -353,6 +353,9 @@
 <h1 id="what-is-ebeam-litho">What is EBeam litho</h1>
 
 <p>Ebeam lithography, as the name suggests, is using electron beams for lithography. <a href="https://en.wikipedia.org/wiki/Lithography">Lithograph</a> has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the mask. It is a powerful technique at the time to mass produce drawings and maps, and later photos (photography).</p>
+
+<p><img src="/assets/images/2024/ebeam/Hands-SantaCruz-CuevaManos-P2210651b.jpg" alt="Hands" />
+<em>Hands, stenciled at the <a href="https://en.wikipedia.org/wiki/Cueva_de_las_Manos">Cave of the Hands</a></em></p>
 
 <p>When people start to think about how to reduce the size of electronic circuits in the 1950s, they adopted photographic technique (using optics to shrink and project the pattern, expose and develop the <a href="https://en.wikipedia.org/wiki/Photoresist">photoresist</a> just like in photography) and thus coined the term <a href="https://en.wikipedia.org/wiki/Photolithography">photolithography</a>. Circuit designers would draw the circuit layout on a big canvas, that would later <a href="https://en.wikipedia.org/wiki/Tape-out">tapeout</a> (it is still called tapeout to this date even physical tape is no longer involved) and be shrinked into a <a href="https://en.wikipedia.org/wiki/Photomask">photomask</a>, and shrinked again by the photolitho system onto the wafer. The quest for shrinking the size of electronic circuits and transistors has been on a non-stop march, and shorter wavelengths are needed because of refractive limit of the resolution. But you know what has a much shorter wavelengths? Electrons!</p>
 
@@ -513,37 +516,74 @@ For a spot or step size of ~ 4 nm, that means the write field can be as big as ~
 
 <h2 id="stability">Stability</h2>
 
-<p>(To be continued)</p>
+<p>Why is stability important? Here is an example of bad stability (writefield stitching), and maybe another one about dose/current drift if I could find an SEM for it. Basically anything that is being precisely controlled and could affect the properties of the beam (current/dose, size/focus, and position).</p>
 
+<p>(SEM image TBA)</p>
+
+<p>Let’s estimate how much change do we need to shift the beam by ~100 nm, which would be too much in many devices.</p>
 <ul>
-  <li>How stable do things need to be</li>
-  <li>Why is the column this big</li>
-  <li>Where are the electrons going
+  <li>For the field that deflects the ebeam, this is ~10x the beam spot size. Since the DAC dynamic range is 60 dB, this means a stability of \(10^{-5}\).</li>
+  <li>For the stage positioning, let’s see how much temperature variation would lead to a change of 100 nm for a 200 mm stainless steel cassette/holder.
     <ul>
-      <li>focusing (how is it done)</li>
-      <li>current measurement</li>
-      <li>beam calibration</li>
-    </ul>
-  </li>
-  <li>Where is the stage going
-    <ul>
-      <li>interferometer</li>
-      <li>writefield (WF) size, calibration, stitching</li>
-      <li>subfield (maybe?)</li>
-    </ul>
-  </li>
-  <li>beam parameters
-    <ul>
-      <li>Voltage, current</li>
-      <li>shot pitch</li>
-      <li>dose (DAC rate limit, dose sweep)</li>
+      <li>Steel (and many common metals) have a CTE of \(1\sim 2 \times 10^{-5}\), a 100 nm deformation out of 200 mm is \(\sim 10^{-6}\), thus the temperature stability has to be ~ 0.1 C.</li>
     </ul>
   </li>
 </ul>
 
+<p>How long would it take the cassette to thermalize after you have inevitably touched it and heated it up?</p>
+<ul>
+  <li>This depends on how the cassette is held, the path for heat dissipation could be as short as the thickness of the cassette (10 mm), or as long as the size of it (100 mm).</li>
+  <li><a href="https://en.wikipedia.org/wiki/Thermal_diffusivity">Thermal diffusivity</a> is very handy for time scale estimation for thermalization. All you need to remember is it has a unit of length squared over time, thus 10x longer thermalization path would take 100x longer time.</li>
+  <li>I’m actually not sure if the cassette is made of steel or aluminum. Let’s use aluminum since it has higher thermal diffusivity of \(\sim 100~\text{mm}^2/\text{s}\). As a result, it takes 1 s to 100 s for the heat to diffuse, and you probably would want to wait 10x of that for it to be within 1% of the original temperature difference (0.1 C of the 10 C temperature change from your finger).</li>
+</ul>
+
+<p>How about the magnets used in the electro-optic system?</p>
+<ul>
+  <li>This is because different current and writefields use different aperture and different settings on the magnets. Whenever you select and switch to a different beam, the system would demagnetize and then put it back.</li>
+  <li>I do not have a good answer.</li>
+  <li>The practice on the JEOL was to do the beam change at the beginning of everything, and thus when you have finished mounting and loading etc., there’s a good chance it is 15 min later.</li>
+  <li>On EBPG, the default wait time is 60 s.</li>
+</ul>
+
+<h2 id="how-does-the-ebeam-tool-know-it-is-in-a-good-state">How does the ebeam tool know it is in a good state?</h2>
+
+<p>There are mainly the following states that need to be good</p>
+<ul>
+  <li>properties of the beam: current/dose, size/focus, and position
+    <ul>
+      <li>current: measured by the Faraday cup. If the tool is dumb like Raith voyager, you’d need to remember to manually ask the tool to automatically calculate the dwell time for your target dose</li>
+      <li>size/focus: this will be covered in the calibration section. In short, it scans the beam off a marker or a sharp edge, and optimize the sharpness of the scan signal</li>
+      <li>position: also more in the calibration section. The tool points the beam to existing markers, use the beam to find the marker position, and thus correcting where the beam is pointing.</li>
+    </ul>
+  </li>
+  <li>position of the stage: measured with <a href="https://www.ligo.caltech.edu/page/what-is-interferometer">laser inteferometers</a>.</li>
+  <li>relative position between the stage and the beam: this is also called writefield stitching: the tool will move around the stage, and thus moving around a marker. The beam will then point around accordingly and look for the same marker, This links the position of where the stage is going and where the beam is going.</li>
+</ul>
+
 <h1 id="practical-stuff">Practical stuff</h1>
 
-<h2 id="design-and-fracturing">Design and fracturing</h2>
+<p>Ok hopefully I have yapped enough about the specs of the ebeam tool. The following will be practical stuff that I’d be talking you through if you are shadowing me through an ebeam session. It will probably be boring to read… I’ll just do it and see how I could improve it with fancy photos and stupid drawings.</p>
+
+<h2 id="design">Design</h2>
+
+<p>So you have something you want to make with ebeam? Have you thought about no? Make sure you really need ebeam because it is expensive, usually takes longer (30 min or more of preparation time vs. ~ 10 min), and more annoying to do. If your mean feature size is more than one or two microns, consider photolitho. If you have access to a maskless photolitho tool, then it is a no brainer. If not, then you might want to use ebeam to just save the wait time for your photomask.</p>
+
+<p>Ok, design, design… The first thing I could think of is, it is likely you’ll have another layer after your ebeam patterns. No matter what you are trying to do, ebeam features are probably too small for interfacing with the macroscopic world, and you’ll need some photolitho metal pads for contacting your probe, or even just some markers and labels to see your devices. Think about how the ebeam pattern is going to interface the photolitho patterns, and how are you going to find them in the maskless or mask aligners.</p>
+
+<p>Think about the locations and clearance for your chip. How are you going to mount your chip on the sample holder, how big is the shadow from the clamp on the holder, what is the orientation of your device and your chip in the design, and in the ebeam tool.</p>
+
+<p>Think about how is the beam and the stage are going to move on your chip to write your patterns or devices, how the writefield is going to be arranged on your patterns. Avoid unnecessary crossing of sensitive structures over the writefield boundaries. If you cannot avoid it, think about how to make the adjacent writefields also adjacent in time during the exposure, e.g., how is the writefield order, meander x or y, or floating, or manually assigned. This is a iterative process with the fracturing, as well as actually finish the layer and check the structures. Think about it more in advance could probably save you a few runs.</p>
+
+<h2 id="fracturing">Fracturing</h2>
+
+<p>About fracturing, you should really check out GenISys’s own <a href="https://www.genisys-gmbh.com/webinar-series-beamer-training.html">BEAMER training</a> materials, there are way more details there. BEAMER could also do booleans, transforms, arrays, assign dose factors etc. These are relatively straight forward and won’t be covered here, just go play.</p>
+
+<p>In short, fracturing is breaking your pattern into more primitive shapes that the ebeam tool would be more readily fill them with shots. And then arrange these fractured patterns into writefields, and tell the ebeam tool where are the writefields, and which field to write first.</p>
+
+<h3 id="proximity-effect-correction-pec">Proximity effect correction (PEC)</h3>
+
+<p><img src="/assets/images/2024/tracer-bild2-2.png" alt="tracer-bild2-2.png" />
+<em>Simulation of the scattering path of electrons.</em></p>
 
 <h2 id="ebeam-resist">Ebeam resist</h2>
 
@@ -565,20 +605,22 @@ You could find a lot of SEM images of pattered silicon photonics, so here I want
 
 <p>As for ebeam liftoff, I continued working with MMA/PMMA double layer, as well as PMMA/PMMA double layer with different concentrations and thickness. I also learnt and used single layer CSAR for liftoff. It sounds impossible or challenging because it is a single layer, but the exposure actually leaves a negative sidewall, and made the liftoff possible.</p>
 
-<h2 id="dose">Dose</h2>
-
-<h2 id="calibrations">Calibrations</h2>
-
+<p>Before moving on, I’d like to put down some quick tips on stuff that is related to resist:</p>
 <ul>
-  <li>What resist to use
+  <li>positive vs. negative: if there are more areas you would like to keep, use positive resist (exposed area gets developed away), and if you have more areas you’d like to etch, use negative resist</li>
+  <li>adhesion: use HMDS priming if you can. Use higher temperature dehydration bake if you can. Some thin metal layer like titanium could also help adhesion. O2 or ozone plasma could also help although I have not tried it personally.</li>
+  <li>discharge layer: important if your substrate is not conductive, like most dielectrics (quartz, lithium niobate, sapphire etc.). Many people like <a href="https://www.allresist.com/portfolio-item/protective-coating-ar-pc-5090-02-electra-92/">electra 92</a>, but I hated it, maybe because I was using an outdated bottle. I am a fan of 5~10 nm aluminum discharge layer. Be careful about using other metal for discharge, pick ones with low melting point. I’ve had 5 nm titanium discharge layer cross-linked top of resist because it was too hot. If your pattern does not involve alignment and does not span across multiple writefield, you might get away with no discharge layer.
     <ul>
-      <li>positive vs. negative</li>
-      <li>adhesion</li>
-      <li>discharge layer</li>
-      <li>selectivity</li>
-      <li>liftoff</li>
+      <li>remove the discharge layer: I remember electra you could remove with water? Please fact check me. Be wary that water plus IPA could unintentionally develop some resist. For aluminum, it gets etched in MF319 or MF26A. You could also use acids if you are a maniac.</li>
     </ul>
   </li>
+  <li>selectivity: Not sure what I want to say here. If this is a problem, consider thicker resist, harder resist (like HSQ), or methods that could harden it after the development, like a hard bake, or curing it with higher dose ebeam (e.g., <a href="https://doi.org/10.1116/1.2395949">Enhancing etch resistance of hydrogen silsesquioxane via postdevelop electron curing</a>, it’s a rare scene to see dose of 100 mC/cm\(^2\)).</li>
+  <li>liftoff: 80 C NMP (Remover PG) is very common and effective. Sometimes long overnight soak at room temperature could also help. Sonication definitely helps until it starts breaking your structures of delaminating the metal. Making sure you have the proper resist sidewall angle (if using single layer liftoff) or enough undercut is the best and most important factor for a successful liftoff. In terms of design, anything that helps with the access of the solvents to go underneath the gaps you are trying to liftoff would help the liftoff.</li>
+</ul>
+
+<h2 id="dose-and-dose-sweep">Dose and dose sweep</h2>
+
+<ul>
   <li>Fracturing (BEAMER)
     <ul>
       <li>Oh god maybe this should be a different yap-post</li>
@@ -590,8 +632,7 @@ You could find a lot of SEM images of pattered silicon photonics, so here I want
   </li>
 </ul>
 
-<p><img src="/assets/images/2024/tracer-bild2-2.png" alt="tracer-bild2-2.png" />
-<em>Simulation of the scattering path of electrons.</em></p>
+<h2 id="mounting-and-locating">Mounting and locating</h2>
 
 <ul>
   <li>Mounting your chip
@@ -607,16 +648,16 @@ You could find a lot of SEM images of pattered silicon photonics, so here I want
       <li>using the SEM</li>
     </ul>
   </li>
+</ul>
+
+<h2 id="calibrations">Calibrations</h2>
+
+<h2 id="alignment">Alignment</h2>
+<ul>
   <li>Alignment
     <ul>
       <li>desired marks (materials, thickness, locations, reusability)</li>
       <li>how to find the marks (manual &amp; auto, mark params, scan params)</li>
-    </ul>
-  </li>
-  <li>develop
-    <ul>
-      <li>remove discharge layer</li>
-      <li>be wary water + IPA could develop some resist unintentionally</li>
     </ul>
   </li>
   <li>feedback &amp; optimization
@@ -848,7 +889,7 @@ You could find a lot of SEM images of pattered silicon photonics, so here I want
       <span class="page__meta-readtime">
         <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
-          4 minute read
+          5 minute read
         
       </span>
     
@@ -959,7 +1000,7 @@ You could find a lot of SEM images of pattered silicon photonics, so here I want
       <span class="page__meta-readtime">
         <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
-          less than 1 minute read
+          1 minute read
         
       </span>
     

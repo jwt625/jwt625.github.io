@@ -28,6 +28,9 @@ The cover of this blog was the JEOL JBX 6300FS at Stanford [SNSF](https://snsf.s
 
 Ebeam lithography, as the name suggests, is using electron beams for lithography. [Lithograph](https://en.wikipedia.org/wiki/Lithography) has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the mask. It is a powerful technique at the time to mass produce drawings and maps, and later photos (photography).
 
+![Hands](/assets/images/2024/ebeam/Hands-SantaCruz-CuevaManos-P2210651b.jpg)
+*Hands, stenciled at the [Cave of the Hands](https://en.wikipedia.org/wiki/Cueva_de_las_Manos)*
+
 When people start to think about how to reduce the size of electronic circuits in the 1950s, they adopted photographic technique (using optics to shrink and project the pattern, expose and develop the [photoresist](https://en.wikipedia.org/wiki/Photoresist) just like in photography) and thus coined the term [photolithography](https://en.wikipedia.org/wiki/Photolithography). Circuit designers would draw the circuit layout on a big canvas, that would later [tapeout](https://en.wikipedia.org/wiki/Tape-out) (it is still called tapeout to this date even physical tape is no longer involved) and be shrinked into a [photomask](https://en.wikipedia.org/wiki/Photomask), and shrinked again by the photolitho system onto the wafer. The quest for shrinking the size of electronic circuits and transistors has been on a non-stop march, and shorter wavelengths are needed because of refractive limit of the resolution. But you know what has a much shorter wavelengths? Electrons!
 
 Let's quickly estimate typical "wavelengths" of electrons in an electron beam. Assuming 10 kV of acceleration, that makes its speed roughly $$0.2 c$$, where $$c$$ is the speed of light. This is without relativistic correction, which will be $$10\%$$ or $$ 20\%$$ so let's ignore it. The corresponding momentum is $$ 5\times 10^{-23}~\text{kg}\cdot\text{m/s} $$ (hmm this is suspiciously close to Boltzmann constant... whatever), and these electrons's [de Broglie wavelength](https://en.wikipedia.org/wiki/Matter_wave) would be $$ 1.2\times 10^{-11}~\text{m} $$ or 12 pm. If we were to get light with wavelength this small, they would be called [gamma rays](https://en.wikipedia.org/wiki/Gamma_ray). 
@@ -192,39 +195,73 @@ For a spot or step size of ~ 4 nm, that means the write field can be as big as ~
 
 ## Stability
 
+Why is stability important? Here is an example of bad stability (writefield stitching), and maybe another one about dose/current drift if I could find an SEM for it. Basically anything that is being precisely controlled and could affect the properties of the beam (current/dose, size/focus, and position).
+
+
+(SEM image TBA)
+
+Let's estimate how much change do we need to shift the beam by ~100 nm, which would be too much in many devices.
+- For the field that deflects the ebeam, this is ~10x the beam spot size. Since the DAC dynamic range is 60 dB, this means a stability of $$10^{-5}$$.
+- For the stage positioning, let's see how much temperature variation would lead to a change of 100 nm for a 200 mm stainless steel cassette/holder.
+    - Steel (and many common metals) have a CTE of $$1\sim 2 \times 10^{-5}$$, a 100 nm deformation out of 200 mm is $$ \sim 10^{-6} $$, thus the temperature stability has to be ~ 0.1 C.
+
+How long would it take the cassette to thermalize after you have inevitably touched it and heated it up?
+- This depends on how the cassette is held, the path for heat dissipation could be as short as the thickness of the cassette (10 mm), or as long as the size of it (100 mm).
+- [Thermal diffusivity](https://en.wikipedia.org/wiki/Thermal_diffusivity) is very handy for time scale estimation for thermalization. All you need to remember is it has a unit of length squared over time, thus 10x longer thermalization path would take 100x longer time.
+- I'm actually not sure if the cassette is made of steel or aluminum. Let's use aluminum since it has higher thermal diffusivity of $$\sim 100~\text{mm}^2/\text{s}$$. As a result, it takes 1 s to 100 s for the heat to diffuse, and you probably would want to wait 10x of that for it to be within 1% of the original temperature difference (0.1 C of the 10 C temperature change from your finger).
+
+
+How about the magnets used in the electro-optic system?
+- This is because different current and writefields use different aperture and different settings on the magnets. Whenever you select and switch to a different beam, the system would demagnetize and then put it back.
+- I do not have a good answer.
+- The practice on the JEOL was to do the beam change at the beginning of everything, and thus when you have finished mounting and loading etc., there's a good chance it is 15 min later.
+- On EBPG, the default wait time is 60 s.
+
+
+## How does the ebeam tool know it is in a good state?
+
+There are mainly the following states that need to be good
+- properties of the beam: current/dose, size/focus, and position
+    - current: measured by the Faraday cup. If the tool is dumb like Raith voyager, you'd need to remember to manually ask the tool to automatically calculate the dwell time for your target dose
+    - size/focus: this will be covered in the calibration section. In short, it scans the beam off a marker or a sharp edge, and optimize the sharpness of the scan signal
+    - position: also more in the calibration section. The tool points the beam to existing markers, use the beam to find the marker position, and thus correcting where the beam is pointing.
+- position of the stage: measured with [laser inteferometers](https://www.ligo.caltech.edu/page/what-is-interferometer).
+- relative position between the stage and the beam: this is also called writefield stitching: the tool will move around the stage, and thus moving around a marker. The beam will then point around accordingly and look for the same marker, This links the position of where the stage is going and where the beam is going.
 
 
 
-
-
-
-
-
-
-(To be continued)
-
-
-
-
-
-- How stable do things need to be
-- Why is the column this big
-- Where are the electrons going
-    - focusing (how is it done)
-    - current measurement
-    - beam calibration
-- Where is the stage going
-    - interferometer
-    - writefield (WF) size, calibration, stitching
-    - subfield (maybe?)
-- beam parameters
-    - Voltage, current
-    - shot pitch
-    - dose (DAC rate limit, dose sweep)
 
 # Practical stuff
 
-## Design and fracturing
+Ok hopefully I have yapped enough about the specs of the ebeam tool. The following will be practical stuff that I'd be talking you through if you are shadowing me through an ebeam session. It will probably be boring to read... I'll just do it and see how I could improve it with fancy photos and stupid drawings.
+
+## Design 
+
+So you have something you want to make with ebeam? Have you thought about no? Make sure you really need ebeam because it is expensive, usually takes longer (30 min or more of preparation time vs. ~ 10 min), and more annoying to do. If your mean feature size is more than one or two microns, consider photolitho. If you have access to a maskless photolitho tool, then it is a no brainer. If not, then you might want to use ebeam to just save the wait time for your photomask.
+
+Ok, design, design... The first thing I could think of is, it is likely you'll have another layer after your ebeam patterns. No matter what you are trying to do, ebeam features are probably too small for interfacing with the macroscopic world, and you'll need some photolitho metal pads for contacting your probe, or even just some markers and labels to see your devices. Think about how the ebeam pattern is going to interface the photolitho patterns, and how are you going to find them in the maskless or mask aligners.
+
+
+Think about the locations and clearance for your chip. How are you going to mount your chip on the sample holder, how big is the shadow from the clamp on the holder, what is the orientation of your device and your chip in the design, and in the ebeam tool.
+
+
+Think about how is the beam and the stage are going to move on your chip to write your patterns or devices, how the writefield is going to be arranged on your patterns. Avoid unnecessary crossing of sensitive structures over the writefield boundaries. If you cannot avoid it, think about how to make the adjacent writefields also adjacent in time during the exposure, e.g., how is the writefield order, meander x or y, or floating, or manually assigned. This is a iterative process with the fracturing, as well as actually finish the layer and check the structures. Think about it more in advance could probably save you a few runs.
+
+
+## Fracturing
+
+About fracturing, you should really check out GenISys's own [BEAMER training](https://www.genisys-gmbh.com/webinar-series-beamer-training.html) materials, there are way more details there. BEAMER could also do booleans, transforms, arrays, assign dose factors etc. These are relatively straight forward and won't be covered here, just go play.
+
+In short, fracturing is breaking your pattern into more primitive shapes that the ebeam tool would be more readily fill them with shots. And then arrange these fractured patterns into writefields, and tell the ebeam tool where are the writefields, and which field to write first.
+
+
+
+
+
+### Proximity effect correction (PEC)
+
+![tracer-bild2-2.png](/assets/images/2024/tracer-bild2-2.png)
+*Simulation of the scattering path of electrons.*
 
 
 ## Ebeam resist
@@ -253,23 +290,18 @@ After about half a year, I got into developing/optimizing a mask and etch proces
 As for ebeam liftoff, I continued working with MMA/PMMA double layer, as well as PMMA/PMMA double layer with different concentrations and thickness. I also learnt and used single layer CSAR for liftoff. It sounds impossible or challenging because it is a single layer, but the exposure actually leaves a negative sidewall, and made the liftoff possible.
 
 
+Before moving on, I'd like to put down some quick tips on stuff that is related to resist:
+- positive vs. negative: if there are more areas you would like to keep, use positive resist (exposed area gets developed away), and if you have more areas you'd like to etch, use negative resist
+- adhesion: use HMDS priming if you can. Use higher temperature dehydration bake if you can. Some thin metal layer like titanium could also help adhesion. O2 or ozone plasma could also help although I have not tried it personally.
+- discharge layer: important if your substrate is not conductive, like most dielectrics (quartz, lithium niobate, sapphire etc.). Many people like [electra 92](https://www.allresist.com/portfolio-item/protective-coating-ar-pc-5090-02-electra-92/), but I hated it, maybe because I was using an outdated bottle. I am a fan of 5~10 nm aluminum discharge layer. Be careful about using other metal for discharge, pick ones with low melting point. I've had 5 nm titanium discharge layer cross-linked top of resist because it was too hot. If your pattern does not involve alignment and does not span across multiple writefield, you might get away with no discharge layer.
+    - remove the discharge layer: I remember electra you could remove with water? Please fact check me. Be wary that water plus IPA could unintentionally develop some resist. For aluminum, it gets etched in MF319 or MF26A. You could also use acids if you are a maniac.
+- selectivity: Not sure what I want to say here. If this is a problem, consider thicker resist, harder resist (like HSQ), or methods that could harden it after the development, like a hard bake, or curing it with higher dose ebeam (e.g., [Enhancing etch resistance of hydrogen silsesquioxane via postdevelop electron curing](https://doi.org/10.1116/1.2395949), it's a rare scene to see dose of 100 mC/cm$$^2$$).
+- liftoff: 80 C NMP (Remover PG) is very common and effective. Sometimes long overnight soak at room temperature could also help. Sonication definitely helps until it starts breaking your structures of delaminating the metal. Making sure you have the proper resist sidewall angle (if using single layer liftoff) or enough undercut is the best and most important factor for a successful liftoff. In terms of design, anything that helps with the access of the solvents to go underneath the gaps you are trying to liftoff would help the liftoff.
 
 
-## Dose
+## Dose and dose sweep
 
 
-## Calibrations
-
-
-
-
-
-- What resist to use
-    - positive vs. negative
-    - adhesion
-    - discharge layer
-    - selectivity
-    - liftoff
 - Fracturing (BEAMER)
     - Oh god maybe this should be a different yap-post
     - I should still start to write down things that matters
@@ -277,8 +309,8 @@ As for ebeam liftoff, I continued working with MMA/PMMA double layer, as well as
     - multipass
     - PEC
 
-![tracer-bild2-2.png](/assets/images/2024/tracer-bild2-2.png)
-*Simulation of the scattering path of electrons.*
+
+## Mounting and locating
 
 - Mounting your chip
     - front vs. back referenced
@@ -287,12 +319,19 @@ As for ebeam liftoff, I continued working with MMA/PMMA double layer, as well as
 - Locating your chip
     - optical microscope / camera assistance
     - using the SEM
+
+
+## Calibrations
+
+
+
+
+## Alignment
 - Alignment
     - desired marks (materials, thickness, locations, reusability)
     - how to find the marks (manual & auto, mark params, scan params)
-- develop
-    - remove discharge layer
-    - be wary water + IPA could develop some resist unintentionally
+
+
 - feedback & optimization
     - dose sweep
 - optimize your own workflow
