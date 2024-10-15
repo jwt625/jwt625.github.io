@@ -193,7 +193,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          29 minute read
+          34 minute read
         
       </span>
     
@@ -339,7 +339,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#what-is-ebeam-litho">What is EBeam litho</a></li><li><a href="#ebeam-specs-and-why">Ebeam specs and why</a><ul><li><a href="#how-do-we-deflect-the-electron-beam">How do we deflect the electron beam</a></li><li><a href="#what-are-the-specs">What are the specs?</a></li><li><a href="#electron-source-and-emission">Electron source and emission</a></li><li><a href="#why-higher-voltage">Why higher voltage?</a></li><li><a href="#beam-current-higher-lower">Beam current, higher? Lower?</a></li><li><a href="#dac-clock-rate-and-shot-pitch--spot-size">DAC clock rate and shot pitch / spot size</a></li><li><a href="#dac-resolution">DAC resolution</a></li><li><a href="#stability">Stability</a></li><li><a href="#how-does-the-ebeam-tool-know-it-is-in-a-good-state">How does the ebeam tool know it is in a good state?</a></li></ul></li><li><a href="#practical-stuff">Practical stuff</a><ul><li><a href="#design">Design</a></li><li><a href="#fracturing">Fracturing</a><ul><li><a href="#proximity-effect-correction-pec">Proximity effect correction (PEC)</a></li></ul></li><li><a href="#ebeam-resist">Ebeam resist</a></li><li><a href="#dose-and-dose-sweep">Dose and dose sweep</a></li><li><a href="#mounting-and-locating">Mounting and locating</a></li><li><a href="#calibrations">Calibrations</a></li><li><a href="#alignment">Alignment</a></li></ul></li><li><a href="#appendix-a-quick-rundown-of-my-ebeam-lithography-journey">Appendix: a quick rundown of my ebeam lithography journey</a><ul><li><a href="#tools">Tools</a><ul><li><a href="#raith-150-two-2015---2017">Raith 150 Two (2015 - 2017)</a></li><li><a href="#jeol-jbx-6300fs-2017---2022">JEOL JBX 6300FS (2017 - 2022)</a></li><li><a href="#raith-voyager-2022---2023">Raith Voyager (2022 - 2023)</a></li><li><a href="#ebpg-5200-2023---2024">EBPG 5200+ (2023 - 2024)</a></li></ul></li><li><a href="#ebeam-sessions">Ebeam sessions</a></li><li><a href="#acknowledgements">Acknowledgements</a></li></ul></li><li><a href="#references">References</a><ul><li><a href="#lab-resources">Lab resources</a></li><li><a href="#training-videos">Training videos</a></li><li><a href="#papers-and-books">Papers and books</a></li></ul></li></ul>
+              <ul class="toc__menu"><li><a href="#what-is-ebeam-litho">What is EBeam litho</a></li><li><a href="#ebeam-specs-and-why">Ebeam specs and why</a><ul><li><a href="#how-do-we-deflect-the-electron-beam">How do we deflect the electron beam</a></li><li><a href="#what-are-the-specs">What are the specs?</a></li><li><a href="#electron-source-and-emission">Electron source and emission</a></li><li><a href="#why-higher-voltage">Why higher voltage?</a></li><li><a href="#beam-current-higher-lower">Beam current, higher? Lower?</a></li><li><a href="#dac-clock-rate-and-shot-pitch--spot-size">DAC clock rate and shot pitch / spot size</a></li><li><a href="#dac-resolution">DAC resolution</a></li><li><a href="#stability">Stability</a></li><li><a href="#how-does-the-ebeam-tool-know-it-is-in-a-good-state">How does the ebeam tool know it is in a good state?</a></li></ul></li><li><a href="#practical-stuff">Practical stuff</a><ul><li><a href="#design">Design</a></li><li><a href="#fracturing">Fracturing</a><ul><li><a href="#proximity-effect-correction-pec">Proximity effect correction (PEC)</a></li></ul></li><li><a href="#ebeam-resist">Ebeam resist</a><ul><li><a href="#dose-and-dose-sweep">Dose and dose sweep</a></li></ul></li><li><a href="#mounting-and-locating">Mounting and locating</a></li><li><a href="#calibrations">Calibrations</a></li><li><a href="#alignment">Alignment</a></li></ul></li><li><a href="#appendix-a-quick-rundown-of-my-ebeam-lithography-journey">Appendix: a quick rundown of my ebeam lithography journey</a><ul><li><a href="#tools">Tools</a><ul><li><a href="#raith-150-two-2015---2017">Raith 150 Two (2015 - 2017)</a></li><li><a href="#jeol-jbx-6300fs-2017---2022">JEOL JBX 6300FS (2017 - 2022)</a></li><li><a href="#raith-voyager-2022---2023">Raith Voyager (2022 - 2023)</a></li><li><a href="#ebpg-5200-2023---2024">EBPG 5200+ (2023 - 2024)</a></li></ul></li><li><a href="#ebeam-sessions">Ebeam sessions</a></li><li><a href="#acknowledgements">Acknowledgements</a></li></ul></li><li><a href="#references">References</a><ul><li><a href="#lab-resources">Lab resources</a></li><li><a href="#training-videos">Training videos</a></li><li><a href="#papers-and-books">Papers and books</a></li></ul></li></ul>
             </nav>
           </aside>
         
@@ -474,6 +474,12 @@
 <p><img src="/assets/images/2024/ebeam/beam_expansion_estimation.PNG" alt="beam_expansion_estimation.PNG" />
 <em>This is <a href="https://numbat.dev/">numbat.dev</a>, ladies and gentlemen.</em></p>
 
+<p>Actually talk is cheap, why not do the velocity sweep in COMSOL and check the simulated beam size? I did, here is the result:
+<img src="/assets/images/2024/ebeam/charged_particle_tracing_20241014.png" alt="velocity_sweep" /></p>
+<ul>
+  <li>Hmm it is actually not \(v^{-3}\), welp, let’s blame relativity and move on with our life.</li>
+</ul>
+
 <h2 id="beam-current-higher-lower">Beam current, higher? Lower?</h2>
 
 <p>The rule of thumb for current is, and as you could see from derivation in the previous section, the smaller it is, the smaller the beam could be focused, and it scales linearly (if I did not make any mistake deriving it).</p>
@@ -518,7 +524,8 @@ For a spot or step size of ~ 4 nm, that means the write field can be as big as ~
 
 <p>Why is stability important? Here is an example of bad stability (writefield stitching), and maybe another one about dose/current drift if I could find an SEM for it. Basically anything that is being precisely controlled and could affect the properties of the beam (current/dose, size/focus, and position).</p>
 
-<p>(SEM image TBA)</p>
+<p><img src="/assets/images/2024/ebeam/20180920_LNNB19_top_dev6_001.PNG" alt="LNNB19" />
+<em>You can see two writefield stitching error in this SEM.</em></p>
 
 <p>Let’s estimate how much change do we need to shift the beam by ~100 nm, which would be too much in many devices.</p>
 <ul>
@@ -572,7 +579,7 @@ For a spot or step size of ~ 4 nm, that means the write field can be as big as ~
 
 <p>Think about the locations and clearance for your chip. How are you going to mount your chip on the sample holder, how big is the shadow from the clamp on the holder, what is the orientation of your device and your chip in the design, and in the ebeam tool.</p>
 
-<p>Think about how is the beam and the stage are going to move on your chip to write your patterns or devices, how the writefield is going to be arranged on your patterns. Avoid unnecessary crossing of sensitive structures over the writefield boundaries. If you cannot avoid it, think about how to make the adjacent writefields also adjacent in time during the exposure, e.g., how is the writefield order, meander x or y, or floating, or manually assigned. This is a iterative process with the fracturing, as well as actually finish the layer and check the structures. Think about it more in advance could probably save you a few runs.</p>
+<p>Think about how is the beam and the stage are going to move on your chip to write your patterns or devices, how the writefield is going to be arranged on your patterns. Avoid unnecessary crossing of sensitive structures over the writefield boundaries. If you cannot avoid it, think about how to make the adjacent writefields also adjacent in time during the exposure, e.g., how is the writefield order, meander x or y, or floating, or manually assigned. If the writefield is fixed on a grid, is your device on the same grid or interger multiple of it? This is a iterative process with the fracturing, as well as actually finish the layer and check the structures. Think about it more in advance could probably save you a few runs.</p>
 
 <h2 id="fracturing">Fracturing</h2>
 
@@ -580,10 +587,42 @@ For a spot or step size of ~ 4 nm, that means the write field can be as big as ~
 
 <p>In short, fracturing is breaking your pattern into more primitive shapes that the ebeam tool would be more readily fill them with shots. And then arrange these fractured patterns into writefields, and tell the ebeam tool where are the writefields, and which field to write first.</p>
 
+<p>Since there are plenty of training materials out there, I figure I’d mention stuff that is harder to encounter but very handy</p>
+<ul>
+  <li>The extract node actually has many features, the most often used one is extract by layer, but you could also extract by cell, extract certain region etc. Very useful when you figure out you need to hack something but do not have time to rerun your cad script to generate a new DXF or GDSII.</li>
+  <li>There are many ways to change the dose (dose factor), and they could stack properly. For example, you could have a PEC (proximity effect correction), and then dose sweep that whole PEC pattern.</li>
+  <li>There are many ways to change the writefield arrangement, as well as the write order within a writefield. Make sure you play with them and see the result in beamer if it’s relevant for your pattern. The extreme case for this is, you could even breakup a single device into multiple layers, and manually assign the order to be following the layers.</li>
+  <li>There are also ways you could play with how writefields are stitched together: overlapping &amp; sharing the dose, interleaving etc.</li>
+  <li>Be careful with the dose for <a href="https://www.genisys-gmbh.com/multipass-techniques.html">multipass</a>. The tool does not know if you are doing multipass or not (at least not yet), and you have to take care of reducing it.</li>
+  <li>Be clear about the origin of your pattern. It is the leading cause of a failed aligned beamwrite.</li>
+  <li>You could have multiple import and multiple export nodes, handy for  merging multiple designs and playing with different final fracturing settings.</li>
+  <li>ALWAYS CHECK THE FINAL OUTPUT/EXPORT. I have many horror stories of some wrong settings messing up a beamwrite that could be caught by checking the output in beamer, such as not selecting the layer for manual writefield, and that layer (usually squares that enclose patterns you want to keep within a single writefield) got exposed by the beam, overwritting the actual patterns.</li>
+</ul>
+
+<p>I feel like there are plenty more. I’ll add to this list over time when things occur to me or if you have stuff to add, let me know.</p>
+
 <h3 id="proximity-effect-correction-pec">Proximity effect correction (PEC)</h3>
+
+<p>(See also GenISys <a href="https://www.genisys-gmbh.com/part-2-dose-pec-algorithm-and-parameter.html">Part 2 – Dose PEC Algorithm and Parameter</a>)</p>
+
+<p>When the electron shoots into the resist, it scatters around multiple times, and effectively giving a volumetric distribution of dose. This distribution is called the point spread function (PSF), and it blurs out the pattern you are trying to expose. Proximity effect correction (PEC) is the attempt to correct this effect.</p>
 
 <p><img src="/assets/images/2024/tracer-bild2-2.png" alt="tracer-bild2-2.png" />
 <em>Simulation of the scattering path of electrons.</em></p>
+
+<p>I used to not be a believer in PEC, but I still do it manually almost every beamwrite, assigning a lower dose factor to larger areas. At some point the types of different manual dose just became too much work, I tried it, and realized I did not appreciate the basis of how it works. How I convinced myself that PEC could work is because the resist development is a nonlinear process:</p>
+<ul>
+  <li>If the development is linear, then there is no way to have a single shot that is missing in a big exposed area to be resolved. You will always get resist strength or thickness that represents the dose after getting smoothed by the PSF.</li>
+  <li>If the development is extremely nonlinear (resist thickness jump from 0 to max at the threshold dose), then you could slowly decrease the dose, such that the threshold  is at the edge of the missing single shot, and such an amazing resist would make such crazy feature possible</li>
+  <li>In reality, the effectiveness of PEC is somewhere in between these two extreme scenarios. You will be able to clear finer patterns that would otherwise be imppossible without PEC, but it also has limits, and that depends on how accurate the PSF, and how good the resist and its development is etc.</li>
+</ul>
+
+<p>A few comments:</p>
+<ul>
+  <li>I only have experience with dose PEC, but <a href="https://www.genisys-gmbh.com/shape-pec.html">shape PEC</a> exists</li>
+  <li>The PSF usually have two length scales, and PEC usually only attempt to correct the long range one. The short range one would take much more compute to “de-convolute” it</li>
+  <li>Whenever you change the PEC parameters, you’ll likely need a dose sweep. Scaling the PEC doses such that the big area end up having the same dose as before is a good starting point.</li>
+</ul>
 
 <h2 id="ebeam-resist">Ebeam resist</h2>
 
@@ -618,21 +657,18 @@ You could find a lot of SEM images of pattered silicon photonics, so here I want
   <li>liftoff: 80 C NMP (Remover PG) is very common and effective. Sometimes long overnight soak at room temperature could also help. Sonication definitely helps until it starts breaking your structures of delaminating the metal. Making sure you have the proper resist sidewall angle (if using single layer liftoff) or enough undercut is the best and most important factor for a successful liftoff. In terms of design, anything that helps with the access of the solvents to go underneath the gaps you are trying to liftoff would help the liftoff.</li>
 </ul>
 
-<h2 id="dose-and-dose-sweep">Dose and dose sweep</h2>
+<h3 id="dose-and-dose-sweep">Dose and dose sweep</h3>
 
+<p>I was thinking about whether to skip this section. Maybe just a few comments</p>
 <ul>
-  <li>Fracturing (BEAMER)
-    <ul>
-      <li>Oh god maybe this should be a different yap-post</li>
-      <li>I should still start to write down things that matters</li>
-      <li>Field control: fixed, manual, different ways to meander, fully manual with layers…</li>
-      <li>multipass</li>
-      <li>PEC</li>
-    </ul>
-  </li>
+  <li>When do you need a dose sweep? Including but not limited to: when you have changed your substrate, changed your resist thickness, changed to a new bottle of resist, when you haven’t been in the cleanroom for a couple of months, or when the ebeam tool just had a major maintenance, and when your pattern esp. pattern density has changed a lot (except if you are doing PEC and have faith in your PSF).</li>
+  <li>How much should you sweep? +- 20% should be plenty. If it is a new resist for you, it is good to do a larger range to know the absolute limits.</li>
+  <li>Put down labels next to your dose sweep patterns. Do not believe in your memory, you will not remember which pattern got which dose. Make sure you could see the labels and dose sweep patterns in both optical and scanning electron microscope (e.g. if your dose sweep pattern is tiny, you’ll struggle to locate it under SEM. Put down some big labels and use a big beam to expose the labels).</li>
 </ul>
 
 <h2 id="mounting-and-locating">Mounting and locating</h2>
+
+<p>(to be continued)</p>
 
 <ul>
   <li>Mounting your chip
@@ -653,6 +689,9 @@ You could find a lot of SEM images of pattered silicon photonics, so here I want
 <h2 id="calibrations">Calibrations</h2>
 
 <h2 id="alignment">Alignment</h2>
+
+<p><img src="/assets/images/2024/ebeam/20200615_LNSOI11/image67.jpg" alt="jeol_alignment_scan" /></p>
+
 <ul>
   <li>Alignment
     <ul>
