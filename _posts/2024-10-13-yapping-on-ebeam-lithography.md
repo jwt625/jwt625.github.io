@@ -340,7 +340,36 @@ I was thinking about whether to skip this section. Maybe just a few comments
 
 ## Mounting and locating
 
-(to be continued)
+Mounting the chip has very similar concern as for wirebonding, if you have read that post. But everything is more tight. There are pretty much three factors: no chip moving around during the exposure, rotation or tilt needs to be small, and it has to discharge properly
+- No moving around: do a shake test after you've done mounting the chip. It does not need to be crazy, the EBL is not doing 10*g like commercial EUVs, but the stage will be accelerating. This is more important when you have multiple chips on the same holder or even held using the same clamp. Avoid this if you can, but sometimes you just have more chips than the holders there are.
+- Tilt: make sure the top and bottom surface is clean before you put it on the holder. If a dirt is visible, it is going to be at least a few tens of microns. If you got resist on the back of the chip, try scratch the majority off, and then wipe with acetone and IPA. If you have time, redo the spin coat and use a better vacuum chuck. In general, a height variation on the order of ~10 um across ~10 mm is good.
+    - The EBPG holder let's you have full control over tilt, height and rotation of your chip, so you do not need to worry as much about dirt or resist, but it does make the loading significantly more time consuming than the JEOL, and longer if you start with some poor tilt and rotation
+- Rotation: the default threshold on EBPG is 0.3 deg if I remember correctly. And if you are using automatic alignment mark detection, the alignment mark should at least fit in the writefield/search window, and you should calculate how many degree is that from the window size and separation of your alignment marks.
+    - When your pattern is cursed, or if you are trying to align to a previous layer that is very off (say a few degrees) from the edge of the chip, you might want to compensate it when mounting the chip. The rotation the EBPG holder is allowed to do is limited. JEOL instead you could rotate as much as you want, at the cost of no fine control of the rotation, and you really need good hand to do if right. I'd show off to people when I got the JEOL holder rotation right the first try.
+- Discharge: if your substrate is insulating, you need to think a bit more about this, make sure the clamp is in contact with the discharge layer, especially when it is evaporated metal and could be missing at some edges because of the shadow of the clamps of the ebeam evaporation holder.
+
+![JEOL_holder_image1.png](/assets/images/2024/ebeam/JEOL_holder_image1.png)
+![JEOL_holder_image5.png](/assets/images/2024/ebeam/JEOL_holder_image5.png)
+*The JEOL cassette and holders.*
+
+
+A few minor things and comments
+- Make sure your pattern won't overlap with the clamps, as well as the clamp won't shadow your pattern or alignment marks. Even when the alignment marks are not under but close to the edge of the clamp, you might see some drift when you are imaging the marker with the ebeam.
+- Think about if the holder you are using is front-referenced or back-referenced. I'm a fan of front referenced holders.
+- Be careful with the holders and screws as they are expensive.
+
+Here is how expensive they are:
+![JEOL holder cost](/assets/images/2024/ebeam/JEOL_holder_cost.jfif)
+*A photo I took at Stanford SNC, summer 2016*
+![EBPG holder cost](/assets/images/2024/ebeam/EBPG_holder_cost.PNG)
+*From [UD NanoFab EBPG5200 SoP](https://bpb-us-w2.wpmucdn.com/sites.udel.edu/dist/9/3681/files/2016/11/EBPG5200_Operating-Procedure_03.pdf)*
+
+
+
+Now how do you find your chip and how do you know where to put your pattern?
+
+(To be continued..)
+
 
 - Mounting your chip
     - front vs. back referenced
@@ -350,13 +379,13 @@ I was thinking about whether to skip this section. Maybe just a few comments
     - optical microscope / camera assistance
     - using the SEM
 
+## Alignment
 
 ## Calibrations
 
 
 
 
-## Alignment
 
 
 ![jeol_alignment_scan](/assets/images/2024/ebeam/20200615_LNSOI11/image67.jpg)
@@ -450,7 +479,8 @@ Lastly, I would like to say that even with all these years of experience, I am n
 3. BEAMER training from GenISys: [Webinar Series - BEAMER Training](https://www.genisys-gmbh.com/webinar-series-beamer-training.html)
 4. Yale Institute for Nanoscience and Quantum Engineering: [Electron-Beam Lithography Training](https://nano.yale.edu/electron-beam-lithography-training).
 5. The University of Manchester: [Raith: EBPG5200 100kV e-Beam Lithography System (aka Vistec)](https://research.manchester.ac.uk/en/equipments/raith-ebpg5200-100kv-e-beam-lithography-system-aka-vistec)
-
+5. [UPenn EBPG5200 SOP](https://wiki.nano.upenn.edu/wiki/images/0/0a/EBPG5200%2B_SOP.pdf)
+6. University of Delaware Nanofab [EBPG5200 SOP](https://bpb-us-w2.wpmucdn.com/sites.udel.edu/dist/9/3681/files/2016/11/EBPG5200_Operating-Procedure_03.pdf)
 
 ## Training videos
 4. [JEOL JBX-9300FS EBL (1 of 2) - training video (Georgia Tech - Microelectronics Research Center)](https://www.youtube.com/watch?v=q8h5xYJX-_U)
