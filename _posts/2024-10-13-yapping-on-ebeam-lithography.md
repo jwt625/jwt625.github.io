@@ -289,7 +289,7 @@ I used to not be a believer in PEC, but I still do it manually almost every beam
 
 A few comments:
 - I only have experience with dose PEC, but [shape PEC](https://www.genisys-gmbh.com/shape-pec.html) exists
-- The PSF usually have two length scales, and PEC usually only attempt to correct the long range one. The short range one would take much more compute to "de-convolute" it
+- The PSF usually have two length scales, and PEC usually only attempt to correct the long range one (backscatter, mostly sensitive to accel. voltage and substrate material). The short range one would take much more compute to "de-convolute" it
 - Whenever you change the PEC parameters, you'll likely need a dose sweep. Scaling the PEC doses such that the big area end up having the same dose as before is a good starting point.
 
 
@@ -332,13 +332,13 @@ Before moving on, I'd like to put down some quick tips on stuff that is related 
 ### Dose and dose sweep
 
 I was thinking about whether to skip this section. Maybe just a few comments
-- When do you need a dose sweep? Including but not limited to: when you have changed your substrate, changed your resist thickness, changed to a new bottle of resist, when you haven't been in the cleanroom for a couple of months, or when the ebeam tool just had a major maintenance, and when your pattern esp. pattern density has changed a lot (except if you are doing PEC and have faith in your PSF).
+- When do you need a dose sweep? Including but not limited to: when you have changed your substrate, changed your resist thickness, changed the beam voltage, changed to a new bottle of resist, when you haven't been in the cleanroom for a couple of months, or when the ebeam tool just had a major maintenance, and when your pattern esp. pattern density has changed a lot (except if you are doing PEC and have faith in your PSF).
 - How much should you sweep? +- 20% should be plenty. If it is a new resist for you, it is good to do a larger range to know the absolute limits.
 - Put down labels next to your dose sweep patterns. Do not believe in your memory, you will not remember which pattern got which dose. Make sure you could see the labels and dose sweep patterns in both optical and scanning electron microscope (e.g. if your dose sweep pattern is tiny, you'll struggle to locate it under SEM. Put down some big labels and use a big beam to expose the labels).
 
 
 
-## Mounting and locating
+## Mounting
 
 Mounting the chip has very similar concern as for wirebonding, if you have read that post. But everything is more tight. There are pretty much three factors: no chip moving around during the exposure, rotation or tilt needs to be small, and it has to discharge properly
 - No moving around: do a shake test after you've done mounting the chip. It does not need to be crazy, the EBL is not doing 10*g like commercial EUVs, but the stage will be accelerating. This is more important when you have multiple chips on the same holder or even held using the same clamp. Avoid this if you can, but sometimes you just have more chips than the holders there are.
@@ -348,14 +348,30 @@ Mounting the chip has very similar concern as for wirebonding, if you have read 
     - When your pattern is cursed, or if you are trying to align to a previous layer that is very off (say a few degrees) from the edge of the chip, you might want to compensate it when mounting the chip. The rotation the EBPG holder is allowed to do is limited. JEOL instead you could rotate as much as you want, at the cost of no fine control of the rotation, and you really need good hand to do if right. I'd show off to people when I got the JEOL holder rotation right the first try.
 - Discharge: if your substrate is insulating, you need to think a bit more about this, make sure the clamp is in contact with the discharge layer, especially when it is evaporated metal and could be missing at some edges because of the shadow of the clamps of the ebeam evaporation holder.
 
+Also let's just look at the holders and try to understand how they hold your chip and how you adjust them.
+
 ![JEOL_holder_image1.png](/assets/images/2024/ebeam/JEOL_holder_image1.png)
 ![JEOL_holder_image5.png](/assets/images/2024/ebeam/JEOL_holder_image5.png)
-*The JEOL cassette and holders.*
+- These are the JEOL cassette and holders. The calibration sample is not on the cassette, I'm actually not sure where that is.
+- It is a front-referenced holder. The copper slots are made such that the bottom of its outer rim where it mates with the cassette, is at the same height as the bottom of its inner slot, where the top of your chip will be pushed against from below it. As a result, the surface of your chip is guaranteed to be at the same height as the top surface of the cassette.
+- The chip is then secured by aluminum plates (backplates? not sure about their formal name) with copper springs that locks into grooves of the copper holder, So it pushes the chip upward against the copper slot. Be careful when you press down and rotate the copper spring, as the aluminum plate is only balanced on the back of your chips. And do it slowly to avoid rotating the aluminum plate which will rotate your chips out of the slot (and they'll drop upside down on the table, or through the hole on the floor if you are unlucky).
+- The copper holders can rotate freely, so you could expose your chip at any angle you like. The copper holder is secured by two clamps. Always check all the holders have their clamps tightened. You never know.
+- You can load multiple chips into the same slot, and if you do, you better check that their top and bottom surfaces are clean so that they'd be held secure at the same time. Always do a shake test before you send the cassette in.
+- If you are doing aligned beamwrite on multiple chips, they'll need to be in separate holders because they'll need separate rotation correction, unless you got gold hand to load them into the slot with less than 0.3 degree rotation alignment.
 
 
-A few minor things and comments
-- Make sure your pattern won't overlap with the clamps, as well as the clamp won't shadow your pattern or alignment marks. Even when the alignment marks are not under but close to the edge of the clamp, you might see some drift when you are imaging the marker with the ebeam.
-- Think about if the holder you are using is front-referenced or back-referenced. I'm a fan of front referenced holders.
+Here is the EBPG cassette and holders, from [UPenn EBPG5200 SOP](https://wiki.nano.upenn.edu/wiki/images/0/0a/EBPG5200%2B_SOP.pdf):
+![EBPG_holder](/assets/images/2024/ebeam/EBPG_holder_image1.png)
+- The EBPG cassette looks similar to the JEOL's at a glance, but it is totally different
+- The reference/calibration chip is on the holder, and mounted in a very mindful place, protruding out of the holder, so that you'll bump into and crack it, and they could sell you more.
+- It is back-referenced. You will need to adjust the tilt and height of the individual holders to make the top surface of your chip aligned and parallel to the reference/calibration chip and the surface of the cassette. If the user before you had very different chip thickness, good luck you got a lot of screws to turn.
+- The tilt adjustment is done similar to a kinematic mount if you are coming from optics background. It is pushed up against three set screws, the tips of which determines the plane of the holder surface. HOWEVER it is also secured or locked by the table lock release levers, by friction, so you always need to remember to release them whenever you are about to measure the height, or after you adjusted the screws. And the friction is not strong enough to hold much downward force, so you could easily push the holder down and away from the screws, and it would still be locked by the levels. When in doubt, always release the levers.
+- The rotation correction is done by the adjustment screw on the left and right sides of the holder. The gear ratio is pretty high, at least 10x from eyeballing, so fine rotation adjustment is much easier than on the JEOL holder. It even got a hole on the side for you to stick a lever in to adjust it. However, if your rotation correction is more than ~5 degrees or so, it will be out of range for the adjustment lever to fit in without running into the outer rim of the cassette, brilliant mechanical design. It is still possible to manually rotate the holder by hand instead of using the adjustment screw, it's just much harder to get it right. And you are likely doing this under the alignment microscope. Make sure you check that the cassette is still in place on the alignment stage after you manually rotated the holder.
+
+
+
+A few minor and common things and comments
+- Make sure your pattern won't overlap with the clamps or slots, as well as the clamp won't shadow your pattern or alignment marks. Even when the alignment marks are not under but close to the edge of the clamp, you might see some drift when you are imaging the marker with the ebeam.
 - Be careful with the holders and screws as they are expensive.
 
 Here is how expensive they are:
@@ -365,50 +381,134 @@ Here is how expensive they are:
 *From [UD NanoFab EBPG5200 SoP](https://bpb-us-w2.wpmucdn.com/sites.udel.edu/dist/9/3681/files/2016/11/EBPG5200_Operating-Procedure_03.pdf)*
 
 
+## Locating
 
-Now how do you find your chip and how do you know where to put your pattern?
+Ok you have mounted your chip, now how do you find your chip and alignment mark, and how do you know where to put your pattern? It is the same as how you find your home, you need the country, state, city, and street address. What you are used to is a city map, that is your CAD, and you know the street address (local coordinates or your CAD coordinates) of your devices and alignment marks. Locating stuff in the tool is just converting the street address to latitude and longitude. You find where the (0, 0) of your city map is on latitude and longitude, and then add the relative coordinates.
+- The details are going to be different for different tools, but the idea is the same. You'll either need to know where is the (0, 0) of the global/cassette coordinates, or have something safe to look at both outside and inside the tool, let's call this location A. On the JEOL, we usually use the top left corner of the chip as A, which we measure its coordinates using an optical microscope, as well as the center of the chip (by finding one or more corners of the chip), and then you know the relative address of the chip with respect to A. Once you find the coordinates of A inside the tool with the ebeam, you know where your chip is. For JEOL, this coordinate of the center of your chip would be the `offset` parameter that goes into the `SDF` file.
+- For EBPG, you spoiled kids might have the alignment microscope, which directly tells you the global coordinates of wherever you are looking at, and it will be very close to the actual coordinates in the tool. So you do not need a reference location A, just go find corners of your chip and then calculate its center coordinates.
+- Be careful with the orientation of the cassette and the direction of the axis. E.g., for our JEOL alignment optical microscope, you have to put the cassette upside down onto a stage with glass window, and that flips the y axis of the cassette. For EBPG alignment microscope, the cassette is rotated 90 degree (I actually no longer remember this, fact check it yourself.). For both JEOL and EBPG, the global coodrinates have positive y pointing downward, which is different from common sense but gets rid of minus signes when the top left of the cassette is chosen to be global (0, 0).
+- For aligned beamwrite, now you need to tell the tool where the alignment markers are, in the global coordinates. So saome procedure, except, instead of finding the center of the chip, you find one of your global marks.
+- The optical microscope and the ebeam will always have some misalignment, and the further away your chip is from the reference chip, the larger it will be. I always check for the first one or two global marks for automatic alignment, to make sure the marker is visible, and the auto-align will run properly.
 
-(To be continued..)
+Anyway, the above all sound complicated and unnecessary, but all you are doing is just measuring and adding a bunch of vectors, and at most three layer of them. Should be totally manageable when you start tracking them with a spreadsheet and build up a picture in your head about how they add up from the global (0, 0) or the reference point you choose, to the location (e.g. chip center) or feature (e.g. the first global mark) you are looking for.
 
-
-- Mounting your chip
-    - front vs. back referenced
-    - height measurement (under uscope, in the tool with the LED)
-    - multiple chips
-- Locating your chip
-    - optical microscope / camera assistance
-    - using the SEM
 
 ## Alignment
 
+
+This is the fun part. This is probably the most fun and satisfying part of the beamwrite. Actually watching the ongoing exposure showing up on the SEM window is the most satisfying part (can't believe Raith 150-2 or voyager does not show that to you). But watching the automatic marker detection on both JEOL and EBPG are fun in different ways. The JEOL one makes you feel like a radar operator, and the EBPG one feels like firing a shotgun lol.
+
+
+Why do we need alignment? It's because you crazy people want to put down another layer of pattern that is within ~10 nm from one existing layer. And the existing layer could be off with some translation, rotation, and even stretched or sheared a bit. The way to tell the ebeam tool how your existing pattern is transformed, is to let the beam finds the actual location of a few markers, and compare them to the location in the cad (where they are supposed to be), and the tool will calculate how to shoot the second layer with the same transformation, that it will align with the first layer.
+
+
+Ok now you know what the markers are for, how do you choose the size, shape and location of your markers? 
+- Think about if you also want to use the marker for photolitho alignment, a nested marker might help with that. 
+- Learn what the tool allows, e.g. JEOL prefers crosshair style, and EBPG prefers a square. I remember recently (as of Oct. 2024) seeing EBPG will support more marker types soon (or already). 
+- Learn what locations the tool prefer, such as JEOL only accept PQRS style global markers at north, south, west and east of your chip, and M1, M2, M3, M4 style markers for chip marks (at four corners of a rectangle), and EBPG is four corners of a rectangle for both global marks and pattern marks. 
+- Try if you could use only three or two markers. One day you will have one marker missing or not usable for various reasons, and you'd still want to align to that chip instead of starting over from the previous layer.
+
+
+
+Now you got markers on the chip, how to let the tool finds them automatically?
+- For manual alignment, it is much more straight forward, just tell the tool where the markers are (in the `jdf` or `sdf` I no longer remember which one, or in the `cjob` for EBPG, either global marks or chip/pattern marks should work). 
+- For JEOL, you need someone to guide you through the magic spells like `MDRG`, `SETWFR`, `CHIPAL`, or dig into the manual, or play on the tool when you are waiting for the LL is pumping down. Going into these details are too much for here. They are really not that hard to figure out. It is a logical process
+    1. First adjust the scan parameters just like how you'd optimize the beam for a nice SEM image, gain (contrast) and offset (brightness) to get good SNR of a line scan on the arm of your marker. As well as where to scan on the arm (from the center of the crosshair) and width of the scan
+    2. Then you test the scan in `MDRG` as well as playing with number of scans, averages, do you want multiple scans on the same arm, how much spacing should they have etc. `CHIPAL` is the subprogram for the chip mark detection.
+    3. Then the `SETWFR` is for automatic detection of the global marks, where you could have a coarse scan first to look for the mark, and then a fine scan to get a more precise coordinates of it.
+- For EBPG, it is simpler or I have not dig into it as much as on JEOL. You pretty much only need the size and whether your mark is positive or negative, and then add it in your `cjob`.
+    - If you want manual marker detection because somehow the automatic did not work, use `JOY` type for the markers.
+
+A few comments before moving on
+- If you are putting down markers, it's good to also give them labels. Sometimes you just can't help but doubt yourself, am I on the correct marker?
+- Put down multiple sets of markers. Sometimes you'll just forget the marker would get exposed and damaged or destroyed in the following process. Sometimes some of them just did not come out properly from the previous process.
+- Use larger marker for global alignment. Always easier to find larger markers, and then let the tool fine tune on the smaller chip or pattern markers
+- By the way chip markers and pattern markers are the same thing, it is just JEOL calls them chip markers and EBPG calls them pattern markers
+
+
+
 ## Calibrations
 
+I already mentioned some of the calibrations in the section on ebeam specs. Maybe I'll just continue that discussion.
 
+There are mainly the following states that need to be good
+- properties of the beam: current/dose, size/focus, and position
+    - current: measured by the Faraday cup. If the tool is dumb like Raith voyager, you'd need to remember to manually ask the tool to automatically calculate the dwell time for your target dose
+    - size/focus: this will be covered in the calibration section. In short, it scans the beam off a marker or a sharp edge, and optimize the sharpness of the scan signal
+    - position: also more in the calibration section. The tool points the beam to existing markers, use the beam to find the marker position, and thus correcting where the beam is pointing.
+- position of the stage: measured with [laser inteferometers](https://www.ligo.caltech.edu/page/what-is-interferometer).
+- relative position between the stage and the beam: this is also called writefield stitching: the tool will move around the stage, and thus moving around a marker. The beam will then point around accordingly and look for the same marker, This links the position of where the stage is going and where the beam is going.
 
+I know better how JEOL does it, so I'll explain the JEOL calibration process in a bit more detail, and what you should pay attention to and adjust if needed.
 
+1. Beam focus: the beam will doa  line scan across a sharp edge, along both x and y direction, and stepping the focus. 
+    - You will see it outputs a table with rows being different focusing depth, and in the columns the measured beam size along x and y, and the overall beam size. For a reasonable beam, the optimal should be somewhere around the middle of all the rows since it intentionally starts above and finish below the optimal focus (or the other way around). If the optimal is near the top or bottom, that means it was very off before the calibration.
+    - If the beam size is larger than usual, it is usually because that sharp edge is getting scanned too much and getting dirty. You could (but usually not recommended) move the scanning position a bit (~100 nm) to a fresh spot.
 
-
+2. Beam deflection: the beam gets deflected towards a few different markers on a calibration sample with known coordinates, and line scans across their arms to find the coordinates.
 ![jeol_alignment_scan](/assets/images/2024/ebeam/20200615_LNSOI11/image67.jpg)
+    - This is how the scans look like. The first row includes raw signal of the x and y line scan. If you see flat lines with no noise, that means the signal is saturated, and the scan parameters need adjustment
+    - The second row is the derivative of the first row, with some smoothing
+    - No one (I do not) knows what the third row is. Likely some correlation stuff.
+    - The middle inset shows where the beam is deflecting within the writefield
+    - After this, the tool knows how to deflect the beam properly to hit a given coordinate
+
+3. Writefield alignment: very similar to the beam deflection calibration, but now the stage also moves
+    - You could watch the stage coordinates, as well as the middle inset. The beam will also look up, down, left, and right, and line scan to find the marker, but the stage will also move at the same time, so that the beam is looking at the same marker four times.
+    - After this, the tool knows where or how much to send the stage to a given coordinate
+
+
+Now the tool is calibrated, you have prepared your job (oops skipped this part, honestly not much else if you could find where to put your pattern, and where to find your alignment marks). It is time to send it, and watch some fresh errors you have never seen before!
+
+## Common errors
+
+I'm just going to make a list of stuff I could immediately think of
+- Exceed the DAC rate: EBPG should be able to catch this when you import your `GPF` file in the `cjob`. For JEOL you would need to run the `schd` on your `jdf` and `sdf` to let it check.
+- Height detection error: the tool use an LED at near-grazing angle onto the chip, and bounce it off onto a CCD to detect the height of the chip. It might miss the chip, or hit the clamp, or maybe your chip is transparent. Try shrink the size of your chip in the job file. Try paint the backside of your chip with sharpie (I've never done it myself), or disable the height check and go with the flow lol (esp. if you know that the pattern you are exposing is not critical).
+- Can't measure height at the marker: the chip might be too dirty near the marker, or the marker might be too close to the clamp or edge of the chip. Try unload, shift the chip a bit, and re-align and reload (if you have time). More likely you'll just skip this bad marker
+- Rotation angle is too big: if it is just a bit above the threshold the tool usually allow, AND you are sure if found the correct marker, you could adjust the threshold. There is a good chance it found the wrong marker, e.g., the one from a different set of markers. Double check with your own eyes on the SEM. If you just did a horrible job mounting the chip, take it out and redo it.
+- The most sacry errors are errors that do not show up as errors on the tool, including but not limited to:
+    - You messed up the extent or center of your pattern: if everything is smooth untill you developed the resist and found out everything is nicely off by a huge but same amount, it is likely the extent or center of your pattern got messed up during fracturing
+    - You made a typo in the center/offset for the pattern, or which holder to expose: non-zero probability this could happen especially for no alignment. Watch where the beam is on the cassette after you start the exposure
+    - You did not check the final output of the fracturing and messed up the layers, or the writefield path: you should always keep an eye on the pattern that is being exposed in the SEM window, at least for the beginning. You should know how it should look like, and notice if there is anything going wrong.
+
+Ok you've really been through a lot at this point, it is time to sit back, watch the beam going around in the SEM window, and relax a bit. When your exposure is ~ 5 min left, get your lazy ass off the chair and start preparing for the development. Good luck!
 
 
 
-- Alignment
-    - desired marks (materials, thickness, locations, reusability)
-    - how to find the marks (manual & auto, mark params, scan params)
+# Acknowledgements
+
+As I have been boasting about my ebeam litho experience this whole section, I also would like to mention where I got all these knowledge so that I still sound like a reasonable human being and thus you would still be happy to continue reading. My lab manager/advisor at Tsinghua IIIS helped me start my cleanroom experience with nearly infinite patience. And as mentioned above, I really appreciate that he insisted on making us operate every single valve, shutter, and setpoints manually, immensely helped me with understanding of the working principles of various cleanroom tools and components. During my time at Stanford, many many senior lab members and cleanroom staff guided me and answered many questions from me, as well as worked on documentations of the existing process and for the cleanroom tools.
+
+Lastly, I would like to say that even with all these years of experience, I am no where near of being an expert on ebeam tool or ebeam lithography. Although I routinely do things that normal users would be afraid to do or never thought of doing (which I enjoy a lot), my experience and knowledge would pale in comparison to the amount the field engineers or ebeam engineers have. They have been working with these tools for their whole career, and only if they were more active in perserving their knowledge... If your facility has an ebeam engineer that is talkative and senior, talk to them! Ask them to share their knowledge!
+
+# References
+
+## Lab resources
+1. Caltech KNI lab: [EBPG 5000+: 100 kV Electron Beam Lithography](https://lab.kni.caltech.edu/EBPG_5000%2B:_100_kV_Electron_Beam_Lithography)
+2. Stanford [EBL Practical Guide](https://drive.google.com/file/d/1QefNaVA8mRoXeRkXaiWEuVK5TIaO3ECp/view) ([backup](/assets/doc/2024/EBL Practical Guide-Feb 2024.pdf))
+3. BEAMER training from GenISys: [Webinar Series - BEAMER Training](https://www.genisys-gmbh.com/webinar-series-beamer-training.html)
+4. Yale Institute for Nanoscience and Quantum Engineering: [Electron-Beam Lithography Training](https://nano.yale.edu/electron-beam-lithography-training).
+5. The University of Manchester: [Raith: EBPG5200 100kV e-Beam Lithography System (aka Vistec)](https://research.manchester.ac.uk/en/equipments/raith-ebpg5200-100kv-e-beam-lithography-system-aka-vistec)
+5. [UPenn EBPG5200 SOP](https://wiki.nano.upenn.edu/wiki/images/0/0a/EBPG5200%2B_SOP.pdf)
+6. University of Delaware Nanofab [EBPG5200 SOP](https://bpb-us-w2.wpmucdn.com/sites.udel.edu/dist/9/3681/files/2016/11/EBPG5200_Operating-Procedure_03.pdf)
+
+## Training videos
+4. [JEOL JBX-9300FS EBL (1 of 2) - training video (Georgia Tech - Microelectronics Research Center)](https://www.youtube.com/watch?v=q8h5xYJX-_U)
+5. [JEOL JBX-9300FS EBL (2 of 2) - training video (Georgia Tech - Microelectronics Research Center)](https://www.youtube.com/watch?v=SQhP-k8iYWM)
 
 
-- feedback & optimization
-    - dose sweep
-- optimize your own workflow
-    - better estimation of the exposure time
-    - What is the bottleneck? What can be automated?
-- TBA...
+## Papers and books
+1. Altissimo, Matteo. "E-beam lithography for micro-/nanofabrication." Biomicrofluidics 4.2 (2010). [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2917861/)
+2. Chen, Yifang. "Nanofabrication by electron beam lithography and its applications: A review." Microelectronic Engineering 135 (2015): 57-72. [link](https://www.sciencedirect.com/science/article/abs/pii/S016793171500101X?via%3Dihub)
+3. Gilmour Jr, Alexander S., and A. S. Gilmour. Klystrons, traveling wave tubes, magnetrons, crossed-field amplifiers, and gyrotrons. Artech House, 2011.
+4. Rai-Choudhury, Prosenjit. Handbook of microlithography, micromachining, and microfabrication: microlithography. Vol. 39. SPIE press, 1997.
+5. Pfeiffer, Hans C. "Direct write electron beam lithography: a historical overview." Photomask Technology 2010. Vol. 7823. SPIE, 2010.
 
 
 
 
-
-# Appendix: a quick rundown of my ebeam lithography journey
+# Appendix: my ebeam lithography journey
 
 I will use this section to quickly go through the ebeam tool I have used in the past, and the things I like and hate the most about them. With SEMs of devices made with these tools! (so that you don't fall asleep) I will also look back at what different aspects of ebeam litho I focused on during different periods of time, as well as resists and chip/substrates I have used. These are the stuff I have the most experience on and could speak about.
 
@@ -465,34 +565,4 @@ I have been talking about the spreadsheets for logging the beamwrite sessions. I
 ![beamwrite_log_sheet.png](/assets/images/2024/beamwrite_log_sheet.png)
 *Log sheet I created for keeping track of beamwrites from me and the team. This is specifically for JEOL, but most of the parameters are relevant in general, and will make more sense as you read on.*
 
-## Acknowledgements
-
-As I have been boasting about my ebeam litho experience this whole section, I also would like to mention where I got all these knowledge so that I still sound like a reasonable human being and thus you would still be happy to continue reading. My lab manager/advisor at Tsinghua IIIS helped me start my cleanroom experience with nearly infinite patience. And as mentioned above, I really appreciate that he insisted on making us operate every single valve, shutter, and setpoints manually, immensely helped me with understanding of the working principles of various cleanroom tools and components. During my time at Stanford, many many senior lab members and cleanroom staff guided me and answered many questions from me, as well as worked on documentations of the existing process and for the cleanroom tools.
-
-Lastly, I would like to say that even with all these years of experience, I am no where near of being an expert on ebeam tool or ebeam lithography. Although I routinely do things that normal users would be afraid to do or never thought of doing (which I enjoy a lot), my experience and knowledge would pale in comparison to the amount the field engineers or ebeam engineers have. They have been working with these tools for their whole career, and only if they were more active in perserving their knowledge... If your facility has an ebeam engineer that is talkative and senior, talk to them! Ask them to share their knowledge!
-
-# References
-
-## Lab resources
-1. Caltech KNI lab: [EBPG 5000+: 100 kV Electron Beam Lithography](https://lab.kni.caltech.edu/EBPG_5000%2B:_100_kV_Electron_Beam_Lithography)
-2. Stanford [EBL Practical Guide](https://drive.google.com/file/d/1QefNaVA8mRoXeRkXaiWEuVK5TIaO3ECp/view) ([backup](/assets/doc/2024/EBL Practical Guide-Feb 2024.pdf))
-3. BEAMER training from GenISys: [Webinar Series - BEAMER Training](https://www.genisys-gmbh.com/webinar-series-beamer-training.html)
-4. Yale Institute for Nanoscience and Quantum Engineering: [Electron-Beam Lithography Training](https://nano.yale.edu/electron-beam-lithography-training).
-5. The University of Manchester: [Raith: EBPG5200 100kV e-Beam Lithography System (aka Vistec)](https://research.manchester.ac.uk/en/equipments/raith-ebpg5200-100kv-e-beam-lithography-system-aka-vistec)
-5. [UPenn EBPG5200 SOP](https://wiki.nano.upenn.edu/wiki/images/0/0a/EBPG5200%2B_SOP.pdf)
-6. University of Delaware Nanofab [EBPG5200 SOP](https://bpb-us-w2.wpmucdn.com/sites.udel.edu/dist/9/3681/files/2016/11/EBPG5200_Operating-Procedure_03.pdf)
-
-## Training videos
-4. [JEOL JBX-9300FS EBL (1 of 2) - training video (Georgia Tech - Microelectronics Research Center)](https://www.youtube.com/watch?v=q8h5xYJX-_U)
-5. [JEOL JBX-9300FS EBL (2 of 2) - training video (Georgia Tech - Microelectronics Research Center)](https://www.youtube.com/watch?v=SQhP-k8iYWM)
-
-
-## Papers and books
-1. Altissimo, Matteo. "E-beam lithography for micro-/nanofabrication." Biomicrofluidics 4.2 (2010). [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2917861/)
-2. Chen, Yifang. "Nanofabrication by electron beam lithography and its applications: A review." Microelectronic Engineering 135 (2015): 57-72. [link](https://www.sciencedirect.com/science/article/abs/pii/S016793171500101X?via%3Dihub)
-3. Gilmour Jr, Alexander S., and A. S. Gilmour. Klystrons, traveling wave tubes, magnetrons, crossed-field amplifiers, and gyrotrons. Artech House, 2011.
-4. Rai-Choudhury, Prosenjit. Handbook of microlithography, micromachining, and microfabrication: microlithography. Vol. 39. SPIE press, 1997.
-5. Pfeiffer, Hans C. "Direct write electron beam lithography: a historical overview." Photomask Technology 2010. Vol. 7823. SPIE, 2010.
-
-
-(This post is started on 2024-08-15, and finished on TBA. Last updated on TBA.)
+(This post is started on 2024-08-15, and finished on 2024-10-15. Last updated on 2024-10-15.)
