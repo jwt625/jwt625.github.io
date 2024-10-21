@@ -220,4 +220,10 @@ var store = [{
         "tags": ["Nanofab","Lithography","Electron"],
         "url": "/tutorial/yapping-on-ebeam-lithography/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#17)",
+        "excerpt":"Microwaving grapes touching each other could generate plasma, and it still works after shrinking both the grape and the microwave by ~10000x. If you have a fs laser, you can use this effect to cut a trench that is almost 100x smaller than the laser wavelength. Nanoscale reshaping of resonant...","categories": ["OFS"],
+        "tags": ["Microwave","Nanofab","Laser","Light_guide","TIA","Preamp","Quantum","Packaging","Antenna","Stretchable","Strain","Stress","LED","MicroLED","Electrocaloric","Wireless_charing","Heavy_metal","Robotics","Magnetics","Quadruped_robot"],
+        "url": "/ofs/weekly-OFS-17/",
+        "teaser": null
       }]

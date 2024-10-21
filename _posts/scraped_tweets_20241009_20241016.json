@@ -1,0 +1,847 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1844188369871569110",
+        "tweets": [
+            {
+                "text": "Microwaving grapes touching each other could generate plasma, and it still works after shrinking both the grape and the microwave by ~10000x. If you have a fs laser, you can use this effect to cut a trench that is almost 100x smaller than the laser wavelength.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZfdjcmaAAQOZLg?format=jpg",
+                        "local_path": "media\\20241010_012905_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZfd0YzaoAA4Hbj?format=jpg",
+                        "local_path": "media\\20241010_012905_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZfeL6vaAAIBA-h?format=jpg",
+                        "local_path": "media\\20241010_012905_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-10T01:29:05+00:00"
+            },
+            {
+                "text": "Nanoscale reshaping of resonant dielectric microstructures by light-driven explosions",
+                "media": [],
+                "timestamp": "2024-10-10T01:29:58+00:00"
+            },
+            {
+                "text": "Damn you have a fs laser?",
+                "media": [],
+                "timestamp": "2024-10-10T01:41:30+00:00"
+            },
+            {
+                "text": "Basically, plus using geometry of the dielectrics to concentrate and confine it. The main point they are trying to show is you can pattern features much smaller than wavelength",
+                "media": [],
+                "timestamp": "2024-10-10T14:32:29+00:00"
+            },
+            {
+                "text": "It will probably be very niche since it relies on the object being processed to have specific shapes",
+                "media": [],
+                "timestamp": "2024-10-10T18:21:04+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1844392951834948042",
+        "tweets": [
+            {
+                "text": "oomf pointed me to Hadron-Calorimeter (HCAL) from Jefferson Lab, and they have amazing details of light guide design, manufacturing, and testing, including how and why they choose the methods for cutting, bending, and polishing etc., to reduce man-hour for making 24,000 of them.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZiY0yWaAAMAnAT?format=jpg",
+                        "local_path": "media\\20241009_061018_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZiY-CKaAAc0fnq?format=jpg",
+                        "local_path": "media\\20241009_061018_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZiZFAFbYAA5WSh?format=jpg",
+                        "local_path": "media\\20241009_061018_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZiZl8mbAAAoa-q?format=jpg",
+                        "local_path": "media\\20241009_061018_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbU58cboAAfXQP?format=png",
+                        "local_path": "media\\20241009_061018_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbVO4Lb0AALFej?format=png",
+                        "local_path": "media\\20241009_061018_5.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbVQKSaAAAS8px?format=png",
+                        "local_path": "media\\20241009_061018_6.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbVRpVasAASgRU?format=png",
+                        "local_path": "media\\20241009_061018_7.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-09T06:10:18+00:00"
+            },
+            {
+                "text": "Ffrom https://hallaweb.jlab.org/wiki/index.php/HCAL_Reports/Updates…\nand\nhttps://hallaweb.jlab.org/12GeV/SuperBigBite/SBS-minutes/2014/HCALJ%20Status%20Oct%202014%20gbf.pdf…\nhttps://hallaweb.jlab.org/12GeV/SuperBigBite/SBS-minutes/2014/HCALJ_Update_Aug_2014.pdf…\nSolvent welding sounds so fun and probably some of the easiest for messing around at home.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZiZ5HxaAAAXSco?format=jpg",
+                        "local_path": "media\\20241010_150702_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZiaIlwbQAATZeu?format=jpg",
+                        "local_path": "media\\20241010_150702_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZiaXKmaAAYDZkd?format=jpg",
+                        "local_path": "media\\20241010_150702_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZiaiHsbsAABq5d?format=jpg",
+                        "local_path": "media\\20241010_150702_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-10T15:07:02+00:00"
+            },
+            {
+                "text": "More numbers, from\nhttps://hallaweb.jlab.org/12GeV/SuperBigBite/meetings/Collab-meeting-6-13/talks/franklin%20HCAL%20Jun%202013.pdf…\nCMU students? Skilled labors!",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZibpVAbAAAkc9F?format=jpg",
+                        "local_path": "media\\20241010_151110_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZibqVBbYAAiJBn?format=jpg",
+                        "local_path": "media\\20241010_151110_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZibrLKaQAA6ai-?format=jpg",
+                        "local_path": "media\\20241010_151110_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZibsGxa8AAM89C?format=png",
+                        "local_path": "media\\20241010_151110_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-10T15:11:10+00:00"
+            },
+            {
+                "text": "Thanks! Yeah it’s the best option for them",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZimzr0WgA0Wbcv?format=jpg",
+                        "local_path": "media\\20241010_160008_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-10T16:00:08+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1844592217152975249",
+        "tweets": [
+            {
+                "text": "Just ran into another one with schematics on enclosure",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZlIOGQaAAIqfe8?format=jpg",
+                        "local_path": "media\\20241011_034514_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GT7ko_xXUAAfJgW?format=jpg",
+                        "local_path": "media\\20241011_034514_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-11T03:45:14+00:00"
+            },
+            {
+                "text": "From IEEE 2023 QC-DCEP, Quantum Computing with Silicon Spins\nhttps://attend.ieee.org/qc-dcep/wp-content/uploads/sites/561/03Zumbuhl.pdf…",
+                "media": [],
+                "timestamp": "2024-10-11T03:46:04+00:00"
+            },
+            {
+                "text": "See more from this workshop at https://attend.ieee.org/qc-dcep/program/…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZlNesgaAAQwM-G?format=jpg",
+                        "local_path": "media\\20241011_041350_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZlOOt6bwAAbXfk?format=jpg",
+                        "local_path": "media\\20241011_041350_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZlOwIlagAAvV3M?format=jpg",
+                        "local_path": "media\\20241011_041350_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZlO1T8boAAGQfr?format=jpg",
+                        "local_path": "media\\20241011_041350_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-11T04:13:50+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1844596149325623301",
+        "tweets": [
+            {
+                "text": "If you are into electronics (and photonics etc.) packaging, IEEE has an Elecronics Packaging Society, and you can read and watch slides and videos from past technical meetings, like how to make good glass by corning, quantum computing, photonic wirebonds, and x-ray imaging etc.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZlRxunaAAIiu2N?format=jpg",
+                        "local_path": "media\\20241011_042927_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZlR3bgaAAA4Md8?format=jpg",
+                        "local_path": "media\\20241011_042927_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZlR-1hbkAAdNUM?format=jpg",
+                        "local_path": "media\\20241011_042927_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZlSJotbEAAfzDR?format=jpg",
+                        "local_path": "media\\20241011_042927_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-11T04:29:27+00:00"
+            },
+            {
+                "text": "IEEE Elecronics Packaging Society Silicon Valley Area Chapter:\nhttps://r6.ieee.org/scv-eps/?page_id=1303…\nFig. 1: https://r6.ieee.org/scv-eps/wp-content/uploads/sites/58/2023/03/eps2305a.pdf…\nFig. 2: https://attend.ieee.org/qc-dcep/wp-content/uploads/sites/561/02spendier.pdf…\nFig. 3: https://r6.ieee.org/scv-eps/wp-content/uploads/sites/58/2023/09/2310a.pdf…\nFig. 4: https://r6.ieee.org/scv-eps/wp-content/uploads/sites/58/2024/06/2407a.pdf…",
+                "media": [],
+                "timestamp": "2024-10-11T04:30:46+00:00"
+            },
+            {
+                "text": "Yeah using two-photon polymerization/direct write. They’ve been around for a few years and getting better",
+                "media": [],
+                "timestamp": "2024-10-12T19:16:29+00:00"
+            },
+            {
+                "text": "Yeah the most brute force “waveguide” polarization splitter I’ve seen so far",
+                "media": [],
+                "timestamp": "2024-10-11T14:32:07+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1844583054972797034",
+        "tweets": [
+            {
+                "text": "Stretchable antenna is a thing, for both single antennas and phased arrays. Could be used for remote strain sensing, antenna frequency tuning, integrating with other flexible electronics etc.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZlF92caIAAG1zU?format=jpg",
+                        "local_path": "media\\20241011_033725_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZlGCKmbUAAiYnE?format=jpg",
+                        "local_path": "media\\20241011_033725_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZlGXowaAAAbsAM?format=jpg",
+                        "local_path": "media\\20241011_033725_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZlGbAtbsAA3YIU?format=jpg",
+                        "local_path": "media\\20241011_033725_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-11T03:37:25+00:00"
+            },
+            {
+                "text": "Fig. 1-2: Recent Development of Flexible & Stretchable Antennas for Bio-Integrated Electronics\nhttps://mdpi.com/1424-8220/18/12/4364…\nFig. 3-4: A Flexible Conformal Phased Array With Embedded Magnetic Particles Based Composite Right/Left Handed Metamaterial Phase Shifter\nhttps://doi.org/10.1109/ACCESS.2024.3452185…",
+                "media": [],
+                "timestamp": "2024-10-11T03:39:20+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1845131774835425770",
+        "tweets": [
+            {
+                "text": "I ran into a paper using a \"Brazil-nut-sandwitch\" setup, and made me wonder why it's called that. Turns out it is more commonly refered to as Brazilian test, and originated from a Brazilian civil engineer trying to move a church with concrete rollers instead of steel.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZs4ktgbEAAzoq1?format=png",
+                        "local_path": "media\\20241012_155750_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZs4xDzbkAAzoO-?format=png",
+                        "local_path": "media\\20241012_155750_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZs49BZaAAExTK7?format=jpg",
+                        "local_path": "media\\20241012_155750_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZs5M9ObwAAI6VE?format=jpg",
+                        "local_path": "media\\20241012_155750_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-12T15:57:50+00:00"
+            },
+            {
+                "text": "Fig. 1: Experimental determination of interfacial toughness curves using Brazil-nut-sandwiches\nhttps://web-static-aws.seas.harvard.edu/suo/papers/008.pdf…\nFig. 2: https://geoengineer.org/education/laboratory-testing/splitting-tensile-strength-test-brazilian…\nFig. 3-4: https://youtube.com/watch?v=ken3oJu_vpM&ab_channel=AmericanConcreteInstitute…",
+                "media": [],
+                "timestamp": "2024-10-12T15:59:27+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1845203564593103168",
+        "tweets": [
+            {
+                "text": "I had no idea LEDs now can be made subwavelength size. Their motivation is for structured illumination, but all I could think about is how to make them coherent and into a phased array.\nThey also have insane current and power density, a few kA/cm^2 & kW/cm^2, that's x1e4 sunlight",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt5Wc-a0AAebBP?format=jpg",
+                        "local_path": "media\\20241012_204306_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt5YU8a8AA3pgr?format=jpg",
+                        "local_path": "media\\20241012_204306_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt5akZaAAAYOzc?format=jpg",
+                        "local_path": "media\\20241012_204306_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt5cwvaUAA5V1y?format=jpg",
+                        "local_path": "media\\20241012_204306_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-12T20:43:06+00:00"
+            },
+            {
+                "text": "Directly addressable GaN-based nano-LED arrays: fabrication and electro-optical characterization",
+                "media": [],
+                "timestamp": "2024-10-12T20:43:39+00:00"
+            },
+            {
+                "text": "Found this paper through a recent review paper on microLED: MicroLED arrays—A perspective beyond displays",
+                "media": [],
+                "timestamp": "2024-10-12T20:44:34+00:00"
+            },
+            {
+                "text": "The nanoLED paper also used an interesting technique, because the LEDs are too small for optical microscope. It is called electron beam induced current (EBIC). It's fascinating how efficient a single high eV electron could get converted to many low eV ones\nhttps://doi.org/10.1109/IRPS.1977.362773…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt7t3aaAAEFDPR?format=jpg",
+                        "local_path": "media\\20241012_204959_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt72urbIAA9KXn?format=png",
+                        "local_path": "media\\20241012_204959_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt8b8gaAAADLA_?format=png",
+                        "local_path": "media\\20241012_204959_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-12T20:49:59+00:00"
+            },
+            {
+                "text": "The nanoLED also reminded me of Chu's limit on gain and bandwidth of small and passive antennas. Worth a read if you work with antennas.\nPhysical Limitations of Omni‐Directional Antennas\nhttps://doi.org/10.1063/1.1715038…\n(also a free version with horrible format: https://dspace.mit.edu/bitstream/handle/1721.1/4984/RLE-TR-064-04706975.pdf…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt9BEjaAAAxfWO?format=jpg",
+                        "local_path": "media\\20241012_205418_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt9X8PaAAAhuJ1?format=png",
+                        "local_path": "media\\20241012_205418_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt9aWQaAAA3LqM?format=png",
+                        "local_path": "media\\20241012_205418_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-12T20:54:18+00:00"
+            },
+            {
+                "text": "In principle yes. In practice making the pixels separately addressable is harder when it gets smaller, and they have to change the growth process to make things thinner for etching and refilling. Transfering from sapphire to cmos is another thing that that paper did not address.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZu-qt7aQAAS-6V?format=jpg",
+                        "local_path": "media\\20241013_014039_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-13T01:40:39+00:00"
+            },
+            {
+                "text": "The nanoLED paper also used an interesting technique, because the LEDs are too small for optical microscope. It is called electron beam induced current (EBIC). It's fascinating how efficient a single high eV electron could get converted to many low eV ones\nhttps://doi.org/10.1109/IRPS.1977.362773…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt7t3aaAAEFDPR?format=jpg",
+                        "local_path": "media\\20241012_204959_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt72urbIAA9KXn?format=png",
+                        "local_path": "media\\20241012_204959_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt8b8gaAAADLA_?format=png",
+                        "local_path": "media\\20241012_204959_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-12T20:49:59+00:00"
+            },
+            {
+                "text": "The nanoLED also reminded me of Chu's limit on gain and bandwidth of small and passive antennas. Worth a read if you work with antennas.\nPhysical Limitations of Omni‐Directional Antennas\nhttps://doi.org/10.1063/1.1715038…\n(also a free version with horrible format: https://dspace.mit.edu/bitstream/handle/1721.1/4984/RLE-TR-064-04706975.pdf…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt9BEjaAAAxfWO?format=jpg",
+                        "local_path": "media\\20241012_205418_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt9X8PaAAAhuJ1?format=png",
+                        "local_path": "media\\20241012_205418_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZt9aWQaAAA3LqM?format=png",
+                        "local_path": "media\\20241012_205418_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-12T20:54:18+00:00"
+            },
+            {
+                "text": "In principle yes. In practice making the pixels separately addressable is harder when it gets smaller, and they have to change the growth process to make things thinner for etching and refilling. Transfering from sapphire to cmos is another thing that that paper did not address.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZu-qt7aQAAS-6V?format=jpg",
+                        "local_path": "media\\20241013_014039_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-13T01:40:39+00:00"
+            },
+            {
+                "text": "Yes there are companies trying to do this for short range comm\nhttps://avicena.tech",
+                "media": [],
+                "timestamp": "2024-10-13T16:56:40+00:00"
+            },
+            {
+                "text": "Pretty common in academic cleanrooms, not sure about in LED industry",
+                "media": [],
+                "timestamp": "2024-10-13T20:16:01+00:00"
+            },
+            {
+                "text": "Totally. Maybe not for CW operation",
+                "media": [],
+                "timestamp": "2024-10-13T14:52:49+00:00"
+            },
+            {
+                "text": "For sure they’ll need feedback to be coherent (pretty much becoming a laser/vcsel ) and also injection locking to each other",
+                "media": [],
+                "timestamp": "2024-10-13T18:00:44+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1845319184743530991",
+        "tweets": [
+            {
+                "text": "My whole life has been a lie. Microwave oven is not hitting any water resonances.\n(gf heated up honey melon with microwave so I was thinking about if we could do sideband cooling on water so that I don't need to wait for it to cooldown in the fridge. It does have resonances in IR",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZvhwyiaAAA3qTF?format=png",
+                        "local_path": "media\\20241013_042232_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZviCu3bEAAmIei?format=jpg",
+                        "local_path": "media\\20241013_042232_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZvjgx-bwAAhp2M?format=png",
+                        "local_path": "media\\20241013_042232_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZvjiY-aAAMKbeW?format=png",
+                        "local_path": "media\\20241013_042232_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-13T04:22:32+00:00"
+            },
+            {
+                "text": "See also\nhttps://wtamu.edu/~cbaird/sq/2014/10/15/why-are-the-microwaves-in-a-microwave-oven-tuned-to-water/…\nFig. 1-2: Electromagnetics Explained, Ron Schmitt, 2002\nFig. 3-4: The complex refractive index of water, Segelstein1981\nhttps://mospace.umsystem.edu/xmlui/handle/10355/11599…",
+                "media": [],
+                "timestamp": "2024-10-13T04:24:58+00:00"
+            },
+            {
+                "text": "Clarification: it is still lossy (absorbs the microwave), it is just there is no resonance.\ni.e., you could totally make a microwave oven at 500 MHz or 10 GHz to make it bigger and heat up more food at the same time, or more portable.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZvmwQmaAAMYwyp?format=png",
+                        "local_path": "media\\20241013_043549_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZvm0skaAAEvA1c?format=png",
+                        "local_path": "media\\20241013_043549_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-13T04:35:49+00:00"
+            },
+            {
+                "text": "In hindsight this is more obvious, vibrational and rotational modes are in THz to IR. Lower frequency dissipations should be \"rigid body\" motion of the water molecule.\nThere is still a way, if I keep my food under E field ~GV/m, it should cool from adiabatic depolarization lol.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZwI2p0aAAAwnB-?format=jpg",
+                        "local_path": "media\\20241013_070451_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-13T07:04:51+00:00"
+            },
+            {
+                "text": "Seems like those are in the IR (2~4 um, in the last figure above). At GHz (~ 0.1 cm^-1), it looks very smooth.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZvlorOa0AAvv-k?format=png",
+                        "local_path": "media\\20241013_043004_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-13T04:30:04+00:00"
+            },
+            {
+                "text": "Haha I know I know. Reality of the macro world is too nasty",
+                "media": [],
+                "timestamp": "2024-10-14T00:51:39+00:00"
+            },
+            {
+                "text": "My whole life has been a lie. Microwave oven is not hitting any water resonances.\n(gf heated up honey melon with microwave so I was thinking about if we could do sideband cooling on water so that I don't need to wait for it to cooldown in the fridge. It does have resonances in IR",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZvhwyiaAAA3qTF?format=png",
+                        "local_path": "media\\20241013_042232_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZviCu3bEAAmIei?format=jpg",
+                        "local_path": "media\\20241013_042232_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZvjgx-bwAAhp2M?format=png",
+                        "local_path": "media\\20241013_042232_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZvjiY-aAAMKbeW?format=png",
+                        "local_path": "media\\20241013_042232_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-13T04:22:32+00:00"
+            },
+            {
+                "text": "“Excited” is definitely often used to describe transitions between the rotational and vibrational levels. Resonance could loosely refer to all kinds of harmonic oscillations, including these modes. What I’m trying to clarify is these levels are far from microwave frequencies",
+                "media": [],
+                "timestamp": "2024-10-14T01:49:58+00:00"
+            },
+            {
+                "text": "Correct. The point is that is \"rigid body\" motion of the water molecules, not degrees of freedom within the molecules.",
+                "media": [],
+                "timestamp": "2024-10-14T03:09:03+00:00"
+            },
+            {
+                "text": "From this table here I'm getting penetration depth L = lambda/(4pi k) ~ 16 cm, not bad",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZvmwQmaAAMYwyp?format=png",
+                        "local_path": "media\\20241014_001953_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZvm0skaAAEvA1c?format=png",
+                        "local_path": "media\\20241014_001953_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-14T00:19:53+00:00"
+            },
+            {
+                "text": "Finally someone who gets it and explains it better than I did.",
+                "media": [],
+                "timestamp": "2024-10-14T06:28:48+00:00"
+            },
+            {
+                "text": "Pretty much yes. Water molecules are doing rigid body rotations, and that is broadband and there’s no resonant mode",
+                "media": [],
+                "timestamp": "2024-10-13T14:44:29+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1845487725694325107",
+        "tweets": [
+            {
+                "text": "Btw this is totally doable for ceramics that are ~1000x more polarizable than water. A multilayer ceramic capacitor (MLCC) with ~10 um layers only need ~100 V.\nThis is called electrocaloric cooling, and recent papers have showed T diff of 13 C and heat flux of ~100 mW/cm^2.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZx8LlMawAAQMq1?format=jpg",
+                        "local_path": "media\\20241013_070451_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZx8UjZagAAkpA4?format=jpg",
+                        "local_path": "media\\20241013_070451_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZx8lfKbkAA_G2c?format=jpg",
+                        "local_path": "media\\20241013_070451_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZx8qAVbEAEK4gU?format=jpg",
+                        "local_path": "media\\20241013_070451_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZwI2p0aAAAwnB-?format=jpg",
+                        "local_path": "media\\20241013_070451_4.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-13T07:04:51+00:00"
+            },
+            {
+                "text": "I used to be confused about how they cycle the heat out. They showed you can do it mechanically, moving heat along a chain of MLCC (fig. 1-3), or use fluid (fig. 4)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZx-OWgbQAA6iuX?format=jpg",
+                        "local_path": "media\\20241013_153837_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZx-PUlaAAA1_Gb?format=jpg",
+                        "local_path": "media\\20241013_153837_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZx-s1Ga4AAwD6s?format=jpg",
+                        "local_path": "media\\20241013_153837_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZx-tiBaoAA0xi1?format=jpg",
+                        "local_path": "media\\20241013_153837_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GX-E1fdaUAIExnS?format=jpg",
+                        "local_path": "media\\20241013_153837_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GX-FhhQaUAUblVr?format=jpg",
+                        "local_path": "media\\20241013_153837_5.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GX-FisobQAAByPM?format=jpg",
+                        "local_path": "media\\20241013_153837_6.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GX-FlCqaUAAMc4v?format=jpg",
+                        "local_path": "media\\20241013_153837_7.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-13T15:38:37+00:00"
+            },
+            {
+                "text": "Paper 1: A high-performance solid-state electrocaloric cooling system\nhttps://doi.org/10.1126/science.aba2648…\nPaper 2: Giant temperature span in electrocaloric regenerator",
+                "media": [],
+                "timestamp": "2024-10-13T15:39:24+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1846390003347382358",
+        "tweets": [
+            {
+                "text": "Reminds me of this paper where they made a whole room into a ~1 MHz resonator for wireless charging, receivers with ~50% efficiency, safe for human ~> 100 W input power, and showed a furnished room with wirelessly powered lamp, fan, and phone charger.\nWhat can I say, I want both!",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZ-wWCKbwAAQapm?format=jpg",
+                        "local_path": "media\\20241015_205043_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZ-wgTtbEAAlUem?format=jpg",
+                        "local_path": "media\\20241015_205043_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZ-xM6pbAAAI9Bu?format=jpg",
+                        "local_path": "media\\20241015_205043_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZ-xcuXbkAAkMUA?format=jpg",
+                        "local_path": "media\\20241015_205043_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZ9ZX-AWcAAyTQz?format=jpg",
+                        "local_path": "media\\20241015_205043_4.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-15T20:50:43+00:00"
+            },
+            {
+                "text": "Sasatani2021: Room-scale magnetoquasistatic wireless power transfer using a cavity-based multimode resonator",
+                "media": [],
+                "timestamp": "2024-10-16T03:18:29+00:00"
+            },
+            {
+                "text": "Nice! I’ve seen some swarm robotics stuff and they are super cool. Efficiency still depends on size of the receiver, but it really sounds like the right application.",
+                "media": [],
+                "timestamp": "2024-10-16T19:51:18+00:00"
+            },
+            {
+                "text": "Literally the whole house is vibing",
+                "media": [],
+                "timestamp": "2024-10-17T03:05:38+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2024-10-16T21:27:54+00:00"
+            },
+            {
+                "text": "Literally the whole house is vibing",
+                "media": [],
+                "timestamp": "2024-10-17T03:05:38+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2024-10-16T21:27:54+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1846449642810282404",
+        "tweets": [
+            {
+                "text": "Lol how to get your heavy metal concert ticket reimbursed.\nThose mosh pits and circle pits videos are actually amazing.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZ_nOLabUAAq8ah?format=jpg",
+                        "local_path": "media\\20241016_071434_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZ_nQ2Tb0AA50oT?format=png",
+                        "local_path": "media\\20241016_071434_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZ_nhf6b0AIddKQ?format=png",
+                        "local_path": "media\\20241016_071434_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZ_n0gqb0AEaEIa?format=png",
+                        "local_path": "media\\20241016_071434_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-16T07:14:34+00:00"
+            },
+            {
+                "text": "Silverberg2013: Collective Motion of Humans in Mosh and Circle Pits at Heavy Metal Concerts",
+                "media": [],
+                "timestamp": "2024-10-16T07:15:23+00:00"
+            },
+            {
+                "text": "The videos they cited:\nhttps://youtube.com/watch?v=5jKU7gdxncE&ab_channel=ChaChaChaChiehya…\nhttps://youtube.com/watch?v=qkbOyg3NOiE&ab_channel=shrek2k04…\nhttps://youtube.com/watch?v=o7w7m4lb2ok&ab_channel=sgtOOX…\nhttps://youtube.com/watch?v=l6R7PiISaZw&ab_channel=ilovethepoon…",
+                "media": [],
+                "timestamp": "2024-10-16T07:16:29+00:00"
+            },
+            {
+                "text": "Would you join me as active MASHers (mobile active simulated humanoid) on this simulated heavy metal concert on a torus?\n(it got periodic boundary conditions)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1846451525255942146/pu/img/Ek5oK_ELwEPpWFjF.jpg",
+                        "local_path": "media\\20241016_072540_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1846451537398452225/pu/img/k7_zyrBI_iIKdOsk.jpg",
+                        "local_path": "media\\20241016_072540_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1846451544881004544/pu/img/CmehN_LHhwh_ap6T.jpg",
+                        "local_path": "media\\20241016_072540_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-16T07:25:40+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1846455675221954632",
+        "tweets": [
+            {
+                "text": "ugh I remember seeing similar work in PRL (group of mech mice pushing a boundary around), can't find it...",
+                "media": [],
+                "timestamp": "2024-07-07T05:01:32+00:00"
+            },
+            {
+                "text": "I found a very similar one!\nIt was in science robotics not PRL. It's almost the same as I remembered, maybe my memory was wrong...\nBoudet2021: From collections of independent, mindless robots to flexible, mobile, and directional superstructures\nhttps://science.org/doi/10.1126/scirobotics.abd0272…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1846455492056698880/pu/img/ieZSGD9rNHEkjQ9f.jpg",
+                        "local_path": "media\\20241016_073833_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-16T07:38:33+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1846797721682039060",
+        "tweets": [
+            {
+                "text": "I just got mine today, and the color looks amazing, although it changes with lighting a bit.\nIt uses MTX (magnetically color-tunable photonic crystal material) or magnetic multi-granule nanoclusters (MGNCs) from Nanobrick, and the product is called MX-Film.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GaEZrHyb0AUs3Eg?format=jpg",
+                        "local_path": "media\\20241014_184725_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaEbK9Ib0AARcew?format=jpg",
+                        "local_path": "media\\20241014_184725_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1846797152556929025/pu/img/B3HrTgx4hR_Y2xr5.jpg",
+                        "local_path": "media\\20241014_184725_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZ3zjr2b0AIMHcB?format=jpg",
+                        "local_path": "media\\20241014_184725_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-14T18:47:25+00:00"
+            },
+            {
+                "text": "Nanobrick & MTX: https://nanobrick.co.kr/en/technology_en/nano/mtx…\nVideos:\nhttps://youtube.com/watch?v=ELHzJjWOzo4…\nhttps://youtube.com/watch?v=0y7GTnENXvc…\nhttps://youtube.com/watch?v=bCvb7dHDPws…\nSpecs of MX-film:\nhttps://magnetshop.com/documents/MagX_Tech_Info.pdf…\nPaper Lee2015: Magnetic multi-granule nanoclusters\nhttps://nature.com/articles/srep12135…\nAnd a patent:",
+                "media": [],
+                "timestamp": "2024-10-17T06:20:44+00:00"
+            },
+            {
+                "text": "Looks like the case from their gif, or could be different nanoparticles align at different fields and scatter different colors.",
+                "media": [],
+                "timestamp": "2024-10-17T06:23:40+00:00"
+            },
+            {
+                "text": "The size of a bit there is a few um, so probably yes if you can get the film real thin and real close",
+                "media": [],
+                "timestamp": "2024-10-17T23:17:28+00:00"
+            },
+            {
+                "text": "Structural color is always so sick",
+                "media": [],
+                "timestamp": "2024-10-17T21:44:15+00:00"
+            },
+            {
+                "text": "Nanobrick & MTX: https://nanobrick.co.kr/en/technology_en/nano/mtx…\nVideos:\nhttps://youtube.com/watch?v=ELHzJjWOzo4…\nhttps://youtube.com/watch?v=0y7GTnENXvc…\nhttps://youtube.com/watch?v=bCvb7dHDPws…\nSpecs of MX-film:\nhttps://magnetshop.com/documents/MagX_Tech_Info.pdf…\nPaper Lee2015: Magnetic multi-granule nanoclusters\nhttps://nature.com/articles/srep12135…\nAnd a patent:",
+                "media": [],
+                "timestamp": "2024-10-17T06:20:44+00:00"
+            },
+            {
+                "text": "Looks like the case from their gif, or could be different nanoparticles align at different fields and scatter different colors.",
+                "media": [],
+                "timestamp": "2024-10-17T06:23:40+00:00"
+            },
+            {
+                "text": "The size of a bit there is a few um, so probably yes if you can get the film real thin and real close",
+                "media": [],
+                "timestamp": "2024-10-17T23:17:28+00:00"
+            },
+            {
+                "text": "Structural color is always so sick",
+                "media": [],
+                "timestamp": "2024-10-17T21:44:15+00:00"
+            }
+        ]
+    }
+]
