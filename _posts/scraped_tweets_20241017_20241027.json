@@ -1,0 +1,906 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1846943664016335093",
+        "tweets": [
+            {
+                "text": "Showing this to my friends who would yell at me for accidentally leaning on their optical table:\nMenlo Systems dropped their optical frequency comb system in a 110 m drop tower to test operation in microgravity, and onto a tank of foam to show it's shock proven up to 41.5 g.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GaGnc2Pb0AEF48X?format=jpg",
+                        "local_path": "media\\20241017_155738_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaGnlFVb0AEhw2p?format=jpg",
+                        "local_path": "media\\20241017_155738_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaGnoava0AEE4i_?format=jpg",
+                        "local_path": "media\\20241017_155738_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaGnudCb0AE70Bp?format=png",
+                        "local_path": "media\\20241017_155738_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-17T15:57:38+00:00"
+            },
+            {
+                "text": "World’s First Optical Frequency Comb in Microgravity Environment:\nhttps://menlosystems.com/applications/notes/view/2561…\nAlso a video:",
+                "media": [],
+                "timestamp": "2024-10-17T15:58:36+00:00"
+            },
+            {
+                "text": "A whole instrument rack shoved into the body of an ICBM  (kind of)",
+                "media": [],
+                "timestamp": "2024-10-17T18:55:28+00:00"
+            },
+            {
+                "text": "They’ve been around for a while and mostly in expensive experiments and metrology systems. There are on-chip combs now and startups (like https://xscapephotonics.com) trying to use them",
+                "media": [],
+                "timestamp": "2024-10-17T20:09:30+00:00"
+            },
+            {
+                "text": "Nice! I wonder how they price it lol. Per drop? Per day?",
+                "media": [],
+                "timestamp": "2024-10-17T20:12:00+00:00"
+            },
+            {
+                "text": "Damn, sounds noisy af",
+                "media": [],
+                "timestamp": "2024-10-17T20:10:30+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1847091285687259326",
+        "tweets": [
+            {
+                "text": "The drop tower itself is pretty sick too. It also has a catapult system that could bounce your payload around almost 1000 times a day.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GaItzgsboAAujAD?format=jpg",
+                        "local_path": "media\\20241017_155738_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaIvHfMbsAAWQG5?format=jpg",
+                        "local_path": "media\\20241017_155738_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaIvdI4b0AED3pV?format=jpg",
+                        "local_path": "media\\20241017_155738_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaIvlgab0AE_xZI?format=jpg",
+                        "local_path": "media\\20241017_155738_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaGnc2Pb0AEF48X?format=jpg",
+                        "local_path": "media\\20241017_155738_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaGnlFVb0AEhw2p?format=jpg",
+                        "local_path": "media\\20241017_155738_5.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaGnoava0AEE4i_?format=jpg",
+                        "local_path": "media\\20241017_155738_6.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaGnudCb0AE70Bp?format=png",
+                        "local_path": "media\\20241017_155738_7.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-17T15:57:38+00:00"
+            },
+            {
+                "text": "ZARM & Bremen Drop Tower:\nhttps://zarm.uni-bremen.de/en/drop-tower/general-information.html…\nA webinar from 2023:\nhttps://unoosa.org/documents/pdf/Access2Space4All/DropTES/9thRound/ZARM_MC_AO_Webinar_DropTES_2023.pdf…\nBremen Drop Tower - Payload User’s Guide:\nhttps://zarm.uni-bremen.de/fileadmin/user_upload/drop_tower/ZARM_BDT_PUG_ver1.5.pdf…",
+                "media": [],
+                "timestamp": "2024-10-18T01:46:27+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2024-10-18T14:28:21+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1848023429020008474",
+        "tweets": [
+            {
+                "text": "90% is definitely higher than I expected, sick.\nOne fun thing is that, it is equivalently the same efficiency for quantum transduction and energy transfer, and many other things including how well you keep in touch with your friends, because they are all coupled linear resonators",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GaV-N9GWkAEnBin?format=jpg",
+                        "local_path": "media\\20241019_210539_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaV-dbZWcAAJ3X-?format=png",
+                        "local_path": "media\\20241019_210539_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-19T21:05:39+00:00"
+            },
+            {
+                "text": "Fig. 1 from my defense slides lol\nFig. 2 from Highly Resonant Wireless Power Transfer: Safe, Efficient, and Over Distance\nhttps://witricity.com/hubfs/white-papers/WiTricity_Highly-Resonant-Wireless-Power-Transfer.pdf…\nFound thru",
+                "media": [],
+                "timestamp": "2024-10-20T15:29:11+00:00"
+            },
+            {
+                "text": "They call the coupling kappa and loss rates Gamma, while the quantum people call their coupling g and loss rates kappa and gamma. It still applies if you have two-level systems (atoms, spins, first two levels of a nonlinear resonators etc.).\nReitz2022:\nhttps://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.3.010201…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GaWAG8iW8AAGZkx?format=png",
+                        "local_path": "media\\20241020_153850_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaWBdbBXgAAn7pv?format=png",
+                        "local_path": "media\\20241020_153850_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-20T15:38:50+00:00"
+            },
+            {
+                "text": "A separate & related topic is using \"PT symmetry\" (fancy words for having gain in half of the circuits matching loss) for robust power transfer without active tuning. The gain and loss of the system could automatically \"balance out\" some amount of distance or angular misalignment",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GaWCUCPW8AA4ft_?format=jpg",
+                        "local_path": "media\\20241020_154328_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaWCd5KW8AA5BXV?format=jpg",
+                        "local_path": "media\\20241020_154328_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaWCp6PXQAEZUdr?format=jpg",
+                        "local_path": "media\\20241020_154328_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaWCsbKWUAAfsT1?format=jpg",
+                        "local_path": "media\\20241020_154328_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-20T15:43:28+00:00"
+            },
+            {
+                "text": "Assawaworrarit2017: Robust wireless power transfer using a nonlinear parity–time-symmetric circuit\nhttps://nature.com/articles/nature22404…\nEsaki2023: Wirelessly powered motor operation in dynamic scenarios using non-Hermitian parity-time symmetry\nhttps://nature.com/articles/s41598-023-47842-x…",
+                "media": [],
+                "timestamp": "2024-10-20T15:44:53+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1848577830440833194",
+        "tweets": [
+            {
+                "text": "Shape sensing endoscope fiber: I thought it is sensing shape of the target at the end of the fiber, but it is actually sensing the shape of the fiber itself.\nIt's made with a few twisted fibers with bragg grating, which let's you measure local strains and thus curvatures.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad1bqjWwAAFEef?format=jpg",
+                        "local_path": "media\\20241022_041114_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad2XvFXUAAOucz?format=jpg",
+                        "local_path": "media\\20241022_041114_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad2p1RWEAAY2K0?format=png",
+                        "local_path": "media\\20241022_041114_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad2v4xW4AAcwb_?format=png",
+                        "local_path": "media\\20241022_041114_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-22T04:11:14+00:00"
+            },
+            {
+                "text": "Fig. 1-2: Lamb2024, Shape sensing endoscope fiber\nhttps://doi.org/10.1364/OPTICA.532250…\nFig. 3-4: Paloschi2020, 3D Shape Sensing With Multicore Optical Fibers: Transformation Matrices Versus Frenet-Serret Equations for Real-Time Application",
+                "media": [],
+                "timestamp": "2024-10-22T04:12:29+00:00"
+            },
+            {
+                "text": "The spectrum and the wavelength shift of the bragg grating looks pretty clean. They could measure curvature as small as 2.6 mm, and relative error of the shape with ~ 1%. For large curvature it gets less accurate because of smaller strain. (Bronnikov2019 https://doi.org/10.1364/OE.380816…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad5UQKXwAA9KvU?format=jpg",
+                        "local_path": "media\\20241022_042428_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad5sVrWUAAmK8L?format=jpg",
+                        "local_path": "media\\20241022_042428_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad6iUNXIAAF045?format=jpg",
+                        "local_path": "media\\20241022_042428_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad6tZDWwAAvG5u?format=png",
+                        "local_path": "media\\20241022_042428_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-22T04:24:28+00:00"
+            },
+            {
+                "text": "ofc this would have application in robotics esp. soft robotics. This paper built a soft bending actuator with a fiber optic shape sensor (FOSS) in its body. It works so well they could sweep the actuator tip over different shaped surfaces, and reconstruct the shapes.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad7YoxW0AAd1HK?format=jpg",
+                        "local_path": "media\\20241022_043337_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad79pWWUAAy6wF?format=jpg",
+                        "local_path": "media\\20241022_043337_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad8b8NXIAAaN6z?format=jpg",
+                        "local_path": "media\\20241022_043337_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad8fWnXcAAwnCR?format=jpg",
+                        "local_path": "media\\20241022_043337_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-22T04:33:37+00:00"
+            },
+            {
+                "text": "From Galloway2019: Fiber Optic Shape Sensing for Soft Robotics\nhttps://doi.org/10.1089/soro.2018.0131…\nSummary of the results:",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad9QDzWQAAqlnW?format=jpg",
+                        "local_path": "media\\20241022_043603_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-22T04:36:03+00:00"
+            },
+            {
+                "text": "They got their FOSS from Luna Innovations, which specialize in fiber optic sensing with Fiber Bragg Grating (FBG) or Fabry-Perot (FP) sensors. They also make optical frequency domain reflectometry (OFDR) instruments which the industry calls interrogators (https://lunainc.com/product/odisi-7100-series…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad-19aWMAA9g0c?format=jpg",
+                        "local_path": "media\\20241022_044254_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad-3AXWAAACGDm?format=jpg",
+                        "local_path": "media\\20241022_044254_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-22T04:42:54+00:00"
+            },
+            {
+                "text": "ofc this would have application in robotics esp. soft robotics. This paper built a soft bending actuator with a fiber optic shape sensor (FOSS) in its body. It works so well they could sweep the actuator tip over different shaped surfaces, and reconstruct the shapes.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad7YoxW0AAd1HK?format=jpg",
+                        "local_path": "media\\20241022_043337_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad79pWWUAAy6wF?format=jpg",
+                        "local_path": "media\\20241022_043337_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad8b8NXIAAaN6z?format=jpg",
+                        "local_path": "media\\20241022_043337_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad8fWnXcAAwnCR?format=jpg",
+                        "local_path": "media\\20241022_043337_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-22T04:33:37+00:00"
+            },
+            {
+                "text": "From Galloway2019: Fiber Optic Shape Sensing for Soft Robotics\nhttps://doi.org/10.1089/soro.2018.0131…\nSummary of the results:",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad9QDzWQAAqlnW?format=jpg",
+                        "local_path": "media\\20241022_043603_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-22T04:36:03+00:00"
+            },
+            {
+                "text": "They got their FOSS from Luna Innovations, which specialize in fiber optic sensing with Fiber Bragg Grating (FBG) or Fabry-Perot (FP) sensors. They also make optical frequency domain reflectometry (OFDR) instruments which the industry calls interrogators (https://lunainc.com/product/odisi-7100-series…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad-19aWMAA9g0c?format=jpg",
+                        "local_path": "media\\20241022_044254_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad-3AXWAAACGDm?format=jpg",
+                        "local_path": "media\\20241022_044254_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-22T04:42:54+00:00"
+            },
+            {
+                "text": "Funny the patent is from Intuitive Surgical (https://patents.google.com/patent/US8773650B2/en…), which makes surgical robots. I guess it makes sense.\nWhy does their website go so fancy & apple style as if I could afford it lol:\nhttps://intuitive.com/en-us/products-and-services/da-vinci/5…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad_r7AWMAAaJsn?format=png",
+                        "local_path": "media\\20241022_044923_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad_uIyWQAA3b-p?format=png",
+                        "local_path": "media\\20241022_044923_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gad_1bRXAAAl71k?format=png",
+                        "local_path": "media\\20241022_044923_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaeAMlxWsAAwyKo?format=jpg",
+                        "local_path": "media\\20241022_044923_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-22T04:49:23+00:00"
+            },
+            {
+                "text": "You make FBG/multicore fibers?\nPeople use them to sense all kinds of stuff esp. in very distributed system. More detail in this thread:",
+                "media": [],
+                "timestamp": "2024-10-22T14:42:20+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1849261892612870270",
+        "tweets": [
+            {
+                "text": "This paper glued a Rb vapor cell to a photonic chip, and achieved strong coupling (coupling > loss) between a microring resonator and ~50 atoms, towards quantum operations between single atom & photon.\nThe glass cell is epoxied to the chip first, and then sent to fill Rb and seal",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GankeI7aYAAUe_K?format=jpg",
+                        "local_path": "media\\20241024_012927_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GanlIDOakAAmNH9?format=jpg",
+                        "local_path": "media\\20241024_012927_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GanlNRUbAAAqBZa?format=jpg",
+                        "local_path": "media\\20241024_012927_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-24T01:29:27+00:00"
+            },
+            {
+                "text": "Zektzer2024: Strong interactions between integrated microresonators and alkali atomic vapors: towards single-atom, single-photon operation\nhttps://doi.org/10.1364/OPTICA.525689…",
+                "media": [],
+                "timestamp": "2024-10-24T01:29:59+00:00"
+            },
+            {
+                "text": "If you are interested in chip-scale atomic vapor cells and devices, this paper has a lot on how the chambers are made, how to load the atoms, package them properly, probe them, and their applications.\nKitching2018: Chip-scale atomic devices\nhttps://doi.org/10.1063/1.5026238…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Ganma95a4AA1kfv?format=jpg",
+                        "local_path": "media\\20241024_013816_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Ganm6U9a8AAI8hJ?format=jpg",
+                        "local_path": "media\\20241024_013816_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GannJ1iaEAAdWt3?format=jpg",
+                        "local_path": "media\\20241024_013816_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GannZmFa4AARmXt?format=jpg",
+                        "local_path": "media\\20241024_013816_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-24T01:38:16+00:00"
+            },
+            {
+                "text": "Alkali metal is more similar to hydrogen, simpler energy levels and easier to play with. Heavier atoms make their velocity slower at given temperature, maybe helping with the loading and cooling of the atoms",
+                "media": [],
+                "timestamp": "2024-10-24T16:12:17+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1849618923064525305",
+        "tweets": [
+            {
+                "text": "Trying out a picture/screenshot to latex converter. Had to fix some type error to get it to run.\nIt works great on simple ones (top: input, bottom: compiled fron the output latex). Missed brackets (fixed by chatGPT) and mistakes on more complex ones, and gave up for big ones.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GaspM00a0AAb7gS?format=jpg",
+                        "local_path": "media\\20241025_010810_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaspN5-aAAMpbwd?format=jpg",
+                        "local_path": "media\\20241025_010810_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaspPC-aAAMPWIY?format=jpg",
+                        "local_path": "media\\20241025_010810_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-25T01:08:10+00:00"
+            },
+            {
+                "text": "pix2tex - LaTeX OCR:",
+                "media": [],
+                "timestamp": "2024-10-25T01:08:49+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1849688098902507909",
+        "tweets": [
+            {
+                "text": "I had no idea people make screws out of PMMA (the same PMMA I knew as ebeam resist), as a shape memory polymer, for active assembly/disassembly.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GatotQ-bEAAu5tb?format=jpg",
+                        "local_path": "media\\20241025_054302_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gatow51aAAEEXRK?format=jpg",
+                        "local_path": "media\\20241025_054302_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GatpYiYaoAAXsQG?format=jpg",
+                        "local_path": "media\\20241025_054302_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-25T05:43:02+00:00"
+            },
+            {
+                "text": "Screenshots from Sun2014: Shape memory technology for active assembly/disassembly: fundamentals, techniques and example applications\nhttps://doi.org/10.1108/AA-03-2013-031…\nVideo from Active PMMA screw for Active Disassembly",
+                "media": [],
+                "timestamp": "2024-10-25T05:44:34+00:00"
+            },
+            {
+                "text": "Found the video thru another channel which had a video of a Thin film NiTi/silicon gripper",
+                "media": [],
+                "timestamp": "2024-10-25T05:46:18+00:00"
+            },
+            {
+                "text": "Found this nice review while in search of this gripper.\nChoudhary2016: Shape memory alloy thin films and heterostructures for MEMS applications: A review\nhttps://doi.org/10.1016/j.sna.2016.02.026…",
+                "media": [],
+                "timestamp": "2024-10-25T06:00:27+00:00"
+            },
+            {
+                "text": "Who doesn't love to see a cute flexure, and these ones are made out of a full 4in silicon wafer! The Si gripper is deep RIE, the NiTi SMA actuators are laser-cut, bonded with resist to the Si wafer, and then further secured with copper rivets on the wafer-level process (???)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GattnoBaoAAtXsk?format=png",
+                        "local_path": "media\\20241025_061340_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GatuVnQaAAIlhlp?format=png",
+                        "local_path": "media\\20241025_061340_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GatuZwlacAAzR6t?format=jpg",
+                        "local_path": "media\\20241025_061340_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gatuc7zaAAE-uCJ?format=jpg",
+                        "local_path": "media\\20241025_061340_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-25T06:13:40+00:00"
+            },
+            {
+                "text": "Garcés2019: Shape Memory Alloy Actuators for Silicon Microgrippers",
+                "media": [],
+                "timestamp": "2024-10-25T06:14:21+00:00"
+            },
+            {
+                "text": "The copper rivet process is from this thesis (https://shaker.de/de/site/content/shop/index.asp?lang=de&ID=8&ISBN=978-3-8322-9678-0…)...\nThanks to it not being free, I started looking into this author and found more details on the flexure design, and they also have a pneumatic version. (Hoxhold2008: https://doi.org/10.1007/s00542-008-0659-3…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GatxSSbaAAQ48jg?format=jpg",
+                        "local_path": "media\\20241025_062326_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GatyIS5aAAQY-Be?format=png",
+                        "local_path": "media\\20241025_062326_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GatyMfqboAAeCGv?format=png",
+                        "local_path": "media\\20241025_062326_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GatyYpJa8AAj_-S?format=png",
+                        "local_path": "media\\20241025_062326_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-25T06:23:26+00:00"
+            },
+            {
+                "text": "They also have a book chapter (Tools for Handling and Assembling of Microparts: https://doi.org/10.1007/978-3-642-12903-2_16…).\nLook at these little grippers!",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GatzOzfaAAIWMJz?format=jpg",
+                        "local_path": "media\\20241025_062804_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GatzV2KaAAIdYWQ?format=jpg",
+                        "local_path": "media\\20241025_062804_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GatzYkGbEAA6PoO?format=jpg",
+                        "local_path": "media\\20241025_062804_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gatzqg6bQAAt1uy?format=jpg",
+                        "local_path": "media\\20241025_062804_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-25T06:28:04+00:00"
+            },
+            {
+                "text": "Found this nice review while in search of this gripper.\nChoudhary2016: Shape memory alloy thin films and heterostructures for MEMS applications: A review\nhttps://doi.org/10.1016/j.sna.2016.02.026…",
+                "media": [],
+                "timestamp": "2024-10-25T06:00:27+00:00"
+            },
+            {
+                "text": "Who doesn't love to see a cute flexure, and these ones are made out of a full 4in silicon wafer! The Si gripper is deep RIE, the NiTi SMA actuators are laser-cut, bonded with resist to the Si wafer, and then further secured with copper rivets on the wafer-level process (???)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GattnoBaoAAtXsk?format=png",
+                        "local_path": "media\\20241025_061340_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GatuVnQaAAIlhlp?format=png",
+                        "local_path": "media\\20241025_061340_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GatuZwlacAAzR6t?format=jpg",
+                        "local_path": "media\\20241025_061340_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gatuc7zaAAE-uCJ?format=jpg",
+                        "local_path": "media\\20241025_061340_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-25T06:13:40+00:00"
+            },
+            {
+                "text": "Garcés2019: Shape Memory Alloy Actuators for Silicon Microgrippers",
+                "media": [],
+                "timestamp": "2024-10-25T06:14:21+00:00"
+            },
+            {
+                "text": "The copper rivet process is from this thesis (https://shaker.de/de/site/content/shop/index.asp?lang=de&ID=8&ISBN=978-3-8322-9678-0…)...\nThanks to it not being free, I started looking into this author and found more details on the flexure design, and they also have a pneumatic version. (Hoxhold2008: https://doi.org/10.1007/s00542-008-0659-3…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GatxSSbaAAQ48jg?format=jpg",
+                        "local_path": "media\\20241025_062326_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GatyIS5aAAQY-Be?format=png",
+                        "local_path": "media\\20241025_062326_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GatyMfqboAAeCGv?format=png",
+                        "local_path": "media\\20241025_062326_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GatyYpJa8AAj_-S?format=png",
+                        "local_path": "media\\20241025_062326_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-25T06:23:26+00:00"
+            },
+            {
+                "text": "They also have a book chapter (Tools for Handling and Assembling of Microparts: https://doi.org/10.1007/978-3-642-12903-2_16…).\nLook at these little grippers!",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GatzOzfaAAIWMJz?format=jpg",
+                        "local_path": "media\\20241025_062804_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GatzV2KaAAIdYWQ?format=jpg",
+                        "local_path": "media\\20241025_062804_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GatzYkGbEAA6PoO?format=jpg",
+                        "local_path": "media\\20241025_062804_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gatzqg6bQAAt1uy?format=jpg",
+                        "local_path": "media\\20241025_062804_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-25T06:28:04+00:00"
+            },
+            {
+                "text": "Yes, polymethyl methacrylate",
+                "media": [],
+                "timestamp": "2024-10-26T11:50:15+00:00"
+            },
+            {
+                "text": "A lot of sweet sick SEMs in there!",
+                "media": [],
+                "timestamp": "2024-10-25T17:41:33+00:00"
+            },
+            {
+                "text": "Wow nice! Switched to something else after that?",
+                "media": [],
+                "timestamp": "2024-10-25T22:46:34+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1849620564245348816",
+        "tweets": [
+            {
+                "text": "I thought I saw quantum video restoration and almost had a stroke",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GassCgobkAEwqBb?format=png",
+                        "local_path": "media\\20241025_011441_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-25T01:14:41+00:00"
+            },
+            {
+                "text": "ok it's actually a fair name as the sensor used is Quanta Image Sensor (QIS), such as SPAD array and EMCCD, and noise can be as low as sub 1 e- rms. I don't get why they think of it as \"x-y-t “cubicle” of bits from the jot data cube\", and then talk about frame rate of that.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GasvacwbwAAsfIP?format=jpg",
+                        "local_path": "media\\20241025_013127_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GasvktzbwAApU8i?format=jpg",
+                        "local_path": "media\\20241025_013127_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-25T01:31:27+00:00"
+            },
+            {
+                "text": "Fossum2016: The Quanta Image Sensor: Every Photon Counts",
+                "media": [],
+                "timestamp": "2024-10-25T01:32:09+00:00"
+            },
+            {
+                "text": "Ok they could actually use the depth (time) axis as a shutter. If you average along how the object is moving inside the jot data cube, you can do temporal \"matched filtering\" (my understanding) and achieve better image.\n(sub one photon per pixel on average sounds crazy)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GaswfqpaAAUIqEt?format=jpg",
+                        "local_path": "media\\20241025_014017_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GasxmKKaAAIBd4f?format=jpg",
+                        "local_path": "media\\20241025_014017_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gasxz8TaAAI6lsx?format=jpg",
+                        "local_path": "media\\20241025_014017_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-25T01:40:17+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1850048862238671221",
+        "tweets": [
+            {
+                "text": "wait this graph looks like a plot I've seen in some mass spectrometry paper, but I can't even remember what the two axis are..",
+                "media": [],
+                "timestamp": "2024-10-26T05:21:32+00:00"
+            },
+            {
+                "text": "ok found it (actually not the same, but still theres a series of parabolic looking curves), it's the frequency shift of two cantilever/beam modes from a mass perturbation.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GaywtHRakAARKw4?format=jpg",
+                        "local_path": "media\\20241026_053635_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaywyEUa0AAXMIy?format=jpg",
+                        "local_path": "media\\20241026_053635_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gayw3LhaAAA5DAh?format=jpg",
+                        "local_path": "media\\20241026_053635_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GayxnkUaAAECxBU?format=jpg",
+                        "local_path": "media\\20241026_053635_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-26T05:36:35+00:00"
+            },
+            {
+                "text": "Fig. 1-3: Hanay2011, Towards Single-Molecule Nanomechanical Mass Spectrometry\nhttps://thesis.library.caltech.edu/6489/\nFig. 4: Neumann2024, Nanomechanical mass measurements through feature-based time series clustering\nhttp://nano.caltech.edu/publications/papers/timeseriesclustering.pdf…",
+                "media": [],
+                "timestamp": "2024-10-26T05:38:12+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1850054786063962426",
+        "tweets": [
+            {
+                "text": "\"... using standard techniques, including the use of a thin layer of cigarette paper\"\n> Wow is the standard really this specific?\n> Proceeds to check the book\n> Okay it is\n(They are delivering intact proteins to a chip at 4 K with nanomechanical resonators for mass spectrometry)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GayzX98aAAIW0Ux?format=jpg",
+                        "local_path": "media\\20241026_053635_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gay0NOTbEAAttHU?format=jpg",
+                        "local_path": "media\\20241026_053635_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gay0iw4aAAI9Yfw?format=jpg",
+                        "local_path": "media\\20241026_053635_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gay1wLcaAAA_gb0?format=jpg",
+                        "local_path": "media\\20241026_053635_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaywtHRakAARKw4?format=jpg",
+                        "local_path": "media\\20241026_053635_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaywyEUa0AAXMIy?format=jpg",
+                        "local_path": "media\\20241026_053635_5.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gayw3LhaAAA5DAh?format=jpg",
+                        "local_path": "media\\20241026_053635_6.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GayxnkUaAAECxBU?format=jpg",
+                        "local_path": "media\\20241026_053635_7.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-26T05:36:35+00:00"
+            },
+            {
+                "text": "Neumann2020: Towards Single Molecule Imaging Using Nanoelectromechanical Systems\nhttps://proquest.com/docview/2838438788…\nImage of the full system architecture, and the nanomechanical resonators:",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gay3UiYaAAELqtd?format=jpg",
+                        "local_path": "media\\20241026_060213_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gay3beTaAAIpCz1?format=jpg",
+                        "local_path": "media\\20241026_060213_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-26T06:02:13+00:00"
+            },
+            {
+                "text": "I never got to use bare wires at low T so l had no idea!",
+                "media": [],
+                "timestamp": "2024-10-26T11:46:27+00:00"
+            },
+            {
+                "text": "This one is from Matter and methods at low temperatures, both are great",
+                "media": [],
+                "timestamp": "2024-10-26T11:48:53+00:00"
+            },
+            {
+                "text": "It’s fun and shiny until you start looking for where is that god damn leak",
+                "media": [],
+                "timestamp": "2024-10-26T11:56:29+00:00"
+            },
+            {
+                "text": "It’s a really sick system (and there are many quadrupoles involved)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gay3UiYaAAELqtd?format=jpg",
+                        "local_path": "media\\20241026_171157_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gay3beTaAAIpCz1?format=jpg",
+                        "local_path": "media\\20241026_171157_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-26T17:11:57+00:00"
+            },
+            {
+                "text": "\"... using standard techniques, including the use of a thin layer of cigarette paper\"\n> Wow is the standard really this specific?\n> Proceeds to check the book\n> Okay it is\n(They are delivering intact proteins to a chip at 4 K with nanomechanical resonators for mass spectrometry)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GayzX98aAAIW0Ux?format=jpg",
+                        "local_path": "media\\20241026_053635_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gay0NOTbEAAttHU?format=jpg",
+                        "local_path": "media\\20241026_053635_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gay0iw4aAAI9Yfw?format=jpg",
+                        "local_path": "media\\20241026_053635_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gay1wLcaAAA_gb0?format=jpg",
+                        "local_path": "media\\20241026_053635_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaywtHRakAARKw4?format=jpg",
+                        "local_path": "media\\20241026_053635_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaywyEUa0AAXMIy?format=jpg",
+                        "local_path": "media\\20241026_053635_5.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gayw3LhaAAA5DAh?format=jpg",
+                        "local_path": "media\\20241026_053635_6.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GayxnkUaAAECxBU?format=jpg",
+                        "local_path": "media\\20241026_053635_7.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-26T05:36:35+00:00"
+            },
+            {
+                "text": "Sounds like it’s the best",
+                "media": [],
+                "timestamp": "2024-10-26T06:21:48+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1850275799510987238",
+        "tweets": [
+            {
+                "text": "You and your matlab simulink model",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Ga1_8syaQAArHvB?format=jpg",
+                        "local_path": "media\\20241026_203821_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-26T20:38:21+00:00"
+            },
+            {
+                "text": "btw consider writing comments in your model like how detailed the caption is on wikipedia.\nhttps://en.wikipedia.org/wiki/Rube_Goldberg_machine…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Ga2iWQibYAEl6QG?format=png",
+                        "local_path": "media\\20241026_230920_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-26T23:09:20+00:00"
+            },
+            {
+                "text": "It is ",
+                "media": [],
+                "timestamp": "2024-10-27T14:36:10+00:00"
+            },
+            {
+                "text": "Hmm cool stuff, first time hear about it, looks quite similar to simulink?",
+                "media": [],
+                "timestamp": "2024-10-27T14:33:06+00:00"
+            },
+            {
+                "text": "real",
+                "media": [],
+                "timestamp": "2024-10-26T23:07:20+00:00"
+            },
+            {
+                "text": "lol okay okay",
+                "media": [],
+                "timestamp": "2024-10-26T20:50:15+00:00"
+            },
+            {
+                "text": "Hmm cool stuff, first time hear about it, looks quite similar to simulink?",
+                "media": [],
+                "timestamp": "2024-10-27T14:33:06+00:00"
+            },
+            {
+                "text": "real",
+                "media": [],
+                "timestamp": "2024-10-26T23:07:20+00:00"
+            },
+            {
+                "text": "lol okay okay",
+                "media": [],
+                "timestamp": "2024-10-26T20:50:15+00:00"
+            }
+        ]
+    }
+]
