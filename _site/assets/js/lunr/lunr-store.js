@@ -226,4 +226,10 @@ var store = [{
         "tags": ["Microwave","Nanofab","Laser","Light_guide","TIA","Preamp","Quantum","Packaging","Antenna","Stretchable","Strain","Stress","LED","MicroLED","Electrocaloric","Wireless_charing","Heavy_metal","Robotics","Magnetics","Quadruped_robot"],
         "url": "/ofs/weekly-OFS-17/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#18)",
+        "excerpt":"Showing this to my friends who would yell at me for accidentally leaning on their optical table: Menlo Systems dropped their optical frequency comb system in a 110 m drop tower to test operation in microgravity, and onto a tank of foam to show it’s shock proven up to 41.5...","categories": ["OFS"],
+        "tags": ["Optics","Frequency_comb","Coupling","Wireless","Fiber","Strain","Robotics","OFDR","Photonics","Atomic_clock","Latex","PMMA","Shape_memory","Flexure","Nanofab","Mass_sensing"],
+        "url": "/ofs/weekly-OFS-18/",
+        "teaser": null
       }]
