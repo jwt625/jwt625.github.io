@@ -232,4 +232,10 @@ var store = [{
         "tags": ["Optics","Frequency_comb","Coupling","Wireless","Fiber","Strain","Robotics","OFDR","Photonics","Atomic_clock","Latex","PMMA","Shape_memory","Flexure","Nanofab","Mass_sensing"],
         "url": "/ofs/weekly-OFS-18/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#19)",
+        "excerpt":"Air-to-ground and air-to-air optical comm with drones and vehicles using 15 W white LEDs, capable of 2 Mbps and up to ~ 40 m when collimated. They showed real-time video transmission with them. The alignment is achieved with a 3-axis gimbal, a web cam, and image recognition. Liang2024: Drone-based mobile...","categories": ["OFS"],
+        "tags": ["Drone","Comm","Fiber","Cryogenics","Optics","EEG","HDRS","Depression","Photonics","Stress","Damascene","Illusion","Plasma","Sniffing","Telephone","Bell_lab","TSMC","PFAS","Nanofab","Nanoscribe","TPP"],
+        "url": "/ofs/weekly-OFS-19/",
+        "teaser": null
       }]

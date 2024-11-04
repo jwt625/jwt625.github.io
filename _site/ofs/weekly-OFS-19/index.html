@@ -1,0 +1,983 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>This week’s outside five sigma (#19) - Outside Five Sigma</title>
+<meta name="description" content="Air-to-ground and air-to-air optical comm with drones and vehicles using 15 W white LEDs, capable of 2 Mbps and up to ~ 40 m when collimated. They showed real-time video transmission with them. The alignment is achieved with a 3-axis gimbal, a web cam, and image recognition.               Liang2024: Drone-based mobile full-duplex optical communication       It uses the same white LED that would be used for illumination, blue light excited phosphor">
+
+
+  <meta name="author" content="Wentao">
+  
+  <meta property="article:author" content="Wentao">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Outside Five Sigma">
+<meta property="og:title" content="This week’s outside five sigma (#19)">
+<meta property="og:url" content="http://localhost:4000/ofs/weekly-OFS-19/">
+
+
+  <meta property="og:description" content="Air-to-ground and air-to-air optical comm with drones and vehicles using 15 W white LEDs, capable of 2 Mbps and up to ~ 40 m when collimated. They showed real-time video transmission with them. The alignment is achieved with a 3-axis gimbal, a web cam, and image recognition.               Liang2024: Drone-based mobile full-duplex optical communication       It uses the same white LED that would be used for illumination, blue light excited phosphor">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/2024/20241008_20241031/20241023_015534_1.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2024-11-03T00:00:00-07:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/ofs/weekly-OFS-19/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Outside Five Sigma Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+
+  </head>
+
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/twm.JPG" alt="Outside Five Sigma"></a>
+        
+        <a class="site-title" href="/">
+          Outside Five Sigma
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/posts/"
+                
+                
+              >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/categories/"
+                
+                
+              >Categories</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/tags/"
+                
+                
+              >Tags</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/2024/20241008_20241031/20241023_015534_1.jpg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          This week’s outside five sigma (#19)
+
+        
+      </h1>
+      
+      
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-11-03T00:00:00-07:00">November 3, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/bio-photo-2.jpg" alt="Wentao" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Wentao</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Memories are the long term averages, and the outside five sigmas.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="This week’s outside five sigma (#19)">
+    <meta itemprop="description" content="  Air-to-ground and air-to-air optical comm with drones and vehicles using 15 W white LEDs, capable of 2 Mbps and up to ~ 40 m when collimated. They showed real-time video transmission with them. The alignment is achieved with a 3-axis gimbal, a web cam, and image recognition.          Liang2024: Drone-based mobile full-duplex optical communication      It uses the same white LED that would be used for illumination, blue light excited phosphor      ">
+    <meta itemprop="datePublished" content="2024-11-03T00:00:00-07:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              
+            </nav>
+          </aside>
+        
+        <ol>
+  <li>Air-to-ground and air-to-air optical comm with drones and vehicles using 15 W white LEDs, capable of 2 Mbps and up to ~ 40 m when collimated. They showed real-time video transmission with them. The alignment is achieved with a 3-axis gimbal, a web cam, and image recognition.
+<img src="/assets/images/2024/20241008_20241031/20241023_015534_0.jpg" alt="20241023_015534_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241023_015534_1.jpg" alt="20241023_015534_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241023_015534_2.jpg" alt="20241023_015534_2.jpg" />
+    <ul>
+      <li>Liang2024: <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-22-38013&amp;id=561242">Drone-based mobile full-duplex optical communication</a></li>
+      <li>It uses the same white LED that would be used for illumination, blue light excited phosphor
+<img src="/assets/images/2024/20241008_20241031/20241023_022502_0.jpg" alt="20241023_022502_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>Here is how you make a sub-micron diameter quartz fiber in late nineteenth century: pull it out with an arrow and a crossbow.
+<img src="/assets/images/2024/20241008_20241031/20241026_233212_0.jpg" alt="20241026_233212_0.jpg" />
+    <ul>
+      <li>Greenslade2024: <a href="https://pubs.aip.org/aapt/pte/article/62/8/636/3317752/Apparatus-Named-After-Our-Academic-Ancestors-VII">Apparatus Named After Our Academic Ancestors—VII</a></li>
+    </ul>
+  </li>
+  <li>Application note from Montana Instruments on high NA optics at 4 K (and more).
+Big pain to get the chip and a long WD objective close enough with the heat shield and the vacuum enclosure in between, both had to get really close to the windows. Nice they put the objective inside.
+<img src="/assets/images/2024/20241008_20241031/20241027_153910_0.jpg" alt="20241027_153910_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241027_153910_1.jpg" alt="20241027_153910_1.jpg" />
+    <ul>
+      <li><a href="https://cdn.prod.website-files.com/6118466f5c775b56d53d49e9/66b4e5bc2330fb8becb37e2c_4200-2-DOC108_1.0%20(Application%20Note-Stanford%20Collaboration).pdf">Application - Quantum Nanophotonics Experiments with The Rook™ Nanopositioner (June 2024)</a></li>
+    </ul>
+  </li>
+  <li>“Electroencephalography (EEG) + machine learning capable of predicting e-sports match outcomes with ~80% accuracy”
+    <ul>
+      <li>What</li>
+      <li>Opens up the paper</li>
+      <li>It is Street Fighter V
+(btw you have to play it for 5+ yr and average 1+ h a day to participate the study)
+<img src="/assets/images/2024/20241008_20241031/20241027_062612_0.jpg" alt="20241027_062612_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241027_062612_1.jpg" alt="20241027_062612_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241027_062612_2.jpg" alt="20241027_062612_2.jpg" /></li>
+    </ul>
+    <ul>
+      <li>See <a href="https://group.ntt/en/magazine/blog/e-sports/">NTT story: Want to Know Who’s Going to Win In Advance?</a>, and <a href="https://group.ntt/en/newsrelease/2024/07/18/240718a.html">World’s first: Discovery of Neural Patterns Strongly Linked to Esports Match Outcomes Predicting “similar-level match” and “upsets” with approximately 80% accuracy</a></li>
+      <li>Minami2024: <a href="https://linkinghub.elsevier.com/retrieve/pii/S074756322400219X">Prediction of esports competition outcomes using EEG data from expert players</a></li>
+    </ul>
+  </li>
+  <li>A home-based tDCS treatment “showed a greater reduction in depressive symptoms than a control group”
+Looks inside: hmm the error bar is standard error, not standard deviation?
+Looks into the SI: okay put anything on the head works it seems
+(HDRS = Hamilton Depression Rating Scale)
+<img src="/assets/images/2024/20241008_20241031/20241023_042950_0.jpg" alt="20241023_042950_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241023_042950_1.jpg" alt="20241023_042950_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241023_042950_2.jpg" alt="20241023_042950_2.jpg" />
+    <ul>
+      <li>Woodham2024: <a href="https://www.nature.com/articles/s41591-024-03305-y">Home-based transcranial direct current stimulation treatment for major depressive disorder: a fully remote phase 2 randomized sham-controlled trial</a>
+(it has the longest SI I’ve seen so far, 163 pages)</li>
+      <li>They sell the headset for 500 bucks, probably could’ve charged more. (<a href="https://www.flowneuroscience.com/shop/">Flow Neuroscience</a>)
+<img src="/assets/images/2024/20241008_20241031/20241023_043332_0.jpg" alt="20241023_043332_0.jpg" /></li>
+      <li>Another fun thing I learnt is that Europe has a health related quality of life measure, and they named it like a perfect part number: <a href="https://euroqol.org">EQ-5D-Y-5L</a></li>
+    </ul>
+  </li>
+  <li>Power over fiber when: coherent made a <em>single mode</em> fiber that is capable of &gt; 20 W of optical power!
+<img src="/assets/images/2024/20241008_20241031/20241027_053614_0.jpg" alt="20241027_053614_0.jpg" />
+    <ul>
+      <li>Rev. Sci. Instrum. 95, 109501 (2024): <a href="https://pubs.aip.org/aip/rsi/article/95/10/109501/3318214/Review-of-Scientific-Instruments-New-Products">Review of Scientific Instruments New Products</a></li>
+    </ul>
+  </li>
+  <li>Wafer-scale Si3N4 photonic IC suffer from high stress and cracking. Damascene process solves it but has worse control over thickness, uniformity etc. This paper solves it by literally anchoring the Si3N4 with trenches, and showed comparable optical propagation lost.
+<img src="/assets/images/2024/20241008_20241031/20241022_005259_0.jpg" alt="20241022_005259_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241022_005259_1.jpg" alt="20241022_005259_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241022_005259_2.jpg" alt="20241022_005259_2.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241022_005259_3.jpg" alt="20241022_005259_3.jpg" />
+    <ul>
+      <li>Ji2024: <a href="https://opg.optica.org/optica/fulltext.cfm?uri=optica-11-10-1397&amp;id=561626">Efficient mass manufacturing of high-density, ultra-low-loss Si3N4 photonic integrated circuits</a></li>
+      <li>The Damascene process is very similar to how <a href="https://en.wikipedia.org/wiki/Copper_interconnects">copper interconnects</a> are made for electronics IC
+<img src="/assets/images/2024/20241008_20241031/20241022_005538_0.jpg" alt="20241022_005538_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>This is the best you can do for world’s smallest Rubik’s Cube? Who’s printing one that’s 10x smaller with nanoscribe and rotating it with laser beams.
+<img src="/assets/images/2024/20241008_20241031/20241018_013008_0.jpg" alt="20241018_013008_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241018_013008_1.jpg" alt="20241018_013008_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241018_013008_2.jpg" alt="20241018_013008_2.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241018_013008_3.jpg" alt="20241018_013008_3.jpg" />
+    <ul>
+      <li>See <a href="https://www.cnn.com/2024/10/04/style/japan-worlds-smallest-rubik-cube-intl-hnk/index.html">This is the world’s smallest Rubik’s Cube. And it actually works</a>, and <a href="https://www.oricon.co.jp/news/2347564/full/">“世界最小”ルービックキューブ、ギネス世界記録認定 「1辺5ミリ」77万円で販売へ</a></li>
+      <li>The <a href="https://www.guinnessworldrecords.com/world-records/smallest-rubiks-cube-">Guinness world records website</a> looks like a scam website</li>
+      <li>Can’t even find it on their website</li>
+    </ul>
+  </li>
+  <li>The moon tonight is gorgeous… These papers tried to measure the moon illusion and found it is usually claimed to be 50% different between the horizon and zenith moon.
+Experiments involving human perception feel so tricky to do.
+<img src="/assets/images/2024/20241008_20241031/20241017_015633_0.jpg" alt="20241017_015633_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241017_015633_1.jpg" alt="20241017_015633_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241017_015633_2.jpg" alt="20241017_015633_2.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241017_015633_3.jpg" alt="20241017_015633_3.jpg" />
+    <ul>
+      <li>Kaufman1962, <a href="https://www.science.org/doi/10.1126/science.136.3520.953">The Moon Illusion, I</a></li>
+      <li>Rock1962, <a href="https://www.science.org/doi/10.1126/science.136.3521.1023">The Moon Illusion, II</a></li>
+      <li>Kaufman2000, <a href="https://www.pnas.org/doi/full/10.1073/pnas.97.1.500">Explaining the moon illusion</a></li>
+    </ul>
+  </li>
+  <li>Found a gem of that one time when a chip flew off tweezers, spent ~10 min looking for it, and it was stuck to the outside of the fume hood
+(still working on the EBL blog and going thru stuff)
+<img src="/assets/images/2024/20241008_20241031/20241015_063037_0.jpg" alt="20241015_063037_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241015_063037_1.jpg" alt="20241015_063037_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241015_063037_2.jpg" alt="20241015_063037_2.jpg" />
+    <ul>
+      <li><a href="https://x.com/jwt0625/status/1846076194292486622">tweet</a></li>
+    </ul>
+  </li>
+  <li>How do you make lenses and mirrors for ionizing high power laser beams? Use already ionized stuff (a plasma).
+The plasma is shaped by interference pattern between two lasers first, just like how holography and fiber bragg grating are made.
+<img src="/assets/images/2024/20241008_20241031/20241015_005841_0.jpg" alt="20241015_005841_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241015_005841_1.jpg" alt="20241015_005841_1.jpg" />
+    <ul>
+      <li><a href="https://physics.aps.org/articles/v15/s16">A Plasma Lens for the World’s Most Powerful Lasers</a></li>
+      <li><a href="https://physics.aps.org/articles/v17/s123">Cleaning Intense Laser Pulses with Plasma</a></li>
+    </ul>
+  </li>
+  <li>The modern version: keystroke sniffing with off-the-shelf smartphone.
+Good news is it is not that accurate yet.
+<img src="/assets/images/2024/20241008_20241031/20241028_144621_0.jpg" alt="20241028_144621_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241028_144621_1.jpg" alt="20241028_144621_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241028_144621_2.jpg" alt="20241028_144621_2.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241028_144621_3.jpg" alt="20241028_144621_3.jpg" />
+    <ul>
+      <li>Zhao2023: <a href="https://dl.acm.org/doi/10.1145/3614440">UltraSnoop: Placement-agnostic Keystroke Snooping via Smartphone-based Ultrasonic Sonar</a></li>
+      <li>Huang2024: <a href="https://ieeexplore.ieee.org/document/10587029/">KeystrokeSniffer: An Off-the-Shelf Smartphone Can Eavesdrop on Your Privacy From Anywhere</a></li>
+      <li>How the waveforms look like, and having shorter fingers could help.
+   <img src="/assets/images/2024/20241008_20241031/20241028_160014_0.jpg" alt="20241028_160014_0.jpg" />
+   <img src="/assets/images/2024/20241008_20241031/20241028_160014_1.jpg" alt="20241028_160014_1.jpg" /></li>
+    </ul>
+  </li>
+  <li>Telephone cable on the left, human spinal cord on the right.
+<img src="/assets/images/2024/20241008_20241031/20241008_194639_0.jpg" alt="20241008_194639_0.jpg" />
+    <ul>
+      <li><a href="https://www.worldradiohistory.com/Archive-Bell-Laboratories-Record/20s/Bell-Laboratories-Record-1925-10.pdf">Bell Laboratories Record, October 1925</a></li>
+      <li>As well as <a href="https://investor.tsmc.com/english/annual-reports">TSMC annual reports</a> have amazing themes and graphics in some of them, and of course a lot of numbers as well.
+Here are a few cover images from their 2020 annual report.
+<img src="/assets/images/2024/20241008_20241031/20241008_194639_1.jpg" alt="20241008_194639_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241008_194639_2.jpg" alt="20241008_194639_2.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241008_194639_3.jpg" alt="20241008_194639_3.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241008_194639_4.jpg" alt="20241008_194639_4.jpg" /></li>
+    </ul>
+  </li>
+  <li>Some nice figures from a report on potential PFAS restriction in semiconductor sector:
+    <ul>
+      <li>Semiconductor value chain</li>
+      <li>Comparison between biological and technological devices</li>
+      <li>Evolution and status of semiconductor packaging
+(PFAS = per- and polyfluoroalkyl substances)
+<img src="/assets/images/2024/20241008_20241031/20241031_014540_0.jpg" alt="20241031_014540_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241031_014540_1.jpg" alt="20241031_014540_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241031_014540_2.jpg" alt="20241031_014540_2.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241031_014540_3.jpg" alt="20241031_014540_3.jpg" />
+        <ul>
+          <li>Semiconductor PFAS Consortium, “<a href="https://www.semiconductors.org/wp-content/uploads/2023/04/Impact-of-a-Potential-PFAS-Restriction-on-the-Semiconductor-Sector-04_14_2023.pdf">The Impact of a Potential PFAS Restriction on the Semiconductor Sector</a>”, April 13, 2023</li>
+          <li>Conclusion of the report itself: nowhere close to replacement
+ <img src="/assets/images/2024/20241008_20241031/20241031_015159_0.jpg" alt="20241031_015159_0.jpg" />
+ <img src="/assets/images/2024/20241008_20241031/20241031_015159_1.jpg" alt="20241031_015159_1.jpg" />
+ <img src="/assets/images/2024/20241008_20241031/20241031_015159_2.jpg" alt="20241031_015159_2.jpg" /></li>
+          <li>3M to Exit PFAS Manufacturing by the End of 2025 (<a href="https://news.3m.com/2022-12-20-3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025">article</a>)
+ <img src="/assets/images/2024/20241008_20241031/20241031_045338_0.jpg" alt="20241031_045338_0.jpg" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>I printed a little windcup (cad from openSCAD) using nanoscribe a while ago (and some chains, and a rick). It worked after poking it with a fiber to break the support lol.
+    <ul>
+      <li><a href="https://x.com/jwt0625/status/1813450223257337990">Tweet</a>
+ <img src="/assets/images/2024/20241008_20241031/20241018_015913_0.jpg" alt="20241018_015913_0.jpg" />
+ <img src="/assets/images/2024/20241008_20241031/20241018_015913_1.jpg" alt="20241018_015913_1.jpg" />
+ <img src="/assets/images/2024/20241008_20241031/20241018_015913_2.jpg" alt="20241018_015913_2.jpg" />
+ <img src="/assets/images/2024/20241008_20241031/20241018_015913_3.jpg" alt="20241018_015913_3.jpg" /></li>
+    </ul>
+  </li>
+</ol>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#bell-lab" class="page__taxonomy-item p-category" rel="tag">Bell_lab</a><span class="sep">, </span>
+    
+      <a href="/tags/#comm" class="page__taxonomy-item p-category" rel="tag">Comm</a><span class="sep">, </span>
+    
+      <a href="/tags/#cryogenics" class="page__taxonomy-item p-category" rel="tag">Cryogenics</a><span class="sep">, </span>
+    
+      <a href="/tags/#damascene" class="page__taxonomy-item p-category" rel="tag">Damascene</a><span class="sep">, </span>
+    
+      <a href="/tags/#depression" class="page__taxonomy-item p-category" rel="tag">Depression</a><span class="sep">, </span>
+    
+      <a href="/tags/#drone" class="page__taxonomy-item p-category" rel="tag">Drone</a><span class="sep">, </span>
+    
+      <a href="/tags/#eeg" class="page__taxonomy-item p-category" rel="tag">EEG</a><span class="sep">, </span>
+    
+      <a href="/tags/#fiber" class="page__taxonomy-item p-category" rel="tag">Fiber</a><span class="sep">, </span>
+    
+      <a href="/tags/#hdrs" class="page__taxonomy-item p-category" rel="tag">HDRS</a><span class="sep">, </span>
+    
+      <a href="/tags/#illusion" class="page__taxonomy-item p-category" rel="tag">Illusion</a><span class="sep">, </span>
+    
+      <a href="/tags/#nanofab" class="page__taxonomy-item p-category" rel="tag">Nanofab</a><span class="sep">, </span>
+    
+      <a href="/tags/#nanoscribe" class="page__taxonomy-item p-category" rel="tag">Nanoscribe</a><span class="sep">, </span>
+    
+      <a href="/tags/#optics" class="page__taxonomy-item p-category" rel="tag">Optics</a><span class="sep">, </span>
+    
+      <a href="/tags/#pfas" class="page__taxonomy-item p-category" rel="tag">PFAS</a><span class="sep">, </span>
+    
+      <a href="/tags/#photonics" class="page__taxonomy-item p-category" rel="tag">Photonics</a><span class="sep">, </span>
+    
+      <a href="/tags/#plasma" class="page__taxonomy-item p-category" rel="tag">Plasma</a><span class="sep">, </span>
+    
+      <a href="/tags/#sniffing" class="page__taxonomy-item p-category" rel="tag">Sniffing</a><span class="sep">, </span>
+    
+      <a href="/tags/#stress" class="page__taxonomy-item p-category" rel="tag">Stress</a><span class="sep">, </span>
+    
+      <a href="/tags/#telephone" class="page__taxonomy-item p-category" rel="tag">Telephone</a><span class="sep">, </span>
+    
+      <a href="/tags/#tpp" class="page__taxonomy-item p-category" rel="tag">TPP</a><span class="sep">, </span>
+    
+      <a href="/tags/#tsmc" class="page__taxonomy-item p-category" rel="tag">TSMC</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#ofs" class="page__taxonomy-item p-category" rel="tag">OFS</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-11-03T00:00:00-07:00">November 3, 2024</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=This+week%27s+outside+five+sigma+%28%2319%29%20http%3A%2F%2Flocalhost%3A4000%2Fofs%2Fweekly-OFS-19%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fofs%2Fweekly-OFS-19%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/ofs/weekly-OFS-19/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/ofs/weekly-OFS-18/" class="pagination--pager" title="This week’s outside five sigma (#18)
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-18/" rel="permalink">This week’s outside five sigma (#18)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-10-27T00:00:00-07:00">October 27, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/20241017_20241027/20241017_155738_6.jpg" alt="This week's outside five sigma (#18)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  Showing this to my friends who would yell at me for accidentally leaning on their optical table:
+Menlo Systems dropped their optical frequency comb system...</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-17/" rel="permalink">This week’s outside five sigma (#17)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-10-20T00:00:00-07:00">October 20, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          6 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/20240707_20241017/20241010_012905_0.jpg" alt="This week's outside five sigma (#17)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  Microwaving grapes touching each other could generate plasma, and it still works after shrinking both the grape and the microwave by ~10000x. If you have ...</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/tutorial/yapping-on-ebeam-lithography/" rel="permalink">Yapping on ebeam lithography
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-10-13T00:00:00-07:00">October 13, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          52 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/ebeam/jeol_jbx-6300_61255172.jpg" alt="Yapping on ebeam lithography">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">The cover of this blog was the JEOL JBX 6300FS at Stanford SNSF. I love it. Here is the evolution of JEOL JBX series.
+
+</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-16/" rel="permalink">This week’s outside five sigma (#16)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-10-13T00:00:00-07:00">October 13, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/20240930_20241009/20240930_032409_0.jpg" alt="This week's outside five sigma (#16)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  I was thinking about if we could fill the magnetron cavities with silicon to shrink it by ~3x, and found out rapid microwave annealing:
+It turns amorphous...</p>
+
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Google Scholar</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">Outside Five Sigma</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/ofs/weekly-OFS-19/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/ofs/weekly-OFS-19"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jwt625.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+    <!-- add mathjax, WTJ, 20240702 -->
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+  
+  
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+  </script>
+  
+  
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+    
+
+  </body>
+</html>

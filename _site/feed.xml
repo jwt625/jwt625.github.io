@@ -1,4 +1,174 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-27T22:56:40-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#18)</title><link href="http://localhost:4000/ofs/weekly-OFS-18/" rel="alternate" type="text/html" title="This week’s outside five sigma (#18)" /><published>2024-10-27T00:00:00-07:00</published><updated>2024-10-27T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-18</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-18/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-03T23:39:56-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#19)</title><link href="http://localhost:4000/ofs/weekly-OFS-19/" rel="alternate" type="text/html" title="This week’s outside five sigma (#19)" /><published>2024-11-03T00:00:00-07:00</published><updated>2024-11-03T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-19</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-19/"><![CDATA[<ol>
+  <li>Air-to-ground and air-to-air optical comm with drones and vehicles using 15 W white LEDs, capable of 2 Mbps and up to ~ 40 m when collimated. They showed real-time video transmission with them. The alignment is achieved with a 3-axis gimbal, a web cam, and image recognition.
+<img src="/assets/images/2024/20241008_20241031/20241023_015534_0.jpg" alt="20241023_015534_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241023_015534_1.jpg" alt="20241023_015534_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241023_015534_2.jpg" alt="20241023_015534_2.jpg" />
+    <ul>
+      <li>Liang2024: <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-22-38013&amp;id=561242">Drone-based mobile full-duplex optical communication</a></li>
+      <li>It uses the same white LED that would be used for illumination, blue light excited phosphor
+<img src="/assets/images/2024/20241008_20241031/20241023_022502_0.jpg" alt="20241023_022502_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>Here is how you make a sub-micron diameter quartz fiber in late nineteenth century: pull it out with an arrow and a crossbow.
+<img src="/assets/images/2024/20241008_20241031/20241026_233212_0.jpg" alt="20241026_233212_0.jpg" />
+    <ul>
+      <li>Greenslade2024: <a href="https://pubs.aip.org/aapt/pte/article/62/8/636/3317752/Apparatus-Named-After-Our-Academic-Ancestors-VII">Apparatus Named After Our Academic Ancestors—VII</a></li>
+    </ul>
+  </li>
+  <li>Application note from Montana Instruments on high NA optics at 4 K (and more).
+Big pain to get the chip and a long WD objective close enough with the heat shield and the vacuum enclosure in between, both had to get really close to the windows. Nice they put the objective inside.
+<img src="/assets/images/2024/20241008_20241031/20241027_153910_0.jpg" alt="20241027_153910_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241027_153910_1.jpg" alt="20241027_153910_1.jpg" />
+    <ul>
+      <li><a href="https://cdn.prod.website-files.com/6118466f5c775b56d53d49e9/66b4e5bc2330fb8becb37e2c_4200-2-DOC108_1.0%20(Application%20Note-Stanford%20Collaboration).pdf">Application - Quantum Nanophotonics Experiments with The Rook™ Nanopositioner (June 2024)</a></li>
+    </ul>
+  </li>
+  <li>“Electroencephalography (EEG) + machine learning capable of predicting e-sports match outcomes with ~80% accuracy”
+    <ul>
+      <li>What</li>
+      <li>Opens up the paper</li>
+      <li>It is Street Fighter V
+(btw you have to play it for 5+ yr and average 1+ h a day to participate the study)
+<img src="/assets/images/2024/20241008_20241031/20241027_062612_0.jpg" alt="20241027_062612_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241027_062612_1.jpg" alt="20241027_062612_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241027_062612_2.jpg" alt="20241027_062612_2.jpg" /></li>
+    </ul>
+    <ul>
+      <li>See <a href="https://group.ntt/en/magazine/blog/e-sports/">NTT story: Want to Know Who’s Going to Win In Advance?</a>, and <a href="https://group.ntt/en/newsrelease/2024/07/18/240718a.html">World’s first: Discovery of Neural Patterns Strongly Linked to Esports Match Outcomes Predicting “similar-level match” and “upsets” with approximately 80% accuracy</a></li>
+      <li>Minami2024: <a href="https://linkinghub.elsevier.com/retrieve/pii/S074756322400219X">Prediction of esports competition outcomes using EEG data from expert players</a></li>
+    </ul>
+  </li>
+  <li>A home-based tDCS treatment “showed a greater reduction in depressive symptoms than a control group”
+Looks inside: hmm the error bar is standard error, not standard deviation?
+Looks into the SI: okay put anything on the head works it seems
+(HDRS = Hamilton Depression Rating Scale)
+<img src="/assets/images/2024/20241008_20241031/20241023_042950_0.jpg" alt="20241023_042950_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241023_042950_1.jpg" alt="20241023_042950_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241023_042950_2.jpg" alt="20241023_042950_2.jpg" />
+    <ul>
+      <li>Woodham2024: <a href="https://www.nature.com/articles/s41591-024-03305-y">Home-based transcranial direct current stimulation treatment for major depressive disorder: a fully remote phase 2 randomized sham-controlled trial</a>
+(it has the longest SI I’ve seen so far, 163 pages)</li>
+      <li>They sell the headset for 500 bucks, probably could’ve charged more. (<a href="https://www.flowneuroscience.com/shop/">Flow Neuroscience</a>)
+<img src="/assets/images/2024/20241008_20241031/20241023_043332_0.jpg" alt="20241023_043332_0.jpg" /></li>
+      <li>Another fun thing I learnt is that Europe has a health related quality of life measure, and they named it like a perfect part number: <a href="https://euroqol.org">EQ-5D-Y-5L</a></li>
+    </ul>
+  </li>
+  <li>Power over fiber when: coherent made a <em>single mode</em> fiber that is capable of &gt; 20 W of optical power!
+<img src="/assets/images/2024/20241008_20241031/20241027_053614_0.jpg" alt="20241027_053614_0.jpg" />
+    <ul>
+      <li>Rev. Sci. Instrum. 95, 109501 (2024): <a href="https://pubs.aip.org/aip/rsi/article/95/10/109501/3318214/Review-of-Scientific-Instruments-New-Products">Review of Scientific Instruments New Products</a></li>
+    </ul>
+  </li>
+  <li>Wafer-scale Si3N4 photonic IC suffer from high stress and cracking. Damascene process solves it but has worse control over thickness, uniformity etc. This paper solves it by literally anchoring the Si3N4 with trenches, and showed comparable optical propagation lost.
+<img src="/assets/images/2024/20241008_20241031/20241022_005259_0.jpg" alt="20241022_005259_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241022_005259_1.jpg" alt="20241022_005259_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241022_005259_2.jpg" alt="20241022_005259_2.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241022_005259_3.jpg" alt="20241022_005259_3.jpg" />
+    <ul>
+      <li>Ji2024: <a href="https://opg.optica.org/optica/fulltext.cfm?uri=optica-11-10-1397&amp;id=561626">Efficient mass manufacturing of high-density, ultra-low-loss Si3N4 photonic integrated circuits</a></li>
+      <li>The Damascene process is very similar to how <a href="https://en.wikipedia.org/wiki/Copper_interconnects">copper interconnects</a> are made for electronics IC
+<img src="/assets/images/2024/20241008_20241031/20241022_005538_0.jpg" alt="20241022_005538_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>This is the best you can do for world’s smallest Rubik’s Cube? Who’s printing one that’s 10x smaller with nanoscribe and rotating it with laser beams.
+<img src="/assets/images/2024/20241008_20241031/20241018_013008_0.jpg" alt="20241018_013008_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241018_013008_1.jpg" alt="20241018_013008_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241018_013008_2.jpg" alt="20241018_013008_2.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241018_013008_3.jpg" alt="20241018_013008_3.jpg" />
+    <ul>
+      <li>See <a href="https://www.cnn.com/2024/10/04/style/japan-worlds-smallest-rubik-cube-intl-hnk/index.html">This is the world’s smallest Rubik’s Cube. And it actually works</a>, and <a href="https://www.oricon.co.jp/news/2347564/full/">“世界最小”ルービックキューブ、ギネス世界記録認定 「1辺5ミリ」77万円で販売へ</a></li>
+      <li>The <a href="https://www.guinnessworldrecords.com/world-records/smallest-rubiks-cube-">Guinness world records website</a> looks like a scam website</li>
+      <li>Can’t even find it on their website</li>
+    </ul>
+  </li>
+  <li>The moon tonight is gorgeous… These papers tried to measure the moon illusion and found it is usually claimed to be 50% different between the horizon and zenith moon.
+Experiments involving human perception feel so tricky to do.
+<img src="/assets/images/2024/20241008_20241031/20241017_015633_0.jpg" alt="20241017_015633_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241017_015633_1.jpg" alt="20241017_015633_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241017_015633_2.jpg" alt="20241017_015633_2.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241017_015633_3.jpg" alt="20241017_015633_3.jpg" />
+    <ul>
+      <li>Kaufman1962, <a href="https://www.science.org/doi/10.1126/science.136.3520.953">The Moon Illusion, I</a></li>
+      <li>Rock1962, <a href="https://www.science.org/doi/10.1126/science.136.3521.1023">The Moon Illusion, II</a></li>
+      <li>Kaufman2000, <a href="https://www.pnas.org/doi/full/10.1073/pnas.97.1.500">Explaining the moon illusion</a></li>
+    </ul>
+  </li>
+  <li>Found a gem of that one time when a chip flew off tweezers, spent ~10 min looking for it, and it was stuck to the outside of the fume hood
+(still working on the EBL blog and going thru stuff)
+<img src="/assets/images/2024/20241008_20241031/20241015_063037_0.jpg" alt="20241015_063037_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241015_063037_1.jpg" alt="20241015_063037_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241015_063037_2.jpg" alt="20241015_063037_2.jpg" />
+    <ul>
+      <li><a href="https://x.com/jwt0625/status/1846076194292486622">tweet</a></li>
+    </ul>
+  </li>
+  <li>How do you make lenses and mirrors for ionizing high power laser beams? Use already ionized stuff (a plasma).
+The plasma is shaped by interference pattern between two lasers first, just like how holography and fiber bragg grating are made.
+<img src="/assets/images/2024/20241008_20241031/20241015_005841_0.jpg" alt="20241015_005841_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241015_005841_1.jpg" alt="20241015_005841_1.jpg" />
+    <ul>
+      <li><a href="https://physics.aps.org/articles/v15/s16">A Plasma Lens for the World’s Most Powerful Lasers</a></li>
+      <li><a href="https://physics.aps.org/articles/v17/s123">Cleaning Intense Laser Pulses with Plasma</a></li>
+    </ul>
+  </li>
+  <li>The modern version: keystroke sniffing with off-the-shelf smartphone.
+Good news is it is not that accurate yet.
+<img src="/assets/images/2024/20241008_20241031/20241028_144621_0.jpg" alt="20241028_144621_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241028_144621_1.jpg" alt="20241028_144621_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241028_144621_2.jpg" alt="20241028_144621_2.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241028_144621_3.jpg" alt="20241028_144621_3.jpg" />
+    <ul>
+      <li>Zhao2023: <a href="https://dl.acm.org/doi/10.1145/3614440">UltraSnoop: Placement-agnostic Keystroke Snooping via Smartphone-based Ultrasonic Sonar</a></li>
+      <li>Huang2024: <a href="https://ieeexplore.ieee.org/document/10587029/">KeystrokeSniffer: An Off-the-Shelf Smartphone Can Eavesdrop on Your Privacy From Anywhere</a></li>
+      <li>How the waveforms look like, and having shorter fingers could help.
+   <img src="/assets/images/2024/20241008_20241031/20241028_160014_0.jpg" alt="20241028_160014_0.jpg" />
+   <img src="/assets/images/2024/20241008_20241031/20241028_160014_1.jpg" alt="20241028_160014_1.jpg" /></li>
+    </ul>
+  </li>
+  <li>Telephone cable on the left, human spinal cord on the right.
+<img src="/assets/images/2024/20241008_20241031/20241008_194639_0.jpg" alt="20241008_194639_0.jpg" />
+    <ul>
+      <li><a href="https://www.worldradiohistory.com/Archive-Bell-Laboratories-Record/20s/Bell-Laboratories-Record-1925-10.pdf">Bell Laboratories Record, October 1925</a></li>
+      <li>As well as <a href="https://investor.tsmc.com/english/annual-reports">TSMC annual reports</a> have amazing themes and graphics in some of them, and of course a lot of numbers as well.
+Here are a few cover images from their 2020 annual report.
+<img src="/assets/images/2024/20241008_20241031/20241008_194639_1.jpg" alt="20241008_194639_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241008_194639_2.jpg" alt="20241008_194639_2.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241008_194639_3.jpg" alt="20241008_194639_3.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241008_194639_4.jpg" alt="20241008_194639_4.jpg" /></li>
+    </ul>
+  </li>
+  <li>Some nice figures from a report on potential PFAS restriction in semiconductor sector:
+    <ul>
+      <li>Semiconductor value chain</li>
+      <li>Comparison between biological and technological devices</li>
+      <li>Evolution and status of semiconductor packaging
+(PFAS = per- and polyfluoroalkyl substances)
+<img src="/assets/images/2024/20241008_20241031/20241031_014540_0.jpg" alt="20241031_014540_0.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241031_014540_1.jpg" alt="20241031_014540_1.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241031_014540_2.jpg" alt="20241031_014540_2.jpg" />
+<img src="/assets/images/2024/20241008_20241031/20241031_014540_3.jpg" alt="20241031_014540_3.jpg" />
+        <ul>
+          <li>Semiconductor PFAS Consortium, “<a href="https://www.semiconductors.org/wp-content/uploads/2023/04/Impact-of-a-Potential-PFAS-Restriction-on-the-Semiconductor-Sector-04_14_2023.pdf">The Impact of a Potential PFAS Restriction on the Semiconductor Sector</a>”, April 13, 2023</li>
+          <li>Conclusion of the report itself: nowhere close to replacement
+ <img src="/assets/images/2024/20241008_20241031/20241031_015159_0.jpg" alt="20241031_015159_0.jpg" />
+ <img src="/assets/images/2024/20241008_20241031/20241031_015159_1.jpg" alt="20241031_015159_1.jpg" />
+ <img src="/assets/images/2024/20241008_20241031/20241031_015159_2.jpg" alt="20241031_015159_2.jpg" /></li>
+          <li>3M to Exit PFAS Manufacturing by the End of 2025 (<a href="https://news.3m.com/2022-12-20-3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025">article</a>)
+ <img src="/assets/images/2024/20241008_20241031/20241031_045338_0.jpg" alt="20241031_045338_0.jpg" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>I printed a little windcup (cad from openSCAD) using nanoscribe a while ago (and some chains, and a rick). It worked after poking it with a fiber to break the support lol.
+    <ul>
+      <li><a href="https://x.com/jwt0625/status/1813450223257337990">Tweet</a>
+ <img src="/assets/images/2024/20241008_20241031/20241018_015913_0.jpg" alt="20241018_015913_0.jpg" />
+ <img src="/assets/images/2024/20241008_20241031/20241018_015913_1.jpg" alt="20241018_015913_1.jpg" />
+ <img src="/assets/images/2024/20241008_20241031/20241018_015913_2.jpg" alt="20241018_015913_2.jpg" />
+ <img src="/assets/images/2024/20241008_20241031/20241018_015913_3.jpg" alt="20241018_015913_3.jpg" /></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Drone" /><category term="Comm" /><category term="Fiber" /><category term="Cryogenics" /><category term="Optics" /><category term="EEG" /><category term="HDRS" /><category term="Depression" /><category term="Photonics" /><category term="Stress" /><category term="Damascene" /><category term="Illusion" /><category term="Plasma" /><category term="Sniffing" /><category term="Telephone" /><category term="Bell_lab" /><category term="TSMC" /><category term="PFAS" /><category term="Nanofab" /><category term="Nanoscribe" /><category term="TPP" /><summary type="html"><![CDATA[Air-to-ground and air-to-air optical comm with drones and vehicles using 15 W white LEDs, capable of 2 Mbps and up to ~ 40 m when collimated. They showed real-time video transmission with them. The alignment is achieved with a 3-axis gimbal, a web cam, and image recognition. Liang2024: Drone-based mobile full-duplex optical communication It uses the same white LED that would be used for illumination, blue light excited phosphor]]></summary></entry><entry><title type="html">This week’s outside five sigma (#18)</title><link href="http://localhost:4000/ofs/weekly-OFS-18/" rel="alternate" type="text/html" title="This week’s outside five sigma (#18)" /><published>2024-10-27T00:00:00-07:00</published><updated>2024-10-27T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-18</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-18/"><![CDATA[<ol>
   <li>Showing this to my friends who would yell at me for accidentally leaning on their optical table:
 Menlo Systems dropped their optical frequency comb system in a 110 m drop tower to test operation in microgravity, and onto a tank of foam to show it’s shock proven up to 41.5 g.
 <img src="/assets/images/2024/20241017_20241027/20241017_155738_4.jpg" alt="20241017_155738_4.jpg" />
@@ -381,210 +551,7 @@ It uses MTX (magnetically color-tunable photonic crystal material) or magnetic m
 <img src="/assets/images/2024/20240707_20241017/20241015_power_over_skin.jpg" alt="20241015_power_over_skin.jpg" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Microwave" /><category term="Nanofab" /><category term="Laser" /><category term="Light_guide" /><category term="TIA" /><category term="Preamp" /><category term="Quantum" /><category term="Packaging" /><category term="Antenna" /><category term="Stretchable" /><category term="Strain" /><category term="Stress" /><category term="LED" /><category term="MicroLED" /><category term="Electrocaloric" /><category term="Wireless_charing" /><category term="Heavy_metal" /><category term="Robotics" /><category term="Magnetics" /><category term="Quadruped_robot" /><summary type="html"><![CDATA[Microwaving grapes touching each other could generate plasma, and it still works after shrinking both the grape and the microwave by ~10000x. If you have a fs laser, you can use this effect to cut a trench that is almost 100x smaller than the laser wavelength. Nanoscale reshaping of resonant dielectric microstructures by light-driven explosions]]></summary></entry><entry><title type="html">This week’s outside five sigma (#16)</title><link href="http://localhost:4000/ofs/weekly-OFS-16/" rel="alternate" type="text/html" title="This week’s outside five sigma (#16)" /><published>2024-10-13T00:00:00-07:00</published><updated>2024-10-13T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-16</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-16/"><![CDATA[<ol>
-  <li>I was thinking about if we could fill the magnetron cavities with silicon to shrink it by ~3x, and found out rapid microwave annealing:
-It turns amorphous silicon into crystalline, and activates the dopants… Why did I suffer thru the trainings to get rapid thermal annealing…
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_0.jpg" alt="20240930_004858_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_1.jpg" alt="20240930_004858_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_2.jpg" alt="20240930_004858_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_3.jpg" alt="20240930_004858_3.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_4.jpg" alt="20240930_004858_4.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_5.jpg" alt="20240930_004858_5.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_6.jpg" alt="20240930_004858_6.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_7.jpg" alt="20240930_004858_7.jpg" />
-    <ul>
-      <li>Fig. 1-3: <a href="https://link.springer.com/article/10.1007/s00339-016-0220-7">Crystallization and activation of silicon by microwave rapid annealing</a>
-Fig. 4: <a href="https://pubs.aip.org/aip/jap/article-abstract/106/11/114902/901654/Dopant-activation-in-ion-implanted-silicon-by?redirectedFrom=fulltext">Dopant activation in ion implanted silicon by microwave annealing</a></li>
-      <li>Since it’s a bit relevant, here is a demonstration showing you could also drill concrete and rock with microwave and millimeter wave
-(I remember the book mentioned in the quoted tweet is about drilling on other planets. Let’s see if I could find it..) 
-<img src="/assets/images/2024/20240930_20241009/20240930_032409_0.jpg" alt="20240930_032409_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_032409_1.jpg" alt="20240930_032409_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_032409_2.jpg" alt="20240930_032409_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_032409_3.jpg" alt="20240930_032409_3.jpg" /></li>
-    </ul>
-  </li>
-  <li>
-    <p>There’s a small company doing “near field” ALD/ALE with a probe, it’s called direct-write ALD, and the company is ATLANT3D Nanosystems. They gave a talk at Stanford: <a href="https://nanolabs.stanford.edu/events/unique-direct-processing-platform-technology-mdalp">Unique Direct Processing Platform Technology µDALP</a>
-<img src="/assets/images/2024/20240930_20241009/20240930_144548_0.jpg" alt="20240930_144548_0.jpg" /></p>
-  </li>
-  <li>This pressure measurement film is from fujifilm called Prescale, and introduced in 1977. The product line includes 9 types for different pressure range from kPa to almost GPa, each with ~ 6 dB range and 10% accuracy. The color is from breaking microcapsules.
-<img src="/assets/images/2024/20240930_20241009/20240930_173932_0.jpg" alt="20240930_173932_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_173932_1.jpg" alt="20240930_173932_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_173932_2.jpg" alt="20240930_173932_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_173932_3.jpg" alt="20240930_173932_3.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_173932_4.jpg" alt="20240930_173932_4.jpg" />
-    <ul>
-      <li>Fig. 1: <a href="https://fujifilm-innovation.tumblr.com/post/168661520780/the-film-that-changes-color-with-pressure">The film that changes color with pressure: Prescale!</a>
-Fig. 2: <a href="https://www.sensorprod.com/glossary/paper/fuji-paper.php">Fuji Paper from SensorProd.com</a>
-Fig. 3: <a href="https://www.fujifilm.com/us/en/business/industrial-materials/measurement-film/prescale/feature">Pressure measurement film Prescale</a>
-Fig. 4: <a href="https://www.tekscan.com/sites/default/files/resources/Measurement%20Film%20Catalog%20Brochure.pdf">Measurement Film Catalog Brochure</a></li>
-      <li>They also have films for thermal and UV
-<img src="/assets/images/2024/20240930_20241009/20241001_012123_0.jpg" alt="20241001_012123_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241001_012123_1.jpg" alt="20241001_012123_1.jpg" /></li>
-    </ul>
-  </li>
-  <li>You’ve probably seen the array of pyramids in an anechoic chamber. You could make a “pyramid” of Hilbert curve so that it is 3D print friendly and still polarization insensitive. They used carbon-loaded HIPS and achieved lower than -20 dB reflectance over a wide frequency range.
-<img src="/assets/images/2024/20240930_20241009/20241002_005317_0.jpg" alt="20241002_005317_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_005317_1.jpg" alt="20241002_005317_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_005317_2.jpg" alt="20241002_005317_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_005317_3.jpg" alt="20241002_005317_3.jpg" />
-    <ul>
-      <li>Fig. 1: <a href="https://antennatestlab.com/antenna-examples/example-3-vivaldi-antennas-rfspace">Antennas By RFSPACE</a>
-Fig. 2-4: <a href="https://pubs.aip.org/aip/rsi/article/90/2/024701/361743">A 3D-printed broadband millimeter wave absorber</a>
-Saw it from <a href="https://www.cambridge.org/core/journals/international-journal-of-microwave-and-wireless-technologies/article/abs/broadband-millimeterwave-absorbers-a-review/4A05581C33F5E27E5AAB4CD16EC0D3D2">Broadband millimeter-wave absorbers: a review</a></li>
-      <li>This is a good read on the historical aspects:
-<a href="https://ieeexplore.ieee.org/document/1140517">Electromagnetic wave absorbers and anechoic chambers through the years</a>
-<img src="/assets/images/2024/20240930_20241009/20241002_005725_0.jpg" alt="20241002_005725_0.jpg" /></li>
-    </ul>
-  </li>
-  <li>Here is what you need to generate ~gigawatt (300 kV * 1 kA) pulsed microwave: a Marx generator (charging capacitors in parallel and discharge in series) submerged in a big oil tank, to discharge into a magnetron as well as a big Helmholtz coil pair.
-<img src="/assets/images/2024/20240930_20241009/20241002_151058_0.jpg" alt="20241002_151058_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_151058_1.jpg" alt="20241002_151058_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_151058_2.jpg" alt="20241002_151058_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_151058_3.jpg" alt="20241002_151058_3.jpg" />
-    <ul>
-      <li>From thesis: <a href="https://digitalrepository.unm.edu/ece_etds/528/">Relativistic magnetron with diffraction output and split cathode</a>
-<img src="/assets/images/2024/20240930_20241009/20241002_151153_0.jpg" alt="20241002_151153_0.jpg" /></li>
-      <li>Also learnt there are two major ways of coupling out the microwave power, from the side (radial output = MRO) and from the center (diffraction output = MDO). MRO has large leakage current that does not produce microwave and has lower efficiency (~ 15% vs. ~50% for MDO).
-<img src="/assets/images/2024/20240930_20241009/20241002_151659_0.jpg" alt="20241002_151659_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_151659_1.jpg" alt="20241002_151659_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_151659_2.jpg" alt="20241002_151659_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_151659_3.jpg" alt="20241002_151659_3.jpg" /></li>
-      <li>Part of this is for generation x-ray with <a href="https://fire.pppl.gov/fpa05_olson.pdf">z-pinch</a>. I had no idea you could pinch stuff hard enough to do fusion.
-<img src="/assets/images/2024/20240930_20241009/20241002_152634_0.jpg" alt="20241002_152634_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_152634_1.jpg" alt="20241002_152634_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_152634_2.jpg" alt="20241002_152634_2.jpg" /></li>
-    </ul>
-  </li>
-  <li>Unexpected “alignment chart” for extreme computing.
-I won’t ask for too much, I’d be happy with the ultimate hot plasma laptop.
-<img src="/assets/images/2024/20240930_20241009/20241001_014944_0.jpg" alt="20241001_014944_0.jpg" />
-    <ul>
-      <li>From <a href="https://jstor.org/stable/26060763">black hole computers</a></li>
-      <li>When you are worried about space debris, the physicists are worried about too many satellites could collapse into a blackhole.
-<img src="/assets/images/2024/20240930_20241009/20241001_015447_0.jpg" alt="20241001_015447_0.jpg" /></li>
-    </ul>
-  </li>
-  <li>First laser metal 3D printing aboard the ISS. It arrived on board January 2024 and installed in May. It prints ~ 4 h a day and finished total of over 200 layers by August for the first print.
-<img src="/assets/images/2024/20240930_20241009/20241004_014322_0.jpg" alt="20241004_014322_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_014322_1.jpg" alt="20241004_014322_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_014322_2.jpg" alt="20241004_014322_2.jpg" />
-    <ul>
-      <li>Article: <a href="https://www.airbus.com/en/newsroom/stories/2024-09-behind-the-scenes-of-the-first-metal-part-to-be-3d-printed-aboard-the-iss">Behind the scenes of the first metal part to be 3D-printed aboard the ISS</a></li>
-      <li>More about the printer <a href="https://www.airbus.com/en/newsroom/stories/2024-01-the-worlds-first-metal-3d-printer-for-space-is-on-its-way-to-the-iss">here</a>. Not much real detail</li>
-    </ul>
-  </li>
-  <li>If you could write “google-proof” Q&amp;A, you might get hired for some sweet hourly rates ($100 ~ $150/h)
-<img src="/assets/images/2024/20240930_20241009/20241004_034930_0.jpg" alt="20241004_034930_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_034930_1.jpg" alt="20241004_034930_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_034930_2.jpg" alt="20241004_034930_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_034930_3.jpg" alt="20241004_034930_3.jpg" />
-    <ul>
-      <li><a href="https://arxiv.org/abs/2311.12022">GPQA: A Graduate-Level Google-Proof Q&amp;A Benchmark</a></li>
-    </ul>
-  </li>
-  <li>Injection-locking yourself out of Alzheimer is cool (“Pulses of light and sound seem to have beneficial effects.”), but a flash light (at 40 Hz) for TWO GRAND? a headset with a few LEDs for THREE GRAND??
-<img src="/assets/images/2024/20240930_20241009/20241004_041856_0.jpg" alt="20241004_041856_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_041856_1.jpg" alt="20241004_041856_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_041856_2.jpg" alt="20241004_041856_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_041856_3.jpg" alt="20241004_041856_3.jpg" />
-    <ul>
-      <li>See for yourself.
-Article: <a href="https://www.nature.com/articles/d41586-024-03147-1">Can flashing lights stall Alzheimer’s? What the science shows</a>, <a href="https://optoceutics.com/shop/evy-light-usa/">EVY Light</a>, <a href="https://www.vielight.com/devices/neuro-vagus-combo/">Vielight headset</a>
-<img src="/assets/images/2024/20240930_20241009/20241004_042104_0.jpg" alt="20241004_042104_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_042104_1.jpg" alt="20241004_042104_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_042104_2.jpg" alt="20241004_042104_2.jpg" /></li>
-    </ul>
-  </li>
-  <li>You might have heard about or used periodic poling if you work in nonlinear optics. For some applications such as THz generation with optical rectification, the poling period is comparable to wafer thickness, and you can just stack wafers, and also get a big aperture as a bonus.
-<img src="/assets/images/2024/20240930_20241009/20241004_191816_0.jpg" alt="20241004_191816_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_191816_1.jpg" alt="20241004_191816_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_191816_2.jpg" alt="20241004_191816_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_191816_3.jpg" alt="20241004_191816_3.jpg" />
-    <ul>
-      <li><a href="https://www.nature.com/articles/s42005-020-00421-2">Highly scalable multicycle THz production with a homemade periodically poled macrocrystal</a></li>
-      <li><a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-31-3-4041&amp;id=525399">Large-scale PPLN wafer stack</a></li>
-      <li><a href="https://pubs.aip.org/aip/apl/article-abstract/125/14/141101/3314598/Cryogenically-cooled-periodically-poled-lithium?redirectedFrom=fulltext">Cryogenically cooled PPLN wafer stacks for multi-cycle terahertz pulses</a></li>
-      <li>Thorlabs has a nice tutorial on <a href="https://www.thorlabs.com/catalogpages/693.pdf">periodically poled lithium niobate (PPLN)</a>
-   <img src="/assets/images/2024/20240930_20241009/20241004_192546_0.jpg" alt="20241004_192546_0.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241004_192546_1.jpg" alt="20241004_192546_1.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241004_192546_2.jpg" alt="20241004_192546_2.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241004_192546_3.jpg" alt="20241004_192546_3.jpg" /></li>
-    </ul>
-  </li>
-  <li>The video is so well made, I wish I had it to watch years ago when I was suffering during an experiment class reproducing one
-Interference and phase conjugating are so fun and useful in many ways, like determining the shape of a mirror you need, or wavefront/dispersion correction
-<img src="/assets/images/2024/20240930_20241009/20241005_153817_0.jpg" alt="20241005_153817_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241005_153817_1.jpg" alt="20241005_153817_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241005_153817_2.jpg" alt="20241005_153817_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241005_153817_3.jpg" alt="20241005_153817_3.jpg" />
-    <ul>
-      <li>
-        <table>
-          <tbody>
-            <tr>
-              <td>The video: [How are holograms possible?</td>
-              <td>Optics puzzles 5](https://www.youtube.com/watch?v=EmKQsSDlaa4)</td>
-            </tr>
-          </tbody>
-        </table>
-      </li>
-      <li>Fig. 3: <a href="https://onlinelibrary.wiley.com/doi/10.1002/lpor.202200025">Free-Form Micro-Optics Enabling Ultra-Broadband Low-Loss Off-Chip Coupling</a></li>
-      <li>Fig. 4: <a href="https://thesis.library.caltech.edu/9771/">Optical Phase Conjugation and Its Applications in Biology</a></li>
-    </ul>
-  </li>
-  <li>They missed the opportunity of calling them kiki scanning and bouba scanning
-<img src="/assets/images/2024/20240930_20241009/20241005_230551_0.jpg" alt="20241005_230551_0.jpg" />
-    <ul>
-      <li><a href="https://thesis.library.caltech.edu/4949/">Coherence Domain Optical Imaging Techniques</a>
-Pretty cool how they scan the beam out of a fiber. I want to find some actual pictures
-   <img src="/assets/images/2024/20240930_20241009/20241005_230903_0.jpg" alt="20241005_230903_0.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241005_230903_1.jpg" alt="20241005_230903_1.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241005_230903_2.jpg" alt="20241005_230903_2.jpg" /></li>
-      <li>Reading this thesis because of this paper where they imaged the USAF target thru half a mm thick chicken breast using phase conjugate: <a href="https://www.nature.com/articles/nphoton.2007.297">Optical phase conjugation for turbidity suppression in biological samples</a>. I want to find actual pictures of their setup and sample (found the one for the samples: <a href="https://thesis.library.caltech.edu/5343/">Low Optical Signal Detection in Biological Materials: SNR Considerations and Novel Techniques</a> ).
-   <img src="/assets/images/2024/20240930_20241009/20241006_043607_0.jpg" alt="20241006_043607_0.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_043607_1.jpg" alt="20241006_043607_1.jpg" /></li>
-      <li>Does not look as impressive when you actually see the 0.5 mm thick chicken breast sample</li>
-      <li>Learnt the “whole thing” is called endoscopic OCT catheter, found a few better picture of its tip design: <a href="https://www.nature.com/articles/s41566-018-0224-2">Nano-optic endoscope for high-resolution optical coherence tomography in vivo</a>, and they really just rotate the whole thing: <a href="https://ieeexplore.ieee.org/document/7363723">Advances in Endoscopic Optical Coherence Tomography Catheter Designs</a> and <a href="https://www.nature.com/articles/s41598-020-65742-2">Flexible endoscopic micro-optical coherence tomography for three-dimensional imaging of the arterial microstructure</a>
-   <img src="/assets/images/2024/20240930_20241009/20241006_072539_0.jpg" alt="20241006_072539_0.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_072539_1.jpg" alt="20241006_072539_1.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_072539_2.jpg" alt="20241006_072539_2.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_072539_3.jpg" alt="20241006_072539_3.jpg" /></li>
-    </ul>
-  </li>
-  <li>3D Printing of Nanoscale Photonic Structures.
-Two-photon and two-step polymerization are able to achieve much smaller structures than I thought, and one way to do it is to heat-shrink after the print, and get different structured color with different temperatures.
-<img src="/assets/images/2024/20240930_20241009/20241006_162312_0.jpg" alt="20241006_162312_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241006_162312_1.jpg" alt="20241006_162312_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241006_162312_2.jpg" alt="20241006_162312_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241006_162312_3.jpg" alt="20241006_162312_3.jpg" />
-    <ul>
-      <li>From the recording of a seminar. More at 
-   <img src="/assets/images/2024/20240930_20241009/20241006_162509_0.jpg" alt="20241006_162509_0.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_162509_1.jpg" alt="20241006_162509_1.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_162509_2.jpg" alt="20241006_162509_2.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_162509_3.jpg" alt="20241006_162509_3.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_162509_4.jpg" alt="20241006_162509_4.jpg" /></li>
-      <li>They mentioned the NA and bandwidth limit of a single layer metalens. It reminded me of a David Miller paper: <a href="https://www.science.org/doi/10.1126/science.ade3395">Why optics needs thickness</a>, see also on <a href="https://arxiv.org/abs/2209.03552">arxiv</a>. Basically if you are manipulating a lot of modes, they need space to exist and propagate.
-   <img src="/assets/images/2024/20240930_20241009/20241006_163055_0.jpg" alt="20241006_163055_0.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_163055_1.jpg" alt="20241006_163055_1.jpg" /></li>
-      <li>The car uses spray paint color from nanostructures (like some butterflies) instead of pigments, so it does not fade
-   <img src="/assets/images/2024/20240930_20241009/20241006_171106_0.jpg" alt="20241006_171106_0.jpg" /></li>
-    </ul>
-  </li>
-  <li>TIL there is a light guide that connects the edge of a scintillator (a thin sheet of phosphor or plastic that fluoresces when struck) in a particle detector to the photodetector/multiplier.
-It is made of funky shaped plexiglass, and can be very low loss when properly designed.
-<img src="/assets/images/2024/20240930_20241009/20241009_061018_0.jpg" alt="20241009_061018_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241009_061018_1.jpg" alt="20241009_061018_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241009_061018_2.jpg" alt="20241009_061018_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241009_061018_3.jpg" alt="20241009_061018_3.jpg" />
-    <ul>
-      <li>Fig. 1: <a href="https://indico.cern.ch/event/104466/attachments/15569/22558/scintillator_V2.pdf">Detectors for Nuclear and Particle Physics - Scintillation Counters</a>
-Fig. 2-4: Adiabatic light guide with S-shaped strips:</li>
-      <li>One company that sells them: <a href="https://eljentechnology.com/products/light-guides-and-acrylic-plastic">Eljen Technology</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Microwave" /><category term="Anneal" /><category term="Nanofab" /><category term="ALD" /><category term="ALE" /><category term="FujiFilm" /><category term="Antenna" /><category term="Anechoic-chamber" /><category term="Magnetron" /><category term="Z-pinch" /><category term="Blackhole" /><category term="ISS" /><category term="3D-print" /><category term="AI" /><category term="Alzheimer" /><category term="PPLN" /><category term="Hologram" /><category term="OCT" /><category term="Endoscope" /><category term="Scintillator" /><summary type="html"><![CDATA[I was thinking about if we could fill the magnetron cavities with silicon to shrink it by ~3x, and found out rapid microwave annealing: It turns amorphous silicon into crystalline, and activates the dopants… Why did I suffer thru the trainings to get rapid thermal annealing… Fig. 1-3: Crystallization and activation of silicon by microwave rapid annealing Fig. 4: Dopant activation in ion implanted silicon by microwave annealing Since it’s a bit relevant, here is a demonstration showing you could also drill concrete and rock with microwave and millimeter wave (I remember the book mentioned in the quoted tweet is about drilling on other planets. Let’s see if I could find it..)]]></summary></entry><entry><title type="html">Yapping on ebeam lithography</title><link href="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/" rel="alternate" type="text/html" title="Yapping on ebeam lithography" /><published>2024-10-13T00:00:00-07:00</published><updated>2024-10-13T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/yapping-on-ebeam-lithography</id><content type="html" xml:base="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/"><![CDATA[<p>The cover of this blog was the JEOL JBX 6300FS at Stanford <a href="https://snsf.stanford.edu/">SNSF</a>. I love it. Here is the evolution of JEOL JBX series.</p>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Microwave" /><category term="Nanofab" /><category term="Laser" /><category term="Light_guide" /><category term="TIA" /><category term="Preamp" /><category term="Quantum" /><category term="Packaging" /><category term="Antenna" /><category term="Stretchable" /><category term="Strain" /><category term="Stress" /><category term="LED" /><category term="MicroLED" /><category term="Electrocaloric" /><category term="Wireless_charing" /><category term="Heavy_metal" /><category term="Robotics" /><category term="Magnetics" /><category term="Quadruped_robot" /><summary type="html"><![CDATA[Microwaving grapes touching each other could generate plasma, and it still works after shrinking both the grape and the microwave by ~10000x. If you have a fs laser, you can use this effect to cut a trench that is almost 100x smaller than the laser wavelength. Nanoscale reshaping of resonant dielectric microstructures by light-driven explosions]]></summary></entry><entry><title type="html">Yapping on ebeam lithography</title><link href="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/" rel="alternate" type="text/html" title="Yapping on ebeam lithography" /><published>2024-10-13T00:00:00-07:00</published><updated>2024-10-13T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/yapping-on-ebeam-lithography</id><content type="html" xml:base="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/"><![CDATA[<p>The cover of this blog was the JEOL JBX 6300FS at Stanford <a href="https://snsf.stanford.edu/">SNSF</a>. I love it. Here is the evolution of JEOL JBX series.</p>
 
 <p><img src="/assets/images/2024/ebeam/JEOL_JBX_history.jpg" alt="JEOL_JBX_history" />
 <em>History of JEOL JBX. From <a href="https://www.jeol.com/solutions/applications/details/se2024-01.php">Application note: Development of JBX-A9, Electron Beam Lithography System</a></em></p>
@@ -1174,7 +1141,210 @@ You could find a lot of SEM images of pattered silicon photonics, so here I want
 <p><img src="/assets/images/2024/beamwrite_log_sheet.png" alt="beamwrite_log_sheet.png" />
 <em>Log sheet I created for keeping track of beamwrites from me and the team. This is specifically for JEOL, but most of the parameters are relevant in general, and will make more sense as you read on.</em></p>
 
-<p>(This post is started on 2024-08-15, and finished on 2024-10-15. Last updated on 2024-10-15.)</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Lithography" /><category term="Electron" /><summary type="html"><![CDATA[The cover of this blog was the JEOL JBX 6300FS at Stanford SNSF. I love it. Here is the evolution of JEOL JBX series.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#15)</title><link href="http://localhost:4000/ofs/weekly-OFS-15/" rel="alternate" type="text/html" title="This week’s outside five sigma (#15)" /><published>2024-10-06T00:00:00-07:00</published><updated>2024-10-06T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-15</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-15/"><![CDATA[<p>20241006, 11:35 pm: This is my first time trying to automate the weekly OFS process.</p>
+<p>(This post is started on 2024-08-15, and finished on 2024-10-15. Last updated on 2024-10-15.)</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Lithography" /><category term="Electron" /><summary type="html"><![CDATA[The cover of this blog was the JEOL JBX 6300FS at Stanford SNSF. I love it. Here is the evolution of JEOL JBX series.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#16)</title><link href="http://localhost:4000/ofs/weekly-OFS-16/" rel="alternate" type="text/html" title="This week’s outside five sigma (#16)" /><published>2024-10-13T00:00:00-07:00</published><updated>2024-10-13T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-16</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-16/"><![CDATA[<ol>
+  <li>I was thinking about if we could fill the magnetron cavities with silicon to shrink it by ~3x, and found out rapid microwave annealing:
+It turns amorphous silicon into crystalline, and activates the dopants… Why did I suffer thru the trainings to get rapid thermal annealing…
+<img src="/assets/images/2024/20240930_20241009/20240930_004858_0.jpg" alt="20240930_004858_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20240930_004858_1.jpg" alt="20240930_004858_1.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20240930_004858_2.jpg" alt="20240930_004858_2.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20240930_004858_3.jpg" alt="20240930_004858_3.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20240930_004858_4.jpg" alt="20240930_004858_4.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20240930_004858_5.jpg" alt="20240930_004858_5.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20240930_004858_6.jpg" alt="20240930_004858_6.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20240930_004858_7.jpg" alt="20240930_004858_7.jpg" />
+    <ul>
+      <li>Fig. 1-3: <a href="https://link.springer.com/article/10.1007/s00339-016-0220-7">Crystallization and activation of silicon by microwave rapid annealing</a>
+Fig. 4: <a href="https://pubs.aip.org/aip/jap/article-abstract/106/11/114902/901654/Dopant-activation-in-ion-implanted-silicon-by?redirectedFrom=fulltext">Dopant activation in ion implanted silicon by microwave annealing</a></li>
+      <li>Since it’s a bit relevant, here is a demonstration showing you could also drill concrete and rock with microwave and millimeter wave
+(I remember the book mentioned in the quoted tweet is about drilling on other planets. Let’s see if I could find it..) 
+<img src="/assets/images/2024/20240930_20241009/20240930_032409_0.jpg" alt="20240930_032409_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20240930_032409_1.jpg" alt="20240930_032409_1.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20240930_032409_2.jpg" alt="20240930_032409_2.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20240930_032409_3.jpg" alt="20240930_032409_3.jpg" /></li>
+    </ul>
+  </li>
+  <li>
+    <p>There’s a small company doing “near field” ALD/ALE with a probe, it’s called direct-write ALD, and the company is ATLANT3D Nanosystems. They gave a talk at Stanford: <a href="https://nanolabs.stanford.edu/events/unique-direct-processing-platform-technology-mdalp">Unique Direct Processing Platform Technology µDALP</a>
+<img src="/assets/images/2024/20240930_20241009/20240930_144548_0.jpg" alt="20240930_144548_0.jpg" /></p>
+  </li>
+  <li>This pressure measurement film is from fujifilm called Prescale, and introduced in 1977. The product line includes 9 types for different pressure range from kPa to almost GPa, each with ~ 6 dB range and 10% accuracy. The color is from breaking microcapsules.
+<img src="/assets/images/2024/20240930_20241009/20240930_173932_0.jpg" alt="20240930_173932_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20240930_173932_1.jpg" alt="20240930_173932_1.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20240930_173932_2.jpg" alt="20240930_173932_2.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20240930_173932_3.jpg" alt="20240930_173932_3.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20240930_173932_4.jpg" alt="20240930_173932_4.jpg" />
+    <ul>
+      <li>Fig. 1: <a href="https://fujifilm-innovation.tumblr.com/post/168661520780/the-film-that-changes-color-with-pressure">The film that changes color with pressure: Prescale!</a>
+Fig. 2: <a href="https://www.sensorprod.com/glossary/paper/fuji-paper.php">Fuji Paper from SensorProd.com</a>
+Fig. 3: <a href="https://www.fujifilm.com/us/en/business/industrial-materials/measurement-film/prescale/feature">Pressure measurement film Prescale</a>
+Fig. 4: <a href="https://www.tekscan.com/sites/default/files/resources/Measurement%20Film%20Catalog%20Brochure.pdf">Measurement Film Catalog Brochure</a></li>
+      <li>They also have films for thermal and UV
+<img src="/assets/images/2024/20240930_20241009/20241001_012123_0.jpg" alt="20241001_012123_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241001_012123_1.jpg" alt="20241001_012123_1.jpg" /></li>
+    </ul>
+  </li>
+  <li>You’ve probably seen the array of pyramids in an anechoic chamber. You could make a “pyramid” of Hilbert curve so that it is 3D print friendly and still polarization insensitive. They used carbon-loaded HIPS and achieved lower than -20 dB reflectance over a wide frequency range.
+<img src="/assets/images/2024/20240930_20241009/20241002_005317_0.jpg" alt="20241002_005317_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241002_005317_1.jpg" alt="20241002_005317_1.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241002_005317_2.jpg" alt="20241002_005317_2.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241002_005317_3.jpg" alt="20241002_005317_3.jpg" />
+    <ul>
+      <li>Fig. 1: <a href="https://antennatestlab.com/antenna-examples/example-3-vivaldi-antennas-rfspace">Antennas By RFSPACE</a>
+Fig. 2-4: <a href="https://pubs.aip.org/aip/rsi/article/90/2/024701/361743">A 3D-printed broadband millimeter wave absorber</a>
+Saw it from <a href="https://www.cambridge.org/core/journals/international-journal-of-microwave-and-wireless-technologies/article/abs/broadband-millimeterwave-absorbers-a-review/4A05581C33F5E27E5AAB4CD16EC0D3D2">Broadband millimeter-wave absorbers: a review</a></li>
+      <li>This is a good read on the historical aspects:
+<a href="https://ieeexplore.ieee.org/document/1140517">Electromagnetic wave absorbers and anechoic chambers through the years</a>
+<img src="/assets/images/2024/20240930_20241009/20241002_005725_0.jpg" alt="20241002_005725_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>Here is what you need to generate ~gigawatt (300 kV * 1 kA) pulsed microwave: a Marx generator (charging capacitors in parallel and discharge in series) submerged in a big oil tank, to discharge into a magnetron as well as a big Helmholtz coil pair.
+<img src="/assets/images/2024/20240930_20241009/20241002_151058_0.jpg" alt="20241002_151058_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241002_151058_1.jpg" alt="20241002_151058_1.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241002_151058_2.jpg" alt="20241002_151058_2.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241002_151058_3.jpg" alt="20241002_151058_3.jpg" />
+    <ul>
+      <li>From thesis: <a href="https://digitalrepository.unm.edu/ece_etds/528/">Relativistic magnetron with diffraction output and split cathode</a>
+<img src="/assets/images/2024/20240930_20241009/20241002_151153_0.jpg" alt="20241002_151153_0.jpg" /></li>
+      <li>Also learnt there are two major ways of coupling out the microwave power, from the side (radial output = MRO) and from the center (diffraction output = MDO). MRO has large leakage current that does not produce microwave and has lower efficiency (~ 15% vs. ~50% for MDO).
+<img src="/assets/images/2024/20240930_20241009/20241002_151659_0.jpg" alt="20241002_151659_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241002_151659_1.jpg" alt="20241002_151659_1.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241002_151659_2.jpg" alt="20241002_151659_2.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241002_151659_3.jpg" alt="20241002_151659_3.jpg" /></li>
+      <li>Part of this is for generation x-ray with <a href="https://fire.pppl.gov/fpa05_olson.pdf">z-pinch</a>. I had no idea you could pinch stuff hard enough to do fusion.
+<img src="/assets/images/2024/20240930_20241009/20241002_152634_0.jpg" alt="20241002_152634_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241002_152634_1.jpg" alt="20241002_152634_1.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241002_152634_2.jpg" alt="20241002_152634_2.jpg" /></li>
+    </ul>
+  </li>
+  <li>Unexpected “alignment chart” for extreme computing.
+I won’t ask for too much, I’d be happy with the ultimate hot plasma laptop.
+<img src="/assets/images/2024/20240930_20241009/20241001_014944_0.jpg" alt="20241001_014944_0.jpg" />
+    <ul>
+      <li>From <a href="https://jstor.org/stable/26060763">black hole computers</a></li>
+      <li>When you are worried about space debris, the physicists are worried about too many satellites could collapse into a blackhole.
+<img src="/assets/images/2024/20240930_20241009/20241001_015447_0.jpg" alt="20241001_015447_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>First laser metal 3D printing aboard the ISS. It arrived on board January 2024 and installed in May. It prints ~ 4 h a day and finished total of over 200 layers by August for the first print.
+<img src="/assets/images/2024/20240930_20241009/20241004_014322_0.jpg" alt="20241004_014322_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241004_014322_1.jpg" alt="20241004_014322_1.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241004_014322_2.jpg" alt="20241004_014322_2.jpg" />
+    <ul>
+      <li>Article: <a href="https://www.airbus.com/en/newsroom/stories/2024-09-behind-the-scenes-of-the-first-metal-part-to-be-3d-printed-aboard-the-iss">Behind the scenes of the first metal part to be 3D-printed aboard the ISS</a></li>
+      <li>More about the printer <a href="https://www.airbus.com/en/newsroom/stories/2024-01-the-worlds-first-metal-3d-printer-for-space-is-on-its-way-to-the-iss">here</a>. Not much real detail</li>
+    </ul>
+  </li>
+  <li>If you could write “google-proof” Q&amp;A, you might get hired for some sweet hourly rates ($100 ~ $150/h)
+<img src="/assets/images/2024/20240930_20241009/20241004_034930_0.jpg" alt="20241004_034930_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241004_034930_1.jpg" alt="20241004_034930_1.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241004_034930_2.jpg" alt="20241004_034930_2.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241004_034930_3.jpg" alt="20241004_034930_3.jpg" />
+    <ul>
+      <li><a href="https://arxiv.org/abs/2311.12022">GPQA: A Graduate-Level Google-Proof Q&amp;A Benchmark</a></li>
+    </ul>
+  </li>
+  <li>Injection-locking yourself out of Alzheimer is cool (“Pulses of light and sound seem to have beneficial effects.”), but a flash light (at 40 Hz) for TWO GRAND? a headset with a few LEDs for THREE GRAND??
+<img src="/assets/images/2024/20240930_20241009/20241004_041856_0.jpg" alt="20241004_041856_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241004_041856_1.jpg" alt="20241004_041856_1.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241004_041856_2.jpg" alt="20241004_041856_2.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241004_041856_3.jpg" alt="20241004_041856_3.jpg" />
+    <ul>
+      <li>See for yourself.
+Article: <a href="https://www.nature.com/articles/d41586-024-03147-1">Can flashing lights stall Alzheimer’s? What the science shows</a>, <a href="https://optoceutics.com/shop/evy-light-usa/">EVY Light</a>, <a href="https://www.vielight.com/devices/neuro-vagus-combo/">Vielight headset</a>
+<img src="/assets/images/2024/20240930_20241009/20241004_042104_0.jpg" alt="20241004_042104_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241004_042104_1.jpg" alt="20241004_042104_1.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241004_042104_2.jpg" alt="20241004_042104_2.jpg" /></li>
+    </ul>
+  </li>
+  <li>You might have heard about or used periodic poling if you work in nonlinear optics. For some applications such as THz generation with optical rectification, the poling period is comparable to wafer thickness, and you can just stack wafers, and also get a big aperture as a bonus.
+<img src="/assets/images/2024/20240930_20241009/20241004_191816_0.jpg" alt="20241004_191816_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241004_191816_1.jpg" alt="20241004_191816_1.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241004_191816_2.jpg" alt="20241004_191816_2.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241004_191816_3.jpg" alt="20241004_191816_3.jpg" />
+    <ul>
+      <li><a href="https://www.nature.com/articles/s42005-020-00421-2">Highly scalable multicycle THz production with a homemade periodically poled macrocrystal</a></li>
+      <li><a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-31-3-4041&amp;id=525399">Large-scale PPLN wafer stack</a></li>
+      <li><a href="https://pubs.aip.org/aip/apl/article-abstract/125/14/141101/3314598/Cryogenically-cooled-periodically-poled-lithium?redirectedFrom=fulltext">Cryogenically cooled PPLN wafer stacks for multi-cycle terahertz pulses</a></li>
+      <li>Thorlabs has a nice tutorial on <a href="https://www.thorlabs.com/catalogpages/693.pdf">periodically poled lithium niobate (PPLN)</a>
+   <img src="/assets/images/2024/20240930_20241009/20241004_192546_0.jpg" alt="20241004_192546_0.jpg" />
+   <img src="/assets/images/2024/20240930_20241009/20241004_192546_1.jpg" alt="20241004_192546_1.jpg" />
+   <img src="/assets/images/2024/20240930_20241009/20241004_192546_2.jpg" alt="20241004_192546_2.jpg" />
+   <img src="/assets/images/2024/20240930_20241009/20241004_192546_3.jpg" alt="20241004_192546_3.jpg" /></li>
+    </ul>
+  </li>
+  <li>The video is so well made, I wish I had it to watch years ago when I was suffering during an experiment class reproducing one
+Interference and phase conjugating are so fun and useful in many ways, like determining the shape of a mirror you need, or wavefront/dispersion correction
+<img src="/assets/images/2024/20240930_20241009/20241005_153817_0.jpg" alt="20241005_153817_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241005_153817_1.jpg" alt="20241005_153817_1.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241005_153817_2.jpg" alt="20241005_153817_2.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241005_153817_3.jpg" alt="20241005_153817_3.jpg" />
+    <ul>
+      <li>
+        <table>
+          <tbody>
+            <tr>
+              <td>The video: [How are holograms possible?</td>
+              <td>Optics puzzles 5](https://www.youtube.com/watch?v=EmKQsSDlaa4)</td>
+            </tr>
+          </tbody>
+        </table>
+      </li>
+      <li>Fig. 3: <a href="https://onlinelibrary.wiley.com/doi/10.1002/lpor.202200025">Free-Form Micro-Optics Enabling Ultra-Broadband Low-Loss Off-Chip Coupling</a></li>
+      <li>Fig. 4: <a href="https://thesis.library.caltech.edu/9771/">Optical Phase Conjugation and Its Applications in Biology</a></li>
+    </ul>
+  </li>
+  <li>They missed the opportunity of calling them kiki scanning and bouba scanning
+<img src="/assets/images/2024/20240930_20241009/20241005_230551_0.jpg" alt="20241005_230551_0.jpg" />
+    <ul>
+      <li><a href="https://thesis.library.caltech.edu/4949/">Coherence Domain Optical Imaging Techniques</a>
+Pretty cool how they scan the beam out of a fiber. I want to find some actual pictures
+   <img src="/assets/images/2024/20240930_20241009/20241005_230903_0.jpg" alt="20241005_230903_0.jpg" />
+   <img src="/assets/images/2024/20240930_20241009/20241005_230903_1.jpg" alt="20241005_230903_1.jpg" />
+   <img src="/assets/images/2024/20240930_20241009/20241005_230903_2.jpg" alt="20241005_230903_2.jpg" /></li>
+      <li>Reading this thesis because of this paper where they imaged the USAF target thru half a mm thick chicken breast using phase conjugate: <a href="https://www.nature.com/articles/nphoton.2007.297">Optical phase conjugation for turbidity suppression in biological samples</a>. I want to find actual pictures of their setup and sample (found the one for the samples: <a href="https://thesis.library.caltech.edu/5343/">Low Optical Signal Detection in Biological Materials: SNR Considerations and Novel Techniques</a> ).
+   <img src="/assets/images/2024/20240930_20241009/20241006_043607_0.jpg" alt="20241006_043607_0.jpg" />
+   <img src="/assets/images/2024/20240930_20241009/20241006_043607_1.jpg" alt="20241006_043607_1.jpg" /></li>
+      <li>Does not look as impressive when you actually see the 0.5 mm thick chicken breast sample</li>
+      <li>Learnt the “whole thing” is called endoscopic OCT catheter, found a few better picture of its tip design: <a href="https://www.nature.com/articles/s41566-018-0224-2">Nano-optic endoscope for high-resolution optical coherence tomography in vivo</a>, and they really just rotate the whole thing: <a href="https://ieeexplore.ieee.org/document/7363723">Advances in Endoscopic Optical Coherence Tomography Catheter Designs</a> and <a href="https://www.nature.com/articles/s41598-020-65742-2">Flexible endoscopic micro-optical coherence tomography for three-dimensional imaging of the arterial microstructure</a>
+   <img src="/assets/images/2024/20240930_20241009/20241006_072539_0.jpg" alt="20241006_072539_0.jpg" />
+   <img src="/assets/images/2024/20240930_20241009/20241006_072539_1.jpg" alt="20241006_072539_1.jpg" />
+   <img src="/assets/images/2024/20240930_20241009/20241006_072539_2.jpg" alt="20241006_072539_2.jpg" />
+   <img src="/assets/images/2024/20240930_20241009/20241006_072539_3.jpg" alt="20241006_072539_3.jpg" /></li>
+    </ul>
+  </li>
+  <li>3D Printing of Nanoscale Photonic Structures.
+Two-photon and two-step polymerization are able to achieve much smaller structures than I thought, and one way to do it is to heat-shrink after the print, and get different structured color with different temperatures.
+<img src="/assets/images/2024/20240930_20241009/20241006_162312_0.jpg" alt="20241006_162312_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241006_162312_1.jpg" alt="20241006_162312_1.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241006_162312_2.jpg" alt="20241006_162312_2.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241006_162312_3.jpg" alt="20241006_162312_3.jpg" />
+    <ul>
+      <li>From the recording of a seminar. More at 
+   <img src="/assets/images/2024/20240930_20241009/20241006_162509_0.jpg" alt="20241006_162509_0.jpg" />
+   <img src="/assets/images/2024/20240930_20241009/20241006_162509_1.jpg" alt="20241006_162509_1.jpg" />
+   <img src="/assets/images/2024/20240930_20241009/20241006_162509_2.jpg" alt="20241006_162509_2.jpg" />
+   <img src="/assets/images/2024/20240930_20241009/20241006_162509_3.jpg" alt="20241006_162509_3.jpg" />
+   <img src="/assets/images/2024/20240930_20241009/20241006_162509_4.jpg" alt="20241006_162509_4.jpg" /></li>
+      <li>They mentioned the NA and bandwidth limit of a single layer metalens. It reminded me of a David Miller paper: <a href="https://www.science.org/doi/10.1126/science.ade3395">Why optics needs thickness</a>, see also on <a href="https://arxiv.org/abs/2209.03552">arxiv</a>. Basically if you are manipulating a lot of modes, they need space to exist and propagate.
+   <img src="/assets/images/2024/20240930_20241009/20241006_163055_0.jpg" alt="20241006_163055_0.jpg" />
+   <img src="/assets/images/2024/20240930_20241009/20241006_163055_1.jpg" alt="20241006_163055_1.jpg" /></li>
+      <li>The car uses spray paint color from nanostructures (like some butterflies) instead of pigments, so it does not fade
+   <img src="/assets/images/2024/20240930_20241009/20241006_171106_0.jpg" alt="20241006_171106_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>TIL there is a light guide that connects the edge of a scintillator (a thin sheet of phosphor or plastic that fluoresces when struck) in a particle detector to the photodetector/multiplier.
+It is made of funky shaped plexiglass, and can be very low loss when properly designed.
+<img src="/assets/images/2024/20240930_20241009/20241009_061018_0.jpg" alt="20241009_061018_0.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241009_061018_1.jpg" alt="20241009_061018_1.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241009_061018_2.jpg" alt="20241009_061018_2.jpg" />
+<img src="/assets/images/2024/20240930_20241009/20241009_061018_3.jpg" alt="20241009_061018_3.jpg" />
+    <ul>
+      <li>Fig. 1: <a href="https://indico.cern.ch/event/104466/attachments/15569/22558/scintillator_V2.pdf">Detectors for Nuclear and Particle Physics - Scintillation Counters</a>
+Fig. 2-4: Adiabatic light guide with S-shaped strips:</li>
+      <li>One company that sells them: <a href="https://eljentechnology.com/products/light-guides-and-acrylic-plastic">Eljen Technology</a></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Microwave" /><category term="Anneal" /><category term="Nanofab" /><category term="ALD" /><category term="ALE" /><category term="FujiFilm" /><category term="Antenna" /><category term="Anechoic-chamber" /><category term="Magnetron" /><category term="Z-pinch" /><category term="Blackhole" /><category term="ISS" /><category term="3D-print" /><category term="AI" /><category term="Alzheimer" /><category term="PPLN" /><category term="Hologram" /><category term="OCT" /><category term="Endoscope" /><category term="Scintillator" /><summary type="html"><![CDATA[I was thinking about if we could fill the magnetron cavities with silicon to shrink it by ~3x, and found out rapid microwave annealing: It turns amorphous silicon into crystalline, and activates the dopants… Why did I suffer thru the trainings to get rapid thermal annealing… Fig. 1-3: Crystallization and activation of silicon by microwave rapid annealing Fig. 4: Dopant activation in ion implanted silicon by microwave annealing Since it’s a bit relevant, here is a demonstration showing you could also drill concrete and rock with microwave and millimeter wave (I remember the book mentioned in the quoted tweet is about drilling on other planets. Let’s see if I could find it..)]]></summary></entry><entry><title type="html">This week’s outside five sigma (#15)</title><link href="http://localhost:4000/ofs/weekly-OFS-15/" rel="alternate" type="text/html" title="This week’s outside five sigma (#15)" /><published>2024-10-06T00:00:00-07:00</published><updated>2024-10-06T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-15</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-15/"><![CDATA[<p>20241006, 11:35 pm: This is my first time trying to automate the weekly OFS process.</p>
 <ul>
   <li>The media is scrapped properly, but the link inside the tweets are not yet processed properly</li>
   <li>There are still quite some duplicates and extra tweets. Not fixing these yet since the whole thing might get re-generated again.</li>
@@ -1883,96 +2053,4 @@ Homogeneity across a DVD ~ 1%
 <img src="/assets/images/2024/epi_seal_2.jpeg" alt="epi_seal_2.jpeg" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Math" /><category term="Mini-PC" /><category term="Laser" /><category term="Fusion" /><category term="Pyroelectrics" /><category term="Mayonnaise" /><category term="Rayleigh-Taylor-instability" /><category term="Barcode" /><category term="Silicon" /><category term="Nanofab" /><category term="MEMS" /><category term="Qubit" /><category term="AI" /><category term="TMS" /><category term="Laser-ablation" /><category term="Exfiltrate" /><summary type="html"><![CDATA[Thomae’s function is somehow linked to the visual density of points of a 2D grid. Wikipedia: Thomae’s function Twitter thread]]></summary></entry><entry><title type="html">This week’s outside five sigma (#11)</title><link href="http://localhost:4000/ofs/weekly-OFS-11/" rel="alternate" type="text/html" title="This week’s outside five sigma (#11)" /><published>2024-09-08T00:00:00-07:00</published><updated>2024-09-08T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-11</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-11/"><![CDATA[<ol>
-  <li>This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff.
-    <ul>
-      <li>Paper: <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10659116">Ultra-Wideband RF-Photonics Technology for Microwave</a>
-<img src="/assets/images/2024/spiral_AWG.png" alt="spiral_AWG.png" /></li>
-    </ul>
-  </li>
-  <li>A dc-biased Josephson junction in series with two microwave resonators emits entangled beams of microwaves leaking out of the resonators
-    <ul>
-      <li>Paper: <a href="https://journals.aps.org/prx/abstract/10.1103/PhysRevX.11.031008">Generating Two Continuous Entangled Microwave Beams Using a dc-Biased Josephson Junction</a>
-<img src="/assets/images/2024/DC_biased_JJ.png" alt="DC_biased_JJ.png" /></li>
-    </ul>
-  </li>
-  <li>Google showed their surface code is getting better with higher distance. This very roughly means that the superconducting qubits are goos enough for quantum computing, the question is now how and how fast can it scale.
-    <ul>
-      <li>Paper: <a href="https://arxiv.org/abs/2408.13687">Quantum error correction below the surface code threshold</a>
-<img src="/assets/images/2024/google_surface_code_threshold.PNG" alt="google_surface_code_threshold.PNG" /></li>
-    </ul>
-  </li>
-  <li>Behold, we will soon have microbatteries in our brains and balls (not really, but they actually have comparable sizes). And you could use it to power electrochemical actuators for micro-robots.
-    <ul>
-      <li>Paper: <a href="https://www.science.org/doi/10.1126/scirobotics.ade4642">High energy density picoliter-scale zinc-air microbatteries for colloidal robotics</a>
-<img src="/assets/images/2024/microbatteries.jfif" alt="microbatteries.jfif" /></li>
-    </ul>
-  </li>
-  <li>The volume of the unit sphere peaks at a dimensionality of exactly 5, and the area peaks at 7 dimensions.
-    <ul>
-      <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/N-sphere">n-sphere</a>
-<img src="/assets/images/2024/File_Hypersphere_volume_and_surface_area_graphs.svg" alt="File_Hypersphere_volume_and_surface_area_graphs.svg" /></li>
-    </ul>
-  </li>
-  <li>This is one of my favorite paper, from the S of the RSA, on how to share a secret to n people while you need k of them to help you decode it. Any (k-1) people would have no idea what it is.
-    <ul>
-      <li>Paper: <a href="https://dl.acm.org/doi/abs/10.1145/359168.359176">How to share a secret</a>
-<img src="/assets/images/2024/Shamir_share_a_secret.jfif" alt="Shamir_share_a_secret.jfif" /></li>
-    </ul>
-  </li>
-  <li>Chemical oxygen–iodine laser (COIL), as well as other chemical lasers, are basically putting two mirrors around a rocket engine exhaust.
-    <ul>
-      <li>ScienceDirect: <a href="https://www.sciencedirect.com/topics/physics-and-astronomy/chemical-laser">Chemical Laser</a>
-<img src="/assets/images/2024/COIL_laser.png" alt="COIL_laser.png" /></li>
-    </ul>
-  </li>
-  <li>Want your kids to be more stress-tolerant, grow faster and stronger? Record your fights with your breeding partner and replay it to your kids before they were born! That’s what these science weirdos did to seagull eggs and found out about…
-    <ul>
-      <li>Paper: <a href="https://www.science.org/doi/full/10.1126/sciadv.adn8542">Lasting benefits of embryonic eavesdropping on parent-parent communication</a>
-<img src="/assets/images/2024/talkative_parents_1.jfif" alt="talkative_parents_1.jfif" />
-<img src="/assets/images/2024/talkative_parents_2.jfif" alt="talkative_parents_2.jfif" /></li>
-    </ul>
-  </li>
-  <li>Science hippies watch bees jerking off flowers and then jerk off flowers themselves. The bees could do it at 400 Hz!
-    <ul>
-      <li>Paper: <a href="https://www.science.org/content/article/head-banging-bumble-bees-bite-flowers-shake-loose-more-pollen">Head-banging bumble bees bite flowers to shake loose more pollen</a></li>
-      <li><a href="https://x.com/jwt0625/status/1829893872232906925">Tweet</a> with more videos.
-<img src="/assets/images/2024/bees_jerking_flowers.jfif" alt="bees_jerking_flowers.jfif" /></li>
-    </ul>
-  </li>
-  <li>This is not just robots on mushroom, this is mushroom roots controlling robots with their electrical signals… Would you raise the fungi, and then use a 24-bit ADC and going thru the EMI shielding hussle to sense ~ 100 uV signal from fungi roots to actuate your robot?
-    <ul>
-      <li>Paper: <a href="https://www.science.org/doi/10.1126/scirobotics.adk8019">Sensorimotor control of robots mediated by electrophysiological measurements of fungal mycelia</a></li>
-      <li><a href="https://x.com/jwt0625/status/1830128032029507626">Tweet</a> with more images and videos.
-<img src="/assets/images/2024/mushroom_tentacle_robot.jfif" alt="mushroom_tentacle_robot.jfif" /></li>
-    </ul>
-  </li>
-  <li>Phone vibration motors are less than one buck each
-    <ul>
-      <li>Amazon: <a href="https://www.amazon.com/Vibration-Coreless-Vibrating-electronic-accessories/dp/B0D2PZBMYW/ref=asc_df_B0D2PZBMYW/?th=1">15pcs DC Vibration Motor 6mm x10mm Micro Coreless Vibrating Motor</a>
-<img src="/assets/images/2024/phone_vib_motor.jfif" alt="phone_vib_motor.jfif" /></li>
-    </ul>
-  </li>
-  <li>Thomas Wilfred’s art looks like AI generated light field animation, but it is actually fully mechanical. And the beautiful thing is, his patent on it just turned 100 years old.
-    <ul>
-      <li>Patent: <a href="https://patents.google.com/patent/US1749011A/en">Light-projection display</a></li>
-      <li><a href="https://www.getty.edu/publications/keepitmoving/case-studies/4-snow/">Conserving Thomas Wilfred’s Lumia Suite, Opus 158</a> (<a href="/assets/doc/2024/Conserving Thomas Wilfred’s Lumia Suite __ Keep It Moving_.pdf">backup</a>)
-<img src="/assets/images/2024/Thomas_Wilfred_art.jfif" alt="Thomas_Wilfred_art.jfif" />
-<img src="/assets/images/2024/Thomas_Wilfred_setup.jfif" alt="Thomas_Wilfred_setup.jfif" /></li>
-    </ul>
-  </li>
-  <li>When you didn’t have FEM, you would bruteforce thru the math, build an equivalence of your structure in plastic, and directly measure &amp; visualize the solution.
-    <ul>
-      <li>Paper: <a href="https://pubs.aip.org/aip/jap/article-abstract/50/7/4567/500582/Photoelastic-waveguides-and-their-effect-on-stripe">Photoelastic waveguides and their effect on stripe‐geometry GaAs/Ga$_{1−x}$Al$_x$As lasers</a>
-<img src="/assets/images/2024/strain_thin_film_solution.png" alt="strain_thin_film_solution.png" />
-<img src="/assets/images/2024/strain_thin_film_measurement.png" alt="strain_thin_film_measurement.png" /></li>
-    </ul>
-  </li>
-  <li>The astronomers (the AWG paper at the beginning of this blog) and high energy physicists having the coolest shit. This paper is GPU accelerated optical photon simulation, but the photons are from a 200 GeV muon.
-    <ul>
-      <li>Paper: <a href="https://www.epj-conferences.org/articles/epjconf/pdf/2024/05/epjconf_chep2024_11014.pdf">Opticks : GPU Optical Photon Simulation via NVIDIA OptiX</a></li>
-      <li>Project: <a href="https://simoncblyth.bitbucket.io/">Opticks Publications, Presentations, Notes</a>
-<img src="/assets/images/2024/photon_from_200GeV_muon.jfif" alt="photon_from_200GeV_muon.jfif" /></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="AWG" /><category term="Integrated_photonics" /><category term="SC_qubit" /><category term="Nanofab" /><category term="Math" /><category term="Encryption" /><category term="Laser" /><category term="Behavior" /><category term="Biology" /><category term="Robotics" /><category term="Art" /><category term="Mechanics" /><category term="Simulation" /><category term="Photonics" /><category term="Optics" /><summary type="html"><![CDATA[This is the first time I see an AWG (arrayed waveguide grating) looking like this, to achieve narrow channel widths (&lt; 1 GHz) over a wide bandwidth (140-190 GHz) for a space-based microwave radiometry application. This resolution translates to 1 ns delay or 9 cm length diff. Paper: Ultra-Wideband RF-Photonics Technology for Microwave]]></summary></entry></feed>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Math" /><category term="Mini-PC" /><category term="Laser" /><category term="Fusion" /><category term="Pyroelectrics" /><category term="Mayonnaise" /><category term="Rayleigh-Taylor-instability" /><category term="Barcode" /><category term="Silicon" /><category term="Nanofab" /><category term="MEMS" /><category term="Qubit" /><category term="AI" /><category term="TMS" /><category term="Laser-ablation" /><category term="Exfiltrate" /><summary type="html"><![CDATA[Thomae’s function is somehow linked to the visual density of points of a 2D grid. Wikipedia: Thomae’s function Twitter thread]]></summary></entry></feed>
