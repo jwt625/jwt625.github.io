@@ -238,4 +238,10 @@ var store = [{
         "tags": ["Drone","Comm","Fiber","Cryogenics","Optics","EEG","HDRS","Depression","Photonics","Stress","Damascene","Illusion","Plasma","Sniffing","Telephone","Bell_lab","TSMC","PFAS","Nanofab","Nanoscribe","TPP"],
         "url": "/ofs/weekly-OFS-19/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#20)",
+        "excerpt":"The superconducting qubit, spin qubit, quantum dot qubit, and atom/ion qubit (list not exhaustive) people gotta catch up with their quantum starter kit Qubitekk Quantum Starter Kit They are about to get acquired by IonQ: IonQ to Acquire Qubitekk, Furthering Leadership in Quantum Networking Wood rocket anyone? World’s first wooden...","categories": ["OFS"],
+        "tags": ["Qubit","Photonics","Quantum","Wood","Satellite","AFM","Membrane","Optomechanics","Entanglement","BellLab","Atom","Blender","ComputerVision","DNN","MATLAB","PCB","FailureAnalysis","Optics","Camera","Microscopy"],
+        "url": "/ofs/weekly-OFS-20/",
+        "teaser": null
       }]
