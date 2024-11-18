@@ -1,4 +1,208 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-09T20:55:46-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#20)</title><link href="http://localhost:4000/ofs/weekly-OFS-20/" rel="alternate" type="text/html" title="This week’s outside five sigma (#20)" /><published>2024-11-09T00:00:00-08:00</published><updated>2024-11-09T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-20</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-20/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-17T17:05:50-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#21)</title><link href="http://localhost:4000/ofs/weekly-OFS-21/" rel="alternate" type="text/html" title="This week’s outside five sigma (#21)" /><published>2024-11-17T00:00:00-08:00</published><updated>2024-11-17T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-21</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-21/"><![CDATA[<ol>
+  <li>Examples from Nanoscribe Webinar Multi-material 3D printing
+<img src="/assets/images/2024/20240502_20241115/20241111_013919_0.jpg" alt="20241111_013919_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_013919_1.jpg" alt="20241111_013919_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_013919_2.jpg" alt="20241111_013919_2.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_013919_3.jpg" alt="20241111_013919_3.jpg" />
+    <ul>
+      <li>10 Webinar Multi-material 3D printing (link TBA, embed link broken on twitter)</li>
+      <li>The first example shown above is for testing micro fiber tensile strength.
+They also have a version to test cell-cell adhesion, pretty damn cool.
+<img src="/assets/images/2024/20240502_20241115/20241111_014316_0.jpg" alt="20241111_014316_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_014316_1.jpg" alt="20241111_014316_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_014316_2.jpg" alt="20241111_014316_2.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_014316_3.jpg" alt="20241111_014316_3.jpg" /></li>
+      <li>Their first seminar has a lot of nice background on two photon polymerization:
+<a href="https://vimeo.com/543125183/499e3d36ee">Webinar 01 – 3D Microfabrication with highest precision and speed</a>
+<img src="/assets/images/2024/20240502_20241115/20241111_020240_0.jpg" alt="20241111_020240_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_020240_1.jpg" alt="20241111_020240_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_020240_2.jpg" alt="20241111_020240_2.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_020240_3.jpg" alt="20241111_020240_3.jpg" /></li>
+      <li>There are already some wild applications in there at the time, like:
+Clipping carbon fibers onto a nerve to tap off its signal, in vivo in a zebra finch: <a href="https://iopscience.iop.org/article/10.1088/1741-2552/aa5a5b/meta">A micro-scale printable nanoclip for electrical stimulation and recording in small nerves</a>
+Spider-inspired 3d nozzle to spin fibers less than 3 um diameter: <a href="https://arxiv.org/pdf/1804.01039">Nanofabrication inside Microfluidic Chips for Biomimetic Wet-Spinning of Fibres</a>
+<img src="/assets/images/2024/20240502_20241115/20241111_021417_0.jpg" alt="20241111_021417_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_021417_1.jpg" alt="20241111_021417_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_021417_2.jpg" alt="20241111_021417_2.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_021417_3.jpg" alt="20241111_021417_3.jpg" /></li>
+    </ul>
+  </li>
+  <li>3D Printing of Nanoscale Photonic Structures.
+Two-photon and two-step polymerization are able to achieve much smaller structures than I thought, and one way to do it is to heat-shrink after the print, and get different structured color with different temperatures.
+<img src="/assets/images/2024/20240502_20241115/20241006_162312_0.jpg" alt="20241006_162312_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241006_162312_1.jpg" alt="20241006_162312_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241006_162312_2.jpg" alt="20241006_162312_2.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241006_162312_3.jpg" alt="20241006_162312_3.jpg" />
+    <ul>
+      <li>From the recording of a seminar. More at 
+<img src="/assets/images/2024/20240502_20241115/20241006_162509_0.jpg" alt="20241006_162509_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241006_162509_1.jpg" alt="20241006_162509_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241006_162509_2.jpg" alt="20241006_162509_2.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241006_162509_3.jpg" alt="20241006_162509_3.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241006_162509_4.jpg" alt="20241006_162509_4.jpg" /></li>
+      <li>They mentioned the NA and bandwidth limit of a single layer metalens. It reminded me of a David Miller paper: <a href="https://www.science.org/doi/10.1126/science.ade3395">Why optics needs thickness</a>, also on <a href="https://arxiv.org/abs/2209.03552">arxiv</a>. Basically if you are manipulating a lot of modes, they need space to exist and propagate.
+<img src="/assets/images/2024/20240502_20241115/20241006_163055_0.jpg" alt="20241006_163055_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241006_163055_1.jpg" alt="20241006_163055_1.jpg" /></li>
+    </ul>
+  </li>
+  <li>Intel 4 technology interconnect cross section TEM.
+Various marketing term (tech node) vs actual dimensions.
+Process readiness and sustainability (market concentration, emission, water consumption, toxicity…) for various potential interconnect metals.
+<img src="/assets/images/2024/20240502_20241115/20241110_051929_0.jpg" alt="20241110_051929_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241110_051929_1.jpg" alt="20241110_051929_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241110_051929_2.jpg" alt="20241110_051929_2.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241110_051929_3.jpg" alt="20241110_051929_3.jpg" />
+    <ul>
+      <li>From Soulié2024: <a href="https://pubs.aip.org/aip/jap/article/136/17/171101/3318627/Selecting-alternative-metals-for-advanced">Selecting alternative metals for advanced interconnects</a>
+A lot of good stuff in this paper.
+<img src="/assets/images/2024/20240502_20241115/20241110_052125_0.jpg" alt="20241110_052125_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241110_052125_1.jpg" alt="20241110_052125_1.jpg" /></li>
+      <li>When the metal domains are so small you have to consider the grains and how the electrons shove around the atoms at the grain boundaries and triple points (electromigration effect)
+<img src="/assets/images/2024/20240502_20241115/20241110_052428_0.jpg" alt="20241110_052428_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241110_052428_1.jpg" alt="20241110_052428_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241110_052428_2.jpg" alt="20241110_052428_2.jpg" /></li>
+      <li>Embedded Tutorial: <a href="https://citeseerx.ist.psu.edu/document?repid=rep1&amp;type=pdf&amp;doi=f8e6f0141b5c9372365e6d95b99ea41b52d8e09a">Electromigration-Aware Physical Design of Integrated Circuits</a></li>
+      <li>Synopsis: <a href="https://www.synopsys.com/glossary/what-is-electromigration.html">What is Electromigration?</a></li>
+    </ul>
+  </li>
+  <li>Speed vs. voxel size for various 3D printers and methods.
+They have a website to keep the plot up to date and you could suggest a reference.
+<img src="/assets/images/2024/20240502_20241115/20241111_022447_0.jpg" alt="20241111_022447_0.jpg" />
+    <ul>
+      <li><a href="https://3dprintingspeed.aph.kit.edu/">Comparing 3D Printers</a></li>
+    </ul>
+  </li>
+  <li>Recent results from CUNY and xscape photonics (?) folks on photonic interconnects with Kerr comb and array of modulated ring resonators. Nice integration.
+Meanwhile, if you are curious or involved in optical interconnects, read the two David Miller papers from 2009 and 2017.
+<img src="/assets/images/2024/20240502_20241115/20241111_160136_0.jpg" alt="20241111_160136_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_160136_1.jpg" alt="20241111_160136_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_160136_2.jpg" alt="20241111_160136_2.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_160136_3.jpg" alt="20241111_160136_3.jpg" />
+    <ul>
+      <li>Wang2024: <a href="https://ieeexplore.ieee.org/document/10745546/">Co-Designed Silicon Photonics Chip I/O for Energy-Efficient Petascale Connectivity</a></li>
+      <li>The two David Miller paper:</li>
+      <li>Miller2009: <a href="https://ieeexplore.ieee.org/document/5071309">Device Requirements for Optical Interconnects to Silicon Chips</a>
+(also at <a href="https://ee-www.stanford.edu/~dabm/370.pdf">stanford</a>)</li>
+      <li>Miller2017: (open access) <a href="https://ieeexplore.ieee.org/document/7805240">Attojoule Optoelectronics for Low-Energy Information Processing and Communications</a>
+<img src="/assets/images/2024/20240502_20241115/20241111_160438_0.jpg" alt="20241111_160438_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_160438_1.jpg" alt="20241111_160438_1.jpg" /></li>
+    </ul>
+  </li>
+  <li>babe wake up new The Signal Path video just dropped about something you’ll never need and could never afford but cool af (Keysight 256GS/s, 80GHz Bandwidth M8199B 2-Channel AWG)
+<img src="/assets/images/2024/20240502_20241115/20241111_035026_0.jpg" alt="20241111_035026_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_035026_1.jpg" alt="20241111_035026_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_035026_2.jpg" alt="20241111_035026_2.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_035026_3.jpg" alt="20241111_035026_3.jpg" />
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=rVJwcZavr9U&amp;ab_channel=TheSignalPath">TSP #253 - Keysight 256GS/s, 80GHz Bandwidth M8199B 2-Channel AWG Overview, Teardown &amp; Experiments</a></li>
+    </ul>
+  </li>
+  <li>Reading another work that has a great summary and cited the original paper of ULE from Corning.
+The work itself is about 3D manufacturing of ULE with femtosecond selective laser etching.
+<img src="/assets/images/2024/20240502_20241115/20241103_222440_0.jpg" alt="20241103_222440_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241103_222440_1.jpg" alt="20241103_222440_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241103_222440_2.jpg" alt="20241103_222440_2.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241103_222440_3.jpg" alt="20241103_222440_3.jpg" />
+    <ul>
+      <li>Casamenti2024: <a href="https://pubs.aip.org/lia/jla/article/36/4/042067/3318883/High-precision-microscale-3D-manufacturing-of">High precision microscale 3D manufacturing of ultralow expansion glass by femtosecond selective laser etching</a>
+Original ULE paper: Rathmann1968: <a href="https://opg.optica.org/ao/abstract.cfm?uri=ao-7-5-819">A New Ultralow-Expansion, Modified Fused-Silica Glass</a>
+Funny its CTE becomes negative above 300 C, reversed of normal glass.
+<img src="/assets/images/2024/20240502_20241115/20241111_164556_0.jpg" alt="20241111_164556_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_164556_1.jpg" alt="20241111_164556_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241111_164556_2.jpg" alt="20241111_164556_2.jpg" /></li>
+    </ul>
+  </li>
+  <li>You can record speech remotely on any part of your body like neck, face chest etc., from ~ 100 m away, thru windows, and “immune” to background noise.
+It uses interference of laser speckle patterns, and all you need is a 532 nm laser and a ~&gt; 8 kfps camera.
+Up the price you could do it invisible in IR.
+<img src="/assets/images/2024/20240502_20241115/20241112_112734_0.jpg" alt="20241112_112734_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241112_112734_1.jpg" alt="20241112_112734_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241112_112734_2.jpg" alt="20241112_112734_2.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241112_112734_3.jpg" alt="20241112_112734_3.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241112_112734_4.jpg" alt="20241112_112734_4.jpg" />
+    <ul>
+      <li>Zalevsky2009: <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-17-24-21566&amp;id=188735">Simultaneous remote extraction of multiple speech sources and heart beats from secondary speckles pattern</a>
+They have the recorded/reconstructed signals in supplementary material
+<img src="/assets/images/2024/20240502_20241115/20241112_160354_0.jpg" alt="20241112_160354_0.jpg" /></li>
+      <li>They did proof-of-concept experiment with only 400 fps, and the real ones with 7800 fps (PixelLink model A741, ~$1000?).</li>
+      <li>The laser is a frequency doubled Nd:YAG laser, 30mW at wavelength of 532nm. (~$100)</li>
+      <li>You do need good optics for longer range.
+<img src="/assets/images/2024/20240502_20241115/20241112_161409_0.jpg" alt="20241112_161409_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241112_161409_1.jpg" alt="20241112_161409_1.jpg" /></li>
+    </ul>
+  </li>
+  <li>Good lesson on how too much craftsmanship could kill you in competition
+<img src="/assets/images/2024/20240502_20241115/20240502_161535_0.jpg" alt="20240502_161535_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20240502_161535_1.jpg" alt="20240502_161535_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20240502_161535_2.jpg" alt="20240502_161535_2.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20240502_161535_3.jpg" alt="20240502_161535_3.jpg" />
+    <ul>
+      <li><a href="https://www.youtube.com/watch?si=JDTAvDTMJE6UDpc0&amp;t=1581&amp;v=N6xLMUifbxQ&amp;feature=youtu.be">Kursk: The Epic Armored Engagement (2013)</a></li>
+    </ul>
+  </li>
+  <li>You used comsol for WHAT?
+<img src="/assets/images/2024/20240502_20241115/20241113_075405_0.jpg" alt="20241113_075405_0.jpg" />
+    <ul>
+      <li><a href="https://www.comsol.com/blogs/highlights-from-the-comsol-conference-2024-florence">Highlights from the COMSOL Conference 2024 Florence</a></li>
+    </ul>
+  </li>
+  <li>Imaging when messing with your friend (who is taking a shower, apparently rare for an elephant to learn to use water hose than trunk), you got caught on camera, and written into a paper.
+<img src="/assets/images/2024/20240502_20241115/20241114_030020_0.jpg" alt="20241114_030020_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241114_030020_1.jpg" alt="20241114_030020_1.jpg" />
+    <ul>
+      <li>Urban2024: <a href="https://www.cell.com/current-biology/fulltext/S0960-9822(24)01371-X">Water-hose tool use and showering behavior by Asian elephants</a></li>
+    </ul>
+  </li>
+  <li>Cooking from bacon to toast to grilled cheese under 12 smoke alarm for a new standard that contains a test for reducing nuisance alarms.
+Conclusion: it is challenging because cooking is almost a fire, and best advice they have is to cook further away from the smoke alarm
+<img src="/assets/images/2024/20240502_20241115/20241114_155650_0.jpg" alt="20241114_155650_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241114_155650_1.jpg" alt="20241114_155650_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241114_155650_2.jpg" alt="20241114_155650_2.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241114_155650_3.jpg" alt="20241114_155650_3.jpg" />
+    <ul>
+      <li>NIST: <a href="https://www.nist.gov/news-events/news/2024/09/new-smoke-alarms-are-better-detecting-fires-still-beep-bacon">New Smoke Alarms Are Better at Detecting Fires but Still Beep for Bacon</a></li>
+      <li>Mensch2024: NIST Technical Note NIST TN 2305: <a href="https://nvlpubs.nist.gov/nistpubs/TechnicalNotes/NIST.TN.2305.pdf">Performance of New Smoke Alarms and Aerosol Measurements for a Range of Nuisance Cooking Sources in a Mock Kitchen</a></li>
+    </ul>
+  </li>
+  <li>Lithium-ion batteries hiss when they are about to explode (thermal runaway). The jet of flame emitted can be up to 1100 C, almost comparable to a blowtorch.
+NIST trained a deep learning detection model to detect the breaking safety valve sound with ~94% accuracy for early warning
+<img src="/assets/images/2024/20240502_20241115/20241114_161648_0.jpg" alt="20241114_161648_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241114_161648_1.jpg" alt="20241114_161648_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241114_161648_2.jpg" alt="20241114_161648_2.jpg" />
+    <ul>
+      <li><a href="https://www.nist.gov/news-events/news/2024/11/ai-can-hear-when-lithium-battery-about-catch-fire">AI Can ‘Hear’ When a Lithium Battery Is About to Catch Fire</a></li>
+      <li>Tam2024: <a href="https://www.nist.gov/publications/development-robust-early-stage-thermal-runaway-detection-model-lithium-ion-batteries">Development of a Robust Early-Stage Thermal Runaway Detection Model for Lithium-ion Batteries</a></li>
+    </ul>
+  </li>
+  <li>TIL rotating detonation rocket engine is basically a “ring resonator” (forgive my photonics monkey brain) for the detonation shock wave with “surface emission” lol.
+The photonics versions of it exist, but no fancy shock wave.
+<img src="/assets/images/2024/20240502_20241115/20241115_065013_0.jpg" alt="20241115_065013_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241115_065013_1.jpg" alt="20241115_065013_1.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20241115_065013_2.jpg" alt="20241115_065013_2.jpg" />
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=UShD03eG9IU">NASA’s 3D-printed Rotating Detonation Rocket Engine Test</a></li>
+      <li>Raman2023: <a href="https://www.annualreviews.org/content/journals/10.1146/annurev-fluid-120720-032612">Nonidealities in Rotating Detonation Engines</a></li>
+      <li>Mahler2009: <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-17-15-13031&amp;id=183655">DFB ring resonators for vertically emitting terahertz quantum cascade lasers</a></li>
+      <li>Was checking RDE because I saw it when checking out Physical Sciences Inc. (https://psicorp.com)</li>
+    </ul>
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=rQlgOSXP_hg&amp;ab_channel=PhysicalSciencesInc">Welcome to PSI</a>
+       - Found the company thru this report on <a href="https://apps.dtic.mil/sti/tr/pdf/ADA033887.pdf">The fluid mechanics of pulsed laser propulsion</a></li>
+      <li>(It was a ref in the book Yuri A. Rezunkov - High Power Laser Propulsion)
+   <img src="/assets/images/2024/20240502_20241115/20241115_070241_0.jpg" alt="20241115_070241_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>Yes more connectors please
+<img src="/assets/images/2024/20240502_20241115/20240711_160750_0.jpg" alt="20240711_160750_0.jpg" />
+<img src="/assets/images/2024/20240502_20241115/20240711_160750_1.jpg" alt="20240711_160750_1.jpg" />
+    <ul>
+      <li>I’m not sure how much they are selling those for (expensive enough to not show the price), but if you ever need automated microwave switching, just buy a used switch on ebay for dirt cheap, and some cheap ethernet relay from amazon.
+   <img src="/assets/images/2024/20240502_20241115/20240711_161010_0.jpg" alt="20240711_161010_0.jpg" /></li>
+      <li>Finally found this bomb-looking automated microwave switching that I made lol
+   <img src="/assets/images/2024/20240502_20241115/20240711_162235_0.jpg" alt="20240711_162235_0.jpg" /></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Two_photon_polymerization" /><category term="Nanoscribe" /><category term="Intel" /><category term="Nanofab" /><category term="Electromigration" /><category term="3D_print" /><category term="Frequency_comb" /><category term="Photonics" /><category term="Optical_interconnect" /><category term="Millimeter_wave" /><category term="ULE" /><category term="Optics" /><category term="Speckle" /><category term="Tank" /><category term="COMSOL" /><category term="Pasta" /><category term="Smoke_detefctor" /><category term="Bacon" /><category term="Li_ion" /><category term="Battery" /><category term="RDE" /><category term="Microwave" /><summary type="html"><![CDATA[Examples from Nanoscribe Webinar Multi-material 3D printing 10 Webinar Multi-material 3D printing (link TBA, embed link broken on twitter) The first example shown above is for testing micro fiber tensile strength. They also have a version to test cell-cell adhesion, pretty damn cool. Their first seminar has a lot of nice background on two photon polymerization: Webinar 01 – 3D Microfabrication with highest precision and speed There are already some wild applications in there at the time, like: Clipping carbon fibers onto a nerve to tap off its signal, in vivo in a zebra finch: A micro-scale printable nanoclip for electrical stimulation and recording in small nerves Spider-inspired 3d nozzle to spin fibers less than 3 um diameter: Nanofabrication inside Microfluidic Chips for Biomimetic Wet-Spinning of Fibres]]></summary></entry><entry><title type="html">This week’s outside five sigma (#20)</title><link href="http://localhost:4000/ofs/weekly-OFS-20/" rel="alternate" type="text/html" title="This week’s outside five sigma (#20)" /><published>2024-11-09T00:00:00-08:00</published><updated>2024-11-09T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-20</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-20/"><![CDATA[<ol>
   <li>The superconducting qubit, spin qubit, quantum dot qubit, and atom/ion qubit (list not exhaustive) people gotta catch up with their quantum starter kit
 <img src="/assets/images/2024/20240829_20241109/20241108_023709_0.jpg" alt="20241108_023709_0.jpg" />
 <img src="/assets/images/2024/20240829_20241109/20241108_023709_1.jpg" alt="20241108_023709_1.jpg" />
@@ -1970,118 +2174,4 @@ Homogeneity across a DVD ~ 1%
 
 <ol>
   <li><a href="https://github.com/EEVengers/ThunderScope">ThunderScope</a></li>
-</ol>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="OpenSource" /><category term="Optics" /><category term="Photonics" /><category term="Nanopositioning" /><category term="Flexure" /><summary type="html"><![CDATA[(Continuously updating)]]></summary></entry><entry><title type="html">This week’s outside five sigma (#13)</title><link href="http://localhost:4000/ofs/weekly-OFS-13/" rel="alternate" type="text/html" title="This week’s outside five sigma (#13)" /><published>2024-09-21T00:00:00-07:00</published><updated>2024-09-21T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-13</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-13/"><![CDATA[<ol>
-  <li>A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly.
-    <ul>
-      <li>Paper: <a href="https://arxiv.org/abs/2409.04930">PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels’</a>
-<img src="/assets/images/2024/monitor_acoustic_spying.jpeg" alt="monitor_acoustic_spying.jpeg" /></li>
-    </ul>
-  </li>
-  <li>Cherenkov radiation can be used to identify different charged particles with known momentum because they radiate into different directions (Ring-imaging Cherenkov (RICH) detector). Those photon hits an electron out of a cathode, accel by 20 kV, then hit silicon detector array
-    <ul>
-      <li>Wikipedia: <a href="https://en.wikipedia.org/wiki/Ring-imaging_Cherenkov_detector">Ring-imaging Cherenkov detector</a></li>
-      <li>LHC outreach: <a href="https://lhcb-outreach.web.cern.ch/detector/rich-detectors/">RICH detectors</a></li>
-      <li><a href="https://indico.cern.ch/event/1094055/contributions/4972494/attachments/2506319/4307648/Jacques%20In%20Memoriam.pdf">Homage to Jacques Séguinot</a>, and <a href="https://www.diva-portal.org/smash/get/diva2:1803145/FULLTEXT01.pdf">another version</a>
-<img src="/assets/images/2024/RICH_detector_1.png" alt="RICH_detector_1.png" />
-<img src="/assets/images/2024/RICH_detector_2.jpeg" alt="RICH_detector_2.png" /></li>
-    </ul>
-  </li>
-  <li>Here comes “A new type of oscilloscope that’s fast, flexible, and completely open”
-    <ul>
-      <li>CrowdSupply: <a href="https://www.crowdsupply.com/eevengers/thunderscope">Thunderscope</a>
-<img src="/assets/images/2024/thunderscope_20240921.png" alt="thunderscope_20240921.png" /></li>
-    </ul>
-  </li>
-  <li>There is a name for academics hoarding &amp; guarding resources, and suppress others: the Gollum Effect
-    <ul>
-      <li>Paper: <a href="https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2022.889236/full">The Gollum Effect: The Issue of Research Opportunity Guarding in Academia</a></li>
-      <li>Paper: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4888507">The Shadow of the Ring: How the Gollum Effect Impacts Research and Careers</a>
-<img src="/assets/images/2024/gollum_effect.jpeg" alt="gollum_effect.jpeg" /></li>
-    </ul>
-  </li>
-  <li>If you got [REDACTED]+[REDACTED] or so a year to spare, you can get your layout level photonic circuit performance simulated on a single platform using device/component level sim with Tidy3D and circuit level sim with IPKISS.
-    <ul>
-      <li>Blog: <a href="https://www.flexcompute.com/blog/2024/09/10/luceda-photonics-pic-design-software-integrated-with-tidy3d/">Luceda Photonics Introduces Seamless Integration with Tidy3D for Enhanced Photonics Design and Simulation</a>
-<img src="/assets/images/2024/luceda_flexcompute.jpeg" alt="luceda_flexcompute.jpeg" /></li>
-    </ul>
-  </li>
-  <li>Ultrasound makes bending easier just like in ultrasonic wirebonding, and you benefit more than the average because of nonlinearities. You could even further “cheat” with acoustic resonances.
-    <ul>
-      <li>Paper: <a href="https://www.sciencedirect.com/science/article/abs/pii/S0041624X2300135X?via%3Dihub">Effect of high-power ultrasonic vibration on the flexible bending process of thin-walled circular tubes: Numerical and experimental research</a>
-<img src="/assets/images/2024/ultrasonic_assisted_bending_1.jpeg" alt="ultrasonic_assisted_bending_1.jpeg" />
-<img src="/assets/images/2024/ultrasonic_assisted_bending_2.jpeg" alt="ultrasonic_assisted_bending_2.jpeg" /></li>
-      <li>The term for this is ultrasonic-assisted flexible bending (UAFB), or more generally acoustic softening. It’s been intensely studied in various materials for the reason you could see below. Some 30 W/cm^2 ultrasonic power is better at softening zinc than heating it to 250 C.
-<img src="/assets/images/2024/ultrasonic_assisted_bending_3.png" alt="ultrasonic_assisted_bending_3.jpeg" />
-<img src="/assets/images/2024/ultrasonic_assisted_bending_4.png" alt="ultrasonic_assisted_bending_4.jpeg" /></li>
-      <li>Similar plots in the wirebonding book (George Harman, Wire Bonding in Microelectronics). For aluminum you get equivalence of 600C with 50 W/cm^2, a power level you could roughly get with 50 bucks.
-<img src="/assets/images/2024/ultrasonic_assisted_bending_5.jpeg" alt="ultrasonic_assisted_bending_5.jpeg" />
-<img src="/assets/images/2024/ultrasonic_assisted_bending_6.jpeg" alt="ultrasonic_assisted_bending_6.jpeg" /></li>
-    </ul>
-  </li>
-  <li>I’ve always thought ebeam litho as moving a single pixel around. Turns out there is a whole branch of shaped beam ones, this is one of them: reflective electron beam lithography (REBL). An array of small metallic pixels shape the beam reflectively, just like DMD but for electrons
-    <ul>
-      <li><a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/7823/782316/Direct-write-electron-beam-lithography-a-historical-overview/10.1117/12.868477.short#_=_">Direct write electron beam lithography: a historical overview</a></li>
-      <li><a href="https://pubs.aip.org/avs/jvb/article-abstract/27/1/161/467317/REBL-A-novel-approach-to-high-speed-maskless">REBL: A novel approach to high speed maskless electron beam direct write lithography</a>
-<img src="/assets/images/2024/REBL_1.jpeg" alt="REBL_1.jpeg" />
-<img src="/assets/images/2024/REBL_2.jpeg" alt="REBL_2.jpeg" /></li>
-      <li>Now how do you reflect a few tens kV of electrons?? They are first decelerated by the electron optics before the DPG, and then he DPG only needs a few volts to either repel or capture the electrons. In a newer paper they showed SEMs of the DPG chip with lenslets on top of CMOS.
-<img src="/assets/images/2024/REBL_3.jpeg" alt="REBL_3.jpeg" />
-<img src="/assets/images/2024/REBL_4.jpeg" alt="REBL_4.jpeg" /></li>
-      <li>From KLA-tencor: <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/8323/832311/REBL--design-progress-toward-16-nm-half-pitch-maskless/10.1117/12.919744.short">REBL: design progress toward 16 nm half-pitch maskless projection electron beam lithography</a>, supported by DARPA MTO with $30M in 2010. See <a href="https://www.esd.whs.mil/Portals/54/Documents/FOID/Reading%20Room/Science_and_Technology/12-F-1039_2010-DARPA-Funding-List.pdf">2010 DARPA funding list</a></li>
-      <li>From 1975 to 1995, the pixel rate of ebeam direct write increased from 2e7 to 2e9, however wafer size ~4x and feature size shrinked ~10x, increasing the number of pixels by 1e3. Without massively parallel projection it would be &lt; 0.1 wph. Now 20 years later, we are still on 12in.
-<img src="/assets/images/2024/REBL_5.jpeg" alt="REBL_5.jpeg" />
-<img src="/assets/images/2024/REBL_6.jpeg" alt="REBL_6.jpeg" /></li>
-      <li>“In imaging, SEMs with multiple beams have started to show up:” <a href="https://www.zeiss.com/microscopy/us/products/sem-fib-sem/sem/multisem.html">Zeiss MultiSEM</a>, as well as Ebeam litho with multiple beams: <a href="https://multibeamcorp.com/">Multibeam Corp</a>. They have a talk on youtube: <a href="https://www.youtube.com/watch?v=d2JH6JxLa5w&amp;ab_channel=eBeamInitiative">Tech Talk: Multicolumn eBeam Lithography (MEBL)</a>
-<img src="/assets/images/2024/multibeam_1.jpeg" alt="multibeam_1.jpeg" />
-<img src="/assets/images/2024/multibeam_2.jpeg" alt="multibeam_2.jpeg" /></li>
-    </ul>
-  </li>
-  <li>In addition to high power LED headlights we all love, cars might get integrated holographic camera modules (IHCM). They could show you “robots, animals, cartoon characters, celebrities”, as well as the car itself, with overlapping range and tracking to make sure you always see it.
-    <ul>
-      <li><a href="https://patents.google.com/patent/US20240288823A1/en">Smart Vehicle Holograms</a>, patent filed by Ford Global Technologies LLC
-<img src="/assets/images/2024/IHCM_1.png" alt="IHCM_1.png" />
-<img src="/assets/images/2024/IHCM_2.png" alt="IHCM_2.png" /></li>
-    </ul>
-  </li>
-  <li>Rubidium vapor cells are very affordable on eBay
-    <ul>
-      <li><a href="https://x.com/oldestasian/status/1834601347439571053">Tweet</a></li>
-      <li>ebay: <a href="https://www.ebay.com/itm/124012486501">Rb High Precision Low Phase Noise Rubidium Tube Atomic Clock Soviet Ussr DIY</a>
-<img src="/assets/images/2024/Rb_vapor_cell_ebay.png" alt="Rb_vapor_cell_ebay.png" /></li>
-    </ul>
-  </li>
-  <li>Let me introduce you Yokogawa minimal Fab, when everyone is going larger wafers &amp; higher throughput, they make 0.5 in wafer tools all in one form factor, with almost all front-end capabilities, that does NOT need to be in a clean room.
-    <ul>
-      <li><a href="https://www.yokogawa.com/us/industries/semiconductor/minimal-fab/">Semiconductor Tools for Prototyping and Small-Volume Production</a></li>
-      <li><a href="https://x.com/jwt0625/status/1835111605623046556">Twitter thread</a> with more info and pictures</li>
-      <li><a href="/assets/doc/2024/minimal-fab-one-stop-solution.pdf">minimal-fab-one-stop-solution.pdf</a></li>
-      <li><a href="/assets/doc/2024/MakingDevicePrototype.pdf">MakingDevicePrototype.pdf</a>
-<img src="/assets/images/2024/minimal_fab_1.jpeg" alt="minimal_fab_1.jpeg" />
-<img src="/assets/images/2024/minimal_fab_2.jpeg" alt="minimal_fab_2.jpeg" /></li>
-    </ul>
-  </li>
-  <li>You can drill with microwave. It uses an extendable monopole antenna as the drill bit, the surface near it gets heat up the most, and also gets to absorb the microwave better. They can use a 1 kW at 2.45 GHz, common for a commercial microwave, to drill concrete holes of 2 mm diameter and 2 cm deep in less than one minute.
-    <ul>
-      <li>Paper: <a href="https://www.science.org/doi/10.1126/science.1077062">The Microwave Drill</a>
-<img src="/assets/images/2024/microwave_drilling.png" alt="microwave_drilling.png" /></li>
-    </ul>
-  </li>
-  <li>The activity of neurons associated with motor preparation decrease as stakes get too high. (Motor preparation = making calculations about how to complete a movement) “You just don’t perform better as the reward increases”. Find the optimal for you and shoot for that.
-    <ul>
-      <li>Article: <a href="https://www.nature.com/articles/d41586-024-02956-8">Why do we crumble under pressure? Science has the answer</a></li>
-      <li>Paper: <a href="https://www.cell.com/neuron/abstract/S0896-6273(24)00608-1">A neural basis of choking under pressure</a>
-<img src="/assets/images/2024/monkey_chock_under_pressure.jpeg" alt="monkey_chock_under_pressure.jpeg" /></li>
-    </ul>
-  </li>
-  <li>Now some thermal camerasa are only a few hundred bucks and could do 25 Hz, lock-in thermography should be possible with those? You could getting more than 100x better temperature resolution with decent wait time (~ 1000 s).
-    <ul>
-      <li>paper: <a href="https://www-old.mpi-halle.mpg.de/mpi/publi/pdf/540_02.pdf">Lock-in IR-Thermography - a novel tool for material and device characterization</a></li>
-      <li>Tektronix: <a href="https://www.tek.com/en/documents/application-note/advancing-techniques-of-failure-analysis-using-source-measure-units-and-lock-in-thermography">Advancing Techniques of Failure Analysis Using Source Measure Units and Lock-in Thermography</a>
-<img src="/assets/images/2024/lockin_IR_thermography_1.jpeg" alt="lockin_IR_thermography_1.jpeg" />
-<img src="/assets/images/2024/lockin_IR_thermography_2.jpeg" alt="lockin_IR_thermography_2.jpeg" /></li>
-    </ul>
-  </li>
-</ol>
-
-<p><img src="/assets/images/2024/" alt="" />
-<img src="/assets/images/2024/" alt="" /></p>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Covert" /><category term="Exfiltrate" /><category term="Cherenkov" /><category term="Oscilloscope" /><category term="Electronics" /><category term="EBL" /><category term="Nanofab" /><category term="Machining" /><category term="Microwave" /><category term="Hologram" /><category term="AMO" /><category term="Lockin" /><category term="Thermography" /><summary type="html"><![CDATA[A group of researcher showed you can use piezoelectric effect of ceramic capacitors to excite acoustic modes of the monitor and use it to send out signal covertly. Paper: PIXHELL Attack: Leaking Sensitive Information from Air-Gap Computers via `Singing Pixels’]]></summary></entry></feed>
+</ol>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="OpenSource" /><category term="Optics" /><category term="Photonics" /><category term="Nanopositioning" /><category term="Flexure" /><summary type="html"><![CDATA[(Continuously updating)]]></summary></entry></feed>
