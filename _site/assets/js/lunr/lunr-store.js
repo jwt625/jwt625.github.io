@@ -246,7 +246,7 @@ var store = [{
         "teaser": null
       },{
         "title": "This week's outside five sigma (#21)",
-        "excerpt":"Examples from Nanoscribe Webinar Multi-material 3D printing 10 Webinar Multi-material 3D printing (link TBA, embed link broken on twitter) The first example shown above is for testing micro fiber tensile strength. They also have a version to test cell-cell adhesion, pretty damn cool. Their first seminar has a lot of...","categories": ["OFS"],
+        "excerpt":"Examples from Nanoscribe Webinar Multi-material 3D printing 10 Webinar Multi-material 3D printing The first example shown above is for testing micro fiber tensile strength. They also have a version to test cell-cell adhesion, pretty damn cool. Their first seminar has a lot of nice background on two photon polymerization: Webinar...","categories": ["OFS"],
         "tags": ["Two_photon_polymerization","Nanoscribe","Intel","Nanofab","Electromigration","3D_print","Frequency_comb","Photonics","Optical_interconnect","Millimeter_wave","ULE","Optics","Speckle","Tank","COMSOL","Pasta","Smoke_detefctor","Bacon","Li_ion","Battery","RDE","Microwave"],
         "url": "/ofs/weekly-OFS-21/",
         "teaser": null
