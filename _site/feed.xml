@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-19T17:56:59-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#21)</title><link href="http://localhost:4000/ofs/weekly-OFS-21/" rel="alternate" type="text/html" title="This week’s outside five sigma (#21)" /><published>2024-11-17T00:00:00-08:00</published><updated>2024-11-17T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-21</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-21/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-24T13:03:59-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">Beware of higher order effects, and put them to good use</title><link href="http://localhost:4000/blog/higher-order-effects/" rel="alternate" type="text/html" title="Beware of higher order effects, and put them to good use" /><published>2024-11-19T00:00:00-08:00</published><updated>2024-11-19T00:00:00-08:00</updated><id>http://localhost:4000/blog/higher-order-effects</id><content type="html" xml:base="http://localhost:4000/blog/higher-order-effects/"><![CDATA[<p>I was thinking about something related to higher order effect, I did not write it down, and now I don’t remember what it is…</p>
+
+<p>Prerequisite: some basic understanding of calculus and linear algebra would make this read more joyful. Understand this world as a linear, Markovian, and relatively independent systems first, and then add the higher order effects.</p>
+
+<p>(to be continued)</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Essay" /><summary type="html"><![CDATA[I was thinking about something related to higher order effect, I did not write it down, and now I don’t remember what it is…]]></summary></entry><entry><title type="html">This week’s outside five sigma (#21)</title><link href="http://localhost:4000/ofs/weekly-OFS-21/" rel="alternate" type="text/html" title="This week’s outside five sigma (#21)" /><published>2024-11-17T00:00:00-08:00</published><updated>2024-11-17T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-21</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-21/"><![CDATA[<ol>
   <li>Examples from Nanoscribe Webinar Multi-material 3D printing
 <img src="/assets/images/2024/20240502_20241115/20241111_013919_0.jpg" alt="20241111_013919_0.jpg" />
 <img src="/assets/images/2024/20240502_20241115/20241111_013919_1.jpg" alt="20241111_013919_1.jpg" />
@@ -2082,96 +2086,4 @@ Homogeneity across a DVD ~ 1%
 <img src="/assets/images/2024/optical_compute_review_2.jfif" alt="optical_compute_review_2.jfif" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Robotics" /><category term="Prosthetic" /><category term="Fusion" /><category term="Electronics" /><category term="Optimization" /><category term="RL" /><category term="Sensor" /><category term="Sensing" /><category term="Noise" /><category term="MEMS" /><category term="Blackhole" /><category term="Optics" /><category term="ifixit" /><category term="R2R" /><category term="NIL" /><summary type="html"><![CDATA[The nice rendering of the NIF fuel pellet/capsule holder got a cool flexure design. Turns out it is called thermomechanical packaging (TMP). Flexure is made of titanium &amp; designed to apply pressure evenly. Rendering image is from IEEE Spectrum: Momentary Fusion Breakthroughs Face Hard Reality Blog: Designing for Ignition: Precise Changes Yield Historic Results Paper1: Assembly and metrology of NIF target subassemblies using robotic systems Paper2: Automation of NIF Target Fabrication]]></summary></entry><entry><title type="html">Open source hardware collections</title><link href="http://localhost:4000/blog/open-source-collections/" rel="alternate" type="text/html" title="Open source hardware collections" /><published>2024-09-29T00:00:00-07:00</published><updated>2024-09-29T00:00:00-07:00</updated><id>http://localhost:4000/blog/open-source-collections</id><content type="html" xml:base="http://localhost:4000/blog/open-source-collections/"><![CDATA[<p>(Continuously updating)</p>
-
-<p>Last updated: 2024-09-30</p>
-
-<h1 id="cheap-and-open-opticsphotonicspositioner">Cheap and open optics/photonics/positioner</h1>
-
-<p>See also <a href="https://x.com/jwt0625/status/1837513786422710537">twitter thread</a>.</p>
-
-<ol>
-  <li>OpenFlexure: sub-micron-scale motion over a range of 8 × 8 × 4 mm. Drift less than 20 um over a week.
-    <ul>
-      <li><a href="https://openflexure.org/projects/microscope/">https://openflexure.org/projects/microscope/</a></li>
-      <li><a href="https://gitlab.com/openflexure/openflexure-microscope">https://gitlab.com/openflexure/openflexure-microscope</a></li>
-      <li>Paper: <a href="https://pubs.aip.org/aip/rsi/article/87/2/025104/1021864/A-one-piece-3D-printed-flexure-translation-stage">A one-piece 3D printed flexure translation stage for open-source microscopy</a>
-<img src="/assets/images/2024/OpenHardware/openflexure_1.jfif" alt="openflexure_1.jfif" />
-<img src="/assets/images/2024/OpenHardware/openflexure_2.jfif" alt="openflexure_2.jfif" />
-<img src="/assets/images/2024/OpenHardware/openflexure_3.jfif" alt="openflexure_3.jfif" /></li>
-    </ul>
-  </li>
-  <li>OpenUC2: almost feels like it is no longer open source with very intertwined webpage, until you go into their GitHub repo
-    <ul>
-      <li><a href="https://openuc2.com/">https://openuc2.com/</a></li>
-      <li><a href="https://github.com/openUC2/UC2-GIT">https://github.com/openUC2/UC2-GIT</a>
-<img src="/assets/images/2024/OpenHardware/openUC2_1.jfif" alt="openUC2_1.jfif" />
-<img src="/assets/images/2024/OpenHardware/openUC2_2.jfif" alt="openUC2_2.jfif" /></li>
-    </ul>
-  </li>
-  <li>Open source XYZ nanopositioner:
-    <ul>
-      <li>atomic-scale scanning resolution</li>
-      <li>nm-scale positioning resolution, cm-scale range</li>
-      <li>heavy load up to 12 kg (perp to motion)</li>
-      <li>simple design and low component cost</li>
-      <li>compact size and ultra-high vacuum compatibility</li>
-      <li><a href="https://www.hardware-x.com/article/S2468-0672(22)00062-1/fulltext">Low-cost, open-source XYZ nanopositioner for high-precision analytical applications</a>
-<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner.jfif" alt="open_XYZ_nanopositioner.jfif" />
-<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner_2.jfif" alt="open_XYZ_nanopositioner2.jfif" />
-<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner_3.jfif" alt="open_XYZ_nanopositioner3.jfif" />
-<img src="/assets/images/2024/OpenHardware/open_XYZ_nanopositioner_4.jfif" alt="open_XYZ_nanopositioner4.jfif" /></li>
-    </ul>
-  </li>
-  <li><a href="https://www.hardware-x.com/article/S2468-0672(24)00071-3/fulltext">Open Photonics: An integrated approach for building a 3D-printed motorized rotation stage system</a>
-    <ul>
-      <li>Rotation stage with 1 mRad precision and backlash, 150 urad resolution, and ~&lt;$100. They say the closest commercial one is thorlabs K10CR2, which is $1500
-<img src="/assets/images/2024/OpenHardware/open_rotational_stage_1.jfif" alt="open_rotational_stage_1.jfif" />
-<img src="/assets/images/2024/OpenHardware/open_rotational_stage_2.jfif" alt="open_rotational_stage_2.jfif" /></li>
-    </ul>
-  </li>
-  <li><a href="https://x.com/vnzloy/status/1838680488715653614">TWINKLE: An open-source two-photon microscope for teaching and research</a>
-    <ul>
-      <li>From <a href="https://x.com/vnzloy/status/1838680488715653614">tweet</a>
-<img src="/assets/images/2024/OpenHardware/open_two_photon_uscope.jfif" alt="open_two_photon_uscope.jfif" /></li>
-    </ul>
-  </li>
-</ol>
-
-<h1 id="sensing-robotics-and-computer-vision">Sensing, robotics and computer vision</h1>
-
-<p>(under construction)</p>
-
-<ol>
-  <li>
-    <p><a href="https://github.com/apirrone/Open_Duck_Mini">Open Duck Mini</a></p>
-  </li>
-  <li>
-    <p>Alex Koch’s <a href="https://github.com/AlexanderKoch-Koch/low_cost_robot">low_cost_robot</a> arm</p>
-  </li>
-</ol>
-
-<h2 id="gripper">Gripper</h2>
-
-<ol>
-  <li>
-    <p><a href="https://github.com/clayhaight01/OpenGrip">OpenGrip</a></p>
-  </li>
-  <li>
-    <p>UMI gripper: <a href="https://github.com/real-stanford/universal_manipulation_interface">universal_manipulation_interface</a></p>
-  </li>
-</ol>
-
-<h2 id="vision">Vision</h2>
-
-<ol>
-  <li><a href="https://github.com/BasedHardware/OpenGlass">OpenGlass</a></li>
-</ol>
-
-<h1 id="electronics-test-equipments">Electronics test equipments</h1>
-
-<p>(under construction)</p>
-
-<ol>
-  <li><a href="https://github.com/EEVengers/ThunderScope">ThunderScope</a></li>
-</ol>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="OpenSource" /><category term="Optics" /><category term="Photonics" /><category term="Nanopositioning" /><category term="Flexure" /><summary type="html"><![CDATA[(Continuously updating)]]></summary></entry></feed>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Robotics" /><category term="Prosthetic" /><category term="Fusion" /><category term="Electronics" /><category term="Optimization" /><category term="RL" /><category term="Sensor" /><category term="Sensing" /><category term="Noise" /><category term="MEMS" /><category term="Blackhole" /><category term="Optics" /><category term="ifixit" /><category term="R2R" /><category term="NIL" /><summary type="html"><![CDATA[The nice rendering of the NIF fuel pellet/capsule holder got a cool flexure design. Turns out it is called thermomechanical packaging (TMP). Flexure is made of titanium &amp; designed to apply pressure evenly. Rendering image is from IEEE Spectrum: Momentary Fusion Breakthroughs Face Hard Reality Blog: Designing for Ignition: Precise Changes Yield Historic Results Paper1: Assembly and metrology of NIF target subassemblies using robotic systems Paper2: Automation of NIF Target Fabrication]]></summary></entry></feed>

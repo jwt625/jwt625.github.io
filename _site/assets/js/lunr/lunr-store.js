@@ -250,4 +250,10 @@ var store = [{
         "tags": ["Two_photon_polymerization","Nanoscribe","Intel","Nanofab","Electromigration","3D_print","Frequency_comb","Photonics","Optical_interconnect","Millimeter_wave","ULE","Optics","Speckle","Tank","COMSOL","Pasta","Smoke_detefctor","Bacon","Li_ion","Battery","RDE","Microwave"],
         "url": "/ofs/weekly-OFS-21/",
         "teaser": null
+      },{
+        "title": "Beware of higher order effects, and put them to good use",
+        "excerpt":"I was thinking about something related to higher order effect, I did not write it down, and now I don’t remember what it is… Prerequisite: some basic understanding of calculus and linear algebra would make this read more joyful. Understand this world as a linear, Markovian, and relatively independent systems...","categories": ["Blog"],
+        "tags": ["Essay"],
+        "url": "/blog/higher-order-effects/",
+        "teaser": null
       }]
