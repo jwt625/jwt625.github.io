@@ -256,4 +256,10 @@ var store = [{
         "tags": ["Essay"],
         "url": "/blog/higher-order-effects/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#22)",
+        "excerpt":"Starship super heavy’s far field noise is 18 dB less than predicted at 35 km during launch, it’s comparable to around 5 SLS launches and &gt;= 10 Falcon 9 launches. The flyback booms are surprisingly only 50% louder than a Concorde boom. Gee2024: Starship super heavy acoustics: Far-field noise measurements...","categories": ["OFS"],
+        "tags": ["SpaceX","Acoustics","CAGR","PCM","GST","GSST","ULE","Optics","Interferometry","MIR","Fiber","Radiative_cooling","GitHub","TPP","3D_print","Laser_machining","X-ray","Qubit","Quantum_computing","VCSEL","Microrobots"],
+        "url": "/ofs/weekly-OFS-22/",
+        "teaser": null
       }]
