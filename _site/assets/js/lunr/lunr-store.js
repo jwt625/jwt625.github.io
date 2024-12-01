@@ -262,4 +262,10 @@ var store = [{
         "tags": ["SpaceX","Acoustics","CAGR","PCM","GST","GSST","ULE","Optics","Interferometry","MIR","Fiber","Radiative_cooling","GitHub","TPP","3D_print","Laser_machining","X-ray","Qubit","Quantum_computing","VCSEL","Microrobots"],
         "url": "/ofs/weekly-OFS-22/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#23)",
+        "excerpt":"Folks I just ran into a colored version of this. From a book on microwave tubes from 2020 and with all figures in color would you believe it! (it’s so new they are called vacuum electron devices instead of tubes). Of course there’s no colored version of the other cartoon...","categories": ["OFS"],
+        "tags": ["Microwave","Tubes","VED","Quantum","Qubit","Pasta","COMSOL","Nanofab","TTV","Wafer","TFLN","Tapeout","HDMI","Fiber","CV","Camera","Ethernet","MXene","Energy_harvest","3D_print","Wirebond","Photonics","Corrosion"],
+        "url": "/ofs/weekly-OFS-23/",
+        "teaser": null
       }]

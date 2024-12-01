@@ -1,0 +1,726 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1835194153321611776",
+        "tweets": [
+            {
+                "text": "Folks I just ran into a colored version of this. From a book on microwave tubes from 2020 and with all figures in color would you believe it! (it's so new they are called vacuum electron devices instead of tubes).\nOf course there's no colored version of the other cartoon lol.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GXfpICcakAAL5qF?format=jpg",
+                        "local_path": "media/20240608_041250_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GPhfdxLbYAA-l52?format=png",
+                        "local_path": "media/20240608_041250_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GPhffvfaIAEgpfb?format=png",
+                        "local_path": "media/20240608_041250_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-06-08T04:12:50+00:00"
+            },
+            {
+                "text": "The book: (The figures are so tasty ugh should I get a physical one)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GXfr3fAbwAIC0oE?format=jpg",
+                        "local_path": "media/20240915_055330_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-09-15T05:53:30+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1860003412152402117",
+        "tweets": [
+            {
+                "text": "How to build a quantum supercomputer from HP, Fermi Lab, NASA Ames, RIACS... Nice seeing discussion on yield, wiring, and floorplan for dilfridge cluster.\nClaude grabbed the numbers. Some other ones:\nOne 12in wafer = 20k SC qubits.\nA $5M 150-qubit cryostat spends $4M on wiring.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdAMC68agAM1c2x?format=jpg",
+                        "local_path": "media/20241122_165225_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdAMJdXagAU8ZrM?format=jpg",
+                        "local_path": "media/20241122_165225_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdANVchagAELtNn?format=png",
+                        "local_path": "media/20241122_165225_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdAN0JzacAAxVCQ?format=jpg",
+                        "local_path": "media/20241122_165225_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-22T16:52:25+00:00"
+            },
+            {
+                "text": "Mohseni2024: How to Build a Quantum Supercomputer: Scaling Challenges and Opportunities",
+                "media": [],
+                "timestamp": "2024-11-22T16:54:36+00:00"
+            },
+            {
+                "text": "Damn thats a long time ago",
+                "media": [],
+                "timestamp": "2024-11-22T17:21:20+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1860199861062369768",
+        "tweets": [
+            {
+                "text": "The poster and presentation for this pasta drying simulation is out. It includes heat & mass transfer, glass transition, solid mechanics & hygroscopic swelling.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdDBhaeagAIAYZj?format=jpg",
+                        "local_path": "media/20241113_075405_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdDBicbaEAAh3_s?format=jpg",
+                        "local_path": "media/20241113_075405_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdDBls3agAIAzkh?format=jpg",
+                        "local_path": "media/20241113_075405_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdDBnq0agAECMQp?format=jpg",
+                        "local_path": "media/20241113_075405_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GcP9ptVasAEgTe6?format=jpg",
+                        "local_path": "media/20241113_075405_4.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-13T07:54:05+00:00"
+            },
+            {
+                "text": "Adduci2024: Comprehensive analysis of the transport phenomena developing inside a pasta drying chamber\nhttps://comsol.com/paper/comprehensive-analysis-of-the-transport-phenomena-developing-inside-a-pasta-drying-chamber-135272…",
+                "media": [],
+                "timestamp": "2024-11-23T05:53:43+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2024-11-23T08:36:02+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2024-11-23T22:52:20+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1860235606405910770",
+        "tweets": [
+            {
+                "text": "About to complain that nanometer level flatness is either a misinterpretation or a lie, but it’s actually the case even in 2007: TTV on the whole 12in wafer ~40 nm and ~10 nm on a single reticle. That’s 2ft across width of the USA\nAlso look at this freaking lens for measuring it.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdDhIDpagAAN9rR?format=jpg",
+                        "local_path": "media/20241122_022023_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdDhIDpbsAAwPVO?format=jpg",
+                        "local_path": "media/20241122_022023_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gc9HonZWIAA-YlQ?format=jpg",
+                        "local_path": "media/20241122_022023_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-22T02:20:23+00:00"
+            },
+            {
+                "text": "Griesmann2007: Manufacture and Metrology of 300 mm Silicon Wafers with Ultra‐Low Thickness Variation",
+                "media": [],
+                "timestamp": "2024-11-23T08:16:52+00:00"
+            },
+            {
+                "text": "Griesmann2007: Manufacture and Metrology of 300 mm Silicon Wafers with Ultra‐Low Thickness Variation",
+                "media": [],
+                "timestamp": "2024-11-23T08:16:52+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1860398868015563136",
+        "tweets": [
+            {
+                "text": "Did they 3d print the cover?\nThis is Q.ANT's \"first commercial product – a photonics-based Native Processing Unit built on their compute architecture: Light Empowered Native Arithmetics\", which includes Thin-Film Lithium Niobate (TFLN) on Insulator chips.\nThey have a MNIST demo..",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdF16uMagAIbhjn?format=jpg",
+                        "local_path": "media/20241123_190349_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdF18C4agAEhQZQ?format=jpg",
+                        "local_path": "media/20241123_190349_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdF2Uj8b0AAiUyY?format=jpg",
+                        "local_path": "media/20241123_190349_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-23T19:03:49+00:00"
+            },
+            {
+                "text": "Q.ANT Launches First Commercial Photonic Processor – for Energy-Efficient High-Performance Computing and Real-Time AI Applications:\nhttps://qant.com/press-releases/q-ant-launches-first-commercial-photonic-processor-for-energy-efficient-high-performance-computing-and-real-time-ai-applications/…\nLink to demo is in this press release: https://qant.com/press-releases/q-ant-gives-cloud-access-to-its-first-photonic-chip-for-ai-inference/…",
+                "media": [],
+                "timestamp": "2024-11-23T19:04:52+00:00"
+            },
+            {
+                "text": "Also I'll leave this quote here",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZeKIDaaAAQgm1i?format=jpg",
+                        "local_path": "media/20241123_190616_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-23T19:06:16+00:00"
+            },
+            {
+                "text": "Lol their laser driver board looks familiar\nhttps://ebay.com/itm/186676836917…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdF9APRa0AAJ8y_?format=jpg",
+                        "local_path": "media/20241123_193053_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-23T19:30:53+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2024-11-24T16:03:09+00:00"
+            },
+            {
+                "text": "What’s USP efficiency? That energy consumption number is definitely “cheating”",
+                "media": [],
+                "timestamp": "2024-11-25T15:34:46+00:00"
+            },
+            {
+                "text": "That’s an off the shelf laser driver board, and it came with screw terminal for ease of debugging",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdF9APRa0AAJ8y_?format=jpg",
+                        "local_path": "media/20241124_162459_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-24T16:24:59+00:00"
+            },
+            {
+                "text": "They did not say. I’d guess it costs them $5k to make it.",
+                "media": [],
+                "timestamp": "2024-11-24T15:56:58+00:00"
+            },
+            {
+                "text": "nope nowhere close. The most amount of photonic components they could fit on a reasonable sized die is not gonna be more than 10k. Could do some interesting stuff but not a real computer",
+                "media": [],
+                "timestamp": "2024-11-25T02:53:46+00:00"
+            },
+            {
+                "text": "It’s likely off the TFLN chip and in the butterfly package to the right on the board, I’d guess a common C band DFB laser",
+                "media": [],
+                "timestamp": "2024-11-23T19:27:25+00:00"
+            },
+            {
+                "text": "Lol",
+                "media": [],
+                "timestamp": "2024-11-24T20:55:07+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1860410874663772303",
+        "tweets": [
+            {
+                "text": "People should include more tapeouts in their theses",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdGBsjraQAAVJzO?format=jpg",
+                        "local_path": "media/20241123_195131_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-23T19:51:31+00:00"
+            },
+            {
+                "text": "Harris2017: Programmable nanophotonics for quantum information processing and artificial intelligence\nhttps://dspace.mit.edu/handle/1721.1/114001…",
+                "media": [],
+                "timestamp": "2024-11-23T19:52:23+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1860490841409880364",
+        "tweets": [
+            {
+                "text": "Hell yeah, Poisson's spot using COMSOL electromagnetic waves, beam envelopes.\nIt took me more than 1 h to realize I was doing 2D but I should be doing axial 2D... In 2D there's basically not spot (i.e., a slab Gaussian beam and a slab obstacle, comparison in the last pic)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdHJyNUaEAAb77s?format=png",
+                        "local_path": "media/20241124_010917_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdHJ3XNagAIzVx7?format=jpg",
+                        "local_path": "media/20241124_010917_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdHJ4TVagAITw3P?format=jpg",
+                        "local_path": "media/20241124_010917_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdHKBK_agAEk9La?format=jpg",
+                        "local_path": "media/20241124_010917_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-24T01:09:17+00:00"
+            },
+            {
+                "text": "Fig. 1: https://en.wikipedia.org/wiki/Arago_spot\nIn the last figure I was comparing to results from: https://lighttrans.com/use-cases/application/observation-of-the-poisson-spot.html…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdHK3zYbAAAwD3M?format=jpg",
+                        "local_path": "media/20241124_011048_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-24T01:10:48+00:00"
+            },
+            {
+                "text": "Also I cheated using radially polarized beam, otherwise it is not axial symmetric..\n(radially polarized beam is fun:",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZ5Lt7vakAAsJFD?format=jpg",
+                        "local_path": "media/20241124_011219_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZ5MKZaaEAA-fKB?format=jpg",
+                        "local_path": "media/20241124_011219_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-24T01:12:19+00:00"
+            },
+            {
+                "text": "This poisson's spot simulation was instigated by this paper on why we do not see it from solar eclipse. Wanna guess the answer?\nKinnunen2024: Why is there no Poisson spot in a solar eclipse\nhttps://doi.org/10.1119/5.0227357…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdHMJm-agAEtvBO?format=png",
+                        "local_path": "media/20241124_011732_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdHMMWWagAUaXYI?format=png",
+                        "local_path": "media/20241124_011732_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdHMPIFagAUGJmP?format=png",
+                        "local_path": "media/20241124_011732_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-24T01:17:32+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1860740410345455716",
+        "tweets": [
+            {
+                "text": "Got a fiber optic HDMI cable and opened it up",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdKsraxbIAAnXVM?format=jpg",
+                        "local_path": "media/20241121_063026_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdKssptaMAADVPW?format=jpg",
+                        "local_path": "media/20241121_063026_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdKsuckaMAAF_Bw?format=jpg",
+                        "local_path": "media/20241121_063026_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdKtWiWboAAXTx7?format=jpg",
+                        "local_path": "media/20241121_063026_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gc42Dl7b0AAzoYV?format=jpg",
+                        "local_path": "media/20241121_063026_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gc425y0aAAEaNpc?format=jpg",
+                        "local_path": "media/20241121_063026_5.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-21T06:30:26+00:00"
+            },
+            {
+                "text": "There is an array of four fibers, the end of which seems to be exposed in a narrow trench of between two injection molded (could see a gate vestige) light guide (?) and fiber holder, locating pins ~5x diameter of the fiber. Could also see a few wirebonds through the light guide.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdKxOISa0AEpTMn?format=jpg",
+                        "local_path": "media/20241124_180639_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdKxOIWaYAAm9rv?format=jpg",
+                        "local_path": "media/20241124_180639_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdKxOIVboAA6U4b?format=jpg",
+                        "local_path": "media/20241124_180639_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-24T18:06:39+00:00"
+            },
+            {
+                "text": "Nice, share it when you do!",
+                "media": [],
+                "timestamp": "2024-11-24T22:58:29+00:00"
+            },
+            {
+                "text": "I think it’s multimode so not as sensitive, and there are two injection molded parts, one aligned to the vcsel chip maybe on one or two of its edges, and the second one holding the fibers is aligned to the one enclosing the chip with pins",
+                "media": [],
+                "timestamp": "2024-11-25T15:27:39+00:00"
+            },
+            {
+                "text": "they also have wires running the whole cable for power",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdK54yCaMAAggbz?format=jpg",
+                        "local_path": "media/20241124_214657_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-24T21:46:57+00:00"
+            },
+            {
+                "text": "When you wanna run it for > 10 m or so. The electrical version has carrier freq of few hundred MHz to ~ 1 GHz and decays too quickly. Either need an active cable or fiber optic.",
+                "media": [],
+                "timestamp": "2024-11-24T20:04:13+00:00"
+            },
+            {
+                "text": "Got a fiber optic HDMI cable and opened it up",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdKsraxbIAAnXVM?format=jpg",
+                        "local_path": "media/20241121_063026_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdKssptaMAADVPW?format=jpg",
+                        "local_path": "media/20241121_063026_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdKsuckaMAAF_Bw?format=jpg",
+                        "local_path": "media/20241121_063026_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdKtWiWboAAXTx7?format=jpg",
+                        "local_path": "media/20241121_063026_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gc42Dl7b0AAzoYV?format=jpg",
+                        "local_path": "media/20241121_063026_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gc425y0aAAEaNpc?format=jpg",
+                        "local_path": "media/20241121_063026_5.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-21T06:30:26+00:00"
+            },
+            {
+                "text": "There is an array of four fibers, the end of which seems to be exposed in a narrow trench of between two injection molded (could see a gate vestige) light guide (?) and fiber holder, locating pins ~5x diameter of the fiber. Could also see a few wirebonds through the light guide.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdKxOISa0AEpTMn?format=jpg",
+                        "local_path": "media/20241124_180639_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdKxOIWaYAAm9rv?format=jpg",
+                        "local_path": "media/20241124_180639_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdKxOIVboAA6U4b?format=jpg",
+                        "local_path": "media/20241124_180639_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-24T18:06:39+00:00"
+            },
+            {
+                "text": "Yeah could imagine they’re annoying as hell to rewire/splice, theres not only fibers but also electrical wires for powering the electronics part",
+                "media": [],
+                "timestamp": "2024-11-24T19:33:39+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1809728258138861701",
+        "tweets": [
+            {
+                "text": "Imagine doing computer vision research in 1966 as an undergrad summer project (from https://szeliski.org/Book/)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GR1x4dNacAEdG-d?format=jpg",
+                        "local_path": "media/20240706_231654_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-07-06T23:16:54+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1861102701549101389",
+        "tweets": [
+            {
+                "text": "> \"How many cameras do you need?\"\n> \"Yes.\"",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdP2mwXaoAMMufS?format=jpg",
+                        "local_path": "media/20241125_170104_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdP2pfQaoAITgM6?format=jpg",
+                        "local_path": "media/20241125_170104_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdPt-L3XQAAzseD?format=jpg",
+                        "local_path": "media/20241125_170104_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdPt-L1WAAA5ejB?format=jpg",
+                        "local_path": "media/20241125_170104_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-25T17:01:04+00:00"
+            },
+            {
+                "text": "Fig. 1: Mark Florquin - Building a 3D Scanner\nhttps://markflorquin.be/portfolio/building-a-3d-scanner/…\nFig. 2: Xu2023: VR-NeRF: High-Fidelity Virtualized Walkable Spaces\nhttps://vr-nerf.github.io",
+                "media": [],
+                "timestamp": "2024-11-25T17:42:39+00:00"
+            },
+            {
+                "text": "",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdSeP4jaoAUFh_D?format=jpg",
+                        "local_path": "media/20241126_055111_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-26T05:51:11+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1861081974867362128",
+        "tweets": [
+            {
+                "text": "Which way network man?\n(Second pic is a magsafe detachable ethernet cable)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdPjjmBbcAAxWCJ?format=jpg",
+                        "local_path": "media/20241125_080143_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdPjjmAbcAAvJLp?format=jpg",
+                        "local_path": "media/20241125_080143_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdNyjDBXUAABNCF?format=jpg",
+                        "local_path": "media/20241125_080143_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-25T08:01:43+00:00"
+            },
+            {
+                "text": "MagSafe-like detachable Ethernet cable debuts — Cat6 cables available up to 10 GbE https://trib.al/57JFhm0",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdE5AUCWMAAxx5p?format=jpg",
+                        "local_path": "media/20241125_161833_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-25T16:18:33+00:00"
+            },
+            {
+                "text": "you make me wanna dig out some old quotes a few grand for some high vacuum low temperature DC feedthru",
+                "media": [],
+                "timestamp": "2024-11-25T17:17:55+00:00"
+            },
+            {
+                "text": "I’ve used a portable spectrum analyzer with this kind of rugged usb connector. Never felt more secured in my life.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdPltGlaEAAYp_W?format=jpg",
+                        "local_path": "media/20241125_162535_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-25T16:25:35+00:00"
+            },
+            {
+                "text": "you make me wanna dig out some old quotes a few grand for some high vacuum low temperature DC feedthru",
+                "media": [],
+                "timestamp": "2024-11-25T17:17:55+00:00"
+            },
+            {
+                "text": "I’ve used a portable spectrum analyzer with this kind of rugged usb connector. Never felt more secured in my life.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdPltGlaEAAYp_W?format=jpg",
+                        "local_path": "media/20241125_162535_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-25T16:25:35+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1861219117912748429",
+        "tweets": [
+            {
+                "text": "PDMS/MXene film based triboelectric nanogenerator...\nThey show it could charge up a 2 uF capacitor with 14 blows of 800 N force to 3.6 V, and sense different moves. They kept punching it for 30,000 times and  checked over 35 days to see its long term stability.\nIts max power output to an optimal load (40 MOhm) is 4.4 mW/cm^2, however not sure how impressive this is as the number and even the unit seem to be everywhere for energy harvesting device.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdRd9nWaEAA6NpM?format=jpg",
+                        "local_path": "media/20241126_012312_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdRd-XZaoAEyx-V?format=jpg",
+                        "local_path": "media/20241126_012312_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdReAEcaoAAWUkG?format=jpg",
+                        "local_path": "media/20241126_012312_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdReFGoaoAIZK-O?format=jpg",
+                        "local_path": "media/20241126_012312_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-26T01:23:12+00:00"
+            },
+            {
+                "text": "Zhang2024: A flat-structured triboelectric nanogenerator based on PDMS/MXene for mechanical energy harvesting boxing training monitoring",
+                "media": [],
+                "timestamp": "2024-11-26T01:24:05+00:00"
+            },
+            {
+                "text": "what power sails?",
+                "media": [],
+                "timestamp": "2024-11-26T02:39:02+00:00"
+            },
+            {
+                "text": "This sounds too good to be true, what’s the assumptions on the force/working conditions (and the load)?",
+                "media": [],
+                "timestamp": "2024-11-27T03:09:13+00:00"
+            },
+            {
+                "text": "Are you familiar with the assumptions they make to get this number (force & frequency etc.)? Haven't digged in myself.",
+                "media": [],
+                "timestamp": "2024-11-26T02:42:09+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1841293297672986834",
+        "tweets": [
+            {
+                "text": "TIL there is a company trying to figure out 3D printing houses on the moon.\nIt's a fun environment, you get no air for cooling fans, but also free vacuum for any of your scientific or semiconductor fab need. And you also get \"room T\" superconductors at night.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GY2Vo9UbwAAbXjM?format=jpg",
+                        "local_path": "media/20241002_014506_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY2VtvlbgAAKT-q?format=jpg",
+                        "local_path": "media/20241002_014506_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY2V1SZaYAAs0Wd?format=png",
+                        "local_path": "media/20241002_014506_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY2WXgEasAAJwZz?format=jpg",
+                        "local_path": "media/20241002_014506_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-02T01:45:06+00:00"
+            },
+            {
+                "text": "See more at https://lunarresources.space\nand",
+                "media": [],
+                "timestamp": "2024-10-02T01:45:57+00:00"
+            },
+            {
+                "text": "Damn. Also ofc it’s from a nasa challenge:",
+                "media": [],
+                "timestamp": "2024-10-02T14:46:28+00:00"
+            },
+            {
+                "text": "what it actually melts nearby rocks for the printing materials or smt?",
+                "media": [],
+                "timestamp": "2024-11-26T02:47:04+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1861482152678019501",
+        "tweets": [
+            {
+                "text": "First time seeing a photonic wire bond as a coupling element (to a whispering gallery mode resonator).",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdVQArOaoAEllOY?format=jpg",
+                        "local_path": "media/20241126_184824_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdVQArPacAAclYB?format=jpg",
+                        "local_path": "media/20241126_184824_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-26T18:48:24+00:00"
+            },
+            {
+                "text": "Takabayashi2024: Microresonator photonic wire bond integration for Kerr-microcomb generation",
+                "media": [],
+                "timestamp": "2024-11-26T18:49:16+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1861514112523501682",
+        "tweets": [
+            {
+                "text": "I had no idea light rails are running on DC, and you have to worry about stray field and current causing corrosion.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GdVtGhBXwAAHWvG?format=png",
+                        "local_path": "media/20241126_193100_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdVtGhBXgAAbFtN?format=jpg",
+                        "local_path": "media/20241126_193100_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-26T19:31:00+00:00"
+            },
+            {
+                "text": "Jeez what a horror story",
+                "media": [],
+                "timestamp": "2024-11-27T06:03:42+00:00"
+            },
+            {
+                "text": "Lool what",
+                "media": [],
+                "timestamp": "2024-11-26T23:45:40+00:00"
+            },
+            {
+                "text": "Lool",
+                "media": [],
+                "timestamp": "2024-11-27T16:51:14+00:00"
+            }
+        ]
+    }
+]
