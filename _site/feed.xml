@@ -1,4 +1,217 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-08T19:14:48-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">How to make a superconducting coil for few mT magnetic field at mK temperature</title><link href="http://localhost:4000/tutorial/SC-coil/" rel="alternate" type="text/html" title="How to make a superconducting coil for few mT magnetic field at mK temperature" /><published>2024-12-08T00:00:00-08:00</published><updated>2024-12-08T00:00:00-08:00</updated><id>http://localhost:4000/tutorial/SC-coil</id><content type="html" xml:base="http://localhost:4000/tutorial/SC-coil/"><![CDATA[<p>Coil is simple to make (lol maybe I’m too naive), why am I writing this and what would you be able to learn from it?</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-08T23:24:11-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#24)</title><link href="http://localhost:4000/ofs/weekly-OFS-24/" rel="alternate" type="text/html" title="This week’s outside five sigma (#24)" /><published>2024-12-08T00:00:00-08:00</published><updated>2024-12-08T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-24</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-24/"><![CDATA[<ol>
+  <li>Fiber to chip loss is pretty good. The rate is still so low (125 MHz): A manufacturable platform for photonic quantum computing 
+<img src="/assets/images/2024/20240429_20241204/PsiQuantum_202404.jpeg" alt="PsiQuantum" />
+    <ul>
+      <li>Glad to see them talking about component loss and fiber to chip loss in mdB now</li>
+      <li>Alexander2024: <a href="https://arxiv.org/abs/2404.17570">A manufacturable platform for photonic quantum computing</a></li>
+    </ul>
+  </li>
+  <li>babe wake up new article about NIF just dropped with graphics to turn you on about fusion.
+<img src="/assets/images/2024/20240429_20241204/20240918_005744_0.jpg" alt="20240918_005744_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20240918_005744_1.jpg" alt="20240918_005744_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20240918_005744_2.jpg" alt="20240918_005744_2.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20240918_005744_3.jpg" alt="20240918_005744_3.jpg" />
+    <ul>
+      <li>Jeff Tollefson - <a href="https://www.nature.com/immersive/d41586-024-03745-z/index.html">How the world’s biggest laser smashed a nuclear-fusion record</a></li>
+      <li>Look at this “130,000-kilogram spherical chamber in which 192 laser beams converge on a small pellet of frozen isotopes”
+<img src="/assets/images/2024/20240429_20241204/20241128_035656_0.jpg" alt="20241128_035656_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>Top three of 2024 Nikon Small World photography awards. Guess what they are?
+(hint: they are 100x, 10x, and 20x)
+<img src="/assets/images/2024/20240429_20241204/20241128_042057_0.jpg" alt="20241128_042057_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241128_042057_1.jpg" alt="20241128_042057_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241128_042057_2.jpg" alt="20241128_042057_2.jpg" />
+    <ul>
+      <li>1st: Differentiated mouse brain tumor cells (actin, microtubules, and nuclei)
+2nd: Electrical arc between a pin and a wire
+3rd: Leaf of a cannabis plant. The bulbous glands are trichomes. The bubbles inside are cannabinoid vesicles.
+More at <a href="https://www.nikonsmallworld.com/galleries/2024-photomicrography-competition">Nikon 2024 Photomicrography</a>
+<img src="/assets/images/2024/20240429_20241204/20241128_042344_0.jpg" alt="20241128_042344_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241128_042344_1.jpg" alt="20241128_042344_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241128_042344_2.jpg" alt="20241128_042344_2.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241128_042344_3.jpg" alt="20241128_042344_3.jpg" /></li>
+    </ul>
+  </li>
+  <li>Beautiful high res synchrotron micro-CT and 3d reconstructions of — dinosaur poops
+<img src="/assets/images/2024/20240429_20241204/20241128_205637_0.jpg" alt="20241128_205637_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241128_205637_1.jpg" alt="20241128_205637_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241128_205637_2.jpg" alt="20241128_205637_2.jpg" />
+    <ul>
+      <li>Qvarnström2024: <a href="https://www.nature.com/articles/s41586-024-08265-4">Digestive contents and food webs record the advent of dinosaur supremacy</a></li>
+    </ul>
+  </li>
+  <li>gf: what’s the thing you got on your screen, three little pink heart? aww it’s so cute!
+me: uh, it’s complicated, but yes it’s cute!
+(trying to get the RCS of a resonant subwavelength size (~lambda/50) antenna)
+<img src="/assets/images/2024/20240429_20241204/20241129_054258_0.jpg" alt="20241129_054258_0.jpg" />
+    <ul>
+      <li>If you are doing scattered field + frequency sweep, remember to update the background field accordingly (since the frequency is changing)… Spent two nights debugging this.
+Otherwise part of the background field will appear as scattered field and also appear in the far field
+<img src="/assets/images/2024/20240429_20241204/20241129_071723_0.jpg" alt="20241129_071723_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241129_071723_1.jpg" alt="20241129_071723_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241129_071723_2.jpg" alt="20241129_071723_2.jpg" /></li>
+      <li>Actually looks pretty menacing on-resonance lol
+(capped the color range at 10x of the background field. The antenna is 1.5 mm, comparing to the em wavelength~87 mm at 3.35 GHz. RCS is almost 1e6x of off-resonance RCS, enhanced by ~Q^2.
+Q~800, very close to Chu–Harrington limit)
+<img src="/assets/images/2024/20240429_20241204/20241129_082928_0.jpg" alt="20241129_082928_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>Have you wondered why atoms “look like” they have size of ~1 um under laser illumination?</li>
+</ol>
+
+<p>One reason: you could only resolve things at ~wavelength of the light. However, this 0.2 nm size strontium atom could also be captured with not so crazy optics (50 mm lens) &amp; exposure time, which means it has very high scattering cross section to “reflect” the blue-violet light illumination. It also appears huge because of the smaller NA of the camera (separation of the two ion trap metal tip is 2 mm).</p>
+
+<p>Turns out the scattering cross section of an atom on-resonance is comparable to the wavelength if you go thru the physics and math (3λ^2/3pi), and you can observe very similar wavelength-scale radar cross section on a tiny subwavelength rf/microwave antenna as well, fully passive.</p>
+
+<p>Here I looked at a ~1.5 mm dipole antenna, resonant at 3.46 GHz, i.e., its size is ~1/60 wavelength, and its on-resonance RCS is almost x1e6 of off-resonance RCS).</p>
+
+<p>Similar to Chu–Harrington limit of antenna Q, this is a very general rule for any passive scatterer of size within a sphere of radius a « λ: its max RCS is ~λ^2, independent of its size. You could have a very high-Q atom scattering light as if it is as big as ~1 um, and you could build a tiny passive rf antenna that “looks huge” on-resonance (it has to be low internal loss).
+<img src="/assets/images/2024/20240429_20241204/20241129_170730_0.jpg" alt="20241129_170730_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241129_170730_1.jpg" alt="20241129_170730_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241129_170730_2.jpg" alt="20241129_170730_2.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241129_170730_3.jpg" alt="20241129_170730_3.jpg" /></p>
+<ul>
+  <li>Fig. 1: Holman2024: <a href="https://arxiv.org/abs/2411.05321">Trapping of Single Atoms in Metasurface Optical Tweezer Arrays</a></li>
+  <li>Fig. 2: Zachos2018: <a href="https://www.nationalgeographic.com/science/article/trapped-atom-photograph-long-exposure-competition-spd">How a Student Took a Photo of a Single Atom</a></li>
+  <li>Chapter 2 of <a href="https://link.springer.com/book/10.1007/978-1-4612-1470-0">Metcalf - Laser Cooling and Trapping (1999)</a> has the derivation of scattering cross section.
+   <img src="/assets/images/2024/20240429_20241204/20241129_171155_0.jpg" alt="20241129_171155_0.jpg" />
+   <img src="/assets/images/2024/20240429_20241204/20241129_171155_1.jpg" alt="20241129_171155_1.jpg" /></li>
+  <li>Also good to clarify about “resolution”, if you know what you are looking for and have very high SNR measurement, you could always resolve e.g. two gaussians with separation much smaller than their widths.</li>
+</ul>
+
+<ol>
+  <li>The lineage is so clear for some superconducting qubit packaging. Left: 2011, right: 2024.
+<img src="/assets/images/2024/20240429_20241204/20241129_185502_0.jpg" alt="20241129_185502_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241129_185502_1.jpg" alt="20241129_185502_1.jpg" />
+    <ul>
+      <li>Left: <a href="https://web.physics.ucsb.edu/~martinisgroup/index.shtml">Martinis Group</a></li>
+      <li>Right: Chou2024: <a href="https://arxiv.org/abs/2411.15726">Deterministic multi-phonon entanglement between two mechanical resonators on separate substrates</a></li>
+    </ul>
+  </li>
+  <li>I’ve been shilling and long term bullish in comsol. They have been constantly updating and expanding the multiphysics, tutorials, application library and material library etc etc, and each update has meaningful capability &amp; user experience improvement.</li>
+</ol>
+
+<p>Take the mesh on periodic boundary condition (PBC) surfaces as an example for the user experience:</p>
+<ul>
+  <li>In 5.0 - 5.4 you need to manually mesh one surface and copy to another surface to make sure the mesh is identical on the pairs of surfaces (so that the PBC would work properly).</li>
+  <li>Since 5.6 or so, the automatically generated mesh starts to take care of this, and when you’ve run it once and then switch to manual, you’ll see the auto-added surface mesh + copy.</li>
+  <li>Since 6.2 iirc, now you could have an “identical mesh” constraint on the pair of surfaces, and mesh them at any order you like, more flexible than meshing them separately first.</li>
+  <li>I could personally come up a few more examples like this.</li>
+</ul>
+
+<p>It still sucks every now and then, and there are things that need a lot of manual/scripted setup or impossible. But the list for these things has been shrinking, and there is a growing list of stuff that used to take a phd journey to figure out and setup properly, but now is just one of the physics or multiphysics settings.
+<img src="/assets/images/2024/20240429_20241204/20241130_034207_0.jpg" alt="20241130_034207_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_034207_1.jpg" alt="20241130_034207_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_034207_2.jpg" alt="20241130_034207_2.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_034207_3.jpg" alt="20241130_034207_3.jpg" /></p>
+<ul>
+  <li>Screenshots are from <a href="https://www.comsol.com/release/6.3">“COMSOL Multiphysics® 6.3 Release Highlights”</a></li>
+  <li>Even if you do not have access to it, their manuals and user guides are still there, and you could legit learn the physics in a very practical way. Here are some examples for <a href="https://doc.comsol.com/6.3/doc/com.comsol.help.sme/StructuralMechanicsModuleUsersGuide.pdf">structural mechanics</a> and <a href="https://doc.comsol.com/6.3/doc/com.comsol.help.rf/RFModuleUsersGuide.pdf">RF</a>.
+   <img src="/assets/images/2024/20240429_20241204/20241130_035606_0.jpg" alt="20241130_035606_0.jpg" />
+   <img src="/assets/images/2024/20240429_20241204/20241130_035606_1.jpg" alt="20241130_035606_1.jpg" />
+   <img src="/assets/images/2024/20240429_20241204/20241130_035606_2.jpg" alt="20241130_035606_2.jpg" />
+   <img src="/assets/images/2024/20240429_20241204/20241130_035606_3.jpg" alt="20241130_035606_3.jpg" /></li>
+  <li>Hmm maybe I’ll use this thread to dump some other user guides here.
+    <ul>
+      <li><a href="https://doc.comsol.com/6.3/doc/com.comsol.help.aco/AcousticsModuleUsersGuide.pdf">Acoustics</a></li>
+      <li><a href="https://doc.comsol.com/6.3/doc/com.comsol.help.woptics/WaveOpticsModuleUsersGuide.pdf">Wave optics</a></li>
+      <li><a href="https://doc.comsol.com/6.3/doc/com.comsol.help.roptics/RayOpticsModuleUsersGuide.pdf">Ray optics</a></li>
+      <li><a href="https://doc.comsol.com/6.3/doc/com.comsol.help.heat/HeatTransferModuleUsersGuide.pdf">Heat transfer</a></li>
+      <li><a href="https://doc.comsol.com/6.3/doc/com.comsol.help.semicond/SemiconductorModuleUsersGuide.pdf">Semiconductor</a></li>
+    </ul>
+  </li>
+</ul>
+
+<ol>
+  <li>Apparently google no longer puts goal year for the future milestones in their quantum computing roadmap, while IBM still does.
+<img src="/assets/images/2024/20240429_20241204/20241130_051640_0.jpg" alt="20241130_051640_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_051640_1.jpg" alt="20241130_051640_1.jpg" />
+    <ul>
+      <li><a href="https://quantumai.google/">Google</a></li>
+      <li><a href="https://ibm.com/roadmaps/quantum/">IBM</a></li>
+    </ul>
+  </li>
+  <li>TIL Toshiba researchers have made a entangled photon pair source by putting a quantum dot in an LED-like semiconductor structure, as early as 2010. They inject two pairs of electrons-holes into the quantum dot, and they’d recombine and emit polarization entangled photons.</li>
+</ol>
+
+<p>I’m surprised I have not seen it earlier and more often, maybe it is because the wavelength is too short (400 nm)?
+Then I saw they have made it into the telecom O-band (~1300 nm) in 2014. Ok maybe the rate and fidelity are low?
+Then I saw they made them upto 33 kHz and 94% in 2020. My last guess would be yield… and voila, “typical yield of around 0.9%”
+<img src="/assets/images/2024/20240429_20241204/20241130_062330_0.jpg" alt="20241130_062330_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_062330_1.jpg" alt="20241130_062330_1.jpg" /></p>
+<ul>
+  <li>Salter2010: <a href="https://www.nature.com/articles/nature09078">An entangled-light-emitting diode</a></li>
+  <li>Ward2014: <a href="https://nature.com/articles/ncomms4316">Coherent dynamics of a telecom-wavelength entangled photon source</a></li>
+  <li>Xiang2020: <a href="https://www.nature.com/articles/s42005-020-0390-7">A tuneable telecom wavelength entangled light emitting diode deployed in an installed fibre</a></li>
+  <li>A quantum dot is a very common type of single-photon emitter. When you confine electrons along all three dimensions (like an atom does), you get a “dot”, and you’ll get discrete and nonlinear energy levels for the electrons, and one those transitions would emit a single photon. (see this nice review from Senellart2017: <a href="https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=923145">High-performance semiconductor quantum-dot single-photon sources</a>)
+   <img src="/assets/images/2024/20240429_20241204/20241130_063454_0.jpg" alt="20241130_063454_0.jpg" /></li>
+</ul>
+
+<ol>
+  <li>Nature briefing did a poll last week on ScienceTwitter vs ScienceSky.
+Results aside, I find it interesting that a total of ~ 6000 people responded. I digged out a few more polls done by them in a similar way, and they all have similar total votes of 4000 ~ 8000.</li>
+</ol>
+
+<p>So roughly 60k to 600k people are subscribed to nature briefing? (assuming engagement rate of 1%~10%)
+<img src="/assets/images/2024/20240429_20241204/20241130_071439_0.jpg" alt="20241130_071439_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_071439_1.jpg" alt="20241130_071439_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_071439_2.jpg" alt="20241130_071439_2.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_071439_3.jpg" alt="20241130_071439_3.jpg" /></p>
+
+<ol>
+  <li>A 4 inch diameter deformable mirror actuated by a piezopolymer layer, and the Notre Dame rose window.
+(the author called it the “Notre Dame” design)
+<img src="/assets/images/2024/20240429_20241204/20241130_175838_0.jpg" alt="20241130_175838_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_175838_1.jpg" alt="20241130_175838_1.jpg" />
+    <ul>
+      <li>Patterson2014: <a href="https://thesis.library.caltech.edu/8043/">Lightweight Deformable Mirrors for Future Space Telescopes</a></li>
+      <li>Did not know that the mirror mass/areal density has dropped 10x from Hubble to JWST (~200 kg/m^2 to ~20 kg/m^2). Their mirror is 0.5 kg/m^2, it sounds too good maybe they omitted some components necessary for the actual space.
+   <img src="/assets/images/2024/20240429_20241204/20241130_180811_0.jpg" alt="20241130_180811_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>How are these magnetorquers $10k each and 10 weeks lead time??
+<img src="/assets/images/2024/20240429_20241204/20241130_024449_0.jpg" alt="20241130_024449_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_024449_1.jpg" alt="20241130_024449_1.jpg" />
+    <ul>
+      <li>Fig .1 from: <a href="https://einstein.stanford.edu/highlights/hl_102805.html">Gravity Probe B - STATUS UPDATE AS OF 28 OCTOBER 2005</a></li>
+      <li>Fig. 2 from Amin2019: <a href="https://repository.gatech.edu/server/api/core/bitstreams/db0bd935-ce1c-4f55-a4af-d4c9655a0a41/content">The Design, Assembly, and Testing of Magnetorquers for a 1U CubeSat Mission</a></li>
+    </ul>
+  </li>
+  <li>Opened up also the receiver side of the VCSEL fiber optic HDMI cable, and removed the plastic light guide above the detectors
+<img src="/assets/images/2024/20240429_20241204/20241124_174059_0.jpg" alt="20241124_174059_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241124_174059_1.jpg" alt="20241124_174059_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241124_174059_2.jpg" alt="20241124_174059_2.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241124_174059_3.jpg" alt="20241124_174059_3.jpg" />
+    <ul>
+      <li>The micro lens array looks like spider eyes lol
+   <img src="/assets/images/2024/20240429_20241204/20241202_171621_0.jpg" alt="20241202_171621_0.jpg" />
+   <img src="/assets/images/2024/20240429_20241204/20241202_171621_1.jpg" alt="20241202_171621_1.jpg" />
+   <img src="/assets/images/2024/20240429_20241204/20241202_171621_2.jpg" alt="20241202_171621_2.jpg" /></li>
+    </ul>
+  </li>
+  <li>Some nice quotes from the facebook red book
+<img src="/assets/images/2024/20240429_20241204/20241202_210632_0.jpg" alt="20241202_210632_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241202_210632_1.jpg" alt="20241202_210632_1.jpg" />
+    <ul>
+      <li><a href="https://www.map.cv/blog/redbook">Facebook’s Little Red Book</a></li>
+    </ul>
+  </li>
+  <li>These quantum microscopes are getting out of control
+Left: quantum twisting microscope
+Right: quantum diamond microscope
+<img src="/assets/images/2024/20240429_20241204/20241203_154815_0.jpg" alt="20241203_154815_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241203_154815_1.jpg" alt="20241203_154815_1.jpg" />
+    <ul>
+      <li>Inbar2023: <a href="https://nature.com/articles/s41586-022-05685-y">The quantum twisting microscope</a>
+Yin2024: <a href="https://doi.org/10.1103/PhysRevApplied.22.054050">Quantum diamond microscope for narrowband magnetic imaging with high spatial and spectral resolution</a></li>
+      <li>They are both pretty sick, but hell annoying to make and use. The QDM may be more practical, no layer by layer stacking of fancy 2d materials, and could resolve sub 100 pT with 2 um spatial resolution.
+They imaged magnetic field from a few microcoils.
+   <img src="/assets/images/2024/20240429_20241204/20241203_155749_0.jpg" alt="20241203_155749_0.jpg" />
+   <img src="/assets/images/2024/20240429_20241204/20241203_155749_1.jpg" alt="20241203_155749_1.jpg" /></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Photonics" /><category term="Quantum" /><category term="NIF" /><category term="Fusion" /><category term="Plasma" /><category term="CT" /><category term="Antenna" /><category term="Atom" /><category term="Scattering" /><category term="RCS" /><category term="Laser" /><category term="Superconducting_qubit" /><category term="COMSOL" /><category term="Google" /><category term="IBM" /><category term="LED" /><category term="Quantum_dot" /><category term="Piezo" /><category term="Magnetorquer" /><category term="VCSEL" /><category term="Facebook" /><summary type="html"><![CDATA[Fiber to chip loss is pretty good. The rate is still so low (125 MHz): A manufacturable platform for photonic quantum computing Glad to see them talking about component loss and fiber to chip loss in mdB now Alexander2024: A manufacturable platform for photonic quantum computing]]></summary></entry><entry><title type="html">How to make a superconducting coil for few mT magnetic field at mK temperature</title><link href="http://localhost:4000/tutorial/SC-coil/" rel="alternate" type="text/html" title="How to make a superconducting coil for few mT magnetic field at mK temperature" /><published>2024-12-08T00:00:00-08:00</published><updated>2024-12-08T00:00:00-08:00</updated><id>http://localhost:4000/tutorial/SC-coil</id><content type="html" xml:base="http://localhost:4000/tutorial/SC-coil/"><![CDATA[<p>Coil is simple to make (lol maybe I’m too naive), why am I writing this and what would you be able to learn from it?</p>
 <ul>
   <li>These coils go into high vacuum and low temperature, so not as common as typical applications</li>
   <li>More consideration for thermalization and heating</li>
@@ -1473,594 +1686,4 @@ It uses MTX (magnetically color-tunable photonic crystal material) or magnetic m
 <img src="/assets/images/2024/20240707_20241017/20241015_power_over_skin.jpg" alt="20241015_power_over_skin.jpg" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Microwave" /><category term="Nanofab" /><category term="Laser" /><category term="Light_guide" /><category term="TIA" /><category term="Preamp" /><category term="Quantum" /><category term="Packaging" /><category term="Antenna" /><category term="Stretchable" /><category term="Strain" /><category term="Stress" /><category term="LED" /><category term="MicroLED" /><category term="Electrocaloric" /><category term="Wireless_charing" /><category term="Heavy_metal" /><category term="Robotics" /><category term="Magnetics" /><category term="Quadruped_robot" /><summary type="html"><![CDATA[Microwaving grapes touching each other could generate plasma, and it still works after shrinking both the grape and the microwave by ~10000x. If you have a fs laser, you can use this effect to cut a trench that is almost 100x smaller than the laser wavelength. Nanoscale reshaping of resonant dielectric microstructures by light-driven explosions]]></summary></entry><entry><title type="html">Yapping on ebeam lithography</title><link href="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/" rel="alternate" type="text/html" title="Yapping on ebeam lithography" /><published>2024-10-13T00:00:00-07:00</published><updated>2024-10-13T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/yapping-on-ebeam-lithography</id><content type="html" xml:base="http://localhost:4000/tutorial/yapping-on-ebeam-lithography/"><![CDATA[<p>The cover of this blog was the JEOL JBX 6300FS at Stanford <a href="https://snsf.stanford.edu/">SNSF</a>. I love it. Here is the evolution of JEOL JBX series.</p>
-
-<p><img src="/assets/images/2024/ebeam/JEOL_JBX_history.jpg" alt="JEOL_JBX_history" />
-<em>History of JEOL JBX. From <a href="https://www.jeol.com/solutions/applications/details/se2024-01.php">Application note: Development of JBX-A9, Electron Beam Lithography System</a></em></p>
-
-<p><em>DISCLAIMER: I’m writing this blog for fun. You should always question the numbers and practices here, and consult your colleagues, ebeam staff, and the references here for your own judgement.</em></p>
-
-<h1 id="what-is-ebeam-litho">What is EBeam litho</h1>
-
-<p>Ebeam lithography, as the name suggests, is using electron beams for lithography. <a href="https://en.wikipedia.org/wiki/Lithography">Lithograph</a> has a pretty old history, and involves a mask or print plate, materials to be printed (started with oil), and a physical or chemical process to shape the print using the mask. It is a powerful technique at the time to mass produce drawings and maps, and later photos (photography).</p>
-
-<p><img src="/assets/images/2024/ebeam/Hands-SantaCruz-CuevaManos-P2210651b.jpg" alt="Hands" />
-<em>Hands, stenciled at the <a href="https://en.wikipedia.org/wiki/Cueva_de_las_Manos">Cave of the Hands</a></em></p>
-
-<p>When people start to think about how to reduce the size of electronic circuits in the 1950s, they adopted photographic technique (using optics to shrink and project the pattern, expose and develop the <a href="https://en.wikipedia.org/wiki/Photoresist">photoresist</a> just like in photography) and thus coined the term <a href="https://en.wikipedia.org/wiki/Photolithography">photolithography</a>. Circuit designers would draw the circuit layout on a big canvas, that would later <a href="https://en.wikipedia.org/wiki/Tape-out">tapeout</a> (it is still called tapeout to this date even physical tape is no longer involved) and be shrinked into a <a href="https://en.wikipedia.org/wiki/Photomask">photomask</a>, and shrinked again by the photolitho system onto the wafer. The quest for shrinking the size of electronic circuits and transistors has been on a non-stop march, and shorter wavelengths are needed because of refractive limit of the resolution. But you know what has a much shorter wavelengths? Electrons!</p>
-
-<p>Let’s quickly estimate typical “wavelengths” of electrons in an electron beam. Assuming 10 kV of acceleration, that makes its speed roughly \(0.2 c\), where \(c\) is the speed of light. This is without relativistic correction, which will be \(10\%\) or \(20\%\) so let’s ignore it. The corresponding momentum is \(5\times 10^{-23}~\text{kg}\cdot\text{m/s}\) (hmm this is suspiciously close to Boltzmann constant… whatever), and these electrons’s <a href="https://en.wikipedia.org/wiki/Matter_wave">de Broglie wavelength</a> would be \(1.2\times 10^{-11}~\text{m}\) or 12 pm. If we were to get light with wavelength this small, they would be called <a href="https://en.wikipedia.org/wiki/Gamma_ray">gamma rays</a>.</p>
-
-<p>Another way to think about the wavelength or resolution ability of these tens of kV electrons is, 1 eV photons are around 1 um wavelength, so 10 keV photons would be 0.1 nm wavelength, pretty close to the calculation above. The reason why no one uses gamma rays for photolitho is probably they are hard to generate, and photons do not interact with each other except indirectly via atoms or nonlinear dielectrics, or high enough energy to have quantum electrodynamics shit going. People are already using mirrors for 13.5 nm photon EUV photolitho instead of lenses because of transmission loss, and those mirrors have crazy specs (the YouTube channel Asianometry has a series of videos (e.g.: <a href="https://www.youtube.com/watch?v=UdcFpjgCnP8">ASML’s High-NA EUV Lithography: A 2024 Update</a>) about EUV and they are very informative). Gamma rays would mostly just pass through things, and happily ionizing stuff along the way.</p>
-
-<p>Ok back to ebeam. Electrons are used for many things even before <a href="https://www.britannica.com/science/atom/Discovery-of-electrons">its discovery</a> in 1897, before which electron beams would only be called <a href="https://en.wikipedia.org/wiki/Cathode_ray">cathode rays</a>. They are nice in many ways, it is “free” (heat up a metal enough and electrons would run out of it, see thermionic emission), it is charged, which means it’s easy to manipulate with electric and magnetic field, and it interacts with stuff like generating fluorescence light. Thus the cathode ray tube for display, and scanning electron microscopy for seeing small stuff. As I learnt recently, some ebeam litho equipments actually work more like a display, and it’s called shaped beam.</p>
-
-<p><img src="/assets/images/2024/ebeam/ebeam_litho_evolution.png" alt="ebeam_evolution" />
-<em>From <a href="/assets/doc/2024/EBL_paper/pfeiffer2010.pdf">Pfeiffer2010</a></em></p>
-
-<p>The first use of ebeam for direct write lithography is more than 60 years old, and it has evolved into many different kinds for different purposes. Here we will focus on just some common aspects of ebeam litho, and tools that I have used which are all single pixel Gaussian beam, from Raith 150 Two, to JEOL JBX 6300FS (my favorite!), Raith Voyager, and most recently Raith EBPG 5200+.</p>
-
-<p><img src="/assets/images/2024/ebeam/EBPG_history.png" alt="ebpg_histpry" />
-<em>History of EBPG. From <a href="https://nano.yale.edu/history">Yale: Electron-Beam Lithography Training » History</a></em></p>
-
-<h1 id="ebeam-specs-and-why">Ebeam specs and why</h1>
-
-<p>I think many people, me included, do not appreciate the performance or requirements of ebeam lithography (EBL) enough. Before we get into the details, let’s get a taste of the way I would love more people to be doing and looking at things: order of magnitude estimations. Let’s take the example of how to deflect the electron beam.</p>
-
-<h2 id="how-do-we-deflect-the-electron-beam">How do we deflect the electron beam</h2>
-
-<p>The answer is simple: there are four fundamental forces, and we really only have one option: electric field and/or magnetic field.</p>
-
-<p>Let’s try to estimate how much electric field or magnetic field we need to deflect the electrons by some reasonable angle.</p>
-<ul>
-  <li>It is funny to me that the wikipedia article on <a href="https://en.wikipedia.org/wiki/Electrostatic_deflection">electrostatic deflection</a> does not have a single voltage number in it (at the time of the writing: 20240924).</li>
-  <li>For electric field, it is simple: it should be comparable to \(V_a \cdot \tan\theta\), where \(V_a\) is the acceleration voltage, and \(\theta\) is the deflection angle. Hence for small deflection of a ~20 kV beam, it should be a couple hundred volts to a few kV.</li>
-  <li>For magnetic field, it depends on the radius of the trajectory which is limited by the size of the machine, and let’s say it is \(r = 0.1~\text{m}\). The resulting magnetic field \(B = mv/e/r \approx 5~\text{mT} = 50~\text{G}\) (assuming speed of 0.3c or 30 keV acceleration). Hmm this magnetic field is actually pretty close to the target for a few coils I winded lol, so I could straight tell you that you need ~2000 turns with a current of ~100 mA.</li>
-</ul>
-
-<p><img src="/assets/images/2024/ebeam/image45.png" alt="image45.png" />
-<em>The coil I winded for tuning superconducting resonators in a dilfridge. It uses NbTi wire from <a href="https://www.supercon-wire.com/">Supercon Inc.</a></em></p>
-
-<p>Well actually before we move on, let’s also estimate how much mass we need to deflect the beam with gravity lol. Assuming the same force and radius, we have \(e v  B = GMm/r^2\), and voila, \(M =\) 7e24 kg. Mass of the earth is 6e24 kg. Damn why are they so close. If we want this mass to fit inside the radius of the ebeam trajectory, it would be only 10x larger than the Schwarzschild radius.</p>
-
-<p>It is funny why it is close to the Schwarzschild radius, and that is because 20 keV electrons are close to a speed of 0.3c, and you could get Schwarzschild radius by just assuming light is a classical particle (mistake 1) and the gravity field/force is Newtonian (mistake 2): \(m c^2/r = GMm/r^2\). And because there are two mistakes, you get an extra factor of 2 (this is not how it actually works): \(r_s = 2GM/c^2\).</p>
-
-<p>Ok this is derailing too much, let’s focus back to the EBL specs.</p>
-
-<h2 id="what-are-the-specs">What are the specs?</h2>
-
-<p>These are the EBPG5200 specs, from the Unviersity of Manchester (<a href="https://research.manchester.ac.uk/en/equipments/raith-ebpg5200-100kv-e-beam-lithography-system-aka-vistec">link</a>):</p>
-<ul>
-  <li>Electron Source: Thermal Field Emission</li>
-  <li>Acceleration Voltage: 20, 50, and 100 kV</li>
-  <li>Beam Current: 0.1 to 200 nA</li>
-  <li>Maximum Clock Rate: 50 MHz</li>
-  <li>Main Field Beam Deflection: 20 bit DAC</li>
-  <li>Maximum Write-Field Size: 1 mm x 1 mm</li>
-  <li>Minimum Theoretical Spot Size: 2.2 nm</li>
-  <li>Stage Travel Range: 210 mm x 210 mm</li>
-  <li>Thermal Stability: &lt; 50 nm / h (Open Loop)</li>
-  <li>Footprint: &lt; 20 m^2</li>
-  <li>Minimum Feature Size: 6 nm</li>
-  <li>Stitching and Overlay Accuracy: &lt; 12 nm</li>
-  <li>Wafer Writing: Holders for 3”, 4”, 6”, and 8” Wafer Writing</li>
-  <li>Photomask Writing: Holders for 5” and 6” Mask Plate Writing</li>
-</ul>
-
-<p>Similar Specs from <a href="https://www.jeol.com/products/semiconductor/ebx/JBX-6300FS.php">JEOL JBX-6300FS</a></p>
-<ul>
-  <li>Electron gun: ZrO/W Shottky type</li>
-  <li>Acceleration Voltage: 25 kV (option), 50 kV, 100 kV
-    <ul>
-      <li>A newer model <a href="https://www.jeol.com/products/semiconductor/ebx/JBX-8100FS.php">JBX-8100FS</a> has 200 kV option</li>
-    </ul>
-  </li>
-  <li>5 nm min pattern, 2 nm beam diameter, 0.125 nm DAC resolution, 0.6 nm laser interferometer resolution</li>
-  <li>Max field size</li>
-  <li>19 bit DAC, 50 MHz scan speed</li>
-  <li>Maximum Write-Field Size: 2 mm x 2 mm</li>
-  <li>Stage Travel Range: 190 mm x 170 mm</li>
-  <li>Stitching and Overlay Accuracy: &lt;= \(\pm9\) nm</li>
-  <li>Hold up to 150 mm (6 in) wafer</li>
-  <li>Automatic beam adjustment, dose correction and position correction</li>
-</ul>
-
-<p>Overwhelming? They are all fun to understand and some of these numbers are crazy. Let’s go thru them one by one.</p>
-
-<h2 id="electron-source-and-emission">Electron source and emission</h2>
-
-<p>I don’t know much about this part. Need to read more and add more later.</p>
-
-<p>One fun thing I learnt recently is that, for high current stuff, the emission could be explosive arounf sharp features, and corrode the emitter. The advantage is that the emission current density can be much higher and in the range of \(10^6\sim10^8\) A/cm^2.</p>
-
-<p><img src="/assets/images/2024/ebeam/emission_types.png" alt="emission_types" />
-<img src="/assets/images/2024/ebeam/explosive_emission.png" alt="explosive_emission" />
-(From thesis <a href="https://digitalrepository.unm.edu/ece_etds/528/">Relativistic magnetron with diffraction output and split cathode</a>)</p>
-
-<h2 id="why-higher-voltage">Why higher voltage?</h2>
-
-<p>The beam is better. Here are two examples I ran by tweaking the comsol charged particle tracing example a bit. It solves for how the ebeam will diverge from interacting with its own E and B field.</p>
-
-<p><img src="/assets/images/2024/ebeam/ebeam_divergence_physics.PNG" alt="ebeam_physics" /></p>
-
-<p>The first solution shows the ebeam trajectories with 1e8 m/s beam or 30 kV, and the second solution shows a 2e8 m/s beam, or 175 kV (notice how nonlinear this velocity vs voltage is because of relativity. Try it yourself at <a href="https://www.ou.edu/research/electron/bmz5364/calc-kv.html">this calculator</a>.). I did not bother to change the current or size of the beam, but the point of having higher acceleration voltage is very clear.</p>
-
-<p><img src="/assets/images/2024/ebeam/trajectory_3A_v=1e8.PNG" alt="ebeam_trajectory_1e8" />
-<em>Divergence of ebeam trajectory with 30 kV acceleration voltage.</em></p>
-
-<p><img src="/assets/images/2024/ebeam/trajectory_3A_v=2e8.PNG" alt="ebeam_trajectory_2e8" />
-<em>175 kV acceleration, much smaller divergence</em></p>
-
-<p>Ok now let’s see if we could do this with pen and paper instead of a fancy simulation. The logic is as follows: current density gives how much coulumb repulsion there is, and from how much time the beam has between it exits the electro-optics system and hitting the chip, we could calculate how much it has moved laterally. Warning, the following calculation is non-relativistic and probably off by a factory of order of unity.</p>
-<ul>
-  <li>Current of the beam is \(I = eV\rho \pi (D/2)^2\).</li>
-  <li>Electric field for an electron at the edge of the beam: \(E = \frac 1{2\epsilon_0}\rho e D/2\).</li>
-  <li>The amount of change on the beam diameter is \(\Delta D = \frac 1 2 \frac{eE}{m} (L/v)^2\), where \(L\) is travel length from the deflection/focusing field to the sample.</li>
-  <li>As a resut, if we keep the current of the beam constant, the amount of expansion of the beam \(\Delta D = \frac{e}{2\pi m \epsilon_0} I L^2 v^{-3} D^{-1}\).</li>
-  <li>This looks scary, let’s see if the dimensions and rough order of magnitude works out (btw I use <a href="https://numbat.dev/">numbat.dev</a> for this kind of calculations. Highly recommnd.). Typical ebeam current is 1 nA with a diameter of 10 nm. The electron speed is 1e8 m/s. Assume \(L = 0.1\) m. I’m getting \(\sim 3\) um for \(\Delta D\). This sounds much bigger than the actual beam size… Maybe the magnetic field is not negligible, and most importantly the focus should be already at the sample.</li>
-  <li>In any case, the \(v^{-3}\) dependency is likely general.</li>
-</ul>
-
-<p><img src="/assets/images/2024/ebeam/beam_expansion_estimation.PNG" alt="beam_expansion_estimation.PNG" />
-<em>This is <a href="https://numbat.dev/">numbat.dev</a>, ladies and gentlemen.</em></p>
-
-<p>Actually talk is cheap, why not do the velocity sweep in COMSOL and check the simulated beam size? I did, here is the result:
-<img src="/assets/images/2024/ebeam/charged_particle_tracing_20241014.png" alt="velocity_sweep" /></p>
-<ul>
-  <li>Hmm it is actually not \(v^{-3}\), welp, let’s blame relativity and move on with our life.</li>
-</ul>
-
-<h2 id="beam-current-higher-lower">Beam current, higher? Lower?</h2>
-
-<p>The rule of thumb for current is, and as you could see from derivation in the previous section, the smaller it is, the smaller the beam could be focused, and it scales linearly (if I did not make any mistake deriving it).</p>
-
-<p>On the other hand, the major motivation to go to higher current beam is the exposure time. Life is short, and ebeam is expensive. Let’s say Alice has a 10 mm by 10 mm chip (p.s. do not use square or near-square chips for anisotropic materials), and she is writing 0.1% of the chip area just like most people doing hands on fab (wasting most of the materials most of the time). The dose for Alice’s resist is around 1000 uC/cm^2. From these and the current, Alice could easily calculate how much time the beam needs to be on to expose all the resist in all the area.</p>
-
-<p><img src="/assets/images/2024/ebeam/exposure_time_estimation.PNG" alt="exposure_time_estimation.PNG" /></p>
-
-<p>17 minutes! Not bad! That is only $177 on Stanford SNSF’s EBPG5200 if Alice is an industry user (indirect cost included, see <a href="https://snsf.stanford.edu/labmembers/rates">Rates</a>). However, both the time and the cost could very quickly climb up when Alice starts to expose say 1% of her chip, and use some novel resist that needs 3x higher dose, and trying to write five chips in one go. Boom, that is 150x more. So be smart and use higher current when you can, and always run the estimation especially now EBPG’s <code class="language-plaintext highlighter-rouge">cebpg</code> or <code class="language-plaintext highlighter-rouge">cjob</code> came with an exposure time estimation which even takes into account the calibration and load/unload. I’d recommend you still do your own homework, and plan accordingly, so you don’t need to panic when seeing an ETA of 5 hours in front of the ebeam computer.</p>
-
-<p>One thing to be aware about higher current beam (we are talking about the 100 nA + ones) is, they might not be used often, and could be out of calibration, so off that the calibration itself might not run properly. So be prepared to tune the beam yourself, or switch to a lower one until the calibration runs properly.</p>
-
-<h2 id="dac-clock-rate-and-shot-pitch--spot-size">DAC clock rate and shot pitch / spot size</h2>
-
-<p>I am not a digital guy, and am not equipped to appreciate the clock rate of a 20 bit DAC. What I could do here is to point out the limit or tradeoff between DAC rate, dose, and shot pitch or spot size. In short, the time a single shot need, is dose times the area, divided by the current, and it cannot be shorter than the rate the DAC could steer the beam.</p>
-<ul>
-  <li>\(\frac 1 {\text{DAC rate}} \sim \frac{\text{dose}\times \text{shot pitch}^2 /4 }{ \text{beam current}}\).</li>
-</ul>
-
-<p>For our 50 MHz DAC rate from the spec, that is ~ 20 ns. If we are exposing 1000 uC/cm\(^2\) with 1 nA at 8 nm shot pitch, the dwell time neede is 160 ns, and we are safe. But if you switch to a 10 nA beam, you’d need a larger shot pitch.</p>
-
-<h2 id="dac-resolution">DAC resolution</h2>
-
-<p>So how good is a 20 bit DAC, and why do we need it? 20 bit is \(2^{20} \approx 10^6\),  that is a dynamic range of 60 dB.
-For comparison, for reading out voltages, an oscilloscope typically has 8 to 10 bit, and prefer to have a higher sampling rate (e.g. <a href="https://www.tek.com/en/datasheet/2-series-mso-mixed-signal-oscilloscope-datasheet">Tektronix MSO</a>).
-At slower sampling rate, and for analog output, <a href="https://www.ni.com/pdf/product-flyers/multifunction-io.pdf">NI DAQ</a> has 16 ~ 18 bit at around 1 MS/s. And for sensitive measurement such as lock-in amplifiers, you can find 14 ~ 16 bit at ~ 200 MS/s (e.g. Zurich Instruments <a href="https://www.zhinst.com/ch/en/products/hf2li-lock-in-amplifier#specifications">HF2LI</a>).
-Someone who’s an expert on DAC/ADC should make a tradeoff and price chart of all these specs.</p>
-
-<p>Back to DAC for ebeam, a dynamic range of 60 dB roughly means that we could have \(10^6\) shots along x and y within a single write field. That is, how many distinct spots can we have before we have to move the stage.
-For a spot or step size of ~ 4 nm, that means the write field can be as big as ~ 4 mm (in principle). The max write field size on EBPG5200 is indeed 1 mm x 1 mm. You are writing a terapixel image onto your chip with the ebeam, and doing it one pixel at a time, and ~ 50 millions per second.</p>
-<ul>
-  <li>I would like to point out that I recently learnt that shaped beam, or electron projection lithography (EPL) has been improving, and they can do a few gigapixels per second by late 1990s, and a million beams in parallel. (See <a href="/assets/doc/2024/EBL_paper/pfeiffer2010.pdf">Pfeiffer2010</a> and <a href="https://pubs.aip.org/avs/jvb/article-abstract/27/1/161/467317/REBL-A-novel-approach-to-high-speed-maskless">Petric2009</a>)</li>
-</ul>
-
-<p><img src="/assets/images/2024/ebeam/EBL_throughput_pixel_per_sec_pfeiffer2010.PNG" alt="EBL_throughput_pixel_per_sec_pfeiffer2010.PNG" /></p>
-
-<ul>
-  <li>One challenge there is sending data to the digital pattern generator (DPG), which “needed throughput with only 1 Tbit/s of compressed data sent to the DPG”. (<a href="https://pubs.aip.org/avs/jvb/article-abstract/27/1/161/467317/REBL-A-novel-approach-to-high-speed-maskless">Petric2009</a>)</li>
-</ul>
-
-<h2 id="stability">Stability</h2>
-
-<p>Why is stability important? Here is an example of bad stability (writefield stitching), and maybe another one about dose/current drift if I could find an SEM for it. Basically anything that is being precisely controlled and could affect the properties of the beam (current/dose, size/focus, and position).</p>
-
-<p><img src="/assets/images/2024/ebeam/20180920_LNNB19_top_dev6_001.PNG" alt="LNNB19" />
-<em>You can see two writefield stitching error in this SEM.</em></p>
-
-<p>Let’s estimate how much change do we need to shift the beam by ~100 nm, which would be too much in many devices.</p>
-<ul>
-  <li>For the field that deflects the ebeam, this is ~10x the beam spot size. Since the DAC dynamic range is 60 dB, this means a stability of \(10^{-5}\).</li>
-  <li>For the stage positioning, let’s see how much temperature variation would lead to a change of 100 nm for a 200 mm stainless steel cassette/holder.
-    <ul>
-      <li>Steel (and many common metals) have a CTE of \(1\sim 2 \times 10^{-5}\), a 100 nm deformation out of 200 mm is \(\sim 10^{-6}\), thus the temperature stability has to be ~ 0.1 C.</li>
-    </ul>
-  </li>
-</ul>
-
-<p>How long would it take the cassette to thermalize after you have inevitably touched it and heated it up?</p>
-<ul>
-  <li>This depends on how the cassette is held, the path for heat dissipation could be as short as the thickness of the cassette (10 mm), or as long as the size of it (100 mm).</li>
-  <li><a href="https://en.wikipedia.org/wiki/Thermal_diffusivity">Thermal diffusivity</a> is very handy for time scale estimation for thermalization. All you need to remember is it has a unit of length squared over time, thus 10x longer thermalization path would take 100x longer time.</li>
-  <li>I’m actually not sure if the cassette is made of steel or aluminum. Let’s use aluminum since it has higher thermal diffusivity of \(\sim 100~\text{mm}^2/\text{s}\). As a result, it takes 1 s to 100 s for the heat to diffuse, and you probably would want to wait 10x of that for it to be within 1% of the original temperature difference (0.1 C of the 10 C temperature change from your finger).</li>
-</ul>
-
-<p>How about the magnets used in the electro-optic system?</p>
-<ul>
-  <li>This is because different current and writefields use different aperture and different settings on the magnets. Whenever you select and switch to a different beam, the system would demagnetize and then put it back.</li>
-  <li>I do not have a good answer.</li>
-  <li>The practice on the JEOL was to do the beam change at the beginning of everything, and thus when you have finished mounting and loading etc., there’s a good chance it is 15 min later.</li>
-  <li>On EBPG, the default wait time is 60 s.</li>
-</ul>
-
-<h2 id="how-does-the-ebeam-tool-know-it-is-in-a-good-state">How does the ebeam tool know it is in a good state?</h2>
-
-<p>There are mainly the following states that need to be good</p>
-<ul>
-  <li>properties of the beam: current/dose, size/focus, and position
-    <ul>
-      <li>current: measured by the Faraday cup. If the tool is dumb like Raith voyager, you’d need to remember to manually ask the tool to automatically calculate the dwell time for your target dose</li>
-      <li>size/focus: this will be covered in the calibration section. In short, it scans the beam off a marker or a sharp edge, and optimize the sharpness of the scan signal</li>
-      <li>position: also more in the calibration section. The tool points the beam to existing markers, use the beam to find the marker position, and thus correcting where the beam is pointing.</li>
-    </ul>
-  </li>
-  <li>position of the stage: measured with <a href="https://www.ligo.caltech.edu/page/what-is-interferometer">laser inteferometers</a>.</li>
-  <li>relative position between the stage and the beam: this is also called writefield stitching: the tool will move around the stage, and thus moving around a marker. The beam will then point around accordingly and look for the same marker, This links the position of where the stage is going and where the beam is going.</li>
-</ul>
-
-<h1 id="practical-stuff">Practical stuff</h1>
-
-<p>Ok hopefully I have yapped enough about the specs of the ebeam tool. The following will be practical stuff that I’d be talking you through if you are shadowing me through an ebeam session. It will probably be boring to read… I’ll just do it and see how I could improve it with fancy photos and stupid drawings.</p>
-
-<h2 id="design">Design</h2>
-
-<p>So you have something you want to make with ebeam? Have you thought about no? Make sure you really need ebeam because it is expensive, usually takes longer (30 min or more of preparation time vs. ~ 10 min), and more annoying to do. If your mean feature size is more than one or two microns, consider photolitho. If you have access to a maskless photolitho tool, then it is a no brainer. If not, then you might want to use ebeam to just save the wait time for your photomask.</p>
-
-<p>Ok, design, design… The first thing I could think of is, it is likely you’ll have another layer after your ebeam patterns. No matter what you are trying to do, ebeam features are probably too small for interfacing with the macroscopic world, and you’ll need some photolitho metal pads for contacting your probe, or even just some markers and labels to see your devices. Think about how the ebeam pattern is going to interface the photolitho patterns, and how are you going to find them in the maskless or mask aligners.</p>
-
-<p>Think about the locations and clearance for your chip. How are you going to mount your chip on the sample holder, how big is the shadow from the clamp on the holder, what is the orientation of your device and your chip in the design, and in the ebeam tool.</p>
-
-<p>Think about how is the beam and the stage are going to move on your chip to write your patterns or devices, how the writefield is going to be arranged on your patterns. Avoid unnecessary crossing of sensitive structures over the writefield boundaries. If you cannot avoid it, think about how to make the adjacent writefields also adjacent in time during the exposure, e.g., how is the writefield order, meander x or y, or floating, or manually assigned. If the writefield is fixed on a grid, is your device on the same grid or interger multiple of it? This is a iterative process with the fracturing, as well as actually finish the layer and check the structures. Think about it more in advance could probably save you a few runs.</p>
-
-<h2 id="fracturing">Fracturing</h2>
-
-<p>About fracturing, you should really check out GenISys’s own <a href="https://www.genisys-gmbh.com/webinar-series-beamer-training.html">BEAMER training</a> materials, there are way more details there. BEAMER could also do booleans, transforms, arrays, assign dose factors etc. These are relatively straight forward and won’t be covered here, just go play.</p>
-
-<p>In short, fracturing is breaking your pattern into more primitive shapes that the ebeam tool would be more readily fill them with shots. And then arrange these fractured patterns into writefields, and tell the ebeam tool where are the writefields, and which field to write first.</p>
-
-<p>Since there are plenty of training materials out there, I figure I’d mention stuff that is harder to encounter but very handy</p>
-<ul>
-  <li>The extract node actually has many features, the most often used one is extract by layer, but you could also extract by cell, extract certain region etc. Very useful when you figure out you need to hack something but do not have time to rerun your cad script to generate a new DXF or GDSII.</li>
-  <li>There are many ways to change the dose (dose factor), and they could stack properly. For example, you could have a PEC (proximity effect correction), and then dose sweep that whole PEC pattern.</li>
-  <li>There are many ways to change the writefield arrangement, as well as the write order within a writefield. Make sure you play with them and see the result in beamer if it’s relevant for your pattern. The extreme case for this is, you could even breakup a single device into multiple layers, and manually assign the order to be following the layers.</li>
-  <li>There are also ways you could play with how writefields are stitched together: overlapping &amp; sharing the dose, interleaving etc.</li>
-  <li>Be careful with the dose for <a href="https://www.genisys-gmbh.com/multipass-techniques.html">multipass</a>. The tool does not know if you are doing multipass or not (at least not yet), and you have to take care of reducing it.</li>
-  <li>Be clear about the origin of your pattern. It is the leading cause of a failed aligned beamwrite.</li>
-  <li>You could have multiple import and multiple export nodes, handy for  merging multiple designs and playing with different final fracturing settings.</li>
-  <li>ALWAYS CHECK THE FINAL OUTPUT/EXPORT. I have many horror stories of some wrong settings messing up a beamwrite that could be caught by checking the output in beamer, such as not selecting the layer for manual writefield, and that layer (usually squares that enclose patterns you want to keep within a single writefield) got exposed by the beam, overwritting the actual patterns.</li>
-</ul>
-
-<p>I feel like there are plenty more. I’ll add to this list over time when things occur to me or if you have stuff to add, let me know.</p>
-
-<h3 id="proximity-effect-correction-pec">Proximity effect correction (PEC)</h3>
-
-<p>(See also GenISys <a href="https://www.genisys-gmbh.com/part-2-dose-pec-algorithm-and-parameter.html">Part 2 – Dose PEC Algorithm and Parameter</a>)</p>
-
-<p>When the electron shoots into the resist, it scatters around multiple times, and effectively giving a volumetric distribution of dose. This distribution is called the point spread function (PSF), and it blurs out the pattern you are trying to expose. Proximity effect correction (PEC) is the attempt to correct this effect.</p>
-
-<p><img src="/assets/images/2024/tracer-bild2-2.png" alt="tracer-bild2-2.png" />
-<em>Simulation of the scattering path of electrons.</em></p>
-
-<p>I used to not be a believer in PEC, but I still do it manually almost every beamwrite, assigning a lower dose factor to larger areas. At some point the types of different manual dose just became too much work, I tried it, and realized I did not appreciate the basis of how it works. How I convinced myself that PEC could work is because the resist development is a nonlinear process:</p>
-<ul>
-  <li>If the development is linear, then there is no way to have a single shot that is missing in a big exposed area to be resolved. You will always get resist strength or thickness that represents the dose after getting smoothed by the PSF.</li>
-  <li>If the development is extremely nonlinear (resist thickness jump from 0 to max at the threshold dose), then you could slowly decrease the dose, such that the threshold  is at the edge of the missing single shot, and such an amazing resist would make such crazy feature possible</li>
-  <li>In reality, the effectiveness of PEC is somewhere in between these two extreme scenarios. You will be able to clear finer patterns that would otherwise be imppossible without PEC, but it also has limits, and that depends on how accurate the PSF, and how good the resist and its development is etc.</li>
-</ul>
-
-<p>A few comments:</p>
-<ul>
-  <li>I only have experience with dose PEC, but <a href="https://www.genisys-gmbh.com/shape-pec.html">shape PEC</a> exists</li>
-  <li>The PSF usually have two length scales, and PEC usually only attempt to correct the long range one (backscatter, mostly sensitive to accel. voltage and substrate material). The short range one would take much more compute to “de-convolute” it</li>
-  <li>Whenever you change the PEC parameters, you’ll likely need a dose sweep. Scaling the PEC doses such that the big area end up having the same dose as before is a good starting point.</li>
-</ul>
-
-<h2 id="ebeam-resist">Ebeam resist</h2>
-
-<p>My first exposure of ebeam resist is with <a href="https://en.wikipedia.org/wiki/Methyl_methacrylate">MMA</a>/<a href="https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)">PMMA</a> double layer for Josephson junctions (JJ) (<a href="https://en.wikipedia.org/wiki/Niemeyer%E2%80%93Dolan_technique">Dolan bridge</a>). It was such a long time ago and I did not have much “cleanroom consciousness” on what was important and what needed improvement. Later on I happened to need to make them again.</p>
-
-<p><img src="/assets/images/2024/ebeam/JJ_20200225_D1_45deg_020.jpg" alt="JJ_20200225_D1_45deg_020.jpg" />
-<em>Here is a JJ made with MMA/PMMA Dolan bridge. You could see the aluminum from the second angled evap hit the sidewall of the lower layer resist, and left a vertical flap standing after liftoff.</em></p>
-
-<p>When I got started at Stanford cleanroom, the first process I shadowed and learnt was using <a href="https://www.allresist.com/portfolio-item/e-beam-resist-ar-p-6200-series-csar-62/">CSAR</a> to mask silicon etch on silicon-on-insulator (SOI) substrate. It was a great choice for starters, as the dose is low ($\sim 300~\text{uC/cm}^2$, exposure would be fast) and pretty robust, the development is also short (sub one minute) and pretty robust. The only annoyance is the cleaning after the plasma etch.
-You could find a lot of SEM images of pattered silicon photonics, so here I wanted to show you that you could also use CSAR for liftoff (which to be honest you could probably also find a lot of SEM of).</p>
-
-<p><img src="/assets/images/2024/ebeam/20180216_dose_11_dev_1_1.jpg" alt="20180216_dose_11_dev_1_1.jpg" />
-<em>One of the dose tests of CSAR liftoff of aluminum. The challenge here is a narrow and meandering gap between two metal electrodes. You could see the liftoff failed around the center, where the solvents really struggled to get in.</em></p>
-
-<p><img src="/assets/images/2024/ebeam/20191022_LiSa_mechanics_A_012.jpg" alt="20191022_LiSa_mechanics_A_012.jpg" />
-<em>Here you are seeing thin-film lithium niobate (darker region in top-left) on sapphire (bright charged up region in bottom right), with aluminum electrodes evaporated on top, at large angles for it to climb the steep sidewall, and lifted off with CSAR.</em></p>
-
-<p>After about half a year, I got into developing/optimizing a mask and etch process for thin-film lithium niobate. There were a lot of grinding, but the relevant part here is that together with a labmate, we started developing a recipe for HSQ (<a href="https://en.wikipedia.org/wiki/Hydrogen_silsesquioxane">Hydrogen silsesquioxane</a>) resist, or Flowable oxide (FOx) might sound more familiar to some people, or spin-on glass.</p>
-
-<p>As for ebeam liftoff, I continued working with MMA/PMMA double layer, as well as PMMA/PMMA double layer with different concentrations and thickness. I also learnt and used single layer CSAR for liftoff. It sounds impossible or challenging because it is a single layer, but the exposure actually leaves a negative sidewall, and made the liftoff possible.</p>
-
-<p>Before moving on, I’d like to put down some quick tips on stuff that is related to resist:</p>
-<ul>
-  <li>positive vs. negative: if there are more areas you would like to keep, use positive resist (exposed area gets developed away), and if you have more areas you’d like to etch, use negative resist</li>
-  <li>adhesion: use HMDS priming if you can. Use higher temperature dehydration bake if you can. Some thin metal layer like titanium could also help adhesion. O2 or ozone plasma could also help although I have not tried it personally.</li>
-  <li>discharge layer: important if your substrate is not conductive, like most dielectrics (quartz, lithium niobate, sapphire etc.). Many people like <a href="https://www.allresist.com/portfolio-item/protective-coating-ar-pc-5090-02-electra-92/">electra 92</a>, but I hated it, maybe because I was using an outdated bottle. I am a fan of 5~10 nm aluminum discharge layer. Be careful about using other metal for discharge, pick ones with low melting point. I’ve had 5 nm titanium discharge layer cross-linked top of resist because it was too hot. If your pattern does not involve alignment and does not span across multiple writefield, you might get away with no discharge layer.
-    <ul>
-      <li>remove the discharge layer: I remember electra you could remove with water? Please fact check me. Be wary that water plus IPA could unintentionally develop some resist. For aluminum, it gets etched in MF319 or MF26A. You could also use acids if you are a maniac.</li>
-    </ul>
-  </li>
-  <li>selectivity: Not sure what I want to say here. If this is a problem, consider thicker resist, harder resist (like HSQ), or methods that could harden it after the development, like a hard bake, or curing it with higher dose ebeam (e.g., <a href="https://doi.org/10.1116/1.2395949">Enhancing etch resistance of hydrogen silsesquioxane via postdevelop electron curing</a>, it’s a rare scene to see dose of 100 mC/cm\(^2\)).</li>
-  <li>liftoff: 80 C NMP (Remover PG) is very common and effective. Sometimes long overnight soak at room temperature could also help. Sonication definitely helps until it starts breaking your structures of delaminating the metal. Making sure you have the proper resist sidewall angle (if using single layer liftoff) or enough undercut is the best and most important factor for a successful liftoff. In terms of design, anything that helps with the access of the solvents to go underneath the gaps you are trying to liftoff would help the liftoff.</li>
-</ul>
-
-<h3 id="dose-and-dose-sweep">Dose and dose sweep</h3>
-
-<p>I was thinking about whether to skip this section. Maybe just a few comments</p>
-<ul>
-  <li>When do you need a dose sweep? Including but not limited to: when you have changed your substrate, changed your resist thickness, changed the beam voltage, changed to a new bottle of resist, when you haven’t been in the cleanroom for a couple of months, or when the ebeam tool just had a major maintenance, and when your pattern esp. pattern density has changed a lot (except if you are doing PEC and have faith in your PSF).</li>
-  <li>How much should you sweep? +- 20% should be plenty. If it is a new resist for you, it is good to do a larger range to know the absolute limits.</li>
-  <li>Put down labels next to your dose sweep patterns. Do not believe in your memory, you will not remember which pattern got which dose. Make sure you could see the labels and dose sweep patterns in both optical and scanning electron microscope (e.g. if your dose sweep pattern is tiny, you’ll struggle to locate it under SEM. Put down some big labels and use a big beam to expose the labels).</li>
-</ul>
-
-<h2 id="mounting">Mounting</h2>
-
-<p>Mounting the chip has very similar concern as for wirebonding, if you have read that post. But everything is more tight. There are pretty much three factors: no chip moving around during the exposure, rotation or tilt needs to be small, and it has to discharge properly</p>
-<ul>
-  <li>No moving around: do a shake test after you’ve done mounting the chip. It does not need to be crazy, the EBL is not doing 10*g like commercial EUVs, but the stage will be accelerating. This is more important when you have multiple chips on the same holder or even held using the same clamp. Avoid this if you can, but sometimes you just have more chips than the holders there are.</li>
-  <li>Tilt: make sure the top and bottom surface is clean before you put it on the holder. If a dirt is visible, it is going to be at least a few tens of microns. If you got resist on the back of the chip, try scratch the majority off, and then wipe with acetone and IPA. If you have time, redo the spin coat and use a better vacuum chuck. In general, a height variation on the order of ~10 um across ~10 mm is good.
-    <ul>
-      <li>The EBPG holder let’s you have full control over tilt, height and rotation of your chip, so you do not need to worry as much about dirt or resist, but it does make the loading significantly more time consuming than the JEOL, and longer if you start with some poor tilt and rotation</li>
-    </ul>
-  </li>
-  <li>Rotation: the default threshold on EBPG is 0.3 deg if I remember correctly. And if you are using automatic alignment mark detection, the alignment mark should at least fit in the writefield/search window, and you should calculate how many degree is that from the window size and separation of your alignment marks.
-    <ul>
-      <li>When your pattern is cursed, or if you are trying to align to a previous layer that is very off (say a few degrees) from the edge of the chip, you might want to compensate it when mounting the chip. The rotation the EBPG holder is allowed to do is limited. JEOL instead you could rotate as much as you want, at the cost of no fine control of the rotation, and you really need good hand to do if right. I’d show off to people when I got the JEOL holder rotation right the first try.</li>
-    </ul>
-  </li>
-  <li>Discharge: if your substrate is insulating, you need to think a bit more about this, make sure the clamp is in contact with the discharge layer, especially when it is evaporated metal and could be missing at some edges because of the shadow of the clamps of the ebeam evaporation holder.</li>
-</ul>
-
-<p>Also let’s just look at the holders and try to understand how they hold your chip and how you adjust them.</p>
-
-<p><img src="/assets/images/2024/ebeam/JEOL_holder_image1.png" alt="JEOL_holder_image1.png" />
-<img src="/assets/images/2024/ebeam/JEOL_holder_image5.png" alt="JEOL_holder_image5.png" /></p>
-<ul>
-  <li>These are the JEOL cassette and holders. The calibration sample is not on the cassette, I’m actually not sure where that is.</li>
-  <li>It is a front-referenced holder. The copper slots are made such that the bottom of its outer rim where it mates with the cassette, is at the same height as the bottom of its inner slot, where the top of your chip will be pushed against from below it. As a result, the surface of your chip is guaranteed to be at the same height as the top surface of the cassette.</li>
-  <li>The chip is then secured by aluminum plates (backplates? not sure about their formal name) with copper springs that locks into grooves of the copper holder, So it pushes the chip upward against the copper slot. Be careful when you press down and rotate the copper spring, as the aluminum plate is only balanced on the back of your chips. And do it slowly to avoid rotating the aluminum plate which will rotate your chips out of the slot (and they’ll drop upside down on the table, or through the hole on the floor if you are unlucky).</li>
-  <li>The copper holders can rotate freely, so you could expose your chip at any angle you like. The copper holder is secured by two clamps. Always check all the holders have their clamps tightened. You never know.</li>
-  <li>You can load multiple chips into the same slot, and if you do, you better check that their top and bottom surfaces are clean so that they’d be held secure at the same time. Always do a shake test before you send the cassette in.</li>
-  <li>If you are doing aligned beamwrite on multiple chips, they’ll need to be in separate holders because they’ll need separate rotation correction, unless you got gold hand to load them into the slot with less than 0.3 degree rotation alignment.</li>
-</ul>
-
-<p>Here is the EBPG cassette and holders, from <a href="https://wiki.nano.upenn.edu/wiki/images/0/0a/EBPG5200%2B_SOP.pdf">UPenn EBPG5200 SOP</a>:
-<img src="/assets/images/2024/ebeam/EBPG_holder_image1.png" alt="EBPG_holder" /></p>
-<ul>
-  <li>The EBPG cassette looks similar to the JEOL’s at a glance, but it is totally different</li>
-  <li>The reference/calibration chip is on the holder, and mounted in a very mindful place, protruding out of the holder, so that you’ll bump into and crack it, and they could sell you more.</li>
-  <li>It is back-referenced. You will need to adjust the tilt and height of the individual holders to make the top surface of your chip aligned and parallel to the reference/calibration chip and the surface of the cassette. If the user before you had very different chip thickness, good luck you got a lot of screws to turn.</li>
-  <li>The tilt adjustment is done similar to a kinematic mount if you are coming from optics background. It is pushed up against three set screws, the tips of which determines the plane of the holder surface. HOWEVER it is also secured or locked by the table lock release levers, by friction, so you always need to remember to release them whenever you are about to measure the height, or after you adjusted the screws. And the friction is not strong enough to hold much downward force, so you could easily push the holder down and away from the screws, and it would still be locked by the levels. When in doubt, always release the levers.</li>
-  <li>The rotation correction is done by the adjustment screw on the left and right sides of the holder. The gear ratio is pretty high, at least 10x from eyeballing, so fine rotation adjustment is much easier than on the JEOL holder. It even got a hole on the side for you to stick a lever in to adjust it. However, if your rotation correction is more than ~5 degrees or so, it will be out of range for the adjustment lever to fit in without running into the outer rim of the cassette, brilliant mechanical design. It is still possible to manually rotate the holder by hand instead of using the adjustment screw, it’s just much harder to get it right. And you are likely doing this under the alignment microscope. Make sure you check that the cassette is still in place on the alignment stage after you manually rotated the holder.</li>
-</ul>
-
-<p>A few minor and common things and comments</p>
-<ul>
-  <li>Make sure your pattern won’t overlap with the clamps or slots, as well as the clamp won’t shadow your pattern or alignment marks. Even when the alignment marks are not under but close to the edge of the clamp, you might see some drift when you are imaging the marker with the ebeam.</li>
-  <li>Be careful with the holders and screws as they are expensive.</li>
-</ul>
-
-<p>Here is how expensive they are:
-<img src="/assets/images/2024/ebeam/JEOL_holder_cost.jfif" alt="JEOL holder cost" />
-<em>A photo I took at Stanford SNC, summer 2016</em>
-<img src="/assets/images/2024/ebeam/EBPG_holder_cost.PNG" alt="EBPG holder cost" />
-<em>From <a href="https://bpb-us-w2.wpmucdn.com/sites.udel.edu/dist/9/3681/files/2016/11/EBPG5200_Operating-Procedure_03.pdf">UD NanoFab EBPG5200 SoP</a></em></p>
-
-<h2 id="locating">Locating</h2>
-
-<p>Ok you have mounted your chip, now how do you find your chip and alignment mark, and how do you know where to put your pattern? It is the same as how you find your home, you need the country, state, city, and street address. What you are used to is a city map, that is your CAD, and you know the street address (local coordinates or your CAD coordinates) of your devices and alignment marks. Locating stuff in the tool is just converting the street address to latitude and longitude. You find where the (0, 0) of your city map is on latitude and longitude, and then add the relative coordinates.</p>
-<ul>
-  <li>The details are going to be different for different tools, but the idea is the same. You’ll either need to know where is the (0, 0) of the global/cassette coordinates, or have something safe to look at both outside and inside the tool, let’s call this location A. On the JEOL, we usually use the top left corner of the chip as A, which we measure its coordinates using an optical microscope, as well as the center of the chip (by finding one or more corners of the chip), and then you know the relative address of the chip with respect to A. Once you find the coordinates of A inside the tool with the ebeam, you know where your chip is. For JEOL, this coordinate of the center of your chip would be the <code class="language-plaintext highlighter-rouge">offset</code> parameter that goes into the <code class="language-plaintext highlighter-rouge">SDF</code> file.</li>
-  <li>For EBPG, you spoiled kids might have the alignment microscope, which directly tells you the global coordinates of wherever you are looking at, and it will be very close to the actual coordinates in the tool. So you do not need a reference location A, just go find corners of your chip and then calculate its center coordinates.</li>
-  <li>Be careful with the orientation of the cassette and the direction of the axis. E.g., for our JEOL alignment optical microscope, you have to put the cassette upside down onto a stage with glass window, and that flips the y axis of the cassette. For EBPG alignment microscope, the cassette is rotated 90 degree (I actually no longer remember this, fact check it yourself.). For both JEOL and EBPG, the global coodrinates have positive y pointing downward, which is different from common sense but gets rid of minus signes when the top left of the cassette is chosen to be global (0, 0).</li>
-  <li>For aligned beamwrite, now you need to tell the tool where the alignment markers are, in the global coordinates. So saome procedure, except, instead of finding the center of the chip, you find one of your global marks.</li>
-  <li>The optical microscope and the ebeam will always have some misalignment, and the further away your chip is from the reference chip, the larger it will be. I always check for the first one or two global marks for automatic alignment, to make sure the marker is visible, and the auto-align will run properly.</li>
-</ul>
-
-<p>Anyway, the above all sound complicated and unnecessary, but all you are doing is just measuring and adding a bunch of vectors, and at most three layer of them. Should be totally manageable when you start tracking them with a spreadsheet and build up a picture in your head about how they add up from the global (0, 0) or the reference point you choose, to the location (e.g. chip center) or feature (e.g. the first global mark) you are looking for.</p>
-
-<h2 id="alignment">Alignment</h2>
-
-<p>This is the fun part. This is probably the most fun and satisfying part of the beamwrite. Actually watching the ongoing exposure showing up on the SEM window is the most satisfying part (can’t believe Raith 150-2 or voyager does not show that to you). But watching the automatic marker detection on both JEOL and EBPG are fun in different ways. The JEOL one makes you feel like a radar operator, and the EBPG one feels like firing a shotgun lol.</p>
-
-<p>Why do we need alignment? It’s because you crazy people want to put down another layer of pattern that is within ~10 nm from one existing layer. And the existing layer could be off with some translation, rotation, and even stretched or sheared a bit. The way to tell the ebeam tool how your existing pattern is transformed, is to let the beam finds the actual location of a few markers, and compare them to the location in the cad (where they are supposed to be), and the tool will calculate how to shoot the second layer with the same transformation, that it will align with the first layer.</p>
-
-<p>Ok now you know what the markers are for, how do you choose the size, shape and location of your markers?</p>
-<ul>
-  <li>Think about if you also want to use the marker for photolitho alignment, a nested marker might help with that.</li>
-  <li>Learn what the tool allows, e.g. JEOL prefers crosshair style, and EBPG prefers a square. I remember recently (as of Oct. 2024) seeing EBPG will support more marker types soon (or already).</li>
-  <li>Learn what locations the tool prefer, such as JEOL only accept PQRS style global markers at north, south, west and east of your chip, and M1, M2, M3, M4 style markers for chip marks (at four corners of a rectangle), and EBPG is four corners of a rectangle for both global marks and pattern marks.</li>
-  <li>Try if you could use only three or two markers. One day you will have one marker missing or not usable for various reasons, and you’d still want to align to that chip instead of starting over from the previous layer.</li>
-</ul>
-
-<p>Now you got markers on the chip, how to let the tool finds them automatically?</p>
-<ul>
-  <li>For manual alignment, it is much more straight forward, just tell the tool where the markers are (in the <code class="language-plaintext highlighter-rouge">jdf</code> or <code class="language-plaintext highlighter-rouge">sdf</code> I no longer remember which one, or in the <code class="language-plaintext highlighter-rouge">cjob</code> for EBPG, either global marks or chip/pattern marks should work).</li>
-  <li>For JEOL, you need someone to guide you through the magic spells like <code class="language-plaintext highlighter-rouge">MDRG</code>, <code class="language-plaintext highlighter-rouge">SETWFR</code>, <code class="language-plaintext highlighter-rouge">CHIPAL</code>, or dig into the manual, or play on the tool when you are waiting for the LL is pumping down. Going into these details are too much for here. They are really not that hard to figure out. It is a logical process
-    <ol>
-      <li>First adjust the scan parameters just like how you’d optimize the beam for a nice SEM image, gain (contrast) and offset (brightness) to get good SNR of a line scan on the arm of your marker. As well as where to scan on the arm (from the center of the crosshair) and width of the scan</li>
-      <li>Then you test the scan in <code class="language-plaintext highlighter-rouge">MDRG</code> as well as playing with number of scans, averages, do you want multiple scans on the same arm, how much spacing should they have etc. <code class="language-plaintext highlighter-rouge">CHIPAL</code> is the subprogram for the chip mark detection.</li>
-      <li>Then the <code class="language-plaintext highlighter-rouge">SETWFR</code> is for automatic detection of the global marks, where you could have a coarse scan first to look for the mark, and then a fine scan to get a more precise coordinates of it.</li>
-    </ol>
-  </li>
-  <li>For EBPG, it is simpler or I have not dig into it as much as on JEOL. You pretty much only need the size and whether your mark is positive or negative, and then add it in your <code class="language-plaintext highlighter-rouge">cjob</code>.
-    <ul>
-      <li>If you want manual marker detection because somehow the automatic did not work, use <code class="language-plaintext highlighter-rouge">JOY</code> type for the markers.</li>
-    </ul>
-  </li>
-</ul>
-
-<p>A few comments before moving on</p>
-<ul>
-  <li>If you are putting down markers, it’s good to also give them labels. Sometimes you just can’t help but doubt yourself, am I on the correct marker?</li>
-  <li>Put down multiple sets of markers. Sometimes you’ll just forget the marker would get exposed and damaged or destroyed in the following process. Sometimes some of them just did not come out properly from the previous process.</li>
-  <li>Use larger marker for global alignment. Always easier to find larger markers, and then let the tool fine tune on the smaller chip or pattern markers</li>
-  <li>By the way chip markers and pattern markers are the same thing, it is just JEOL calls them chip markers and EBPG calls them pattern markers</li>
-</ul>
-
-<h2 id="calibrations">Calibrations</h2>
-
-<p>I already mentioned some of the calibrations in the section on ebeam specs. Maybe I’ll just continue that discussion.</p>
-
-<p>There are mainly the following states that need to be good</p>
-<ul>
-  <li>properties of the beam: current/dose, size/focus, and position
-    <ul>
-      <li>current: measured by the Faraday cup. If the tool is dumb like Raith voyager, you’d need to remember to manually ask the tool to automatically calculate the dwell time for your target dose</li>
-      <li>size/focus: this will be covered in the calibration section. In short, it scans the beam off a marker or a sharp edge, and optimize the sharpness of the scan signal</li>
-      <li>position: also more in the calibration section. The tool points the beam to existing markers, use the beam to find the marker position, and thus correcting where the beam is pointing.</li>
-    </ul>
-  </li>
-  <li>position of the stage: measured with <a href="https://www.ligo.caltech.edu/page/what-is-interferometer">laser inteferometers</a>.</li>
-  <li>relative position between the stage and the beam: this is also called writefield stitching: the tool will move around the stage, and thus moving around a marker. The beam will then point around accordingly and look for the same marker, This links the position of where the stage is going and where the beam is going.</li>
-</ul>
-
-<p>I know better how JEOL does it, so I’ll explain the JEOL calibration process in a bit more detail, and what you should pay attention to and adjust if needed.</p>
-
-<ol>
-  <li>Beam focus: the beam will doa  line scan across a sharp edge, along both x and y direction, and stepping the focus.
-    <ul>
-      <li>You will see it outputs a table with rows being different focusing depth, and in the columns the measured beam size along x and y, and the overall beam size. For a reasonable beam, the optimal should be somewhere around the middle of all the rows since it intentionally starts above and finish below the optimal focus (or the other way around). If the optimal is near the top or bottom, that means it was very off before the calibration.</li>
-      <li>If the beam size is larger than usual, it is usually because that sharp edge is getting scanned too much and getting dirty. You could (but usually not recommended) move the scanning position a bit (~100 nm) to a fresh spot.</li>
-    </ul>
-  </li>
-  <li>Beam deflection: the beam gets deflected towards a few different markers on a calibration sample with known coordinates, and line scans across their arms to find the coordinates.
-<img src="/assets/images/2024/ebeam/20200615_LNSOI11/image67.jpg" alt="jeol_alignment_scan" />
-    <ul>
-      <li>This is how the scans look like. The first row includes raw signal of the x and y line scan. If you see flat lines with no noise, that means the signal is saturated, and the scan parameters need adjustment</li>
-      <li>The second row is the derivative of the first row, with some smoothing</li>
-      <li>No one (I do not) knows what the third row is. Likely some correlation stuff.</li>
-      <li>The middle inset shows where the beam is deflecting within the writefield</li>
-      <li>After this, the tool knows how to deflect the beam properly to hit a given coordinate</li>
-    </ul>
-  </li>
-  <li>Writefield alignment: very similar to the beam deflection calibration, but now the stage also moves
-    <ul>
-      <li>You could watch the stage coordinates, as well as the middle inset. The beam will also look up, down, left, and right, and line scan to find the marker, but the stage will also move at the same time, so that the beam is looking at the same marker four times.</li>
-      <li>After this, the tool knows where or how much to send the stage to a given coordinate</li>
-    </ul>
-  </li>
-</ol>
-
-<p>Now the tool is calibrated, you have prepared your job (oops skipped this part, honestly not much else if you could find where to put your pattern, and where to find your alignment marks). It is time to send it, and watch some fresh errors you have never seen before!</p>
-
-<h2 id="common-errors">Common errors</h2>
-
-<p>I’m just going to make a list of stuff I could immediately think of</p>
-<ul>
-  <li>Exceed the DAC rate: EBPG should be able to catch this when you import your <code class="language-plaintext highlighter-rouge">GPF</code> file in the <code class="language-plaintext highlighter-rouge">cjob</code>. For JEOL you would need to run the <code class="language-plaintext highlighter-rouge">schd</code> on your <code class="language-plaintext highlighter-rouge">jdf</code> and <code class="language-plaintext highlighter-rouge">sdf</code> to let it check.</li>
-  <li>Height detection error: the tool use an LED at near-grazing angle onto the chip, and bounce it off onto a CCD to detect the height of the chip. It might miss the chip, or hit the clamp, or maybe your chip is transparent. Try shrink the size of your chip in the job file. Try paint the backside of your chip with sharpie (I’ve never done it myself), or disable the height check and go with the flow lol (esp. if you know that the pattern you are exposing is not critical).</li>
-  <li>Can’t measure height at the marker: the chip might be too dirty near the marker, or the marker might be too close to the clamp or edge of the chip. Try unload, shift the chip a bit, and re-align and reload (if you have time). More likely you’ll just skip this bad marker</li>
-  <li>Rotation angle is too big: if it is just a bit above the threshold the tool usually allow, AND you are sure if found the correct marker, you could adjust the threshold. There is a good chance it found the wrong marker, e.g., the one from a different set of markers. Double check with your own eyes on the SEM. If you just did a horrible job mounting the chip, take it out and redo it.</li>
-  <li>The most sacry errors are errors that do not show up as errors on the tool, including but not limited to:
-    <ul>
-      <li>You messed up the extent or center of your pattern: if everything is smooth untill you developed the resist and found out everything is nicely off by a huge but same amount, it is likely the extent or center of your pattern got messed up during fracturing</li>
-      <li>You made a typo in the center/offset for the pattern, or which holder to expose: non-zero probability this could happen especially for no alignment. Watch where the beam is on the cassette after you start the exposure</li>
-      <li>You did not check the final output of the fracturing and messed up the layers, or the writefield path: you should always keep an eye on the pattern that is being exposed in the SEM window, at least for the beginning. You should know how it should look like, and notice if there is anything going wrong.</li>
-    </ul>
-  </li>
-</ul>
-
-<p>Ok you’ve really been through a lot at this point, it is time to sit back, watch the beam going around in the SEM window, and relax a bit. When your exposure is ~ 5 min left, get your lazy ass off the chair and start preparing for the development. Good luck!</p>
-
-<h1 id="acknowledgements">Acknowledgements</h1>
-
-<p>As I have been boasting about my ebeam litho experience this whole section, I also would like to mention where I got all these knowledge so that I still sound like a reasonable human being and thus you would still be happy to continue reading. My lab manager/advisor at Tsinghua IIIS helped me start my cleanroom experience with nearly infinite patience. And as mentioned above, I really appreciate that he insisted on making us operate every single valve, shutter, and setpoints manually, immensely helped me with understanding of the working principles of various cleanroom tools and components. During my time at Stanford, many many senior lab members and cleanroom staff guided me and answered many questions from me, as well as worked on documentations of the existing process and for the cleanroom tools.</p>
-
-<p>Lastly, I would like to say that even with all these years of experience, I am no where near of being an expert on ebeam tool or ebeam lithography. Although I routinely do things that normal users would be afraid to do or never thought of doing (which I enjoy a lot), my experience and knowledge would pale in comparison to the amount the field engineers or ebeam engineers have. They have been working with these tools for their whole career, and only if they were more active in perserving their knowledge… If your facility has an ebeam engineer that is talkative and senior, talk to them! Ask them to share their knowledge!</p>
-
-<h1 id="references">References</h1>
-
-<h2 id="lab-resources">Lab resources</h2>
-<ol>
-  <li>Caltech KNI lab: <a href="https://lab.kni.caltech.edu/EBPG_5000%2B:_100_kV_Electron_Beam_Lithography">EBPG 5000+: 100 kV Electron Beam Lithography</a></li>
-  <li>Stanford <a href="https://drive.google.com/file/d/1QefNaVA8mRoXeRkXaiWEuVK5TIaO3ECp/view">EBL Practical Guide</a> (<a href="/assets/doc/2024/EBL Practical Guide-Feb 2024.pdf">backup</a>)</li>
-  <li>BEAMER training from GenISys: <a href="https://www.genisys-gmbh.com/webinar-series-beamer-training.html">Webinar Series - BEAMER Training</a></li>
-  <li>Yale Institute for Nanoscience and Quantum Engineering: <a href="https://nano.yale.edu/electron-beam-lithography-training">Electron-Beam Lithography Training</a>.</li>
-  <li>The University of Manchester: <a href="https://research.manchester.ac.uk/en/equipments/raith-ebpg5200-100kv-e-beam-lithography-system-aka-vistec">Raith: EBPG5200 100kV e-Beam Lithography System (aka Vistec)</a></li>
-  <li><a href="https://wiki.nano.upenn.edu/wiki/images/0/0a/EBPG5200%2B_SOP.pdf">UPenn EBPG5200 SOP</a></li>
-  <li>University of Delaware Nanofab <a href="https://bpb-us-w2.wpmucdn.com/sites.udel.edu/dist/9/3681/files/2016/11/EBPG5200_Operating-Procedure_03.pdf">EBPG5200 SOP</a></li>
-</ol>
-
-<h2 id="training-videos">Training videos</h2>
-<ol>
-  <li><a href="https://www.youtube.com/watch?v=q8h5xYJX-_U">JEOL JBX-9300FS EBL (1 of 2) - training video (Georgia Tech - Microelectronics Research Center)</a></li>
-  <li><a href="https://www.youtube.com/watch?v=SQhP-k8iYWM">JEOL JBX-9300FS EBL (2 of 2) - training video (Georgia Tech - Microelectronics Research Center)</a></li>
-</ol>
-
-<h2 id="papers-and-books">Papers and books</h2>
-<ol>
-  <li>Altissimo, Matteo. “E-beam lithography for micro-/nanofabrication.” Biomicrofluidics 4.2 (2010). <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2917861/">link</a></li>
-  <li>Chen, Yifang. “Nanofabrication by electron beam lithography and its applications: A review.” Microelectronic Engineering 135 (2015): 57-72. <a href="https://www.sciencedirect.com/science/article/abs/pii/S016793171500101X?via%3Dihub">link</a></li>
-  <li>Gilmour Jr, Alexander S., and A. S. Gilmour. Klystrons, traveling wave tubes, magnetrons, crossed-field amplifiers, and gyrotrons. Artech House, 2011.</li>
-  <li>Rai-Choudhury, Prosenjit. Handbook of microlithography, micromachining, and microfabrication: microlithography. Vol. 39. SPIE press, 1997.</li>
-  <li>Pfeiffer, Hans C. “Direct write electron beam lithography: a historical overview.” Photomask Technology 2010. Vol. 7823. SPIE, 2010.</li>
-</ol>
-
-<h1 id="appendix-my-ebeam-lithography-journey">Appendix: my ebeam lithography journey</h1>
-
-<p>I will use this section to quickly go through the ebeam tool I have used in the past, and the things I like and hate the most about them. With SEMs of devices made with these tools! (so that you don’t fall asleep) I will also look back at what different aspects of ebeam litho I focused on during different periods of time, as well as resists and chip/substrates I have used. These are the stuff I have the most experience on and could speak about.</p>
-
-<h2 id="tools">Tools</h2>
-
-<h3 id="raith-150-two-2015---2017">Raith 150 Two (2015 - 2017)</h3>
-<ul>
-  <li>Why is the GUI completely frozen when the sample plate is loading or unloading? Why can’t I check my patterns or configure the beam/column parameters?</li>
-  <li>Why is there a joystick? Some people might like it but I absolutely do not want to accidentally bumped into it. Disabling the x and y channel on the joystick is the first thing I do when I got to the tool.</li>
-  <li>I am struggling to come up with a good thing about it. Maybe the lower beam voltage is good for not damaging 2D materials? The holder sucks (the one that literally works like a clipboard, I always worry about my chip being tilted..), the focusing sucks (you have to apply gold nanoparticles or make a scratch on your chip), queuing up the schedule/job sucks, the GUI and toolbar are so stacked and not intuitive… I should stop here.</li>
-</ul>
-
-<p><img src="/assets/images/2024/graphene_quantum_dot.jpeg" alt="graphene_quantum_dot.jpeg" />
-<em>A graphene quantum dot with gate electrodes defined by ebeam litho with Raith 150 Two. The scalebar in (b) is 500 nm. <a href="https://pubs.acs.org/doi/full/10.1021/acs.nanolett.6b02522">paper</a></em></p>
-
-<h3 id="jeol-jbx-6300fs-2017---2022">JEOL JBX 6300FS (2017 - 2022)</h3>
-<ul>
-  <li>It is perfect, please do not change.</li>
-  <li>Hmm maybe make it easier to copy the log message from the GUI. Maybe this is partly because of the linux system, it took me a while to figure out I have to triple click to “select-all, and then drag-drop while holding the SCROLLING WHEEL to copy the log messages out.</li>
-  <li>It has one of the best loadlock / loading arm in the whole cleanroom. The cassette/holder is also front referenced, there is no need to tune the tilt and height of your chip. God I love the JEOL.</li>
-  <li>Writefield for low current beam is small though, 62.5 um. Why is it 62.5 um? Because it is 1000 um divided by \(2^4\).</li>
-</ul>
-
-<p><img src="/assets/images/2024/LN_OMC_SEM.png" alt="LN_OMC_SEM.png" />
-<em>A thin-film lithium niobate (LN) optomechanical crystal, where etching of the LN is masked by ebeam litho resist mask, and the aluminum is also lifted off with ebeam resist. Minimum dimension is 10 nm! (iirc) <a href="https://opg.optica.org/optica/fulltext.cfm?uri=optica-6-7-845&amp;id=414988">paper</a></em></p>
-
-<p><img src="/assets/images/2024/LNSOI_SEM.png" alt="LNSOI_SEM.png" />
-<em>Another thin-film LN device, this time on silicon-on-insulator (SOI). Colored by my labmate and friend Felix, purple sausage is LN, and silicon is green. <a href="https://www.nature.com/articles/s41567-023-02129-w">paper</a></em></p>
-
-<h3 id="raith-voyager-2022---2023">Raith Voyager (2022 - 2023)</h3>
-<ul>
-  <li>Same complains as Raith 150 Two. Very similar in terms of user experience.</li>
-  <li>Maybe the max writefield got larger?</li>
-</ul>
-
-<h3 id="ebpg-5200-2023---2024">EBPG 5200+ (2023 - 2024)</h3>
-<ul>
-  <li>Looks like a JEOL, GUI is as responsive. Easy to schedule and queue jobs.</li>
-  <li>The exposure time estimation is great!</li>
-  <li>Unfortunately the cassette/holder is back referenced. You need to fix the tilt and thickness of your chip. The alignment microscope is also smart and dumb at the same time. It is smart in the wrong way that disabled the user’s ability to think.</li>
-</ul>
-
-<p>[SEM redacted]</p>
-
-<p><em>Hopefully one day I’ll be able to talk about devices I made with colleagues during this period of time. They look absolutely stunning and insane…</em></p>
-
-<h2 id="ebeam-sessions">Ebeam sessions</h2>
-
-<p>I’m surprisingly organized enough to have spreadsheet to keep track of all my beamwrites (a very rare case, pbb because the tool is just too expensive to not be organized about it). The total number of sessions turns out to be ~ 420 total. This is too many… I should have moved on sooner.</p>
-<ul>
-  <li>2023 - 2024: 60?  Played with proximity effect correction a lot during this time.</li>
-  <li>2021 - 2022: 109. Started and perfected automatic mark detection and alignment on JEOL.</li>
-  <li>2019 - 2021: 92 (damn covid). Mainly grinding other fab process during this time. Explored with discharge layers when working with insulating substrate like sapphire.</li>
-  <li>2017 - 2018: 162. Developing a certain fab process with a labmate, was doing beamwrite almost every week, sometimes more than once a week.</li>
-  <li>pre 2017: sporadic. This was the graphene quantum dot period of my career. I did not know much about what is going on in the fab, but got a lot of operation-from-first-principle kind of experience since my lab manager does not trust automation, and want us to operate as manually as possible. It was a blessing in disguise.</li>
-</ul>
-
-<p>I have been talking about the spreadsheets for logging the beamwrite sessions. I should actually show you guys a screenshot of one. These are the parameters (most of them) I keep track of every single beamwrite, and hopefully you will have a much better idea what they are when you keep reading more.</p>
-
-<p><img src="/assets/images/2024/beamwrite_log_sheet.png" alt="beamwrite_log_sheet.png" />
-<em>Log sheet I created for keeping track of beamwrites from me and the team. This is specifically for JEOL, but most of the parameters are relevant in general, and will make more sense as you read on.</em></p>
-
-<p>(This post is started on 2024-08-15, and finished on 2024-10-15. Last updated on 2024-10-15.)</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Lithography" /><category term="Electron" /><summary type="html"><![CDATA[The cover of this blog was the JEOL JBX 6300FS at Stanford SNSF. I love it. Here is the evolution of JEOL JBX series.]]></summary></entry></feed>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Microwave" /><category term="Nanofab" /><category term="Laser" /><category term="Light_guide" /><category term="TIA" /><category term="Preamp" /><category term="Quantum" /><category term="Packaging" /><category term="Antenna" /><category term="Stretchable" /><category term="Strain" /><category term="Stress" /><category term="LED" /><category term="MicroLED" /><category term="Electrocaloric" /><category term="Wireless_charing" /><category term="Heavy_metal" /><category term="Robotics" /><category term="Magnetics" /><category term="Quadruped_robot" /><summary type="html"><![CDATA[Microwaving grapes touching each other could generate plasma, and it still works after shrinking both the grape and the microwave by ~10000x. If you have a fs laser, you can use this effect to cut a trench that is almost 100x smaller than the laser wavelength. Nanoscale reshaping of resonant dielectric microstructures by light-driven explosions]]></summary></entry></feed>

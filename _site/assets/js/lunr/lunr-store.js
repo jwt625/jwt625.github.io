@@ -274,4 +274,10 @@ var store = [{
         "tags": ["Nanofab","Cryogenics","Coil","Magnet","Superconducting","Current","Epoxy","Vacuum"],
         "url": "/tutorial/SC-coil/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#24)",
+        "excerpt":"Fiber to chip loss is pretty good. The rate is still so low (125 MHz): A manufacturable platform for photonic quantum computing Glad to see them talking about component loss and fiber to chip loss in mdB now Alexander2024: A manufacturable platform for photonic quantum computing babe wake up new...","categories": ["OFS"],
+        "tags": ["Photonics","Quantum","NIF","Fusion","Plasma","CT","Antenna","Atom","Scattering","RCS","Laser","Superconducting_qubit","COMSOL","Google","IBM","LED","Quantum_dot","Piezo","Magnetorquer","VCSEL","Facebook"],
+        "url": "/ofs/weekly-OFS-24/",
+        "teaser": null
       }]
