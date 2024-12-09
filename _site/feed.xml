@@ -1,4 +1,245 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-04T21:01:53-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#23)</title><link href="http://localhost:4000/ofs/weekly-OFS-23/" rel="alternate" type="text/html" title="This week’s outside five sigma (#23)" /><published>2024-11-30T00:00:00-08:00</published><updated>2024-11-30T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-23</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-23/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-08T19:14:48-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">How to make a superconducting coil for few mT magnetic field at mK temperature</title><link href="http://localhost:4000/tutorial/SC-coil/" rel="alternate" type="text/html" title="How to make a superconducting coil for few mT magnetic field at mK temperature" /><published>2024-12-08T00:00:00-08:00</published><updated>2024-12-08T00:00:00-08:00</updated><id>http://localhost:4000/tutorial/SC-coil</id><content type="html" xml:base="http://localhost:4000/tutorial/SC-coil/"><![CDATA[<p>Coil is simple to make (lol maybe I’m too naive), why am I writing this and what would you be able to learn from it?</p>
+<ul>
+  <li>These coils go into high vacuum and low temperature, so not as common as typical applications</li>
+  <li>More consideration for thermalization and heating</li>
+  <li>You’ll also peek into how it’s like doing superconducting circuits and qubits a bit.</li>
+  <li>I’m writing this for fun, and for “paying my debt” of not writing as much of these in my thesis.</li>
+</ul>
+
+<p>Oh also please do your own research and run your own numbers. And read Jack Ekin’s <a href="https://academic.oup.com/book/32506">Experimental Techniques for Low-Temperature Measurements</a>.</p>
+
+<h1 id="why-would-you-want-a-coil-and-why-a-superconducting-one">Why would you want a coil, and why a superconducting one?</h1>
+
+<h2 id="why-a-coil">Why a coil?</h2>
+
+<p>Because I want a magnetic field, and a tunable one. Coils are used in many many places to generate a magnetic field, motors, transformers, speakers, induction cooktops, wireless charging, you name it. Here we are talking in the context of device physics in the field of condensed matter physics / 2D materials, and superconducting (SC) circuits.</p>
+<ul>
+  <li>If you are in the former case, unlucky for you, you’ll typically need tesla level magnetic field (such as <a href="https://www.nature.com/articles/nphys245">Novoselov2006</a>, also on <a href="https://arxiv.org/abs/cond-mat/0602565">arxiv</a>, where you’ll see B field of up to 30 T casually labeled in figures). B field like this would need on the order of one million turns lol (maybe, I just did the order-of-magnitude in my head. Wait let me also check if the volume of their magnet is 1000x of mine… Ok it is roughly 500x of mine that you’ll see later in this blog lol). So better get them while you are ordering your fridge, such as from <a href="https://nanoscience.oxinst.com/superconducting-magnets">Oxford Instruments</a>.
+<img src="/assets/images/2024/SC_coil/Novoselov2006_fig2.png" alt="Novoselov2006_fig2" /></li>
+  <li>If you are in the later case, lucky for you, a few mT would be plenty for many cases. This is partially thanks to the fact that we are talking about single flux quantum level, which is \(\Phi_0 = h/2e \approx 2\times10^{-15}\) Wb, and this turns out to require 2 mT if you have a 1 um x 1 um loop.</li>
+</ul>
+
+<p>In my case, I was trying to reproduce magnetic tuning of SC resonators with a nonlinear kinetic inductance, following <a href="https://pubs.aip.org/aip/apl/article/114/19/192601/37313/Frequency-tunable-high-Q-superconducting">Xu2019</a>. The reason? When you are working with modes and resonators and want couplings between them, they only effectively talk to each other when the frequency detuning is comparable to the coupling rate, which is typically 1~10% fractional wrt frequency in my (and many other) cases. So if your fabrication control or variation is not &lt;~ 1%, you’ll need to tune them to match their frequencies.</p>
+<ul>
+  <li>For superconducting qubits and resonators, 10s to 100s MHz coupling rate is typical. See e.g. <a href="https://pubs.aip.org/aip/apr/article/6/2/021318/570326">Krantz2019</a>, so these are 1~10% of the resonance frequencies (a few GHz).</li>
+  <li>Kind of annoying you don’t see as much practical stuff in these review papers, like actually simulating and calculating the coupling rates etc. Maybe next time I’ll do one.
+<img src="/assets/images/2024/SC_coil/NTNAR07_image13.png" alt="NTNAR07_image13.png" />
+<em>A dipole antenna we made with a kinetic inductor between the two antenna pads, in a ladder structure similar to <a href="https://pubs.aip.org/aip/apl/article/114/19/192601/37313/Frequency-tunable-high-Q-superconducting">Xu2019</a>, so that the B field threading the holes would tune its inductance. 10 nm NbTiN on silicon, September 2021.</em></li>
+</ul>
+
+<h2 id="why-superconducting">Why superconducting?</h2>
+
+<p>Because it is going into a fridge, a very cold fridge.</p>
+<ul>
+  <li>Superconducting qubits work at a few GHz, and if you run the numbers (\(n \approx k_\text{B}T/\hbar \omega\)), you get 1000~2000 thermal photons at room temperature. So you either need to actively cool them or passively, i.e., put them in a fridge. And 10 mK would give you &lt; 0.1 thermal photon (you should be using the actual full bosonic occupation distribution for lower temperatures).</li>
+</ul>
+
+<p>At 4 K you could get a pulse tube cooled fridge with a few watts of cooling power, and that makes the max current you could run thru a 1000 ohms coil to be 0.1 A. At 10 mK, the cooling power available is much worse, something around 10~100 uW iirc. So there is pretty much no other option except a suparconducting coil.</p>
+<ul>
+  <li>yes, <a href="https://bluefors.com/products/dilution-refrigerator-measurement-systems/ld-dilution-refrigerator-measurement-system/">LD400</a> from BlueFors has 15 uW at 20 mK and 0.5 mW at 100 mK. Here are some pretty pictures from the same website because why not lol:
+<img src="/assets/images/2024/SC_coil/LD400.png" alt="LD400" /></li>
+</ul>
+
+<p>Before moving on, here are some fun slides from CERN on <a href="https://qps.web.cern.ch/download/pdf/Quench_Wilson_1.pdf">Superconducting Wires and Cables</a> (<a href="/assets/doc/2024/SC_coil/Quench_Wilson_1.pdf">backup</a>).</p>
+
+<p><img src="/assets/images/2024/SC_coil/quench_wilson_1_1.png" alt="quench_wilson" /></p>
+
+<h1 id="coil-design">Coil design</h1>
+
+<h2 id="size--material">Size &amp; material</h2>
+
+<p>Any number with a unit does not mean anything until it is put into context. What is your context, i.e., what are the other dimensions in your problem?</p>
+<ul>
+  <li>How big of an area do you need the magnetic field to cover?</li>
+  <li>How close can you put the coil to the target area / region?</li>
+  <li>How much space do you have to fit the coil?</li>
+  <li>Do you really need a coil? No coil is best coil. (e.g., an on-chip or on-board flux bias line if that works. Qubits people could tune their flux phase by 2pi with less than 100 uA.)</li>
+</ul>
+
+<p>These dimensions determine how big your coil needs to be and can be, since for the magnetic field consideration, you’d want the coil size to be comparable to the separation of it from the target. To be more exact, the field along the symmetry axis of the coil is \(B_z = \mu_0/4\pi \cdot 2\pi R^2 I/(z^2+R^2)^{3/2}\), where \(R\) is the coil radius, \(I\) is the current, and \(z\) is the separation.</p>
+
+<p>In my case, the coil diameter is ~ 20 mm, from separation to the target. The resonator I was trying to tune was in a 3D microwave cavity (maybe I should talk about them next?), and that’s roughly half of its size.</p>
+<ul>
+  <li>Also sadly because of this magnetic tuning, I could no longer use a superconducting 3D microwave cavity (e.g. with aluminum), which would be much higher Q than copper.</li>
+</ul>
+
+<p>Ah yes, segway to the material for the coil bobbin. It is a no brainer for most things going in vacuum and low temperature: oxygen-free high thermal conductivity (<a href="https://en.wikipedia.org/wiki/Oxygen-free_copper">OFHC</a>) copper, or <a href="https://alloys.copper.org/alloy/C10100">C10100</a>. It has high thermal and electrical conductivity, does not do random things like superconducting, phase change or outgas. Down side is it is heavy, and scratch easily.</p>
+
+<p><img src="/assets/images/2024/SC_coil/coil2_image7.png" alt="coil2-prewind" />
+<em>The OFHC copper bobbin before winding the SC wire. Looks pretty chaotic because I was trying to use a random 3D printed part to “organize” the excess wire ad one end of the coil.</em></p>
+
+<p>Before moving on, there are also a few minor details about the bobbin design that is worth mentioning</p>
+<ul>
+  <li>Don’t forget how would you want to mount the coil as well as the wire leads. One thing I should have done is leaving some shallow trench to run the wires, so that the mounting bracket can go anywhere without worrying about pinching the wire</li>
+  <li>Run some numbers for the turns and how much cross section the wire is going to take, and design the extra edge accordingly</li>
+  <li>One end of the wire will be buried inside the thousands of turns of wires, so think about where you prefer that to be, and how much excess wire you need. (you won’t be getting more after the winding, esp. for SC wire where soldering is a bad idea)</li>
+  <li>I put a hole at the “floor” of the bobbin to get the beginning end of the wire out, but it would come out near 90 deg (along z direction or perpendicular to the coil) and needs to be bent near 90 deg, which I don’t like and the SC current probably also don’t like. It might be better to just manage it properly and let it come out of the radial direction.</li>
+</ul>
+
+<h2 id="number-of-turns-and-b-field-distribution">Number of turns and B field distribution</h2>
+
+<p>Also simple, run that equation above (\(B_z = \mu_0/4\pi \cdot 2\pi R^2 I/(z^2+R^2)^{3/2}\)). I should figure out how to have better latex equation and <code class="language-plaintext highlighter-rouge">\cite</code> etc. working here…</p>
+<ul>
+  <li>In my case, I need ~ 1000 turns to get ~ 1 mT with ~ 100 mA.</li>
+  <li>Later I found out higher field is desired and pushing the current above 150 mA starts to heat up the 4 K stage of the fridge, so it got increased to ~ 2000 turns.</li>
+</ul>
+
+<p>I also ran some simulation in COMSOL, and it was pretty straight forward since this would be one of the most simple example config for a magnetic field simulation. Here are the field distributions:</p>
+
+<p><img src="/assets/images/2024/SC_coil/coil2_image4.png" alt="coil2_image4.png" />
+<em>Axial symmetric 2D simulation of the magnetic field. Plotting the revolved dataset and the B field norm. Current = 1 mA.</em>
+<img src="/assets/images/2024/SC_coil/coil2_image15.png" alt="coil2_image15.png" />
+<em>B field along the axial line, with 100 mA thru one coil, and sweep the current in the other coil to be -100, 0, 100 mA (three different colors).</em></p>
+
+<h2 id="picking-the-superconducting-wire">Picking the superconducting wire</h2>
+
+<p>I asked my friend from <a href="https://www.epfl.ch/labs/sqil/">Manucharyan Group</a> (at <a href="https://umdphysics.umd.edu/">UMD Physics</a> at the time, they make <a href="https://www.science.org/doi/abs/10.1126/science.1175552">fluxonium qubits</a> and many other amazing qubits), and he recommended <a href="https://www.supercon-wire.com/">Supercon Inc.</a>. NbTi wire is very commonly used as SC wire in many applications. I got T48B-M from Supercon iirc, or maybe T48B-SW-M.</p>
+<ul>
+  <li>He also recommended me to use a manganin wire as a guiding wire outside the coil for wiring &amp; managing etc. I was too lazy and did not do it, and it seems to work fine.</li>
+  <li>This laziness probably made it more nerve wracking working around these thin wires to move &amp; mount other stuff in the fridge. One L bracket get pulled onto it could break it.</li>
+</ul>
+
+<p>Anyway, check what current you need, and pick the wire with a margin you are comfortable with.</p>
+
+<h1 id="winding--misc">Winding &amp; Misc</h1>
+
+<p>Ok this is the fun part. I quickly realized a coil winding machine, even a manual one, is a life changer after I winded the first coil fully manually. I thought about and tried using a hand drill, but it just felt too risky. I do not want the wire to snap when I’m already half way thru all the turns. I was also not sure about many detail aspects of this coil making, so I only made a small one with 500  turns, on a random bobbin that was originally designed to thermalize optical fibers.</p>
+
+<p><img src="/assets/images/2024/SC_coil/coil1_image21.png" alt="coil1-winding" /></p>
+
+<p>I also did not leave as much excess wire since this test coil is only going onto 4 K to test current, thermalization, heating etc. For the coil that is actually going into a MXC plate in a dilfridge, you’d want at least 2x the separation from the MXC plate to the 4 K plate, for the twisting needed, as well as some extra length so that even if you have accidentally broken the wire in the future, there’s room for rescue.</p>
+<ul>
+  <li>You would want to organize this excess wire properly during the winding, otherwise it will accumulate twist and make a mess, knotting into itself etc.</li>
+  <li>I 3D printed another bobbin to temporarily wind the excess wire onto, and then attached it to the main bobbin</li>
+</ul>
+
+<p>Now you have started winding. Nothing special and no trick here. Hopefully you got at least a manual winding machine like in the cover image. It also helps counting the turns. Another good practice is to use something to guide the wire left and right to wind it evenly layer by layer. It won’t be perfect but you should try your best, it will also help thermalization.</p>
+<ul>
+  <li>In terms of thermalization, it is also good to keep a decent and consistent tension on the wire, so they are also tight on the bobbin. I just used the friction between the spool and a shaft built with thorlabs posts. Definitely not ideal.</li>
+  <li>Another good thing I should have done is to lubricate the winding machine. It was pretty choppy and scary, but good enough.</li>
+</ul>
+
+<p><img src="/assets/images/2024/SC_coil/coil3_image45.png" alt="coil3_image45.png" />
+<em>Another example of a coil with ~2000 turns. You can see the 3D printed bobbin holding the excess wire.</em></p>
+
+<p>Ok after hopefully just 30 min or one hour, you are approaching the end and almost finished the winding. You would want to think about a few things:</p>
+<ul>
+  <li>Find something and prepare to hold the end of the wire, so that when you take or cut it away from the big spool, it holds the tension and does not let loose the windings
+    <ul>
+      <li>I chose to tape a few spot on the bobbin, as well as tape the wire onto the side of the bobbin</li>
+    </ul>
+  </li>
+  <li>Prepare for twisting the two free ends. This is to minimize any potential loop so that the coil picks up minimal noise from the wiring.</li>
+</ul>
+
+<h2 id="twisting">Twisting</h2>
+
+<p>This is the most annoying and easy to mess up step. You’d think ok now if I tape down the free end of the wire, and spin the coil, it would form a twisted pair of wires like people usually do with a drill holding the free ends right? Nope. These wires are more annoying to control their own twists, maybe because they are so thin (100 um diameter) and slippery. They would rather loop onto themselves than twist. There is probably some argument similar to liquid surface tension.</p>
+
+<p>Anyway here is a bad example:
+<img src="/assets/images/2024/SC_coil/coil3_image31.png" alt="coil3_image31.png" /></p>
+<ul>
+  <li>I attempted to rotate the whole coil. This is what you DO NOT WANT TO DO.</li>
+  <li>Twisting from the coil not only twist the two wires together but also introduce twist within each wire, making the wire looping onto itself</li>
+</ul>
+
+<p>This is what we find that works the best for these 100 um diameter NbTi wires:
+<img src="/assets/images/2024/SC_coil/coil4_image7.png" alt="coil4_image7.png" />
+<em>You need two things to control BOTH position and rotation of the two wires.</em></p>
+
+<p>Here are the detailed instructions:</p>
+<ol>
+  <li>Ensure the two ends of the wire are wound up on two separate bobbins (let’s call them auxiliary bobbins) for handling ease</li>
+  <li>Tape the main bobbin up to the open (to be wound) sections of the wires</li>
+  <li>Tape the two auxiliary bobbins such that there is 6-8in of open wires</li>
+  <li>Place all three bobbins on a flat table in the configuration shown above</li>
+  <li>Keep swapping the two auxiliary bobbins in a clockwise fashion while keeping their orientation fixed (i.e. do not add any intentional rotation)</li>
+  <li>Stretch the two auxiliary bobbins apart (i.e. increasing the angle at the vertex) to ensure tightness of the twist every few swaps</li>
+  <li>Redo Step 2 &amp; Step 3 when untwisted wire length is finished to secure the twisted wire and to add more untwisted wire length for twisting. Redo Step 4-7 until finished</li>
+</ol>
+
+<h2 id="potting">Potting</h2>
+
+<p>The potting step is to further secure the wire, and improve the thermalization. I chose Stycast as advised by my friend as well as common practice. We already had some mixed and ready for use. You might need to mix your own and there are instructions you could find such as this one: <a href="https://einstein.stanford.edu/content/tech_docs/pdocs/SQUID/P0157.pdf">Use of epoxy stycast</a> (<a href="/assets/doc/2024/SC_coil/use-of-epoxy-stycast.pdf">backup</a>).</p>
+
+<p>I choose to put stycast at four different angular locations evenly spaced, worrying that if I cover the whole thing, it would for sure trap bubbles if I do not pump it.</p>
+
+<p>For curing, I believe I used 80 C (did not write down notes properly) hotplate for ~ 30 min, and kept flipping the coil every few minutes at the beginning (because the coil sits on its flat surface, and thus the stycast would drip slowly). The stycast also sips in and seems to try up instead of forming a smooth blob, so I also re-applied it two three more times.</p>
+
+<p>Here is how the coils look like after stycast:
+<img src="/assets/images/2024/SC_coil/coil2_image3.png" alt="coil2_image3.png" /></p>
+<ul>
+  <li>I know this looks ugly, but it does the job fine.</li>
+</ul>
+
+<h1 id="installation">Installation</h1>
+
+<p>Your coil is ready, it is time to hook it up and thermalize it and the wiring properly.</p>
+
+<h2 id="soldering">Soldering</h2>
+
+<p>Look what DC lines you already have in your fridge, they are likely phosphor bronze (PB) wire. Make sure they are spec-ed with higher current than what your coil is going to need.</p>
+
+<p>As for soldering, I did the first coil soldering the SC wire directly to the PB wire, which is hell annoying to do. The the next few coils, just put a 2-pin connectors on both sides and that seems to work well.</p>
+
+<p><img src="/assets/images/2024/SC_coil/coil1_image3.png" alt="coil1_image3" />
+<em>The first coil I made. You could see the heat shrink where the SC wires were soldered to PB wires. The same 2-pin connector (black) at the end of the PB wires were used later for directly soldering onto the SC wires.</em></p>
+
+<p>Oh I should mention that you might also need to solder the other side onto a microD connector, to connect to the two-pin connector on your coil. I feel obligated to include an image here to let you appreciate the fun about soldering microD:
+<img src="/assets/images/2024/SC_coil/coil3_image46.png" alt="coil3_image46" /></p>
+
+<p>If you are the lucky one that has e.g. a BlueFors that came with pre-installed DC lines for powering some HEMT amplifiers, those came with nanoD connectors, and you can buy pigtail nanoD, both <a href="https://www.digikey.com/en/products/detail/omnetics/A28000-009/11561019">male</a> and <a href="https://www.digikey.com/en/products/detail/omnetics/A29000-009/11560853">female</a>, and then you only need to solder a 2-pin onto the pigtail.</p>
+
+<p>(Hmm maybe microD pigtail also exist, I remember Montana instruments sells them, a few grand each tho. Ok found they exist on <a href="https://www.digikey.com/en/products/detail/itt-cannon-llc/MDM-25PH003B/2403905">digikey</a>)</p>
+
+<h2 id="thermalization">Thermalization</h2>
+
+<p>The thermalization requires extra care expecially around the connector or solder joint where the transition from PB to SC wires is happening. As soon as the wires are superconducting, there is no heat generation in principle.</p>
+<ul>
+  <li>I used two methods to thermalize around the connector / soldering joint:</li>
+  <li>Wrap the wires onto a brass screw (3~5 turns), and then epoxy &amp; cure it with <a href="https://estore.oxinst.com/us/products/general-consumables/adhesives-&amp;-tapes/adhesives/zidC5-101">GE varnish</a>. Then thermalize the brass screw onto the fridge. This is done both immediately before and after the transition.</li>
+  <li>You could also copper tape the connectors directly onto a OFHC part that is thermalized to the fridge or directly tape the connectors to the fridge.</li>
+  <li>Why brass screw? Because its CTE is larger than OFHC so that it would tighten things more after the cooldown. (see e.g. <a href="https://www.engineeringtoolbox.com/thermal-expansion-metals-d_859.html">Engineering ToolBox - Thermal expansion coefficients metals</a>)</li>
+</ul>
+
+<p>However, to be extra careful and safe, we also further thermalized the SC wires at every stage in the dilfridge, each one with the wires wrapped onto a brass screw, secure with GE varnish, and thermalized the screw with OFHC mounting bracket:
+<img src="/assets/images/2024/SC_coil/coil4_image10.png" alt="coil4_image10" />
+<em>Nice picture and arrangement made by my labmates. They really perfected these techniques. This is the 4th coil we’ve made.</em></p>
+
+<h1 id="control-and-running-the-coil">Control and running the coil</h1>
+
+<p>Easy. You send a current.</p>
+
+<p>Lol ok you need to send a good current.</p>
+
+<h2 id="current-source">Current source</h2>
+
+<p>I looked at a few options and end up choose the good old friend I knew from my 2D material transport measurement era, the <a href="https://tmi.yokogawa.com/us/solutions/products/generators-sources/source-measure-units/gs200/">Yokogawa GS210</a>:
+<img src="/assets/images/2024/SC_coil/gs200_4.jpg" alt="gs200" /></p>
+
+<p>Other options I considered:</p>
+<ul>
+  <li><a href="https://www.thinksrs.com/products/sim928.html">SRS SIM928</a></li>
+  <li><a href="https://www.aimtti.com/go/plh/index.php?p=plhp-index">Aim-TTi PLH</a> (barely enough resolution)</li>
+  <li><a href="https://www.tek.com/en/datasheet/smu-2400-graphical-sourcemeter/model-2450-touchscreen-source-measure-unit-smu-instrument">Keithley SMU 2450</a></li>
+</ul>
+
+<p>In short, check the range and resolution you need, as well as noise. It is possible to add filtering, but not as critical as for an on-chip flux line. The coil itself is already a big inductor.</p>
+
+<h2 id="heating">Heating</h2>
+
+<p>I ran a “stress test” of 100 mA for for a few hours when I installed the coil in the dilfridge for the first time. Since then I believe we’ve run it at ~&gt; 150 mA multiple times.</p>
+
+<p><img src="/assets/images/2024/SC_coil/coil3_image41.png" alt="coil3_image41" />
+<em>Temperature vs. time at different dilfridge stages. The time when the temperature starts rising seems to be different at different stages.</em></p>
+
+<p>The coil was running fine, so the heating and temperature rise of lower stages are from the 4 K plate being heat up by the PB wires. If you get the option for higher current capacity wiring when you are ordering your fridge, the heating could be reduced substantially.</p>
+
+<h1 id="acknowledgements">Acknowledgements</h1>
+
+<p>I got my first vacuum and cryogenic experience at Tsinghua IIIS during my undergrad, and learnt a lot from many of my advisors and colleagues there. There is more during the Stanford time, where I had much more hands on practice like making these coils, and funded by NSF, ARO, AFOSR, as well as NTT and AWS. Special thanks to my friend <a href="https://scholar.google.com/citations?user=tRoZCDEAAAAJ">Haonan</a> who offered many suggestions at the beginning of the coil making progress.</p>
+
+<p>Hope you enjoyed this write up, see you next time!</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Cryogenics" /><category term="Coil" /><category term="Magnet" /><category term="Superconducting" /><category term="Current" /><category term="Epoxy" /><category term="Vacuum" /><summary type="html"><![CDATA[Coil is simple to make (lol maybe I’m too naive), why am I writing this and what would you be able to learn from it? These coils go into high vacuum and low temperature, so not as common as typical applications More consideration for thermalization and heating You’ll also peek into how it’s like doing superconducting circuits and qubits a bit. I’m writing this for fun, and for “paying my debt” of not writing as much of these in my thesis.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#23)</title><link href="http://localhost:4000/ofs/weekly-OFS-23/" rel="alternate" type="text/html" title="This week’s outside five sigma (#23)" /><published>2024-11-30T00:00:00-08:00</published><updated>2024-11-30T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-23</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-23/"><![CDATA[<ol>
   <li>Folks I just ran into a colored version of this. From a book on microwave tubes from 2020 and with all figures in color would you believe it! (it’s so new they are called vacuum electron devices instead of tubes).
 Of course there’s no colored version of the other cartoon lol.
 <img src="/assets/images/2024/20240608_20241127/20240608_041250_0.jpg" alt="20240608_041250_0.jpg" />
@@ -1822,207 +2063,4 @@ You could find a lot of SEM images of pattered silicon photonics, so here I want
 <p><img src="/assets/images/2024/beamwrite_log_sheet.png" alt="beamwrite_log_sheet.png" />
 <em>Log sheet I created for keeping track of beamwrites from me and the team. This is specifically for JEOL, but most of the parameters are relevant in general, and will make more sense as you read on.</em></p>
 
-<p>(This post is started on 2024-08-15, and finished on 2024-10-15. Last updated on 2024-10-15.)</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Lithography" /><category term="Electron" /><summary type="html"><![CDATA[The cover of this blog was the JEOL JBX 6300FS at Stanford SNSF. I love it. Here is the evolution of JEOL JBX series.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#16)</title><link href="http://localhost:4000/ofs/weekly-OFS-16/" rel="alternate" type="text/html" title="This week’s outside five sigma (#16)" /><published>2024-10-13T00:00:00-07:00</published><updated>2024-10-13T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-16</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-16/"><![CDATA[<ol>
-  <li>I was thinking about if we could fill the magnetron cavities with silicon to shrink it by ~3x, and found out rapid microwave annealing:
-It turns amorphous silicon into crystalline, and activates the dopants… Why did I suffer thru the trainings to get rapid thermal annealing…
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_0.jpg" alt="20240930_004858_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_1.jpg" alt="20240930_004858_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_2.jpg" alt="20240930_004858_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_3.jpg" alt="20240930_004858_3.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_4.jpg" alt="20240930_004858_4.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_5.jpg" alt="20240930_004858_5.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_6.jpg" alt="20240930_004858_6.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_004858_7.jpg" alt="20240930_004858_7.jpg" />
-    <ul>
-      <li>Fig. 1-3: <a href="https://link.springer.com/article/10.1007/s00339-016-0220-7">Crystallization and activation of silicon by microwave rapid annealing</a>
-Fig. 4: <a href="https://pubs.aip.org/aip/jap/article-abstract/106/11/114902/901654/Dopant-activation-in-ion-implanted-silicon-by?redirectedFrom=fulltext">Dopant activation in ion implanted silicon by microwave annealing</a></li>
-      <li>Since it’s a bit relevant, here is a demonstration showing you could also drill concrete and rock with microwave and millimeter wave
-(I remember the book mentioned in the quoted tweet is about drilling on other planets. Let’s see if I could find it..) 
-<img src="/assets/images/2024/20240930_20241009/20240930_032409_0.jpg" alt="20240930_032409_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_032409_1.jpg" alt="20240930_032409_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_032409_2.jpg" alt="20240930_032409_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_032409_3.jpg" alt="20240930_032409_3.jpg" /></li>
-    </ul>
-  </li>
-  <li>
-    <p>There’s a small company doing “near field” ALD/ALE with a probe, it’s called direct-write ALD, and the company is ATLANT3D Nanosystems. They gave a talk at Stanford: <a href="https://nanolabs.stanford.edu/events/unique-direct-processing-platform-technology-mdalp">Unique Direct Processing Platform Technology µDALP</a>
-<img src="/assets/images/2024/20240930_20241009/20240930_144548_0.jpg" alt="20240930_144548_0.jpg" /></p>
-  </li>
-  <li>This pressure measurement film is from fujifilm called Prescale, and introduced in 1977. The product line includes 9 types for different pressure range from kPa to almost GPa, each with ~ 6 dB range and 10% accuracy. The color is from breaking microcapsules.
-<img src="/assets/images/2024/20240930_20241009/20240930_173932_0.jpg" alt="20240930_173932_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_173932_1.jpg" alt="20240930_173932_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_173932_2.jpg" alt="20240930_173932_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_173932_3.jpg" alt="20240930_173932_3.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20240930_173932_4.jpg" alt="20240930_173932_4.jpg" />
-    <ul>
-      <li>Fig. 1: <a href="https://fujifilm-innovation.tumblr.com/post/168661520780/the-film-that-changes-color-with-pressure">The film that changes color with pressure: Prescale!</a>
-Fig. 2: <a href="https://www.sensorprod.com/glossary/paper/fuji-paper.php">Fuji Paper from SensorProd.com</a>
-Fig. 3: <a href="https://www.fujifilm.com/us/en/business/industrial-materials/measurement-film/prescale/feature">Pressure measurement film Prescale</a>
-Fig. 4: <a href="https://www.tekscan.com/sites/default/files/resources/Measurement%20Film%20Catalog%20Brochure.pdf">Measurement Film Catalog Brochure</a></li>
-      <li>They also have films for thermal and UV
-<img src="/assets/images/2024/20240930_20241009/20241001_012123_0.jpg" alt="20241001_012123_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241001_012123_1.jpg" alt="20241001_012123_1.jpg" /></li>
-    </ul>
-  </li>
-  <li>You’ve probably seen the array of pyramids in an anechoic chamber. You could make a “pyramid” of Hilbert curve so that it is 3D print friendly and still polarization insensitive. They used carbon-loaded HIPS and achieved lower than -20 dB reflectance over a wide frequency range.
-<img src="/assets/images/2024/20240930_20241009/20241002_005317_0.jpg" alt="20241002_005317_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_005317_1.jpg" alt="20241002_005317_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_005317_2.jpg" alt="20241002_005317_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_005317_3.jpg" alt="20241002_005317_3.jpg" />
-    <ul>
-      <li>Fig. 1: <a href="https://antennatestlab.com/antenna-examples/example-3-vivaldi-antennas-rfspace">Antennas By RFSPACE</a>
-Fig. 2-4: <a href="https://pubs.aip.org/aip/rsi/article/90/2/024701/361743">A 3D-printed broadband millimeter wave absorber</a>
-Saw it from <a href="https://www.cambridge.org/core/journals/international-journal-of-microwave-and-wireless-technologies/article/abs/broadband-millimeterwave-absorbers-a-review/4A05581C33F5E27E5AAB4CD16EC0D3D2">Broadband millimeter-wave absorbers: a review</a></li>
-      <li>This is a good read on the historical aspects:
-<a href="https://ieeexplore.ieee.org/document/1140517">Electromagnetic wave absorbers and anechoic chambers through the years</a>
-<img src="/assets/images/2024/20240930_20241009/20241002_005725_0.jpg" alt="20241002_005725_0.jpg" /></li>
-    </ul>
-  </li>
-  <li>Here is what you need to generate ~gigawatt (300 kV * 1 kA) pulsed microwave: a Marx generator (charging capacitors in parallel and discharge in series) submerged in a big oil tank, to discharge into a magnetron as well as a big Helmholtz coil pair.
-<img src="/assets/images/2024/20240930_20241009/20241002_151058_0.jpg" alt="20241002_151058_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_151058_1.jpg" alt="20241002_151058_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_151058_2.jpg" alt="20241002_151058_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_151058_3.jpg" alt="20241002_151058_3.jpg" />
-    <ul>
-      <li>From thesis: <a href="https://digitalrepository.unm.edu/ece_etds/528/">Relativistic magnetron with diffraction output and split cathode</a>
-<img src="/assets/images/2024/20240930_20241009/20241002_151153_0.jpg" alt="20241002_151153_0.jpg" /></li>
-      <li>Also learnt there are two major ways of coupling out the microwave power, from the side (radial output = MRO) and from the center (diffraction output = MDO). MRO has large leakage current that does not produce microwave and has lower efficiency (~ 15% vs. ~50% for MDO).
-<img src="/assets/images/2024/20240930_20241009/20241002_151659_0.jpg" alt="20241002_151659_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_151659_1.jpg" alt="20241002_151659_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_151659_2.jpg" alt="20241002_151659_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_151659_3.jpg" alt="20241002_151659_3.jpg" /></li>
-      <li>Part of this is for generation x-ray with <a href="https://fire.pppl.gov/fpa05_olson.pdf">z-pinch</a>. I had no idea you could pinch stuff hard enough to do fusion.
-<img src="/assets/images/2024/20240930_20241009/20241002_152634_0.jpg" alt="20241002_152634_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_152634_1.jpg" alt="20241002_152634_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241002_152634_2.jpg" alt="20241002_152634_2.jpg" /></li>
-    </ul>
-  </li>
-  <li>Unexpected “alignment chart” for extreme computing.
-I won’t ask for too much, I’d be happy with the ultimate hot plasma laptop.
-<img src="/assets/images/2024/20240930_20241009/20241001_014944_0.jpg" alt="20241001_014944_0.jpg" />
-    <ul>
-      <li>From <a href="https://jstor.org/stable/26060763">black hole computers</a></li>
-      <li>When you are worried about space debris, the physicists are worried about too many satellites could collapse into a blackhole.
-<img src="/assets/images/2024/20240930_20241009/20241001_015447_0.jpg" alt="20241001_015447_0.jpg" /></li>
-    </ul>
-  </li>
-  <li>First laser metal 3D printing aboard the ISS. It arrived on board January 2024 and installed in May. It prints ~ 4 h a day and finished total of over 200 layers by August for the first print.
-<img src="/assets/images/2024/20240930_20241009/20241004_014322_0.jpg" alt="20241004_014322_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_014322_1.jpg" alt="20241004_014322_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_014322_2.jpg" alt="20241004_014322_2.jpg" />
-    <ul>
-      <li>Article: <a href="https://www.airbus.com/en/newsroom/stories/2024-09-behind-the-scenes-of-the-first-metal-part-to-be-3d-printed-aboard-the-iss">Behind the scenes of the first metal part to be 3D-printed aboard the ISS</a></li>
-      <li>More about the printer <a href="https://www.airbus.com/en/newsroom/stories/2024-01-the-worlds-first-metal-3d-printer-for-space-is-on-its-way-to-the-iss">here</a>. Not much real detail</li>
-    </ul>
-  </li>
-  <li>If you could write “google-proof” Q&amp;A, you might get hired for some sweet hourly rates ($100 ~ $150/h)
-<img src="/assets/images/2024/20240930_20241009/20241004_034930_0.jpg" alt="20241004_034930_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_034930_1.jpg" alt="20241004_034930_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_034930_2.jpg" alt="20241004_034930_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_034930_3.jpg" alt="20241004_034930_3.jpg" />
-    <ul>
-      <li><a href="https://arxiv.org/abs/2311.12022">GPQA: A Graduate-Level Google-Proof Q&amp;A Benchmark</a></li>
-    </ul>
-  </li>
-  <li>Injection-locking yourself out of Alzheimer is cool (“Pulses of light and sound seem to have beneficial effects.”), but a flash light (at 40 Hz) for TWO GRAND? a headset with a few LEDs for THREE GRAND??
-<img src="/assets/images/2024/20240930_20241009/20241004_041856_0.jpg" alt="20241004_041856_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_041856_1.jpg" alt="20241004_041856_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_041856_2.jpg" alt="20241004_041856_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_041856_3.jpg" alt="20241004_041856_3.jpg" />
-    <ul>
-      <li>See for yourself.
-Article: <a href="https://www.nature.com/articles/d41586-024-03147-1">Can flashing lights stall Alzheimer’s? What the science shows</a>, <a href="https://optoceutics.com/shop/evy-light-usa/">EVY Light</a>, <a href="https://www.vielight.com/devices/neuro-vagus-combo/">Vielight headset</a>
-<img src="/assets/images/2024/20240930_20241009/20241004_042104_0.jpg" alt="20241004_042104_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_042104_1.jpg" alt="20241004_042104_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_042104_2.jpg" alt="20241004_042104_2.jpg" /></li>
-    </ul>
-  </li>
-  <li>You might have heard about or used periodic poling if you work in nonlinear optics. For some applications such as THz generation with optical rectification, the poling period is comparable to wafer thickness, and you can just stack wafers, and also get a big aperture as a bonus.
-<img src="/assets/images/2024/20240930_20241009/20241004_191816_0.jpg" alt="20241004_191816_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_191816_1.jpg" alt="20241004_191816_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_191816_2.jpg" alt="20241004_191816_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241004_191816_3.jpg" alt="20241004_191816_3.jpg" />
-    <ul>
-      <li><a href="https://www.nature.com/articles/s42005-020-00421-2">Highly scalable multicycle THz production with a homemade periodically poled macrocrystal</a></li>
-      <li><a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-31-3-4041&amp;id=525399">Large-scale PPLN wafer stack</a></li>
-      <li><a href="https://pubs.aip.org/aip/apl/article-abstract/125/14/141101/3314598/Cryogenically-cooled-periodically-poled-lithium?redirectedFrom=fulltext">Cryogenically cooled PPLN wafer stacks for multi-cycle terahertz pulses</a></li>
-      <li>Thorlabs has a nice tutorial on <a href="https://www.thorlabs.com/catalogpages/693.pdf">periodically poled lithium niobate (PPLN)</a>
-   <img src="/assets/images/2024/20240930_20241009/20241004_192546_0.jpg" alt="20241004_192546_0.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241004_192546_1.jpg" alt="20241004_192546_1.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241004_192546_2.jpg" alt="20241004_192546_2.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241004_192546_3.jpg" alt="20241004_192546_3.jpg" /></li>
-    </ul>
-  </li>
-  <li>The video is so well made, I wish I had it to watch years ago when I was suffering during an experiment class reproducing one
-Interference and phase conjugating are so fun and useful in many ways, like determining the shape of a mirror you need, or wavefront/dispersion correction
-<img src="/assets/images/2024/20240930_20241009/20241005_153817_0.jpg" alt="20241005_153817_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241005_153817_1.jpg" alt="20241005_153817_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241005_153817_2.jpg" alt="20241005_153817_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241005_153817_3.jpg" alt="20241005_153817_3.jpg" />
-    <ul>
-      <li>
-        <table>
-          <tbody>
-            <tr>
-              <td>The video: [How are holograms possible?</td>
-              <td>Optics puzzles 5](https://www.youtube.com/watch?v=EmKQsSDlaa4)</td>
-            </tr>
-          </tbody>
-        </table>
-      </li>
-      <li>Fig. 3: <a href="https://onlinelibrary.wiley.com/doi/10.1002/lpor.202200025">Free-Form Micro-Optics Enabling Ultra-Broadband Low-Loss Off-Chip Coupling</a></li>
-      <li>Fig. 4: <a href="https://thesis.library.caltech.edu/9771/">Optical Phase Conjugation and Its Applications in Biology</a></li>
-    </ul>
-  </li>
-  <li>They missed the opportunity of calling them kiki scanning and bouba scanning
-<img src="/assets/images/2024/20240930_20241009/20241005_230551_0.jpg" alt="20241005_230551_0.jpg" />
-    <ul>
-      <li><a href="https://thesis.library.caltech.edu/4949/">Coherence Domain Optical Imaging Techniques</a>
-Pretty cool how they scan the beam out of a fiber. I want to find some actual pictures
-   <img src="/assets/images/2024/20240930_20241009/20241005_230903_0.jpg" alt="20241005_230903_0.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241005_230903_1.jpg" alt="20241005_230903_1.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241005_230903_2.jpg" alt="20241005_230903_2.jpg" /></li>
-      <li>Reading this thesis because of this paper where they imaged the USAF target thru half a mm thick chicken breast using phase conjugate: <a href="https://www.nature.com/articles/nphoton.2007.297">Optical phase conjugation for turbidity suppression in biological samples</a>. I want to find actual pictures of their setup and sample (found the one for the samples: <a href="https://thesis.library.caltech.edu/5343/">Low Optical Signal Detection in Biological Materials: SNR Considerations and Novel Techniques</a> ).
-   <img src="/assets/images/2024/20240930_20241009/20241006_043607_0.jpg" alt="20241006_043607_0.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_043607_1.jpg" alt="20241006_043607_1.jpg" /></li>
-      <li>Does not look as impressive when you actually see the 0.5 mm thick chicken breast sample</li>
-      <li>Learnt the “whole thing” is called endoscopic OCT catheter, found a few better picture of its tip design: <a href="https://www.nature.com/articles/s41566-018-0224-2">Nano-optic endoscope for high-resolution optical coherence tomography in vivo</a>, and they really just rotate the whole thing: <a href="https://ieeexplore.ieee.org/document/7363723">Advances in Endoscopic Optical Coherence Tomography Catheter Designs</a> and <a href="https://www.nature.com/articles/s41598-020-65742-2">Flexible endoscopic micro-optical coherence tomography for three-dimensional imaging of the arterial microstructure</a>
-   <img src="/assets/images/2024/20240930_20241009/20241006_072539_0.jpg" alt="20241006_072539_0.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_072539_1.jpg" alt="20241006_072539_1.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_072539_2.jpg" alt="20241006_072539_2.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_072539_3.jpg" alt="20241006_072539_3.jpg" /></li>
-    </ul>
-  </li>
-  <li>3D Printing of Nanoscale Photonic Structures.
-Two-photon and two-step polymerization are able to achieve much smaller structures than I thought, and one way to do it is to heat-shrink after the print, and get different structured color with different temperatures.
-<img src="/assets/images/2024/20240930_20241009/20241006_162312_0.jpg" alt="20241006_162312_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241006_162312_1.jpg" alt="20241006_162312_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241006_162312_2.jpg" alt="20241006_162312_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241006_162312_3.jpg" alt="20241006_162312_3.jpg" />
-    <ul>
-      <li>From the recording of a seminar. More at 
-   <img src="/assets/images/2024/20240930_20241009/20241006_162509_0.jpg" alt="20241006_162509_0.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_162509_1.jpg" alt="20241006_162509_1.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_162509_2.jpg" alt="20241006_162509_2.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_162509_3.jpg" alt="20241006_162509_3.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_162509_4.jpg" alt="20241006_162509_4.jpg" /></li>
-      <li>They mentioned the NA and bandwidth limit of a single layer metalens. It reminded me of a David Miller paper: <a href="https://www.science.org/doi/10.1126/science.ade3395">Why optics needs thickness</a>, see also on <a href="https://arxiv.org/abs/2209.03552">arxiv</a>. Basically if you are manipulating a lot of modes, they need space to exist and propagate.
-   <img src="/assets/images/2024/20240930_20241009/20241006_163055_0.jpg" alt="20241006_163055_0.jpg" />
-   <img src="/assets/images/2024/20240930_20241009/20241006_163055_1.jpg" alt="20241006_163055_1.jpg" /></li>
-      <li>The car uses spray paint color from nanostructures (like some butterflies) instead of pigments, so it does not fade
-   <img src="/assets/images/2024/20240930_20241009/20241006_171106_0.jpg" alt="20241006_171106_0.jpg" /></li>
-    </ul>
-  </li>
-  <li>TIL there is a light guide that connects the edge of a scintillator (a thin sheet of phosphor or plastic that fluoresces when struck) in a particle detector to the photodetector/multiplier.
-It is made of funky shaped plexiglass, and can be very low loss when properly designed.
-<img src="/assets/images/2024/20240930_20241009/20241009_061018_0.jpg" alt="20241009_061018_0.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241009_061018_1.jpg" alt="20241009_061018_1.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241009_061018_2.jpg" alt="20241009_061018_2.jpg" />
-<img src="/assets/images/2024/20240930_20241009/20241009_061018_3.jpg" alt="20241009_061018_3.jpg" />
-    <ul>
-      <li>Fig. 1: <a href="https://indico.cern.ch/event/104466/attachments/15569/22558/scintillator_V2.pdf">Detectors for Nuclear and Particle Physics - Scintillation Counters</a>
-Fig. 2-4: Adiabatic light guide with S-shaped strips:</li>
-      <li>One company that sells them: <a href="https://eljentechnology.com/products/light-guides-and-acrylic-plastic">Eljen Technology</a></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Microwave" /><category term="Anneal" /><category term="Nanofab" /><category term="ALD" /><category term="ALE" /><category term="FujiFilm" /><category term="Antenna" /><category term="Anechoic-chamber" /><category term="Magnetron" /><category term="Z-pinch" /><category term="Blackhole" /><category term="ISS" /><category term="3D-print" /><category term="AI" /><category term="Alzheimer" /><category term="PPLN" /><category term="Hologram" /><category term="OCT" /><category term="Endoscope" /><category term="Scintillator" /><summary type="html"><![CDATA[I was thinking about if we could fill the magnetron cavities with silicon to shrink it by ~3x, and found out rapid microwave annealing: It turns amorphous silicon into crystalline, and activates the dopants… Why did I suffer thru the trainings to get rapid thermal annealing… Fig. 1-3: Crystallization and activation of silicon by microwave rapid annealing Fig. 4: Dopant activation in ion implanted silicon by microwave annealing Since it’s a bit relevant, here is a demonstration showing you could also drill concrete and rock with microwave and millimeter wave (I remember the book mentioned in the quoted tweet is about drilling on other planets. Let’s see if I could find it..)]]></summary></entry></feed>
+<p>(This post is started on 2024-08-15, and finished on 2024-10-15. Last updated on 2024-10-15.)</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Lithography" /><category term="Electron" /><summary type="html"><![CDATA[The cover of this blog was the JEOL JBX 6300FS at Stanford SNSF. I love it. Here is the evolution of JEOL JBX series.]]></summary></entry></feed>

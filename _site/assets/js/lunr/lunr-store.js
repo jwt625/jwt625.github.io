@@ -268,4 +268,10 @@ var store = [{
         "tags": ["Microwave","Tubes","VED","Quantum","Qubit","Pasta","COMSOL","Nanofab","TTV","Wafer","TFLN","Tapeout","HDMI","Fiber","CV","Camera","Ethernet","MXene","Energy_harvest","3D_print","Wirebond","Photonics","Corrosion"],
         "url": "/ofs/weekly-OFS-23/",
         "teaser": null
+      },{
+        "title": "How to make a superconducting coil for few mT magnetic field at mK temperature",
+        "excerpt":"Coil is simple to make (lol maybe I’m too naive), why am I writing this and what would you be able to learn from it? These coils go into high vacuum and low temperature, so not as common as typical applications More consideration for thermalization and heating You’ll also peek...","categories": ["Tutorial"],
+        "tags": ["Nanofab","Cryogenics","Coil","Magnet","Superconducting","Current","Epoxy","Vacuum"],
+        "url": "/tutorial/SC-coil/",
+        "teaser": null
       }]

@@ -1,0 +1,1034 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>How to make a superconducting coil for few mT magnetic field at mK temperature - Outside Five Sigma</title>
+<meta name="description" content="Coil is simple to make (lol maybe I’m too naive), why am I writing this and what would you be able to learn from it?    These coils go into high vacuum and low temperature, so not as common as typical applications   More consideration for thermalization and heating   You’ll also peek into how it’s like doing superconducting circuits and qubits a bit.   I’m writing this for fun, and for “paying my debt” of not writing as much of these in my thesis.">
+
+
+  <meta name="author" content="Wentao">
+  
+  <meta property="article:author" content="Wentao">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Outside Five Sigma">
+<meta property="og:title" content="How to make a superconducting coil for few mT magnetic field at mK temperature">
+<meta property="og:url" content="http://localhost:4000/tutorial/SC-coil/">
+
+
+  <meta property="og:description" content="Coil is simple to make (lol maybe I’m too naive), why am I writing this and what would you be able to learn from it?    These coils go into high vacuum and low temperature, so not as common as typical applications   More consideration for thermalization and heating   You’ll also peek into how it’s like doing superconducting circuits and qubits a bit.   I’m writing this for fun, and for “paying my debt” of not writing as much of these in my thesis.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/2024/SC_coil/coil4_image16.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2024-12-08T00:00:00-08:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/tutorial/SC-coil/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Outside Five Sigma Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+
+  </head>
+
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/twm.JPG" alt="Outside Five Sigma"></a>
+        
+        <a class="site-title" href="/">
+          Outside Five Sigma
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/posts/"
+                
+                
+              >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/categories/"
+                
+                
+              >Categories</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/tags/"
+                
+                
+              >Tags</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/2024/SC_coil/coil4_image16.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          How to make a superconducting coil for few mT magnetic field at mK temperature
+
+        
+      </h1>
+      
+      
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-12-08T00:00:00-08:00">December 8, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          16 minute read
+        
+      </span>
+    
+  </p>
+
+
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/bio-photo-2.jpg" alt="Wentao" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Wentao</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Memories are the long term averages, and the outside five sigmas.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="How to make a superconducting coil for few mT magnetic field at mK temperature">
+    <meta itemprop="description" content="Coil is simple to make (lol maybe I’m too naive), why am I writing this and what would you be able to learn from it?  These coils go into high vacuum and low temperature, so not as common as typical applications  More consideration for thermalization and heating  You’ll also peek into how it’s like doing superconducting circuits and qubits a bit.  I’m writing this for fun, and for “paying my debt” of not writing as much of these in my thesis.">
+    <meta itemprop="datePublished" content="2024-12-08T00:00:00-08:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#why-would-you-want-a-coil-and-why-a-superconducting-one">Why would you want a coil, and why a superconducting one?</a><ul><li><a href="#why-a-coil">Why a coil?</a></li><li><a href="#why-superconducting">Why superconducting?</a></li></ul></li><li><a href="#coil-design">Coil design</a><ul><li><a href="#size--material">Size &amp; material</a></li><li><a href="#number-of-turns-and-b-field-distribution">Number of turns and B field distribution</a></li><li><a href="#picking-the-superconducting-wire">Picking the superconducting wire</a></li></ul></li><li><a href="#winding--misc">Winding &amp; Misc</a><ul><li><a href="#twisting">Twisting</a></li><li><a href="#potting">Potting</a></li></ul></li><li><a href="#installation">Installation</a><ul><li><a href="#soldering">Soldering</a></li><li><a href="#thermalization">Thermalization</a></li></ul></li><li><a href="#control-and-running-the-coil">Control and running the coil</a><ul><li><a href="#current-source">Current source</a></li><li><a href="#heating">Heating</a></li></ul></li><li><a href="#acknowledgements">Acknowledgements</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p>Coil is simple to make (lol maybe I’m too naive), why am I writing this and what would you be able to learn from it?</p>
+<ul>
+  <li>These coils go into high vacuum and low temperature, so not as common as typical applications</li>
+  <li>More consideration for thermalization and heating</li>
+  <li>You’ll also peek into how it’s like doing superconducting circuits and qubits a bit.</li>
+  <li>I’m writing this for fun, and for “paying my debt” of not writing as much of these in my thesis.</li>
+</ul>
+
+<p>Oh also please do your own research and run your own numbers. And read Jack Ekin’s <a href="https://academic.oup.com/book/32506">Experimental Techniques for Low-Temperature Measurements</a>.</p>
+
+<h1 id="why-would-you-want-a-coil-and-why-a-superconducting-one">Why would you want a coil, and why a superconducting one?</h1>
+
+<h2 id="why-a-coil">Why a coil?</h2>
+
+<p>Because I want a magnetic field, and a tunable one. Coils are used in many many places to generate a magnetic field, motors, transformers, speakers, induction cooktops, wireless charging, you name it. Here we are talking in the context of device physics in the field of condensed matter physics / 2D materials, and superconducting (SC) circuits.</p>
+<ul>
+  <li>If you are in the former case, unlucky for you, you’ll typically need tesla level magnetic field (such as <a href="https://www.nature.com/articles/nphys245">Novoselov2006</a>, also on <a href="https://arxiv.org/abs/cond-mat/0602565">arxiv</a>, where you’ll see B field of up to 30 T casually labeled in figures). B field like this would need on the order of one million turns lol (maybe, I just did the order-of-magnitude in my head. Wait let me also check if the volume of their magnet is 1000x of mine… Ok it is roughly 500x of mine that you’ll see later in this blog lol). So better get them while you are ordering your fridge, such as from <a href="https://nanoscience.oxinst.com/superconducting-magnets">Oxford Instruments</a>.
+<img src="/assets/images/2024/SC_coil/Novoselov2006_fig2.png" alt="Novoselov2006_fig2" /></li>
+  <li>If you are in the later case, lucky for you, a few mT would be plenty for many cases. This is partially thanks to the fact that we are talking about single flux quantum level, which is \(\Phi_0 = h/2e \approx 2\times10^{-15}\) Wb, and this turns out to require 2 mT if you have a 1 um x 1 um loop.</li>
+</ul>
+
+<p>In my case, I was trying to reproduce magnetic tuning of SC resonators with a nonlinear kinetic inductance, following <a href="https://pubs.aip.org/aip/apl/article/114/19/192601/37313/Frequency-tunable-high-Q-superconducting">Xu2019</a>. The reason? When you are working with modes and resonators and want couplings between them, they only effectively talk to each other when the frequency detuning is comparable to the coupling rate, which is typically 1~10% fractional wrt frequency in my (and many other) cases. So if your fabrication control or variation is not &lt;~ 1%, you’ll need to tune them to match their frequencies.</p>
+<ul>
+  <li>For superconducting qubits and resonators, 10s to 100s MHz coupling rate is typical. See e.g. <a href="https://pubs.aip.org/aip/apr/article/6/2/021318/570326">Krantz2019</a>, so these are 1~10% of the resonance frequencies (a few GHz).</li>
+  <li>Kind of annoying you don’t see as much practical stuff in these review papers, like actually simulating and calculating the coupling rates etc. Maybe next time I’ll do one.
+<img src="/assets/images/2024/SC_coil/NTNAR07_image13.png" alt="NTNAR07_image13.png" />
+<em>A dipole antenna we made with a kinetic inductor between the two antenna pads, in a ladder structure similar to <a href="https://pubs.aip.org/aip/apl/article/114/19/192601/37313/Frequency-tunable-high-Q-superconducting">Xu2019</a>, so that the B field threading the holes would tune its inductance. 10 nm NbTiN on silicon, September 2021.</em></li>
+</ul>
+
+<h2 id="why-superconducting">Why superconducting?</h2>
+
+<p>Because it is going into a fridge, a very cold fridge.</p>
+<ul>
+  <li>Superconducting qubits work at a few GHz, and if you run the numbers (\(n \approx k_\text{B}T/\hbar \omega\)), you get 1000~2000 thermal photons at room temperature. So you either need to actively cool them or passively, i.e., put them in a fridge. And 10 mK would give you &lt; 0.1 thermal photon (you should be using the actual full bosonic occupation distribution for lower temperatures).</li>
+</ul>
+
+<p>At 4 K you could get a pulse tube cooled fridge with a few watts of cooling power, and that makes the max current you could run thru a 1000 ohms coil to be 0.1 A. At 10 mK, the cooling power available is much worse, something around 10~100 uW iirc. So there is pretty much no other option except a suparconducting coil.</p>
+<ul>
+  <li>yes, <a href="https://bluefors.com/products/dilution-refrigerator-measurement-systems/ld-dilution-refrigerator-measurement-system/">LD400</a> from BlueFors has 15 uW at 20 mK and 0.5 mW at 100 mK. Here are some pretty pictures from the same website because why not lol:
+<img src="/assets/images/2024/SC_coil/LD400.png" alt="LD400" /></li>
+</ul>
+
+<p>Before moving on, here are some fun slides from CERN on <a href="https://qps.web.cern.ch/download/pdf/Quench_Wilson_1.pdf">Superconducting Wires and Cables</a> (<a href="/assets/doc/2024/SC_coil/Quench_Wilson_1.pdf">backup</a>).</p>
+
+<p><img src="/assets/images/2024/SC_coil/quench_wilson_1_1.png" alt="quench_wilson" /></p>
+
+<h1 id="coil-design">Coil design</h1>
+
+<h2 id="size--material">Size &amp; material</h2>
+
+<p>Any number with a unit does not mean anything until it is put into context. What is your context, i.e., what are the other dimensions in your problem?</p>
+<ul>
+  <li>How big of an area do you need the magnetic field to cover?</li>
+  <li>How close can you put the coil to the target area / region?</li>
+  <li>How much space do you have to fit the coil?</li>
+  <li>Do you really need a coil? No coil is best coil. (e.g., an on-chip or on-board flux bias line if that works. Qubits people could tune their flux phase by 2pi with less than 100 uA.)</li>
+</ul>
+
+<p>These dimensions determine how big your coil needs to be and can be, since for the magnetic field consideration, you’d want the coil size to be comparable to the separation of it from the target. To be more exact, the field along the symmetry axis of the coil is \(B_z = \mu_0/4\pi \cdot 2\pi R^2 I/(z^2+R^2)^{3/2}\), where \(R\) is the coil radius, \(I\) is the current, and \(z\) is the separation.</p>
+
+<p>In my case, the coil diameter is ~ 20 mm, from separation to the target. The resonator I was trying to tune was in a 3D microwave cavity (maybe I should talk about them next?), and that’s roughly half of its size.</p>
+<ul>
+  <li>Also sadly because of this magnetic tuning, I could no longer use a superconducting 3D microwave cavity (e.g. with aluminum), which would be much higher Q than copper.</li>
+</ul>
+
+<p>Ah yes, segway to the material for the coil bobbin. It is a no brainer for most things going in vacuum and low temperature: oxygen-free high thermal conductivity (<a href="https://en.wikipedia.org/wiki/Oxygen-free_copper">OFHC</a>) copper, or <a href="https://alloys.copper.org/alloy/C10100">C10100</a>. It has high thermal and electrical conductivity, does not do random things like superconducting, phase change or outgas. Down side is it is heavy, and scratch easily.</p>
+
+<p><img src="/assets/images/2024/SC_coil/coil2_image7.png" alt="coil2-prewind" />
+<em>The OFHC copper bobbin before winding the SC wire. Looks pretty chaotic because I was trying to use a random 3D printed part to “organize” the excess wire ad one end of the coil.</em></p>
+
+<p>Before moving on, there are also a few minor details about the bobbin design that is worth mentioning</p>
+<ul>
+  <li>Don’t forget how would you want to mount the coil as well as the wire leads. One thing I should have done is leaving some shallow trench to run the wires, so that the mounting bracket can go anywhere without worrying about pinching the wire</li>
+  <li>Run some numbers for the turns and how much cross section the wire is going to take, and design the extra edge accordingly</li>
+  <li>One end of the wire will be buried inside the thousands of turns of wires, so think about where you prefer that to be, and how much excess wire you need. (you won’t be getting more after the winding, esp. for SC wire where soldering is a bad idea)</li>
+  <li>I put a hole at the “floor” of the bobbin to get the beginning end of the wire out, but it would come out near 90 deg (along z direction or perpendicular to the coil) and needs to be bent near 90 deg, which I don’t like and the SC current probably also don’t like. It might be better to just manage it properly and let it come out of the radial direction.</li>
+</ul>
+
+<h2 id="number-of-turns-and-b-field-distribution">Number of turns and B field distribution</h2>
+
+<p>Also simple, run that equation above (\(B_z = \mu_0/4\pi \cdot 2\pi R^2 I/(z^2+R^2)^{3/2}\)). I should figure out how to have better latex equation and <code class="language-plaintext highlighter-rouge">\cite</code> etc. working here…</p>
+<ul>
+  <li>In my case, I need ~ 1000 turns to get ~ 1 mT with ~ 100 mA.</li>
+  <li>Later I found out higher field is desired and pushing the current above 150 mA starts to heat up the 4 K stage of the fridge, so it got increased to ~ 2000 turns.</li>
+</ul>
+
+<p>I also ran some simulation in COMSOL, and it was pretty straight forward since this would be one of the most simple example config for a magnetic field simulation. Here are the field distributions:</p>
+
+<p><img src="/assets/images/2024/SC_coil/coil2_image4.png" alt="coil2_image4.png" />
+<em>Axial symmetric 2D simulation of the magnetic field. Plotting the revolved dataset and the B field norm. Current = 1 mA.</em>
+<img src="/assets/images/2024/SC_coil/coil2_image15.png" alt="coil2_image15.png" />
+<em>B field along the axial line, with 100 mA thru one coil, and sweep the current in the other coil to be -100, 0, 100 mA (three different colors).</em></p>
+
+<h2 id="picking-the-superconducting-wire">Picking the superconducting wire</h2>
+
+<p>I asked my friend from <a href="https://www.epfl.ch/labs/sqil/">Manucharyan Group</a> (at <a href="https://umdphysics.umd.edu/">UMD Physics</a> at the time, they make <a href="https://www.science.org/doi/abs/10.1126/science.1175552">fluxonium qubits</a> and many other amazing qubits), and he recommended <a href="https://www.supercon-wire.com/">Supercon Inc.</a>. NbTi wire is very commonly used as SC wire in many applications. I got T48B-M from Supercon iirc, or maybe T48B-SW-M.</p>
+<ul>
+  <li>He also recommended me to use a manganin wire as a guiding wire outside the coil for wiring &amp; managing etc. I was too lazy and did not do it, and it seems to work fine.</li>
+  <li>This laziness probably made it more nerve wracking working around these thin wires to move &amp; mount other stuff in the fridge. One L bracket get pulled onto it could break it.</li>
+</ul>
+
+<p>Anyway, check what current you need, and pick the wire with a margin you are comfortable with.</p>
+
+<h1 id="winding--misc">Winding &amp; Misc</h1>
+
+<p>Ok this is the fun part. I quickly realized a coil winding machine, even a manual one, is a life changer after I winded the first coil fully manually. I thought about and tried using a hand drill, but it just felt too risky. I do not want the wire to snap when I’m already half way thru all the turns. I was also not sure about many detail aspects of this coil making, so I only made a small one with 500  turns, on a random bobbin that was originally designed to thermalize optical fibers.</p>
+
+<p><img src="/assets/images/2024/SC_coil/coil1_image21.png" alt="coil1-winding" /></p>
+
+<p>I also did not leave as much excess wire since this test coil is only going onto 4 K to test current, thermalization, heating etc. For the coil that is actually going into a MXC plate in a dilfridge, you’d want at least 2x the separation from the MXC plate to the 4 K plate, for the twisting needed, as well as some extra length so that even if you have accidentally broken the wire in the future, there’s room for rescue.</p>
+<ul>
+  <li>You would want to organize this excess wire properly during the winding, otherwise it will accumulate twist and make a mess, knotting into itself etc.</li>
+  <li>I 3D printed another bobbin to temporarily wind the excess wire onto, and then attached it to the main bobbin</li>
+</ul>
+
+<p>Now you have started winding. Nothing special and no trick here. Hopefully you got at least a manual winding machine like in the cover image. It also helps counting the turns. Another good practice is to use something to guide the wire left and right to wind it evenly layer by layer. It won’t be perfect but you should try your best, it will also help thermalization.</p>
+<ul>
+  <li>In terms of thermalization, it is also good to keep a decent and consistent tension on the wire, so they are also tight on the bobbin. I just used the friction between the spool and a shaft built with thorlabs posts. Definitely not ideal.</li>
+  <li>Another good thing I should have done is to lubricate the winding machine. It was pretty choppy and scary, but good enough.</li>
+</ul>
+
+<p><img src="/assets/images/2024/SC_coil/coil3_image45.png" alt="coil3_image45.png" />
+<em>Another example of a coil with ~2000 turns. You can see the 3D printed bobbin holding the excess wire.</em></p>
+
+<p>Ok after hopefully just 30 min or one hour, you are approaching the end and almost finished the winding. You would want to think about a few things:</p>
+<ul>
+  <li>Find something and prepare to hold the end of the wire, so that when you take or cut it away from the big spool, it holds the tension and does not let loose the windings
+    <ul>
+      <li>I chose to tape a few spot on the bobbin, as well as tape the wire onto the side of the bobbin</li>
+    </ul>
+  </li>
+  <li>Prepare for twisting the two free ends. This is to minimize any potential loop so that the coil picks up minimal noise from the wiring.</li>
+</ul>
+
+<h2 id="twisting">Twisting</h2>
+
+<p>This is the most annoying and easy to mess up step. You’d think ok now if I tape down the free end of the wire, and spin the coil, it would form a twisted pair of wires like people usually do with a drill holding the free ends right? Nope. These wires are more annoying to control their own twists, maybe because they are so thin (100 um diameter) and slippery. They would rather loop onto themselves than twist. There is probably some argument similar to liquid surface tension.</p>
+
+<p>Anyway here is a bad example:
+<img src="/assets/images/2024/SC_coil/coil3_image31.png" alt="coil3_image31.png" /></p>
+<ul>
+  <li>I attempted to rotate the whole coil. This is what you DO NOT WANT TO DO.</li>
+  <li>Twisting from the coil not only twist the two wires together but also introduce twist within each wire, making the wire looping onto itself</li>
+</ul>
+
+<p>This is what we find that works the best for these 100 um diameter NbTi wires:
+<img src="/assets/images/2024/SC_coil/coil4_image7.png" alt="coil4_image7.png" />
+<em>You need two things to control BOTH position and rotation of the two wires.</em></p>
+
+<p>Here are the detailed instructions:</p>
+<ol>
+  <li>Ensure the two ends of the wire are wound up on two separate bobbins (let’s call them auxiliary bobbins) for handling ease</li>
+  <li>Tape the main bobbin up to the open (to be wound) sections of the wires</li>
+  <li>Tape the two auxiliary bobbins such that there is 6-8in of open wires</li>
+  <li>Place all three bobbins on a flat table in the configuration shown above</li>
+  <li>Keep swapping the two auxiliary bobbins in a clockwise fashion while keeping their orientation fixed (i.e. do not add any intentional rotation)</li>
+  <li>Stretch the two auxiliary bobbins apart (i.e. increasing the angle at the vertex) to ensure tightness of the twist every few swaps</li>
+  <li>Redo Step 2 &amp; Step 3 when untwisted wire length is finished to secure the twisted wire and to add more untwisted wire length for twisting. Redo Step 4-7 until finished</li>
+</ol>
+
+<h2 id="potting">Potting</h2>
+
+<p>The potting step is to further secure the wire, and improve the thermalization. I chose Stycast as advised by my friend as well as common practice. We already had some mixed and ready for use. You might need to mix your own and there are instructions you could find such as this one: <a href="https://einstein.stanford.edu/content/tech_docs/pdocs/SQUID/P0157.pdf">Use of epoxy stycast</a> (<a href="/assets/doc/2024/SC_coil/use-of-epoxy-stycast.pdf">backup</a>).</p>
+
+<p>I choose to put stycast at four different angular locations evenly spaced, worrying that if I cover the whole thing, it would for sure trap bubbles if I do not pump it.</p>
+
+<p>For curing, I believe I used 80 C (did not write down notes properly) hotplate for ~ 30 min, and kept flipping the coil every few minutes at the beginning (because the coil sits on its flat surface, and thus the stycast would drip slowly). The stycast also sips in and seems to try up instead of forming a smooth blob, so I also re-applied it two three more times.</p>
+
+<p>Here is how the coils look like after stycast:
+<img src="/assets/images/2024/SC_coil/coil2_image3.png" alt="coil2_image3.png" /></p>
+<ul>
+  <li>I know this looks ugly, but it does the job fine.</li>
+</ul>
+
+<h1 id="installation">Installation</h1>
+
+<p>Your coil is ready, it is time to hook it up and thermalize it and the wiring properly.</p>
+
+<h2 id="soldering">Soldering</h2>
+
+<p>Look what DC lines you already have in your fridge, they are likely phosphor bronze (PB) wire. Make sure they are spec-ed with higher current than what your coil is going to need.</p>
+
+<p>As for soldering, I did the first coil soldering the SC wire directly to the PB wire, which is hell annoying to do. The the next few coils, just put a 2-pin connectors on both sides and that seems to work well.</p>
+
+<p><img src="/assets/images/2024/SC_coil/coil1_image3.png" alt="coil1_image3" />
+<em>The first coil I made. You could see the heat shrink where the SC wires were soldered to PB wires. The same 2-pin connector (black) at the end of the PB wires were used later for directly soldering onto the SC wires.</em></p>
+
+<p>Oh I should mention that you might also need to solder the other side onto a microD connector, to connect to the two-pin connector on your coil. I feel obligated to include an image here to let you appreciate the fun about soldering microD:
+<img src="/assets/images/2024/SC_coil/coil3_image46.png" alt="coil3_image46" /></p>
+
+<p>If you are the lucky one that has e.g. a BlueFors that came with pre-installed DC lines for powering some HEMT amplifiers, those came with nanoD connectors, and you can buy pigtail nanoD, both <a href="https://www.digikey.com/en/products/detail/omnetics/A28000-009/11561019">male</a> and <a href="https://www.digikey.com/en/products/detail/omnetics/A29000-009/11560853">female</a>, and then you only need to solder a 2-pin onto the pigtail.</p>
+
+<p>(Hmm maybe microD pigtail also exist, I remember Montana instruments sells them, a few grand each tho. Ok found they exist on <a href="https://www.digikey.com/en/products/detail/itt-cannon-llc/MDM-25PH003B/2403905">digikey</a>)</p>
+
+<h2 id="thermalization">Thermalization</h2>
+
+<p>The thermalization requires extra care expecially around the connector or solder joint where the transition from PB to SC wires is happening. As soon as the wires are superconducting, there is no heat generation in principle.</p>
+<ul>
+  <li>I used two methods to thermalize around the connector / soldering joint:</li>
+  <li>Wrap the wires onto a brass screw (3~5 turns), and then epoxy &amp; cure it with <a href="https://estore.oxinst.com/us/products/general-consumables/adhesives-&amp;-tapes/adhesives/zidC5-101">GE varnish</a>. Then thermalize the brass screw onto the fridge. This is done both immediately before and after the transition.</li>
+  <li>You could also copper tape the connectors directly onto a OFHC part that is thermalized to the fridge or directly tape the connectors to the fridge.</li>
+  <li>Why brass screw? Because its CTE is larger than OFHC so that it would tighten things more after the cooldown. (see e.g. <a href="https://www.engineeringtoolbox.com/thermal-expansion-metals-d_859.html">Engineering ToolBox - Thermal expansion coefficients metals</a>)</li>
+</ul>
+
+<p>However, to be extra careful and safe, we also further thermalized the SC wires at every stage in the dilfridge, each one with the wires wrapped onto a brass screw, secure with GE varnish, and thermalized the screw with OFHC mounting bracket:
+<img src="/assets/images/2024/SC_coil/coil4_image10.png" alt="coil4_image10" />
+<em>Nice picture and arrangement made by my labmates. They really perfected these techniques. This is the 4th coil we’ve made.</em></p>
+
+<h1 id="control-and-running-the-coil">Control and running the coil</h1>
+
+<p>Easy. You send a current.</p>
+
+<p>Lol ok you need to send a good current.</p>
+
+<h2 id="current-source">Current source</h2>
+
+<p>I looked at a few options and end up choose the good old friend I knew from my 2D material transport measurement era, the <a href="https://tmi.yokogawa.com/us/solutions/products/generators-sources/source-measure-units/gs200/">Yokogawa GS210</a>:
+<img src="/assets/images/2024/SC_coil/gs200_4.jpg" alt="gs200" /></p>
+
+<p>Other options I considered:</p>
+<ul>
+  <li><a href="https://www.thinksrs.com/products/sim928.html">SRS SIM928</a></li>
+  <li><a href="https://www.aimtti.com/go/plh/index.php?p=plhp-index">Aim-TTi PLH</a> (barely enough resolution)</li>
+  <li><a href="https://www.tek.com/en/datasheet/smu-2400-graphical-sourcemeter/model-2450-touchscreen-source-measure-unit-smu-instrument">Keithley SMU 2450</a></li>
+</ul>
+
+<p>In short, check the range and resolution you need, as well as noise. It is possible to add filtering, but not as critical as for an on-chip flux line. The coil itself is already a big inductor.</p>
+
+<h2 id="heating">Heating</h2>
+
+<p>I ran a “stress test” of 100 mA for for a few hours when I installed the coil in the dilfridge for the first time. Since then I believe we’ve run it at ~&gt; 150 mA multiple times.</p>
+
+<p><img src="/assets/images/2024/SC_coil/coil3_image41.png" alt="coil3_image41" />
+<em>Temperature vs. time at different dilfridge stages. The time when the temperature starts rising seems to be different at different stages.</em></p>
+
+<p>The coil was running fine, so the heating and temperature rise of lower stages are from the 4 K plate being heat up by the PB wires. If you get the option for higher current capacity wiring when you are ordering your fridge, the heating could be reduced substantially.</p>
+
+<h1 id="acknowledgements">Acknowledgements</h1>
+
+<p>I got my first vacuum and cryogenic experience at Tsinghua IIIS during my undergrad, and learnt a lot from many of my advisors and colleagues there. There is more during the Stanford time, where I had much more hands on practice like making these coils, and funded by NSF, ARO, AFOSR, as well as NTT and AWS. Special thanks to my friend <a href="https://scholar.google.com/citations?user=tRoZCDEAAAAJ">Haonan</a> who offered many suggestions at the beginning of the coil making progress.</p>
+
+<p>Hope you enjoyed this write up, see you next time!</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#coil" class="page__taxonomy-item p-category" rel="tag">Coil</a><span class="sep">, </span>
+    
+      <a href="/tags/#cryogenics" class="page__taxonomy-item p-category" rel="tag">Cryogenics</a><span class="sep">, </span>
+    
+      <a href="/tags/#current" class="page__taxonomy-item p-category" rel="tag">Current</a><span class="sep">, </span>
+    
+      <a href="/tags/#epoxy" class="page__taxonomy-item p-category" rel="tag">Epoxy</a><span class="sep">, </span>
+    
+      <a href="/tags/#magnet" class="page__taxonomy-item p-category" rel="tag">Magnet</a><span class="sep">, </span>
+    
+      <a href="/tags/#nanofab" class="page__taxonomy-item p-category" rel="tag">Nanofab</a><span class="sep">, </span>
+    
+      <a href="/tags/#superconducting" class="page__taxonomy-item p-category" rel="tag">Superconducting</a><span class="sep">, </span>
+    
+      <a href="/tags/#vacuum" class="page__taxonomy-item p-category" rel="tag">Vacuum</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#tutorial" class="page__taxonomy-item p-category" rel="tag">Tutorial</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-12-08T00:00:00-08:00">December 8, 2024</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=How+to+make+a+superconducting+coil+for+few+mT+magnetic+field+at+mK+temperature%20http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2FSC-coil%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2FSC-coil%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/tutorial/SC-coil/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/ofs/weekly-OFS-23/" class="pagination--pager" title="This week’s outside five sigma (#23)
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-23/" rel="permalink">This week’s outside five sigma (#23)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-11-30T00:00:00-08:00">November 30, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/20240608_20241127/20240608_041250_0.jpg" alt="This week's outside five sigma (#23)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  Folks I just ran into a colored version of this. From a book on microwave tubes from 2020 and with all figures in color would you believe it! (it’s so new...</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-22/" rel="permalink">This week’s outside five sigma (#22)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-11-24T00:00:00-08:00">November 24, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/20241111_20241122/20241117_235011_0.jpg" alt="This week's outside five sigma (#22)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  Starship super heavy’s far field noise is 18 dB less than predicted at 35 km during launch, it’s comparable to around 5 SLS launches and &gt;= 10 Falcon 9...</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/higher-order-effects/" rel="permalink">Beware of higher order effects, and put them to good use
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-11-19T00:00:00-08:00">November 19, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/HOE/LNNB_blender.jpeg" alt="Beware of higher order effects, and put them to good use">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">I was thinking about something related to higher order effect, I did not write it down, and now I don’t remember what it is…
+
+</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-21/" rel="permalink">This week’s outside five sigma (#21)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-11-17T00:00:00-08:00">November 17, 2024</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          5 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2024/20240502_20241115/20241111_013919_0.jpg" alt="This week's outside five sigma (#21)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">
+  Examples from Nanoscribe Webinar Multi-material 3D printing
+
+
+
+
+    
+      10 Webinar Multi-material 3D printing
+      The first example shown above is fo...</p>
+
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Google Scholar</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 <a href="http://localhost:4000">Outside Five Sigma</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/tutorial/SC-coil/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/tutorial/SC-coil"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jwt625.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+    <!-- add mathjax, WTJ, 20240702 -->
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+  
+  
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+  </script>
+  
+  
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+    
+
+  </body>
+</html>
