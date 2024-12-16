@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-15T16:21:46-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#25)</title><link href="http://localhost:4000/ofs/weekly-OFS-25/" rel="alternate" type="text/html" title="This week’s outside five sigma (#25)" /><published>2024-12-15T00:00:00-08:00</published><updated>2024-12-15T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-25</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-25/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-15T23:13:47-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#25)</title><link href="http://localhost:4000/ofs/weekly-OFS-25/" rel="alternate" type="text/html" title="This week’s outside five sigma (#25)" /><published>2024-12-15T00:00:00-08:00</published><updated>2024-12-15T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-25</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-25/"><![CDATA[<ol>
   <li>
     <p>If car fuel efficiency improves similarly as Moore’s law for compute, we’d have cars with 110 light year range now 
 <img src="/assets/images/2024/20240702_20241207/20241204_205509_0.jpg" alt="20241204_205509_0.jpg" /></p>
@@ -89,46 +89,38 @@ The beam is guided by the optical analogy of Lagrange points, or as I would like
     </ul>
   </li>
   <li>“The optical compute interconnect (OCI) chiplet of Intel’s Integrated Photonics Solutions Group, shown next to a pencil eraser.”
-The chip does 4-terabit-per-second bidirectional connection with 5 pJ/bit, using 8 fibers and each with 8 wavelengths DWDM.</li>
-</ol>
-
-<p>If you look very closely, you could actually see eight lanes / channels on the chip (for the 8 fibers), each with what seems to be two rows of ring resonators and eight in each row, likely for the transmit and receive of the eight wavelengths.
-<img src="/assets/images/2024/20240702_20241207/20241205_072610_0.jpg" alt="20241205_072610_0.jpg" /></p>
-<ul>
-  <li><a href="https://www.optica-opn.org/home/industry/2024/june/intel_showcases_optical-interconnect_chiplet/">Intel Showcases Optical-Interconnect Chiplet (June 2024)</a></li>
-  <li>Found more details in this intel blog and presentation:
+The chip does 4-terabit-per-second bidirectional connection with 5 pJ/bit, using 8 fibers and each with 8 wavelengths DWDM.
+    <ul>
+      <li>If you look very closely, you could actually see eight lanes / channels on the chip (for the 8 fibers), each with what seems to be two rows of ring resonators and eight in each row, likely for the transmit and receive of the eight wavelengths.
+<img src="/assets/images/2024/20240702_20241207/20241205_072610_0.jpg" alt="20241205_072610_0.jpg" />
+        <ul>
+          <li><a href="https://www.optica-opn.org/home/industry/2024/june/intel_showcases_optical-interconnect_chiplet/">Intel Showcases Optical-Interconnect Chiplet (June 2024)</a></li>
+          <li>Found more details in this intel blog and presentation:
 <a href="https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/Intel-Shows-OCI-Optical-I-O-Chiplet-Co-packaged-with-CPU-at/post/1582541">Intel® Shows OCI Optical I/O Chiplet Co-packaged with CPU at OFC2024, Enabling Explosive AI Scaling</a></li>
-  <li><a href="https://www.youtube.com/watch?app=desktop&amp;v=rGhfF44-QsE&amp;ab_channel=OpenComputeProject">Optical Compute Interconnect Co packaged optics for AI and compute infrastructure 1</a>
-   <img src="/assets/images/2024/20240702_20241207/20241205_084830_0.jpg" alt="20241205_084830_0.jpg" /></li>
-  <li>Would you prefer dealing with DWDM and 128 ring resonators, or 128 VCSELs + fiber bundle?
-   <img src="/assets/images/2024/20240702_20241207/20241205_085938_0.jpg" alt="20241205_085938_0.jpg" />
-   <img src="/assets/images/2024/20240702_20241207/20241205_085938_1.jpg" alt="20241205_085938_1.jpg" />
-   <img src="/assets/images/2024/20240702_20241207/20241205_085938_2.jpg" alt="20241205_085938_2.jpg" />
-   <img src="/assets/images/2024/20240702_20241207/20241205_085938_3.jpg" alt="20241205_085938_3.jpg" /></li>
-  <li>Don’t give them ideas lol
-(Reminds me of this immediately.. https://arxiv.org/pdf/1302.2153)
-   <img src="/assets/images/2024/20240702_20241207/20241205_231756_0.jpg" alt="20241205_231756_0.jpg" /></li>
-  <li>Found more details in this intel blog and presentation:
-Intel® Shows OCI Optical I/O Chiplet Co-packaged with CPU at OFC2024, Enabling Explosive AI Scaling
-https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/Intel-Shows-OCI-Optical-I-O-Chiplet-Co-packaged-with-CPU-at/post/1582541…
-Optical Compute Interconnect Co packaged optics for AI and compute infrastructure 1
-   <img src="/assets/images/2024/20240702_20241207/20241205_084830_0.jpg" alt="20241205_084830_0.jpg" /></li>
-  <li>It is getting close to look like <a href="https://arxiv.org/pdf/1302.2153">optical metamaterial</a>
-   <img src="/assets/images/2024/20240702_20241207/20241205_231756_0.jpg" alt="20241205_231756_0.jpg" /></li>
-</ul>
-
-<ol>
+          <li><a href="https://www.youtube.com/watch?app=desktop&amp;v=rGhfF44-QsE&amp;ab_channel=OpenComputeProject">Optical Compute Interconnect Co packaged optics for AI and compute infrastructure 1</a>
+ <img src="/assets/images/2024/20240702_20241207/20241205_084830_0.jpg" alt="20241205_084830_0.jpg" /></li>
+          <li>Would you prefer dealing with DWDM and 128 ring resonators, or 128 VCSELs + fiber bundle?
+ <img src="/assets/images/2024/20240702_20241207/20241205_085938_0.jpg" alt="20241205_085938_0.jpg" />
+ <img src="/assets/images/2024/20240702_20241207/20241205_085938_1.jpg" alt="20241205_085938_1.jpg" />
+ <img src="/assets/images/2024/20240702_20241207/20241205_085938_2.jpg" alt="20241205_085938_2.jpg" />
+ <img src="/assets/images/2024/20240702_20241207/20241205_085938_3.jpg" alt="20241205_085938_3.jpg" /></li>
+          <li>It is getting close to look like <a href="https://arxiv.org/pdf/1302.2153">optical metamaterial</a>
+ <img src="/assets/images/2024/20240702_20241207/20241205_231756_0.jpg" alt="20241205_231756_0.jpg" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
   <li>“Yes it got this one mode-hop free range that’s big enough to write a nature paper!”
-Jokes aside it’s cool seeing piezo MEMS, SiN photonics and DFB put together.</li>
-</ol>
-
-<p>Look at those broken wirebonds that did not get removed! Tip of the iceberg of the grad school suffering (and joy) right there.
-<img src="/assets/images/2024/20240702_20241207/20241205_155821_0.jpg" alt="20241205_155821_0.jpg" /></p>
-<ul>
-  <li>Voloshin2024: <a href="https://arxiv.org/abs/2411.19264">Monolithic piezoelectrically tunable hybrid integrated laser with sub-fiber laser coherence</a></li>
-</ul>
-
-<ol>
+    <ul>
+      <li>Jokes aside it’s cool seeing piezo MEMS, SiN photonics and DFB put together.</li>
+      <li>Look at those broken wirebonds that did not get removed! Tip of the iceberg of the grad school suffering (and joy) right there.
+<img src="/assets/images/2024/20240702_20241207/20241205_155821_0.jpg" alt="20241205_155821_0.jpg" />
+        <ul>
+          <li>Voloshin2024: <a href="https://arxiv.org/abs/2411.19264">Monolithic piezoelectrically tunable hybrid integrated laser with sub-fiber laser coherence</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
   <li>Here’s a nice piece of polished ulexite aka television stone, because it has natural parallel fiber bundles that could guide light.
 Some shells also do the same thing for their little symbiotic algae friends: they have microlenses with bundled “fiber optic cables” under it with um level resolution  so that they could pass sunlight thru the shell and stay closed.
 They also transmit ~30% of the good sunlight, and only ~14% the bad UV.
@@ -143,85 +135,58 @@ They also transmit ~30% of the good sunlight, and only ~14% the bad UV.
   <li>Not sure how or why, but this is the smallest operational hinge I’ve ever seen so far.
 <img src="/assets/images/2024/20240702_20241207/20241206_021715_0.jpg" alt="20241206_021715_0.jpg" />
     <ul>
-      <li>Fig. 1: NIST Scientists Use DNA Origami on a Chip to Detect Biomolecules
-https://nist.gov/news-events/news/2024/10/nist-scientists-use-dna-origami-chip-detect-biomolecules…
-Fig. 2: Majikes2024: Variable gain DNA nanostructure charge amplifiers for biosensing
-https://pubs.rsc.org/en/content/articlelanding/2024/nr/d4nr02959c…</li>
+      <li>Fig. 1: <a href="https://nist.gov/news-events/news/2024/10/nist-scientists-use-dna-origami-chip-detect-biomolecules">NIST Scientists Use DNA Origami on a Chip to Detect Biomolecules</a></li>
+      <li>Fig. 2: <a href="https://pubs.rsc.org/en/content/articlelanding/2024/nr/d4nr02959c">Majikes2024: Variable gain DNA nanostructure charge amplifiers for biosensing</a></li>
       <li>This is the smallest hinge I’ve ever toughed
-(https://mcmaster.com/1600A11/)
+<a href="https://mcmaster.com/1600A11/">1600A11</a>
    <img src="/assets/images/2024/20240702_20241207/20241206_022948_0.jpg" alt="20241206_022948_0.jpg" />
    <img src="/assets/images/2024/20240702_20241207/20241206_022948_1.jpg" alt="20241206_022948_1.jpg" /></li>
-      <li>subwavelength optical phased array letss go</li>
     </ul>
   </li>
   <li>Exploring Meta’s project Aria and various projects behind/related to it.
 <img src="/assets/images/2024/20240702_20241207/20241206_043234_0.jpg" alt="20241206_043234_0.jpg" />
     <ul>
-      <li>Main project page: https://projectaria.com
-Paper: Engel2023: Project Aria: A New Tool for Egocentric Multi-Modal AI Research
-https://arxiv.org/abs/2308.13561
-You have to be either in academia or a corporate partner to apply and get their devkit..
+      <li>Main <a href="https://projectaria.com">project page</a></li>
+      <li>Paper: Engel2023: <a href="https://arxiv.org/abs/2308.13561">Project Aria: A New Tool for Egocentric Multi-Modal AI Research</a></li>
+      <li>You have to be either in academia or a corporate partner to apply and get their devkit..
    <img src="/assets/images/2024/20240702_20241207/20241206_043509_0.jpg" alt="20241206_043509_0.jpg" /></li>
-      <li>The glasses is trying to address the dataset problem: “the overwhelming majority of images available on the web and used to train AI models were consciously captured with handheld devices and curated before upload.”
-It’s only 75 gram (cf. quest 3 is 515 g and AVP is ~625 g), but
+      <li>The glasses is trying to address the dataset problem: “the overwhelming majority of images available on the web and used to train AI models were consciously captured with handheld devices and curated before upload.”</li>
+      <li>It’s only 75 gram (cf. quest 3 is 515 g and AVP is ~625 g), but
    <img src="/assets/images/2024/20240702_20241207/20241206_044237_0.jpg" alt="20241206_044237_0.jpg" />
    <img src="/assets/images/2024/20240702_20241207/20241206_044237_1.jpg" alt="20241206_044237_1.jpg" />
    <img src="/assets/images/2024/20240702_20241207/20241206_044237_2.jpg" alt="20241206_044237_2.jpg" /></li>
       <li>They have a few research / tools to support this effort, such as:
-Anonymization (EgoBlur: Responsible Innovation in Aria: https://arxiv.org/abs/2308.13093)
-Scene reconstruction (SceneScript: Reconstructing Scenes With An Autoregressive Structured Language Model: https://arxiv.org/abs/2403.13064)
+Anonymization (EgoBlur: <a href="https://arxiv.org/abs/2308.13093">Responsible Innovation in Aria</a>)</li>
+      <li>Scene reconstruction (<a href="https://arxiv.org/abs/2403.13064">SceneScript: Reconstructing Scenes With An Autoregressive Structured Language Model</a>)
    <img src="/assets/images/2024/20240702_20241207/20241206_045552_0.jpg" alt="20241206_045552_0.jpg" />
    <img src="/assets/images/2024/20240702_20241207/20241206_045552_1.jpg" alt="20241206_045552_1.jpg" />
    <img src="/assets/images/2024/20240702_20241207/20241206_045552_2.jpg" alt="20241206_045552_2.jpg" /></li>
-      <li>The Aria Everyday Activities Dataset paper (https://arxiv.org/abs/2402.13349) actually has a better intro figure for the glasses.
-There’s a few dataset, and they offer you playground in colab such as this one about digital twins and how to fetch the ground truth. More at
+      <li>The <a href="https://arxiv.org/abs/2402.13349">Aria Everyday Activities Dataset paper</a> actually has a better intro figure for the glasses.</li>
+      <li>There’s a few dataset, and they offer you playground in colab such as this one about digital twins and how to fetch the ground truth. More at
    <img src="/assets/images/2024/20240702_20241207/20241206_051655_0.jpg" alt="20241206_051655_0.jpg" />
    <img src="/assets/images/2024/20240702_20241207/20241206_051655_1.jpg" alt="20241206_051655_1.jpg" />
    <img src="/assets/images/2024/20240702_20241207/20241206_051655_2.jpg" alt="20241206_051655_2.jpg" /></li>
-      <li>Yes I should, it looks really sick</li>
     </ul>
   </li>
   <li>Funny opening stuff is ~10x harder than closing stuff.
 <img src="/assets/images/2024/20240702_20241207/20241207_051004_0.jpg" alt="20241207_051004_0.jpg" />
     <ul>
-      <li>Shafiullah2023: On Bringing Robots Home</li>
-      <li>gosh this is so true  Pairing a baby with a robot = perfect solution</li>
+      <li>Shafiullah2023: <a href="https://arxiv.org/abs/2311.16098">On Bringing Robots Home</a></li>
     </ul>
   </li>
   <li>Hate bearings? These flexure pivots might work for you.
 <img src="/assets/images/2024/20240702_20241207/20241207_054416_0.jpg" alt="20241207_054416_0.jpg" />
     <ul>
-      <li>Free-Flex® Pivot:
-https://flexpivots.com
-3D models:
-https://flexpivots.com/3d-models/</li>
-      <li>More stiff than I expected along other dof. Also look pretty wire EDM-able?
+      <li><a href="https://flexpivots.com">Free-Flex® Pivot</a></li>
+      <li><a href="https://flexpivots.com/3d-models/">3D models</a></li>
+      <li>More stiff than I expected along other dof. Also look pretty wire EDM-able? (animations in <a href="https://x.com/jwt0625/status/1865271085710881255">thread</a>)
    <img src="/assets/images/2024/20240702_20241207/20241207_062706_0.jpg" alt="20241207_062706_0.jpg" /></li>
       <li>The pivoting motion is the fundamental mode, and is 4x less stiff in terms of eigen frequency. Color is displacement field norm.
    <img src="/assets/images/2024/20240702_20241207/20241207_212301_0.jpg" alt="20241207_212301_0.jpg" />
    <img src="/assets/images/2024/20240702_20241207/20241207_212301_1.jpg" alt="20241207_212301_1.jpg" />
    <img src="/assets/images/2024/20240702_20241207/20241207_212301_2.jpg" alt="20241207_212301_2.jpg" />
    <img src="/assets/images/2024/20240702_20241207/20241207_212301_3.jpg" alt="20241207_212301_3.jpg" /></li>
-      <li>Found a relevant presentation, they reviewed existing crossed flexure pivot (CFP), and introduced their new design called Triple crossed flexure pivot (TRIVOT)
-https://youtube.com/watch?v=uvEjIaz8J2g&amp;ab_channel=Instant-Lab…
-   <img src="/assets/images/2024/20240702_20241207/20241207_220439_0.jpg" alt="20241207_220439_0.jpg" />
-   <img src="/assets/images/2024/20240702_20241207/20241207_220439_1.jpg" alt="20241207_220439_1.jpg" />
-   <img src="/assets/images/2024/20240702_20241207/20241207_220439_2.jpg" alt="20241207_220439_2.jpg" />
-   <img src="/assets/images/2024/20240702_20241207/20241207_220439_3.jpg" alt="20241207_220439_3.jpg" /></li>
-      <li>The motivation is to reduce the parasitic center shift and increase the maximal stroke
-   <img src="/assets/images/2024/20240702_20241207/20241207_220821_0.jpg" alt="20241207_220821_0.jpg" />
-   <img src="/assets/images/2024/20240702_20241207/20241207_220821_1.jpg" alt="20241207_220821_1.jpg" />
-   <img src="/assets/images/2024/20240702_20241207/20241207_220821_2.jpg" alt="20241207_220821_2.jpg" />
-   <img src="/assets/images/2024/20240702_20241207/20241207_220821_3.jpg" alt="20241207_220821_3.jpg" /></li>
-      <li>More stiff than I expected along other dof. Also look pretty wire EDM-able?
-   <img src="/assets/images/2024/20240702_20241207/20241207_062706_0.jpg" alt="20241207_062706_0.jpg" /></li>
-      <li>The pivoting motion is the fundamental mode, and is 4x less stiff in terms of eigen frequency. Color is displacement field norm.
-   <img src="/assets/images/2024/20240702_20241207/20241207_212301_0.jpg" alt="20241207_212301_0.jpg" />
-   <img src="/assets/images/2024/20240702_20241207/20241207_212301_1.jpg" alt="20241207_212301_1.jpg" />
-   <img src="/assets/images/2024/20240702_20241207/20241207_212301_2.jpg" alt="20241207_212301_2.jpg" />
-   <img src="/assets/images/2024/20240702_20241207/20241207_212301_3.jpg" alt="20241207_212301_3.jpg" /></li>
-      <li>Found a relevant presentation, they reviewed existing crossed flexure pivot (CFP), and introduced their new design called Triple crossed flexure pivot (TRIVOT)
-https://youtube.com/watch?v=uvEjIaz8J2g&amp;ab_channel=Instant-Lab…
+      <li>Found a relevant presentation, they reviewed existing crossed flexure pivot (CFP), and introduced their new design called <a href="https://youtube.com/watch?v=uvEjIaz8J2g&amp;ab_channel=Instant-Lab">Triple crossed flexure pivot (TRIVOT)</a>
    <img src="/assets/images/2024/20240702_20241207/20241207_220439_0.jpg" alt="20241207_220439_0.jpg" />
    <img src="/assets/images/2024/20240702_20241207/20241207_220439_1.jpg" alt="20241207_220439_1.jpg" />
    <img src="/assets/images/2024/20240702_20241207/20241207_220439_2.jpg" alt="20241207_220439_2.jpg" />
@@ -238,14 +203,14 @@ Just a demo though, no insertion loss from the actual PRC yet.
 <img src="/assets/images/2024/20240702_20241207/20241207_064703_0.jpg" alt="20241207_064703_0.jpg" />
 <img src="/assets/images/2024/20240702_20241207/20241207_064703_1.jpg" alt="20241207_064703_1.jpg" />
     <ul>
-      <li>Saha2024: Photonic Ribbon Cables: CMOS-fabricated Devices for Scalable Chip-to-chip Optical and Electrical Interconnectio</li>
+      <li>Saha2024: <a href="https://opg.optica.org/abstract.cfm?URI=FiO-2024-FTh1D.1">Photonic Ribbon Cables: CMOS-fabricated Devices for Scalable Chip-to-chip Optical and Electrical Interconnection</a></li>
     </ul>
   </li>
   <li>TIL there’s a type of spiders called ray spiders: they would tension up the net into a cone, detect the direction and distance of flying prey, and then release and slingshot towards the prey at up to 50 g (?!), capturing it mid-flight within 38 ms.
 The two videos are slowed down by ~17x and ~33x.
 <img src="/assets/images/2024/20240702_20241207/20241207_085141_0.jpg" alt="20241207_085141_0.jpg" />
     <ul>
-      <li>Han2024: Directional web strikes are performed by ray spiders in response to airborne prey vibrations</li>
+      <li>Han2024: <a href="https://journals.biologists.com/jeb/article/227/23/jeb249237/363202/Directional-web-strikes-are-performed-by-ray">Directional web strikes are performed by ray spiders in response to airborne prey vibrations</a></li>
       <li>To be fair, for constant strain-stress and comparable density, object size * acceleration is a constant. They are ~ 1 mm, so 50g for them would feel like 0.5g for us.
    <img src="/assets/images/2024/20240702_20241207/20241207_090457_0.jpg" alt="20241207_090457_0.jpg" /></li>
     </ul>
@@ -257,8 +222,7 @@ COMSOL has an Orbital Thermal Loads interface that helps you track the orbit and
 <img src="/assets/images/2024/20240702_20241207/20241207_171901_2.jpg" alt="20241207_171901_2.jpg" />
 <img src="/assets/images/2024/20240702_20241207/20241207_171901_3.jpg" alt="20241207_171901_3.jpg" />
     <ul>
-      <li>COMSOL Blog - Computing Orbital Heat Loads with COMSOL Multiphysics®</li>
-      <li>Planet IR?</li>
+      <li>COMSOL Blog - <a href="https://www.comsol.com/blogs/computing-orbital-heat-loads-with-comsol-multiphysics">Computing Orbital Heat Loads with COMSOL Multiphysics®</a></li>
     </ul>
   </li>
   <li>Seeing “Rabi oscillation” wrt number of gates in the thousands because of small miscal in amplitude/frequency 
@@ -266,15 +230,10 @@ COMSOL has an Orbital Thermal Loads interface that helps you track the orbit and
 <img src="/assets/images/2024/20240702_20241207/20241207_175312_0.jpg" alt="20241207_175312_0.jpg" />
 <img src="/assets/images/2024/20240702_20241207/20241207_175312_1.jpg" alt="20241207_175312_1.jpg" />
     <ul>
-      <li>Smith2024: Single-qubit gates with errors at the 10^−7 level</li>
-      <li>Yep but depends on what type of circuits
-   <img src="/assets/images/2024/20240702_20241207/20241207_201601_0.jpg" alt="20241207_201601_0.jpg" />
-   <img src="/assets/images/2024/20240702_20241207/20241207_201601_1.jpg" alt="20241207_201601_1.jpg" />
-   <img src="/assets/images/2024/20240702_20241207/20241207_201601_2.jpg" alt="20241207_201601_2.jpg" />
-   <img src="/assets/images/2024/20240702_20241207/20241207_201601_3.jpg" alt="20241207_201601_3.jpg" /></li>
+      <li>Smith2024: <a href="https://arxiv.org/abs/2412.04421">Single-qubit gates with errors at the 10^−7 level</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><summary type="html"><![CDATA[If car fuel efficiency improves similarly as Moore’s law for compute, we’d have cars with 110 light year range now]]></summary></entry><entry><title type="html">How to make a superconducting coil for few mT magnetic field at mK temperature</title><link href="http://localhost:4000/tutorial/SC-coil/" rel="alternate" type="text/html" title="How to make a superconducting coil for few mT magnetic field at mK temperature" /><published>2024-12-08T00:00:00-08:00</published><updated>2024-12-08T00:00:00-08:00</updated><id>http://localhost:4000/tutorial/SC-coil</id><content type="html" xml:base="http://localhost:4000/tutorial/SC-coil/"><![CDATA[<p>Coil is simple to make (lol maybe I’m too naive), why am I writing this and what would you be able to learn from it?</p>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="DNN" /><category term="Adhesive" /><category term="Thermal" /><category term="LDPE" /><category term="NIST" /><category term="Optics" /><category term="Waveguide" /><category term="Photonics" /><category term="Interconnect" /><category term="Laser" /><category term="Ulexite" /><category term="Meta" /><category term="AR" /><category term="Flexure" /><category term="Spider" /><category term="Satellite" /><category term="Qubit" /><summary type="html"><![CDATA[If car fuel efficiency improves similarly as Moore’s law for compute, we’d have cars with 110 light year range now]]></summary></entry><entry><title type="html">How to make a superconducting coil for few mT magnetic field at mK temperature</title><link href="http://localhost:4000/tutorial/SC-coil/" rel="alternate" type="text/html" title="How to make a superconducting coil for few mT magnetic field at mK temperature" /><published>2024-12-08T00:00:00-08:00</published><updated>2024-12-08T00:00:00-08:00</updated><id>http://localhost:4000/tutorial/SC-coil</id><content type="html" xml:base="http://localhost:4000/tutorial/SC-coil/"><![CDATA[<p>Coil is simple to make (lol maybe I’m too naive), why am I writing this and what would you be able to learn from it?</p>
 <ul>
   <li>These coils go into high vacuum and low temperature, so not as common as typical applications</li>
   <li>More consideration for thermalization and heating</li>

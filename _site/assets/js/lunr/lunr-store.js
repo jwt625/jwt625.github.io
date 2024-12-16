@@ -283,7 +283,7 @@ var store = [{
       },{
         "title": "This week's outside five sigma (#25)",
         "excerpt":"If car fuel efficiency improves similarly as Moore’s law for compute, we’d have cars with 110 light year range now The number of transistors we are making per second (1e14~1e15?) is very far from the number of new born bacteria per second (&gt;1e23) Daniel Fisher - “Physicists and Evolution :...","categories": ["OFS"],
-        "tags": [],
+        "tags": ["Nanofab","DNN","Adhesive","Thermal","LDPE","NIST","Optics","Waveguide","Photonics","Interconnect","Laser","Ulexite","Meta","AR","Flexure","Spider","Satellite","Qubit"],
         "url": "/ofs/weekly-OFS-25/",
         "teaser": null
       }]
