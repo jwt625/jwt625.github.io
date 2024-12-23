@@ -1,0 +1,864 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1867989155227340957",
+        "tweets": [
+            {
+                "text": "POV your job is to build a 20 MW calorimeter and calibrate it",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GextqF-bMAA3qN1?format=jpg",
+                        "local_path": "media/20241214_174454_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gext7J4bMAAkBm3?format=jpg",
+                        "local_path": "media/20241214_174454_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-14T17:44:54+00:00"
+            },
+            {
+                "text": "Bryant2019: The NIST 20 MW Calorimetry Measurement System for Large-Fire Research\nhttps://nist.gov/publications/nist-20-mw-calorimetry-measurement-system-large-fire-research…\nThey do amazing measurements with it.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GexuphWbEAEiqQN?format=jpg",
+                        "local_path": "media/20241214_174651_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-14T17:46:51+00:00"
+            },
+            {
+                "text": "This was 2019 so I’d guess not yet",
+                "media": [],
+                "timestamp": "2024-12-15T00:09:11+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1867106611837407245",
+        "tweets": [
+            {
+                "text": "ah the good ol' days when you are part of the scientific instrument (well actually you always are)\n(Measuring the speed of sound in water, 1841)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GelKM93b0AAfqO_?format=jpg",
+                        "local_path": "media/20241212_071800_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-12T07:18:00+00:00"
+            },
+            {
+                "text": "Jean-Daniel Colladon, savant et industriel genevois\nhttps://web.archive.org/web/20140222223427/http://www.ville-ge.ch/mhs/pdf/aide_colladon.pdf…",
+                "media": [],
+                "timestamp": "2024-12-12T07:19:19+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1865608647423693184",
+        "tweets": [
+            {
+                "text": "TIL there is a NIST Standard Reference Material (SRM) for cat food, but not dog food \nWondering which cat person at NIST did this.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeP4vjGWsAEJYo_?format=jpg",
+                        "local_path": "media/20241208_040537_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeP4vjFXEAA35pI?format=jpg",
+                        "local_path": "media/20241208_040537_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-08T04:05:37+00:00"
+            },
+            {
+                "text": "NIST store - dry cat food\nhttps://shop.nist.gov/ccrz__ProductDetails?sku=3290&cclcl=en_US…\nTalk NISTy to Me: When Everyday Words Take On Different Meanings in Measurement Science",
+                "media": [],
+                "timestamp": "2024-12-08T04:07:07+00:00"
+            },
+            {
+                "text": "Not in the NIST store lol",
+                "media": [],
+                "timestamp": "2024-12-08T04:15:33+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1866022500322398419",
+        "tweets": [
+            {
+                "text": "When would we be able to assemble a dataset like this but for lab/fab/shop/factory scenarios? Is it possible? Would all the technical stuff get blurred for confidentiality just like people's faces and license plates etc. for privacy concerns?\nMaybe everyone do need to collect their own data and train/finetune their own models.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeVwzymaAAAdu20?format=jpg",
+                        "local_path": "media/20241209_073007_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeVw8S5asAAMnQr?format=jpg",
+                        "local_path": "media/20241209_073007_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeVw-zja0AA8Jme?format=jpg",
+                        "local_path": "media/20241209_073007_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeVxRGyacAAwFK0?format=png",
+                        "local_path": "media/20241209_073007_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-09T07:30:07+00:00"
+            },
+            {
+                "text": "Grauman2022: Ego4D: Around the World in 3,000 Hours of Egocentric Video\nhttps://openaccess.thecvf.com/content/CVPR2022/html/Grauman_Ego4D_Around_the_World_in_3000_Hours_of_Egocentric_Video_CVPR_2022_paper.html…\nProject page: https://ego4d-data.org",
+                "media": [],
+                "timestamp": "2024-12-09T07:32:06+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2024-12-09T07:33:17+00:00"
+            },
+            {
+                "text": "It does have many common tool using scenarios, and the video includes narative description, camera pose, IMU, and eye tracking.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeVytDyacAAfBOC?format=jpg",
+                        "local_path": "media/20241209_073824_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeVyx29akAACmB_?format=jpg",
+                        "local_path": "media/20241209_073824_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeVzEgvbAAAMjBj?format=jpg",
+                        "local_path": "media/20241209_073824_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeVzQP-aIAA3jct?format=jpg",
+                        "local_path": "media/20241209_073824_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-09T07:38:24+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1866165744326889868",
+        "tweets": [
+            {
+                "text": "invrs-gym: an open-source gym containing a diverse set of photonic design challenges\nA leaderboard is nice, but what about a huggingface for e&m sim?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeXzfgabUAI9Nu4?format=jpg",
+                        "local_path": "media/20241209_165919_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-09T16:59:19+00:00"
+            },
+            {
+                "text": "Project: https://invrs-io.github.io/gym/readme.html#…\nLeaderboard: https://invrs-io.github.io/leaderboard/index.html…",
+                "media": [],
+                "timestamp": "2024-12-09T16:59:52+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1866373992728461411",
+        "tweets": [
+            {
+                "text": "You'll need somewhere between 5 to 50,000 of 12in wafers of superconducting qubits (and connect & operate them properly) to make a cryptanalytically relevant quantum computer (CRQC).",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeawP15a0AAze-0?format=jpg",
+                        "local_path": "media/20241122_165225_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeawRDLbsAATZoq?format=png",
+                        "local_path": "media/20241122_165225_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdAMC68agAM1c2x?format=jpg",
+                        "local_path": "media/20241122_165225_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdAMJdXagAU8ZrM?format=jpg",
+                        "local_path": "media/20241122_165225_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdANVchagAELtNn?format=png",
+                        "local_path": "media/20241122_165225_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdAN0JzacAAxVCQ?format=jpg",
+                        "local_path": "media/20241122_165225_5.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-22T16:52:25+00:00"
+            },
+            {
+                "text": "Parker2023: Estimating the Energy Requirements to Operate a Cryptanalytically Relevant Quantum Computer\nhttps://rand.org/pubs/working_papers/WRA2427-1.html…\nThere are a lot of interesting numbers in it ",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeaxrDOawAAKV8A?format=png",
+                        "local_path": "media/20241210_064912_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Geaxy4qacAAEiRF?format=png",
+                        "local_path": "media/20241210_064912_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-10T06:49:12+00:00"
+            },
+            {
+                "text": "Give me $1M +- 20 dB for buying the wafers I'll get the process started!",
+                "media": [],
+                "timestamp": "2024-12-10T06:51:16+00:00"
+            },
+            {
+                "text": "Sadly it is a very specific benchmark. According to the paper above, they are at least three orders of magnitude in numbers of qubits from the “cryptanalytically relevant”.\nIt’s making necessary progress towards it and very hard to achieve without their level of effort",
+                "media": [],
+                "timestamp": "2024-12-10T07:47:40+00:00"
+            },
+            {
+                "text": "Time to return to the moon",
+                "media": [],
+                "timestamp": "2024-12-11T00:16:32+00:00"
+            },
+            {
+                "text": "Funny it’s actually on the order of 50,000 wafers per day. So probably not everyone is gonna have their quantum computer. Operating it is another problem. The fridge for cooling a few hundred qubits is already ~$5M.",
+                "media": [],
+                "timestamp": "2024-12-10T22:03:21+00:00"
+            },
+            {
+                "text": "They build one with *checks notes* 105 qubits.\n(They did error correction and showed it got better when they \"correct it more\", which is very impressive)\n(screenshot from https://blog.google/technology/research/google-willow-quantum-chip/…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Geaz4IjbkAAD51y?format=jpg",
+                        "local_path": "media/20241210_065909_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-10T06:59:09+00:00"
+            },
+            {
+                "text": "Funny it’s actually on the order of 50,000 wafers per day. So probably not everyone is gonna have their quantum computer. Operating it is another problem. The fridge for cooling a few hundred qubits is already ~$5M.",
+                "media": [],
+                "timestamp": "2024-12-10T22:03:21+00:00"
+            },
+            {
+                "text": "They build one with *checks notes* 105 qubits.\n(They did error correction and showed it got better when they \"correct it more\", which is very impressive)\n(screenshot from https://blog.google/technology/research/google-willow-quantum-chip/…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Geaz4IjbkAAD51y?format=jpg",
+                        "local_path": "media/20241210_065909_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-10T06:59:09+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1866520556407050668",
+        "tweets": [
+            {
+                "text": "A vibrator but mm size and does ultrasonic imaging inside your blood vessels.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gec2bSKbsAAMazj?format=jpg",
+                        "local_path": "media/20241210_162913_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-10T16:29:13+00:00"
+            },
+            {
+                "text": "Qiu2024: Textured-piezoelectric-ceramic-based focused intravascular ultrasonic transducer with improved image quality and uniformity",
+                "media": [],
+                "timestamp": "2024-12-10T16:29:43+00:00"
+            },
+            {
+                "text": "Single pixel, but it rotates driven by that coil and a motor",
+                "media": [],
+                "timestamp": "2024-12-10T19:24:19+00:00"
+            },
+            {
+                "text": "Yes I was reading about them a while ago.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZMJfTObAAAFXVj?format=jpg",
+                        "local_path": "media/20241210_232214_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZMJtW2agAAsRpF?format=jpg",
+                        "local_path": "media/20241210_232214_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZMJ84hbcAEbeJT?format=jpg",
+                        "local_path": "media/20241210_232214_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZMKim6aMAAWFA0?format=jpg",
+                        "local_path": "media/20241210_232214_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-10T23:22:14+00:00"
+            },
+            {
+                "text": "Yes\nHis ultrafast imaging with streak camera is also pretty cool",
+                "media": [],
+                "timestamp": "2024-12-10T17:01:17+00:00"
+            },
+            {
+                "text": "let me find you the one that could actually move around on its own... ah yes: https://endiatx.com\nAlso:",
+                "media": [],
+                "timestamp": "2024-12-11T06:47:28+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1866733063503483326",
+        "tweets": [
+            {
+                "text": "These are shaped water puddles, created with Leidenfrost effect + hydrophilic aluminum plate (~0.1 mm thick) placed on top of them.\nHeight of the puddle is comparable/limited to the capillary length, which is given by a combination of surface tension, density, and gravity.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gef3IPKaEAIVsyV?format=jpg",
+                        "local_path": "media/20241211_063339_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-11T06:33:39+00:00"
+            },
+            {
+                "text": "Pacheco2024: Designing Leidenfrost Puddles",
+                "media": [],
+                "timestamp": "2024-12-11T06:34:37+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1866747040564384191",
+        "tweets": [
+            {
+                "text": "What a coincidence, when you make a microwave coax cable superconduct, its propagation loss became very similar to optical fibers, 0.3 dB/km instead of the usual ~0.5 dB/m.\nBut wait, the wavelength for light is much shorter, 40,000x shorter. So don't get fooled, fiber is still much much better in propagation length in wavelengths, or quality factor Q.\nIf you run the numbers, the Q for a telecom fiber at 1.55 um is 130 billion... If a superconducting qubit has this Q, its T1 would be four seconds instead of few hundred microseconds. A microwave photon would be able to live in the superconducting cable for ~100 us, comparable to the best SC qubits.\n\nAlso the spool of cable takes a whopping one week to thermalize... Maybe they should pot most of it in stycast lol.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gef-X5RaYAAPzlw?format=jpg",
+                        "local_path": "media/20241211_072911_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gef-icgaEAI7qXZ?format=jpg",
+                        "local_path": "media/20241211_072911_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gef-sKvaEAEHfca?format=jpg",
+                        "local_path": "media/20241211_072911_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-11T07:29:11+00:00"
+            },
+            {
+                "text": "Qiu2024: Deterministic quantum state and gate teleportation between distant superconducting chips\nhttps://doi.org/10.1016/j.scib.2024.11.047…\n(also on arxiv: https://arxiv.org/abs/2302.08756)\nThe experiment is similar to this one but with a longer cable: https://nature.com/articles/s41586-021-03288-7…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GegE7CLaEAIyyvZ?format=jpg",
+                        "local_path": "media/20241211_073208_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-11T07:32:08+00:00"
+            },
+            {
+                "text": "I was expecting a superconducting rectangular waveguide would be better than the coax, but nope it is comparable.\nTo be fair this is the loaded Q or total Q, including external coupling loss, and looks like it's dominated by external coupling (S21 very close to 1). So intrinsic Q",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Geh0QG1aEAM1VMu?format=jpg",
+                        "local_path": "media/20241211_154155_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Geh0RGoaEAMhPyi?format=jpg",
+                        "local_path": "media/20241211_154155_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Geh0ZYPaEAIh4DZ?format=jpg",
+                        "local_path": "media/20241211_154155_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Geh0fUQaEAInUpn?format=jpg",
+                        "local_path": "media/20241211_154155_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-11T15:41:55+00:00"
+            },
+            {
+                "text": "(S21 of the waveguide resonance very close to 1)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Geh1r7FbYAAw8wY?format=jpg",
+                        "local_path": "media/20241211_154404_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-11T15:44:04+00:00"
+            },
+            {
+                "text": "I was expecting a superconducting rectangular waveguide would be better than the coax, but nope it is comparable.\nTo be fair this is the loaded Q or total Q, including external coupling loss, and looks like it's dominated by external coupling (S21 very close to 1). So intrinsic Q",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Geh0QG1aEAM1VMu?format=jpg",
+                        "local_path": "media/20241211_154155_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Geh0RGoaEAMhPyi?format=jpg",
+                        "local_path": "media/20241211_154155_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Geh0ZYPaEAIh4DZ?format=jpg",
+                        "local_path": "media/20241211_154155_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Geh0fUQaEAInUpn?format=jpg",
+                        "local_path": "media/20241211_154155_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-11T15:41:55+00:00"
+            },
+            {
+                "text": "(S21 of the waveguide resonance very close to 1)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Geh1r7FbYAAw8wY?format=jpg",
+                        "local_path": "media/20241211_154404_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-11T15:44:04+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1867082741797491050",
+        "tweets": [
+            {
+                "text": "TIL PornHub publishes many statistics, from how the election affected traffic compared to usual average, to yearly review of stuff like how long people last per visit.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gek01I7aEAE6BaP?format=jpg",
+                        "local_path": "media/20241212_054309_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gek01I9acAACDso?format=jpg",
+                        "local_path": "media/20241212_054309_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gek01I6bMAAEGpm?format=jpg",
+                        "local_path": "media/20241212_054309_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gek01I-aEAI5mDY?format=jpg",
+                        "local_path": "media/20241212_054309_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-12T05:43:09+00:00"
+            },
+            {
+                "text": "From:\nhttps://pornhub.com/insights/2024-presidential-election…\nAnd:\nhttps://pornhub.com/insights/2024-year-in-review…",
+                "media": [],
+                "timestamp": "2024-12-12T05:45:22+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1867100053351084305",
+        "tweets": [
+            {
+                "text": "Surprise! When you dig out an empty core surrounded by strongly scattering media, light is better guided inside the core!\nWhile maybe I should stop being surprised this is in nature physics, it is pretty relevant to bio applications. They even showed a \"Monte Carlo simulation of light propagating through the human head\", \"guided\" by the cerebrospinal fluid (CSF).",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GelDtU6aEAM8beI?format=jpg",
+                        "local_path": "media/20241212_065156_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GelDzoYakAAJpas?format=jpg",
+                        "local_path": "media/20241212_065156_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GelEWo-a8AErIQx?format=jpg",
+                        "local_path": "media/20241212_065156_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GelEgyraEAELlne?format=jpg",
+                        "local_path": "media/20241212_065156_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-12T06:51:56+00:00"
+            },
+            {
+                "text": "Mitchell2024: Energy transport in diffusive waveguides",
+                "media": [],
+                "timestamp": "2024-12-12T06:54:01+00:00"
+            },
+            {
+                "text": "They cited the original 1842 paper on how light is guided inside a liquid stream from TIR:\nColladon, D. On the reflections of a ray of light inside a parabolic liquid stream. Comptes Rendus 15, 800–802 (1842)\nAll I could find is this collection of his work:",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GelH1DqaEAABwkZ?format=png",
+                        "local_path": "media/20241212_070147_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GelH1-FaEAEVIZ4?format=png",
+                        "local_path": "media/20241212_070147_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-12T07:01:47+00:00"
+            },
+            {
+                "text": "In terms of numbers of scattering, yes, mainly for the \"cladding\". The core is low scattering compared to the cladding in their case, but still very high compared to fiber.",
+                "media": [],
+                "timestamp": "2024-12-12T07:24:57+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1867249864591196651",
+        "tweets": [
+            {
+                "text": "Semiconductor Supply Chain “Eco System” Overview (December 5, 2024)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GenNPUsaQAAlxBU?format=jpg",
+                        "local_path": "media/20241212_164714_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GenNbBEbIAAZNOJ?format=jpg",
+                        "local_path": "media/20241212_164714_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GenNfxMboAEqPzn?format=jpg",
+                        "local_path": "media/20241212_164714_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GenNlKgbwAA-7Y8?format=jpg",
+                        "local_path": "media/20241212_164714_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-12T16:47:14+00:00"
+            },
+            {
+                "text": "Patterning usually gets the highlight, but there are more process steps with significant market.\nMore at https://r6.ieee.org/scv-eps/?p=3356",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GenOETRbsAEzJCB?format=jpg",
+                        "local_path": "media/20241212_165000_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GenOTMEbsAIS4Lw?format=jpg",
+                        "local_path": "media/20241212_165000_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GenOYRYbsAMdCfa?format=jpg",
+                        "local_path": "media/20241212_165000_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GenOfACbsAA7EWb?format=jpg",
+                        "local_path": "media/20241212_165000_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-12T16:50:00+00:00"
+            },
+            {
+                "text": "Applied Materials + ASML > 50% of the market.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GenO7d3akAA9UyJ?format=jpg",
+                        "local_path": "media/20241212_165432_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GenPJwAbsAUClUU?format=jpg",
+                        "local_path": "media/20241212_165432_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GenPRVQakAA1ug5?format=jpg",
+                        "local_path": "media/20241212_165432_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GenPg2CaEAA1rGv?format=jpg",
+                        "local_path": "media/20241212_165432_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-12T16:54:32+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1867388668224450979",
+        "tweets": [
+            {
+                "text": "Fabry-Perot cavity at fiber tip for photoacoustic sensing",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GepK2CPbwAAO7WY?format=jpg",
+                        "local_path": "media/20241213_015847_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GepLM82bsAEAtJP?format=jpg",
+                        "local_path": "media/20241213_015847_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-13T01:58:47+00:00"
+            },
+            {
+                "text": "Peng2024: High-sensitive Fabry-Perot cavity-enhanced optical resonator for photoacoustic sensing\nhttps://doi.org/10.1364/OE.540477…",
+                "media": [],
+                "timestamp": "2024-12-13T01:59:23+00:00"
+            },
+            {
+                "text": "Reminds me of my friends' work. His newest version has the fiber and membrane self-aligned using flip chip bonding and solder reflow process, \"an optical chip houses the fiber, and a mechanical chip contains the diaphragm.\"\n(Afshar2022: High-precision acoustic and inertial",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GepMVIgbEAAdC7i?format=jpg",
+                        "local_path": "media/20241213_020426_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GepMaEtbsAIux6I?format=jpg",
+                        "local_path": "media/20241213_020426_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GepMrbba0AAiiRW?format=jpg",
+                        "local_path": "media/20241213_020426_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-13T02:04:26+00:00"
+            },
+            {
+                "text": "uPa level, so maybe a few orders of magnitude better",
+                "media": [],
+                "timestamp": "2024-12-13T07:07:18+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1867465010420887652",
+        "tweets": [
+            {
+                "text": "Laser ranging over 100+ km with ~100 nm precision! (in 21 s, and ~10 um in 1 ms)\nNote it is not 100 nm accuracy because of fluctuations in air, of which they could measure the temperature to what looks like 0.01 K level lol.\n\nIt uses frequency comb, which roughly speaking gives you nm-scale resolution similar to c.w. laser interferometry, and large ambiguity range from the RF frequency repetition rate, and can be further extended with multiple/tunable repetition rate.\n\nWhat is it for? Definitely too fancy for daily activities. It is for e.g. a 100 km synthetic aperture X-ray telescope, which needs nanoscale precision of the baseline distance, or measure \"spatial structures and finally the temporal changes of the Earth's gravitational field\", because it would change the satellite orbit a bit, aka satellite gravimetry.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqLtBrbsAEsBIu?format=jpg",
+                        "local_path": "media/20241213_070208_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqMwq3bUAANYDu?format=jpg",
+                        "local_path": "media/20241213_070208_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqM17Pa8AAu8aP?format=jpg",
+                        "local_path": "media/20241213_070208_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-13T07:02:08+00:00"
+            },
+            {
+                "text": "Chen2024: 113 km absolute ranging with nanometer precision\nhttps://arxiv.org/abs/2412.05542\nThey have to synchronize the clocks and lasers at the two stations to do the two-way version, which saves half of the transmission power loss, and that is a separate work on its own:\nShen2022:",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqSSBebsAMxw-x?format=jpg",
+                        "local_path": "media/20241213_070528_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-13T07:05:28+00:00"
+            },
+            {
+                "text": "The previous and \"original\" dual comb ranging paper has better explanation of how this approach works to get both high precision and large ambiguity range.\n\nTheir fig. 1 shows the idea nicely in time domain. Basically, the dual optical frequency comb beats against each other and",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqTcFGbsAQxr9h?format=jpg",
+                        "local_path": "media/20241213_071727_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-13T07:17:27+00:00"
+            },
+            {
+                "text": "God bless people who care about refractive index of air down to 1e-8, under different conditions and laser wavelengths.\nCiddor1996: Refractive index of air: new equations for the visible and near infrared\nhttps://doi.org/10.1364/AO.35.001566…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqV1b0boAANvKA?format=png",
+                        "local_path": "media/20241213_072159_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-13T07:21:59+00:00"
+            },
+            {
+                "text": "Never heard of or thought about satellite gravimetry before. This one has a lot of tasty figures. Some of the missions could already resolve ~10 millionth of the Earth’s gravity (10 milliGal), or ~10 cm equivalent water height (EWH).\nFlechtner2021: Satellite Gravimetry: A Review",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqXOrWbEAAIftG?format=jpg",
+                        "local_path": "media/20241213_073332_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqXrgabsAAzdiT?format=jpg",
+                        "local_path": "media/20241213_073332_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqYDZKbsAQMNdo?format=jpg",
+                        "local_path": "media/20241213_073332_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqYMPVbMAAOQ-h?format=jpg",
+                        "local_path": "media/20241213_073332_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-13T07:33:32+00:00"
+            },
+            {
+                "text": "The previous and \"original\" dual comb ranging paper has better explanation of how this approach works to get both high precision and large ambiguity range.\n\nTheir fig. 1 shows the idea nicely in time domain. Basically, the dual optical frequency comb beats against each other and",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqTcFGbsAQxr9h?format=jpg",
+                        "local_path": "media/20241213_071727_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-13T07:17:27+00:00"
+            },
+            {
+                "text": "God bless people who care about refractive index of air down to 1e-8, under different conditions and laser wavelengths.\nCiddor1996: Refractive index of air: new equations for the visible and near infrared\nhttps://doi.org/10.1364/AO.35.001566…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqV1b0boAANvKA?format=png",
+                        "local_path": "media/20241213_072159_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-13T07:21:59+00:00"
+            },
+            {
+                "text": "Never heard of or thought about satellite gravimetry before. This one has a lot of tasty figures. Some of the missions could already resolve ~10 millionth of the Earth’s gravity (10 milliGal), or ~10 cm equivalent water height (EWH).\nFlechtner2021: Satellite Gravimetry: A Review",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqXOrWbEAAIftG?format=jpg",
+                        "local_path": "media/20241213_073332_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqXrgabsAAzdiT?format=jpg",
+                        "local_path": "media/20241213_073332_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqYDZKbsAQMNdo?format=jpg",
+                        "local_path": "media/20241213_073332_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqYMPVbMAAOQ-h?format=jpg",
+                        "local_path": "media/20241213_073332_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-13T07:33:32+00:00"
+            },
+            {
+                "text": "I figure I should also include some background on optical frequency comb and dual comb.\nOptical frequency comb is very nice for metrology since it links the optical and RF frequency domains. Dual comb got the extra benefits of heterodyne detection, plus no need for ultrafast",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Geqa_OoaoAEsihk?format=jpg",
+                        "local_path": "media/20241213_074410_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeqbAVQasAAew5t?format=jpg",
+                        "local_path": "media/20241213_074410_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-13T07:44:10+00:00"
+            },
+            {
+                "text": "Yes it’s wild! 1e-10 fractional and they actually did it over 100 km.\nI follow this guy’s new papers with google scholar alert. He has a big big group of people working on quantum stuff, including all the tangents like these free space optical comm.",
+                "media": [],
+                "timestamp": "2024-12-13T15:48:41+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1868098061630939332",
+        "tweets": [
+            {
+                "text": "Erbium-doped fiber amplifiers (EDFAs) are so important for telecom, one of its patent earns second largest source of royalties for Stanford, only behind Google's.\nTwo years ago, an on-chip version came out with both gain and max power comparable to COTS EDFAs.\nNow they've doped it even harder, and showed actual 170 GBaud * 64 QAM (~6 bit) * 16 WDM * 2 PDM ~ 25.6 Tb/s operation using it as a booster amplifier. This means its noise figure and nonlinearities are also on par with EDFAs.\n\nFunny the waveguide gets doped and annealed so hard it no longer looks like a rectangle lol.\n\nQAM: quadrature amplitude modulation\nWDM: wavelength division multiplexing\nPDM: polarization-division multiplexing",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GezN1ntbMAAYJ8F?format=jpg",
+                        "local_path": "media/20241215_005740_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GezN8qAbAAA22Ox?format=jpg",
+                        "local_path": "media/20241215_005740_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-15T00:57:40+00:00"
+            },
+            {
+                "text": "Che2024: Terabit-class coherent communications enabled by an integrated photonics erbium doped amplifier\nhttps://arxiv.org/abs/2412.07627\nThe EDWA paper from two years ago:\nLiu2022: A photonic integrated circuit–based erbium-doped amplifier\nhttps://doi.org/10.1126/science.abo2631…\n\nLook how the waveguide",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GezRoLNasAAa3pQ?format=jpg",
+                        "local_path": "media/20241215_010105_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GezRx6RaIAAelsN?format=jpg",
+                        "local_path": "media/20241215_010105_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-15T01:01:05+00:00"
+            },
+            {
+                "text": "The royalties claim is from the Digonnet group\nhttps://digonnetgroup.sites.stanford.edu\nMaybe it is only looking at after 1990s. Here is another source that has it in the top six from 1975 to 2005:\nPage2008: The making of a licensing legend: Stanford University's office of technology licensing",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GezSX_Oa4AA4E0c?format=jpg",
+                        "local_path": "media/20241215_010543_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GezS9IAbwAAdDd_?format=jpg",
+                        "local_path": "media/20241215_010543_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-15T01:05:43+00:00"
+            },
+            {
+                "text": "Wow nice, sounds like hardcore material science / crystal growth stuff. Any good read on this?",
+                "media": [],
+                "timestamp": "2024-12-15T17:15:17+00:00"
+            },
+            {
+                "text": "I should also write longer threads.",
+                "media": [],
+                "timestamp": "2024-12-15T02:01:06+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2024-12-15T07:21:03+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1868191486384406747",
+        "tweets": [
+            {
+                "text": "You are not going to click on every available element, are you?\n(A very very sick and impressive database of atomic layer deposition (ALD) process. There's also another one for ALE.)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge0lar8bQAAe64J?format=jpg",
+                        "local_path": "media/20241215_070854_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge0lrRcaMAAl_cg?format=jpg",
+                        "local_path": "media/20241215_070854_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-15T07:08:54+00:00"
+            },
+            {
+                "text": "https://doi.org/10.6100/alddatabase…\nand\nhttps://doi.org/10.6100/aledatabase…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge0mgBgbIAA1y--?format=jpg",
+                        "local_path": "media/20241215_071017_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge0mkY0a8AAhC0Q?format=jpg",
+                        "local_path": "media/20241215_071017_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-15T07:10:17+00:00"
+            }
+        ]
+    }
+]
