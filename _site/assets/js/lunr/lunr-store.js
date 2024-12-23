@@ -286,4 +286,10 @@ var store = [{
         "tags": ["Nanofab","DNN","Adhesive","Thermal","LDPE","NIST","Optics","Waveguide","Photonics","Interconnect","Laser","Ulexite","Meta","AR","Flexure","Spider","Satellite","Qubit"],
         "url": "/ofs/weekly-OFS-25/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#26)",
+        "excerpt":"POV your job is to build a 20 MW calorimeter and calibrate it Bryant2019: The NIST 20 MW Calorimetry Measurement System for Large-Fire Research They do amazing measurements with it. ah the good ol’ days when you are part of the scientific instrument (well actually you always are) (Measuring the...","categories": ["OFS"],
+        "tags": ["Nanofab"],
+        "url": "/ofs/weekly-OFS-26/",
+        "teaser": null
       }]

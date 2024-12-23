@@ -45,7 +45,7 @@ def create_markdown(json_file, output_file):
 
 
 #%%
-json_file = "scraped_tweets_20241208_20241215.json"
+json_file = "scraped_tweets_20241215_20241222.json"
 output_file = "blog_post_tmp.md"
 # json_file = "scraped_tmp.json"
 # output_file = "blog_post_tmp.md"

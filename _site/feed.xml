@@ -1,4 +1,233 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-15T23:13:47-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#25)</title><link href="http://localhost:4000/ofs/weekly-OFS-25/" rel="alternate" type="text/html" title="This week’s outside five sigma (#25)" /><published>2024-12-15T00:00:00-08:00</published><updated>2024-12-15T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-25</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-25/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-22T19:37:09-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#26)</title><link href="http://localhost:4000/ofs/weekly-OFS-26/" rel="alternate" type="text/html" title="This week’s outside five sigma (#26)" /><published>2024-12-22T00:00:00-08:00</published><updated>2024-12-22T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-26</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-26/"><![CDATA[<ol>
+  <li>POV your job is to build a 20 MW calorimeter and calibrate it
+<img src="/assets/images/2024/20241122_20241215/20241214_174454_0.jpg" alt="20241214_174454_0.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241214_174454_1.jpg" alt="20241214_174454_1.jpg" />
+    <ul>
+      <li>Bryant2019: <a href="https://nist.gov/publications/nist-20-mw-calorimetry-measurement-system-large-fire-research">The NIST 20 MW Calorimetry Measurement System for Large-Fire Research</a></li>
+      <li>They do amazing measurements with it.
+<img src="/assets/images/2024/20241122_20241215/20241214_174651_0.jpg" alt="20241214_174651_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>ah the good ol’ days when you are part of the scientific instrument (well actually you always are)
+(Measuring the speed of sound in water, 1841)
+<img src="/assets/images/2024/20241122_20241215/20241212_071800_0.jpg" alt="20241212_071800_0.jpg" />
+    <ul>
+      <li><a href="https://web.archive.org/web/20140222223427/http://www.ville-ge.ch/mhs/pdf/aide_colladon.pdf">Jean-Daniel Colladon, savant et industriel genevois</a></li>
+    </ul>
+  </li>
+  <li>TIL there is a NIST Standard Reference Material (SRM) for cat food, but not dog food. Wondering which cat person at NIST did this.
+<img src="/assets/images/2024/20241122_20241215/20241208_040537_0.jpg" alt="20241208_040537_0.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241208_040537_1.jpg" alt="20241208_040537_1.jpg" />
+    <ul>
+      <li><a href="https://shop.nist.gov/ccrz__ProductDetails?sku=3290&amp;cclcl=en_US">NIST store - dry cat food</a></li>
+      <li>Talk NISTy to Me: <a href="https://www.nist.gov/blogs/taking-measure/talk-nisty-me-when-everyday-words-take-different-meanings-measurement-science">When Everyday Words Take On Different Meanings in Measurement Science</a></li>
+    </ul>
+  </li>
+  <li>When would we be able to assemble a dataset like this but for lab/fab/shop/factory scenarios? Is it possible? Would all the technical stuff get blurred for confidentiality just like people’s faces and license plates etc. for privacy concerns?
+Maybe everyone do need to collect their own data and train/finetune their own models.
+<img src="/assets/images/2024/20241122_20241215/20241209_073007_0.jpg" alt="20241209_073007_0.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241209_073007_1.jpg" alt="20241209_073007_1.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241209_073007_2.jpg" alt="20241209_073007_2.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241209_073007_3.jpg" alt="20241209_073007_3.jpg" />
+    <ul>
+      <li>Grauman2022: <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Grauman_Ego4D_Around_the_World_in_3000_Hours_of_Egocentric_Video_CVPR_2022_paper.html">Ego4D: Around the World in 3,000 Hours of Egocentric Video</a></li>
+      <li><a href="https://ego4d-data.org">Project page</a></li>
+      <li>It does have many common tool using scenarios, and the video includes narative description, camera pose, IMU, and eye tracking.
+<img src="/assets/images/2024/20241122_20241215/20241209_073824_0.jpg" alt="20241209_073824_0.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241209_073824_1.jpg" alt="20241209_073824_1.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241209_073824_2.jpg" alt="20241209_073824_2.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241209_073824_3.jpg" alt="20241209_073824_3.jpg" /></li>
+    </ul>
+  </li>
+  <li>invrs-gym: an open-source gym containing a diverse set of photonic design challenges
+A leaderboard is nice, but what about a huggingface for e&amp;m sim?
+<img src="/assets/images/2024/20241122_20241215/20241209_165919_0.jpg" alt="20241209_165919_0.jpg" />
+    <ul>
+      <li><a href="https://invrs-io.github.io/gym/readme.html">Project</a></li>
+      <li><a href="https://invrs-io.github.io/leaderboard/index.html">Leaderboard</a></li>
+    </ul>
+  </li>
+  <li>You’ll need somewhere between 5 to 50,000 of 12in wafers of superconducting qubits (and connect &amp; operate them properly) to make a cryptanalytically relevant quantum computer (CRQC).
+<img src="/assets/images/2024/20241122_20241215/20241122_165225_0.jpg" alt="20241122_165225_0.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241122_165225_1.jpg" alt="20241122_165225_1.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241122_165225_2.jpg" alt="20241122_165225_2.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241122_165225_3.jpg" alt="20241122_165225_3.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241122_165225_4.jpg" alt="20241122_165225_4.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241122_165225_5.jpg" alt="20241122_165225_5.jpg" />
+    <ul>
+      <li>Parker2023: <a href="https://rand.org/pubs/working_papers/WRA2427-1.html">Estimating the Energy Requirements to Operate a Cryptanalytically Relevant Quantum Computer</a></li>
+      <li>There are a lot of interesting numbers in it 
+<img src="/assets/images/2024/20241122_20241215/20241210_064912_0.jpg" alt="20241210_064912_0.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241210_064912_1.jpg" alt="20241210_064912_1.jpg" /></li>
+      <li>They build one with <em>checks notes</em> 105 qubits. They did error correction and showed it got better when they “correct it more”, which is very impressive. (<a href="https://blog.google/technology/research/google-willow-quantum-chip/">screenshot source</a>)
+<img src="/assets/images/2024/20241122_20241215/20241210_065909_0.jpg" alt="20241210_065909_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>A vibrator but mm size and does ultrasonic imaging inside your blood vessels.
+<img src="/assets/images/2024/20241122_20241215/20241210_162913_0.jpg" alt="20241210_162913_0.jpg" />
+    <ul>
+      <li>Qiu2024: <a href="https://pubs.aip.org/aip/apl/article-abstract/125/23/232901/3323596/Textured-piezoelectric-ceramic-based-focused?redirectedFrom=fulltext">Textured-piezoelectric-ceramic-based focused intravascular ultrasonic transducer with improved image quality and uniformity</a></li>
+    </ul>
+  </li>
+  <li>These are shaped water puddles, created with Leidenfrost effect + hydrophilic aluminum plate (~0.1 mm thick) placed on top of them.
+Height of the puddle is comparable/limited to the capillary length, which is given by a combination of surface tension, density, and gravity.
+<img src="/assets/images/2024/20241122_20241215/20241211_063339_0.jpg" alt="20241211_063339_0.jpg" />
+    <ul>
+      <li>Pacheco2024: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.133.234001">Designing Leidenfrost Puddles</a></li>
+    </ul>
+  </li>
+  <li>What a coincidence, when you make a microwave coax cable superconduct, its propagation loss became very similar to optical fibers, 0.3 dB/km instead of the usual ~0.5 dB/m.
+    <ul>
+      <li>But wait, the wavelength for light is much shorter, 40,000x shorter. So don’t get fooled, fiber is still much much better in propagation length in wavelengths, or quality factor Q.</li>
+      <li>If you run the numbers, the Q for a telecom fiber at 1.55 um is 130 billion… If a superconducting qubit has this Q, its T1 would be four seconds instead of few hundred microseconds. A microwave photon would be able to live in the superconducting cable for ~100 us, comparable to the best SC qubits.</li>
+      <li>Also the spool of cable takes a whopping one week to thermalize… Maybe they should pot most of it in stycast lol.
+<img src="/assets/images/2024/20241122_20241215/20241211_072911_0.jpg" alt="20241211_072911_0.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241211_072911_1.jpg" alt="20241211_072911_1.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241211_072911_2.jpg" alt="20241211_072911_2.jpg" /></li>
+    </ul>
+    <ul>
+      <li>Qiu2024: <a href="https://doi.org/10.1016/j.scib.2024.11.047">Deterministic quantum state and gate teleportation between distant superconducting chips</a>
+(also on <a href="https://arxiv.org/abs/2302.08756">arxiv</a>)</li>
+      <li>The experiment is similar to <a href="https://nature.com/articles/s41586-021-03288-7">this one</a> but with a longer cable
+<img src="/assets/images/2024/20241122_20241215/20241211_073208_0.jpg" alt="20241211_073208_0.jpg" /></li>
+      <li>I was expecting a superconducting rectangular waveguide would be better than the coax, but nope it is comparable.</li>
+      <li>To be fair this is the loaded Q or total Q, including external coupling loss, and looks like it’s dominated by external coupling (S21 very close to 1). So intrinsic Q maybe 10x better.</li>
+      <li>Similar propagation loss quoted in their more recent work with a 30 m (?!) waveguide. (<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.125.260502">Magnard2020</a>, <a href="https://www.nature.com/articles/s41586-023-05885-0">Storz2023</a>)
+<img src="/assets/images/2024/20241122_20241215/20241211_154155_0.jpg" alt="20241211_154155_0.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241211_154155_1.jpg" alt="20241211_154155_1.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241211_154155_2.jpg" alt="20241211_154155_2.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241211_154155_3.jpg" alt="20241211_154155_3.jpg" /></li>
+      <li>(S21 of the waveguide resonance very close to 1)
+<img src="/assets/images/2024/20241122_20241215/20241211_154404_0.jpg" alt="20241211_154404_0.jpg" /></li>
+      <li>I was expecting a superconducting rectangular waveguide would be better than the coax, but nope it is comparable.</li>
+    </ul>
+  </li>
+  <li>TIL PornHub publishes many statistics, from how the election affected traffic compared to usual average, to yearly review of stuff like how long people last per visit.
+<img src="/assets/images/2024/20241122_20241215/20241212_054309_0.jpg" alt="20241212_054309_0.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241212_054309_1.jpg" alt="20241212_054309_1.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241212_054309_2.jpg" alt="20241212_054309_2.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241212_054309_3.jpg" alt="20241212_054309_3.jpg" />
+    <ul>
+      <li>From: (2024 Presidential Election)[https://pornhub.com/insights/2024-presidential-election] and <a href="https://pornhub.com/insights/2024-year-in-review">2024 Year in Review</a></li>
+    </ul>
+  </li>
+  <li>Surprise! When you dig out an empty core surrounded by strongly scattering media, light is better guided inside the core!
+While maybe I should stop being surprised this is in nature physics, it is pretty relevant to bio applications. They even showed a “Monte Carlo simulation of light propagating through the human head”, “guided” by the cerebrospinal fluid (CSF).
+<img src="/assets/images/2024/20241122_20241215/20241212_065156_0.jpg" alt="20241212_065156_0.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241212_065156_1.jpg" alt="20241212_065156_1.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241212_065156_2.jpg" alt="20241212_065156_2.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241212_065156_3.jpg" alt="20241212_065156_3.jpg" />
+    <ul>
+      <li>Mitchell2024: <a href="https://www.nature.com/articles/s41567-024-02665-z">Energy transport in diffusive waveguides</a></li>
+      <li>They cited the original 1842 paper on how light is guided inside a liquid stream from TIR: Colladon, D. On the reflections of a ray of light inside a parabolic liquid stream. Comptes Rendus 15, 800–802 (1842)</li>
+      <li>All I could find is this <a href="https://web.archive.org/web/20140222223427/http://www.ville-ge.ch/mhs/pdf/aide_colladon.pdf">collection of his work</a>:
+   <img src="/assets/images/2024/20241122_20241215/20241212_070147_0.jpg" alt="20241212_070147_0.jpg" />
+   <img src="/assets/images/2024/20241122_20241215/20241212_070147_1.jpg" alt="20241212_070147_1.jpg" /></li>
+    </ul>
+  </li>
+  <li>Semiconductor Supply Chain “Eco System” Overview (December 5, 2024)
+<img src="/assets/images/2024/20241122_20241215/20241212_164714_0.jpg" alt="20241212_164714_0.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241212_164714_1.jpg" alt="20241212_164714_1.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241212_164714_2.jpg" alt="20241212_164714_2.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241212_164714_3.jpg" alt="20241212_164714_3.jpg" />
+    <ul>
+      <li>Patterning usually gets the highlight, but there are more process steps with significant market.</li>
+      <li>More at <a href="https://r6.ieee.org/scv-eps/?p=3356">Semiconductor Supply Chain “Eco System” Overview</a>
+   <img src="/assets/images/2024/20241122_20241215/20241212_165000_0.jpg" alt="20241212_165000_0.jpg" />
+   <img src="/assets/images/2024/20241122_20241215/20241212_165000_1.jpg" alt="20241212_165000_1.jpg" />
+   <img src="/assets/images/2024/20241122_20241215/20241212_165000_2.jpg" alt="20241212_165000_2.jpg" />
+   <img src="/assets/images/2024/20241122_20241215/20241212_165000_3.jpg" alt="20241212_165000_3.jpg" /></li>
+      <li>Applied Materials + ASML &gt; 50% of the market.
+   <img src="/assets/images/2024/20241122_20241215/20241212_165432_0.jpg" alt="20241212_165432_0.jpg" />
+   <img src="/assets/images/2024/20241122_20241215/20241212_165432_1.jpg" alt="20241212_165432_1.jpg" />
+   <img src="/assets/images/2024/20241122_20241215/20241212_165432_2.jpg" alt="20241212_165432_2.jpg" />
+   <img src="/assets/images/2024/20241122_20241215/20241212_165432_3.jpg" alt="20241212_165432_3.jpg" /></li>
+    </ul>
+  </li>
+  <li>Fabry-Perot cavity at fiber tip for photoacoustic sensing
+<img src="/assets/images/2024/20241122_20241215/20241213_015847_0.jpg" alt="20241213_015847_0.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241213_015847_1.jpg" alt="20241213_015847_1.jpg" />
+    <ul>
+      <li>Peng2024: <a href="https://doi.org/10.1364/OE.540477">High-sensitive Fabry-Perot cavity-enhanced optical resonator for photoacoustic sensing</a></li>
+      <li>Reminds me of my friends’ work. His newest version has the fiber and membrane self-aligned using flip chip bonding and solder reflow process, “an optical chip houses the fiber, and a mechanical chip contains the diaphragm.”</li>
+      <li>(Afshar2022: <a href="https://searchworks.stanford.edu/view/14237896">High-precision acoustic and inertial sensors in interferometric silicon micro-structures</a>)
+   <img src="/assets/images/2024/20241122_20241215/20241213_020426_0.jpg" alt="20241213_020426_0.jpg" />
+   <img src="/assets/images/2024/20241122_20241215/20241213_020426_1.jpg" alt="20241213_020426_1.jpg" />
+   <img src="/assets/images/2024/20241122_20241215/20241213_020426_2.jpg" alt="20241213_020426_2.jpg" /></li>
+    </ul>
+  </li>
+  <li>Laser ranging over 100+ km with ~100 nm precision! (in 21 s, and ~10 um in 1 ms)
+    <ul>
+      <li>Note it is not 100 nm accuracy because of fluctuations in air, of which they could measure the temperature to what looks like 0.01 K level lol.</li>
+      <li>It uses frequency comb, which roughly speaking gives you nm-scale resolution similar to c.w. laser interferometry, and large ambiguity range from the RF frequency repetition rate, and can be further extended with multiple/tunable repetition rate.</li>
+      <li>What is it for? Definitely too fancy for daily activities. It is for e.g. a 100 km synthetic aperture X-ray telescope, which needs nanoscale precision of the baseline distance, or measure “spatial structures and finally the temporal changes of the Earth’s gravitational field”, because it would change the satellite orbit a bit, aka satellite gravimetry.
+<img src="/assets/images/2024/20241122_20241215/20241213_070208_0.jpg" alt="20241213_070208_0.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241213_070208_1.jpg" alt="20241213_070208_1.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241213_070208_2.jpg" alt="20241213_070208_2.jpg" />
+        <ul>
+          <li>Chen2024: <a href="https://arxiv.org/abs/2412.05542">113 km absolute ranging with nanometer precision</a></li>
+          <li>They have to synchronize the clocks and lasers at the two stations to do the two-way version, which saves half of the transmission power loss, and that is a separate work on its own:</li>
+          <li>Shen2022: <a href="https://www.nature.com/articles/s41586-022-05228-5">Free-space dissemination of time and frequency with 1e−19 instability over 113 km</a>
+ <img src="/assets/images/2024/20241122_20241215/20241213_070528_0.jpg" alt="20241213_070528_0.jpg" /></li>
+          <li>The previous and “original” dual comb ranging paper has better explanation of how this approach works to get both high precision and large ambiguity range.</li>
+          <li>Their fig. 1 shows the idea nicely in time domain. Basically, the dual optical frequency comb beats against each other and downconverts to an RF frequency comb (beat of the red and blue optical pulse in dashed box in b gives you one point on your photodetector signal trace). This transfers the relative phase info between the two optical combs (for range resolution) to the phase in the rf signal.</li>
+          <li>Coddington2009: <a href="https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=901111">Rapid and precise absolute distance measurements at long range</a>
+ <img src="/assets/images/2024/20241122_20241215/20241213_071727_0.jpg" alt="20241213_071727_0.jpg" /></li>
+          <li>God bless people who care about refractive index of air down to 1e-8, under different conditions and laser wavelengths.</li>
+          <li>Ciddor1996: <a href="https://doi.org/10.1364/AO.35.001566">Refractive index of air: new equations for the visible and near infrared</a>
+ <img src="/assets/images/2024/20241122_20241215/20241213_072159_0.jpg" alt="20241213_072159_0.jpg" /></li>
+          <li>Never heard of or thought about satellite gravimetry before. This one has a lot of tasty figures. Some of the missions could already resolve ~10 millionth of the Earth’s gravity (10 milliGal), or ~10 cm equivalent water height (EWH).</li>
+          <li>Flechtner2021: <a href="https://link.springer.com/article/10.1007/s10712-021-09658-0">Satellite Gravimetry: A Review of Its Realization</a>
+ <img src="/assets/images/2024/20241122_20241215/20241213_073332_0.jpg" alt="20241213_073332_0.jpg" />
+ <img src="/assets/images/2024/20241122_20241215/20241213_073332_1.jpg" alt="20241213_073332_1.jpg" />
+ <img src="/assets/images/2024/20241122_20241215/20241213_073332_2.jpg" alt="20241213_073332_2.jpg" />
+ <img src="/assets/images/2024/20241122_20241215/20241213_073332_3.jpg" alt="20241213_073332_3.jpg" /></li>
+          <li>I figure I should also include some background on optical frequency comb and dual comb.</li>
+          <li>Optical frequency comb is very nice for metrology since it links the optical and RF frequency domains. Dual comb got the extra benefits of heterodyne detection, plus no need for ultrafast detections.</li>
+          <li>Here are two nice reviews that are also more recent and open access.</li>
+          <li>Fortier2019: <a href="https://www.nature.com/articles/s42005-019-0249-y">20 years of developments in optical frequency comb technology and applications</a></li>
+          <li>Coddington2016: <a href="https://opg.optica.org/optica/viewmedia.cfm?uri=optica-3-4-414&amp;html=true">Dual-comb spectroscopy</a>
+ <img src="/assets/images/2024/20241122_20241215/20241213_074410_0.jpg" alt="20241213_074410_0.jpg" />
+ <img src="/assets/images/2024/20241122_20241215/20241213_074410_1.jpg" alt="20241213_074410_1.jpg" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Erbium-doped fiber amplifiers (EDFAs) are so important for telecom, one of its patent earns second largest source of royalties for Stanford, only behind Google’s.
+    <ul>
+      <li>Two years ago, an on-chip version came out with both gain and max power comparable to COTS EDFAs.</li>
+      <li>Now they’ve doped it even harder, and showed actual 170 GBaud * 64 QAM (~6 bit) * 16 WDM * 2 PDM ~ 25.6 Tb/s operation using it as a booster amplifier. This means its noise figure and nonlinearities are also on par with EDFAs.</li>
+      <li>Funny the waveguide gets doped and annealed so hard it no longer looks like a rectangle lol.</li>
+      <li>QAM: quadrature amplitude modulation, WDM: wavelength division multiplexing, PDM: polarization-division multiplexing
+<img src="/assets/images/2024/20241122_20241215/20241215_005740_0.jpg" alt="20241215_005740_0.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241215_005740_1.jpg" alt="20241215_005740_1.jpg" />
+        <ul>
+          <li>Che2024: <a href="https://arxiv.org/abs/2412.07627">Terabit-class coherent communications enabled by an integrated photonics erbium doped amplifier</a></li>
+          <li>The EDWA paper from two years ago:</li>
+          <li>Liu2022: <a href="https://doi.org/10.1126/science.abo2631">A photonic integrated circuit–based erbium-doped amplifier</a></li>
+          <li>Look how the waveguide has deformed before and after doping + annealing (Fig. S1b and S1c). This is with less doping than the newer one.
+ <img src="/assets/images/2024/20241122_20241215/20241215_010105_0.jpg" alt="20241215_010105_0.jpg" />
+ <img src="/assets/images/2024/20241122_20241215/20241215_010105_1.jpg" alt="20241215_010105_1.jpg" /></li>
+          <li>The royalties claim is from <a href="https://digonnetgroup.sites.stanford.edu">the Digonnet group</a></li>
+          <li>Maybe it is only looking at after 1990s. Here is another source that has it in the top six from 1975 to 2005:</li>
+          <li>Page2008: <a href="https://ipmall.law.unh.edu/sites/default/files/hosted_resources/IP_handbook/ch17/ipHandbook-Ch%2017%2013%20Page%20OTL%20at%20Stanford%20University.pdf">The making of a licensing legend: Stanford University’s office of technology licensing</a>
+ <img src="/assets/images/2024/20241122_20241215/20241215_010543_0.jpg" alt="20241215_010543_0.jpg" />
+ <img src="/assets/images/2024/20241122_20241215/20241215_010543_1.jpg" alt="20241215_010543_1.jpg" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>You are not going to click on every available element, are you?
+(A very very sick and impressive database of atomic layer deposition (ALD) process. There’s also another one for ALE.)
+<img src="/assets/images/2024/20241122_20241215/20241215_070854_0.jpg" alt="20241215_070854_0.jpg" />
+<img src="/assets/images/2024/20241122_20241215/20241215_070854_1.jpg" alt="20241215_070854_1.jpg" />
+    <ul>
+      <li><a href="https://doi.org/10.6100/alddatabase">ALD</a> and (ALE)[https://doi.org/10.6100/aledatabase] database
+   <img src="/assets/images/2024/20241122_20241215/20241215_071017_0.jpg" alt="20241215_071017_0.jpg" />
+   <img src="/assets/images/2024/20241122_20241215/20241215_071017_1.jpg" alt="20241215_071017_1.jpg" /></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><summary type="html"><![CDATA[POV your job is to build a 20 MW calorimeter and calibrate it Bryant2019: The NIST 20 MW Calorimetry Measurement System for Large-Fire Research They do amazing measurements with it.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#25)</title><link href="http://localhost:4000/ofs/weekly-OFS-25/" rel="alternate" type="text/html" title="This week’s outside five sigma (#25)" /><published>2024-12-15T00:00:00-08:00</published><updated>2024-12-15T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-25</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-25/"><![CDATA[<ol>
   <li>
     <p>If car fuel efficiency improves similarly as Moore’s law for compute, we’d have cars with 110 light year range now 
 <img src="/assets/images/2024/20240702_20241207/20241204_205509_0.jpg" alt="20241204_205509_0.jpg" /></p>
@@ -1538,181 +1767,4 @@ Here are a few cover images from their 2020 annual report.
  <img src="/assets/images/2024/20241008_20241031/20241018_015913_3.jpg" alt="20241018_015913_3.jpg" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Drone" /><category term="Comm" /><category term="Fiber" /><category term="Cryogenics" /><category term="Optics" /><category term="EEG" /><category term="HDRS" /><category term="Depression" /><category term="Photonics" /><category term="Stress" /><category term="Damascene" /><category term="Illusion" /><category term="Plasma" /><category term="Sniffing" /><category term="Telephone" /><category term="Bell_lab" /><category term="TSMC" /><category term="PFAS" /><category term="Nanofab" /><category term="Nanoscribe" /><category term="TPP" /><summary type="html"><![CDATA[Air-to-ground and air-to-air optical comm with drones and vehicles using 15 W white LEDs, capable of 2 Mbps and up to ~ 40 m when collimated. They showed real-time video transmission with them. The alignment is achieved with a 3-axis gimbal, a web cam, and image recognition. Liang2024: Drone-based mobile full-duplex optical communication It uses the same white LED that would be used for illumination, blue light excited phosphor]]></summary></entry><entry><title type="html">This week’s outside five sigma (#18)</title><link href="http://localhost:4000/ofs/weekly-OFS-18/" rel="alternate" type="text/html" title="This week’s outside five sigma (#18)" /><published>2024-10-27T00:00:00-07:00</published><updated>2024-10-27T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-18</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-18/"><![CDATA[<ol>
-  <li>Showing this to my friends who would yell at me for accidentally leaning on their optical table:
-Menlo Systems dropped their optical frequency comb system in a 110 m drop tower to test operation in microgravity, and onto a tank of foam to show it’s shock proven up to 41.5 g.
-<img src="/assets/images/2024/20241017_20241027/20241017_155738_4.jpg" alt="20241017_155738_4.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241017_155738_5.jpg" alt="20241017_155738_5.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241017_155738_6.jpg" alt="20241017_155738_6.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241017_155738_7.jpg" alt="20241017_155738_7.jpg" />
-    <ul>
-      <li><a href="https://www.menlosystems.com/applications/notes/view/2561">World’s First Optical Frequency Comb in Microgravity Environment</a></li>
-      <li>Also a video: <a href="https://www.youtube.com/watch?v=y-t6-7NaYLE&amp;ab_channel=MenloSystems">World’s First Optical Frequency Comb in Microgravity Environment</a></li>
-      <li>Frequency combs have been around for a while and mostly in expensive experiments and metrology systems. There are on-chip combs now and startups (<a href="https://xscapephotonics.com">e.g.</a>) trying to use them</li>
-    </ul>
-  </li>
-  <li>The drop tower itself is pretty sick too. It also has a catapult system that could bounce your payload around almost 1000 times a day.
-<img src="/assets/images/2024/20241017_20241027/20241017_155738_0.jpg" alt="20241017_155738_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241017_155738_1.jpg" alt="20241017_155738_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241017_155738_2.jpg" alt="20241017_155738_2.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241017_155738_3.jpg" alt="20241017_155738_3.jpg" />
-    <ul>
-      <li><a href="https://www.zarm.uni-bremen.de/en/drop-tower/general-information.html">ZARM &amp; Bremen Drop Tower</a></li>
-      <li>A webinar from 2023: <a href="https://www.unoosa.org/documents/pdf/Access2Space4All/DropTES/9thRound/ZARM_MC_AO_Webinar_DropTES_2023.pdf">ZARM AND THE BREMEN DROP TOWERS</a></li>
-      <li><a href="https://www.zarm.uni-bremen.de/fileadmin/user_upload/drop_tower/ZARM_BDT_PUG_ver1.5.pdf">Bremen Drop Tower - Payload User’s Guide</a></li>
-    </ul>
-  </li>
-  <li>Tesla claim its wireless charging is <a href="https://x.com/Tesla/status/1847745953857524119">above 90% efficient</a>, definitely higher than I expected, sick.
-One fun thing is that, it is equivalently the same efficiency for quantum transduction and energy transfer, and many other things including how well you keep in touch with your friends, because they are all coupled linear resonators
-<img src="/assets/images/2024/20241017_20241027/20241019_210539_0.jpg" alt="20241019_210539_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241019_210539_1.jpg" alt="20241019_210539_1.jpg" />
-    <ul>
-      <li>Fig. 1 from my defense slides lol</li>
-      <li>Fig. 2 from <a href="https://witricity.com/hubfs/white-papers/WiTricity_Highly-Resonant-Wireless-Power-Transfer.pdf">Highly Resonant Wireless Power Transfer: Safe, Efficient, and Over Distance</a>
-        <ul>
-          <li>Found thru <a href="https://x.com/dbgray/status/1847351046634704965">this tweet</a></li>
-        </ul>
-      </li>
-      <li>They call the coupling kappa and loss rates Gamma, while the quantum people call their coupling g and loss rates kappa and gamma. It still applies if you have two-level systems (atoms, spins, first two levels of a nonlinear resonators etc.). Reitz2022: <a href="https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.3.010201">Cooperative Quantum Phenomena in Light-Matter Platforms</a>
-<img src="/assets/images/2024/20241017_20241027/20241020_153850_0.jpg" alt="20241020_153850_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241020_153850_1.jpg" alt="20241020_153850_1.jpg" /></li>
-      <li>A separate &amp; related topic is using “PT symmetry” (fancy words for having gain in half of the circuits matching loss) for robust power transfer without active tuning. The gain and loss of the system could automatically “balance out” some amount of distance or angular misalignment
-<img src="/assets/images/2024/20241017_20241027/20241020_154328_0.jpg" alt="20241020_154328_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241020_154328_1.jpg" alt="20241020_154328_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241020_154328_2.jpg" alt="20241020_154328_2.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241020_154328_3.jpg" alt="20241020_154328_3.jpg" /></li>
-      <li>Assawaworrarit2017: <a href="https://www.nature.com/articles/nature22404">Robust wireless power transfer using a nonlinear parity–time-symmetric circuit</a></li>
-      <li>Esaki2023: <a href="https://www.nature.com/articles/s41598-023-47842-x">Wirelessly powered motor operation in dynamic scenarios using non-Hermitian parity-time symmetry</a></li>
-    </ul>
-  </li>
-  <li>Shape sensing endoscope fiber: I thought it is sensing shape of the target at the end of the fiber, but it is actually sensing the shape of the fiber itself.
-It’s made with a few twisted fibers with bragg grating, which let’s you measure local strains and thus curvatures.
-<img src="/assets/images/2024/20241017_20241027/20241022_041114_0.jpg" alt="20241022_041114_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241022_041114_1.jpg" alt="20241022_041114_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241022_041114_2.jpg" alt="20241022_041114_2.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241022_041114_3.jpg" alt="20241022_041114_3.jpg" />
-    <ul>
-      <li>Fig. 1-2: Lamb2024, <a href="https://opg.optica.org/optica/fulltext.cfm?uri=optica-11-10-1462&amp;id=561587">Shape sensing endoscope fiber</a></li>
-      <li>Fig. 3-4: Paloschi2020, <a href="https://ieeexplore.ieee.org/document/9233257">3D Shape Sensing With Multicore Optical Fibers: Transformation Matrices Versus Frenet-Serret Equations for Real-Time Application</a></li>
-      <li>The spectrum and the wavelength shift of the bragg grating looks pretty clean. They could measure curvature as small as 2.6 mm, and relative error of the shape with ~ 1%. For large curvature it gets less accurate because of smaller strain. (Bronnikov2019:<a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-27-26-38421&amp;id=424668">Durable shape sensor based on FBG array inscribed in polyimide-coated multicore optical fiber</a>)
-<img src="/assets/images/2024/20241017_20241027/20241022_042428_0.jpg" alt="20241022_042428_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241022_042428_1.jpg" alt="20241022_042428_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241022_042428_2.jpg" alt="20241022_042428_2.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241022_042428_3.jpg" alt="20241022_042428_3.jpg" /></li>
-      <li>ofc this would have application in robotics esp. soft robotics. This paper built a soft bending actuator with a fiber optic shape sensor (FOSS) in its body. It works so well they could sweep the actuator tip over different shaped surfaces, and reconstruct the shapes.
-<img src="/assets/images/2024/20241017_20241027/20241022_043337_0.jpg" alt="20241022_043337_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241022_043337_1.jpg" alt="20241022_043337_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241022_043337_2.jpg" alt="20241022_043337_2.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241022_043337_3.jpg" alt="20241022_043337_3.jpg" /></li>
-      <li>From Galloway2019: <a href="https://www.liebertpub.com/doi/10.1089/soro.2018.0131">Fiber Optic Shape Sensing for Soft Robotics</a></li>
-      <li>Summary of the results:
-<img src="/assets/images/2024/20241017_20241027/20241022_043603_0.jpg" alt="20241022_043603_0.jpg" /></li>
-      <li>They got their FOSS from Luna Innovations, which specialize in fiber optic sensing with Fiber Bragg Grating (FBG) or Fabry-Perot (FP) sensors. They also make optical frequency domain reflectometry (OFDR) instruments which the industry calls interrogators (<a href="https://lunainc.com/product/odisi-7100-series">Optical Distributed Sensor Interrogators</a>)
-<img src="/assets/images/2024/20241017_20241027/20241022_044254_0.jpg" alt="20241022_044254_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241022_044254_1.jpg" alt="20241022_044254_1.jpg" /></li>
-      <li>Funny the patent is from Intuitive Surgical (<a href="https://patents.google.com/patent/US8773650B2/en">Optical position and/or shape sensing</a>), which makes surgical robots. I guess it makes sense. Why does their website go so fancy &amp; apple style as if I could afford it lol: <a href="https://www.intuitive.com/en-us/products-and-services/da-vinci/5">Da Vinci 5</a>
-<img src="/assets/images/2024/20241017_20241027/20241022_044923_0.jpg" alt="20241022_044923_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241022_044923_1.jpg" alt="20241022_044923_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241022_044923_2.jpg" alt="20241022_044923_2.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241022_044923_3.jpg" alt="20241022_044923_3.jpg" /></li>
-    </ul>
-  </li>
-  <li>This paper glued a Rb vapor cell to a photonic chip, and achieved strong coupling (coupling &gt; loss) between a microring resonator and ~50 atoms, towards quantum operations between single atom &amp; photon.
-The glass cell is epoxied to the chip first, and then sent to fill Rb and seal
-<img src="/assets/images/2024/20241017_20241027/20241024_012927_0.jpg" alt="20241024_012927_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241024_012927_1.jpg" alt="20241024_012927_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241024_012927_2.jpg" alt="20241024_012927_2.jpg" />
-    <ul>
-      <li>Zektzer2024: <a href="https://opg.optica.org/optica/fulltext.cfm?uri=optica-11-10-1376&amp;id=560053">Strong interactions between integrated microresonators and alkali atomic vapors: towards single-atom, single-photon operation</a></li>
-      <li>If you are interested in chip-scale atomic vapor cells and devices, this paper has a lot on how the chambers are made, how to load the atoms, package them properly, probe them, and their applications.
-Kitching2018: <a href="https://pubs.aip.org/aip/apr/article/5/3/031302/123951/Chip-scale-atomic-devices">Chip-scale atomic devices</a>
-<img src="/assets/images/2024/20241017_20241027/20241024_013816_0.jpg" alt="20241024_013816_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241024_013816_1.jpg" alt="20241024_013816_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241024_013816_2.jpg" alt="20241024_013816_2.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241024_013816_3.jpg" alt="20241024_013816_3.jpg" /></li>
-    </ul>
-  </li>
-  <li>Trying out a picture/screenshot to latex converter. Had to fix some type error to get it to run.
-It works great on simple ones (top: input, bottom: compiled fron the output latex). Missed brackets (fixed by chatGPT) and mistakes on more complex ones, and gave up for big ones.
-<img src="/assets/images/2024/20241017_20241027/20241025_010810_0.jpg" alt="20241025_010810_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_010810_1.jpg" alt="20241025_010810_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_010810_2.jpg" alt="20241025_010810_2.jpg" />
-    <ul>
-      <li><a href="https://github.com/lukas-blecher/LaTeX-OCR">pix2tex - LaTeX OCR</a></li>
-    </ul>
-  </li>
-  <li>I had no idea people make screws out of PMMA (the same PMMA I knew as ebeam resist), as a shape memory polymer, for active assembly/disassembly.
-<img src="/assets/images/2024/20241017_20241027/20241025_054302_0.jpg" alt="20241025_054302_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_054302_1.jpg" alt="20241025_054302_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_054302_2.jpg" alt="20241025_054302_2.jpg" />
-    <ul>
-      <li>Screenshots from Sun2014: <a href="https://www.emerald.com/insight/content/doi/10.1108/AA-03-2013-031/full/html">Shape memory technology for active assembly/disassembly: fundamentals, techniques and example applications</a></li>
-      <li>Video from <a href="https://www.youtube.com/watch?v=rie_Zq2dVl0&amp;ab_channel=activedisassembly1">Active PMMA screw for Active Disassembly</a></li>
-      <li>Found the video thru another channel which had a video of a <a href="https://www.youtube.com/watch?v=CZMb8604WlU&amp;ab_channel=ShapeMemoryTechnology">Thin film NiTi/silicon gripper</a></li>
-      <li>Found this nice review while in search of this gripper. Choudhary2016: <a href="https://linkinghub.elsevier.com/retrieve/pii/S0924424716300814">Shape memory alloy thin films and heterostructures for MEMS applications: A review</a></li>
-      <li>Who doesn’t love to see a cute flexure, and these ones are made out of a full 4in silicon wafer! The Si gripper is deep RIE, the NiTi SMA actuators are laser-cut, bonded with resist to the Si wafer, and then further secured with copper rivets on the wafer-level process (???)
-<img src="/assets/images/2024/20241017_20241027/20241025_061340_0.jpg" alt="20241025_061340_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_061340_1.jpg" alt="20241025_061340_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_061340_2.jpg" alt="20241025_061340_2.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_061340_3.jpg" alt="20241025_061340_3.jpg" /></li>
-      <li>Garcés2019: <a href="https://ieeexplore.ieee.org/document/8820142/">Shape Memory Alloy Actuators for Silicon Microgrippers</a></li>
-      <li>The copper rivet process is from this thesis (<a href="https://www.shaker.de/de/site/content/shop/index.asp?lang=de&amp;ID=8&amp;ISBN=978-3-8322-9678-0">Mikrogreifer und aktive Mikromontagehilfsmittel mit integrierten Antrieben</a>)… Thanks to it not being free, I started looking into this author and found more details on the flexure design, and they also have a pneumatic version. (Hoxhold2008: <a href="https://link.springer.com/article/10.1007/s00542-008-0659-3">Batch fabrication of micro grippers with integrated actuators</a>)
-<img src="/assets/images/2024/20241017_20241027/20241025_062326_0.jpg" alt="20241025_062326_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_062326_1.jpg" alt="20241025_062326_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_062326_2.jpg" alt="20241025_062326_2.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_062326_3.jpg" alt="20241025_062326_3.jpg" /></li>
-      <li>They also have a book chapter (<a href="https://link.springer.com/chapter/10.1007/978-3-642-12903-2_16">Tools for Handling and Assembling of Microparts</a>).
-Look at these little grippers!
-<img src="/assets/images/2024/20241017_20241027/20241025_062804_0.jpg" alt="20241025_062804_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_062804_1.jpg" alt="20241025_062804_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_062804_2.jpg" alt="20241025_062804_2.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_062804_3.jpg" alt="20241025_062804_3.jpg" /></li>
-    </ul>
-  </li>
-  <li>I thought I saw quantum video restoration and almost had a stroke
-<img src="/assets/images/2024/20241017_20241027/20241025_011441_0.jpg" alt="20241025_011441_0.jpg" />
-    <ul>
-      <li>ok it’s actually a fair name as the sensor used is Quanta Image Sensor (QIS), such as SPAD array and EMCCD, and noise can be as low as sub 1 e- rms. I don’t get why they think of it as “x-y-t “cubicle” of bits from the jot data cube”, and then talk about frame rate of that.
-<img src="/assets/images/2024/20241017_20241027/20241025_013127_0.jpg" alt="20241025_013127_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_013127_1.jpg" alt="20241025_013127_1.jpg" /></li>
-      <li>Fossum2016: <a href="https://www.mdpi.com/1424-8220/16/8/1260">The Quanta Image Sensor: Every Photon Counts</a></li>
-      <li>Ok they could actually use the depth (time) axis as a shutter. If you average along how the object is moving inside the jot data cube, you can do temporal “matched filtering” (my understanding) and achieve better image.
-(sub one photon per pixel on average sounds crazy)
-<img src="/assets/images/2024/20241017_20241027/20241025_014017_0.jpg" alt="20241025_014017_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_014017_1.jpg" alt="20241025_014017_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241025_014017_2.jpg" alt="20241025_014017_2.jpg" /></li>
-    </ul>
-  </li>
-  <li>The <a href="https://x.com/jwt0625/status/1850048862238671221">entropy/varentropy graph</a> looks like a plot I’ve seen in some mass spectrometry paper, but I can’t even remember what the two axis are..
-    <ul>
-      <li>ok found it (actually not the same, but still theres a series of parabolic looking curves), it’s the frequency shift of two cantilever/beam modes from a mass perturbation.
-<img src="/assets/images/2024/20241017_20241027/20241026_053635_0.jpg" alt="20241026_053635_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241026_053635_1.jpg" alt="20241026_053635_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241026_053635_2.jpg" alt="20241026_053635_2.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241026_053635_3.jpg" alt="20241026_053635_3.jpg" /></li>
-      <li>Fig. 1-3: Hanay2011, <a href="https://thesis.library.caltech.edu/6489/">Towards Single-Molecule Nanomechanical Mass Spectrometry</a></li>
-      <li>Fig. 4: Neumann2024, <a href="http://nano.caltech.edu/publications/papers/timeseriesclustering.pdf">Nanomechanical mass measurements through feature-based time series clustering</a></li>
-    </ul>
-  </li>
-  <li>“… using standard techniques, including the use of a thin layer of cigarette paper” Wow is the standard really this specific? Proceeds to check the book. Okay it is.
-(They are delivering intact proteins to a chip at 4 K with nanomechanical resonators for mass spectrometry)
-<img src="/assets/images/2024/20241017_20241027/20241026_053635_0.jpg" alt="20241026_053635_0.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241026_053635_1.jpg" alt="20241026_053635_1.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241026_053635_2.jpg" alt="20241026_053635_2.jpg" />
-<img src="/assets/images/2024/20241017_20241027/20241026_053635_3.jpg" alt="20241026_053635_3.jpg" />
-    <ul>
-      <li>Neumann2020: <a href="https://www.proquest.com/docview/2838438788">Towards Single Molecule Imaging Using Nanoelectromechanical Systems</a></li>
-      <li>Image of the full system architecture, and the nanomechanical resonators:
-   <img src="/assets/images/2024/20241017_20241027/20241026_060213_0.jpg" alt="20241026_060213_0.jpg" />
-   <img src="/assets/images/2024/20241017_20241027/20241026_060213_1.jpg" alt="20241026_060213_1.jpg" /></li>
-    </ul>
-  </li>
-  <li>You and your matlab simulink model
-<img src="/assets/images/2024/20241017_20241027/20241026_203821_0.jpg" alt="20241026_203821_0.jpg" />
-    <ul>
-      <li>btw consider writing comments in your model like how detailed the caption is on wikipedia (<a href="https://en.wikipedia.org/wiki/Rube_Goldberg_machine">Rube Goldberg machine</a>).</li>
-    </ul>
-  </li>
-</ol>
-
-<p><img src="/assets/images/2024/20241017_20241027/20241026_230920_0.jpg" alt="20241026_230920_0.jpg" /></p>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Optics" /><category term="Frequency_comb" /><category term="Coupling" /><category term="Wireless" /><category term="Fiber" /><category term="Strain" /><category term="Robotics" /><category term="OFDR" /><category term="Photonics" /><category term="Atomic_clock" /><category term="Latex" /><category term="PMMA" /><category term="Shape_memory" /><category term="Flexure" /><category term="Nanofab" /><category term="Mass_sensing" /><summary type="html"><![CDATA[Showing this to my friends who would yell at me for accidentally leaning on their optical table: Menlo Systems dropped their optical frequency comb system in a 110 m drop tower to test operation in microgravity, and onto a tank of foam to show it’s shock proven up to 41.5 g. World’s First Optical Frequency Comb in Microgravity Environment Also a video: World’s First Optical Frequency Comb in Microgravity Environment Frequency combs have been around for a while and mostly in expensive experiments and metrology systems. There are on-chip combs now and startups (e.g.) trying to use them]]></summary></entry></feed>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Drone" /><category term="Comm" /><category term="Fiber" /><category term="Cryogenics" /><category term="Optics" /><category term="EEG" /><category term="HDRS" /><category term="Depression" /><category term="Photonics" /><category term="Stress" /><category term="Damascene" /><category term="Illusion" /><category term="Plasma" /><category term="Sniffing" /><category term="Telephone" /><category term="Bell_lab" /><category term="TSMC" /><category term="PFAS" /><category term="Nanofab" /><category term="Nanoscribe" /><category term="TPP" /><summary type="html"><![CDATA[Air-to-ground and air-to-air optical comm with drones and vehicles using 15 W white LEDs, capable of 2 Mbps and up to ~ 40 m when collimated. They showed real-time video transmission with them. The alignment is achieved with a 3-axis gimbal, a web cam, and image recognition. Liang2024: Drone-based mobile full-duplex optical communication It uses the same white LED that would be used for illumination, blue light excited phosphor]]></summary></entry></feed>
