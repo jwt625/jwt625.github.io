@@ -289,7 +289,7 @@ var store = [{
       },{
         "title": "This week's outside five sigma (#26)",
         "excerpt":"POV your job is to build a 20 MW calorimeter and calibrate it Bryant2019: The NIST 20 MW Calorimetry Measurement System for Large-Fire Research They do amazing measurements with it. ah the good ol’ days when you are part of the scientific instrument (well actually you always are) (Measuring the...","categories": ["OFS"],
-        "tags": ["Nanofab"],
+        "tags": ["Calorimeter","Acoustics","NIST","Egocentric_video","Photonics","Inverse_design","Quantum_computing","Ultrasonic","Ultrasonic_imaging","Leidenfrost","Superconducting_circuits","PornHub","Optics","Waveguide","Semiconductor","WFE","Applied_materials","ASML","Photoacoustic","LIDAR","Frequency_comb","Satellite_gravimetry","EDFA","EDWA","Annealing","ALD","ALE"],
         "url": "/ofs/weekly-OFS-26/",
         "teaser": null
       }]
