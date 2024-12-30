@@ -292,4 +292,10 @@ var store = [{
         "tags": ["Calorimeter","Acoustics","NIST","Egocentric_video","Photonics","Inverse_design","Quantum_computing","Ultrasonic","Ultrasonic_imaging","Leidenfrost","Superconducting_circuits","PornHub","Optics","Waveguide","Semiconductor","WFE","Applied_materials","ASML","Photoacoustic","LIDAR","Frequency_comb","Satellite_gravimetry","EDFA","EDWA","Annealing","ALD","ALE"],
         "url": "/ofs/weekly-OFS-26/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#27)",
+        "excerpt":"Remember the TPP 3D printed microrobots? They trap an air bubble inside, and pump fluid &amp; move around when acoustically driven at its resonance. Now there is a newer version of it they call bioresorbable acoustic microrobot (BAM), that has 30 um diameter, similar propulsion capability, steerable with magnetic fields,...","categories": ["OFS"],
+        "tags": ["TPP","Chemical_engineering","GaN","Photoluminescence","HDD","Ultrasound","Dicing","DISCO","CPO","IBM","Photonics","Inverse_design","Antenna","Snake","Bolometer","Drone","PsiQuantum","BTO","SOI","soitec","RGB","Simulation","Plasma","PDK","Microrobot","Nvidia","VCSEL","OptiCore"],
+        "url": "/ofs/weekly-OFS-27/",
+        "teaser": null
       }]

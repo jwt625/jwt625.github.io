@@ -1,4 +1,233 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-22T19:45:32-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#26)</title><link href="http://localhost:4000/ofs/weekly-OFS-26/" rel="alternate" type="text/html" title="This week’s outside five sigma (#26)" /><published>2024-12-22T00:00:00-08:00</published><updated>2024-12-22T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-26</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-26/"><![CDATA[<ol>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-12-29T22:01:09-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#27)</title><link href="http://localhost:4000/ofs/weekly-OFS-27/" rel="alternate" type="text/html" title="This week’s outside five sigma (#27)" /><published>2024-12-29T00:00:00-08:00</published><updated>2024-12-29T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-27</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-27/"><![CDATA[<ol>
+  <li>Remember the TPP 3D printed microrobots? They trap an air bubble inside, and pump fluid &amp; move around when acoustically driven at its resonance.
+    <ul>
+      <li>Now there is a newer version of it they call bioresorbable acoustic microrobot (BAM), that has 30 um diameter, similar propulsion capability, steerable with magnetic fields, and can be imaged &amp; guided with ultrasound imaging, and they actually did it in vivo in the bladder of a mouse.</li>
+      <li>(TPP: two-photon polymerization)
+<img src="/assets/images/2024/20240531_20241225/20241122_024537_0.jpg" alt="20241122_024537_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241122_024537_1.jpg" alt="20241122_024537_1.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241122_024537_2.jpg" alt="20241122_024537_2.jpg" /></li>
+    </ul>
+    <ul>
+      <li>Han2024: <a href="https://www.science.org/doi/10.1126/scirobotics.adp3593">Imaging-guided bioresorbable acoustic hydrogel microrobots</a></li>
+      <li>I wish they included more actual photos. Looks at this poor little fella
+<img src="/assets/images/2024/20240531_20241225/20241216_075516_0.jpg" alt="20241216_075516_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>University of Michigan has a <a href="https://encyclopedia.che.engin.umich.edu">Visual Encyclopedia of Chemical Engineering Equipment</a>.
+It “has been developed over the past 20 years to help you learn how chemical engineering equipment works. You’ll find descriptions of many different industrial processes and more than 100 kinds of equipment used in industry.”
+<img src="/assets/images/2024/20240531_20241225/20241217_061341_0.jpg" alt="20241217_061341_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241217_061341_1.jpg" alt="20241217_061341_1.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241217_061341_2.jpg" alt="20241217_061341_2.jpg" />
+    <ul>
+      <li>Found it because I was looking up fiber spinning.</li>
+      <li>Which is because of this paper on using a jet to assist the fiber spinning in a liquid bath.</li>
+      <li>Pan2024: <a href="https://doi.org/10.1063/5.0232428">Fiber formation mechanisms of jet-assisted wet spinning (JAWS)</a>
+<img src="/assets/images/2024/20240531_20241225/20241217_061633_0.jpg" alt="20241217_061633_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>Github contribution chart but it’s actually blinking photoluminescence of InGaN/GaN nanopillars.
+<img src="/assets/images/2024/20240531_20241225/20241217_062624_0.jpg" alt="20241217_062624_0.jpg" />
+    <ul>
+      <li>Oikawa2024: <a href="https://pubs.aip.org/aip/apl/article-abstract/125/24/243501/3324242/Correlated-photoluminescence-blinking-phenomenon?redirectedFrom=fulltext">Correlated photoluminescence blinking phenomenon on InGaN/GaN nanopillar structures</a></li>
+    </ul>
+  </li>
+  <li>This “747 flying two sheets of paper away from grass, and being able to read about each one of them” analogy of HDD blew my mind. That is few nm gap between the head and the platter, ~width of a single strand of DNA.
+    <ul>
+      <li>Recently I heard from a friend that HDDs are filled with helium. Turns out It’s been done as early as in the 1950s for the drum memory, in commercial HDDs for more than 10 years, and “as of March 2020, Helium is used in all high-capacity drives for data-centers. These come from all of the three remaining HDD manufacturers: Western Digital, Seagate, and Toshiba.”</li>
+      <li>Helium is much lighter, lower drag, and more laminar than air. It reduces turbulence and random forces on the disks and arms, less acoustic noise, and better thermalization and temperature distribution. However, sealing it is a big hustle. People have tried various ways, and settled with laser welding.
+<img src="/assets/images/2024/20240531_20241225/20240531_032207_0.jpg" alt="20240531_032207_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20240531_032207_1.jpg" alt="20240531_032207_1.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20240531_032207_2.jpg" alt="20240531_032207_2.jpg" /></li>
+    </ul>
+    <ul>
+      <li>Fig. 1 from <a href="https://blog.westerndigital.com/helium-hard-drives-explained/">Western Digital’s blog</a></li>
+      <li>Fig. 2 from someone’s white paper: 2013: <a href="https://d1yx3ys82bpsa0.cloudfront.net/groups/chm-helium-white-paper.pdf">HELIUM-FILLED DRIVES INTRODUCED</a></li>
+      <li>Fig. 3 from Aoyagi2016: <a href="https://jsme.or.jp/award/jsme2016/mnt2016-1.pdf">Development of Helium Sealed High Capacity Hard Disk Drive</a></li>
+      <li>The second source is a very good read.
+<img src="/assets/images/2024/20240531_20241225/20241217_162421_0.jpg" alt="20241217_162421_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241217_162421_1.jpg" alt="20241217_162421_1.jpg" /></li>
+      <li>N. Gunderson has a paper with much more historical &amp; technical details.</li>
+      <li>Gunderson2016: <a href="https://web.archive.org/web/20170130033122/http://www.seagate.com/files/www-content/product-content/enterprise-hdd-fam/enterprise-capacity-3-5-hdd-10tb/_shared/docs/helium-drive-launch-tp686-1-1602us.pdf">Decades of Proven Research Underpin Seagate’s Helium Drive</a>
+<img src="/assets/images/2024/20240531_20241225/20241217_163105_0.jpg" alt="20241217_163105_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241217_163105_1.jpg" alt="20241217_163105_1.jpg" /></li>
+    </ul>
+  </li>
+  <li>TIL ultrasonic vibration is also used to make blade dicing cleaner and faster. I’ve done 0.5~2 mm/s feed speed, and 20 mm/s sounds insane (and these slides are from 10+ years ago).
+(Wafer dicing = die singulation: cutting up a wafer into individual dies. Laser stealth dicing can be another &gt;10x faster.)
+<img src="/assets/images/2024/20240531_20241225/20240914_003826_0.jpg" alt="20240914_003826_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20240914_003826_1.jpg" alt="20240914_003826_1.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20240914_003826_2.jpg" alt="20240914_003826_2.jpg" />
+    <ul>
+      <li>Screenshots from <a href="http://imapsfrance.org/puissance2013/5%20-%20DISCO%20Solutions%20.pdf">Solutions for thinning, dicing and packaging of power devices made of Si, Sapphire, SiC and GaN Nov. 7th, 2013</a></li>
+      <li>See also <a href="https://disco.co.jp/eg/solution/library/other/usw.html">here</a>.</li>
+      <li>If you want to read more about dicing and what DISCO can do, they have a more recent <a href="https://www.disco.co.jp/jp/ir/movie/doc/E_Tech_Briefing_2022.pdf">tech briefing from 2022</a></li>
+    </ul>
+  </li>
+  <li>Co-packaged optics (CPO) from IBM, to increase interconnection bandwidth density and energy efficiency.
+    <ul>
+      <li>It uses a polymer waveguide for adiabatic coupling between the fibers and the photonics integrated circuit chip (PIC), with 50 um pitch on the PIC to 250 um pitch SMF array, lead-free reflow compatible + micro-BGA, and passed various reliability and stress test.</li>
+      <li>They also included a nice intro graph showing the communication bottleneck: compute has increased 60000x in the past 20 years, but I/O bandwidth only 30x.
+<img src="/assets/images/2024/20240531_20241225/20241219_060046_0.jpg" alt="20241219_060046_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241219_060046_1.jpg" alt="20241219_060046_1.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241219_060046_2.jpg" alt="20241219_060046_2.jpg" /></li>
+    </ul>
+    <ul>
+      <li>Knickerbocker2024: <a href="https://arxiv.org/abs/2412.06570">Next generation Co-Packaged Optics Technology to Train &amp; Run Generative AI Models in Data Centers and Other Computing Applications</a></li>
+    </ul>
+  </li>
+  <li>When minecraft players start doing photonics inverse design
+<img src="/assets/images/2024/20240531_20241225/20241219_063644_0.jpg" alt="20241219_063644_0.jpg" />
+    <ul>
+      <li>Mahlau2024: <a href="https://arxiv.org/abs/2412.12360">A flexible framework for large-scale FDTD simulations: open-source inverse design for 3D nanostructures</a></li>
+      <li>Seems pretty cool, I should try it out
+<img src="/assets/images/2024/20240531_20241225/20241219_063746_0.jpg" alt="20241219_063746_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>Forget about the grapple hook horn antenna, here is a spiral antenna made with NiTi shape memory alloy, that literally gets turned on when it felt hot, erect itself, and shoot out higher freq waves better.
+<img src="/assets/images/2024/20240531_20241225/20241218_101310_0.jpg" alt="20241218_101310_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241218_101310_1.jpg" alt="20241218_101310_1.jpg" />
+    <ul>
+      <li>Sherburne2024: <a href="https://pubs.acs.org/doi/10.1021/acsaenm.4c00488">Two-Way Additively Manufactured Shape Memory Alloy Wideband Reconfigurable Compound Antenna</a></li>
+      <li>A lot more details in the SI on how it’s made etc, and how they saved money without using a bias-tee for the DC heating line, by using impedance mismatch.
+<img src="/assets/images/2024/20240531_20241225/20241219_202228_0.jpg" alt="20241219_202228_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241219_202228_1.jpg" alt="20241219_202228_1.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241219_202228_2.jpg" alt="20241219_202228_2.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241219_202228_3.jpg" alt="20241219_202228_3.jpg" /></li>
+      <li>See also <a href="https://spectrum.ieee.org/smart-materials-morphing-antenna">Shape-Shifting Antenna Takes Cue From “The Expanse”</a></li>
+    </ul>
+  </li>
+  <li>Look at their forked tongues for chemical edge/gradient detection, and a “membrane bolometer” inside their pit organ for IR detection.
+<img src="/assets/images/2024/20240531_20241225/20241220_052031_0.jpg" alt="20241220_052031_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241220_052031_1.jpg" alt="20241220_052031_1.jpg" />
+    <ul>
+      <li>Fig. 1: Schwenk1994: <a href="https://doi.org/10.1126/science.263.5153.1573">Why Snakes Have Forked Tongues</a></li>
+      <li>Fig. 2: Gracheva2010: <a href="https://doi.org/10.1038/nature08943">Molecular Basis of Infrared Detection by Snakes</a>. (also at <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2855400/">NIH</a>)</li>
+    </ul>
+  </li>
+  <li>Commercial drone market is growing 33% every year in China, and 8.5% rest of the world.
+<img src="/assets/images/2024/20240531_20241225/20241220_074637_0.jpg" alt="20241220_074637_0.jpg" />
+    <ul>
+      <li><a href="https://www.nature.com/articles/d41586-024-04167-7">The small-drone revolution is coming — scientists need to ensure it will be safe</a></li>
+    </ul>
+  </li>
+  <li>Fancy harmonic oscillators
+    <ul>
+      <li>It’s an array of six inductively coupled LC resonators, where the capacitors are air-gap parallel plate, the upper plates being also high Q (10 million) membrane mechanical resonators.</li>
+      <li>They could couple them so strong, and cool down the collective motions with the microwave sideband. I guess it is the first time for collective motion of collective motion (macroscopic mechanical oscillators) to be put in quantum ground state and thus they got in science.
+<img src="/assets/images/2024/20240531_20241225/20241220_163131_0.jpg" alt="20241220_163131_0.jpg" />
+        <ul>
+          <li>Chegnizadeh2024: <a href="https://doi.org/10.1126/science.adr8187">Quantum collective motion of macroscopic mechanical oscillators</a></li>
+          <li>Image from <a href="https://science.org/doi/10.1126/science.adv3778">“Motions of the quantum collective”</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>POV you work on ”advanced engineered substrate” (Top is thin film barium titanate wafer from PsiQuantum)
+<img src="/assets/images/2024/20240531_20241225/20241221_153424_3.jpg" alt="20241221_153424_3.jpg" />
+    <ul>
+      <li>Fiber to chip loss is pretty good. The rate is still so low (125 MHz): <a href="https://arxiv.org/abs/2404.17570">A manufacturable platform for photonic quantum computing</a>
+   <img src="/assets/images/2024/20240531_20241225/20241221_153519_0.jpg" alt="20241221_153519_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>Silicon on insulator (SOI) in early 1990s: can’t even bond 4 in wafers properly
+SOI in 2024: as thin as ~10 nm with few percent uniformity across 12 in wafers
+<img src="/assets/images/2024/20240531_20241225/20241221_153424_0.jpg" alt="20241221_153424_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241221_153424_1.jpg" alt="20241221_153424_1.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241221_153424_2.jpg" alt="20241221_153424_2.jpg" />
+    <ul>
+      <li>Maszara1991: <a href="https://iopscience.iop.org/article/10.1149/1.2085575/meta">Silicon‐On‐Insulator by Wafer Bonding: A Review</a></li>
+      <li>soitec <a href="https://soitec.com/en/medias/media-library/photo">media library</a></li>
+      <li>Takeuchi2024: <a href="https://doi.org/10.1109/EDTM58488.2024.10511370">SSROI (super-steep retrograde on insulator) substrates for RF switch and LNA device performance enhancement</a></li>
+      <li>soitec is a big player. If you are interested in them, heres a 150 page slide deck from their <a href="https://d2za3aw7vtguly.cloudfront.net/production/images/Soitec-FY23-CMD_2023-06-09-061705_lbgh.pdf">capital markets day 2023</a>
+   <img src="/assets/images/2024/20240531_20241225/20241221_164550_0.jpg" alt="20241221_164550_0.jpg" />
+   <img src="/assets/images/2024/20240531_20241225/20241221_164550_1.jpg" alt="20241221_164550_1.jpg" /></li>
+    </ul>
+  </li>
+  <li>Ran into this company called <a href="https://brilliancergb.com">Brilliance RGB</a> that is doing RGB lasers integrated onto SiN photonic integrated circuit (PIC) chip. The first demo seems to be butt coupled, and the most recent one has three laser dies and one NTC bonded onto the PIC.
+Not much else happening on the PIC yet. The scanning part would be another challenge for AR/VR.
+<img src="/assets/images/2024/20240531_20241225/20241222_090629_0.jpg" alt="20241222_090629_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241222_090629_1.jpg" alt="20241222_090629_1.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241222_090629_2.jpg" alt="20241222_090629_2.jpg" />
+    <ul>
+      <li>See also their <a href="https://youtube.com/@brilliancergb304">youtube</a></li>
+      <li>There’s a <a href="https://epic-photonics.com/wp-content/uploads/2023/09/2.9-Tim-Tiek-Brilliance.pdf">slide deck from earlier this year</a> (says confidential but well it’s on the internet)
+   <img src="/assets/images/2024/20240531_20241225/20241222_090938_0.jpg" alt="20241222_090938_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>About to say I found an interactive animated coupled oscillator simulation, but <a href="https://falstad.com/mathphysics.html">this crazy website</a> actually has all kinds of interactive maths and physics stuff, from acoustics to E&amp;M to quantum to thermal… I’m struggling to decide what to include here.
+    <ul>
+      <li>The four I picked are coupled oscillators, hydrogen molecular ion orbits, hydrogen atom wave functions (I’ve played with them in Mathematica before, these two are the best visuals I have ever seen and played with), and gas molecules.
+<img src="/assets/images/2024/20240531_20241225/20241222_173217_0.jpg" alt="20241222_173217_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241222_173217_1.jpg" alt="20241222_173217_1.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241222_173217_2.jpg" alt="20241222_173217_2.jpg" />
+        <ul>
+          <li>I’ve been thinking about building an interactive fdtd in browser, maybe I should start doing it.
+ <img src="/assets/images/2024/20240531_20241225/20241222_201704_0.jpg" alt="20241222_201704_0.jpg" />
+ <img src="/assets/images/2024/20240531_20241225/20241222_201704_1.jpg" alt="20241222_201704_1.jpg" /></li>
+          <li>Found a few more kids oriented from <a href="https://phet.colorado.edu/en/simulations/browse">UColorado</a>
+ <img src="/assets/images/2024/20240531_20241225/20241222_203134_0.jpg" alt="20241222_203134_0.jpg" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Virgin optical Coriolis force guiding: we heat up a PDMS pipe with a helix wire, so it wraps around and pushes the light beam back
+    <ul>
+      <li>Chad plasma channel guiding: 500 TW laser pulses creating plasma in a sheet of supersonic gas and guides itself, and accelerate electrons to ~ 10 GeV (laser plasma-wakefield particle acceleration).</li>
+      <li>I have no idea how the wakefield acceleration works. The guiding sounds very similar to Kerr lens.
+<img src="/assets/images/2024/20240531_20241225/20241224_041813_0.jpg" alt="20241224_041813_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241224_041813_1.jpg" alt="20241224_041813_1.jpg" />
+        <ul>
+          <li>First pic from: <a href="https://nature.com/articles/s41567-023-02251-9">Optical Coriolis force guides light along Trojan beams</a></li>
+          <li>See also <a href="https://x.com/jwt0625/status/1864562240067891608">this thread</a> and ref therein.</li>
+          <li>Second pic from Turner2024: <a href="https://physics.aps.org/articles/v17/183">Electrons Channel Surf to Ultrahigh Energies</a></li>
+          <li>Tthe laser behind it is not going to fit in our arms any time soon:</li>
+          <li>Nakamura2017: <a href="https://ieeexplore.ieee.org/document/7934119">Diagnostics, Control and Performance Parameters for the BELLA High Repetition Rate Petawatt Class Laser</a>
+ <img src="/assets/images/2024/20240531_20241225/20241224_060321_0.jpg" alt="20241224_060321_0.jpg" /></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>I was being ignorant. Relatively cutting edge open source PDKs do exist, such as ASAP7 (7 nm) and FreePDK3 (3 nm), with many process and design rule details.
+Maybe I should also look harder for photonics.
+<img src="/assets/images/2024/20240531_20241225/20241119_162726_0.jpg" alt="20241119_162726_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241119_162726_1.jpg" alt="20241119_162726_1.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241119_162726_2.jpg" alt="20241119_162726_2.jpg" />
+    <ul>
+      <li>Screenshots from Clark2016: <a href="https://doi.org/10.1016/j.mejo.2016.04.006">ASAP7: A 7-nm finFET predictive process design kit</a></li>
+      <li><a href="https://github.com/ncsu-eda/FreePDK3">FreePDK3 Predictive Process Design Kit</a></li>
+      <li>Southampton Uni‘s CORNERSTONE has SiN, Si (3 waveguide thicknesses 220nm, 340nm and 500nm), Si with heaters (but not PDs), suspended Si, Ge - all open source PDKs</li>
+    </ul>
+    <ul>
+      <li>see <a href="https://x.com/OptoLia/status/1871490869930643950">original tweet</a></li>
+    </ul>
+  </li>
+  <li>“A new Science Robotics study describes how a reinforcement Learning-based strategy can individually control up to 200 laser-driven microrobots within a swarm and train them to collectively move or transport cargo.” (see tweet from <a href="https://x.com/SciRobotics/status/1871621887869989306">Science Robotics</a>)
+    <ul>
+      <li>I’m more impressed by how they could push stuff with the 6 um diameter microswimmers controlled with laser, as optical tweezers has no chance of generating this much force without burning stuff. Optoelectronic tweezers maybe.</li>
+      <li>Turns out the particles are in a binary fluid mixture near its critical point, and selective heating from the laser on the particles cause local demixing, and that’s where the force is from. Average laser power needed is only ~ 1 uW to get ~ 1 um/s.
+<img src="/assets/images/2024/20240531_20241225/20241224_182005_0.jpg" alt="20241224_182005_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241224_182005_1.jpg" alt="20241224_182005_1.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241224_182005_2.jpg" alt="20241224_182005_2.jpg" />
+        <ul>
+          <li>Videos from Heuthe2024: <a href="https://doi.org/10.1126/scirobotics.ado5888">Counterfactual rewards promote collective transport using individually controlled swarm microrobots</a></li>
+          <li>Screenshot from Solano2017: <a href="https://nature.com/articles/s41598-017-14126-0">Tuning the motility and directionality of self-propelled colloids</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Merry Christmas everyone!
+    <ul>
+      <li>Here is a new Nvidia challenger I found emerged recently called <a href="https://opticore.ai">OptiCore</a>, by Berkeley and MIT folks, based on “coherent VCSEL neural networks” they prototyped in 2023.</li>
+      <li>Although it’s going to take a lot of effort and a long time, I’m a fan of this approach out of many different kinds of optical neural networks (ONNs, which I’m not an expert on, I just know some basic photonics).
+<img src="/assets/images/2024/20240531_20241225/20241225_074057_0.jpg" alt="20241225_074057_0.jpg" />
+<img src="/assets/images/2024/20240531_20241225/20241225_074057_1.jpg" alt="20241225_074057_1.jpg" />
+        <ul>
+          <li>Right: from SI of Chen2023: <a href="https://nature.com/articles/s41566-023-01233-w">Deep learning with coherent VCSEL neural networks</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="TPP" /><category term="Chemical_engineering" /><category term="GaN" /><category term="Photoluminescence" /><category term="HDD" /><category term="Ultrasound" /><category term="Dicing" /><category term="DISCO" /><category term="CPO" /><category term="IBM" /><category term="Photonics" /><category term="Inverse_design" /><category term="Antenna" /><category term="Snake" /><category term="Bolometer" /><category term="Drone" /><category term="PsiQuantum" /><category term="BTO" /><category term="SOI" /><category term="soitec" /><category term="RGB" /><category term="Simulation" /><category term="Plasma" /><category term="PDK" /><category term="Microrobot" /><category term="Nvidia" /><category term="VCSEL" /><category term="OptiCore" /><summary type="html"><![CDATA[Remember the TPP 3D printed microrobots? They trap an air bubble inside, and pump fluid &amp; move around when acoustically driven at its resonance. Now there is a newer version of it they call bioresorbable acoustic microrobot (BAM), that has 30 um diameter, similar propulsion capability, steerable with magnetic fields, and can be imaged &amp; guided with ultrasound imaging, and they actually did it in vivo in the bladder of a mouse. (TPP: two-photon polymerization) Han2024: Imaging-guided bioresorbable acoustic hydrogel microrobots I wish they included more actual photos. Looks at this poor little fella]]></summary></entry><entry><title type="html">This week’s outside five sigma (#26)</title><link href="http://localhost:4000/ofs/weekly-OFS-26/" rel="alternate" type="text/html" title="This week’s outside five sigma (#26)" /><published>2024-12-22T00:00:00-08:00</published><updated>2024-12-22T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-26</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-26/"><![CDATA[<ol>
   <li>POV your job is to build a 20 MW calorimeter and calibrate it
 <img src="/assets/images/2024/20241122_20241215/20241214_174454_0.jpg" alt="20241214_174454_0.jpg" />
 <img src="/assets/images/2024/20241122_20241215/20241214_174454_1.jpg" alt="20241214_174454_1.jpg" />
@@ -108,7 +337,7 @@ Height of the puddle is comparable/limited to the capillary length, which is giv
 <img src="/assets/images/2024/20241122_20241215/20241212_054309_2.jpg" alt="20241212_054309_2.jpg" />
 <img src="/assets/images/2024/20241122_20241215/20241212_054309_3.jpg" alt="20241212_054309_3.jpg" />
     <ul>
-      <li>From: (2024 Presidential Election)[https://pornhub.com/insights/2024-presidential-election] and <a href="https://pornhub.com/insights/2024-year-in-review">2024 Year in Review</a></li>
+      <li>From: <a href="https://pornhub.com/insights/2024-presidential-election">2024 Presidential Election</a> and <a href="https://pornhub.com/insights/2024-year-in-review">2024 Year in Review</a></li>
     </ul>
   </li>
   <li>Surprise! When you dig out an empty core surrounded by strongly scattering media, light is better guided inside the core!
@@ -222,7 +451,7 @@ While maybe I should stop being surprised this is in nature physics, it is prett
 <img src="/assets/images/2024/20241122_20241215/20241215_070854_0.jpg" alt="20241215_070854_0.jpg" />
 <img src="/assets/images/2024/20241122_20241215/20241215_070854_1.jpg" alt="20241215_070854_1.jpg" />
     <ul>
-      <li><a href="https://doi.org/10.6100/alddatabase">ALD</a> and (ALE)[https://doi.org/10.6100/aledatabase] database
+      <li><a href="https://doi.org/10.6100/alddatabase">ALD</a> and <a href="https://doi.org/10.6100/aledatabase">ALE</a> database
    <img src="/assets/images/2024/20241122_20241215/20241215_071017_0.jpg" alt="20241215_071017_0.jpg" />
    <img src="/assets/images/2024/20241122_20241215/20241215_071017_1.jpg" alt="20241215_071017_1.jpg" /></li>
     </ul>
@@ -1597,174 +1826,4 @@ However, its FOV is 10 deg, works at a single wavelength, and the entrance apert
    <img src="/assets/images/2024/20240829_20241109/20241107_162950_0.jpg" alt="20241107_162950_0.jpg" /></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Qubit" /><category term="Photonics" /><category term="Quantum" /><category term="Wood" /><category term="Satellite" /><category term="AFM" /><category term="Membrane" /><category term="Optomechanics" /><category term="Entanglement" /><category term="BellLab" /><category term="Atom" /><category term="Blender" /><category term="ComputerVision" /><category term="DNN" /><category term="MATLAB" /><category term="PCB" /><category term="FailureAnalysis" /><category term="Optics" /><category term="Camera" /><category term="Microscopy" /><summary type="html"><![CDATA[The superconducting qubit, spin qubit, quantum dot qubit, and atom/ion qubit (list not exhaustive) people gotta catch up with their quantum starter kit Qubitekk Quantum Starter Kit They are about to get acquired by IonQ: IonQ to Acquire Qubitekk, Furthering Leadership in Quantum Networking]]></summary></entry><entry><title type="html">This week’s outside five sigma (#19)</title><link href="http://localhost:4000/ofs/weekly-OFS-19/" rel="alternate" type="text/html" title="This week’s outside five sigma (#19)" /><published>2024-11-03T00:00:00-07:00</published><updated>2024-11-03T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-19</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-19/"><![CDATA[<ol>
-  <li>Air-to-ground and air-to-air optical comm with drones and vehicles using 15 W white LEDs, capable of 2 Mbps and up to ~ 40 m when collimated. They showed real-time video transmission with them. The alignment is achieved with a 3-axis gimbal, a web cam, and image recognition.
-<img src="/assets/images/2024/20241008_20241031/20241023_015534_0.jpg" alt="20241023_015534_0.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241023_015534_1.jpg" alt="20241023_015534_1.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241023_015534_2.jpg" alt="20241023_015534_2.jpg" />
-    <ul>
-      <li>Liang2024: <a href="https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-22-38013&amp;id=561242">Drone-based mobile full-duplex optical communication</a></li>
-      <li>It uses the same white LED that would be used for illumination, blue light excited phosphor
-<img src="/assets/images/2024/20241008_20241031/20241023_022502_0.jpg" alt="20241023_022502_0.jpg" /></li>
-    </ul>
-  </li>
-  <li>Here is how you make a sub-micron diameter quartz fiber in late nineteenth century: pull it out with an arrow and a crossbow.
-<img src="/assets/images/2024/20241008_20241031/20241026_233212_0.jpg" alt="20241026_233212_0.jpg" />
-    <ul>
-      <li>Greenslade2024: <a href="https://pubs.aip.org/aapt/pte/article/62/8/636/3317752/Apparatus-Named-After-Our-Academic-Ancestors-VII">Apparatus Named After Our Academic Ancestors—VII</a></li>
-    </ul>
-  </li>
-  <li>Application note from Montana Instruments on high NA optics at 4 K (and more).
-Big pain to get the chip and a long WD objective close enough with the heat shield and the vacuum enclosure in between, both had to get really close to the windows. Nice they put the objective inside.
-<img src="/assets/images/2024/20241008_20241031/20241027_153910_0.jpg" alt="20241027_153910_0.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241027_153910_1.jpg" alt="20241027_153910_1.jpg" />
-    <ul>
-      <li><a href="https://cdn.prod.website-files.com/6118466f5c775b56d53d49e9/66b4e5bc2330fb8becb37e2c_4200-2-DOC108_1.0%20(Application%20Note-Stanford%20Collaboration).pdf">Application - Quantum Nanophotonics Experiments with The Rook™ Nanopositioner (June 2024)</a></li>
-    </ul>
-  </li>
-  <li>“Electroencephalography (EEG) + machine learning capable of predicting e-sports match outcomes with ~80% accuracy”
-    <ul>
-      <li>What</li>
-      <li>Opens up the paper</li>
-      <li>It is Street Fighter V
-(btw you have to play it for 5+ yr and average 1+ h a day to participate the study)
-<img src="/assets/images/2024/20241008_20241031/20241027_062612_0.jpg" alt="20241027_062612_0.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241027_062612_1.jpg" alt="20241027_062612_1.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241027_062612_2.jpg" alt="20241027_062612_2.jpg" /></li>
-    </ul>
-    <ul>
-      <li>See <a href="https://group.ntt/en/magazine/blog/e-sports/">NTT story: Want to Know Who’s Going to Win In Advance?</a>, and <a href="https://group.ntt/en/newsrelease/2024/07/18/240718a.html">World’s first: Discovery of Neural Patterns Strongly Linked to Esports Match Outcomes Predicting “similar-level match” and “upsets” with approximately 80% accuracy</a></li>
-      <li>Minami2024: <a href="https://linkinghub.elsevier.com/retrieve/pii/S074756322400219X">Prediction of esports competition outcomes using EEG data from expert players</a></li>
-    </ul>
-  </li>
-  <li>A home-based tDCS treatment “showed a greater reduction in depressive symptoms than a control group”
-Looks inside: hmm the error bar is standard error, not standard deviation?
-Looks into the SI: okay put anything on the head works it seems
-(HDRS = Hamilton Depression Rating Scale)
-<img src="/assets/images/2024/20241008_20241031/20241023_042950_0.jpg" alt="20241023_042950_0.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241023_042950_1.jpg" alt="20241023_042950_1.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241023_042950_2.jpg" alt="20241023_042950_2.jpg" />
-    <ul>
-      <li>Woodham2024: <a href="https://www.nature.com/articles/s41591-024-03305-y">Home-based transcranial direct current stimulation treatment for major depressive disorder: a fully remote phase 2 randomized sham-controlled trial</a>
-(it has the longest SI I’ve seen so far, 163 pages)</li>
-      <li>They sell the headset for 500 bucks, probably could’ve charged more. (<a href="https://www.flowneuroscience.com/shop/">Flow Neuroscience</a>)
-<img src="/assets/images/2024/20241008_20241031/20241023_043332_0.jpg" alt="20241023_043332_0.jpg" /></li>
-      <li>Another fun thing I learnt is that Europe has a health related quality of life measure, and they named it like a perfect part number: <a href="https://euroqol.org">EQ-5D-Y-5L</a></li>
-    </ul>
-  </li>
-  <li>Power over fiber when: coherent made a <em>single mode</em> fiber that is capable of &gt; 20 W of optical power!
-<img src="/assets/images/2024/20241008_20241031/20241027_053614_0.jpg" alt="20241027_053614_0.jpg" />
-    <ul>
-      <li>Rev. Sci. Instrum. 95, 109501 (2024): <a href="https://pubs.aip.org/aip/rsi/article/95/10/109501/3318214/Review-of-Scientific-Instruments-New-Products">Review of Scientific Instruments New Products</a></li>
-    </ul>
-  </li>
-  <li>Wafer-scale Si3N4 photonic IC suffer from high stress and cracking. Damascene process solves it but has worse control over thickness, uniformity etc. This paper solves it by literally anchoring the Si3N4 with trenches, and showed comparable optical propagation lost.
-<img src="/assets/images/2024/20241008_20241031/20241022_005259_0.jpg" alt="20241022_005259_0.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241022_005259_1.jpg" alt="20241022_005259_1.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241022_005259_2.jpg" alt="20241022_005259_2.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241022_005259_3.jpg" alt="20241022_005259_3.jpg" />
-    <ul>
-      <li>Ji2024: <a href="https://opg.optica.org/optica/fulltext.cfm?uri=optica-11-10-1397&amp;id=561626">Efficient mass manufacturing of high-density, ultra-low-loss Si3N4 photonic integrated circuits</a></li>
-      <li>The Damascene process is very similar to how <a href="https://en.wikipedia.org/wiki/Copper_interconnects">copper interconnects</a> are made for electronics IC
-<img src="/assets/images/2024/20241008_20241031/20241022_005538_0.jpg" alt="20241022_005538_0.jpg" /></li>
-    </ul>
-  </li>
-  <li>This is the best you can do for world’s smallest Rubik’s Cube? Who’s printing one that’s 10x smaller with nanoscribe and rotating it with laser beams.
-<img src="/assets/images/2024/20241008_20241031/20241018_013008_0.jpg" alt="20241018_013008_0.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241018_013008_1.jpg" alt="20241018_013008_1.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241018_013008_2.jpg" alt="20241018_013008_2.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241018_013008_3.jpg" alt="20241018_013008_3.jpg" />
-    <ul>
-      <li>See <a href="https://www.cnn.com/2024/10/04/style/japan-worlds-smallest-rubik-cube-intl-hnk/index.html">This is the world’s smallest Rubik’s Cube. And it actually works</a>, and <a href="https://www.oricon.co.jp/news/2347564/full/">“世界最小”ルービックキューブ、ギネス世界記録認定 「1辺5ミリ」77万円で販売へ</a></li>
-      <li>The <a href="https://www.guinnessworldrecords.com/world-records/smallest-rubiks-cube-">Guinness world records website</a> looks like a scam website</li>
-      <li>Can’t even find it on their website</li>
-    </ul>
-  </li>
-  <li>The moon tonight is gorgeous… These papers tried to measure the moon illusion and found it is usually claimed to be 50% different between the horizon and zenith moon.
-Experiments involving human perception feel so tricky to do.
-<img src="/assets/images/2024/20241008_20241031/20241017_015633_0.jpg" alt="20241017_015633_0.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241017_015633_1.jpg" alt="20241017_015633_1.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241017_015633_2.jpg" alt="20241017_015633_2.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241017_015633_3.jpg" alt="20241017_015633_3.jpg" />
-    <ul>
-      <li>Kaufman1962, <a href="https://www.science.org/doi/10.1126/science.136.3520.953">The Moon Illusion, I</a></li>
-      <li>Rock1962, <a href="https://www.science.org/doi/10.1126/science.136.3521.1023">The Moon Illusion, II</a></li>
-      <li>Kaufman2000, <a href="https://www.pnas.org/doi/full/10.1073/pnas.97.1.500">Explaining the moon illusion</a></li>
-    </ul>
-  </li>
-  <li>Found a gem of that one time when a chip flew off tweezers, spent ~10 min looking for it, and it was stuck to the outside of the fume hood
-(still working on the EBL blog and going thru stuff)
-<img src="/assets/images/2024/20241008_20241031/20241015_063037_0.jpg" alt="20241015_063037_0.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241015_063037_1.jpg" alt="20241015_063037_1.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241015_063037_2.jpg" alt="20241015_063037_2.jpg" />
-    <ul>
-      <li><a href="https://x.com/jwt0625/status/1846076194292486622">tweet</a></li>
-    </ul>
-  </li>
-  <li>How do you make lenses and mirrors for ionizing high power laser beams? Use already ionized stuff (a plasma).
-The plasma is shaped by interference pattern between two lasers first, just like how holography and fiber bragg grating are made.
-<img src="/assets/images/2024/20241008_20241031/20241015_005841_0.jpg" alt="20241015_005841_0.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241015_005841_1.jpg" alt="20241015_005841_1.jpg" />
-    <ul>
-      <li><a href="https://physics.aps.org/articles/v15/s16">A Plasma Lens for the World’s Most Powerful Lasers</a></li>
-      <li><a href="https://physics.aps.org/articles/v17/s123">Cleaning Intense Laser Pulses with Plasma</a></li>
-    </ul>
-  </li>
-  <li>The modern version: keystroke sniffing with off-the-shelf smartphone.
-Good news is it is not that accurate yet.
-<img src="/assets/images/2024/20241008_20241031/20241028_144621_0.jpg" alt="20241028_144621_0.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241028_144621_1.jpg" alt="20241028_144621_1.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241028_144621_2.jpg" alt="20241028_144621_2.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241028_144621_3.jpg" alt="20241028_144621_3.jpg" />
-    <ul>
-      <li>Zhao2023: <a href="https://dl.acm.org/doi/10.1145/3614440">UltraSnoop: Placement-agnostic Keystroke Snooping via Smartphone-based Ultrasonic Sonar</a></li>
-      <li>Huang2024: <a href="https://ieeexplore.ieee.org/document/10587029/">KeystrokeSniffer: An Off-the-Shelf Smartphone Can Eavesdrop on Your Privacy From Anywhere</a></li>
-      <li>How the waveforms look like, and having shorter fingers could help.
-   <img src="/assets/images/2024/20241008_20241031/20241028_160014_0.jpg" alt="20241028_160014_0.jpg" />
-   <img src="/assets/images/2024/20241008_20241031/20241028_160014_1.jpg" alt="20241028_160014_1.jpg" /></li>
-    </ul>
-  </li>
-  <li>Telephone cable on the left, human spinal cord on the right.
-<img src="/assets/images/2024/20241008_20241031/20241008_194639_0.jpg" alt="20241008_194639_0.jpg" />
-    <ul>
-      <li><a href="https://www.worldradiohistory.com/Archive-Bell-Laboratories-Record/20s/Bell-Laboratories-Record-1925-10.pdf">Bell Laboratories Record, October 1925</a></li>
-      <li>As well as <a href="https://investor.tsmc.com/english/annual-reports">TSMC annual reports</a> have amazing themes and graphics in some of them, and of course a lot of numbers as well.
-Here are a few cover images from their 2020 annual report.
-<img src="/assets/images/2024/20241008_20241031/20241008_194639_1.jpg" alt="20241008_194639_1.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241008_194639_2.jpg" alt="20241008_194639_2.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241008_194639_3.jpg" alt="20241008_194639_3.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241008_194639_4.jpg" alt="20241008_194639_4.jpg" /></li>
-    </ul>
-  </li>
-  <li>Some nice figures from a report on potential PFAS restriction in semiconductor sector:
-    <ul>
-      <li>Semiconductor value chain</li>
-      <li>Comparison between biological and technological devices</li>
-      <li>Evolution and status of semiconductor packaging
-(PFAS = per- and polyfluoroalkyl substances)
-<img src="/assets/images/2024/20241008_20241031/20241031_014540_0.jpg" alt="20241031_014540_0.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241031_014540_1.jpg" alt="20241031_014540_1.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241031_014540_2.jpg" alt="20241031_014540_2.jpg" />
-<img src="/assets/images/2024/20241008_20241031/20241031_014540_3.jpg" alt="20241031_014540_3.jpg" />
-        <ul>
-          <li>Semiconductor PFAS Consortium, “<a href="https://www.semiconductors.org/wp-content/uploads/2023/04/Impact-of-a-Potential-PFAS-Restriction-on-the-Semiconductor-Sector-04_14_2023.pdf">The Impact of a Potential PFAS Restriction on the Semiconductor Sector</a>”, April 13, 2023</li>
-          <li>Conclusion of the report itself: nowhere close to replacement
- <img src="/assets/images/2024/20241008_20241031/20241031_015159_0.jpg" alt="20241031_015159_0.jpg" />
- <img src="/assets/images/2024/20241008_20241031/20241031_015159_1.jpg" alt="20241031_015159_1.jpg" />
- <img src="/assets/images/2024/20241008_20241031/20241031_015159_2.jpg" alt="20241031_015159_2.jpg" /></li>
-          <li>3M to Exit PFAS Manufacturing by the End of 2025 (<a href="https://news.3m.com/2022-12-20-3M-to-Exit-PFAS-Manufacturing-by-the-End-of-2025">article</a>)
- <img src="/assets/images/2024/20241008_20241031/20241031_045338_0.jpg" alt="20241031_045338_0.jpg" /></li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>I printed a little windcup (cad from openSCAD) using nanoscribe a while ago (and some chains, and a rick). It worked after poking it with a fiber to break the support lol.
-    <ul>
-      <li><a href="https://x.com/jwt0625/status/1813450223257337990">Tweet</a>
- <img src="/assets/images/2024/20241008_20241031/20241018_015913_0.jpg" alt="20241018_015913_0.jpg" />
- <img src="/assets/images/2024/20241008_20241031/20241018_015913_1.jpg" alt="20241018_015913_1.jpg" />
- <img src="/assets/images/2024/20241008_20241031/20241018_015913_2.jpg" alt="20241018_015913_2.jpg" />
- <img src="/assets/images/2024/20241008_20241031/20241018_015913_3.jpg" alt="20241018_015913_3.jpg" /></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Drone" /><category term="Comm" /><category term="Fiber" /><category term="Cryogenics" /><category term="Optics" /><category term="EEG" /><category term="HDRS" /><category term="Depression" /><category term="Photonics" /><category term="Stress" /><category term="Damascene" /><category term="Illusion" /><category term="Plasma" /><category term="Sniffing" /><category term="Telephone" /><category term="Bell_lab" /><category term="TSMC" /><category term="PFAS" /><category term="Nanofab" /><category term="Nanoscribe" /><category term="TPP" /><summary type="html"><![CDATA[Air-to-ground and air-to-air optical comm with drones and vehicles using 15 W white LEDs, capable of 2 Mbps and up to ~ 40 m when collimated. They showed real-time video transmission with them. The alignment is achieved with a 3-axis gimbal, a web cam, and image recognition. Liang2024: Drone-based mobile full-duplex optical communication It uses the same white LED that would be used for illumination, blue light excited phosphor]]></summary></entry></feed>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Qubit" /><category term="Photonics" /><category term="Quantum" /><category term="Wood" /><category term="Satellite" /><category term="AFM" /><category term="Membrane" /><category term="Optomechanics" /><category term="Entanglement" /><category term="BellLab" /><category term="Atom" /><category term="Blender" /><category term="ComputerVision" /><category term="DNN" /><category term="MATLAB" /><category term="PCB" /><category term="FailureAnalysis" /><category term="Optics" /><category term="Camera" /><category term="Microscopy" /><summary type="html"><![CDATA[The superconducting qubit, spin qubit, quantum dot qubit, and atom/ion qubit (list not exhaustive) people gotta catch up with their quantum starter kit Qubitekk Quantum Starter Kit They are about to get acquired by IonQ: IonQ to Acquire Qubitekk, Furthering Leadership in Quantum Networking]]></summary></entry></feed>
