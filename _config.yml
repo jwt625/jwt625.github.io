@@ -138,13 +138,9 @@ comments:
 show_excerpts: true
 use_excerpt_separator: true
 
-# keep_files:
+keep_files:
 #   - assets
 #   - assets/images
-#   - assets/images/2024
-# include:
-#   - assets
-#   - assets/images
-#   - assets/images/2024
-# static_files:
-#   - "assets/images/2024/20240531_20241225"
+  - assets/images/2024
+static_files:
+  - "assets/images/2024/20240531_20241225"
