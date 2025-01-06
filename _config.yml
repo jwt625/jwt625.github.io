@@ -144,5 +144,3 @@ keep_files:
   - assets/images/2024
 static_files:
   - "assets/images/2024/20240531_20241225"
-  - "assets/images/2024"
-  - "assets/doc"
