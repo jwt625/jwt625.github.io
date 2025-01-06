@@ -201,6 +201,10 @@
 <lastmod>2024-12-29T00:00:00-08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/ofs/weekly-OFS-28/</loc>
+<lastmod>2025-01-05T00:00:00-08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -241,6 +245,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/page10/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page11/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/assets/doc/2.9-Tim-Tiek-Brilliance.pdf</loc>

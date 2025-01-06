@@ -298,4 +298,10 @@ var store = [{
         "tags": ["TPP","Chemical_engineering","GaN","Photoluminescence","HDD","Ultrasound","Dicing","DISCO","CPO","IBM","Photonics","Inverse_design","Antenna","Snake","Bolometer","Drone","PsiQuantum","BTO","SOI","soitec","RGB","Simulation","Plasma","PDK","Microrobot","Nvidia","VCSEL","OptiCore"],
         "url": "/ofs/weekly-OFS-27/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#28)",
+        "excerpt":"Earth’s Core Temperature (Quote tweeting about doing a PhD, and picking some projects that would involve extreme things that no VC or personal wealth could or would fund) Yeeess exactly, this kind of stuff. Some questions no one could answer with certainty except nature. Sometimes you never know when you...","categories": ["OFS"],
+        "tags": ["Earth","AR","EOM","Hyperlight","Moores_law","EUV","EUVL","Intel","Pellicle","Femtosecond_laser","Laser","TRUMPF","Quantum","siltronic","Wafer","LiDAR","FMCW","DARPA","High-speed camera","Walker","Grating","Exoplanet"],
+        "url": "/ofs/weekly-OFS-28/",
+        "teaser": null
       }]
