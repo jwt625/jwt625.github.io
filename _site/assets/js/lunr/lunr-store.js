@@ -304,4 +304,10 @@ var store = [{
         "tags": ["Earth","AR","EOM","Hyperlight","Moores_law","EUV","EUVL","Intel","Pellicle","Femtosecond_laser","Laser","TRUMPF","Quantum","siltronic","Wafer","LiDAR","FMCW","DARPA","High-speed camera","Walker","Grating","Exoplanet"],
         "url": "/ofs/weekly-OFS-28/",
         "teaser": null
+      },{
+        "title": "Get light onto a photonic chip: history and concepts",
+        "excerpt":"Light is good. It brings the energy and entropy for life, and it also runs the information around the internet backbone, and carries this little writing to your eyes, both abstractively and literally lol. Light is also naughty, it has many forms, scales, and could go everywhere, so there are...","categories": ["Tutorial"],
+        "tags": ["Photonics","Optics","Fiber"],
+        "url": "/tutorial/fiber2chip-history-concept/",
+        "teaser": null
       }]
