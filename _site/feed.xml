@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-13T00:25:32-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#29)</title><link href="http://localhost:4000/ofs/weekly-OFS-29/" rel="alternate" type="text/html" title="This week’s outside five sigma (#29)" /><published>2025-01-12T00:00:00-08:00</published><updated>2025-01-12T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-29</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-29/"><![CDATA[<h1 id="high-power-miniature-laser-pcsel">High-Power Miniature Laser (PCSEL)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-13T08:28:19-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#29)</title><link href="http://localhost:4000/ofs/weekly-OFS-29/" rel="alternate" type="text/html" title="This week’s outside five sigma (#29)" /><published>2025-01-12T00:00:00-08:00</published><updated>2025-01-12T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-29</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-29/"><![CDATA[<h1 id="high-power-miniature-laser-pcsel">High-Power Miniature Laser (PCSEL)</h1>
 <p>Noda group’s 3 mm diameter, 50 W continuous-wave single-mode photonic-crystal surface-emitting laser (PCSEL).</p>
 <ul>
   <li>Look at all the ribbon bonds to inject &gt;100 A current into this little chip, liquid cooled with 6°C water.</li>
@@ -50,7 +50,9 @@
 </ul>
 
 <h1 id="ir-microlens-arrays">IR Microlens Arrays</h1>
-<p>AR coated silicon microlens array for 25 um light. Look at the kilopixel one!</p>
+<p>AR coated silicon microlens array for 25 um light. Look at the kilopixel one!
+<img src="/assets/images/2025/20240712_20250111/20250106_075041_0.jpg" alt="20250106_075041_0.jpg" />
+<img src="/assets/images/2025/20240712_20250111/20250106_075041_1.jpg" alt="20250106_075041_1.jpg" /></p>
 <ul>
   <li>Left: Day2024: <a href="https://doi.org/10.1103/PhysRevX.14.041005">A 25-micrometer Single-Photon-Sensitive Kinetic Inductance Detector</a></li>
   <li>Right: Cothard2023: <a href="https://arxiv.org/abs/2311.00819">Monolithic Kilopixel Silicon Microlens Arrays for Future Far-Infrared Observatories</a></li>
