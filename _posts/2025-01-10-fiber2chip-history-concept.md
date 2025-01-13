@@ -25,21 +25,141 @@ Light is good. It brings the energy and entropy for life, and it also runs the i
 What would you expect from this writing? I'm trying to make it as easy to digest and take on as possible, with minimal assumptions on background knowledge, while covering the essense and basics. Most of physics and optics are intuitive to understand (if you try hard enough), and the useful ones always have a daily life analogy, like a Q-switched laser works the same way as how your toilet flushes (ok this example is probably stretching it but you get the point).
 
 You'd be surprised sometimes how oblivious some of the academic or industry experts are about the basics (to be fair many of the basics are far from trivial to understand and straightforward to see behind the complexity), to the extent that occasionally people will come together and review e.g. [what is — and what is not — an optical isolator](https://www.nature.com/articles/nphoton.2013.185). One way to get back to the basics is to tell them to more people and broader audience, and this is what I'll try to do here, starting from what is light, how to guide it, why do we want it on a chip, and how to get it onto a chip.
+- You'll also find that I could not explain some of the basic concepts well, and some of them would even lead to philosophical discussions. I'd say for now choose your belief and move on, and come back to your doubts when you got time to kill in a nice sunny weekend afternoon.
 
 Lastly, I'm writing this also because I want to collect some of the readings into a more coherent collection, and for fun, so do not take what I wrote here seriously, and always do your own research! Although this is not intended for peer review, please do let me know if you've found errors, what you like and don't like about it! Oh also if you are curious, there is a section for stuff in the [cover image](#cover-image).
 
 
 # What is light?
 
-People usually start talking about light as electromagnetic wave resulting from Maxwell's equations, with Heaviside's notation ([that got objected by math people at the time and rejected one of his submissions](https://doi.org/10.1063/PT.3.1788)). Let's take a look at [Maxwell's version](https://royalsocietypublishing.org/doi/abs/10.1098/rstl.1865.0008), actually just the quantities and symbols involved:
+## Shaking a point charge
+
+> What's in this section: Maxwell's equation, wave, radiation, polarization
+
+People usually start talking about light as electromagnetic wave resulting from Maxwell's equations, with Heaviside's notation ([that got objected by math people at the time and rejected one of his submissions](https://doi.org/10.1063/PT.3.1788)). Let's take a look at [Maxwell's version](https://royalsocietypublishing.org/doi/abs/10.1098/rstl.1865.0008) as he wrote it down in 1865, actually just the quantities and symbols involved:
 ![maxwell1864-quantities](/assets/images/2025/Photonics_history/maxwell1864-quantities.png)
 
-Hell no, 20 variables and 20 equations. 
+Hell no, 20 variables and 20 equations. I don't know about you, I cannot deal with equations with more than 20 different symbols, not to mention 20 equations for 20 variables. The takeaway here? Heaviside's [vector calculus](https://en.wikipedia.org/wiki/Vector_calculus) notation is good, and electromagnetism could be really complicated. There are multiple vector fields involved, as well as their distributions and evolutions in **time** and **space**. But as Maxwell mentioned, in many scenarios, only a few equations are required. This is a good way to approach a complex and general problem, find a special & simplified case, for example: a point charge.
+
+
+So why and how does an accelerating point charge radiate? Let's cheat the math with some more advanced knowledge: special relativity, and more specifically, no information travels faster than light.
+- This kind of "cheating" is my favorite & here is another example (in this case cheat trigonometry with a bit advanced math): to prove $$f(\theta) = \sin^2\theta + \cos^2\theta = 1$$, you can take the derivative $$f'(\theta)$$ and find out it's zero, and thus $$f(\theta) = f(0) = 1$$.
+- To be more precise, we are defining $\sin$ and $\cos$ as the components of the solution of a first order differential equation for a vector $$ x' = Ax$$, where matrix $$A = \begin{bmatrix}
+0 & -1 \\
+1 & 0
+\end{bmatrix}$$, and with initial condition $$x_0 = \begin{bmatrix}
+1 \\
+0
+\end{bmatrix}$$.
+- Why bother with all these? If you are math pilled, you should recognize the Lie group and Lie algebra of a 2D rotation from above, which can also be represented by a complex phasor that is used all the time for a traveling wave. If I ever get to coupled mode theory in a later blog (math for two traveling waves with crosstalk), you'll find it is pretty much this rotation but in 4D.
+- Apologize for derailing.. Let's come back to the charge.
+
+Let's say we know the static electric field (E field) of the charge points out straight, which should be the case immediately before and after its velocity gets kicked (acceleration impulse). Special relativity then says this change is moving out at maximum the speed of light, see the animation below.
+
+![charge_kick_field_line.gif](/assets/images/2025/Photonics_history/charge_kick_field_line.gif)
+*A nice demo showing the E field line from a moving charge suddenly accelerated from a velocity of 0.5c to 0.6c. [Radiation Pulse from an Accelerated Point Charge](https://demonstrations.wolfram.com/RadiationPulseFromAnAcceleratedPointCharge/). I swear I remember seeing this also in [Feynman lecture](https://www.feynmanlectures.caltech.edu/II_26.html#Ch26-S2) but I cannot find it anymore.*
+
+
+You might say, why are we jumping ahead and talking about speed of light already while still trying to describe light as a wave? Well I really like this example so I'm going to impose my preference on you lol. But also you could read a lot of more useful information out of this simple example. There is no kink in the field line along the direction of the velocity jump (the acceleration), in other words, if the charge accelerates towards or away from you, you don't get any radiated field. You only get to feel it when the acceleration has a component in the plane perpendicular to your line of sight to it.
+- This plane has two degrees of freedom, and this corresponds to the two transverse [polarization](https://en.wikipedia.org/wiki/Polarization_(waves)) degrees of freedom of light.
+- There is no longitudinal polarization (longitudinal = field is parallel to the line from the source to you). If you see a "longitudinal" component, it must be from a different source than the one you thought it was from.
+- You could have the charge moving back and forth along a line, and you get linearly polarized light. Having it move in a circle, or an ellipse, you get circular or mixed polarization.
+
+Now we could imagine and see the charge gets kicked once, the next step is to keep kicking it back and forth so that we could maintain the outgoing wave. Here is an example:
 
 ![charge_em](/assets/images/2025/Photonics_history/charge_em_radiation.gif)
-[Javalab - Electromagnetic Wave](https://javalab.org/en/electromagnetic_wave_en/)
+*Animation from [Javalab - Electromagnetic Wave](https://javalab.org/en/electromagnetic_wave_en/).*
+
+You can see the E field is oriented vertically on the equator plane. As you move up or down, the polarization would change correspondingly so that it is always projected to be perpendicular to the line from the source to you, and gone when you are at the north or south pole. Sounds familiar? This is the same far field radiation pattern of an infinitely small dipole antenna, $$\vec E\propto \sin\theta  \cdot \hat\theta$$, where $$\theta$$ is the polar angle, angle from the $$z$$-axis.
+
+Before we move on, there is one more fun thing to think about this simple point charge picture: this animation properly has a generator attached, as the radiation carries energy away and should slow down the oscillation of the charge, and we'd need energy input to keep it going. Does this mean if it's just a charge attached to a spring and oscillating like a mechanical oscillator, it should experience a damping force from the radiated field? What is breaking the time reversal symmetry here since Maxwell's equation does not have the arrow of time preference?
+- Most of the time you could just accept the fact that there will be damping when things radiate, and life goes on fine. Think about this do let you come up with ways to play with how things could radiate.
+- One way to answer this is, it is the statistical mechanics of [how the radiator interact with the absorber](https://doi.org/10.1103/RevModPhys.17.157), and the stat mech part is where the arrow of time comes in. Infinite space is also an absorber, just like an infinitely long transmission line is a resistor of its characteristic impedance.
+- As a result, if the radiator sees a different environment or different absorbers, its rate of radiation could be totally different (aka [Purcell effect](https://en.wikipedia.org/wiki/Purcell_effect)). This effect is widely used from better emitters (esp. the quantum ones that emit one photon at a time), to improving solar cell efficiency and better lasers.
+
+
+
+## How to actually shake the charge(s)
+
+> What's in this section: thermal radiation, spectrum, spectral lines
+
+In the previous section, we showed an oscillating charge, presumably driven by a "function generator". While this is common for lower frequencies, it's a different level of effort to push electronics and oscillators to THz, as one of my friend would like to put it, nature is a low-pass filter: you get self-resonances, skin effect, higher dielectric loss... Anyway doing the shaking at a few hundred THz is hard.
+
+How does nature (as well as us, initially) do it? Heat stuff up! Actually as long as stuff is not at zero temperature, the atoms and electrons are always shaking and exchanging photons.
+- Not exactly in the way we described above tho, but let's not get into the quantum stuff for now. 
+
+![Gd_cube](/assets/images/2025/Photonics_history/Gd_cube_thermal.jpeg)
+
+*Here is a thermal image of a cold gadolinium cube.*
+
+Let's get some sense of temperature vs thermal radiation. I won't pretend to be a stat mech expert, so let's take it as a fact that we have these nice fundamental constants that let us convert between different units. Between temperature and frequency? No problem, we'll get the correct unit from Boltzmann constant divided by Planck constant, $$ k_B/h = 2\times10^{10} $$ Hz/K, and it will tell us the thermal radiation frequency or wavelength at given temperature. At room temperature, we get ~ 6 THz, or ~ 45 um. At the surface temperature of our sun, ~ 5800 K, we get ~ 120 THz, or ~ 2.5 um. Naive calculations get us within one order of magnitude, since room-T thermal is more around 10 um, and sun light is more peaked around 500 nm. There is an extra factor of ~ 5 needed from the math of [Planck's law](https://en.wikipedia.org/wiki/Planck%27s_law) of black body radiation. Can't cheat all the way with units, gotta do the hard work to get the "order of unity" factor.
+
+![black_body](/assets/images/2025/Photonics_history/Black_body.svg)
+*Black body radiation spectrum ([wikipedia](https://en.wikipedia.org/wiki/Planck%27s_law#/media/File:Black_body.svg)).*
+
+This thermal radiation has been the light source of our daily life for a long time, both outdoor & natural and indoor, until quite recently. It is also used as light source for infrared (IR) spectroscopy, aka [globar](https://en.wikipedia.org/wiki/Globar), because it is literally a glowing bar. In terms of evolution of light source, wikipedia has a nice [Timeline of lighting technology](https://en.wikipedia.org/wiki/Timeline_of_lighting_technology).
+
+In terms of spectrum, even our oldest light source, fire, is already a bit more complicated than black body. There will be emission peaks from molecular vibration modes, and electronic transitions if you sprinkle some elements especially metal elements. These are specific frequencies the atoms or electrons are "shaking" at. Similar [spectral lines from the stars](https://en.wikipedia.org/wiki/Fraunhofer_lines) were observed and really confused people, and explaining them was one of the initial motivation and triumph of quantum mechanics.
+
+![emission_lines](/assets/images/2025/Photonics_history/FlameEmissionSpectroscopy.png)
+
+*The line spectra from the flame emission spectroscopy of several metals ([source](https://keystagewiki.com/index.php/File:FlameEmissionSpectroscopy.png)).*
+
+
+Thermal light is good and even preferred for a lot of stuff, but it is too generous, it is not "discriminative" enough, in terms of all aspects about light: spectrum, spatial distribution, orientation, duration. In short, it spreads the energy into too many modes.
+- We'll get to what is a mode soon (spoiler: what it means won't be very clear and highly depends on the context).
+
+Its entropy is too high, which is destined to be the case as it is "thermal". Meanwhile, low entropy is desired if you want to use light to send information (communication, during which its entropy is increased) or extract information from things (sensing, spectroscopy). 
+
+## And shake them really well: lasers
+
+How can we do better and get good low-entropy light? Remember those spectral lines, those might be useful! There is also another blessing for us: light, or photons, are [bosons](https://en.wikipedia.org/wiki/Boson). What do you think being bosons mean? Party? No, it means we are staying together, whenever it is possible, no matter heaven or hell, or superposition of both. I'm taking about this because I like to think about this as one of the fundamental reasons why lasers would work.
+
+Here is an example of photons being bosons: when you send single photons to a 50:50 [beam splitter](https://www.edmundoptics.com/knowledge-center/application-notes/optics/what-are-beamsplitters/). I thought about making the drawings, but [this blog](https://galileo-unbound.blog/2022/05/08/the-many-worlds-of-the-quantum-beam-splitter/) perfectly captured the two cases I wanted to include here:
+- When you send just one photon to one of the two input channels:
+- ![single_photon_BS](/assets/images/2025/Photonics_history/quantum1photonbs-1.webp)
+- Look we have "modes" again, more on them later.
+- Don't be afraid of the symbols, the $$\vert 00 \rangle $$ etc. is just how quantum people count and write number of photons, and the $$a_i$$ ($$a_i^\dagger$$) are used to subtract (add) photons. The beam splitter transforms the "add" operation, and the result is, single photon in, output photon is in a superposition state of the two paths: it could be either in output 1 or output 2, until you measure it.
+- Does this seem weird to you? It will start to feel reasonable once you've worked with quantum stuff like this for a while. However, the following still feels weird and even messed up to me, that is, when you send two photons, one for each of the input ports:
+- ![two_photons_BS](/assets/images/2025/Photonics_history/hom2.webp)
+- Do you see what's going on here? They freaking always get out at the same output port, albeit as a superposition / entanglement of the two output ports. This is weird. It's weird. It's so weird.
+- This is what it means to be bosons. You all-in with your fellow bosons.
+
+The funny thing is, with all the setup of the bosonic behavior above, the state of light of a laser is not even number states, it is coherent states, and coherent states do not have the above behavior at all (which is also weird and messed up, if you are interested, it's briefly discussed in the blog cited above).
+- This "coherent" is related to how "coherent" is used for describing coherence of a signal, but has a very specific meaning in "coherent state".
+- It is a big state ("big" as far from origin in phase space) where the uncertainty is isotropic in amplitude and phase, and minimally allowed by quantum mechanics.
+
+![coherent_state](/assets/images/2025/Photonics_history/coherent_state.png)
+
+
+
+# Watch the light, and guide the light
+
+## Where is the light going?
+
+> What's in this section: diffraction, refraction, reflection, absorption, nonlinearity
+
+
+## I want it this way, no no this way, yes yes yes, and then this way
+
+> What's in this section: total internal reflection, waveguides, modes, bands
+
+
+# Finally, get onto the chip
+
+
+## Ok what do you have on the chip? (historic review)
+
+> What's in this section: thin film light guides, planar lightwave circuits, silicon photonics
+
+
+## Let me in!
+
+> What's in this section: prism coupling, tapered fiber, grating coupler, butt coupling / edge coupler / inverse taper
+
 
 (To be continued...)
+
 
 # Appendix
 

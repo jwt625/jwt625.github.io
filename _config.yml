@@ -140,9 +140,9 @@ use_excerpt_separator: true
 
 keep_files:
 #   - assets
-#   - assets/images
+  - assets/images
   - assets/images/2024
   - assets/images/2025
   - assets/doc
-static_files:
-  - "assets/images/2024/20240531_20241225"
+# static_files:
+  # - "assets/images/2024/20240531_20241225"
