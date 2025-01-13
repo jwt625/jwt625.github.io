@@ -7,7 +7,7 @@ from datetime import datetime
 #%%
 def format_media(media_item, media_folder):
     file_name = os.path.basename(media_item['local_path'])
-    new_path = f"/assets/images/2024/{media_folder}/{file_name}"
+    new_path = f"/assets/images/2025/{media_folder}/{file_name}"
     return f"![{file_name}]({new_path})"
 
 def create_markdown(json_file, output_file):
@@ -45,8 +45,8 @@ def create_markdown(json_file, output_file):
 
 
 #%%
-json_file = "scraped_tweets_20241229_20250105.json"
-output_file = "2025-01-05-weekly-OFS-28.md"
+json_file = "scraped_tweets_20250106_20250112.json"
+output_file = "2025-01-12-weekly-OFS-29.md"
 create_markdown(json_file, output_file)
 print(f"Markdown file '{output_file}' has been created.")
 # %%
