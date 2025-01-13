@@ -310,4 +310,10 @@ var store = [{
         "tags": ["Photonics","Optics","Fiber"],
         "url": "/tutorial/fiber2chip-history-concept/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#29)",
+        "excerpt":"High-Power Miniature Laser (PCSEL) Noda group’s 3 mm diameter, 50 W continuous-wave single-mode photonic-crystal surface-emitting laser (PCSEL). Look at all the ribbon bonds to inject &gt;100 A current into this little chip, liquid cooled with 6°C water. No other semiconductor lasers could rival PCSEL’s power density, linewidth (3 pm), and...","categories": ["OFS"],
+        "tags": ["PCSEL","Nanotube","Lens","Optics","Flexure","RSA","Microwave","Optical_switch","MEMS","Photonics","Capacitor","OCR","WGM","Taper","Nautrino"],
+        "url": "/ofs/weekly-OFS-29/",
+        "teaser": null
       }]

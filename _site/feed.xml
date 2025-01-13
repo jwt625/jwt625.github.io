@@ -1,4 +1,230 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-12T23:42:23-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">Get light onto a photonic chip: history and concepts</title><link href="http://localhost:4000/tutorial/fiber2chip-history-concept/" rel="alternate" type="text/html" title="Get light onto a photonic chip: history and concepts" /><published>2025-01-10T00:00:00-08:00</published><updated>2025-01-10T00:00:00-08:00</updated><id>http://localhost:4000/tutorial/fiber2chip-history-concept</id><content type="html" xml:base="http://localhost:4000/tutorial/fiber2chip-history-concept/"><![CDATA[<p>Light is good. It brings the energy and entropy for life, and it also runs the information around the internet backbone, and carries this little writing to your eyes, both abstractively and literally lol. Light is also naughty, it has many forms, scales, and could go everywhere, so there are a lot of things that need to be done right if you want to tame it for your own good.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-13T00:25:32-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#29)</title><link href="http://localhost:4000/ofs/weekly-OFS-29/" rel="alternate" type="text/html" title="This week’s outside five sigma (#29)" /><published>2025-01-12T00:00:00-08:00</published><updated>2025-01-12T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-29</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-29/"><![CDATA[<h1 id="high-power-miniature-laser-pcsel">High-Power Miniature Laser (PCSEL)</h1>
+<p>Noda group’s 3 mm diameter, 50 W continuous-wave single-mode photonic-crystal surface-emitting laser (PCSEL).</p>
+<ul>
+  <li>Look at all the ribbon bonds to inject &gt;100 A current into this little chip, liquid cooled with 6°C water.</li>
+  <li>No other semiconductor lasers could rival PCSEL’s power density, linewidth (3 pm), and beam quality &amp; divergence (0.05 deg), that are approaching gas, solid state, or fiber lasers.
+<img src="/assets/images/2025/20240712_20250111/20240809_045004_0.jpg" alt="20240809_045004_0.jpg" />
+    <ul>
+      <li>Image from <a href="https://spectrum.ieee.org/pcsel">The Tiny Ultrabright Laser that Can Melt Steel</a></li>
+      <li>specs from Yoshida2023: <a href="https://www.nature.com/articles/s41586-023-06059-8">High-brightness scalable continuous-wave single-mode photonic-crystal laser</a></li>
+      <li>It’s &gt;10 yr of work from them to improve the single mode lasing condition, peak power, and finally CW operation.</li>
+      <li><a href="https://nature.com/articles/s41566-021-00771-5">Morita2021</a></li>
+      <li><a href="https://nature.com/articles/s41563-018-0242-y">Yoshida2018</a></li>
+      <li><a href="https://nature.com/articles/nphoton.2014.75">Hirose2014</a></li>
+      <li>Early work done by a German group: <a href="https://doi.org/10.1063/1.1310207">Riechel2000</a></li>
+      <li>As well as recent similar work from Berkeley (they call it BerkSEL):
+        <ul>
+          <li><a href="https://www.nature.com/articles/s41467-024-46338-0">Kanté2024</a></li>
+          <li><a href="https://www.nature.com/articles/s41586-022-05021-4">Contractor2022</a>
+ <img src="/assets/images/2025/20240712_20250111/20250103_203520_0.jpg" alt="20250103_203520_0.jpg" /></li>
+        </ul>
+      </li>
+      <li>Also there are grain of rice size lasers with 50A and 50 W CW
+ <img src="/assets/images/2025/20240712_20250111/20250103_231505_0.jpg" alt="20250103_231505_0.jpg" />
+ <img src="/assets/images/2025/20240712_20250111/20250103_231505_1.jpg" alt="20250103_231505_1.jpg" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="macrscopic-carbon-nanotube">Macrscopic Carbon Nanotube</h1>
+<p>Folks wrap your perforated hex metal sheet into a tube, you could also become a carbon nanotube researcher
+(In their case it’s a giant stainless steel cylinder with pillars from precision cnc milling..)
+<img src="/assets/images/2025/20240712_20250111/20250104_170214_0.jpg" alt="20250104_170214_0.jpg" />
+<img src="/assets/images/2025/20240712_20250111/20250104_170214_1.jpg" alt="20250104_170214_1.jpg" /></p>
+<ul>
+  <li>Zheng2024: <a href="https://doi.org/10.1103/PhysRevApplied.22.064031">Surface-phononic carbon nanotubes</a></li>
+</ul>
+
+<h1 id="fbg-sensors-for-battery-monitoring">FBG Sensors for Battery Monitoring</h1>
+<p>A nice review on using fiber Bragg grating (FBG) for temperature and strain-stress sensing in batteries.
+<img src="/assets/images/2025/20240712_20250111/20250105_055829_0.jpg" alt="20250105_055829_0.jpg" /></p>
+<ul>
+  <li>Liu2024: <a href="https://doi.org/10.34133/energymatadv.0142">Advanced Functional Optical Fiber Sensors for Smart Battery Monitoring</a></li>
+</ul>
+
+<h1 id="ti-flexure-lens-alignment-for-space">Ti flexure Lens Alignment for Space</h1>
+<p>A titanium flexure mount for lateral alignment between a lens and an array of SNSPDs.
+<img src="/assets/images/2025/20240712_20250111/20250105_183833_0.jpg" alt="20250105_183833_0.jpg" /></p>
+<ul>
+  <li>Wollman2024: <a href="https://doi.org/10.1364/OE.541425">SNSPD-based detector system for NASA’s Deep Space Optical Communications project</a></li>
+</ul>
+
+<h1 id="ir-microlens-arrays">IR Microlens Arrays</h1>
+<p>AR coated silicon microlens array for 25 um light. Look at the kilopixel one!</p>
+<ul>
+  <li>Left: Day2024: <a href="https://doi.org/10.1103/PhysRevX.14.041005">A 25-micrometer Single-Photon-Sensitive Kinetic Inductance Detector</a></li>
+  <li>Right: Cothard2023: <a href="https://arxiv.org/abs/2311.00819">Monolithic Kilopixel Silicon Microlens Arrays for Future Far-Infrared Observatories</a></li>
+  <li>People used to have fun and do reflow for the microlens. Now it’s all spoiled kids doing grayscale lithography. (grayscale is cool)</li>
+  <li>Popovic1988: <a href="https://doi.org/10.1364/AO.27.001281">Technique for monolithic fabrication of microlens arrays</a>
+   <img src="/assets/images/2025/20240712_20250111/20250106_075431_0.jpg" alt="20250106_075431_0.jpg" />
+   <img src="/assets/images/2025/20240712_20250111/20250106_075431_1.jpg" alt="20250106_075431_1.jpg" /></li>
+</ul>
+
+<h1 id="heat-engines-and-information-theory">Heat Engines and Information Theory</h1>
+<p>Ok heat engines are information arbitrageurs, but when will we get information arbitrageurs as heat engines?
+<img src="/assets/images/2025/20240712_20250111/20250106_081639_0.jpg" alt="20250106_081639_0.jpg" /></p>
+<ul>
+  <li>Leighton2024: <a href="https://doi.org/10.1103/PhysRevX.14.041038">Information Arbitrage in Bipartite Heat Engines</a></li>
+</ul>
+
+<h1 id="broadband-rb-microwave-spectrum-analyzer">Broadband Rb Microwave Spectrum Analyzer</h1>
+<p>Another nice example of converting between time/frequency domain and spatial domain to achieve large bandwidth:
+A Rb vapor cell sits next to a magnet, so the Zeeman shift of the hyperfine levels are ~linear wrt. distance to the magnet, which changes the microwave frequency it gets excited at. A laser pulse pumps the atoms to the ground state, followed by the microwave excitation, and probe &amp; imaging.
+Although the power detection limit is high, they achieved 1 GHz (&gt;25 GHz expected after further optimization) instantaneous BW with 3 MHz resolution around 13 GHz. Typical real-time spectrum analyzers give you few hundred MHz to few GHz.
+<img src="/assets/images/2025/20240712_20250111/20250106_164658_0.jpg" alt="20250106_164658_0.jpg" /></p>
+<ul>
+  <li>Shi2024: <a href="https://doi.org/10.1103/PhysRevX.14.041043">Broad Instantaneous Bandwidth Microwave Spectrum Analyzer with a Microfabricated Atomic Vapor Cell</a></li>
+</ul>
+
+<h1 id="fast-optical-switching-with-pt-symmetry">Fast Optical Switching with PT symmetry</h1>
+<p>Interesting optical switch with “PT-symmetry”: use gain to adjust the coupling rate so that it is optically controlled, and much much faster than MEMS alternative (100 ps vs 0.1~1 us). I’m usually a PT symmetry hater, but I like this!</p>
+<ul>
+  <li>Now only if they could get the off state IL to be ~&lt; 0.1 dB…
+<img src="/assets/images/2025/20240712_20250111/20250107_084115_0.jpg" alt="20250107_084115_0.jpg" />
+<img src="/assets/images/2025/20240712_20250111/20250107_084115_1.jpg" alt="20250107_084115_1.jpg" />
+    <ul>
+      <li>Feng2025: <a href="https://www.nature.com/articles/s41566-024-01579-9">Non-Hermitian hybrid silicon photonic switching</a></li>
+      <li>The MEMS version from Ming Wu’s group, very sick structures. The array is so big it is stitching multiple reticles. The IL and extinction are also much better.</li>
+      <li>And since they are using pull-in effect, they only need 2n control lines for n^2 switches.</li>
+      <li>Seok2019: <a href="https://doi.org/10.1364/OPTICA.6.000490">Wafer-scale silicon photonic switches beyond die size limit</a>
+ <img src="/assets/images/2025/20240712_20250111/20250107_084713_0.jpg" alt="20250107_084713_0.jpg" />
+ <img src="/assets/images/2025/20240712_20250111/20250107_084713_1.jpg" alt="20250107_084713_1.jpg" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="interactive-3d-model-demonstrations">Interactive 3D Model Demonstrations</h1>
+<p>Does your model really bear the weight of your code name?
+(they have cool interactive 3d scenes on the demo website)
+<img src="/assets/images/2025/20240712_20250111/20250107_163856_0.jpg" alt="20250107_163856_0.jpg" /></p>
+<ul>
+  <li><a href="https://freemty.github.io/project-prometheus/page1.html">project-prometheus</a></li>
+</ul>
+
+<h1 id="laser-pointer-regulations-in-switzerland">Laser Pointer Regulations in Switzerland</h1>
+<p>TIL all laser pointers above class 1 are banned in Switzerland, from owning to distributing.
+US: don’t promote lasers above class 3B as “laser pointers”.
+<img src="/assets/images/2025/20240712_20250111/20250107_165449_0.jpg" alt="20250107_165449_0.jpg" /></p>
+<ul>
+  <li><a href="https://www.bag.admin.ch/bag/en/home/gesund-leben/umwelt-und-gesundheit/strahlung-radioaktivitaet-schall/elektromagnetische-felder-emf-uv-laser-licht/laser-und-lasershows/laserpointer.html">Switzerland federal office of public health FOPH - Laser pointers</a></li>
+</ul>
+
+<h1 id="calculator-models-in-research-methods">Calculator Models in Research Methods</h1>
+<p>First time seeing a calculator model described in the method 
+<img src="/assets/images/2025/20240712_20250111/20250108_023350_0.jpg" alt="20250108_023350_0.jpg" />
+<img src="/assets/images/2025/20240712_20250111/20250108_023350_1.jpg" alt="20250108_023350_1.jpg" /></p>
+<ul>
+  <li>Schreck2025: <a href="https://doi.org/10.1063/5.0245362">Wafer bow in diamond heteroepitaxy: Causes, their analytical description, and viable solutions</a></li>
+</ul>
+
+<h1 id="bent-waveguides-for-broadband-coupling">Bent Waveguides for Broadband Coupling</h1>
+<p>hmm directional coupler (DC) but bent to achieve a larger bandwidth.
+The group velocity difference between the even and odd supermodes does not reach zero in a straight DC -&gt; the coupling depends on wavelength to first order. It became possible with bent waveguide -&gt; coupling can be tuned to be first order independent of wavelength.
+(still not really broadband)
+<img src="/assets/images/2025/20240712_20250111/20250108_034610_0.jpg" alt="20250108_034610_0.jpg" />
+<img src="/assets/images/2025/20240712_20250111/20250108_034610_1.jpg" alt="20250108_034610_1.jpg" /></p>
+<ul>
+  <li>Saeed2024: <a href="https://arxiv.org/abs/2404.06117">Low-Loss Silicon Directional Coupler with Arbitrary Coupling Ratios for Broadband Wavelength Operation Based on Bent Waveguides</a></li>
+  <li>The idea is old as in early 2000s.</li>
+  <li>Doerr2005: <a href="https://doi.org/10.1109/LPT.2005.846922">Bending of a Planar Lightwave Circuit 2 2 Coupler to Desensitize it to Wavelength, Polarization, and Fabrication Changes</a>
+   <img src="/assets/images/2025/20240712_20250111/20250108_034748_0.jpg" alt="20250108_034748_0.jpg" />
+   <img src="/assets/images/2025/20240712_20250111/20250108_034748_1.jpg" alt="20250108_034748_1.jpg" /></li>
+</ul>
+
+<h1 id="fractal-capacitor-designs">Fractal Capacitor Designs</h1>
+<p>Another freaking weird capacitor
+<img src="/assets/images/2025/20240712_20250111/20241103_064522_0.jpg" alt="20241103_064522_0.jpg" />
+<img src="/assets/images/2025/20240712_20250111/20241103_064522_1.jpg" alt="20241103_064522_1.jpg" /></p>
+<ul>
+  <li>Anferov2024: <a href="https://schusterlab.stanford.edu/static/pdfs/Anferov_Thesis.pdf">Millimeter-wave Superconducting Quantum Devices</a></li>
+</ul>
+
+<h1 id="poetic-phd-thesis-acknowledgments">Poetic PhD Thesis Acknowledgments</h1>
+<p>The unexpected poetry of PhD acknowledgements, from ANU College of Science and Medicine Communications Team.</p>
+<ul>
+  <li>Not just the acknowledgements, look at these thesis titles.
+<img src="/assets/images/2025/20240712_20250111/20250108_163401_0.jpg" alt="20250108_163401_0.jpg" />
+    <ul>
+      <li><a href="https://science.anu.edu.au/news-events/news/unexpected-poetry-phd-acknowledgements">The unexpected poetry of PhD acknowledgements</a>
+ <img src="/assets/images/2025/20240712_20250111/20250108_163442_0.jpg" alt="20250108_163442_0.jpg" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="ibm-electrostatic-clutch-development">IBM Electrostatic Clutch Development</h1>
+<p>When IBM was still working on mechanical machines (electrostatic clutch)
+<img src="/assets/images/2025/20240712_20250111/20250109_015723_0.jpg" alt="20250109_015723_0.jpg" />
+<img src="/assets/images/2025/20240712_20250111/20250109_015723_1.jpg" alt="20250109_015723_1.jpg" /></p>
+<ul>
+  <li>Fitch1957: <a href="https://doi.org/10.1147/rd.11.0049">Development of the Electrostatic Clutch</a></li>
+  <li>The newer ones from Carnegie Mellon</li>
+  <li>Diller2016: <a href="https://contrib.andrew.cmu.edu/~shc17/Diller_2016_ICRA.pdf">A lightweight, low-power electroadhesive clutch and spring for exoskeleton actuation</a></li>
+  <li>They have a <a href="https://estat.tech/products/">company</a>
+   <img src="/assets/images/2025/20240712_20250111/20250109_020046_0.jpg" alt="20250109_020046_0.jpg" />
+   <img src="/assets/images/2025/20240712_20250111/20250109_020046_1.jpg" alt="20250109_020046_1.jpg" /></li>
+</ul>
+
+<h1 id="early-ocr-with-minimal-computing">Early OCR with Minimal Computing</h1>
+<p>People used to do OCR with ~100 “flops” of compute, and ~10 kB/s “memory bandwidth”, what’s your excuse?
+(an IBM 650. It did cost “$150,000 in 1959, or roughly $1,500,000 as of 2023”)
+<img src="/assets/images/2025/20240712_20250111/20250109_022051_0.jpg" alt="20250109_022051_0.jpg" />
+<img src="/assets/images/2025/20240712_20250111/20250109_022051_1.jpg" alt="20250109_022051_1.jpg" /></p>
+<ul>
+  <li>Greanias1957: <a href="https://doi.org/10.1147/rd.11.0008">Design of Logic for Recognition of Printed Characters by Simulation</a></li>
+</ul>
+
+<h1 id="detailed-optical-resonator-protocols">Detailed Optical Resonator Protocols</h1>
+<p>TIL theres a nature protocol journal and it’s actually good: this paper on using optical resonator for biochem sensing has details about all aspects of it including math, fab, surface prep, optical coupling, packaging etc., with actual SOPs and part numbers etc.</p>
+<ul>
+  <li>How detailed it is? It has the best descriptions on what and how to make a tapered fiber than anywhere else I’ve seen, better than papers that are just about tapered fibers. (Their example transmission of it sucks tho you should be able to get &gt;90%)</li>
+  <li>This honestly has changed my view a bit on this fashion magazine series called nature.
+<img src="/assets/images/2025/20240712_20250111/20250109_104108_0.jpg" alt="20250109_104108_0.jpg" />
+<img src="/assets/images/2025/20240712_20250111/20250109_104108_1.jpg" alt="20250109_104108_1.jpg" />
+<img src="/assets/images/2025/20240712_20250111/20250109_104108_2.jpg" alt="20250109_104108_2.jpg" />
+<img src="/assets/images/2025/20240712_20250111/20250109_104108_3.jpg" alt="20250109_104108_3.jpg" /></li>
+  <li>Suebka2025: <a href="https://www.nature.com/articles/s41596-024-01096-7">Frequency locked whispering evanescent resonator (FLOWER) for biochemical sensing applications</a>
+    <ul>
+      <li>heres mine in poor quality from a webcam
+ <img src="/assets/images/2025/20240712_20250111/20250109_171002_0.jpg" alt="20250109_171002_0.jpg" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="real-time-neutrino-muon-detection-monitoring">Real-Time Neutrino (muon) Detection Monitoring</h1>
+<p>TIL the Super-Kamiokande has a <a href="(https://www-sk.icrr.u-tokyo.ac.jp/realtimemonitor/)">realtime monitor</a> that shows you the map of signals from the ~13,000 photomultiplier tubes. It updates every few seconds, as cosmic ray muon events are ~2 Hz.
+Here is a fresh screenshot I just took.
+<img src="/assets/images/2025/20240712_20250111/20240712_061349_0.jpg" alt="20240712_061349_0.jpg" />
+<img src="/assets/images/2025/20240712_20250111/20240712_061349_1.jpg" alt="20240712_061349_1.jpg" /></p>
+<ul>
+  <li>Because I saw <a href="https://www.youtube.com/watch?v=YoBFjD5tn_E&amp;list=LL&amp;index=1&amp;ab_channel=Alexandertheok&amp;themeRefresh=1">this vid</a> this morning</li>
+  <li>Hamamatsu has an article about the <a href="https://hamamatsu.com/jp/en/why-hamamatsu/20inch-pmts.html">tv-sized PMT</a>
+   <img src="/assets/images/2025/20240712_20250111/20250110_022454_0.jpg" alt="20250110_022454_0.jpg" />
+   <img src="/assets/images/2025/20240712_20250111/20250110_022454_1.jpg" alt="20250110_022454_1.jpg" /></li>
+  <li>They are building a <a href="(https://www-sk.icrr.u-tokyo.ac.jp/en/hk/about/outline/)">newer one</a> that holds 5x more water and uses ~4x more PMTs
+   <img src="/assets/images/2025/20240712_20250111/20250110_023318_0.jpg" alt="20250110_023318_0.jpg" />
+   <img src="/assets/images/2025/20240712_20250111/20250110_023318_1.jpg" alt="20250110_023318_1.jpg" /></li>
+</ul>
+
+<h1 id="japanese-neutrinos-reach-korea">Japanese Neutrinos Reach Korea</h1>
+<p>Hello my Korean friends, would you like some Japanese neutrinos today?
+<img src="/assets/images/2025/20240712_20250111/20250110_024143_0.jpg" alt="20250110_024143_0.jpg" /></p>
+<ul>
+  <li>Lodovico2017: <a href="https://iopscience.iop.org/article/10.1088/1742-6596/888/1/012020/meta">The Hyper-Kamiokande Experiment</a></li>
+</ul>
+
+<h1 id="compact-superconducting-capacitor-designs">Compact Superconducting Capacitor Designs</h1>
+<p>Another crazy capacitor, few hundred um diameter parallel plate with down to 75 nm vacuum gap.
+The paper included many process details, stress tuning, failure modes at different steps, actual pictures of the wafers and the packaging, and example layout, very nice.
+<img src="/assets/images/2025/20240712_20250111/20250108_065607_0.jpg" alt="20250108_065607_0.jpg" />
+<img src="/assets/images/2025/20240712_20250111/20250108_065607_1.jpg" alt="20250108_065607_1.jpg" />
+<img src="/assets/images/2025/20240712_20250111/20250108_065607_2.jpg" alt="20250108_065607_2.jpg" /></p>
+<ul>
+  <li>Saw this process in 2022, and they finally wrote it up after a few big papers.
+Youssefi2025: <a href="https://arxiv.org/abs/2501.03211">Compact superconducting vacuum-gap capacitors with low microwave loss and high mechanical coherence for scalable quantum circuits</a></li>
+  <li>See also <a href="https://x.com/jwt0625/status/1870145015156224132">this tweet</a>
+   <img src="/assets/images/2025/20240712_20250111/20250110_075815_0.jpg" alt="20250110_075815_0.jpg" /></li>
+  <li>Damn they changed all the names and affiliations on <a href="https://grc.org/mechanical-systems-in-the-quantum-regime-conference/2022/">GRC website</a> to be pngs..</li>
+</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="PCSEL" /><category term="Nanotube" /><category term="Lens" /><category term="Optics" /><category term="Flexure" /><category term="RSA" /><category term="Microwave" /><category term="Optical_switch" /><category term="MEMS" /><category term="Photonics" /><category term="Capacitor" /><category term="OCR" /><category term="WGM" /><category term="Taper" /><category term="Nautrino" /><summary type="html"><![CDATA[High-Power Miniature Laser (PCSEL) Noda group’s 3 mm diameter, 50 W continuous-wave single-mode photonic-crystal surface-emitting laser (PCSEL). Look at all the ribbon bonds to inject &gt;100 A current into this little chip, liquid cooled with 6°C water. No other semiconductor lasers could rival PCSEL’s power density, linewidth (3 pm), and beam quality &amp; divergence (0.05 deg), that are approaching gas, solid state, or fiber lasers. Image from The Tiny Ultrabright Laser that Can Melt Steel specs from Yoshida2023: High-brightness scalable continuous-wave single-mode photonic-crystal laser It’s &gt;10 yr of work from them to improve the single mode lasing condition, peak power, and finally CW operation. Morita2021 Yoshida2018 Hirose2014 Early work done by a German group: Riechel2000 As well as recent similar work from Berkeley (they call it BerkSEL): Kanté2024 Contractor2022 Also there are grain of rice size lasers with 50A and 50 W CW]]></summary></entry><entry><title type="html">Get light onto a photonic chip: history and concepts</title><link href="http://localhost:4000/tutorial/fiber2chip-history-concept/" rel="alternate" type="text/html" title="Get light onto a photonic chip: history and concepts" /><published>2025-01-10T00:00:00-08:00</published><updated>2025-01-10T00:00:00-08:00</updated><id>http://localhost:4000/tutorial/fiber2chip-history-concept</id><content type="html" xml:base="http://localhost:4000/tutorial/fiber2chip-history-concept/"><![CDATA[<p>Light is good. It brings the energy and entropy for life, and it also runs the information around the internet backbone, and carries this little writing to your eyes, both abstractively and literally lol. Light is also naughty, it has many forms, scales, and could go everywhere, so there are a lot of things that need to be done right if you want to tame it for your own good.</p>
 
 <p><img src="/assets/images/2025/Photonics_history/info_flow_with_light.png" alt="info_flow_with_light" />
 <em>This was actually the second slide from my defense lol. Fits here perfectly excluding the acoustic part.</em></p>
@@ -1156,7 +1382,220 @@ COMSOL has an Orbital Thermal Loads interface that helps you track the orbit and
       <li>Smith2024: <a href="https://arxiv.org/abs/2412.04421">Single-qubit gates with errors at the 10^−7 level</a></li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="DNN" /><category term="Adhesive" /><category term="Thermal" /><category term="LDPE" /><category term="NIST" /><category term="Optics" /><category term="Waveguide" /><category term="Photonics" /><category term="Interconnect" /><category term="Laser" /><category term="Ulexite" /><category term="Meta" /><category term="AR" /><category term="Flexure" /><category term="Spider" /><category term="Satellite" /><category term="Qubit" /><summary type="html"><![CDATA[If car fuel efficiency improves similarly as Moore’s law for compute, we’d have cars with 110 light year range now]]></summary></entry><entry><title type="html">How to make a superconducting coil for few mT magnetic field at mK temperature</title><link href="http://localhost:4000/tutorial/SC-coil/" rel="alternate" type="text/html" title="How to make a superconducting coil for few mT magnetic field at mK temperature" /><published>2024-12-08T00:00:00-08:00</published><updated>2024-12-08T00:00:00-08:00</updated><id>http://localhost:4000/tutorial/SC-coil</id><content type="html" xml:base="http://localhost:4000/tutorial/SC-coil/"><![CDATA[<p>Coil is simple to make (lol maybe I’m too naive), why am I writing this and what would you be able to learn from it?</p>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Nanofab" /><category term="DNN" /><category term="Adhesive" /><category term="Thermal" /><category term="LDPE" /><category term="NIST" /><category term="Optics" /><category term="Waveguide" /><category term="Photonics" /><category term="Interconnect" /><category term="Laser" /><category term="Ulexite" /><category term="Meta" /><category term="AR" /><category term="Flexure" /><category term="Spider" /><category term="Satellite" /><category term="Qubit" /><summary type="html"><![CDATA[If car fuel efficiency improves similarly as Moore’s law for compute, we’d have cars with 110 light year range now]]></summary></entry><entry><title type="html">This week’s outside five sigma (#24)</title><link href="http://localhost:4000/ofs/weekly-OFS-24/" rel="alternate" type="text/html" title="This week’s outside five sigma (#24)" /><published>2024-12-08T00:00:00-08:00</published><updated>2024-12-08T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-24</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-24/"><![CDATA[<ol>
+  <li>Fiber to chip loss is pretty good. The rate is still so low (125 MHz): A manufacturable platform for photonic quantum computing 
+<img src="/assets/images/2024/20240429_20241204/PsiQuantum_202404.jpeg" alt="PsiQuantum" />
+    <ul>
+      <li>Glad to see them talking about component loss and fiber to chip loss in mdB now</li>
+      <li>Alexander2024: <a href="https://arxiv.org/abs/2404.17570">A manufacturable platform for photonic quantum computing</a></li>
+    </ul>
+  </li>
+  <li>babe wake up new article about NIF just dropped with graphics to turn you on about fusion.
+<img src="/assets/images/2024/20240429_20241204/20240918_005744_0.jpg" alt="20240918_005744_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20240918_005744_1.jpg" alt="20240918_005744_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20240918_005744_2.jpg" alt="20240918_005744_2.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20240918_005744_3.jpg" alt="20240918_005744_3.jpg" />
+    <ul>
+      <li>Jeff Tollefson - <a href="https://www.nature.com/immersive/d41586-024-03745-z/index.html">How the world’s biggest laser smashed a nuclear-fusion record</a></li>
+      <li>Look at this “130,000-kilogram spherical chamber in which 192 laser beams converge on a small pellet of frozen isotopes”
+<img src="/assets/images/2024/20240429_20241204/20241128_035656_0.jpg" alt="20241128_035656_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>Top three of 2024 Nikon Small World photography awards. Guess what they are?
+(hint: they are 100x, 10x, and 20x)
+<img src="/assets/images/2024/20240429_20241204/20241128_042057_0.jpg" alt="20241128_042057_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241128_042057_1.jpg" alt="20241128_042057_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241128_042057_2.jpg" alt="20241128_042057_2.jpg" />
+    <ul>
+      <li>1st: Differentiated mouse brain tumor cells (actin, microtubules, and nuclei)
+2nd: Electrical arc between a pin and a wire
+3rd: Leaf of a cannabis plant. The bulbous glands are trichomes. The bubbles inside are cannabinoid vesicles.
+More at <a href="https://www.nikonsmallworld.com/galleries/2024-photomicrography-competition">Nikon 2024 Photomicrography</a>
+<img src="/assets/images/2024/20240429_20241204/20241128_042344_0.jpg" alt="20241128_042344_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241128_042344_1.jpg" alt="20241128_042344_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241128_042344_2.jpg" alt="20241128_042344_2.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241128_042344_3.jpg" alt="20241128_042344_3.jpg" /></li>
+    </ul>
+  </li>
+  <li>Beautiful high res synchrotron micro-CT and 3d reconstructions of — dinosaur poops
+<img src="/assets/images/2024/20240429_20241204/20241128_205637_0.jpg" alt="20241128_205637_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241128_205637_1.jpg" alt="20241128_205637_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241128_205637_2.jpg" alt="20241128_205637_2.jpg" />
+    <ul>
+      <li>Qvarnström2024: <a href="https://www.nature.com/articles/s41586-024-08265-4">Digestive contents and food webs record the advent of dinosaur supremacy</a></li>
+    </ul>
+  </li>
+  <li>gf: what’s the thing you got on your screen, three little pink heart? aww it’s so cute!
+me: uh, it’s complicated, but yes it’s cute!
+(trying to get the RCS of a resonant subwavelength size (~lambda/50) antenna)
+<img src="/assets/images/2024/20240429_20241204/20241129_054258_0.jpg" alt="20241129_054258_0.jpg" />
+    <ul>
+      <li>If you are doing scattered field + frequency sweep, remember to update the background field accordingly (since the frequency is changing)… Spent two nights debugging this.
+Otherwise part of the background field will appear as scattered field and also appear in the far field
+<img src="/assets/images/2024/20240429_20241204/20241129_071723_0.jpg" alt="20241129_071723_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241129_071723_1.jpg" alt="20241129_071723_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241129_071723_2.jpg" alt="20241129_071723_2.jpg" /></li>
+      <li>Actually looks pretty menacing on-resonance lol
+(capped the color range at 10x of the background field. The antenna is 1.5 mm, comparing to the em wavelength~87 mm at 3.35 GHz. RCS is almost 1e6x of off-resonance RCS, enhanced by ~Q^2.
+Q~800, very close to Chu–Harrington limit)
+<img src="/assets/images/2024/20240429_20241204/20241129_082928_0.jpg" alt="20241129_082928_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>Have you wondered why atoms “look like” they have size of ~1 um under laser illumination?</li>
+</ol>
+
+<p>One reason: you could only resolve things at ~wavelength of the light. However, this 0.2 nm size strontium atom could also be captured with not so crazy optics (50 mm lens) &amp; exposure time, which means it has very high scattering cross section to “reflect” the blue-violet light illumination. It also appears huge because of the smaller NA of the camera (separation of the two ion trap metal tip is 2 mm).</p>
+
+<p>Turns out the scattering cross section of an atom on-resonance is comparable to the wavelength if you go thru the physics and math (3λ^2/3pi), and you can observe very similar wavelength-scale radar cross section on a tiny subwavelength rf/microwave antenna as well, fully passive.</p>
+
+<p>Here I looked at a ~1.5 mm dipole antenna, resonant at 3.46 GHz, i.e., its size is ~1/60 wavelength, and its on-resonance RCS is almost x1e6 of off-resonance RCS).</p>
+
+<p>Similar to Chu–Harrington limit of antenna Q, this is a very general rule for any passive scatterer of size within a sphere of radius a « λ: its max RCS is ~λ^2, independent of its size. You could have a very high-Q atom scattering light as if it is as big as ~1 um, and you could build a tiny passive rf antenna that “looks huge” on-resonance (it has to be low internal loss).
+<img src="/assets/images/2024/20240429_20241204/20241129_170730_0.jpg" alt="20241129_170730_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241129_170730_1.jpg" alt="20241129_170730_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241129_170730_2.jpg" alt="20241129_170730_2.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241129_170730_3.jpg" alt="20241129_170730_3.jpg" /></p>
+<ul>
+  <li>Fig. 1: Holman2024: <a href="https://arxiv.org/abs/2411.05321">Trapping of Single Atoms in Metasurface Optical Tweezer Arrays</a></li>
+  <li>Fig. 2: Zachos2018: <a href="https://www.nationalgeographic.com/science/article/trapped-atom-photograph-long-exposure-competition-spd">How a Student Took a Photo of a Single Atom</a></li>
+  <li>Chapter 2 of <a href="https://link.springer.com/book/10.1007/978-1-4612-1470-0">Metcalf - Laser Cooling and Trapping (1999)</a> has the derivation of scattering cross section.
+   <img src="/assets/images/2024/20240429_20241204/20241129_171155_0.jpg" alt="20241129_171155_0.jpg" />
+   <img src="/assets/images/2024/20240429_20241204/20241129_171155_1.jpg" alt="20241129_171155_1.jpg" /></li>
+  <li>Also good to clarify about “resolution”, if you know what you are looking for and have very high SNR measurement, you could always resolve e.g. two gaussians with separation much smaller than their widths.</li>
+</ul>
+
+<ol>
+  <li>The lineage is so clear for some superconducting qubit packaging. Left: 2011, right: 2024.
+<img src="/assets/images/2024/20240429_20241204/20241129_185502_0.jpg" alt="20241129_185502_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241129_185502_1.jpg" alt="20241129_185502_1.jpg" />
+    <ul>
+      <li>Left: <a href="https://web.physics.ucsb.edu/~martinisgroup/index.shtml">Martinis Group</a></li>
+      <li>Right: Chou2024: <a href="https://arxiv.org/abs/2411.15726">Deterministic multi-phonon entanglement between two mechanical resonators on separate substrates</a></li>
+    </ul>
+  </li>
+  <li>I’ve been shilling and long term bullish in comsol. They have been constantly updating and expanding the multiphysics, tutorials, application library and material library etc etc, and each update has meaningful capability &amp; user experience improvement.</li>
+</ol>
+
+<p>Take the mesh on periodic boundary condition (PBC) surfaces as an example for the user experience:</p>
+<ul>
+  <li>In 5.0 - 5.4 you need to manually mesh one surface and copy to another surface to make sure the mesh is identical on the pairs of surfaces (so that the PBC would work properly).</li>
+  <li>Since 5.6 or so, the automatically generated mesh starts to take care of this, and when you’ve run it once and then switch to manual, you’ll see the auto-added surface mesh + copy.</li>
+  <li>Since 6.2 iirc, now you could have an “identical mesh” constraint on the pair of surfaces, and mesh them at any order you like, more flexible than meshing them separately first.</li>
+  <li>I could personally come up a few more examples like this.</li>
+</ul>
+
+<p>It still sucks every now and then, and there are things that need a lot of manual/scripted setup or impossible. But the list for these things has been shrinking, and there is a growing list of stuff that used to take a phd journey to figure out and setup properly, but now is just one of the physics or multiphysics settings.
+<img src="/assets/images/2024/20240429_20241204/20241130_034207_0.jpg" alt="20241130_034207_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_034207_1.jpg" alt="20241130_034207_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_034207_2.jpg" alt="20241130_034207_2.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_034207_3.jpg" alt="20241130_034207_3.jpg" /></p>
+<ul>
+  <li>Screenshots are from <a href="https://www.comsol.com/release/6.3">“COMSOL Multiphysics® 6.3 Release Highlights”</a></li>
+  <li>Even if you do not have access to it, their manuals and user guides are still there, and you could legit learn the physics in a very practical way. Here are some examples for <a href="https://doc.comsol.com/6.3/doc/com.comsol.help.sme/StructuralMechanicsModuleUsersGuide.pdf">structural mechanics</a> and <a href="https://doc.comsol.com/6.3/doc/com.comsol.help.rf/RFModuleUsersGuide.pdf">RF</a>.
+   <img src="/assets/images/2024/20240429_20241204/20241130_035606_0.jpg" alt="20241130_035606_0.jpg" />
+   <img src="/assets/images/2024/20240429_20241204/20241130_035606_1.jpg" alt="20241130_035606_1.jpg" />
+   <img src="/assets/images/2024/20240429_20241204/20241130_035606_2.jpg" alt="20241130_035606_2.jpg" />
+   <img src="/assets/images/2024/20240429_20241204/20241130_035606_3.jpg" alt="20241130_035606_3.jpg" /></li>
+  <li>Hmm maybe I’ll use this thread to dump some other user guides here.
+    <ul>
+      <li><a href="https://doc.comsol.com/6.3/doc/com.comsol.help.aco/AcousticsModuleUsersGuide.pdf">Acoustics</a></li>
+      <li><a href="https://doc.comsol.com/6.3/doc/com.comsol.help.woptics/WaveOpticsModuleUsersGuide.pdf">Wave optics</a></li>
+      <li><a href="https://doc.comsol.com/6.3/doc/com.comsol.help.roptics/RayOpticsModuleUsersGuide.pdf">Ray optics</a></li>
+      <li><a href="https://doc.comsol.com/6.3/doc/com.comsol.help.heat/HeatTransferModuleUsersGuide.pdf">Heat transfer</a></li>
+      <li><a href="https://doc.comsol.com/6.3/doc/com.comsol.help.semicond/SemiconductorModuleUsersGuide.pdf">Semiconductor</a></li>
+    </ul>
+  </li>
+</ul>
+
+<ol>
+  <li>Apparently google no longer puts goal year for the future milestones in their quantum computing roadmap, while IBM still does.
+<img src="/assets/images/2024/20240429_20241204/20241130_051640_0.jpg" alt="20241130_051640_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_051640_1.jpg" alt="20241130_051640_1.jpg" />
+    <ul>
+      <li><a href="https://quantumai.google/">Google</a></li>
+      <li><a href="https://ibm.com/roadmaps/quantum/">IBM</a></li>
+    </ul>
+  </li>
+  <li>TIL Toshiba researchers have made a entangled photon pair source by putting a quantum dot in an LED-like semiconductor structure, as early as 2010. They inject two pairs of electrons-holes into the quantum dot, and they’d recombine and emit polarization entangled photons.</li>
+</ol>
+
+<p>I’m surprised I have not seen it earlier and more often, maybe it is because the wavelength is too short (400 nm)?
+Then I saw they have made it into the telecom O-band (~1300 nm) in 2014. Ok maybe the rate and fidelity are low?
+Then I saw they made them upto 33 kHz and 94% in 2020. My last guess would be yield… and voila, “typical yield of around 0.9%”
+<img src="/assets/images/2024/20240429_20241204/20241130_062330_0.jpg" alt="20241130_062330_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_062330_1.jpg" alt="20241130_062330_1.jpg" /></p>
+<ul>
+  <li>Salter2010: <a href="https://www.nature.com/articles/nature09078">An entangled-light-emitting diode</a></li>
+  <li>Ward2014: <a href="https://nature.com/articles/ncomms4316">Coherent dynamics of a telecom-wavelength entangled photon source</a></li>
+  <li>Xiang2020: <a href="https://www.nature.com/articles/s42005-020-0390-7">A tuneable telecom wavelength entangled light emitting diode deployed in an installed fibre</a></li>
+  <li>A quantum dot is a very common type of single-photon emitter. When you confine electrons along all three dimensions (like an atom does), you get a “dot”, and you’ll get discrete and nonlinear energy levels for the electrons, and one those transitions would emit a single photon. (see this nice review from Senellart2017: <a href="https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=923145">High-performance semiconductor quantum-dot single-photon sources</a>)
+   <img src="/assets/images/2024/20240429_20241204/20241130_063454_0.jpg" alt="20241130_063454_0.jpg" /></li>
+</ul>
+
+<ol>
+  <li>Nature briefing did a poll last week on ScienceTwitter vs ScienceSky.
+Results aside, I find it interesting that a total of ~ 6000 people responded. I digged out a few more polls done by them in a similar way, and they all have similar total votes of 4000 ~ 8000.</li>
+</ol>
+
+<p>So roughly 60k to 600k people are subscribed to nature briefing? (assuming engagement rate of 1%~10%)
+<img src="/assets/images/2024/20240429_20241204/20241130_071439_0.jpg" alt="20241130_071439_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_071439_1.jpg" alt="20241130_071439_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_071439_2.jpg" alt="20241130_071439_2.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_071439_3.jpg" alt="20241130_071439_3.jpg" /></p>
+
+<ol>
+  <li>A 4 inch diameter deformable mirror actuated by a piezopolymer layer, and the Notre Dame rose window.
+(the author called it the “Notre Dame” design)
+<img src="/assets/images/2024/20240429_20241204/20241130_175838_0.jpg" alt="20241130_175838_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_175838_1.jpg" alt="20241130_175838_1.jpg" />
+    <ul>
+      <li>Patterson2014: <a href="https://thesis.library.caltech.edu/8043/">Lightweight Deformable Mirrors for Future Space Telescopes</a></li>
+      <li>Did not know that the mirror mass/areal density has dropped 10x from Hubble to JWST (~200 kg/m^2 to ~20 kg/m^2). Their mirror is 0.5 kg/m^2, it sounds too good maybe they omitted some components necessary for the actual space.
+   <img src="/assets/images/2024/20240429_20241204/20241130_180811_0.jpg" alt="20241130_180811_0.jpg" /></li>
+    </ul>
+  </li>
+  <li>How are these magnetorquers $10k each and 10 weeks lead time??
+<img src="/assets/images/2024/20240429_20241204/20241130_024449_0.jpg" alt="20241130_024449_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241130_024449_1.jpg" alt="20241130_024449_1.jpg" />
+    <ul>
+      <li>Fig .1 from: <a href="https://einstein.stanford.edu/highlights/hl_102805.html">Gravity Probe B - STATUS UPDATE AS OF 28 OCTOBER 2005</a></li>
+      <li>Fig. 2 from Amin2019: <a href="https://repository.gatech.edu/server/api/core/bitstreams/db0bd935-ce1c-4f55-a4af-d4c9655a0a41/content">The Design, Assembly, and Testing of Magnetorquers for a 1U CubeSat Mission</a></li>
+    </ul>
+  </li>
+  <li>Opened up also the receiver side of the VCSEL fiber optic HDMI cable, and removed the plastic light guide above the detectors
+<img src="/assets/images/2024/20240429_20241204/20241124_174059_0.jpg" alt="20241124_174059_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241124_174059_1.jpg" alt="20241124_174059_1.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241124_174059_2.jpg" alt="20241124_174059_2.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241124_174059_3.jpg" alt="20241124_174059_3.jpg" />
+    <ul>
+      <li>The micro lens array looks like spider eyes lol
+   <img src="/assets/images/2024/20240429_20241204/20241202_171621_0.jpg" alt="20241202_171621_0.jpg" />
+   <img src="/assets/images/2024/20240429_20241204/20241202_171621_1.jpg" alt="20241202_171621_1.jpg" />
+   <img src="/assets/images/2024/20240429_20241204/20241202_171621_2.jpg" alt="20241202_171621_2.jpg" /></li>
+    </ul>
+  </li>
+  <li>Some nice quotes from the facebook red book
+<img src="/assets/images/2024/20240429_20241204/20241202_210632_0.jpg" alt="20241202_210632_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241202_210632_1.jpg" alt="20241202_210632_1.jpg" />
+    <ul>
+      <li><a href="https://www.map.cv/blog/redbook">Facebook’s Little Red Book</a></li>
+    </ul>
+  </li>
+  <li>These quantum microscopes are getting out of control
+Left: quantum twisting microscope
+Right: quantum diamond microscope
+<img src="/assets/images/2024/20240429_20241204/20241203_154815_0.jpg" alt="20241203_154815_0.jpg" />
+<img src="/assets/images/2024/20240429_20241204/20241203_154815_1.jpg" alt="20241203_154815_1.jpg" />
+    <ul>
+      <li>Inbar2023: <a href="https://nature.com/articles/s41586-022-05685-y">The quantum twisting microscope</a>
+Yin2024: <a href="https://doi.org/10.1103/PhysRevApplied.22.054050">Quantum diamond microscope for narrowband magnetic imaging with high spatial and spectral resolution</a></li>
+      <li>They are both pretty sick, but hell annoying to make and use. The QDM may be more practical, no layer by layer stacking of fancy 2d materials, and could resolve sub 100 pT with 2 um spatial resolution.
+They imaged magnetic field from a few microcoils.
+   <img src="/assets/images/2024/20240429_20241204/20241203_155749_0.jpg" alt="20241203_155749_0.jpg" />
+   <img src="/assets/images/2024/20240429_20241204/20241203_155749_1.jpg" alt="20241203_155749_1.jpg" /></li>
+    </ul>
+  </li>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Photonics" /><category term="Quantum" /><category term="NIF" /><category term="Fusion" /><category term="Plasma" /><category term="CT" /><category term="Antenna" /><category term="Atom" /><category term="Scattering" /><category term="RCS" /><category term="Laser" /><category term="Superconducting_qubit" /><category term="COMSOL" /><category term="Google" /><category term="IBM" /><category term="LED" /><category term="Quantum_dot" /><category term="Piezo" /><category term="Magnetorquer" /><category term="VCSEL" /><category term="Facebook" /><summary type="html"><![CDATA[Fiber to chip loss is pretty good. The rate is still so low (125 MHz): A manufacturable platform for photonic quantum computing Glad to see them talking about component loss and fiber to chip loss in mdB now Alexander2024: A manufacturable platform for photonic quantum computing]]></summary></entry><entry><title type="html">How to make a superconducting coil for few mT magnetic field at mK temperature</title><link href="http://localhost:4000/tutorial/SC-coil/" rel="alternate" type="text/html" title="How to make a superconducting coil for few mT magnetic field at mK temperature" /><published>2024-12-08T00:00:00-08:00</published><updated>2024-12-08T00:00:00-08:00</updated><id>http://localhost:4000/tutorial/SC-coil</id><content type="html" xml:base="http://localhost:4000/tutorial/SC-coil/"><![CDATA[<p>Coil is simple to make (lol maybe I’m too naive), why am I writing this and what would you be able to learn from it?</p>
 <ul>
   <li>These coils go into high vacuum and low temperature, so not as common as typical applications</li>
   <li>More consideration for thermalization and heating</li>
@@ -1397,220 +1836,7 @@ COMSOL has an Orbital Thermal Loads interface that helps you track the orbit and
 
 <p>I got my first vacuum and cryogenic experience at Tsinghua IIIS during my undergrad, and learnt a lot from many of my advisors and colleagues there. There is more during the Stanford time, where I had much more hands on practice like making these coils, and funded by NSF, ARO, AFOSR, as well as NTT and AWS. Special thanks to my friend <a href="https://scholar.google.com/citations?user=tRoZCDEAAAAJ">Haonan</a> who offered many suggestions at the beginning of the coil making progress.</p>
 
-<p>Hope you enjoyed this write up, see you next time!</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Cryogenics" /><category term="Coil" /><category term="Magnet" /><category term="Superconducting" /><category term="Current" /><category term="Epoxy" /><category term="Vacuum" /><summary type="html"><![CDATA[Coil is simple to make (lol maybe I’m too naive), why am I writing this and what would you be able to learn from it? These coils go into high vacuum and low temperature, so not as common as typical applications More consideration for thermalization and heating You’ll also peek into how it’s like doing superconducting circuits and qubits a bit. I’m writing this for fun, and for “paying my debt” of not writing as much of these in my thesis.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#24)</title><link href="http://localhost:4000/ofs/weekly-OFS-24/" rel="alternate" type="text/html" title="This week’s outside five sigma (#24)" /><published>2024-12-08T00:00:00-08:00</published><updated>2024-12-08T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-24</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-24/"><![CDATA[<ol>
-  <li>Fiber to chip loss is pretty good. The rate is still so low (125 MHz): A manufacturable platform for photonic quantum computing 
-<img src="/assets/images/2024/20240429_20241204/PsiQuantum_202404.jpeg" alt="PsiQuantum" />
-    <ul>
-      <li>Glad to see them talking about component loss and fiber to chip loss in mdB now</li>
-      <li>Alexander2024: <a href="https://arxiv.org/abs/2404.17570">A manufacturable platform for photonic quantum computing</a></li>
-    </ul>
-  </li>
-  <li>babe wake up new article about NIF just dropped with graphics to turn you on about fusion.
-<img src="/assets/images/2024/20240429_20241204/20240918_005744_0.jpg" alt="20240918_005744_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20240918_005744_1.jpg" alt="20240918_005744_1.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20240918_005744_2.jpg" alt="20240918_005744_2.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20240918_005744_3.jpg" alt="20240918_005744_3.jpg" />
-    <ul>
-      <li>Jeff Tollefson - <a href="https://www.nature.com/immersive/d41586-024-03745-z/index.html">How the world’s biggest laser smashed a nuclear-fusion record</a></li>
-      <li>Look at this “130,000-kilogram spherical chamber in which 192 laser beams converge on a small pellet of frozen isotopes”
-<img src="/assets/images/2024/20240429_20241204/20241128_035656_0.jpg" alt="20241128_035656_0.jpg" /></li>
-    </ul>
-  </li>
-  <li>Top three of 2024 Nikon Small World photography awards. Guess what they are?
-(hint: they are 100x, 10x, and 20x)
-<img src="/assets/images/2024/20240429_20241204/20241128_042057_0.jpg" alt="20241128_042057_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241128_042057_1.jpg" alt="20241128_042057_1.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241128_042057_2.jpg" alt="20241128_042057_2.jpg" />
-    <ul>
-      <li>1st: Differentiated mouse brain tumor cells (actin, microtubules, and nuclei)
-2nd: Electrical arc between a pin and a wire
-3rd: Leaf of a cannabis plant. The bulbous glands are trichomes. The bubbles inside are cannabinoid vesicles.
-More at <a href="https://www.nikonsmallworld.com/galleries/2024-photomicrography-competition">Nikon 2024 Photomicrography</a>
-<img src="/assets/images/2024/20240429_20241204/20241128_042344_0.jpg" alt="20241128_042344_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241128_042344_1.jpg" alt="20241128_042344_1.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241128_042344_2.jpg" alt="20241128_042344_2.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241128_042344_3.jpg" alt="20241128_042344_3.jpg" /></li>
-    </ul>
-  </li>
-  <li>Beautiful high res synchrotron micro-CT and 3d reconstructions of — dinosaur poops
-<img src="/assets/images/2024/20240429_20241204/20241128_205637_0.jpg" alt="20241128_205637_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241128_205637_1.jpg" alt="20241128_205637_1.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241128_205637_2.jpg" alt="20241128_205637_2.jpg" />
-    <ul>
-      <li>Qvarnström2024: <a href="https://www.nature.com/articles/s41586-024-08265-4">Digestive contents and food webs record the advent of dinosaur supremacy</a></li>
-    </ul>
-  </li>
-  <li>gf: what’s the thing you got on your screen, three little pink heart? aww it’s so cute!
-me: uh, it’s complicated, but yes it’s cute!
-(trying to get the RCS of a resonant subwavelength size (~lambda/50) antenna)
-<img src="/assets/images/2024/20240429_20241204/20241129_054258_0.jpg" alt="20241129_054258_0.jpg" />
-    <ul>
-      <li>If you are doing scattered field + frequency sweep, remember to update the background field accordingly (since the frequency is changing)… Spent two nights debugging this.
-Otherwise part of the background field will appear as scattered field and also appear in the far field
-<img src="/assets/images/2024/20240429_20241204/20241129_071723_0.jpg" alt="20241129_071723_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241129_071723_1.jpg" alt="20241129_071723_1.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241129_071723_2.jpg" alt="20241129_071723_2.jpg" /></li>
-      <li>Actually looks pretty menacing on-resonance lol
-(capped the color range at 10x of the background field. The antenna is 1.5 mm, comparing to the em wavelength~87 mm at 3.35 GHz. RCS is almost 1e6x of off-resonance RCS, enhanced by ~Q^2.
-Q~800, very close to Chu–Harrington limit)
-<img src="/assets/images/2024/20240429_20241204/20241129_082928_0.jpg" alt="20241129_082928_0.jpg" /></li>
-    </ul>
-  </li>
-  <li>Have you wondered why atoms “look like” they have size of ~1 um under laser illumination?</li>
-</ol>
-
-<p>One reason: you could only resolve things at ~wavelength of the light. However, this 0.2 nm size strontium atom could also be captured with not so crazy optics (50 mm lens) &amp; exposure time, which means it has very high scattering cross section to “reflect” the blue-violet light illumination. It also appears huge because of the smaller NA of the camera (separation of the two ion trap metal tip is 2 mm).</p>
-
-<p>Turns out the scattering cross section of an atom on-resonance is comparable to the wavelength if you go thru the physics and math (3λ^2/3pi), and you can observe very similar wavelength-scale radar cross section on a tiny subwavelength rf/microwave antenna as well, fully passive.</p>
-
-<p>Here I looked at a ~1.5 mm dipole antenna, resonant at 3.46 GHz, i.e., its size is ~1/60 wavelength, and its on-resonance RCS is almost x1e6 of off-resonance RCS).</p>
-
-<p>Similar to Chu–Harrington limit of antenna Q, this is a very general rule for any passive scatterer of size within a sphere of radius a « λ: its max RCS is ~λ^2, independent of its size. You could have a very high-Q atom scattering light as if it is as big as ~1 um, and you could build a tiny passive rf antenna that “looks huge” on-resonance (it has to be low internal loss).
-<img src="/assets/images/2024/20240429_20241204/20241129_170730_0.jpg" alt="20241129_170730_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241129_170730_1.jpg" alt="20241129_170730_1.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241129_170730_2.jpg" alt="20241129_170730_2.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241129_170730_3.jpg" alt="20241129_170730_3.jpg" /></p>
-<ul>
-  <li>Fig. 1: Holman2024: <a href="https://arxiv.org/abs/2411.05321">Trapping of Single Atoms in Metasurface Optical Tweezer Arrays</a></li>
-  <li>Fig. 2: Zachos2018: <a href="https://www.nationalgeographic.com/science/article/trapped-atom-photograph-long-exposure-competition-spd">How a Student Took a Photo of a Single Atom</a></li>
-  <li>Chapter 2 of <a href="https://link.springer.com/book/10.1007/978-1-4612-1470-0">Metcalf - Laser Cooling and Trapping (1999)</a> has the derivation of scattering cross section.
-   <img src="/assets/images/2024/20240429_20241204/20241129_171155_0.jpg" alt="20241129_171155_0.jpg" />
-   <img src="/assets/images/2024/20240429_20241204/20241129_171155_1.jpg" alt="20241129_171155_1.jpg" /></li>
-  <li>Also good to clarify about “resolution”, if you know what you are looking for and have very high SNR measurement, you could always resolve e.g. two gaussians with separation much smaller than their widths.</li>
-</ul>
-
-<ol>
-  <li>The lineage is so clear for some superconducting qubit packaging. Left: 2011, right: 2024.
-<img src="/assets/images/2024/20240429_20241204/20241129_185502_0.jpg" alt="20241129_185502_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241129_185502_1.jpg" alt="20241129_185502_1.jpg" />
-    <ul>
-      <li>Left: <a href="https://web.physics.ucsb.edu/~martinisgroup/index.shtml">Martinis Group</a></li>
-      <li>Right: Chou2024: <a href="https://arxiv.org/abs/2411.15726">Deterministic multi-phonon entanglement between two mechanical resonators on separate substrates</a></li>
-    </ul>
-  </li>
-  <li>I’ve been shilling and long term bullish in comsol. They have been constantly updating and expanding the multiphysics, tutorials, application library and material library etc etc, and each update has meaningful capability &amp; user experience improvement.</li>
-</ol>
-
-<p>Take the mesh on periodic boundary condition (PBC) surfaces as an example for the user experience:</p>
-<ul>
-  <li>In 5.0 - 5.4 you need to manually mesh one surface and copy to another surface to make sure the mesh is identical on the pairs of surfaces (so that the PBC would work properly).</li>
-  <li>Since 5.6 or so, the automatically generated mesh starts to take care of this, and when you’ve run it once and then switch to manual, you’ll see the auto-added surface mesh + copy.</li>
-  <li>Since 6.2 iirc, now you could have an “identical mesh” constraint on the pair of surfaces, and mesh them at any order you like, more flexible than meshing them separately first.</li>
-  <li>I could personally come up a few more examples like this.</li>
-</ul>
-
-<p>It still sucks every now and then, and there are things that need a lot of manual/scripted setup or impossible. But the list for these things has been shrinking, and there is a growing list of stuff that used to take a phd journey to figure out and setup properly, but now is just one of the physics or multiphysics settings.
-<img src="/assets/images/2024/20240429_20241204/20241130_034207_0.jpg" alt="20241130_034207_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241130_034207_1.jpg" alt="20241130_034207_1.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241130_034207_2.jpg" alt="20241130_034207_2.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241130_034207_3.jpg" alt="20241130_034207_3.jpg" /></p>
-<ul>
-  <li>Screenshots are from <a href="https://www.comsol.com/release/6.3">“COMSOL Multiphysics® 6.3 Release Highlights”</a></li>
-  <li>Even if you do not have access to it, their manuals and user guides are still there, and you could legit learn the physics in a very practical way. Here are some examples for <a href="https://doc.comsol.com/6.3/doc/com.comsol.help.sme/StructuralMechanicsModuleUsersGuide.pdf">structural mechanics</a> and <a href="https://doc.comsol.com/6.3/doc/com.comsol.help.rf/RFModuleUsersGuide.pdf">RF</a>.
-   <img src="/assets/images/2024/20240429_20241204/20241130_035606_0.jpg" alt="20241130_035606_0.jpg" />
-   <img src="/assets/images/2024/20240429_20241204/20241130_035606_1.jpg" alt="20241130_035606_1.jpg" />
-   <img src="/assets/images/2024/20240429_20241204/20241130_035606_2.jpg" alt="20241130_035606_2.jpg" />
-   <img src="/assets/images/2024/20240429_20241204/20241130_035606_3.jpg" alt="20241130_035606_3.jpg" /></li>
-  <li>Hmm maybe I’ll use this thread to dump some other user guides here.
-    <ul>
-      <li><a href="https://doc.comsol.com/6.3/doc/com.comsol.help.aco/AcousticsModuleUsersGuide.pdf">Acoustics</a></li>
-      <li><a href="https://doc.comsol.com/6.3/doc/com.comsol.help.woptics/WaveOpticsModuleUsersGuide.pdf">Wave optics</a></li>
-      <li><a href="https://doc.comsol.com/6.3/doc/com.comsol.help.roptics/RayOpticsModuleUsersGuide.pdf">Ray optics</a></li>
-      <li><a href="https://doc.comsol.com/6.3/doc/com.comsol.help.heat/HeatTransferModuleUsersGuide.pdf">Heat transfer</a></li>
-      <li><a href="https://doc.comsol.com/6.3/doc/com.comsol.help.semicond/SemiconductorModuleUsersGuide.pdf">Semiconductor</a></li>
-    </ul>
-  </li>
-</ul>
-
-<ol>
-  <li>Apparently google no longer puts goal year for the future milestones in their quantum computing roadmap, while IBM still does.
-<img src="/assets/images/2024/20240429_20241204/20241130_051640_0.jpg" alt="20241130_051640_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241130_051640_1.jpg" alt="20241130_051640_1.jpg" />
-    <ul>
-      <li><a href="https://quantumai.google/">Google</a></li>
-      <li><a href="https://ibm.com/roadmaps/quantum/">IBM</a></li>
-    </ul>
-  </li>
-  <li>TIL Toshiba researchers have made a entangled photon pair source by putting a quantum dot in an LED-like semiconductor structure, as early as 2010. They inject two pairs of electrons-holes into the quantum dot, and they’d recombine and emit polarization entangled photons.</li>
-</ol>
-
-<p>I’m surprised I have not seen it earlier and more often, maybe it is because the wavelength is too short (400 nm)?
-Then I saw they have made it into the telecom O-band (~1300 nm) in 2014. Ok maybe the rate and fidelity are low?
-Then I saw they made them upto 33 kHz and 94% in 2020. My last guess would be yield… and voila, “typical yield of around 0.9%”
-<img src="/assets/images/2024/20240429_20241204/20241130_062330_0.jpg" alt="20241130_062330_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241130_062330_1.jpg" alt="20241130_062330_1.jpg" /></p>
-<ul>
-  <li>Salter2010: <a href="https://www.nature.com/articles/nature09078">An entangled-light-emitting diode</a></li>
-  <li>Ward2014: <a href="https://nature.com/articles/ncomms4316">Coherent dynamics of a telecom-wavelength entangled photon source</a></li>
-  <li>Xiang2020: <a href="https://www.nature.com/articles/s42005-020-0390-7">A tuneable telecom wavelength entangled light emitting diode deployed in an installed fibre</a></li>
-  <li>A quantum dot is a very common type of single-photon emitter. When you confine electrons along all three dimensions (like an atom does), you get a “dot”, and you’ll get discrete and nonlinear energy levels for the electrons, and one those transitions would emit a single photon. (see this nice review from Senellart2017: <a href="https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=923145">High-performance semiconductor quantum-dot single-photon sources</a>)
-   <img src="/assets/images/2024/20240429_20241204/20241130_063454_0.jpg" alt="20241130_063454_0.jpg" /></li>
-</ul>
-
-<ol>
-  <li>Nature briefing did a poll last week on ScienceTwitter vs ScienceSky.
-Results aside, I find it interesting that a total of ~ 6000 people responded. I digged out a few more polls done by them in a similar way, and they all have similar total votes of 4000 ~ 8000.</li>
-</ol>
-
-<p>So roughly 60k to 600k people are subscribed to nature briefing? (assuming engagement rate of 1%~10%)
-<img src="/assets/images/2024/20240429_20241204/20241130_071439_0.jpg" alt="20241130_071439_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241130_071439_1.jpg" alt="20241130_071439_1.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241130_071439_2.jpg" alt="20241130_071439_2.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241130_071439_3.jpg" alt="20241130_071439_3.jpg" /></p>
-
-<ol>
-  <li>A 4 inch diameter deformable mirror actuated by a piezopolymer layer, and the Notre Dame rose window.
-(the author called it the “Notre Dame” design)
-<img src="/assets/images/2024/20240429_20241204/20241130_175838_0.jpg" alt="20241130_175838_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241130_175838_1.jpg" alt="20241130_175838_1.jpg" />
-    <ul>
-      <li>Patterson2014: <a href="https://thesis.library.caltech.edu/8043/">Lightweight Deformable Mirrors for Future Space Telescopes</a></li>
-      <li>Did not know that the mirror mass/areal density has dropped 10x from Hubble to JWST (~200 kg/m^2 to ~20 kg/m^2). Their mirror is 0.5 kg/m^2, it sounds too good maybe they omitted some components necessary for the actual space.
-   <img src="/assets/images/2024/20240429_20241204/20241130_180811_0.jpg" alt="20241130_180811_0.jpg" /></li>
-    </ul>
-  </li>
-  <li>How are these magnetorquers $10k each and 10 weeks lead time??
-<img src="/assets/images/2024/20240429_20241204/20241130_024449_0.jpg" alt="20241130_024449_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241130_024449_1.jpg" alt="20241130_024449_1.jpg" />
-    <ul>
-      <li>Fig .1 from: <a href="https://einstein.stanford.edu/highlights/hl_102805.html">Gravity Probe B - STATUS UPDATE AS OF 28 OCTOBER 2005</a></li>
-      <li>Fig. 2 from Amin2019: <a href="https://repository.gatech.edu/server/api/core/bitstreams/db0bd935-ce1c-4f55-a4af-d4c9655a0a41/content">The Design, Assembly, and Testing of Magnetorquers for a 1U CubeSat Mission</a></li>
-    </ul>
-  </li>
-  <li>Opened up also the receiver side of the VCSEL fiber optic HDMI cable, and removed the plastic light guide above the detectors
-<img src="/assets/images/2024/20240429_20241204/20241124_174059_0.jpg" alt="20241124_174059_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241124_174059_1.jpg" alt="20241124_174059_1.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241124_174059_2.jpg" alt="20241124_174059_2.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241124_174059_3.jpg" alt="20241124_174059_3.jpg" />
-    <ul>
-      <li>The micro lens array looks like spider eyes lol
-   <img src="/assets/images/2024/20240429_20241204/20241202_171621_0.jpg" alt="20241202_171621_0.jpg" />
-   <img src="/assets/images/2024/20240429_20241204/20241202_171621_1.jpg" alt="20241202_171621_1.jpg" />
-   <img src="/assets/images/2024/20240429_20241204/20241202_171621_2.jpg" alt="20241202_171621_2.jpg" /></li>
-    </ul>
-  </li>
-  <li>Some nice quotes from the facebook red book
-<img src="/assets/images/2024/20240429_20241204/20241202_210632_0.jpg" alt="20241202_210632_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241202_210632_1.jpg" alt="20241202_210632_1.jpg" />
-    <ul>
-      <li><a href="https://www.map.cv/blog/redbook">Facebook’s Little Red Book</a></li>
-    </ul>
-  </li>
-  <li>These quantum microscopes are getting out of control
-Left: quantum twisting microscope
-Right: quantum diamond microscope
-<img src="/assets/images/2024/20240429_20241204/20241203_154815_0.jpg" alt="20241203_154815_0.jpg" />
-<img src="/assets/images/2024/20240429_20241204/20241203_154815_1.jpg" alt="20241203_154815_1.jpg" />
-    <ul>
-      <li>Inbar2023: <a href="https://nature.com/articles/s41586-022-05685-y">The quantum twisting microscope</a>
-Yin2024: <a href="https://doi.org/10.1103/PhysRevApplied.22.054050">Quantum diamond microscope for narrowband magnetic imaging with high spatial and spectral resolution</a></li>
-      <li>They are both pretty sick, but hell annoying to make and use. The QDM may be more practical, no layer by layer stacking of fancy 2d materials, and could resolve sub 100 pT with 2 um spatial resolution.
-They imaged magnetic field from a few microcoils.
-   <img src="/assets/images/2024/20240429_20241204/20241203_155749_0.jpg" alt="20241203_155749_0.jpg" />
-   <img src="/assets/images/2024/20240429_20241204/20241203_155749_1.jpg" alt="20241203_155749_1.jpg" /></li>
-    </ul>
-  </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Photonics" /><category term="Quantum" /><category term="NIF" /><category term="Fusion" /><category term="Plasma" /><category term="CT" /><category term="Antenna" /><category term="Atom" /><category term="Scattering" /><category term="RCS" /><category term="Laser" /><category term="Superconducting_qubit" /><category term="COMSOL" /><category term="Google" /><category term="IBM" /><category term="LED" /><category term="Quantum_dot" /><category term="Piezo" /><category term="Magnetorquer" /><category term="VCSEL" /><category term="Facebook" /><summary type="html"><![CDATA[Fiber to chip loss is pretty good. The rate is still so low (125 MHz): A manufacturable platform for photonic quantum computing Glad to see them talking about component loss and fiber to chip loss in mdB now Alexander2024: A manufacturable platform for photonic quantum computing]]></summary></entry><entry><title type="html">This week’s outside five sigma (#23)</title><link href="http://localhost:4000/ofs/weekly-OFS-23/" rel="alternate" type="text/html" title="This week’s outside five sigma (#23)" /><published>2024-11-30T00:00:00-08:00</published><updated>2024-11-30T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-23</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-23/"><![CDATA[<ol>
+<p>Hope you enjoyed this write up, see you next time!</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Nanofab" /><category term="Cryogenics" /><category term="Coil" /><category term="Magnet" /><category term="Superconducting" /><category term="Current" /><category term="Epoxy" /><category term="Vacuum" /><summary type="html"><![CDATA[Coil is simple to make (lol maybe I’m too naive), why am I writing this and what would you be able to learn from it? These coils go into high vacuum and low temperature, so not as common as typical applications More consideration for thermalization and heating You’ll also peek into how it’s like doing superconducting circuits and qubits a bit. I’m writing this for fun, and for “paying my debt” of not writing as much of these in my thesis.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#23)</title><link href="http://localhost:4000/ofs/weekly-OFS-23/" rel="alternate" type="text/html" title="This week’s outside five sigma (#23)" /><published>2024-11-30T00:00:00-08:00</published><updated>2024-11-30T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-23</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-23/"><![CDATA[<ol>
   <li>Folks I just ran into a colored version of this. From a book on microwave tubes from 2020 and with all figures in color would you believe it! (it’s so new they are called vacuum electron devices instead of tubes).
 Of course there’s no colored version of the other cartoon lol.
 <img src="/assets/images/2024/20240608_20241127/20240608_041250_0.jpg" alt="20240608_041250_0.jpg" />
@@ -1949,8 +2175,4 @@ Aghakhani2020: <a href="https://www.pnas.org/doi/full/10.1073/pnas.1920099117">A
       <li>I like how the video is 8x slowed down lol. And it could make turns using magnetic field, carry other microparticles around, and climb walls inside a tube. More videos in this <a href="https://x.com/jwt0625/status/1859790307266789439">thread</a>.</li>
     </ul>
   </li>
-</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="SpaceX" /><category term="Acoustics" /><category term="CAGR" /><category term="PCM" /><category term="GST" /><category term="GSST" /><category term="ULE" /><category term="Optics" /><category term="Interferometry" /><category term="MIR" /><category term="Fiber" /><category term="Radiative_cooling" /><category term="GitHub" /><category term="TPP" /><category term="3D_print" /><category term="Laser_machining" /><category term="X-ray" /><category term="Qubit" /><category term="Quantum_computing" /><category term="VCSEL" /><category term="Microrobots" /><summary type="html"><![CDATA[Starship super heavy’s far field noise is 18 dB less than predicted at 35 km during launch, it’s comparable to around 5 SLS launches and &gt;= 10 Falcon 9 launches. The flyback booms are surprisingly only 50% louder than a Concorde boom. Gee2024: Starship super heavy acoustics: Far-field noise measurements during launch and the first-ever booster catch]]></summary></entry><entry><title type="html">Beware of higher order effects, and put them to good use</title><link href="http://localhost:4000/blog/higher-order-effects/" rel="alternate" type="text/html" title="Beware of higher order effects, and put them to good use" /><published>2024-11-19T00:00:00-08:00</published><updated>2024-11-19T00:00:00-08:00</updated><id>http://localhost:4000/blog/higher-order-effects</id><content type="html" xml:base="http://localhost:4000/blog/higher-order-effects/"><![CDATA[<p>I was thinking about something related to higher order effect, I did not write it down, and now I don’t remember what it is…</p>
-
-<p>Prerequisite: some basic understanding of calculus and linear algebra would make this read more joyful. Understand this world as a linear, Markovian, and relatively independent systems first, and then add the higher order effects.</p>
-
-<p>(to be continued)</p>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Essay" /><summary type="html"><![CDATA[I was thinking about something related to higher order effect, I did not write it down, and now I don’t remember what it is…]]></summary></entry></feed>
+</ol>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="SpaceX" /><category term="Acoustics" /><category term="CAGR" /><category term="PCM" /><category term="GST" /><category term="GSST" /><category term="ULE" /><category term="Optics" /><category term="Interferometry" /><category term="MIR" /><category term="Fiber" /><category term="Radiative_cooling" /><category term="GitHub" /><category term="TPP" /><category term="3D_print" /><category term="Laser_machining" /><category term="X-ray" /><category term="Qubit" /><category term="Quantum_computing" /><category term="VCSEL" /><category term="Microrobots" /><summary type="html"><![CDATA[Starship super heavy’s far field noise is 18 dB less than predicted at 35 km during launch, it’s comparable to around 5 SLS launches and &gt;= 10 Falcon 9 launches. The flyback booms are surprisingly only 50% louder than a Concorde boom. Gee2024: Starship super heavy acoustics: Far-field noise measurements during launch and the first-ever booster catch]]></summary></entry></feed>
