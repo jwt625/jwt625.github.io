@@ -71,8 +71,16 @@ Now we could imagine and see the charge gets kicked once, the next step is to ke
 *Animation from [Javalab - Electromagnetic Wave](https://javalab.org/en/electromagnetic_wave_en/).*
 
 You can see the E field is oriented vertically on the equator plane. As you move up or down, the polarization would change correspondingly so that it is always projected to be perpendicular to the line from the source to you, and gone when you are at the north or south pole. Sounds familiar? This is the same far field radiation pattern of an infinitely small dipole antenna, $$\vec E\propto \sin\theta  \cdot \hat\theta$$, where $$\theta$$ is the polar angle, angle from the $$z$$-axis.
+- Wondering why I'm talking about polarization so much? It could bring you so much trouble if you are not careful about it. Better get you familiar with it because we will talk about it again and again.
+- It is surprising how much you could already intuitively understand from a simple shaking charge (or a dipole). Actually I got an exercise for you to use it a bit more.
+- **Exercise 1** (can't believe I'm doing this, putting exercise in my blog lol): use the intuition of the simple shaking charge, explain the [polarization distribution of the blue sky](https://en.wikipedia.org/wiki/Rayleigh_sky_model). *Hint: scattering of light is when light shakes another charge along the direction of the polarization of the incident lightwave.*
 
-Before we move on, there is one more fun thing to think about this simple point charge picture: this animation properly has a generator attached, as the radiation carries energy away and should slow down the oscillation of the charge, and we'd need energy input to keep it going. Does this mean if it's just a charge attached to a spring and oscillating like a mechanical oscillator, it should experience a damping force from the radiated field? What is breaking the time reversal symmetry here since Maxwell's equation does not have the arrow of time preference?
+![mapdeg](/assets/images/2025/Photonics_history/Mapdeg-ortho.gif)
+
+*The degree of polarization on the celestial sphere ([source](https://en.wikipedia.org/wiki/Rayleigh_sky_model#/media/File:Mapdeg-ortho.gif)). Red is high and black is low.*
+
+
+Before we move on, there is one more fun thing to think about this simple point charge picture: the above radiation animation properly has a generator attached, as the radiation carries energy away and should slow down the oscillation of the charge, and we'd need energy input to keep it going. Does this mean if it's just a charge attached to a spring and oscillating like a mechanical oscillator, it should experience a damping force from the radiated field? What is breaking the time reversal symmetry here since Maxwell's equation does not have the arrow of time preference?
 - Most of the time you could just accept the fact that there will be damping when things radiate, and life goes on fine. Think about this do let you come up with ways to play with how things could radiate.
 - One way to answer this is, it is the statistical mechanics of [how the radiator interact with the absorber](https://doi.org/10.1103/RevModPhys.17.157), and the stat mech part is where the arrow of time comes in. Infinite space is also an absorber, just like an infinitely long transmission line is a resistor of its characteristic impedance.
 - As a result, if the radiator sees a different environment or different absorbers, its rate of radiation could be totally different (aka [Purcell effect](https://en.wikipedia.org/wiki/Purcell_effect)). This effect is widely used from better emitters (esp. the quantum ones that emit one photon at a time), to improving solar cell efficiency and better lasers.
@@ -113,9 +121,9 @@ Its entropy is too high, which is destined to be the case as it is "thermal". Me
 
 ## And shake them really well: lasers
 
-How can we do better and get good low-entropy light? Remember those spectral lines, those might be useful! There is also another blessing for us: light, or photons, are [bosons](https://en.wikipedia.org/wiki/Boson). What do you think being bosons mean? Party? No, it means we are staying together, whenever it is possible, no matter heaven or hell, or superposition of both. I'm taking about this because I like to think about this as one of the fundamental reasons why lasers would work.
+How can we do better and get good low-entropy light? Remember those spectral lines, those might be useful! There is also another blessing for us: light, or photons, are [bosons](https://en.wikipedia.org/wiki/Boson). What do you think being bosons mean? Party? No, it means we are staying together, whenever it is possible, no matter heaven or hell, or superposition of both. I'm taking about this because I like to think about this as one of the fundamental reasons why lasers would work generating a "clean" state of light.
 
-Here is an example of photons being bosons: when you send single photons to a 50:50 [beam splitter](https://www.edmundoptics.com/knowledge-center/application-notes/optics/what-are-beamsplitters/). I thought about making the drawings, but [this blog](https://galileo-unbound.blog/2022/05/08/the-many-worlds-of-the-quantum-beam-splitter/) perfectly captured the two cases I wanted to include here:
+Here is an example of photons being bosons: when you send single photons to a 50:50 [beam splitter](https://www.edmundoptics.com/knowledge-center/application-notes/optics/what-are-beamsplitters/), which is just a half-transparent half-reflective piece of glass at an angle of 45 degree (I thought about making the drawings, but [this blog](https://galileo-unbound.blog/2022/05/08/the-many-worlds-of-the-quantum-beam-splitter/) perfectly captured the two cases I wanted to include here):
 - When you send just one photon to one of the two input channels:
 - ![single_photon_BS](/assets/images/2025/Photonics_history/quantum1photonbs-1.webp)
 - Look we have "modes" again, more on them later.
