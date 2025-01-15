@@ -24,7 +24,9 @@ Light is good. It brings the energy and entropy for life, and it also runs the i
 
 What would you expect from this writing? I'm trying to make it as easy to digest and take on as possible, with minimal assumptions on background knowledge, while covering the essense and basics. Most of physics and optics are intuitive to understand (if you try hard enough), and the useful ones always have a daily life analogy, like a Q-switched laser works the same way as how your toilet flushes (ok this example is probably stretching it but you get the point).
 
-You'd be surprised sometimes how oblivious some of the academic or industry experts are about the basics (to be fair many of the basics are far from trivial to understand and straightforward to see behind the complexity), to the extent that occasionally people will come together and review e.g. [what is — and what is not — an optical isolator](https://www.nature.com/articles/nphoton.2013.185). One way to get back to the basics is to tell them to more people and broader audience, and this is what I'll try to do here, starting from what is light, how to guide it, why do we want it on a chip, and how to get it onto a chip.
+You'd be surprised sometimes how oblivious some of the academic or industry experts are about the basics (to be fair many of the basics are far from trivial to understand and straightforward to see behind the complexity), to the extent that occasionally people will come together and review e.g. [what is — and what is not — an optical isolator](https://www.nature.com/articles/nphoton.2013.185). 
+
+One way to get back to the basics is to tell them to more people and broader audience, and this is what I'll try to do here, starting from what is light, how to guide it, why do we want it on a chip, and how to get it onto a chip.
 - You'll also find that I could not explain some of the basic concepts well, and some of them would even lead to philosophical discussions. I'd say for now choose your belief and move on, and come back to your doubts when you got time to kill in a nice sunny weekend afternoon.
 
 Lastly, I'm writing this also because I want to collect some of the readings into a more coherent collection, and for fun, so do not take what I wrote here seriously, and always do your own research! Although this is not intended for peer review, please do let me know if you've found errors, what you like and don't like about it! Oh also if you are curious, there is a section for stuff in the [cover image](#cover-image).
@@ -121,6 +123,8 @@ Its entropy is too high, which is destined to be the case as it is "thermal". Me
 
 ## And shake them really well: lasers
 
+> What's in this section: boson, stimulated emission, [laser](https://history.aip.org/exhibits/laser/index.html) (this is a really good historical review)
+
 How can we do better and get good low-entropy light? Remember those spectral lines, those might be useful! There is also another blessing for us: light, or photons, are [bosons](https://en.wikipedia.org/wiki/Boson). What do you think being bosons mean? Party? No, it means we are staying together, whenever it is possible, no matter heaven or hell, or superposition of both. I'm taking about this because I like to think about this as one of the fundamental reasons why lasers would work generating a "clean" state of light.
 
 Here is an example of photons being bosons: when you send single photons to a 50:50 [beam splitter](https://www.edmundoptics.com/knowledge-center/application-notes/optics/what-are-beamsplitters/), which is just a half-transparent half-reflective piece of glass at an angle of 45 degree (I thought about making the drawings, but [this blog](https://galileo-unbound.blog/2022/05/08/the-many-worlds-of-the-quantum-beam-splitter/) perfectly captured the two cases I wanted to include here):
@@ -132,13 +136,41 @@ Here is an example of photons being bosons: when you send single photons to a 50
 - ![two_photons_BS](/assets/images/2025/Photonics_history/hom2.webp)
 - Do you see what's going on here? They freaking always get out at the same output port, albeit as a superposition / entanglement of the two output ports. This is weird. It's weird. It's so weird.
 - This is what it means to be bosons. You all-in with your fellow bosons.
+- **Exercise 2**: what happens when you send a two-photon state to each of the input of the 50:50 beam splitter? What gets out of it? No need to get the coefficients right, just get what are the states that get entangled. *Hint: operators for different modes commute with each other, i.e., $$a_1^\dagger a_2^\dagger = a_2^\dagger a_1^\dagger$$*.
 
-The funny thing is, with all the setup of the bosonic behavior above, the state of light of a laser is not even number states, it is coherent states, and coherent states do not have the above behavior at all (which is also weird and messed up, if you are interested, it's briefly discussed in the blog cited above).
+The funny thing is, with all the setup of the bosonic behavior above, the state of light of a laser is not even number states, it is [coherent states](https://en.wikipedia.org/wiki/Coherent_state), and coherent states do not have the above behavior at all (which is also weird and messed up, if you are interested, it's briefly discussed in the blog cited above).
 - This "coherent" is related to how "coherent" is used for describing coherence of a signal, but has a very specific meaning in "coherent state".
 - It is a big state ("big" as far from origin in phase space) where the uncertainty is isotropic in amplitude and phase, and minimally allowed by quantum mechanics.
 
 ![coherent_state](/assets/images/2025/Photonics_history/coherent_state.png)
+*A classical signal represented by a phasor $$\alpha$$, with amplitude $$\vert \alpha \vert$$ and phase $$\phi$$, and the corresponding coherent state.*
 
+Ok we are getting distracted again. The point I am trying to make is that, particles that light is made of, aka photons, are bosons, and they like to stick together when you try to mix them. This picture or intuition matches with so called [stimulated emission](https://en.wikipedia.org/wiki/Stimulated_emission), or [Einstrahlung](https://einsteinpapers.press.princeton.edu/vol6-trans/232), the "hypotheses" Einstein used to derive the Planck distribution in a very simple way. So now we just need to use one of those already kind of sharp absorption and emission lines, and somehow make the photons "stick together" more, we would get really good light, we would have a laser. But how?
+
+Turns out we just need two more things:
+1. Feedback: to remind the emitters -- the "shaking charges", what it was emitting, so that it emits the same "stuff".
+2. Population inversion: light also shake the emitters and gets absorbed. We need more excited emitters than non-excited ones, so that the stimulated emission wins over absorption.
+
+**Feedback**: this part is easy: mirrors. Make two mirrors facing each other, light would bounce back and forth, and keep reminding the emitters to behave properly. Congrats, now you got an [optical cavity](https://en.wikipedia.org/wiki/Optical_cavity) or optical resonator (but you gotta be careful to have a properly working one). This resonator also defines what I mean when I wrote "stuff" above: it means the optical modes supported by the resonator. Oh, modes, I promise more on it in the next section!
+
+![laser-cavity](/assets/images/2025/Photonics_history/Laser_resonator_stability.svg)
+*Stability of a laser cavity: have the mirror focus a bit helps relaxing the constraint on how parallel they are. ([source](https://commons.wikimedia.org/wiki/File:Laser_resonator_stability.svg))*
+
+**Population inversion**: this is a bit more involving, since if you drive the vibration/transition resonantly, you would end up getting half and half. Same with temperature, thanks to statistical mechanics and thermal equilibrium, the lower energy states always have more population than the higher energy states, except if the temperature could be somehow "negative". Well that just means the distribution is not at thermal equilibrium.
+- A common way to escape from equilibrium is to involve more states with different energy levels, such as three (or more). Let's call them $$g$$, $$e$$, and $$f$$ from lower to higher energy.
+- If we shake a thing (e.g. doped chromium in a ruby crystal) up from $$g$$ to $$f$$, and it drops from $$f$$ to $$e$$ real fast (e.g. thru [phonons (crystal lattice vibrations)](https://www.rp-photonics.com/spotlight_2018_04_06.html)), then we could keep shaking the $$g$$ to $$f$$ to $$e$$ without the "half & half" limit. Population (between $$g$$ and $$e$$) inverted!
+
+![laser-cavity-3-level](/assets/images/2025/Photonics_history/SUPR-laser-shirt.png)
+*One of my [SUPR](https://photons.stanford.edu/supr) shirt showing the laser cavity with two mirrors on the left and right, and three levels, with an upward arrow representing the $$g$$ to $$f$$ pumping, and a downward arrow for the laser transition. Light bouncing and emitting (thru the right mirror) are drawn as the three horizontal lines.*
+
+Ok we finally get the laser working. Why bother going thru this? Aren't you supposed to be talking about fibers and chips? I dunno, maybe I'm stubborn, maybe I want to show off my skill of yapping. But I do like the journey to reach the point where we can say, "here is a plane wave at frequency $$\omega$$", with confidence we could actually have something close. You don't get a plane wave out of imagination, and perfectly at a single frequency! It took us humans a long journey, a ton of effort ~~and [decades of legal battle](https://history.aip.org/exhibits/laser/index.html)~~, to get such a nice lightwave, albeit still far from a single frequency plane wave. There are always [larger beams](https://opg.optica.org/ol/abstract.cfm?uri=ol-41-4-840) to make, and narrower and stabler lasers to make, and you can do amazing things with them.
+
+![CBC](/assets/images/2025/Photonics_history/CBC-P3120029-2-1.jpg)
+*Coherent Beam Combining for [high beam quality and >150 kW of power](https://www.powerphotonic.com/powerphotonics-coherent-beam-combining-module-solves-key-challenges-of-high-energy-lasers/). This is the opposite of fibers and chips, I'm just a fan of big lasers.*
+
+One last thing before we move on, why does a laser output the coherent state of the lasing mode? I still do not have a simple and intuitive microscopic picture for its mechanism after hours of daydreaming. If you have a good explanation, let me know! What I could offer for now is a loose argument for that it has to be the case, only using what we have talked about above:
+- The lightwave is constantly exchanging photons with the emitters, while being in "equilibrium". This means its state has to be unchanged by the add/subtract operator $$a^\dagger$$ and $$a$$, i.e., its eigen states. The eigen states of the operators are coherent states.
+- The light is also constantly bouncing off the mirrors, some of which gets out of the output mirror. Sounds familiar? This is a beam splitter, although usually not 50:50. If you did the exercise above, you'll find the output of a beam splitter is messy and entangled, and gets worse for "larger" states. Any states that do not get messed up when going thru or bouncing off a beam splitter? Coherent states.
 
 
 # Watch the light, and guide the light
