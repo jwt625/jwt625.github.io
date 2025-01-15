@@ -93,7 +93,7 @@ Before we move on, there is one more fun thing to think about this simple point 
 
 > What's in this section: thermal radiation, spectrum, spectral lines
 
-In the previous section, we showed an oscillating charge, presumably driven by a "function generator". While this is common for lower frequencies, it's a different level of effort to push electronics and oscillators to THz, as one of my friend would like to put it, nature is a low-pass filter: you get self-resonances, skin effect, higher dielectric loss... Anyway doing the shaking at a few hundred THz is hard.
+In the previous section, we showed an oscillating charge, presumably driven by a "function generator". While this is common for lower frequencies, it's a different level of effort to push electronics and oscillators to THz, as one of my friend would like to put it, nature is a low-pass filter: you get self-resonances, skin effect, higher dielectric loss, you get old and you would no longer be able to hear above 18 kHz... Anyway doing the shaking at a few hundred THz is hard.
 
 How does nature (as well as us, initially) do it? Heat stuff up! Actually as long as stuff is not at zero temperature, the atoms and electrons are always shaking and exchanging photons.
 - Not exactly in the way we described above tho, but let's not get into the quantum stuff for now. 
