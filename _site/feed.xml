@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-15T01:02:46-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#29)</title><link href="http://localhost:4000/ofs/weekly-OFS-29/" rel="alternate" type="text/html" title="This week’s outside five sigma (#29)" /><published>2025-01-12T00:00:00-08:00</published><updated>2025-01-12T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-29</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-29/"><![CDATA[<h1 id="high-power-miniature-laser-pcsel">High-Power Miniature Laser (PCSEL)</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-17T09:42:18-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#29)</title><link href="http://localhost:4000/ofs/weekly-OFS-29/" rel="alternate" type="text/html" title="This week’s outside five sigma (#29)" /><published>2025-01-12T00:00:00-08:00</published><updated>2025-01-12T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-29</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-29/"><![CDATA[<h1 id="high-power-miniature-laser-pcsel">High-Power Miniature Laser (PCSEL)</h1>
 <p>Noda group’s 3 mm diameter, 50 W continuous-wave single-mode photonic-crystal surface-emitting laser (PCSEL).</p>
 <ul>
   <li>Look at all the ribbon bonds to inject &gt;100 A current into this little chip, liquid cooled with 6°C water.</li>
@@ -265,7 +265,7 @@ Youssefi2025: <a href="https://arxiv.org/abs/2501.03211">Compact superconducting
 1 \\
 0
 \end{bmatrix}\).</li>
-  <li>Why bother with all these? If you are math pilled, you should recognize the Lie group and Lie algebra of a 2D rotation from above, which can also be represented by a complex phasor that is used all the time for a traveling wave. If I ever get to coupled mode theory in a later blog (math for two traveling waves with crosstalk), you’ll find it is pretty much this rotation but in 4D.</li>
+  <li>Why bother with all these? If you are math pilled, you should recognize the Lie group and Lie algebra of a 2D rotation from above, which can also be represented by a complex phasor that is used all the time for a traveling wave. If I ever get to <a href="https://doi.org/10.1364/JOSAA.11.000963">coupled mode theory</a> in a later blog (math for two traveling waves with crosstalk), you’ll find it is pretty much this rotation but in 4D.</li>
   <li>Apologize for derailing.. Let’s come back to the charge.</li>
 </ul>
 
@@ -404,7 +404,17 @@ Youssefi2025: <a href="https://arxiv.org/abs/2501.03211">Compact superconducting
   <li>The light is also constantly bouncing off the mirrors, some of which gets out of the output mirror. Sounds familiar? This is a beam splitter, although usually not 50:50. If you did the exercise above, you’ll find the output of a beam splitter is messy and entangled, and gets worse for “larger” states. Any states that do not get messed up when going thru or bouncing off a beam splitter? Coherent states.</li>
 </ul>
 
+<p><img src="/assets/images/2025/Photonics_history/laser_alignment_chart.jpeg" alt="lasers" />
+<em>A laser alignment chart I made a while ago.</em></p>
+
 <h1 id="watch-the-light-and-guide-the-light">Watch the light, and guide the light</h1>
+
+<p>Finally, after we’ve imagined about making a laser, we could finally say, now we have a wave at frequency \(f\) or angular frequency \(\omega=2\pi f\), and wavelength \(\lambda = c_0/f = 2\pi c_0/\omega\). The wave vector</p>
+<ul>
+  <li>Be wary of the \(2\pi\), it’s not a small factor, and could screw you over every now and then.</li>
+</ul>
+
+<p>(to be continued)</p>
 
 <h2 id="where-is-the-light-going">Where is the light going?</h2>
 
