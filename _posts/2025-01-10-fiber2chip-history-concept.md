@@ -53,7 +53,7 @@ So why and how does an accelerating point charge radiate? Let's cheat the math w
 1 \\
 0
 \end{bmatrix}$$.
-- Why bother with all these? If you are math pilled, you should recognize the Lie group and Lie algebra of a 2D rotation from above, which can also be represented by a complex phasor that is used all the time for a traveling wave. If I ever get to coupled mode theory in a later blog (math for two traveling waves with crosstalk), you'll find it is pretty much this rotation but in 4D.
+- Why bother with all these? If you are math pilled, you should recognize the Lie group and Lie algebra of a 2D rotation from above, which can also be represented by a complex phasor that is used all the time for a traveling wave. If I ever get to [coupled mode theory](https://doi.org/10.1364/JOSAA.11.000963) in a later blog (math for two traveling waves with crosstalk), you'll find it is pretty much this rotation but in 4D.
 - Apologize for derailing.. Let's come back to the charge.
 
 Let's say we know the static electric field (E field) of the charge points out straight, which should be the case immediately before and after its velocity gets kicked (acceleration impulse). Special relativity then says this change is moving out at maximum the speed of light, see the animation below.
@@ -173,11 +173,20 @@ One last thing before we move on, why does a laser output a coherent state of th
 - The light is also constantly bouncing off the mirrors, some of which gets out of the output mirror. Sounds familiar? This is a beam splitter, although usually not 50:50. If you did the exercise above, you'll find the output of a beam splitter is messy and entangled, and gets worse for "larger" states. Any states that do not get messed up when going thru or bouncing off a beam splitter? Coherent states.
 
 
+![lasers](/assets/images/2025/Photonics_history/laser_alignment_chart.jpeg)
+*A laser alignment chart I made a while ago.*
+
 # Watch the light, and guide the light
+
+Finally, after we've imagined about making a laser, we could finally say, now we have a wave at frequency $$f$$ or angular frequency $$\omega=2\pi f$$, and wavelength $$ \lambda = c_0/f = 2\pi c_0/\omega $$. The wave vector 
+- Be wary of the $$2\pi $$, it's not a small factor, and could screw you over every now and then.
+
+(to be continued)
 
 ## Where is the light going?
 
 > What's in this section: diffraction, refraction, reflection, absorption, nonlinearity
+
 
 
 ## I want it this way, no no this way, yes yes yes, and then this way
