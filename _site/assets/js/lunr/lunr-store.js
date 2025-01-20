@@ -313,7 +313,13 @@ var store = [{
       },{
         "title": "This week's outside five sigma (#29)",
         "excerpt":"High-Power Miniature Laser (PCSEL) Noda group’s 3 mm diameter, 50 W continuous-wave single-mode photonic-crystal surface-emitting laser (PCSEL). Look at all the ribbon bonds to inject &gt;100 A current into this little chip, liquid cooled with 6°C water. No other semiconductor lasers could rival PCSEL’s power density, linewidth (3 pm), and...","categories": ["OFS"],
-        "tags": ["PCSEL","Nanotube","Lens","Optics","Flexure","RSA","Microwave","Optical_switch","MEMS","Photonics","Capacitor","OCR","WGM","Taper","Nautrino"],
+        "tags": ["PCSEL","Nanotube","Lens","Optics","Flexure","RSA","Microwave","Optical_switch","MEMS","Photonics","Capacitor","OCR","WGM","Taper","Neutrino"],
         "url": "/ofs/weekly-OFS-29/",
+        "teaser": null
+      },{
+        "title": "This week's outside five sigma (#30)",
+        "excerpt":"Fractal Design for Polarization-Insensitive SNSPDs Just found the same idea used in a 3D print friendly anechoic chamber applied to superconducting nanowire single-photon detector (SNSPD), which is usually a meandering line (red region in Fig. 1) a current runs thru (you get a voltage pulse when a photon hits), and...","categories": ["OFS"],
+        "tags": ["Supercomputers","AI_training","NIR_image_sensor","Hamamatsu","Photonics","Piezoelectricity","Crystal_classes","Mode-locked_laser","Silicon_photonics","Lithography","Plasmonics","Superconducting_nanowire","Single-photon_detector","Fractal_design","EDM_machining","Inter-satellite_communication","Liquid_lens","Electrowetting","Beam_steering","Fiber_array","Optical_spectrometer","Faraday_isolator","Optical_switch","WDM","VCSEL","Waveguide","3D_printing","Heat_dissipation","Optical_transceiver"],
+        "url": "/ofs/weekly-OFS-30/",
         "teaser": null
       }]
