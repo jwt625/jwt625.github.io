@@ -204,29 +204,50 @@ circle1_y = np.sin(theta)
 circle2_x = 1.5 * np.cos(theta)
 circle2_y = 1.5 * np.sin(theta)
 
-# Create figure with only static elements
+# Create figure with static elements
 fig = go.Figure()
 
-# Add persistent circles (visible in all frames)
+# Add persistent circles with legend entries
 fig.add_trace(go.Scatter(
-    x=circle1_x, y=circle1_y, 
+    x=circle1_x, y=circle1_y,
     mode='lines',
     line=dict(color='gray', dash='dot'),
-    name='n₁'
+    name='n₁ (Medium 1)',
+    showlegend=True
 ))
 fig.add_trace(go.Scatter(
     x=circle2_x, y=circle2_y,
     mode='lines', 
     line=dict(color='gray', dash='dot'),
-    name='n₂'
+    name='n₂ (Medium 2)',
+    showlegend=True
 ))
 
-# Initialize dynamic elements (empty but needed for frame structure)
-fig.add_trace(go.Scatter(x=[None], y=[None], mode='lines+markers', name='k₁')) 
-fig.add_trace(go.Scatter(x=[None], y=[None], mode='lines+markers', name='k₂'))
-fig.add_trace(go.Scatter(x=[None], y=[None], mode='text', name='status'))
+# Initialize dynamic elements with proper arrow orientation
+fig.add_trace(go.Scatter(
+    x=[None], y=[None],
+    mode='lines+markers',
+    line=dict(color='blue', width=2),
+    marker=dict(symbol='arrow', size=15),
+    name='k₁/k0 (Incident)',
+    showlegend=True
+))
+fig.add_trace(go.Scatter(
+    x=[None], y=[None],
+    mode='lines+markers',
+    line=dict(color='red', width=2),
+    marker=dict(symbol='arrow', size=15),
+    name='k₂/k0 (Refracted)',
+    showlegend=True
+))
+fig.add_trace(go.Scatter(
+    x=[None], y=[None],  # Hidden status text placeholder
+    mode='text',
+    name='status',
+    showlegend=False
+))
 
-# Create frames with ALL dynamic elements
+# Create frames with proper arrow angles
 frames = []
 theta2_values = np.linspace(0, np.pi/2, 100)
 
@@ -234,58 +255,83 @@ for theta2 in theta2_values:
     k2_x = 1.5 * np.cos(theta2)
     k2_y = 1.5 * np.sin(theta2)
     
+    # Calculate angles for arrow orientation
+    angle_k2 = np.degrees(theta2)
+    
     # Phase matching calculation
     if k2_x <= 1.0:
         theta1 = np.arccos(k2_x)
         k1_x, k1_y = np.cos(theta1), np.sin(theta1)
+        angle_k1 = np.degrees(theta1)
         status = "Phase Matched"
         status_color = "green"
     else:
         k1_x, k1_y = np.nan, np.nan
+        angle_k1 = 0
         status = "Total Internal Reflection"
         status_color = "red"
-    
-    # Frame data structure must match initial trace order:
-    # [circle1, circle2, k1, k2, status]
+
     frame = go.Frame(
         data=[
-            # Static circles (reuse existing data)
-            go.Scatter(x=circle1_x, y=circle1_y),  # n₁
-            go.Scatter(x=circle2_x, y=circle2_y),  # n₂
-            # Dynamic elements
-            go.Scatter(x=[0, k1_x], y=[0, k1_y], 
-                      line=dict(color='blue', width=2),
-                      marker=dict(symbol='arrow', size=10)),
-            go.Scatter(x=[0, k2_x], y=[0, k2_y],
-                      line=dict(color='red', width=2),
-                      marker=dict(symbol='arrow', size=10)),
-            go.Scatter(x=[1.7], y=[1.7], 
-                      mode='text',
-                      text=[f"<b>{status}</b>"],
-                      textfont=dict(color=status_color, size=14))
+            # Static circles
+            go.Scatter(x=circle1_x, y=circle1_y),
+            go.Scatter(x=circle2_x, y=circle2_y),
+            # k₁ vector with proper arrow angle
+            go.Scatter(
+                x=[0, k1_x], y=[0, k1_y],
+                line=dict(color='blue', width=2),
+                marker=dict(
+                    symbol='arrow',
+                    size=15,
+                    angleref='previous',
+                    angle=angle_k1
+                ),
+                showlegend=False
+            ),
+            # k₂ vector with proper arrow angle
+            go.Scatter(
+                x=[0, k2_x], y=[0, k2_y],
+                line=dict(color='red', width=2),
+                marker=dict(
+                    symbol='arrow',
+                    size=15,
+                    angleref='previous',
+                    angle=angle_k2
+                ),
+                showlegend=False
+            ),
+            # Status text
+            go.Scatter(
+                x=[1.7], y=[1.7],
+                mode='text',
+                text=[f"<b>{status}</b>"],
+                textfont=dict(color=status_color, size=14)
+            )
         ],
         name=f"theta_{np.rad2deg(theta2):.1f}"
     )
     frames.append(frame)
 
 # Assign frames to figure
-fig.frames = frames  # Critical step:cite[6]
+fig.frames = frames
 
-slider = dict(
+# Configure slider and layout
+slider = [dict(
+    active=0,
+    currentvalue=dict(prefix="θ₂: ", font=dict(size=14)),
+    pad=dict(t=50),
     steps=[dict(
         method='animate',
         args=[
-            [f"theta_{np.rad2deg(theta2):.1f}"],  # Match frame.name
+            [f"theta_{np.rad2deg(theta2):.1f}"],
             dict(mode='immediate', 
                  frame=dict(duration=100, redraw=True),
                  transition=dict(duration=0))
         ],
         label=f"{np.rad2deg(theta2):.1f}°"
     ) for theta2 in theta2_values]
-)
+)]
 
-
-# Configure final layout
 fig.update_layout(
     title="Phase Matching Condition Demo<br><sub>Adjust θ₂ with slider below</sub>",
     xaxis=dict(
@@ -298,8 +344,14 @@ fig.update_layout(
         range=[-0.1, 1.8],
         title="k<sub>y</sub>"
     ),
-    showlegend=False,
-    sliders=[slider],
+    showlegend=True,
+    legend=dict(
+        x=1.05,
+        y=1,
+        bgcolor='rgba(255,255,255,0.9)',
+        bordercolor='rgba(0,0,0,0.2)'
+    ),
+    sliders=slider,
     updatemenus=[dict(
         type='buttons',
         showactive=False,
@@ -312,11 +364,12 @@ fig.update_layout(
     )]
 )
 
-# Save to HTML for Jekyll
+# Save to HTML
 fig.write_html(
     "../_includes/phase_matching_plot.html",
     include_plotlyjs='cdn',
     full_html=False
 )
+
 
 # %%
