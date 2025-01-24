@@ -1,4 +1,5 @@
 ---
+layout: single
 title: "Get light onto a photonic chip: history and concepts"
 categories:
   - Tutorial
@@ -178,18 +179,48 @@ One last thing before we move on, why does a laser output a coherent state of th
 
 # Watch the light, and guide the light
 
-Finally, after we've imagined about making a laser, we could finally say, now we have a wave at frequency $$f$$ or angular frequency $$\omega=2\pi f$$, and wavelength $$ \lambda = c_0/f = 2\pi c_0/\omega $$. The wave vector 
+Finally, after we've imagined about making a laser, we could finally say, now we have a wave at frequency $$f$$ or angular frequency $$\omega=2\pi f$$, and wavelength $$ \lambda = c_0/f = 2\pi c_0/\omega $$. The wave vector is defined as $$k=2\pi/\lambda$$. And we have the most important and handy relation (imo): $$ \omega = c_0 k $$.
 - Be wary of the $$2\pi $$, it's not a small factor, and could screw you over every now and then.
+- To actually define and derive these relations properly, we'll need the actual wave equation, which I'll skip because it's too annoying to type (no it's not I'm just lazy).
+- What I believe and will try to stick to is the relation $$ \omega = c_0 k $$, and show that many of the wave behaviors, even many of the quantitative ones, can be "derived" from this single equation. So if wave equations are too complicated to remember, pick this one.
+- To be more exact, $$\vec k = (k_x, k_y, k_z)$$ is a vector, which also contains the information of which direction the wave is going, and thus the relation is really:
 
-(to be continued)
+<div style="text-align: center;">
+$$\omega = c_0 \vert \vec k\vert = c_0 \sqrt{k_x^2 + k_y^2 + k_z^2}.$$ (eq. 1)
+</div>
+
+This equation, in more complicated scenarios, or slightly different fields, is also known as "dispersion law/relation", "bands", "characteristic equation", "energy-momentum relation". What does it mean? Let's plot it out for the case of 2D so that we could see $$\omega$$ vs $$\vec k$$. If you are a good shape rotator, you should be able to see what we are getting: a cone.
+
+![lightcone](/assets/images/2025/Photonics_history/lightcone_single.gif)
+
+*A single light cone.*
+- For 3D, this becomes a set of concentric spheres
+
+This light cone tells you all the possible states that could exists in vacuum (x2 for the goddamn polarization). A plane wave is a single point on it, a gaussian beam is a "gaussian" on it, i.e., a continuous sum of plane waves, and a pulsed gaussian beam would be a bit more complicated: it also spreads out along $$\omega$$.
+- This light cone for 2D case would be able to explain many aspects of many behaviors of light, when there is one spatial dimension has translational symmetry and can be ignored. We will get back to symmetry and how to be lazy & save work with it again in the future
+- More generally, eq. 1 is true even for certain guided waves, and could let you calculate e.g. cutoff frequencies of rectangular waveguides, dispersion relation of the guided modes between $$\omega$$ and the propagation constant $$\beta$$, because the modes are simple combinations of plane waves.
+- Another simplification is a constant frequency, i.e., intersecting the cone with a horizontal plane of $$\omega = \omega_0$$, and you get a circle.
+
+
 
 ## Where is the light going?
 
-> What's in this section: diffraction, refraction, reflection, absorption, nonlinearity
+> What's in this section: refraction, reflection, scattering, diffraction, absorption, nonlinearity
+
+A plane wave traveling in vacuum is boring, nothing is happening. To make something happen, we could make the wave more complicated, or make the space more complicated. Let's do the latter one as it is easier, and the simplest thing we could have is? No no we are not doing a small particle yet, that's complicated! Let's fill half the space with something else, something that would change the only parameter we have in eq. 1, the speed of light.
+- The speed of light is reduced in a media with refractive index $$n$$ to $$v = c_0/n$$.
+- For the details of why, it is still basically because the media is an array of shaking charges. 3Blue1Brown has a very nice video visualizing it, go [check it out](https://www.youtube.com/watch?v=KTzGBJPuJwM).
+
+Ok so what happens when a plane wave hits this interface between media 1 and media 2? Remember eq. 1? We can rewrite it using the refractive index, as $$ n_i k_0 = \sqrt{k_x^2 + k_y^2} $$, where $$n_i$$ is the refractive index for the two different media, and $$k_0 \equiv \omega/c_0 $$ is the wave vector magnitude in vacuum. We have ignored one dimension, that is perpendicular to the plane of incident, and we get two circles.
+
+{% include phase_matching_plot.html %}
+*This took me (and deepseek) a while, but hey my first interactive plot on my website lol.*
 
 
+(To be continued...)
 
-## I want it this way, no no this way, yes yes yes, and then this way
+
+## Take a turn
 
 > What's in this section: total internal reflection, waveguides, modes, bands
 
@@ -206,8 +237,6 @@ Finally, after we've imagined about making a laser, we could finally say, now we
 
 > What's in this section: prism coupling, tapered fiber, grating coupler, butt coupling / edge coupler / inverse taper
 
-
-(To be continued...)
 
 
 # Appendix

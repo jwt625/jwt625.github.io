@@ -218,18 +218,18 @@ fig.add_trace(go.Scatter(
 fig.add_trace(go.Scatter(
     x=circle2_x, y=circle2_y,
     mode='lines', 
-    line=dict(color='gray', dash='dot'),
+    line=dict(color='gray', dash='dash'),
     name='n₂ (Medium 2)',
     showlegend=True
 ))
 
-# Initialize dynamic elements with proper arrow orientation
+# Add permanent legend entries for vectors (never displayed)
 fig.add_trace(go.Scatter(
     x=[None], y=[None],
     mode='lines+markers',
     line=dict(color='blue', width=2),
     marker=dict(symbol='arrow', size=15),
-    name='k₁/k0 (Incident)',
+    name='k₁/k<sub>0</sub> (Refracted)',
     showlegend=True
 ))
 fig.add_trace(go.Scatter(
@@ -237,15 +237,14 @@ fig.add_trace(go.Scatter(
     mode='lines+markers',
     line=dict(color='red', width=2),
     marker=dict(symbol='arrow', size=15),
-    name='k₂/k0 (Refracted)',
+    name='k₂/k<sub>0</sub> (Incident)',
     showlegend=True
 ))
-fig.add_trace(go.Scatter(
-    x=[None], y=[None],  # Hidden status text placeholder
-    mode='text',
-    name='status',
-    showlegend=False
-))
+
+# Initialize dynamic elements (hidden from legend)
+fig.add_trace(go.Scatter(x=[], y=[], mode='lines+markers', showlegend=False))  # k₁
+fig.add_trace(go.Scatter(x=[], y=[], mode='lines+markers', showlegend=False))  # k₂
+fig.add_trace(go.Scatter(x=[], y=[], mode='text', showlegend=False))  # status
 
 # Create frames with proper arrow angles
 frames = []
@@ -255,7 +254,7 @@ for theta2 in theta2_values:
     k2_x = 1.5 * np.cos(theta2)
     k2_y = 1.5 * np.sin(theta2)
     
-    # Calculate angles for arrow orientation
+    # Calculate angles for arrow orientation (degrees)
     angle_k2 = np.degrees(theta2)
     
     # Phase matching calculation
@@ -273,10 +272,10 @@ for theta2 in theta2_values:
 
     frame = go.Frame(
         data=[
-            # Static circles
+            # Static circles (preserve original data)
             go.Scatter(x=circle1_x, y=circle1_y),
             go.Scatter(x=circle2_x, y=circle2_y),
-            # k₁ vector with proper arrow angle
+            # k₁ vector
             go.Scatter(
                 x=[0, k1_x], y=[0, k1_y],
                 line=dict(color='blue', width=2),
@@ -284,11 +283,10 @@ for theta2 in theta2_values:
                     symbol='arrow',
                     size=15,
                     angleref='previous',
-                    angle=angle_k1
-                ),
-                showlegend=False
+                    # angle=angle_k1  # Offset for arrow orientation
+                )
             ),
-            # k₂ vector with proper arrow angle
+            # k₂ vector
             go.Scatter(
                 x=[0, k2_x], y=[0, k2_y],
                 line=dict(color='red', width=2),
@@ -296,13 +294,12 @@ for theta2 in theta2_values:
                     symbol='arrow',
                     size=15,
                     angleref='previous',
-                    angle=angle_k2
-                ),
-                showlegend=False
+                    # angle=angle_k2  # Offset for arrow orientation
+                )
             ),
             # Status text
             go.Scatter(
-                x=[1.7], y=[1.7],
+                x=[0], y=[1.7],
                 mode='text',
                 text=[f"<b>{status}</b>"],
                 textfont=dict(color=status_color, size=14)
@@ -347,14 +344,17 @@ fig.update_layout(
     showlegend=True,
     legend=dict(
         x=1.05,
-        y=1,
+        y=0.5,
         bgcolor='rgba(255,255,255,0.9)',
-        bordercolor='rgba(0,0,0,0.2)'
+        bordercolor='rgba(0,0,0,0.2)',
+        traceorder='normal'
     ),
     sliders=slider,
     updatemenus=[dict(
         type='buttons',
         showactive=False,
+        x=0.1,
+        y=0,
         buttons=[dict(
             label='▶',
             method='animate',
