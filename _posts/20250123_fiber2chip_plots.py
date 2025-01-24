@@ -197,17 +197,17 @@ fig.write_html("../_includes/plot.html", include_plotlyjs="cdn")
 import plotly.graph_objects as go
 import numpy as np
 
-# Generate circle points
+# Generate circle points (static data)
 theta = np.linspace(0, 2*np.pi, 100)
 circle1_x = np.cos(theta)
 circle1_y = np.sin(theta)
 circle2_x = 1.5 * np.cos(theta)
 circle2_y = 1.5 * np.sin(theta)
 
-# Create figure
+# Create figure with only static elements
 fig = go.Figure()
 
-# Add media boundary circles
+# Add persistent circles (visible in all frames)
 fig.add_trace(go.Scatter(
     x=circle1_x, y=circle1_y, 
     mode='lines',
@@ -221,58 +221,50 @@ fig.add_trace(go.Scatter(
     name='n₂'
 ))
 
-# Initialize vectors and status text
-fig.add_trace(go.Scatter(
-    x=[0, 1], y=[0, 0],
-    mode='lines+markers',
-    line=dict(color='blue', width=2),
-    marker=dict(symbol='arrow', size=10, angleref='previous'),
-    name='k₁'
-))
-fig.add_trace(go.Scatter(
-    x=[0, 1.5], y=[0, 0],
-    mode='lines+markers',
-    line=dict(color='red', width=2),
-    marker=dict(symbol='arrow', size=10, angleref='previous'),
-    name='k₂'
-))
+# Initialize dynamic elements (empty but needed for frame structure)
+fig.add_trace(go.Scatter(x=[None], y=[None], mode='lines+markers', name='k₁')) 
+fig.add_trace(go.Scatter(x=[None], y=[None], mode='lines+markers', name='k₂'))
+fig.add_trace(go.Scatter(x=[None], y=[None], mode='text', name='status'))
 
-# Create frames for different angles
-
+# Create frames with ALL dynamic elements
 frames = []
-theta2_values = np.linspace(0, np.pi/2, 100)  # 0-90 degrees in radians
+theta2_values = np.linspace(0, np.pi/2, 100)
+
 for theta2 in theta2_values:
-    frame_name = f"theta_{np.rad2deg(theta2):.1f}"  # Simplified name
-    
     k2_x = 1.5 * np.cos(theta2)
     k2_y = 1.5 * np.sin(theta2)
     
-    # Check phase matching condition
+    # Phase matching calculation
     if k2_x <= 1.0:
         theta1 = np.arccos(k2_x)
-        k1_x = np.cos(theta1)
-        k1_y = np.sin(theta1)
+        k1_x, k1_y = np.cos(theta1), np.sin(theta1)
         status = "Phase Matched"
         status_color = "green"
     else:
-        theta1 = None
         k1_x, k1_y = np.nan, np.nan
         status = "Total Internal Reflection"
         status_color = "red"
     
-    # Create frame with current state
+    # Frame data structure must match initial trace order:
+    # [circle1, circle2, k1, k2, status]
     frame = go.Frame(
         data=[
-            go.Scatter(x=[0, k1_x], y=[0, k1_y]),
-            go.Scatter(x=[0, k2_x], y=[0, k2_y]),
-            go.Scatter(
-                x=[1.7], y=[1.7],
-                mode='text',
-                text=[f"<b>{status}</b>"],
-                textfont=dict(color=status_color, size=14)
-            )
+            # Static circles (reuse existing data)
+            go.Scatter(x=circle1_x, y=circle1_y),  # n₁
+            go.Scatter(x=circle2_x, y=circle2_y),  # n₂
+            # Dynamic elements
+            go.Scatter(x=[0, k1_x], y=[0, k1_y], 
+                      line=dict(color='blue', width=2),
+                      marker=dict(symbol='arrow', size=10)),
+            go.Scatter(x=[0, k2_x], y=[0, k2_y],
+                      line=dict(color='red', width=2),
+                      marker=dict(symbol='arrow', size=10)),
+            go.Scatter(x=[1.7], y=[1.7], 
+                      mode='text',
+                      text=[f"<b>{status}</b>"],
+                      textfont=dict(color=status_color, size=14))
         ],
-        name=frame_name
+        name=f"theta_{np.rad2deg(theta2):.1f}"
     )
     frames.append(frame)
 
