@@ -383,48 +383,96 @@ n2 = 1.5
 wavelength = 1.0
 w0_inc = 10 * wavelength / n2  # Beam width in medium 2
 
-# Original phase matching plot setup
+# Generate circle points (static data)
 theta = np.linspace(0, 2*np.pi, 100)
-circle1_x, circle1_y = np.cos(theta), np.sin(theta)
-circle2_x, circle2_y = 1.5*np.cos(theta), 1.5*np.sin(theta)
+circle1_x = np.cos(theta)
+circle1_y = np.sin(theta)
+circle2_x = 1.5 * np.cos(theta)
+circle2_y = 1.5 * np.sin(theta)
 
-# Create figure with dual plot system
+# Create figure with dual axes
 fig = go.Figure()
 
-# Add original phase matching plot elements (left side)
-fig.add_trace(go.Scatter(x=circle1_x, y=circle1_y, mode='lines', 
-                        line=dict(color='gray', dash='dot'), name='n₁ (Medium 1)'))
-fig.add_trace(go.Scatter(x=circle2_x, y=circle2_y, mode='lines',
-                        line=dict(color='gray', dash='dash'), name='n₂ (Medium 2)'))
-# (Keep other original traces...)
+# Original phase matching plot elements (Left side)
+fig.add_trace(go.Scatter(
+    x=circle1_x, y=circle1_y,
+    mode='lines',
+    line=dict(color='gray', dash='dot'),
+    name='n₁ (Medium 1)',
+    showlegend=True
+))
+fig.add_trace(go.Scatter(
+    x=circle2_x, y=circle2_y,
+    mode='lines', 
+    line=dict(color='gray', dash='dash'),
+    name='n₂ (Medium 2)',
+    showlegend=True
+))
 
-# Add dummy trace for real-space plot (right side)
-fig.add_trace(go.Heatmap(x=[], y=[], z=[], 
-                        xaxis='x2', yaxis='y2',
-                        colorscale='RdBu', zmin=-2, zmax=2))
+# Legend entries for vectors
+fig.add_trace(go.Scatter(
+    x=[None], y=[None],
+    mode='lines+markers',
+    line=dict(color='blue', width=2),
+    marker=dict(symbol='arrow', size=15),
+    name='k₁/k<sub>0</sub> (Refracted)',
+    showlegend=True
+))
+fig.add_trace(go.Scatter(
+    x=[None], y=[None],
+    mode='lines+markers',
+    line=dict(color='red', width=2),
+    marker=dict(symbol='arrow', size=15),
+    name='k₂/k<sub>0</sub> (Incident)',
+    showlegend=True
+))
 
-# Create coordinate grid (expanded range)
+# Dynamic elements for original plot
+fig.add_trace(go.Scatter(x=[], y=[], mode='lines+markers', showlegend=False))  # k₁
+fig.add_trace(go.Scatter(x=[], y=[], mode='lines+markers', showlegend=False))  # k₂
+fig.add_trace(go.Scatter(x=[], y=[], mode='text', showlegend=False))  # status
+
+# Add dummy heatmap trace for real-space plot (Right side)
+fig.add_trace(go.Heatmap(
+    x=[], y=[], z=[],
+    colorscale='RdBu',
+    zmin=-2,
+    zmax=2,
+    showscale=False,
+    xaxis='x2',
+    yaxis='y2'
+))
+
+# Create coordinate grid for real-space plot
 x_real = np.linspace(-20, 20, 150)
 y_real = np.linspace(-20, 15, 150)
 X, Y = np.meshgrid(x_real, y_real)
 
-# Precompute frames with both k-space and real-space data
+# Create frames with proper data
 frames = []
-theta2_values = np.linspace(0, np.pi/2, 30)  # Reduced for performance
+theta2_values = np.linspace(0, np.pi/2, 30)
 
 for theta2 in theta2_values:
     # Original k-space calculations
     k2_x = 1.5 * np.cos(theta2)
     k2_y = 1.5 * np.sin(theta2)
     
-    # Phase matching and Fresnel calculations
+    # Phase matching calculation
     if k2_x <= 1.0:
         theta1 = np.arccos(k2_x)
         k1_x, k1_y = np.cos(theta1), np.sin(theta1)
-        r_TE = (n1*np.cos(theta2) - n2*np.cos(theta1))/(n1*np.cos(theta2) + n2*np.cos(theta1))
-        t_TE = (2*n1*np.cos(theta2))/(n1*np.cos(theta2) + n2*np.cos(theta1))
+        status = "Phase Matched"
+        status_color = "green"
+        
+        # Fresnel calculations
+        cos_theta_inc = np.cos(theta2)
+        cos_theta_trans = k2_x  # Since k1_x = k2_x and n1=1
+        r_TE = (n1*cos_theta_inc - n2*cos_theta_trans)/(n1*cos_theta_inc + n2*cos_theta_trans)
+        t_TE = (2*n1*cos_theta_inc)/(n1*cos_theta_inc + n2*cos_theta_trans)
     else:
         k1_x, k1_y = np.nan, np.nan
+        status = "Total Internal Reflection"
+        status_color = "red"
         r_TE = 1.0
         t_TE = 0.0
 
@@ -442,58 +490,110 @@ for theta2 in theta2_values:
 
     frame = go.Frame(
         data=[
-            # Original k-space elements
+            # Original plot elements
             go.Scatter(x=circle1_x, y=circle1_y),
             go.Scatter(x=circle2_x, y=circle2_y),
-            go.Scatter(x=[0, k1_x], y=[0, k1_y], line=dict(color='blue', width=2),
-                      marker=dict(symbol='arrow', size=15)),
-            go.Scatter(x=[0, k2_x], y=[0, k2_y], line=dict(color='red', width=2),
-                      marker=dict(symbol='arrow', size=15)),
-            go.Scatter(x=[0], y=[1.7], mode='text',
-                      text=[f"<b>{'Phase Matched' if k2_x <=1 else 'TIR'}</b>"],
-                      textfont=dict(color='green' if k2_x <=1 else 'red', size=14)),
-            
+            go.Scatter(
+                x=[0, k1_x], y=[0, k1_y],
+                line=dict(color='blue', width=2),
+                marker=dict(symbol='arrow', size=15)
+            ),
+            go.Scatter(
+                x=[0, k2_x], y=[0, k2_y],
+                line=dict(color='red', width=2),
+                marker=dict(symbol='arrow', size=15)
+            ),
+            go.Scatter(
+                x=[0], y=[1.7],
+                mode='text',
+                text=[f"<b>{status}</b>"],
+                textfont=dict(color=status_color, size=14)
+            ),
             # Real-space heatmap
-            go.Heatmap(x=x_real, y=y_real, z=field_data,
-                      colorscale='RdBu', zmin=-2, zmax=2,
-                      xaxis='x2', yaxis='y2')
+            go.Heatmap(
+                x=x_real, y=y_real, z=field_data,
+                colorscale='RdBu', zmin=-2, zmax=2,
+                xaxis='x2', yaxis='y2'
+            )
         ],
         name=f"theta_{np.rad2deg(theta2):.1f}"
     )
     frames.append(frame)
 
-# Configure dual plot layout
+# Configure layout with dual axes
 fig.update_layout(
-    title="Phase Matching & Beam Dynamics",
-    xaxis=dict(domain=[0, 0.4], range=[-1.8, 1.8], title="k<sub>x</sub>"),
-    yaxis=dict(domain=[0.1, 0.9], range=[-0.1, 1.8], title="k<sub>y</sub>"),
-    xaxis2=dict(domain=[0.5, 1], title="x (λ)", anchor='y2'),
-    yaxis2=dict(domain=[0.1, 0.9], title="y (λ)", anchor='x2'),
+    title="Phase Matching Condition & Beam Dynamics",
+    xaxis=dict(
+        domain=[0, 0.4],
+        range=[-1.8, 1.8],
+        title="k<sub>x</sub>",
+        scaleanchor="y",
+        scaleratio=1
+    ),
+    yaxis=dict(
+        domain=[0.1, 0.9],
+        range=[-0.1, 1.8],
+        title="k<sub>y</sub>"
+    ),
+    xaxis2=dict(
+        domain=[0.5, 1],
+        title="x (λ)",
+        anchor='y2'
+    ),
+    yaxis2=dict(
+        domain=[0.1, 0.9],
+        title="y (λ)",
+        anchor='x2'
+    ),
     showlegend=True,
-    legend=dict(x=1.05, y=0.5),
-    updatemenus=[dict(type='buttons', showactive=False,
-                     buttons=[dict(label='▶', method='animate',
-                                  args=[None, dict(frame=dict(duration=100))])])]
+    legend=dict(
+        x=1.05,
+        y=0.5,
+        bgcolor='rgba(255,255,255,0.9)',
+        bordercolor='rgba(0,0,0,0.2)'
+    ),
+    sliders=[dict(
+        active=0,
+        currentvalue=dict(prefix="θ₂: "),
+        steps=[dict(
+            method='animate',
+            args=[
+                [f"theta_{np.rad2deg(theta2):.1f}"],
+                dict(mode='immediate', frame=dict(duration=100, redraw=True))
+            ],
+            label=f"{np.rad2deg(theta2):.1f}°"
+        ) for theta2 in theta2_values]
+    )],
+    updatemenus=[dict(
+        type='buttons',
+        showactive=False,
+        x=0.1,
+        y=0,
+        buttons=[dict(
+            label='▶',
+            method='animate',
+            args=[None, dict(frame=dict(duration=100, redraw=True), fromcurrent=True)]
+        )]
+    )]
 )
 
 # Add interface line to real-space plot
-fig.add_shape(type='line', x0=-20, y0=0, x1=20, y1=0,
-             line=dict(color='black', width=2, dash='dot'),
-             xref='x2', yref='y2')
-
-# Configure slider
-slider_steps = [dict(args=[[f.name], dict(mode='immediate', frame=dict(duration=100))],
-                    label=f"{float(f.name.split('_')[1]):.1f}°") for f in frames]
-
-fig.update_layout(sliders=[dict(currentvalue=dict(prefix="θ₂: "), steps=slider_steps)])
+fig.add_shape(
+    type='line',
+    x0=-20, y0=0, x1=20, y1=0,
+    line=dict(color='black', width=2, dash='dot'),
+    xref='x2', yref='y2'
+)
 
 # Assign frames
 fig.frames = frames
 
-fig.write_html("../_includes/combined_plot.html", include_plotlyjs='cdn')
-
-
-
+# Save to HTML
+fig.write_html(
+    "../_includes/phase_matching_with_beam.html",
+    include_plotlyjs='cdn',
+    full_html=False
+)
 
 
 
@@ -506,7 +606,7 @@ import numpy as np
 n1 = 1.0
 n2 = 1.5
 wavelength = 1.0
-theta2 = np.deg2rad(55)  # 30 degrees in radians
+theta2 = np.deg2rad(89)  # 30 degrees in radians
 w0_inc = 10 * wavelength / n2  # Increased beam width in medium 2
 
 # Wavevector components
