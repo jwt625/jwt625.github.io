@@ -444,7 +444,7 @@ fig.add_trace(go.Heatmap(
 ))
 
 # Create coordinate grid for real-space plot
-x_real = np.linspace(-20, 20, 150)
+x_real = np.linspace(-30, 30, 150)
 y_real = np.linspace(-20, 15, 150)
 X, Y = np.meshgrid(x_real, y_real)
 
@@ -459,52 +459,106 @@ for theta2 in theta2_values:
     
     # Phase matching calculation
     if k2_x <= 1.0:
-        theta1 = np.arccos(k2_x)
-        k1_x, k1_y = np.cos(theta1), np.sin(theta1)
+        theta1 = np.arccos(k2_x/n1)
+        k1_x, k1_y = n1*np.cos(theta1), n1*np.sin(theta1)  # Full k-vector
         status = "Phase Matched"
         status_color = "green"
         
         # Fresnel calculations
-        cos_theta_inc = np.cos(theta2)
-        cos_theta_trans = k2_x  # Since k1_x = k2_x and n1=1
-        r_TE = (n1*cos_theta_inc - n2*cos_theta_trans)/(n1*cos_theta_inc + n2*cos_theta_trans)
-        t_TE = (2*n1*cos_theta_inc)/(n1*cos_theta_inc + n2*cos_theta_trans)
+        # cos_theta_inc = np.cos(theta2)
+        # cos_theta_trans = np.cos(theta1)  # Since k1_x = k2_x and n1=1
+        
+        # Angles are measured from the NORMAL (perpendicular to interface)
+        theta_inc = np.pi/2 - theta2  # Convert from interface-parallel to normal-based
+        theta_trans = np.arcsin(k2_x/n1)  # Already measured from normal
+        
+        # Fresnel calculations with proper normal-based angles
+        cos_theta_inc = np.cos(theta_inc)  # = np.sin(theta2)
+        cos_theta_trans = np.cos(theta_trans)  # = k2_x/n1
+
+        # Correct TE Fresnel formulas
+        r_TE = (n2*cos_theta_inc - n1*cos_theta_trans)/(n2*cos_theta_inc + n1*cos_theta_trans)
+        t_TE = (2*n2*cos_theta_inc)/(n2*cos_theta_inc + n1*cos_theta_trans)
+
+        # Scale beam width to maintain interface projection
+        w0_trans = w0_inc * (np.cos(theta_trans)/np.cos(theta_inc)) * (n2/n1)
     else:
         k1_x, k1_y = np.nan, np.nan
-        status = "Total Internal Reflection"
+        status = "Total Internal<br>Reflection"
         status_color = "red"
         r_TE = 1.0
         t_TE = 0.0
+        w0_trans = w0_inc
 
     # Real-space field calculation
     phase_inc = k2_x*X + k2_y*Y
     phase_refl = k2_x*X - k2_y*Y
     phase_trans = k1_x*X + k1_y*Y if t_TE != 0 else 0
     
-    E_inc = np.exp(-X**2/(2*(w0_inc**2))) * np.exp(1j*phase_inc)
-    E_refl = r_TE * np.exp(-X**2/(2*(w0_inc**2))) * np.exp(1j*phase_refl)
-    E_trans = t_TE * np.exp(-X**2/(2*(w0_inc*(n2/n1))**2)) * np.exp(1j*phase_trans)
+    # E_inc = np.exp(-X**2/(2*(w0_inc**2))) * np.exp(1j*phase_inc)
+    # E_refl = r_TE * np.exp(-X**2/(2*(w0_inc**2))) * np.exp(1j*phase_refl)
+    # E_trans = t_TE * np.exp(-X**2/(2*(w0_inc*(n2/n1))**2)) * np.exp(1j*phase_trans)
     
+    # Calculate transverse coordinates for Gaussian profiles (perpendicular to k)
+    k2_mag = 1.5  # Magnitude of k2 vector (n2=1.5)
+    k_inc_perp = np.array([-k2_y, k2_x])/k2_mag  # Perpendicular to incident k
+    k_refl_perp = np.array([k2_y, k2_x])/k2_mag   # Perpendicular to reflected k
+
+    # Incident and reflected beam profiles
+    t_inc = k_inc_perp[0] * X + k_inc_perp[1] * Y
+    t_refl = k_refl_perp[0] * X + k_refl_perp[1] * Y
+
+    beam_profile_inc = np.exp(-t_inc**2/(2*w0_inc**2))
+    beam_profile_refl = np.exp(-t_refl**2/(2*w0_inc**2))
+
+    # Transmitted beam profile (only when phase matched)
+    if k2_x <= 1.0:
+        k1_mag = 1.0  # Magnitude of k1 vector (n1=1.0)
+        k_trans_perp = np.array([-k1_y, k1_x])/k1_mag  # Perpendicular to transmitted k
+        t_trans = k_trans_perp[0] * X + k_trans_perp[1] * Y
+        # w0_trans = w0_inc * (n2/n1)
+        beam_profile_trans = np.exp(-t_trans**2/(2*w0_trans**2))
+    else:
+        beam_profile_trans = 0.0
+
+    # Field components with corrected profiles
+    E_inc = beam_profile_inc * np.exp(1j * phase_inc)
+    E_refl = r_TE * beam_profile_refl * np.exp(1j * phase_refl)
+    E_trans = t_TE * beam_profile_trans * np.exp(1j * phase_trans) if k2_x <= 1.0 else 0
+
+
     E_total = np.where(Y < 0, E_inc + E_refl, E_trans)
     field_data = np.real(E_total)
 
     frame = go.Frame(
         data=[
-            # Original plot elements
+            # Static circles (preserve original data)
             go.Scatter(x=circle1_x, y=circle1_y),
             go.Scatter(x=circle2_x, y=circle2_y),
+            # k₁ vector
             go.Scatter(
                 x=[0, k1_x], y=[0, k1_y],
                 line=dict(color='blue', width=2),
-                marker=dict(symbol='arrow', size=15)
+                marker=dict(
+                    symbol='arrow',
+                    size=15,
+                    angleref='previous',
+                    # angle=angle_k1  # Offset for arrow orientation
+                )
             ),
+            # k₂ vector
             go.Scatter(
                 x=[0, k2_x], y=[0, k2_y],
                 line=dict(color='red', width=2),
-                marker=dict(symbol='arrow', size=15)
+                marker=dict(
+                    symbol='arrow',
+                    size=15,
+                    angleref='previous',
+                    # angle=angle_k2  # Offset for arrow orientation
+                )
             ),
             go.Scatter(
-                x=[0], y=[1.7],
+                x=[0], y=[2.2],
                 mode='text',
                 text=[f"<b>{status}</b>"],
                 textfont=dict(color=status_color, size=14)
@@ -513,7 +567,8 @@ for theta2 in theta2_values:
             go.Heatmap(
                 x=x_real, y=y_real, z=field_data,
                 colorscale='RdBu', zmin=-2, zmax=2,
-                xaxis='x2', yaxis='y2'
+                xaxis='x2', yaxis='y2',
+                showscale=False,
             )
         ],
         name=f"theta_{np.rad2deg(theta2):.1f}"
@@ -522,7 +577,7 @@ for theta2 in theta2_values:
 
 # Configure layout with dual axes
 fig.update_layout(
-    title="Phase Matching Condition & Beam Dynamics",
+    title="Phase Matching Condition & Field Distribution",
     xaxis=dict(
         domain=[0, 0.4],
         range=[-1.8, 1.8],
@@ -580,7 +635,7 @@ fig.update_layout(
 # Add interface line to real-space plot
 fig.add_shape(
     type='line',
-    x0=-20, y0=0, x1=20, y1=0,
+    x0=-30, y0=0, x1=30, y1=0,
     line=dict(color='black', width=2, dash='dot'),
     xref='x2', yref='y2'
 )
@@ -606,7 +661,7 @@ import numpy as np
 n1 = 1.0
 n2 = 1.5
 wavelength = 1.0
-theta2 = np.deg2rad(89)  # 30 degrees in radians
+theta2 = np.deg2rad(65)  # 30 degrees in radians
 w0_inc = 10 * wavelength / n2  # Increased beam width in medium 2
 
 # Wavevector components
@@ -636,15 +691,34 @@ phase_inc = k2_x * X + k2_y * Y
 phase_refl = k2_x * X - k2_y * Y
 phase_trans = k1_x * X + k1_y * (Y)  # Transmission in positive y direction
 
-# Gaussian beam profiles (account for refractive index change)
-beam_profile_inc = np.exp(-X**2/(2*w0_inc**2))
-w0_trans = w0_inc * (n2/n1)  # Beam width in medium 1
-beam_profile_trans = np.exp(-X**2/(2*w0_trans**2))
 
-# Field components
+# Calculate transverse coordinates for Gaussian profiles (perpendicular to k)
+k2_mag = 1.5  # Magnitude of k2 vector (n2=1.5)
+k_inc_perp = np.array([-k2_y, k2_x])/k2_mag  # Perpendicular to incident k
+k_refl_perp = np.array([k2_y, k2_x])/k2_mag   # Perpendicular to reflected k
+
+# Incident and reflected beam profiles
+t_inc = k_inc_perp[0] * X + k_inc_perp[1] * Y
+t_refl = k_refl_perp[0] * X + k_refl_perp[1] * Y
+
+beam_profile_inc = np.exp(-t_inc**2/(2*w0_inc**2))
+beam_profile_refl = np.exp(-t_refl**2/(2*w0_inc**2))
+
+# Transmitted beam profile (only when phase matched)
+if k2_x <= 1.0:
+    k1_mag = 1.0  # Magnitude of k1 vector (n1=1.0)
+    k_trans_perp = np.array([-k1_y, k1_x])/k1_mag  # Perpendicular to transmitted k
+    t_trans = k_trans_perp[0] * X + k_trans_perp[1] * Y
+    w0_trans = w0_inc * (n2/n1)
+    beam_profile_trans = np.exp(-t_trans**2/(2*w0_trans**2))
+else:
+    beam_profile_trans = 0.0
+
+# Field components with corrected profiles
 E_inc = beam_profile_inc * np.exp(1j * phase_inc)
-E_refl = r_TE * beam_profile_inc * np.exp(1j * phase_refl)
-E_trans = t_TE * beam_profile_trans * np.exp(1j * phase_trans)
+E_refl = r_TE * beam_profile_refl * np.exp(1j * phase_refl)
+E_trans = t_TE * beam_profile_trans * np.exp(1j * phase_trans) if k2_x <= 1.0 else 0
+
 
 # Combine fields in respective media
 E_total = np.where(Y < 0, E_inc + E_refl, E_trans)
@@ -658,7 +732,8 @@ fig = go.Figure(data=go.Heatmap(
     colorscale='RdBu',
     zmin=-2,
     zmax=2,
-    hoverongaps=False
+    hoverongaps=False,
+    showscale=False,
 ))
 
 # Add interface line and annotations
