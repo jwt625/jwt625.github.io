@@ -450,7 +450,13 @@ X, Y = np.meshgrid(x_real, y_real)
 
 # Create frames with proper data
 frames = []
-theta2_values = np.linspace(0, np.pi/2, 30)
+theta2_values = np.linspace(0, np.pi/2, 50)
+
+# Find index closest to 65° 
+desired_theta_deg = 65
+theta_deg_values = np.rad2deg(theta2_values)
+initial_frame_idx = np.abs(theta_deg_values - desired_theta_deg).argmin()
+
 
 for theta2 in theta2_values:
     # Original k-space calculations
@@ -481,7 +487,7 @@ for theta2 in theta2_values:
         t_TE = (2*n2*cos_theta_inc)/(n2*cos_theta_inc + n1*cos_theta_trans)
 
         # Scale beam width to maintain interface projection
-        w0_trans = w0_inc * (np.cos(theta_trans)/np.cos(theta_inc)) * (n2/n1)
+        w0_trans = w0_inc * (np.cos(theta_trans)/np.cos(theta_inc)) #* (n2/n1)
     else:
         k1_x, k1_y = np.nan, np.nan
         status = "Total Internal<br>Reflection"
@@ -602,13 +608,16 @@ fig.update_layout(
     ),
     showlegend=True,
     legend=dict(
-        x=1.05,
-        y=0.5,
+        x=0.5,  # Center horizontally
+        y=0.9,  # Position above the plots
+        xanchor='center',
+        yanchor='bottom',
         bgcolor='rgba(255,255,255,0.9)',
-        bordercolor='rgba(0,0,0,0.2)'
+        bordercolor='rgba(0,0,0,0.2)',
+        orientation='h'  # Horizontal layout
     ),
     sliders=[dict(
-        active=0,
+        active=initial_frame_idx,
         currentvalue=dict(prefix="θ₂: "),
         steps=[dict(
             method='animate',
@@ -627,7 +636,10 @@ fig.update_layout(
         buttons=[dict(
             label='▶',
             method='animate',
-            args=[None, dict(frame=dict(duration=100, redraw=True), fromcurrent=True)]
+            args=[None, dict(
+                frame=dict(duration=100, redraw=True), 
+                fromcurrent=True,
+                mode='immediate')]
         )]
     )]
 )
