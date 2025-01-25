@@ -372,4 +372,216 @@ fig.write_html(
 )
 
 
+# %% test adding field plot
+
+import plotly.graph_objects as go
+import numpy as np
+
+# Parameters
+n1 = 1.0
+n2 = 1.5
+wavelength = 1.0
+w0_inc = 10 * wavelength / n2  # Beam width in medium 2
+
+# Original phase matching plot setup
+theta = np.linspace(0, 2*np.pi, 100)
+circle1_x, circle1_y = np.cos(theta), np.sin(theta)
+circle2_x, circle2_y = 1.5*np.cos(theta), 1.5*np.sin(theta)
+
+# Create figure with dual plot system
+fig = go.Figure()
+
+# Add original phase matching plot elements (left side)
+fig.add_trace(go.Scatter(x=circle1_x, y=circle1_y, mode='lines', 
+                        line=dict(color='gray', dash='dot'), name='n₁ (Medium 1)'))
+fig.add_trace(go.Scatter(x=circle2_x, y=circle2_y, mode='lines',
+                        line=dict(color='gray', dash='dash'), name='n₂ (Medium 2)'))
+# (Keep other original traces...)
+
+# Add dummy trace for real-space plot (right side)
+fig.add_trace(go.Heatmap(x=[], y=[], z=[], 
+                        xaxis='x2', yaxis='y2',
+                        colorscale='RdBu', zmin=-2, zmax=2))
+
+# Create coordinate grid (expanded range)
+x_real = np.linspace(-20, 20, 150)
+y_real = np.linspace(-20, 15, 150)
+X, Y = np.meshgrid(x_real, y_real)
+
+# Precompute frames with both k-space and real-space data
+frames = []
+theta2_values = np.linspace(0, np.pi/2, 30)  # Reduced for performance
+
+for theta2 in theta2_values:
+    # Original k-space calculations
+    k2_x = 1.5 * np.cos(theta2)
+    k2_y = 1.5 * np.sin(theta2)
+    
+    # Phase matching and Fresnel calculations
+    if k2_x <= 1.0:
+        theta1 = np.arccos(k2_x)
+        k1_x, k1_y = np.cos(theta1), np.sin(theta1)
+        r_TE = (n1*np.cos(theta2) - n2*np.cos(theta1))/(n1*np.cos(theta2) + n2*np.cos(theta1))
+        t_TE = (2*n1*np.cos(theta2))/(n1*np.cos(theta2) + n2*np.cos(theta1))
+    else:
+        k1_x, k1_y = np.nan, np.nan
+        r_TE = 1.0
+        t_TE = 0.0
+
+    # Real-space field calculation
+    phase_inc = k2_x*X + k2_y*Y
+    phase_refl = k2_x*X - k2_y*Y
+    phase_trans = k1_x*X + k1_y*Y if t_TE != 0 else 0
+    
+    E_inc = np.exp(-X**2/(2*(w0_inc**2))) * np.exp(1j*phase_inc)
+    E_refl = r_TE * np.exp(-X**2/(2*(w0_inc**2))) * np.exp(1j*phase_refl)
+    E_trans = t_TE * np.exp(-X**2/(2*(w0_inc*(n2/n1))**2)) * np.exp(1j*phase_trans)
+    
+    E_total = np.where(Y < 0, E_inc + E_refl, E_trans)
+    field_data = np.real(E_total)
+
+    frame = go.Frame(
+        data=[
+            # Original k-space elements
+            go.Scatter(x=circle1_x, y=circle1_y),
+            go.Scatter(x=circle2_x, y=circle2_y),
+            go.Scatter(x=[0, k1_x], y=[0, k1_y], line=dict(color='blue', width=2),
+                      marker=dict(symbol='arrow', size=15)),
+            go.Scatter(x=[0, k2_x], y=[0, k2_y], line=dict(color='red', width=2),
+                      marker=dict(symbol='arrow', size=15)),
+            go.Scatter(x=[0], y=[1.7], mode='text',
+                      text=[f"<b>{'Phase Matched' if k2_x <=1 else 'TIR'}</b>"],
+                      textfont=dict(color='green' if k2_x <=1 else 'red', size=14)),
+            
+            # Real-space heatmap
+            go.Heatmap(x=x_real, y=y_real, z=field_data,
+                      colorscale='RdBu', zmin=-2, zmax=2,
+                      xaxis='x2', yaxis='y2')
+        ],
+        name=f"theta_{np.rad2deg(theta2):.1f}"
+    )
+    frames.append(frame)
+
+# Configure dual plot layout
+fig.update_layout(
+    title="Phase Matching & Beam Dynamics",
+    xaxis=dict(domain=[0, 0.4], range=[-1.8, 1.8], title="k<sub>x</sub>"),
+    yaxis=dict(domain=[0.1, 0.9], range=[-0.1, 1.8], title="k<sub>y</sub>"),
+    xaxis2=dict(domain=[0.5, 1], title="x (λ)", anchor='y2'),
+    yaxis2=dict(domain=[0.1, 0.9], title="y (λ)", anchor='x2'),
+    showlegend=True,
+    legend=dict(x=1.05, y=0.5),
+    updatemenus=[dict(type='buttons', showactive=False,
+                     buttons=[dict(label='▶', method='animate',
+                                  args=[None, dict(frame=dict(duration=100))])])]
+)
+
+# Add interface line to real-space plot
+fig.add_shape(type='line', x0=-20, y0=0, x1=20, y1=0,
+             line=dict(color='black', width=2, dash='dot'),
+             xref='x2', yref='y2')
+
+# Configure slider
+slider_steps = [dict(args=[[f.name], dict(mode='immediate', frame=dict(duration=100))],
+                    label=f"{float(f.name.split('_')[1]):.1f}°") for f in frames]
+
+fig.update_layout(sliders=[dict(currentvalue=dict(prefix="θ₂: "), steps=slider_steps)])
+
+# Assign frames
+fig.frames = frames
+
+fig.write_html("../_includes/combined_plot.html", include_plotlyjs='cdn')
+
+
+
+
+
+
+
+# %% testing the heat map field plot alone
+import plotly.graph_objects as go
+import numpy as np
+
+# Parameters
+n1 = 1.0
+n2 = 1.5
+wavelength = 1.0
+theta2 = np.deg2rad(55)  # 30 degrees in radians
+w0_inc = 10 * wavelength / n2  # Increased beam width in medium 2
+
+# Wavevector components
+k2 = n2  # Magnitude of k2 vector
+k2_x = k2 * np.cos(theta2)
+k2_y = k2 * np.sin(theta2)
+
+# Phase matching and Fresnel calculations
+if k2_x <= n1:
+    theta1 = np.arccos(k2_x/n1)
+    k1_x = n1 * np.cos(theta1)
+    k1_y = n1 * np.sin(theta1)
+    # Fresnel coefficients (TE polarization)
+    r_TE = (n1*np.cos(theta2) - n2*np.cos(theta1))/(n1*np.cos(theta2) + n2*np.cos(theta1))
+    t_TE = (2*n1*np.cos(theta2))/(n1*np.cos(theta2) + n2*np.cos(theta1))
+else:
+    r_TE = 1.0
+    t_TE = 0.0
+
+# Create coordinate grid with expanded range
+x = np.linspace(-20, 20, 200)
+y = np.linspace(-20, 15, 150)
+X, Y = np.meshgrid(x, y)
+
+# Calculate electric fields for all three beams
+phase_inc = k2_x * X + k2_y * Y
+phase_refl = k2_x * X - k2_y * Y
+phase_trans = k1_x * X + k1_y * (Y)  # Transmission in positive y direction
+
+# Gaussian beam profiles (account for refractive index change)
+beam_profile_inc = np.exp(-X**2/(2*w0_inc**2))
+w0_trans = w0_inc * (n2/n1)  # Beam width in medium 1
+beam_profile_trans = np.exp(-X**2/(2*w0_trans**2))
+
+# Field components
+E_inc = beam_profile_inc * np.exp(1j * phase_inc)
+E_refl = r_TE * beam_profile_inc * np.exp(1j * phase_refl)
+E_trans = t_TE * beam_profile_trans * np.exp(1j * phase_trans)
+
+# Combine fields in respective media
+E_total = np.where(Y < 0, E_inc + E_refl, E_trans)
+field_to_plot = np.real(E_total)
+
+# Create heatmap
+fig = go.Figure(data=go.Heatmap(
+    x=x,
+    y=y,
+    z=field_to_plot,
+    colorscale='RdBu',
+    zmin=-2,
+    zmax=2,
+    hoverongaps=False
+))
+
+# Add interface line and annotations
+fig.add_shape(type='line',
+    x0=min(x), y0=0, x1=max(x), y1=0,
+    line=dict(color='black', width=2, dash='dot')
+)
+
+fig.update_layout(
+    title=f'Electric Field at θ₂={np.rad2deg(theta2):.1f}°<br>Beam Width: 10λ, Media: n₁=1.0/n₂=1.5',
+    xaxis_title='x (λ)',
+    yaxis_title='y (λ)',
+    width=1000,
+    height=800,
+    annotations=[
+        dict(x=0, y=0.5, text="Medium 1", showarrow=False, yshift=10),
+        dict(x=0, y=-0.5, text="Medium 2", showarrow=False, yshift=-10),
+        dict(x=15, y=-8, text="Incident", showarrow=False, font=dict(color='blue')),
+        dict(x=15, y=-5, text="Reflected", showarrow=False, font=dict(color='red')),
+        dict(x=15, y=3, text="Transmitted", showarrow=False, font=dict(color='green'))
+    ]
+)
+
+fig.show()
+
 # %%
