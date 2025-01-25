@@ -213,7 +213,8 @@ A plane wave traveling in vacuum is boring, nothing is happening. To make someth
 
 Ok so what happens when a plane wave hits this interface between media 1 and media 2? Remember eq. 1? We can rewrite it using the refractive index, as $$ n_i k_0 = \sqrt{k_x^2 + k_y^2} $$, where $$n_i$$ is the refractive index for the two different media, and $$k_0 \equiv \omega/c_0 $$ is the wave vector magnitude in vacuum. We have ignored one dimension, that is perpendicular to the plane of incident, and we get two circles.
 
-{% include phase_matching_plot.html %}
+<!-- {% include phase_matching_plot.html %} -->
+{% include phase_matching_with_beam.html %}
 *This took me (and deepseek) a while, but hey my first interactive plot on my website lol.*
 
 
