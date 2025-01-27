@@ -322,4 +322,10 @@ var store = [{
         "tags": ["Supercomputers","AI_training","NIR_image_sensor","Hamamatsu","Photonics","Piezoelectricity","Crystal_classes","Mode-locked_laser","Silicon_photonics","Lithography","Plasmonics","Superconducting_nanowire","Single-photon_detector","Fractal_design","EDM_machining","Inter-satellite_communication","Liquid_lens","Electrowetting","Beam_steering","Fiber_array","Optical_spectrometer","Faraday_isolator","Optical_switch","WDM","VCSEL","Waveguide","3D_printing","Heat_dissipation","Optical_transceiver"],
         "url": "/ofs/weekly-OFS-30/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#31)",
+        "excerpt":"AlOx-Based EDWA An Erbium-Doped Waveguide Amplifiers (EDWA) that you can pre order, from Aluvia Photonics, with AlOx instead of nitride, offering “high external fiber-to-fiber gain (&gt;25 dB) and low noise figure (comparable to EDFA’s)” https://aluviaphotonics.com/edwa-order A 12 in wafer carrying 4 in wafers A 12 in mama wafer carrying four...","categories": ["OFS"],
+        "tags": ["EDWA","MEMS","PPLN","LCoS","OFDR","DAS","Josephson_junction","SNSPD","Cryogenics","Waveguide","Photonics","WDM","Microlens","ALD","DRIE","Nanopillar","YOLOv7","CNN","Nanofab","Vibrometry","Holography","Deflectometry","Copackaged_optics","Benes_network"],
+        "url": "/ofs/weekly-OFS-31/",
+        "teaser": null
       }]
