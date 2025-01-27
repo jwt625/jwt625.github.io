@@ -199,6 +199,8 @@ This equation, in more complicated scenarios, or slightly different fields, is a
 This light cone tells you all the possible states that could exists in vacuum (x2 for the goddamn polarization). A plane wave is a single point on it, a gaussian beam is a "gaussian" on it, i.e., a continuous sum of plane waves, and a pulsed gaussian beam would be a bit more complicated: it also spreads out along $$\omega$$.
 - This light cone for 2D case would be able to explain many aspects of many behaviors of light, when there is one spatial dimension has translational symmetry and can be ignored. We will get back to symmetry and how to be lazy & save work with it again in the future
 - More generally, eq. 1 is true even for certain guided waves, and could let you calculate e.g. cutoff frequencies of rectangular waveguides, dispersion relation of the guided modes between $$\omega$$ and the propagation constant $$\beta$$, because the modes are simple combinations of plane waves.
+  - **Exercise 3**: if I increase the cross section of a rectangular waveguide a little bit, which direction would the effective wave vector of the guided wave change (at the same frequency), would it increase or decrease?
+  - (Effective wave vector is the wave vector along the waveguide)
 - Another simplification is a constant frequency, i.e., intersecting the cone with a horizontal plane of $$\omega = \omega_0$$, and you get a circle.
 
 
