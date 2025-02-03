@@ -328,4 +328,10 @@ var store = [{
         "tags": ["EDWA","MEMS","PPLN","LCoS","OFDR","DAS","Josephson_junction","SNSPD","Cryogenics","Waveguide","Photonics","WDM","Microlens","ALD","DRIE","Nanopillar","YOLOv7","CNN","Nanofab","Vibrometry","Holography","Deflectometry","Copackaged_optics","Benes_network"],
         "url": "/ofs/weekly-OFS-31/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#32)",
+        "excerpt":"800G/400G Coherent Transceiver Chip Designs 800G receiver chip (2x FR4, you can see two big arrayed waveguide gratings (AWG) for the demux) and 400G transmitter chip (four SOAs die bonded, one AWG, and a ring resonator? Fast modulation signals coming from the left, and bias signals from the right). From...","categories": ["OFS"],
+        "tags": ["Modular_quantum_computing","Photonic_integration","Squeezed_light","Positronium","Laser_cooling","Biomedical_imaging","Green_ammonia_synthesis","Raman_fiber_laser","AWG","SOA","Coherent_transceivers","Dirac_cones","Superconducting_circuits","Laser_sintering","ALD","Porous_polymers","Computational_imaging","ITLA","Laser_lightning_control","Quanta_image_sensor","Liquid_crystal_beam_steering","LIDAR","Moiré_metrology","OCT","Phase_diagrams","LEO_satellites","Core_memory","Lunar_laser_ranging"],
+        "url": "/ofs/weekly-OFS-32/",
+        "teaser": null
       }]
