@@ -146,3 +146,7 @@ keep_files:
   - assets/doc
 # static_files:
   # - "assets/images/2024/20240531_20241225"
+
+
+sass:
+  style: compressed

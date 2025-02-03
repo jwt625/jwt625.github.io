@@ -1,0 +1,32 @@
+// .categories-grid {
+//     display: grid;
+//     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive multi-column */
+//     gap: 20px;
+//   }
+  
+//   .taxonomy__index {
+//     display: grid;
+//     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ensure inner layout is grid */
+//     gap: 20px;
+//   }
+  
+//   .taxonomy__index li {
+//     background: #222; /* Adjust to match theme */
+//     padding: 15px;
+//     border-radius: 8px;
+//     list-style: none;
+//   }
+  
+
+/* Keep categories (taxonomy__section) as they are */
+.taxonomy__section {
+    margin-bottom: 20px; /* Add spacing between categories */
+  }
+  
+  /* Apply grid layout to entries inside each category */
+  .entries-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive multi-column */
+    gap: 20px;
+  }
+  
