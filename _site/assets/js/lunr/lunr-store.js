@@ -334,4 +334,10 @@ var store = [{
         "tags": ["Modular_quantum_computing","Photonic_integration","Squeezed_light","Positronium","Laser_cooling","Biomedical_imaging","Green_ammonia_synthesis","Raman_fiber_laser","AWG","SOA","Coherent_transceivers","Dirac_cones","Superconducting_circuits","Laser_sintering","ALD","Porous_polymers","Computational_imaging","ITLA","Laser_lightning_control","Quanta_image_sensor","Liquid_crystal_beam_steering","LIDAR","Moiré_metrology","OCT","Phase_diagrams","LEO_satellites","Core_memory","Lunar_laser_ranging"],
         "url": "/ofs/weekly-OFS-32/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#33)",
+        "excerpt":"Achromatic Polymer Diffractive Lenses for Astrophotography 100 mm diameter, 2.4  μm thick multilevel diffractive lens (MDL), focal length 200 mm, optimized for the visible wavelength range, achieving achromatic focusing with inverse design and grayscale lithography. They have a company called Oblate Optics, found I’ve checked out their website but I don’t...","categories": ["OFS"],
+        "tags": ["Photonics","MEMS","Quantum","Optics","Laser","Semiconductor","Nanotube","DNA_origami","Ultrasonic_imaging","Frequency_comb","Inverse_design","Atom_interferometry","COMSOL","VCSEL","Silicon_carbide","Lithography","Metasurface","Cryogenics","OCT","Waveguide","Piezo","Robotics","Swarm_robotics","Event_camera","Thermal_processing","Gravitational_waves","Hydrodynamic_sensing","Roll-to-roll","EUV","Talbot_effect"],
+        "url": "/ofs/weekly-OFS-33/",
+        "teaser": null
       }]
