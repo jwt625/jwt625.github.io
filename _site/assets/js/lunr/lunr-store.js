@@ -340,4 +340,10 @@ var store = [{
         "tags": ["Photonics","MEMS","Quantum","Optics","Laser","Semiconductor","Nanotube","DNA_origami","Ultrasonic_imaging","Frequency_comb","Inverse_design","Atom_interferometry","COMSOL","VCSEL","Silicon_carbide","Lithography","Metasurface","Cryogenics","OCT","Waveguide","Piezo","Robotics","Swarm_robotics","Event_camera","Thermal_processing","Gravitational_waves","Hydrodynamic_sensing","Roll-to-roll","EUV","Talbot_effect"],
         "url": "/ofs/weekly-OFS-33/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#33)",
+        "excerpt":"IBM and Copper Interconnects IBM has some high quality technical and historical articles with unique materials, only if they are a bit more in depth.. Here is one about copper interconnects. IBM - Copper interconnects Magnetically Programmed Diffractive Robotics Diffractive robotics?? I should have called my stuff quantum optomechanical robotics....","categories": ["OFS"],
+        "tags": ["Copper_interconnects","Robotics","Optomechanics","SAW","LUS","Transient_grating_spectroscopy","Asynchronous_optical_sampling","Water_wave_diodes","Microfluidics","Capillary_waves","Acoustic_levitation","Ultrasound_phased_arrays","CMOS","Optical_tweezers","Photophoretic_trapping","Photonic_nanojet","Optical_whispering_gallery_modes","Dielectric_rod_antennas","Fiberscopic_robotics","Magnetic_manipulation","Sonic_boom_analysis","Niobium_superconducting_qubits","Metalens","Plasma_etching","Nanofab"],
+        "url": "/ofs/weekly-OFS-34/",
+        "teaser": null
       }]
