@@ -346,4 +346,10 @@ var store = [{
         "tags": ["Copper_interconnects","Robotics","Optomechanics","SAW","LUS","Transient_grating_spectroscopy","Asynchronous_optical_sampling","Water_wave_diodes","Microfluidics","Capillary_waves","Acoustic_levitation","Ultrasound_phased_arrays","CMOS","Optical_tweezers","Photophoretic_trapping","Photonic_nanojet","Optical_whispering_gallery_modes","Dielectric_rod_antennas","Fiberscopic_robotics","Magnetic_manipulation","Sonic_boom_analysis","Niobium_superconducting_qubits","Metalens","Plasma_etching","Nanofab"],
         "url": "/ofs/weekly-OFS-34/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#35)",
+        "excerpt":"Ultra-High Energy Cosmic Rays and the Telescope Array TIL the highest energy cosmic rays detected are on the order of 250 exa–electron volts, or ~40 J, enough to power an LED for 20 min… They were detected by a humble experiment called the Telescope Array experiment, and the detectors are...","categories": ["OFS"],
+        "tags": ["Laser_shock_peening","SiC","MicroLED","Mach_Zehnder","MEMS","Photonics","Verilog","Piezoelectric_antenna","X_ray_microscopy","Spectroscopy","Power_line_communication","Biohybrid_robotics","Quantum_entanglement","Graphene","Cosmic_rays","Atom_probe_tomography","3D_printing","Thermoelectrics","Whispering_gallery_modes","Electro_optic_modulator"],
+        "url": "/ofs/weekly-OFS-35/",
+        "teaser": null
       }]
