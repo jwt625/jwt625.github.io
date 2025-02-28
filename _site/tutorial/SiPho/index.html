@@ -1,0 +1,1144 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Selected Basics of Silicon Photonics - Outside Five Sigma</title>
+<meta name="description" content="Let’s start with two examples">
+
+
+  <meta name="author" content="Wentao">
+  
+  <meta property="article:author" content="Wentao">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Outside Five Sigma">
+<meta property="og:title" content="Selected Basics of Silicon Photonics">
+<meta property="og:url" content="http://localhost:4000/tutorial/SiPho/">
+
+
+  <meta property="og:description" content="Let’s start with two examples">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/2025/SiPho_basics/image47.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2025-02-27T00:00:00-08:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/tutorial/SiPho/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Outside Five Sigma Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+
+  </head>
+
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/twm.JPG" alt="Outside Five Sigma"></a>
+        
+        <a class="site-title" href="/">
+          Outside Five Sigma
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/posts/"
+                
+                
+              >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/categories/"
+                
+                
+              >Categories</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/tags/"
+                
+                
+              >Tags</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/2025/SiPho_basics/image47.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Selected Basics of Silicon Photonics
+
+        
+      </h1>
+      
+      
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-02-27T00:00:00-08:00">February 27, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          15 minute read
+        
+      </span>
+    
+  </p>
+
+
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/bio-photo-2.jpg" alt="Wentao" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Wentao</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Memories are the long term averages, and the outside five sigmas.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Selected Basics of Silicon Photonics">
+    <meta itemprop="description" content="Let’s start with two examples">
+    <meta itemprop="datePublished" content="2025-02-27T00:00:00-08:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#lets-start-with-two-examples">Let’s start with two examples</a><ul><li><a href="#telecom-transceivers">Telecom transceivers</a></li><li><a href="#optical-phased-array-lidar">Optical phased array LiDAR</a></li></ul></li><li><a href="#very-brief-history-of-getting-light-onto-a-chip">Very brief history of getting light onto a chip</a></li><li><a href="#common-components">Common components</a><ul><li><a href="#waveguide">Waveguide</a></li><li><a href="#couplers">Couplers</a></li><li><a href="#splitters-spatial">Splitters (spatial)</a></li><li><a href="#adiabatic-couplers">Adiabatic couplers</a></li><li><a href="#filters-frequency-domain-splitters">Filters (frequency domain splitters)</a></li><li><a href="#actives-modulators-lasers--detectors">Actives: modulators, lasers &amp; detectors</a></li></ul></li><li><a href="#practical-stuff">Practical stuff</a></li><li><a href="#references">References</a></li></ul>
+            </nav>
+          </aside>
+        
+        <h1 id="lets-start-with-two-examples">Let’s start with two examples</h1>
+
+<p>First time hearing about silicon photonics? Here are two examples, one from the past that’s been powering some of the internet backbone, and one for the future that may or may not materialize, but impressive prototypes already exist.</p>
+
+<h2 id="telecom-transceivers">Telecom transceivers</h2>
+
+<p>A transceiver converts electrical signals from your computers and switches to optical signals. Here is <a href="https://www.intel.com/content/www/us/en/products/sku/96609/intel-silicon-photonics-100g-cwdm4-qsfp28-optical-transceiver/specifications.html">one from Intel</a>, it might not be the first one, but it is the first one that got mass produced starting in 2017 (and one you could get from ebay for sub $10, just search “Intel 100G CWDM4”). Since a transceiver converts between electrical and optical signals, you can see electrical contacts on the left, and optical fibers would be plugged in from the right.<br />
+<img src="/assets/images/2025/SiPho_basics/image47.png" alt="intel_SiPho" /></p>
+
+<ul>
+  <li>Image from Blum2020: <a href="https://epic-photonics.com/wp-content/uploads/2021/12/Robert-Blum-Intel.pdf">High Volume Silicon Photonics for Optical I/O and other Next Generation Applications</a></li>
+  <li>CWDM: Coarse Wavelength Division Multiplexing</li>
+</ul>
+
+<p>From the image you could see it involves a few lasers and modulators for sending, and photodiodes for receiving. Here are more pictures I took of one I bought from ebay (<a href="https://www.ebay.com/itm/234403955459">Intel 100G-CWDM 1271-1331nm optical transceiver module</a>)</p>
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="/assets/images/2025/SiPho_basics/image54.png" alt="intel1" width="30%" />
+    <img src="/assets/images/2025/SiPho_basics/image58.png" alt="intel2" width="30%" />
+    <img src="/assets/images/2025/SiPho_basics/image27.png" alt="intel3" width="30%" />
+</div>
+<ul>
+  <li>From left to right:
+    <ul>
+      <li>lasers and laser power monitors</li>
+      <li>detectors and transimpedance amplifier chip</li>
+      <li>end of the modulators and grating based wavelength multiplexer</li>
+    </ul>
+  </li>
+</ul>
+
+<p>The above transceiver is more than 7 years old. Nowadays we are moving the transceivers closer to the switching IC / EIC for lower energy cost, and it is called co-packaged optics (CPO). Here is one also from Intel, with much more components and bandwidths.</p>
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="/assets/images/2025/SiPho_basics/image38.png" alt="intel1" width="50%" />
+    <img src="/assets/images/2025/SiPho_basics/image33.png" alt="intel2" width="50%" />
+</div>
+
+<ul>
+  <li>Image source: <a href="https://www.optica-opn.org/home/industry/2024/june/intel_showcases_optical-interconnect_chiplet/">Intel Showcases Optical-Interconnect Chiplet</a></li>
+</ul>
+
+<h2 id="optical-phased-array-lidar">Optical phased array LiDAR</h2>
+
+<p>LiDAR means light detection and ranging, and an oversimplified way of thinking about it is, the modulations on the light wave are doing the same as in a usual radar, and the light wave itself (size of the spot) is much smaller (~ cm) than the spot size of a radar beam (~ 100 m), and we get improved spatial resolution.</p>
+
+<p>This light spot is usually scanned by a mechanical mirror/gimbal over the scene, and a non-mechanical solution would have many benefits. A phased array is one way to achieve it, where the aperture is on a photonic circuit chip, and the phase across the aperture is tuned to control the direction of the radiated beam.</p>
+
+<p><img src="/assets/images/2025/SiPho_basics/image41.png" alt="phased_array" /></p>
+
+<ul>
+  <li>Source: <a href="https://doi.org/10.1364/OE.477952">Zhang2023</a></li>
+  <li>SSC: spot size converter</li>
+  <li>TO: thermal-optic</li>
+</ul>
+
+<p>Light is coupled from a fiber onto the chip, split into an array, fed into individual modulators to tune the phase in each waveguide (thus the name <a href="https://doi.org/10.1109/MAES.1998.715527">phased array</a>), and lastly scattered out with gratings. The phased array controls the  direction, and usually wavelength of the light controls the  direction. This illustration included 8 elements, and the state-of-the-art phased array has achieved at least <a href="https://ieeexplore.ieee.org/document/10185161">~10k elements</a>.</p>
+
+<p>As you can see, there are many steps and components involved in making and using silicon photonics. We will start with how to get light onto the chip, and then introduce commonly used components.</p>
+
+<h1 id="very-brief-history-of-getting-light-onto-a-chip">Very brief history of getting light onto a chip</h1>
+
+<p>Why do we want light on a chip? To have more control over light, and do more complicated tasks within smaller size, weight and power. The control including and not limited to:</p>
+
+<ul>
+  <li>Spatial distribution: concentrating, collimating, dispersing, and guiding &amp; routing it</li>
+  <li>Time domain / spectrum: filtering, mux/demux for wavelength domain multiplexing (WDM), nonlinear interaction to generate exotic wavelengths and states</li>
+</ul>
+
+<p>To change the spatial distribution of light, we need to change the refractive index, and the bigger and spatially finer the change is, the better we could confine and guide light, thus the pursuit of higher refractive index materials (<a href="https://pubs.acs.org/doi/full/10.1021/acsphotonics.1c01834">Khurgin2022</a>). To reconfigure the circuit, we need to change the refractive index effectively (Khurgin2024). The main theme of silicon photonics is about guiding the light better, and making it reconfigurable and fast.</p>
+
+<p>Historically, we first started “guiding” light onto a chip using a thin film in the late 1960s: a propagating light beam could be now confined along one dimension (we did not have a good beam until we figured out <a href="https://www.hrl.com/news/2020/05/11/hrl-laboratories-celebrates-60th-anniversary-of-first-laser">lasers</a> in late 1950s). At around the same time, people were struggling making a good “waveguide” for light, i.e., confining it in both dimensions, so that you could bend and route it around. Many <a href="https://www.nobelprize.org/uploads/2018/06/kao-lecture-slides.pdf">crazy ideas</a> were attempted, optical fiber came out to be the winner, and it was quickly adopted for the growing telecom market, and the wavelength where fiber has the lowest loss (~ 1.5 um) and dispersion (~ 1.3 um), became standard options for telecom.</p>
+
+<p>In the 1980s and 1990s, telecom fiber deployments kept growing, and we needed to switch different routes and wavelengths, and telco people (many from Alcatel-Lucent and <a href="https://www.ntt-innovative-devices.com/optical_communications/plc_products.html">NTT</a>) figured out how to make “fibers on a chip”: planar lightwave circuits (PLC). The refractive index contrast is low, less than 1%, similar to optical fibers. As a result, the mode is big, easy to interface with fibers, and they are used to route a lot of internet traffic (see <a href="https://en.wikipedia.org/wiki/Reconfigurable_optical_add-drop_multiplexer">ROADM</a>). However, you cannot bend the waveguides as much, and they have to be further apart to prevent crosstalk.  Here is <a href="https://x.com/JacquesCarolan/status/1881757698812973141">a 6x6 optical switch that is about the size of an iphone</a>. The shrink needs to continue to make room for more components.</p>
+
+<p><img src="/assets/images/2025/SiPho_basics/image49.png" alt="tien1971" /></p>
+
+<ul>
+  <li>Guiding and confining light along one dimension. Image from <a href="https://doi.org/10.1364/AO.10.002395">Tien1971</a></li>
+</ul>
+
+<p><img src="/assets/images/2025/SiPho_basics/image35.png" alt="NTT_AWG" /></p>
+
+<ul>
+  <li>A planar lightwave circuit arrayed waveguide grating from <a href="https://www.ntt-innovative-devices.com/optical_communications/plc_products.html">NTT</a>.</li>
+</ul>
+
+<p>To shrink further, we need higher \(n\) and \(\Delta n\), and silicon just happens to be very transparent (low loss) around 1.5 um, and very high index (\(n\sim 3.5\)), and has been extensively optimized for semiconductor fabrication, and even thin film of silicon on oxide (<a href="https://en.wikipedia.org/wiki/Silicon_on_insulator">SOI</a>) wafers exists because of RF applications. Over time more and more different materials have been added to the library for photonics devices and applications, especially silicon nitride for its broader transparency window, and IIIV ones such as indium phosphide for making lasers.</p>
+
+<p>Let’s dive into the common components</p>
+
+<h1 id="common-components">Common components</h1>
+
+<p>The most frequently used components include</p>
+
+<ul>
+  <li><strong>Waveguide</strong>: the basic component</li>
+  <li><strong>Couplers</strong>: to get light between fibers and chips</li>
+  <li><strong>Splitters</strong>: to “fan-in” and “fan-out” in spatial domain between different waveguides</li>
+  <li><strong>Filters</strong>: to “fan-in” and “fan-out” in wavelength domain</li>
+  <li><strong>Active components</strong>: modulators, lasers, detectors</li>
+</ul>
+
+<h2 id="waveguide">Waveguide</h2>
+
+<p>Different from electrical circuits, a photonic waveguide is based on total internal reflection. The waveguide dimension is carefully chosen to support desired modes, as the dimensions on the waveguide cross section are much closer to wavelength scale instead of much smaller as in electrical circuits. Different modes propagate at different speeds and could interfere with each other. As a result, “single mode” regime is usually desired, which can be achieved with small dimensions, or a partial etched rib waveguide with dimensions such that higher order modes are not guided in the rib.</p>
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="/assets/images/2025/SiPho_basics/image40.png" alt="WG_strip" width="50%" />
+    <img src="/assets/images/2025/SiPho_basics/image50.png" alt="WG_rib" width="50%" />
+</div>
+
+<ul>
+  <li>Cross section of a 500 nm x 220 nm strip (left) and a rib (right) waveguide with 1 um total Si thickness. Si (\(n \sim 3.5\)) is highlighted, and surrounded by oxide cladding (\(n \sim 1.5\)).</li>
+  <li>There are many other more exotic waveguides, as well as more old school type waveguides (such as ion-exchanged), they won’t be discussed here for brevity.</li>
+</ul>
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="/assets/images/2025/SiPho_basics/image57.png" alt="WG_strip_mode1" width="50%" />
+    <img src="/assets/images/2025/SiPho_basics/image30.png" alt="WG_strip_mode2" width="50%" />
+</div>
+
+<ul>
+  <li>E field norm of fundamental TE mode (left, \(n_\text{eff}=2.51\)) and TM mode (right, \(n_\text{eff}=1.89\)) of the strip waveguide.</li>
+</ul>
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="/assets/images/2025/SiPho_basics/image36.png" alt="WG_rib_mode1" width="50%" />
+    <img src="/assets/images/2025/SiPho_basics/image59.png" alt="WG_rib_mode2" width="50%" />
+</div>
+
+<ul>
+  <li>E field norm of fundamental TE (\(n_\text{eff}=3.38\)) and TM (\(n_\text{eff}=3.36\)) mode of a thick silicon rib waveguide (total Si thickness = 1 um compared to the 220 nm above)</li>
+  <li>Note both modes have effective index closer to nSi3.5, because they are mostly inside silicon, and looks more similar to each other</li>
+</ul>
+
+<p>There are many important aspects about waveguides, even they are the simplest structure:</p>
+
+<ul>
+  <li>Bands / dispersion relation: Function of frequency vs. propagation constant or effective index: \(\omega(\beta)\), and \(n_\text{eff}\equiv \beta /k_0\). Together they also give the phase velocity \(v_\text{p}\equiv c_0/n_\text{eff}\). \(k_0=2\pi/\lambda_0\) is the wave vector in free space, and \(c_0\) is the speed of light in free space.</li>
+  <li>Group velocity \(v_\text{g}\equiv d\omega/d\beta\) is how fast the envelope of a wave travels, as well as how fast the energy carried by the wave is traveling.</li>
+  <li>Propagation loss \(\alpha\equiv 2\text{Im}(\beta)\) if the material is lossy or the waveguide surface is not perfectly smooth and scatters the wave. It is defined as the energy loss rate thus the extra factor of 2.</li>
+</ul>
+
+<p>The following figures show the bands of the example waveguides shown above:</p>
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="/assets/images/2025/SiPho_basics/image43.png" alt="WG_strip_bands" width="50%" />
+    <img src="/assets/images/2025/SiPho_basics/image39.png" alt="WG_rib_bands" width="50%" />
+</div>
+
+<ul>
+  <li>x axis is the frequency, y axis is effective index</li>
+</ul>
+
+<p>Once we have a waveguide, and a basic understanding of modes and bands, we could start building more complex components.</p>
+
+<h2 id="couplers">Couplers</h2>
+
+<p>But before we jump to on-chip components, getting the light onto the chip is as important. There are extensive reviews about <a href="https://doi.org/10.1364/PRJ.7.000201">fiber to chip couplers</a>, and I’d like to briefly show you two kinds of them here.</p>
+
+<p><strong>Edge coupler / butt coupler</strong>: you can slowly reduce the width of a waveguide, to make the mode spread out more, to match better with the mode shape of a fiber, and directly shoot light out of a fiber onto the end of the waveguide. There are many different variants of edge couplers, but the basic idea is the same, make the mode bigger, and match to a fiber mode.</p>
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="/assets/images/2025/SiPho_basics/image23.png" alt="Edge_coupler" width="50%" />
+    <img src="/assets/images/2025/SiPho_basics/image34.png" alt="strip_WG" width="50%" />
+</div>
+<ul>
+  <li>left: mode shape after reducing the waveguide width from 500 nm to 100 nm.</li>
+  <li>right: same strip waveguide as shown above, but zoomed out the plot to compare with the edge coupler on the left</li>
+  <li>this taper is also called spot size converter (SSC)</li>
+</ul>
+
+<p><strong>Grating coupler</strong>: introduce a periodic pattern similar to a free space optical grating, to scatter the guided wave into free space. The period \(a\) depends on the wave vector of the guided wave, the wave in the target media (oxide cladding), and the desired angle. They are related by the phase matching condition.</p>
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="/assets/images/2025/SiPho_basics/image37.png" alt="GC_3D" width="50%" />
+    <img src="/assets/images/2025/SiPho_basics/image56.png" alt="GC_XSec" width="50%" />
+</div>
+<ul>
+  <li>A grating coupler and the phase matching condition (<a href="https://www.mdpi.com/2072-666X/11/7/666">source</a>)</li>
+</ul>
+
+<p>Here is how the guided and scattered field from a “weak” grating coupler look like:<br />
+<img src="/assets/images/2025/SiPho_basics/image53.gif" alt="GC_animation" /></p>
+<ul>
+  <li>This is a 2D simulation of a 220 nm thick Si on top of SiO2, and there is air above the Si.</li>
+  <li>Notice the scattered wave is moving at different speeds as well as different angles in the SiO2 and air, constrained by the phase matching.</li>
+  <li>In practice, multiple interface can be used to constructively interfere and select one of the two emissions (e.g. only scatter upward), or tune the phase matching so that no wave can go into the lower \(n\) material (i.e., only scatter downward)</li>
+</ul>
+
+<h2 id="splitters-spatial">Splitters (spatial)</h2>
+
+<p><strong>Directional coupler/splitter</strong><br />
+When two waveguides are placed close to each other, the guided wave in one waveguide overlaps with the other waveguide, and hybridizes with the other mode in it. We can make different couplers and splitters using this phenomenon. When the two waveguides are nearly the same, it is called a directional coupler, and is also used in RF and microwave circuits.</p>
+
+<p><img src="/assets/images/2025/SiPho_basics/image25.png" alt="DC" /></p>
+
+<ul>
+  <li>Power in the two waveguides of a directional coupler, which can be analyzed using <a href="https://en.wikipedia.org/wiki/Coupled_mode_theory">coupled mode theory</a>.</li>
+  <li>When the two waveguides are identical, power can be 100% swap at max, and choosing different coupling length give different splitting ratio</li>
+</ul>
+
+<p><strong>Multimode interference coupler</strong><br />
+(see also <a href="https://en.wikipedia.org/wiki/Multi_mode_interferometer">wikipedia</a>)<br />
+This type of coupler/splitter also utilizes different modes, but by exciting them with an abrupt change in waveguide width.</p>
+
+<p><img src="/assets/images/2025/SiPho_basics/image42.png" alt="MMI_inf" />
+<img src="/assets/images/2025/SiPho_basics/image45.png" alt="MMI_inf_mode" /></p>
+
+<ul>
+  <li>The MMI process, top highlights the silicon domains, surrounded by SiO2, bottom shows the E field norm. Right end of the simulation domain is terminated with a perfectly matched layer (PML)</li>
+  <li>The abrupt change of the waveguide width leads to excitation of higher order waveguide modes, and the modes <a href="https://doi.org/10.1109/JLT.2008.923632">mirroring back</a>. Here is a more extreme example from the same reference, involving more higher order modes:</li>
+</ul>
+
+<p><img src="/assets/images/2025/SiPho_basics/image28.png" alt="MMI_lots_of_modes" /></p>
+<ul>
+  <li>see also <a href="https://en.wikipedia.org/wiki/Talbot_effect">Talbot effect</a></li>
+</ul>
+
+<p>By choosing where to terminate the multimode section, and put the single mode waveguide back, we could get e.g. a 50:50 splitter with very decent performance.</p>
+
+<p><img src="/assets/images/2025/SiPho_basics/image51.png" alt="MMIS" />
+<img src="/assets/images/2025/SiPho_basics/image26.png" alt="MMIS_mode" /></p>
+
+<ul>
+  <li>Same plots, this time with the output waveguides added. You can see ripples from reflection, although it is only 0.3%. Transmission into the two outputs are 47.8%, and the remaining power is scattered &amp; radiated. Further fine tuning the geometry could reduce the IL (insertion loss) a bit more. (only spent ~20 min ish on this please don’t blame me)</li>
+  <li>(The output waveguides are separated by extra S bends to have better separated ports at the waveguide ends.)</li>
+</ul>
+
+<p>Let’s also include an animation of the E field, I love watching these and hopefully you do too.<br />
+<img src="/assets/images/2025/SiPho_basics/MMI_Ey_20250216.gif" alt="MMIS_forward" />
+After I finished this article I was making a post about the “invisible modes”, so here are the backward propagated simulation. Notice the waves are going everywhere when the two ports are launched out-of-phase.
+<img src="/assets/images/2025/SiPho_basics/MMI_Ey_reverted_sym.gif" alt="MMIS_backward_sym" />
+<img src="/assets/images/2025/SiPho_basics/MMI_Ey_reverted_asym.gif" alt="MMIS_backward_asym" /></p>
+
+<h2 id="adiabatic-couplers">Adiabatic couplers</h2>
+<p>Adiabatic couplers are based on the principle of mode hybridization when two modes in two separate waveguides are phase matched (same effective index), and close to each other (and not forbidden by symmetry). The process can be visualized in a band diagram, similar to the ones we looked at for individual waveguides above, this time not vs frequency, but vs one of the waveguide dimensions.</p>
+
+<p>The following band diagram shows two sets of bands, one from a \(w_1=1~\text{um}\) wide waveguide, and the other one’s width \(w_2\) is smoothly changing from 0.3 um to 0.7 um. The gap between the two waveguides is kept at 150 nm.</p>
+
+<p><img src="/assets/images/2025/SiPho_basics/image24.png" alt="ADC" /></p>
+
+<ul>
+  <li>We focus on the 2nd and 3rd bands from the top, and the anti-crossing between them.</li>
+  <li>Modes at \(w_2=400 ~\text{nm}\) and 600 nm of these two bands are shown.</li>
+</ul>
+
+<p>You can identify two sets of lines, the horizontal ones are from the fixed width waveguide, and the ones moving are from the one with changing width. When they cross each other, the modes hybridize. The fundamental TE modes (<strong>TE0</strong>) in the left waveguide cross with the first order TE mode (<strong>TE1</strong>) in the right waveguide at \(w_2=500\) nm. When you change \(w_2\) very slowly along the direction of propagation, power in <strong>TE0</strong> of the left waveguide would adiabatically convert to <strong>TE1</strong> in the right waveguide, and vice versa.</p>
+
+<p>How slow does the change need to be? Depends on how strong the coupling is / how big the anticrossing is. Here is the same band diagram with a 50 nm gap between the waveguides instead of 150 nm:</p>
+
+<p><img src="/assets/images/2025/SiPho_basics/image32.png" alt="ADC_stronger" /></p>
+
+<ul>
+  <li>You can see all the gaps are larger, and you could make a faster / shorter coupler with it.</li>
+</ul>
+
+<p>Applying the same principles, you can make adiabatic couplers between many different modes.</p>
+
+<h2 id="filters-frequency-domain-splitters">Filters (frequency domain splitters)</h2>
+
+<p>We just look at bands of waveguides above. They are continuous over a big frequency range, and thus support all the modes over the frequency range. To be selective in the frequency domain, we need components that break it up.</p>
+
+<p>Introducing a periodic boundary condition breaks the spectrum into discrete frequencies, and a ring resonator does exactly this. A traditional <a href="https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=9021">Fabry-Perot Cavity</a> also achieves this, but is harder to make on a chip.</p>
+
+<p><strong>Ring resonator</strong></p>
+
+<div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="/assets/images/2025/SiPho_basics/image31.png" alt="ring_geom" width="50%" />
+    <img src="/assets/images/2025/SiPho_basics/image48.png" alt="ring_field" width="50%" />
+</div>
+
+<ul>
+  <li><a href="https://www.flexcompute.com/tidy3d/examples/notebooks/RingResonator/">Flexcompute - 2D ring resonator</a></li>
+</ul>
+
+<p>In practice, we need a waveguide to talk to the ring resonator, and this coupling broadens the linewidth of the discrete frequencies. By tuning the gap size just like in the case of the directional coupler and adiabatic coupler above, you tune the coupling between the ring and the waveguide, and you get a drop filter, or a notch filter. Adding a second waveguide on the other side of the resonator, you could pick out the power again, and that is a bandpass filter. Wave that is off the resonant frequency would go through in the original waveguide unaffected, and thus you have a splitter in the frequency domain.</p>
+
+<p>Want a flatter pass-band? Add more rings in series. One way to understand the broader pass-band is the coupling leads to splitting of the degenerate modes, and another way to understand it is: in the extreme case of a series of coupled-resonator optical waveguide (CROW, yes it got an official name), you get an actual band similar to in solid state physics.</p>
+
+<p><img src="/assets/images/2025/SiPho_basics/SiN_ring_add_drop_2004.png" alt="SiN_rings" /></p>
+<ul>
+  <li>“Third-order add-drop filter based on series-coupled microring resonators”, <a href="https://doi.org/10.1364/OPEX.12.001437">Barwicz, 2004</a></li>
+</ul>
+
+<p>What if you have N wavelengths you want to merge or split between one waveguide and N waveguide? Use an <a href="https://en.wikipedia.org/wiki/Arrayed_waveguide_grating">arrayed waveguide grating (AWG)</a>, or an actual grating such as <a href="https://en.wikipedia.org/wiki/Echelle_grating">Echelle grating</a>.</p>
+
+<p><img src="/assets/images/2025/SiPho_basics/image55.png" alt="AWG_schematics" /></p>
+
+<ul>
+  <li>Schematics of an AWG. 1: input waveguide. 2: wave diverges and splits into N waveguides. 3: Different waveguide lengths add different phase delays. 4: waveguide output interferes, and wave at different wavelengths reconstruct at different output waveguide location</li>
+</ul>
+
+<p><img src="/assets/images/2025/SiPho_basics/image35.png" alt="AWG_NTT" /></p>
+
+<ul>
+  <li>Remember this picture from the history section? Now you see there are two AWGs, one on the left and one on the right. The waveguide array spacing is close enough to scatter the illumination light, and appears a bit colorful.</li>
+</ul>
+
+<p>Alternatively, a classical component to split different frequencies of light is a grating. However, it is hard to work with plane waves, as a wave radiating from a waveguide has more like a cylindrical phase front, and thus you curve the grating to focus the scattered light back into the output waveguides.</p>
+
+<p><img src="/assets/images/2025/SiPho_basics/image44.png" alt="EG_schematics" /></p>
+
+<ul>
+  <li>On-chip Echelle grating schematics. (<a href="https://ieeexplore.ieee.org/document/8538877">source</a>)</li>
+  <li>FPR: free propagation region</li>
+</ul>
+
+<p><img src="/assets/images/2025/SiPho_basics/image46.png" alt="EG_SEM" /></p>
+
+<ul>
+  <li>SEM of the Echelle grating.  (<a href="https://ieeexplore.ieee.org/document/8538877">source</a>)</li>
+</ul>
+
+<p>They work exactly like a good old school grating, a periodic array of structure introducing a periodic phase shift. This phase shift scatters the input wave into different directions that are highly wavelength dependent, and you can then put the N waveguides at different positions to receive the light.</p>
+
+<h2 id="actives-modulators-lasers--detectors">Actives: modulators, <a href="https://www.google.com/books/edition/Semiconductor_Lasers/bInTBwAAQBAJ">lasers</a> &amp; detectors</h2>
+
+<p>These are not my expertise, and also worth a book each :)</p>
+
+<h1 id="practical-stuff">Practical stuff</h1>
+
+<p>This short section includes what you would actually need to design, tapeout, and characterize your own chip, very briefly.</p>
+
+<ul>
+  <li><strong>Design tool</strong>: many of the above simulations are run using <a href="https://www.comsol.com/">COMSOL</a> which is mainly a FEM solver. <a href="https://www.ansys.com/products/optics/fdtd">Ansys Lumerical FDTD</a> is a popular FDTD solver. <a href="https://www.flexcompute.com/tidy3d/solver/">Flexcompute Tidy3D</a> is a relatively new cloud GPU based FDTD solver (they have a lot of example models you can run with a trial account). On the circuit level, there are <a href="https://www.lucedaphotonics.com/luceda-photonics-design-platform">Luceda IPKISS</a> and <a href="https://www.ansys.com/products/optics/cml-compiler">Ansys Lumerical CML</a></li>
+  <li><strong>Layout</strong>: <a href="https://gdsfactory.github.io/gdsfactory/">GDSFactory</a> is open and actively being developed. <a href="https://www.klayout.de/">Klayout</a> for checking your GDS file.</li>
+  <li><strong>Tapeout</strong>: there are many foundries offering different materials and wavelength ranges, such as <a href="https://www.aimphotonics.com/">AIM Photonics</a>, <a href="https://gf.com/technology-platforms/silicon-photonics/">Global Foundries</a>, <a href="https://www.advmf.com/technology/">AMF</a>, <a href="https://www.tsmc.com/english/dedicatedFoundry/technology/platform_HPC_tech_connectivity">TSMC</a>, as well as more in this <a href="https://opg.optica.org/jlt/abstract.cfm?uri=jlt-39-13-4374">review</a>.</li>
+  <li><strong>Characterization</strong>: I wrote some and deleted it. This topic is too big, maybe next time!</li>
+</ul>
+
+<p><img src="/assets/images/2025/SiPho_basics/image52.png" alt="TSMC_CPO" /></p>
+
+<ul>
+  <li>Co-package optics (CPO) offering from TSMC</li>
+</ul>
+
+<h1 id="references">References</h1>
+
+<p>There are some scattered throughout the article. Here are some that might not have been directly cited but are good reads.</p>
+
+<p>Tien1971: <a href="https://doi.org/10.1364/AO.10.002395">Light Waves in Thin Films and Integrated Optics</a><br />
+Marchetti2019: Coupling strategies for silicon photonics integrated chips [Invited]</p>
+
+<ul>
+  <li><a href="https://doi.org/10.1364/PRJ.7.000201">https://doi.org/10.1364/PRJ.7.000201</a></li>
+</ul>
+
+<p>Siew2021: Review of Silicon Photonics Technology and Platform Development</p>
+
+<ul>
+  <li><a href="https://opg.optica.org/jlt/abstract.cfm?uri=jlt-39-13-4374">https://opg.optica.org/jlt/abstract.cfm?uri=jlt-39-13-4374</a></li>
+</ul>
+
+<p>Khurgin2022: <a href="https://pubs.acs.org/doi/full/10.1021/acsphotonics.1c01834">Expanding the Photonic Palette: Exploring High Index Materials</a></p>
+
+<ul>
+  <li>Also on <a href="https://arxiv.org/abs/2112.01205">arxiv</a></li>
+</ul>
+
+<p>Khurgin2024: <a href="https://onlinelibrary.wiley.com/doi/10.1002/lpor.202300836">Energy and Power Requirements for Alteration of the Refractive Index</a></p>
+
+<ul>
+  <li>Also on <a href="https://arxiv.org/abs/2308.16011">arxiv</a></li>
+</ul>
+
+<p>Zhang2023: <a href="https://doi.org/10.1364/OE.477952">Phase-modulated continuous-wave coherent ranging method for optical phased array lidar</a></p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#photonics" class="page__taxonomy-item p-category" rel="tag">Photonics</a><span class="sep">, </span>
+    
+      <a href="/tags/#silicon-photonics" class="page__taxonomy-item p-category" rel="tag">Silicon_photonics</a><span class="sep">, </span>
+    
+      <a href="/tags/#sipho" class="page__taxonomy-item p-category" rel="tag">SiPho</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#tutorial" class="page__taxonomy-item p-category" rel="tag">Tutorial</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-02-27T00:00:00-08:00">February 27, 2025</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Selected+Basics+of+Silicon+Photonics%20http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2FSiPho%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2FSiPho%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/tutorial/SiPho/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/ofs/weekly-OFS-35/" class="pagination--pager" title="This week’s outside five sigma (#35)
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-35/" rel="permalink">This week’s outside five sigma (#35)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-02-23T00:00:00-08:00">February 23, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          10 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2025/20250216_20250222/20250221_022655_0.jpg" alt="This week's outside five sigma (#35)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Ultra-High Energy Cosmic Rays and the Telescope Array
+
+</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-34/" rel="permalink">This week’s outside five sigma (#34)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-02-16T00:00:00-08:00">February 16, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          11 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2025/20241101_20250216/20250208_014851_1.jpg" alt="This week's outside five sigma (#34)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">IBM and Copper Interconnects
+IBM has some high quality technical and historical articles with unique materials, only if they are a bit more in depth..
+Here i...</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-33/" rel="permalink">This week’s outside five sigma (#33)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-02-09T00:00:00-08:00">February 9, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          9 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2025/20240913_20250208/20250207_172341_0.jpg" alt="This week's outside five sigma (#33)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Achromatic Polymer Diffractive Lenses for Astrophotography
+100 mm diameter, 2.4  μm thick multilevel diffractive lens (MDL), focal length 200 mm, optimized f...</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-32/" rel="permalink">This week’s outside five sigma (#32)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-02-02T00:00:00-08:00">February 2, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          7 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2025/20241113_20250130/20250125_163902_0.jpg" alt="This week's outside five sigma (#32)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">800G/400G Coherent Transceiver Chip Designs
+
+</p>
+
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Google Scholar</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="http://localhost:4000">Outside Five Sigma</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/tutorial/SiPho/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/tutorial/SiPho"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jwt625.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+    <!-- add mathjax, WTJ, 20240702 -->
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+  
+  
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+  </script>
+  
+  
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+    
+
+  </body>
+</html>

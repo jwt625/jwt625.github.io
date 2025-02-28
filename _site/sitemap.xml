@@ -237,6 +237,10 @@
 <lastmod>2025-02-23T00:00:00-08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/tutorial/SiPho/</loc>
+<lastmod>2025-02-27T00:00:00-08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -523,6 +527,10 @@
 <url>
 <loc>http://localhost:4000/assets/doc/2025/SC_JJ/Schuster_thesis.pdf</loc>
 <lastmod>2025-02-13T21:09:53-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/doc/2025/darpa-program-sunspot-presentation-proposers-day.pdf</loc>
+<lastmod>2025-02-25T08:42:31-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/doc/2025/ingaas_is_kmir1037e.pdf</loc>

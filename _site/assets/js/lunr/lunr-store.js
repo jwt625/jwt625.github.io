@@ -352,4 +352,10 @@ var store = [{
         "tags": ["Laser_shock_peening","SiC","MicroLED","Mach_Zehnder","MEMS","Photonics","Verilog","Piezoelectric_antenna","X_ray_microscopy","Spectroscopy","Power_line_communication","Biohybrid_robotics","Quantum_entanglement","Graphene","Cosmic_rays","Atom_probe_tomography","3D_printing","Thermoelectrics","Whispering_gallery_modes","Electro_optic_modulator"],
         "url": "/ofs/weekly-OFS-35/",
         "teaser": null
+      },{
+        "title": "Selected Basics of Silicon Photonics",
+        "excerpt":"Let’s start with two examples First time hearing about silicon photonics? Here are two examples, one from the past that’s been powering some of the internet backbone, and one for the future that may or may not materialize, but impressive prototypes already exist. Telecom transceivers A transceiver converts electrical signals...","categories": ["Tutorial"],
+        "tags": ["SiPho","Photonics","Silicon_photonics"],
+        "url": "/tutorial/SiPho/",
+        "teaser": null
       }]
