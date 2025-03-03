@@ -398,22 +398,22 @@
   <li>TO: thermal-optic</li>
 </ul>
 
-<p>Light is coupled from a fiber onto the chip, split into an array, fed into individual modulators to tune the phase in each waveguide (thus the name <a href="https://doi.org/10.1109/MAES.1998.715527">phased array</a>), and lastly scattered out with gratings. The phased array controls the  direction, and usually wavelength of the light controls the  direction. This illustration included 8 elements, and the state-of-the-art phased array has achieved at least <a href="https://ieeexplore.ieee.org/document/10185161">~10k elements</a>.</p>
+<p>Light is coupled from a fiber onto the chip, split into an array, fed into individual modulators to tune the phase in each waveguide (thus the name <a href="https://doi.org/10.1109/MAES.1998.715527">phased array</a>), and lastly scattered out with gratings. The phased array controls the  direction \(\theta\), and usually wavelength of the light controls the  direction \(\phi\). This illustration included 8 elements, and the state-of-the-art phased array has achieved at least <a href="https://ieeexplore.ieee.org/document/10185161">~10k elements</a>.</p>
 
 <p>As you can see, there are many steps and components involved in making and using silicon photonics. We will start with how to get light onto the chip, and then introduce commonly used components.</p>
 
 <h1 id="very-brief-history-of-getting-light-onto-a-chip">Very brief history of getting light onto a chip</h1>
 
-<p>Why do we want light on a chip? To have more control over light, and do more complicated tasks within smaller size, weight and power. The control including and not limited to:</p>
+<p>Why do we want light on a chip? To have more control over light, and do more complicated tasks within smaller size, weight and power. The controls include and not limited to:</p>
 
 <ul>
   <li>Spatial distribution: concentrating, collimating, dispersing, and guiding &amp; routing it</li>
-  <li>Time domain / spectrum: filtering, mux/demux for wavelength domain multiplexing (WDM), nonlinear interaction to generate exotic wavelengths and states</li>
+  <li>Time domain / frequency domain: filtering, mux/demux for wavelength domain multiplexing (WDM), nonlinear interaction to generate exotic wavelengths and states</li>
 </ul>
 
-<p>To change the spatial distribution of light, we need to change the refractive index, and the bigger and spatially finer the change is, the better we could confine and guide light, thus the pursuit of higher refractive index materials (<a href="https://pubs.acs.org/doi/full/10.1021/acsphotonics.1c01834">Khurgin2022</a>). To reconfigure the circuit, we need to change the refractive index effectively (Khurgin2024). The main theme of silicon photonics is about guiding the light better, and making it reconfigurable and fast.</p>
+<p>To change the spatial distribution of light, we need to change the refractive index, and the bigger and spatially finer the change is, the better we could confine and guide light, thus the pursuit of higher refractive index materials (<a href="https://pubs.acs.org/doi/full/10.1021/acsphotonics.1c01834">Khurgin2022</a>). To reconfigure the circuit, we need to change the refractive index effectively (<a href="https://onlinelibrary.wiley.com/doi/10.1002/lpor.202300836">Khurgin2024</a>). The main theme of silicon photonics is about guiding the light better, and making it reconfigurable and fast.</p>
 
-<p>Historically, we first started “guiding” light onto a chip using a thin film in the late 1960s: a propagating light beam could be now confined along one dimension (we did not have a good beam until we figured out <a href="https://www.hrl.com/news/2020/05/11/hrl-laboratories-celebrates-60th-anniversary-of-first-laser">lasers</a> in late 1950s). At around the same time, people were struggling making a good “waveguide” for light, i.e., confining it in both dimensions, so that you could bend and route it around. Many <a href="https://www.nobelprize.org/uploads/2018/06/kao-lecture-slides.pdf">crazy ideas</a> were attempted, optical fiber came out to be the winner, and it was quickly adopted for the growing telecom market, and the wavelength where fiber has the lowest loss (~ 1.5 um) and dispersion (~ 1.3 um), became standard options for telecom.</p>
+<p>Historically, we first started “guiding” light onto a chip using a thin film in the late 1960s: a propagating light beam could be now confined along one dimension (see e.g. <a href="https://doi.org/10.1364/AO.10.002395">Tien1971</a>, also we did not have a good beam until we figured out <a href="https://www.hrl.com/news/2020/05/11/hrl-laboratories-celebrates-60th-anniversary-of-first-laser">lasers</a> in late 1950s). At around the same time, people were struggling making a good “waveguide” for light, i.e., confining it in both dimensions, so that you could bend and route it around. Many <a href="https://www.nobelprize.org/uploads/2018/06/kao-lecture-slides.pdf">crazy ideas</a> were attempted, optical fiber came out to be the winner, and it was quickly adopted for the growing telecom market, and the wavelength where fiber has the lowest loss (~ 1.5 um) and dispersion (~ 1.3 um), became standard options for telecom.</p>
 
 <p>In the 1980s and 1990s, telecom fiber deployments kept growing, and we needed to switch different routes and wavelengths, and telco people (many from Alcatel-Lucent and <a href="https://www.ntt-innovative-devices.com/optical_communications/plc_products.html">NTT</a>) figured out how to make “fibers on a chip”: planar lightwave circuits (PLC). The refractive index contrast is low, less than 1%, similar to optical fibers. As a result, the mode is big, easy to interface with fibers, and they are used to route a lot of internet traffic (see <a href="https://en.wikipedia.org/wiki/Reconfigurable_optical_add-drop_multiplexer">ROADM</a>). However, you cannot bend the waveguides as much, and they have to be further apart to prevent crosstalk.  Here is <a href="https://x.com/JacquesCarolan/status/1881757698812973141">a 6x6 optical switch that is about the size of an iphone</a>. The shrink needs to continue to make room for more components.</p>
 
@@ -475,7 +475,7 @@
 
 <ul>
   <li>E field norm of fundamental TE (\(n_\text{eff}=3.38\)) and TM (\(n_\text{eff}=3.36\)) mode of a thick silicon rib waveguide (total Si thickness = 1 um compared to the 220 nm above)</li>
-  <li>Note both modes have effective index closer to nSi3.5, because they are mostly inside silicon, and looks more similar to each other</li>
+  <li>Note both modes have effective index closer to \(n_\text{Si} \approx 3.5\), because they are mostly inside silicon, and looks more similar to each other</li>
 </ul>
 
 <p>There are many important aspects about waveguides, even they are the simplest structure:</p>
