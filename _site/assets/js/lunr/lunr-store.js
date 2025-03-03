@@ -358,4 +358,10 @@ var store = [{
         "tags": ["SiPho","Photonics","Silicon_photonics"],
         "url": "/tutorial/SiPho/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#36)",
+        "excerpt":"Project Taara Got on-chip Beam Steering Google’s project Taara is doing long range (20 km) free space optical comm. Now they have a chip for steering the beam ( and potentially correcting the scintillation as well since the aperture got many segments? ) The chip looks amazing, and it looks...","categories": ["OFS"],
+        "tags": ["TinyML","Optics","Photonics","Microwave","MEMS","Quantum_computing","Superconducting_circuits","LIDAR","Frequency_comb","Semiconductor","Optical_switch","Piezoelectric","Electro-optic","Phase_transition","Nonlinear_optics","Optical_tweezers","Atomic_clock","Metamaterials","Optical_force","Free_space_optics","EUV_lithography","Electron_beam","Wakefield_acceleration","Interferometry","Neural_network_hardware","Silicon_photonics","Plasmonics","Photonic_integrated_circuit","Adaptive_optics"],
+        "url": "/ofs/weekly-OFS-36/",
+        "teaser": null
       }]
