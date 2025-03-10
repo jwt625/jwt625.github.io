@@ -364,4 +364,10 @@ var store = [{
         "tags": ["TinyML","Optics","Photonics","Microwave","MEMS","Quantum_computing","Superconducting_circuits","LIDAR","Frequency_comb","Semiconductor","Optical_switch","Piezoelectric","Electro-optic","Phase_transition","Nonlinear_optics","Optical_tweezers","Atomic_clock","Metamaterials","Optical_force","Free_space_optics","EUV_lithography","Electron_beam","Wakefield_acceleration","Interferometry","Neural_network_hardware","Silicon_photonics","Plasmonics","Photonic_integrated_circuit","Adaptive_optics"],
         "url": "/ofs/weekly-OFS-36/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#37)",
+        "excerpt":"High-Actuator MEMS Deformable Mirrors for Astronomy 2 cm-square MEMS deformable mirror, with 4096 microactuators. Manufactured by Boston Micromachines. How GPI works to see planets Searching for new Earths with micro-electromechanical systems Experimental Setup and Quantum Enhancement in LIGO The schematics, and the actual setup. Ganapathy2023: Broadband Quantum Enhancement of the...","categories": ["OFS"],
+        "tags": ["Quantum_sensing","LIGO","NV_center","Magnetometer","Superconducting_circuits","SQUID","HighTc_superconductors","Plasma","Pulsed_power","Photonics","Lithium_niobate","Optical_modulator","ECDL","MOPA","Superconducting_qubit","MEMS","Optomechanics","Thermoreflectance","Microwave_switch","Phase_change_material","Waveguide","Optics","Semiconductor","Metrology","Cryogenics","Precision_manufacturing","3D_printed_photonics"],
+        "url": "/ofs/weekly-OFS-37/",
+        "teaser": null
       }]

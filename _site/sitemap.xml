@@ -245,6 +245,10 @@
 <lastmod>2025-03-02T00:00:00-08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/ofs/weekly-OFS-37/</loc>
+<lastmod>2025-03-09T00:00:00-08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -550,6 +554,10 @@
 <url>
 <loc>http://localhost:4000/assets/doc/41567_2023_2129_MOESM1_ESM.pdf</loc>
 <lastmod>2024-11-17T21:21:08-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/doc/DARPA/HR001122S0055.pdf</loc>
+<lastmod>2025-03-08T16:52:47-08:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/doc/Soitec-FY23-CMD_2023-06-09-061705_lbgh.pdf</loc>
