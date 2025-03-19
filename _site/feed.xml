@@ -1,563 +1,598 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-19T00:13:18-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#37)</title><link href="http://localhost:4000/ofs/weekly-OFS-38/" rel="alternate" type="text/html" title="This week’s outside five sigma (#37)" /><published>2025-03-17T00:00:00-07:00</published><updated>2025-03-17T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-38</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-38/"><![CDATA[# Compact Cryocoolers for Space Applications
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-19T00:15:36-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#38)</title><link href="http://localhost:4000/ofs/weekly-OFS-38/" rel="alternate" type="text/html" title="This week’s outside five sigma (#38)" /><published>2025-03-17T00:00:00-07:00</published><updated>2025-03-17T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-38</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-38/"><![CDATA[<h1 id="compact-cryocoolers-for-space-applications">Compact Cryocoolers for Space Applications</h1>
 
-A pulse tube cryocooler that pulls half a watt at 80 K and fits in my palm??
-![20250308_164713_0.jpg](/assets/images/2025/20250108_20250318/20250308_164713_0.jpg)
-![20250308_164713_1.jpg](/assets/images/2025/20250108_20250318/20250308_164713_1.jpg)
-   - [Ricor K508](https://ricor.com/products/k508/)
-   - [The Ricor K508 Cryocooler Operational Experience on Mars (2013)](https://ricor.com/innovations/)the-ricor-k508-cryocooler-operational-experience-on-mars/…
-   - Second pic from a good review paper:
-   - Ross2016: [Chapter 6 Refrigeration Systems for Achieving Cryogenic Temperatures](https://researchgate.net/publication/306015401_Chapter_6_Refrigeration_Systems_for_Achieving_Cryogenic_Temperatures)
-   ![20250308_164955_0.jpg](/assets/images/2025/20250108_20250318/20250308_164955_0.jpg)
-   ![20250308_164955_1.jpg](/assets/images/2025/20250108_20250318/20250308_164955_1.jpg)
-   - It has been in a lot of space missions
-   - Riabzev2016: [Overview of RICOR tactical cryogenic refrigerators for Space missions](https://doi.org/10.1117/12.2224443)
-   - ([also at](https://ricor.com/wp-content/uploads/2019/05/Overview-of-RICOR-tactical-cryogenic-refrigerators-for-Space-missions.pdf))
-   ![20250308_165340_0.jpg](/assets/images/2025/20250108_20250318/20250308_165340_0.jpg)
-   ![20250308_165340_1.jpg](/assets/images/2025/20250108_20250318/20250308_165340_1.jpg)
-   ![20250308_165340_2.jpg](/assets/images/2025/20250108_20250318/20250308_165340_2.jpg)
-   - Found it thru this MWIR FPA from VIGO Photonics:
-   - [640×512 (15 µm) MWIR FPA - Eagle](https://vigophotonics.com/product/eagle/)
-   ![20250308_165826_0.jpg](/assets/images/2025/20250108_20250318/20250308_165826_0.jpg)
-   - relevant good read: Little1984: [Microminiature refrigeration](https://doi.org/10.1063/1.1137820)
+<p>A pulse tube cryocooler that pulls half a watt at 80 K and fits in my palm??
+<img src="/assets/images/2025/20250108_20250318/20250308_164713_0.jpg" alt="20250308_164713_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250308_164713_1.jpg" alt="20250308_164713_1.jpg" /></p>
+<ul>
+  <li><a href="https://ricor.com/products/k508/">Ricor K508</a></li>
+  <li><a href="https://ricor.com/innovations/">The Ricor K508 Cryocooler Operational Experience on Mars (2013)</a>the-ricor-k508-cryocooler-operational-experience-on-mars/…</li>
+  <li>Second pic from a good review paper:</li>
+  <li>Ross2016: <a href="https://researchgate.net/publication/306015401_Chapter_6_Refrigeration_Systems_for_Achieving_Cryogenic_Temperatures">Chapter 6 Refrigeration Systems for Achieving Cryogenic Temperatures</a>
+   <img src="/assets/images/2025/20250108_20250318/20250308_164955_0.jpg" alt="20250308_164955_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250308_164955_1.jpg" alt="20250308_164955_1.jpg" /></li>
+  <li>It has been in a lot of space missions</li>
+  <li>Riabzev2016: <a href="https://doi.org/10.1117/12.2224443">Overview of RICOR tactical cryogenic refrigerators for Space missions</a></li>
+  <li>(<a href="https://ricor.com/wp-content/uploads/2019/05/Overview-of-RICOR-tactical-cryogenic-refrigerators-for-Space-missions.pdf">also at</a>)
+   <img src="/assets/images/2025/20250108_20250318/20250308_165340_0.jpg" alt="20250308_165340_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250308_165340_1.jpg" alt="20250308_165340_1.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250308_165340_2.jpg" alt="20250308_165340_2.jpg" /></li>
+  <li>Found it thru this MWIR FPA from VIGO Photonics:</li>
+  <li><a href="https://vigophotonics.com/product/eagle/">640×512 (15 µm) MWIR FPA - Eagle</a>
+   <img src="/assets/images/2025/20250108_20250318/20250308_165826_0.jpg" alt="20250308_165826_0.jpg" /></li>
+  <li>relevant good read: Little1984: <a href="https://doi.org/10.1063/1.1137820">Microminiature refrigeration</a></li>
+</ul>
 
+<h1 id="electric-fields-in-ecology-and-insect-behavior">Electric Fields in Ecology and Insect Behavior</h1>
 
-# Electric Fields in Ecology and Insect Behavior
+<p>Getting into the electric ecology rabbit hole.</p>
 
-Getting into the electric ecology rabbit hole.
+<p>(flora and fauna sensing and using electric fields for various purposes)
+<img src="/assets/images/2025/20250108_20250318/20250308_014037_0.jpg" alt="20250308_014037_0.jpg" /></p>
+<ul>
+  <li>The above plot and this one is from</li>
+  <li>Clarke2017: <a href="https://link.springer.com/article/10.1007/s00359-017-1176-6">The bee, the flower, and the electric field: electric ecology and aerial electroreception</a>
+   <img src="/assets/images/2025/20250108_20250318/20250308_014211_0.jpg" alt="20250308_014211_0.jpg" /></li>
+  <li>Spiders ballooning using air current and electric fields, they could go 4 km up and hundreds of km far.</li>
+  <li>Morley2018: <a href="https://cell.com/current-biology/fulltext/S0960-9822(18)30693-6">Electric Fields Elicit Ballooning in Spiders</a>
+   <img src="/assets/images/2025/20250108_20250318/20250308_014505_0.jpg" alt="20250308_014505_0.jpg" /></li>
+  <li>Bees carry charge, sense and react electric fields, and it is likely part of the dance communication.</li>
+  <li>Greggers2013: <a href="https://doi.org/10.1098/rspb.2013.0528">Reception and learning of electric fields in bees</a>
+(<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3619523/pdf/rspb20130528.pdf">also at</a>)
+   <img src="/assets/images/2025/20250108_20250318/20250308_015150_0.jpg" alt="20250308_015150_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250308_015150_1.jpg" alt="20250308_015150_1.jpg" /></li>
+  <li>In this work they used laser Doppler vibrometry (LDV) to measure the frequency response of caterpillar setae to electric field  and showed they “can detect the electric fields emitted by the predatory wasps that hunt them”, and get defensive.</li>
+  <li>England2024: <a href="https://doi.org/10.1073/pnas.2322674121">Prey can detect predators via electroreception in air</a>
+   <img src="/assets/images/2025/20250108_20250318/20250308_015743_0.jpg" alt="20250308_015743_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250308_015743_1.jpg" alt="20250308_015743_1.jpg" /></li>
+</ul>
 
-(flora and fauna sensing and using electric fields for various purposes)
-![20250308_014037_0.jpg](/assets/images/2025/20250108_20250318/20250308_014037_0.jpg)
-   - The above plot and this one is from
-   - Clarke2017: [The bee, the flower, and the electric field: electric ecology and aerial electroreception](https://link.springer.com/article/10.1007/s00359-017-1176-6)
-   ![20250308_014211_0.jpg](/assets/images/2025/20250108_20250318/20250308_014211_0.jpg)
-   - Spiders ballooning using air current and electric fields, they could go 4 km up and hundreds of km far.
-   - Morley2018: [Electric Fields Elicit Ballooning in Spiders](https://cell.com/current-biology/fulltext/S0960-9822(18)30693-6)
-   ![20250308_014505_0.jpg](/assets/images/2025/20250108_20250318/20250308_014505_0.jpg)
-   - Bees carry charge, sense and react electric fields, and it is likely part of the dance communication.
-   - Greggers2013: [Reception and learning of electric fields in bees](https://doi.org/10.1098/rspb.2013.0528)
-([also at](https://pmc.ncbi.nlm.nih.gov/articles/PMC3619523/pdf/rspb20130528.pdf))
-   ![20250308_015150_0.jpg](/assets/images/2025/20250108_20250318/20250308_015150_0.jpg)
-   ![20250308_015150_1.jpg](/assets/images/2025/20250108_20250318/20250308_015150_1.jpg)
-   - In this work they used laser Doppler vibrometry (LDV) to measure the frequency response of caterpillar setae to electric field  and showed they "can detect the electric fields emitted by the predatory wasps that hunt them", and get defensive.
-   - England2024: [Prey can detect predators via electroreception in air](https://doi.org/10.1073/pnas.2322674121)
-   ![20250308_015743_0.jpg](/assets/images/2025/20250108_20250318/20250308_015743_0.jpg)
-   ![20250308_015743_1.jpg](/assets/images/2025/20250108_20250318/20250308_015743_1.jpg)
-   
+<h1 id="insect-resistance-and-plant-health">Insect Resistance and Plant Health</h1>
+<p>“The grasshoppers, they are the toughest I have found. The grasshoppers will take a bite out of your plant even if it’s a 12. By the time you get to 12 Brix, they lose interest in the plant. The plant is too healthy, it’s too difficult to chew, it’s too difficult to eat, it’s indigestible.”
+<img src="/assets/images/2025/20250108_20250318/20250308_044616_0.jpg" alt="20250308_044616_0.jpg" /></p>
+<ul>
+  <li>Should have watched this earlier. My gf’s tomatoes are already dying</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>[How Brix Levels Impact Insect Pressure on Plants</td>
+          <td>Dr. Thomas Dykstra](https://www.youtube.com/watch?v=bnNOvA3diDU&amp;ab_channel=AdvancingEcoAgriculture&amp;themeRefresh=1)</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
 
-# Insect Resistance and Plant Health
-"The grasshoppers, they are the toughest I have found. The grasshoppers will take a bite out of your plant even if it's a 12. By the time you get to 12 Brix, they lose interest in the plant. The plant is too healthy, it's too difficult to chew, it's too difficult to eat, it's indigestible."
-![20250308_044616_0.jpg](/assets/images/2025/20250108_20250318/20250308_044616_0.jpg)
-   - Should have watched this earlier. My gf's tomatoes are already dying 
-   - [How Brix Levels Impact Insect Pressure on Plants | Dr. Thomas Dykstra](https://www.youtube.com/watch?v=bnNOvA3diDU&ab_channel=AdvancingEcoAgriculture&themeRefresh=1)
+<h1 id="insect-gut-filter-chamber-structures">Insect Gut filter chamber Structures</h1>
 
-
-# Insect Gut filter chamber Structures
-
-TIL some insects have gut that's shaped like a heat exchanger, called "filter chamber", to remove excess water faster...
+<p>TIL some insects have gut that’s shaped like a heat exchanger, called “filter chamber”, to remove excess water faster…
 Feels like you could flip a gene or two to make it grow into a Klein bottle instead, but it will probably die before it take forms 
-![20250308_050857_0.jpg](/assets/images/2025/20250108_20250318/20250308_050857_0.jpg)
-![20250308_050857_1.jpg](/assets/images/2025/20250108_20250318/20250308_050857_1.jpg)
-![20250308_050857_2.jpg](/assets/images/2025/20250108_20250318/20250308_050857_2.jpg)
-   - Check out this paper for more gut drawings.
-   - Goodchild1966: [EVOLUTION OF THE ALIMENTARY CANAL IN THE HEMIPTERA](https://doi.org/10.1111/j.1469-185X.1966.tb01540.x)
-   - ([also at](https://purehost.bath.ac.uk/ws/portalfiles/portal/188111072/A_J_P_Goodchild_thesis.pdf))
-   ![20250308_051036_0.jpg](/assets/images/2025/20250108_20250318/20250308_051036_0.jpg)
-   - I can't comprehend how you biologists deal with this.
-   - [species - Resimaguina norma](https://hoppers.speciesfile.org/otus/16807/overview)
-   ![20250308_051333_0.jpg](/assets/images/2025/20250108_20250318/20250308_051333_0.jpg)
-   
+<img src="/assets/images/2025/20250108_20250318/20250308_050857_0.jpg" alt="20250308_050857_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250308_050857_1.jpg" alt="20250308_050857_1.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250308_050857_2.jpg" alt="20250308_050857_2.jpg" /></p>
+<ul>
+  <li>Check out this paper for more gut drawings.</li>
+  <li>Goodchild1966: <a href="https://doi.org/10.1111/j.1469-185X.1966.tb01540.x">EVOLUTION OF THE ALIMENTARY CANAL IN THE HEMIPTERA</a></li>
+  <li>(<a href="https://purehost.bath.ac.uk/ws/portalfiles/portal/188111072/A_J_P_Goodchild_thesis.pdf">also at</a>)
+   <img src="/assets/images/2025/20250108_20250318/20250308_051036_0.jpg" alt="20250308_051036_0.jpg" /></li>
+  <li>I can’t comprehend how you biologists deal with this.</li>
+  <li><a href="https://hoppers.speciesfile.org/otus/16807/overview">species - Resimaguina norma</a>
+   <img src="/assets/images/2025/20250108_20250318/20250308_051333_0.jpg" alt="20250308_051333_0.jpg" /></li>
+</ul>
 
+<h1 id="advances-in-super-resolution-microscopy">Advances in Super-Resolution Microscopy</h1>
 
+<p>I know you could “cheat” diffraction limit with all sorts of nonlinearities, but holy there has been a lot of development in super-resolution microscopy in the last few years that is beyond my comprehension..</p>
 
-# Advances in Super-Resolution Microscopy
+<p>Now what the hell is expansion microscopy, SMLM, RESI? Sub nm resolution??</p>
 
-I know you could "cheat" diffraction limit with all sorts of nonlinearities, but holy there has been a lot of development in super-resolution microscopy in the last few years that is beyond my comprehension..
+<p>Stimulated emission depletion (STED) is easy to understand, which uses “a doughnut-shaped depletion beam” to quench the fluorescence emission, and gets you ~10x higher spatial resolution.</p>
 
-Now what the hell is expansion microscopy, SMLM, RESI? Sub nm resolution??
+<p>I have heard and might have read about MINFLUX, but forgot what it is.</p>
 
-Stimulated emission depletion (STED) is easy to understand, which uses "a doughnut-shaped depletion beam" to quench the fluorescence emission, and gets you ~10x higher spatial resolution.
+<p>Some of these tricks must be related to “if you know the distribution (PSF) and measure enough samples, you could estimate the centers of two of them with arbitrary separation”. Turns out single-molecule localization microscopy (SMLM) is basically doing this.
+<img src="/assets/images/2025/20250108_20250318/20250309_020713_0.jpg" alt="20250309_020713_0.jpg" /></p>
+<ul>
+  <li>Scheiderer2025: <a href="https://nature.com/articles/s41566-025-01625-0">MINFLUX achieves molecular resolution with minimal photons</a>
+   <img src="/assets/images/2025/20250108_20250318/20250309_020824_0.jpg" alt="20250309_020824_0.jpg" /></li>
+  <li>Expansion microscopy is actually literally expanding the specimen, “by synthesizing a swellable polymer network within a specimen”…</li>
+  <li>It could expand almost 10x, and isotropic within 1%, damn.</li>
+  <li>Chen2015: <a href="https://doi.org/10.1126/science.1260088">Expansion microscopy</a>
+   <img src="/assets/images/2025/20250108_20250318/20250309_021607_0.jpg" alt="20250309_021607_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250309_021607_1.jpg" alt="20250309_021607_1.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250309_021607_2.jpg" alt="20250309_021607_2.jpg" /></li>
+  <li>Resolution enhancement by sequential imaging (RESI) sounds like an extension of SMLM, it also uses “dye-labelled ‘imager’ strands” attached to “complementary ‘docking’ strands on target molecules of interest”, but further separate the target into subsets, and bind &amp; image them
+   <img src="/assets/images/2025/20250108_20250318/20250309_023520_0.jpg" alt="20250309_023520_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250309_023520_1.jpg" alt="20250309_023520_1.jpg" /></li>
+  <li>LOL I’m dying: in the expansion microscopy, the polymer they used is sodium acrylate, aka, baby diaper polymer.</li>
+  <li>Would you let them slice your brain, embed it into the diaper polymer, and then soak in water?</li>
+  <li>There’s a nice youtube video explaining it:</li>
+  <li><a href="https://www.youtube.com/watch?v=-o9-X8TvgFo">Expansion Microscopy Explained</a>
+   <img src="/assets/images/2025/20250108_20250318/20250309_025948_0.jpg" alt="20250309_025948_0.jpg" /></li>
+  <li>This is a really good talk
+   <img src="/assets/images/2025/20250108_20250318/20250309_052547_0.jpg" alt="20250309_052547_0.jpg" /></li>
+  <li>“And all of these are free to use… I encourage you all, to come to Janelia and use these tools. It’s a two-page application, we put you in a beautiful hotel on site, we feed you great meals in the pub or whatever, even the booze is subsidized. You’ll have a great time, you’ll work with great people, and you’ll get terabytes of data to chew on for the next couple of years.”
+   <img src="/assets/images/2025/20250108_20250318/20250309_061037_0.jpg" alt="20250309_061037_0.jpg" /></li>
+  <li>Look how close they have to put the objectives together… Every photon is divine and shall not be lost!</li>
+  <li>(I don’t like the name lattice light-sheet, fancy name for superposition of plane waves (as are all waves), and nothing is “non-diffracting” as soon as you have a finite aperture.)</li>
+  <li>Chen2014: <a href="https://doi.org/10.1126/science.1257998">Lattice light-sheet microscopy: Imaging molecules to embryos at high spatiotemporal resolution</a>
+   <img src="/assets/images/2025/20250108_20250318/20250309_080503_0.jpg" alt="20250309_080503_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250309_080503_1.jpg" alt="20250309_080503_1.jpg" /></li>
+</ul>
 
-I have heard and might have read about MINFLUX, but forgot what it is.
+<h1 id="photovoltaic-efficiency">Photovoltaic Efficiency</h1>
 
-Some of these tricks must be related to "if you know the distribution (PSF) and measure enough samples, you could estimate the centers of two of them with arbitrary separation". Turns out single-molecule localization microscopy (SMLM) is basically doing this.
-![20250309_020713_0.jpg](/assets/images/2025/20250108_20250318/20250309_020713_0.jpg)
-   - Scheiderer2025: [MINFLUX achieves molecular resolution with minimal photons](https://nature.com/articles/s41566-025-01625-0)
-   ![20250309_020824_0.jpg](/assets/images/2025/20250108_20250318/20250309_020824_0.jpg)
-   - Expansion microscopy is actually literally expanding the specimen, "by synthesizing a swellable polymer network within a specimen"...
-   - It could expand almost 10x, and isotropic within 1%, damn.
-   - Chen2015: [Expansion microscopy](https://doi.org/10.1126/science.1260088)
-   ![20250309_021607_0.jpg](/assets/images/2025/20250108_20250318/20250309_021607_0.jpg)
-   ![20250309_021607_1.jpg](/assets/images/2025/20250108_20250318/20250309_021607_1.jpg)
-   ![20250309_021607_2.jpg](/assets/images/2025/20250108_20250318/20250309_021607_2.jpg)
-   - Resolution enhancement by sequential imaging (RESI) sounds like an extension of SMLM, it also uses "dye-labelled ‘imager’ strands" attached to "complementary ‘docking’ strands on target molecules of interest", but further separate the target into subsets, and bind & image them
-   ![20250309_023520_0.jpg](/assets/images/2025/20250108_20250318/20250309_023520_0.jpg)
-   ![20250309_023520_1.jpg](/assets/images/2025/20250108_20250318/20250309_023520_1.jpg)
-   - LOL I'm dying: in the expansion microscopy, the polymer they used is sodium acrylate, aka, baby diaper polymer.
-   - Would you let them slice your brain, embed it into the diaper polymer, and then soak in water?
-   - There's a nice youtube video explaining it:
-   - [Expansion Microscopy Explained](https://www.youtube.com/watch?v=-o9-X8TvgFo)
-   ![20250309_025948_0.jpg](/assets/images/2025/20250108_20250318/20250309_025948_0.jpg)
-   - This is a really good talk
-   ![20250309_052547_0.jpg](/assets/images/2025/20250108_20250318/20250309_052547_0.jpg)
-   - "And all of these are free to use... I encourage you all, to come to Janelia and use these tools. It's a two-page application, we put you in a beautiful hotel on site, we feed you great meals in the pub or whatever, even the booze is subsidized. You'll have a great time, you'll work with great people, and you'll get terabytes of data to chew on for the next couple of years."
-   ![20250309_061037_0.jpg](/assets/images/2025/20250108_20250318/20250309_061037_0.jpg)
-   - Look how close they have to put the objectives together... Every photon is divine and shall not be lost!
-   - (I don't like the name lattice light-sheet, fancy name for superposition of plane waves (as are all waves), and nothing is "non-diffracting" as soon as you have a finite aperture.)
-   - Chen2014: [Lattice light-sheet microscopy: Imaging molecules to embryos at high spatiotemporal resolution](https://doi.org/10.1126/science.1257998)
-   ![20250309_080503_0.jpg](/assets/images/2025/20250108_20250318/20250309_080503_0.jpg)
-   ![20250309_080503_1.jpg](/assets/images/2025/20250108_20250318/20250309_080503_1.jpg)
-   
+<p>Cool chart about best photovoltaic cell efficiency, and it’s interactive.</p>
 
+<p>(I should make one for quantum frequency conversion between microwave and optical frequencies)
+<img src="/assets/images/2025/20250108_20250318/20250309_084413_0.jpg" alt="20250309_084413_0.jpg" /></p>
+<ul>
+  <li>From: <a href="https://nrel.gov/pv/interactive-cell-efficiency.html">nrel.gov</a></li>
+  <li>Brought to me by <a href="https://x.com/PhenomenalYTGuy/status/1898475348985254124">this post</a></li>
+  <li>Last time I touched this table was 2022
+   <img src="/assets/images/2025/20250108_20250318/20250309_085015_0.jpg" alt="20250309_085015_0.jpg" /></li>
+  <li>I think in terms of scalability and economics nothing beats silicon: my naive understanding is that you are subject to the single value of bandgap of silicon, and Shockley–Queisser limit of a bit more than 30%. In multi junction ones you stack layers of materials with different</li>
+</ul>
 
+<h1 id="silicon-carbide-waveguides-in-ar-glasses">Silicon Carbide Waveguides in AR Glasses</h1>
 
-# Photovoltaic Efficiency
+<p>Meta has a new post talking a bit more about the silicon carbide waveguides used in the Orion AR glasses.
+Funny they mentioned lithium niobate, I wonder how much they suffered (or put to good use) from the birefringence, the pyroelectric effect, the goddamn lithium that diffuses everywhere…</p>
+<ul>
+  <li>Crystal Clear: <a href="https://meta.com/blog/">Our Silicon Carbide Waveguides &amp; the Path to Orion’s Large FoV</a>orion-silicon-carbide-waveguides-ar-glasses-large-field-of-view/…
+   <img src="/assets/images/2025/20250108_20250318/20250309_174956_0.jpg" alt="20250309_174956_0.jpg" /></li>
+  <li>Mandatory mention of this paper from <a href="https://x.com/jwt0625/status/1820198440284123592">this post</a> from Jacob Khurgin since we are talking about going after higher refractive index
+   <img src="/assets/images/2025/20250108_20250318/20250309_175243_0.jpg" alt="20250309_175243_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250309_175243_1.jpg" alt="20250309_175243_1.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250309_175243_2.jpg" alt="20250309_175243_2.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250309_175243_3.jpg" alt="20250309_175243_3.jpg" /></li>
+  <li>And this work from <a href="https://x.com/jwt0625/status/1806362394639372773">this post</a> to show the power of pyroelectric effect
+   <img src="/assets/images/2025/20250108_20250318/20250309_175426_0.jpg" alt="20250309_175426_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250309_175426_1.jpg" alt="20250309_175426_1.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250309_175426_2.jpg" alt="20250309_175426_2.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250309_175426_3.jpg" alt="20250309_175426_3.jpg" /></li>
+  <li>I’d never wish to reduce my sensory spectrum but oh wouldn’t it be nice if we can’t see below ~530 nm, and Gallium Phosphide (GaP) would be transparent with a refractive index of ~3.3!</li>
+  <li><a href="https://refractiveindex.info/?shelf=main&amp;book=GaP&amp;page=Aspnes">Optical constants of GaP</a>
+   <img src="/assets/images/2025/20250108_20250318/20250309_181919_0.jpg" alt="20250309_181919_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250309_181919_1.jpg" alt="20250309_181919_1.jpg" /></li>
+</ul>
 
-Cool chart about best photovoltaic cell efficiency, and it's interactive.
+<h1 id="wave-propagation-and-communication-limits">Wave Propagation and Communication Limits</h1>
 
-(I should make one for quantum frequency conversion between microwave and optical frequencies)
-![20250309_084413_0.jpg](/assets/images/2025/20250108_20250318/20250309_084413_0.jpg)
-   - From: [nrel.gov](https://nrel.gov/pv/interactive-cell-efficiency.html)
-   - Brought to me by [this post](https://x.com/PhenomenalYTGuy/status/1898475348985254124)
-   - Last time I touched this table was 2022
-   ![20250309_085015_0.jpg](/assets/images/2025/20250108_20250318/20250309_085015_0.jpg)
-   - I think in terms of scalability and economics nothing beats silicon: my naive understanding is that you are subject to the single value of bandgap of silicon, and Shockley–Queisser limit of a bit more than 30%. In multi junction ones you stack layers of materials with different
+<p>Every time the OGs write a first author paper, it’s either some weird nonsense (fortunately rarely the case), or a pure gem.
+This work’s approach screams Chu–Harrington limit (and the result is also closely related), which you really should know if you work with rf or antenna of any sort.
+While the Chu limit focus on the radiation Q, this is more about how many communication channels you could have from a limited volume: if the surface is too small, the higher order modes will take up too much k on the spherical surface, and there would be no k components left for the outward propagation, and thus the mode “won’t propagate much”.</p>
 
+<p>I’m again reminded that, if you know how to recognize and count modes properly, you are set for 99% of wave problems.
+<img src="/assets/images/2025/20250108_20250318/20250310_033946_0.jpg" alt="20250310_033946_0.jpg" /></p>
+<ul>
+  <li>Miller2024: <a href="https://nature.com/articles/s41566-024-01578-w">Tunnelling escape of waves</a></li>
+  <li>In short, need larger volume / surface to support more channels.</li>
+  <li>There are some assumptions, such as the medium is homogeneous, isotropic, and linear, so maybe there’s room for crazy ideas.
+   <img src="/assets/images/2025/20250108_20250318/20250310_034325_0.jpg" alt="20250310_034325_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250310_034325_1.jpg" alt="20250310_034325_1.jpg" /></li>
+</ul>
 
-# Silicon Carbide Waveguides in AR Glasses
+<h1 id="graphene-based-neural-interfaces">Graphene-Based Neural Interfaces</h1>
 
+<p>yeeaaah strap that graphene electrode on my nerves</p>
 
-Meta has a new post talking a bit more about the silicon carbide waveguides used in the Orion AR glasses.
-Funny they mentioned lithium niobate, I wonder how much they suffered (or put to good use) from the birefringence, the pyroelectric effect, the goddamn lithium that diffuses everywhere...
-   - Crystal Clear: [Our Silicon Carbide Waveguides & the Path to Orion’s Large FoV](https://meta.com/blog/)orion-silicon-carbide-waveguides-ar-glasses-large-field-of-view/…
-   ![20250309_174956_0.jpg](/assets/images/2025/20250108_20250318/20250309_174956_0.jpg)
-   - Mandatory mention of this paper from [this post](https://x.com/jwt0625/status/1820198440284123592) from Jacob Khurgin since we are talking about going after higher refractive index
-   ![20250309_175243_0.jpg](/assets/images/2025/20250108_20250318/20250309_175243_0.jpg)
-   ![20250309_175243_1.jpg](/assets/images/2025/20250108_20250318/20250309_175243_1.jpg)
-   ![20250309_175243_2.jpg](/assets/images/2025/20250108_20250318/20250309_175243_2.jpg)
-   ![20250309_175243_3.jpg](/assets/images/2025/20250108_20250318/20250309_175243_3.jpg)
-   - And this work from [this post](https://x.com/jwt0625/status/1806362394639372773) to show the power of pyroelectric effect
-   ![20250309_175426_0.jpg](/assets/images/2025/20250108_20250318/20250309_175426_0.jpg)
-   ![20250309_175426_1.jpg](/assets/images/2025/20250108_20250318/20250309_175426_1.jpg)
-   ![20250309_175426_2.jpg](/assets/images/2025/20250108_20250318/20250309_175426_2.jpg)
-   ![20250309_175426_3.jpg](/assets/images/2025/20250108_20250318/20250309_175426_3.jpg)
-   - I'd never wish to reduce my sensory spectrum but oh wouldn't it be nice if we can't see below ~530 nm, and Gallium Phosphide (GaP) would be transparent with a refractive index of ~3.3!
-   - [Optical constants of GaP](https://refractiveindex.info/?shelf=main&book=GaP&page=Aspnes)
-   ![20250309_181919_0.jpg](/assets/images/2025/20250108_20250318/20250309_181919_0.jpg)
-   ![20250309_181919_1.jpg](/assets/images/2025/20250108_20250318/20250309_181919_1.jpg)
+<p>(I’m a bit surprised 30-60 layers of graphene could carry enough current for triggering the nerves, guess it’s only 100 nA level. These thin films could do curvature radii ~ 10 um)
+<img src="/assets/images/2025/20250108_20250318/20250310_050221_0.jpg" alt="20250310_050221_0.jpg" /></p>
+<ul>
+  <li>Warning, the paper has graphical content</li>
+  <li>Goto2025: <a href="https://doi.org/10.1063/5.0255032">Self-folding graphene cuff electrodes for peripheral nerve stimulation</a>
+   <img src="/assets/images/2025/20250108_20250318/20250310_050401_0.jpg" alt="20250310_050401_0.jpg" /></li>
+</ul>
 
+<h1 id="high-temperature-superconducting-single-photon-detectors">High-Temperature Superconducting Single-Photon Detectors</h1>
 
-
-# Wave Propagation and Communication Limits
-
-Every time the OGs write a first author paper, it's either some weird nonsense (fortunately rarely the case), or a pure gem.
-This work's approach screams Chu–Harrington limit (and the result is also closely related), which you really should know if you work with rf or antenna of any sort.
-While the Chu limit focus on the radiation Q, this is more about how many communication channels you could have from a limited volume: if the surface is too small, the higher order modes will take up too much k on the spherical surface, and there would be no k components left for the outward propagation, and thus the mode "won't propagate much".
-
-I'm again reminded that, if you know how to recognize and count modes properly, you are set for 99% of wave problems.
-![20250310_033946_0.jpg](/assets/images/2025/20250108_20250318/20250310_033946_0.jpg)
-   - Miller2024: [Tunnelling escape of waves](https://nature.com/articles/s41566-024-01578-w)
-   - In short, need larger volume / surface to support more channels.
-   - There are some assumptions, such as the medium is homogeneous, isotropic, and linear, so maybe there's room for crazy ideas.
-   ![20250310_034325_0.jpg](/assets/images/2025/20250108_20250318/20250310_034325_0.jpg)
-   ![20250310_034325_1.jpg](/assets/images/2025/20250108_20250318/20250310_034325_1.jpg)
-
-
-# Graphene-Based Neural Interfaces
-
-
-yeeaaah strap that graphene electrode on my nerves
-
-(I'm a bit surprised 30-60 layers of graphene could carry enough current for triggering the nerves, guess it's only 100 nA level. These thin films could do curvature radii ~ 10 um)
-![20250310_050221_0.jpg](/assets/images/2025/20250108_20250318/20250310_050221_0.jpg)
-   - Warning, the paper has graphical content
-   - Goto2025: [Self-folding graphene cuff electrodes for peripheral nerve stimulation](https://doi.org/10.1063/5.0255032)
-   ![20250310_050401_0.jpg](/assets/images/2025/20250108_20250318/20250310_050401_0.jpg)
-
-
-
-# High-Temperature Superconducting Single-Photon Detectors
-
-Been wondering why are there not as much work on high Tc superconducting nanowire single photon detectors (yet), turns out you need 2d material tricks such as mechanical exfoliation.
+<p>Been wondering why are there not as much work on high Tc superconducting nanowire single photon detectors (yet), turns out you need 2d material tricks such as mechanical exfoliation.
 (fancy name of pilling off a thin layer with scotch tape)
-![20250310_153800_0.jpg](/assets/images/2025/20250108_20250318/20250310_153800_0.jpg)
-![20250310_153800_1.jpg](/assets/images/2025/20250108_20250318/20250310_153800_1.jpg)
-   - Charaev2023: [Single-photon detection using high-temperature superconductors](https://nature.com/articles/s41565-023-01325-2)
-   ![20250310_153934_0.jpg](/assets/images/2025/20250108_20250318/20250310_153934_0.jpg)
-   ![20250310_153934_1.jpg](/assets/images/2025/20250108_20250318/20250310_153934_1.jpg)
-   
-
-
-
-
-# Optical Mode Sorting and Angular Momentum
-
-You know if you do it right your APL Photonics could've been a Nature Photonics. Take some notes!
-
-Wait.
-
-It's the same group of people lol.
-![20250202_064347_0.jpg](/assets/images/2025/20250108_20250318/20250202_064347_0.jpg)
-![20250202_064347_1.jpg](/assets/images/2025/20250108_20250318/20250202_064347_1.jpg)
-   - The angular distribution reminds me of the "lattice light-sheet" from the super-resolution microscopy people, but this one is in real space not k space.
-   - Hu2025: [Generalized angle–orbital angular momentum Talbot effect and modulo mode sorting](https://nature.com/articles/s41566-025-01622-3)
-   ![20250310_154932_0.jpg](/assets/images/2025/20250108_20250318/20250310_154932_0.jpg)
-   - The "lattice light-sheet" [post](https://x.com/jwt0625/status/1898646200435507423):
-   ![20250310_155019_0.jpg](/assets/images/2025/20250108_20250318/20250310_155019_0.jpg)
-   ![20250310_155019_1.jpg](/assets/images/2025/20250108_20250318/20250310_155019_1.jpg)
-   ![20250310_155019_2.jpg](/assets/images/2025/20250108_20250318/20250310_155019_2.jpg)
-   
-   
-
-# Tunable Lasers but not so tunable
-
-![20250311_015428_0.jpg](/assets/images/2025/20250108_20250318/20250311_015428_0.jpg)
-   - Castro2025: [Integrated mode-hop-free tunable lasers at 780 nm for chip-scale classical and quantum photonic applications](https://doi.org/10.1063/5.0232377)
-   - Look at this apple style summary figure
-   ![20250311_015525_0.jpg](/assets/images/2025/20250108_20250318/20250311_015525_0.jpg)
-
-
-
-# Scaling Trapped-Ion Quantum Computers
-
-Stretched windows loading screen spinning dots but each dot is actually a trapped ion running around on a chip.
-
-(friend told me I should get some update on trapped ion quantum computing so doing my homework rn)
-![20250311_030757_0.jpg](/assets/images/2025/20250108_20250318/20250311_030757_0.jpg)
-   - ["Scaling Trapped-Ion Quantum Computers at Quantinuum," Steven Moses, Quantinuum](https://youtube.com/watch?v=DUHTY9OK6XE&list=LL&index=3&ab_channel=IllinoisQuantum)
-   - Moses2023: [A Race-Track Trapped-Ion Quantum Processor](https://doi.org/10.1103/PhysRevX.13.041052)
-   - Impressive fidelity numbers albeit slow.
-   ![20250311_031121_0.jpg](/assets/images/2025/20250108_20250318/20250311_031121_0.jpg)
-   ![20250311_031121_1.jpg](/assets/images/2025/20250108_20250318/20250311_031121_1.jpg)
-   - "You guys cherry picking your benchmark? LOL we'll do all of them"
-   ![20250311_031519_0.jpg](/assets/images/2025/20250108_20250318/20250311_031519_0.jpg)
-   - that purple plot is 100% from rsoft beamprop, iconic colormap that has not changed for decades lol
-   ![20250311_032427_0.jpg](/assets/images/2025/20250108_20250318/20250311_032427_0.jpg)
-
-
-# Adhesion and adhesives
-
-Meanwhile:
-
-(I don't like these, maybe except the last one)
-![20250307_174607_0.jpg](/assets/images/2025/20250108_20250318/20250307_174607_0.jpg)
-![20250307_174607_1.jpg](/assets/images/2025/20250108_20250318/20250307_174607_1.jpg)
-![20250307_174607_2.jpg](/assets/images/2025/20250108_20250318/20250307_174607_2.jpg)
-   - Kinloch1987: [Adhesion and Adhesives](https://link.springer.com/book/10.1007/978-94-015-7764-9)
-   ![20250311_062938_0.jpg](/assets/images/2025/20250108_20250318/20250311_062938_0.jpg)
-   ![20250311_062938_1.jpg](/assets/images/2025/20250108_20250318/20250311_062938_1.jpg)
-   ![20250311_062938_2.jpg](/assets/images/2025/20250108_20250318/20250311_062938_2.jpg)
-
-
-
-# Quantum Error Protection with Squeezed Cat Qubits
-
-A wild capacitor appears!
-
-Poor cat states now not only a superposition but also squeezed. Phase-flip time of 1.3 us and bit-flip time of 22 s!
-![20250108_065607_0.jpg](/assets/images/2025/20250108_20250318/20250108_065607_0.jpg)
-![20250108_065607_1.jpg](/assets/images/2025/20250108_20250318/20250108_065607_1.jpg)
-![20250108_065607_2.jpg](/assets/images/2025/20250108_20250318/20250108_065607_2.jpg)
-   - "Owing to their visual resemblance to half-moons, we colloquially refer to this cat qubit variation as moon cat."
-   ![20250311_150619_0.jpg](/assets/images/2025/20250108_20250318/20250311_150619_0.jpg)
-   - Rousseau2025: [Enhancing dissipative cat qubit protection by squeezing](https://arxiv.org/pdf/2502.07892)
-   - It is dissipatively stabilized using a three-wave mixing coupling to a buffer mode b "cooling" it.
-   ![20250311_151219_0.jpg](/assets/images/2025/20250108_20250318/20250311_151219_0.jpg)
-   ![20250311_151219_1.jpg](/assets/images/2025/20250108_20250318/20250311_151219_1.jpg)
-   ![20250311_151219_2.jpg](/assets/images/2025/20250108_20250318/20250311_151219_2.jpg)
-   
-
-# Miniature High-Power Laser and Microcontrollers
-
-Choose your fighter:
-- A 24MHz Arm® Cortex®-M0+ MCU with 16KB flash, 1KB SRAM, 12-bit ADC that is only 1.4 mm² size
-- A **50 W** laser chip emitting at 915 nm with ~60% efficiency that is only 0.5x5.6 mm² size
-![20250311_154204_0.jpg](/assets/images/2025/20250108_20250318/20250311_154204_0.jpg)
-![20250311_154204_1.jpg](/assets/images/2025/20250108_20250318/20250311_154204_1.jpg)
-   - To be fair the MCU is packaged, the die should be even smaller.
-   - [MSPM0C1104](https://ti.com/product/MSPM0C1104)
-   - Grain of rice size laser [post](https://x.com/jwt0625/status/1821056638738108697):
-   ![20250311_154401_0.jpg](/assets/images/2025/20250108_20250318/20250311_154401_0.jpg)
-   ![20250311_154401_1.jpg](/assets/images/2025/20250108_20250318/20250311_154401_1.jpg)
-   - I need to convince someone to buy one of this and open it up.
-   - EverBright - [EB-FCP-300-135-0976-0.5-V](https://v4.cecdn.yun300.cn/100001_2205175052/EB-FCP-300-105-0976-0.5-V.pdf)
-   ![20250311_154748_0.jpg](/assets/images/2025/20250108_20250318/20250311_154748_0.jpg)
-   ![20250311_154748_1.jpg](/assets/images/2025/20250108_20250318/20250311_154748_1.jpg)
-   
-
-# Post-Quantum Cryptography and NIST Standards
-
-In addition to the recent quantum computing news from the big players, there are also relatively quiet and recent development in post-quantum encryption. It's relevant today because you could "harvest now, decrypt later".
-
-NIST had a call for proposal in 2017, selected 4 quantum-resistant algorithms for standardization in 2022, and released the standards in 2024. Some of them have already been deployed at e.g. AWS.
-
-I don't know how they work (yet), and just thought time flies and these are actually already in action.
-![20250312_014831_0.jpg](/assets/images/2025/20250108_20250318/20250312_014831_0.jpg)
-![20250312_014831_1.jpg](/assets/images/2025/20250108_20250318/20250312_014831_1.jpg)
-   - Fig. 1 from [Building Post-Quantum Cloud Services: Deploying FIPS 203:ML-KEM at AWS](https://csrc.nist.gov/Presentations/2025/building-post-quantum-cloud-services)
-   - See more at [NIST Workshop on Guidance for KEMs](https://csrc.nist.gov/events/2025/workshop-on-guidance-for-kems)
-   - Fig. 2 from [Using Post-Quantum Cryptography on AWS - Appendix: PQC details - The QC risk](https://catalog.workshops.aws/using-pq-crypto-on-aws/en-US/800-appendix/2-qc-risk)
-   ![20250312_015048_0.jpg](/assets/images/2025/20250108_20250318/20250312_015048_0.jpg)
-
-
-
-# Evolution of Analog-to-Digital Converters
-
-The first commercial ADC from 1954: 11 bit, 50 kHz sample rate, 150 lbs, 500 W, $8,500
-"ADC" at similar frequency today: 24 bit, 192 kHz, <3 lbs, <2.5 W, ~$100
-![20250312_020421_0.jpg](/assets/images/2025/20250108_20250318/20250312_020421_0.jpg)
-![20250312_020421_1.jpg](/assets/images/2025/20250108_20250318/20250312_020421_1.jpg)
-   - Fig. 1: [The Data Conversion Handbook, 2005, Chapter 1](https://analog.com/en/resources/technical-books/data-conversion-handbook.html)
-   - Fig. 2: [behringer - UMC404HD](https://behringer.com/product.html?modelCode=0805-AAT)
-   - ([datasheet](https://fullcompass.com/common/files/24700-BehringerUMC404HDDatasheet.pdf))
-   ![20250312_020614_0.jpg](/assets/images/2025/20250108_20250318/20250312_020614_0.jpg)
-   
-
-
-
-# On-Chip Thermal Emission for MIR and LWIR
-
-Found an integrated "incandescent light bulb": heating an on-chip floating silicon nitride waveguide to >1000 C 
-
-Efficiency is only ~1e-10 because it is radiating everywhere but hey you get broadband emission and some rare MIR and LWIR power on a chip.
-![20250312_061310_0.jpg](/assets/images/2025/20250108_20250318/20250312_061310_0.jpg)
-![20250312_061310_1.jpg](/assets/images/2025/20250108_20250318/20250312_061310_1.jpg)
-   - Pruessner2025: [A waveguide thermal emitter](https://doi.org/10.1063/5.0252536)
-   ![20250312_061412_0.jpg](/assets/images/2025/20250108_20250318/20250312_061412_0.jpg)
-   ![20250312_061412_1.jpg](/assets/images/2025/20250108_20250318/20250312_061412_1.jpg)
-   
-
-
-
-# Inertial Focusing in Microfluidics
-
-
-There is an effect called "inertial focusing" in inertial microfluidics, it involves multiple forces with different scalings, and let you control the focusing positions.
-![20250313_013839_0.jpg](/assets/images/2025/20250108_20250318/20250313_013839_0.jpg)
-![20250313_013839_1.jpg](/assets/images/2025/20250108_20250318/20250313_013839_1.jpg)
-   - Wang2013: [Vortex-aided inertial microfluidic device for continuous particle separation with high size-selectivity, efficiency, and purity](https://doi.org/10.1063/1.4818906)
-   - Zhou2013: [Fundamentals of inertial focusing in microchannels](https://doi.org/10.1039/C2LC41248A)
-   - Looks fun but must be pretty
-   ![20250313_014116_0.jpg](/assets/images/2025/20250108_20250318/20250313_014116_0.jpg)
-   ![20250313_014116_1.jpg](/assets/images/2025/20250108_20250318/20250313_014116_1.jpg)
-   - what the hell this is crazy: (Hydroporation employs microfluidic vortex shedding (µVS), a hydrodynamic phenomenon whereby oscillating fluid forces gently permeabilize the cell membrane, allowing delivery of gene editing payloads such as Cas9 ribonucleoprotein (RNP) complexes.)
-   - Sytsma2025: [Scalable intracellular delivery via microfluidic vortex shedding enhances the function of chimeric antigen receptor T-cells](https://doi.org/10.1038/s41598-025-89070-5)
-   ![20250313_043943_0.jpg](/assets/images/2025/20250108_20250318/20250313_043943_0.jpg)
-   
-
-
-# High-Accuracy 3D Face Scanning with Structured Light
-
-This is what you need to scan someone's face with ~100 um RMSE at half a meter away.
-
-It is using structured light from three integrated fringe masks, carefully calibrated and projected with 120 deg phase offset (thus no need for mechanical projectors), plus some magic reconstruction, you get the high accuracy 3D face.
-
-(PAMPA: pre-aligned micro-projection array)
-![20250313_035520_0.jpg](/assets/images/2025/20250108_20250318/20250313_035520_0.jpg)
-![20250313_035520_1.jpg](/assets/images/2025/20250108_20250318/20250313_035520_1.jpg)
-   - Guo2025: [Real-time high-accuracy 3D facial (micro) expression measurement based on pre-aligned micro-projection arrays](https://doi.org/10.1364/OE.555406)
-   ![20250313_035632_0.jpg](/assets/images/2025/20250108_20250318/20250313_035632_0.jpg)
-   - Is this the OG structured light paper?
-   - Srinivasan1984: [Automated phase-measuring profilometry of 3-D diffuse objects](https://doi.org/10.1364/AO.23.003105)
-   ![20250313_035746_0.jpg](/assets/images/2025/20250108_20250318/20250313_035746_0.jpg)
-   ![20250313_035746_1.jpg](/assets/images/2025/20250108_20250318/20250313_035746_1.jpg)
-   - They have an older version with just one mask and a stepper motor to shift its phase. They complain about its step size inconsistency and it needs feedback control.
-   - Guo2024: [High accuracy, compact 3D face imaging method based on translational and online-switchable phase-shifting fringe projection](https://doi.org/10.1364/OE.513951)
-   ![20250313_040406_0.jpg](/assets/images/2025/20250108_20250318/20250313_040406_0.jpg)
-   ![20250313_040406_1.jpg](/assets/images/2025/20250108_20250318/20250313_040406_1.jpg)
-   
-
-
-
-# Optical Machine Gun for Microparticle Acceleration
-
-BREAKING: shots fired just outside an ACF, multiple micro particles ejected at high speed. Full story coming up on the evening news.
-
-(They actually called it an "optical machine gun"... Images of the light beam outside the fiber is actually real, from fluorescence dye rhodamine B. ACF: annular-core capillary fiber)
-![20250313_042819_0.jpg](/assets/images/2025/20250108_20250318/20250313_042819_0.jpg)
-![20250313_042819_1.jpg](/assets/images/2025/20250108_20250318/20250313_042819_1.jpg)
-![20250313_042819_2.jpg](/assets/images/2025/20250108_20250318/20250313_042819_2.jpg)
-   - Du2025: [Capillary fiber-based optical machine gun for micro particle continuous shooting](https://doi.org/10.1364/OE.554337)
-   - The "high speed" is about 1 mm/s.
-   ![20250313_043535_0.jpg](/assets/images/2025/20250108_20250318/20250313_043535_0.jpg)
-   ![20250313_043535_1.jpg](/assets/images/2025/20250108_20250318/20250313_043535_1.jpg)
-   
-
-
-
-# Micro-Transfer Printing for Photonic Integration
-
-I've done some transfer print with PDMS myself. Pretty crazy how big of a piece (40 um x 1 mm) they could pick up and put down.
-
-I had no idea there's already a commercial micro-transfer printing tool (X-Celeprint µTP-100).
-![20250313_160526_0.jpg](/assets/images/2025/20250108_20250318/20250313_160526_0.jpg)
-![20250313_160526_1.jpg](/assets/images/2025/20250108_20250318/20250313_160526_1.jpg)
-   - Vandekerckhove2025: [A scalable quadratic nonlinear silicon photonics platform with printable entangled photon-pair sources](https://arxiv.org/pdf/2503.08783)
-   - No mention of how fast it can be done, but I do like the argument of "PPLN devices would typically be only a small part of a larger
-   ![20250313_160924_0.jpg](/assets/images/2025/20250108_20250318/20250313_160924_0.jpg)
-
-
-
-
-# Ultra-Wideband Plasmonic Electro-Optic Modulators
-
-A plasmonic + electro-optic polymer modulator with a bandwidth of, *checks notes*, 997 GHz!
-
-They have to use eight different sources based on electrical mixers to generate signals across the frequency range from 10 MHz to 1.14 THz 
-
-I want to see their probing setup..
-![20250313_161912_0.jpg](/assets/images/2025/20250108_20250318/20250313_161912_0.jpg)
-   - 10 um length, IL = 5.6 dB, Vpi*L = 234 V*um.
-   - Horst2025: [Ultra-wideband MHz to THz plasmonic EO modulator](https://doi.org/10.1364/OPTICA.544016)
-   - They must have some close friends at Virginia Diodes.
-   ![20250313_162129_0.jpg](/assets/images/2025/20250108_20250318/20250313_162129_0.jpg)
-
-
-# MOEMS Optical Switching and Flexure Mechanics
-
-"Mega" structures like this on a chip for tiny photons make me yearn for mega flexure structures irl.
-![20250314_015149_0.jpg](/assets/images/2025/20250108_20250318/20250314_015149_0.jpg)
-![20250314_015149_1.jpg](/assets/images/2025/20250108_20250318/20250314_015149_1.jpg)
-   - Heidari2025: [Reconfigurable electrostatically actuated 1 × 5 rotary MOEMS switch](https://doi.org/10.1364/OE.545403)
-   - They have a nice table for "Comparison of various switching mechanisms employing silicon nitride as the waveguide material"
-   ![20250314_015348_0.jpg](/assets/images/2025/20250108_20250318/20250314_015348_0.jpg)
-   
-
-
-# High-Dimensional Structured Light and Vortex Beams
-
-You think you know about light? Think twice.
-
-(too many buzz words tbh, what the hell is a flying donut?? Why can't you be normal and call it radially polarized beam. Vortex beam? Could've called them quantum tornadoes in polarization space)
-![20250314_020148_0.jpg](/assets/images/2025/20250108_20250318/20250314_020148_0.jpg)
-   - He2022: [Towards higher-dimensional structured light](https://doi.org/10.1038/s41377-022-00897-3)
-   - "I added up a giant superposition of separable states (plane waves), and now the spatial and polarization dofs are non-separable, how surprising!"
-   ![20250314_020713_0.jpg](/assets/images/2025/20250108_20250318/20250314_020713_0.jpg)
-   - fyi I didn't invent the name "[quantum tornadoes](https://phys.org/news/2025-03-quantum-tornadoes-momentum-space-experimental.html)"
-   
-
-# Low-Coherence Semiconductor Light Sources
-
-Sometimes coherence is your friend, sometimes it is your enemy. The sensitive interference pattern could be undesired speckles, and you might also only want it in time domain and not in spatial domain etc.
-
-Here is a nice review on low-coherence semiconductor light sources.
-![20250314_041711_0.jpg](/assets/images/2025/20250108_20250318/20250314_041711_0.jpg)
-![20250314_041711_1.jpg](/assets/images/2025/20250108_20250318/20250314_041711_1.jpg)
-   - Lu2024: [Low-coherence semiconductor light sources: devices and applications](https://doi.org/10.1038/s44310-024-00005-w)
-   ![20250314_041823_0.jpg](/assets/images/2025/20250108_20250318/20250314_041823_0.jpg)
-   
-
-
-
-
-# 2D Metals and Thin-Film Properties
-
-Good news everyone, 2D materials got an application -- hot pressing metals into 2D metals (few angstrom thick).
-
-It's actually hard to press metals down to sub nm thickness, and the grown ones are unstable and have bad thickness control, "due to the high surface energy and high ratio of unsaturated surface atoms of 2D structures".
-
-Why? They have some fancy properties, such as electric field effect much higher than bulk metal.
-![20250315_054110_0.jpg](/assets/images/2025/20250108_20250318/20250315_054110_0.jpg)
-![20250315_054110_1.jpg](/assets/images/2025/20250108_20250318/20250315_054110_1.jpg)
-   - They could get different grain size between slow and fast cooling.
-   - Zhao2025: [Realization of 2D metals at the ångström thickness limit](https://nature.com/articles/s41586-025-08711-x)
-   - ([also at](https://nature.com/articles/s41586-025-08711-x.epdf?sharing_token=snWdrrESR9wVzuLuOqz3htRgN0jAjWel9jnR3ZoTv0MUiwi_c00l-mEiobcM7KSwuHIsFVNfSA99wxBmlGpPjnFuCoWHifCW01kNz8WhQgu1aB5iZ5LPbfC7ion6PkeEZu5M78gWzv04xUtAybZtoaT_ctOUKFhh3dMDEWTCAoQ%3D))
-   ![20250315_054536_0.jpg](/assets/images/2025/20250108_20250318/20250315_054536_0.jpg)
-   ![20250315_054536_1.jpg](/assets/images/2025/20250108_20250318/20250315_054536_1.jpg)
-
-
-
-# Soft Robotics and Biomimetic Grippers
-
-Modified Fin Ray Effect (FRE) gripper (same type used on UMI gripper and many other ones) to improve the grip force by >2x and enable more grasp types.
-
-Printed with NinjaFlex filament, and they changed the crossbeam design to have thick and thin part like in a more rigid flexure, as well as added more crossbeams at the tip so it could to mimic fingertip pinching.
-![20250315_160505_0.jpg](/assets/images/2025/20250108_20250318/20250315_160505_0.jpg)
-![20250315_160505_1.jpg](/assets/images/2025/20250108_20250318/20250315_160505_1.jpg)
-   - Sofla2025: [Development of a Soft Gripper for Replicating Human Grasps in Forest Nursery Tasks](https://doi.org/10.1016/j.robot.2025.104987)
-   ![20250315_160556_0.jpg](/assets/images/2025/20250108_20250318/20250315_160556_0.jpg)
-   ![20250315_160556_1.jpg](/assets/images/2025/20250108_20250318/20250315_160556_1.jpg)
-   - General search and chat is still so bad at outside five sigma stuff.
-   - Feix2015: [The GRASP Taxonomy of Human Grasp Types](https://doi.org/10.1109/THMS.2015.2470657)
-   - ([also at](https://is.mpg.de/uploads_file/attachment/attachment/256/grasp_taxonomy.pdf))
-   ![20250315_161057_0.jpg](/assets/images/2025/20250108_20250318/20250315_161057_0.jpg)
-   ![20250315_161057_1.jpg](/assets/images/2025/20250108_20250318/20250315_161057_1.jpg)
-   ![20250315_161057_2.jpg](/assets/images/2025/20250108_20250318/20250315_161057_2.jpg)
-   - this is another good drawing.
-   - Can you tell your diameter based on the grasp type?
-   - Cutkosky1990: [Human Grasp Choice and Robotic Grasp Analysis](https://biorobotics.harvard.edu/pubs/1990/human%20grasp%20choice.pdf)
-   ![20250315_162911_0.jpg](/assets/images/2025/20250108_20250318/20250315_162911_0.jpg)
-
-
-
-# On-Chip Near-Infrared Spectroscopy
-
-Interesting on-chip NIR spectroscopy. The chip is basically a programmable filter, and they sweep its response. They must be losing a lot of light from any realistic samples into the single mode waveguides.
+<img src="/assets/images/2025/20250108_20250318/20250310_153800_0.jpg" alt="20250310_153800_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250310_153800_1.jpg" alt="20250310_153800_1.jpg" /></p>
+<ul>
+  <li>Charaev2023: <a href="https://nature.com/articles/s41565-023-01325-2">Single-photon detection using high-temperature superconductors</a>
+   <img src="/assets/images/2025/20250108_20250318/20250310_153934_0.jpg" alt="20250310_153934_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250310_153934_1.jpg" alt="20250310_153934_1.jpg" /></li>
+</ul>
+
+<h1 id="optical-mode-sorting-and-angular-momentum">Optical Mode Sorting and Angular Momentum</h1>
+
+<p>You know if you do it right your APL Photonics could’ve been a Nature Photonics. Take some notes!</p>
+
+<p>Wait.</p>
+
+<p>It’s the same group of people lol.
+<img src="/assets/images/2025/20250108_20250318/20250202_064347_0.jpg" alt="20250202_064347_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250202_064347_1.jpg" alt="20250202_064347_1.jpg" /></p>
+<ul>
+  <li>The angular distribution reminds me of the “lattice light-sheet” from the super-resolution microscopy people, but this one is in real space not k space.</li>
+  <li>Hu2025: <a href="https://nature.com/articles/s41566-025-01622-3">Generalized angle–orbital angular momentum Talbot effect and modulo mode sorting</a>
+   <img src="/assets/images/2025/20250108_20250318/20250310_154932_0.jpg" alt="20250310_154932_0.jpg" /></li>
+  <li>The “lattice light-sheet” <a href="https://x.com/jwt0625/status/1898646200435507423">post</a>:
+   <img src="/assets/images/2025/20250108_20250318/20250310_155019_0.jpg" alt="20250310_155019_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250310_155019_1.jpg" alt="20250310_155019_1.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250310_155019_2.jpg" alt="20250310_155019_2.jpg" /></li>
+</ul>
+
+<h1 id="tunable-lasers-but-not-so-tunable">Tunable Lasers but not so tunable</h1>
+
+<p><img src="/assets/images/2025/20250108_20250318/20250311_015428_0.jpg" alt="20250311_015428_0.jpg" /></p>
+<ul>
+  <li>Castro2025: <a href="https://doi.org/10.1063/5.0232377">Integrated mode-hop-free tunable lasers at 780 nm for chip-scale classical and quantum photonic applications</a></li>
+  <li>Look at this apple style summary figure
+   <img src="/assets/images/2025/20250108_20250318/20250311_015525_0.jpg" alt="20250311_015525_0.jpg" /></li>
+</ul>
+
+<h1 id="scaling-trapped-ion-quantum-computers">Scaling Trapped-Ion Quantum Computers</h1>
+
+<p>Stretched windows loading screen spinning dots but each dot is actually a trapped ion running around on a chip.</p>
+
+<p>(friend told me I should get some update on trapped ion quantum computing so doing my homework rn)
+<img src="/assets/images/2025/20250108_20250318/20250311_030757_0.jpg" alt="20250311_030757_0.jpg" /></p>
+<ul>
+  <li><a href="https://youtube.com/watch?v=DUHTY9OK6XE&amp;list=LL&amp;index=3&amp;ab_channel=IllinoisQuantum">“Scaling Trapped-Ion Quantum Computers at Quantinuum,” Steven Moses, Quantinuum</a></li>
+  <li>Moses2023: <a href="https://doi.org/10.1103/PhysRevX.13.041052">A Race-Track Trapped-Ion Quantum Processor</a></li>
+  <li>Impressive fidelity numbers albeit slow.
+   <img src="/assets/images/2025/20250108_20250318/20250311_031121_0.jpg" alt="20250311_031121_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250311_031121_1.jpg" alt="20250311_031121_1.jpg" /></li>
+  <li>“You guys cherry picking your benchmark? LOL we’ll do all of them”
+   <img src="/assets/images/2025/20250108_20250318/20250311_031519_0.jpg" alt="20250311_031519_0.jpg" /></li>
+  <li>that purple plot is 100% from rsoft beamprop, iconic colormap that has not changed for decades lol
+   <img src="/assets/images/2025/20250108_20250318/20250311_032427_0.jpg" alt="20250311_032427_0.jpg" /></li>
+</ul>
+
+<h1 id="adhesion-and-adhesives">Adhesion and adhesives</h1>
+
+<p>Meanwhile:</p>
+
+<p>(I don’t like these, maybe except the last one)
+<img src="/assets/images/2025/20250108_20250318/20250307_174607_0.jpg" alt="20250307_174607_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250307_174607_1.jpg" alt="20250307_174607_1.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250307_174607_2.jpg" alt="20250307_174607_2.jpg" /></p>
+<ul>
+  <li>Kinloch1987: <a href="https://link.springer.com/book/10.1007/978-94-015-7764-9">Adhesion and Adhesives</a>
+   <img src="/assets/images/2025/20250108_20250318/20250311_062938_0.jpg" alt="20250311_062938_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250311_062938_1.jpg" alt="20250311_062938_1.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250311_062938_2.jpg" alt="20250311_062938_2.jpg" /></li>
+</ul>
+
+<h1 id="quantum-error-protection-with-squeezed-cat-qubits">Quantum Error Protection with Squeezed Cat Qubits</h1>
+
+<p>A wild capacitor appears!</p>
+
+<p>Poor cat states now not only a superposition but also squeezed. Phase-flip time of 1.3 us and bit-flip time of 22 s!
+<img src="/assets/images/2025/20250108_20250318/20250108_065607_0.jpg" alt="20250108_065607_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250108_065607_1.jpg" alt="20250108_065607_1.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250108_065607_2.jpg" alt="20250108_065607_2.jpg" /></p>
+<ul>
+  <li>“Owing to their visual resemblance to half-moons, we colloquially refer to this cat qubit variation as moon cat.”
+   <img src="/assets/images/2025/20250108_20250318/20250311_150619_0.jpg" alt="20250311_150619_0.jpg" /></li>
+  <li>Rousseau2025: <a href="https://arxiv.org/pdf/2502.07892">Enhancing dissipative cat qubit protection by squeezing</a></li>
+  <li>It is dissipatively stabilized using a three-wave mixing coupling to a buffer mode b “cooling” it.
+   <img src="/assets/images/2025/20250108_20250318/20250311_151219_0.jpg" alt="20250311_151219_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250311_151219_1.jpg" alt="20250311_151219_1.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250311_151219_2.jpg" alt="20250311_151219_2.jpg" /></li>
+</ul>
+
+<h1 id="miniature-high-power-laser-and-microcontrollers">Miniature High-Power Laser and Microcontrollers</h1>
+
+<p>Choose your fighter:</p>
+<ul>
+  <li>A 24MHz Arm® Cortex®-M0+ MCU with 16KB flash, 1KB SRAM, 12-bit ADC that is only 1.4 mm² size</li>
+  <li>A <strong>50 W</strong> laser chip emitting at 915 nm with ~60% efficiency that is only 0.5x5.6 mm² size
+<img src="/assets/images/2025/20250108_20250318/20250311_154204_0.jpg" alt="20250311_154204_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250311_154204_1.jpg" alt="20250311_154204_1.jpg" />
+    <ul>
+      <li>To be fair the MCU is packaged, the die should be even smaller.</li>
+      <li><a href="https://ti.com/product/MSPM0C1104">MSPM0C1104</a></li>
+      <li>Grain of rice size laser <a href="https://x.com/jwt0625/status/1821056638738108697">post</a>:
+ <img src="/assets/images/2025/20250108_20250318/20250311_154401_0.jpg" alt="20250311_154401_0.jpg" />
+ <img src="/assets/images/2025/20250108_20250318/20250311_154401_1.jpg" alt="20250311_154401_1.jpg" /></li>
+      <li>I need to convince someone to buy one of this and open it up.</li>
+      <li>EverBright - <a href="https://v4.cecdn.yun300.cn/100001_2205175052/EB-FCP-300-105-0976-0.5-V.pdf">EB-FCP-300-135-0976-0.5-V</a>
+ <img src="/assets/images/2025/20250108_20250318/20250311_154748_0.jpg" alt="20250311_154748_0.jpg" />
+ <img src="/assets/images/2025/20250108_20250318/20250311_154748_1.jpg" alt="20250311_154748_1.jpg" /></li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="post-quantum-cryptography-and-nist-standards">Post-Quantum Cryptography and NIST Standards</h1>
+
+<p>In addition to the recent quantum computing news from the big players, there are also relatively quiet and recent development in post-quantum encryption. It’s relevant today because you could “harvest now, decrypt later”.</p>
+
+<p>NIST had a call for proposal in 2017, selected 4 quantum-resistant algorithms for standardization in 2022, and released the standards in 2024. Some of them have already been deployed at e.g. AWS.</p>
+
+<p>I don’t know how they work (yet), and just thought time flies and these are actually already in action.
+<img src="/assets/images/2025/20250108_20250318/20250312_014831_0.jpg" alt="20250312_014831_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250312_014831_1.jpg" alt="20250312_014831_1.jpg" /></p>
+<ul>
+  <li>Fig. 1 from <a href="https://csrc.nist.gov/Presentations/2025/building-post-quantum-cloud-services">Building Post-Quantum Cloud Services: Deploying FIPS 203:ML-KEM at AWS</a></li>
+  <li>See more at <a href="https://csrc.nist.gov/events/2025/workshop-on-guidance-for-kems">NIST Workshop on Guidance for KEMs</a></li>
+  <li>Fig. 2 from <a href="https://catalog.workshops.aws/using-pq-crypto-on-aws/en-US/800-appendix/2-qc-risk">Using Post-Quantum Cryptography on AWS - Appendix: PQC details - The QC risk</a>
+   <img src="/assets/images/2025/20250108_20250318/20250312_015048_0.jpg" alt="20250312_015048_0.jpg" /></li>
+</ul>
+
+<h1 id="evolution-of-analog-to-digital-converters">Evolution of Analog-to-Digital Converters</h1>
+
+<p>The first commercial ADC from 1954: 11 bit, 50 kHz sample rate, 150 lbs, 500 W, $8,500
+“ADC” at similar frequency today: 24 bit, 192 kHz, &lt;3 lbs, &lt;2.5 W, ~$100
+<img src="/assets/images/2025/20250108_20250318/20250312_020421_0.jpg" alt="20250312_020421_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250312_020421_1.jpg" alt="20250312_020421_1.jpg" /></p>
+<ul>
+  <li>Fig. 1: <a href="https://analog.com/en/resources/technical-books/data-conversion-handbook.html">The Data Conversion Handbook, 2005, Chapter 1</a></li>
+  <li>Fig. 2: <a href="https://behringer.com/product.html?modelCode=0805-AAT">behringer - UMC404HD</a></li>
+  <li>(<a href="https://fullcompass.com/common/files/24700-BehringerUMC404HDDatasheet.pdf">datasheet</a>)
+   <img src="/assets/images/2025/20250108_20250318/20250312_020614_0.jpg" alt="20250312_020614_0.jpg" /></li>
+</ul>
+
+<h1 id="on-chip-thermal-emission-for-mir-and-lwir">On-Chip Thermal Emission for MIR and LWIR</h1>
+
+<p>Found an integrated “incandescent light bulb”: heating an on-chip floating silicon nitride waveguide to &gt;1000 C</p>
+
+<p>Efficiency is only ~1e-10 because it is radiating everywhere but hey you get broadband emission and some rare MIR and LWIR power on a chip.
+<img src="/assets/images/2025/20250108_20250318/20250312_061310_0.jpg" alt="20250312_061310_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250312_061310_1.jpg" alt="20250312_061310_1.jpg" /></p>
+<ul>
+  <li>Pruessner2025: <a href="https://doi.org/10.1063/5.0252536">A waveguide thermal emitter</a>
+   <img src="/assets/images/2025/20250108_20250318/20250312_061412_0.jpg" alt="20250312_061412_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250312_061412_1.jpg" alt="20250312_061412_1.jpg" /></li>
+</ul>
+
+<h1 id="inertial-focusing-in-microfluidics">Inertial Focusing in Microfluidics</h1>
+
+<p>There is an effect called “inertial focusing” in inertial microfluidics, it involves multiple forces with different scalings, and let you control the focusing positions.
+<img src="/assets/images/2025/20250108_20250318/20250313_013839_0.jpg" alt="20250313_013839_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250313_013839_1.jpg" alt="20250313_013839_1.jpg" /></p>
+<ul>
+  <li>Wang2013: <a href="https://doi.org/10.1063/1.4818906">Vortex-aided inertial microfluidic device for continuous particle separation with high size-selectivity, efficiency, and purity</a></li>
+  <li>Zhou2013: <a href="https://doi.org/10.1039/C2LC41248A">Fundamentals of inertial focusing in microchannels</a></li>
+  <li>Looks fun but must be pretty
+   <img src="/assets/images/2025/20250108_20250318/20250313_014116_0.jpg" alt="20250313_014116_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250313_014116_1.jpg" alt="20250313_014116_1.jpg" /></li>
+  <li>what the hell this is crazy: (Hydroporation employs microfluidic vortex shedding (µVS), a hydrodynamic phenomenon whereby oscillating fluid forces gently permeabilize the cell membrane, allowing delivery of gene editing payloads such as Cas9 ribonucleoprotein (RNP) complexes.)</li>
+  <li>Sytsma2025: <a href="https://doi.org/10.1038/s41598-025-89070-5">Scalable intracellular delivery via microfluidic vortex shedding enhances the function of chimeric antigen receptor T-cells</a>
+   <img src="/assets/images/2025/20250108_20250318/20250313_043943_0.jpg" alt="20250313_043943_0.jpg" /></li>
+</ul>
+
+<h1 id="high-accuracy-3d-face-scanning-with-structured-light">High-Accuracy 3D Face Scanning with Structured Light</h1>
+
+<p>This is what you need to scan someone’s face with ~100 um RMSE at half a meter away.</p>
+
+<p>It is using structured light from three integrated fringe masks, carefully calibrated and projected with 120 deg phase offset (thus no need for mechanical projectors), plus some magic reconstruction, you get the high accuracy 3D face.</p>
+
+<p>(PAMPA: pre-aligned micro-projection array)
+<img src="/assets/images/2025/20250108_20250318/20250313_035520_0.jpg" alt="20250313_035520_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250313_035520_1.jpg" alt="20250313_035520_1.jpg" /></p>
+<ul>
+  <li>Guo2025: <a href="https://doi.org/10.1364/OE.555406">Real-time high-accuracy 3D facial (micro) expression measurement based on pre-aligned micro-projection arrays</a>
+   <img src="/assets/images/2025/20250108_20250318/20250313_035632_0.jpg" alt="20250313_035632_0.jpg" /></li>
+  <li>Is this the OG structured light paper?</li>
+  <li>Srinivasan1984: <a href="https://doi.org/10.1364/AO.23.003105">Automated phase-measuring profilometry of 3-D diffuse objects</a>
+   <img src="/assets/images/2025/20250108_20250318/20250313_035746_0.jpg" alt="20250313_035746_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250313_035746_1.jpg" alt="20250313_035746_1.jpg" /></li>
+  <li>They have an older version with just one mask and a stepper motor to shift its phase. They complain about its step size inconsistency and it needs feedback control.</li>
+  <li>Guo2024: <a href="https://doi.org/10.1364/OE.513951">High accuracy, compact 3D face imaging method based on translational and online-switchable phase-shifting fringe projection</a>
+   <img src="/assets/images/2025/20250108_20250318/20250313_040406_0.jpg" alt="20250313_040406_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250313_040406_1.jpg" alt="20250313_040406_1.jpg" /></li>
+</ul>
+
+<h1 id="optical-machine-gun-for-microparticle-acceleration">Optical Machine Gun for Microparticle Acceleration</h1>
+
+<p>BREAKING: shots fired just outside an ACF, multiple micro particles ejected at high speed. Full story coming up on the evening news.</p>
+
+<p>(They actually called it an “optical machine gun”… Images of the light beam outside the fiber is actually real, from fluorescence dye rhodamine B. ACF: annular-core capillary fiber)
+<img src="/assets/images/2025/20250108_20250318/20250313_042819_0.jpg" alt="20250313_042819_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250313_042819_1.jpg" alt="20250313_042819_1.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250313_042819_2.jpg" alt="20250313_042819_2.jpg" /></p>
+<ul>
+  <li>Du2025: <a href="https://doi.org/10.1364/OE.554337">Capillary fiber-based optical machine gun for micro particle continuous shooting</a></li>
+  <li>The “high speed” is about 1 mm/s.
+   <img src="/assets/images/2025/20250108_20250318/20250313_043535_0.jpg" alt="20250313_043535_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250313_043535_1.jpg" alt="20250313_043535_1.jpg" /></li>
+</ul>
+
+<h1 id="micro-transfer-printing-for-photonic-integration">Micro-Transfer Printing for Photonic Integration</h1>
+
+<p>I’ve done some transfer print with PDMS myself. Pretty crazy how big of a piece (40 um x 1 mm) they could pick up and put down.</p>
+
+<p>I had no idea there’s already a commercial micro-transfer printing tool (X-Celeprint µTP-100).
+<img src="/assets/images/2025/20250108_20250318/20250313_160526_0.jpg" alt="20250313_160526_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250313_160526_1.jpg" alt="20250313_160526_1.jpg" /></p>
+<ul>
+  <li>Vandekerckhove2025: <a href="https://arxiv.org/pdf/2503.08783">A scalable quadratic nonlinear silicon photonics platform with printable entangled photon-pair sources</a></li>
+  <li>No mention of how fast it can be done, but I do like the argument of “PPLN devices would typically be only a small part of a larger
+   <img src="/assets/images/2025/20250108_20250318/20250313_160924_0.jpg" alt="20250313_160924_0.jpg" /></li>
+</ul>
+
+<h1 id="ultra-wideband-plasmonic-electro-optic-modulators">Ultra-Wideband Plasmonic Electro-Optic Modulators</h1>
+
+<p>A plasmonic + electro-optic polymer modulator with a bandwidth of, <em>checks notes</em>, 997 GHz!</p>
+
+<p>They have to use eight different sources based on electrical mixers to generate signals across the frequency range from 10 MHz to 1.14 THz</p>
+
+<p>I want to see their probing setup..
+<img src="/assets/images/2025/20250108_20250318/20250313_161912_0.jpg" alt="20250313_161912_0.jpg" /></p>
+<ul>
+  <li>10 um length, IL = 5.6 dB, Vpi<em>L = 234 V</em>um.</li>
+  <li>Horst2025: <a href="https://doi.org/10.1364/OPTICA.544016">Ultra-wideband MHz to THz plasmonic EO modulator</a></li>
+  <li>They must have some close friends at Virginia Diodes.
+   <img src="/assets/images/2025/20250108_20250318/20250313_162129_0.jpg" alt="20250313_162129_0.jpg" /></li>
+</ul>
+
+<h1 id="moems-optical-switching-and-flexure-mechanics">MOEMS Optical Switching and Flexure Mechanics</h1>
+
+<p>“Mega” structures like this on a chip for tiny photons make me yearn for mega flexure structures irl.
+<img src="/assets/images/2025/20250108_20250318/20250314_015149_0.jpg" alt="20250314_015149_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250314_015149_1.jpg" alt="20250314_015149_1.jpg" /></p>
+<ul>
+  <li>Heidari2025: <a href="https://doi.org/10.1364/OE.545403">Reconfigurable electrostatically actuated 1 × 5 rotary MOEMS switch</a></li>
+  <li>They have a nice table for “Comparison of various switching mechanisms employing silicon nitride as the waveguide material”
+   <img src="/assets/images/2025/20250108_20250318/20250314_015348_0.jpg" alt="20250314_015348_0.jpg" /></li>
+</ul>
+
+<h1 id="high-dimensional-structured-light-and-vortex-beams">High-Dimensional Structured Light and Vortex Beams</h1>
+
+<p>You think you know about light? Think twice.</p>
+
+<p>(too many buzz words tbh, what the hell is a flying donut?? Why can’t you be normal and call it radially polarized beam. Vortex beam? Could’ve called them quantum tornadoes in polarization space)
+<img src="/assets/images/2025/20250108_20250318/20250314_020148_0.jpg" alt="20250314_020148_0.jpg" /></p>
+<ul>
+  <li>He2022: <a href="https://doi.org/10.1038/s41377-022-00897-3">Towards higher-dimensional structured light</a></li>
+  <li>“I added up a giant superposition of separable states (plane waves), and now the spatial and polarization dofs are non-separable, how surprising!”
+   <img src="/assets/images/2025/20250108_20250318/20250314_020713_0.jpg" alt="20250314_020713_0.jpg" /></li>
+  <li>fyi I didn’t invent the name “<a href="https://phys.org/news/2025-03-quantum-tornadoes-momentum-space-experimental.html">quantum tornadoes</a>”</li>
+</ul>
+
+<h1 id="low-coherence-semiconductor-light-sources">Low-Coherence Semiconductor Light Sources</h1>
+
+<p>Sometimes coherence is your friend, sometimes it is your enemy. The sensitive interference pattern could be undesired speckles, and you might also only want it in time domain and not in spatial domain etc.</p>
+
+<p>Here is a nice review on low-coherence semiconductor light sources.
+<img src="/assets/images/2025/20250108_20250318/20250314_041711_0.jpg" alt="20250314_041711_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250314_041711_1.jpg" alt="20250314_041711_1.jpg" /></p>
+<ul>
+  <li>Lu2024: <a href="https://doi.org/10.1038/s44310-024-00005-w">Low-coherence semiconductor light sources: devices and applications</a>
+   <img src="/assets/images/2025/20250108_20250318/20250314_041823_0.jpg" alt="20250314_041823_0.jpg" /></li>
+</ul>
+
+<h1 id="2d-metals-and-thin-film-properties">2D Metals and Thin-Film Properties</h1>
+
+<p>Good news everyone, 2D materials got an application – hot pressing metals into 2D metals (few angstrom thick).</p>
+
+<p>It’s actually hard to press metals down to sub nm thickness, and the grown ones are unstable and have bad thickness control, “due to the high surface energy and high ratio of unsaturated surface atoms of 2D structures”.</p>
+
+<p>Why? They have some fancy properties, such as electric field effect much higher than bulk metal.
+<img src="/assets/images/2025/20250108_20250318/20250315_054110_0.jpg" alt="20250315_054110_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250315_054110_1.jpg" alt="20250315_054110_1.jpg" /></p>
+<ul>
+  <li>They could get different grain size between slow and fast cooling.</li>
+  <li>Zhao2025: <a href="https://nature.com/articles/s41586-025-08711-x">Realization of 2D metals at the ångström thickness limit</a></li>
+  <li>(<a href="https://nature.com/articles/s41586-025-08711-x.epdf?sharing_token=snWdrrESR9wVzuLuOqz3htRgN0jAjWel9jnR3ZoTv0MUiwi_c00l-mEiobcM7KSwuHIsFVNfSA99wxBmlGpPjnFuCoWHifCW01kNz8WhQgu1aB5iZ5LPbfC7ion6PkeEZu5M78gWzv04xUtAybZtoaT_ctOUKFhh3dMDEWTCAoQ%3D">also at</a>)
+   <img src="/assets/images/2025/20250108_20250318/20250315_054536_0.jpg" alt="20250315_054536_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250315_054536_1.jpg" alt="20250315_054536_1.jpg" /></li>
+</ul>
+
+<h1 id="soft-robotics-and-biomimetic-grippers">Soft Robotics and Biomimetic Grippers</h1>
+
+<p>Modified Fin Ray Effect (FRE) gripper (same type used on UMI gripper and many other ones) to improve the grip force by &gt;2x and enable more grasp types.</p>
+
+<p>Printed with NinjaFlex filament, and they changed the crossbeam design to have thick and thin part like in a more rigid flexure, as well as added more crossbeams at the tip so it could to mimic fingertip pinching.
+<img src="/assets/images/2025/20250108_20250318/20250315_160505_0.jpg" alt="20250315_160505_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250315_160505_1.jpg" alt="20250315_160505_1.jpg" /></p>
+<ul>
+  <li>Sofla2025: <a href="https://doi.org/10.1016/j.robot.2025.104987">Development of a Soft Gripper for Replicating Human Grasps in Forest Nursery Tasks</a>
+   <img src="/assets/images/2025/20250108_20250318/20250315_160556_0.jpg" alt="20250315_160556_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250315_160556_1.jpg" alt="20250315_160556_1.jpg" /></li>
+  <li>General search and chat is still so bad at outside five sigma stuff.</li>
+  <li>Feix2015: <a href="https://doi.org/10.1109/THMS.2015.2470657">The GRASP Taxonomy of Human Grasp Types</a></li>
+  <li>(<a href="https://is.mpg.de/uploads_file/attachment/attachment/256/grasp_taxonomy.pdf">also at</a>)
+   <img src="/assets/images/2025/20250108_20250318/20250315_161057_0.jpg" alt="20250315_161057_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250315_161057_1.jpg" alt="20250315_161057_1.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250315_161057_2.jpg" alt="20250315_161057_2.jpg" /></li>
+  <li>this is another good drawing.</li>
+  <li>Can you tell your diameter based on the grasp type?</li>
+  <li>Cutkosky1990: <a href="https://biorobotics.harvard.edu/pubs/1990/human%20grasp%20choice.pdf">Human Grasp Choice and Robotic Grasp Analysis</a>
+   <img src="/assets/images/2025/20250108_20250318/20250315_162911_0.jpg" alt="20250315_162911_0.jpg" /></li>
+</ul>
+
+<h1 id="on-chip-near-infrared-spectroscopy">On-Chip Near-Infrared Spectroscopy</h1>
+
+<p>Interesting on-chip NIR spectroscopy. The chip is basically a programmable filter, and they sweep its response. They must be losing a lot of light from any realistic samples into the single mode waveguides.
 The photonic circuit is 300 nm thick SiN made by CORNERSTONE. Light source is superluminescent diodes (SLD). I bet they did not go longer wavelengths because the oxide cladding would start being a problem.
-![20250316_014741_0.jpg](/assets/images/2025/20250108_20250318/20250316_014741_0.jpg)
-![20250316_014741_1.jpg](/assets/images/2025/20250108_20250318/20250316_014741_1.jpg)
-   - Yao2024: [Chip-scale sensor for spectroscopic metrology](https://doi.org/10.1038/s41467-024-54708-x)
-   ![20250316_014844_0.jpg](/assets/images/2025/20250108_20250318/20250316_014844_0.jpg)
-   - Relevant read on low coherence source: [post](https://x.com/jwt0625/status/1900400793053962512)
-   ![20250316_015032_0.jpg](/assets/images/2025/20250108_20250318/20250316_015032_0.jpg)
-   ![20250316_015032_1.jpg](/assets/images/2025/20250108_20250318/20250316_015032_1.jpg)
-   - No wonder it looks familiar, it's the same group of people that did [this work](https://x.com/jwt0625/status/1891751018779770971)
-   ![20250316_015141_0.jpg](/assets/images/2025/20250108_20250318/20250316_015141_0.jpg)
-   ![20250316_015141_1.jpg](/assets/images/2025/20250108_20250318/20250316_015141_1.jpg)
-   
+<img src="/assets/images/2025/20250108_20250318/20250316_014741_0.jpg" alt="20250316_014741_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250316_014741_1.jpg" alt="20250316_014741_1.jpg" /></p>
+<ul>
+  <li>Yao2024: <a href="https://doi.org/10.1038/s41467-024-54708-x">Chip-scale sensor for spectroscopic metrology</a>
+   <img src="/assets/images/2025/20250108_20250318/20250316_014844_0.jpg" alt="20250316_014844_0.jpg" /></li>
+  <li>Relevant read on low coherence source: <a href="https://x.com/jwt0625/status/1900400793053962512">post</a>
+   <img src="/assets/images/2025/20250108_20250318/20250316_015032_0.jpg" alt="20250316_015032_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250316_015032_1.jpg" alt="20250316_015032_1.jpg" /></li>
+  <li>No wonder it looks familiar, it’s the same group of people that did <a href="https://x.com/jwt0625/status/1891751018779770971">this work</a>
+   <img src="/assets/images/2025/20250108_20250318/20250316_015141_0.jpg" alt="20250316_015141_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250316_015141_1.jpg" alt="20250316_015141_1.jpg" /></li>
+</ul>
 
+<h1 id="glitterintechs-chips">GlitterinTech’s chips</h1>
 
-# GlitterinTech's chips
-
-The company behind this work has some cool looking chips.
+<p>The company behind this work has some cool looking chips.
 (likely made by cornerstone)
-![20250316_014741_0.jpg](/assets/images/2025/20250108_20250318/20250316_014741_0.jpg)
-![20250316_014741_1.jpg](/assets/images/2025/20250108_20250318/20250316_014741_1.jpg)
-![20250316_014741_2.jpg](/assets/images/2025/20250108_20250318/20250316_014741_2.jpg)
-![20250316_014741_3.jpg](/assets/images/2025/20250108_20250318/20250316_014741_3.jpg)
-![20250316_014741_4.jpg](/assets/images/2025/20250108_20250318/20250316_014741_4.jpg)
-![20250316_014741_5.jpg](/assets/images/2025/20250108_20250318/20250316_014741_5.jpg)
-   - [GlitterinTech](https://glitterintech.com/about.html)
-   - [cornerstone](https://cornerstone.sotonfab.co.uk)
-   ![20250316_021510_0.jpg](/assets/images/2025/20250108_20250318/20250316_021510_0.jpg)
-   ![20250316_021510_1.jpg](/assets/images/2025/20250108_20250318/20250316_021510_1.jpg)
+<img src="/assets/images/2025/20250108_20250318/20250316_014741_0.jpg" alt="20250316_014741_0.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250316_014741_1.jpg" alt="20250316_014741_1.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250316_014741_2.jpg" alt="20250316_014741_2.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250316_014741_3.jpg" alt="20250316_014741_3.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250316_014741_4.jpg" alt="20250316_014741_4.jpg" />
+<img src="/assets/images/2025/20250108_20250318/20250316_014741_5.jpg" alt="20250316_014741_5.jpg" /></p>
+<ul>
+  <li><a href="https://glitterintech.com/about.html">GlitterinTech</a></li>
+  <li><a href="https://cornerstone.sotonfab.co.uk">cornerstone</a>
+   <img src="/assets/images/2025/20250108_20250318/20250316_021510_0.jpg" alt="20250316_021510_0.jpg" />
+   <img src="/assets/images/2025/20250108_20250318/20250316_021510_1.jpg" alt="20250316_021510_1.jpg" /></li>
+</ul>
 
+<h1 id="projects">Projects</h1>
 
-# Projects
+<p>Procrastinating:</p>
+<ul>
+  <li>Droplet walker</li>
+  <li>TabTreeTracker</li>
+  <li>Low cost robot arm</li>
+  <li>Joystick doomscrolling</li>
+</ul>
 
+<p>Ongoing:</p>
+<ul>
+  <li>Quantum frequency conversion plot
+    <ul>
+      <li>Week 38: Gave a talk at PsiQuantum. I like the hat.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/jwt625/interactwave">interactive wave</a>
+    <ul>
+      <li>week 37: made a python standalone library, see <a href="https://github.com/jwt625/BPM">BPM</a>.</li>
+    </ul>
+  </li>
+  <li>fiber2chip <a href="https://jwt625.github.io/tutorial/fiber2chip-history-concept/">blog</a></li>
+  <li>backyard landscaping:
+    <ul>
+      <li>week 38: traveled to LA this weekend! No backyard work.</li>
+      <li>week 37: working on the form of the stairs, deck joists</li>
+      <li>week 36: did not work on it</li>
+      <li>week 35: finished the deck joists and boarded the side of the deck</li>
+      <li>week 34: finished jacuzzi base &amp; deck frame</li>
+    </ul>
+  </li>
+</ul>
 
-Procrastinating:
-- Droplet walker
-- TabTreeTracker
-- Low cost robot arm
-- Joystick doomscrolling
+<p>Finished:</p>
+<ul>
+  <li>(week 32:) SiPho writeup for <a href="https://x.com/byte_thrasher">avi</a>’s zine.
+    <ul>
+      <li>week 36: published on blog</li>
+    </ul>
+  </li>
+  <li>Continuing [redacted]
+    <ul>
+      <li>Week 36: This has been finished.</li>
+    </ul>
+  </li>
+</ul>
 
-Ongoing:
-- Quantum frequency conversion plot
-   - Week 38: Gave a talk at PsiQuantum. I like the hat.
-- [interactive wave](https://github.com/jwt625/interactwave)
-   - week 37: made a python standalone library, see [BPM](https://github.com/jwt625/BPM).
-- fiber2chip [blog](https://jwt625.github.io/tutorial/fiber2chip-history-concept/)
-- backyard landscaping: 
-   - week 38: traveled to LA this weekend! No backyard work.
-   - week 37: working on the form of the stairs, deck joists
-   - week 36: did not work on it
-   - week 35: finished the deck joists and boarded the side of the deck
-   - week 34: finished jacuzzi base & deck frame
+<p>Planning:</p>
+<ul>
+  <li>Wave demo with ~ 300 Hz water surface wave + 3D printed components</li>
+</ul>
 
-Finished:
-- (week 32:) SiPho writeup for [avi](https://x.com/byte_thrasher)'s zine.
-   - week 36: published on blog
-- Continuing [redacted]
-   - Week 36: This has been finished.
-
-
-Planning:
-- Wave demo with ~ 300 Hz water surface wave + 3D printed components
-
-Gave up
-- Traveling wave excitation of mechanical ring resonator (see [this thread](https://x.com/jwt0625/status/1877578653648986365))
-- [Tiny Tapeout](https://github.com/jwt625/tt-test)
-   - abort? (because of efabless no funding)]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Electroreception" /><category term="Laser_Doppler_Vibrometry" /><category term="Pulse_Tube_Cryocooler" /><category term="Super_resolution_Microscopy" /><category term="Expansion_Microscopy" /><category term="Quantum_Frequency_Conversion" /><category term="Silicon_Carbide_Waveguide" /><category term="Lithium_Niobate" /><category term="Optical_Modulator" /><category term="Photonics" /><category term="Chu_Harrington_Limit" /><category term="Graphene_Electrode" /><category term="Superconducting_Nanowire_SPD" /><category term="Quantum_Computing" /><category term="Trapped_Ion_Qubit" /><category term="Post_Quantum_Cryptography" /><category term="ADC" /><category term="Microfluidics" /><category term="Structured_Light" /><category term="Optical_Machine_Gun" /><category term="Micro_Transfer_Printing" /><category term="Nanofab" /><category term="Plasmonic_Modulator" /><category term="MEMS_Switch" /><category term="Vortex_Beam" /><category term="Low_Coherence_Light_Source" /><category term="2D_Metal" /><category term="Soft_Gripper" /><category term="Robotics" /><category term="Near_Infrared_Spectroscopy" /><category term="Annular_Core_Fiber" /><summary type="html"><![CDATA[Compact Cryocoolers for Space Applications]]></summary></entry><entry><title type="html">This week’s outside five sigma (#37)</title><link href="http://localhost:4000/ofs/weekly-OFS-37/" rel="alternate" type="text/html" title="This week’s outside five sigma (#37)" /><published>2025-03-09T00:00:00-08:00</published><updated>2025-03-09T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-37</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-37/"><![CDATA[<h1 id="high-actuator-mems-deformable-mirrors-for-astronomy">High-Actuator MEMS Deformable Mirrors for Astronomy</h1>
+<p>Gave up</p>
+<ul>
+  <li>Traveling wave excitation of mechanical ring resonator (see <a href="https://x.com/jwt0625/status/1877578653648986365">this thread</a>)</li>
+  <li><a href="https://github.com/jwt625/tt-test">Tiny Tapeout</a>
+    <ul>
+      <li>abort? (because of efabless no funding)</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Electroreception" /><category term="Laser_Doppler_Vibrometry" /><category term="Pulse_Tube_Cryocooler" /><category term="Super_resolution_Microscopy" /><category term="Expansion_Microscopy" /><category term="Quantum_Frequency_Conversion" /><category term="Silicon_Carbide_Waveguide" /><category term="Lithium_Niobate" /><category term="Optical_Modulator" /><category term="Photonics" /><category term="Chu_Harrington_Limit" /><category term="Graphene_Electrode" /><category term="Superconducting_Nanowire_SPD" /><category term="Quantum_Computing" /><category term="Trapped_Ion_Qubit" /><category term="Post_Quantum_Cryptography" /><category term="ADC" /><category term="Microfluidics" /><category term="Structured_Light" /><category term="Optical_Machine_Gun" /><category term="Micro_Transfer_Printing" /><category term="Nanofab" /><category term="Plasmonic_Modulator" /><category term="MEMS_Switch" /><category term="Vortex_Beam" /><category term="Low_Coherence_Light_Source" /><category term="2D_Metal" /><category term="Soft_Gripper" /><category term="Robotics" /><category term="Near_Infrared_Spectroscopy" /><category term="Annular_Core_Fiber" /><summary type="html"><![CDATA[Compact Cryocoolers for Space Applications]]></summary></entry><entry><title type="html">This week’s outside five sigma (#37)</title><link href="http://localhost:4000/ofs/weekly-OFS-37/" rel="alternate" type="text/html" title="This week’s outside five sigma (#37)" /><published>2025-03-09T00:00:00-08:00</published><updated>2025-03-09T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-37</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-37/"><![CDATA[<h1 id="high-actuator-mems-deformable-mirrors-for-astronomy">High-Actuator MEMS Deformable Mirrors for Astronomy</h1>
 
 <p>2 cm-square MEMS deformable mirror, with 4096 microactuators. Manufactured by Boston Micromachines.
 <img src="/assets/images/2025/20241206_20250308/20250307_173024_0.jpg" alt="20250307_173024_0.jpg" />
