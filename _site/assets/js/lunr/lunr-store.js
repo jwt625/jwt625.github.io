@@ -376,4 +376,10 @@ var store = [{
         "tags": ["Electroreception","Laser_Doppler_Vibrometry","Pulse_Tube_Cryocooler","Super_resolution_Microscopy","Expansion_Microscopy","Quantum_Frequency_Conversion","Silicon_Carbide_Waveguide","Lithium_Niobate","Optical_Modulator","Photonics","Chu_Harrington_Limit","Graphene_Electrode","Superconducting_Nanowire_SPD","Quantum_Computing","Trapped_Ion_Qubit","Post_Quantum_Cryptography","ADC","Microfluidics","Structured_Light","Optical_Machine_Gun","Micro_Transfer_Printing","Nanofab","Plasmonic_Modulator","MEMS_Switch","Vortex_Beam","Low_Coherence_Light_Source","2D_Metal","Soft_Gripper","Robotics","Near_Infrared_Spectroscopy","Annular_Core_Fiber"],
         "url": "/ofs/weekly-OFS-38/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#38)",
+        "excerpt":"Quantum Sensors Found a 2 year old article with sick actual photos of the “quantum sensors”: A quantum sensor developed by the US Army in 2020 can detect communications signals over the entire radio-frequency spectrum. Credit: United States Army A diamond-based quantum sensor can measure magnetic fields at the atomic...","categories": ["OFS"],
+        "tags": ["Dielectric_breakdown","Quantum_communication","Piezoelectric","Semiconductor","Pyroelectric","Surface_acoustic_wave","Femtosecond_laser","Laser","Fiber_laser","Large_pitch_fiber","Photonics","Ring_modulator","Silicon_photonics","FCC_teardown","Nanotube","Quantum_sensor","Rydberg_atom","Quantum_memory","Entanglement","Quantum_key_distribution","Superconducting_qubit","Josephson_junction","Satellite","Optics","Magnetorheological_polishing","Epitaxy","Nanowire","Acoustic_robotics"],
+        "url": "/ofs/weekly-OFS-39/",
+        "teaser": null
       }]

@@ -1,0 +1,1277 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1803575801885167909",
+        "tweets": [
+            {
+                "text": "TIL you could have dielectric breakdown in perfect vacuum https://en.m.wikipedia.org/wiki/Schwinger_limit…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GQeWiHEaIAMucVX?format=jpg",
+                        "local_path": "media/20240619_234914_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-06-19T23:49:14+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1901095934261338152",
+        "tweets": [
+            {
+                "text": "Why do bio people like making plots into circles??\n\n(can't blame them, I just made a gaussian distribution plot onto a circle a few days ago)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmIMYHAbcAAGS_P?format=jpg",
+                        "local_path": "media/20250316_021926_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-16T02:19:26+00:00"
+            },
+            {
+                "text": "Chen2024: Global marine microbial diversity and its potential in bioprospecting\nhttps://doi.org/10.1038/s41586-024-07891-2…\nTaking a look at it because I found Nature Index has nice statistics of publications from different institutions including corporations, and apparently the corporation",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmINZKtbcAQiOkc?format=jpg",
+                        "local_path": "media/20250316_022251_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-16T02:22:51+00:00"
+            },
+            {
+                "text": "the gaussian distribution on a circle plot",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/tweet_video_thumb/Gl4eM8MbwAABhB9.jpg",
+                        "local_path": "media/20250316_024015_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-16T02:40:15+00:00"
+            },
+            {
+                "text": "grok says https://moshi4.github.io/pyCirclize/",
+                "media": [],
+                "timestamp": "2025-03-16T02:27:19+00:00"
+            },
+            {
+                "text": "grok says https://moshi4.github.io/pyCirclize/",
+                "media": [],
+                "timestamp": "2025-03-16T02:27:19+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1901176293607305375",
+        "tweets": [
+            {
+                "text": "When your freaking wifi is SLOWER and WORSE than quantum communication (even when ignoring the quantum part)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmJTbc8a0AASNJ2?format=jpg",
+                        "local_path": "media/20250316_073845_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmJVZeOaoAAAkI9?format=jpg",
+                        "local_path": "media/20250316_073845_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-16T07:38:45+00:00"
+            },
+            {
+                "text": "Craddock2023: High-rate sub-GHz linewidth bichromatic entanglement source for quantum networking\nhttps://arxiv.org/pdf/2304.05504",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmJWFb2bcAMf-20?format=jpg",
+                        "local_path": "media/20250316_074013_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-16T07:40:13+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1901310052138647666",
+        "tweets": [
+            {
+                "text": "Hmm piezoelectric materials that are also semiconductors. Could be useful for some weird applications.\nNever thought about comparing both piezoelectricity and bandgap at the same time.\nNo measure of mobility though, also no acoustic propagation loss.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmLOdAObkAAYD4P?format=jpg",
+                        "local_path": "media/20250316_163015_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-16T16:30:15+00:00"
+            },
+            {
+                "text": "Huang2025: Piezoelectricity in half-Heusler narrow-bandgap semiconductors\nhttps://doi.org/10.1126/science.ads9584…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmLPncDaUAAfm1v?format=png",
+                        "local_path": "media/20250316_163133_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-16T16:31:33+00:00"
+            },
+            {
+                "text": "similar with pyroelectric effect, >100 kV from 40 C temperature change",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GRF75Gba4AA9PbD?format=jpg",
+                        "local_path": "media/20250316_191736_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GRF7-W8bYAAyBFj?format=jpg",
+                        "local_path": "media/20250316_191736_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GRF8R3HbwAAwwh1?format=jpg",
+                        "local_path": "media/20250316_191736_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GRF8UBva0AERGgb?format=jpg",
+                        "local_path": "media/20250316_191736_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-16T19:17:36+00:00"
+            },
+            {
+                "text": "similar with pyroelectric effect, >100 kV from 40 C temperature change",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GRF75Gba4AA9PbD?format=jpg",
+                        "local_path": "media/20250316_191736_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GRF7-W8bYAAyBFj?format=jpg",
+                        "local_path": "media/20250316_191736_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GRF8R3HbwAAwwh1?format=jpg",
+                        "local_path": "media/20250316_191736_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GRF8UBva0AERGgb?format=jpg",
+                        "local_path": "media/20250316_191736_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-16T19:17:36+00:00"
+            },
+            {
+                "text": "pretty relevant!\nthis summarizes a big portion of my life in the past few years",
+                "media": [],
+                "timestamp": "2025-03-16T16:46:29+00:00"
+            },
+            {
+                "text": "i know wood is, i guess this also makes sense ",
+                "media": [],
+                "timestamp": "2025-03-16T17:12:49+00:00"
+            },
+            {
+                "text": "there are quite a few groups doing this, diamond turned and then polished, you could get pretty high quality factor",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgEZOA2bUAAgDa5?format=jpg",
+                        "local_path": "media/20250316_213852_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GgEa65bbYAA6afs?format=jpg",
+                        "local_path": "media/20250316_213852_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-16T21:38:52+00:00"
+            },
+            {
+                "text": "probably also in some 50 years old soviet papers",
+                "media": [],
+                "timestamp": "2025-03-16T22:53:45+00:00"
+            },
+            {
+                "text": "got a table / plot?",
+                "media": [],
+                "timestamp": "2025-03-16T18:01:38+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1901350729341903098",
+        "tweets": [
+            {
+                "text": "Is there a word for describing the feeling when you found someone had the same weird idea that you deemed too hard to try, and they found someone else had done it before?\nThis is about using periodic poling to transduce acoustic waves instead of interdigital transducer (you need the periodicity one way or another to phase-match with the acoustic waves), so the electrodes are much easier to pattern, and you could potentially excite much higher frequency at lower poling period. Otherwise the electrodes would get too narrow & lossy & have self resonances.\nThis is made possible because people figured out how to do poling with fs lasers ~10 years ago, making it much more versatile.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmLzDbHawAA29oO?format=jpg",
+                        "local_path": "media/20250316_191153_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmLzXLaa0AAlIZX?format=jpg",
+                        "local_path": "media/20250316_191153_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-16T19:11:53+00:00"
+            },
+            {
+                "text": "Above two screenshots from\nXu2022: Femtosecond laser writing of lithium niobate ferroelectric nanodomains\nhttps://doi.org/10.1038/s41586-022-05042-z…\nYudistira2011: Diffraction less and strongly confined surface acoustic waves in domain inverted LiNbO3 superlattices\nhttps://doi.org/10.1063/1.3599569…\nHere's",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmL06W3aMAAlKsk?format=jpg",
+                        "local_path": "media/20250316_191438_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-16T19:14:38+00:00"
+            },
+            {
+                "text": "Related work, but flipping the crystal orientation along thickness to excite higher order modes with better coupling",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkKff2SbwAAMHnd?format=jpg",
+                        "local_path": "media/20250316_192151_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-16T19:21:51+00:00"
+            },
+            {
+                "text": "Ok this fs laser poling is actually pretty interesting and crazy, it is not using the E field of the laser, but from the thermoelectric/pyroelectric effect of the nonlinear crystal itself, and thus the E field looks like it's from a charge (temperature change), and has different",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmL5rnLaUAAriqw?format=jpg",
+                        "local_path": "media/20250316_193535_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmL5vF_agAAz9XD?format=jpg",
+                        "local_path": "media/20250316_193535_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-16T19:35:35+00:00"
+            },
+            {
+                "text": "It's dissipated as heat (if you just want a notch filter), or if designed properly it could go out as surface acoustic waves and get received by another transducer, and give you and bandpass filter.\nBackreflection outside the transducer bandwidth could cause issue to the",
+                "media": [],
+                "timestamp": "2025-03-17T23:20:31+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1901888111812198646",
+        "tweets": [
+            {
+                "text": "Forget about keeping Moore's law alive, plenty of folks already on it. I want to keep the laser power scaling law alive.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmTcmBzbkAAqWTF?format=jpg",
+                        "local_path": "media/20250318_064715_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmTc9YhaIAA0Xb0?format=jpg",
+                        "local_path": "media/20250318_064715_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-18T06:47:15+00:00"
+            },
+            {
+                "text": "Mourou2006: Optics in the relativistic regime\nhttps://doi.org/10.1103/RevModPhys.78.309…\nRichardson2010: High power fiber lasers: current status and future perspectives [Invited]\nhttps://doi.org/10.1364/JOSAB.27.000B63…\nFunny plot of different types of pulsed laser as a \"phase diagram\" and quasi-3d ",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmTdd86aIAAEZl5?format=jpg",
+                        "local_path": "media/20250318_065028_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmTdvZTbYAAUnP3?format=jpg",
+                        "local_path": "media/20250318_065028_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-18T06:50:28+00:00"
+            },
+            {
+                "text": "That pulse does not look 1e6 higher to me lol, missed opportunity to draw it across all the pages of the paper",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmTfdk6agAAt0d7?format=jpg",
+                        "local_path": "media/20250318_065816_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-18T06:58:16+00:00"
+            },
+            {
+                "text": "sounds perfect for deep research but probably annoying to proofread \nhere's one that's slightly towards it",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmTdd86aIAAEZl5?format=jpg",
+                        "local_path": "media/20250318_071816_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmTdvZTbYAAUnP3?format=jpg",
+                        "local_path": "media/20250318_071816_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-18T07:18:16+00:00"
+            },
+            {
+                "text": "",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmXoq7EbIAAPI8e?format=jpg",
+                        "local_path": "media/20250319_021603_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T02:16:03+00:00"
+            },
+            {
+                "text": "sounds perfect for deep research but probably annoying to proofread \nhere's one that's slightly towards it",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmTdd86aIAAEZl5?format=jpg",
+                        "local_path": "media/20250318_071816_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmTdvZTbYAAUnP3?format=jpg",
+                        "local_path": "media/20250318_071816_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-18T07:18:16+00:00"
+            },
+            {
+                "text": "",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmXoq7EbIAAPI8e?format=jpg",
+                        "local_path": "media/20250319_021603_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T02:16:03+00:00"
+            },
+            {
+                "text": "why not a big magnetron",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5M3S-akAA1y9h?format=jpg",
+                        "local_path": "media/20250318_211114_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5M6ura4AA2x2L?format=jpg",
+                        "local_path": "media/20250318_211114_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5M9UOakAADFme?format=jpg",
+                        "local_path": "media/20250318_211114_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GY5NB91bIAAajLr?format=jpg",
+                        "local_path": "media/20250318_211114_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-18T21:11:14+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1902016095139266881",
+        "tweets": [
+            {
+                "text": "Found a 2 year old article with sick actual photos of the \"quantum sensors\":\n\n- A quantum sensor developed by the US Army in 2020 can detect communications signals over the entire radio-frequency spectrum. Credit: United States Army\n- A diamond-based quantum sensor can measure magnetic fields at the atomic scale. Credit: David Kelly Crow/de Leon lab/Princeton University\n- An optical clock in which strontium ions oscillate in response to laser light. Credit: Andrew Brookes, National Physical Laboratory/Science Photo Library\n- A researcher at German firm Q.ANT checks a quantum sensor intended for industrial use. Credit: Sebastian Gollnow/dpa via Alamy",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmVQ6AHbEAAqz7u?format=jpg",
+                        "local_path": "media/20250302_021026_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmVRDBwagAAB5MM?format=png",
+                        "local_path": "media/20250302_021026_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmVREsNbEAAcXh3?format=png",
+                        "local_path": "media/20250302_021026_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmVRHMYbAAAbvJY?format=png",
+                        "local_path": "media/20250302_021026_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GlAB5u2bgAAsr3u?format=jpg",
+                        "local_path": "media/20250302_021026_4.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-02T02:10:26+00:00"
+            },
+            {
+                "text": "Bongs2023: Quantum sensors will start a revolution — if we deploy them right\nhttps://nature.com/articles/d41586-023-01663-0…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmVRv-Ka4AAxAeb?format=jpg",
+                        "local_path": "media/20250318_151640_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-18T15:16:40+00:00"
+            },
+            {
+                "text": "lol absolutely",
+                "media": [],
+                "timestamp": "2025-03-18T19:05:08+00:00"
+            },
+            {
+                "text": "I think it is this work:\n[Waveguide-coupled Rydberg spectrum analyzer from 0 to 20 GHz](https://arxiv.org/pdf/2009.14383)\nMy naive understanding is it's basically a big sensitive dipole, and electro-optic converter.\nRealtime bw is very low.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmaiKe2bgAAkb1d?format=png",
+                        "local_path": "media/20250319_154906_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T15:49:06+00:00"
+            },
+            {
+                "text": "lol absolutely",
+                "media": [],
+                "timestamp": "2025-03-18T19:05:08+00:00"
+            },
+            {
+                "text": "I think it is this work:\n[Waveguide-coupled Rydberg spectrum analyzer from 0 to 20 GHz](https://arxiv.org/pdf/2009.14383)\nMy naive understanding is it's basically a big sensitive dipole, and electro-optic converter.\nRealtime bw is very low.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmaiKe2bgAAkb1d?format=png",
+                        "local_path": "media/20250319_154906_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T15:49:06+00:00"
+            },
+            {
+                "text": "nice, i know their work very well (we were doing GHz mechanics instead of MHz. Same Hamiltonian)\ni should have taken some pictures of our chips with airpods in the background",
+                "media": [],
+                "timestamp": "2025-03-18T20:01:52+00:00"
+            },
+            {
+                "text": "bigger dipole is good",
+                "media": [],
+                "timestamp": "2025-03-19T14:46:32+00:00"
+            },
+            {
+                "text": "synthetics?",
+                "media": [],
+                "timestamp": "2025-03-18T21:11:37+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1902021753981059490",
+        "tweets": [
+            {
+                "text": "A room temperature Rb vapor cell as a quantum memory can now get entangled with telecom photons (1324 nm) at 1.2 kHz rate and 80% fidelity.\nWondering if there are people tracking the rate/fidelity over time.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmVWFUDa4AAJQb0?format=jpg",
+                        "local_path": "media/20241105_161226_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GbogcSTbAAA_aja?format=jpg",
+                        "local_path": "media/20241105_161226_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GbohDuXbgAAvMfx?format=jpg",
+                        "local_path": "media/20241105_161226_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gboi-9wacAALsaf?format=jpg",
+                        "local_path": "media/20241105_161226_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gboi_jLbUAAoRDx?format=jpg",
+                        "local_path": "media/20241105_161226_4.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-05T16:12:26+00:00"
+            },
+            {
+                "text": "Wang2025: High-fidelity entanglement between a telecom photon and a room-temperature quantum memory\nhttps://arxiv.org/pdf/2503.11564",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmVW98lbYAAH1MW?format=jpg",
+                        "local_path": "media/20250318_153929_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-18T15:39:29+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1902025326093537663",
+        "tweets": [
+            {
+                "text": "A standard single mode fiber SMF-28 could handle < 1 MW/cm², or ~< 1W with its ~10 um mode diameter. Making the mode bigger is one of the most straightforward way to get higher power, however you get more modes and their effective index are also much closer to each other.\nLarge pitch fiber is one way to deal with these higher order modes (HOM), by arranging extra holes in a clever way. It makes the HOM much lossier because they see more boundaries, and less overlapping with the gain region at the center.\nTheir core diameter is ~100 um, and could support ~300 W of CW power and few GW of peak power.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmVY7gcaYAAPmUS?format=png",
+                        "local_path": "media/20250318_155230_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmVY8bGa0AEqCLG?format=png",
+                        "local_path": "media/20250318_155230_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmVY-I1a4AA9_qF?format=jpg",
+                        "local_path": "media/20250318_155230_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-18T15:52:30+00:00"
+            },
+            {
+                "text": "If you just use weak step-index for guiding, the mode would get squeezed when the fiber is slightly bent.\nLimpert2012: Yb-doped large-pitch fibres: effective single-mode operation based on higher-order mode delocalisation\nhttps://doi.org/10.1038/lsa.2012.8…\nDauliat2016: Demonstration of a",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmVaFZpbIAAqILO?format=png",
+                        "local_path": "media/20250318_155440_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmVaM6kboAAHU4J?format=jpg",
+                        "local_path": "media/20250318_155440_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-18T15:54:40+00:00"
+            },
+            {
+                "text": "yes my bad, the GW is definitely after compression",
+                "media": [],
+                "timestamp": "2025-03-18T16:07:18+00:00"
+            },
+            {
+                "text": "yes my bad, the GW is definitely after compression",
+                "media": [],
+                "timestamp": "2025-03-18T16:01:55+00:00"
+            },
+            {
+                "text": "A standard single mode fiber SMF-28 could handle < 1 MW/cm², or ~< 1W with its ~10 um mode diameter. Making the mode bigger is one of the most straightforward way to get higher power, however you get more modes and their effective index are also much closer to each other.\nLarge pitch fiber is one way to deal with these higher order modes (HOM), by arranging extra holes in a clever way. It makes the HOM much lossier because they see more boundaries, and less overlapping with the gain region at the center.\nTheir core diameter is ~100 um, and could support ~300 W of CW power and few GW of peak power.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmVY7gcaYAAPmUS?format=png",
+                        "local_path": "media/20250318_155230_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmVY8bGa0AEqCLG?format=png",
+                        "local_path": "media/20250318_155230_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmVY-I1a4AA9_qF?format=jpg",
+                        "local_path": "media/20250318_155230_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-18T15:52:30+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1902168989079670834",
+        "tweets": [
+            {
+                "text": "The first (?) silicon photonics microring modulators (MRM) from 20 years ago, and where MRMs are now.\nThe ring draws in power and gives you dips in transmission when you are on its resonances, thus you could modulate its resonance to modulate the transmission.\nQuiz: they are modulating at more than a few tens of GHz. What happens to the ring resonator's spectrum when you are modulating faster than the resonance's linewidth/response time?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmXZqIBa8AE9_FF?format=jpg",
+                        "local_path": "media/20241205_072610_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmXbjBMacAASbe9?format=jpg",
+                        "local_path": "media/20241205_072610_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmXboQHaUAAfMDh?format=jpg",
+                        "local_path": "media/20241205_072610_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmXbpG-a8AU421s?format=png",
+                        "local_path": "media/20241205_072610_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeBIuGUa0AQAmEU?format=jpg",
+                        "local_path": "media/20241205_072610_4.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T07:26:10+00:00"
+            },
+            {
+                "text": "Xu2005: Micrometre-scale silicon electro-optic modulator\nhttps://doi.org/10.1038/nature03569…\n(https://rdcu.be/ed6Il)\nGTC March 2025 Keynote with NVIDIA CEO Jensen Huang\nhttps://youtube.com/watch?v=_waPvOwL9Z8…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmXcuDCa8AAKvpz?format=png",
+                        "local_path": "media/20250319_012444_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T01:24:44+00:00"
+            },
+            {
+                "text": "too vague\nask it for analytic solution for a sinusoidal modulation",
+                "media": [],
+                "timestamp": "2025-03-19T14:35:07+00:00"
+            },
+            {
+                "text": "Xu2005: Micrometre-scale silicon electro-optic modulator\nhttps://doi.org/10.1038/nature03569…\n(https://rdcu.be/ed6Il)\nGTC March 2025 Keynote with NVIDIA CEO Jensen Huang\nhttps://youtube.com/watch?v=_waPvOwL9Z8…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmXcuDCa8AAKvpz?format=png",
+                        "local_path": "media/20250319_012444_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T01:24:44+00:00"
+            },
+            {
+                "text": "too vague\nask it for analytic solution for a sinusoidal modulation",
+                "media": [],
+                "timestamp": "2025-03-19T14:35:07+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1902198075403485479",
+        "tweets": [
+            {
+                "text": "TIL you could find some quite detailed teardown photos of products \"that contains an RF device\" on FCC website.\n(also plenty of other reports, test setup photos etc)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmX2bavakAAkNdT?format=jpg",
+                        "local_path": "media/20250319_031856_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmX2gjObkAA72NS?format=jpg",
+                        "local_path": "media/20250319_031856_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmX2vWIa8AMPuyV?format=jpg",
+                        "local_path": "media/20250319_031856_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmX23vCa8AAO6_D?format=jpg",
+                        "local_path": "media/20250319_031856_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T03:18:56+00:00"
+            },
+            {
+                "text": "See\nhttps://fcc.gov/engineering-technology/laboratory-division/general/equipment-authorization…\nand\nhttps://fcc.gov/oet/ea/fccid",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmX3pw7aMAAo6VQ?format=jpg",
+                        "local_path": "media/20250319_032131_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T03:21:31+00:00"
+            },
+            {
+                "text": "nice curved battery (and so much more)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmX5hhFbUAAxI0A?format=jpg",
+                        "local_path": "media/20250319_033140_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmX5mC6bEAAnTVv?format=jpg",
+                        "local_path": "media/20250319_033140_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmX5yAKb0AAe44r?format=jpg",
+                        "local_path": "media/20250319_033140_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmX52xMbwAAJlv8?format=jpg",
+                        "local_path": "media/20250319_033140_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T03:31:40+00:00"
+            },
+            {
+                "text": "is the stove in the FCC database, the knobs are wireless right ",
+                "media": [],
+                "timestamp": "2025-03-19T05:36:51+00:00"
+            },
+            {
+                "text": "I found the fcc website before the other ones. It's not only annoying to use but also soo slow, probably intentional.\nthanks for all the advice",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmX3pw7aMAAo6VQ?format=jpg",
+                        "local_path": "media/20250319_062159_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T06:21:59+00:00"
+            },
+            {
+                "text": "nice curved battery (and so much more)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmX5hhFbUAAxI0A?format=jpg",
+                        "local_path": "media/20250319_033140_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmX5mC6bEAAnTVv?format=jpg",
+                        "local_path": "media/20250319_033140_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmX5yAKb0AAe44r?format=jpg",
+                        "local_path": "media/20250319_033140_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmX52xMbwAAJlv8?format=jpg",
+                        "local_path": "media/20250319_033140_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T03:31:40+00:00"
+            },
+            {
+                "text": "is the stove in the FCC database, the knobs are wireless right ",
+                "media": [],
+                "timestamp": "2025-03-19T05:36:51+00:00"
+            },
+            {
+                "text": "I found the fcc website before the other ones. It's not only annoying to use but also soo slow, probably intentional.\nthanks for all the advice",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmX3pw7aMAAo6VQ?format=jpg",
+                        "local_path": "media/20250319_062159_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T06:21:59+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1902379521631998333",
+        "tweets": [
+            {
+                "text": "I don't think this is what they mean when they say \"the future of medicine is in your poop\"",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmab7Y8a8AEcQvF?format=jpg",
+                        "local_path": "media/20250319_151957_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T15:19:57+00:00"
+            },
+            {
+                "text": "- [The Future of Medicine Is in Your Poop](https://nist.gov/health/future-medicine-your-poop…)",
+                "media": [],
+                "timestamp": "2025-03-19T15:20:48+00:00"
+            },
+            {
+                "text": "real shit\n- [Human Fecal Material](https://shop.nist.gov/ccrz__ProductDetails?sku=8048…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmac5H6bEAAv7z_?format=jpg",
+                        "local_path": "media/20250319_152351_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T15:23:51+00:00"
+            },
+            {
+                "text": "I remember this, so cursed",
+                "media": [],
+                "timestamp": "2025-03-19T15:49:28+00:00"
+            },
+            {
+                "text": "I remember this, so cursed",
+                "media": [],
+                "timestamp": "2025-03-19T15:49:28+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2025-03-19T18:20:04+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1902388725868552442",
+        "tweets": [
+            {
+                "text": "Nanomachines, son.\n\n(heart muscle cells and inner lining cells use nanotube-like microstructures to send signals and proteins)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmajxOKbgAALIii?format=jpg",
+                        "local_path": "media/20250319_155631_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T15:56:31+00:00"
+            },
+            {
+                "text": "Miao2025: [Tunneling nanotube–like structures regulate distant cellular interactions during heart formation](https://doi.org/10.1126/science.add3417…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1902389614796795904/pu/img/xKG9RhvnJLWIuVeX.jpg",
+                        "local_path": "media/20250319_160054_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-19T16:00:54+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1902603844049367042",
+        "tweets": [
+            {
+                "text": "holy smokes, a 1,100 kV HVDC transformer everyone\n(capacity of 587 megavolt amperes)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmdm7NXaEAAG1N0?format=jpg",
+                        "local_path": "media/20250320_060148_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-20T06:01:48+00:00"
+            },
+            {
+                "text": "- It's from 2017:\n- [The world’s first HVDC transformer passes the test for ±1,100 kV level](https://press.siemens.com/global/en/pressrelease/worlds-first-hvdc-transformer-passes-test-1100-kv-level…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmdoVOXbgAA-VOH?format=jpg",
+                        "local_path": "media/20250320_061225_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-20T06:12:25+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1902743265319047440",
+        "tweets": [
+            {
+                "text": "(taking notes)\nThere is a Scandinavian style prison \"within a Pennsylvania prison\", and it is \"now expanding to three new sites in the state\"",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmflxzqboAA2syt?format=jpg",
+                        "local_path": "media/20250320_152520_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmfm5FxbAAAwJFb?format=jpg",
+                        "local_path": "media/20250320_152520_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-20T15:25:20+00:00"
+            },
+            {
+                "text": "- [How will ‘Little Scandinavia’ experiment play out in U.S. prisons?](https://science.org/content/article/how-will-little-scandinavia-experiment-play-out-u-s-prisons…)\n- [Empowering change: Transforming an American prison unit with Scandinavian-inspired policies](https://scandinavianprisonproject.com)\n- there's a documentary trailer from 2020: [Prison Project:",
+                "media": [],
+                "timestamp": "2025-03-20T15:28:45+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2025-03-20T22:26:37+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1902749205657198936",
+        "tweets": [
+            {
+                "text": "Energy harvesting from Earth's rotation? Surely that is a good idea.\n\n(it's actually fine even if we extract as much as we need at current rate, would last about half a billion years. However if we keep growing at ~3% per year it would only last ~500 years)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmfrAPnakAAHome?format=jpg",
+                        "local_path": "media/20250320_154856_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmfrBEMbQAAqINg?format=jpg",
+                        "local_path": "media/20250320_154856_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-20T15:48:56+00:00"
+            },
+            {
+                "text": "Do you trust these data?\n- [Attempt to Harness Energy from Earth’s Rotation](https://physics.aps.org/articles/v18/62)\n- Chyba2025: [Experimental demonstration of electric power generation from Earth's rotation through its own magnetic field](https://doi.org/10.1103/PhysRevResearch.7.013285…)\n- seems a few oom away from",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmfsg-CbIAAYgrF?format=jpg",
+                        "local_path": "media/20250320_155148_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-20T15:51:48+00:00"
+            },
+            {
+                "text": "for comparison an antenna of similar size to their rod could pick up about a few uW from ambient rf\n(numbers from 4o)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmfuINtb0AAxXTN?format=jpg",
+                        "local_path": "media/20250320_155725_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-20T15:57:25+00:00"
+            },
+            {
+                "text": "i have not looked at the theory part, it is controversial",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmfvHeKb0AEQWvw?format=jpg",
+                        "local_path": "media/20250320_160157_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-20T16:01:57+00:00"
+            },
+            {
+                "text": "ohhh yeah i like this idea. geo/acc ",
+                "media": [],
+                "timestamp": "2025-03-21T15:05:07+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1902892762577748318",
+        "tweets": [
+            {
+                "text": "The \"superconducting qubit\" from 1999 that could live for ~2 ns, and a superconducting qubit in 2025 that could stay alive for almost 2 ms.\n\n(scale bar in second pic is 200 um, it's a dark field image of the black tantalum ground plane and a few capacitance pads on dark grey silicon, and a nonlinear inductor made with aluminum & Al oxide Josephson junction at the center)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmhtgH3aEAUtlr5?format=png",
+                        "local_path": "media/20250321_011923_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmhtjjCaEAAmqOD?format=jpg",
+                        "local_path": "media/20250321_011923_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-21T01:19:23+00:00"
+            },
+            {
+                "text": "- Nakamura1999: [Coherent control of macroscopic quantum states in a single-Cooper-pair box](https://doi.org/10.1038/19718)\n- Bland2025: [2D transmons with lifetimes and coherence times exceeding 1 millisecond](https://arxiv.org/abs/2503.14798)\nT1 = 1.68 ± 0.1 ms, T2E ~ 1.2*T1\nThe junction was",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmhvWeMaEAQjNY3?format=jpg",
+                        "local_path": "media/20250321_012421_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-21T01:24:21+00:00"
+            },
+            {
+                "text": "- Fluxonium qubits (a different kind of SC qubits) have also achieved > 1 ms coherence time, albeit \"cheating\" a bit since it is strongly nonlinear, and the qubit transition is at a much lower freq. As a result, ~10 mK is no longer cold enough and they need active cooling.\n-",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmhxV8TaEAY085j?format=jpg",
+                        "local_path": "media/20250321_013223_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmhxcxDacAAHrcS?format=jpg",
+                        "local_path": "media/20250321_013223_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-21T01:32:23+00:00"
+            },
+            {
+                "text": "I have to highlight this shape that looks like two hooks in the qubit where the junction layers (ebeam litho) and the capacitor pads (photolitho) overlap.\nI wonder how many people saw it in Julian Kelly's thesis and various UCSB papers, had no idea what it was for (I still have",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmhyM6lbkAAxhZT?format=png",
+                        "local_path": "media/20250321_014429_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmhykYZbwAAi74V?format=jpg",
+                        "local_path": "media/20250321_014429_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmh0c2jaEAYbetB?format=jpg",
+                        "local_path": "media/20250321_014429_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-21T01:44:29+00:00"
+            },
+            {
+                "text": "that same Josephson?",
+                "media": [],
+                "timestamp": "2025-03-21T05:43:44+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1902940207575601669",
+        "tweets": [
+            {
+                "text": "The first satellite-to-ground quantum key distribution (QKD) was already 8 years ago. Now they have reduced the payload by 10x to 23 kg, the ground station by 100x (from an observatory to a portable telescope), and they are thinking about quantum satellite constellations.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmiYBrdawAAHhre?format=jpg",
+                        "local_path": "media/20250321_042755_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmiYfj5bUAAaPSz?format=jpg",
+                        "local_path": "media/20250321_042755_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-21T04:27:55+00:00"
+            },
+            {
+                "text": "Not much change on key rate (a few tens of kHz) and error rate (~1%).\nAperture reduced from 300 mm and 1000 m to 200 mm and 280 mm.\nSimilar tracking level of few urad.\nPictures below from the 2017 paper.\n- Li2025: [Microsatellite-based real-time quantum key",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmibHEBaEAQl4JD?format=jpg",
+                        "local_path": "media/20250321_043340_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmibH_BawAA9UqJ?format=jpg",
+                        "local_path": "media/20250321_043340_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-21T04:33:40+00:00"
+            },
+            {
+                "text": "The new paper cited spaceX's starlink (?) FCC application, and there are random fun stuff inside like what components would likely survive the \"atmospheric demise\"\n- Albulet2018: [Spacex Non-geostationary Satellite System: Attachment A Technical Information to Supplement",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmidWZwaYAAFM8x?format=jpg",
+                        "local_path": "media/20250321_044404_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-21T04:44:04+00:00"
+            },
+            {
+                "text": "few tens of kHz",
+                "media": [],
+                "timestamp": "2025-03-21T04:35:58+00:00"
+            },
+            {
+                "text": "it's basically cheating, like spin echo, amazing stuff\nI learnt it in time domain first (undo pulse dispersion), these spatial domain stuff feels even more like dark magic.\nonly if it's easy to do on a chip..",
+                "media": [],
+                "timestamp": "2025-03-21T04:48:26+00:00"
+            },
+            {
+                "text": "The new paper cited spaceX's starlink (?) FCC application, and there are random fun stuff inside like what components would likely survive the \"atmospheric demise\"\n- Albulet2018: [Spacex Non-geostationary Satellite System: Attachment A Technical Information to Supplement",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmidWZwaYAAFM8x?format=jpg",
+                        "local_path": "media/20250321_044404_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-21T04:44:04+00:00"
+            },
+            {
+                "text": "few tens of kHz",
+                "media": [],
+                "timestamp": "2025-03-21T04:35:58+00:00"
+            },
+            {
+                "text": "it's basically cheating, like spin echo, amazing stuff\nI learnt it in time domain first (undo pulse dispersion), these spatial domain stuff feels even more like dark magic.\nonly if it's easy to do on a chip..",
+                "media": [],
+                "timestamp": "2025-03-21T04:48:26+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1903110659447066952",
+        "tweets": [
+            {
+                "text": "I did not dig into what is the exact polishing method at the time, and it is pretty mind blowing: it's called magnetorheological finishing, and it is used for big optics a lot more.\nIt reduces damages because the particles in the slurry are aligned with a magnetic field, and the \"fluid's shape and stiffness can be magnetically manipulated and controlled in real time.\"\nPeople make amazing aspheres and large aperture optics (>400 m) with it.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmk0I_TaEAEJymj?format=jpg",
+                        "local_path": "media/20241123_081504_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmk0t_5aEAEZBfC?format=jpg",
+                        "local_path": "media/20241123_081504_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmk0vFMaEAMcoEW?format=jpg",
+                        "local_path": "media/20241123_081504_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmk0wJ0aEAUPWmI?format=jpg",
+                        "local_path": "media/20241123_081504_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdDhIDpagAAN9rR?format=jpg",
+                        "local_path": "media/20241123_081504_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdDhIDpbsAAwPVO?format=jpg",
+                        "local_path": "media/20241123_081504_5.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-23T08:15:04+00:00"
+            },
+            {
+                "text": "- Harris2011: [History of Magnetorheological Finishing](https://qedmrf.com/wp-content/uploads/2022/01/History-of-magnetorheological-finishing.pdf…)\n- Menapace2010: [Developing Magnetorheological Finishing (MRF) Technology for the Manufacture of Large-Aperture Optics in Megajoule Class Laser Systems](https://osti.gov/servlets/purl/1016922-7pgKBk/…)\nUsed to make giant",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmk1awUbcAAVSko?format=jpg",
+                        "local_path": "media/20250321_155231_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmk2Fd9awAA9RRs?format=jpg",
+                        "local_path": "media/20250321_155231_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-21T15:52:31+00:00"
+            },
+            {
+                "text": "typo: \"> 400 mm\" instead of \"> 400 m\"",
+                "media": [],
+                "timestamp": "2025-03-21T20:09:42+00:00"
+            },
+            {
+                "text": "seems to be aspheres and big diffractive optics that really need this\nif you could do it well you could probably sell to all the satellite companies that are doing/planning to do FSO comm",
+                "media": [],
+                "timestamp": "2025-03-22T06:38:51+00:00"
+            },
+            {
+                "text": "sorry 400 mm",
+                "media": [],
+                "timestamp": "2025-03-21T20:08:07+00:00"
+            },
+            {
+                "text": "I did not dig into what is the exact polishing method at the time, and it is pretty mind blowing: it's called magnetorheological finishing, and it is used for big optics a lot more.\nIt reduces damages because the particles in the slurry are aligned with a magnetic field, and the \"fluid's shape and stiffness can be magnetically manipulated and controlled in real time.\"\nPeople make amazing aspheres and large aperture optics (>400 m) with it.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmk0I_TaEAEJymj?format=jpg",
+                        "local_path": "media/20241123_081504_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmk0t_5aEAEZBfC?format=jpg",
+                        "local_path": "media/20241123_081504_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmk0vFMaEAMcoEW?format=jpg",
+                        "local_path": "media/20241123_081504_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmk0wJ0aEAUPWmI?format=jpg",
+                        "local_path": "media/20241123_081504_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdDhIDpagAAN9rR?format=jpg",
+                        "local_path": "media/20241123_081504_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GdDhIDpbsAAwPVO?format=jpg",
+                        "local_path": "media/20241123_081504_5.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-23T08:15:04+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1903237748812812304",
+        "tweets": [
+            {
+                "text": "Single-walled carbon nanotube arrays? SWNT rings and racetracks?? Crazy. Beautiful. My respect to people who kept pushing on these \"unpredictable\" little things.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmmnwP0aEAAWw-r?format=jpg",
+                        "local_path": "media/20250322_001014_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmmn0JtaoAA0RSs?format=jpg",
+                        "local_path": "media/20250322_001014_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-22T00:10:14+00:00"
+            },
+            {
+                "text": "- Zhang2025: [Homochiral carbon nanotube van der Waals crystals](https://doi.org/10.1126/science.adu1756…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1903237787941474306/pu/img/aC6gu8zenLF06mBQ.jpg",
+                        "local_path": "media/20250322_001143_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-22T00:11:43+00:00"
+            },
+            {
+                "text": "lol idk\nthey could poke them around using the AFM tip",
+                "media": [],
+                "timestamp": "2025-03-22T04:54:35+00:00"
+            },
+            {
+                "text": "yep kind of similar mechanism",
+                "media": [],
+                "timestamp": "2025-03-22T03:27:34+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1903298142323474635",
+        "tweets": [
+            {
+                "text": "They are the same picture.\n\n(Epitaxial growth of Al islands on InSb nanowires)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmnfZGAaAAAEqGv?format=jpg",
+                        "local_path": "media/20250322_041013_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmnfc9_aEAI_zM4?format=jpg",
+                        "local_path": "media/20250322_041013_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-22T04:10:13+00:00"
+            },
+            {
+                "text": "- Gazibegovic2017: [RETRACTED ARTICLE: Epitaxy of advanced nanowire quantum devices](https://doi.org/10.1038/nature23468…) ([also](https://rdcu.be/eez3J))",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gmnfr53aEAE9Biw?format=jpg",
+                        "local_path": "media/20250322_041134_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-22T04:11:34+00:00"
+            },
+            {
+                "text": "this really looks like a top-down perspective game map lol",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmngsLvaEAIxmmq?format=jpg",
+                        "local_path": "media/20250322_041922_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmnhnwLaEAMJhr4?format=png",
+                        "local_path": "media/20250322_041922_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-22T04:19:22+00:00"
+            },
+            {
+                "text": "aluminum beam to shadow-grow on the InSb wire",
+                "media": [],
+                "timestamp": "2025-03-22T04:23:50+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1903481684668109283",
+        "tweets": [
+            {
+                "text": "Miniature T-1000 is not on my bingo card for the current robotics hype.\n\nIt's DI water droplets frozen & coated with PTFE particles (eww), and they could \"navigating through complex environments, engulfing and transporting cargoes, merging, and adapting to various environments\".\nDriven by acoustic radiation force from an ultrasonic transducer, nothing fancy inside. (tbf water itself is fancy tech)",
+                "media": [],
+                "timestamp": "2025-03-22T16:19:33+00:00"
+            },
+            {
+                "text": "- Jeon2025: [Particle-armored liquid robots](https://doi.org/10.1126/sciadv.adt5888…)\n- Video from: [Watch these ‘liquid marbles’ pull off a daring heist](https://science.org/content/article/watch-these-liquid-marbles-pull-daring-heist…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GmqG7aEbgAACeeN?format=jpg",
+                        "local_path": "media/20250322_162242_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmqHJq0boAEMwes?format=jpg",
+                        "local_path": "media/20250322_162242_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GmqHONva8AAxCgh?format=jpg",
+                        "local_path": "media/20250322_162242_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-22T16:22:42+00:00"
+            },
+            {
+                "text": "you might enjoy this, using acoustic resonance of a trapped air bubble to move a microrobot around",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gc9MjGkbIAE2dHD?format=jpg",
+                        "local_path": "media/20250322_234602_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gc9MsLQaAAMp4JW?format=jpg",
+                        "local_path": "media/20250322_234602_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1859790218536304640/pu/img/DO0q6otEL06A5QpA.jpg",
+                        "local_path": "media/20250322_234602_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1859790233308626944/pu/img/lQAu_JkjXXfOgGgq.jpg",
+                        "local_path": "media/20250322_234602_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-03-22T23:46:02+00:00"
+            }
+        ]
+    }
+]
