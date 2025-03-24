@@ -377,7 +377,7 @@ var store = [{
         "url": "/ofs/weekly-OFS-38/",
         "teaser": null
       },{
-        "title": "This week's outside five sigma (#38)",
+        "title": "This week's outside five sigma (#39)",
         "excerpt":"Quantum Sensors Found a 2 year old article with sick actual photos of the “quantum sensors”: A quantum sensor developed by the US Army in 2020 can detect communications signals over the entire radio-frequency spectrum. Credit: United States Army A diamond-based quantum sensor can measure magnetic fields at the atomic...","categories": ["OFS"],
         "tags": ["Dielectric_breakdown","Quantum_communication","Piezoelectric","Semiconductor","Pyroelectric","Surface_acoustic_wave","Femtosecond_laser","Laser","Fiber_laser","Large_pitch_fiber","Photonics","Ring_modulator","Silicon_photonics","FCC_teardown","Nanotube","Quantum_sensor","Rydberg_atom","Quantum_memory","Entanglement","Quantum_key_distribution","Superconducting_qubit","Josephson_junction","Satellite","Optics","Magnetorheological_polishing","Epitaxy","Nanowire","Acoustic_robotics"],
         "url": "/ofs/weekly-OFS-39/",
