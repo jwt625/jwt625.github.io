@@ -382,4 +382,10 @@ var store = [{
         "tags": ["Dielectric_breakdown","Quantum_communication","Piezoelectric","Semiconductor","Pyroelectric","Surface_acoustic_wave","Femtosecond_laser","Laser","Fiber_laser","Large_pitch_fiber","Photonics","Ring_modulator","Silicon_photonics","FCC_teardown","Nanotube","Quantum_sensor","Rydberg_atom","Quantum_memory","Entanglement","Quantum_key_distribution","Superconducting_qubit","Josephson_junction","Satellite","Optics","Magnetorheological_polishing","Epitaxy","Nanowire","Acoustic_robotics"],
         "url": "/ofs/weekly-OFS-39/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#40)",
+        "excerpt":"Ion Trap Packaging lol look at this elevated highway but it’s actually the ground. The ground is in the air. (A gold-on-alumina ion trap inside a case that protects ions from electrical interference. Credit: Blakestad/NIST) Quantum Computing Explained Optical Microparticle Acceleration in Hollow-Core Fiber There are crazy accelerators for fundamental...","categories": ["OFS"],
+        "tags": ["Hollow_core_fiber","Optical_accelerator","TENG","Haptics","Fiber_laser","Superconducting_qubit","Quantum_computing","Surfaces_and_interfaces","Cryogenic_amplifier","TWPA","Photonic_computing","Ion_trap","RCS","Millimeter_wave_imaging","Raman_spectroscopy","Microrobot","NIL","Metalens","Diffractive_optics","Optical_waveguide","Programmable_photonics","Orbital_angular_momentum","TFLN","Magnetic_actuation","Brain_surgery_tool","Brillouin_scattering","Frequency_comb","Optomechanics","Acoustic_sensing"],
+        "url": "/ofs/weekly-OFS-40/",
+        "teaser": null
       }]
