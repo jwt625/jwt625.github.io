@@ -1,0 +1,856 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>How to (not) excite a wavelength-scale acoustic/mechanical waveguide - Outside Five Sigma</title>
+<meta name="description" content="This is meant to be a short rant, as well as share the lesson I learnt from my colleagues about why it is tricky to make a good taper for mechanical waves (and they also wrote about it): you need to be careful about how is the mechanical mode guided / confined. Mechanical waves are a bit more weird than em waves. Hopefully it would also be useful for some folks.">
+
+
+  <meta name="author" content="Wentao">
+  
+  <meta property="article:author" content="Wentao">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Outside Five Sigma">
+<meta property="og:title" content="How to (not) excite a wavelength-scale acoustic/mechanical waveguide">
+<meta property="og:url" content="http://localhost:4000/tutorial/how-to-excite-tiny-mech-wave/">
+
+
+  <meta property="og:description" content="This is meant to be a short rant, as well as share the lesson I learnt from my colleagues about why it is tricky to make a good taper for mechanical waves (and they also wrote about it): you need to be careful about how is the mechanical mode guided / confined. Mechanical waves are a bit more weird than em waves. Hopefully it would also be useful for some folks.">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/2025/mech_wave_transduction/White1965-SAW.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2025-04-02T00:00:00-07:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/tutorial/how-to-excite-tiny-mech-wave/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Outside Five Sigma Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+
+  </head>
+
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/twm.JPG" alt="Outside Five Sigma"></a>
+        
+        <a class="site-title" href="/">
+          Outside Five Sigma
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/posts/"
+                
+                
+              >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/categories/"
+                
+                
+              >Categories</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/tags/"
+                
+                
+              >Tags</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/2025/mech_wave_transduction/White1965-SAW.png');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          How to (not) excite a wavelength-scale acoustic/mechanical waveguide
+
+        
+      </h1>
+      
+      
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-04-02T00:00:00-07:00">April 2, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          4 minute read
+        
+      </span>
+    
+  </p>
+
+
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/bio-photo-2.jpg" alt="Wentao" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Wentao</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Memories are the long term averages, and the outside five sigmas.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="How to (not) excite a wavelength-scale acoustic/mechanical waveguide">
+    <meta itemprop="description" content="This is meant to be a short rant, as well as share the lesson I learnt from my colleagues about why it is tricky to make a good taper for mechanical waves (and they also wrote about it): you need to be careful about how is the mechanical mode guided / confined. Mechanical waves are a bit more weird than em waves. Hopefully it would also be useful for some folks.">
+    <meta itemprop="datePublished" content="2025-04-02T00:00:00-07:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#why-do-we-need-big-transducers">Why do we need big transducers</a></li><li><a href="#tapering-a-mechanical-waveguide">Tapering a mechanical waveguide</a></li><li><a href="#examples-of-how-not-to-excite-a-tiny-mechanical-waveguide">Examples of how not to excite a tiny mechanical waveguide</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p>This is meant to be a short rant, as well as share the lesson I learnt from my colleagues about why it is tricky to make a good taper for mechanical waves (and they also wrote about it): you need to be careful about how is the mechanical mode guided / confined. Mechanical waves are a bit more weird than em waves. Hopefully it would also be useful for some folks.</p>
+
+<p>So… where should I start? That’s simple: why do we care about mechanical waves first, and why a waveguide, and why a wavelength-scale mechanical waveguide?</p>
+
+<p>You might remember sound wave in air is a bit more than 300 m/s, which is SIX orders of magnitude slower than light. It turns out it is not that different in solids, and surfaces of solids: few thousands meters per second to sometimes a bit more than 10,000 m/s. Let’s say 3,000 m/s, which is FIVE orders of magnitude slower than light. Why are you boasting about it being slow? Well, slow means its wavelength is much shorter than the corresponding electromegnetic waves at the samefrequency. Hmm, isn’t this making it more annoying to play with? Yes, but it also makes the devices much smaller. You could make smaller resonators, smaller filters, and even smaller amplifiers (maybe).</p>
+
+<p>Here is a random surface acoustic wave (SAW) filter from Kyocera with 1.3 dB insertion loss around 1.2 GHz, that is only 1.1 mm x 0.9 mm x 0.6 mm. (<a href="https://ele.kyocera.com/en/product/saw-device/saw_filters/sf11/sf11-1192m5uua1/">SF11-1192M5UUA1</a>)</p>
+
+<p><img src="/assets/images/2025/mech_wave_transduction/SF11.png" alt="SAW-SF11" />
+<img src="/assets/images/2025/mech_wave_transduction/SF11-1192M5UUA1_DS-S21.png" alt="SAW-S21" /></p>
+
+<p>Look how clean this S21 curve is!!</p>
+
+<p>Ok back to the point, which is, the electromagnetic waves around this frequency would have a wavelength of 0.3 m, way way bigger than these devices. Even with some crazy high dielectric constant ceramics, it would still be ~&gt; 10 mm. Hence small size is one big motivation for dealing with mechanical waves and resonances. In addition to SAW, there are also <a href="https://www.qorvo.com/innovation/technology/baw">bulk acoustic waves (BAW)</a>, and <a href="https://en.wikipedia.org/wiki/Thin-film_bulk_acoustic_resonator">FBAR</a>. (Please pronounce them as saw and baw, instead of S-A-W or B-A-W.)</p>
+<ul>
+  <li>there are a few other advantages, including they have higher quanlity factors, can be used for sensing because they are sensitive to contact, mass etc., and could be more robust or more stable.</li>
+  <li>the acoustic wavelength at 1 GHz would be ~ 3 um, why is this SAW filter still much much bigger than the acoustic wavelength? Well it takes a bit more than the length of a single bullet-point to explain, so a quick answer will be provided in the next section.</li>
+</ul>
+
+<p>Next, why a waveguide, and a wavelength-scale waveguide? As the name suggests, you could guide the wave, and thus you could do more fun stuff such as bending the waves around, make it circulating in a ring/racetrack, make directional couplers, have more spatial channels without diffraction, all the usual waveguide stuff.</p>
+
+<p>Making the waveguide wavelength-scale (or even subwavelength scale) further helps concentrating the energy, and is useful for nonlinear applications, and quantum applications, where things scale faster with power density or field amplitude, or when you are limited to be playing with single <a href="https://www.britannica.com/science/phonon">phonons</a> (this is a highly simplified explanation of why quantum applications need smaller modes).</p>
+
+<h1 id="why-do-we-need-big-transducers">Why do we need big transducers</h1>
+
+<p>Hint: the cover image.</p>
+
+<p>(To be continued)</p>
+
+<h1 id="tapering-a-mechanical-waveguide">Tapering a mechanical waveguide</h1>
+<p>(<a href="https://x.com/jwt0625/status/1905499644958048363">see also</a>)</p>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/mech_wave_transduction/mode_anime_free_20250327.gif" alt="taper-free" style="max-width: 48%;" />
+    <img src="/assets/images/2025/mech_wave_transduction/mode_anime_soft_fixed_20250327.gif" alt="taper-fixed" style="max-width: 48%;" />
+</div>
+
+<p>The above two animations are the fundamental mechanical shear mode in a 2D waveguide toy model, and how the mode evolve when you make the waveguide wider. The modes for the narrowest and widest cases are included here so you could see them actually moving.</p>
+
+<p>The left one has free boundary conditions, and as you make the waveguides wider, the mode stays at the boundaries. If you put the IDT at the center of the wide waveguide, it is not going to excite the mode well. As a result, it won’t be able to excite the narrow waveguide mode well.</p>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/mech_wave_transduction/mode1_narrow_dde_free_20250327.gif" alt="taper-free" style="max-width: 48%;" />
+    <img src="/assets/images/2025/mech_wave_transduction/mode1_wide_dde_free_20250327.gif" alt="taper-fixed" style="max-width: 48%;" />
+</div>
+
+<p>Then how does an rf horn antenna for em waves work? Because the metal boundary is a “hard” or “fixed” boundary for the em waves.</p>
+
+<p>I did the exact same for the second case above, where the mechanical wave is “clamped” by materials with higher acoustic velocity. Now when you make the waveguide wider, the mode would actually stay inside instead of at the edge because the edge is no longer softer, and it will fill the whole waveguide.</p>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/mech_wave_transduction/mode1_narrow_dde_soft_fixed_20250327.gif" alt="taper-free" style="max-width: 48%;" />
+    <img src="/assets/images/2025/mech_wave_transduction/mode1_wide_dde_soft_fixed_20250327.gif" alt="taper-fixed" style="max-width: 48%;" />
+</div>
+
+<p>In this case, you can fill the wide waveguide with IDT and it will excite the narrow waveguide well after you taper down the waveguide width.</p>
+
+<p>Here is one example of the second case, where the boundary is hard. The acoustic wave is confined by the SiN layer to the openings, because “the acoustic velocity (index) of SiN is greater (smaller) than that of LN”. Thus the straight taper performed quite decent, they got 10% S21 when the device is cold, which is &gt;30% single sided including the taper. That’s pretty good given the IDT is not unidirectional.
+<img src="/assets/images/2025/mech_wave_transduction/Shao2022.jpeg" alt="Shao2020" /></p>
+<ul>
+  <li>Shao2022: <a href="https://doi.org/10.1038/s41928-022-00773-3">Electrical control of surface acoustic waves</a></li>
+</ul>
+
+<p>There are some examples of wide IDTs with poor efficiency into a narrow waveguide mode if you got good eyes.</p>
+
+<p>Here is a more technical description of what’s happening in the gif. When you make the waveguide wider, the fundamental shear that you might be trying to excite will become almost degenerate with the first order shear, and they’ll both become the “edge” modes of the wide waveguide, and have poor overlap with a wide IDT.</p>
+
+<p>To get around this, a longer and slower taper won’t help. You could stop when the waveguide have not got too wide, or have a non-adiabatic taper, i.e., a focusing IDT.
+<img src="/assets/images/2025/mech_wave_transduction/Dahmani2020.png" alt="Dahmani2020" /></p>
+<ul>
+  <li>Dahmani2020: <a href="https://doi.org/10.1103/PhysRevApplied.13.024069">Piezoelectric Transduction of a Wavelength-Scale Mechanical Waveguide</a></li>
+</ul>
+
+<p>I’ll finish my rant with, don’t trust the waveguide S21 if you don’t see the waveguide being released/separated from the bulk substrate, or making bends. The S21 could be well from the surface acoustic waves instead of actually being guided in the narrow waveguide.</p>
+
+<h1 id="examples-of-how-not-to-excite-a-tiny-mechanical-waveguide">Examples of how not to excite a tiny mechanical waveguide</h1>
+
+<p>(To be continued)</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#acoustic-waves" class="page__taxonomy-item p-category" rel="tag">Acoustic_waves</a><span class="sep">, </span>
+    
+      <a href="/tags/#nanofab" class="page__taxonomy-item p-category" rel="tag">Nanofab</a><span class="sep">, </span>
+    
+      <a href="/tags/#piezoelectricity" class="page__taxonomy-item p-category" rel="tag">Piezoelectricity</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#tutorial" class="page__taxonomy-item p-category" rel="tag">Tutorial</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-04-02T00:00:00-07:00">April 2, 2025</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=How+to+%28not%29+excite+a+wavelength-scale+acoustic%2Fmechanical+waveguide%20http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2Fhow-to-excite-tiny-mech-wave%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftutorial%2Fhow-to-excite-tiny-mech-wave%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/tutorial/how-to-excite-tiny-mech-wave/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/ofs/weekly-OFS-40/" class="pagination--pager" title="This week’s outside five sigma (#40)
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-40/" rel="permalink">This week’s outside five sigma (#40)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-30T00:00:00-07:00">March 30, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          9 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2025/20240804_20250330/20250325_020206_0.jpg" alt="This week's outside five sigma (#40)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Ion Trap Packaging
+
+</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-39/" rel="permalink">This week’s outside five sigma (#39)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-23T00:00:00-07:00">March 23, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          11 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2025/20240619_20250322/20250302_021026_0.jpg" alt="This week's outside five sigma (#39)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Quantum Sensors
+
+</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-38/" rel="permalink">This week’s outside five sigma (#38)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-17T00:00:00-07:00">March 17, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          15 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2025/20250108_20250318/20250308_164713_1.jpg" alt="This week's outside five sigma (#38)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Compact Cryocoolers for Space Applications
+
+</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-37/" rel="permalink">This week’s outside five sigma (#37)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-03-09T00:00:00-08:00">March 9, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          8 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2025/20241206_20250308/20250307_173024_0.jpg" alt="This week's outside five sigma (#37)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">High-Actuator MEMS Deformable Mirrors for Astronomy
+
+</p>
+
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Google Scholar</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="http://localhost:4000">Outside Five Sigma</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/tutorial/how-to-excite-tiny-mech-wave/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/tutorial/how-to-excite-tiny-mech-wave"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jwt625.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+    <!-- add mathjax, WTJ, 20240702 -->
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+  
+  
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+  </script>
+  
+  
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+    
+
+  </body>
+</html>

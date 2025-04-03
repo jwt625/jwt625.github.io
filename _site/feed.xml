@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-03-30T23:00:46-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#40)</title><link href="http://localhost:4000/ofs/weekly-OFS-40/" rel="alternate" type="text/html" title="This week’s outside five sigma (#40)" /><published>2025-03-30T00:00:00-07:00</published><updated>2025-03-30T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-40</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-40/"><![CDATA[<h1 id="ion-trap-packaging">Ion Trap Packaging</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-03T00:11:11-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">How to (not) excite a wavelength-scale acoustic/mechanical waveguide</title><link href="http://localhost:4000/tutorial/how-to-excite-tiny-mech-wave/" rel="alternate" type="text/html" title="How to (not) excite a wavelength-scale acoustic/mechanical waveguide" /><published>2025-04-02T00:00:00-07:00</published><updated>2025-04-02T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/how-to-excite-tiny-mech-wave</id><content type="html" xml:base="http://localhost:4000/tutorial/how-to-excite-tiny-mech-wave/"><![CDATA[<p>This is meant to be a short rant, as well as share the lesson I learnt from my colleagues about why it is tricky to make a good taper for mechanical waves (and they also wrote about it): you need to be careful about how is the mechanical mode guided / confined. Mechanical waves are a bit more weird than em waves. Hopefully it would also be useful for some folks.</p>
+
+<p>So… where should I start? That’s simple: why do we care about mechanical waves first, and why a waveguide, and why a wavelength-scale mechanical waveguide?</p>
+
+<p>You might remember sound wave in air is a bit more than 300 m/s, which is SIX orders of magnitude slower than light. It turns out it is not that different in solids, and surfaces of solids: few thousands meters per second to sometimes a bit more than 10,000 m/s. Let’s say 3,000 m/s, which is FIVE orders of magnitude slower than light. Why are you boasting about it being slow? Well, slow means its wavelength is much shorter than the corresponding electromegnetic waves at the samefrequency. Hmm, isn’t this making it more annoying to play with? Yes, but it also makes the devices much smaller. You could make smaller resonators, smaller filters, and even smaller amplifiers (maybe).</p>
+
+<p>Here is a random surface acoustic wave (SAW) filter from Kyocera with 1.3 dB insertion loss around 1.2 GHz, that is only 1.1 mm x 0.9 mm x 0.6 mm. (<a href="https://ele.kyocera.com/en/product/saw-device/saw_filters/sf11/sf11-1192m5uua1/">SF11-1192M5UUA1</a>)</p>
+
+<p><img src="/assets/images/2025/mech_wave_transduction/SF11.png" alt="SAW-SF11" />
+<img src="/assets/images/2025/mech_wave_transduction/SF11-1192M5UUA1_DS-S21.png" alt="SAW-S21" /></p>
+
+<p>Look how clean this S21 curve is!!</p>
+
+<p>Ok back to the point, which is, the electromagnetic waves around this frequency would have a wavelength of 0.3 m, way way bigger than these devices. Even with some crazy high dielectric constant ceramics, it would still be ~&gt; 10 mm. Hence small size is one big motivation for dealing with mechanical waves and resonances. In addition to SAW, there are also <a href="https://www.qorvo.com/innovation/technology/baw">bulk acoustic waves (BAW)</a>, and <a href="https://en.wikipedia.org/wiki/Thin-film_bulk_acoustic_resonator">FBAR</a>. (Please pronounce them as saw and baw, instead of S-A-W or B-A-W.)</p>
+<ul>
+  <li>there are a few other advantages, including they have higher quanlity factors, can be used for sensing because they are sensitive to contact, mass etc., and could be more robust or more stable.</li>
+  <li>the acoustic wavelength at 1 GHz would be ~ 3 um, why is this SAW filter still much much bigger than the acoustic wavelength? Well it takes a bit more than the length of a single bullet-point to explain, so a quick answer will be provided in the next section.</li>
+</ul>
+
+<p>Next, why a waveguide, and a wavelength-scale waveguide? As the name suggests, you could guide the wave, and thus you could do more fun stuff such as bending the waves around, make it circulating in a ring/racetrack, make directional couplers, have more spatial channels without diffraction, all the usual waveguide stuff.</p>
+
+<p>Making the waveguide wavelength-scale (or even subwavelength scale) further helps concentrating the energy, and is useful for nonlinear applications, and quantum applications, where things scale faster with power density or field amplitude, or when you are limited to be playing with single <a href="https://www.britannica.com/science/phonon">phonons</a> (this is a highly simplified explanation of why quantum applications need smaller modes).</p>
+
+<h1 id="why-do-we-need-big-transducers">Why do we need big transducers</h1>
+
+<p>Hint: the cover image.</p>
+
+<p>(To be continued)</p>
+
+<h1 id="tapering-a-mechanical-waveguide">Tapering a mechanical waveguide</h1>
+<p>(<a href="https://x.com/jwt0625/status/1905499644958048363">see also</a>)</p>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/mech_wave_transduction/mode_anime_free_20250327.gif" alt="taper-free" style="max-width: 48%;" />
+    <img src="/assets/images/2025/mech_wave_transduction/mode_anime_soft_fixed_20250327.gif" alt="taper-fixed" style="max-width: 48%;" />
+</div>
+
+<p>The above two animations are the fundamental mechanical shear mode in a 2D waveguide toy model, and how the mode evolve when you make the waveguide wider. The modes for the narrowest and widest cases are included here so you could see them actually moving.</p>
+
+<p>The left one has free boundary conditions, and as you make the waveguides wider, the mode stays at the boundaries. If you put the IDT at the center of the wide waveguide, it is not going to excite the mode well. As a result, it won’t be able to excite the narrow waveguide mode well.</p>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/mech_wave_transduction/mode1_narrow_dde_free_20250327.gif" alt="taper-free" style="max-width: 48%;" />
+    <img src="/assets/images/2025/mech_wave_transduction/mode1_wide_dde_free_20250327.gif" alt="taper-fixed" style="max-width: 48%;" />
+</div>
+
+<p>Then how does an rf horn antenna for em waves work? Because the metal boundary is a “hard” or “fixed” boundary for the em waves.</p>
+
+<p>I did the exact same for the second case above, where the mechanical wave is “clamped” by materials with higher acoustic velocity. Now when you make the waveguide wider, the mode would actually stay inside instead of at the edge because the edge is no longer softer, and it will fill the whole waveguide.</p>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/mech_wave_transduction/mode1_narrow_dde_soft_fixed_20250327.gif" alt="taper-free" style="max-width: 48%;" />
+    <img src="/assets/images/2025/mech_wave_transduction/mode1_wide_dde_soft_fixed_20250327.gif" alt="taper-fixed" style="max-width: 48%;" />
+</div>
+
+<p>In this case, you can fill the wide waveguide with IDT and it will excite the narrow waveguide well after you taper down the waveguide width.</p>
+
+<p>Here is one example of the second case, where the boundary is hard. The acoustic wave is confined by the SiN layer to the openings, because “the acoustic velocity (index) of SiN is greater (smaller) than that of LN”. Thus the straight taper performed quite decent, they got 10% S21 when the device is cold, which is &gt;30% single sided including the taper. That’s pretty good given the IDT is not unidirectional.
+<img src="/assets/images/2025/mech_wave_transduction/Shao2022.jpeg" alt="Shao2020" /></p>
+<ul>
+  <li>Shao2022: <a href="https://doi.org/10.1038/s41928-022-00773-3">Electrical control of surface acoustic waves</a></li>
+</ul>
+
+<p>There are some examples of wide IDTs with poor efficiency into a narrow waveguide mode if you got good eyes.</p>
+
+<p>Here is a more technical description of what’s happening in the gif. When you make the waveguide wider, the fundamental shear that you might be trying to excite will become almost degenerate with the first order shear, and they’ll both become the “edge” modes of the wide waveguide, and have poor overlap with a wide IDT.</p>
+
+<p>To get around this, a longer and slower taper won’t help. You could stop when the waveguide have not got too wide, or have a non-adiabatic taper, i.e., a focusing IDT.
+<img src="/assets/images/2025/mech_wave_transduction/Dahmani2020.png" alt="Dahmani2020" /></p>
+<ul>
+  <li>Dahmani2020: <a href="https://doi.org/10.1103/PhysRevApplied.13.024069">Piezoelectric Transduction of a Wavelength-Scale Mechanical Waveguide</a></li>
+</ul>
+
+<p>I’ll finish my rant with, don’t trust the waveguide S21 if you don’t see the waveguide being released/separated from the bulk substrate, or making bends. The S21 could be well from the surface acoustic waves instead of actually being guided in the narrow waveguide.</p>
+
+<h1 id="examples-of-how-not-to-excite-a-tiny-mechanical-waveguide">Examples of how not to excite a tiny mechanical waveguide</h1>
+
+<p>(To be continued)</p>]]></content><author><name>Wentao</name></author><category term="Tutorial" /><category term="Acoustic_waves" /><category term="Piezoelectricity" /><category term="Nanofab" /><summary type="html"><![CDATA[This is meant to be a short rant, as well as share the lesson I learnt from my colleagues about why it is tricky to make a good taper for mechanical waves (and they also wrote about it): you need to be careful about how is the mechanical mode guided / confined. Mechanical waves are a bit more weird than em waves. Hopefully it would also be useful for some folks.]]></summary></entry><entry><title type="html">This week’s outside five sigma (#40)</title><link href="http://localhost:4000/ofs/weekly-OFS-40/" rel="alternate" type="text/html" title="This week’s outside five sigma (#40)" /><published>2025-03-30T00:00:00-07:00</published><updated>2025-03-30T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-40</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-40/"><![CDATA[<h1 id="ion-trap-packaging">Ion Trap Packaging</h1>
 
 <p>lol look at this elevated highway but it’s actually the ground. The ground is in the air.</p>
 
@@ -3723,297 +3800,4 @@ Calviac2025: <a href="https://doi.org/10.1103/PhysRevApplied.23.L011001">Bose-Ei
 <p>Gave up</p>
 <ul>
   <li>Traveling wave excitation of mechanical ring resonator (see <a href="https://x.com/jwt0625/status/1877578653648986365">this thread</a>)</li>
-</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Photonics" /><category term="MEMS" /><category term="Quantum" /><category term="Optics" /><category term="Laser" /><category term="Semiconductor" /><category term="Nanotube" /><category term="DNA_origami" /><category term="Ultrasonic_imaging" /><category term="Frequency_comb" /><category term="Inverse_design" /><category term="Atom_interferometry" /><category term="COMSOL" /><category term="VCSEL" /><category term="Silicon_carbide" /><category term="Lithography" /><category term="Metasurface" /><category term="Cryogenics" /><category term="OCT" /><category term="Waveguide" /><category term="Piezo" /><category term="Robotics" /><category term="Swarm_robotics" /><category term="Event_camera" /><category term="Thermal_processing" /><category term="Gravitational_waves" /><category term="Hydrodynamic_sensing" /><category term="Roll-to-roll" /><category term="EUV" /><category term="Talbot_effect" /><summary type="html"><![CDATA[Achromatic Polymer Diffractive Lenses for Astrophotography 100 mm diameter, 2.4  μm thick multilevel diffractive lens (MDL), focal length 200 mm, optimized for the visible wavelength range, achieving achromatic focusing with inverse design and grayscale lithography. They have a company called Oblate Optics, found I’ve checked out their website but I don’t remember when or why.. Majumder2025: Color astrophotography with a 100 mm-diameter f/2 polymer flat lens “The MDL is composed of 10 000 concentric rings, each with a fixed width of 5  μm and varying heights” Almost 10x lighter than a plano-convex with the same diameter, and achromatic Rule of thumb for how real world relevant the work is: how many actual photos are in the SI]]></summary></entry><entry><title type="html">This week’s outside five sigma (#32)</title><link href="http://localhost:4000/ofs/weekly-OFS-32/" rel="alternate" type="text/html" title="This week’s outside five sigma (#32)" /><published>2025-02-02T00:00:00-08:00</published><updated>2025-02-02T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-32</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-32/"><![CDATA[<h1 id="800g400g-coherent-transceiver-chip-designs">800G/400G Coherent Transceiver Chip Designs</h1>
-
-<p>800G receiver chip (2x FR4, you can see two big arrayed waveguide gratings (AWG) for the demux)
-and
-400G transmitter chip (four SOAs die bonded, one AWG, and a ring resonator? Fast modulation signals coming from the left, and bias signals from the right).
-From <a href="http://superphotonics-ic.com/en_product.aspx">Super Photonics Xiamen</a>, acquired my POET recently.
-<img src="/assets/images/2025/20241113_20250130/20250125_163902_0.jpg" alt="20250125_163902_0.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250125_163902_1.jpg" alt="20250125_163902_1.jpg" /></p>
-<ul>
-  <li><a href="http://superphotonics-ic.com/en_product_info.aspx?id=16">100G CWDM4</a></li>
-  <li>See all the lines of trenches/fills for killing the stray light?
-   <img src="/assets/images/2025/20241113_20250130/20250125_164429_0.jpg" alt="20250125_164429_0.jpg" /></li>
-</ul>
-
-<h1 id="modular-photonic-quantum-computer-architecture">Modular Photonic Quantum Computer Architecture</h1>
-
-<p>“Modular photonic quantum computer” fresh off the press.</p>
-
-<p>35 photonics chips, 84 squeezers, 36 photon number resolving detectors, synthesizing a giant cluster state (highly entangled) with 7e9 temporal modes x 12 physical modes. I’m illiterate in these quantum algo, all I desire is cheap squeezers and detectors.</p>
-
-<p>Still a sad loss of 14 dB from squeezer to detector. They have a nice breakdown of all the losses, and lasers used (non of the lasers are integrated yet).
-<img src="/assets/images/2025/20241113_20250130/20250123_163042_0.jpg" alt="20250123_163042_0.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250123_163042_1.jpg" alt="20250123_163042_1.jpg" /></p>
-<ul>
-  <li>Rad2025: <a href="https://www.nature.com/articles/s41586-024-08406-9">Scaling and networking a modular photonic quantum computer</a></li>
-  <li>Chips and packages look cleeeaaan. And you’ll find plenty of pricy FPGA used for all the control
-   <img src="/assets/images/2025/20241113_20250130/20250123_164110_0.jpg" alt="20250123_164110_0.jpg" />
-   <img src="/assets/images/2025/20241113_20250130/20250123_164110_1.jpg" alt="20250123_164110_1.jpg" />
-   <img src="/assets/images/2025/20241113_20250130/20250123_164110_2.jpg" alt="20250123_164110_2.jpg" />
-   <img src="/assets/images/2025/20241113_20250130/20250123_164110_3.jpg" alt="20250123_164110_3.jpg" /></li>
-</ul>
-
-<h1 id="positronium-laser-cooling-and-biomedical-applications">Positronium Laser Cooling and Biomedical Applications</h1>
-
-<p>TIL there is an “element” that is even simpler than a hydrogen atom: positronium, made of an electron and a positron (antiparticle of electron), and you can do all the usual AMO tricks on it such as laser cooling.
-First reaction: oh neat, fancy toy for high energy physicists. But it actually has biomedical applications such as imaging cancer cells.
-<img src="/assets/images/2025/20241113_20250130/20250123_212713_0.jpg" alt="20250123_212713_0.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250123_212713_1.jpg" alt="20250123_212713_1.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250123_212713_2.jpg" alt="20250123_212713_2.jpg" /></p>
-<ul>
-  <li>Fig. 1: <a href="https://bbc.com/news/science-environment-68349448">Antimatter: Scientists freeze positronium atoms with lasers</a></li>
-  <li>Fig. 2: <a href="https://cerncourier.com/a/the-promise-of-laser-cooled-positronium/">The promise of laser-cooled positronium</a></li>
-  <li>Fig. 3: Bass2023: <a href="https://doi.org/10.1103/RevModPhys.95.021002">Colloquium: Positronium physics and biomedical applications</a></li>
-  <li>The lifetime depend on the states, p-Ps is 0.1 ns and o-Ps (symmetry protected and could only decay to three photons) is 142 ns, and could be much longer in Rydberg states</li>
-</ul>
-
-<h1 id="green-ammonia-synthesis-from-atmospheric-components">Green Ammonia Synthesis from Atmospheric Components</h1>
-
-<p>Haber-Bosch? You can get ammonia straight from thin air, and it’s greeen.
-(only 0.05 grams/hour though)
-<img src="/assets/images/2025/20241113_20250130/20250124_174901_0.jpg" alt="20250124_174901_0.jpg" /></p>
-<ul>
-  <li>Song2024: <a href="https://www.science.org/doi/10.1126/sciadv.ads4443">Onsite ammonia synthesis from water vapor and nitrogen in the air</a></li>
-</ul>
-
-<h1 id="270-km-ultralong-raman-fiber-laser">270 km Ultralong Raman Fiber Laser</h1>
-
-<p>TIL the longest laser so far is a 270 km Raman fiber laser, and the corresponding FSR or mode spacing is only 380 Hz.
-If you lift it up vertically the gravitational redshift would be more than the FSR</p>
-
-<p>(I don’t get it though as the ~1450 nm pump would have decayed so much, and faster than the ~1550 nm lasing modes, and there’s no ticks on the log scale plot)
-<img src="/assets/images/2025/20241113_20250130/20250125_012049_0.jpg" alt="20250125_012049_0.jpg" /></p>
-<ul>
-  <li>Turitsyn2009: <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.103.133901">270-km Ultralong Raman Fiber Laser</a></li>
-  <li>Turns out in nature it could be <a href="https://arxiv.org/abs/2408.08513">much longer</a>. All I could say is.. Wow!
-   <img src="/assets/images/2025/20241113_20250130/20250125_024155_0.jpg" alt="20250125_024155_0.jpg" /></li>
-  <li>I have no good sense of the sensitivity vs fiber length/turns. They do have to use lower and lower power for longer fiber to avoid washing out the modes with “turbulentlike phase shifts induced by nonlinear interactions of multiple waves with different frequencies”
-   <img src="/assets/images/2025/20241113_20250130/20250125_015110_0.jpg" alt="20250125_015110_0.jpg" /></li>
-</ul>
-
-<h1 id="dirac-cone-engineering-in-superconducting-circuits">Dirac Cone Engineering in Superconducting Circuits</h1>
-
-<blockquote>
-  <p>How many resonators should I put on my chip?</p>
-
-  <p>Yes</p>
-</blockquote>
-
-<p>(for creating a band structure similar to a Dirac cone. Since this is a linear circuit, you could technically do this with your 3d printer and mechanical resonances)
-<img src="/assets/images/2025/20241113_20250130/20250125_172116_0.jpg" alt="20250125_172116_0.jpg" /></p>
-<ul>
-  <li>Youssefi2025: <a href="https://arxiv.org/abs/2501.10434">Realization of tilted Dirac-like microwave cone in superconducting circuit lattices</a>
-   <img src="/assets/images/2025/20241113_20250130/20250125_172214_0.jpg" alt="20250125_172214_0.jpg" /></li>
-  <li>Nice statistics for Q. Better not use amorphous Si for dielectrics if you want higher Q.
-   <img src="/assets/images/2025/20241113_20250130/20250125_172922_0.jpg" alt="20250125_172922_0.jpg" /></li>
-</ul>
-
-<h1 id="laser-sintering-with-nanoparticles">Laser Sintering with nanoparticles</h1>
-
-<p>Laser sintering additive (nano)manufacturing but the source is nanoparticles blasted off a target by another laser, for paper-based humidity and temperature sensors.
-<img src="/assets/images/2025/20241113_20250130/20250126_023644_0.jpg" alt="20250126_023644_0.jpg" /></p>
-<ul>
-  <li>Jaiswal2025: <a href="https://doi.org/10.2351/7.0001652">Laser-assisted dry printing eco-friendly paper-based humidity and temperature sensors</a>
-   <img src="/assets/images/2025/20241113_20250130/20250126_023912_0.jpg" alt="20250126_023912_0.jpg" /></li>
-</ul>
-
-<h1 id="ald-on-porous-polymer-substrates-challenges">ALD on Porous Polymer Substrates: Challenges</h1>
-
-<p>A very practical paper on ALD thin film onto porous polymers substrates, including various challenges and failure modes, mainly the CTE mismatch
-<img src="/assets/images/2025/20241113_20250130/20250126_034643_0.jpg" alt="20250126_034643_0.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250126_034643_1.jpg" alt="20250126_034643_1.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250126_034643_2.jpg" alt="20250126_034643_2.jpg" /></p>
-<ul>
-  <li>Welch2025: <a href="https://doi.org/10.1116/6.0004187">Atomic layer deposition of nanofilms on porous polymer substrates: Strategies for success</a>
-   <img src="/assets/images/2025/20241113_20250130/20250126_034748_0.jpg" alt="20250126_034748_0.jpg" /></li>
-</ul>
-
-<h1 id="computational-imaging-methods-and-limitations">Computational Imaging Methods and Limitations</h1>
-
-<p>This plot about imaging methods have so much going on I have to share it.
-<img src="/assets/images/2025/20241113_20250130/20250126_084925_0.jpg" alt="20250126_084925_0.jpg" /></p>
-<ul>
-  <li>Kirmani2010: <a href="https://dspace.mit.edu/handle/1721.1/58402">Femtosecond Transient Imaging</a></li>
-  <li>Found while searching Mojo Vision’s patent name (a tiny “reverse telescope” inside a contact lens)
-US10353205 - <a href="https://patentimages.storage.googleapis.com/ed/da/93/04145e0bf78be2/US10353205.pdf">FEMTOPROJECTOR OPTICAL SYSTEMS</a>
-   <img src="/assets/images/2025/20241113_20250130/20250126_090032_0.jpg" alt="20250126_090032_0.jpg" />
-   <img src="/assets/images/2025/20241113_20250130/20250126_090032_1.jpg" alt="20250126_090032_1.jpg" /></li>
-</ul>
-
-<h1 id="miniaturization-trends-in-tunable-laser-assemblies">Miniaturization Trends in Tunable Laser Assemblies</h1>
-
-<p>Evolution of integrable tunable laser assembly (ITLA) size, and comparison to a QSFP-DD pluggable.</p>
-
-<p>(there’s also pico ITLA since 2023 but I can’t find a real image of one)
-<img src="/assets/images/2025/20241113_20250130/20250126_203517_0.jpg" alt="20250126_203517_0.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250126_203517_1.jpg" alt="20250126_203517_1.jpg" /></p>
-<ul>
-  <li>Laser Focus World - <a href="https://laserfocusworld.com/lasers-sources/article/14206767/tunable-external-cavity-lasers-power-high-speed-coherent-transmission">Tunable external-cavity lasers power high-speed coherent transmission</a></li>
-  <li>EFFECT Photonics - <a href="https://effectphotonics.com/insights/the-power-of-monolithic-lasers/">The Power of Monolithic Lasers</a></li>
-</ul>
-
-<h1 id="laser-based-atmospheric-ionization-for-weather-control">Laser-Based Atmospheric Ionization for Weather Control</h1>
-
-<p>Weather control conspiracy? Laser based lightning control / weather control seems real.
-<img src="/assets/images/2025/20241113_20250130/20250127_061017_0.jpg" alt="20250127_061017_0.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250127_061017_1.jpg" alt="20250127_061017_1.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250127_061017_2.jpg" alt="20250127_061017_2.jpg" /></p>
-<ul>
-  <li>Diels1997: <a href="https://jstor.org/stable/24995870">Lightning Control with Lasers</a></li>
-  <li>Kasparian2010: <a href="https://optica-opn.org/home/articles/volume_21/issue_7/features/laser-based_weather_control/">Laser-Based Weather Control</a></li>
-  <li>The UFO you saw might be some 5 TW laser beam.</li>
-  <li>Couairon2006: <a href="https://doi.org/10.1016/j.physrep.2006.12.005">Femtosecond filamentation in transparent media</a>
-   <img src="/assets/images/2025/20241113_20250130/20250127_061834_0.jpg" alt="20250127_061834_0.jpg" /></li>
-</ul>
-
-<h1 id="single-electron-resolution-in-quanta-image-sensors">Single-Electron Resolution in Quanta Image Sensors</h1>
-
-<p>You might think our daily life is still far from the world of quantum, atoms and electrons, but sota security CMOS camera is not that far from counting single photons (read noise ~&lt; 0.3 electron rms).
-When you do it’s called a quanta image sensor (QIS), and you can resolve single photons and single electrons for both your signal and for the dark current.
-<img src="/assets/images/2025/20241113_20250130/20250127_171539_0.jpg" alt="20250127_171539_0.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250127_171539_1.jpg" alt="20250127_171539_1.jpg" /></p>
-<ul>
-  <li>Ma2022: <a href="https://doi.org/10.1109/TED.2022.3166716">Review of Quanta Image Sensors for Ultralow-Light Imaging</a></li>
-  <li>Krynski2025: <a href="https://doi.org/10.1103/PhysRevLett.134.037001">Single-Electron Quantization of Dark Current in Quanta Image Sensors</a></li>
-  <li>Less than 1 photon per pixel:
-   <img src="/assets/images/2025/20241113_20250130/20250127_171828_0.jpg" alt="20250127_171828_0.jpg" /></li>
-</ul>
-
-<h1 id="liquid-crystal-polarization-grating-beam-steering">Liquid Crystal Polarization Grating Beam Steering</h1>
-
-<p>This <a href="https://meadowlark.com/lcpg-principles/">liquid crystal and polarization grating based beam steering</a> is actually pretty neat: non-mechanical, large number of spots (&gt; 1k), large aperture (&gt; 20 cm??), high efficiency, ms switching time, N digital controls for 2^N spots (look at you, phased array), and although dispersive but can pick a wavelength from VIS to MWIR… What’s the catch, cycle time? operational temperature?
-<img src="/assets/images/2025/20241113_20250130/20250127_211650_0.jpg" alt="20250127_211650_0.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250127_211650_1.jpg" alt="20250127_211650_1.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250127_211650_2.jpg" alt="20250127_211650_2.jpg" /></p>
-<ul>
-  <li>How it works: just a stack of two components:</li>
-  <li>A liquid crystal half wave plate to switch between left and right hand circularly polarized light, and a polarization grating with linearly varying birefringence to scatter the light either left or right based
-   <img src="/assets/images/2025/20241113_20250130/20250127_212030_0.jpg" alt="20250127_212030_0.jpg" />
-   <img src="/assets/images/2025/20241113_20250130/20250127_212030_1.jpg" alt="20250127_212030_1.jpg" /></li>
-  <li>Further reading:</li>
-  <li>(thesis) Oh2009: <a href="https://researchgate.net/publication/241361478_Broadband_polarization_gratings_for_efficient_liquid_crystal_display_beam_steering_spectropolarimetry_and_Fresnel_zone_plate">Broadband Polarization Gratings for Efficient Liquid Crystal Display, Beam Steering, Spectropolarimetry, and Fresnel Zone Plate</a></li>
-  <li>Kim2008: <a href="https://www.auniontech.com/ueditor/file/20170829/1503994560114060.pdf">Wide-angle, nonmechanical beam steering using thin liquid crystal polarization gratings</a>
-   <img src="/assets/images/2025/20241113_20250130/20250128_015411_0.jpg" alt="20250128_015411_0.jpg" />
-   <img src="/assets/images/2025/20241113_20250130/20250128_015411_1.jpg" alt="20250128_015411_1.jpg" /></li>
-  <li>Saw one today at photonics west
-   <img src="/assets/images/2025/20241113_20250130/20250129_010216_0.jpg" alt="20250129_010216_0.jpg" />
-   <img src="/assets/images/2025/20241113_20250130/20250129_010216_1.jpg" alt="20250129_010216_1.jpg" /></li>
-  <li>Damage threshold probably similar to the <a href="https://thorlabs.com/newgrouppage9.cfm?objectgroup_id=6179">thorlabs ones</a>
-   <img src="/assets/images/2025/20241113_20250130/20250127_212344_0.jpg" alt="20250127_212344_0.jpg" /></li>
-</ul>
-
-<h1 id="global-lidar-technology-development-history">Global LIDAR Technology Development History</h1>
-
-<p>“This article discusses the history of laser radar development in America, Europe, and Asia.”
-<img src="/assets/images/2025/20241113_20250130/20250128_014459_0.jpg" alt="20250128_014459_0.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250128_014459_1.jpg" alt="20250128_014459_1.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250128_014459_2.jpg" alt="20250128_014459_2.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250128_014459_3.jpg" alt="20250128_014459_3.jpg" /></p>
-<ul>
-  <li>Molebny2017: <a href="https://www.spiedigitallibrary.org/journals/optical-engineering/volume-56/issue-03/031220/Laser-radar-historical-prospectivefrom-the-East-to-the-West/10.1117/1.OE.56.3.031220.full">Laser radar: historical prospective—from the East to the West</a></li>
-</ul>
-
-<h1 id="ccd-based-moiré-metrology-techniques">CCD-Based Moiré Metrology Techniques</h1>
-
-<p>Moiré pattern/method is used to measure position/strain/surface deformation etc., and it involves “mixing” of two spatially periodic patterns just like in frequency domain: homodyne/heterodyne detection, a lock-in, or an RF mixer.
-You could also use the periodic pattern of the CCD pixels as a known “LO” to achieve it instead of an external one.
-<img src="/assets/images/2025/20241113_20250130/20250128_171343_0.jpg" alt="20250128_171343_0.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250128_171343_1.jpg" alt="20250128_171343_1.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250128_171343_2.jpg" alt="20250128_171343_2.jpg" /></p>
-<ul>
-  <li>Shangguan2025: <a href="https://doi.org/10.1364/OE.545680">Displacement measurement with CCD Moiré method considering the relative rotation of gratings</a>
-   <img src="/assets/images/2025/20241113_20250130/20250128_171432_0.jpg" alt="20250128_171432_0.jpg" /></li>
-  <li>Here’s mine
-   <img src="/assets/images/2025/20241113_20250130/20250129_051858_0.jpg" alt="20250129_051858_0.jpg" /></li>
-</ul>
-
-<h1 id="miniaturized-oct-for-freely-moving-mice">Miniaturized OCT for Freely Moving Mice</h1>
-
-<p>This mouse got ass</p>
-
-<p>(Miniature head mount optical coherence tomography (OCT) high-res brain imaging in freely moving mice)
-<img src="/assets/images/2025/20241113_20250130/20250128_193325_0.jpg" alt="20250128_193325_0.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20250128_193325_1.jpg" alt="20250128_193325_1.jpg" /></p>
-<ul>
-  <li>Wang2024: <a href="https://doi.org/10.1021/acsphotonics.4c00856">Miniaturized Head-Mount Doppler Optical Coherence Tomography Scope for Freely Moving Mouse</a>
-   <img src="/assets/images/2025/20241113_20250130/20250128_193445_0.jpg" alt="20250128_193445_0.jpg" /></li>
-  <li>Now that’s a mouse with cables coming off from the head like a mouse should be
-   <img src="/assets/images/2025/20241113_20250130/20250128_193904_0.jpg" alt="20250128_193904_0.jpg" /></li>
-  <li>It’s after cranial window surgery, not transcranial.</li>
-</ul>
-
-<h1 id="phase-behavior-analysis-of-pasta-sauce">Phase Behavior Analysis of Pasta Sauce</h1>
-
-<p>I’m seeing a pattern from the Italians, here’s a new paper  on the phase diagram and behavior of cacio and pepe pasta sauce, to “achieve the perfect texture and creaminess”.
-<img src="/assets/images/2025/20241113_20250130/20241113_075405_0.jpg" alt="20241113_075405_0.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20241113_075405_1.jpg" alt="20241113_075405_1.jpg" />
-<img src="/assets/images/2025/20241113_20250130/20241113_075405_2.jpg" alt="20241113_075405_2.jpg" /></p>
-<ul>
-  <li>Bartolucci2025: <a href="https://arxiv.org/abs/2501.00536">Phase behavior of Cacio and Pepe sauce</a></li>
-  <li>See also <a href="https://nytimes.com/2025/01/24/science/cacio-e-pepe-recipe-corn-starch.html">NY times</a></li>
-  <li>Wish I get to write abstract like this: “Finally, we present a scientifically optimized recipe based on our findings, enabling a consistently flawless execution of this classic dish.”
-   <img src="/assets/images/2025/20241113_20250130/20250129_025455_0.jpg" alt="20250129_025455_0.jpg" /></li>
-  <li>This paper is a joy to read, their recipe is better than some aspects nanofab process lol, controlling the starch content to within +-1%. And also very detailed SI.
-   <img src="/assets/images/2025/20241113_20250130/20250129_030236_0.jpg" alt="20250129_030236_0.jpg" />
-   <img src="/assets/images/2025/20241113_20250130/20250129_030236_1.jpg" alt="20250129_030236_1.jpg" /></li>
-</ul>
-
-<h1 id="leo-satellite-market-growth-projections">LEO Satellite Market Growth Projections</h1>
-
-<p>LEO satellite <a href="https://investors.st.com/static-files/c29d9177-7a6d-485e-8bd1-48c3bac89a4f">market forecast</a>, 10x in five years?
-<img src="/assets/images/2025/20241113_20250130/20250129_100124_0.jpg" alt="20250129_100124_0.jpg" /></p>
-
-<h1 id="historical-magnetic-core-memory-architecture">Historical Magnetic Core Memory Architecture</h1>
-
-<p>The drive frame of IBM’s 32,000-word magnetic-core memory, April 1957.
-They call each set of eight-tube unit a pluggable unit.
-<img src="/assets/images/2025/20241113_20250130/20250130_010423_0.jpg" alt="20250130_010423_0.jpg" /></p>
-<ul>
-  <li>Foss1957: <a href="https://doi.org/10.1147/rd.12.0102">A 32,000-Word Magnetic-Core Memory</a>
-   <img src="/assets/images/2025/20241113_20250130/20250130_010558_0.jpg" alt="20250130_010558_0.jpg" /></li>
-</ul>
-
-<h1 id="lunar-laser-ranging-link-budgets">Lunar Laser Ranging Link Budgets</h1>
-
-<p>届かない恋</p>
-
-<p>(S11 of a laser moon bounce is about -160 dB. Saw a talk yesterday of a lunar earth FSO link with free space propagation loss of -276 dB.)
-<img src="/assets/images/2025/20241113_20250130/20250130_012846_0.jpg" alt="20250130_012846_0.jpg" /></p>
-<ul>
-  <li>Murphy2013: <a href="https://tmurphy.physics.ucsd.edu/papers/rop-llr.pdf">Lunar laser ranging: the millimeter challenge</a>
-The moon is so much brighter you have to pulse and do temporal filtering.
-   <img src="/assets/images/2025/20241113_20250130/20250130_013205_0.jpg" alt="20250130_013205_0.jpg" /></li>
-  <li>I should have said it’s theory / budget survey, I guess at least it shows they believe it’s doable.</li>
-</ul>
-
-<h1 id="projects">Projects</h1>
-
-<p>Procrastinating:</p>
-<ul>
-  <li>Droplet walker</li>
-  <li>TabTreeTracker</li>
-  <li>Low cost robot arm</li>
-  <li>Joystick doomscrolling</li>
-</ul>
-
-<p>Ongoing:</p>
-<ul>
-  <li>fiber2chip <a href="https://jwt625.github.io/tutorial/fiber2chip-history-concept/">blog</a></li>
-</ul>
-
-<p>Finished:</p>
-<ul>
-  <li>SiPho writeup for <a href="https://x.com/byte_thrasher">avi</a>’s zine.</li>
-</ul>
-
-<p>Planning:</p>
-<ul>
-  <li>Wave demo with ~ 300 Hz water surface wave + 3D printed components</li>
-</ul>
-
-<p>Gave up</p>
-<ul>
-  <li>Traveling wave excitation of mechanical ring resonator (see <a href="https://x.com/jwt0625/status/1877578653648986365">this thread</a>)</li>
-</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Modular_quantum_computing" /><category term="Photonic_integration" /><category term="Squeezed_light" /><category term="Positronium" /><category term="Laser_cooling" /><category term="Biomedical_imaging" /><category term="Green_ammonia_synthesis" /><category term="Raman_fiber_laser" /><category term="AWG" /><category term="SOA" /><category term="Coherent_transceivers" /><category term="Dirac_cones" /><category term="Superconducting_circuits" /><category term="Laser_sintering" /><category term="ALD" /><category term="Porous_polymers" /><category term="Computational_imaging" /><category term="ITLA" /><category term="Laser_lightning_control" /><category term="Quanta_image_sensor" /><category term="Liquid_crystal_beam_steering" /><category term="LIDAR" /><category term="Moiré_metrology" /><category term="OCT" /><category term="Phase_diagrams" /><category term="LEO_satellites" /><category term="Core_memory" /><category term="Lunar_laser_ranging" /><summary type="html"><![CDATA[800G/400G Coherent Transceiver Chip Designs]]></summary></entry></feed>
+</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Photonics" /><category term="MEMS" /><category term="Quantum" /><category term="Optics" /><category term="Laser" /><category term="Semiconductor" /><category term="Nanotube" /><category term="DNA_origami" /><category term="Ultrasonic_imaging" /><category term="Frequency_comb" /><category term="Inverse_design" /><category term="Atom_interferometry" /><category term="COMSOL" /><category term="VCSEL" /><category term="Silicon_carbide" /><category term="Lithography" /><category term="Metasurface" /><category term="Cryogenics" /><category term="OCT" /><category term="Waveguide" /><category term="Piezo" /><category term="Robotics" /><category term="Swarm_robotics" /><category term="Event_camera" /><category term="Thermal_processing" /><category term="Gravitational_waves" /><category term="Hydrodynamic_sensing" /><category term="Roll-to-roll" /><category term="EUV" /><category term="Talbot_effect" /><summary type="html"><![CDATA[Achromatic Polymer Diffractive Lenses for Astrophotography 100 mm diameter, 2.4  μm thick multilevel diffractive lens (MDL), focal length 200 mm, optimized for the visible wavelength range, achieving achromatic focusing with inverse design and grayscale lithography. They have a company called Oblate Optics, found I’ve checked out their website but I don’t remember when or why.. Majumder2025: Color astrophotography with a 100 mm-diameter f/2 polymer flat lens “The MDL is composed of 10 000 concentric rings, each with a fixed width of 5  μm and varying heights” Almost 10x lighter than a plano-convex with the same diameter, and achromatic Rule of thumb for how real world relevant the work is: how many actual photos are in the SI]]></summary></entry></feed>

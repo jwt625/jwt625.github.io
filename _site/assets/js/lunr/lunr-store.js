@@ -388,4 +388,10 @@ var store = [{
         "tags": ["Hollow_core_fiber","Optical_accelerator","TENG","Haptics","Fiber_laser","Superconducting_qubit","Quantum_computing","Surfaces_and_interfaces","Cryogenic_amplifier","TWPA","Photonic_computing","Ion_trap","RCS","Millimeter_wave_imaging","Raman_spectroscopy","Microrobot","NIL","Metalens","Diffractive_optics","Optical_waveguide","Programmable_photonics","Orbital_angular_momentum","TFLN","Magnetic_actuation","Brain_surgery_tool","Brillouin_scattering","Frequency_comb","Optomechanics","Acoustic_sensing"],
         "url": "/ofs/weekly-OFS-40/",
         "teaser": null
+      },{
+        "title": "How to (not) excite a wavelength-scale acoustic/mechanical waveguide",
+        "excerpt":"This is meant to be a short rant, as well as share the lesson I learnt from my colleagues about why it is tricky to make a good taper for mechanical waves (and they also wrote about it): you need to be careful about how is the mechanical mode guided...","categories": ["Tutorial"],
+        "tags": ["Acoustic_waves","Piezoelectricity","Nanofab"],
+        "url": "/tutorial/how-to-excite-tiny-mech-wave/",
+        "teaser": null
       }]
