@@ -20,12 +20,13 @@ This is meant to be a short rant, as well as share the lesson I learnt from my c
 
 So... where should I start? That's simple: why do we care about mechanical waves first, and why a waveguide, and why a wavelength-scale mechanical waveguide?
 
-You might remember sound wave in air is a bit more than 300 m/s, which is SIX orders of magnitude slower than light. It turns out it is not that different in solids, and surfaces of solids: few thousands meters per second to sometimes a bit more than 10,000 m/s. Let's say 3,000 m/s, which is FIVE orders of magnitude slower than light. Why are you boasting about it being slow? Well, slow means its wavelength is much shorter than the corresponding electromegnetic waves at the samefrequency. Hmm, isn't this making it more annoying to play with? Yes, but it also makes the devices much smaller. You could make smaller resonators, smaller filters, and even smaller amplifiers (maybe).
+You might remember sound wave in air is a bit more than 300 m/s, which is SIX orders of magnitude slower than light. It turns out it is not that different in solids, and surfaces of solids: few thousands meters per second to sometimes a bit more than 10,000 m/s. Let's say 3,000 m/s, which is FIVE orders of magnitude slower than light. Why are you boasting about it being slow? Well, slow means its wavelength is much shorter than the corresponding electromegnetic waves at the same frequency. Hmm, isn't this making it more annoying to play with? Yes, but it also makes the devices much smaller. You could make smaller resonators, smaller filters, and even smaller amplifiers (maybe).
 
 Here is a random surface acoustic wave (SAW) filter from Kyocera with 1.3 dB insertion loss around 1.2 GHz, that is only 1.1 mm x 0.9 mm x 0.6 mm. ([SF11-1192M5UUA1](https://ele.kyocera.com/en/product/saw-device/saw_filters/sf11/sf11-1192m5uua1/))
-
-![SAW-SF11](/assets/images/2025/mech_wave_transduction/SF11.png)
-![SAW-S21](/assets/images/2025/mech_wave_transduction/SF11-1192M5UUA1_DS-S21.png)
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/mech_wave_transduction/SF11.png" alt="SAW-SF11" style="max-width: 48%;"/>
+    <img src="/assets/images/2025/mech_wave_transduction/SF11-1192M5UUA1_DS-S21.png" alt="SAW-S21" style="max-width: 48%;"/>
+</div>
 
 Look how clean this S21 curve is!!
 
@@ -38,7 +39,9 @@ Next, why a waveguide, and a wavelength-scale waveguide? As the name suggests, y
 
 
 Making the waveguide wavelength-scale (or even subwavelength scale) further helps concentrating the energy, and is useful for nonlinear applications, and quantum applications, where things scale faster with power density or field amplitude, or when you are limited to be playing with single [phonons](https://www.britannica.com/science/phonon) (this is a highly simplified explanation of why quantum applications need smaller modes).
-
+- One [recent example](https://arxiv.org/abs/2503.09946) is the observation of acoustic [Purcell effect](https://en.wikipedia.org/wiki/Purcell_effect) of a color-center coupled to a nanomechanical resonator
+- See the $$Q/V$$ factor from the Purcell effect? The smaller your resonator is, and the higher Q it is, the stronger the effect.
+![Joe2025](/assets/images/2025/mech_wave_transduction/Joe2025.png)
 
 # Why do we need big transducers
 
@@ -47,7 +50,7 @@ Hint: the [cover image](https://doi.org/10.1063/1.1754276).
 (To be continued)
 
 
-# Tapering a mechanical waveguide
+# Tapering the width of a mechanical waveguide
 ([see also](https://x.com/jwt0625/status/1905499644958048363))
 
 <div style="display: flex; justify-content: space-between;">
@@ -100,7 +103,7 @@ To get around this, a longer and slower taper won't help. You could stop when th
 I'll finish my rant with, don't trust the waveguide S21 if you don't see the waveguide being released/separated from the bulk substrate, or making bends. The S21 could be well from the surface acoustic waves instead of actually being guided in the narrow waveguide.
 
 
-# Examples of how not to excite a tiny mechanical waveguide
+# Examples of how to not excite a tiny mechanical waveguide
 
 
 (To be continued)
