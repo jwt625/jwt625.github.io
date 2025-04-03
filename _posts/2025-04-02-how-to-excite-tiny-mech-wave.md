@@ -42,7 +42,7 @@ Making the waveguide wavelength-scale (or even subwavelength scale) further help
 
 # Why do we need big transducers
 
-Hint: the cover image.
+Hint: the [cover image](https://doi.org/10.1063/1.1754276).
 
 (To be continued)
 
