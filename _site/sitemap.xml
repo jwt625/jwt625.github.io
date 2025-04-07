@@ -265,6 +265,10 @@
 <lastmod>2025-04-02T00:00:00-07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/ofs/weekly-OFS-41/</loc>
+<lastmod>2025-04-06T00:00:00-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -633,6 +637,10 @@
 <url>
 <loc>http://localhost:4000/assets/doc/2025/ingaas_is_kmir1037e.pdf</loc>
 <lastmod>2025-01-19T23:21:18-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/doc/2025/mspec.1970.5213037.pdf</loc>
+<lastmod>2025-04-05T20:52:51-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/doc/2025/opn-21-7-22-laser-based-weather-control.pdf</loc>

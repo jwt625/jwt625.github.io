@@ -394,4 +394,10 @@ var store = [{
         "tags": ["Acoustic_waves","Piezoelectricity","Nanofab"],
         "url": "/tutorial/how-to-excite-tiny-mech-wave/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#41)",
+        "excerpt":"Designing for Century-Scale Accelerators Imagine the thing you are designing won’t be in use until 60 years later The biggest machine in science: inside the fight to build the next giant particle collider Air-Gap Qubit with Niobium Bridges they are so confident in their niobium air bridges process, that they...","categories": ["OFS"],
+        "tags": ["Superconducting_qubit","Vacuum_capacitor","TEM","Photonics","Inverse_design","Pytorch","MZI","Ring_resonator","mmWave","Vapor_cell","Rydberg","Phased_array","Nanomembrane","Gigapixel_camera","Additive_manufacturing","Laser_sealing","Haptics","Optical_IO","Surface_wave","Ultrasonic","KID","Co_packaged_optics","DOE","SRF_cavity","Dwave","MEMS_motor","Optical_control","Atomic_clock","Ion_trap","PZT"],
+        "url": "/ofs/weekly-OFS-41/",
+        "teaser": null
       }]

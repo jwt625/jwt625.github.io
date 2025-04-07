@@ -37,6 +37,9 @@ Ok back to the point, which is, the electromagnetic waves around this frequency 
 
 Next, why a waveguide, and a wavelength-scale waveguide? As the name suggests, you could guide the wave, and thus you could do more fun stuff such as bending the waves around, make it circulating in a ring/racetrack, make directional couplers, have more spatial channels without diffraction, all the usual waveguide stuff. 
 
+![Mayor2020](/assets/images/2025/mech_wave_transduction/Mayor2020.png)
+- here is a wavelength-scale mechanical waveguide and racetrack resonator my friends and I made ([see](https://ntt-research.com/wp-content/uploads/2022/09/Gigahertz-phononic-integrated-circuits-on-thin-film-lithium-niobate-on-sapphire1.pdf))
+- We "cheated" and used relative transmission, shame on us. (we did not cheat for the S21 in Fig. 3)
 
 Making the waveguide wavelength-scale (or even subwavelength scale) further helps concentrating the energy, and is useful for nonlinear applications, and quantum applications, where things scale faster with power density or field amplitude, or when you are limited to be playing with single [phonons](https://www.britannica.com/science/phonon) (this is a highly simplified explanation of why quantum applications need smaller modes).
 - One [recent example](https://arxiv.org/abs/2503.09946) is the observation of acoustic [Purcell effect](https://en.wikipedia.org/wiki/Purcell_effect) of a color-center coupled to a nanomechanical resonator

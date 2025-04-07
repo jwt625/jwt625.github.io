@@ -1,4 +1,445 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-03T00:24:29-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">How to (not) excite a wavelength-scale acoustic/mechanical waveguide</title><link href="http://localhost:4000/tutorial/how-to-excite-tiny-mech-wave/" rel="alternate" type="text/html" title="How to (not) excite a wavelength-scale acoustic/mechanical waveguide" /><published>2025-04-02T00:00:00-07:00</published><updated>2025-04-02T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/how-to-excite-tiny-mech-wave</id><content type="html" xml:base="http://localhost:4000/tutorial/how-to-excite-tiny-mech-wave/"><![CDATA[<p>This is meant to be a short rant, as well as share the lesson I learnt from my colleagues about why it is tricky to make a good taper for mechanical waves (and they also wrote about it): you need to be careful about how is the mechanical mode guided / confined. Mechanical waves are a bit more weird than em waves. Hopefully it would also be useful for some folks.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-06T22:16:18-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#41)</title><link href="http://localhost:4000/ofs/weekly-OFS-41/" rel="alternate" type="text/html" title="This week’s outside five sigma (#41)" /><published>2025-04-06T00:00:00-07:00</published><updated>2025-04-06T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-41</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-41/"><![CDATA[<h1 id="designing-for-century-scale-accelerators">Designing for Century-Scale Accelerators</h1>
+
+<p>Imagine the thing you are designing won’t be in use until 60 years later
+<img src="/assets/images/2025/20250225_20250406/20250319_185730_0.jpg" alt="20250319_185730_0.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250319_185730_1.jpg" alt="20250319_185730_1.jpg" /></p>
+<ul>
+  <li><a href="https://nature.com/articles/d41586-025-00793-x">The biggest machine in science: inside the fight to build the next giant particle collider</a></li>
+</ul>
+
+<h1 id="air-gap-qubit-with-niobium-bridges">Air-Gap Qubit with Niobium Bridges</h1>
+
+<p>they are so confident in their niobium air bridges process, that they actually made a transmon qubit with a vacuum gap capacitor with it, and it’s indeed really good.
+<img src="/assets/images/2025/20250225_20250406/20250328_235848_0.jpg" alt="20250328_235848_0.jpg" /></p>
+<ul>
+  <li>Bruckmoser2025: <a href="https://arxiv.org/pdf/2503.12076">Niobium Air Bridges as a Low-Loss Component for Superconducting Quantum Hardware</a>
+   <img src="/assets/images/2025/20250225_20250406/20250328_235945_0.jpg" alt="20250328_235945_0.jpg" /></li>
+</ul>
+
+<h1 id="nanostructured-alloys-under-tem">Nanostructured Alloys under TEM</h1>
+
+<p>there are tiny cathedrals everywhere for those with TEMs to see
+<img src="/assets/images/2025/20250225_20250406/20250329_044717_0.jpg" alt="20250329_044717_0.jpg" /></p>
+<ul>
+  <li>Hornbuckle2025: <a href="https://doi.org/10.1126/science.adr0299">A high-temperature nanostructured Cu-Ta-Li alloy with complexion-stabilized precipitates</a></li>
+  <li>i found you don’t need subscription to access the figures if you know the address lol</li>
+  <li><a href="https://science.org/cms/10.1126/science.adr0299/asset/e598cdcf-465d-483f-ad57-d8c9db16b57f/assets/images/large/science.adr0299-f1.jpg">Fig. 1</a></li>
+  <li><a href="https://science.org/cms/10.1126/science.adr0299/asset/f114ec5f-0e7d-4759-b7ba-1c1460aa9db5/assets/images/large/science.adr0299-f2.jpg">Fig. 2</a>
+   <img src="/assets/images/2025/20250225_20250406/20250329_044917_0.jpg" alt="20250329_044917_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250329_044917_1.jpg" alt="20250329_044917_1.jpg" /></li>
+</ul>
+
+<h1 id="neural-network-based-photonics-design">Neural Network-Based Photonics Design</h1>
+
+<p>You are using Synopsys OptSim/Ansys Lumerical INTERCONNECT/Luceda IPKISS/GDSFactory+ for your photonics circuit simulation, I’m using pytorch, we are not the same.</p>
+
+<p>(this is probably a dumb idea but hey it got built-in tolerance analysis called backpropagation, and many benchmarking, visualization stuff)</p>
+
+<p>(Will make the coupler modeling more accurate &amp; add more components etc)
+<img src="/assets/images/2025/20250225_20250406/20250329_062557_0.jpg" alt="20250329_062557_0.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250329_062557_1.jpg" alt="20250329_062557_1.jpg" /></p>
+<ul>
+  <li>this should be freaking illegal man, how is getting a tolerance analysis this easy
+   <img src="/assets/images/2025/20250225_20250406/20250329_063831_0.jpg" alt="20250329_063831_0.jpg" /></li>
+  <li>now with non-ideal directional coupler
+   <img src="/assets/images/2025/20250225_20250406/20250329_204207_0.jpg" alt="20250329_204207_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250329_204207_1.jpg" alt="20250329_204207_1.jpg" /></li>
+  <li>playing with optimization… This thing is SO EASY to run, here is before and after optimizing for 45:55 splitting for a wide bandwidth.</li>
+  <li>I’m going to do all my future fitting/optimization in pytorch. Everything is a nn for me now.</li>
+  <li>(of course this is purely for fun, it’s not easy to shape coupling in frequency domain, but will think about how to do this along direction of propagation which is much more practical)
+   <img src="/assets/images/2025/20250225_20250406/20250329_233123_0.jpg" alt="20250329_233123_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250329_233123_1.jpg" alt="20250329_233123_1.jpg" /></li>
+  <li>optimizing just shifting and scaling of detuning and coupling (more practical than arbitrary detuning and coupling), and doing it over five segments</li>
+  <li>Quite some improvements between before and after.
+   <img src="/assets/images/2025/20250225_20250406/20250330_071500_0.jpg" alt="20250330_071500_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250330_071500_1.jpg" alt="20250330_071500_1.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250330_071500_2.jpg" alt="20250330_071500_2.jpg" /></li>
+  <li>implemented a ring resonator and added to one arm of the mzi</li>
+  <li>hopefully will find time tmw to test optimization for the linearity of the mzi slope like in this work
+   <img src="/assets/images/2025/20250225_20250406/20250330_090623_0.jpg" alt="20250330_090623_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250330_090623_1.jpg" alt="20250330_090623_1.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250330_090623_2.jpg" alt="20250330_090623_2.jpg" /></li>
+  <li>Got the optimization running, it’s tricky and converges to weird local min all the time.</li>
+  <li>Here’s a decent one. The ring is so low-Q it’s pretty much a bad MZI.</li>
+  <li>Now I think about it, you could always cascade MZIs with harmonic frequency to compose whatever response you want like a
+   <img src="/assets/images/2025/20250225_20250406/20250330_202241_0.jpg" alt="20250330_202241_0.jpg" /></li>
+</ul>
+
+<h1 id="passive-millimeter-wave-imaging-concepts">Passive Millimeter-Wave Imaging Concepts</h1>
+
+<p>oh man the future is going to be beautiful, everyone will have their own handheld passive millimeter-wave camera with amazing rf and photonics/optics inside
+<img src="/assets/images/2025/20250225_20250406/GnOjC01bAAAy111.jpeg" alt="GnOjC01bAAAy111" />
+<img src="/assets/images/2025/20250225_20250406/GnOjGPeaQAARFLP.jpeg" alt="GnOjGPeaQAARFLP" />
+<img src="/assets/images/2025/20250225_20250406/GnOjI2EakAAaYZ-.jpeg" alt="GnOjI2EakAAaYZ-" /></p>
+<ul>
+  <li>Prather2025: <a href="https://doi.org/10.1109/iWAT64079.2025.10931213">The Role of Photonic Devices in Advanced Phased Array Antennas</a>
+   <img src="/assets/images/2025/20250225_20250406/20250329_181436_0.jpg" alt="20250329_181436_0.jpg" /></li>
+  <li>now after thinking about this a bit, why not a big slab of vapor cell, and optically control &amp; readout Rydberg atoms?</li>
+  <li>this might get rid of the expensive mmw LNAs, maybe the responsivity does not work out at all. Time to figure out more numbers</li>
+  <li>Legaie2023: <a href="https://arxiv.org/abs/2306.17114">A millimeter-wave atomic receiver</a>
+   <img src="/assets/images/2025/20250225_20250406/20250329_183153_0.jpg" alt="20250329_183153_0.jpg" /></li>
+</ul>
+
+<h1 id="rolled-up-rf-nanomembrane-resonator">Rolled-Up RF Nanomembrane Resonator</h1>
+
+<p>Big LC resonator taking up too much area on your chip? Roll it up 
+<img src="/assets/images/2025/20250225_20250406/20250329_234301_0.jpg" alt="20250329_234301_0.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250329_234301_1.jpg" alt="20250329_234301_1.jpg" /></p>
+<ul>
+  <li>Wei2025: <a href="https://doi.org/10.1063/5.0253261">On-chip compact radio frequency metal self-rolled-up nanomembrane resonator</a></li>
+</ul>
+
+<h1 id="rubin-observatorys-gigapixel-camera">Rubin Observatory’s Gigapixel Camera</h1>
+
+<p>look at this 3.2 gigapixel camera I just found, it only weights about three tons.
+<img src="/assets/images/2025/20250225_20250406/20250330_043911_0.jpg" alt="20250330_043911_0.jpg" /></p>
+<ul>
+  <li><a href="https://rubinobservatory.org/explore/how-rubin-works/technology/camera">Explore - How Rubin Works - Rubin Technology - Camera</a></li>
+  <li>Roodman2024: <a href="https://hal.science/hal-04668431v1/file/LSST_Camera_Testing_and_Characterization_SPIE_2024.pdf">LSST camera verification testing and characterization</a></li>
+  <li>201 CCDs, each with 4k x 4k pixels, focal plane is 64cm x 64cm
+   <img src="/assets/images/2025/20250225_20250406/20250330_044432_0.jpg" alt="20250330_044432_0.jpg" /></li>
+  <li>look at this goofy camera</li>
+  <li><a href="https://noirlab.edu/public/images/noirlab2511g/">LSST Camera Installation</a></li>
+  <li><a href="https://rubinobservatory.org/explore/how-rubin-works/technology">Rubin Technology</a>
+   <img src="/assets/images/2025/20250225_20250406/20250330_045544_0.jpg" alt="20250330_045544_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250330_045544_1.jpg" alt="20250330_045544_1.jpg" /></li>
+  <li>hell yeah please spend my tax money on larger cameras
+   <img src="/assets/images/2025/20250225_20250406/20250330_050624_0.jpg" alt="20250330_050624_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250330_050624_1.jpg" alt="20250330_050624_1.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250330_050624_2.jpg" alt="20250330_050624_2.jpg" /></li>
+  <li>we might be able to crowd fund this with 400,000 people (it was ~$168 million)</li>
+  <li><a href="https://ww2.aip.org/fyi/slac-completes-largest-digital-camera-ever-built-for-astronomy">SLAC Completes Largest Digital Camera Ever Built for Astronomy</a></li>
+</ul>
+
+<h1 id="high-speed-laser-additive-manufacturing">High-Speed Laser Additive Manufacturing</h1>
+
+<p>i want this to fit on my desk</p>
+
+<p>(powder-based laser material deposition, titanium alloy Ti-6Al-4V, using a top-hat beam profile to increase the rate to 5 kg/h)
+<img src="/assets/images/2025/20250225_20250406/20250330_182350_0.jpg" alt="20250330_182350_0.jpg" /></p>
+<ul>
+  <li>Saleh2025: <a href="https://doi.org/10.2351/7.0001633">Laser additive manufacturing of TI-6AL-4V alloy at a high deposition-rate using a rectangular laser spot</a>
+   <img src="/assets/images/2025/20250225_20250406/20250330_182516_0.jpg" alt="20250330_182516_0.jpg" /></li>
+  <li>sorry I should have mentioned the ref was in the comment, here’s the section about their laser
+   <img src="/assets/images/2025/20250225_20250406/20250330_200446_0.jpg" alt="20250330_200446_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250330_200446_1.jpg" alt="20250330_200446_1.jpg" /></li>
+</ul>
+
+<h1 id="wafer-level-sealed-vapor-cells">Wafer-Level Sealed Vapor Cells</h1>
+
+<p>Make seal and break seal with a laser beam for wafer-level millimeter-scale vapor cells (single-use though)
+<img src="/assets/images/2025/20250225_20250406/20250331_071419_0.jpg" alt="20250331_071419_0.jpg" /></p>
+<ul>
+  <li>Maurice2022: <a href="https://doi.org/10.1038/s41378-022-00468-x">Wafer-level vapor cells filled with laser-actuated hermetic seals for integrated atomic devices</a>
+   <img src="/assets/images/2025/20250225_20250406/20250331_071546_0.jpg" alt="20250331_071546_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250331_071546_1.jpg" alt="20250331_071546_1.jpg" /></li>
+  <li>whenever there’s wafer bonding involved it’s pretty annoying
+   <img src="/assets/images/2025/20250225_20250406/20250331_072528_0.jpg" alt="20250331_072528_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250331_072528_1.jpg" alt="20250331_072528_1.jpg" /></li>
+</ul>
+
+<h1 id="3d-coil-based-full-motion-haptics">3D Coil-Based Full-Motion Haptics</h1>
+
+<p>This haptic actuator uses a three-axis tri-coil to push a magnet around on your skin.</p>
+
+<p>They call them full freedom-of-motion actuators, could generate stroking, pinching/stretching, tapping etc., and they showed hand navigation with one such actuator, and virtual texture sensation (shear &lt;-&gt; friction coefficient, vibration frequency &lt;-&gt; spatial frequency of surface roughness etc.)
+<img src="/assets/images/2025/20250225_20250406/20250331_193625_0.jpg" alt="20250331_193625_0.jpg" /></p>
+<ul>
+  <li>these coils look clean. A lot of details in the SI.</li>
+  <li>Ha2025: <a href="https://doi.org/10.1126/science.adt2481">Full freedom-of-motion actuators as advanced haptic interfaces</a></li>
+  <li><a href="https://science.org/cms/10.1126/science.adt2481/asset/3e4b5917-d16f-4da1-95db-6adc424c8200/assets/images/large/science.adt2481-f1.jpg">fig1</a></li>
+  <li><a href="https://science.org/cms/10.1126/science.adt2481/asset/21443f93-2ddf-4b69-a02a-abb6031f62d4/assets/images/large/science.adt2481-f2.jpg">fig2</a></li>
+  <li><a href="https://science.org/cms/10.1126/science.adt2481/asset/63c39bc2-52b5-4139-83b0-b8538df76944/assets/images/large/science.adt2481-f3.jpg">fig3</a>
+   <img src="/assets/images/2025/20250225_20250406/20250331_193946_0.jpg" alt="20250331_193946_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250331_193946_1.jpg" alt="20250331_193946_1.jpg" /></li>
+</ul>
+
+<h1 id="optical-fiber-io-for-ai-systems">Optical Fiber I/O for AI Systems</h1>
+
+<p>automatic repost of exponential curves of compute and communication</p>
+
+<p>(the paper is about a 1.6 Tbps high-density I/O with 2D optical fiber array from Nubis Communications. Feels so wrong seeing optical fibers terminated with LGA package)
+<img src="/assets/images/2025/20250225_20250406/20250331_213250_0.jpg" alt="20250331_213250_0.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250331_213250_1.jpg" alt="20250331_213250_1.jpg" /></p>
+<ul>
+  <li>Valicourt2025: <a href="https://doi.org/10.1364/OE.555476">1.6-Tbps low-power linear-drive high-density optical interface for machine learning/artificial intelligence</a>
+   <img src="/assets/images/2025/20250225_20250406/20250331_213421_0.jpg" alt="20250331_213421_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250331_213421_1.jpg" alt="20250331_213421_1.jpg" /></li>
+</ul>
+
+<h1 id="traveling-wave-mems-micromotor">Traveling-Wave MEMS Micromotor</h1>
+
+<p>It’s kind of funny and counterintuitive that when you move big things with a traveling acoustic/mechanical wave, the direction they move would be the opposite direction of the wave.</p>
+
+<p>(this micromotor is driven by a traveling wave)</p>
+
+<p>(the last gif is a cross-section view, if you follow the displacement arrows near the surface, you can see why things get moved to the opposite direction)</p>
+
+<p>(when things are smaller than the acoustic wavelength it would be different)
+<img src="/assets/images/2025/20250225_20250406/20250401_054239_0.jpg" alt="20250401_054239_0.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250401_054239_1.jpg" alt="20250401_054239_1.jpg" /></p>
+<ul>
+  <li>Xie2025: <a href="https://doi.org/10.1038/s41378-025-00868-9">A MEMS traveling-wave micromotor-based miniature gyrocompass</a>
+   <img src="/assets/images/2025/20250225_20250406/20250401_054338_0.jpg" alt="20250401_054338_0.jpg" /></li>
+</ul>
+
+<h1 id="discovery-of-new-surface-em-modes">Discovery of New Surface EM Modes</h1>
+
+<p>just ran into a new type of surface em wave that I have never heard about before and now I can’t sleep please send help
+<img src="/assets/images/2025/20250225_20250406/20250401_080921_0.jpg" alt="20250401_080921_0.jpg" /></p>
+<ul>
+  <li>this one is more plasmonic ish. the one above works for all frequencies/bands at the interface, and one of the materials need to be anisotropic</li>
+</ul>
+
+<h1 id="ultrasonic-focusing-via-mechanical-metamaterial">Ultrasonic Focusing via mechanical metamaterial</h1>
+
+<p>This is how you call it, “a transmission mask with spatially designed holes”, instead of [redacted]
+<img src="/assets/images/2025/20250225_20250406/20250401_160420_0.jpg" alt="20250401_160420_0.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250401_160420_1.jpg" alt="20250401_160420_1.jpg" /></p>
+<ul>
+  <li>Hasegawa2025: <a href="https://doi.org/10.1063/5.0247366">Focusing of airborne ultrasound emitted by a flexurally vibrating plate using a transmission mask with spatially designed holes</a>
+   <img src="/assets/images/2025/20250225_20250406/20250401_160615_0.jpg" alt="20250401_160615_0.jpg" /></li>
+</ul>
+
+<h1 id="kinetic-inductance-detectors-for-imaging">Kinetic Inductance Detectors for Imaging</h1>
+
+<p>one alternative is cryogenic kinetic inductance detector array, also way more sensitive
+<img src="/assets/images/2025/20250225_20250406/20250325_072547_0.jpg" alt="20250325_072547_0.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250325_072547_1.jpg" alt="20250325_072547_1.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250325_072547_2.jpg" alt="20250325_072547_2.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250325_072547_3.jpg" alt="20250325_072547_3.jpg" /></p>
+<ul>
+  <li>Sayers2025: <a href="https://doi.org/10.1063/5.0249704">A millimeter-wave photometric camera for long-range imaging through optical obscurants using kinetic inductance detectors</a></li>
+  <li>McCarrick2018: <a href="https://arxiv.org/abs/1710.02239">Design and performance of dual-polarization lumped-element kinetic inductance detectors for millimeter-wave polarimetry</a>lumped-element kinetic inductance detectors for</li>
+  <li>they are superconducting rf/microwave resonators that you could multiplex the readout in frequency domain, and their resonance frequencies shift when they are hit with mmw/optical photons, from the kinetic inductance increase when the photons break cooper pairs.
+   <img src="/assets/images/2025/20250225_20250406/20250401_163801_0.jpg" alt="20250401_163801_0.jpg" /></li>
+</ul>
+
+<h1 id="on-board-and-co-packaged-optics--at-ofc-2025">On-Board and Co-Packaged Optics  at OFC 2025</h1>
+
+<p>so many on-board optics and co-packaged optics (last pic is co-packaged copper)
+<img src="/assets/images/2025/20250225_20250406/20250402_015644_0.jpg" alt="20250402_015644_0.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250402_015644_1.jpg" alt="20250402_015644_1.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250402_015644_2.jpg" alt="20250402_015644_2.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250402_015644_3.jpg" alt="20250402_015644_3.jpg" /></p>
+<ul>
+  <li>adorable tiny TEC
+   <img src="/assets/images/2025/20250225_20250406/20250402_015813_0.jpg" alt="20250402_015813_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250402_015813_1.jpg" alt="20250402_015813_1.jpg" /></li>
+  <li>there was an aquarium with transceivers inside but they would not let me take a closeup picture
+   <img src="/assets/images/2025/20250225_20250406/20250402_020612_0.jpg" alt="20250402_020612_0.jpg" /></li>
+</ul>
+
+<h1 id="vapor-cell-diffractive-optical-elements">Vapor Cell Diffractive Optical Elements</h1>
+
+<p>you’ve seen vapor cells before, but how about vapor cells shaped into diffractive optical elements like a Fresnel lens? (so that the diffraction depends on detuning / small freq change)</p>
+
+<p>They used it to generate discriminator signals for frequency stabilization. Sadly efficiency is very low ~1%, otherwise this could be optically/magnetically tunable active DOE?
+<img src="/assets/images/2025/20250225_20250406/20250402_154034_0.jpg" alt="20250402_154034_0.jpg" /></p>
+<ul>
+  <li>Krelman2025: <a href="https://doi.org/10.1103/PhysRevApplied.23.034011">Laser offset stabilization with chip-scale atomic diffractive elements</a></li>
+</ul>
+
+<h1 id="ultra-high-q-niobium-cavities">Ultra-High-Q Niobium Cavities</h1>
+
+<p>what do you mean a quality factor of 3e10?</p>
+
+<p>what do you mean “the cavity reached a quality factor of 1e10 at 1 MV/m with a very good reproducibility”??</p>
+
+<p>folks quantum computing is solved, we just need big ass cavities.</p>
+
+<p>(there are smaller cavities with almost comparable Q at power level relevant to quantum stuff)
+<img src="/assets/images/2025/20250225_20250406/20250403_044908_0.jpg" alt="20250403_044908_0.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250403_044908_1.jpg" alt="20250403_044908_1.jpg" /></p>
+<ul>
+  <li><a href="https://cds.cern.ch/record/2928793/files/CERN-FCC-ACC-2025-0004.pdf">Future Circular Collider Feasibility Study Report Volume 2: Accelerators, technical infrastructure and safety</a></li>
+  <li>Smaller high Q cavity at single photon level: <a href="https://arxiv.org/abs/2403.00286">Niobium coaxial cavities with internal quality factors exceeding 1.5 billion for circuit quantum electrodynamics</a>
+   <img src="/assets/images/2025/20250225_20250406/20250403_045131_0.jpg" alt="20250403_045131_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250403_045131_1.jpg" alt="20250403_045131_1.jpg" /></li>
+  <li>see also a recent (2 years ago) review on high Q cavities for quantum
+   <img src="/assets/images/2025/20250225_20250406/20250403_052257_0.jpg" alt="20250403_052257_0.jpg" /></li>
+</ul>
+
+<h1 id="quantum-connector-hardware-from-d-wave">Quantum Connector Hardware from D-Wave</h1>
+
+<p>cursed connectors from D-wave
+<img src="/assets/images/2025/20250225_20250406/20250403_193717_0.jpg" alt="20250403_193717_0.jpg" /></p>
+<ul>
+  <li><a href="https://spectrum.ieee.org/d-wave-quantum">D-Wave “Supremacy” Controversy Overshadows Real Progress - The company’s quantum machine can solve certain problems blazingly fast</a></li>
+  <li>when you have a few thousands of qubits: <a href="https://dwavequantum.com/solutions-and-products/systems/">The Most Connected Quantum Computer Built for Business and Research</a>
+   <img src="/assets/images/2025/20250225_20250406/20250403_194321_0.jpg" alt="20250403_194321_0.jpg" /></li>
+</ul>
+
+<h1 id="sub-centimeter-magnetically-powered-drone">Sub-Centimeter Magnetically Powered Drone</h1>
+
+<p>propeller toy but it’s sub-cm, got a magnet on it, and powered by an alternating magnetic field of a few hundred Hz and ~20 mT</p>
+
+<p>(of course they don’t show you the big coils in the main text)
+<img src="/assets/images/2025/20250225_20250406/20250404_013058_0.jpg" alt="20250404_013058_0.jpg" /></p>
+<ul>
+  <li>Sui2025: <a href="https://doi.org/10.1126/sciadv.ads6858">Untethered subcentimeter flying robots</a>
+   <img src="/assets/images/2025/20250225_20250406/20250404_013156_0.jpg" alt="20250404_013156_0.jpg" /></li>
+</ul>
+
+<h1 id="on-chip-polarization-control-and-beam-shaping">On-Chip Polarization Control and Beam Shaping</h1>
+
+<p>stuff like this always makes me wonder, do you really win over free-space optics between the hustle of aligning fiber vs optics, and how much spatial density of control dof you lose moving from SLM/DMD to rings and MZIs. Seems to only make sense if you want high-speed.</p>
+
+<p>(on-chip polarization and beam shape control)
+<img src="/assets/images/2025/20250225_20250406/20250404_154219_0.jpg" alt="20250404_154219_0.jpg" /></p>
+<ul>
+  <li>Zhou2025: <a href="https://doi.org/10.1364/OPTICA.546823">Adaptive reconfiguration and full control of light structures in optical fibers with programmable silicon photonics</a></li>
+  <li>Chip made by imec and <a href="https://appliednt.com">Applied Nano Tools</a></li>
+  <li>This company looks cool, but holding the fiber array
+   <img src="/assets/images/2025/20250225_20250406/20250404_154648_0.jpg" alt="20250404_154648_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250404_154648_1.jpg" alt="20250404_154648_1.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250404_154648_2.jpg" alt="20250404_154648_2.jpg" /></li>
+</ul>
+
+<h1 id="size-vs-time-drift-in-atomic-clocks">Size vs Time Drift in Atomic Clocks</h1>
+
+<p>Time error vs size for different clocks
+<img src="/assets/images/2025/20250225_20250406/20250225_164630_0.jpg" alt="20250225_164630_0.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250225_164630_1.jpg" alt="20250225_164630_1.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250225_164630_2.jpg" alt="20250225_164630_2.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250225_164630_3.jpg" alt="20250225_164630_3.jpg" /></p>
+<ul>
+  <li>Marlow2021: <a href="https://doi.org/10.1109/TUFFC.2021.3049713">A Review of Commercial and Emerging Atomic Frequency Standards</a>
+   <img src="/assets/images/2025/20250225_20250406/20250404_160453_0.jpg" alt="20250404_160453_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250404_160453_1.jpg" alt="20250404_160453_1.jpg" /></li>
+</ul>
+
+<h1 id="human-perception-of-ai-voice-clones">Human Perception of AI Voice Clones</h1>
+
+<p>the “Turing test” for voice is kind of done, tested with ElevenLabs over 200+ speakers.
+<img src="/assets/images/2025/20250225_20250406/20250404_200949_0.jpg" alt="20250404_200949_0.jpg" /></p>
+<ul>
+  <li>Barrington2025: <a href="https://doi.org/10.1038/s41598-025-94170-3">People are poorly equipped to detect AI-powered voice clones</a></li>
+  <li>Time to learn more accents?
+   <img src="/assets/images/2025/20250225_20250406/20250404_201238_0.jpg" alt="20250404_201238_0.jpg" /></li>
+</ul>
+
+<h1 id="miniature-ion-trap-frequency-standards">Miniature Ion Trap Frequency Standards</h1>
+
+<p>TIL passively pumped ion trap package can be as small as 3 cc, and it can hold vacuum &gt; 10 years &amp; the trap even gets better, with freq stability ~1e-14.
+<img src="/assets/images/2025/20250225_20250406/20250404_202435_0.jpg" alt="20250404_202435_0.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250404_202435_1.jpg" alt="20250404_202435_1.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250404_202435_2.jpg" alt="20250404_202435_2.jpg" /></p>
+<ul>
+  <li>Left: Schwindt2015: <a href="https://doi.org/10.1109/FCS.2015.7138951">Miniature trapped-ion frequency standard with 171Yb+</a> (<a href="https://osti.gov/servlets/purl/1248673">also</a>)</li>
+  <li>Right:</li>
+  <li><a href="https://doi.org/10.1063/10.0036419">Ticking toward an advanced atomic clock</a></li>
+  <li><a href="https://doi.org/10.1063/5.0243517">Performance of 3 cm3 ion trap vacuum package sealed for 10 years</a></li>
+  <li><a href="https://x.com/jwt0625/status/1908188623327105265">see also</a>
+   <img src="/assets/images/2025/20250225_20250406/20250404_202910_0.jpg" alt="20250404_202910_0.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250404_202910_1.jpg" alt="20250404_202910_1.jpg" />
+   <img src="/assets/images/2025/20250225_20250406/20250404_202910_2.jpg" alt="20250404_202910_2.jpg" /></li>
+</ul>
+
+<h1 id="high-speed-pzt-on-insulator-electro-optics">High-Speed PZT-on-Insulator Electro-Optics</h1>
+
+<p>interesting PZT on insulator wafer from OMedaSemi</p>
+
+<p>they claim its EO coefficient is only a bit smaller than BTO, but the modulation bandwidth is much higher</p>
+
+<p><img src="/assets/images/2025/20250225_20250406/20250405_001814_0.jpg" alt="20250405_001814_0.jpg" />
+<img src="/assets/images/2025/20250225_20250406/20250405_001814_1.jpg" alt="20250405_001814_1.jpg" /></p>
+<ul>
+  <li><a href="https://en.omedasemi.com/detail/175.html">OMedaSemi - PZTOI Wafer</a>
+   <img src="/assets/images/2025/20250225_20250406/20250405_001853_0.jpg" alt="20250405_001853_0.jpg" /></li>
+</ul>
+
+<h1 id="projects">Projects</h1>
+
+<p>Procrastinating:</p>
+<ul>
+  <li>Droplet walker</li>
+  <li>TabTreeTracker</li>
+  <li>Low cost robot arm</li>
+  <li>Joystick doomscrolling</li>
+</ul>
+
+<p>Planning:</p>
+<ul>
+  <li>Wave demo with ~ 300 Hz water surface wave + 3D printed components</li>
+</ul>
+
+<p>Ongoing:</p>
+<ul>
+  <li>PIC pytorch
+    <ul>
+      <li>week 2 (41): [redacted]</li>
+      <li>week 1 (40): built a few simple components. Tested simple backprop and training.</li>
+      <li><img src="/assets/images/projects/PIC_pytorch_20250330.png" alt="PIC-torch" /></li>
+    </ul>
+  </li>
+  <li>WIMS (where is my shit):
+    <ul>
+      <li>week 3 (41): got a usb type-C power monitor. Sleep power too high, need debug</li>
+      <li>week 2 (40): Started wearing the camera at home &amp; send thru wifi to desktop. Need to somehow save or send the photo to my phone when outside.</li>
+      <li><img src="/assets/images/projects/WIMS-20250330.png" alt="WIMS" /></li>
+      <li>week 1 (39): I finally connected to the camera. Quality bad. Ordered new camera (OV5640) from aliexpress.</li>
+    </ul>
+  </li>
+  <li>Quantum frequency conversion plot
+    <ul>
+      <li>week 4 (41): procrastinating</li>
+      <li>week 3 (40): procrastinating</li>
+      <li>Week 2 (39): published it, currently has piezo-optomechanical approaches</li>
+      <li>Week 1 (38): Gave a talk at PsiQuantum. I like the hat.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/jwt625/interactwave">interactive wave</a>
+    <ul>
+      <li>week 1 (37): made a python standalone library, see <a href="https://github.com/jwt625/BPM">BPM</a>.</li>
+    </ul>
+  </li>
+  <li>fiber2chip <a href="https://jwt625.github.io/tutorial/fiber2chip-history-concept/">blog</a></li>
+  <li>backyard landscaping:
+    <ul>
+      <li><a href="https://x.com/jwt0625/status/1908666642453963155">week 15 (41)</a>: continue cinder block wall, added geogrid and two more layers of blocks. Also tear down stair form OSB</li>
+      <li><img src="/assets/images/2025/20250225_20250406/GnzxClEbYAEqjqX.jpeg" alt="GnzxClEbYAEqjqX" /></li>
+      <li>week 14 (40): no progress this week</li>
+      <li>week 13 (39): finished stairs. Started wall with cinder block. Formed and poured concrete at the turn</li>
+      <li>week 12 (38): traveled to LA this weekend! No backyard work.</li>
+      <li>week 11 (37): working on the form of the stairs, deck joists</li>
+      <li>week 10 (36): did not work on it</li>
+      <li>week 9 (35): finished the deck joists and boarded the side of the deck</li>
+      <li>week 8 (34): finished jacuzzi base &amp; deck frame</li>
+      <li>week 7 (33): working on base for Jacuzzi</li>
+      <li>week 6 (32): new year</li>
+      <li>week 5 (31): flattened the bottom level, put down form for concrete curb. Put down linear / grass barrier, and then gravel</li>
+      <li>week 4 (30): Finished the bottom retaining wall</li>
+      <li>week 3 (29): concrete poured for retaining wall beams and deck posts, started putting on retaining wall panels</li>
+      <li>week 2 (28): dig holes, posts inside holes, worked on Living room</li>
+      <li>week 1 (27): first week</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Finished:</p>
+<ul>
+  <li>(week 32:) SiPho writeup for <a href="https://x.com/byte_thrasher">avi</a>’s zine.
+    <ul>
+      <li>week 36: published on blog</li>
+    </ul>
+  </li>
+  <li>Continuing [redacted]
+    <ul>
+      <li>Week 36: This has been finished.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Gave up</p>
+<ul>
+  <li>Traveling wave excitation of mechanical ring resonator (see <a href="https://x.com/jwt0625/status/1877578653648986365">this thread</a>)</li>
+  <li><a href="https://github.com/jwt625/tt-test">Tiny Tapeout</a>
+    <ul>
+      <li>abort? (because of efabless no funding)</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Superconducting_qubit" /><category term="Vacuum_capacitor" /><category term="TEM" /><category term="Photonics" /><category term="Inverse_design" /><category term="Pytorch" /><category term="MZI" /><category term="Ring_resonator" /><category term="mmWave" /><category term="Vapor_cell" /><category term="Rydberg" /><category term="Phased_array" /><category term="Nanomembrane" /><category term="Gigapixel_camera" /><category term="Additive_manufacturing" /><category term="Laser_sealing" /><category term="Haptics" /><category term="Optical_IO" /><category term="Surface_wave" /><category term="Ultrasonic" /><category term="KID" /><category term="Co_packaged_optics" /><category term="DOE" /><category term="SRF_cavity" /><category term="Dwave" /><category term="MEMS_motor" /><category term="Optical_control" /><category term="Atomic_clock" /><category term="Ion_trap" /><category term="PZT" /><summary type="html"><![CDATA[Designing for Century-Scale Accelerators]]></summary></entry><entry><title type="html">How to (not) excite a wavelength-scale acoustic/mechanical waveguide</title><link href="http://localhost:4000/tutorial/how-to-excite-tiny-mech-wave/" rel="alternate" type="text/html" title="How to (not) excite a wavelength-scale acoustic/mechanical waveguide" /><published>2025-04-02T00:00:00-07:00</published><updated>2025-04-02T00:00:00-07:00</updated><id>http://localhost:4000/tutorial/how-to-excite-tiny-mech-wave</id><content type="html" xml:base="http://localhost:4000/tutorial/how-to-excite-tiny-mech-wave/"><![CDATA[<p>This is meant to be a short rant, as well as share the lesson I learnt from my colleagues about why it is tricky to make a good taper for mechanical waves (and they also wrote about it): you need to be careful about how is the mechanical mode guided / confined. Mechanical waves are a bit more weird than em waves. Hopefully it would also be useful for some folks.</p>
 
 <p>So… where should I start? That’s simple: why do we care about mechanical waves first, and why a waveguide, and why a wavelength-scale mechanical waveguide?</p>
 
@@ -19,6 +460,12 @@
 </ul>
 
 <p>Next, why a waveguide, and a wavelength-scale waveguide? As the name suggests, you could guide the wave, and thus you could do more fun stuff such as bending the waves around, make it circulating in a ring/racetrack, make directional couplers, have more spatial channels without diffraction, all the usual waveguide stuff.</p>
+
+<p><img src="/assets/images/2025/mech_wave_transduction/Mayor2020.png" alt="Mayor2020" /></p>
+<ul>
+  <li>here is a wavelength-scale mechanical waveguide and racetrack resonator my friends and I made (<a href="https://ntt-research.com/wp-content/uploads/2022/09/Gigahertz-phononic-integrated-circuits-on-thin-film-lithium-niobate-on-sapphire1.pdf">see</a>)</li>
+  <li>We “cheated” and used relative transmission, shame on us. (we did not cheat for the S21 in Fig. 3)</li>
+</ul>
 
 <p>Making the waveguide wavelength-scale (or even subwavelength scale) further helps concentrating the energy, and is useful for nonlinear applications, and quantum applications, where things scale faster with power density or field amplitude, or when you are limited to be playing with single <a href="https://www.britannica.com/science/phonon">phonons</a> (this is a highly simplified explanation of why quantum applications need smaller modes).</p>
 <ul>
@@ -3445,365 +3892,4 @@ The refractive index is set such that in simple ray optics picture the rays woul
 <p>Gave up</p>
 <ul>
   <li>Traveling wave excitation of mechanical ring resonator (see <a href="https://x.com/jwt0625/status/1877578653648986365">this thread</a>)</li>
-</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Copper_interconnects" /><category term="Robotics" /><category term="Optomechanics" /><category term="SAW" /><category term="LUS" /><category term="Transient_grating_spectroscopy" /><category term="Asynchronous_optical_sampling" /><category term="Water_wave_diodes" /><category term="Microfluidics" /><category term="Capillary_waves" /><category term="Acoustic_levitation" /><category term="Ultrasound_phased_arrays" /><category term="CMOS" /><category term="Optical_tweezers" /><category term="Photophoretic_trapping" /><category term="Photonic_nanojet" /><category term="Optical_whispering_gallery_modes" /><category term="Dielectric_rod_antennas" /><category term="Fiberscopic_robotics" /><category term="Magnetic_manipulation" /><category term="Sonic_boom_analysis" /><category term="Niobium_superconducting_qubits" /><category term="Metalens" /><category term="Plasma_etching" /><category term="Nanofab" /><summary type="html"><![CDATA[IBM and Copper Interconnects IBM has some high quality technical and historical articles with unique materials, only if they are a bit more in depth.. Here is one about copper interconnects. IBM - Copper interconnects]]></summary></entry><entry><title type="html">This week’s outside five sigma (#33)</title><link href="http://localhost:4000/ofs/weekly-OFS-33/" rel="alternate" type="text/html" title="This week’s outside five sigma (#33)" /><published>2025-02-09T00:00:00-08:00</published><updated>2025-02-09T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-33</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-33/"><![CDATA[<h1 id="achromatic-polymer-diffractive-lenses-for-astrophotography">Achromatic Polymer Diffractive Lenses for Astrophotography</h1>
-<p>100 mm diameter, 2.4  μm thick multilevel diffractive lens (MDL), focal length 200 mm, optimized for the visible wavelength range, achieving achromatic focusing with inverse design and grayscale lithography.
-They have a company called Oblate Optics, found I’ve checked out their website but I don’t remember when or why..
-<img src="/assets/images/2025/20240913_20250208/20250207_172341_0.jpg" alt="20250207_172341_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250207_172341_1.jpg" alt="20250207_172341_1.jpg" /></p>
-<ul>
-  <li>Majumder2025: <a href="https://doi.org/10.1063/5.0242208">Color astrophotography with a 100 mm-diameter f/2 polymer flat lens</a></li>
-  <li>“The MDL is composed of 10 000 concentric rings, each with a fixed width of 5  μm and varying heights”
-   <img src="/assets/images/2025/20240913_20250208/20250207_172454_0.jpg" alt="20250207_172454_0.jpg" /></li>
-  <li>Almost 10x lighter than a plano-convex with the same diameter, and achromatic
-   <img src="/assets/images/2025/20240913_20250208/20250207_172753_0.jpg" alt="20250207_172753_0.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250207_172753_1.jpg" alt="20250207_172753_1.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250207_172753_2.jpg" alt="20250207_172753_2.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250207_172753_3.jpg" alt="20250207_172753_3.jpg" /></li>
-  <li>Rule of thumb for how real world relevant the work is: how many actual photos are in the SI
-   <img src="/assets/images/2025/20240913_20250208/20250207_172941_0.jpg" alt="20250207_172941_0.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250207_172941_1.jpg" alt="20250207_172941_1.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250207_172941_2.jpg" alt="20250207_172941_2.jpg" /></li>
-</ul>
-
-<h1 id="nonlinear-neuromorphic-computing-via-linear-wave-scattering">Nonlinear Neuromorphic Computing via Linear Wave Scattering</h1>
-<p>Fully nonlinear neuromorphic computing with linear wave scattering: you can encode your input in the parameters of a “linear” system, like detunings and couplings of optical resonators, and achieve arbitrary nonlinear function or process.
-<img src="/assets/images/2025/20240913_20250208/20240913_143312_0.jpg" alt="20240913_143312_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20240913_143312_1.jpg" alt="20240913_143312_1.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20240913_143312_2.jpg" alt="20240913_143312_2.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20240913_143312_3.jpg" alt="20240913_143312_3.jpg" />
-   -Wanjura2024: <a href="https://www.nature.com/articles/s41567-024-02534-9">Fully nonlinear neuromorphic computing with linear wave scattering</a></p>
-
-<h1 id="unconventional-telescope-naming">Unconventional Telescope Naming</h1>
-<p>What’s the story behind this name?? You can’t just name a telescope like this without explaining it, while all the other ones are like “very large telescope”
-<img src="/assets/images/2025/20240913_20250208/20250130_033406_0.jpg" alt="20250130_033406_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250130_033406_1.jpg" alt="20250130_033406_1.jpg" /></p>
-<ul>
-  <li>Lanman2024: <a href="https://arxiv.org/abs/2402.07898">CHIME/FRB Outriggers: KKO Station System and Commissioning Results</a></li>
-  <li>I really thought it’s a formatting error but it’s in multiple papers</li>
-  <li>Shah2025: <a href="https://iopscience.iop.org/article/10.3847/2041-8213/ad9ddc/meta">A Repeating Fast Radio Burst Source in the Outskirts of a Quiescent Galaxy</a>
-   <img src="/assets/images/2025/20240913_20250208/20250130_033844_0.jpg" alt="20250130_033844_0.jpg" /></li>
-  <li>Good bot
-   <img src="/assets/images/2025/20240913_20250208/20250130_042746_0.jpg" alt="20250130_042746_0.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250130_042746_1.jpg" alt="20250130_042746_1.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250130_204600_0.jpg" alt="20250130_204600_0.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250130_204600_1.jpg" alt="20250130_204600_1.jpg" /></li>
-</ul>
-
-<h1 id="high-power-405-nm-laser-with-vernier-tuned-ring-resonators">High-Power 405 nm Laser with Vernier-Tuned Ring Resonators</h1>
-<p>Finally a “product” with wirebonds longer than mine
-(hey as long as they work)
-<img src="/assets/images/2025/20240913_20250208/20250130_065210_0.jpg" alt="20250130_065210_0.jpg" /></p>
-<ul>
-  <li><a href="https://aluviaphotonics.com/laser-pr-photonics-west">Aluvia Photonics, PHIX, indie, and University of Twente Collaborate on a Narrow-Linewidth Laser Operating at 405 nm</a>
-   <img src="/assets/images/2025/20240913_20250208/20250130_065256_0.jpg" alt="20250130_065256_0.jpg" /></li>
-  <li>I see two rings, maybe it is tuned with <a href="https://optics.ansys.com/hc/en-us/articles/360042326094-Ring-Vernier-laser">vernier</a>
-   <img src="/assets/images/2025/20240913_20250208/20250130_071051_0.jpg" alt="20250130_071051_0.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250130_071051_1.jpg" alt="20250130_071051_1.jpg" /></li>
-</ul>
-
-<h1 id="comsol-simulation-of-vacuum-processing-hardware-thermal-uniformity">COMSOL Simulation of Vacuum Processing Hardware Thermal Uniformity</h1>
-<p>damn this is hot, and uniform, and high power
-(evatec showing off their comsol skills for Vacuum Processing Hardware)
-<img src="/assets/images/2025/20240913_20250208/20250130_070238_0.jpg" alt="20250130_070238_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250130_070238_1.jpg" alt="20250130_070238_1.jpg" /></p>
-<ul>
-  <li>Weichart2023: <a href="https://comsol.com/paper/challenges-in-the-simulation-of-vacuum-processing-hardware-122501">Challenges in the Simulation of Vacuum Processing Hardware</a></li>
-  <li>Found COMSOL has a page for <a href="https://comsol.com/industries">Modeling and Simulation Across Industries</a>
-   <img src="/assets/images/2025/20240913_20250208/20250130_070450_0.jpg" alt="20250130_070450_0.jpg" /></li>
-</ul>
-
-<h1 id="cost-analysis-of-photonic-integrated-circuit-alignment-systems">Cost Analysis of Photonic Integrated Circuit Alignment Systems</h1>
-<p>Guess how much?
-<img src="/assets/images/2025/20240913_20250208/20250130_210629_0.jpg" alt="20250130_210629_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250130_210629_1.jpg" alt="20250130_210629_1.jpg" /></p>
-<ul>
-  <li><a href="https://luminos.com/pic-alignment-system">Luminos Photonics Integrated Circuit (PIC) Alignment System</a>
-   <img src="/assets/images/2025/20240913_20250208/20250130_210812_0.jpg" alt="20250130_210812_0.jpg" /></li>
-  <li>30920 × 2 + 14190 × 2 + 1322 × 2 + 1673 × 2 + 2681 × 4 + 300 × 2 + 204 × 2 + 303 + 393 + 561 × 4 + 1361 = 112k</li>
-</ul>
-
-<h1 id="darpa-swarm-robotics-single-operator-control-of-100-robots">DARPA Swarm Robotics: Single Operator Control of 100 Robots</h1>
-<p>VR-based RTS game but it’s actually DARPA testing can one person supervise a swarm of 100 heterogeneous robots.
-“Stated simply, the answer to the title’s question is: Yes!”
-<img src="/assets/images/2025/20240913_20250208/20250131_005853_0.jpg" alt="20250131_005853_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250131_005853_1.jpg" alt="20250131_005853_1.jpg" /></p>
-<ul>
-  <li>Adams2024: <a href="https://doi.org/10.1109/TFR.2024.3502316">Can a Single Human Supervise a Swarm of 100 Heterogeneous Robots?</a></li>
-  <li>See also: <a href="https://spectrum.ieee.org/darpa-robot">Just How Many Robots Can One Person Control at Once? A DARPA project overturns longstanding assumptions</a>
-   <img src="/assets/images/2025/20240913_20250208/20250131_010011_0.jpg" alt="20250131_010011_0.jpg" /></li>
-</ul>
-
-<h1 id="xkcd-style-plotting-in-matplotlib-for-technical-visualization">XKCD-Style Plotting in Matplotlib for Technical Visualization</h1>
-<p>TIL matplotlib has xkcd style since 2013, and you can just turn it on with <code class="language-plaintext highlighter-rouge">plt.xkcd()</code>
-<img src="/assets/images/2025/20240913_20250208/20250131_084411_0.jpg" alt="20250131_084411_0.jpg" /></p>
-<ul>
-  <li><a href="https://jakevdp.github.io/blog/2013/07/10/XKCD-plots-in-matplotlib/">XKCD Plots have Landed in Matplotlib!</a></li>
-  <li>Data from
-   <img src="/assets/images/2025/20240913_20250208/20250131_084506_0.jpg" alt="20250131_084506_0.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250131_084506_1.jpg" alt="20250131_084506_1.jpg" /></li>
-</ul>
-
-<h1 id="propeller-driven-torque-enhancement-in-long-reach-robotic-arms">Propeller-Driven Torque Enhancement in Long-Reach Robotic Arms</h1>
-<p>A long-reach robotic arm generates a lot of torque from a small force, and this solution is using thrust from propellers, and they called it —- a flying watch..
-<img src="/assets/images/2025/20240913_20250208/20250131_092206_0.jpg" alt="20250131_092206_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250131_092206_1.jpg" alt="20250131_092206_1.jpg" /></p>
-<ul>
-  <li>Pan2019: <a href="https://robomechjournal.springeropen.com/articles/10.1186/s40648-019-0133-2">Flying watch: an attachable strength enhancement device for long-reach robotic arms</a>
-   <img src="/assets/images/2025/20240913_20250208/20250131_092249_0.jpg" alt="20250131_092249_0.jpg" /></li>
-</ul>
-
-<h1 id="neuroimmune-mechanisms-of-scratching-induced-bacterial-reduction">Neuroimmune Mechanisms of Scratching-Induced Bacterial Reduction</h1>
-<p>Scratch that itch as nature intended.</p>
-
-<p>(“studies in mice show scratching where it itches reduces the presence of potentially harmful bacteria on the skin.”)
-<img src="/assets/images/2025/20240913_20250208/20250201_004734_0.jpg" alt="20250201_004734_0.jpg" /></p>
-<ul>
-  <li>Liu2025: <a href="https://science.org/doi/10.1126/science.adn9390">Scratching promotes allergic inflammation and host defense via neurogenic mast cell activation</a></li>
-  <li>See also: <a href="https://nature.com/articles/d41586-025-00256-3">Why it feels good to scratch that itch: the immune benefits of scratching</a>
-   <img src="/assets/images/2025/20240913_20250208/20250201_004943_0.jpg" alt="20250201_004943_0.jpg" /></li>
-</ul>
-
-<h1 id="dna-origami-nanostructures-for-viral-trapping-and-nanoscale-motors">DNA Origami Nanostructures for Viral Trapping and Nanoscale Motors</h1>
-<p>Found a new rabbit hole called DNA origami, and these are some of the fanciest stuff I’ve seen in a while: A mouse trap but for virus? A sub 100 nm turbine that could dock into a nanopore? A DNA rotary ratchet motor driven by an AC voltage up to 250 rpm??</p>
-
-<p>Not sure how practical they are, but at least now I feel less humiliated by the E. Coli flagella motor.
-<img src="/assets/images/2025/20240913_20250208/20250201_012945_0.jpg" alt="20250201_012945_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250201_012945_1.jpg" alt="20250201_012945_1.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250201_012945_2.jpg" alt="20250201_012945_2.jpg" /></p>
-<ul>
-  <li>Mainly from the <a href="https://dietzlab.org/research/">Dietz lab</a></li>
-  <li>Sigl2021: <a href="https://nature.com/articles/s41563-021-01020-4">Programmable icosahedral shell system for virus trapping</a></li>
-  <li>Shi2023: <a href="https://nature.com/articles/s41565-023-01527-8">A DNA turbine powered by a transmembrane potential across a nanopore</a></li>
-  <li>Pumm2022: <a href="https://www.nature.com/articles/s41586-022-04910-y">A DNA origami rotary ratchet motor</a>
-   <img src="/assets/images/2025/20240913_20250208/20250201_013347_0.jpg" alt="20250201_013347_0.jpg" /></li>
-  <li>The real open source hardware
-   <img src="/assets/images/2025/20240913_20250208/20250201_014209_0.jpg" alt="20250201_014209_0.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250201_014209_1.jpg" alt="20250201_014209_1.jpg" /></li>
-</ul>
-
-<h1 id="historical-openness-in-bell-labs-electro-optomechanical-systems">Historical Openness in Bell Labs’ Electro-Optomechanical Systems</h1>
-<p>Reading old journals make me feel sad every now and then. Openess of fields have shifted so much. You could read Bell labs folks sharing the “state-of-the-art” electro-opto-mechanical storage system at the time (flying-spot store) with so much details about every single components.</p>
-
-<p>Now we have similar levels of openess from fields of software and AI etc., but so much less or less systematically from companies doing more physical things.
-<img src="/assets/images/2025/20240913_20250208/20250201_181341_0.jpg" alt="20250201_181341_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250201_181341_1.jpg" alt="20250201_181341_1.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250201_181341_2.jpg" alt="20250201_181341_2.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250201_181341_3.jpg" alt="20250201_181341_3.jpg" /></p>
-<ul>
-  <li>From <a href="https://worldradiohistory.com/Archive-Bell-Laboratories-Record/60s/Bell-Laboratories-Record-1960-01.pdf">Bell Laboratories RECORD, January 1960</a> and <a href="https://worldradiohistory.com/Archive-Bell-System-Technical-Journal/50s/Bell-1959-2.o.pdf">THE BELL SYSTEM TECHNICAL JOURNAL, March 1959</a></li>
-  <li>A lot of them are open at <a href="https://worldradiohistory.com/Bell_Laboratories_Record_Issue_Key.htm">Bell_Laboratories_Record_Issue_Key</a> and <a href="https://worldradiohistory.com/Bell_System_Technical_Journal.htm">Bell_System_Technical_Journal</a>
-   <img src="/assets/images/2025/20240913_20250208/20250201_181550_0.jpg" alt="20250201_181550_0.jpg" /></li>
-</ul>
-
-<h1 id="multimode-interference-and-talbot-effect">Multimode Interference and Talbot Effect</h1>
-<p>Just ran into a modern remake of multimode interference with this many modes.
-<img src="/assets/images/2025/20240913_20250208/20250114_024457_0.jpg" alt="20250114_024457_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250114_024457_1.jpg" alt="20250114_024457_1.jpg" /></p>
-<ul>
-  <li>Eriksson2025: <a href="https://doi.org/10.1063/5.0235206">Talbot interference of whispering gallery modes</a></li>
-  <li>They used it to split the beam in “angular domain” in a multimode fiber, pretty sick
-   <img src="/assets/images/2025/20240913_20250208/20250202_064631_0.jpg" alt="20250202_064631_0.jpg" /></li>
-  <li>Talbot effect/interference/imaging works in 2D too, and has been explored for lithography.</li>
-  <li>Isoyan2009: <a href="https://doi.org/10.1116/1.3258144">Talbot lithography: Self-imaging of complex structures</a>
-   <img src="/assets/images/2025/20240913_20250208/20250202_084732_0.jpg" alt="20250202_084732_0.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250202_084732_1.jpg" alt="20250202_084732_1.jpg" /></li>
-</ul>
-
-<h1 id="ktn-based-electro-optic-modulators-for-high-speed-optical-switching">KTN-Based Electro-Optic Modulators for High-Speed Optical Switching</h1>
-<p>I know NTT has made electro-optic deflector using KTN (potassium tantalate niobate, and then used in OCT), but I had no idea they built a optical modulator/switch chip with it.
-<img src="/assets/images/2025/20240913_20250208/20250202_094622_0.jpg" alt="20250202_094622_0.jpg" /></p>
-<ul>
-  <li>Fujirua2005: <a href="https://doi.org/10.1117/12.580527">KTN optical waveguide devices with an extremely large electro-optic effect</a></li>
-  <li><a href="https://keytech.ntt-at.co.jp/en/ktn_crystal/prd_2049.html">KTN optical deflector</a></li>
-  <li>Imai2007: <a href="https://ntt-review.jp/archive/ntttechnical.php?contents=ntr200709sp1.html">Crystal Growth and Electro-optic Properties of KTa1−xNbxO3</a></li>
-  <li>It has a Curie temperature near room T. See that 20k+ relative dielectric constant? I want one so bad.
-   <img src="/assets/images/2025/20240913_20250208/20250202_095141_0.jpg" alt="20250202_095141_0.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250202_095141_1.jpg" alt="20250202_095141_1.jpg" /></li>
-  <li>Checking KTN again because I saw this new paper that made a high Q barium titanate(BTO) ring resonator.</li>
-  <li>BTO has 10x better nonlinear optical coefficient and 30x better EO coefficient than the “recent” hot new thing lithium niobate, partly because room temperature is closer to its
-   <img src="/assets/images/2025/20240913_20250208/20250202_101058_0.jpg" alt="20250202_101058_0.jpg" /></li>
-</ul>
-
-<h1 id="low-cost-oct-systems">Low-Cost OCT Systems</h1>
-<p>I used to think OCT is fancy and must be expensive as hell, but seems like a full system could be &lt;$10k?
-<img src="/assets/images/2025/20240913_20250208/20250202_194442_0.jpg" alt="20250202_194442_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250202_194442_1.jpg" alt="20250202_194442_1.jpg" /></p>
-<ul>
-  <li>The first author’s last name is Price, what a simulation we live in.</li>
-  <li>Price2025: <a href="https://doi.org/10.1364/BOE.551625">Development of next generation low-cost OCT towards improved point-of-care retinal imaging</a>
-   <img src="/assets/images/2025/20240913_20250208/20250202_194553_0.jpg" alt="20250202_194553_0.jpg" /></li>
-</ul>
-
-<h1 id="experimental-hardware-imagery-in-scientific-publications">Experimental Hardware Imagery in Scientific Publications</h1>
-<p>Why do people put sick irl photo only in the thumbnail but not in the actual paper/SI? We need to change this trend. Fancy schematics is nice, but also show me how it actually looks like!
-<img src="/assets/images/2025/20240913_20250208/20250203_061419_0.jpg" alt="20250203_061419_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250203_061419_1.jpg" alt="20250203_061419_1.jpg" /></p>
-<ul>
-  <li>Cryer-Jenkins2025: <a href="https://doi.org/10.1063/5.0241253">Brillouin–Mandelstam scattering in telecommunications optical fiber at millikelvin temperatures</a></li>
-  <li>50 meter of fibers at mK
-   <img src="/assets/images/2025/20240913_20250208/20250203_061644_0.jpg" alt="20250203_061644_0.jpg" /></li>
-  <li>Another example of beautiful chip but only in the thumbnail.
-Calviac2025: <a href="https://doi.org/10.1103/PhysRevApplied.23.L011001">Bose-Einstein-condensate source on an optical-grating-based atom chip for quantum sensor applications</a> (also at <a href="https://arxiv.org/abs/2406.04996">arxiv</a>)
-   <img src="/assets/images/2025/20240913_20250208/20250205_021812_0.jpg" alt="20250205_021812_0.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250205_021812_1.jpg" alt="20250205_021812_1.jpg" /></li>
-  <li>Reminds me of these intentionally pixelated images
-   <img src="/assets/images/2025/20240913_20250208/20250204_012217_0.jpg" alt="20250204_012217_0.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250204_012217_1.jpg" alt="20250204_012217_1.jpg" /></li>
-</ul>
-
-<h1 id="hydrodynamic-wake-discrimination-by-seal-whisker">Hydrodynamic Wake Discrimination by Seal Whisker</h1>
-<p>TIL harbor seals could distinguish different shapes just from the object’s hydrodynamic wakes (poor dude was blindfolded and claimed to be “familiar with psychophysical experiments and experienced in hydrodynamic trail detection”).</p>
-
-<p>Their whiskers are also wavy instead of a simple cylinder to improve sensitivity and durability. How could you not believe in reinforcement learning?
-<img src="/assets/images/2025/20240913_20250208/20250204_014326_0.jpg" alt="20250204_014326_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250204_014326_1.jpg" alt="20250204_014326_1.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250204_014326_2.jpg" alt="20250204_014326_2.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250204_014326_3.jpg" alt="20250204_014326_3.jpg" /></p>
-<ul>
-  <li>Wieskotten2011: <a href="https://doi.org/10.1242/jeb.053926">Hydrodynamic discrimination of wakes caused by objects of different size or shape in a harbour seal (Phoca vitulina)</a></li>
-  <li>Shan2025: <a href="https://doi.org/10.1063/5.0244805">Effects of geometric and wake characteristics on vortex-induced vibrations of a seal-whisker cylinder</a></li>
-</ul>
-
-<h1 id="diamond-mirrors-for-high-power-laser-applications">Diamond Mirrors for High-Power Laser Applications</h1>
-<p>I received a request for high power mirrors, here is a nice one made of diamond that does not look like a mirror at a glance, but could handle a 10 kW beam within a sub 1 mm diameter spot at 1070 nm
-<img src="/assets/images/2025/20240913_20250208/20250203_034248_0.jpg" alt="20250203_034248_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250203_034248_1.jpg" alt="20250203_034248_1.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250203_034248_2.jpg" alt="20250203_034248_2.jpg" /></p>
-<ul>
-  <li>Atikian2022: <a href="https://nature.com/articles/s41467-022-30335-2">Diamond mirrors for high-power continuous-wave lasers</a>
-   <img src="/assets/images/2025/20240913_20250208/20250204_031314_0.jpg" alt="20250204_031314_0.jpg" /></li>
-  <li>The main motivation for this is to avoid “imperfections and defects in, or interfaces between, thin films form sites where laser energy can be absorbed”.</li>
-  <li>They tested a typical dielectric mirror with 99.5% reflectivity and it got damaged.
-   <img src="/assets/images/2025/20240913_20250208/20250204_033332_0.jpg" alt="20250204_033332_0.jpg" /></li>
-</ul>
-
-<h1 id="event-camera-static-scene-recovery-via-noise-correlation">Event Camera Static Scene Recovery via Noise Correlation</h1>
-<p>A nice example of “noise” actually being “signal”: event cameras only detects changes and thus people thought they cannot tell light intensity of a static scene without change in hardware. Turns out you get noisy event more frequent at low brightness, and you could use this correlation to infer the static scene.</p>
-
-<p>Can you think of other examples of noise being signal? I have two more (kind of).
-<img src="/assets/images/2025/20240913_20250208/20250204_173408_0.jpg" alt="20250204_173408_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250204_173408_1.jpg" alt="20250204_173408_1.jpg" /></p>
-<ul>
-  <li>Cao2025: <a href="https://doi.org/10.1364/OPTICA.538916">Noise2Image: noise-enabled static scene recovery for event cameras</a>
-   <img src="/assets/images/2025/20240913_20250208/20250204_173509_0.jpg" alt="20250204_173509_0.jpg" /></li>
-  <li>Another example I was thinking:
-   <img src="/assets/images/2025/20240913_20250208/20250204_180837_0.jpg" alt="20250204_180837_0.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250204_180837_1.jpg" alt="20250204_180837_1.jpg" /></li>
-</ul>
-
-<h1 id="kilometer-scale-atom-interferometry-for-dark-matter-detection">Kilometer-Scale Atom Interferometry for Dark Matter Detection</h1>
-<p>Detecting dark matter and gravitational waves with AI, where AI = Atom Interferometry.</p>
-
-<p>It’s similar to optical interferometry, but “splitting and recombining clouds of cold atoms rather than beams of light”. There are 10 m ones running, O(100) m ones under construction, and people are cooking up km-scale ones (as big as LIGO) using old mines and rail tunnels.
-<img src="/assets/images/2025/20240913_20250208/20250205_025027_0.jpg" alt="20250205_025027_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250205_025027_1.jpg" alt="20250205_025027_1.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250205_025027_2.jpg" alt="20250205_025027_2.jpg" /></p>
-<ul>
-  <li>Fig 1: <a href="https://indico.cern.ch/event/830432/contributions/3497148/attachments/1883892/3105624/20190722_AEDGE_ZAIGA.pdf">ZAIGA: Zhaoshan long-baseline Atom Interferometer Gravitation Antenna</a></li>
-  <li>Fig. 2~3: Abdalla2024: <a href="https://arxiv.org/abs/2412.14960">Terrestrial Very-Long-Baseline Atom Interferometry: Summary of the Second Workshop</a>
-   <img src="/assets/images/2025/20240913_20250208/20250205_025202_0.jpg" alt="20250205_025202_0.jpg" /></li>
-</ul>
-
-<h1 id="camera-capture-setup-for-relightable-gaussian-codec-avatars">Camera capture setup for Relightable Gaussian Codec Avatars</h1>
-<p>Damn that is 3.3 TB per second.
-<img src="/assets/images/2025/20240913_20250208/20241125_174036_0.jpg" alt="20241125_174036_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20241125_174036_1.jpg" alt="20241125_174036_1.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20241125_174036_2.jpg" alt="20241125_174036_2.jpg" /></p>
-<ul>
-  <li>Wang2025: <a href="https://arxiv.org/abs/2501.14726">Relightable Full-Body Gaussian Codec Avatars</a></li>
-</ul>
-
-<h1 id="silicon-carbide-power-electronics">Silicon Carbide Power Electronics</h1>
-<p>Silicon carbide wafers amd chips from Bosch.</p>
-
-<p>“Chips made from SiC can operate at higher temperatures, higher voltages, and higher frequencies, making them ideal for applications that require high power and efficiency”, such as power electronics components in EVs.
-<img src="/assets/images/2025/20240913_20250208/20250206_163753_0.jpg" alt="20250206_163753_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250206_163753_1.jpg" alt="20250206_163753_1.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250206_163753_2.jpg" alt="20250206_163753_2.jpg" /></p>
-<ul>
-  <li>They are also etching deep trench using a similar “Bosch Process”, and moving from 8 in to 12 in wafers.</li>
-  <li><a href="https://bosch-semiconductors.com/stories/trench-etching/">Trench etching from Si to SiC: a culmination of 30 years of experience</a></li>
-  <li><a href="https://www.bosch-semiconductors.com/stories/advantages-of-silicon-carbide-chips-the-future-of-electric-vehicles/">Advantages of silicon carbide chips: the future of electric vehicles</a></li>
-  <li>SiC membrane pressure sensors and interposer chip. Electroplated nickel mask, SF6 based plasma, passivation with either polymer (BCB) or PECVD oxide.</li>
-  <li>Mackowiak2021: <a href="https://doi.org/10.1109/TCPMT.2021.3123384">Investigation and Modeling of Etching Through Silicon Carbide Vias (TSiCV) for SiC Interposer and Deep SiC Etching for Harsh Environment MEMS by DoE</a>
-   <img src="/assets/images/2025/20240913_20250208/20250206_170000_0.jpg" alt="20250206_170000_0.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250206_170000_1.jpg" alt="20250206_170000_1.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250206_170000_2.jpg" alt="20250206_170000_2.jpg" /></li>
-  <li>SiC is also catching up in optics and photonics</li>
-  <li>Lukin2020: <a href="https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.1.020102">Integrated Quantum Photonics with Silicon Carbide: Challenges and Prospects</a>
-   <img src="/assets/images/2025/20240913_20250208/20250207_204403_0.jpg" alt="20250207_204403_0.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250207_204403_1.jpg" alt="20250207_204403_1.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250207_204403_2.jpg" alt="20250207_204403_2.jpg" /></li>
-</ul>
-
-<h1 id="ultrafast-laser-cold-processing-with-femtosecond-pulses">Ultrafast Laser Cold Processing with Femtosecond Pulses</h1>
-<p>A powerful laser lights stuff on fire, until it does not.</p>
-
-<p>(“cold processing” - when a fs-ps laser pulse vaporizes material faster than thermal or mechanical time scale.)
-<img src="/assets/images/2025/20240913_20250208/20250207_015151_0.jpg" alt="20250207_015151_0.jpg" /></p>
-<ul>
-  <li><a href="https://www.trumpf.com/en_US/products/lasers/marking-lasers/trumicro-mark/">TRUMPF - TruMicro Mark Series</a></li>
-</ul>
-
-<h1 id="euv-lithography-optics-sub-nanometer-surface-precision">EUV Lithography Optics: Sub-Nanometer Surface Precision</h1>
-<p>I’m pretty sure everyone here knows about starlink. How about starlith: the series of optics for DUV and EUV.</p>
-
-<p>They have some of the most sci-fi specs, such as for EUV: &lt;50 pm rms deviation on 450 mm aspheric EUV mirrors (equivalent to 0.5 mm across the width of the US), and sub nrad pointing accuracy (equivalent to pointing at the moon surface, which is 239 thousand miles away, with less than 20 cm accuracy).
-<img src="/assets/images/2025/20240913_20250208/20250207_024844_0.jpg" alt="20250207_024844_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250207_024844_1.jpg" alt="20250207_024844_1.jpg" /></p>
-<ul>
-  <li>See: ZEISS - <a href="https://zeiss.com/semiconductor-manufacturing-technology/inspiring-technology/duv-lithography.html">DUV lithography optics from ZEISS</a></li>
-  <li>Migura2019: <a href="https://euvlitho.com/2019/P24.pdf">Optics for EUV Lithography</a></li>
-  <li>This book has a chapter on Optical Systems for EUVL:</li>
-  <li>Vivek Bakshi - <a href="https://spie.org/publications/book/2305674">EUV Lithography, Second Edition (2018)</a>
-   <img src="/assets/images/2025/20240913_20250208/20250207_025201_0.jpg" alt="20250207_025201_0.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250207_025201_1.jpg" alt="20250207_025201_1.jpg" />
-   <img src="/assets/images/2025/20240913_20250208/20250207_025201_2.jpg" alt="20250207_025201_2.jpg" /></li>
-</ul>
-
-<h1 id="scalable-metasurface-fabrication-for-imaging-and-sensing">Scalable Metasurface Fabrication for Imaging and Sensing</h1>
-<p>Here is a new review article on optical metasurface, and it actually focused on scalable fabrication/manufacturing, and applications including display, imaging/computer vision, biosensing, depth sensing, and energy/thermal.</p>
-
-<p>I really like they showed the roll-to-roll (R2R) nanoimprint fabrication steps, and there are so many examples in different applications, a few open access ones included.
-<img src="/assets/images/2025/20240913_20250208/20250208_014055_0.jpg" alt="20250208_014055_0.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250208_014055_1.jpg" alt="20250208_014055_1.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250208_014055_2.jpg" alt="20250208_014055_2.jpg" />
-<img src="/assets/images/2025/20240913_20250208/20250208_014055_3.jpg" alt="20250208_014055_3.jpg" /></p>
-<ul>
-  <li>Brongersma2025: <a href="https://nature.com/articles/s44287-024-00136-4">The second optical metasurface revolution: moving from science to technology</a> (what a title)</li>
-  <li>Fig. 2: Hsu2023: <a href="https://link.springer.com/article/10.1186/s11671-023-03866-w">Compact structured light generation based on meta-hologram PCSEL integration</a></li>
-  <li>Fig. 3: Guo2019: <a href="https://doi.org/10.1073/pnas.1912154116">Compact single-shot metalens depth sensors inspired by eyes of jumping spiders</a></li>
-  <li>Fig. 4: Xiong2022: <a href="https://www.nature.com/articles/s41467-022-32387-w">Photonic crystal enhanced fluorescence emission and blinking suppression for single quantum dot digital resolution biosensing</a>
-   <img src="/assets/images/2025/20240913_20250208/20250208_014350_0.jpg" alt="20250208_014350_0.jpg" /></li>
-</ul>
-
-<h1 id="projects">Projects</h1>
-
-<p>Procrastinating:</p>
-<ul>
-  <li>Droplet walker</li>
-  <li>TabTreeTracker</li>
-  <li>Low cost robot arm</li>
-  <li>Joystick doomscrolling</li>
-</ul>
-
-<p>Ongoing:</p>
-<ul>
-  <li>fiber2chip <a href="https://jwt625.github.io/tutorial/fiber2chip-history-concept/">blog</a></li>
-  <li>[redacted]</li>
-</ul>
-
-<p>Finished:</p>
-<ul>
-  <li>(week 32:) SiPho writeup for <a href="https://x.com/byte_thrasher">avi</a>’s zine.</li>
-</ul>
-
-<p>Planning:</p>
-<ul>
-  <li>Wave demo with ~ 300 Hz water surface wave + 3D printed components</li>
-</ul>
-
-<p>Gave up</p>
-<ul>
-  <li>Traveling wave excitation of mechanical ring resonator (see <a href="https://x.com/jwt0625/status/1877578653648986365">this thread</a>)</li>
-</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Photonics" /><category term="MEMS" /><category term="Quantum" /><category term="Optics" /><category term="Laser" /><category term="Semiconductor" /><category term="Nanotube" /><category term="DNA_origami" /><category term="Ultrasonic_imaging" /><category term="Frequency_comb" /><category term="Inverse_design" /><category term="Atom_interferometry" /><category term="COMSOL" /><category term="VCSEL" /><category term="Silicon_carbide" /><category term="Lithography" /><category term="Metasurface" /><category term="Cryogenics" /><category term="OCT" /><category term="Waveguide" /><category term="Piezo" /><category term="Robotics" /><category term="Swarm_robotics" /><category term="Event_camera" /><category term="Thermal_processing" /><category term="Gravitational_waves" /><category term="Hydrodynamic_sensing" /><category term="Roll-to-roll" /><category term="EUV" /><category term="Talbot_effect" /><summary type="html"><![CDATA[Achromatic Polymer Diffractive Lenses for Astrophotography 100 mm diameter, 2.4  μm thick multilevel diffractive lens (MDL), focal length 200 mm, optimized for the visible wavelength range, achieving achromatic focusing with inverse design and grayscale lithography. They have a company called Oblate Optics, found I’ve checked out their website but I don’t remember when or why.. Majumder2025: Color astrophotography with a 100 mm-diameter f/2 polymer flat lens “The MDL is composed of 10 000 concentric rings, each with a fixed width of 5  μm and varying heights” Almost 10x lighter than a plano-convex with the same diameter, and achromatic Rule of thumb for how real world relevant the work is: how many actual photos are in the SI]]></summary></entry></feed>
+</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Copper_interconnects" /><category term="Robotics" /><category term="Optomechanics" /><category term="SAW" /><category term="LUS" /><category term="Transient_grating_spectroscopy" /><category term="Asynchronous_optical_sampling" /><category term="Water_wave_diodes" /><category term="Microfluidics" /><category term="Capillary_waves" /><category term="Acoustic_levitation" /><category term="Ultrasound_phased_arrays" /><category term="CMOS" /><category term="Optical_tweezers" /><category term="Photophoretic_trapping" /><category term="Photonic_nanojet" /><category term="Optical_whispering_gallery_modes" /><category term="Dielectric_rod_antennas" /><category term="Fiberscopic_robotics" /><category term="Magnetic_manipulation" /><category term="Sonic_boom_analysis" /><category term="Niobium_superconducting_qubits" /><category term="Metalens" /><category term="Plasma_etching" /><category term="Nanofab" /><summary type="html"><![CDATA[IBM and Copper Interconnects IBM has some high quality technical and historical articles with unique materials, only if they are a bit more in depth.. Here is one about copper interconnects. IBM - Copper interconnects]]></summary></entry></feed>
