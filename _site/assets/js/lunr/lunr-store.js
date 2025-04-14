@@ -400,4 +400,10 @@ var store = [{
         "tags": ["Superconducting_qubit","Vacuum_capacitor","TEM","Photonics","Inverse_design","Pytorch","MZI","Ring_resonator","mmWave","Vapor_cell","Rydberg","Phased_array","Nanomembrane","Gigapixel_camera","Additive_manufacturing","Laser_sealing","Haptics","Optical_IO","Surface_wave","Ultrasonic","KID","Co_packaged_optics","DOE","SRF_cavity","Dwave","MEMS_motor","Optical_control","Atomic_clock","Ion_trap","PZT"],
         "url": "/ofs/weekly-OFS-41/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#42)",
+        "excerpt":"Bioresorbable optoelectronic pacemaker A grain of rice size pacemaker that is fully bioresorbable… (mostly made with Mg, Mo, and Si) It even got a phototransistor for wireless optoelectronic control. they could put them on the valve replacement? Looks crazy. Zhang2025: Millimetre-scale bioresorbable optoelectronic systems for electrotherapy (also) There is a...","categories": ["OFS"],
+        "tags": ["Bioresorbable_electronics","Phototransistor","NeRF","Gaussian_splatting","Atomic_clock","Mechanical_computing","Metamaterials","3D_integration","Diamond_thermal_interface","Photonic_crystal","Moiré_optics","Analog_communication","Diffraction_ML","Charged_droplet_dynamics","Triboelectric_generator","Quantum_circuit","SLAM","Super_resolution_microscopy","Photonic_processor","Optical_inspection","Mitochondrial_transfer","Waveguide_display","High_voltage_breaker","2D_material_photonics","Materials_API","Robotics","GUI_OCR","Flexure"],
+        "url": "/ofs/weekly-OFS-42/",
+        "teaser": null
       }]
