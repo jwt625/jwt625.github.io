@@ -58,9 +58,9 @@ Why is it hard to get to 50 Ohms with a small transducer? I actually have a rela
 
 ![piezo-coupling-illustration](/assets/images/2025/mech_wave_transduction/piezo-coupling-illustration.png)
 
-Here is a figure from one of my favorite standard ([1987 - IEEE Standard on Piezoelectricity](https://doi.org/10.1109/IEEESTD.1988.79638), [also](/assets/doc/2025/00026560-IEEE-1987-standard-piezoelectricity.pdf)) on how to do mechanical work with piezoelectric materials, illustrated in (b). You have two lines with different slopes between D and E field, which correspond to the two different dielectric constant for fixed and free mechanical boundary conditions. And the shaded area between the two straight lines give you the mechanical work you extracted by charging and discharging this piece of piezoelectric material.
+Here is a figure from one of my favorite standard ([1987 - IEEE Standard on Piezoelectricity](https://doi.org/10.1109/IEEESTD.1988.79638), [also here](/assets/doc/2025/00026560-IEEE-1987-standard-piezoelectricity.pdf)) on how to do mechanical work with piezoelectric materials, illustrated in (b). You have two lines with different slopes between D and E field, which correspond to the two different dielectric constant for fixed and free mechanical boundary conditions. And the shaded area between the two straight lines give you the mechanical work you extracted by charging and discharging this piece of piezoelectric material at different mechanical boundary conditions.
 
-Now time for some hand wavye math. We know the capacitance of a parallel capacitor, and thus its admittance (inverse of impedance) 
+Now time for some hand-wavy math. We know the capacitance of a parallel capacitor, and thus its admittance (inverse of impedance): 
 
 <div style="text-align: center;">
 $$Y = i\omega C = i\omega \frac{\epsilon_0 \epsilon_\text{r} A}{d},$$
@@ -68,11 +68,11 @@ $$Y = i\omega C = i\omega \frac{\epsilon_0 \epsilon_\text{r} A}{d},$$
 where $$A$$ is the area, and $$d$$ is the separation between the parallel plates. Now we have two different dielectric constant if the material is piezoelectric, and the difference gives us an estimation for the real part of the admittance:
 
 <div style="text-align: center;">
-$$G \sim i\omega \frac{\epsilon_0 (\epsilon^\text{T}_\text{r}-\epsilon^\text{S}_\text{r}) A}{d}.$$
+$$G \sim \omega \frac{\epsilon_0 (\epsilon^\text{T}_\text{r}-\epsilon^\text{S}_\text{r}) A}{d}.$$
 </div>
 
-And now we could plug in some actual numbers to calculate the conductance.
-- for a piece of [lithium niobate (LN)](/assets/doc/2025/gaylord1985-bf00614817.pdf), which is a pretty good piezoelectric material, assume we would like a little chunk of it at the wavelength-scale for ~ 1 GHz mechanical waves, $$A \sim 1~\text{um}^2$$, $$d \sim 1~\text{um}$$, and $$\epsilon^\text{T}_\text{r} \sim 80$$, $$\epsilon^\text{S}_\text{r} \sim 40$$. We get $$G\sim 1/(450~\text{k}\Omega)$$.
+Now we could plug in some actual numbers to calculate the conductance.
+- for a small piece of [lithium niobate (LN)](/assets/doc/2025/gaylord1985-bf00614817.pdf), which is a pretty good piezoelectric material, assume we would like a little chunk of it at the wavelength-scale for ~ 1 GHz mechanical waves, $$A \sim 1~\text{um}^2$$, $$d \sim 1~\text{um}$$, and $$\epsilon^\text{T}_\text{r} \sim 80$$, $$\epsilon^\text{S}_\text{r} \sim 40$$. We get $$G\sim 1/(450~\text{k}\Omega)$$.
 - That is an insanely high impedance, and more than 99.9% of the power will be reflected.
 - From the conductance formula, you could immediately see ways to improve it: increasing the area $$A$$, decrease the gap size $$d$$, and find materials with higher dielectric constant and higher dielectric constant difference (piezoelectricity). Higher dielectric constant is directly linked to stronger piezoelectric effect, as well as other effects such as electro-optic effect (see [Anderson2025](https://arxiv.org/abs/2502.15164)).
 - Another knob available is the bandwidth of the transducer, making it higher Q or narrow bandwidth let's you bump up the peak conductance. It is easier to impedance match to a narrower bandwidth. Sounds like the [Bode-Fano Limit](https://web.ece.ucsb.edu/~long/ece145a/zmatch.pdf), right? (I have not thought much about the actual link here yet)
@@ -87,8 +87,8 @@ Let's find another example, here is a [film bulk acoustic resonator (FBAR)](http
 ![fbar](/assets/images/2025/mech_wave_transduction/onscale-fbar.webp)
 ![fbar-xsec](/assets/images/2025/mech_wave_transduction/onscale-fbar-xsec.webp)
 - It is made of aluminum nitride (AlN), which has lower dielectric constants and lower piezoelectric constants, let's say 10x smaller than LN. The area is 50 um x 50 um, and thickness is 1 um.
-- The formula gives a real impedance of ~1800 Ohms. Or a few percent of fractional bandwidth to match to 50 Ohms.
-- Note 50 um x 50 um is much larger than wavelength-scale.
+- The formula gives a real impedance of ~1800 Ohms. So making it a few percent of fractional bandwidth could roughly match it to 50 Ohms.
+- Note that 50 um x 50 um is much larger than wavelength-scale.
 
 Please be wary that the above order of magnitude calculation is extremely simplified, and good enough to serve the purpose of showing why we need big transducers. There is a lot more about how to properly model and understand piezoelectric transducers. You can read more in [Dahmani2020](https://doi.org/10.1103/PhysRevApplied.13.024069), as well as more generally [Butterworth-Van Dyke circuit](https://ieeexplore.ieee.org/document/922679), and the one I prefer: [Foster network synthesis](https://web.archive.org/web/20180719090643id_/https://link.aps.org/accepted/10.1103/PhysRevA.94.063864).
 
