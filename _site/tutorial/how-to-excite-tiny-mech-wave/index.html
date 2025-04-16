@@ -193,7 +193,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          5 minute read
+          11 minute read
         
       </span>
     
@@ -339,7 +339,7 @@
           <aside class="sidebar__right sticky">
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
-              <ul class="toc__menu"><li><a href="#why-do-we-need-big-transducers">Why do we need big transducers</a></li><li><a href="#tapering-the-width-of-a-mechanical-waveguide">Tapering the width of a mechanical waveguide</a></li><li><a href="#examples-of-how-to-not-excite-a-tiny-mechanical-waveguide">Examples of how to not excite a tiny mechanical waveguide</a></li></ul>
+              <ul class="toc__menu"><li><a href="#why-do-we-need-big-transducers">Why do we need big transducers?</a></li><li><a href="#tapering-the-width-of-a-mechanical-waveguide">Tapering the width of a mechanical waveguide</a></li><li><a href="#examples-of-how-to-not-excite-a-tiny-mechanical-waveguide">Examples of how to not excite a tiny mechanical waveguide</a></li></ul>
             </nav>
           </aside>
         
@@ -378,14 +378,68 @@
 <img src="/assets/images/2025/mech_wave_transduction/Joe2025.png" alt="Joe2025" /></li>
 </ul>
 
-<h1 id="why-do-we-need-big-transducers">Why do we need big transducers</h1>
+<h1 id="why-do-we-need-big-transducers">Why do we need big transducers?</h1>
 
 <p>Hint: the <a href="https://doi.org/10.1063/1.1754276">cover image</a>.</p>
 
-<p>(To be continued)</p>
+<p>The short answer is <a href="https://en.wikipedia.org/wiki/Impedance_matching">impedance matching</a>. More specifically, (almost) everyone uses a 50 Ohms transmission line for RF and microwave, and it is hard to achieve a 50 Ohms impedance with a small transducer.</p>
+
+<p>Why is it hard to get to 50 Ohms with a small transducer? I actually have a relatively simple explanation when I was scratching my head thinking about how to explain this for my thesis defense. We need a simple method to estimate the impedance of a transducer, and the basic concept of impedance actually leads us the way:</p>
+<ul>
+  <li>What is <a href="https://en.wikipedia.org/wiki/Electrical_impedance">impedance</a>? The EEs reading this blog should be familiar with the impedance of a capacitor \(Z_C = 1/(i\omega C)\), and of an inductor \(Z_L = i\omega L\). A resistor’s impedance would be the same as its resistance.</li>
+  <li>You could immediately recognize that if an element does not dissipate / consume energy, its impedance would be fully imaginary. How does a piezoelectric transducer “consume” energy, or more accurately, convert electrical energy to acoustic energy? It shows different dielectric constant with different mechanical boundary conditions.</li>
+</ul>
+
+<p><img src="/assets/images/2025/mech_wave_transduction/piezo-coupling-illustration.png" alt="piezo-coupling-illustration" /></p>
+
+<p>Here is a figure from one of my favorite standard (<a href="https://doi.org/10.1109/IEEESTD.1988.79638">1987 - IEEE Standard on Piezoelectricity</a>, <a href="/assets/doc/2025/00026560-IEEE-1987-standard-piezoelectricity.pdf">also</a>) on how to do mechanical work with piezoelectric materials, illustrated in (b). You have two lines with different slopes between D and E field, which correspond to the two different dielectric constant for fixed and free mechanical boundary conditions. And the shaded area between the two straight lines give you the mechanical work you extracted by charging and discharging this piece of piezoelectric material.</p>
+
+<p>Now time for some hand wavye math. We know the capacitance of a parallel capacitor, and thus its admittance (inverse of impedance)</p>
+
+<div style="text-align: center;">
+$$Y = i\omega C = i\omega \frac{\epsilon_0 \epsilon_\text{r} A}{d},$$
+</div>
+<p>where \(A\) is the area, and \(d\) is the separation between the parallel plates. Now we have two different dielectric constant if the material is piezoelectric, and the difference gives us an estimation for the real part of the admittance:</p>
+
+<div style="text-align: center;">
+$$G \sim i\omega \frac{\epsilon_0 (\epsilon^\text{T}_\text{r}-\epsilon^\text{S}_\text{r}) A}{d}.$$
+</div>
+
+<p>And now we could plug in some actual numbers to calculate the conductance.</p>
+<ul>
+  <li>for a piece of <a href="/assets/doc/2025/gaylord1985-bf00614817.pdf">lithium niobate (LN)</a>, which is a pretty good piezoelectric material, assume we would like a little chunk of it at the wavelength-scale for ~ 1 GHz mechanical waves, \(A \sim 1~\text{um}^2\), \(d \sim 1~\text{um}\), and \(\epsilon^\text{T}_\text{r} \sim 80\), \(\epsilon^\text{S}_\text{r} \sim 40\). We get \(G\sim 1/(450~\text{k}\Omega)\).</li>
+  <li>That is an insanely high impedance, and more than 99.9% of the power will be reflected.</li>
+  <li>From the conductance formula, you could immediately see ways to improve it: increasing the area \(A\), decrease the gap size \(d\), and find materials with higher dielectric constant and higher dielectric constant difference (piezoelectricity). Higher dielectric constant is directly linked to stronger piezoelectric effect, as well as other effects such as electro-optic effect (see <a href="https://arxiv.org/abs/2502.15164">Anderson2025</a>).</li>
+  <li>Another knob available is the bandwidth of the transducer, making it higher Q or narrow bandwidth let’s you bump up the peak conductance. It is easier to impedance match to a narrower bandwidth. Sounds like the <a href="https://web.ece.ucsb.edu/~long/ece145a/zmatch.pdf">Bode-Fano Limit</a>, right? (I have not thought much about the actual link here yet)</li>
+</ul>
+
+<p>Here is an <a href="https://link.aps.org/accepted/10.1103/PhysRevApplied.15.014039">actual example</a>: 
+<img src="/assets/images/2025/mech_wave_transduction/Mayor2020-fig2.png" alt="mayor2020-fig2" /></p>
+<ul>
+  <li>let’s eyeball the area of this transducer, which is the ridge area that is covered by the IDT (interdigital transducer) electrodes, roughly 3 um x 10 um.</li>
+  <li>The transducer has a Q of 400 or a bandwidth of ~ 10 MHz.</li>
+  <li>These two factors bring down the ~450 kOhm number to ~38 Ohm, decently matched.</li>
+</ul>
+
+<p>Let’s find another example, here is a <a href="https://spectrum.ieee.org/design-and-optimization-of-fbar-filters-to-enable-5g">film bulk acoustic resonator (FBAR)</a>:
+<img src="/assets/images/2025/mech_wave_transduction/onscale-fbar.webp" alt="fbar" />
+<img src="/assets/images/2025/mech_wave_transduction/onscale-fbar-xsec.webp" alt="fbar-xsec" /></p>
+<ul>
+  <li>It is made of aluminum nitride (AlN), which has lower dielectric constants and lower piezoelectric constants, let’s say 10x smaller than LN. The area is 50 um x 50 um, and thickness is 1 um.</li>
+  <li>The formula gives a real impedance of ~1800 Ohms. Or a few percent of fractional bandwidth to match to 50 Ohms.</li>
+  <li>Note 50 um x 50 um is much larger than wavelength-scale.</li>
+</ul>
+
+<p>Please be wary that the above order of magnitude calculation is extremely simplified, and good enough to serve the purpose of showing why we need big transducers. There is a lot more about how to properly model and understand piezoelectric transducers. You can read more in <a href="https://doi.org/10.1103/PhysRevApplied.13.024069">Dahmani2020</a>, as well as more generally <a href="https://ieeexplore.ieee.org/document/922679">Butterworth-Van Dyke circuit</a>, and the one I prefer: <a href="https://web.archive.org/web/20180719090643id_/https://link.aps.org/accepted/10.1103/PhysRevA.94.063864">Foster network synthesis</a>.</p>
+
+<p>One more thing, I have mentioned <a href="https://en.wikipedia.org/wiki/Interdigital_transducer">interdigital transducer (IDT)</a> without explaining it. The idea is simple. Remember at the beginning we talked a lot about how the E&amp;M waves and the acoustic waves have orders of magnitude different velocity? If you make a parallel plate capacitor to transduce the mechanical wave, it will excite the bulk acoustic resonance like in the FBAR filter above, and won’t excite acoustic waves that are traveling along the surface. The travelling wave would have alternating sign of amplitude, and cancels between the electrodes. To make then not cancel? Shape the electrodes with the same periodicity so that the E field flips sign and match with how the acoustic wave amplitude flips its sign, and you get an IDT.</p>
 
 <h1 id="tapering-the-width-of-a-mechanical-waveguide">Tapering the width of a mechanical waveguide</h1>
 <p>(<a href="https://x.com/jwt0625/status/1905499644958048363">see also</a>)</p>
+
+<p>Ok now we understand the transducer need to be have a big enough area to support the impedance matching and bandwidth required, i.e., make it wider, and longer.</p>
+
+<p>To excite a wavelength-scale waveguide with width comparable to the mechanical wavelength, the IDT region needs to be connected to the waveguide somehow, and the naive choice of a straight taper could get you in trouble.</p>
 
 <div style="display: flex; justify-content: space-between;">
     <img src="/assets/images/2025/mech_wave_transduction/mode_anime_free_20250327.gif" alt="taper-free" style="max-width: 48%;" />
@@ -428,11 +482,33 @@
   <li>Dahmani2020: <a href="https://doi.org/10.1103/PhysRevApplied.13.024069">Piezoelectric Transduction of a Wavelength-Scale Mechanical Waveguide</a></li>
 </ul>
 
-<p>I’ll finish my rant with, don’t trust the waveguide S21 if you don’t see the waveguide being released/separated from the bulk substrate, or making bends. The S21 could be well from the surface acoustic waves instead of actually being guided in the narrow waveguide.</p>
+<p>Here is an example of a focusing IDT exciting a wavelength scale waveguide (<a href="https://doi.org/10.1103/PhysRevApplied.14.061001">Peairs2020</a>):
+<img src="/assets/images/2025/mech_wave_transduction/Peairs2020.png" alt="Peairs2020" /></p>
+
+<p>I’ll finish my rant with, don’t trust the waveguide S21 if you don’t see the waveguide being released/separated from the bulk substrate, or making bends. The S21 could be well from the surface acoustic waves (SAW) instead of actually being guided in the narrow waveguide.</p>
 
 <h1 id="examples-of-how-to-not-excite-a-tiny-mechanical-waveguide">Examples of how to not excite a tiny mechanical waveguide</h1>
 
-<p>(To be continued)</p>
+<p>(Hopefully no one reads my blog lol)</p>
+
+<p><img src="/assets/images/2025/mech_wave_transduction/Forsch2020.png" alt="Forsch2020" /></p>
+<ul>
+  <li>see that big IDT, and the small arrays of wavelength-scale structures near the bottom? The efficiency from the microwave shooting onto the IDT, to mechanical vibrations in one of the structures is about \(10^{-8}\). (see <a href="https://www.nature.com/articles/s41567-019-0673-7">Forsch2020</a> and also <a href="https://arxiv.org/pdf/1812.07588">here</a>)</li>
+</ul>
+
+<p><img src="/assets/images/2025/mech_wave_transduction/Ding2024.png" alt="Ding2024" /></p>
+<ul>
+  <li>This one looks like a 20+ um wide IDT with straight taper into a sub-um suspended waveguide. S21 about -50 dB.</li>
+  <li>They showed a version with an unreleased waveguide that has S21 approaching -20 dB, which I suspect it is mostly from the surface acoustic waves that are not in the sub-um waveguide (see <a href="https://link.aps.org/accepted/10.1103/PhysRevApplied.21.014034">Ding2024</a>)</li>
+</ul>
+
+<p><img src="/assets/images/2025/mech_wave_transduction/Deng2025.png" alt="Deng2025" /></p>
+<ul>
+  <li>This IDT is 100+ um wide and tapered to a ~4 um wide waveguide, and they measured an insertion loss of 10 dB from the taper. I’d suspect this taper loss is an upper bound (e.g. there’s some SAW contributing to the S21) until they bend the waveguide by 90 degree.</li>
+  <li>They even say the taper loss “can be further optimized by reducing the tapering angle”, no please don’t make it even slower. They do get the “adopting a focused IDT design” part. (see <a href="https://arxiv.org/abs/2503.18113">Deng2025</a>)</li>
+</ul>
+
+<p>Conclusion? Be wary of \(\pm\)30 dB engineers/engineering. If you found one, help them be +30 dB instead of -30 dB.</p>
 
 
         
