@@ -89,12 +89,6 @@ var store = [{
         "url": "/blog/energy-to-store-one-bit/",
         "teaser": null
       },{
-        "title": "I built a shed with a friend in his backyard",
-        "excerpt":"This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).   ","categories": ["Blog"],
-        "tags": ["Woodwork","Construction"],
-        "url": "/blog/shed/",
-        "teaser": null
-      },{
         "title": "Welcome!",
         "excerpt":"This blog serves two main purpose: for you and for me to have fun, and to reduce the global sum of suffering of mankind by sharing my sufferings and learnings. That said, if you read, learnt and avoided some suffering, go pick something else to suffer from and share your...","categories": ["Blog"],
         "tags": [],
@@ -405,5 +399,11 @@ var store = [{
         "excerpt":"Bioresorbable optoelectronic pacemaker A grain of rice size pacemaker that is fully bioresorbable… (mostly made with Mg, Mo, and Si) It even got a phototransistor for wireless optoelectronic control. they could put them on the valve replacement? Looks crazy. Zhang2025: Millimetre-scale bioresorbable optoelectronic systems for electrotherapy (also) There is a...","categories": ["OFS"],
         "tags": ["Bioresorbable_electronics","Phototransistor","NeRF","Gaussian_splatting","Atomic_clock","Mechanical_computing","Metamaterials","3D_integration","Diamond_thermal_interface","Photonic_crystal","Moiré_optics","Analog_communication","Diffraction_ML","Charged_droplet_dynamics","Triboelectric_generator","Quantum_circuit","SLAM","Super_resolution_microscopy","Photonic_processor","Optical_inspection","Mitochondrial_transfer","Waveguide_display","High_voltage_breaker","2D_material_photonics","Materials_API","Robotics","GUI_OCR","Flexure"],
         "url": "/ofs/weekly-OFS-42/",
+        "teaser": null
+      },{
+        "title": "Built a shed with a friend in his backyard",
+        "excerpt":"This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23). Jesus Christ it is 2025/04/20 today, 10 months later.. You...","categories": ["Blog"],
+        "tags": ["Woodwork","Construction","shed"],
+        "url": "/blog/shed/",
         "teaser": null
       }]
