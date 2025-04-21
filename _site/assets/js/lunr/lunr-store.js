@@ -406,4 +406,10 @@ var store = [{
         "tags": ["Woodwork","Construction","shed"],
         "url": "/blog/shed/",
         "teaser": null
+      },{
+        "title": "Weekly Ofs 43",
+        "excerpt":"1. semiconductor feng shui 101: which VCSEL shape generates better random numbers ![20250412_162847_0.jpg](/assets/images/2025/20241122_20250420/20250412_162847_0.jpg) - Lu2025: [Ultrafast dynamics in tailored VCSEL cavity geometry toward high-efficiency physical random number generation](https://doi.org/10.1063/5.0250843…) - at \"800 Gb/s with minimal post-processing\" - everything goes in and out of the square hole 2. Every time I have...","categories": [],
+        "tags": [],
+        "url": "/weekly-OFS-43/",
+        "teaser": null
       }]
