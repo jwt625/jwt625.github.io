@@ -11,3 +11,4 @@ Gemfile.lock
 
 # others
 *.swp
+_posts/config.json
