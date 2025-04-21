@@ -407,9 +407,9 @@ var store = [{
         "url": "/blog/shed/",
         "teaser": null
       },{
-        "title": "Weekly Ofs 43",
-        "excerpt":"1. semiconductor feng shui 101: which VCSEL shape generates better random numbers ![20250412_162847_0.jpg](/assets/images/2025/20241122_20250420/20250412_162847_0.jpg) - Lu2025: [Ultrafast dynamics in tailored VCSEL cavity geometry toward high-efficiency physical random number generation](https://doi.org/10.1063/5.0250843…) - at \"800 Gb/s with minimal post-processing\" - everything goes in and out of the square hole 2. Every time I have...","categories": [],
-        "tags": [],
-        "url": "/weekly-OFS-43/",
+        "title": "This week's outside five sigma (#43)",
+        "excerpt":"Apollon laser facility vacuum chamber are there 4+ turbo pumps attached to this big chamber (main vacuum chamber of the Apollon laser facility, in Saclay, France) Yao2025: Characterization and performance of the Apollon main short-pulse laser beam following its commissioning at 2 PW level More at APOLLON Laser Facility -...","categories": ["OFS"],
+        "tags": ["VCSEL","Semiconductor","MEMS","Photonics","Quantum_computing","Superconducting_circuits","Laser","Optics","Acoustics","Microwave","RF","Frequency_comb","Flip-chip","Bulk_acoustic_wave","Optical_neural_network","Cryogenics","Graphene","2D_materials","Vacuum_chamber","Ultrasonic_imaging","WGM","Optical_switch","Capacitor","PCB","COMSOL","MATLAB","AFM","Microscopy","Robotics"],
+        "url": "/ofs/weekly-OFS-43/",
         "teaser": null
       }]

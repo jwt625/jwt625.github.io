@@ -195,7 +195,6 @@ from datetime import datetime
 #% Move JPG files to a new folder based on date range
 
 # Get all JPG files in the media folder
-target_path = "../assets/images/2025"
 media_folder = 'media'
 jpg_files = [f for f in os.listdir(media_folder) if f.endswith('.jpg')]
 
@@ -222,6 +221,7 @@ if jpg_files:
     folder_name = f"{min_date}_{max_date}"
     
     # Define target path
+    target_path = "/Users/wentaojiang/Documents/GitHub/jwt625.github.io/assets/images/2025"
     new_folder_path = os.path.join(target_path, folder_name)
     
     # Create the target directory if it doesn't exist
@@ -238,7 +238,6 @@ else:
     print("No JPG files found in the media folder.")
 
 # %%
-
 
 ########################################
 # process the json file
@@ -295,6 +294,8 @@ output_md_file = "2025-04-20-weekly-OFS-43.md"
 # output_file = "tmp.md"
 create_markdown(json_file, output_md_file)
 print(f"Markdown file '{output_md_file}' has been created.")
+
+
 # %% extract tags and section titles using deepseek
 
 from helpers_LLM import process_with_llm_from_files
@@ -305,5 +306,112 @@ res = process_with_llm_from_files(config_file='config.json',
                                   prompt_file='prompt_extract_tag_section.md',
                                   content_file=output_md_file,
                                   output_file=output_file)
+
+# %%
+
+########################################
+# Process markdown files to add header and section titles
+########################################
+#%%
+import re
+
+def process_markdown_files(header_file, output_file, content_file):
+    """
+    Process markdown files to:
+    1. Get the header from standard_header.md
+    2. Extract tags from the first markdown codeblock in output.md
+    3. Add the extracted tags below the 'tags:' in the header
+    4. Add the header to the beginning of weekly-OFS.md
+    5. Extract section titles from the second markdown codeblock of output.md
+    6. Locate corresponding sections by numerical indices in weekly-OFS.md
+    7. Remove numerical indices and insert extracted section titles
+    
+    Args:
+        header_file (str): Path to the header template file
+        output_file (str): Path to the output file with extracted tags and titles
+        content_file (str): Path to the content file to be modified
+    """
+    # 1. Read the header template
+    with open(header_file, 'r', encoding='utf-8') as f:
+        header_content = f.read()
+    
+    # 2. Extract tags from the first markdown codeblock in output.md
+    with open(output_file, 'r', encoding='utf-8') as f:
+        output_content = f.read()
+    
+    # Find the first markdown codeblock with tags
+    tags_match = re.search(r'```markdown\n(.*?)\n```', output_content, re.DOTALL)
+    if not tags_match:
+        raise Exception("Could not find tags in the output file")
+    
+    tags_content = tags_match.group(1).strip()
+    
+    # 3. Add the extracted tags below the 'tags:' in the header
+    # Find the position of 'tags:' in the header
+    tags_pos = header_content.find('tags:')
+    if tags_pos == -1:
+        raise Exception("Could not find 'tags:' in the header template")
+    
+    # Insert the tags after 'tags:'
+    new_header = header_content[:tags_pos + 5] + '\n' + tags_content + header_content[tags_pos + 5:]
+    
+    # 5. Extract section titles from the second markdown codeblock
+    titles_match = re.search(r'```markdown\n(.*?)\n```', output_content[tags_match.end():], re.DOTALL)
+    if not titles_match:
+        raise Exception("Could not find section titles in the output file")
+    
+    titles_content = titles_match.group(1).strip()
+    
+    # Parse the titles into a list
+    section_titles = []
+    for line in titles_content.split('\n'):
+        if line.startswith('#'):
+            # Extract the title without the leading '#'
+            title = line[1:].strip()
+            section_titles.append(title)
+    
+    # 4. Read the content file
+    with open(content_file, 'r', encoding='utf-8') as f:
+        content = f.read()
+    
+    # 6. Locate corresponding sections by numerical indices
+    # Find all section numbers in the content
+    section_pattern = r'^(\d+)\.\s+(.*?)$'
+    section_matches = list(re.finditer(section_pattern, content, re.MULTILINE))
+    
+    # Create a mapping of section numbers to titles
+    section_number_to_title = {}
+    
+    # Match section titles with content sections
+    for i, match in enumerate(section_matches):
+        section_number = match.group(1)
+        section_text = match.group(2)
+        
+        # If we have a title for this section, use it
+        if i < len(section_titles):
+            section_number_to_title[section_number] = section_titles[i]
+        else:
+            # If we don't have a title, keep the original text
+            section_number_to_title[section_number] = section_text
+    
+    # 7. Remove numerical indices and insert extracted section titles
+    new_content = content
+    for section_number, title in section_number_to_title.items():
+        # Replace the section number with the title
+        pattern = f'^{section_number}\\.\\s+'
+        replacement = f'# {title}\n\n'
+        new_content = re.sub(pattern, replacement, new_content, flags=re.MULTILINE)
+    
+    # Combine the header and the modified content
+    final_content = new_header + '\n\n' + new_content
+    
+    # Write the final content back to the content file
+    with open(content_file, 'w', encoding='utf-8') as f:
+        f.write(final_content)
+    
+    print(f"Successfully processed markdown files and updated {content_file}")
+
+# Example usage:
+process_markdown_files('standard_header.md', 'output_20250420.md', '2025-04-20-weekly-OFS-43.md')
 
 # %%
