@@ -1,4 +1,536 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-21T00:27:18-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#43)</title><link href="http://localhost:4000/ofs/weekly-OFS-43/" rel="alternate" type="text/html" title="This week’s outside five sigma (#43)" /><published>2025-04-20T00:00:00-07:00</published><updated>2025-04-20T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-43</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-43/"><![CDATA[<h1 id="apollon-laser-facility-vacuum-chamber">Apollon laser facility vacuum chamber</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-27T21:49:08-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#44)</title><link href="http://localhost:4000/ofs/weekly-OFS-44/" rel="alternate" type="text/html" title="This week’s outside five sigma (#44)" /><published>2025-04-27T00:00:00-07:00</published><updated>2025-04-27T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-44</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-44/"><![CDATA[<h1 id="400g-optical-transceiver-teardown">400G optical transceiver teardown</h1>
+
+<p>Cisco Finisar 400G DR4, converting 8x 50G to 4x 100G PAM4. I could see two EMLs, not sure where are the other two or they split them.</p>
+<ul>
+  <li>from comments seems like it is further split on the PIC</li>
+</ul>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250425_044131_0.jpg" alt="20250425_044131_0.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250425_044131_1.jpg" alt="20250425_044131_1.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250425_044131_2.jpg" alt="20250425_044131_2.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250425_044131_3.jpg" alt="20250425_044131_3.jpg" /></p>
+<ul>
+  <li>it’s 26.5626 GBd with PAM4 = 53.125 Gbps per lane (8 lanes)</li>
+  <li>see e.g. <a href="https://docs.broadcom.com/doc/AFCT-91DRDDZ_400GE_DR4_QSFP-DD_Prelim_DS_Rev0.4_09042019">QSFP-DD Pluggable, Fiber-Optics Module 400GBASE-DR4</a></li>
+  <li>and also <a href="https://en.wikipedia.org/wiki/Terabit_Ethernet#400G_port_types">wikipedia - Terabit Ethernet</a>
+   <img src="/assets/images/2025/20240830_20250427/20250425_183530_0.jpg" alt="20250425_183530_0.jpg" />
+   <img src="/assets/images/2025/20240830_20250427/20250425_183530_1.jpg" alt="20250425_183530_1.jpg" /></li>
+</ul>
+
+<h1 id="compute-and-memory-bandwidth-trends">Compute and memory bandwidth trends</h1>
+
+<p>some exponential trends from 20 years ago on compute and memory bandwidth
+<img src="/assets/images/2025/20240830_20250427/20250420_165349_0.jpg" alt="20250420_165349_0.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250420_165349_1.jpg" alt="20250420_165349_1.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250420_165349_2.jpg" alt="20250420_165349_2.jpg" /></p>
+<ul>
+  <li>McKee2004: <a href="https://doi.org/10.1145/977091.977115">Reflections on the memory wall</a>
+   <img src="/assets/images/2025/20240830_20250427/20250420_165450_0.jpg" alt="20250420_165450_0.jpg" /></li>
+</ul>
+
+<h1 id="nand-flash-layer-scaling">NAND flash layer scaling</h1>
+
+<p>I like how NAND people draw them like skyscrapers, and they have 200+ layers now.</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250420_170909_0.jpg" alt="20250420_170909_0.jpg" /></p>
+<ul>
+  <li>Choe2023: <a href="https://doi.org/10.1117/12.2658765">Memory technology: process and cell architecture</a>
+   <img src="/assets/images/2025/20240830_20250427/20250420_171057_0.jpg" alt="20250420_171057_0.jpg" />
+   <img src="/assets/images/2025/20240830_20250427/20250420_171057_1.jpg" alt="20250420_171057_1.jpg" /></li>
+  <li>some of the slides can be found in this presentation:</li>
+  <li>horowitz2024: <a href="https://dam.stanford.edu/assets/2024-kickoff/dam-kickoff-2024-horowitz.pdf">Memory Scaling: A Look Inside</a></li>
+  <li>trends for DRAM, logic, NAND, and CIS</li>
+  <li>Kim2021: <a href="https://doi.org/10.1109/IEDM19574.2021.9720583">The Smallest Engine Transforming Humanity: The Past, Present, and Future</a>
+   <img src="/assets/images/2025/20240830_20250427/20250420_172343_0.jpg" alt="20250420_172343_0.jpg" /></li>
+</ul>
+
+<h1 id="superconducting-nanowire-detectors">Superconducting nanowire detectors</h1>
+
+<p>Nice fresh review on superconducting nanowire single-photon detectors (SNSPDs).</p>
+
+<p>It also has one of the most confusing performance record plot I’ve seen</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250421_053731_0.jpg" alt="20250421_053731_0.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250421_053731_1.jpg" alt="20250421_053731_1.jpg" /></p>
+<ul>
+  <li>Venza2025: <a href="https://doi.org/10.1063/5.0246490">Research trends in single-photon detectors based on superconducting wires</a>
+   <img src="/assets/images/2025/20240830_20250427/20250421_053946_0.jpg" alt="20250421_053946_0.jpg" /></li>
+</ul>
+
+<h1 id="lithium-tantalate-waveguides">Lithium tantalate waveguides</h1>
+
+<p>Arrayed waveguide gratings in thin-film lithium tantalate</p>
+
+<p>(they write and dress up every paper like it’s going to nature and I’m all for it)</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250421_154847_0.jpg" alt="20250421_154847_0.jpg" /></p>
+<ul>
+  <li>Hulyal2025: <a href="https://arxiv.org/abs/2504.12917">Arrayed waveguide gratings in lithium tantalate integrated photonics</a>
+   <img src="/assets/images/2025/20240830_20250427/20250421_154943_0.jpg" alt="20250421_154943_0.jpg" /></li>
+  <li>here is a <a href="https://x.com/jwt0625/status/1830778755863949356">thread on AWG</a></li>
+</ul>
+
+<h1 id="personalized-paper-recommendations">Personalized paper recommendations</h1>
+
+<p>Trying out this personalized paper recommendation.</p>
+
+<p>Be wary you could only add five authors for the initial bootstrapping, and I made it heavily photonics/quantum..</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250422_015130_0.jpg" alt="20250422_015130_0.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250422_015130_1.jpg" alt="20250422_015130_1.jpg" /></p>
+<ul>
+  <li>Flicke2025: <a href="https://arxiv.org/abs/2504.08385">Scholar Inbox: Personalized Paper Recommendations for Scientists</a></li>
+  <li><a href="https://scholar-inbox.com">Also</a>
+   <img src="/assets/images/2025/20240830_20250427/20250422_015302_0.jpg" alt="20250422_015302_0.jpg" /></li>
+</ul>
+
+<h1 id="droplet-microlasers">Droplet microlasers</h1>
+
+<p>you could make a tiny tiny dye laser out of a cured droplet</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20240830_044229_0.jpg" alt="20240830_044229_0.jpg" /></p>
+<ul>
+  <li>Zhou2025: <a href="https://doi.org/10.1063/5.0239236">S-shaped oscillation mode lasing in droplet microlasers</a>
+   <img src="/assets/images/2025/20240830_20250427/20250422_040812_0.jpg" alt="20250422_040812_0.jpg" /></li>
+  <li>reminds me of water jet laser cutting</li>
+  <li>Zhou2025: <a href="https://doi.org/10.1063/5.0239236">S-shaped oscillation mode lasing in droplet microlasers</a>
+   <img src="/assets/images/2025/20240830_20250427/20250422_040812_0.jpg" alt="20250422_040812_0.jpg" /></li>
+</ul>
+
+<h1 id="laser-induced-plasma-etching">Laser-induced plasma etching</h1>
+
+<p>we need universal basic fs laser, look at this cute lil plasma ball, and it could be ignited in a cute lil vacuum chamber</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250422_074131_0.jpg" alt="20250422_074131_0.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250422_074131_1.jpg" alt="20250422_074131_1.jpg" /></p>
+<ul>
+  <li>Šilhan2025: <a href="https://doi.org/10.1116/6.0004296">Compact vacuum setup for laser induced plasma etching with optical emission spectrum monitoring</a></li>
+  <li>It’s for laser-induced plasma etching (LIPE), and seems like it is relatively new, and could give a much smoother surface than laser ablation/micromachining.</li>
+  <li>Ehrhardt2020: <a href="https://doi.org/10.1007/s00339-020-04019-x">Laser-induced reactive microplasma for etching of fused silica</a>
+   <img src="/assets/images/2025/20240830_20250427/20250422_074718_0.jpg" alt="20250422_074718_0.jpg" />
+   <img src="/assets/images/2025/20240830_20250427/20250422_074718_1.jpg" alt="20250422_074718_1.jpg" /></li>
+  <li>damn thats smooth</li>
+  <li><a href="https://doi.org/10.1016/j.apsusc.2022.153712">Low surface damage laser processing of silicon by laser-induced plasma etching (LIPE)</a>
+   <img src="/assets/images/2025/20240830_20250427/20250422_075221_0.jpg" alt="20250422_075221_0.jpg" /></li>
+</ul>
+
+<h1 id="optical-scanning-probe-microscopy">Optical scanning probe microscopy</h1>
+
+<p>I don’t care about the topological device, but this <em>optical</em> scanning probe is sick, imaging directly measuring the field distribution of the light (fig. 2A), and compare to simulation (fig. 2B). And it’s heterodyne so you also get the phase!</p>
+
+<p>(maybe they did not show it because it does not match with sim as well. Also why different colorbar for sim and measurement…)</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250422_155938_0.jpg" alt="20250422_155938_0.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250422_155938_1.jpg" alt="20250422_155938_1.jpg" /></p>
+<ul>
+  <li>it’s quite involving to make..</li>
+  <li>Muis2025: <a href="https://doi.org/10.1126/sciadv.adr9569">Broadband localization of light at the termination of a topological photonic waveguide</a>
+   <img src="/assets/images/2025/20240830_20250427/20250422_160214_0.jpg" alt="20250422_160214_0.jpg" /></li>
+  <li>yes NSOM</li>
+  <li><a href="https://nature.com/articles/nphoton.2014.285">Mapping nanoscale light fields</a></li>
+  <li>i want an x ray version so that it does not need to be near field, and you could inspect a PIC when it’s with all the cladding/metal layer and live.</li>
+</ul>
+
+<h1 id="superconducting-air-bridge-design">Superconducting air-bridge design</h1>
+
+<p>superconducting circuit quantum computing folks finding out how to build a longer bridge properly: add stiffeners</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250423_011406_0.jpg" alt="20250423_011406_0.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250423_011406_1.jpg" alt="20250423_011406_1.jpg" /></p>
+<ul>
+  <li>Bolgar2025: <a href="https://doi.org/10.1063/5.0260833">Highly stable aluminum air-bridges with stiffeners</a>
+   <img src="/assets/images/2025/20240830_20250427/20250423_011633_0.jpg" alt="20250423_011633_0.jpg" />
+   <img src="/assets/images/2025/20240830_20250427/20250423_011633_1.jpg" alt="20250423_011633_1.jpg" /></li>
+</ul>
+
+<h1 id="webgl-state-visualization">WebGL state visualization</h1>
+
+<p>all these mess to draw some cubes..</p>
+
+<p>(visualization for learning webgl internal states)
+<img src="/assets/images/2025/20240830_20250427/20250423_063629_0.jpg" alt="20250423_063629_0.jpg" /></p>
+<ul>
+  <li><a href="https://webgl2fundamentals.org/webgl/lessons/resources/webgl-state-diagram.html">WebGL2 State diagram</a></li>
+</ul>
+
+<h1 id="femtosecond-laser-paper-cutting">Femtosecond laser paper cutting</h1>
+
+<p>now that’s a proper reason for universal basic fs laser
+<img src="/assets/images/2025/20240830_20250427/20250422_074131_0.jpg" alt="20250422_074131_0.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250422_074131_1.jpg" alt="20250422_074131_1.jpg" /></p>
+<ul>
+  <li>Hayasaki2025: <a href="https://doi.org/10.1364/OE.554393">Femtosecond laser cutting of paper</a></li>
+</ul>
+
+<h1 id="ice-bubble-formation-dynamics">Ice bubble formation dynamics</h1>
+
+<p>Water contains dissolved gases, they get expelled during freezing and form bubbles / pores, and no one could explain their different shapes until very recently 
+<img src="/assets/images/2025/20240830_20250427/20250424_071823_0.jpg" alt="20250424_071823_0.jpg" /></p>
+<ul>
+  <li>Thiévenaz2025: <a href="https://doi.org/10.1073/pnas.2415027122">On the shape of air bubbles trapped in ice</a>
+   <img src="/assets/images/2025/20240830_20250427/20250424_072005_0.jpg" alt="20250424_072005_0.jpg" /></li>
+</ul>
+
+<h1 id="handheld-microscope-imaging">Handheld microscope imaging</h1>
+
+<p>imagine 3D gaussian splatting with this handheld microscope</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250424_155241_0.jpg" alt="20250424_155241_0.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250424_155241_1.jpg" alt="20250424_155241_1.jpg" /></p>
+<ul>
+  <li><a href="https://nanofab.utah.edu/wp-content/uploads/2022/12/VHX-5000-Brochure.pdf">VHX-5000-Brochure</a></li>
+  <li>See also <a href="https://youtube.com/watch?v=xOhetGx6unI">Digital Microscope - KEYENCE VHX-5000</a></li>
+  <li>Be wary of their sales if you trade your contact for docs on their site, they’ll chase you down every corner on earth
+   <img src="/assets/images/2025/20240830_20250427/20250424_155634_0.jpg" alt="20250424_155634_0.jpg" />
+   <img src="/assets/images/2025/20240830_20250427/20250424_155634_1.jpg" alt="20250424_155634_1.jpg" />
+   <img src="/assets/images/2025/20240830_20250427/20250424_155634_2.jpg" alt="20250424_155634_2.jpg" /></li>
+</ul>
+
+<h1 id="automated-2d-material-exfoliation">Automated 2D material exfoliation</h1>
+
+<p>Look what I ran into today: QPress Exfoliator at Brookhaven National Lab.</p>
+
+<p>It’s “a fully mechanized exfoliation platform” in argon glovebox. They have “developed and optimized exfoliation recipes for high-demand materials such as graphene, hBN, and transition metal dichalcogenides (TMDs)”.</p>
+
+<p>They also have a Cataloger and a Stacker downstream.</p>
+
+<p>(ngl I’ve also used thorlabs posts as fixtures and guides many times)</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250419_043830_0.jpg" alt="20250419_043830_0.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250419_043830_1.jpg" alt="20250419_043830_1.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250419_043830_2.jpg" alt="20250419_043830_2.jpg" /></p>
+<ul>
+  <li><a href="https://bnl.gov/qpress/modules/exfoliator.php">QPress Exfoliator</a></li>
+  <li>There is also a technical report but with zero figure or image in it…</li>
+  <li>Yacoby2024: <a href="https://doi.org/10.2172/2000495">QPress: Quantum Press for Next-Generation Quantum Information Platforms</a>
+   <img src="/assets/images/2025/20240830_20250427/20250425_005015_0.jpg" alt="20250425_005015_0.jpg" /></li>
+</ul>
+
+<h1 id="large-area-metalens-fabrication">Large-area metalens fabrication</h1>
+
+<p>Stitched microscope image of a 1 cm diameter metalens, made by University of Washington researchers</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250425_010601_0.jpg" alt="20250425_010601_0.jpg" /></p>
+<ul>
+  <li>Fröch2025: <a href="https://doi.org/10.1038/s41467-025-58208-4">Beating spectral bandwidth limits for large aperture broadband nano-optics</a>
+   <img src="/assets/images/2025/20240830_20250427/20250425_010652_0.jpg" alt="20250425_010652_0.jpg" /></li>
+</ul>
+
+<h1 id="direct-wirebonding-for-rf">Direct wirebonding for RF</h1>
+
+<p>someone did my “dumb” idea! (that I did not follow thru)
+Now I could go sleep in peace.</p>
+
+<p>(Directly wirebonding between RF cables and a chip. I was rage designing this because we ran out of PCB and I did not want to wait, they are doing it to avoid the pricy mmw PCB I assume)</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250425_073622_0.jpg" alt="20250425_073622_0.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250425_073622_1.jpg" alt="20250425_073622_1.jpg" /></p>
+<ul>
+  <li><a href="https://youtube.com/watch?v=b2SgtzRCpCk">April 4, 2025: mm-Wave - John Teufe [lNIST]</a></li>
+  <li>iirc the mmw ones are pricey, they are paper thin and filled with vias (at least densly around the transmission lines) to kill substrate modes</li>
+  <li>In my case the machining would have shorter lead time than Hughes where we get our microwave PCBs</li>
+</ul>
+
+<h1 id="photonic-integrated-circuit-challenges">Photonic integrated circuit challenges</h1>
+
+<p>how much suffering can you convey in one single simple looking picture?
+<img src="/assets/images/2025/20240830_20250427/20250425_195931_0.jpg" alt="20250425_195931_0.jpg" /></p>
+<ul>
+  <li>Nader2025: <a href="https://doi.org/10.1364/OPTICA.554862">Heterogeneous tantala photonic integrated circuits for sub-micron wavelength applications</a>
+   <img src="/assets/images/2025/20240830_20250427/20250425_200053_0.jpg" alt="20250425_200053_0.jpg" /></li>
+  <li>i guess heres a comparison of <a href="https://x.com/jwt0625/status/1870509145352499238">SOI wafers</a> before and after a lot of suffering
+   <img src="/assets/images/2025/20240830_20250427/20250425_222654_0.jpg" alt="20250425_222654_0.jpg" />
+   <img src="/assets/images/2025/20240830_20250427/20250425_222654_1.jpg" alt="20250425_222654_1.jpg" />
+   <img src="/assets/images/2025/20240830_20250427/20250425_222654_2.jpg" alt="20250425_222654_2.jpg" /></li>
+</ul>
+
+<h1 id="ai-and-engineering-representation">AI and engineering representation</h1>
+
+<blockquote>
+  <p>“Humanity’s Last Exam”</p>
+
+  <p>Only 4% is engineering</p>
+</blockquote>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250426_002147_0.jpg" alt="20250426_002147_0.jpg" /></p>
+<ul>
+  <li>Phan2025: <a href="https://arxiv.org/abs/2501.14249">Humanity’s Last Exam</a>
+   <img src="/assets/images/2025/20240830_20250427/20250426_002300_0.jpg" alt="20250426_002300_0.jpg" /></li>
+  <li>I think this is filtered by the effort needed to prepare the dataset and Q&amp;As.</li>
+  <li>we have “under-representation” problem of different fields in AI/ML</li>
+</ul>
+
+<h1 id="photonics-vs-vlsi-progress">Photonics vs VLSI progress</h1>
+
+<p>honestly the gap might be more than 50 years apart.
+(or we are still early!)</p>
+
+<p>you can get a 6502 with 25 bucks in 1975 ($150 today, image from visual6502), meanwhile the sota photonics are research demos with “1 million photonic components” (unclear how it’s counted), or subtle note that the architecture is “incoherent”.</p>
+
+<p>(maybe I should look into and compare with how VLSI research is like in teh 1970s)</p>
+
+<p>The relatively transparent ones with large component counts are from psiquantum and MEMS otical switch folks at Berkeley (nEYE Systems), where you could see the components and component specs, and even wafer maps of fab variations.</p>
+
+<p>The ones you could buy now are transceivers and interconnects, and they have few tens to few hundreds of components. Some phased array lidars have a few thousands of components. Lightmatter’s Passage M1000 likely will have few tens of thousands, it’s so big you could get max 12 or 13 per 12 in wafer, and thats very roughly 100 bucks just from the price of the SOI wafer..</p>
+
+<p>I’m derailing too much. I’m just a bit sad that a random person can’t buy a SiPho chip as affordable and useful as IC chips from 50 years ago. What you can buy that are close to SiPho are old transceivers, maybe the first step is to figure out something fun with them.</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250114_024106_0.jpg" alt="20250114_024106_0.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250114_024106_1.jpg" alt="20250114_024106_1.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250114_024106_2.jpg" alt="20250114_024106_2.jpg" /></p>
+
+<p>Scaling of electronic IC on-chip components and photonic integrated circuits:</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250114_024106_3.jpg" alt="20250114_024106_3.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250114_024106_4.jpg" alt="20250114_024106_4.jpg" /></p>
+<ul>
+  <li>first image is from <a href="http://visual6502.org/images/6502/6502_top_op10x_BF_4677.png">visual6502</a></li>
+  <li>the other two from
+   <img src="/assets/images/2025/20240830_20250427/20250426_065411_0.jpg" alt="20250426_065411_0.jpg" /></li>
+  <li><a href="https://x.com/jwt0625/status/1897377049331032402">psiquantum</a>
+   <img src="/assets/images/2025/20240830_20250427/20250426_065435_0.jpg" alt="20250426_065435_0.jpg" /></li>
+  <li><a href="https://x.com/jwt0625/status/1881261333393596846">Berkeley/nEYE’s MEMS switches</a>
+   <img src="/assets/images/2025/20240830_20250427/20250426_065841_0.jpg" alt="20250426_065841_0.jpg" />
+   <img src="/assets/images/2025/20240830_20250427/20250426_065841_1.jpg" alt="20250426_065841_1.jpg" /></li>
+  <li><a href="https://x.com/jwt0625/status/1874186778401530067">phased array lidar from analog photonics</a>
+   <img src="/assets/images/2025/20240830_20250427/20250426_065933_0.jpg" alt="20250426_065933_0.jpg" />
+   <img src="/assets/images/2025/20240830_20250427/20250426_065933_1.jpg" alt="20250426_065933_1.jpg" />
+   <img src="/assets/images/2025/20240830_20250427/20250426_065933_2.jpg" alt="20250426_065933_2.jpg" /></li>
+</ul>
+
+<h1 id="quantum-computing-in-robotics">Quantum computing in robotics</h1>
+
+<p>robotics folks finding out quantum computing is hard</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250426_071215_0.jpg" alt="20250426_071215_0.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250426_071215_1.jpg" alt="20250426_071215_1.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250426_071215_2.jpg" alt="20250426_071215_2.jpg" /></p>
+<ul>
+  <li>Antero2025: <a href="https://doi.org/10.1016/j.robot.2025.105026">Robot localization aided by quantum algorithms</a></li>
+  <li>They cited this plot of number of qubits vs time from <a href="https://netmeister.org/blog/pqc-2024-01.html">Post-Quantum Cryptography in January 2024</a>
+   <img src="/assets/images/2025/20240830_20250427/20250426_071510_0.jpg" alt="20250426_071510_0.jpg" /></li>
+</ul>
+
+<h1 id="dry-eeg-electrode-advancements">Dry EEG electrode advancements</h1>
+
+<p>A review on EEG electrodes, there are four big performance tables of different types of them.</p>
+
+<p>(EEG: electroencephalogram, the method you could use to read your own mind non-invasively, and have better stock investment choices)</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250427_074422_0.jpg" alt="20250427_074422_0.jpg" />
+<img src="/assets/images/2025/20240830_20250427/20250427_074422_1.jpg" alt="20250427_074422_1.jpg" /></p>
+<ul>
+  <li>Xiong2025: <a href="https://doi.org/10.1063/5.0228644">Advancements in dry and semi-dry EEG electrodes: Design, interface characteristics, and performance evaluation</a>
+   <img src="/assets/images/2025/20240830_20250427/20250427_074530_0.jpg" alt="20250427_074530_0.jpg" /></li>
+  <li>ok the stock forcast work was using fMRI not EEG, but you could probably do it with EEG?</li>
+  <li>Brusselhttps2024: <a href="https://doi.org/10.1073/pnas.2307982121">Brain activity of professional investors signals future stock performance</a>
+   <img src="/assets/images/2025/20240830_20250427/20250427_074857_0.jpg" alt="20250427_074857_0.jpg" /></li>
+</ul>
+
+<h1 id="high-power-klystron-testing">High-power klystron testing</h1>
+
+<p>man I love paper with pictures of the actual setup. Look at this hot damn klystron. Peak power of 50 MW. That’s how I want to microwave my food.</p>
+
+<p>(the food will be turned into a plasma ball lol)</p>
+
+<p><img src="/assets/images/2025/20240830_20250427/20250427_080338_0.jpg" alt="20250427_080338_0.jpg" /></p>
+<ul>
+  <li>Liu2025: <a href="https://doi.org/10.1063/5.0258520">High-power test of a C-band linear accelerating structure with an RFSoC-based LLRF system</a></li>
+  <li>when you need to first build a bunker for your test
+   <img src="/assets/images/2025/20240830_20250427/20250427_080626_0.jpg" alt="20250427_080626_0.jpg" />
+   <img src="/assets/images/2025/20240830_20250427/20250427_080626_1.jpg" alt="20250427_080626_1.jpg" /></li>
+</ul>
+
+<h1 id="projects">Projects</h1>
+
+<p>Procrastinating:</p>
+<ul>
+  <li>Droplet walker</li>
+  <li>TabTreeTracker</li>
+  <li>Low cost robot arm</li>
+  <li>Joystick doomscrolling</li>
+</ul>
+
+<p>Planning:</p>
+<ul>
+  <li>Wave demo with ~ 300 Hz water surface wave + 3D printed components</li>
+</ul>
+
+<p>Ongoing:</p>
+<ul>
+  <li>3D Gaussian splatting
+    <ul>
+      <li>week 4 (?) (44): reading about webGL. Need more specific goals.</li>
+      <li>week 1~3: did 3DGS on various teardowns such as transceivers and lasers / laser modules</li>
+    </ul>
+  </li>
+  <li>WIMS (where is my shit):
+    <ul>
+      <li>week 5 (43): no progress this week, continue wearing it.</li>
+      <li>week 4 (42): switched to a LiPo battery, it lasts several days!</li>
+      <li>week 3 (41): got a usb type-C power monitor. Sleep power too high, need debug</li>
+      <li>week 2 (40): Started wearing the camera at home &amp; send thru wifi to desktop. Need to somehow save or send the photo to my phone when outside.</li>
+      <li><img src="/assets/images/projects/WIMS-20250330.png" alt="WIMS" /></li>
+      <li>week 1 (39): I finally connected to the camera. Quality bad. Ordered new camera (OV5640) from aliexpress.</li>
+    </ul>
+  </li>
+  <li>Quantum frequency conversion plot
+    <ul>
+      <li>week 4 (41): procrastinating</li>
+      <li>week 3 (40): procrastinating</li>
+      <li>Week 2 (39): published it, currently has piezo-optomechanical approaches</li>
+      <li>Week 1 (38): Gave a talk at PsiQuantum. I like the hat.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/jwt625/interactwave">interactive wave</a>
+    <ul>
+      <li>week 1 (37): made a python standalone library, see <a href="https://github.com/jwt625/BPM">BPM</a>.</li>
+    </ul>
+  </li>
+  <li>fiber2chip <a href="https://jwt625.github.io/tutorial/fiber2chip-history-concept/">blog</a></li>
+  <li>backyard landscaping:
+    <ul>
+      <li>week 18 (44): update railings, made a small outdoor wood stairs
+ <img src="/assets/images/2025/20240830_20250427/Gpfc0tybEAE3-WG.jpeg" alt="backyard-18" /></li>
+      <li>Week 17 (43): no progress this week</li>
+      <li><a href="https://x.com/jwt0625/status/1911204437353529571">week 16 (42)</a>: continue cinder block wall, finished upper level. Had to cast another small chunk of concrete</li>
+      <li><img src="/assets/images/2025/20240918_20250414/GoX2RDzXkAA0f09.jpeg" alt="GoX2RDzXkAA0f09" /></li>
+      <li><a href="https://x.com/jwt0625/status/1908666642453963155">week 15 (41)</a>: continue cinder block wall, added geogrid and two more layers of blocks. Also tear down stair form OSB</li>
+      <li><img src="/assets/images/2025/20250225_20250406/GnzxClEbYAEqjqX.jpeg" alt="GnzxClEbYAEqjqX" /></li>
+      <li>week 14 (40): no progress this week</li>
+      <li>week 13 (39): finished stairs. Started wall with cinder block. Formed and poured concrete at the turn</li>
+      <li>week 12 (38): traveled to LA this weekend! No backyard work.</li>
+      <li>week 11 (37): working on the form of the stairs, deck joists</li>
+      <li>week 10 (36): did not work on it</li>
+      <li>week 9 (35): finished the deck joists and boarded the side of the deck</li>
+      <li>week 8 (34): finished jacuzzi base &amp; deck frame</li>
+      <li>week 7 (33): working on base for Jacuzzi</li>
+      <li>week 6 (32): new year</li>
+      <li>week 5 (31): flattened the bottom level, put down form for concrete curb. Put down linear / grass barrier, and then gravel</li>
+      <li>week 4 (30): Finished the bottom retaining wall</li>
+      <li>week 3 (29): concrete poured for retaining wall beams and deck posts, started putting on retaining wall panels</li>
+      <li>week 2 (28): dig holes, posts inside holes, worked on Living room</li>
+      <li>week 1 (27): first week</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Finished:</p>
+<ul>
+  <li>(week 32:) SiPho writeup for <a href="https://x.com/byte_thrasher">avi</a>’s zine.
+    <ul>
+      <li>week 36: published on blog</li>
+    </ul>
+  </li>
+  <li>Continuing [redacted]
+    <ul>
+      <li>Week 36: This has been finished.</li>
+    </ul>
+  </li>
+  <li>PIC pytorch
+    <ul>
+      <li>week 3 (42): [redacted]</li>
+      <li>week 2 (41): [redacted]</li>
+      <li>week 1 (40): built a few simple components. Tested simple backprop and training.</li>
+      <li><img src="/assets/images/projects/PIC_pytorch_20250330.png" alt="PIC-torch" /></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Gave up</p>
+<ul>
+  <li>Traveling wave excitation of mechanical ring resonator (see <a href="https://x.com/jwt0625/status/1877578653648986365">this thread</a>)</li>
+  <li><a href="https://github.com/jwt625/tt-test">Tiny Tapeout</a>
+    <ul>
+      <li>abort? (because of efabless no funding)</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Photonics" /><category term="Quantum_computing" /><category term="Superconducting_circuits" /><category term="MEMS" /><category term="Laser" /><category term="SNSPD" /><category term="Lithium_tantalate" /><category term="AWG" /><category term="Femtosecond_laser" /><category term="Plasma_etching" /><category term="NSOM" /><category term="Waveguide" /><category term="Metalens" /><category term="EML" /><category term="RF_circuits" /><category term="EEG" /><category term="Klystron" /><category term="SiPho" /><category term="VCSEL" /><category term="PCB" /><category term="Optical_switch" /><category term="Lidar" /><category term="Microwave" /><category term="Semiconductor" /><category term="Cryogenics" /><category term="Optics" /><category term="Microscopy" /><category term="Robotics" /><summary type="html"><![CDATA[400G optical transceiver teardown]]></summary></entry><entry><title type="html">Built a shed with a friend in his backyard</title><link href="http://localhost:4000/blog/shed/" rel="alternate" type="text/html" title="Built a shed with a friend in his backyard" /><published>2025-04-20T00:00:00-07:00</published><updated>2025-04-20T00:00:00-07:00</updated><id>http://localhost:4000/blog/shed</id><content type="html" xml:base="http://localhost:4000/blog/shed/"><![CDATA[<p>This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).</p>
+
+<p>Jesus Christ it is 2025/04/20 today, 10 months later.. You procrastinating piece of [redacted]. Ok let’s get started.</p>
+
+<p>My friend and I were doing this scale of wood work for the first time. We felt confident enough after some youtube videos as well as a book from Larry Haun (<a href="https://www.amazon.com/Habitat-Humanity-How-Build-House/dp/1561585327">How to Build a House</a>), and we just head to home depot with some hand drawn layout.</p>
+
+<p>Overall this shed took us roughly 15 days from start to finish (scattered over Christmas &amp; new year, and a few more weekends).</p>
+
+<h1 id="foundation">Foundation</h1>
+
+<p>The foundation will be gravels with <a href="https://www.homedepot.com/pep/10-3-4-in-x-10-3-4-in-x-7-3-4-in-Concrete-Deck-Block-100002709/204827028">concrete deck blocks</a> on top, and then pressure treated 2x6.</p>
+<ul>
+  <li>the high level plan is to have a 8 ft by 8 ft shed, with a 4 ft by 8 ft deck in front of the entrance.</li>
+</ul>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2409.JPG" alt="base-materials" style="max-width: 48%;" />
+    <img src="/assets/images/2025/shed/idiot-in-cars-1.png" alt="idiot-in-cars-1" style="max-width: 48%;" />
+</div>
+<ul>
+  <li>idiots in cars episode 1 lol</li>
+</ul>
+
+<p>Digging:</p>
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2417.JPG" alt="dig" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_2415.JPG" alt="fill-gravel" style="max-width: 48%; object-fit: contain;" />
+</div>
+
+<p>Measuring everything to be square and level is tricky. There is a slight gradient, and we have to adjust the gravels and blocks multiple times.</p>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/foundation-1.png" alt="foundation-1" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/foundation-2.png" alt="foundation-2" style="max-width: 48%; object-fit: contain;" />
+</div>
+<ul>
+  <li>Dispite trying all the proper things (measuring all sides, measuring diagonals etc), the front of the shed still came 2 in or so short of the back side. This caused a lot of pain later.</li>
+</ul>
+
+<p>After a day, we got all the joists of the foundation.</p>
+
+<p><img src="/assets/images/2025/shed/IMG_2424.JPG" alt="foundation-all" />
+<img src="/assets/images/2025/shed/foundation-3.png" alt="foundation-all-2" /></p>
+<ul>
+  <li>if you look closely you can see spacers under some beams lol. We did also mess up the leveling a bit</li>
+</ul>
+
+<h1 id="floor--wall-framing">Floor &amp; Wall Framing</h1>
+
+<p>Not much to say, typical framing. The incline we decided for the roof turns out to be a bit too steep.</p>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2437.JPG" alt="framing-1" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_2438.JPG" alt="framing-2" style="max-width: 48%; object-fit: contain;" />
+</div>
+<ul>
+  <li>We got the two side wall and the back wall done in one day</li>
+  <li>one of the side wall has a window, and that shifted the studs around a bit.</li>
+</ul>
+
+<p>It took few trips to get all the framing materials, as well as OSBs and insulations for the floor</p>
+
+<p><img src="/assets/images/2025/shed/idiot-in-cars-2.png" alt="iic-2" /></p>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/front-wall.png" alt="front-wall" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_2452.JPG" alt="floor" style="max-width: 48%; object-fit: contain;" />
+</div>
+<ul>
+  <li>the insulations are supported by one of the dumbest things I’ve seen (insulation support wires)</li>
+  <li>in the right picture you could also see the angle of the foundation is off from 90 deg…</li>
+  <li>the front wall in the left image is very heavy because of the header. My friend planned a wide sliding door. Then there are extra layers of studs (trimmer studs and king studs), as well as cripple studs for small windows above the door. It definitely takes two people to raise this wall.</li>
+</ul>
+
+<p><img src="/assets/images/2025/shed/IMG_2454.JPG" alt="framing-done" /></p>
+<ul>
+  <li>finally got the floor &amp; framing done, felt super nice to actually sit inside</li>
+</ul>
+
+<h1 id="sheathing">Sheathing</h1>
+
+<h1 id="roofing">Roofing</h1>
+
+<h1 id="deck">Deck</h1>
+
+<h1 id="trims-and-interiors">Trims and interiors</h1>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Woodwork" /><category term="Construction" /><category term="shed" /><summary type="html"><![CDATA[This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).]]></summary></entry><entry><title type="html">This week’s outside five sigma (#43)</title><link href="http://localhost:4000/ofs/weekly-OFS-43/" rel="alternate" type="text/html" title="This week’s outside five sigma (#43)" /><published>2025-04-20T00:00:00-07:00</published><updated>2025-04-20T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-43</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-43/"><![CDATA[<h1 id="apollon-laser-facility-vacuum-chamber">Apollon laser facility vacuum chamber</h1>
 
 <p>are there 4+ turbo pumps attached to this big chamber</p>
 
@@ -445,85 +977,7 @@ this tutorial from the signal path is also very informative:
       <li>abort? (because of efabless no funding)</li>
     </ul>
   </li>
-</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="VCSEL" /><category term="Semiconductor" /><category term="MEMS" /><category term="Photonics" /><category term="Quantum_computing" /><category term="Superconducting_circuits" /><category term="Laser" /><category term="Optics" /><category term="Acoustics" /><category term="Microwave" /><category term="RF" /><category term="Frequency_comb" /><category term="Flip-chip" /><category term="Bulk_acoustic_wave" /><category term="Optical_neural_network" /><category term="Cryogenics" /><category term="Graphene" /><category term="2D_materials" /><category term="Vacuum_chamber" /><category term="Ultrasonic_imaging" /><category term="WGM" /><category term="Optical_switch" /><category term="Capacitor" /><category term="PCB" /><category term="COMSOL" /><category term="MATLAB" /><category term="AFM" /><category term="Microscopy" /><category term="Robotics" /><summary type="html"><![CDATA[Apollon laser facility vacuum chamber]]></summary></entry><entry><title type="html">Built a shed with a friend in his backyard</title><link href="http://localhost:4000/blog/shed/" rel="alternate" type="text/html" title="Built a shed with a friend in his backyard" /><published>2025-04-20T00:00:00-07:00</published><updated>2025-04-20T00:00:00-07:00</updated><id>http://localhost:4000/blog/shed</id><content type="html" xml:base="http://localhost:4000/blog/shed/"><![CDATA[This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).
-
-Jesus Christ it is 2025/04/20 today, 10 months later.. You procrastinating piece of [redacted]. Ok let's get started.
-
-My friend and I were doing this scale of wood work for the first time. We felt confident enough after some youtube videos as well as a book from Larry Haun ([How to Build a House](https://www.amazon.com/Habitat-Humanity-How-Build-House/dp/1561585327)), and we just head to home depot with some hand drawn layout.
-
-Overall this shed took us roughly 15 days from start to finish (scattered over Christmas & new year, and a few more weekends).
-
-
-# Foundation
-
-The foundation will be gravels with [concrete deck blocks](https://www.homedepot.com/pep/10-3-4-in-x-10-3-4-in-x-7-3-4-in-Concrete-Deck-Block-100002709/204827028) on top, and then pressure treated 2x6.
-- the high level plan is to have a 8 ft by 8 ft shed, with a 4 ft by 8 ft deck in front of the entrance.
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="/assets/images/2025/shed/IMG_2409.JPG" alt="base-materials" style="max-width: 48%;"/>
-    <img src="/assets/images/2025/shed/idiot-in-cars-1.png" alt="idiot-in-cars-1" style="max-width: 48%;"/>
-</div>
-- idiots in cars episode 1 lol
-
-Digging:
-<div style="display: flex; justify-content: space-between;">
-    <img src="/assets/images/2025/shed/IMG_2417.JPG" alt="dig" style="max-width: 48%; object-fit: contain;"/>
-    <img src="/assets/images/2025/shed/IMG_2415.JPG" alt="fill-gravel" style="max-width: 48%; object-fit: contain;"/>
-</div>
-
-Measuring everything to be square and level is tricky. There is a slight gradient, and we have to adjust the gravels and blocks multiple times.
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="/assets/images/2025/shed/foundation-1.png" alt="foundation-1" style="max-width: 48%; object-fit: contain;"/>
-    <img src="/assets/images/2025/shed/foundation-2.png" alt="foundation-2" style="max-width: 48%; object-fit: contain;"/>
-</div>
-- Dispite trying all the proper things (measuring all sides, measuring diagonals etc), the front of the shed still came 2 in or so short of the back side. This caused a lot of pain later.
-
-After a day, we got all the joists of the foundation.
-
-![foundation-all](/assets/images/2025/shed/IMG_2424.JPG)
-![foundation-all-2](/assets/images/2025/shed/foundation-3.png)
-- if you look closely you can see spacers under some beams lol. We did also mess up the leveling a bit
-
-
-# Floor & Wall Framing
-
-Not much to say, typical framing. The incline we decided for the roof turns out to be a bit too steep.
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="/assets/images/2025/shed/IMG_2437.JPG" alt="framing-1" style="max-width: 48%; object-fit: contain;"/>
-    <img src="/assets/images/2025/shed/IMG_2438.JPG" alt="framing-2" style="max-width: 48%; object-fit: contain;"/>
-</div>
-- We got the two side wall and the back wall done in one day
-- one of the side wall has a window, and that shifted the studs around a bit.
-
-It took few trips to get all the framing materials, as well as OSBs and insulations for the floor
-
-![iic-2](/assets/images/2025/shed/idiot-in-cars-2.png)
-
-
-<div style="display: flex; justify-content: space-between;">
-    <img src="/assets/images/2025/shed/front-wall.png" alt="front-wall" style="max-width: 48%; object-fit: contain;"/>
-    <img src="/assets/images/2025/shed/IMG_2452.JPG" alt="floor" style="max-width: 48%; object-fit: contain;"/>
-</div>
-- the insulations are supported by one of the dumbest things I've seen (insulation support wires)
-- in the right picture you could also see the angle of the foundation is off from 90 deg...
-- the front wall in the left image is very heavy because of the header. My friend planned a wide sliding door. Then there are extra layers of studs (trimmer studs and king studs), as well as cripple studs for small windows above the door. It definitely takes two people to raise this wall.
-
-![framing-done](/assets/images/2025/shed/IMG_2454.JPG)
-- finally got the floor & framing done, felt super nice to actually sit inside
-
-
-# Sheathing
-
-
-# Roofing
-
-
-# Deck
-
-
-# Trims and interiors]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Woodwork" /><category term="Construction" /><category term="shed" /><summary type="html"><![CDATA[This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).]]></summary></entry><entry><title type="html">This week’s outside five sigma (#42)</title><link href="http://localhost:4000/ofs/weekly-OFS-42/" rel="alternate" type="text/html" title="This week’s outside five sigma (#42)" /><published>2025-04-13T00:00:00-07:00</published><updated>2025-04-13T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-42</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-42/"><![CDATA[<h1 id="bioresorbable-optoelectronic-pacemaker">Bioresorbable optoelectronic pacemaker</h1>
+</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="VCSEL" /><category term="Semiconductor" /><category term="MEMS" /><category term="Photonics" /><category term="Quantum_computing" /><category term="Superconducting_circuits" /><category term="Laser" /><category term="Optics" /><category term="Acoustics" /><category term="Microwave" /><category term="RF" /><category term="Frequency_comb" /><category term="Flip-chip" /><category term="Bulk_acoustic_wave" /><category term="Optical_neural_network" /><category term="Cryogenics" /><category term="Graphene" /><category term="2D_materials" /><category term="Vacuum_chamber" /><category term="Ultrasonic_imaging" /><category term="WGM" /><category term="Optical_switch" /><category term="Capacitor" /><category term="PCB" /><category term="COMSOL" /><category term="MATLAB" /><category term="AFM" /><category term="Microscopy" /><category term="Robotics" /><summary type="html"><![CDATA[Apollon laser facility vacuum chamber]]></summary></entry><entry><title type="html">This week’s outside five sigma (#42)</title><link href="http://localhost:4000/ofs/weekly-OFS-42/" rel="alternate" type="text/html" title="This week’s outside five sigma (#42)" /><published>2025-04-13T00:00:00-07:00</published><updated>2025-04-13T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-42</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-42/"><![CDATA[<h1 id="bioresorbable-optoelectronic-pacemaker">Bioresorbable optoelectronic pacemaker</h1>
 
 <p>A grain of rice size pacemaker that is fully bioresorbable… (mostly made with Mg, Mo, and Si)
 It even got a phototransistor for wireless optoelectronic control.
@@ -3372,415 +3826,4 @@ xy range 14 deg, z range ~10 m^-1, 10 mm aperture, 170 Hz resonant freq.
 <p>Gave up</p>
 <ul>
   <li>Traveling wave excitation of mechanical ring resonator (see <a href="https://x.com/jwt0625/status/1877578653648986365">this thread</a>)</li>
-</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Quantum_sensing" /><category term="LIGO" /><category term="NV_center" /><category term="Magnetometer" /><category term="Superconducting_circuits" /><category term="SQUID" /><category term="HighTc_superconductors" /><category term="Plasma" /><category term="Pulsed_power" /><category term="Photonics" /><category term="Lithium_niobate" /><category term="Optical_modulator" /><category term="ECDL" /><category term="MOPA" /><category term="Superconducting_qubit" /><category term="MEMS" /><category term="Optomechanics" /><category term="Thermoreflectance" /><category term="Microwave_switch" /><category term="Phase_change_material" /><category term="Waveguide" /><category term="Optics" /><category term="Semiconductor" /><category term="Metrology" /><category term="Cryogenics" /><category term="Precision_manufacturing" /><category term="3D_printed_photonics" /><summary type="html"><![CDATA[High-Actuator MEMS Deformable Mirrors for Astronomy]]></summary></entry><entry><title type="html">This week’s outside five sigma (#36)</title><link href="http://localhost:4000/ofs/weekly-OFS-36/" rel="alternate" type="text/html" title="This week’s outside five sigma (#36)" /><published>2025-03-02T00:00:00-08:00</published><updated>2025-03-02T00:00:00-08:00</updated><id>http://localhost:4000/ofs/weekly-OFS-36</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-36/"><![CDATA[<h1 id="project-taara-got-on-chip-beam-steering">Project Taara Got on-chip Beam Steering</h1>
-<p>Google’s project Taara is doing long range (20 km) free space optical comm. Now they have a chip for steering the beam ( and potentially correcting the scintillation as well since the aperture got many segments? )</p>
-
-<p>The chip looks amazing, and it looks like a phased array, there are splitter trees and modulators (?).</p>
-
-<p>The size of the aperture / the beam looks like ~5 mm diameter, and that is a Rayleigh length of ~&lt; 15 m at 1.5 um wavelength, or an insertion loss of &gt;30 dB at 1 km, or &gt;60 dB at 20 km, just from divergence of the beam. They must have some really good and fast detectors.
-<img src="/assets/images/2025/20241231_20250303/20250301_031431_0.jpg" alt="20250301_031431_0.jpg" /></p>
-<ul>
-  <li>Source: <a href="https://x.company/blog/posts/taara-chip/">Introducing the Taara chip</a>
-   <img src="/assets/images/2025/20241231_20250303/20250301_031535_0.jpg" alt="20250301_031535_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250301_031535_1.jpg" alt="20250301_031535_1.jpg" /></li>
-  <li><a href="https://youtube.com/watch?v=HRF-XJ_Xub8">Taara and Community Networks in Africa</a>
-   <img src="/assets/images/2025/20241231_20250303/20250301_051505_0.jpg" alt="20250301_051505_0.jpg" /></li>
-</ul>
-
-<h1 id="atomic-clocks-and-precision-timekeeping">Atomic Clocks and Precision Timekeeping</h1>
-
-<p>Nice plot of good clocks
-<img src="/assets/images/2025/20241231_20250303/20250225_164630_0.jpg" alt="20250225_164630_0.jpg" /></p>
-<ul>
-  <li>SUNSPOT Proposers Day - February 07, 2025 - <a href="https://darpa.mil/sites/default/files/attachment/2025-02/darpa-program-sunspot-presentation-proposers-day.pdf">Sources for Ultraviolet Nuclear Spectroscopy of Thorium (SUNSPOT)</a>
-   <img src="/assets/images/2025/20241231_20250303/20250225_164732_0.jpg" alt="20250225_164732_0.jpg" /></li>
-  <li><a href="https://x.com/jwt0625/status/1806560969176559865">related</a>
-   <img src="/assets/images/2025/20241231_20250303/20250225_165028_0.jpg" alt="20250225_165028_0.jpg" /></li>
-  <li><a href="https://x.com/jwt0625/status/1800387566199550407">see also</a>
-   <img src="/assets/images/2025/20241231_20250303/20250225_213514_0.jpg" alt="20250225_213514_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250225_213514_1.jpg" alt="20250225_213514_1.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250225_213514_2.jpg" alt="20250225_213514_2.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250225_213514_3.jpg" alt="20250225_213514_3.jpg" /></li>
-</ul>
-
-<h1 id="tiny-machine-learning-open-education-initiative-tinymledu">Tiny Machine Learning Open Education Initiative (TinyMLedu)</h1>
-<p>There is a Tiny Machine Learning Open Education Initiative (TinyMLedu) launched by Harvard and ICTP, and they offer courses, projects, previous workshop slides &amp; recordings etc.
-<img src="/assets/images/2025/20241231_20250303/20250222_172651_0.jpg" alt="20250222_172651_0.jpg" />
-<img src="/assets/images/2025/20241231_20250303/20250222_172651_1.jpg" alt="20250222_172651_1.jpg" /></p>
-<ul>
-  <li><a href="https://tinyml.seas.harvard.edu">Tiny Machine Learning Open Education Initiative (TinyMLedu)</a></li>
-  <li>Left: <a href="https://science.org/content/article/what-s-tinyml-global-south-s-alternative-power-hungry-pricey-ai">What’s tinyML? The Global South’s alternative to power-hungry, pricey AI</a></li>
-  <li>Right: <a href="tinyml.seas.harvard.edu/SciTinyML-24/">SciTinyML - Scientific Use of Machine Learning on Low-Power Devices</a>
-   <img src="/assets/images/2025/20241231_20250303/20250222_172904_0.jpg" alt="20250222_172904_0.jpg" /></li>
-</ul>
-
-<h1 id="booklist">Booklist</h1>
-
-<p><a href="https://x.com/jwt0625/status/1893504336191492450">See also</a></p>
-
-<h2 id="optics--photonics">Optics &amp; photonics:</h2>
-<ul>
-  <li>Born and Wolf: <a href="https://cambridge.org/core/books/principles-of-optics/D12868B8AE26B83D6D3C2193E94FFC32">Principles of Optics</a></li>
-  <li>Boyd: <a href="https://sciencedirect.com/book/9780123694706/nonlinear-optics">Nonlinear Optics</a></li>
-  <li>Joannopoulos, Johnson, Winn, and Meade: <a href="http://ab-initio.mit.edu/book/">Photonic Crystals: Molding the Flow of Light</a></li>
-  <li>Chrostowski and Hochberg: <a href="https://cambridge.org/core/books/silicon-photonics-design/BF3CF13E8542BCE67FD2BBC7104ECEAB">Silicon Photonics Design - From Devices to Systems</a></li>
-  <li>Yoder: <a href="https://google.com/books/edition/Opto_Mechanical_Systems_Design_Second_Ed/1CmQgcT72awC?hl=en">Opto-mechanical systems design</a>
-<a href="https://link.springer.com/book/10.1007/978-3-030-16250-4">Springer Handbook of Optical Networks</a></li>
-</ul>
-
-<h2 id="microwave">Microwave:</h2>
-<ul>
-  <li>Pozar: <a href="https://wiley.com/en-us/Microwave+Engineering%2C+4th+Edition-p-9781118213636">Microwave Engineering</a></li>
-  <li>Stutzman and Thiele: <a href="https://wiley.com/en-us/Antenna+Theory+and+Design%2C+3rd+Edition-p-9780470576649">Antenna Theory and Design</a></li>
-  <li>Cameron, Kudsia, and Mansour: <a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781119292371">Microwave Filters for Communication Systems</a></li>
-</ul>
-
-<h2 id="solid-mechanics-books">Solid mechanics books:</h2>
-<ul>
-  <li>Auld: <a href="https://google.com/books/edition/Acoustic_fields_and_waves_in_solids/_2MWAwAAQBAJ?hl=en">Acoustic fields and waves in solids</a></li>
-  <li>Cleland: <a href="https://link.springer.com/book/10.1007/978-3-662-05287-7">Foundations of Nanomechanics</a></li>
-  <li>Young and Budynas: <a href="https://jackson.engr.tamu.edu/wp-content/uploads/sites/229/2023/03/Roarks-formulas-for-stress-and-strain.pdf">Roark’s Formulas for Stress and Strain</a></li>
-</ul>
-
-<h2 id="quantum">Quantum:</h2>
-<p>Chuang and Nielsen: <a href="https://profmcruz.wordpress.com/wp-content/uploads/2017/08/quantum-computation-and-quantum-information-nielsen-chuang.pdf">Quantum Computation and Quantum Information</a></p>
-<ul>
-  <li>Walls and Milburn: <a href="https://link.springer.com/book/10.1007/978-3-540-28574-8">Quantum Optics</a></li>
-  <li>Milburn and Wiseman: <a href="https://cambridge.org/core/books/quantum-measurement-and-control/F78F445CD9AF00B10593405E9BAC6B9F">Quantum Measurement and Control</a></li>
-</ul>
-
-<h2 id="websites">Websites</h2>
-
-<p>(there’s a lot more but these are what I immediately thought of):</p>
-
-<ul>
-  <li><a href="https://falstad.com/mathphysics.html">math, physics, and engineering applets</a></li>
-  <li><a href="https://193thz.com">photonic hacking blog</a></li>
-  <li><a href="https://repairfaq.org/sam/lasersam.htm">Sam’s Laser FAQ</a></li>
-  <li><a href="https://kguttag.com">AR/VR</a></li>
-</ul>
-
-<h2 id="old--random--other-stuff">Old &amp; random &amp; other stuff:</h2>
-<ul>
-  <li>Moore: <a href="https://mitpress.mit.edu/9780262130806/foundations-of-mechanical-accuracy/">Foundations of Mechanical Accuracy</a></li>
-  <li>Strong: <a href="https://archive.org/details/ProceduresInExperimentalPhysics/page/n1/mode/2up">Procedures in Experimental Physics</a></li>
-  <li>Montgomery, Dicke, and Purcell: <a href="https://ia601500.us.archive.org/18/items/in.ernet.dli.2015.16056/2015.16056.Principles-Of-Microwave-Circuits_text.pdf">Principles of Microwave Circuits</a></li>
-  <li>Goldreich, Mahajan, and Phinney: <a href="https://inference.org.uk/sanjoy/oom/book-letter.pdf">Order-of-Magnitude Physics</a></li>
-  <li>Seidel: <a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9783527670635">Applied Superconductivity: Handbook on Devices and Applications</a></li>
-  <li>Ekin: <a href="https://academic.oup.com/book/32506">Experimental Techniques for Low-Temperature Measurements</a></li>
-  <li>Hoffman: <a href="https://sciencedirect.com/book/9780123520654/handbook-of-vacuum-science-and-technology">Handbook of Vacuum Science and Technology</a></li>
-  <li>Gilmour: <a href="https://ieeexplore.ieee.org/document/9118788">Microwave and Millimeter-Wave Vacuum Electron Devices</a></li>
-</ul>
-
-<h1 id="electro-optic-and-piezoelectric-properties-of-strontium-titanate">Electro-Optic and Piezoelectric Properties of Strontium Titanate</h1>
-
-<p>Friend’s new paper is out on why good electro-optic materials are often also good piezoelectric materials (both proportional to dielectric constant), and why strontium titanate has great potential for cryogenic / quantum applications.</p>
-
-<p>The main thing I learnt during some early discussions was to think of phase transition as a “resonance” in temperature, and you could play fire to get some material properties you desire to blow up by operating close to it.</p>
-
-<p>The best (and worst) materials where interesting things and effects happen, are the ones on the verge of phase transition.
-<img src="/assets/images/2025/20241231_20250303/20250224_035003_0.jpg" alt="20250224_035003_0.jpg" />
-<img src="/assets/images/2025/20241231_20250303/20250224_035003_1.jpg" alt="20250224_035003_1.jpg" /></p>
-<ul>
-  <li>Anderson2025: <a href="https://arxiv.org/abs/2502.15164">Quantum critical electro-optic and piezo-electric nonlinearities</a></li>
-  <li>When the name of the materials start to not make sense at a glance, that’s how you know things are getting serious. They were doing oxygen isotope substitution to push the phase transition closer to make STO just being between paraelectric and ferroelectric.</li>
-  <li>(you can find material names get more complicated also in higher temperature optical phase change materials like GST and GSST)
-   <img src="/assets/images/2025/20241231_20250303/20250224_035504_0.jpg" alt="20250224_035504_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250224_035504_1.jpg" alt="20250224_035504_1.jpg" /></li>
-  <li>It’s not a new material, people knew it is paraelectric at low temperature a long time ago. Look how “shaky” the electrons are at low temperature, reaching dielectric constant &gt;2e4, close to some ceramics (but those are very lossy).</li>
-  <li>Müller1979: SrTiO3: <a href="https://link.aps.org/doi/10.1103/PhysRevB.19.3593">An intrinsic quantum paraelectric below 4 K</a>
-   <img src="/assets/images/2025/20241231_20250303/20250224_040653_0.jpg" alt="20250224_040653_0.jpg" /></li>
-  <li>Scaling of electro-optic and piezoelectric coefficients vs dielectric constant from the paper.</li>
-  <li>Clearly a win for making switches and modulators etc. out of it for quantum applications (let’s call it “classical” quantum (?)). But for “quantum” quantum stuff like frequency conversions, do you still win in terms of bandwidth, energy per qubit etc.?
-   <img src="/assets/images/2025/20241231_20250303/20250224_042607_0.jpg" alt="20250224_042607_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250224_042607_1.jpg" alt="20250224_042607_1.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250224_042607_2.jpg" alt="20250224_042607_2.jpg" /></li>
-</ul>
-
-<h1 id="rgb-d-hand-gesture-dataset">RGB-D Hand Gesture Dataset</h1>
-<p>Multi-view RGB-D hand gesture dataset, for human–robot collaboration on noisy production lines.
-<img src="/assets/images/2025/20241231_20250303/20250224_053245_0.jpg" alt="20250224_053245_0.jpg" />
-<img src="/assets/images/2025/20241231_20250303/20250224_053245_1.jpg" alt="20250224_053245_1.jpg" /></p>
-<ul>
-  <li>Hubert2025: <a href="https://sciencedirect.com/science/article/pii/S0736584525000110">MuViH: Multi-View Hand gesture dataset and recognition pipeline for human–robot interaction in a collaborative robotic finishing platform</a></li>
-  <li><a href="https://borealisdata.ca/dataset.xhtml?persistentId=doi:10.5683/SP3/JZJTGG">Dataset</a>
-   <img src="/assets/images/2025/20241231_20250303/20250224_053342_0.jpg" alt="20250224_053342_0.jpg" /></li>
-</ul>
-
-<h1 id="silicon-core-fibers-for-nonlinear-optics">Silicon Core Fibers for Nonlinear Optics</h1>
-<p>Wow silicon core fibers exists, with core diameter much smaller (1.3 um instead of 20 um in usual fibers), and much higher propagation loss (0.2 dB/cm at 5 um core diameter).</p>
-
-<p>It’s drawn with a CO laser instead of a more common CO2 laser (5.5 um vs 10.6 um), because absorption in silica is lower and the heating is more uniform.
-<img src="/assets/images/2025/20241231_20250303/20250224_163508_0.jpg" alt="20250224_163508_0.jpg" />
-<img src="/assets/images/2025/20241231_20250303/20250224_163508_1.jpg" alt="20250224_163508_1.jpg" /></p>
-<ul>
-  <li>Harvey2021: <a href="https://doi.org/10.1364/JOSAB.437667">Specialty optical fiber fabrication: fiber draw tower based on a CO laser furnace</a>
-   <img src="/assets/images/2025/20241231_20250303/20250224_163628_0.jpg" alt="20250224_163628_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250224_163628_1.jpg" alt="20250224_163628_1.jpg" /></li>
-  <li>Can be tapered and spliced with SMF, for nonlinear optics.</li>
-  <li>Sohanpal2022: <a href="https://nature.com/articles/s41467-022-31637-1">All-fibre heterogeneously-integrated frequency comb generation using silicon core fibre</a>
-   <img src="/assets/images/2025/20241231_20250303/20250224_164254_0.jpg" alt="20250224_164254_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250224_164254_1.jpg" alt="20250224_164254_1.jpg" /></li>
-  <li>This work measured more carefully the nonlinear coefficient.</li>
-  <li>Huang2025: <a href="https://doi.org/10.1063/5.0245083">Laser-drawn silicon core fibers for nonlinear photonics</a>
-   <img src="/assets/images/2025/20241231_20250303/20250224_164559_0.jpg" alt="20250224_164559_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250224_164559_1.jpg" alt="20250224_164559_1.jpg" /></li>
-</ul>
-
-<h1 id="dlp-projection-systems">DLP Projection Systems</h1>
-<p>DLP projection optical module, and components inside.
-<img src="/assets/images/2025/20241231_20250303/20250225_060926_0.jpg" alt="20250225_060926_0.jpg" />
-<img src="/assets/images/2025/20241231_20250303/20250225_060926_1.jpg" alt="20250225_060926_1.jpg" /></p>
-<ul>
-  <li>Application Note: <a href="https://ti.com/lit/an/dlpa078c/dlpa078c.pdf">TI DLP® System Design: Optical Module Specifications</a></li>
-  <li>13 micro-cents per mirror lol
-   <img src="/assets/images/2025/20241231_20250303/20250225_061338_0.jpg" alt="20250225_061338_0.jpg" /></li>
-  <li>They also casually have a 100+ slides <a href="https://ti.com/tool/download/DLP-OPTICAL-DESIGN">Optical Design Guidelines for DLP® products</a>
-   <img src="/assets/images/2025/20241231_20250303/20250225_062307_0.jpg" alt="20250225_062307_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250225_062307_1.jpg" alt="20250225_062307_1.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250225_062307_2.jpg" alt="20250225_062307_2.jpg" /></li>
-</ul>
-
-<h1 id="optomechanical-tweezers-using-liquid-crystal-polymer-actuators">Optomechanical Tweezers Using Liquid Crystal Polymer Actuators</h1>
-<p>“Optomechanical tweezers” for fluids inside tubes. The tube wall has a layer of linear liquid crystal polymer (LLCP) “muscle” that contracts and expands when hit with 470 nm light, and squeezes the fluid slug to move around in the tube.
-<img src="/assets/images/2025/20241231_20250303/20250225_162126_0.jpg" alt="20250225_162126_0.jpg" /></p>
-<ul>
-  <li>Lv2016: <a href="https://nature.com/articles/nature19344">Photocontrol of fluid slugs in liquid crystal polymer microactuators</a>
-   <img src="/assets/images/2025/20241231_20250303/20250225_162258_0.jpg" alt="20250225_162258_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250225_162258_1.jpg" alt="20250225_162258_1.jpg" /></li>
-  <li>Remotely related: <a href="https://x.com/jwt0625/status/1839818248315122176">optoelectronic tweezers</a>
-   <img src="/assets/images/2025/20241231_20250303/20250225_162355_0.jpg" alt="20250225_162355_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250225_162355_1.jpg" alt="20250225_162355_1.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250225_162355_2.jpg" alt="20250225_162355_2.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250225_162355_3.jpg" alt="20250225_162355_3.jpg" /></li>
-</ul>
-
-<h1 id="metaphotonic-force">Metaphotonic Force</h1>
-<p>Optical force is dead, long live the metaphotonic force
-<img src="/assets/images/2025/20241231_20250303/20250225_212141_0.jpg" alt="20250225_212141_0.jpg" /></p>
-<ul>
-  <li>Kudtarkar2025: <a href="https://arxiv.org/abs/2502.17334">Optical Propulsion and Levitation of Metajets</a>
-   <img src="/assets/images/2025/20241231_20250303/20250225_212310_0.jpg" alt="20250225_212310_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250225_212310_1.jpg" alt="20250225_212310_1.jpg" /></li>
-</ul>
-
-<h1 id="ieee-international-roadmap-for-devices-and-systems-irds">IEEE International Roadmap for Devices and Systems (IRDS)</h1>
-<p>IEEE publishes International Roadmap for Devices and Systems, and one of them from 2022 is called More Moore.
-<img src="/assets/images/2025/20241231_20250303/20250226_021624_0.jpg" alt="20250226_021624_0.jpg" /></p>
-<ul>
-  <li>International Roadmap for Devices and Systems (IRDS™) 2022 Edition - <a href="https://irds.ieee.org/images/files/pdf/2022/2022IRDS_MM.pdf">More Moore</a></li>
-  <li>(More at)(https://irds.ieee.org/editions/2022)
-   <img src="/assets/images/2025/20241231_20250303/20250226_021736_0.jpg" alt="20250226_021736_0.jpg" /></li>
-  <li>Theres another one called <a href="https://irds.ieee.org/images/files/pdf/2022/2022IRDS_WP-MtM.pdf">More than Moore</a>
-   <img src="/assets/images/2025/20241231_20250303/20250226_022037_0.jpg" alt="20250226_022037_0.jpg" /></li>
-  <li>hmm there’s this similar one for <a href="https://photonicsmanufacturing.org">photonics</a></li>
-</ul>
-
-<h1 id="solid-state-lidar-and-iii-v-laser-integration-on-silicon">Solid-State LiDAR and III-V Laser Integration on Silicon</h1>
-<p>Solid state LiDAR scanner on a 8in silicon wafer, and III-V laser integration.
-<img src="/assets/images/2025/20241231_20250303/20241231_194338_0.jpg" alt="20241231_194338_0.jpg" />
-<img src="/assets/images/2025/20241231_20250303/20241231_194338_1.jpg" alt="20241231_194338_1.jpg" />
-<img src="/assets/images/2025/20241231_20250303/20241231_194338_2.jpg" alt="20241231_194338_2.jpg" />
-<img src="/assets/images/2025/20241231_20250303/20241231_194338_3.jpg" alt="20241231_194338_3.jpg" />
-<img src="/assets/images/2025/20241231_20250303/20241231_194338_4.jpg" alt="20241231_194338_4.jpg" /></p>
-<ul>
-  <li><a href="https://photonicsmanufacturing.org/sites/default/files/documents/3d_sensing_-_lidar_-_ipsr-i_2024_0.pdf">3D Sensing - LiDAR - IPSR-I 2024</a></li>
-  <li>More at <a href="https://photonicsmanufacturing.org/2023-ipsr-i-integrated-photonic-systems-roadmap">2023 IPSR-I Integrated Photonic Systems Roadmap</a>
-   <img src="/assets/images/2025/20241231_20250303/20250226_034231_0.jpg" alt="20250226_034231_0.jpg" /></li>
-</ul>
-
-<h1 id="euv-light-from-tin-plasma-and-highly-charged-ions">EUV Light from Tin plasma and highly charged ions</h1>
-
-<p>Have you ever wondered how is EUV light generated from laser-produced tin plasma?</p>
-
-<p>A simplified answer is highly charged ions, where the wavefunction scales as 1/Z. The energy level separation scales even faster ~Z^2, hence the wavelength of the emitted light.</p>
-
-<p>If you have a U91+ ion, you could shake some gamma rays out of that last poor electron…
-<img src="/assets/images/2025/20241231_20250303/20250227_042835_0.jpg" alt="20250227_042835_0.jpg" />
-<img src="/assets/images/2025/20241231_20250303/20250227_042835_1.jpg" alt="20250227_042835_1.jpg" />
-<img src="/assets/images/2025/20241231_20250303/20250227_042835_2.jpg" alt="20250227_042835_2.jpg" /></p>
-<ul>
-  <li>The nice rendering is from Torretti2020: <a href="https://nature.com/articles/s41467-020-15678-y">Prominent radiative contributions from multiply-excited states in laser-produced tin plasma for nanolithography</a></li>
-  <li>Fig. 2 and 3: Gillaspy2001: <a href="https://iopscience.iop.org/article/10.1088/0953-4075/34/19/201">Highly charged ions</a></li>
-  <li>Hyperfine structures and their  linewidths scale even faster… This sounds so messed up. This is how electrons act when they got too stressed out.
-   <img src="/assets/images/2025/20241231_20250303/20250227_043221_0.jpg" alt="20250227_043221_0.jpg" /></li>
-  <li>hot damn I thought the highest E field human ever created is for sure generated by ultrafast high power laser pulses. Turns out it’s not even close.</li>
-  <li>(although this is way less available and applicable than a laser pulse) (I spent 20 min looking for an old tweet about Schwinger limit, can’t find it. Maybe I’ll run into it another day..)
-   <img src="/assets/images/2025/20241231_20250303/20250227_052728_0.jpg" alt="20250227_052728_0.jpg" /></li>
-  <li>First reaction: how does this make sense, I would love this for driving on highway</li>
-  <li>And then realized the cross section is for capturing electrons.. of course that would decrease at higher speed, there’s no way you run into another car head on and get captured lol.</li>
-  <li>Also the force a typical safety belt could hold is only 10x away from keeping you bounded to your car like an electron to the atom/ion during a ~1 s collision on a highway lol (assuming it takes more force/energy to break your body).
-   <img src="/assets/images/2025/20241231_20250303/20250227_073740_0.jpg" alt="20250227_073740_0.jpg" /></li>
-  <li>The way these highly charged ions are made is dramatic. One typical method is using electrons to hit the bounded electrons away. A more exotic method is muon or antiproton induced ionization: “muon is captured by a neutral atom and the atom responds by ejecting all of its electrons”…</li>
-  <li>Second screenshot is a description that I would’ve thought chatgpt is making shit up, but I guess reality really is like a drama.</li>
-  <li>Fig. 3~4: Bacher1988: <a href="https://doi.org/10.1103/PhysRevA.38.4395">Degree of ionization in antiprotonic noble gases</a></li>
-  <li>(<a href="https://cds.cern.ch/record/187899/files/PhysRevA.38.4395.pdf">also at</a>)</li>
-  <li>They could observe a series of x ray lines as the antiproton getting captured, and some lines would be weaker/gone, corresponding to Auger ionization etc of the electrons, up to the K shell, i.e., they are all gone.
-   <img src="/assets/images/2025/20241231_20250303/20250227_080135_0.jpg" alt="20250227_080135_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250227_080135_1.jpg" alt="20250227_080135_1.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250227_080135_2.jpg" alt="20250227_080135_2.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250227_080135_3.jpg" alt="20250227_080135_3.jpg" /></li>
-  <li>The ion got so sad about losing all the electrons it dies nine orders of magnitude faster 
-   <img src="/assets/images/2025/20241231_20250303/20250227_081531_0.jpg" alt="20250227_081531_0.jpg" /></li>
-  <li>Never seen a something^10 scaling in any physical systems
-   <img src="/assets/images/2025/20241231_20250303/20250227_164406_0.jpg" alt="20250227_164406_0.jpg" /></li>
-  <li>And energy level of an electronic transition reaching almost MeV
-   <img src="/assets/images/2025/20241231_20250303/20250227_164532_0.jpg" alt="20250227_164532_0.jpg" /></li>
-</ul>
-
-<h1 id="circulators-in-dilfridges">Circulators in dilfridges</h1>
-<p>That big array of circulators gets me every single time.</p>
-
-<p>There are so many unsexy challenges need to be solved for the sexy promises to be more realistic, but much fewer people would work on them. Much more efforts spent on the not scalable and short term sexy demos.
-If you dare to solve it, the sexy demo chasers will be your customers.</p>
-
-<p>(that said some sexy demos are absolutely necessary)
-<img src="/assets/images/2025/20241231_20250303/20250227_160458_0.jpg" alt="20250227_160458_0.jpg" /></p>
-<ul>
-  <li><a href="https://aboutamazon.com/news/aws/quantum-computing-aws-ocelot-chip">Amazon Web Services announces new quantum computing chip</a>
-   <img src="/assets/images/2025/20241231_20250303/20250227_160627_0.jpg" alt="20250227_160627_0.jpg" /></li>
-  <li>Fun fact the shiny color is from <a href="https://tokyoinst.co.jp/product_file/file/LCG01_cat01_ja.pdf">Gold plated copper</a>
-   <img src="/assets/images/2025/20241231_20250303/20250227_190929_0.jpg" alt="20250227_190929_0.jpg" /></li>
-</ul>
-
-<h1 id="optical-neural-networks-and-electronic-bottlenecks">Optical Neural Networks and Electronic Bottlenecks</h1>
-<p>Nice use of saturable absorber for the nonlinearity, and linear for weak backward propagation beam.</p>
-
-<p>Although if you look closely, all the optical compute / neural network demos are bottlenecked by, or the champion(s) behind them are, E2O and O2E components, like the DMD, SLM and CCD/CMOS cameras in many free space ones, and fast EO modulators and photodetectors when the encoding is in the time domain. Majority of the computing is done with electronics (at least for training).
-<img src="/assets/images/2025/20241231_20250303/20250227_163407_0.jpg" alt="20250227_163407_0.jpg" /></p>
-<ul>
-  <li>Spall2025: <a href="https://doi.org/10.1117/1.AP.7.1.016004">Training neural networks with end-to-end optical backpropagation</a>
-   <img src="/assets/images/2025/20241231_20250303/20250227_163535_0.jpg" alt="20250227_163535_0.jpg" /></li>
-</ul>
-
-<h1 id="comsol-simulation-of-echelle-gratings">COMSOL Simulation of Echelle Gratings</h1>
-<blockquote>
-  <p>They simulated the whole echelle grating using COMSOL?? They must have 1 TB+ of memory.</p>
-
-  <p>Looks into the method: ok it is more complicated. Need some reading.</p>
-</blockquote>
-
-<p>(they called it planar concave grating (PCG). Chip made by imec’s ISIPP50G 220 nm SOI.)
-<img src="/assets/images/2025/20241231_20250303/20250228_022745_0.jpg" alt="20250228_022745_0.jpg" /></p>
-<ul>
-  <li>Schneider2025: <a href="https://iopscience.iop.org/article/10.1088/1748-0221/20/02/C02029">Silicon photonic components on the COTTONTAIL chip</a></li>
-  <li>Github repo: <a href="https://github.com/MarcSchneiderD/EchelleLayoutProgram2">Echelle Layout Program 2</a></li>
-  <li>Zhang2020: <a href="https://doi.org/10.1117/12.2544694">A high-performance Echelle grating de-multiplexer based on two stigmatic points and its flat-top solution</a></li>
-  <li>(<a href="https://publikationen.bibliothek.kit.edu/1000118940/149826928">also</a>)
-   <img src="/assets/images/2025/20241231_20250303/20250228_023031_0.jpg" alt="20250228_023031_0.jpg" /></li>
-</ul>
-
-<h1 id="mmi-made-with-offsetting-single-mode-optical-fibers">MMI made with Offsetting single-mode Optical Fibers</h1>
-<p>Nothing is single-mode in optics/photonics (or at least single-mode in a useful way, yet).</p>
-
-<p>You could splice a single-mode fiber with an offset to excite more modes and make a Mach–Zehnder interferometer.
-<img src="/assets/images/2025/20241231_20250303/20250228_025539_0.jpg" alt="20250228_025539_0.jpg" /></p>
-<ul>
-  <li>Contreras-Teran2023: <a href="https://iopscience.iop.org/article/10.1088/1361-6501/acb3ea/meta">High-resolution strain fiber laser-sensor based on core-offset mach-zehnder interferometer</a>
-   <img src="/assets/images/2025/20241231_20250303/20250228_025654_0.jpg" alt="20250228_025654_0.jpg" /></li>
-</ul>
-
-<h1 id="laser-textured-metal-surfaces-for-antibacterial-applications">Laser-Textured Metal Surfaces for Antibacterial Applications</h1>
-<p>Using laser to etch and roughen a metal surface could help preventing bacterial attachment.</p>
-
-<p>(although it did not do much compared to the control, it did improve quite some more than the std.)
-<img src="/assets/images/2025/20241231_20250303/20250228_060935_0.jpg" alt="20250228_060935_0.jpg" /></p>
-<ul>
-  <li>E. coli got affected more.</li>
-  <li>Soni2025: <a href="https://doi.org/10.2351/7.0001535">Antibacterial effectiveness of laser surface textured metal on meat-borne bacteria</a></li>
-  <li>See also: <a href="https://eurekalert.org/news-releases/1074315">Mimicking shark skin to create clean cutting boards</a>
-   <img src="/assets/images/2025/20241231_20250303/20250228_061222_0.jpg" alt="20250228_061222_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250228_061222_1.jpg" alt="20250228_061222_1.jpg" /></li>
-</ul>
-
-<h1 id="petawatt-electron-beams">Petawatt Electron Beams</h1>
-<p>The highest power electron beam just reached one pettawatt ( 10 GV * 0.1 MA ), catching up with high power lasers!</p>
-
-<p>Now how do you characterize such beam? I’m still reading, but seems like all indirect: “[the beam] will destroy any diagnostics intercepting the beam in a single shot and thus impose unique challenges of beam diagnostics.”
-<img src="/assets/images/2025/20241231_20250303/20250228_165252_0.jpg" alt="20250228_165252_0.jpg" /></p>
-<ul>
-  <li>Emma2025: <a href="https://doi.org/10.1103/PhysRevLett.134.085001">Experimental Generation of Extreme Electron Beams for Advanced Accelerator Applications</a></li>
-  <li>Above screenshot from:</li>
-  <li>Storey2024: <a href="https://doi.org/10.1103/PhysRevAccelBeams.27.051302">Wakefield generation in hydrogen and lithium plasmas at FACET-II: Diagnostics and first beam-plasma interaction results</a></li>
-  <li>Quote about beam characterization from:</li>
-  <li>Green2017: <a href="https://accelconf.web.cern.ch/ibic2017/papers/mo3ab3.pdf">BEAM DIAGNOSTIC CHALLENGES FOR FACET-II</a>
-   <img src="/assets/images/2025/20241231_20250303/20250228_165528_0.jpg" alt="20250228_165528_0.jpg" /></li>
-  <li>Wild paper starting from Green’s functions and ending in how much charge in the beam would start melting different metal foils</li>
-  <li>Stupakov2013: <a href="https://s3.cern.ch/inspire-prod-files-2/27a66cbe3175a323136bdd8a48a79d00">Melting thin foils by incident relativistic electron bunch</a>
-   <img src="/assets/images/2025/20241231_20250303/20250228_171242_0.jpg" alt="20250228_171242_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250228_171242_1.jpg" alt="20250228_171242_1.jpg" /></li>
-  <li>The beam energy/current profile is measured in this segment, where the notch collimator let thru a thin slice of the heam, which is then wiggled to emit x-ray. The x-ray is then detected by the YAG scintillator &amp; CCD camera</li>
-  <li><a href="https://hsmagnets.com/blog/wiggler-magnet/">Wiggler magnet picture</a>
-   <img src="/assets/images/2025/20241231_20250303/20250301_033349_0.jpg" alt="20250301_033349_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250301_033349_1.jpg" alt="20250301_033349_1.jpg" /></li>
-</ul>
-
-<h1 id="lego-based-interferometer">LEGO-Based Interferometer</h1>
-<p>LEGO-based interferometer kits by University of Nottingham.</p>
-
-<p>The stages are actuated??
-<img src="/assets/images/2025/20241231_20250303/20250228_213014_0.jpg" alt="20250228_213014_0.jpg" /></p>
-<ul>
-  <li>Photon Bricks: <a href="https://nottingham.ac.uk/news/photon-bricks-a-lego-set-for-playful-quantum-explorations">A LEGO set for playful quantum explorations</a></li>
-  <li>There’s exhibition and workshops at Lakeside Arts:</li>
-  <li>Demonstration: <a href="https://lakesidearts.org.uk/event/demonstration-quantum-lego/">Quantum Lego</a>
-   <img src="/assets/images/2025/20241231_20250303/20250228_213148_0.jpg" alt="20250228_213148_0.jpg" /></li>
-  <li>There’s an older one from 2020:</li>
-  <li>Haverkamp2020: <a href="https://doi.org/10.1119/10.0002734">Measuring Wavelengths with LEGO® Bricks: Building a Michelson Interferometer for Quantitative Experiments</a>
-   <img src="/assets/images/2025/20241231_20250303/20250228_213525_0.jpg" alt="20250228_213525_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250228_213525_1.jpg" alt="20250228_213525_1.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250228_213525_2.jpg" alt="20250228_213525_2.jpg" /></li>
-  <li>Other “scientific” use of LEGO:</li>
-  <li>Zheng2013: <a href="https://nature.com/articles/nphoton.2013.187">Wide-field, high-resolution Fourier ptychographic microscopy</a></li>
-  <li>Chawner2019: <a href="https://nature.com/articles/s41598-019-55616-7">LEGO® Block Structures as a Sub-Kelvin Thermal Insulator</a>
-   <img src="/assets/images/2025/20241231_20250303/20250303_021503_0.jpg" alt="20250303_021503_0.jpg" />
-   <img src="/assets/images/2025/20241231_20250303/20250303_021503_1.jpg" alt="20250303_021503_1.jpg" /></li>
-</ul>
-
-<h1 id="projects">Projects</h1>
-
-<p>Procrastinating:</p>
-<ul>
-  <li>Droplet walker</li>
-  <li>TabTreeTracker</li>
-  <li>Low cost robot arm</li>
-  <li>Joystick doomscrolling</li>
-</ul>
-
-<p>Ongoing:</p>
-<ul>
-  <li><a href="https://github.com/jwt625/interactwave">interactive wave</a></li>
-  <li>fiber2chip <a href="https://jwt625.github.io/tutorial/fiber2chip-history-concept/">blog</a></li>
-  <li><a href="https://github.com/jwt625/tt-test">Tiny Tapeout</a>
-    <ul>
-      <li>abort? (because of efabless no funding)</li>
-    </ul>
-  </li>
-  <li>backyard landscaping:
-    <ul>
-      <li>this week: did not work on it</li>
-      <li>week 35: finished the deck joists and boarded the side of the deck</li>
-      <li>week 34: finished jacuzzi base &amp; deck frame</li>
-    </ul>
-  </li>
-  <li>Continuing [redacted]</li>
-</ul>
-
-<p>Finished:</p>
-<ul>
-  <li>(week 32:) SiPho writeup for <a href="https://x.com/byte_thrasher">avi</a>’s zine.
-    <ul>
-      <li>week 36: published on blog</li>
-    </ul>
-  </li>
-</ul>
-
-<p>Planning:</p>
-<ul>
-  <li>Wave demo with ~ 300 Hz water surface wave + 3D printed components</li>
-</ul>
-
-<p>Gave up</p>
-<ul>
-  <li>Traveling wave excitation of mechanical ring resonator (see <a href="https://x.com/jwt0625/status/1877578653648986365">this thread</a>)</li>
-</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="TinyML" /><category term="Optics" /><category term="Photonics" /><category term="Microwave" /><category term="MEMS" /><category term="Quantum_computing" /><category term="Superconducting_circuits" /><category term="LIDAR" /><category term="Frequency_comb" /><category term="Semiconductor" /><category term="Optical_switch" /><category term="Piezoelectric" /><category term="Electro-optic" /><category term="Phase_transition" /><category term="Nonlinear_optics" /><category term="Optical_tweezers" /><category term="Atomic_clock" /><category term="Metamaterials" /><category term="Optical_force" /><category term="Free_space_optics" /><category term="EUV_lithography" /><category term="Electron_beam" /><category term="Wakefield_acceleration" /><category term="Interferometry" /><category term="Neural_network_hardware" /><category term="Silicon_photonics" /><category term="Plasmonics" /><category term="Photonic_integrated_circuit" /><category term="Adaptive_optics" /><summary type="html"><![CDATA[Project Taara Got on-chip Beam Steering Google’s project Taara is doing long range (20 km) free space optical comm. Now they have a chip for steering the beam ( and potentially correcting the scintillation as well since the aperture got many segments? )]]></summary></entry></feed>
+</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Quantum_sensing" /><category term="LIGO" /><category term="NV_center" /><category term="Magnetometer" /><category term="Superconducting_circuits" /><category term="SQUID" /><category term="HighTc_superconductors" /><category term="Plasma" /><category term="Pulsed_power" /><category term="Photonics" /><category term="Lithium_niobate" /><category term="Optical_modulator" /><category term="ECDL" /><category term="MOPA" /><category term="Superconducting_qubit" /><category term="MEMS" /><category term="Optomechanics" /><category term="Thermoreflectance" /><category term="Microwave_switch" /><category term="Phase_change_material" /><category term="Waveguide" /><category term="Optics" /><category term="Semiconductor" /><category term="Metrology" /><category term="Cryogenics" /><category term="Precision_manufacturing" /><category term="3D_printed_photonics" /><summary type="html"><![CDATA[High-Actuator MEMS Deformable Mirrors for Astronomy]]></summary></entry></feed>

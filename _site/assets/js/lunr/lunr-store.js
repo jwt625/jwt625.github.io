@@ -412,4 +412,10 @@ var store = [{
         "tags": ["VCSEL","Semiconductor","MEMS","Photonics","Quantum_computing","Superconducting_circuits","Laser","Optics","Acoustics","Microwave","RF","Frequency_comb","Flip-chip","Bulk_acoustic_wave","Optical_neural_network","Cryogenics","Graphene","2D_materials","Vacuum_chamber","Ultrasonic_imaging","WGM","Optical_switch","Capacitor","PCB","COMSOL","MATLAB","AFM","Microscopy","Robotics"],
         "url": "/ofs/weekly-OFS-43/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#44)",
+        "excerpt":"400G optical transceiver teardown Cisco Finisar 400G DR4, converting 8x 50G to 4x 100G PAM4. I could see two EMLs, not sure where are the other two or they split them. from comments seems like it is further split on the PIC it’s 26.5626 GBd with PAM4 = 53.125 Gbps...","categories": ["OFS"],
+        "tags": ["Photonics","Quantum_computing","Superconducting_circuits","MEMS","Laser","SNSPD","Lithium_tantalate","AWG","Femtosecond_laser","Plasma_etching","NSOM","Waveguide","Metalens","EML","RF_circuits","EEG","Klystron","SiPho","VCSEL","PCB","Optical_switch","Lidar","Microwave","Semiconductor","Cryogenics","Optics","Microscopy","Robotics"],
+        "url": "/ofs/weekly-OFS-44/",
+        "teaser": null
       }]
