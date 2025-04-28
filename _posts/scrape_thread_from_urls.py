@@ -163,8 +163,7 @@ os.makedirs(media_folder, exist_ok=True)
 str_user_handle = "@jwt0625"  # Replace with the actual user handle
 
 # Read URLs from file
-# str_fn = 'urls_tweet_to_scrape_20241215.txt'
-str_fn = 'sorted_tweet_urls_20250420.txt'
+str_fn = 'sorted_tweet_urls_20250427.txt'
 
 # str_fn = 'urls_test.txt'
 with open(str_fn, 'r') as f:
@@ -247,8 +246,6 @@ import json
 import os
 from datetime import datetime
 
-
-#%%
 def format_media(media_item, media_folder):
     file_name = os.path.basename(media_item['local_path'])
     new_path = f"/assets/images/2025/{media_folder}/{file_name}"
@@ -289,8 +286,8 @@ def create_markdown(json_file, output_file):
 
 
 #%%
-json_file = "scraped_tweets_20250413_20250420.json"
-output_md_file = "2025-04-20-weekly-OFS-43.md"
+json_file = "scraped_tweets_20250420_20250427.json"
+output_md_file = "2025-04-27-weekly-OFS-44.md"
 # output_file = "tmp.md"
 create_markdown(json_file, output_md_file)
 print(f"Markdown file '{output_md_file}' has been created.")
@@ -412,6 +409,6 @@ def process_markdown_files(header_file, output_file, content_file):
     print(f"Successfully processed markdown files and updated {content_file}")
 
 # Example usage:
-process_markdown_files('standard_header.md', 'output_20250420.md', '2025-04-20-weekly-OFS-43.md')
+process_markdown_files('standard_header.md', 'output_20250427.md', '2025-04-27-weekly-OFS-44.md')
 
 # %%
