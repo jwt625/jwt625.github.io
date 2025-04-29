@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-27T21:49:08-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#44)</title><link href="http://localhost:4000/ofs/weekly-OFS-44/" rel="alternate" type="text/html" title="This week’s outside five sigma (#44)" /><published>2025-04-27T00:00:00-07:00</published><updated>2025-04-27T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-44</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-44/"><![CDATA[<h1 id="400g-optical-transceiver-teardown">400G optical transceiver teardown</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-04-28T23:51:00-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#44)</title><link href="http://localhost:4000/ofs/weekly-OFS-44/" rel="alternate" type="text/html" title="This week’s outside five sigma (#44)" /><published>2025-04-27T00:00:00-07:00</published><updated>2025-04-27T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-44</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-44/"><![CDATA[<h1 id="400g-optical-transceiver-teardown">400G optical transceiver teardown</h1>
 
 <p>Cisco Finisar 400G DR4, converting 8x 50G to 4x 100G PAM4. I could see two EMLs, not sure where are the other two or they split them.</p>
 <ul>
@@ -526,11 +526,118 @@ Now I could go sleep in peace.</p>
 
 <h1 id="sheathing">Sheathing</h1>
 
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2468.JPG" alt="sheathing1" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_2469.JPG" alt="sheathing-drawing" style="max-width: 48%; object-fit: contain;" />
+</div>
+
+<p><img src="/assets/images/2025/shed/idiot-in-cars-3.png" alt="iic-3" /></p>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2471.JPG" alt="sheathing3" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_2479.JPG" alt="sheathing4" style="max-width: 48%; object-fit: contain;" />
+</div>
+
+<p>House wrap:</p>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2480.JPG" alt="wrap1" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_2483.JPG" alt="wrap2" style="max-width: 48%; object-fit: contain;" />
+</div>
+
 <h1 id="roofing">Roofing</h1>
 
-<h1 id="deck">Deck</h1>
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2485.JPG" alt="roof1" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_2487.JPG" alt="roof2" style="max-width: 48%; object-fit: contain;" />
+</div>
 
-<h1 id="trims-and-interiors">Trims and interiors</h1>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Woodwork" /><category term="Construction" /><category term="shed" /><summary type="html"><![CDATA[This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).]]></summary></entry><entry><title type="html">This week’s outside five sigma (#43)</title><link href="http://localhost:4000/ofs/weekly-OFS-43/" rel="alternate" type="text/html" title="This week’s outside five sigma (#43)" /><published>2025-04-20T00:00:00-07:00</published><updated>2025-04-20T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-43</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-43/"><![CDATA[<h1 id="apollon-laser-facility-vacuum-chamber">Apollon laser facility vacuum chamber</h1>
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2491.JPG" alt="roof3" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_2492.JPG" alt="roof4" style="max-width: 48%; object-fit: contain;" />
+</div>
+
+<p><img src="/assets/images/2025/shed/IMG_2531.JPG" alt="roof5" /></p>
+
+<h1 id="siding">Siding</h1>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2533.JPG" alt="siding1" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_2534_TWIK5127.JPG" alt="siding2" style="max-width: 48%; object-fit: contain;" />
+</div>
+
+<p><img src="/assets/images/2025/shed/IMG_2572_UMXG8758.JPG" alt="siding" /></p>
+
+<h1 id="front-door-and-windows">Front door and windows</h1>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2771.JPG" alt="side-window" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_2772.JPG" alt="side-window2" style="max-width: 48%; object-fit: contain;" />
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2773.JPG" alt="side-window3" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_2775.JPG" alt="front-door1" style="max-width: 48%; object-fit: contain;" />
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2776.JPG" alt="front-door2" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_2777.JPG" alt="front-door3" style="max-width: 48%; object-fit: contain;" />
+</div>
+
+<p><img src="/assets/images/2025/shed/IMG_2778.JPG" alt="top-window" /></p>
+
+<h1 id="deck-and-trims">Deck and Trims</h1>
+
+<p><img src="/assets/images/2025/shed/IMG_2571.JPG" alt="deck" /></p>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2850.JPG" alt="deck1" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_2854.JPG" alt="trim1" style="max-width: 48%; object-fit: contain;" />
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2855.JPG" alt="deck2" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_2857.JPG" alt="deck3" style="max-width: 48%; object-fit: contain;" />
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2858.JPG" alt="deck4" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_3056.JPG" alt="deck5" style="max-width: 48%; object-fit: contain;" />
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_3057.JPG" alt="trim2" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_3058.JPG" alt="ceiling" style="max-width: 48%; object-fit: contain;" />
+</div>
+
+<h1 id="insulation-and-interiors">Insulation and Interiors</h1>
+
+<p>Electrical:</p>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_2572.JPG" alt="electrical" style="max-width: 48%; object-fit: contain;" />
+</div>
+
+<p>Tongue and groove, and insulation</p>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_3061.JPG" alt="interior1" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_3062.JPG" alt="interior2" style="max-width: 48%; object-fit: contain;" />
+</div>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_3065_crop.png" alt="interior3" style="max-width: 48%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_3314.JPG" alt="interior4" style="max-width: 48%; object-fit: contain;" />
+</div>
+
+<p>Folding ladder</p>
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="/assets/images/2025/shed/IMG_3318.JPG" alt="ladder1" style="max-width: 32%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_3319.JPG" alt="ladder2" style="max-width: 32%; object-fit: contain;" />
+    <img src="/assets/images/2025/shed/IMG_3320.JPG" alt="ladder3" style="max-width: 32%; object-fit: contain;" />
+</div>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Woodwork" /><category term="Construction" /><category term="shed" /><summary type="html"><![CDATA[This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).]]></summary></entry><entry><title type="html">This week’s outside five sigma (#43)</title><link href="http://localhost:4000/ofs/weekly-OFS-43/" rel="alternate" type="text/html" title="This week’s outside five sigma (#43)" /><published>2025-04-20T00:00:00-07:00</published><updated>2025-04-20T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-43</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-43/"><![CDATA[<h1 id="apollon-laser-facility-vacuum-chamber">Apollon laser facility vacuum chamber</h1>
 
 <p>are there 4+ turbo pumps attached to this big chamber</p>
 
