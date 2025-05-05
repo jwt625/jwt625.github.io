@@ -128,3 +128,4 @@ I will give the long blog post in the next chat. Make the list of tags more comp
 Generate them as markdown in a code block.
 After generating the tags, generate a compact section title for the following blog. Be concise, focus on technical aspects, avoid using fancy words with little extra information, and keep it between five and ten words.
 The blog is a list of ~20 sections. Generate one title for each of them, in a markdown code block. Remove the numbered list and just keep the title (i.e. the `#` for markdown)
+DO NOT include anything else in the markdown code block. Put the tags and section titles into two separate markdown code blocks accordingly. Thanks!
