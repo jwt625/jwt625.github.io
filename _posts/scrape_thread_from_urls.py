@@ -152,7 +152,9 @@ for handle in window_handles:
 sorted_urls = sorted(urls, key=lambda x: x[0])
 
 # Export sorted URLs to a text file
-with open("sorted_tweet_urls.txt", "w") as file:
+current_date = datetime.now().strftime("%Y%m%d")
+filename_urls = f"sorted_tweet_urls_{current_date}.txt"
+with open(filename_urls, "w") as file:
     for tweet_id, url in sorted_urls:
         file.write(url + "\n")
 
@@ -163,7 +165,7 @@ os.makedirs(media_folder, exist_ok=True)
 str_user_handle = "@jwt0625"  # Replace with the actual user handle
 
 # Read URLs from file
-str_fn = 'sorted_tweet_urls_20250427.txt'
+str_fn = filename_urls
 
 # str_fn = 'urls_test.txt'
 with open(str_fn, 'r') as f:
@@ -180,8 +182,10 @@ for url in urls:
             json.dump(threads_data, f, ensure_ascii=False, indent=4)
     time.sleep(1)  # Add a small delay between requests
 
-# Save to JSON file
-with open('scraped_tweets.json', 'w', encoding='utf-8') as f:
+# Save to JSON file with date in filename
+current_date = datetime.now().strftime("%Y%m%d")
+json_filename = f'scraped_tweets_{current_date}.json'
+with open(json_filename, 'w', encoding='utf-8') as f:
     json.dump(threads_data, f, ensure_ascii=False, indent=4)
 
 print(f"Scraped {len(threads_data)} threads.")
@@ -286,8 +290,9 @@ def create_markdown(json_file, output_file):
 
 
 #%%
-json_file = "scraped_tweets_20250420_20250427.json"
-output_md_file = "2025-04-27-weekly-OFS-44.md"
+# json_file = "scraped_tweets_20250420_20250427.json"
+json_file = json_filename
+output_md_file = "2025-05-04-weekly-OFS-45.md"
 # output_file = "tmp.md"
 create_markdown(json_file, output_md_file)
 print(f"Markdown file '{output_md_file}' has been created.")
@@ -409,6 +414,7 @@ def process_markdown_files(header_file, output_file, content_file):
     print(f"Successfully processed markdown files and updated {content_file}")
 
 # Example usage:
-process_markdown_files('standard_header.md', 'output_20250427.md', '2025-04-27-weekly-OFS-44.md')
+process_markdown_files('standard_header.md',
+                       output_file, output_md_file)
 
 # %%

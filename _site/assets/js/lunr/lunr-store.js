@@ -418,4 +418,10 @@ var store = [{
         "tags": ["Photonics","Quantum_computing","Superconducting_circuits","MEMS","Laser","SNSPD","Lithium_tantalate","AWG","Femtosecond_laser","Plasma_etching","NSOM","Waveguide","Metalens","EML","RF_circuits","EEG","Klystron","SiPho","VCSEL","PCB","Optical_switch","Lidar","Microwave","Semiconductor","Cryogenics","Optics","Microscopy","Robotics"],
         "url": "/ofs/weekly-OFS-44/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#45)",
+        "excerpt":"CaF2 whispering gallery mode optical resonator ohhhhh look at this CaF2 whispering gallery mode optical resonator (and two coupling fibers) It’s made with single point diamond turning process (SPDT), and then polished with grit size of 20, 3, 1, 0.25, 0.1, and 0.05 µm. “A Q factor exceeding 1e10 is...","categories": ["OFS"],
+        "tags": ["WGM","Optics","Photonics","MEMS","Quantum_computing","Superconducting_circuits","Semiconductor","Optical_interconnect","EMI_shielding","Diffusion_barrier","Thin_film","FBG","Accelerometer","Spectral_hole_burning","Slow_light","BCI","Youngs_modulus","Cryogenic","SFQ","JPG","Bioelectronics","Phased_array","Radar","Gyrotron","Tokamak"],
+        "url": "/ofs/weekly-OFS-45/",
+        "teaser": null
       }]
