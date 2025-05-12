@@ -424,4 +424,10 @@ var store = [{
         "tags": ["WGM","Optics","Photonics","MEMS","Quantum_computing","Superconducting_circuits","Semiconductor","Optical_interconnect","EMI_shielding","Diffusion_barrier","Thin_film","FBG","Accelerometer","Spectral_hole_burning","Slow_light","BCI","Youngs_modulus","Cryogenic","SFQ","JPG","Bioelectronics","Phased_array","Radar","Gyrotron","Tokamak"],
         "url": "/ofs/weekly-OFS-45/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#46)",
+        "excerpt":"Foundry-fabricated photonic entanglement chip finally, a worthy opponent for cowboy style wirebonding (from RIT) Manfreda2024: Generating high-dimensional entanglement using a foundry-fabricated photonic integrated circuit cover image here are two from me from a couple years ago High-res ICF hohlraum simulations this cover image couldve been high res Chen2025: Key advancements...","categories": ["OFS"],
+        "tags": ["ICF","Photodynamic_therapy","OLED","OAM_beam","LIFT","QRNG","Quantum_networking","Quantum_frequency_conversion","Photonic_integrated_circuit","SNSPD","Plasma_reentry","Spinal_tumor_surgery","Silicon_nitride_photonics","2D_materials","Deep_seafloor_imaging","Attosecond_microscopy","Quantum_vortex","Lithium_niobate","Optical_interferometry","Edible_robotics","Biometric_recognition","Atomic_vapor_cell"],
+        "url": "/ofs/weekly-OFS-46/",
+        "teaser": null
       }]

@@ -285,6 +285,10 @@
 <lastmod>2025-05-04T00:00:00-07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/ofs/weekly-OFS-46/</loc>
+<lastmod>2025-05-12T00:00:00-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -588,6 +592,10 @@
 <url>
 <loc>http://localhost:4000/assets/doc/2025/Compass%20215M%20Data%20Sheet%20-%20Coherent.pdf</loc>
 <lastmod>2025-04-14T23:14:28-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/doc/2025/Fabrication%20of%20an%20Rb%E2%80%93Xe%20gas%20cell%20with%20optical%20components%20attached%20by%20optical%20contact%20bonding%20for%20an%20atom%20spin%20gyroscope-ao-64-14-3988.pdf</loc>
+<lastmod>2025-05-11T10:01:55-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/doc/2025/Gaussian_splatting_and_NeRF.pdf</loc>
