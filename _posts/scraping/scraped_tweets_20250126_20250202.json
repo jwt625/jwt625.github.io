@@ -1,0 +1,984 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1882465996642172948",
+        "tweets": [
+            {
+                "text": "\"Modular photonic quantum computer\" fresh off the press.\n\n35 photonics chips, 84 squeezers, 36 photon number resolving detectors, synthesizing a giant cluster state (highly entangled) with 7e9 temporal modes x 12 physical modes. I'm illiterate in these quantum algo, all I desire is cheap squeezers and detectors.\n\nStill a sad loss of 14 dB from squeezer to detector. They have a nice breakdown of all the losses, and lasers used (non of the lasers are integrated yet).",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gh_ZuQkbYAAIP8q?format=jpg",
+                        "local_path": "media/20250123_163042_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gh_ZwD2boAAnLzP?format=jpg",
+                        "local_path": "media/20250123_163042_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-23T16:30:42+00:00"
+            },
+            {
+                "text": "Rad2025: Scaling and networking a modular photonic quantum computer",
+                "media": [],
+                "timestamp": "2025-01-23T16:31:17+00:00"
+            },
+            {
+                "text": "Chips and packages look cleeeaaan.\nAnd you'll find plenty of pricy FPGA used for all the control",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gh_edWFasAA9P-X?format=jpg",
+                        "local_path": "media/20250123_164110_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gh_ek1JbQAA8WSA?format=jpg",
+                        "local_path": "media/20250123_164110_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gh_eql0asAEuelu?format=jpg",
+                        "local_path": "media/20250123_164110_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gh_fJR5aEAAB7TW?format=jpg",
+                        "local_path": "media/20250123_164110_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-23T16:41:10+00:00"
+            },
+            {
+                "text": "Xanadu. The paper is in the comment",
+                "media": [],
+                "timestamp": "2025-01-23T19:36:43+00:00"
+            },
+            {
+                "text": "a fellow free space optics enjoyer?",
+                "media": [],
+                "timestamp": "2025-01-25T04:54:30+00:00"
+            },
+            {
+                "text": "a fellow free space optics enjoyer?",
+                "media": [],
+                "timestamp": "2025-01-25T04:54:30+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1882540617504641026",
+        "tweets": [
+            {
+                "text": "TIL there is an \"element\" that is even simpler than a hydrogen atom: positronium, made of an electron and a positron (antiparticle of electron), and you can do all the usual AMO tricks on it such as laser cooling.\nFirst reaction: oh neat, fancy toy for high energy physicists. But it actually has biomedical applications such as imaging cancer cells.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiAf-niaMAArSO5?format=jpg",
+                        "local_path": "media/20250123_212713_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiAgQA9a8AAPcP7?format=jpg",
+                        "local_path": "media/20250123_212713_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiAgn0oagAAVipn?format=jpg",
+                        "local_path": "media/20250123_212713_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-23T21:27:13+00:00"
+            },
+            {
+                "text": "Fig. 1: Antimatter: Scientists freeze positronium atoms with lasers\nhttps://bbc.com/news/science-environment-68349448…\nFig. 2: The promise of laser-cooled positronium\nhttps://cerncourier.com/a/the-promise-of-laser-cooled-positronium/…\nFig. 3: Bass2023: Colloquium: Positronium physics and biomedical applications\nhttps://doi.org/10.1103/RevModPhys.95.021002…",
+                "media": [],
+                "timestamp": "2025-01-23T21:28:59+00:00"
+            },
+            {
+                "text": "The lifetime is actually pretty impressive, and up to tens of us in rydberg states",
+                "media": [],
+                "timestamp": "2025-01-24T01:32:06+00:00"
+            },
+            {
+                "text": "Sadly it is",
+                "media": [],
+                "timestamp": "2025-01-25T00:00:36+00:00"
+            },
+            {
+                "text": "This is messed up.\nImagine you thought you fell in love with a proton, but it's actually an antimuon, and it suddenly became the opposite of you and ran away.",
+                "media": [],
+                "timestamp": "2025-01-24T00:44:59+00:00"
+            },
+            {
+                "text": "Yeah so I put it as “element”",
+                "media": [],
+                "timestamp": "2025-01-23T21:36:47+00:00"
+            },
+            {
+                "text": "It could last quite a while",
+                "media": [],
+                "timestamp": "2025-01-24T04:30:52+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2025-01-25T01:40:48+00:00"
+            },
+            {
+                "text": "Depend on the states, p-Ps is 0.1 ns and o-Ps (symmetry protected and could only decay to three photons) is 142 ns, and could be much longer in Rydberg states",
+                "media": [],
+                "timestamp": "2025-01-23T21:40:02+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1882848092451676505",
+        "tweets": [
+            {
+                "text": "Haber-Bosch? You can get ammonia straight from thin air, and it's greeen.\n(only 0.05 grams/hour though)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiE335Sa0AA2cfg?format=jpg",
+                        "local_path": "media/20250124_174901_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-24T17:49:01+00:00"
+            },
+            {
+                "text": "Song2024: Onsite ammonia synthesis from water vapor and nitrogen in the air",
+                "media": [],
+                "timestamp": "2025-01-24T17:49:28+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1882961789585109083",
+        "tweets": [
+            {
+                "text": "TIL the longest laser so far is a 270 km Raman fiber laser, and the corresponding FSR or mode spacing is only 380 Hz.\nIf you lift it up vertically the gravitational redshift would be more than the FSR \n\n(I don't get it though as the ~1450 nm pump would have decayed so much, and faster than the ~1550 nm lasing modes, and there's no ticks on the log scale plot)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiGdThpbUAAkFnk?format=jpg",
+                        "local_path": "media/20250125_012049_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-25T01:20:49+00:00"
+            },
+            {
+                "text": "Turitsyn2009: 270-km Ultralong Raman Fiber Laser",
+                "media": [],
+                "timestamp": "2025-01-25T01:21:47+00:00"
+            },
+            {
+                "text": "All I could say is.. Wow!",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiGyU_fbAAAjJA5?format=jpg",
+                        "local_path": "media/20250125_024155_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-25T02:41:55+00:00"
+            },
+            {
+                "text": "I have no good sense of the sensitivity vs fiber length/turns. They do have to use lower and lower power for longer fiber to avoid washing out the modes with \"turbulentlike phase shifts induced by nonlinear interactions of multiple waves with different frequencies\"",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiGmjh-akAAj0JL?format=jpg",
+                        "local_path": "media/20250125_015110_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-25T01:51:10+00:00"
+            },
+            {
+                "text": "I have no good sense of the sensitivity vs fiber length/turns. They do have to use lower and lower power for longer fiber to avoid washing out the modes with \"turbulentlike phase shifts induced by nonlinear interactions of multiple waves with different frequencies\"",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiGmjh-akAAj0JL?format=jpg",
+                        "local_path": "media/20250125_015110_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-25T01:51:10+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1883192867432378804",
+        "tweets": [
+            {
+                "text": "800G receiver chip (2x FR4, you can see two big arrayed waveguide gratings (AWG) for the demux)\nand\n400G transmitter chip (four SOAs die bonded, one AWG, and a ring resonator? Fast modulation signals coming from the left, and bias signals from the right).\nFrom Super Photonics Xiamen, acquired my POET recently.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiJwFhOa0AApWRF?format=jpg",
+                        "local_path": "media/20250125_163902_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiJwFhDaUAAOIkS?format=jpg",
+                        "local_path": "media/20250125_163902_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-25T16:39:02+00:00"
+            },
+            {
+                "text": "http://superphotonics-ic.com/en_product.aspx",
+                "media": [],
+                "timestamp": "2025-01-25T16:39:34+00:00"
+            },
+            {
+                "text": "100G CWDM4\nSee all the lines of trenches/fills for killing the stray light?\nhttp://superphotonics-ic.com/en_product_info.aspx?id=16…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiJy-KMbMAIu9KP?format=jpg",
+                        "local_path": "media/20250125_164429_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-25T16:44:29+00:00"
+            },
+            {
+                "text": "Fans? These transceivers just get hot (and thermalized thru the switch ports)",
+                "media": [],
+                "timestamp": "2025-01-25T18:36:28+00:00"
+            },
+            {
+                "text": "Tbf each freq channel is modulated at ~50 GHz so closer to microwave",
+                "media": [],
+                "timestamp": "2025-01-26T15:58:06+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1883203497803592110",
+        "tweets": [
+            {
+                "text": "> How many resonators should I put on my chip?\n> Yes\n\n(for creating a band structure similar to a Dirac cone. Since this is a linear circuit, you could technically do this with your 3d printer and mechanical resonances)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiJ7B3Kb0AAGZaP?format=jpg",
+                        "local_path": "media/20250125_172116_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-25T17:21:16+00:00"
+            },
+            {
+                "text": "Youssefi2025: Realization of tilted Dirac-like microwave cone in superconducting circuit lattices\nhttps://arxiv.org/abs/2501.10434",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiJ7tsLbIAA2CzE?format=jpg",
+                        "local_path": "media/20250125_172214_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-25T17:22:14+00:00"
+            },
+            {
+                "text": "Nice statistics for Q. Better not use amorphous Si for dielectrics if you want higher Q.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiJ9QdxbYAAQyec?format=jpg",
+                        "local_path": "media/20250125_172922_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-25T17:29:22+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1883343285194027011",
+        "tweets": [
+            {
+                "text": "Laser sintering additive (nano)manufacturing but the source is nanoparticles blasted off a target by another laser, for paper-based humidity and temperature sensors.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiL6IjJaAAAIYD2?format=jpg",
+                        "local_path": "media/20250126_023644_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-26T02:36:44+00:00"
+            },
+            {
+                "text": "Jaiswal2025: Laser-assisted dry printing eco-friendly paper-based humidity and temperature sensors\nhttps://doi.org/10.2351/7.0001652…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiL7GvGaUAACKY2?format=jpg",
+                        "local_path": "media/20250126_023912_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-26T02:39:12+00:00"
+            },
+            {
+                "text": "LOL same",
+                "media": [],
+                "timestamp": "2025-01-26T08:37:38+00:00"
+            },
+            {
+                "text": "yeah it should, esp. the smaller things are the less gravity matters",
+                "media": [],
+                "timestamp": "2025-01-26T05:51:28+00:00"
+            },
+            {
+                "text": "Lol nope. That’s sick, I love the violence involved, although sounds like it’s going to be loud",
+                "media": [],
+                "timestamp": "2025-01-26T03:15:48+00:00"
+            },
+            {
+                "text": "LOL same",
+                "media": [],
+                "timestamp": "2025-01-26T08:37:38+00:00"
+            },
+            {
+                "text": "yeah it should, esp. the smaller things are the less gravity matters",
+                "media": [],
+                "timestamp": "2025-01-26T05:51:28+00:00"
+            },
+            {
+                "text": "Lol nope. That’s sick, I love the violence involved, although sounds like it’s going to be loud",
+                "media": [],
+                "timestamp": "2025-01-26T03:15:48+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1883360894295708048",
+        "tweets": [
+            {
+                "text": "A very practical paper on ALD thin film onto porous polymers substrates, including various challenges and failure modes, mainly the CTE mismatch",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiMKTY2a4AAoiKk?format=jpg",
+                        "local_path": "media/20250126_034643_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiMKfgfaoAAwsbw?format=jpg",
+                        "local_path": "media/20250126_034643_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiMKwAvasAAru7m?format=jpg",
+                        "local_path": "media/20250126_034643_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-26T03:46:43+00:00"
+            },
+            {
+                "text": "Welch2025: Atomic layer deposition of nanofilms on porous polymer substrates: Strategies for success\nhttps://doi.org/10.1116/6.0004187…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiMK6hNbgAE2TSJ?format=jpg",
+                        "local_path": "media/20250126_034748_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-26T03:47:48+00:00"
+            },
+            {
+                "text": "Plenty in the first two paragraphs",
+                "media": [],
+                "timestamp": "2025-01-26T04:09:24+00:00"
+            },
+            {
+                "text": "And look at that kapton tape that got blasted off ",
+                "media": [],
+                "timestamp": "2025-01-26T04:07:28+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1883437071744069763",
+        "tweets": [
+            {
+                "text": "This plot about imaging methods have so much going on I have to share it.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiNNgUPbwAA-Jdl?format=jpg",
+                        "local_path": "media/20250126_084925_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-26T08:49:25+00:00"
+            },
+            {
+                "text": "Kirmani2010: Femtosecond Transient Imaging\nhttps://dspace.mit.edu/handle/1721.1/58402…",
+                "media": [],
+                "timestamp": "2025-01-26T08:49:57+00:00"
+            },
+            {
+                "text": "Found while searching Mojo Vision's patent name (a tiny \"reverse telescope\" inside a contact lens)\nUS10353205 - FEMTOPROJECTOR OPTICAL SYSTEMS\nhttps://patentimages.storage.googleapis.com/ed/da/93/04145e0bf78be2/US10353205.pdf…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiNSY8SaIAE0MZH?format=png",
+                        "local_path": "media/20250126_090032_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiNSZ1IaQAAKvLy?format=png",
+                        "local_path": "media/20250126_090032_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-26T09:00:32+00:00"
+            },
+            {
+                "text": "feels like a gimmick to me, practicality of all these insane methods will eventually be limited by how many photons there are to be detected. No way to cheat this without crazy bright source or crazy detector specs",
+                "media": [],
+                "timestamp": "2025-01-26T09:34:34+00:00"
+            },
+            {
+                "text": "got sweet budget for a few thousand cameras?",
+                "media": [],
+                "timestamp": "2025-01-26T09:30:45+00:00"
+            },
+            {
+                "text": "This plot about imaging methods have so much going on I have to share it.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiNNgUPbwAA-Jdl?format=jpg",
+                        "local_path": "media/20250126_084925_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-26T08:49:25+00:00"
+            },
+            {
+                "text": "Kirmani2010: Femtosecond Transient Imaging\nhttps://dspace.mit.edu/handle/1721.1/58402…",
+                "media": [],
+                "timestamp": "2025-01-26T08:49:57+00:00"
+            },
+            {
+                "text": "Found while searching Mojo Vision's patent name (a tiny \"reverse telescope\" inside a contact lens)\nUS10353205 - FEMTOPROJECTOR OPTICAL SYSTEMS\nhttps://patentimages.storage.googleapis.com/ed/da/93/04145e0bf78be2/US10353205.pdf…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiNSY8SaIAE0MZH?format=png",
+                        "local_path": "media/20250126_090032_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiNSZ1IaQAAKvLy?format=png",
+                        "local_path": "media/20250126_090032_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-26T09:00:32+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1883614711679439118",
+        "tweets": [
+            {
+                "text": "Evolution of integrable tunable laser assembly (ITLA) size, and comparison to a QSFP-DD pluggable.\n\n(there's also pico ITLA since 2023 but I can't find a real image of one)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiPvv45aQAA4_9b?format=jpg",
+                        "local_path": "media/20250126_203517_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiPxfx2boAAbcws?format=jpg",
+                        "local_path": "media/20250126_203517_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-26T20:35:17+00:00"
+            },
+            {
+                "text": "Laser Focus World - Tunable external-cavity lasers power high-speed coherent transmission\nhttps://laserfocusworld.com/lasers-sources/article/14206767/tunable-external-cavity-lasers-power-high-speed-coherent-transmission…\nEFFECT Photonics - The Power of Monolithic Lasers",
+                "media": [],
+                "timestamp": "2025-01-26T20:36:35+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1883759413963747399",
+        "tweets": [
+            {
+                "text": "Weather control conspiracy? Laser based lightning control / weather control seems real.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiR0EtfboAEW8Jd?format=jpg",
+                        "local_path": "media/20250127_061017_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiR0xuJbEAAtpwN?format=jpg",
+                        "local_path": "media/20250127_061017_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiR1Kh_aUAApXCU?format=jpg",
+                        "local_path": "media/20250127_061017_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-27T06:10:17+00:00"
+            },
+            {
+                "text": "Diels1997: Lightning Control with Lasers \nhttps://jstor.org/stable/24995870\nKasparian2010: Laser-Based Weather Control\nhttps://optica-opn.org/home/articles/volume_21/issue_7/features/laser-based_weather_control/…",
+                "media": [],
+                "timestamp": "2025-01-27T06:14:20+00:00"
+            },
+            {
+                "text": "The UFO you saw might be some 5 TW laser beam.\nCouairon2006: Femtosecond filamentation in transparent media\nhttps://doi.org/10.1016/j.physrep.2006.12.005…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiR2yy8bEAAIj6K?format=jpg",
+                        "local_path": "media/20250127_061834_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-27T06:18:34+00:00"
+            },
+            {
+                "text": "I like that they have that lil pagoda thingy next to the high tech tower and laser in fig. 1",
+                "media": [],
+                "timestamp": "2025-01-27T07:01:40+00:00"
+            },
+            {
+                "text": "good for everyone!",
+                "media": [],
+                "timestamp": "2025-01-27T07:02:54+00:00"
+            },
+            {
+                "text": "Not sure how effective this laser approach is in general",
+                "media": [],
+                "timestamp": "2025-01-27T16:06:40+00:00"
+            },
+            {
+                "text": "the whole point of this account lol",
+                "media": [],
+                "timestamp": "2025-01-27T17:19:13+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1883926860045963330",
+        "tweets": [
+            {
+                "text": "You might think our daily life is still far from the world of quantum, atoms and electrons, but sota security CMOS camera is not that far from counting single photons (read noise ~< 0.3 electron rms).\nWhen you do it's called a quanta image sensor (QIS), and you can resolve single photons and single electrons for both your signal and for the dark current.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiUL6c4aYAEiuKp?format=jpg",
+                        "local_path": "media/20250127_171539_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiUMUAEaYAAxQPr?format=jpg",
+                        "local_path": "media/20250127_171539_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-27T17:15:39+00:00"
+            },
+            {
+                "text": "Ma2022: Review of Quanta Image Sensors for Ultralow-Light Imaging\nhttps://doi.org/10.1109/TED.2022.3166716…\nKrynski2025: Single-Electron Quantization of Dark Current in Quanta Image Sensors\nhttps://doi.org/10.1103/PhysRevLett.134.037001…\nLess than 1 photon per pixel:",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiUOFLPaYAAg2_i?format=jpg",
+                        "local_path": "media/20250127_171828_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-27T17:18:28+00:00"
+            },
+            {
+                "text": "Damn thats a lot of mV from a single electron, getting close to a quantum dot and could probably see Coulomb blockade",
+                "media": [],
+                "timestamp": "2025-01-27T18:09:10+00:00"
+            },
+            {
+                "text": "yes",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GTzHkmFaAAADBH4?format=jpg",
+                        "local_path": "media/20250128_055728_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-28T05:57:28+00:00"
+            },
+            {
+                "text": "Ma2022: Review of Quanta Image Sensors for Ultralow-Light Imaging\nhttps://doi.org/10.1109/TED.2022.3166716…\nKrynski2025: Single-Electron Quantization of Dark Current in Quanta Image Sensors\nhttps://doi.org/10.1103/PhysRevLett.134.037001…\nLess than 1 photon per pixel:",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiUOFLPaYAAg2_i?format=jpg",
+                        "local_path": "media/20250127_171828_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-27T17:18:28+00:00"
+            },
+            {
+                "text": "Damn thats a lot of mV from a single electron, getting close to a quantum dot and could probably see Coulomb blockade",
+                "media": [],
+                "timestamp": "2025-01-27T18:09:10+00:00"
+            },
+            {
+                "text": "yes",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GTzHkmFaAAADBH4?format=jpg",
+                        "local_path": "media/20250128_055728_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-28T05:57:28+00:00"
+            },
+            {
+                "text": "A factor of 3~5 for noise could be dead or alive I guess",
+                "media": [],
+                "timestamp": "2025-01-27T17:37:06+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1883987556150435886",
+        "tweets": [
+            {
+                "text": "This liquid crystal and polarization grating based beam steering is actually pretty neat: non-mechanical, large number of spots (> 1k), large aperture (> 20 cm??), high efficiency, ms switching time, N digital controls for 2^N spots (look at you, phased array), and although dispersive but can pick a wavelength from VIS to MWIR... What's the catch, cycle time? operational temperature?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiVCcjuaYAAZym_?format=jpg",
+                        "local_path": "media/20250127_211650_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiVChlLaYAQKz6x?format=jpg",
+                        "local_path": "media/20250127_211650_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiVCjUSbMAAXWv2?format=jpg",
+                        "local_path": "media/20250127_211650_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-27T21:16:50+00:00"
+            },
+            {
+                "text": "https://meadowlark.com/lcpg-principles/…\nHow it works: just a stack of two components:\nA liquid crystal half wave plate to switch between left and right hand circularly polarized light, and a polarization grating with linearly varying birefringence to scatter the light either left or right based",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiVE7fhbQAAAAe4?format=jpg",
+                        "local_path": "media/20250127_212030_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiVFBonaYAMaAmF?format=jpg",
+                        "local_path": "media/20250127_212030_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-27T21:20:30+00:00"
+            },
+            {
+                "text": "Further reading:\n(thesis) Oh2009: Broadband Polarization Gratings for Efficient Liquid Crystal Display, Beam Steering, Spectropolarimetry, and Fresnel Zone Plate\nhttps://researchgate.net/publication/241361478_Broadband_polarization_gratings_for_efficient_liquid_crystal_display_beam_steering_spectropolarimetry_and_Fresnel_zone_plate…\nKim2008: Wide-angle, nonmechanical beam steering using thin liquid crystal polarization",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiWEIvSakAAmzWU?format=jpg",
+                        "local_path": "media/20250128_015411_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiWEJnkaYAA1jO5?format=jpg",
+                        "local_path": "media/20250128_015411_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-28T01:54:11+00:00"
+            },
+            {
+                "text": "Saw one today at photonics west",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GibBqWeaYAESiP0?format=jpg",
+                        "local_path": "media/20250129_010216_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GibBqWgaUAAj6I3?format=jpg",
+                        "local_path": "media/20250129_010216_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-29T01:02:16+00:00"
+            },
+            {
+                "text": "Probably similar to the thorlabs ones\nhttps://thorlabs.com/newgrouppage9.cfm?objectgroup_id=6179…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiVGOY1a8AAUl2G?format=png",
+                        "local_path": "media/20250127_212344_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-27T21:23:44+00:00"
+            },
+            {
+                "text": "https://meadowlark.com/lcpg-principles/…\nHow it works: just a stack of two components:\nA liquid crystal half wave plate to switch between left and right hand circularly polarized light, and a polarization grating with linearly varying birefringence to scatter the light either left or right based",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiVE7fhbQAAAAe4?format=jpg",
+                        "local_path": "media/20250127_212030_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiVFBonaYAMaAmF?format=jpg",
+                        "local_path": "media/20250127_212030_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-27T21:20:30+00:00"
+            },
+            {
+                "text": "Further reading:\n(thesis) Oh2009: Broadband Polarization Gratings for Efficient Liquid Crystal Display, Beam Steering, Spectropolarimetry, and Fresnel Zone Plate\nhttps://researchgate.net/publication/241361478_Broadband_polarization_gratings_for_efficient_liquid_crystal_display_beam_steering_spectropolarimetry_and_Fresnel_zone_plate…\nKim2008: Wide-angle, nonmechanical beam steering using thin liquid crystal polarization",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiWEIvSakAAmzWU?format=jpg",
+                        "local_path": "media/20250128_015411_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiWEJnkaYAA1jO5?format=jpg",
+                        "local_path": "media/20250128_015411_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-28T01:54:11+00:00"
+            },
+            {
+                "text": "Saw one today at photonics west",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GibBqWeaYAESiP0?format=jpg",
+                        "local_path": "media/20250129_010216_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GibBqWgaUAAj6I3?format=jpg",
+                        "local_path": "media/20250129_010216_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-29T01:02:16+00:00"
+            },
+            {
+                "text": "Probably similar to the thorlabs ones\nhttps://thorlabs.com/newgrouppage9.cfm?objectgroup_id=6179…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiVGOY1a8AAUl2G?format=png",
+                        "local_path": "media/20250127_212344_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-27T21:23:44+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1884055036399177898",
+        "tweets": [
+            {
+                "text": "\"This article discusses the history of laser radar development in America, Europe, and Asia.\"",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiWBT1NaYAgkJJw?format=jpg",
+                        "local_path": "media/20250128_014459_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiWBlzFasAAL8Xd?format=jpg",
+                        "local_path": "media/20250128_014459_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiWBwEzaYAIpyLo?format=jpg",
+                        "local_path": "media/20250128_014459_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiWB0UYaYAAItd_?format=jpg",
+                        "local_path": "media/20250128_014459_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-28T01:44:59+00:00"
+            },
+            {
+                "text": "Molebny2017: Laser radar: historical prospective—from the East to the West",
+                "media": [],
+                "timestamp": "2025-01-28T01:45:43+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1884288761628090424",
+        "tweets": [
+            {
+                "text": "Moiré pattern/method is used to measure position/strain/surface deformation etc., and it involves \"mixing\" of two spatially periodic patterns just like in frequency domain: homodyne/heterodyne detection, a lock-in, or an RF mixer.\nYou could also use the periodic pattern of the CCD pixels as a known \"LO\" to achieve it instead of an external one.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiZUuwAbQAA6Cys?format=jpg",
+                        "local_path": "media/20250128_171343_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiZWG-7aUAAZ_gE?format=jpg",
+                        "local_path": "media/20250128_171343_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiZWK7ZaMAAKimP?format=jpg",
+                        "local_path": "media/20250128_171343_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-28T17:13:43+00:00"
+            },
+            {
+                "text": "Shangguan2025: Displacement measurement with CCD Moiré method considering the relative rotation of gratings\nhttps://doi.org/10.1364/OE.545680…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiZW0ydaYAIaS7Z?format=jpg",
+                        "local_path": "media/20250128_171432_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-28T17:14:32+00:00"
+            },
+            {
+                "text": "yes nice. Here's mine",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GWbC2uYaoAAklqb?format=jpg",
+                        "local_path": "media/20250129_051858_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-29T05:18:58+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1884323917747347696",
+        "tweets": [
+            {
+                "text": "This mouse got ass\n(Miniature head mount optical coherence tomography (OCT) high-res brain imaging in freely moving mice)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiZ2ZDpaYAQeHoN?format=jpg",
+                        "local_path": "media/20250128_193325_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiZ2ZDpaYAETnrE?format=jpg",
+                        "local_path": "media/20250128_193325_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-28T19:33:25+00:00"
+            },
+            {
+                "text": "Wang2024: Miniaturized Head-Mount Doppler Optical Coherence Tomography Scope for Freely Moving Mouse\nhttps://doi.org/10.1021/acsphotonics.4c00856…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GiZ26vmaAAAP2aV?format=jpg",
+                        "local_path": "media/20250128_193445_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-28T19:34:45+00:00"
+            },
+            {
+                "text": "Now that’s a mouse with cables coming off from the head like a mouse should be",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1884324964201029634/pu/img/TZuPzmwdbZQovn2t.jpg",
+                        "local_path": "media/20250128_193904_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-28T19:39:04+00:00"
+            },
+            {
+                "text": "No it’s after cranial window surgery",
+                "media": [],
+                "timestamp": "2025-01-28T19:49:14+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1884434608462426311",
+        "tweets": [
+            {
+                "text": "I'm seeing a pattern from the Italians, here's a new paper  on the phase diagram and behavior of cacio and pepe pasta sauce, to \"achieve the perfect texture and creaminess\".",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gibadx8aoAAh88a?format=jpg",
+                        "local_path": "media/20241113_075405_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gibaze2bYAAwbMs?format=jpg",
+                        "local_path": "media/20241113_075405_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GibbBSGaYAABmaD?format=jpg",
+                        "local_path": "media/20241113_075405_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GcP9ptVasAEgTe6?format=jpg",
+                        "local_path": "media/20241113_075405_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-13T07:54:05+00:00"
+            },
+            {
+                "text": "Bartolucci2025: Phase behavior of Cacio and Pepe sauce\nhttps://arxiv.org/abs/2501.00536\nSee also https://nytimes.com/2025/01/24/science/cacio-e-pepe-recipe-corn-starch.html…\nWish I get to write abstract like this: \"Finally, we present a scientifically optimized recipe based on our findings, enabling a consistently flawless execution of this",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GibbiCdaYAMGRco?format=png",
+                        "local_path": "media/20250129_025455_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-29T02:54:55+00:00"
+            },
+            {
+                "text": "This paper is a joy to read, their recipe is better than some aspects nanofab process lol, controlling the starch content to within +-1%. And also very detailed SI.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GibdDtxaYAAfI9f?format=png",
+                        "local_path": "media/20250129_030236_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GibdZXKbgAA8gyw?format=png",
+                        "local_path": "media/20250129_030236_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-29T03:02:36+00:00"
+            },
+            {
+                "text": "idk the authors are all Italians, not sure if they’d meme on this serious topic\n(Paper link in the comment)",
+                "media": [],
+                "timestamp": "2025-01-29T03:34:27+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1884542351068295258",
+        "tweets": [
+            {
+                "text": "LEO satellite market forecast, 10x in five years?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gic8x9Xa0AAMSYE?format=jpg",
+                        "local_path": "media/20250129_100124_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-29T10:01:24+00:00"
+            },
+            {
+                "text": "https://investors.st.com/static-files/c29d9177-7a6d-485e-8bd1-48c3bac89a4f…",
+                "media": [],
+                "timestamp": "2025-01-29T10:01:39+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1884769596076687808",
+        "tweets": [
+            {
+                "text": "The drive frame of IBM's 32,000-word magnetic-core memory, April 1957.\nThey call each set of eight-tube unit a pluggable unit.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GigLlfRaQAANP_l?format=png",
+                        "local_path": "media/20250130_010423_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-30T01:04:23+00:00"
+            },
+            {
+                "text": "Foss1957: A 32,000-Word Magnetic-Core Memory\nhttps://doi.org/10.1147/rd.12.0102…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GigMUFwacAA97TA?format=png",
+                        "local_path": "media/20250130_010558_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-30T01:05:58+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2025-01-30T02:43:41+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1884775733027127414",
+        "tweets": [
+            {
+                "text": "届かない恋\n(S11 of a laser moon bounce is about -160 dB. Saw a talk yesterday of a lunar earth FSO link with free space propagation loss of -276 dB.)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GigQTYEboAA9QZL?format=jpg",
+                        "local_path": "media/20250130_012846_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-30T01:28:46+00:00"
+            },
+            {
+                "text": "Murphy2013: Lunar laser ranging: the millimeter challenge\nhttps://tmurphy.physics.ucsd.edu/papers/rop-llr.pdf…\nThe moon is so much brighter you have to pulse and do temporal filtering.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GigSINNa8AAKafa?format=png",
+                        "local_path": "media/20250130_013205_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-30T01:32:05+00:00"
+            },
+            {
+                "text": "I should have said it's theory / budget survey, I guess at least it shows they believe it's doable.",
+                "media": [],
+                "timestamp": "2025-01-30T01:33:51+00:00"
+            }
+        ]
+    }
+]

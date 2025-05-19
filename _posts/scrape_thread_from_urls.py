@@ -292,7 +292,7 @@ def create_markdown(json_file, output_file):
 #%%
 # json_file = "scraped_tweets_20250420_20250427.json"
 json_file = json_filename
-output_md_file = "2025-05-12-weekly-OFS-46.md"
+output_md_file = "2025-05-18-weekly-OFS-47.md"
 # output_file = "tmp.md"
 create_markdown(json_file, output_md_file)
 print(f"Markdown file '{output_md_file}' has been created.")
@@ -416,5 +416,23 @@ def process_markdown_files(header_file, output_file, content_file):
 # Example usage:
 process_markdown_files('standard_header.md',
                        output_file, output_md_file)
+
+# %%
+# Move files to scraping folder
+scraping_folder = 'scraping'
+os.makedirs(scraping_folder, exist_ok=True)
+
+# Get all files in _posts directory
+# posts_dir = '_posts'
+posts_dir = '.'
+for filename in os.listdir(posts_dir):
+    # Check if file starts with any of the specified prefixes
+    if filename.startswith(('output_', 'scraped_', 'sorted_')):
+        source_path = os.path.join(posts_dir, filename)
+        dest_path = os.path.join(scraping_folder, filename)
+        shutil.move(source_path, dest_path)
+        print(f"Moved {filename} to {scraping_folder}")
+
+print("Finished moving files to scraping folder")
 
 # %%

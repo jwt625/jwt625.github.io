@@ -1,0 +1,1010 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1863980482167550186",
+        "tweets": [
+            {
+                "text": "NIST has a nice series of “how do you measure it” articles and they are quite good.\nI had no idea they have a 60 meter long underground tunnel to calibrate tape measures, with accuracy of 0.1 mm, and they’ve measured tapes as long as 1 km.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gd4vld1bwAAYBvU?format=jpg",
+                        "local_path": "media/20241203_161552_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gd4vld4bQAADyS-?format=jpg",
+                        "local_path": "media/20241203_161552_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gd4vld1b0AA0Pst?format=jpg",
+                        "local_path": "media/20241203_161552_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-03T16:15:52+00:00"
+            },
+            {
+                "text": "NIST - HDYMI?",
+                "media": [],
+                "timestamp": "2024-12-03T16:16:56+00:00"
+            },
+            {
+                "text": "That’s what they said ",
+                "media": [],
+                "timestamp": "2024-12-03T18:56:00+00:00"
+            },
+            {
+                "text": "New issues and news letters from a couple journals & agencies, google scholar alerts of folks I follow, looking stuff up during work & project etc etc",
+                "media": [],
+                "timestamp": "2024-12-03T18:59:14+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1825700558478684548",
+        "tweets": [
+            {
+                "text": "I wish one day we’ll be able to do semicond fab in ambient air like some do for solar cells",
+                "media": [],
+                "timestamp": "2024-08-19T16:12:05+00:00"
+            },
+            {
+                "text": "Exactly. I’m just complaining the semicond fab equipments fundamentally haven’t changed for decades.",
+                "media": [],
+                "timestamp": "2024-08-19T20:01:24+00:00"
+            },
+            {
+                "text": "Yes, bigger and tighter specs, automation... Fundamental working principles not much change.",
+                "media": [],
+                "timestamp": "2024-08-19T22:19:11+00:00"
+            },
+            {
+                "text": "I was not talking about litho, I was talking about etchers and depositions etc. I said “most advancements are light sources and masks”. These you mentioned are real amazing progress.",
+                "media": [],
+                "timestamp": "2024-08-20T00:22:21+00:00"
+            },
+            {
+                "text": "Agree with all these. I'm more thinking along the line of, we are still doing it the same way as many decades ago, and many other things have not changed (e.g. very low power efficiency, very low material utilization etc.)",
+                "media": [],
+                "timestamp": "2024-08-20T00:38:14+00:00"
+            },
+            {
+                "text": "I'm talking about power used in fab equipment, not processors. And efficiency of materials used. kW level power used to heat up and break apart chemicals that are only 0.01% going onto the wafers.",
+                "media": [],
+                "timestamp": "2024-08-20T00:51:00+00:00"
+            },
+            {
+                "text": "Here you go, this is the line of thinking I like. Ultimately we are all consuming energy and entropy from the sunlight, and thruput of our fab is still way behind compared to what mother nature has evolved. I'm just yearning for more drastic change of semi fab (let me find a ref)",
+                "media": [],
+                "timestamp": "2024-08-20T01:03:14+00:00"
+            },
+            {
+                "text": "This is a very bad comparison, but the number of transistors we are making per second (1e14~1e15?) is very far from the number of new born bacteria per second (>1e23)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GRf674faYAEvJ4B?format=png",
+                        "local_path": "media/20240702_172624_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GRf7IR_b0AQYZVU?format=jpg",
+                        "local_path": "media/20240702_172624_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GRf7dcsb0AUqM_J?format=png",
+                        "local_path": "media/20240702_172624_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-07-02T17:26:24+00:00"
+            },
+            {
+                "text": "That is per year, this 1e15 is per second.",
+                "media": [],
+                "timestamp": "2024-08-20T01:27:37+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1864182830819053643",
+        "tweets": [
+            {
+                "text": "\"Single-chip photonic deep neural network\" from MIT (on arxiv Aug 2022, and just got out on nature photonics). Nice seeing detectors/receivers integrated onto the same chip, and the photocurrent directly sent to modulators.\nLight source when.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gd7jcAAa0AIb0X5?format=jpg",
+                        "local_path": "media/20241204_053956_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gd7jluebkAATRyo?format=jpg",
+                        "local_path": "media/20241204_053956_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-04T05:39:56+00:00"
+            },
+            {
+                "text": "Bandyopadhyay2024: Single-chip photonic deep neural network with forward-only training\nhttps://nature.com/articles/s41566-024-01567-z…\n(arxiv ver.: https://arxiv.org/abs/2208.01623)",
+                "media": [],
+                "timestamp": "2024-12-04T05:41:10+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1864243536104968390",
+        "tweets": [
+            {
+                "text": "Advertisement: Z-axis fiber with 900 W/m/K thermal conductivity!\nActual thermal conductivity: ~ 16 W/m/K from thermal resistance and thickness numbers\n(Still really high for adhesives)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gd8elwwa0AIUwnF?format=jpg",
+                        "local_path": "media/20241204_094109_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-04T09:41:09+00:00"
+            },
+            {
+                "text": "Boston Materials - ZRT® Adhesive Film TIM",
+                "media": [],
+                "timestamp": "2024-12-04T09:42:47+00:00"
+            },
+            {
+                "text": "2000 W/m/K? Jesus christ show me where to get it",
+                "media": [],
+                "timestamp": "2024-12-05T03:45:20+00:00"
+            },
+            {
+                "text": "Yooo what",
+                "media": [],
+                "timestamp": "2024-12-04T15:14:10+00:00"
+            },
+            {
+                "text": "Aerogel for thermal insulation? Wouldn’t you want a lower thermal conductivity adhesive for that",
+                "media": [],
+                "timestamp": "2024-12-04T15:18:57+00:00"
+            },
+            {
+                "text": "Dunno, just found out this exists, have not used it",
+                "media": [],
+                "timestamp": "2024-12-05T02:35:40+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1864334669724213689",
+        "tweets": [
+            {
+                "text": "Did you know (I didn’t) that single use beverage cups (SUBC) like what you’d get ordering coffee has a ~30 um polyethylene liner, and that could generate enough nanoparticles to give one for each of your cells (15 trillions) after 13 cups.\n\nIt’s “well under FDA’s mass based limit”, but the authors argue the mass limit might not capture enough of the potential health effects.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gd9ybIIaEAA0hGn?format=jpg",
+                        "local_path": "media/20241204_154317_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gd9ybIIa0AYHnOw?format=jpg",
+                        "local_path": "media/20241204_154317_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gd9ybIGa0AI-abL?format=jpg",
+                        "local_path": "media/20241204_154317_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gd9ybIGa0AQeA-t?format=jpg",
+                        "local_path": "media/20241204_154317_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-04T15:43:17+00:00"
+            },
+            {
+                "text": "Zangmeister2022: Common Single-Use Consumer Plastic Products Release Trillions of Sub-100 nm Nanoparticles per Liter into Water during Normal Use",
+                "media": [],
+                "timestamp": "2024-12-04T15:44:32+00:00"
+            },
+            {
+                "text": "(At least they are mostly cold. Hot beverages much worse)",
+                "media": [],
+                "timestamp": "2024-12-04T18:04:26+00:00"
+            },
+            {
+                "text": "Yes agree.\nAlso kind of surprising even their UPW has only 50x less nanoparticles than exposed to LDPE",
+                "media": [],
+                "timestamp": "2024-12-04T18:06:30+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1864413151917379616",
+        "tweets": [
+            {
+                "text": "If car fuel efficiency improves similarly as Moore’s law for compute, we’d have cars with 110 light year range now ",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gd-5GeBa0AUyroi?format=jpg",
+                        "local_path": "media/20241204_205509_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-04T20:55:09+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1864500498281451937",
+        "tweets": [
+            {
+                "text": "This video, although only indirectly related, just keeps reminding me of étendue, a very fundamental and under appreciated property of light in an optical system.\nIt’s the “volume” of light in phase space. It’s conserved or can only be increased, like entropy.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeAH8e7a0AASBjr?format=jpg",
+                        "local_path": "media/20241205_024214_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeAH8e7a0AEXSvt?format=jpg",
+                        "local_path": "media/20241205_024214_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T02:42:14+00:00"
+            },
+            {
+                "text": "Video: What if we made a camera that sees in reverse?\nhttps://youtube.com/watch?v=aXfTgCCsRSg&ab_channel=StuffMadeHere…\nÉtendue: https://en.wikipedia.org/wiki/Etendue",
+                "media": [],
+                "timestamp": "2024-12-05T02:44:05+00:00"
+            },
+            {
+                "text": "The real seeing around the corner is called non-line-of-sight imaging. You could reconstruct the whole scene if you have good enough detector to measure above noise & resolve in time domain multibounces of the light.\nAnd there are people doing up to fifth bounce ",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeAVvBGa0AE9zzz?format=jpg",
+                        "local_path": "media/20241205_034000_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeAVwTEa0AQUQbZ?format=jpg",
+                        "local_path": "media/20241205_034000_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeAWa8sa0AAndnq?format=jpg",
+                        "local_path": "media/20241205_034000_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T03:40:00+00:00"
+            },
+            {
+                "text": "Nam2021: Multibounce light transport analysis for transient imaging using Single-Photon Avalanche Diode(SPAD)\nhttps://asset.library.wisc.edu/1711.dl/QN45VV35WYZVM8R/R/file-a6ee0.pdf…\nRoyo2023: Virtual Mirrors: Non-Line-of-Sight Imaging Beyond the Third Bounce\nhttps://3dvar.com/Royo2023Virtual.pdf…\nThere is also a review: Faccio2020:",
+                "media": [],
+                "timestamp": "2024-12-05T03:42:04+00:00"
+            },
+            {
+                "text": "yeah he's literally just looking at it lol. I thought for a sec maybe he's gonna do the multibounce non-line-of-sight imaging stuff and then I saw the setup. Still a cool demo of a giant \"aperture\".",
+                "media": [],
+                "timestamp": "2024-12-05T03:31:14+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1864506461386362920",
+        "tweets": [
+            {
+                "text": "The Integrated Systems Laboratory of ETH Zurich has a gallery for their chips. Wish they had more details..",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeAOICobMAAiKO-?format=jpg",
+                        "local_path": "media/20241205_030555_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeAOY6ka0AIBn2H?format=jpg",
+                        "local_path": "media/20241205_030555_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T03:05:55+00:00"
+            },
+            {
+                "text": "The IIS Chip Gallery:\nhttp://asic.ethz.ch",
+                "media": [],
+                "timestamp": "2024-12-05T03:06:42+00:00"
+            },
+            {
+                "text": "All the way back to 1986!",
+                "media": [],
+                "timestamp": "2024-12-05T04:41:54+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1864562240067891608",
+        "tweets": [
+            {
+                "text": "I dare you, I double dare you, to actually bend your Trojan light beam as much as in your illustration  \nThe beam is guided by the optical analogy of Lagrange points, or as I would like to think of it as equivalent to a rotating saddle holding a ball.\n(There is a reason they choose a spot size of ~100 um and the helix pitch of ~6 cm, because that's almost exactly the Rayleight length of that beam.)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeBAXxva0AMV3Iv?format=jpg",
+                        "local_path": "media/20241205_064734_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeBAYnLa4AE_qQ_?format=jpg",
+                        "local_path": "media/20241205_064734_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T06:47:34+00:00"
+            },
+            {
+                "text": "Luo2024: Guiding Trojan light beams via Lagrange points\nhttps://nature.com/articles/s41567-023-02270-6…\n(also at: https://physics.muni.cz/~tomtyc/teorfyzzaj/guiding_trojan_beams.pdf…)",
+                "media": [],
+                "timestamp": "2024-12-05T06:49:08+00:00"
+            },
+            {
+                "text": "Heating the PDMS decreases its refractive index locally, and would push the beam away from it (as in Fig. 3g above). By making the heater into a helix, they could keep pushing the beam back. You know what this would look like when helix pitch -> 0? A gradient index waveguide!",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeBDS9Ga0AQtuXd?format=jpg",
+                        "local_path": "media/20241205_065540_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeBDUTXa0AE5EAq?format=jpg",
+                        "local_path": "media/20241205_065540_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T06:55:40+00:00"
+            },
+            {
+                "text": "Saw this work in Optica's Optics in 2024:",
+                "media": [],
+                "timestamp": "2024-12-05T07:05:00+00:00"
+            },
+            {
+                "text": "Lool",
+                "media": [],
+                "timestamp": "2024-12-05T15:26:52+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1864571954184978900",
+        "tweets": [
+            {
+                "text": "\"The optical compute interconnect (OCI) chiplet of Intel’s Integrated Photonics Solutions Group, shown next to a pencil eraser.\"\nThe chip does 4-terabit-per-second bidirectional connection with 5 pJ/bit, using 8 fibers and each with 8 wavelengths DWDM.\n\nIf you look very closely, you could actually see eight lanes / channels on the chip (for the 8 fibers), each with what seems to be two rows of ring resonators and eight in each row, likely for the transmit and receive of the eight wavelengths.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeBIuGUa0AQAmEU?format=jpg",
+                        "local_path": "media/20241205_072610_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T07:26:10+00:00"
+            },
+            {
+                "text": "Intel Showcases Optical-Interconnect Chiplet (June 2024)",
+                "media": [],
+                "timestamp": "2024-12-05T07:26:53+00:00"
+            },
+            {
+                "text": "Found more details in this intel blog and presentation:\nIntel® Shows OCI Optical I/O Chiplet Co-packaged with CPU at OFC2024, Enabling Explosive AI Scaling\nhttps://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/Intel-Shows-OCI-Optical-I-O-Chiplet-Co-packaged-with-CPU-at/post/1582541…\nOptical Compute Interconnect Co packaged optics for AI and compute infrastructure 1",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeBdJzRbUAAB7Vt?format=jpg",
+                        "local_path": "media/20241205_084830_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T08:48:30+00:00"
+            },
+            {
+                "text": "Would you prefer dealing with DWDM and 128 ring resonators, or 128 VCSELs + fiber bundle?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gdzzc1FbcAAEaTc?format=jpg",
+                        "local_path": "media/20241205_085938_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gdzzc1AaEAA8JBT?format=jpg",
+                        "local_path": "media/20241205_085938_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gdzzc1DaEAEBb3c?format=jpg",
+                        "local_path": "media/20241205_085938_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gdzzc1DaEAIyRq7?format=jpg",
+                        "local_path": "media/20241205_085938_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T08:59:38+00:00"
+            },
+            {
+                "text": "Don’t give them ideas lol\n(Reminds me of this immediately.. https://arxiv.org/pdf/1302.2153)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeEj-1OakAMHYTq?format=jpg",
+                        "local_path": "media/20241205_231756_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T23:17:56+00:00"
+            },
+            {
+                "text": "Found more details in this intel blog and presentation:\nIntel® Shows OCI Optical I/O Chiplet Co-packaged with CPU at OFC2024, Enabling Explosive AI Scaling\nhttps://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/Intel-Shows-OCI-Optical-I-O-Chiplet-Co-packaged-with-CPU-at/post/1582541…\nOptical Compute Interconnect Co packaged optics for AI and compute infrastructure 1",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeBdJzRbUAAB7Vt?format=jpg",
+                        "local_path": "media/20241205_084830_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T08:48:30+00:00"
+            },
+            {
+                "text": "Would you prefer dealing with DWDM and 128 ring resonators, or 128 VCSELs + fiber bundle?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gdzzc1FbcAAEaTc?format=jpg",
+                        "local_path": "media/20241205_085938_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gdzzc1AaEAA8JBT?format=jpg",
+                        "local_path": "media/20241205_085938_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gdzzc1DaEAEBb3c?format=jpg",
+                        "local_path": "media/20241205_085938_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gdzzc1DaEAIyRq7?format=jpg",
+                        "local_path": "media/20241205_085938_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T08:59:38+00:00"
+            },
+            {
+                "text": "Don’t give them ideas lol\n(Reminds me of this immediately.. https://arxiv.org/pdf/1302.2153)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeEj-1OakAMHYTq?format=jpg",
+                        "local_path": "media/20241205_231756_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T23:17:56+00:00"
+            },
+            {
+                "text": "Planar lightwave circuit or bigger?\nJust the WDM part is much easier. Intel is trying to show off everything integrated (InP lasers, detectors, EIC that includes laser and modulator drivers, detector TIAs etc.)",
+                "media": [],
+                "timestamp": "2024-12-05T18:16:36+00:00"
+            },
+            {
+                "text": "Nice. It’s used a lot when people talking about optical / other alternative compute, as well as interconnects & packaging. And also units like Gbps per mm for shoreline bandwidth lol",
+                "media": [],
+                "timestamp": "2024-12-05T15:37:27+00:00"
+            },
+            {
+                "text": "Yeah there’s probably a lot of dummies everywhere on most layers. These ones on the top looks like solder balls from backend, not sure lol",
+                "media": [],
+                "timestamp": "2024-12-05T08:33:26+00:00"
+            },
+            {
+                "text": "Around 1.5 um waves, as much as they could tune the silicon ring resonator around (~<1e-3 fractional)",
+                "media": [],
+                "timestamp": "2024-12-05T23:01:57+00:00"
+            },
+            {
+                "text": "Connect CPU/GPU to memory or other CPU/GPU with higher bandwidth and lower energy cost",
+                "media": [],
+                "timestamp": "2024-12-06T00:07:34+00:00"
+            },
+            {
+                "text": "I guess it’s still copper for many cases",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GaOu3MRbUAEt7RY?format=jpg",
+                        "local_path": "media/20241205_153246_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaOu9zMbUAEXJIR?format=jpg",
+                        "local_path": "media/20241205_153246_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GaOvp-QbIAAva-o?format=jpg",
+                        "local_path": "media/20241205_153246_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T15:32:46+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1864700848955379923",
+        "tweets": [
+            {
+                "text": "“Yes it got this one mode-hop free range that’s big enough to write a nature paper!”\nJokes aside it’s cool seeing piezo MEMS, SiN photonics and DFB put together.\n\nLook at those broken wirebonds that did not get removed! Tip of the iceberg of the grad school suffering (and joy) right there.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeC-mQvbUAA-y9U?format=jpg",
+                        "local_path": "media/20241205_155821_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T15:58:21+00:00"
+            },
+            {
+                "text": "Voloshin2024: Monolithic piezoelectrically tunable hybrid integrated laser with sub-fiber laser coherence",
+                "media": [],
+                "timestamp": "2024-12-05T15:59:51+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1864718882050839000",
+        "tweets": [
+            {
+                "text": "Here's a nice piece of polished ulexite aka television stone, because it has natural parallel fiber bundles that could guide light.\nSome shells also do the same thing for their little symbiotic algae friends: they have microlenses with bundled “fiber optic cables” under it with um level resolution  so that they could pass sunlight thru the shell and stay closed.\nThey also transmit ~30% of the good sunlight, and only ~14% the bad UV.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeDOAE7akAQnnpo?format=jpg",
+                        "local_path": "media/20241205_171000_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeDOj1qakAMmCO8?format=jpg",
+                        "local_path": "media/20241205_171000_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeDO35ZakAEq34u?format=jpg",
+                        "local_path": "media/20241205_171000_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-05T17:10:00+00:00"
+            },
+            {
+                "text": "Fig. 1: Ulexite or Satin Spar Gypsum? The Scoop on \"Television Stone\"\nhttps://cs.uwaterloo.ca/~shallit/ulexite/tvstone.html…\nFig. 2-3: McCoy2024: Heart cockle shells transmit sunlight to photosymbiotic algae using bundled fiber optic cables and condensing lenses\nhttps://nature.com/articles/s41467-024-53110-x…",
+                "media": [],
+                "timestamp": "2024-12-05T17:11:25+00:00"
+            },
+            {
+                "text": "FDM might work if the filament is fine and transparent enough, and force most of them to be parallel. Need the “grain boundaries” for guiding",
+                "media": [],
+                "timestamp": "2024-12-05T19:15:26+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1864856599250010450",
+        "tweets": [
+            {
+                "text": "Not sure how or why, but this is the smallest operational hinge I've ever seen so far.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeFLGnhagAAtrlC?format=jpg",
+                        "local_path": "media/20241206_021715_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-06T02:17:15+00:00"
+            },
+            {
+                "text": "Fig. 1: NIST Scientists Use DNA Origami on a Chip to Detect Biomolecules\nhttps://nist.gov/news-events/news/2024/10/nist-scientists-use-dna-origami-chip-detect-biomolecules…\nFig. 2: Majikes2024: Variable gain DNA nanostructure charge amplifiers for biosensing\nhttps://pubs.rsc.org/en/content/articlelanding/2024/nr/d4nr02959c…",
+                "media": [],
+                "timestamp": "2024-12-06T02:18:16+00:00"
+            },
+            {
+                "text": "This is the smallest hinge I've ever toughed\n(https://mcmaster.com/1600A11/)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeFP5i3akAIL6OB?format=png",
+                        "local_path": "media/20241206_022948_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeFQA_sakAADNPO?format=png",
+                        "local_path": "media/20241206_022948_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-06T02:29:48+00:00"
+            },
+            {
+                "text": "subwavelength optical phased array letss go",
+                "media": [],
+                "timestamp": "2024-12-06T06:17:12+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1864890653093826727",
+        "tweets": [
+            {
+                "text": "Exploring Meta's project Aria and various projects behind/related to it.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeFqN3OakAALlcT?format=jpg",
+                        "local_path": "media/20241206_043234_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-06T04:32:34+00:00"
+            },
+            {
+                "text": "Main project page: https://projectaria.com\nPaper: Engel2023: Project Aria: A New Tool for Egocentric Multi-Modal AI Research\nhttps://arxiv.org/abs/2308.13561\nYou have to be either in academia or a corporate partner to apply and get their devkit..",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeFsiB6akAU-GLh?format=jpg",
+                        "local_path": "media/20241206_043509_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-06T04:35:09+00:00"
+            },
+            {
+                "text": "The glasses is trying to address the dataset problem: \"the overwhelming majority of images available on the web and used to train AI models were consciously captured with handheld devices and curated before upload.\"\nIt's only 75 gram (cf. quest 3 is 515 g and AVP is ~625 g), but",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeFtAsbakAAVG2V?format=jpg",
+                        "local_path": "media/20241206_044237_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeFta6UakAA1qX-?format=png",
+                        "local_path": "media/20241206_044237_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeFuNLaacAA6kVT?format=jpg",
+                        "local_path": "media/20241206_044237_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-06T04:42:37+00:00"
+            },
+            {
+                "text": "They have a few research / tools to support this effort, such as:\nAnonymization (EgoBlur: Responsible Innovation in Aria: https://arxiv.org/abs/2308.13093)\nScene reconstruction (SceneScript: Reconstructing Scenes With An Autoregressive Structured Language Model: https://arxiv.org/abs/2403.13064)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeFu33UaUAABca2?format=jpg",
+                        "local_path": "media/20241206_045552_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeFwIQ6a8AAWe-Y?format=jpg",
+                        "local_path": "media/20241206_045552_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeFxfoKboAA4TIn?format=jpg",
+                        "local_path": "media/20241206_045552_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-06T04:55:52+00:00"
+            },
+            {
+                "text": "The Aria Everyday Activities Dataset paper (https://arxiv.org/abs/2402.13349) actually has a better intro figure for the glasses.\nThere's a few dataset, and they offer you playground in colab such as this one about digital twins and how to fetch the ground truth. More at",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeFy5q-akAAI8G0?format=jpg",
+                        "local_path": "media/20241206_051655_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeF111uaMAAiW_T?format=jpg",
+                        "local_path": "media/20241206_051655_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeF2JsbakAIH1lF?format=jpg",
+                        "local_path": "media/20241206_051655_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-06T05:16:55+00:00"
+            },
+            {
+                "text": "Yes I should, it looks really sick",
+                "media": [],
+                "timestamp": "2024-12-06T09:49:53+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1865262478617391455",
+        "tweets": [
+            {
+                "text": "Funny opening stuff is ~10x harder than closing stuff.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeK-OpDakAAWZPP?format=jpg",
+                        "local_path": "media/20241207_051004_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T05:10:04+00:00"
+            },
+            {
+                "text": "Shafiullah2023: On Bringing Robots Home",
+                "media": [],
+                "timestamp": "2024-12-07T05:11:18+00:00"
+            },
+            {
+                "text": "gosh this is so true  Pairing a baby with a robot = perfect solution",
+                "media": [],
+                "timestamp": "2024-12-07T05:23:45+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1865271085710881255",
+        "tweets": [
+            {
+                "text": "Hate bearings? These flexure pivots might work for you.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeLFd_gakAMXsas?format=jpg",
+                        "local_path": "media/20241207_054416_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T05:44:16+00:00"
+            },
+            {
+                "text": "Free-Flex® Pivot:\nhttps://flexpivots.com\n3D models:\nhttps://flexpivots.com/3d-models/",
+                "media": [],
+                "timestamp": "2024-12-07T05:45:19+00:00"
+            },
+            {
+                "text": "More stiff than I expected along other dof. Also look pretty wire EDM-able?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1865281633097781251/pu/img/--Vvm-Q9jHp1b520.jpg",
+                        "local_path": "media/20241207_062706_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T06:27:06+00:00"
+            },
+            {
+                "text": "The pivoting motion is the fundamental mode, and is 4x less stiff in terms of eigen frequency. Color is displacement field norm.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1865507258995810304/pu/img/deyRFJkuiUQcdCgc.jpg",
+                        "local_path": "media/20241207_212301_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1865507272962797568/pu/img/HdYReZhAwjbIIdAw.jpg",
+                        "local_path": "media/20241207_212301_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1865507285071773696/pu/img/K6U9wDJCLx-0XsG1.jpg",
+                        "local_path": "media/20241207_212301_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1865507300066402304/pu/img/7wgJLM4I14mLN1mV.jpg",
+                        "local_path": "media/20241207_212301_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T21:23:01+00:00"
+            },
+            {
+                "text": "Found a relevant presentation, they reviewed existing crossed flexure pivot (CFP), and introduced their new design called Triple crossed flexure pivot (TRIVOT)\nhttps://youtube.com/watch?v=uvEjIaz8J2g&ab_channel=Instant-Lab…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOl0LVbQAAhn1H?format=jpg",
+                        "local_path": "media/20241207_220439_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOl4nnbsAAF0y-?format=jpg",
+                        "local_path": "media/20241207_220439_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOl98jaQAA-UPQ?format=jpg",
+                        "local_path": "media/20241207_220439_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOmOe-bsAAB9UJ?format=jpg",
+                        "local_path": "media/20241207_220439_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T22:04:39+00:00"
+            },
+            {
+                "text": "The motivation is to reduce the parasitic center shift and increase the maximal stroke",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOmsKEasAENpc1?format=jpg",
+                        "local_path": "media/20241207_220821_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOmyJNbAAA5HLR?format=jpg",
+                        "local_path": "media/20241207_220821_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOnX0FbwAAm15H?format=jpg",
+                        "local_path": "media/20241207_220821_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOnYwta0AApWnb?format=jpg",
+                        "local_path": "media/20241207_220821_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T22:08:21+00:00"
+            },
+            {
+                "text": "More stiff than I expected along other dof. Also look pretty wire EDM-able?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1865281633097781251/pu/img/--Vvm-Q9jHp1b520.jpg",
+                        "local_path": "media/20241207_062706_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T06:27:06+00:00"
+            },
+            {
+                "text": "The pivoting motion is the fundamental mode, and is 4x less stiff in terms of eigen frequency. Color is displacement field norm.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1865507258995810304/pu/img/deyRFJkuiUQcdCgc.jpg",
+                        "local_path": "media/20241207_212301_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1865507272962797568/pu/img/HdYReZhAwjbIIdAw.jpg",
+                        "local_path": "media/20241207_212301_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1865507285071773696/pu/img/K6U9wDJCLx-0XsG1.jpg",
+                        "local_path": "media/20241207_212301_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1865507300066402304/pu/img/7wgJLM4I14mLN1mV.jpg",
+                        "local_path": "media/20241207_212301_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T21:23:01+00:00"
+            },
+            {
+                "text": "Found a relevant presentation, they reviewed existing crossed flexure pivot (CFP), and introduced their new design called Triple crossed flexure pivot (TRIVOT)\nhttps://youtube.com/watch?v=uvEjIaz8J2g&ab_channel=Instant-Lab…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOl0LVbQAAhn1H?format=jpg",
+                        "local_path": "media/20241207_220439_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOl4nnbsAAF0y-?format=jpg",
+                        "local_path": "media/20241207_220439_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOl98jaQAA-UPQ?format=jpg",
+                        "local_path": "media/20241207_220439_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOmOe-bsAAB9UJ?format=jpg",
+                        "local_path": "media/20241207_220439_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T22:04:39+00:00"
+            },
+            {
+                "text": "The motivation is to reduce the parasitic center shift and increase the maximal stroke",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOmsKEasAENpc1?format=jpg",
+                        "local_path": "media/20241207_220821_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOmyJNbAAA5HLR?format=jpg",
+                        "local_path": "media/20241207_220821_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOnX0FbwAAm15H?format=jpg",
+                        "local_path": "media/20241207_220821_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeOnYwta0AApWnb?format=jpg",
+                        "local_path": "media/20241207_220821_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T22:08:21+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1865286886195106311",
+        "tweets": [
+            {
+                "text": "Photonic ribbon cable that's made of silicon nitride waveguide cladded in silicon dioxide flexure instead of TPP 3d printed!\nJust a demo though, no insertion loss from the actual PRC yet.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeLTvoRbgAAUPXA?format=jpg",
+                        "local_path": "media/20241207_064703_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeLT5Z2aAAAsh33?format=jpg",
+                        "local_path": "media/20241207_064703_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T06:47:03+00:00"
+            },
+            {
+                "text": "Saha2024: Photonic Ribbon Cables: CMOS-fabricated Devices for Scalable Chip-to-chip Optical and Electrical Interconnectio",
+                "media": [],
+                "timestamp": "2024-12-07T06:47:31+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1865318250453868686",
+        "tweets": [
+            {
+                "text": "TIL there's a type of spiders called ray spiders: they would tension up the net into a cone, detect the direction and distance of flying prey, and then release and slingshot towards the prey at up to 50 g (?!), capturing it mid-flight within 38 ms.\nThe two videos are slowed down by ~17x and ~33x.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1865316463818739713/pu/img/xoxy-RaHvBoUTzuT.jpg",
+                        "local_path": "media/20241207_085141_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T08:51:41+00:00"
+            },
+            {
+                "text": "Han2024: Directional web strikes are performed by ray spiders in response to airborne prey vibrations",
+                "media": [],
+                "timestamp": "2024-12-07T08:52:37+00:00"
+            },
+            {
+                "text": "To be fair, for constant strain-stress and comparable density, object size * acceleration is a constant. They are ~ 1 mm, so 50g for them would feel like 0.5g for us.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GaJHn2cb0AAYwbO?format=png",
+                        "local_path": "media/20241207_090457_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T09:04:57+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1865445924690083843",
+        "tweets": [
+            {
+                "text": "The environmental thermal loads for a satellite might be more complicated than you expect, e.g. “the diffusely reflected solar flux is about one-third of the direct solar flux and is referred to as the albedo flux.”\nCOMSOL has an Orbital Thermal Loads interface that helps you track the orbit and orientation of the satellite, and the corresponding distributions of each thermal source and sink.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeNju3_bsAABlwz?format=png",
+                        "local_path": "media/20241207_171901_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeNju4AbUAAk7EF?format=png",
+                        "local_path": "media/20241207_171901_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeNju4AacAE20DG?format=jpg",
+                        "local_path": "media/20241207_171901_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeNju3_bYAA8tAm?format=jpg",
+                        "local_path": "media/20241207_171901_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T17:19:01+00:00"
+            },
+            {
+                "text": "COMSOL Blog - Computing Orbital Heat Loads with COMSOL Multiphysics®",
+                "media": [],
+                "timestamp": "2024-12-07T17:19:59+00:00"
+            },
+            {
+                "text": "Planet IR?",
+                "media": [],
+                "timestamp": "2024-12-07T18:23:53+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1865454526918279658",
+        "tweets": [
+            {
+                "text": "Seeing “Rabi oscillation” wrt number of gates in the thousands because of small miscal in amplitude/frequency \n(This is a 1e-7 error rate single qubit gate)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeNsGQza8AAYlqj?format=jpg",
+                        "local_path": "media/20241207_175312_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeNsGQ2a8AAnaSz?format=jpg",
+                        "local_path": "media/20241207_175312_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T17:53:12+00:00"
+            },
+            {
+                "text": "Smith2024: Single-qubit gates with errors at the 10^−7 level",
+                "media": [],
+                "timestamp": "2024-12-07T17:54:15+00:00"
+            },
+            {
+                "text": "Yep but depends on what type of circuits",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GU0xcphbQAA3rKP?format=jpg",
+                        "local_path": "media/20241207_201601_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GU0xgQOWgAAkqdi?format=jpg",
+                        "local_path": "media/20241207_201601_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GU0x5DTXwAAioie?format=jpg",
+                        "local_path": "media/20241207_201601_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GU0x84sbkAAmal5?format=jpg",
+                        "local_path": "media/20241207_201601_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-07T20:16:01+00:00"
+            }
+        ]
+    }
+]

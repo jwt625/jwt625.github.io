@@ -430,4 +430,10 @@ var store = [{
         "tags": ["ICF","Photodynamic_therapy","OLED","OAM_beam","LIFT","QRNG","Quantum_networking","Quantum_frequency_conversion","Photonic_integrated_circuit","SNSPD","Plasma_reentry","Spinal_tumor_surgery","Silicon_nitride_photonics","2D_materials","Deep_seafloor_imaging","Attosecond_microscopy","Quantum_vortex","Lithium_niobate","Optical_interferometry","Edible_robotics","Biometric_recognition","Atomic_vapor_cell"],
         "url": "/ofs/weekly-OFS-46/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#47)",
+        "excerpt":"# Wafer-scale TiO2 metalens manufacturing 4 mm metalens arrays on 8 in wafers, from UMass Amherst ![20250513_035728_0.jpg](/assets/images/2025/20250316_20250518/20250513_035728_0.jpg) - Jung2025: [Full Wafer Scale Manufacturing of Directly Printed TiO2 Metalenses at Visible Wavelengths with Outstanding Focusing Efficiencies](https://doi.org/10.1002/adma.202500327) ![20250513_035830_0.jpg](/assets/images/2025/20250316_20250518/20250513_035830_0.jpg) ![20250513_035830_1.jpg](/assets/images/2025/20250316_20250518/20250513_035830_1.jpg) # Deep tissue ultrasonic in vivo printing deep tissue in vivo sound printing...","categories": ["OFS"],
+        "tags": ["Ultrasonic","Liposomes","Metalens","TFLN","Photonics","Quantum_computing","Photodiode","Solitons","Fiber_optics","Bioluminescence","fNIRS","Optical_communication","Magnetometer","Random_lasers","Acoustofluidics","SiC","Laser_ablation","Optical_phased_array","Beam_steering","Butler_matrix"],
+        "url": "/ofs/weekly-OFS-47/",
+        "teaser": null
       }]
