@@ -1,0 +1,1060 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1890958540434755994",
+        "tweets": [
+            {
+                "text": "TIL an old technique to get sharp rise edge for a high power not-so-fast laser pulse: aluminum blow-off foil.\nThis was from the Q-switched laser era, and it could generate rise time < 5 ns. As the name suggests, it probably works by the laser beam blowing off the foil that was blocking the beam. Can't find much about it..",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj4HGK6bMAAzcrx?format=png",
+                        "local_path": "media/20250216_025703_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-16T02:57:03+00:00"
+            },
+            {
+                "text": "From HIGH CYCLE FATIGUE (HCF) SCIENCE AND TECHNOLOGY PROGRAM 1999 ANNUAL REPORT\nhttps://apps.dtic.mil/sti/tr/pdf/ADA375702.pdf…\nLooking for it beacuse of this review on laser pulse peening:\nClauer2019: Laser Shock Peening, the Path to Production\nhttps://doi.org/10.3390/met9060626…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj4JKkoaMAApW-0?format=jpg",
+                        "local_path": "media/20250216_025904_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj4JOKkbMAAPbnd?format=jpg",
+                        "local_path": "media/20250216_025904_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-16T02:59:04+00:00"
+            },
+            {
+                "text": "yes, it gets vaporized",
+                "media": [],
+                "timestamp": "2025-02-16T03:26:56+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1890990053159010803",
+        "tweets": [
+            {
+                "text": "Silicon carbide, 1990 (small pieces) vs 2024 (200 mm wafer)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj4lQKiaEAApC40?format=png",
+                        "local_path": "media/20250216_050216_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-16T05:02:16+00:00"
+            },
+            {
+                "text": "Kimoto2024: How we made the 1,000 V silicon carbide Schottky diode\nhttps://nature.com/articles/s41928-024-01252-7…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj4llVhaYAA7usW?format=jpg",
+                        "local_path": "media/20250216_050257_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-16T05:02:57+00:00"
+            },
+            {
+                "text": "Funny they started working on 4H-SiC because they tried to dope 6H type so hard for making blue LED",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj4mXZbagAA5eI_?format=png",
+                        "local_path": "media/20250216_050657_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-16T05:06:57+00:00"
+            },
+            {
+                "text": "For silicon yes. Many other materials not as lucky, some would just shatter when grown too big. Only recently did InP started transitioning from 3in to 6in",
+                "media": [],
+                "timestamp": "2025-02-16T07:02:58+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1890996406934008007",
+        "tweets": [
+            {
+                "text": "This looks so wrong \n\n(high voltage AC LED directly plugged in 120V AC power outlet, made with array of uLEDs connected in series on-chip)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj4qHlybsAAsbpr?format=jpg",
+                        "local_path": "media/20250216_052731_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-16T05:27:31+00:00"
+            },
+            {
+                "text": "Jiang2013: Nitride micro-LEDs and beyond - a decade progress review\nhttps://doi.org/10.1364/OE.21.00A475…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj4rXosbQAAnoY4?format=jpg",
+                        "local_path": "media/20250216_052813_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-16T05:28:13+00:00"
+            },
+            {
+                "text": "I need one just to prank my friends",
+                "media": [],
+                "timestamp": "2025-02-16T16:11:31+00:00"
+            },
+            {
+                "text": "or you can buy two and-- wait it's still twice the price ",
+                "media": [],
+                "timestamp": "2025-02-16T08:49:46+00:00"
+            },
+            {
+                "text": "gotta write patents and start companies\nalso no transformer or rectifier -> better efficiency",
+                "media": [],
+                "timestamp": "2025-02-17T06:07:13+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1891168171282829395",
+        "tweets": [
+            {
+                "text": "What do you do when you just found an amazing solution, but your manager is away and you can't show it off? You spend the rest of the week writing it into a poem.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj7G7ssboAAA4EF?format=jpg",
+                        "local_path": "media/20250216_165002_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj7G9DobgAA3pBQ?format=jpg",
+                        "local_path": "media/20250216_165002_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-16T16:50:02+00:00"
+            },
+            {
+                "text": "Perlman2018: How we made the modern Ethernet\nhttps://nature.com/articles/s41928-018-0153-6…\nPerlman1985: An algorithm for distributed computation of a spanningtree in an extended LAN\nhttps://doi.org/10.1145/318951.319004…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj7H18LaQAA1mgf?format=png",
+                        "local_path": "media/20250216_165153_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-16T16:51:53+00:00"
+            },
+            {
+                "text": "I remember seeing a few other legendary and unconventional abstracts, but could only think of another one for now:\nThis one from JA Wheeler and RP Feynman is just a quote from Bohr.\nWheeler1945: Interaction with the Absorber as the Mechanism of Radiation\nhttps://doi.org/10.1103/RevModPhys.17.157…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj7I4YOa0AAXsvE?format=png",
+                        "local_path": "media/20250216_165636_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-16T16:56:36+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1891239420348735993",
+        "tweets": [
+            {
+                "text": "Optics/photonics folks, I have a series of very simple and basic quiz/nerd snipe for you:\nWhen you look at the output power of a simple Mach-Zehnder interferometer with a delay in one arm, you see interference when you change wavelength.\n1. What's up with energy conservation?\n2. Now you make it on a chip with y-splitter or 1x2 MMI splitter, what happens to energy conservation?\n3. If you place the detector directly at the location of the second beam splitter, what would it show when you change wavelength?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj8G-K5bsAAers8?format=jpg",
+                        "local_path": "media/20250216_213309_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj8Haz7bgAAMjGq?format=jpg",
+                        "local_path": "media/20250216_213309_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj8Hlk_aYAAD3ho?format=jpg",
+                        "local_path": "media/20250216_213309_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-16T21:33:09+00:00"
+            },
+            {
+                "text": "Figures modified from:\nChiarini2022: Integrated Optics and Photonics for Optical Interferometric Sensing\nhttps://intechopen.com/chapters/81244",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj8IrzXbQAAAC8D?format=png",
+                        "local_path": "media/20250216_213510_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-16T21:35:10+00:00"
+            },
+            {
+                "text": "About case 2: here is a MMI splitter 2D toy model, propagating from left to right, from right to left with the two ports in-phase, and out-of-phase. Most of the out-of-phase powers are radiated, some reflected. A y-splitter would look similar.\nThis is the danger many ignore about",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/tweet_video_thumb/Gj9jEkKaoAAoP3O.jpg",
+                        "local_path": "media/20250217_041521_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/tweet_video_thumb/Gj9jF5cbgAAJ2ac.jpg",
+                        "local_path": "media/20250217_041521_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/tweet_video_thumb/Gj9jGzzbYAAmE4Y.jpg",
+                        "local_path": "media/20250217_041521_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-17T04:15:21+00:00"
+            },
+            {
+                "text": "In 2, the energy is mostly scattered/radiated, so in a sense reflected from the output port\nIn 3, it depends on what kind of detector it is, e.g. if it is large area that captures all of both beams, it would sum up the spatial interference pattern and gives a flat power vs",
+                "media": [],
+                "timestamp": "2025-02-16T22:10:04+00:00"
+            },
+            {
+                "text": "many invisible or implicit modes in optics and photonics ready to be exploited or screw you up",
+                "media": [],
+                "timestamp": "2025-02-17T16:57:01+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1891307037960671245",
+        "tweets": [
+            {
+                "text": "I was so proud of my 3-bit ALU, and then found out it only took like 1/20 of the chip real estate..\n\n(this is \n@tinytapeout\n. Also I had no idea you could do this much with github actions, checking the design & generating the GDS etc)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj9FCP1aIAAkY4N?format=jpg",
+                        "local_path": "media/20250217_020151_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj9FDquboAA-OK6?format=jpg",
+                        "local_path": "media/20250217_020151_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj9FFFVbIAAnwj3?format=png",
+                        "local_path": "media/20250217_020151_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-17T02:01:51+00:00"
+            },
+            {
+                "text": "Nice!\nThey really figured out the workflow to make it feel so easy. Will definitely dive into verilog and play more",
+                "media": [],
+                "timestamp": "2025-02-17T04:18:13+00:00"
+            },
+            {
+                "text": "they have a website and a discord",
+                "media": [],
+                "timestamp": "2025-02-17T02:09:25+00:00"
+            },
+            {
+                "text": "https://wokwi.com",
+                "media": [],
+                "timestamp": "2025-02-18T02:13:44+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1891357975551639868",
+        "tweets": [
+            {
+                "text": "A Tesla coil? Nope it is actually a piezoelectric antenna for VLF (3-30 kHz, or 10-100 km wavelength) without being huge, by using a mechanical resonance of a lithium niobate rod.\n\n(well the voltage gets as high as 125 kV so it still looks like a Tesla coil discharging)\n\nWhile it cannot cheat the antenna Chu-Harrington limit (yet?) so that the radiation Q is very high (~1e13), the mechanical Q~5e5 is much higher than what you would get with the electical version (Q~1000), so they claim it is relatively 300x more efficient. They also used direct antenna modulation (DAM) to cheat the Bode-Fano, and got 83x higher bandwidth (7 Hz vs 80 mHz).\n\nThe catch? The peak power dissipation is ~ 1 W before the crystal rod shatters, and only 2e-7 of this 1 W is radiated..",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj9vFBMaIAA1JL0?format=jpg",
+                        "local_path": "media/20250217_052415_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj9vJOcbUAAslb3?format=jpg",
+                        "local_path": "media/20250217_052415_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj9vzPKaUAAkIEF?format=jpg",
+                        "local_path": "media/20250217_052415_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-17T05:24:15+00:00"
+            },
+            {
+                "text": "Kemp2019: A high Q piezoelectric resonator as a portable VLF transmitter\nhttps://nature.com/articles/s41467-019-09680-2…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj90UV-asAACCLk?format=jpg",
+                        "local_path": "media/20250217_052525_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-17T05:25:25+00:00"
+            },
+            {
+                "text": "yeah lol, efficiency is pathetic",
+                "media": [],
+                "timestamp": "2025-02-17T06:30:06+00:00"
+            },
+            {
+                "text": "and the Chu limit of Q ~ 1/(k*a)^3 for small a (a = size of antenna)",
+                "media": [],
+                "timestamp": "2025-02-17T15:56:04+00:00"
+            },
+            {
+                "text": "cant find any \nIt's only 9 cm long and 1 W, more like a toy (high V from high mechanical Q & piezoelectricity)",
+                "media": [],
+                "timestamp": "2025-02-17T05:41:56+00:00"
+            },
+            {
+                "text": "because it also converts deformation to voltage, and the deformation is oscillating at the mechanical resonance frequency",
+                "media": [],
+                "timestamp": "2025-02-17T15:54:33+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1891522710406045937",
+        "tweets": [
+            {
+                "text": "Why is soft x ray microscope so big?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkAJtQeaMAIzXvM?format=jpg",
+                        "local_path": "media/20250217_161851_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-17T16:18:51+00:00"
+            },
+            {
+                "text": "From ScienceAdvisor news letter 17 February 2025\nNitrogen-fixing organelle garners award for outstanding Science paper\nCaption: Soft x-ray tomography requires a special, 23-meter microscope.  CAROLYN LARABELL",
+                "media": [],
+                "timestamp": "2025-02-17T16:22:46+00:00"
+            },
+            {
+                "text": "there are smaller benchtop ones",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GjbBv7lXwAA0hS1?format=jpg",
+                        "local_path": "media/20250217_162421_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-17T16:24:21+00:00"
+            },
+            {
+                "text": "hmm maybe it gets absorbed very quickly",
+                "media": [],
+                "timestamp": "2025-02-17T16:26:18+00:00"
+            },
+            {
+                "text": "gorgeous!\nWait are those turbo pumps held by thorlabs clamping forks? ",
+                "media": [],
+                "timestamp": "2025-02-17T19:07:44+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1891533936561467546",
+        "tweets": [
+            {
+                "text": "Deep-sea shrimps living near hydrothermal vents actually sync their biological rhythms to the 12 h tidal period instead of 24 h like us, likely from hydrostatic pressure.\nAnd since we are from the sea, some of our genes and proteins having 12 h cycles might be related to this.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkAS-H-aAAELAP_?format=jpg",
+                        "local_path": "media/20250217_170328_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkAT5_faAAAZf_P?format=jpg",
+                        "local_path": "media/20250217_170328_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-17T17:03:28+00:00"
+            },
+            {
+                "text": "Zhang2025: Circatidal control of gene expression in the deep-sea hot vent shrimp Rimicaris leurokolos\nhttps://doi.org/10.1098/rspb.2024.2970…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkAUTgoa4AA6ce9?format=jpg",
+                        "local_path": "media/20250217_170425_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-17T17:04:25+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1891751018779770971",
+        "tweets": [
+            {
+                "text": "There are many ways to do spectroscopy, e.g. you can tune a narrowband source, or tune a narrowband detection, or add dispersion to map frequency to spatial domain, or tune a filter/mask in between a broadband source and simple detection.\nThis work is using a tunable filter/mask made with a \"messy\" transmission spectrum of four cascaded MZI with different delay, tuned with thermal phase shifters, and they called it convolutional spectrometer. Classification is done by a trained kNN model.\nThis really resembles some compressed sensing stuff, maybe time to re-read some of those.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkDXsbVaIAAcaZn?format=jpg",
+                        "local_path": "media/20250218_072604_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkDYSL7aAAICIPh?format=jpg",
+                        "local_path": "media/20250218_072604_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-18T07:26:04+00:00"
+            },
+            {
+                "text": "Yao2025: Optical Convolutional Spectrometer\nhttps://arxiv.org/abs/2502.08749",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkDZ02MaAAAWUWQ?format=jpg",
+                        "local_path": "media/20250218_072725_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-18T07:27:25+00:00"
+            },
+            {
+                "text": "related",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Ghdo2HCakAANkTu?format=jpg",
+                        "local_path": "media/20250218_074630_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GhdpAG-acAg8eao?format=jpg",
+                        "local_path": "media/20250218_074630_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-18T07:46:30+00:00"
+            },
+            {
+                "text": "100%, it's a strong mode filter. For simple samples it's probably fine, anything that's messy with a lot of diffusion and scattering, most of the light won't be collected.",
+                "media": [],
+                "timestamp": "2025-02-18T08:06:12+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1891898362535792718",
+        "tweets": [
+            {
+                "text": "Example of working with existing system for your new ideas: Carrier Telephony on High Voltage Power Lines.\n\n(These coupling capacitors are 6 ft diameter x 12 ft height, and 3.6 tons.)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkFdU42aMAA79X3?format=png",
+                        "local_path": "media/20250218_171134_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkFdklEaQAA6D5V?format=png",
+                        "local_path": "media/20250218_171134_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-18T17:11:34+00:00"
+            },
+            {
+                "text": "Wolfe1925: Carrier Telephony on High Voltage Power Lines\nhttps://worldradiohistory.com/Archive-Bell-System-Technical-Journal/20s/Bell-1925a.o.pdf…\nThere are also some impressive filters involved.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkFfv9wXcAA4Fba?format=png",
+                        "local_path": "media/20250218_171316_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-18T17:13:16+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1892023365176607158",
+        "tweets": [
+            {
+                "text": "Olfactory Afterlife: The Mummification of Smell from Ancient Ritual to Modern Conservation",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkHQ8v_bsAAz_f_?format=jpg",
+                        "local_path": "media/20250219_012817_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkHRAC1aAAAjqfc?format=jpg",
+                        "local_path": "media/20250219_012817_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-19T01:28:17+00:00"
+            },
+            {
+                "text": "Paolin2025: Ancient Egyptian Mummified Bodies: Cross-Disciplinary Analysis of Their Smell\nhttps://pubs.acs.org/doi/10.1021/jacs.4c15769…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkHRem2XYAARikq?format=jpg",
+                        "local_path": "media/20250219_012926_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-19T01:29:26+00:00"
+            },
+            {
+                "text": "it's from today's Nature Briefing. Normally I would not be reading stuff in this field.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkHS4FDaAAI3gZE?format=jpg",
+                        "local_path": "media/20250219_013638_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-19T01:36:38+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1892063031892357361",
+        "tweets": [
+            {
+                "text": "Growing muscles on a silicon wafer feels so wrong..\nWait it's actually just wafers patterned with grooves for molding PDMS stamps, which are then used to control the muscle orientation of mm size biohybrid rays, made with rat heart cells.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1892062969808277504/pu/img/YXJCLpVtUWmA8KLZ.jpg",
+                        "local_path": "media/20250219_040554_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkHzwc1bwAAgKQT?format=jpg",
+                        "local_path": "media/20250219_040554_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-19T04:05:54+00:00"
+            },
+            {
+                "text": "Zimmerman2025: Bioinspired design of a tissue-engineered ray with machine learning\nhttps://science.org/doi/10.1126/scirobotics.adr6472…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkH1fpQXgAAB5Az?format=jpg",
+                        "local_path": "media/20250219_040649_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-19T04:06:49+00:00"
+            },
+            {
+                "text": "reminds me of a startup trying to make a processor out of a similar setup",
+                "media": [],
+                "timestamp": "2025-02-19T06:48:48+00:00"
+            },
+            {
+                "text": "used it for some transfer print process, I love it.\nmany semicond fab people don't even realize it's PDMS in their gelpak boxes",
+                "media": [],
+                "timestamp": "2025-02-19T15:31:25+00:00"
+            },
+            {
+                "text": "it's late night, I'm getting hungry, and you are showing me this",
+                "media": [],
+                "timestamp": "2025-02-19T07:37:38+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1892249790152331583",
+        "tweets": [
+            {
+                "text": "Sometimes you just gotta let it out, close the tab, and move on with life.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkKe3ciakAAfS4c?format=jpg",
+                        "local_path": "media/20250219_162800_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkKe-QxaoAAht7a?format=png",
+                        "local_path": "media/20250219_162800_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-19T16:28:00+00:00"
+            },
+            {
+                "text": "Kramer2025: Acoustic resonators above 100 GHz\nhttps://arxiv.org/abs/2502.03632\nAlternating the crystal orientation along thickness to excite higher order modes without more layers of electrodes.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkKff2SbwAAMHnd?format=jpg",
+                        "local_path": "media/20250219_163000_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-19T16:30:00+00:00"
+            },
+            {
+                "text": "Society when 100-1000 THz is as easy to probe on a chip/wafer as 220 GHz",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkNwF1RXcAAZiRe?format=png",
+                        "local_path": "media/20250220_074126_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-20T07:41:26+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1892404038039429250",
+        "tweets": [
+            {
+                "text": "Centimeter-scale robots are the cutest ones. Too small it gets creepy, and too big it falls on you and breaks your bones.\nThis one is ~30 cm, it glides on water supported by surface tension, and moves around by flapping its fins to generate beautiful traveling waves at ~40 Hz, \"inspired by marine flatworms like Pseudocerotidae\".\n\nIt weights ~1 g (the locomotion module), could swim at 12 cm/s, carry ~5 g, and push things as heavy as ~100 g on water. The actuators are electrohydraulic, powered by a miniaturized high-voltage power supply that boosts a Li-ion battery voltage to ~600 V, and the 30 mAh little battery lasts 10 min.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1892397778904764419/pu/img/GeH6Y4pmeW-0c_46.jpg",
+                        "local_path": "media/20250220_024056_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkMo5PeXkAEUGtn?format=jpg",
+                        "local_path": "media/20250220_024056_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-20T02:40:56+00:00"
+            },
+            {
+                "text": "Hartmann2025: Highly agile flat swimming robot\nhttps://science.org/doi/10.1126/scirobotics.adr0721…\nNice roll-to-roll fabrication, and a big table comparing many swimming robots in the SI.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkMru39bUAQSuNg?format=jpg",
+                        "local_path": "media/20250220_024336_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkMrzsxXAAADufQ?format=jpg",
+                        "local_path": "media/20250220_024336_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkMr78HbUAIN5CG?format=jpg",
+                        "local_path": "media/20250220_024336_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-20T02:43:36+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1892486820899794988",
+        "tweets": [
+            {
+                "text": "they must be so proud of their wirebonds",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkN2nWTbUAItZqt?format=jpg",
+                        "local_path": "media/20250220_080953_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-20T08:09:53+00:00"
+            },
+            {
+                "text": "Wang2018: Multidimensional quantum entanglement with large-scale integrated optics\nhttps://arxiv.org/abs/1803.04449",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkN2-zhbUAEsXES?format=jpg",
+                        "local_path": "media/20250220_081100_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-20T08:11:00+00:00"
+            },
+            {
+                "text": "Here's a better pic of the chip\nIntegrated Quantum Optics Lab (Peking University)\nhttps://sites.google.com/view/qchip/presentations…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkN3EfvbUAES9d3?format=jpg",
+                        "local_path": "media/20250220_081238_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-20T08:12:38+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1892604863969702164",
+        "tweets": [
+            {
+                "text": "This reminds me that graphene people use SiO2 film on Si wafer/chip with a certain thickness, so that even purely visually you could identify a region of single layer graphene on it from more layers, in the middle of the mess from mechanical exfoliation.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkPh-7FaQAAomnG?format=jpg",
+                        "local_path": "media/20250220_121953_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkOvwsYawAAIM4E?format=jpg",
+                        "local_path": "media/20250220_121953_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-20T12:19:53+00:00"
+            },
+            {
+                "text": "Blake2007: Making graphene visible\nhttps://doi.org/10.1063/1.2768624…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkPiTH-XkAA3sUF?format=jpg",
+                        "local_path": "media/20250220_155952_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-20T15:59:52+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1892762900265304302",
+        "tweets": [
+            {
+                "text": "TIL the highest energy cosmic rays detected are on the order of 250 exa–electron volts, or ~40 J, enough to power an LED for 20 min...\nThey were detected by a humble experiment called the Telescope Array experiment, and the detectors are made of scattered \"minecraft beds in the desert\" (surface detectors), and densely packed fluorescence detectors with JWST-like segment spherical mirrors.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkRwS2kWEAA2mps?format=jpg",
+                        "local_path": "media/20250221_022655_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkRxBKLbUAIWez5?format=jpg",
+                        "local_path": "media/20250221_022655_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkRxQMbWkAAV-0K?format=jpg",
+                        "local_path": "media/20250221_022655_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-21T02:26:55+00:00"
+            },
+            {
+                "text": "Story about the event itself is not as cool looking, and they dont really know how those cosmic rays are this high energy.\nTelescope Array Collaboration, 2023: An extremely energetic cosmic ray observed by a surface detector array\nhttps://science.org/doi/10.1126/science.abo5095…\n\nFig. 1 from",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkRyls1W0AAhVic?format=jpg",
+                        "local_path": "media/20250221_023143_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkRy2VSXMAACR74?format=png",
+                        "local_path": "media/20250221_023143_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-21T02:31:43+00:00"
+            },
+            {
+                "text": "The project page has all the publications including journals, conference proceedings, posters, thesis, and even thesis defense slides listed: http://telescopearray.org/index.php/research/publications/theses…\nThe above two figures are from\nHotspot for Cosmic Rays: Touring the Telescope Array Project in Utah",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkRz_tTWUAAPgdP?format=jpg",
+                        "local_path": "media/20250221_023720_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkR0HjvWMAEKULf?format=jpg",
+                        "local_path": "media/20250221_023720_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-21T02:37:20+00:00"
+            },
+            {
+                "text": "You can find some on google maps",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkR2Y--boAA7Dx8?format=jpg",
+                        "local_path": "media/20250221_024728_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkR2hjDbcAA1506?format=jpg",
+                        "local_path": "media/20250221_024728_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-21T02:47:28+00:00"
+            },
+            {
+                "text": "Big slabs of scintillators, and fiber bundle to PMT.\nTaketa2012: The measurement of extremely high energy cosmic ray energy spectrum by Telescope Array surface detector\nhttp://telescopearray.org/images/papers/theses/d_thesis_taketa.pdf…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkR39QZWEAAbd3B?format=jpg",
+                        "local_path": "media/20250221_025613_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkR4EJ-W4AAqTIw?format=jpg",
+                        "local_path": "media/20250221_025613_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkR4JnIbUAMYTC6?format=jpg",
+                        "local_path": "media/20250221_025613_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-21T02:56:13+00:00"
+            },
+            {
+                "text": "not my expertise. I posted about them few times in the past",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbU58cboAAfXQP?format=png",
+                        "local_path": "media/20250221_025915_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbVO4Lb0AALFej?format=png",
+                        "local_path": "media/20250221_025915_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbVQKSaAAAS8px?format=png",
+                        "local_path": "media/20250221_025915_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbVRpVasAASgRU?format=png",
+                        "local_path": "media/20250221_025915_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-21T02:59:15+00:00"
+            },
+            {
+                "text": "The project page has all the publications including journals, conference proceedings, posters, thesis, and even thesis defense slides listed: http://telescopearray.org/index.php/research/publications/theses…\nThe above two figures are from\nHotspot for Cosmic Rays: Touring the Telescope Array Project in Utah",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkRz_tTWUAAPgdP?format=jpg",
+                        "local_path": "media/20250221_023720_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkR0HjvWMAEKULf?format=jpg",
+                        "local_path": "media/20250221_023720_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-21T02:37:20+00:00"
+            },
+            {
+                "text": "You can find some on google maps",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkR2Y--boAA7Dx8?format=jpg",
+                        "local_path": "media/20250221_024728_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkR2hjDbcAA1506?format=jpg",
+                        "local_path": "media/20250221_024728_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-21T02:47:28+00:00"
+            },
+            {
+                "text": "Big slabs of scintillators, and fiber bundle to PMT.\nTaketa2012: The measurement of extremely high energy cosmic ray energy spectrum by Telescope Array surface detector\nhttp://telescopearray.org/images/papers/theses/d_thesis_taketa.pdf…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkR39QZWEAAbd3B?format=jpg",
+                        "local_path": "media/20250221_025613_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkR4EJ-W4AAqTIw?format=jpg",
+                        "local_path": "media/20250221_025613_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkR4JnIbUAMYTC6?format=jpg",
+                        "local_path": "media/20250221_025613_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-21T02:56:13+00:00"
+            },
+            {
+                "text": "not my expertise. I posted about them few times in the past",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbU58cboAAfXQP?format=png",
+                        "local_path": "media/20250221_025915_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbVO4Lb0AALFej?format=png",
+                        "local_path": "media/20250221_025915_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbVQKSaAAAS8px?format=png",
+                        "local_path": "media/20250221_025915_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GZbVRpVasAASgRU?format=png",
+                        "local_path": "media/20250221_025915_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-21T02:59:15+00:00"
+            },
+            {
+                "text": "ikr, almost like it's sending a message ",
+                "media": [],
+                "timestamp": "2025-02-21T02:33:16+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1892819582685237598",
+        "tweets": [
+            {
+                "text": "Behold, the photonic skin!\n\nSeriously, this is pretty sick. I've seen metal / dielectric metasurface on PDMS, but this is my first time seeing a PMMA-core photonic circuits on PDMS, and even infused with CLD–1 (an EO polymer) for tuning. The index contrast is only 1.49 vs 1.41, but they could already bend it by ~1 mm radius. Heck they even bonded LED and photodetector array onto it.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkSjmyvW4AIw18J?format=jpg",
+                        "local_path": "media/20250221_061210_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkSkHlMbUAI5X-S?format=jpg",
+                        "local_path": "media/20250221_061210_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-21T06:12:10+00:00"
+            },
+            {
+                "text": "Li2025: Photonic skin for photonic-integration-based wearable sensors\nhttps://doi.org/10.1364/OPTICA.546458…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkSlfHZXwAAX0Id?format=jpg",
+                        "local_path": "media/20250221_061350_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkSll9pacAAcZ9S?format=jpg",
+                        "local_path": "media/20250221_061350_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkSls4cXMAAf06v?format=jpg",
+                        "local_path": "media/20250221_061350_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-21T06:13:50+00:00"
+            },
+            {
+                "text": "I guess if you count CGM as wearable sensor or not",
+                "media": [],
+                "timestamp": "2025-02-21T09:06:09+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1892986003167813986",
+        "tweets": [
+            {
+                "text": "LOL, a lithium niobate electro-optic modulator with barium titanate cladding on quartz. (These three materials are all electro-optic)\n\nThis is like my gf putting three layers of sunscreens from three different brands.\n\n(It's sim only. Also could've put the LN directly on quartz.)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkU8KpKWQAA_4ct?format=png",
+                        "local_path": "media/20250221_171327_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkU8MgbWoAAETqQ?format=png",
+                        "local_path": "media/20250221_171327_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-21T17:13:27+00:00"
+            },
+            {
+                "text": "Liu2025: High-Efficiency Lithium Niobate Electro-Optic Modulator with Barium Titanate Cladding on Quartz\nhttps://doi.org/10.3390/photonics12020157…\n\n(gf does not actually do this I'm making it up)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkU89vEaEAAsP1Q?format=jpg",
+                        "local_path": "media/20250221_171449_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-21T17:14:49+00:00"
+            },
+            {
+                "text": "higher EO coefficient",
+                "media": [],
+                "timestamp": "2025-02-21T17:17:22+00:00"
+            },
+            {
+                "text": "my pleasure",
+                "media": [],
+                "timestamp": "2025-02-21T17:44:59+00:00"
+            },
+            {
+                "text": "she'd need to improve her sunscreen application technique a lot",
+                "media": [],
+                "timestamp": "2025-02-22T17:59:26+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1893132794018279762",
+        "tweets": [
+            {
+                "text": "Wanna detect material composition down to ~1 ppm and ~1 nm spatial resolution? Check out atom probe tomography (APT), where you cut a tiny bit (~50 nm) of your sample, and put it on a probe tip inside ultra high vacuum (<1e-8 Pa), low temperature (~50 K), and strong E field (counter-electrode at 15 kV and a few mm away).\n\nNow you shoot the sample with a ps or fs laser (or pulse the E field), ions shoot out of the sample, and you could use the usual mass spectrometry tricks to figure out what ions they are, as well as trace them back to where on the sample are they from, to get the spatial resolution.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkW-2m4XgAAo3qR?format=jpg",
+                        "local_path": "media/20250222_025645_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkXATPnaoAQQnzm?format=jpg",
+                        "local_path": "media/20250222_025645_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkXAa5cbMAADRcV?format=jpg",
+                        "local_path": "media/20250222_025645_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-22T02:56:45+00:00"
+            },
+            {
+                "text": "This review paper straightforward states that \"the preparation of specimens suitable for APT can be seen as a (dark) art.\"\nGault2021: Atom probe tomography\nhttps://nature.com/articles/s43586-021-00047-w…\n(also at: https://researchgate.net/publication/353412965_Atom_probe_tomography…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkXCWs7W4AEiqk1?format=jpg",
+                        "local_path": "media/20250222_025747_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-22T02:57:47+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1893199784003150022",
+        "tweets": [
+            {
+                "text": "Since when can we 3d print thermoelectric materials??\n\n(seems like at least since 2018)\n(also they have a song playing in the background in the sped up video?)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkX-1GYaoAI1FQx?format=jpg",
+                        "local_path": "media/20250222_072257_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-22T07:22:57+00:00"
+            },
+            {
+                "text": "Xu2025: Interfacial bonding enhances thermoelectric cooling in 3D-printed materials\nhttps://science.org/doi/10.1126/science.ads0426…\nEarly work from 2018: Kim2018: 3D printing of shape-conformable thermoelectric materials using all-inorganic Bi2Te3-based inks\nhttps://nature.com/articles/s41560-017-0071-2…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkX_w40XYAExYyL?format=jpg",
+                        "local_path": "media/20250222_072535_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-22T07:25:35+00:00"
+            },
+            {
+                "text": "Seems like the secret ingredient is called chalcogenidometallate (ChaM) ions. It's inorganic, \"act as surface ligands of nano- and microscale particles, which stabilize the particles in solution via electrostatic interactions\". It also \"significantly enhances the colloidal",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkYA2rsXYAAG5PO?format=jpg",
+                        "local_path": "media/20250222_073356_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkYA-RZWEAAdRWN?format=jpg",
+                        "local_path": "media/20250222_073356_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkYBlI5aoAQ0nka?format=jpg",
+                        "local_path": "media/20250222_073356_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-22T07:33:56+00:00"
+            },
+            {
+                "text": "It's not CVD?",
+                "media": [],
+                "timestamp": "2025-02-22T15:35:51+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1893346932824637800",
+        "tweets": [
+            {
+                "text": "Same energy\n(the two microtoroid whispering-gallery-mode resonators are on two separate chips)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkaEs23aoAEOmxF?format=jpg",
+                        "local_path": "media/20250222_170740_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GkaEueHWcAAR9l1?format=png",
+                        "local_path": "media/20250222_170740_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-22T17:07:40+00:00"
+            },
+            {
+                "text": "Peng2014: Parity–time-symmetric whispering-gallery microcavities\nhttps://nature.com/articles/nphys2927…\n(also at https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=eb540a8b162ebfbf2ecc208e32992dfef4faec03…)\nSecond pic: NOT a photo of sailors saying goodbye during WW2\nhttps://fakehistoryhunter.net/2017/08/27/not-a-photo-of-sailors-saying-goodbye-during-ww2/…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkaFYCyaUAA4Pi7?format=jpg",
+                        "local_path": "media/20250222_170920_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-22T17:09:20+00:00"
+            },
+            {
+                "text": "Peng2014: Parity–time-symmetric whispering-gallery microcavities\nhttps://nature.com/articles/nphys2927…\n(also at https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=eb540a8b162ebfbf2ecc208e32992dfef4faec03…)\nSecond pic: NOT a photo of sailors saying goodbye during WW2",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GkaFYCyaUAA4Pi7?format=jpg",
+                        "local_path": "media/20250222_171016_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-22T17:10:16+00:00"
+            }
+        ]
+    }
+]

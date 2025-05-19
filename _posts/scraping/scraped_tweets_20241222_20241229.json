@@ -1,0 +1,983 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1868563043971674219",
+        "tweets": [
+            {
+                "text": "Remember the TPP 3D printed microrobots? They trap an air bubble inside, and pump fluid & move around when acoustically driven at its resonance.\n\nNow there is a newer version of it they call bioresorbable acoustic microrobot (BAM), that has 30 um diameter, similar propulsion capability, steerable with magnetic fields, and can be imaged & guided with ultrasound imaging, and they actually did it in vivo in the bladder of a mouse.\n\n(TPP: two-photon polymerization)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge52iUnboAAW0Ob?format=png",
+                        "local_path": "media/20241122_024537_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge52jOHagAAgAkf?format=jpg",
+                        "local_path": "media/20241122_024537_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge52t7cbEAA7VYs?format=jpg",
+                        "local_path": "media/20241122_024537_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gc9MjGkbIAE2dHD?format=jpg",
+                        "local_path": "media/20241122_024537_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gc9MsLQaAAMp4JW?format=jpg",
+                        "local_path": "media/20241122_024537_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1859790218536304640/pu/img/DO0q6otEL06A5QpA.jpg",
+                        "local_path": "media/20241122_024537_5.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1859790233308626944/pu/img/lQAu_JkjXXfOgGgq.jpg",
+                        "local_path": "media/20241122_024537_6.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-22T02:45:37+00:00"
+            },
+            {
+                "text": "Han2024: Imaging-guided bioresorbable acoustic hydrogel microrobots",
+                "media": [],
+                "timestamp": "2024-12-16T07:47:03+00:00"
+            },
+            {
+                "text": "Looks creepy esp the one in vivo in the bladder ",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1868563669791178753/pu/img/Za9Vi9Ra__7o2HAd.jpg",
+                        "local_path": "media/20241216_075043_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1868563939669553152/pu/img/lzC9YrkDGMYSB0lg.jpg",
+                        "local_path": "media/20241216_075043_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1868564257916563456/pu/img/d6T4rL7dElS_j9BC.jpg",
+                        "local_path": "media/20241216_075043_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-16T07:50:43+00:00"
+            },
+            {
+                "text": "I wish they included more actual photos. Looks at this poor little fella",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge56cNHagAAcP_A?format=jpg",
+                        "local_path": "media/20241216_075516_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-16T07:55:16+00:00"
+            },
+            {
+                "text": "Depend on if you are looking inside (bio etc) or outside (space & stars), metal printing is just as all kinds of cool shit!",
+                "media": [],
+                "timestamp": "2024-12-16T08:25:24+00:00"
+            },
+            {
+                "text": "Remember the TPP 3D printed microrobots? They trap an air bubble inside, and pump fluid & move around when acoustically driven at its resonance.\n\nNow there is a newer version of it they call bioresorbable acoustic microrobot (BAM), that has 30 um diameter, similar propulsion capability, steerable with magnetic fields, and can be imaged & guided with ultrasound imaging, and they actually did it in vivo in the bladder of a mouse.\n\n(TPP: two-photon polymerization)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge52iUnboAAW0Ob?format=png",
+                        "local_path": "media/20241122_024537_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge52jOHagAAgAkf?format=jpg",
+                        "local_path": "media/20241122_024537_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge52t7cbEAA7VYs?format=jpg",
+                        "local_path": "media/20241122_024537_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gc9MjGkbIAE2dHD?format=jpg",
+                        "local_path": "media/20241122_024537_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gc9MsLQaAAMp4JW?format=jpg",
+                        "local_path": "media/20241122_024537_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1859790218536304640/pu/img/DO0q6otEL06A5QpA.jpg",
+                        "local_path": "media/20241122_024537_5.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1859790233308626944/pu/img/lQAu_JkjXXfOgGgq.jpg",
+                        "local_path": "media/20241122_024537_6.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-22T02:45:37+00:00"
+            },
+            {
+                "text": "Han2024: Imaging-guided bioresorbable acoustic hydrogel microrobots",
+                "media": [],
+                "timestamp": "2024-12-16T07:47:03+00:00"
+            },
+            {
+                "text": "Looks creepy esp the one in vivo in the bladder ",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1868563669791178753/pu/img/Za9Vi9Ra__7o2HAd.jpg",
+                        "local_path": "media/20241216_075043_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1868563939669553152/pu/img/lzC9YrkDGMYSB0lg.jpg",
+                        "local_path": "media/20241216_075043_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1868564257916563456/pu/img/d6T4rL7dElS_j9BC.jpg",
+                        "local_path": "media/20241216_075043_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-16T07:50:43+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2024-12-16T15:19:26+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1868902367984599070",
+        "tweets": [
+            {
+                "text": "University of Michigan has a Visual Encyclopedia of Chemical Engineering Equipment.\nIt \"has been developed over the past 20 years to help you learn how chemical engineering equipment works. You’ll find descriptions of many different industrial processes and more than 100 kinds of equipment used in industry.\"",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge-sKdRaEAAmw-F?format=jpg",
+                        "local_path": "media/20241217_061341_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge-sMBPb0AAAeJV?format=jpg",
+                        "local_path": "media/20241217_061341_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge-sNrsbcAAreY_?format=jpg",
+                        "local_path": "media/20241217_061341_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-17T06:13:41+00:00"
+            },
+            {
+                "text": "https://encyclopedia.che.engin.umich.edu\nFound it because I was looking up fiber spinning.",
+                "media": [],
+                "timestamp": "2024-12-17T06:14:30+00:00"
+            },
+            {
+                "text": "Which is because of this paper on using a jet to assist the fiber spinning in a liquid bath.\nPan2024: Fiber formation mechanisms of jet-assisted wet spinning (JAWS)\nhttps://doi.org/10.1063/5.0232428…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge-tBgYbwAE9wAJ?format=jpg",
+                        "local_path": "media/20241217_061633_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-17T06:16:33+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1868905568083362164",
+        "tweets": [
+            {
+                "text": "Github contribution chart but it's actually blinking photoluminescence of InGaN/GaN nanopillars.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Ge-vbbjbwAMGPg-?format=jpg",
+                        "local_path": "media/20241217_062624_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-17T06:26:24+00:00"
+            },
+            {
+                "text": "Oikawa2024: Correlated photoluminescence blinking phenomenon on InGaN/GaN nanopillar structures",
+                "media": [],
+                "timestamp": "2024-12-17T06:26:49+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1869054619978195189",
+        "tweets": [
+            {
+                "text": "This \"747 flying two sheets of paper away from grass, and being able to read about each one of them\" analogy of HDD blew my mind. That is few nm gap between the head and the platter, ~width of a single strand of DNA.\n\nRecently I heard from a friend that HDDs are filled with helium. Turns out It's been done as early as in the 1950s for the drum memory, in commercial HDDs for more than 10 years, and \"as of March 2020, Helium is used in all high-capacity drives for data-centers. These come from all of the three remaining HDD manufacturers: Western Digital, Seagate, and Toshiba.\"\n\nHelium is much lighter, lower drag, and more laminar than air. It reduces turbulence and random forces on the disks and arms, less acoustic noise, and better thermalization and temperature distribution. However, sealing it is a big hustle. People have tried various ways, and settled with laser welding.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfA0-y0aAAE5CDi?format=png",
+                        "local_path": "media/20240531_032207_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfA1Dc_acAAS6W_?format=jpg",
+                        "local_path": "media/20240531_032207_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfA3ArAaYAAa-U5?format=jpg",
+                        "local_path": "media/20240531_032207_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GO4HUccbIAA8AFX?format=png",
+                        "local_path": "media/20240531_032207_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-05-31T03:22:07+00:00"
+            },
+            {
+                "text": "Fig. 1 from Western Digital's blog: https://blog.westerndigital.com/helium-hard-drives-explained/…\nFig. 2 from someone's white paper: 2013: HELIUM-FILLED DRIVES INTRODUCED\nhttps://d1yx3ys82bpsa0.cloudfront.net/groups/chm-helium-white-paper.pdf…\nFog. 3 from Aoyagi2016: Development of Helium Sealed High Capacity Hard Disk Drive\nhttps://jsme.or.jp/award/jsme2016/mnt2016-1.pdf…\nThe second",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfA4M2CbgAALrwB?format=jpg",
+                        "local_path": "media/20241217_162421_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfA4RAOa0AAaso7?format=jpg",
+                        "local_path": "media/20241217_162421_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-17T16:24:21+00:00"
+            },
+            {
+                "text": "N. Gunderson has a paper with much more historical & technical details.\nGunderson2016: Decades of Proven Research Underpin Seagate’s Helium Drive\nhttps://web.archive.org/web/20170130033122/http://www.seagate.com/files/www-content/product-content/enterprise-hdd-fam/enterprise-capacity-3-5-hdd-10tb/_shared/docs/helium-drive-launch-tp686-1-1602us.pdf…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfA6EjCakAEL0Zo?format=jpg",
+                        "local_path": "media/20241217_163105_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfA6Gzbb0AAXXMd?format=jpg",
+                        "local_path": "media/20241217_163105_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-17T16:31:05+00:00"
+            },
+            {
+                "text": "Fig. 1 from Western Digital's blog: https://blog.westerndigital.com/helium-hard-drives-explained/…\nFig. 2 from someone's white paper: 2013: HELIUM-FILLED DRIVES INTRODUCED\nhttps://d1yx3ys82bpsa0.cloudfront.net/groups/chm-helium-white-paper.pdf…\nFog. 3 from Aoyagi2016: Development of Helium Sealed High Capacity Hard Disk Drive\nhttps://jsme.or.jp/award/jsme2016/mnt2016-1.pdf…\nThe second",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfA4M2CbgAALrwB?format=jpg",
+                        "local_path": "media/20241217_162421_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfA4RAOa0AAaso7?format=jpg",
+                        "local_path": "media/20241217_162421_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-17T16:24:21+00:00"
+            },
+            {
+                "text": "N. Gunderson has a paper with much more historical & technical details.\nGunderson2016: Decades of Proven Research Underpin Seagate’s Helium Drive\nhttps://web.archive.org/web/20170130033122/http://www.seagate.com/files/www-content/product-content/enterprise-hdd-fam/enterprise-capacity-3-5-hdd-10tb/_shared/docs/helium-drive-launch-tp686-1-1602us.pdf…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfA6EjCakAEL0Zo?format=jpg",
+                        "local_path": "media/20241217_163105_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfA6Gzbb0AAXXMd?format=jpg",
+                        "local_path": "media/20241217_163105_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-17T16:31:05+00:00"
+            },
+            {
+                "text": "Another impressive aspect is how often you miss a bit",
+                "media": [],
+                "timestamp": "2024-12-17T16:43:54+00:00"
+            },
+            {
+                "text": "jesus christ",
+                "media": [],
+                "timestamp": "2024-12-17T16:25:08+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2024-12-18T01:57:12+00:00"
+            },
+            {
+                "text": "Damn I even corrected it from hassle to hustle. Lesson learned.",
+                "media": [],
+                "timestamp": "2024-12-17T16:45:04+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1869194787955646827",
+        "tweets": [
+            {
+                "text": "TIL ultrasonic vibration is also used to make blade dicing cleaner and faster. I've done 0.5~2 mm/s feed speed, and 20 mm/s sounds insane (and these slides are from 10+ years ago).\n(Wafer dicing = die singulation: cutting up a wafer into individual dies. Laser stealth dicing can be another >10x faster.)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfC06ulbcAANWM2?format=jpg",
+                        "local_path": "media/20240914_003826_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfC1D2sbkAAvYV5?format=jpg",
+                        "local_path": "media/20240914_003826_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GXZaG0obwAAEMs0?format=jpg",
+                        "local_path": "media/20240914_003826_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-09-14T00:38:26+00:00"
+            },
+            {
+                "text": "Screenshots from Solutions for thinning, dicing and packaging of power devices made of Si, Sapphire, SiC and GaN Nov. 7th, 2013\nhttp://imapsfrance.org/puissance2013/5%20-%20DISCO%20Solutions%20.pdf…\nSee also: https://disco.co.jp/eg/solution/library/other/usw.html…\nIf you want to read more about dicing and what DISCO can do, they have a more recent tech",
+                "media": [],
+                "timestamp": "2024-12-18T01:37:49+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1869623890500337900",
+        "tweets": [
+            {
+                "text": "Co-packaged optics (CPO) from IBM, to increase interconnection bandwidth density and energy efficiency.\n\nIt uses a polymer waveguide for adiabatic coupling between the fibers and the photonics integrated circuit chip (PIC), with 50 um pitch on the PIC to 250 um pitch SMF array, lead-free reflow compatible + micro-BGA, and passed various reliability and stress test.\n\nThey also included a nice intro graph showing the communication bottleneck: compute has increased 60000x in the past 20 years, but I/O bandwidth only 30x.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfI6g3ZacAAvw6C?format=jpg",
+                        "local_path": "media/20241219_060046_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfI8pGhbQAAqpMV?format=jpg",
+                        "local_path": "media/20241219_060046_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfI8p3Ta0AAGpPC?format=jpg",
+                        "local_path": "media/20241219_060046_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-19T06:00:46+00:00"
+            },
+            {
+                "text": "Knickerbocker2024: Next generation Co-Packaged Optics Technology to Train & Run Generative AI Models in Data Centers and Other Computing Applications",
+                "media": [],
+                "timestamp": "2024-12-19T06:01:17+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1869632943783858581",
+        "tweets": [
+            {
+                "text": "When minecraft players start doing photonics inverse design",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfJE9W2aIAAA0Sw?format=jpg",
+                        "local_path": "media/20241219_063644_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-19T06:36:44+00:00"
+            },
+            {
+                "text": "Mahlau2024: A flexible framework for large-scale FDTD simulations: open-source inverse design for 3D nanostructures\nhttps://arxiv.org/abs/2412.12360\nSeems pretty cool, I should try it out",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfJFb56bgAAo687?format=jpg",
+                        "local_path": "media/20241219_063746_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-19T06:37:46+00:00"
+            },
+            {
+                "text": "Oh no",
+                "media": [],
+                "timestamp": "2024-12-19T18:22:11+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1869839358859280585",
+        "tweets": [
+            {
+                "text": "Forget about the grapple hook horn antenna, here is a spiral antenna made with NiTi shape memory alloy, that literally gets turned on when it felt hot, erect itself, and shoot out higher freq waves better.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfMAIhiasAQPPhN?format=jpg",
+                        "local_path": "media/20241218_101310_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfMAqjhbcAEeDlW?format=jpg",
+                        "local_path": "media/20241218_101310_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfEssM_bQAAG025?format=jpg",
+                        "local_path": "media/20241218_101310_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-18T10:13:10+00:00"
+            },
+            {
+                "text": "Sherburne2024: Two-Way Additively Manufactured Shape Memory Alloy Wideband Reconfigurable Compound Antenna",
+                "media": [],
+                "timestamp": "2024-12-19T20:18:18+00:00"
+            },
+            {
+                "text": "A lot more details in the SI on how it's made etc, and how they saved money without using a bias-tee for the DC heating line, by using impedance mismatch.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfMBn6naEAAiN4c?format=jpg",
+                        "local_path": "media/20241219_202228_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfMBzOZawAAmAi-?format=jpg",
+                        "local_path": "media/20241219_202228_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfMCPGiaMAAQ6xh?format=jpg",
+                        "local_path": "media/20241219_202228_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfMCP7rbYAA_mje?format=jpg",
+                        "local_path": "media/20241219_202228_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-19T20:22:28+00:00"
+            },
+            {
+                "text": "See also",
+                "media": [],
+                "timestamp": "2024-12-19T20:25:04+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1869990247490302095",
+        "tweets": [
+            {
+                "text": "Look at their forked tongues for chemical edge/gradient detection, and a \"membrane bolometer\" inside their pit organ for IR detection.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfOJlarakAAXaLY?format=png",
+                        "local_path": "media/20241220_052031_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfOKE6Sa8AAh92-?format=jpg",
+                        "local_path": "media/20241220_052031_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfN9ZdqasAIJFR9?format=jpg",
+                        "local_path": "media/20241220_052031_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-20T05:20:31+00:00"
+            },
+            {
+                "text": "Fig. 1: Schwenk1994: Why Snakes Have Forked Tongues\nhttps://doi.org/10.1126/science.263.5153.1573…\nFig. 2: Gracheva2010: Molecular Basis of Infrared Detection by Snakes\nhttps://doi.org/10.1038/nature08943…\n(also at https://pmc.ncbi.nlm.nih.gov/articles/PMC2855400/…)",
+                "media": [],
+                "timestamp": "2024-12-20T06:18:59+00:00"
+            },
+            {
+                "text": "Fig. 1: Schwenk1994: Why Snakes Have Forked Tongues\nhttps://doi.org/10.1126/science.263.5153.1573…\nFig. 2: Gracheva2010: Molecular Basis of Infrared Detection by Snakes\nhttps://doi.org/10.1038/nature08943…",
+                "media": [],
+                "timestamp": "2024-12-20T08:28:56+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1870012918923964731",
+        "tweets": [
+            {
+                "text": "Commercial drone market is growing 33% every year in China, and 8.5% rest of the world.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfOejrlasAIFQwY?format=jpg",
+                        "local_path": "media/20241220_074637_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-20T07:46:37+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2024-12-20T07:46:57+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1870145015156224132",
+        "tweets": [
+            {
+                "text": "Fancy harmonic oscillators\n\nIt's an array of six inductively coupled LC resonators, where the capacitors are air-gap parallel plate, the upper plates being also high Q (10 million) membrane mechanical resonators.\n\nThey could couple them so strong, and cool down the collective motions with the microwave sideband. I guess it is the first time for collective motion of collective motion (macroscopic mechanical oscillators) to be put in quantum ground state and thus they got in science.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfQU02RasAADI2Y?format=jpg",
+                        "local_path": "media/20241220_163131_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-20T16:31:31+00:00"
+            },
+            {
+                "text": "Chegnizadeh2024: Quantum collective motion of macroscopic mechanical oscillators\nhttps://doi.org/10.1126/science.adr8187…\nImage from \"Motions of the quantum collective\"\nhttps://science.org/doi/10.1126/science.adv3778…",
+                "media": [],
+                "timestamp": "2024-12-20T16:33:04+00:00"
+            },
+            {
+                "text": "Nice I’ve played with mems but mostly piezoelectric “mems”. Is the master thesis public?\nBy thermal resonance you mean a phase change in temperature? Or thermal occupation/noise of the mechanical modes.",
+                "media": [],
+                "timestamp": "2024-12-20T23:42:43+00:00"
+            },
+            {
+                "text": "Lol",
+                "media": [],
+                "timestamp": "2024-12-20T17:53:25+00:00"
+            },
+            {
+                "text": "Time to entangle the chip with the fridge MXC plate!",
+                "media": [],
+                "timestamp": "2024-12-20T16:50:31+00:00"
+            },
+            {
+                "text": "wait wheres your friend, this was my thesis topic lol\n(not using a membrane tho, it's on-chip GHz mechanical resonator + telecom optical resonator)",
+                "media": [],
+                "timestamp": "2024-12-20T16:36:36+00:00"
+            },
+            {
+                "text": "Fancy harmonic oscillators\n\nIt's an array of six inductively coupled LC resonators, where the capacitors are air-gap parallel plate, the upper plates being also high Q (10 million) membrane mechanical resonators.\n\nThey could couple them so strong, and cool down the collective motions with the microwave sideband. I guess it is the first time for collective motion of collective motion (macroscopic mechanical oscillators) to be put in quantum ground state and thus they got in science.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfQU02RasAADI2Y?format=jpg",
+                        "local_path": "media/20241220_163131_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-20T16:31:31+00:00"
+            },
+            {
+                "text": "Chegnizadeh2024: Quantum collective motion of macroscopic mechanical oscillators\nhttps://doi.org/10.1126/science.adr8187…\nImage from \"Motions of the quantum collective\"\nhttps://science.org/doi/10.1126/science.adv3778…",
+                "media": [],
+                "timestamp": "2024-12-20T16:33:04+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1870493028135342126",
+        "tweets": [
+            {
+                "text": "POV you work on ”advanced engineered substrate”\n\n(Top is thin film barium titanate wafer from PsiQuantum)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfVS8XCb0AAwY1k?format=jpg",
+                        "local_path": "media/20241221_153424_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-21T15:34:24+00:00"
+            },
+            {
+                "text": "Fiber to chip loss is pretty good. The rate is still so low (125 MHz): A manufacturable platform for photonic quantum computing https://arxiv.org/abs/2404.17570",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GMWU8sMa0AASjyz?format=jpg",
+                        "local_path": "media/20241221_153519_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-21T15:35:19+00:00"
+            },
+            {
+                "text": "Nice, RTA = rapid thermal annealing?",
+                "media": [],
+                "timestamp": "2024-12-21T19:35:35+00:00"
+            },
+            {
+                "text": "Nice, RTA = rapid thermal annealing?",
+                "media": [],
+                "timestamp": "2024-12-21T19:35:35+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1870509145352499238",
+        "tweets": [
+            {
+                "text": "Silicon on insulator (SOI) in early 1990s: can't even bond 4 in wafers properly\nSOI in 2024: as thin as ~10 nm with few percent uniformity across 12 in wafers",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfVheaybAAA10nJ?format=png",
+                        "local_path": "media/20241221_153424_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfVh5qPb0AAlbU5?format=jpg",
+                        "local_path": "media/20241221_153424_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfVh-wHakAAkUfv?format=jpg",
+                        "local_path": "media/20241221_153424_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfVS8XCb0AAwY1k?format=jpg",
+                        "local_path": "media/20241221_153424_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-21T15:34:24+00:00"
+            },
+            {
+                "text": "Maszara1991: Silicon‐On‐Insulator by Wafer Bonding: A Review\nhttps://iopscience.iop.org/article/10.1149/1.2085575/meta…\nsoitec media library: https://soitec.com/en/medias/media-library/photo…\nTakeuchi2024: SSROI (super-steep retrograde on insulator) substrates for RF switch and LNA device performance enhancement\nhttps://doi.org/10.1109/EDTM58488.2024.10511370…",
+                "media": [],
+                "timestamp": "2024-12-21T16:40:37+00:00"
+            },
+            {
+                "text": "soitec is a big player. If you are interested in them, heres a 150 page slide deck from their capital markets day 2023\nhttps://d2za3aw7vtguly.cloudfront.net/production/images/Soitec-FY23-CMD_2023-06-09-061705_lbgh.pdf…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfVjsVLbAAAP1J5?format=jpg",
+                        "local_path": "media/20241221_164550_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfVjxJEbwAAmtpH?format=jpg",
+                        "local_path": "media/20241221_164550_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-21T16:45:50+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1870757791079735322",
+        "tweets": [
+            {
+                "text": "Ran into this company called Brilliance RGB that is doing RGB lasers integrated onto SiN photonic integrated circuit (PIC) chip. The first demo seems to be butt coupled, and the most recent one has three laser dies and one NTC bonded onto the PIC.\nNot much else happening on the PIC yet. The scanning part would be another challenge for AR/VR.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfZCCPMaUAEEVK9?format=jpg",
+                        "local_path": "media/20241222_090629_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfZCsHYbMAAsJTb?format=jpg",
+                        "local_path": "media/20241222_090629_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfZDT_PbgAEjTn_?format=jpg",
+                        "local_path": "media/20241222_090629_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-22T09:06:29+00:00"
+            },
+            {
+                "text": "https://brilliancergb.com\nSee also their youtube:\nhttps://youtube.com/@brilliancergb304…\nThere's a slide deck from earlier this year:\nhttps://epic-photonics.com/wp-content/uploads/2023/09/2.9-Tim-Tiek-Brilliance.pdf…\n(says confidential but well it's on the internet)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfZEykqbEAAUucu?format=jpg",
+                        "local_path": "media/20241222_090938_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-22T09:09:38+00:00"
+            },
+            {
+                "text": "I’m actually planning to write a few blogs on how to get light from fiber onto a chip during this holiday lol\nIn short, have some inverse taper & good facet, or a grating coupler on the chip, align well, and secure with uv cure epoxy",
+                "media": [],
+                "timestamp": "2024-12-23T18:20:25+00:00"
+            },
+            {
+                "text": "Nice, but damn 200 bucks",
+                "media": [],
+                "timestamp": "2024-12-23T16:07:11+00:00"
+            },
+            {
+                "text": "They are cool",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GcfQHBPa0AA_HGO?format=jpg",
+                        "local_path": "media/20241222_184707_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-22T18:47:07+00:00"
+            },
+            {
+                "text": "Probably yes, the PIC part is very simple for now. The laser bonding part is not easy, that means they also have good facet instead of the usual cleaved facet on the laser chip\n(Or maybe it is cleaved, dunno about their coupling loss)",
+                "media": [],
+                "timestamp": "2024-12-22T15:26:11+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1870926130657869914",
+        "tweets": [
+            {
+                "text": "About to say I found an interactive animated coupled oscillator simulation, but this crazy website actually has all kinds of interactive maths and physics stuff, from acoustics to E&M to quantum to thermal... I'm struggling to decide what to include here.\n\nThe four I picked are coupled oscillators, hydrogen molecular ion orbits, hydrogen atom wave functions (I've played with them in Mathematica before, these two are the best visuals I have ever seen and played with), and gas molecules.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1870923710783520769/pu/img/QLloGHNa-irI-wdo.jpg",
+                        "local_path": "media/20241222_173217_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1870923748733550592/pu/img/aMyqmDTMlaisPN3i.jpg",
+                        "local_path": "media/20241222_173217_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1870924814476890112/pu/img/cjibsB7Pqw3nWX50.jpg",
+                        "local_path": "media/20241222_173217_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1870884031363256320/pu/img/dEJXWd-2ntegVwt2.jpg",
+                        "local_path": "media/20241222_173217_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1870884031346384896/pu/img/rLKoLyy7vgf8oEI3.jpg",
+                        "local_path": "media/20241222_173217_4.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-22T17:32:17+00:00"
+            },
+            {
+                "text": "https://falstad.com/mathphysics.html…\nI've been thinking about building an interactive fdtd in browser, maybe I should start doing it.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1870926336237457408/pu/img/58qpsVnd6c_-00W9.jpg",
+                        "local_path": "media/20241222_201704_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1870926368663543808/pu/img/VntG0d5aRgXbwYUM.jpg",
+                        "local_path": "media/20241222_201704_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-22T20:17:04+00:00"
+            },
+            {
+                "text": "https://phet.colorado.edu/en/simulations/browse…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gfbg9sia8AE0Skk?format=jpg",
+                        "local_path": "media/20241222_203134_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-22T20:31:34+00:00"
+            },
+            {
+                "text": "https://falstad.com/mathphysics.html…\nI've been thinking about building an interactive fdtd in browser, maybe I should start doing it.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1870926336237457408/pu/img/58qpsVnd6c_-00W9.jpg",
+                        "local_path": "media/20241222_203617_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1870926368663543808/pu/img/VntG0d5aRgXbwYUM.jpg",
+                        "local_path": "media/20241222_203617_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-22T20:36:17+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1871410022330315257",
+        "tweets": [
+            {
+                "text": "Virgin optical Coriolis force guiding: we heat up a PDMS pipe with a helix wire, so it wraps around and pushes the light beam back\nChad plasma channel guiding: 500 TW laser pulses creating plasma in a sheet of supersonic gas and guides itself, and accelerate electrons to ~ 10 GeV (laser plasma-wakefield particle acceleration).\n\nI have no idea how the wakefield acceleration works. The guiding sounds very similar to Kerr lens.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfiR34TaUAAvcIB?format=jpg",
+                        "local_path": "media/20241224_041813_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfiScMWbIAA_aH7?format=jpg",
+                        "local_path": "media/20241224_041813_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-24T04:18:13+00:00"
+            },
+            {
+                "text": "First pic from: Optical Coriolis force guides light along Trojan beams\nhttps://nature.com/articles/s41567-023-02251-9…\nSee also this thread and ref therein:",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GeBAXxva0AMV3Iv?format=jpg",
+                        "local_path": "media/20241224_041917_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GeBAYnLa4AE_qQ_?format=jpg",
+                        "local_path": "media/20241224_041917_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-24T04:19:17+00:00"
+            },
+            {
+                "text": "Second pic from Turner2024: Electrons Channel Surf to Ultrahigh Energies",
+                "media": [],
+                "timestamp": "2024-12-24T04:20:33+00:00"
+            },
+            {
+                "text": "lol yes, tho the laser behind it is not going to fit in our arms any time soon\nNakamura2017: Diagnostics, Control and Performance Parameters for the BELLA High Repetition Rate Petawatt Class Laser\nhttps://ieeexplore.ieee.org/document/7934119…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfitE6yaMAAqgC6?format=jpg",
+                        "local_path": "media/20241224_060321_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-24T06:03:21+00:00"
+            },
+            {
+                "text": "lol yes, tho the laser behind it is not going to fit in our arms any time soon\nNakamura2017: Diagnostics, Control and Performance Parameters for the BELLA High Repetition Rate Petawatt Class Laser\nhttps://ieeexplore.ieee.org/document/7934119…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfitE6yaMAAqgC6?format=jpg",
+                        "local_path": "media/20241224_060321_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-24T06:03:21+00:00"
+            },
+            {
+                "text": "Thats a question worth getting you into the fashion magazin aka nature ",
+                "media": [],
+                "timestamp": "2024-12-24T13:40:58+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1871465687061037535",
+        "tweets": [
+            {
+                "text": "I was being ignorant. Relatively cutting edge open source PDKs do exist, such as ASAP7 (7 nm) and FreePDK3 (3 nm), with many process and design rule details.\nMaybe I should also look harder for photonics.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfjGr4lbsAEtYwR?format=jpg",
+                        "local_path": "media/20241119_162726_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfjH7jwacAAGOOs?format=jpg",
+                        "local_path": "media/20241119_162726_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfjH7j2aoAAwKCW?format=jpg",
+                        "local_path": "media/20241119_162726_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GcwqM6LawAAsaZP?format=jpg",
+                        "local_path": "media/20241119_162726_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GcwslvhbcAILqbi?format=jpg",
+                        "local_path": "media/20241119_162726_4.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-19T16:27:26+00:00"
+            },
+            {
+                "text": "Screenshots from Clark2016: ASAP7: A 7-nm finFET predictive process design kit\nhttps://doi.org/10.1016/j.mejo.2016.04.006…\nFreePDK3 Predictive Process Design Kit:",
+                "media": [],
+                "timestamp": "2024-12-24T08:01:13+00:00"
+            },
+            {
+                "text": "It’s not cutting edge cutting edge but Southampton Uni ‘s CORNERSTONE has SiN, Si (3 waveguide thicknesses 220nm, 340nm and 500nm), Si with heaters (but not PDs), suspended Si, Ge - all open source PDKs\n\nHave to sign NDAs for commercial ones, the Tower one is like 200 pages long",
+                "media": [],
+                "timestamp": "2024-12-24T13:43:07+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2024-12-25T00:50:38+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2024-12-24T13:44:47+00:00"
+            },
+            {
+                "text": "Nice, thanks!",
+                "media": [],
+                "timestamp": "2024-12-24T13:42:43+00:00"
+            },
+            {
+                "text": "I was being ignorant. Relatively cutting edge open source PDKs do exist, such as ASAP7 (7 nm) and FreePDK3 (3 nm), with many process and design rule details.\nMaybe I should also look harder for photonics.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfjGr4lbsAEtYwR?format=jpg",
+                        "local_path": "media/20241119_162726_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfjH7jwacAAGOOs?format=jpg",
+                        "local_path": "media/20241119_162726_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfjH7j2aoAAwKCW?format=jpg",
+                        "local_path": "media/20241119_162726_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GcwqM6LawAAsaZP?format=jpg",
+                        "local_path": "media/20241119_162726_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GcwslvhbcAILqbi?format=jpg",
+                        "local_path": "media/20241119_162726_4.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-19T16:27:26+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1871727716208370027",
+        "tweets": [
+            {
+                "text": "I'm more impressed by how they could push stuff with the 6 um diameter microswimmers controlled with laser, as optical tweezers has no chance of generating this much force without burning stuff. Optoelectronic tweezers maybe.\n\nTurns out the particles are in a binary fluid mixture near its critical point, and selective heating from the laser on the particles cause local demixing, and that's where the force is from. Average laser power needed is only ~ 1 uW to get ~ 1 um/s.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1871725495353819136/pu/img/-exDkHUY7PDk17sL.jpg",
+                        "local_path": "media/20241224_182005_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gfm2bnQbEAAGgnV?format=jpg",
+                        "local_path": "media/20241224_182005_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GflWK-mXoAAuc1l?format=jpg",
+                        "local_path": "media/20241224_182005_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-24T18:20:05+00:00"
+            },
+            {
+                "text": "Videos from Heuthe2024: Counterfactual rewards promote collective transport using individually controlled swarm microrobots\nhttps://doi.org/10.1126/scirobotics.ado5888…\nScreenshot from Solano2017: Tuning the motility and directionality of self-propelled colloids\nhttps://nature.com/articles/s41598-017-14126-0…",
+                "media": [],
+                "timestamp": "2024-12-25T01:22:14+00:00"
+            },
+            {
+                "text": "More on optoelectronic tweezer:",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYhXoxzaoAArH90?format=jpg",
+                        "local_path": "media/20241225_012309_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYhX9QBaAAAMvBD?format=png",
+                        "local_path": "media/20241225_012309_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYhYHmCasAE00R_?format=png",
+                        "local_path": "media/20241225_012309_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYhYOx_agAAGN1B?format=jpg",
+                        "local_path": "media/20241225_012309_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-25T01:23:09+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1871823431362339111",
+        "tweets": [
+            {
+                "text": "Merry Christmas everyone!\n\nHere is a new Nvidia challenger I found emerged recently called OptiCore, by Berkeley and MIT folks, based on \"coherent VCSEL neural networks\" they prototyped in 2023.\n\nAlthough it's going to take a lot of effort and a long time, I'm a fan of this approach out of many different kinds of optical neural networks (ONNs, which I'm not an expert on, I just know some basic photonics).",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfoLic9bUAA8JEs?format=jpg",
+                        "local_path": "media/20241225_074057_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfoMA67aoAA3z9p?format=jpg",
+                        "local_path": "media/20241225_074057_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-25T07:40:57+00:00"
+            },
+            {
+                "text": "left: https://opticore.ai\nRight: from SI of Chen2023: Deep learning with coherent VCSEL neural networks\nhttps://nature.com/articles/s41566-023-01233-w…",
+                "media": [],
+                "timestamp": "2024-12-25T07:42:34+00:00"
+            },
+            {
+                "text": "yeah hopefully they'll stay on track instead of pivoting to interconnects",
+                "media": [],
+                "timestamp": "2024-12-25T08:01:54+00:00"
+            }
+        ]
+    }
+]

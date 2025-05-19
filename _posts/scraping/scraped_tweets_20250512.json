@@ -1,0 +1,782 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1919422548984443263",
+        "tweets": [
+            {
+                "text": "this cover image couldve been high res",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqMonnsakAA_J-y?format=jpg",
+                        "local_path": "media/20250505_160251_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-05T16:02:51+00:00"
+            },
+            {
+                "text": "Chen2025: [Key advancements toward eliminating the “drive deficit” in ICF hohlraum simulations](https://doi.org/10.1063/5.0256856…)",
+                "media": [],
+                "timestamp": "2025-05-05T16:04:10+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1919563833862922721",
+        "tweets": [
+            {
+                "text": "you can kill cancer with LEDs?\n\n(photodynamic therapy)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqOo2xHbAAI46Uc?format=jpg",
+                        "local_path": "media/20250506_012416_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GqOo98LbAAAmT1D?format=jpg",
+                        "local_path": "media/20250506_012416_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-06T01:24:16+00:00"
+            },
+            {
+                "text": "Itazaki2025: [Metronomic photodynamic therapy for deep organ cancer by implantable wireless OLEDs](https://doi.org/10.1063/5.0256898…)\nholy smokes the video SI is hardcore (WARNING graphic content)\n[An OLED attached to the liver emitting light under wireless drive](https://aip.figshare.com/articles/media/Supplementary_material_Video_1/28785695?file=53633078…)",
+                "media": [],
+                "timestamp": "2025-05-06T01:26:59+00:00"
+            },
+            {
+                "text": "",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqOxNAjbAAET9PR?format=png",
+                        "local_path": "media/20250506_015932_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-06T01:59:32+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1919571626997514715",
+        "tweets": [
+            {
+                "text": "wow optical angular momentum beam is actually useful:\nyou could shoot stuff with laser for deposition or printing, and in the case of printing, an OAM beam or optical vortex (OV) beam could actually spin up the jet, make the printing better aligned and cause fewer splatters\n\n(fancy name for this process is laser induced forward transfer (LIFT))",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqOuSgAbAAAOVkA?format=jpg",
+                        "local_path": "media/20250506_015514_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-06T01:55:14+00:00"
+            },
+            {
+                "text": "Yuyama2025: [Dynamic release layer mediated optical vortex laser-induced forward transfer](https://doi.org/10.1063/5.0252923…)\nThey estimated the jet to have 1000x of the angular momentum of the laser beam and they are not sure why ",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqOwzOtbAAEYCrL?format=jpg",
+                        "local_path": "media/20250506_015746_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-06T01:57:46+00:00"
+            },
+            {
+                "text": "another fun example of shooting stuff with laser",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GW1T6LobYAAZauD?format=png",
+                        "local_path": "media/20250506_020007_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GW1UEvYWYAAnW7G?format=png",
+                        "local_path": "media/20250506_020007_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GW1UINna8AA1Q9-?format=png",
+                        "local_path": "media/20250506_020007_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GW1UaFqXsAANmb-?format=png",
+                        "local_path": "media/20250506_020007_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-06T02:00:07+00:00"
+            },
+            {
+                "text": "hmm this is not immediately intuitive to me, will need to read more later",
+                "media": [],
+                "timestamp": "2025-05-07T02:17:32+00:00"
+            },
+            {
+                "text": "mode of the beam is different but yeah both high power lasers",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfiR34TaUAAvcIB?format=jpg",
+                        "local_path": "media/20250506_022602_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfiScMWbIAA_aH7?format=jpg",
+                        "local_path": "media/20250506_022602_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-06T02:26:02+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1919774001863524559",
+        "tweets": [
+            {
+                "text": "imagine if you are a nice lil laser with micro lens and isolators and balanced homodyne etc, you ask the creator what's your purpose, and you got \"you generate random numbers\"",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqRnADBbAAIC4LB?format=jpg",
+                        "local_path": "media/20250506_151924_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-06T15:19:24+00:00"
+            },
+            {
+                "text": "Hua2025: [Fully Integrated Vacuum-based Quantum Random Number Generator](https://arxiv.org/abs/2505.01701)\nHere's a review on QRNG: Herrero2016: [Quantum Random Number Generators](https://arxiv.org/abs/1604.03304)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqRosxDaIAACnQk?format=png",
+                        "local_path": "media/20250506_152116_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-06T15:21:16+00:00"
+            },
+            {
+                "text": "cf. this one that runs at 800 Gb/s and much smaller and passed the NIST randomness test",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GoWR4dOXMAAC07y?format=png",
+                        "local_path": "media/20250506_152430_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-06T15:24:30+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1919928422609895468",
+        "tweets": [
+            {
+                "text": "cisco has a 9 h long conference recording on Pathways to Practical and Functional Quantum Networking",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqTy5RHbAAMjENh?format=jpg",
+                        "local_path": "media/20250507_013301_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GqTzDn5bAAEHRym?format=jpg",
+                        "local_path": "media/20250507_013301_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GqTzarpbAAUpc8K?format=jpg",
+                        "local_path": "media/20250507_013301_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GqTzoRubAAERJZC?format=jpg",
+                        "local_path": "media/20250507_013301_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-07T01:33:01+00:00"
+            },
+            {
+                "text": "[Cisco Quantum Summit 2025: Pathways to Practical and Functional Quantum Networking](https://youtube.com/watch?v=vspD719IM0E&ab_channel=OutshiftbyCisco…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqT01BCbAAIPJWQ?format=jpg",
+                        "local_path": "media/20250507_013328_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-07T01:33:28+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1919936461371277612",
+        "tweets": [
+            {
+                "text": "nice visual for why quantum frequency conversion is important between different optical frequencies.\nIt's probably as important and much harder between microwave and optical frequencies \n\n(funny the frequency difference is 50 dB larger, and sota rates are also very roughly 50 dB worse)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqT61THbAAA6t8H?format=jpg",
+                        "local_path": "media/20250507_020457_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-07T02:04:57+00:00"
+            },
+            {
+                "text": "Sundaram2025: [Heralded telecom single photons from a visible–telecom pair source on a hybrid PPKTP–PIC platform](https://doi.org/10.1364/OPTICAQ.546774…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqT8IOUbkAA5TB4?format=jpg",
+                        "local_path": "media/20250507_020548_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-07T02:05:48+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1919940042597789976",
+        "tweets": [
+            {
+                "text": "finally, a worthy opponent for cowboy style wirebonding\n\n(from RIT)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqT-8FybAAQvQAQ?format=jpg",
+                        "local_path": "media/20250507_021911_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-07T02:19:11+00:00"
+            },
+            {
+                "text": "Manfreda2024: [Generating high-dimensional entanglement using a foundry-fabricated photonic integrated circuit](https://doi.org/10.1364/OPTICAQ.500322…)\n[cover image](https://opg.optica.org/opticaq/journal/opticaq/toc/cover-opticaq-2-1.pdf…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqT_cRBbAAAdoa8?format=jpg",
+                        "local_path": "media/20250507_022014_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-07T02:20:14+00:00"
+            },
+            {
+                "text": "here are two from me from a couple years ago",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqT_t91aIAAlJOW?format=jpg",
+                        "local_path": "media/20250507_022159_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GqT_251bAAImVVD?format=jpg",
+                        "local_path": "media/20250507_022159_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-07T02:21:59+00:00"
+            },
+            {
+                "text": "fiber arrays on the top left, wirebonds on the bottom right",
+                "media": [],
+                "timestamp": "2025-05-07T16:46:23+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1920018132074189265",
+        "tweets": [
+            {
+                "text": "there are not enough SEMs of SNSPDs on this platform. time to change this.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqVGTE_bAAEGSXz?format=png",
+                        "local_path": "media/20250507_072929_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-07T07:29:29+00:00"
+            },
+            {
+                "text": "Grünenfelder2023: [Fast single-photon detectors and real-time key distillation enable high secret-key-rate quantum key distribution systems](https://doi.org/10.1038/s41566-023-01168-2…)\nHere's a good review about SNSPDs",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GpCS8v-aEAAtKH9?format=jpg",
+                        "local_path": "media/20250507_073138_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GpCTHdcbwAAXuuT?format=jpg",
+                        "local_path": "media/20250507_073138_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-07T07:31:38+00:00"
+            },
+            {
+                "text": "theres no junction, but there is some potential in using these pulses to drive qubits",
+                "media": [],
+                "timestamp": "2025-05-09T00:09:19+00:00"
+            },
+            {
+                "text": "https://x.com/jwt0625/status/1914191747133116700…\nit's a bunch of thin superconducting wires, and you can send a currrent close to where it breaks the superconductivity. Then whenever a photon hits it, it breaks the superconducting cooper pairs, generating a local hot spot that expands, making it no",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GpCS8v-aEAAtKH9?format=jpg",
+                        "local_path": "media/20250508_055001_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GpCTHdcbwAAXuuT?format=jpg",
+                        "local_path": "media/20250508_055001_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-08T05:50:01+00:00"
+            },
+            {
+                "text": "https://x.com/jwt0625/status/1914191747133116700…\nit's a bunch of thin superconducting wires, and you can send a currrent close to where it breaks the superconductivity. Then whenever a photon hits it, it breaks the superconducting cooper pairs, generating a local hot spot that expands, making it no",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GpCS8v-aEAAtKH9?format=jpg",
+                        "local_path": "media/20250508_055001_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GpCTHdcbwAAXuuT?format=jpg",
+                        "local_path": "media/20250508_055001_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-08T05:50:01+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1920288050942292059",
+        "tweets": [
+            {
+                "text": "blowing out a path for the em wave through the surrounding plasma during reentry",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqY6_I5XQAAWIAE?format=jpg",
+                        "local_path": "media/20250508_012203_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GqY7RoOWoAEho5V?format=jpg",
+                        "local_path": "media/20250508_012203_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-08T01:22:03+00:00"
+            },
+            {
+                "text": "Miyashita2025: [Communication blackout and aerodynamic heating reduction via air film for hypersonic spacecraft](https://doi.org/10.1063/5.0250348…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqY8GKuWEAExutd?format=jpg",
+                        "local_path": "media/20250508_012321_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-08T01:23:21+00:00"
+            },
+            {
+                "text": "maybe they won't have any atmosphere to worry about this",
+                "media": [],
+                "timestamp": "2025-05-08T14:25:06+00:00"
+            },
+            {
+                "text": "good question, idk",
+                "media": [],
+                "timestamp": "2025-05-09T00:11:58+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1920290697447448993",
+        "tweets": [
+            {
+                "text": "eww what",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqY9tVcXwAIbi-T?format=png",
+                        "local_path": "media/20250508_013234_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GqY-M0lWMAAdp8x?format=jpg",
+                        "local_path": "media/20250508_013234_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-08T01:32:34+00:00"
+            },
+            {
+                "text": "[Surgeons bid for medical first: Removing spinal tumor through patient’s eye](https://washingtonpost.com/science/2025/05/04/spinal-tumor-eye-socket-surgery-first…)",
+                "media": [],
+                "timestamp": "2025-05-08T01:33:45+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1920501269682086048",
+        "tweets": [
+            {
+                "text": "cassette tape but silicon (nitride) photonics",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gqb9j38WgAAlcj7?format=jpg",
+                        "local_path": "media/20250508_152918_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-08T15:29:18+00:00"
+            },
+            {
+                "text": "Ishimura2025: [Silicon-nitride photonic integrated waveguide for dual-polarization traveling-wave four-wave-mixing applications](https://doi.org/10.1364/OE.558777…)\nLook at it, may it one day be as big as actual cassette tapes",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gqb-AjQWkAAZ3dW?format=jpg",
+                        "local_path": "media/20250508_153113_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gqb-HbtWAAAQ-8r?format=png",
+                        "local_path": "media/20250508_153113_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-08T15:31:13+00:00"
+            },
+            {
+                "text": "not the best way, but in some cases it's the only way\nhere is one memory made with ultrasound in mercury tubes: Wilkes1948: [Ultrasonic Memory Unit](https://apt.cs.manchester.ac.uk/ftp/pub/CCS-Archive/misc/EDSAC/EDSAC%20Memory%20Text.pdf…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqfOnhNXsAA9qwJ?format=jpg",
+                        "local_path": "media/20250509_064215_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-09T06:42:15+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1920641090098524671",
+        "tweets": [
+            {
+                "text": "using 2D materials (MoS2) to sense E field from electrophysiological activity purely optically, because the fluorescence change by almost 1% from 1 mV. Pretty sick.\n\n(god bless the grad students that have to go thru this)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gqd2dFObMAImXmN?format=jpg",
+                        "local_path": "media/20250509_004454_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-09T00:44:54+00:00"
+            },
+            {
+                "text": "Ren2025: [Trionic all-optical biological voltage sensing via quantum statistics](https://doi.org/10.1038/s41566-025-01637-w…) ([also](https://rdcu.be/elgGt))",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gqd9O3WbMAIX7oP?format=jpg",
+                        "local_path": "media/20250509_004631_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-09T00:46:31+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1920696994575553015",
+        "tweets": [
+            {
+                "text": "dive activities in the 1960s vs 2010s",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqevaqrWAAAWZnF?format=jpg",
+                        "local_path": "media/20250509_042702_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-09T04:27:02+00:00"
+            },
+            {
+                "text": "Bell2025: [How little we’ve seen: A visual coverage estimate of the deep seafloor](https://doi.org/10.1126/sciadv.adp8602…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gqev1BUbcAEwORU?format=jpg",
+                        "local_path": "media/20250509_042747_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-09T04:27:47+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1920869505242460676",
+        "tweets": [
+            {
+                "text": "from a bunch of fundamental constants you could find electrons in materials are vibing at 10s to 100s of attoseconds, how would one image their motion?\n\nWe can use the fastest thing we have control over (femtosecond laser, gives you 5 fs laser pulses) to generate an electron pulse (100s of fs) to probe the sample, as well as use the same thing to gate that pulse right before it reaches the sample, down to ~600 as or 6e-16 s.\n\nThe gating is done with an optical pulse that is mostly circularly polarized except for half a cycle of linear polarization, and this part couples with the electrons and filters/scatters them in time domain.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqhJiXQbcAEyIC-?format=jpg",
+                        "local_path": "media/20250509_155232_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-09T15:52:32+00:00"
+            },
+            {
+                "text": "they measured how electrons dance in k space in graphene with it\nHui2024: [Attosecond electron microscopy and diffraction](https://doi.org/10.1126/sciadv.adp5805…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqhMxwCbcAMEiQw?format=jpg",
+                        "local_path": "media/20250509_155333_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-09T15:53:33+00:00"
+            },
+            {
+                "text": "I'm still confused how the polarization is changing along the gating pulse..",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqhSLwvXwAAeHJf?format=jpg",
+                        "local_path": "media/20250509_161749_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-09T16:17:49+00:00"
+            },
+            {
+                "text": "ok this is how it looks like, it's weird lol",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/amplify_video_thumb/1920876844145848320/img/LxCFgzZzHSUj0UTB.jpg",
+                        "local_path": "media/20250509_162219_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-09T16:22:19+00:00"
+            },
+            {
+                "text": "https://arxiv.org/abs/2411.14518",
+                "media": [],
+                "timestamp": "2025-05-10T18:35:35+00:00"
+            },
+            {
+                "text": "all i could say is the polarization of the gating pulse is not really \"linear for a half cycle\" as they claimed",
+                "media": [],
+                "timestamp": "2025-05-10T18:35:07+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1921090599307907414",
+        "tweets": [
+            {
+                "text": "the chip is watching you, with quantum eyes",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqkVqW7WgAAUPZ_?format=jpg",
+                        "local_path": "media/20250510_063105_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-10T06:31:05+00:00"
+            },
+            {
+                "text": "Huang2025: [Integrated optical entangled quantum vortex emitters](https://doi.org/10.1038/s41566-025-01620-5…) ([also](https://rdcu.be/elrvL))",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqkWCGdXQAAKTkZ?format=jpg",
+                        "local_path": "media/20250510_063315_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-10T06:33:15+00:00"
+            },
+            {
+                "text": "notice the specific routing layout to keep the path lengths identical, but it still needs phase compensation to correct for fab variations",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqkW-hPXEAAdt9k?format=jpg",
+                        "local_path": "media/20250510_063855_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-10T06:38:55+00:00"
+            },
+            {
+                "text": "lol like the geoglyphs?",
+                "media": [],
+                "timestamp": "2025-05-10T15:18:13+00:00"
+            },
+            {
+                "text": "yes\nlink is always in the first comment",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqkWCGdXQAAKTkZ?format=jpg",
+                        "local_path": "media/20250510_143455_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-10T14:34:55+00:00"
+            },
+            {
+                "text": "notice the specific routing layout to keep the path lengths identical, but it still needs phase compensation to correct for fab variations",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqkW-hPXEAAdt9k?format=jpg",
+                        "local_path": "media/20250510_063855_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-10T06:38:55+00:00"
+            },
+            {
+                "text": "lol like the geoglyphs?",
+                "media": [],
+                "timestamp": "2025-05-10T15:18:13+00:00"
+            },
+            {
+                "text": "yes\nlink is always in the first comment",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqkWCGdXQAAKTkZ?format=jpg",
+                        "local_path": "media/20250510_143455_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-10T14:34:55+00:00"
+            },
+            {
+                "text": "my pleasure",
+                "media": [],
+                "timestamp": "2025-05-10T14:33:27+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1921245073460679049",
+        "tweets": [
+            {
+                "text": "electro-optic coefficients of lithium niobate\n\n(WARNING: Sankey diagram does not support negative flow natively (?), hence two signs are wrong but they are as important)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqmhsLcWYAE2KqP?format=png",
+                        "local_path": "media/20250510_162216_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gqmcye0WAAArwYX?format=jpg",
+                        "local_path": "media/20250510_162216_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-10T16:22:16+00:00"
+            },
+            {
+                "text": "[chat](https://chatgpt.com/share/681f8291-a1ec-8011-90c0-0bd362d385b5…)\nWeis1985: [Lithium niobate: Summary of physical properties and crystal structure](https://doi.org/10.1007/BF00614817…) ([also](https://rdcu.be/eluR5))",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqmiPdhbcAAqDWZ?format=png",
+                        "local_path": "media/20250510_164640_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-10T16:46:40+00:00"
+            },
+            {
+                "text": "next step is to make this interactive while rotating the crystal",
+                "media": [],
+                "timestamp": "2025-05-10T17:19:22+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1921392130607694241",
+        "tweets": [
+            {
+                "text": "behold, imaging what someone is reading from almost 1 mile away, by pointing lasers at it and detect intensity interference of the reflection.\n\nwhat's the catch? I don't understand the reconstruction yet, but they are taking about 600 pairs of points in fourier space each with 2 s integration time, so that is ~20 min per frame/image \n\n(and they are \"cheating\" by rotating the target)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqokgmrWYAAu1O0?format=jpg",
+                        "local_path": "media/20250511_022916_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gqokm5Ma0AAqzgt?format=jpg",
+                        "local_path": "media/20250511_022916_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-11T02:29:16+00:00"
+            },
+            {
+                "text": "[Interferometer Device Sees Text from a Mile Away](https://physics.aps.org/articles/v18/99)\nLiu2025: [Active Optical Intensity Interferometry](https://doi.org/10.1103/PhysRevLett.134.180201…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqooRT0WkAA20Qy?format=jpg",
+                        "local_path": "media/20250511_023140_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/amplify_video_thumb/1921392518945820672/img/B3bKw-egHtI-h3kV.jpg",
+                        "local_path": "media/20250511_023140_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-11T02:31:40+00:00"
+            },
+            {
+                "text": "always has been",
+                "media": [],
+                "timestamp": "2025-05-11T16:26:13+00:00"
+            },
+            {
+                "text": "behold, imaging what someone is reading from almost 1 mile away, by pointing lasers at it and detect intensity interference of the reflection.\n\nwhat's the catch? I don't understand the reconstruction yet, but they are taking about 600 pairs of points in fourier space each with 2 s integration time, so that is ~20 min per frame/image \n\n(and they are \"cheating\" by rotating the target)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqokgmrWYAAu1O0?format=jpg",
+                        "local_path": "media/20250511_022916_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gqokm5Ma0AAqzgt?format=jpg",
+                        "local_path": "media/20250511_022916_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-11T02:29:16+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1921728212037509304",
+        "tweets": [
+            {
+                "text": "well how turn tables, edible lil boat made with fish food",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqtZBtiXQAAZD9m?format=jpg",
+                        "local_path": "media/20250512_004444_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-12T00:44:44+00:00"
+            },
+            {
+                "text": "it has microfluidics and moves around with Marangoni effect\nZhang2025: [Edible aquatic robots with Marangoni propulsion](https://doi.org/10.1038/s41467-025-59559-8…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqtaG4da8AA5T_q?format=jpg",
+                        "local_path": "media/20250512_004653_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-12T00:46:53+00:00"
+            },
+            {
+                "text": "[Eco-friendly aquatic robot is made from fish food (motion demonstration)](https://youtube.com/watch?v=dDmnoexVT5o…)",
+                "media": [],
+                "timestamp": "2025-05-12T00:47:19+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1921731398387355794",
+        "tweets": [
+            {
+                "text": "if you walk like a normie you are probably a bit safer from this.\n\n(from IARPA project BRIAR: Biometric Recognition and Identification at Altitude and Range)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqtcDhhWgAEdDl2?format=jpg",
+                        "local_path": "media/20250512_005724_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-12T00:57:24+00:00"
+            },
+            {
+                "text": "Liu2025: {Person Recognition at Altitude and Range: Fusion of Face, Body Shape and Gait](https://arxiv.org/abs/2505.04616)\nSee also [BRIAR - Biometric Recognition and Identification at Altitude and Range](https://iarpa.gov/research-programs/briar…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqtcyGyaYAAxyGR?format=jpg",
+                        "local_path": "media/20250512_005906_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-12T00:59:06+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1921804242202841538",
+        "tweets": [
+            {
+                "text": "a Rb atomic vapor cell, and optical contact bonding with prisms and mirrors",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqueXKhW0AArA2R?format=jpg",
+                        "local_path": "media/20250512_054651_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GqueqqfWUAAFWjJ?format=jpg",
+                        "local_path": "media/20250512_054651_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-12T05:46:51+00:00"
+            },
+            {
+                "text": "Yim2022: [Experimental setup to fabricate Rb–Xe gas cells for atom spin gyroscopes](https://doi.org/10.1063/5.0069211…)\nHong2025: [Fabrication of an Rb–Xe gas cell with optical components attached by optical contact bonding for an atom spin gyroscope](https://doi.org/10.1364/AO.554573…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GqufNhCaMAAoj-8?format=jpg",
+                        "local_path": "media/20250512_054901_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-12T05:49:01+00:00"
+            }
+        ]
+    }
+]

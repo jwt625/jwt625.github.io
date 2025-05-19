@@ -1,0 +1,944 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1875276985171419154",
+        "tweets": [
+            {
+                "text": "Their 3 mm diameter, 50 W continuous-wave single-mode photonic-crystal surface-emitting laser (PCSEL).\nLook at all the ribbon bonds to inject >100 A current into this little chip, liquid cooled with 6°C water.\n\nNo other semiconductor lasers could rival PCSEL's power density, linewidth (3 pm), and beam quality & divergence (0.05 deg), that are approaching gas, solid state, or fiber lasers.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgZQ1wyaYAAKlHK?format=jpg",
+                        "local_path": "media/20240809_045004_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GUg5lsXaQAAWhaV?format=jpg",
+                        "local_path": "media/20240809_045004_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GUg6UxLacAAR8KL?format=jpg",
+                        "local_path": "media/20240809_045004_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GUg6qvYa8AAr_Jh?format=jpg",
+                        "local_path": "media/20240809_045004_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-08-09T04:50:04+00:00"
+            },
+            {
+                "text": "Image from",
+                "media": [],
+                "timestamp": "2025-01-03T20:24:58+00:00"
+            },
+            {
+                "text": "specs from Yoshida2023: High-brightness scalable continuous-wave single-mode photonic-crystal laser",
+                "media": [],
+                "timestamp": "2025-01-03T20:25:41+00:00"
+            },
+            {
+                "text": "It's >10 yr of work from them to improve the single mode lasing condition, peak power, and finally CW operation.\nMorita2021: https://nature.com/articles/s41566-021-00771-5…\nYoshida2018: https://nature.com/articles/s41563-018-0242-y…\nHirose2014: https://nature.com/articles/nphoton.2014.75…\nEarly work done by a German group: Riechel2000:",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgZUjYba8AInE3G?format=jpg",
+                        "local_path": "media/20250103_203520_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-03T20:35:20+00:00"
+            },
+            {
+                "text": "I kind of don’t believe it, thats one in a million relative. Maybe it’s instantaneous and it’s shifting around crazy. Would be more convincing if they showed noise spectrum like in john bowers laser papers",
+                "media": [],
+                "timestamp": "2025-01-05T15:26:48+00:00"
+            },
+            {
+                "text": "Image from",
+                "media": [],
+                "timestamp": "2025-01-03T20:24:58+00:00"
+            },
+            {
+                "text": "specs from Yoshida2023: High-brightness scalable continuous-wave single-mode photonic-crystal laser",
+                "media": [],
+                "timestamp": "2025-01-03T20:25:41+00:00"
+            },
+            {
+                "text": "It's >10 yr of work from them to improve the single mode lasing condition, peak power, and finally CW operation.\nMorita2021: https://nature.com/articles/s41566-021-00771-5…\nYoshida2018: https://nature.com/articles/s41563-018-0242-y…\nHirose2014: https://nature.com/articles/nphoton.2014.75…\nEarly work done by a German group: Riechel2000:",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgZUjYba8AInE3G?format=jpg",
+                        "local_path": "media/20250103_203520_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-03T20:35:20+00:00"
+            },
+            {
+                "text": "I kind of don’t believe it, thats one in a million relative. Maybe it’s instantaneous and it’s shifting around crazy. Would be more convincing if they showed noise spectrum like in john bowers laser papers",
+                "media": [],
+                "timestamp": "2025-01-05T15:26:48+00:00"
+            },
+            {
+                "text": "cant wait for this to become a few bucks",
+                "media": [],
+                "timestamp": "2025-01-03T21:41:07+00:00"
+            },
+            {
+                "text": "Yeah looking at it makes me feel uncomfortable..\nAlso there are grain of rice size lasers with 50A and 50 W CW",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GUWwjJQasAAXsSV?format=jpg",
+                        "local_path": "media/20250103_231505_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GUWwm6Aa8AEJ39A?format=jpg",
+                        "local_path": "media/20250103_231505_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-03T23:15:05+00:00"
+            },
+            {
+                "text": "In their words: \"laser material processing, remote sensing, long-range free-space communications and even light propulsion for spaceflight\"\n(these are doable with other types of lasers, but semiconductor lasers have \"compactness, high efficiency and high controllability\")",
+                "media": [],
+                "timestamp": "2025-01-04T07:49:24+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1875588562009366964",
+        "tweets": [
+            {
+                "text": "Folks wrap your perforated hex metal sheet into a tube, you could also become a carbon nanotube researcher\n(In their case it’s a giant stainless steel cylinder with pillars from precision cnc milling..)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgdtuLAa8AAGRlr?format=jpg",
+                        "local_path": "media/20250104_170214_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GgdtuLMa8AMG2NU?format=jpg",
+                        "local_path": "media/20250104_170214_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-04T17:02:14+00:00"
+            },
+            {
+                "text": "Zheng2024: Surface-phononic carbon nanotubes",
+                "media": [],
+                "timestamp": "2025-01-04T17:03:36+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1875783911412003305",
+        "tweets": [
+            {
+                "text": "A nice review on using fiber Bragg grating (FBG) for temperature and strain-stress sensing in batteries.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GggfVKAa8AADf0a?format=jpg",
+                        "local_path": "media/20250105_055829_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-05T05:58:29+00:00"
+            },
+            {
+                "text": "Liu2024: Advanced Functional Optical Fiber Sensors for Smart Battery Monitoring",
+                "media": [],
+                "timestamp": "2025-01-05T05:59:10+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1875975188887847186",
+        "tweets": [
+            {
+                "text": "A titanium flexure mount for lateral alignment between a lens and an array of SNSPDs.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgjNV1xaQAA3ess?format=png",
+                        "local_path": "media/20250105_183833_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-05T18:38:33+00:00"
+            },
+            {
+                "text": "Wollman2024: SNSPD-based detector system for NASA’s Deep Space Optical Communications project\nhttps://doi.org/10.1364/OE.541425…",
+                "media": [],
+                "timestamp": "2025-01-05T18:39:04+00:00"
+            },
+            {
+                "text": "Nope it's from JPL.\nI've made on-chip ones much smaller.",
+                "media": [],
+                "timestamp": "2025-01-05T18:42:42+00:00"
+            },
+            {
+                "text": "What optomagnetic lens?",
+                "media": [],
+                "timestamp": "2025-01-06T05:00:48+00:00"
+            },
+            {
+                "text": "eventually yes, it's for Deep Space Optical Communications (DSOC) project",
+                "media": [],
+                "timestamp": "2025-01-05T21:23:29+00:00"
+            },
+            {
+                "text": "Definitely seems to have cte taken into consideration, like every arm could flex a bit",
+                "media": [],
+                "timestamp": "2025-01-06T00:58:55+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1876174537257283668",
+        "tweets": [
+            {
+                "text": "AR coated silicon microlens array for 25 um light. Look at the kilopixel one!",
+                "media": [],
+                "timestamp": "2025-01-06T07:50:41+00:00"
+            },
+            {
+                "text": "Left: Day2024: A 25-micrometer Single-Photon-Sensitive Kinetic Inductance Detector\nhttps://doi.org/10.1103/PhysRevX.14.041005…\nRight: Cothard2023: Monolithic Kilopixel Silicon Microlens Arrays for Future Far-Infrared Observatories\nhttps://arxiv.org/abs/2311.00819",
+                "media": [],
+                "timestamp": "2025-01-06T07:51:41+00:00"
+            },
+            {
+                "text": "People used to have fun and do reflow for the microlens. Now it's all spoiled kids doing grayscale lithography.\n(grayscale is cool)\nPopovic1988: Technique for monolithic fabrication of microlens arrays\nhttps://doi.org/10.1364/AO.27.001281…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgmDNOAa4AAX0pH?format=png",
+                        "local_path": "media/20250106_075431_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GgmDejtbUAAT7-L?format=png",
+                        "local_path": "media/20250106_075431_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-06T07:54:31+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1876181069227336153",
+        "tweets": [
+            {
+                "text": "Ok heat engines are information arbitrageurs, but when will we get information arbitrageurs as heat engines?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgmIjG-aoAACN_c?format=jpg",
+                        "local_path": "media/20250106_081639_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-06T08:16:39+00:00"
+            },
+            {
+                "text": "Leighton2024: Information Arbitrage in Bipartite Heat Engines",
+                "media": [],
+                "timestamp": "2025-01-06T08:17:26+00:00"
+            },
+            {
+                "text": "Interesting, there must be some links, even very basic ones like the more hyped up (hot) something is, the easier to make money etc",
+                "media": [],
+                "timestamp": "2025-01-06T16:00:03+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1876309497465249864",
+        "tweets": [
+            {
+                "text": "Another nice example of converting between time/frequency domain and spatial domain to achieve large bandwidth:\nA Rb vapor cell sits next to a magnet, so the Zeeman shift of the hyperfine levels are ~linear wrt. distance to the magnet, which changes the microwave frequency it gets excited at. A laser pulse pumps the atoms to the ground state, followed by the microwave excitation, and probe & imaging.\nAlthough the power detection limit is high, they achieved 13 GHz (>25 GHz expected after further optimization) instantaneous BW with 3 MHz resolution. Typical real-time spectrum analyzers give you few hundred MHz to few GHz.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Ggn7FMvaIAAjfEe?format=jpg",
+                        "local_path": "media/20250106_164658_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-06T16:46:58+00:00"
+            },
+            {
+                "text": "Shi2024: Broad Instantaneous Bandwidth Microwave Spectrum Analyzer with a Microfabricated Atomic Vapor Cell",
+                "media": [],
+                "timestamp": "2025-01-06T16:47:33+00:00"
+            },
+            {
+                "text": "Correction: they only demonstrated 1 GHz bw centered around 13 GHz, not 13 GHz bw. The potential 25 GHz bw was correct.",
+                "media": [],
+                "timestamp": "2025-01-06T22:16:45+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1876549649991164087",
+        "tweets": [
+            {
+                "text": "Interesting optical switch with \"PT-symmetry\": use gain to adjust the coupling rate so that it is optically controlled, and much much faster than MEMS alternative (100 ps vs 0.1~1 us). I'm usually a PT symmetry hater, but I like this!\nNow only if they could get the off state IL to be ~< 0.1 dB...",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgrV-MZbAAATeAx?format=jpg",
+                        "local_path": "media/20250107_084115_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GgrWZQ3bIAAGXgL?format=png",
+                        "local_path": "media/20250107_084115_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-07T08:41:15+00:00"
+            },
+            {
+                "text": "Feng2025: Non-Hermitian hybrid silicon photonic switching",
+                "media": [],
+                "timestamp": "2025-01-07T08:41:47+00:00"
+            },
+            {
+                "text": "The MEMS version from Ming Wu's group, very sick structures. The array is so big it is stitching multiple reticles. The IL and extinction are also much better.\nAnd since they are using pull-in effect, they only need 2n control lines for n^2 switches.\nSeok2019: Wafer-scale silicon",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgrYfzKb0AAvcRZ?format=jpg",
+                        "local_path": "media/20250107_084713_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GgrYmJGbQAASi30?format=jpg",
+                        "local_path": "media/20250107_084713_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-07T08:47:13+00:00"
+            },
+            {
+                "text": "This book: https://cambridge.org/core/books/silicon-photonics-design/BF3CF13E8542BCE67FD2BBC7104ECEAB…\nAnd there are plenty of reviews like this one: https://opg.optica.org/directpdfaccess/b779016f-e87c-467c-9a81fe4a93a3ce33_452788/jlt-39-13-4374.pdf…",
+                "media": [],
+                "timestamp": "2025-01-08T08:48:10+00:00"
+            },
+            {
+                "text": "Right?? Linear algebra of a 2x2 matrix..",
+                "media": [],
+                "timestamp": "2025-01-08T16:01:23+00:00"
+            },
+            {
+                "text": "Thats from the optical pump and actual gain",
+                "media": [],
+                "timestamp": "2025-01-07T09:06:48+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1876669862371885251",
+        "tweets": [
+            {
+                "text": "Does your model really bear the weight of your code name?\n(they have cool interactive 3d scenes on the demo website)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgtE3U2aIAAF8d2?format=jpg",
+                        "local_path": "media/20250107_163856_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-07T16:38:56+00:00"
+            },
+            {
+                "text": "https://freemty.github.io/project-prometheus/page1.html…",
+                "media": [],
+                "timestamp": "2025-01-07T16:39:12+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1876673857870057576",
+        "tweets": [
+            {
+                "text": "TIL all laser pointers above class 1 are banned in Switzerland, from owning to distributing.\nUS: don't promote lasers above class 3B as “laser pointers”.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgtHmvbaMAAc3Dl?format=jpg",
+                        "local_path": "media/20250107_165449_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-07T16:54:49+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2025-01-07T16:55:01+00:00"
+            },
+            {
+                "text": "The health hazard one is also good, but it’s on too many things",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgtU-IcbAAA7O_x?format=jpg",
+                        "local_path": "media/20250107_174752_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-07T17:47:52+00:00"
+            },
+            {
+                "text": "The health hazard one is also good, but it’s on too many things",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgtU-IcbAAA7O_x?format=jpg",
+                        "local_path": "media/20250107_174752_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-07T17:47:52+00:00"
+            },
+            {
+                "text": "lol irl crosshair overlay",
+                "media": [],
+                "timestamp": "2025-01-07T17:07:14+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1876819571803291914",
+        "tweets": [
+            {
+                "text": "First time seeing a calculator model described in the method ",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgvNPBdboAAs8lK?format=jpg",
+                        "local_path": "media/20250108_023350_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GgvNb7VbkAASZL2?format=png",
+                        "local_path": "media/20250108_023350_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-08T02:33:50+00:00"
+            },
+            {
+                "text": "Schreck2025: Wafer bow in diamond heteroepitaxy: Causes, their analytical description, and viable solutions",
+                "media": [],
+                "timestamp": "2025-01-08T02:34:26+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1876837778388144347",
+        "tweets": [
+            {
+                "text": "hmm directional coupler (DC) but bent to achieve a larger bandwidth.\nThe group velocity difference between the even and odd supermodes does not reach zero in a straight DC -> the coupling depends on wavelength to first order. It became possible with bent waveguide -> coupling can be tuned to be first order independent of wavelength.\n(still not really broadband)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgvTAmKbIAAtJuz?format=jpg",
+                        "local_path": "media/20250108_034610_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GgvTFzHbcAAyNus?format=jpg",
+                        "local_path": "media/20250108_034610_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-08T03:46:10+00:00"
+            },
+            {
+                "text": "Saeed2024: Low-Loss Silicon Directional Coupler with Arbitrary Coupling Ratios for Broadband Wavelength Operation Based on Bent Waveguides\nhttps://arxiv.org/abs/2404.06117\nThe idea is old as in early 2000s.\nDoerr2005: Bending of a Planar Lightwave Circuit 2 2 Coupler to Desensitize it to",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgveQv8a0AANhCV?format=png",
+                        "local_path": "media/20250108_034748_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GgveS4ybkAA0F1E?format=png",
+                        "local_path": "media/20250108_034748_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-08T03:47:48+00:00"
+            },
+            {
+                "text": "50+-1% for 200 nm is impressive!",
+                "media": [],
+                "timestamp": "2025-01-11T16:23:30+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1876885579880693774",
+        "tweets": [
+            {
+                "text": "Another freaking weird capacitor",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgwJW5uawAA-gR8?format=jpg",
+                        "local_path": "media/20241103_064522_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GgwJessasAAm-Bt?format=jpg",
+                        "local_path": "media/20241103_064522_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GbcLdZObAAAa1Fe?format=jpg",
+                        "local_path": "media/20241103_064522_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GbcMTlbaEAAJjVr?format=jpg",
+                        "local_path": "media/20241103_064522_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GbcMYvfbEAADzpe?format=jpg",
+                        "local_path": "media/20241103_064522_4.jpg"
+                    }
+                ],
+                "timestamp": "2024-11-03T06:45:22+00:00"
+            },
+            {
+                "text": "Anferov2024: Millimeter-wave Superconducting Quantum Devices\nhttps://schusterlab.stanford.edu/static/pdfs/Anferov_Thesis.pdf…",
+                "media": [],
+                "timestamp": "2025-01-08T06:56:42+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1877031011160056284",
+        "tweets": [
+            {
+                "text": "The unexpected poetry of PhD acknowledgements, from ANU College of Science and Medicine Communications Team.\nNot just the acknowledgements, look at these thesis titles.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgyNc8pagAEcNdE?format=png",
+                        "local_path": "media/20250108_163401_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-08T16:34:01+00:00"
+            },
+            {
+                "text": "https://science.anu.edu.au/news-events/news/unexpected-poetry-phd-acknowledgements…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GgyN47kaMAIZ9ZY?format=png",
+                        "local_path": "media/20250108_163442_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-08T16:34:42+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1877172788370305250",
+        "tweets": [
+            {
+                "text": "When IBM was still working on mechanical machines (electrostatic clutch)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg0Nf49aMAEpvL_?format=png",
+                        "local_path": "media/20250109_015723_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg0OoPbbQAA54DP?format=png",
+                        "local_path": "media/20250109_015723_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-09T01:57:23+00:00"
+            },
+            {
+                "text": "Fitch1957: Development of the Electrostatic Clutch",
+                "media": [],
+                "timestamp": "2025-01-09T01:58:04+00:00"
+            },
+            {
+                "text": "The newer ones from Carnegie Mellon\nDiller2016: A lightweight, low-power electroadhesive clutch and spring for exoskeleton actuation\nhttps://contrib.andrew.cmu.edu/~shc17/Diller_2016_ICRA.pdf…\nThey have a company: https://estat.tech/products/",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg0PQI6aEAAjR7l?format=jpg",
+                        "local_path": "media/20250109_020046_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg0PeO1aMAAKv2k?format=jpg",
+                        "local_path": "media/20250109_020046_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-09T02:00:46+00:00"
+            },
+            {
+                "text": "Wow what a sick idea",
+                "media": [],
+                "timestamp": "2025-01-09T06:46:57+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1877178692213809315",
+        "tweets": [
+            {
+                "text": "People used to do OCR with ~100 \"flops\" of compute, and ~10 kB/s \"memory bandwidth\", what's your excuse?\n(an IBM 650. It did cost \"$150,000 in 1959, or roughly $1,500,000 as of 2023\")",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg0R5Ema0AAzGmb?format=png",
+                        "local_path": "media/20250109_022051_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg0SB60aMAAp-2r?format=png",
+                        "local_path": "media/20250109_022051_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-09T02:20:51+00:00"
+            },
+            {
+                "text": "Greanias1957: Design of Logic for Recognition of Printed Characters by Simulation",
+                "media": [],
+                "timestamp": "2025-01-09T02:21:23+00:00"
+            },
+            {
+                "text": "Luxury indeed",
+                "media": [],
+                "timestamp": "2025-01-09T19:09:10+00:00"
+            },
+            {
+                "text": "god I love old documentaries",
+                "media": [],
+                "timestamp": "2025-01-09T04:01:04+00:00"
+            },
+            {
+                "text": "Wow",
+                "media": [],
+                "timestamp": "2025-01-09T18:09:14+00:00"
+            },
+            {
+                "text": "Luxury indeed",
+                "media": [],
+                "timestamp": "2025-01-09T19:09:10+00:00"
+            },
+            {
+                "text": "god I love old documentaries",
+                "media": [],
+                "timestamp": "2025-01-09T04:01:04+00:00"
+            },
+            {
+                "text": "Wow",
+                "media": [],
+                "timestamp": "2025-01-09T18:09:14+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1877382803823931558",
+        "tweets": [
+            {
+                "text": "TIL theres a nature protocol journal and it’s actually good: this paper on using optical resonator for biochem sensing has details about all aspects of it including math, fab, surface prep, optical coupling, packaging etc., with actual SOPs and part numbers etc.\n\nHow detailed it is? It has the best descriptions on what and how to make a tapered fiber than anywhere else I’ve seen, better than papers that are just about tapered fibers. (Their example transmission of it sucks tho you should be able to get >90%)\nThis honestly has changed my view a bit on this fashion magazine series called nature.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg3MSZXaMAESeUT?format=jpg",
+                        "local_path": "media/20250109_104108_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg3MSZYaMAIdRsC?format=jpg",
+                        "local_path": "media/20250109_104108_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg3MSZZbsAAOTG3?format=jpg",
+                        "local_path": "media/20250109_104108_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg3MSZaaMAEcnC0?format=jpg",
+                        "local_path": "media/20250109_104108_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-09T10:41:08+00:00"
+            },
+            {
+                "text": "heres mine in poor quality from a webcam",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GLrB83Ba0AA6mxT?format=jpg",
+                        "local_path": "media/20250109_171002_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-09T17:10:02+00:00"
+            },
+            {
+                "text": "Yep",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GXSEAgEbgAMZ0hk?format=png",
+                        "local_path": "media/20250109_180811_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GXSEFo9aUAAKTOk?format=png",
+                        "local_path": "media/20250109_180811_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GXSEGrJbgAEmKVK?format=png",
+                        "local_path": "media/20250109_180811_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1834240537811189761/pu/img/KHp7tFazPj6aQwqS.jpg",
+                        "local_path": "media/20250109_180811_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-09T18:08:11+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1877540668735893694",
+        "tweets": [
+            {
+                "text": "TIL the Super-Kamiokande has a realtime monitor that shows you the map of signals from the ~13,000 photomultiplier tubes. It updates every few seconds, as cosmic ray muon events are ~2 Hz.\nHere is a fresh screenshot I just took.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg5dMssbgAAKrb1?format=jpg",
+                        "local_path": "media/20240712_061349_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GSRBdrjagAIPLZy?format=png",
+                        "local_path": "media/20240712_061349_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-07-12T06:13:49+00:00"
+            },
+            {
+                "text": "https://www-sk.icrr.u-tokyo.ac.jp/realtimemonitor/…",
+                "media": [],
+                "timestamp": "2025-01-10T02:19:44+00:00"
+            },
+            {
+                "text": "Because I saw this vid this morning",
+                "media": [],
+                "timestamp": "2025-01-10T02:21:15+00:00"
+            },
+            {
+                "text": "Hamamatsu has an article about the tv-sized PMT\nhttps://hamamatsu.com/jp/en/why-hamamatsu/20inch-pmts.html…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg5ehUwaMAERkxi?format=jpg",
+                        "local_path": "media/20250110_022454_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg5ejAWaMAAE2tW?format=png",
+                        "local_path": "media/20250110_022454_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-10T02:24:54+00:00"
+            },
+            {
+                "text": "They are building a newer one that holds 5x more water and uses ~4x more PMTs\nhttps://www-sk.icrr.u-tokyo.ac.jp/en/hk/about/outline/…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg5gBoxaMAEOo0d?format=jpg",
+                        "local_path": "media/20250110_023318_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg5gVg5aMAE1xPA?format=jpg",
+                        "local_path": "media/20250110_023318_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-10T02:33:18+00:00"
+            },
+            {
+                "text": "TIL the Super-Kamiokande has a realtime monitor that shows you the map of signals from the ~13,000 photomultiplier tubes. It updates every few seconds, as cosmic ray muon events are ~2 Hz.\nHere is a fresh screenshot I just took.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg5dMssbgAAKrb1?format=jpg",
+                        "local_path": "media/20240712_061349_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GSRBdrjagAIPLZy?format=png",
+                        "local_path": "media/20240712_061349_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-07-12T06:13:49+00:00"
+            },
+            {
+                "text": "https://www-sk.icrr.u-tokyo.ac.jp/realtimemonitor/…",
+                "media": [],
+                "timestamp": "2025-01-10T02:19:44+00:00"
+            },
+            {
+                "text": "Because I saw this vid this morning",
+                "media": [],
+                "timestamp": "2025-01-10T02:21:15+00:00"
+            },
+            {
+                "text": "Hamamatsu has an article about the tv-sized PMT\nhttps://hamamatsu.com/jp/en/why-hamamatsu/20inch-pmts.html…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg5ehUwaMAERkxi?format=jpg",
+                        "local_path": "media/20250110_022454_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg5ejAWaMAAE2tW?format=png",
+                        "local_path": "media/20250110_022454_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-10T02:24:54+00:00"
+            },
+            {
+                "text": "They are building a newer one that holds 5x more water and uses ~4x more PMTs\nhttps://www-sk.icrr.u-tokyo.ac.jp/en/hk/about/outline/…",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg5gBoxaMAEOo0d?format=jpg",
+                        "local_path": "media/20250110_023318_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg5gVg5aMAE1xPA?format=jpg",
+                        "local_path": "media/20250110_023318_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-10T02:33:18+00:00"
+            },
+            {
+                "text": "Wow, nice",
+                "media": [],
+                "timestamp": "2025-01-10T02:59:21+00:00"
+            },
+            {
+                "text": "not sure. I guess you could process that gif file?",
+                "media": [],
+                "timestamp": "2025-01-10T05:54:56+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2025-01-10T06:15:20+00:00"
+            },
+            {
+                "text": "Yes",
+                "media": [],
+                "timestamp": "2025-01-11T03:24:14+00:00"
+            },
+            {
+                "text": "That's a beautiful trace!",
+                "media": [],
+                "timestamp": "2025-01-11T01:27:40+00:00"
+            },
+            {
+                "text": "This is beautiful.",
+                "media": [],
+                "timestamp": "2025-01-10T08:36:22+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1877546334808584362",
+        "tweets": [
+            {
+                "text": "Hello my Korean friends, would you like some Japanese neutrinos today?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg5iSGiaMAAWjJd?format=jpg",
+                        "local_path": "media/20250110_024143_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-10T02:41:43+00:00"
+            },
+            {
+                "text": "Lodovico2017: The Hyper-Kamiokande Experiment\nhttps://iopscience.iop.org/article/10.1088/1742-6596/888/1/012020/meta…",
+                "media": [],
+                "timestamp": "2025-01-10T02:43:00+00:00"
+            },
+            {
+                "text": "Lol please be pointing their off axis beam to Japan",
+                "media": [],
+                "timestamp": "2025-01-10T15:21:51+00:00"
+            },
+            {
+                "text": "Nice.\nI’m not that familiar but there are folks who worked on similar project in the comments",
+                "media": [],
+                "timestamp": "2025-01-10T19:35:03+00:00"
+            },
+            {
+                "text": "I hope it’s gonna be randomly one of the three flavors lol",
+                "media": [],
+                "timestamp": "2025-01-10T02:50:02+00:00"
+            },
+            {
+                "text": "lool",
+                "media": [],
+                "timestamp": "2025-01-10T07:34:37+00:00"
+            },
+            {
+                "text": "Technically nothing, it just shoots thru everything without interacting most most most of the time",
+                "media": [],
+                "timestamp": "2025-01-10T15:23:16+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1877625574849384526",
+        "tweets": [
+            {
+                "text": "Another crazy capacitor, few hundred um diameter parallel plate with down to 75 nm vacuum gap.\nThe paper included many process details, stress tuning, failure modes at different steps, actual pictures of the wafers and the packaging, and example layout, very nice.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg6ni6UaMAAZ8-O?format=jpg",
+                        "local_path": "media/20250108_065607_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg6pQuvaMAEbtmE?format=jpg",
+                        "local_path": "media/20250108_065607_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg6prEAaMAMVHiU?format=jpg",
+                        "local_path": "media/20250108_065607_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GgwJW5uawAA-gR8?format=jpg",
+                        "local_path": "media/20250108_065607_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GgwJessasAAm-Bt?format=jpg",
+                        "local_path": "media/20250108_065607_4.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-08T06:56:07+00:00"
+            },
+            {
+                "text": "Saw this process in 2022, and they finally wrote it up after a few big papers.\nYoussefi2025: Compact superconducting vacuum-gap capacitors with low microwave loss and high mechanical coherence for scalable quantum circuits",
+                "media": [],
+                "timestamp": "2025-01-10T07:57:19+00:00"
+            },
+            {
+                "text": "See also",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfQU02RasAADI2Y?format=jpg",
+                        "local_path": "media/20250110_075815_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-10T07:58:15+00:00"
+            },
+            {
+                "text": "Damn they changed all the names and affiliations on GRC website to be pngs..\nhttps://grc.org/mechanical-systems-in-the-quantum-regime-conference/2022/…",
+                "media": [],
+                "timestamp": "2025-01-10T08:02:09+00:00"
+            },
+            {
+                "text": "Another crazy capacitor, few hundred um diameter parallel plate with down to 75 nm vacuum gap.\nThe paper included many process details, stress tuning, failure modes at different steps, actual pictures of the wafers and the packaging, and example layout, very nice.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg6ni6UaMAAZ8-O?format=jpg",
+                        "local_path": "media/20250108_065607_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg6pQuvaMAEbtmE?format=jpg",
+                        "local_path": "media/20250108_065607_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gg6prEAaMAMVHiU?format=jpg",
+                        "local_path": "media/20250108_065607_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GgwJW5uawAA-gR8?format=jpg",
+                        "local_path": "media/20250108_065607_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GgwJessasAAm-Bt?format=jpg",
+                        "local_path": "media/20250108_065607_4.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-08T06:56:07+00:00"
+            },
+            {
+                "text": "Saw this process in 2022, and they finally wrote it up after a few big papers.\nYoussefi2025: Compact superconducting vacuum-gap capacitors with low microwave loss and high mechanical coherence for scalable quantum circuits",
+                "media": [],
+                "timestamp": "2025-01-10T07:57:19+00:00"
+            },
+            {
+                "text": "See also",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GfQU02RasAADI2Y?format=jpg",
+                        "local_path": "media/20250110_075815_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-10T07:58:15+00:00"
+            },
+            {
+                "text": "Damn they changed all the names and affiliations on GRC website to be pngs..\nhttps://grc.org/mechanical-systems-in-the-quantum-regime-conference/2022/…",
+                "media": [],
+                "timestamp": "2025-01-10T08:02:09+00:00"
+            }
+        ]
+    }
+]
