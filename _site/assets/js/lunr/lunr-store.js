@@ -432,8 +432,14 @@ var store = [{
         "teaser": null
       },{
         "title": "This week's outside five sigma (#47)",
-        "excerpt":"# Wafer-scale TiO2 metalens manufacturing 4 mm metalens arrays on 8 in wafers, from UMass Amherst ![20250513_035728_0.jpg](/assets/images/2025/20250316_20250518/20250513_035728_0.jpg) - Jung2025: [Full Wafer Scale Manufacturing of Directly Printed TiO2 Metalenses at Visible Wavelengths with Outstanding Focusing Efficiencies](https://doi.org/10.1002/adma.202500327) ![20250513_035830_0.jpg](/assets/images/2025/20250316_20250518/20250513_035830_0.jpg) ![20250513_035830_1.jpg](/assets/images/2025/20250316_20250518/20250513_035830_1.jpg) # Deep tissue ultrasonic in vivo printing deep tissue in vivo sound printing...","categories": ["OFS"],
+        "excerpt":"Wafer-scale TiO2 metalens manufacturing 4 mm metalens arrays on 8 in wafers, from UMass Amherst Jung2025: Full Wafer Scale Manufacturing of Directly Printed TiO2 Metalenses at Visible Wavelengths with Outstanding Focusing Efficiencies Deep tissue ultrasonic in vivo printing deep tissue in vivo sound printing (DISP) from caltech (I only understand...","categories": ["OFS"],
         "tags": ["Ultrasonic","Liposomes","Metalens","TFLN","Photonics","Quantum_computing","Photodiode","Solitons","Fiber_optics","Bioluminescence","fNIRS","Optical_communication","Magnetometer","Random_lasers","Acoustofluidics","SiC","Laser_ablation","Optical_phased_array","Beam_steering","Butler_matrix"],
         "url": "/ofs/weekly-OFS-47/",
+        "teaser": null
+      },{
+        "title": "This week's outside five sigma (#48)",
+        "excerpt":"Square-core fiber Talbot effect first time seeing a square-core fiber (SCF), and you get nice patterns from Talbot effect Jung2025: High-efficiency multi-spot beam generation with an all-fiber SMF-SCF structure another good looking talbot effect Interferometric focal planes not sure how I feel about this.. Brady2025: Interferometric focal planes Tunable narrow-linewidth...","categories": ["OFS"],
+        "tags": ["PCSEL","Nanotube","Optics","Flexure","RSA","Microwave","Optical_switch","MEMS","Photonics","Capacitor","OCR","WGM","Taper","Neutrino","Calorimeter","Acoustics","NIST","Quantum_computing","Ultrasonic_imaging","Leidenfrost","Superconducting_circuits","Waveguide","Semiconductor","LIDAR","Frequency_comb","Satellite_gravimetry","EDFA","Annealing","ALD","VCSEL"],
+        "url": "/ofs/weekly-OFS-48/",
         "teaser": null
       }]
