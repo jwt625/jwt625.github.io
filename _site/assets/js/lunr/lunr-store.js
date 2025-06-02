@@ -442,4 +442,10 @@ var store = [{
         "tags": ["PCSEL","Nanotube","Optics","Flexure","RSA","Microwave","Optical_switch","MEMS","Photonics","Capacitor","OCR","WGM","Taper","Neutrino","Calorimeter","Acoustics","NIST","Quantum_computing","Ultrasonic_imaging","Leidenfrost","Superconducting_circuits","Waveguide","Semiconductor","LIDAR","Frequency_comb","Satellite_gravimetry","EDFA","Annealing","ALD","VCSEL"],
         "url": "/ofs/weekly-OFS-48/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#49)",
+        "excerpt":"Fiber-to-chip coupler with sub-dB loss self-aligning broadband fiber to chip coupler with &lt; 0.5 dB loss! it’s so broadband their source can’t measure the 1 dB excess IL BW (I like this a lot, except I thought the pins are thru the chip with DSE but they are actually also...","categories": ["OFS"],
+        "tags": ["PCSEL","Nanotube","Lens","Optics","Flexure","RSA","Microwave","Optical_switch","MEMS","Photonics","Capacitor","WGM","Taper","Neutrino","Calorimeter","Acoustics","NIST","Inverse_design","Quantum_computing","Ultrasonic_imaging","Leidenfrost","Superconducting_circuits","Waveguide","Semiconductor","WFE","Applied_materials","ASML","Photoacoustic","LIDAR","Frequency_comb"],
+        "url": "/ofs/weekly-OFS-49/",
+        "teaser": null
       }]
