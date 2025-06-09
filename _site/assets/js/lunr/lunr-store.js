@@ -448,4 +448,10 @@ var store = [{
         "tags": ["PCSEL","Nanotube","Lens","Optics","Flexure","RSA","Microwave","Optical_switch","MEMS","Photonics","Capacitor","WGM","Taper","Neutrino","Calorimeter","Acoustics","NIST","Inverse_design","Quantum_computing","Ultrasonic_imaging","Leidenfrost","Superconducting_circuits","Waveguide","Semiconductor","WFE","Applied_materials","ASML","Photoacoustic","LIDAR","Frequency_comb"],
         "url": "/ofs/weekly-OFS-49/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#50)",
+        "excerpt":"Pockels laser with tunable DBR Q: where would you do the first bond, on the chip or on the pin? (laser with RSOA + LNOI electro-optic tunable DBR mirror) Ultrafast photonic integrated Pockels laser sets a new benchmark Siddharth2025: Ultrafast tunable photonic-integrated extended-DBR Pockels laser, also MZI with ring for...","categories": ["OFS"],
+        "tags": ["MZI","Laser_locking","Optics","Photonics","MEMS","OPA","LIDAR","Ohio_scanner","FaaS","Mid_IR","Silicon_photonics","Multipass_cell","Quantum_AI","Blockchain_manufacturing","OLED","NIR","Astrophotography","Lithium_niobate","SHG","Nanoimprinting","Pockels_laser","Silicide"],
+        "url": "/ofs/weekly-OFS-50/",
+        "teaser": null
       }]
