@@ -1,0 +1,1014 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1931602427146613087",
+        "tweets": [
+            {
+                "text": "I really like that they use the process (silicon etch) and the fiber ferrule to align the SNSPD to the fiber",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gs5tbWuaQAAdDEe?format=jpg",
+                        "local_path": "media/20250105_184939_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gs5t949aEAAMNnw?format=jpg",
+                        "local_path": "media/20250105_184939_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gs5t-vCaoAEbNSs?format=jpg",
+                        "local_path": "media/20250105_184939_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GgjQAvUbMAAiDDa?format=jpg",
+                        "local_path": "media/20250105_184939_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GgjQBo0awAAn2UL?format=jpg",
+                        "local_path": "media/20250105_184939_4.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-05T18:49:39+00:00"
+            },
+            {
+                "text": "[Quantum Opus](https://quantumopus.com/web/)\n\n[Duke - MIST - Superdense Quantum Teleportation](https://mist.pratt.duke.edu/research/superdense-quantum-teleportation…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gs5u38WboAADMve?format=jpg",
+                        "local_path": "media/20250608_064430_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-08T06:44:30+00:00"
+            },
+            {
+                "text": "and directly wirebonded to the bottom of a surface mount SMP connector\n\n(not exactly this one)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gs5vgMsbkAEjlo5?format=png",
+                        "local_path": "media/20250608_064927_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gs5vqf9aQAA-e1K?format=png",
+                        "local_path": "media/20250608_064927_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-08T06:49:27+00:00"
+            },
+            {
+                "text": "probably the standard bosch process deep silicon etch, mems people use it a lot. id guess they just get a thinner wafer and etch thru the whole wafer, either on a carrier or leave some tethers to hold the lil chips\n\nI've done it many times myself, theres a paper finishing up and",
+                "media": [],
+                "timestamp": "2025-06-08T14:59:20+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1931862950828277809",
+        "tweets": [
+            {
+                "text": "was thinking about P2P LLM inference like BitTorrent earlier today, apparent it's been done, and dead (?)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gs9az7laYAEpuP1?format=jpg",
+                        "local_path": "media/20250608_235634_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gs9bFZxbQAAeu4r?format=png",
+                        "local_path": "media/20250608_235634_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-08T23:56:34+00:00"
+            },
+            {
+                "text": "[Petals](https://petals.dev)",
+                "media": [],
+                "timestamp": "2025-06-08T23:57:50+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1932093754846118181",
+        "tweets": [
+            {
+                "text": "scary amount of modes in a hollow core photonic crystal fiber",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtAs9mFaUAA3AHR?format=jpg",
+                        "local_path": "media/20250609_151342_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-09T15:13:42+00:00"
+            },
+            {
+                "text": "Melli2025: [Analytical Framework for Mode-Coupling in Hollow-Core Inhibited-Coupling Fibers](https://doi.org/10.1109/JLT.2025.3548304…)",
+                "media": [],
+                "timestamp": "2025-06-09T15:15:15+00:00"
+            },
+            {
+                "text": "the red ish region, where the modes hybridize",
+                "media": [],
+                "timestamp": "2025-06-10T06:46:21+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1932281339631612031",
+        "tweets": [
+            {
+                "text": "the \"fake\" spatial audio vs the real spatial audio",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtDXgEua8AAWUK4?format=jpg",
+                        "local_path": "media/20250610_033906_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtDXnFzb0AAGT1H?format=jpg",
+                        "local_path": "media/20250610_033906_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-10T03:39:06+00:00"
+            },
+            {
+                "text": "Westerberg2025: [SoLoArc: A device for free field multiplanar sound localization testing](https://doi.org/10.1121/10.0036806…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtDX3WmbcAAsAZq?format=jpg",
+                        "local_path": "media/20250610_034034_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtDX5WjakAAPckJ?format=jpg",
+                        "local_path": "media/20250610_034034_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-10T03:40:34+00:00"
+            },
+            {
+                "text": "ohh it must feel so good to mesh this ear\n\n[Mesh2HRTF - Numerical calculation of the head-related tranfer functions by the use of the Burton-Miller collocation boundary-element method coupled with the multi-level fast multipole method](https://mesh2hrtf.org)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtDczaaagAAnqJe?format=jpg",
+                        "local_path": "media/20250610_040215_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-10T04:02:15+00:00"
+            },
+            {
+                "text": "head-related transfer function? didnt know theres a name for it",
+                "media": [],
+                "timestamp": "2025-06-10T03:43:12+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1932292397813424141",
+        "tweets": [
+            {
+                "text": "why did they made the back of the grating coupler with pointy tapers? i have one theory but it is not very convincing.\ncould also see two shallow craters likely from tiny dirts during the bonding process",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtDgllKa4AAojm4?format=jpg",
+                        "local_path": "media/20250610_041638_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtDf7UIakAA3yKA?format=jpg",
+                        "local_path": "media/20250610_041638_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-10T04:16:38+00:00"
+            },
+            {
+                "text": "not sure how strong it would be compared to BR from the left end of the grating. Maybe they found it helps",
+                "media": [],
+                "timestamp": "2025-06-10T05:05:59+00:00"
+            },
+            {
+                "text": "reducing backreflection is my guess",
+                "media": [],
+                "timestamp": "2025-06-13T15:58:55+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1932302640450523482",
+        "tweets": [
+            {
+                "text": "CPU clock rate and core count trends\nguess what the thesis is about?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtDq1B3bQAEgdN1?format=jpg",
+                        "local_path": "media/20250610_050344_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtDq6QKboAEWxEC?format=jpg",
+                        "local_path": "media/20250610_050344_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-10T05:03:44+00:00"
+            },
+            {
+                "text": "Li2025: [Ultrafast Computing With Nonlinear Photonics](https://proquest.com/docview/3195715579…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtDrQb2bEAAm-87?format=jpg",
+                        "local_path": "media/20250610_050449_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-10T05:04:49+00:00"
+            },
+            {
+                "text": "there are plenty above 3 GHz? you might be looking at the 4 GHz line",
+                "media": [],
+                "timestamp": "2025-06-10T05:38:37+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1932465706869866836",
+        "tweets": [
+            {
+                "text": "pretty sure a while ago I saw a similar robot from one of the big telcos also moving around and capable of unplugging and plugging fibers. Can't find it now...\nthis kind of search is hard, sometimes I only remember things like one of the figure is mostly red, and the authors names are probably italian, need multimodal RAG.\n\n(I have a RAG endpoint for my tweet backups but have not built a nice frontend yet)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtF-4i0aQAAAalf?format=png",
+                        "local_path": "media/20250609_163145_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/amplify_video_thumb/1932112882566901760/img/MvIC09oHYlSPPqpA.jpg",
+                        "local_path": "media/20250609_163145_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-09T16:31:45+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1932669972050014537",
+        "tweets": [
+            {
+                "text": "toilet auger but for blood clots",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtI4mkQasAA9rAn?format=jpg",
+                        "local_path": "media/20250611_052323_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtI4omobkAAlxfW?format=jpg",
+                        "local_path": "media/20250611_052323_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-11T05:23:23+00:00"
+            },
+            {
+                "text": "they spin this lil thing at up to 40k rpm holy smokes\n\nChang2025: [Milli-spinner thrombectomy](https://doi.org/10.1038/s41586-025-09049-0…), [also](https://rdcu.be/eqsqe)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtI5yucbkAA3eDf?format=jpg",
+                        "local_path": "media/20250611_052731_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-11T05:27:31+00:00"
+            },
+            {
+                "text": "fair point. It's just the inside and the end tip are rotating, and the speed is so high it's probably faster than the lateral shaking could catch up",
+                "media": [],
+                "timestamp": "2025-06-11T05:35:19+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1932678964797190349",
+        "tweets": [
+            {
+                "text": "\"this meeting is not a webinar, it's a place to do business\"",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtJAKUgbMAIMjrU?format=jpg",
+                        "local_path": "media/20250611_055907_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtJAgN2a8AA7b0v?format=jpg",
+                        "local_path": "media/20250611_055907_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtJBARibMAMSzmT?format=jpg",
+                        "local_path": "media/20250611_055907_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtJBN5zbMAUfAkV?format=jpg",
+                        "local_path": "media/20250611_055907_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-11T05:59:07+00:00"
+            },
+            {
+                "text": "[REPLAY: Optica Online Technology Meeting Tuesday, June 10th 2025 Co-Packaged and Pluggable Optics](https://youtube.com/watch?v=3gqioLBi7dc…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtJBjHna0AADvOZ?format=jpg",
+                        "local_path": "media/20250611_060222_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtJBq6ebcAAESsi?format=jpg",
+                        "local_path": "media/20250611_060222_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtJBxv3bMAQRjRr?format=jpg",
+                        "local_path": "media/20250611_060222_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtJB6ijbMAMceqg?format=jpg",
+                        "local_path": "media/20250611_060222_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-11T06:02:22+00:00"
+            },
+            {
+                "text": "",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtJCOYkbkAAUial?format=jpg",
+                        "local_path": "media/20250611_060846_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtJCRygbAAAJU24?format=jpg",
+                        "local_path": "media/20250611_060846_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtJDLdMboAAaolZ?format=jpg",
+                        "local_path": "media/20250611_060846_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtJDeHobMAA0pH-?format=jpg",
+                        "local_path": "media/20250611_060846_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-11T06:08:46+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1932815469293285433",
+        "tweets": [
+            {
+                "text": "finally some expectation for 2000 superconducting logical qubits, 2033!",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtK9VobbsAAw_Ge?format=jpg",
+                        "local_path": "media/20250611_150132_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-11T15:01:32+00:00"
+            },
+            {
+                "text": "[How IBM will build the world's first large-scale, fault-tolerant quantum computer](https://ibm.com/quantum/blog/large-scale-ftqc…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtK-DY0aEAA-Gbi?format=jpg",
+                        "local_path": "media/20250611_150418_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtK-DZDbMAE6_Zt?format=jpg",
+                        "local_path": "media/20250611_150418_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtK-DZba0AAJN-v?format=png",
+                        "local_path": "media/20250611_150418_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-11T15:04:18+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1933002846892667234",
+        "tweets": [
+            {
+                "text": "TIL stanford OTL has an annual income of ~$60M and growing at ~15% (from the last two datapoints)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtNnXvRbMAg3KAG?format=jpg",
+                        "local_path": "media/20250612_032606_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtNnasNbMAMYcDn?format=jpg",
+                        "local_path": "media/20250612_032606_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-12T03:26:06+00:00"
+            },
+            {
+                "text": "[Stanford Office of Technology Licensing - Annual Reports](https://otl.stanford.edu/about/annual-reports…)",
+                "media": [],
+                "timestamp": "2025-06-12T03:27:14+00:00"
+            },
+            {
+                "text": "numbers from 2005\n\n[FY2004-2005: 35 Years of Technologies That Made a Difference](https://otl.stanford.edu/sites/g/files/sbiybj16766/files/media/file/otlar05.pdf…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtNoX7RbAAAzsM8?format=jpg",
+                        "local_path": "media/20250612_032904_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtNobbBbQAAmeS9?format=jpg",
+                        "local_path": "media/20250612_032904_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-12T03:29:04+00:00"
+            },
+            {
+                "text": "Top 3 Revenue-Producing Inventions by decade\n\n[FY2009-2010: 40 Years of Discovery](https://otl.stanford.edu/sites/g/files/sbiybj16766/files/media/file/otlar10.pdf…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtNtIbpbMAACpba?format=jpg",
+                        "local_path": "media/20250612_034939_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-12T03:49:39+00:00"
+            },
+            {
+                "text": "revenue by year, it's actually fluctuating a lot",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtN9aIsbMAMt_mp?format=png",
+                        "local_path": "media/20250612_050034_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-12T05:00:34+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1933189398264434844",
+        "tweets": [
+            {
+                "text": "isn't it a crime that we do not have an ai model yet to tell you the best guesses of the etch recipes from an SEM image?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtQRTlxagAAJhDs?format=jpg",
+                        "local_path": "media/20250612_154724_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-12T15:47:24+00:00"
+            },
+            {
+                "text": "Rahman2025: [High-performance Hybrid Lithium Niobate Electro-optic Modulators Integrated with Low-loss Silicon Nitride Waveguides on a Wafer-scale Silicon Photonics Platform](https://arxiv.org/abs/2504.00311v2…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtQRqNMbYAE_b7G?format=jpg",
+                        "local_path": "media/20250612_154830_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-12T15:48:30+00:00"
+            },
+            {
+                "text": "don't you want something to learn everyone's trial and error for everyone else, so everyone could trial and error on more and different things",
+                "media": [],
+                "timestamp": "2025-06-12T15:50:00+00:00"
+            },
+            {
+                "text": "could also be XeF2, but it's usually smoother",
+                "media": [],
+                "timestamp": "2025-06-13T02:09:31+00:00"
+            },
+            {
+                "text": "yeees\ni also have 10k+ SEMs sitting around, but the high quality and dedup ones are much fewer",
+                "media": [],
+                "timestamp": "2025-06-13T14:24:24+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2025-06-13T18:05:15+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1933350469163970569",
+        "tweets": [
+            {
+                "text": "TIL people do arrays of micro-glassblowing on a wafer for, you guessed it, CSACs",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSjqKhbMAE7lUT?format=jpg",
+                        "local_path": "media/20250604_020529_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSj4JvbMAIK5UO?format=jpg",
+                        "local_path": "media/20250604_020529_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSj77qbMAEdWXX?format=jpg",
+                        "local_path": "media/20250604_020529_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GskIK_PasAMOV0P?format=jpg",
+                        "local_path": "media/20250604_020529_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-04T02:05:29+00:00"
+            },
+            {
+                "text": "Eklund2007: [Glass Blowing on a Wafer Level](https://escholarship.org/content/qt1hc3c4hk/qt1hc3c4hk.pdf…)\nSenkal2014: [MEMS micro-glassblowing paradigm for wafer-level fabrication of fused silica wineglass gyroscopes](https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2014/09/Eurosensors_2014.pdf…)\nSenkal2012: [Titania silicate / fused quartz glassblowing for 3-D",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSkmrVbMAA6_J_?format=jpg",
+                        "local_path": "media/20250613_023043_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSkq7kaoAAH4d6?format=png",
+                        "local_path": "media/20250613_023043_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSksC1bMAImIm2?format=jpg",
+                        "local_path": "media/20250613_023043_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSkvy5bMAYUfmi?format=jpg",
+                        "local_path": "media/20250613_023043_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T02:30:43+00:00"
+            },
+            {
+                "text": "https://x.com/jwt0625/status/1897880643427877364…\nthis reminded me that i didnt thought of how OQmented made the glass dome for their MEMS scanner, and turns out they just say it's \"special 3D shaped glass opto-packaging\"\nPohl2021: [Wide angle LiDAR demonstrator based on a resonantly operated 1D MEMS",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSmiULbUAAnUtT?format=jpg",
+                        "local_path": "media/20250613_024107_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSmxl7a4AA-GZ9?format=jpg",
+                        "local_path": "media/20250613_024107_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GlafJu3bwAIsCnK?format=jpg",
+                        "local_path": "media/20250613_024107_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GlafjR1bwAM8XEm?format=jpg",
+                        "local_path": "media/20250613_024107_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GlafrspbwAI32XZ?format=jpg",
+                        "local_path": "media/20250613_024107_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GlafuG9bUAAPP6J?format=jpg",
+                        "local_path": "media/20250613_024107_5.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T02:41:07+00:00"
+            },
+            {
+                "text": "so they figured it out between 2020 and 2021, here it is not a glass dome yet.\nSchwarz2020: [Resonant 1D MEMS mirror with a total optical scan angle of 180° for automotive LiDAR](https://doi.org/10.1117/12.2546035…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSoCwUbMAMVSxH?format=jpg",
+                        "local_path": "media/20250613_024740_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSoJAHbkAEuf1k?format=jpg",
+                        "local_path": "media/20250613_024740_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T02:47:40+00:00"
+            },
+            {
+                "text": "so they figured it out between 2020 and 2021, here it is not a glass dome yet.\nSchwarz2020: [Resonant 1D MEMS mirror with a total optical scan angle of 180° for automotive LiDAR](https://doi.org/10.1117/12.2546035…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSoCwUbMAMVSxH?format=jpg",
+                        "local_path": "media/20250613_024740_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSoJAHbkAEuf1k?format=jpg",
+                        "local_path": "media/20250613_024740_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T02:47:40+00:00"
+            },
+            {
+                "text": "the work behind the wafer level glass packaging is this, as early as 2012. The tilt is to avoid input laser directly reflected by the cover onto the screen\nStenchly2012: [Viscous Hot Glass Forming for Optical Wafer Level Packaging of Micro Mirrors](https://doi.org/10.1016/j.proeng.2012.09.085…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSpt26bMAIeomN?format=jpg",
+                        "local_path": "media/20250613_025604_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T02:56:04+00:00"
+            },
+            {
+                "text": "the wafer image they used in 2020 is actually as old as late 2013 \nHofmann2013: [Resonant biaxial 7-mm MEMS mirror for omnidirectional scanning](https://doi.org/10.1117/1.JMM.13.1.011103…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSrVeybcAAQAG0?format=jpg",
+                        "local_path": "media/20250613_030026_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSrYXcbMAAocTc?format=jpg",
+                        "local_path": "media/20250613_030026_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T03:00:26+00:00"
+            },
+            {
+                "text": "some of their big scanners (20 mm is pretty crazy) could handle 2 kW (not this one), and could get really hot\nSenger2015: [Centimeter-Scale MEMS Scanning Mirrors for High Power Laser Application](https://researchgate.net/profile/Frank-Senger/publication/281732234_Centimeter-scale_MEMS_scanning_mirrors_for_high_power_laser_application/links/5638ca6d08ae51ccb3cc9d0c/Centimeter-scale-MEMS-scanning-mirrors-for-high-power-laser-application.pdf…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSujr6bMAAK3BW?format=jpg",
+                        "local_path": "media/20250613_031529_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSuvUQaIAAW66R?format=jpg",
+                        "local_path": "media/20250613_031529_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T03:15:29+00:00"
+            },
+            {
+                "text": "pretty much",
+                "media": [],
+                "timestamp": "2025-06-13T14:26:04+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1933364123804577888",
+        "tweets": [
+            {
+                "text": "i should make a silicon etching recipe tier list",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSwDXKbMAIJwNx?format=png",
+                        "local_path": "media/20250612_154724_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSwG53bMAAXs0a?format=png",
+                        "local_path": "media/20250612_154724_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSwRWpbMAAW_rB?format=png",
+                        "local_path": "media/20250612_154724_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSwTUIbUAASFa0?format=png",
+                        "local_path": "media/20250612_154724_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtQRTlxagAAJhDs?format=jpg",
+                        "local_path": "media/20250612_154724_4.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-12T15:47:24+00:00"
+            },
+            {
+                "text": "first two: Schnakenberg1990: [NH4Oh-based etchants for silicon micromachining](https://doi.org/10.1016/0924-4247(90)87084-V…)\nBottom left: Liu2014: [Black silicon: fabrication methods, properties and solar energy applications](https://doi.org/10.1039/C4EE01152J…)\nBottom right: [KNI Lab at Caltech -",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSw-80agAApAmO?format=png",
+                        "local_path": "media/20250613_032526_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtSxMxobsAAolFY?format=png",
+                        "local_path": "media/20250613_032526_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T03:25:26+00:00"
+            },
+            {
+                "text": "XeF2 etch, sometimes it's smooth, sometimes it's rough, sometimes you get a deep hole for no obvious reason, but it's still a very selective etcher",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTH2ecaEAAAaMH?format=jpg",
+                        "local_path": "media/20250613_051237_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTIKpbbYAAfh7j?format=png",
+                        "local_path": "media/20250613_051237_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTIfZebEAAF-o0?format=png",
+                        "local_path": "media/20250613_051237_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTJDbIbMAE62vF?format=png",
+                        "local_path": "media/20250613_051237_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T05:12:37+00:00"
+            },
+            {
+                "text": "btw I'm just a clown compared to caltech folks, look at what they could make with ICP RIE (SF6/CF4/C4F8), meanwhile I get burn marks on my carrier wafer or drop my chip in the chamber one out of four times\nHenry2010: [ICP Etching of Silicon for Micro and Nanoscale",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTSdJ5bMAY-ol6?format=png",
+                        "local_path": "media/20250613_055412_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTS8P_bMAELW3p?format=png",
+                        "local_path": "media/20250613_055412_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTS9VxbQAANpm6?format=png",
+                        "local_path": "media/20250613_055412_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T05:54:12+00:00"
+            },
+            {
+                "text": "theres as much witchcraft and black magic in wet etch as dry etch\nPal2021: [High speed silicon wet anisotropic etching for applications in bulk micromachining: a review](https://doi.org/10.1186/s40486-021-00129-0…)\nAshok2017: [Silicon micromachining in 25 wt% TMAH without and with surfactant",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTV1PHbMAQ2v0V?format=jpg",
+                        "local_path": "media/20250613_060828_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTWFHVbgAEGlFy?format=jpg",
+                        "local_path": "media/20250613_060828_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTWQWWacAAnYXf?format=png",
+                        "local_path": "media/20250613_060828_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTWeqebMAAjwsP?format=jpg",
+                        "local_path": "media/20250613_060828_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T06:08:28+00:00"
+            },
+            {
+                "text": "XeF2 etch, sometimes it's smooth, sometimes it's rough, sometimes you get a deep hole for no obvious reason, but it's still a very selective etcher",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTH2ecaEAAAaMH?format=jpg",
+                        "local_path": "media/20250613_051237_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTIKpbbYAAfh7j?format=png",
+                        "local_path": "media/20250613_051237_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTIfZebEAAF-o0?format=png",
+                        "local_path": "media/20250613_051237_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTJDbIbMAE62vF?format=png",
+                        "local_path": "media/20250613_051237_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T05:12:37+00:00"
+            },
+            {
+                "text": "btw I'm just a clown compared to caltech folks, look at what they could make with ICP RIE (SF6/CF4/C4F8), meanwhile I get burn marks on my carrier wafer or drop my chip in the chamber one out of four times\nHenry2010: [ICP Etching of Silicon for Micro and Nanoscale",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTSdJ5bMAY-ol6?format=png",
+                        "local_path": "media/20250613_055412_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTS8P_bMAELW3p?format=png",
+                        "local_path": "media/20250613_055412_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTS9VxbQAANpm6?format=png",
+                        "local_path": "media/20250613_055412_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T05:54:12+00:00"
+            },
+            {
+                "text": "theres as much witchcraft and black magic in wet etch as dry etch\nPal2021: [High speed silicon wet anisotropic etching for applications in bulk micromachining: a review](https://doi.org/10.1186/s40486-021-00129-0…)\nAshok2017: [Silicon micromachining in 25 wt% TMAH without and with surfactant",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTV1PHbMAQ2v0V?format=jpg",
+                        "local_path": "media/20250613_060828_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTWFHVbgAEGlFy?format=jpg",
+                        "local_path": "media/20250613_060828_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTWQWWacAAnYXf?format=png",
+                        "local_path": "media/20250613_060828_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtTWeqebMAAjwsP?format=jpg",
+                        "local_path": "media/20250613_060828_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T06:08:28+00:00"
+            },
+            {
+                "text": "strike a balance among the devils",
+                "media": [],
+                "timestamp": "2025-06-13T06:29:52+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1933533830922842472",
+        "tweets": [
+            {
+                "text": "yeeees what a nice shot -- wait is that a carbon tab? Ewwwww\n\n(carbon tabs are the best and some of the stickiest but they also leave residuals)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtVKVIQbMAEWGx-?format=jpg",
+                        "local_path": "media/20250613_143603_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T14:36:03+00:00"
+            },
+            {
+                "text": "EPFL - [Ultra-broadband photonic chip boosts optical signals](https://actu.epfl.ch/news/ultra-broadband-photonic-chip-boosts-optical-signa/…)\nKuznetsov2025: [An ultra-broadband photonic-chip-based parametric amplifier](https://doi.org/10.1038/s41586-025-08666-z…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtVLFSJbIAAUq5Q?format=jpg",
+                        "local_path": "media/20250613_143800_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T14:38:00+00:00"
+            },
+            {
+                "text": "GaP is underrated imo, and this IBM research group has been at it for a while",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtVLjC2bYAAwV7N?format=jpg",
+                        "local_path": "media/20250613_143935_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtDgllKa4AAojm4?format=jpg",
+                        "local_path": "media/20250613_143935_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T14:39:35+00:00"
+            },
+            {
+                "text": "yeah thats the carbon tab, it rips quite easily tho",
+                "media": [],
+                "timestamp": "2025-06-13T16:38:51+00:00"
+            },
+            {
+                "text": "yes, their older paper has more details on the process\nWilson2018: [Integrated gallium phosphide nonlinear photonics](https://arxiv.org/abs/1808.03554)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtVMHHFbMAQWgdP?format=jpg",
+                        "local_path": "media/20250613_144210_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-13T14:42:10+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1933679195445735625",
+        "tweets": [
+            {
+                "text": "they did it themselves!",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtXOsdSbMAAVEla?format=jpg",
+                        "local_path": "media/20250530_075029_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GsLm8maaUAEsq6g?format=jpg",
+                        "local_path": "media/20250530_075029_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-05-30T07:50:29+00:00"
+            },
+            {
+                "text": "lol are they charging 10k per year extra for it?\n[Using the Chatbot Window in COMSOL Multiphysics®](https://comsol.com/blogs/using-the-chatbot-window-in-comsol-multiphysics…)\n[Setting Up the Chatbot Window](https://comsol.com/support/learning-center/article/92151…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtXPKfcbYAAo8dM?format=png",
+                        "local_path": "media/20250614_001501_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-14T00:15:01+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1933729249682473350",
+        "tweets": [
+            {
+                "text": "next time you see humpback whales making bubbles and bubble rings, they might be talking to you\n\n(the authors contacted investigators to fly drones out for thousands of hours and did not see any bubble rings)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtX77C9bsAAdy-R?format=jpg",
+                        "local_path": "media/20250614_033234_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-14T03:32:34+00:00"
+            },
+            {
+                "text": "Sharpe2025: [Humpback Whales Blow Poloidal Vortex Bubble Rings](https://doi.org/10.1111/mms.70026…)",
+                "media": [],
+                "timestamp": "2025-06-14T03:33:07+00:00"
+            },
+            {
+                "text": "so true",
+                "media": [],
+                "timestamp": "2025-06-14T14:11:55+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1933732489954292185",
+        "tweets": [
+            {
+                "text": "one of the longest coplanar waveguides (CPW)?\nthis chip has three 1.3 m long CPWs.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtX_K2EaoAAzTyX?format=jpg",
+                        "local_path": "media/20250614_034527_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-14T03:45:27+00:00"
+            },
+            {
+                "text": "The CPWs are so long they have to fix the short and patch the open defects.\n\nYan2025: [Quantum secret sharing in a triangular superconducting quantum network](https://arxiv.org/abs/2506.10878)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtX_iVnbEAAqWu-?format=jpg",
+                        "local_path": "media/20250614_034741_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtX_29nbMAINTX4?format=jpg",
+                        "local_path": "media/20250614_034741_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-14T03:47:41+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1933785655831900642",
+        "tweets": [
+            {
+                "text": "not often to see these two \"buzz\" words put together",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtYvvcIbMAASjln?format=png",
+                        "local_path": "media/20250614_071643_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-14T07:16:43+00:00"
+            },
+            {
+                "text": "Cacciari2025: [Unlocking Terahertz technology with machine learning: A comprehensive review](https://doi.org/10.1063/5.0272428…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GtYwCFnbMAYCij7?format=png",
+                        "local_path": "media/20250614_071907_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtYwQc8bMAAcX-v?format=jpg",
+                        "local_path": "media/20250614_071907_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-14T07:19:07+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1933916842357338277",
+        "tweets": [
+            {
+                "text": "human brain cells on a silicon chip for sale, with a human-in-the-loop buy button",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gtams72bYAAT76a?format=png",
+                        "local_path": "media/20250614_155800_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtamvL3aQAA_tNk?format=png",
+                        "local_path": "media/20250614_155800_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtamwcxacAAJAuR?format=jpg",
+                        "local_path": "media/20250614_155800_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gtamx7IasAAHsgz?format=jpg",
+                        "local_path": "media/20250614_155800_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-14T15:58:00+00:00"
+            },
+            {
+                "text": "[Human Brain Cells on a Chip for Sale: World-first biocomputing platform hits the market](https://spectrum.ieee.org/biological-computer-for-sale…)\n[Cortical Labs](https://corticallabs.com)",
+                "media": [],
+                "timestamp": "2025-06-14T15:59:21+00:00"
+            },
+            {
+                "text": "idk they might already be running on one",
+                "media": [],
+                "timestamp": "2025-06-15T14:50:40+00:00"
+            },
+            {
+                "text": "yeah right, the pcb must feel so good",
+                "media": [],
+                "timestamp": "2025-06-14T19:08:53+00:00"
+            }
+        ]
+    }
+]
