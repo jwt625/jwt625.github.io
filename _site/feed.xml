@@ -1,4 +1,441 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-08T22:29:23-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#50)</title><link href="http://localhost:4000/ofs/weekly-OFS-50/" rel="alternate" type="text/html" title="This week’s outside five sigma (#50)" /><published>2025-06-08T00:00:00-07:00</published><updated>2025-06-08T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-50</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-50/"><![CDATA[<h1 id="pockels-laser-with-tunable-dbr">Pockels laser with tunable DBR</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-15T23:46:37-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Outside Five Sigma</title><subtitle>Memories are long term averages, and outside five sigmas.</subtitle><author><name>Wentao</name></author><entry><title type="html">This week’s outside five sigma (#51)</title><link href="http://localhost:4000/ofs/weekly-OFS-51/" rel="alternate" type="text/html" title="This week’s outside five sigma (#51)" /><published>2025-06-15T00:00:00-07:00</published><updated>2025-06-15T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-51</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-51/"><![CDATA[<h1 id="snspd-alignment-with-silicon-etch">SNSPD alignment with silicon etch</h1>
+
+<p>I really like that they use the process (silicon etch) and the fiber ferrule to align the SNSPD to the fiber
+<img src="/assets/images/2025/20250105_20250615/20250105_184939_0.jpg" alt="20250105_184939_0.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250105_184939_1.jpg" alt="20250105_184939_1.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250105_184939_2.jpg" alt="20250105_184939_2.jpg" /></p>
+<ul>
+  <li><a href="https://quantumopus.com/web/">Quantum Opus</a></li>
+  <li><a href="https://mist.pratt.duke.edu/research/superdense-quantum-teleportation">Duke - MIST - Superdense Quantum Teleportation</a>
+   <img src="/assets/images/2025/20250105_20250615/20250608_064430_0.jpg" alt="20250608_064430_0.jpg" /></li>
+  <li>and directly wirebonded to the bottom of a surface mount SMP connector</li>
+  <li>(not exactly this one)
+   <img src="/assets/images/2025/20250105_20250615/20250608_064927_0.jpg" alt="20250608_064927_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250608_064927_1.jpg" alt="20250608_064927_1.jpg" /></li>
+</ul>
+
+<h1 id="p2p-llm-inference-with-petals">P2P LLM inference with Petals</h1>
+
+<p>was thinking about P2P LLM inference like BitTorrent earlier today, apparent it’s been done, and dead (?)
+<img src="/assets/images/2025/20250105_20250615/20250608_235634_0.jpg" alt="20250608_235634_0.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250608_235634_1.jpg" alt="20250608_235634_1.jpg" /></p>
+<ul>
+  <li><a href="https://petals.dev">Petals</a></li>
+</ul>
+
+<h1 id="hollow-core-photonic-crystal-fiber-modes">Hollow-core photonic crystal fiber modes</h1>
+
+<p>scary amount of modes in a hollow core photonic crystal fiber
+<img src="/assets/images/2025/20250105_20250615/20250609_151342_0.jpg" alt="20250609_151342_0.jpg" /></p>
+<ul>
+  <li>Melli2025: <a href="https://doi.org/10.1109/JLT.2025.3548304">Analytical Framework for Mode-Coupling in Hollow-Core Inhibited-Coupling Fibers</a></li>
+  <li>the red ish region, where the modes hybridize</li>
+</ul>
+
+<h1 id="real-vs-fake-spatial-audio">Real vs fake spatial audio</h1>
+
+<p>the “fake” spatial audio vs the real spatial audio
+<img src="/assets/images/2025/20250105_20250615/20250610_033906_0.jpg" alt="20250610_033906_0.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250610_033906_1.jpg" alt="20250610_033906_1.jpg" /></p>
+<ul>
+  <li>Westerberg2025: <a href="https://doi.org/10.1121/10.0036806">SoLoArc: A device for free field multiplanar sound localization testing</a>
+   <img src="/assets/images/2025/20250105_20250615/20250610_034034_0.jpg" alt="20250610_034034_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250610_034034_1.jpg" alt="20250610_034034_1.jpg" /></li>
+  <li>ohh it must feel so good to mesh this ear</li>
+  <li><a href="https://mesh2hrtf.org">Mesh2HRTF - Numerical calculation of the head-related tranfer functions by the use of the Burton-Miller collocation boundary-element method coupled with the multi-level fast multipole method</a>
+   <img src="/assets/images/2025/20250105_20250615/20250610_040215_0.jpg" alt="20250610_040215_0.jpg" /></li>
+</ul>
+
+<h1 id="grating-coupler-backreflection-reduction">Grating coupler backreflection reduction</h1>
+
+<p>why did they made the back of the grating coupler with pointy tapers? i have one theory but it is not very convincing.
+could also see two shallow craters likely from tiny dirts during the bonding process
+<img src="/assets/images/2025/20250105_20250615/20250610_041638_0.jpg" alt="20250610_041638_0.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250610_041638_1.jpg" alt="20250610_041638_1.jpg" /></p>
+<ul>
+  <li>not sure how strong it would be compared to BR from the left end of the grating. Maybe they found it helps</li>
+</ul>
+
+<h1 id="cpu-clock-rate-and-core-trends">CPU clock rate and core trends</h1>
+
+<p>CPU clock rate and core count trends
+guess what the thesis is about?
+<img src="/assets/images/2025/20250105_20250615/20250610_050344_0.jpg" alt="20250610_050344_0.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250610_050344_1.jpg" alt="20250610_050344_1.jpg" /></p>
+<ul>
+  <li>Li2025: <a href="https://proquest.com/docview/3195715579">Ultrafast Computing With Nonlinear Photonics</a>
+   <img src="/assets/images/2025/20250105_20250615/20250610_050449_0.jpg" alt="20250610_050449_0.jpg" /></li>
+</ul>
+
+<h1 id="fiber-plugging-robotics">Fiber-plugging robotics</h1>
+
+<p>pretty sure a while ago I saw a similar robot from one of the big telcos also moving around and capable of unplugging and plugging fibers. Can’t find it now…</p>
+
+<p>this kind of search is hard, sometimes I only remember things like one of the figure is mostly red, and the authors names are probably italian, need multimodal RAG.</p>
+
+<p>(I have a RAG endpoint for my tweet backups but have not built a nice frontend yet)
+<img src="/assets/images/2025/20250105_20250615/20250609_163145_0.jpg" alt="20250609_163145_0.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250609_163145_1.jpg" alt="20250609_163145_1.jpg" /></p>
+
+<h1 id="high-speed-thrombectomy-device">High-speed thrombectomy device</h1>
+
+<p>toilet auger but for blood clots
+<img src="/assets/images/2025/20250105_20250615/20250611_052323_0.jpg" alt="20250611_052323_0.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250611_052323_1.jpg" alt="20250611_052323_1.jpg" /></p>
+<ul>
+  <li>they spin this lil thing at up to 40k rpm holy smokes</li>
+  <li>Chang2025: <a href="https://doi.org/10.1038/s41586-025-09049-0">Milli-spinner thrombectomy</a>, <a href="https://rdcu.be/eqsqe">also</a>
+   <img src="/assets/images/2025/20250105_20250615/20250611_052731_0.jpg" alt="20250611_052731_0.jpg" /></li>
+  <li>It’s just the inside and the end tip are rotating, and the speed is so high it’s probably faster than the lateral shaking could catch up</li>
+</ul>
+
+<h1 id="co-packaged-optics-meeting">Co-packaged optics meeting</h1>
+
+<p>“this meeting is not a webinar, it’s a place to do business”
+<img src="/assets/images/2025/20250105_20250615/20250611_055907_0.jpg" alt="20250611_055907_0.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250611_055907_1.jpg" alt="20250611_055907_1.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250611_055907_2.jpg" alt="20250611_055907_2.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250611_055907_3.jpg" alt="20250611_055907_3.jpg" /></p>
+<ul>
+  <li><a href="https://youtube.com/watch?v=3gqioLBi7dc">REPLAY: Optica Online Technology Meeting Tuesday, June 10th 2025 Co-Packaged and Pluggable Optics</a>
+   <img src="/assets/images/2025/20250105_20250615/20250611_060222_0.jpg" alt="20250611_060222_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250611_060222_1.jpg" alt="20250611_060222_1.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250611_060222_2.jpg" alt="20250611_060222_2.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250611_060222_3.jpg" alt="20250611_060222_3.jpg" /></li>
+  <li><img src="/assets/images/2025/20250105_20250615/20250611_060846_0.jpg" alt="20250611_060846_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250611_060846_1.jpg" alt="20250611_060846_1.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250611_060846_2.jpg" alt="20250611_060846_2.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250611_060846_3.jpg" alt="20250611_060846_3.jpg" /></li>
+</ul>
+
+<h1 id="ibms-superconducting-qubit-roadmap">IBM’s superconducting qubit roadmap</h1>
+
+<p>finally some expectation for 2000 superconducting logical qubits, 2033!
+<img src="/assets/images/2025/20250105_20250615/20250611_150132_0.jpg" alt="20250611_150132_0.jpg" /></p>
+<ul>
+  <li><a href="https://ibm.com/quantum/blog/large-scale-ftqc">How IBM will build the world’s first large-scale, fault-tolerant quantum computer</a>
+   <img src="/assets/images/2025/20250105_20250615/20250611_150418_0.jpg" alt="20250611_150418_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250611_150418_1.jpg" alt="20250611_150418_1.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250611_150418_2.jpg" alt="20250611_150418_2.jpg" /></li>
+</ul>
+
+<h1 id="stanford-otl-revenue-trends">Stanford OTL revenue trends</h1>
+
+<p>TIL stanford OTL has an annual income of ~$60M and growing at ~15% (from the last two datapoints)
+<img src="/assets/images/2025/20250105_20250615/20250612_032606_0.jpg" alt="20250612_032606_0.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250612_032606_1.jpg" alt="20250612_032606_1.jpg" /></p>
+<ul>
+  <li><a href="https://otl.stanford.edu/about/annual-reports">Stanford Office of Technology Licensing - Annual Reports</a></li>
+  <li>numbers from 2005</li>
+  <li><a href="https://otl.stanford.edu/sites/g/files/sbiybj16766/files/media/file/otlar05.pdf">FY2004-2005: 35 Years of Technologies That Made a Difference</a>
+   <img src="/assets/images/2025/20250105_20250615/20250612_032904_0.jpg" alt="20250612_032904_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250612_032904_1.jpg" alt="20250612_032904_1.jpg" /></li>
+  <li>Top 3 Revenue-Producing Inventions by decade</li>
+  <li><a href="https://otl.stanford.edu/sites/g/files/sbiybj16766/files/media/file/otlar10.pdf">FY2009-2010: 40 Years of Discovery</a>
+   <img src="/assets/images/2025/20250105_20250615/20250612_034939_0.jpg" alt="20250612_034939_0.jpg" /></li>
+  <li>revenue by year, it’s actually fluctuating a lot
+   <img src="/assets/images/2025/20250105_20250615/20250612_050034_0.jpg" alt="20250612_050034_0.jpg" /></li>
+</ul>
+
+<h1 id="ai-for-etch-recipe-prediction">AI for etch recipe prediction</h1>
+
+<p>isn’t it a crime that we do not have an ai model yet to tell you the best guesses of the etch recipes from an SEM image?
+<img src="/assets/images/2025/20250105_20250615/20250612_154724_0.jpg" alt="20250612_154724_0.jpg" /></p>
+<ul>
+  <li>Rahman2025: <a href="https://arxiv.org/abs/2504.00311v2">High-performance Hybrid Lithium Niobate Electro-optic Modulators Integrated with Low-loss Silicon Nitride Waveguides on a Wafer-scale Silicon Photonics Platform</a>
+   <img src="/assets/images/2025/20250105_20250615/20250612_154830_0.jpg" alt="20250612_154830_0.jpg" /></li>
+</ul>
+
+<h1 id="wafer-level-micro-glassblowing">Wafer-level micro-glassblowing</h1>
+
+<p>TIL people do arrays of micro-glassblowing on a wafer for, you guessed it, CSACs
+<img src="/assets/images/2025/20250105_20250615/20250604_020529_0.jpg" alt="20250604_020529_0.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250604_020529_1.jpg" alt="20250604_020529_1.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250604_020529_2.jpg" alt="20250604_020529_2.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250604_020529_3.jpg" alt="20250604_020529_3.jpg" /></p>
+<ul>
+  <li>Eklund2007: <a href="https://escholarship.org/content/qt1hc3c4hk/qt1hc3c4hk.pdf">Glass Blowing on a Wafer Level</a></li>
+  <li>Senkal2014: <a href="https://bpb-us-e2.wpmucdn.com/faculty.sites.uci.edu/dist/e/700/files/2014/09/Eurosensors_2014.pdf">MEMS micro-glassblowing paradigm for wafer-level fabrication of fused silica wineglass gyroscopes</a></li>
+  <li>Senkal2012: <a href="https://transducer-research-foundation.org/technical_digests/HiltonHead_2012/hh2012_0267.pdf">Titania silicate / fused quartz glassblowing for 3-D fabrication of low internal loss wineglass micro-structures</a>
+   <img src="/assets/images/2025/20250105_20250615/20250613_023043_0.jpg" alt="20250613_023043_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_023043_1.jpg" alt="20250613_023043_1.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_023043_2.jpg" alt="20250613_023043_2.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_023043_3.jpg" alt="20250613_023043_3.jpg" /></li>
+  <li><a href="https://x.com/jwt0625/status/1897880643427877364">bubble wrap tweet</a></li>
+  <li>this reminded me that i didnt thought of how OQmented made the glass dome for their MEMS scanner, and turns out they just say it’s “special 3D shaped glass opto-packaging”</li>
+  <li>Pohl2021: <a href="https://doi.org/10.1117/12.2578151">Wide angle LiDAR demonstrator based on a resonantly operated 1D MEMS mirror capable of scanning 180°</a>
+   <img src="/assets/images/2025/20250105_20250615/20250613_024107_0.jpg" alt="20250613_024107_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_024107_1.jpg" alt="20250613_024107_1.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_024107_2.jpg" alt="20250613_024107_2.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_024107_3.jpg" alt="20250613_024107_3.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_024107_4.jpg" alt="20250613_024107_4.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_024107_5.jpg" alt="20250613_024107_5.jpg" /></li>
+  <li>so they figured it out between 2020 and 2021, here it is not a glass dome yet.</li>
+  <li>Schwarz2020: <a href="https://doi.org/10.1117/12.2546035">Resonant 1D MEMS mirror with a total optical scan angle of 180° for automotive LiDAR</a>
+   <img src="/assets/images/2025/20250105_20250615/20250613_024740_0.jpg" alt="20250613_024740_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_024740_1.jpg" alt="20250613_024740_1.jpg" /></li>
+  <li>the work behind the wafer level glass packaging is this, as early as 2012. The tilt is to avoid input laser directly reflected by the cover onto the screen</li>
+  <li>Stenchly2012: <a href="https://doi.org/10.1016/j.proeng.2012.09.085">Viscous Hot Glass Forming for Optical Wafer Level Packaging of Micro Mirrors</a>
+   <img src="/assets/images/2025/20250105_20250615/20250613_025604_0.jpg" alt="20250613_025604_0.jpg" /></li>
+  <li>the wafer image they used in 2020 is actually as old as late 2013</li>
+  <li>Hofmann2013: <a href="https://doi.org/10.1117/1.JMM.13.1.011103">Resonant biaxial 7-mm MEMS mirror for omnidirectional scanning</a>
+   <img src="/assets/images/2025/20250105_20250615/20250613_030026_0.jpg" alt="20250613_030026_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_030026_1.jpg" alt="20250613_030026_1.jpg" /></li>
+  <li>some of their big scanners (20 mm is pretty crazy) could handle 2 kW (not this one), and could get really hot</li>
+  <li>Senger2015: <a href="https://researchgate.net/profile/Frank-Senger/publication/281732234_Centimeter-scale_MEMS_scanning_mirrors_for_high_power_laser_application/links/5638ca6d08ae51ccb3cc9d0c/Centimeter-scale-MEMS-scanning-mirrors-for-high-power-laser-application.pdf">Centimeter-Scale MEMS Scanning Mirrors for High Power Laser Application</a>
+   <img src="/assets/images/2025/20250105_20250615/20250613_031529_0.jpg" alt="20250613_031529_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_031529_1.jpg" alt="20250613_031529_1.jpg" /></li>
+</ul>
+
+<h1 id="silicon-etching-tier-list">Silicon etching tier list</h1>
+
+<p>i should make a silicon etching recipe tier list
+<img src="/assets/images/2025/20250105_20250615/20250612_154724_0.jpg" alt="20250612_154724_0.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250612_154724_1.jpg" alt="20250612_154724_1.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250612_154724_2.jpg" alt="20250612_154724_2.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250612_154724_3.jpg" alt="20250612_154724_3.jpg" /></p>
+<ul>
+  <li>first two: Schnakenberg1990: <a href="https://doi.org/10.1016/0924-4247(90)87084-V">NH4Oh-based etchants for silicon micromachining</a></li>
+  <li>Bottom left: Liu2014: <a href="https://doi.org/10.1039/C4EE01152J">Black silicon: fabrication methods, properties and solar energy applications</a></li>
+  <li>Bottom right: <a href="https://lab.kni.caltech.edu/File:Silicon-Microcones_Paul-A-Kempler.jpg">KNI Lab at Caltech - Silicon-Microcones Paul-A-Kempler.jpg</a></li>
+  <li>Below:</li>
+  <li><a href="https://epfl.ch/research/facilities/cmi/equipment/etching/xef2-silicon-etching-system/">EPFL - SPTS Xactix X4 – XeF2 Silicon etching system</a></li>
+  <li>Wang2020: <a href="https://doi.org/10.3390/mi11070638">Batch Fabrication of Silicon Nanometer Tip Using Isotropic Inductively Coupled Plasma Etching</a>
+   <img src="/assets/images/2025/20250105_20250615/20250613_032526_0.jpg" alt="20250613_032526_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_032526_1.jpg" alt="20250613_032526_1.jpg" /></li>
+  <li>XeF2 etch, sometimes it’s smooth, sometimes it’s rough, sometimes you get a deep hole for no obvious reason, but it’s still a very selective etcher
+   <img src="/assets/images/2025/20250105_20250615/20250613_051237_0.jpg" alt="20250613_051237_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_051237_1.jpg" alt="20250613_051237_1.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_051237_2.jpg" alt="20250613_051237_2.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_051237_3.jpg" alt="20250613_051237_3.jpg" /></li>
+  <li>btw I’m just a clown compared to caltech folks, look at what they could make with ICP RIE (SF6/CF4/C4F8), meanwhile I get burn marks on my carrier wafer or drop my chip in the chamber one out of four times</li>
+  <li>Henry2010: <a href="https://thesis.library.caltech.edu/5846/">ICP Etching of Silicon for Micro and Nanoscale Devices</a>
+   <img src="/assets/images/2025/20250105_20250615/20250613_055412_0.jpg" alt="20250613_055412_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_055412_1.jpg" alt="20250613_055412_1.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_055412_2.jpg" alt="20250613_055412_2.jpg" /></li>
+  <li>theres as much witchcraft and black magic in wet etch as dry etch</li>
+  <li>Pal2021: <a href="https://doi.org/10.1186/s40486-021-00129-0">High speed silicon wet anisotropic etching for applications in bulk micromachining: a review</a></li>
+  <li>Ashok2017: <a href="https://doi.org/10.1007/s00542-015-2699-9">Silicon micromachining in 25 wt% TMAH without and with surfactant concentrations ranging from ppb to ppm</a></li>
+  <li>Jones2021: <a href="https://engineering.purdue.edu/oxidemems/papers/JMM_popup.pdf">Deep isotropic chemical etching (DICE) process for fabricating highly symmetric hemispherical silicon molds</a>
+   <img src="/assets/images/2025/20250105_20250615/20250613_060828_0.jpg" alt="20250613_060828_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_060828_1.jpg" alt="20250613_060828_1.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_060828_2.jpg" alt="20250613_060828_2.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_060828_3.jpg" alt="20250613_060828_3.jpg" /></li>
+</ul>
+
+<h1 id="gap-photonic-chip-amplifier">GaP photonic chip amplifier</h1>
+
+<p>yeeees what a nice shot – wait is that a carbon tab? Ewwwww</p>
+
+<p>(carbon tabs are the best and some of the stickiest but they also leave residuals)
+<img src="/assets/images/2025/20250105_20250615/20250613_143603_0.jpg" alt="20250613_143603_0.jpg" /></p>
+<ul>
+  <li>EPFL - <a href="https://actu.epfl.ch/news/ultra-broadband-photonic-chip-boosts-optical-signa/">Ultra-broadband photonic chip boosts optical signals</a></li>
+  <li>Kuznetsov2025: <a href="https://doi.org/10.1038/s41586-025-08666-z">An ultra-broadband photonic-chip-based parametric amplifier</a>
+   <img src="/assets/images/2025/20250105_20250615/20250613_143800_0.jpg" alt="20250613_143800_0.jpg" /></li>
+  <li>GaP is underrated imo, and this IBM research group has been at it for a while
+   <img src="/assets/images/2025/20250105_20250615/20250613_143935_0.jpg" alt="20250613_143935_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250613_143935_1.jpg" alt="20250613_143935_1.jpg" /></li>
+  <li>their older paper has more details on the process
+   Wilson2018: <a href="https://arxiv.org/abs/1808.03554">Integrated gallium phosphide nonlinear photonics</a>
+   <img src="/assets/images/2025/20250105_20250615/20250613_144210_0.jpg" alt="20250613_144210_0.jpg" /></li>
+</ul>
+
+<h1 id="comsols-built-in-chatbot">COMSOL’s built-in chatbot</h1>
+
+<p>they did it themselves!
+<img src="/assets/images/2025/20250105_20250615/20250530_075029_0.jpg" alt="20250530_075029_0.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250530_075029_1.jpg" alt="20250530_075029_1.jpg" /></p>
+<ul>
+  <li>lol are they charging 10k per year extra for it?</li>
+  <li><a href="https://comsol.com/blogs/using-the-chatbot-window-in-comsol-multiphysics">Using the Chatbot Window in COMSOL Multiphysics®</a></li>
+  <li><a href="https://comsol.com/support/learning-center/article/92151">Setting Up the Chatbot Window</a>
+   <img src="/assets/images/2025/20250105_20250615/20250614_001501_0.jpg" alt="20250614_001501_0.jpg" /></li>
+</ul>
+
+<h1 id="humpback-whale-bubble-rings">Humpback whale bubble rings</h1>
+
+<p>next time you see humpback whales making bubbles and bubble rings, they might be talking to you</p>
+
+<p>(the authors contacted investigators to fly drones out for thousands of hours and did not see any bubble rings)
+<img src="/assets/images/2025/20250105_20250615/20250614_033234_0.jpg" alt="20250614_033234_0.jpg" /></p>
+<ul>
+  <li>Sharpe2025: <a href="https://doi.org/10.1111/mms.70026">Humpback Whales Blow Poloidal Vortex Bubble Rings</a></li>
+</ul>
+
+<h1 id="long-superconducting-cpws">Long superconducting CPWs</h1>
+
+<p>one of the longest coplanar waveguides (CPW)?
+this chip has three 1.3 m long CPWs.
+<img src="/assets/images/2025/20250105_20250615/20250614_034527_0.jpg" alt="20250614_034527_0.jpg" /></p>
+<ul>
+  <li>The CPWs are so long they have to fix the short and patch the open defects.</li>
+  <li>Yan2025: <a href="https://arxiv.org/abs/2506.10878">Quantum secret sharing in a triangular superconducting quantum network</a>
+   <img src="/assets/images/2025/20250105_20250615/20250614_034741_0.jpg" alt="20250614_034741_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250614_034741_1.jpg" alt="20250614_034741_1.jpg" /></li>
+</ul>
+
+<h1 id="terahertz-and-machine-learning">Terahertz and machine learning</h1>
+
+<p>not often to see these two “buzz” words put together
+<img src="/assets/images/2025/20250105_20250615/20250614_071643_0.jpg" alt="20250614_071643_0.jpg" /></p>
+<ul>
+  <li>Cacciari2025: <a href="https://doi.org/10.1063/5.0272428">Unlocking Terahertz technology with machine learning: A comprehensive review</a>
+   <img src="/assets/images/2025/20250105_20250615/20250614_071907_0.jpg" alt="20250614_071907_0.jpg" />
+   <img src="/assets/images/2025/20250105_20250615/20250614_071907_1.jpg" alt="20250614_071907_1.jpg" /></li>
+</ul>
+
+<h1 id="brain-cells-on-silicon-chips">Brain cells on silicon chips</h1>
+
+<p>human brain cells on a silicon chip for sale, with a human-in-the-loop buy button
+<img src="/assets/images/2025/20250105_20250615/20250614_155800_0.jpg" alt="20250614_155800_0.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250614_155800_1.jpg" alt="20250614_155800_1.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250614_155800_2.jpg" alt="20250614_155800_2.jpg" />
+<img src="/assets/images/2025/20250105_20250615/20250614_155800_3.jpg" alt="20250614_155800_3.jpg" /></p>
+<ul>
+  <li><a href="https://spectrum.ieee.org/biological-computer-for-sale">Human Brain Cells on a Chip for Sale: World-first biocomputing platform hits the market</a></li>
+  <li><a href="https://corticallabs.com">Cortical Labs</a></li>
+</ul>
+
+<h1 id="projects">Projects</h1>
+
+<p>Procrastinating:</p>
+<ul>
+  <li>Droplet walker</li>
+  <li>TabTreeTracker</li>
+  <li>Low cost robot arm</li>
+  <li>Joystick doomscrolling</li>
+</ul>
+
+<p>Planning:</p>
+<ul>
+  <li>Writing:
+    <ul>
+      <li>cleanroom misc</li>
+      <li>SC qubit basics for the zine</li>
+    </ul>
+  </li>
+  <li>Wave demo with ~ 300 Hz water surface wave + 3D printed components</li>
+</ul>
+
+<p>Ongoing:</p>
+<ul>
+  <li><a href="https://github.com/jwt625/PlayGround/tree/main/20250606_keyLogging">mouse &amp; keystroke tracker</a>
+    <ul>
+      <li>week 1 (50): got basics working. Need to add chrome extension for more fine grained tracking</li>
+    </ul>
+  </li>
+  <li>3D Gaussian splatting
+    <ul>
+      <li>week 8 (48): no progress. Do the 3rd order SH!!!</li>
+      <li>week 7 (47): no progress</li>
+      <li>week 6 (46): no progress, spent some time trying to add 3rd order SH. Still not working.</li>
+      <li>week 5 (45): got data from dilfridge and a wirebonder at Stanford. The dilfridge one is not working even after tuning colmap parameters</li>
+      <li>week 4 (?) (44): reading about webGL. Need more specific goals.</li>
+      <li>week 1~3: did 3DGS on various teardowns such as transceivers and lasers / laser modules</li>
+    </ul>
+  </li>
+  <li>WIMS (where is my shit):
+    <ul>
+      <li>week 8 (46): no progress. Add the switch!</li>
+      <li>week 7 (45): getting bored of it. Need to figure out a better way to wear it, and a better way to switch it on and off instead of manually plugging &amp; unplugging the battery</li>
+      <li>week 5 (43): no progress this week, continue wearing it.</li>
+      <li>week 4 (42): switched to a LiPo battery, it lasts several days!</li>
+      <li>week 3 (41): got a usb type-C power monitor. Sleep power too high, need debug</li>
+      <li>week 2 (40): Started wearing the camera at home &amp; send thru wifi to desktop. Need to somehow save or send the photo to my phone when outside.</li>
+      <li><img src="/assets/images/projects/WIMS-20250330.png" alt="WIMS" /></li>
+      <li>week 1 (39): I finally <a href="https://github.com/jwt625/PlayGround/tree/main/20250108_arduino/wearable_camera">connected to the camera</a>. Quality bad. Ordered new camera (OV5640) from aliexpress.</li>
+    </ul>
+  </li>
+  <li>Quantum frequency conversion plot
+    <ul>
+      <li>week 4 (41): procrastinating</li>
+      <li>week 3 (40): procrastinating</li>
+      <li>Week 2 (39): published it, currently has piezo-optomechanical approaches</li>
+      <li>Week 1 (38): Gave a talk at PsiQuantum. I like the hat.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/jwt625/interactwave">interactive wave</a>
+    <ul>
+      <li>week 1 (37): made a python standalone library, see <a href="https://github.com/jwt625/BPM">BPM</a>.</li>
+    </ul>
+  </li>
+  <li>fiber2chip <a href="https://jwt625.github.io/tutorial/fiber2chip-history-concept/">blog</a></li>
+  <li>backyard landscaping:
+    <ul>
+      <li>week 25 (51): taking a break</li>
+      <li>week 24 (50): taking a break</li>
+      <li>week 23 (49): conduit, planning for the porch, got all the lumber needed. Too hot. Hurt my ankle.</li>
+      <li><img src="/assets/images/2025/20241006_20250602/hanging_header_beam.png" alt="header-beam" /></li>
+      <li>week 22 (48): joists of the 3rd deck. Also figuring out electrical conduit.
+ <img src="/assets/images/2025/20250208_20250526//GrwZ-l9X0AAxusE.jpeg" alt="conduit-PVC-adapter" /></li>
+      <li>week 21 (47): no work</li>
+      <li>week 20 (46): finished deck joists</li>
+    </ul>
+    <div style="display: flex; flex-direction: row; gap: 10px;">
+   <img src="/assets/images/2025/20250505_20250512/backyard-20-1.jpeg" alt="Image 1" style="width: 32%; max-width: 100%; height: auto;" />
+   <img src="/assets/images/2025/20250505_20250512/backyard-20-2.jpeg" alt="Image 2" style="width: 32%; max-width: 100%; height: auto;" />
+   <img src="/assets/images/2025/20250505_20250512/backyard-20-3.jpeg" alt="Image 3" style="width: 32%; max-width: 100%; height: auto;" />
+ </div>
+    <ul>
+      <li>week 19 (45): finally building the deck frame for the upper deck
+ <img src="/assets/images/2025/20241230_20250505/deck-19.png" alt="backyard-19" /></li>
+      <li>week 18 (44): update railings, made a small outdoor wood stairs
+ <img src="/assets/images/2025/20240830_20250427/Gpfc0tybEAE3-WG.jpeg" alt="backyard-18" /></li>
+      <li>Week 17 (43): no progress this week</li>
+      <li><a href="https://x.com/jwt0625/status/1911204437353529571">week 16 (42)</a>: continue cinder block wall, finished upper level. Had to cast another small chunk of concrete</li>
+      <li><img src="/assets/images/2025/20240918_20250414/GoX2RDzXkAA0f09.jpeg" alt="GoX2RDzXkAA0f09" /></li>
+      <li><a href="https://x.com/jwt0625/status/1908666642453963155">week 15 (41)</a>: continue cinder block wall, added geogrid and two more layers of blocks. Also tear down stair form OSB</li>
+      <li><img src="/assets/images/2025/20250225_20250406/GnzxClEbYAEqjqX.jpeg" alt="GnzxClEbYAEqjqX" /></li>
+      <li>week 14 (40): no progress this week</li>
+      <li>week 13 (39): finished stairs. Started wall with cinder block. Formed and poured concrete at the turn</li>
+      <li>week 12 (38): traveled to LA this weekend! No backyard work.</li>
+      <li>week 11 (37): working on the form of the stairs, deck joists</li>
+      <li>week 10 (36): did not work on it</li>
+      <li>week 9 (35): finished the deck joists and boarded the side of the deck</li>
+      <li>week 8 (34): finished jacuzzi base &amp; deck frame</li>
+      <li>week 7 (33): working on base for Jacuzzi</li>
+      <li>week 6 (32): new year</li>
+      <li>week 5 (31): flattened the bottom level, put down form for concrete curb. Put down linear / grass barrier, and then gravel</li>
+      <li>week 4 (30): Finished the bottom retaining wall</li>
+      <li>week 3 (29): concrete poured for retaining wall beams and deck posts, started putting on retaining wall panels</li>
+      <li>week 2 (28): dig holes, posts inside holes, worked on Living room</li>
+      <li>week 1 (27): first week</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Finished:</p>
+<ul>
+  <li>(week 32:) SiPho writeup for <a href="https://x.com/byte_thrasher">avi</a>’s zine.
+    <ul>
+      <li>week 36: published on blog</li>
+    </ul>
+  </li>
+  <li>Continuing [redacted]
+    <ul>
+      <li>Week 36: This has been finished.</li>
+    </ul>
+  </li>
+  <li>PIC pytorch
+    <ul>
+      <li>week 3 (42): [redacted]</li>
+      <li>week 2 (41): [redacted]</li>
+      <li>week 1 (40): built a few simple components. Tested simple backprop and training.</li>
+      <li><img src="/assets/images/projects/PIC_pytorch_20250330.png" alt="PIC-torch" /></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Gave up</p>
+<ul>
+  <li>Traveling wave excitation of mechanical ring resonator (see <a href="https://x.com/jwt0625/status/1877578653648986365">this thread</a>)</li>
+  <li><a href="https://github.com/jwt625/tt-test">Tiny Tapeout</a>
+    <ul>
+      <li>abort? (because of efabless no funding)</li>
+    </ul>
+  </li>
+</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="SNSPD" /><category term="MEMS" /><category term="Quantum_computing" /><category term="P2P" /><category term="LLM" /><category term="Photonic_crystal_fiber" /><category term="Spatial_audio" /><category term="HRTF" /><category term="Grating_coupler" /><category term="CPU_trends" /><category term="Photonics" /><category term="Robotics" /><category term="Thrombectomy" /><category term="Co-packaged_optics" /><category term="Superconducting_qubit" /><category term="Silicon_etch" /><category term="Glassblowing" /><category term="CSAC" /><category term="LIDAR" /><category term="ICP_RIE" /><category term="TMAH" /><category term="XeF2" /><category term="GaP" /><category term="COMSOL" /><category term="CPW" /><category term="Terahertz" /><category term="Machine_learning" /><category term="Biocomputing" /><summary type="html"><![CDATA[SNSPD alignment with silicon etch]]></summary></entry><entry><title type="html">This week’s outside five sigma (#50)</title><link href="http://localhost:4000/ofs/weekly-OFS-50/" rel="alternate" type="text/html" title="This week’s outside five sigma (#50)" /><published>2025-06-08T00:00:00-07:00</published><updated>2025-06-08T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-50</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-50/"><![CDATA[<h1 id="pockels-laser-with-tunable-dbr">Pockels laser with tunable DBR</h1>
 
 <p>Q: where would you do the first bond, on the chip or on the pin?</p>
 
@@ -3199,405 +3636,4 @@ this tutorial from the signal path is also very informative:
     <img src="/assets/images/2025/shed/IMG_3318.JPG" alt="ladder1" style="max-width: 32%; object-fit: contain;" />
     <img src="/assets/images/2025/shed/IMG_3319.JPG" alt="ladder2" style="max-width: 32%; object-fit: contain;" />
     <img src="/assets/images/2025/shed/IMG_3320.JPG" alt="ladder3" style="max-width: 32%; object-fit: contain;" />
-</div>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Woodwork" /><category term="Construction" /><category term="shed" /><summary type="html"><![CDATA[This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).]]></summary></entry><entry><title type="html">This week’s outside five sigma (#42)</title><link href="http://localhost:4000/ofs/weekly-OFS-42/" rel="alternate" type="text/html" title="This week’s outside five sigma (#42)" /><published>2025-04-13T00:00:00-07:00</published><updated>2025-04-13T00:00:00-07:00</updated><id>http://localhost:4000/ofs/weekly-OFS-42</id><content type="html" xml:base="http://localhost:4000/ofs/weekly-OFS-42/"><![CDATA[<h1 id="bioresorbable-optoelectronic-pacemaker">Bioresorbable optoelectronic pacemaker</h1>
-
-<p>A grain of rice size pacemaker that is fully bioresorbable… (mostly made with Mg, Mo, and Si)
-It even got a phototransistor for wireless optoelectronic control.
-<img src="/assets/images/2025/20240918_20250414/20250405_005348_0.jpg" alt="20250405_005348_0.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20250405_005348_1.jpg" alt="20250405_005348_1.jpg" /></p>
-<ul>
-  <li>they could put them on the valve replacement? Looks crazy.</li>
-  <li>Zhang2025: <a href="https://doi.org/10.1038/s41586-025-08726-4">Millimetre-scale bioresorbable optoelectronic systems for electrotherapy</a></li>
-  <li>(<a href="https://rdcu.be/egrFO">also</a>)
-   <img src="/assets/images/2025/20240918_20250414/20250405_005705_0.jpg" alt="20250405_005705_0.jpg" />
-   <img src="/assets/images/2025/20240918_20250414/20250405_005705_1.jpg" alt="20250405_005705_1.jpg" /></li>
-  <li>There is a separate system outside on the skip to go with them.</li>
-  <li>Its battery supplier PowerStream has a lovely website with “add to cart” buttons next every in-stock items
-   <img src="/assets/images/2025/20240918_20250414/20250405_010157_0.jpg" alt="20250405_010157_0.jpg" />
-   <img src="/assets/images/2025/20240918_20250414/20250405_010157_1.jpg" alt="20250405_010157_1.jpg" /></li>
-</ul>
-
-<h1 id="nerf-based-tomographic-reconstruction">NeRF-based tomographic reconstruction</h1>
-
-<p>of course this has been done, makes sense</p>
-
-<p>(using NeRF and 3DGS for x-ray tomography)
-<img src="/assets/images/2025/20240918_20250414/20250405_070030_0.jpg" alt="20250405_070030_0.jpg" /></p>
-<ul>
-  <li>Theres quite a few. The above is from:</li>
-  <li>Zha2024: <a href="https://arxiv.org/abs/2405.20693">R2-Gaussian: Rectifying Radiative Gaussian Splatting for Tomographic Reconstruction</a></li>
-</ul>
-
-<h1 id="collection-of-chips-next-to-beans-and-nuts">Collection of chips next to beans and nuts</h1>
-<p><img src="/assets/images/2025/20240918_20250414/20250405_165802_0.jpg" alt="20250405_165802_0.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20250405_165802_1.jpg" alt="20250405_165802_1.jpg" /></p>
-<ul>
-  <li>First image from <a href="https://x.com/jwt0625/status/1800387566199550407">this tweet</a></li>
-  <li>Second image from Martinez2023: <a href="https://doi.org/10.1038/s41467-023-39166-1">A chip-scale atomic beam clock</a>
-   <img src="/assets/images/2025/20240918_20250414/20250405_165916_0.jpg" alt="20250405_165916_0.jpg" />
-   <img src="/assets/images/2025/20240918_20250414/20250405_165916_1.jpg" alt="20250405_165916_1.jpg" />
-   <img src="/assets/images/2025/20240918_20250414/20250405_165916_2.jpg" alt="20250405_165916_2.jpg" />
-   <img src="/assets/images/2025/20240918_20250414/20250405_165916_3.jpg" alt="20250405_165916_3.jpg" />
-   <img src="/assets/images/2025/20240918_20250414/20250405_165916_4.jpg" alt="20250405_165916_4.jpg" /></li>
-</ul>
-
-<h1 id="digital-mechanical-lock-with-metamaterials">Digital mechanical lock with metamaterials</h1>
-
-<p>a digital mechanical door lock 
-<img src="/assets/images/2025/20240918_20250414/20250405_171858_0.jpg" alt="20250405_171858_0.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20250405_171858_1.jpg" alt="20250405_171858_1.jpg" /></p>
-<ul>
-  <li>Ion2017: <a href="https://doi.org/10.1145/3025453.3025624">Digital Mechanical Metamaterials</a>
-   <img src="/assets/images/2025/20240918_20250414/20250405_172005_0.jpg" alt="20250405_172005_0.jpg" /></li>
-  <li>there is a video, looks pretty sick: <a href="https://youtube.com/watch?v=A0lJUzcKDsY">Digital Mechanical Metamaterials</a></li>
-  <li>probably printed the channel too tight, takes quite some force &amp; can’t really cascade because of the force would accumulate too fast &amp; would not continue triggering without me pushing on the whole chain
-   <img src="/assets/images/2025/20240918_20250414/20250406_052030_0.jpg" alt="20250406_052030_0.jpg" /></li>
-</ul>
-
-<h1 id="mechanical-computing-with-metamaterials">Mechanical computing with metamaterials</h1>
-
-<p>this is so slow.. how about we do this at the crystal lattice level with THz clock rate
-<img src="/assets/images/2025/20240918_20250414/20250406_015949_0.jpg" alt="20250406_015949_0.jpg" /></p>
-<ul>
-  <li>Byun2024: <a href="https://doi.org/10.1038/s41467-024-47201-y">Integrated mechanical computing for autonomous soft machines</a>
-   <img src="/assets/images/2025/20240918_20250414/20250406_020052_0.jpg" alt="20250406_020052_0.jpg" /></li>
-  <li>this and the digital mechanical door lock earlier today were found in this review, it is open access and has a lot of fancy mech stuff inside.</li>
-  <li>Feels like this kind of mech computing is really for weird applications in weird environments</li>
-  <li>Chen2025: <a href="https://doi.org/10.1063/5.0259865">Advances in metamaterials for mechanical computing</a>
-   <img src="/assets/images/2025/20240918_20250414/20250406_023430_0.jpg" alt="20250406_023430_0.jpg" /></li>
-</ul>
-
-<h1 id="diamond-via-for-thermal-management">Diamond via for thermal management</h1>
-
-<p>I’ve seen copper via, tungsten via, superconducting via, via for light… diamond via for heat is a first time.
-<img src="/assets/images/2025/20240918_20250414/20250406_023659_0.jpg" alt="20250406_023659_0.jpg" /></p>
-<ul>
-  <li>Malakoutian2025: <a href="https://doi.org/10.1063/5.0260085">Diamond thermal matrix demonstration for two-tier 3D integrated circuits</a>
-   <img src="/assets/images/2025/20240918_20250414/20250406_023856_0.jpg" alt="20250406_023856_0.jpg" /></li>
-  <li>this is where the stock market is going on Monday
-   <img src="/assets/images/2025/20240918_20250414/20250406_023953_0.jpg" alt="20250406_023953_0.jpg" /></li>
-  <li>yes that</li>
-</ul>
-
-<h1 id="twisted-photonic-crystal-sensor">Twisted photonic crystal sensor</h1>
-
-<p>I don’t like “twistronics” but this twisted photonic crystal is pretty crazy</p>
-
-<p>imagine bonding two chips with a sub um gap around the ~ 1 mm central area, and rotate one of them against the other one
-<img src="/assets/images/2025/20240918_20250414/20250406_154240_0.jpg" alt="20250406_154240_0.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20250406_154240_1.jpg" alt="20250406_154240_1.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20250406_154240_2.jpg" alt="20250406_154240_2.jpg" /></p>
-<ul>
-  <li>Tang2025: <a href="https://doi.org/10.1038/s41566-025-01650-z">An adaptive moiré sensor for spectro-polarimetric hyperimaging</a> (<a href="https://rdcu.be/egBll">also</a>)</li>
-</ul>
-
-<h1 id="visual-data-over-analog-telephone">Visual data over analog telephone</h1>
-
-<p>Welcome to April 1925, today we are sending light (pictures) as electrical signals instead of the usual electrical signals as light (fiber optic telecom)
-<img src="/assets/images/2025/20240918_20250414/20250407_064754_0.jpg" alt="20250407_064754_0.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20250407_064754_1.jpg" alt="20250407_064754_1.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20250407_064754_2.jpg" alt="20250407_064754_2.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20250407_064754_3.jpg" alt="20250407_064754_3.jpg" /></p>
-<ul>
-  <li><a href="https://worldradiohistory.com/Archive-Bell-System-Technical-Journal/20s/Bell-1925b.o.pdf">The Transmission of Pictures Over Telephone Lines</a>
-   <img src="/assets/images/2025/20240918_20250414/20250407_065205_0.jpg" alt="20250407_065205_0.jpg" /></li>
-</ul>
-
-<h1 id="ml-based-spectroscopy-decoding">ML-based spectroscopy decoding</h1>
-
-<p>in some fields people would rather share code with a screenshot in a paper instead of a github repo, and they are proud of it</p>
-
-<p>(and they should, most people don’t even talk about the code behind the work)
-<img src="/assets/images/2025/20240918_20250414/20250407_154944_0.jpg" alt="20250407_154944_0.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20250407_154944_1.jpg" alt="20250407_154944_1.jpg" /></p>
-<ul>
-  <li>Vizoso2025: <a href="https://doi.org/10.1063/5.0255593">Decoding diffraction and spectroscopy data with machine learning: A tutorial</a>
-   <img src="/assets/images/2025/20240918_20250414/20250407_155107_0.jpg" alt="20250407_155107_0.jpg" /></li>
-</ul>
-
-<h1 id="charge-stabilized-droplet-does-not-splash">Charge-stabilized droplet does not splash</h1>
-<p><a href="https://x.com/jwt0625/status/1909418548398899701">video</a></p>
-
-<p>if you don’t want droplets to splash when hitting a surface, charge them up</p>
-<ul>
-  <li>video from: <a href="https://physics.aps.org/articles/v18/74">Charged Droplets Can Hit a Surface Without Splashing</a></li>
-  <li>it’s because the lamella gets attracted to the surface from electrostatic force.</li>
-  <li>Yu2025: <a href="https://doi.org/10.1103/PhysRevLett.134.134001">Why Charged Drops Do Not Splash</a>
-   <img src="/assets/images/2025/20240918_20250414/20250408_013322_0.jpg" alt="20250408_013322_0.jpg" /></li>
-  <li>it is charged by pass it thru a biased ring
-   <img src="/assets/images/2025/20240918_20250414/20250408_154140_0.jpg" alt="20250408_154140_0.jpg" /></li>
-</ul>
-
-<h1 id="triboelectric-droplet-led-generator">Triboelectric droplet LED generator</h1>
-<p><a href="https://x.com/jwt0625/status/1909466026775134239">video</a></p>
-
-<p>powering LEDs with water droplets, not from the kinetic energy but from charge transfer</p>
-
-<p>(they are using 400 LEDs because the optimal load resistance is ~ 1 MΩ, and peak power density is actually as high as 50 W/m^2, and efficiency of 2.2%, kind of crazy)</p>
-<ul>
-  <li>Xu2020: <a href="https://doi.org/10.1038/s41586-020-1985-6">A droplet-based electricity generator with high instantaneous power density</a> (<a href="https://rdcu.be/egOtf">also</a>)
-   <img src="/assets/images/2025/20240918_20250414/20250408_044041_0.jpg" alt="20250408_044041_0.jpg" />
-   <img src="/assets/images/2025/20240918_20250414/20250408_044041_1.jpg" alt="20250408_044041_1.jpg" /></li>
-</ul>
-
-<h1 id="quantum-circuits-vs-refuelling-plan">quantum circuits vs refuelling plan</h1>
-
-<p><img src="/assets/images/2025/20240918_20250414/20250408_200726_0.jpg" alt="20250408_200726_0.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20250408_200726_1.jpg" alt="20250408_200726_1.jpg" /></p>
-<ul>
-  <li>left: <a href="https://doi.org/10.1103/PhysRevLett.134.130403">Low-Depth Unitary Quantum Circuits for Dualities in One-Dimensional Quantum Lattice Models</a></li>
-  <li>right: <a href="https://victorxm715.co.uk/bobs-tale-of-phantoms/">Bob’s Tale of Phantoms</a></li>
-</ul>
-
-<h1 id="gaussian-splatting-slam">Gaussian Splatting SLAM</h1>
-<p><a href="https://x.com/jwt0625/status/1909854349611925576">video</a></p>
-
-<p>maybe i should have upgraded my PC. So many projects need CUDA..
-(this is MASt3R-SLAM)</p>
-<ul>
-  <li><a href="https://edexheim.github.io/mast3r-slam/">MASt3R-SLAM: Real-Time Dense SLAM with 3D Reconstruction Priors</a></li>
-  <li><a href="https://youtube.com/watch?v=xXuolzFvddQ">WildGS-SLAM: Monocular Gaussian Splatting SLAM in Dynamic Environments</a></li>
-  <li><a href="https://wildgs-slam.github.io">also</a></li>
-</ul>
-
-<h1 id="real-time-drift-correction-in-microscopy">Real-time drift correction in microscopy</h1>
-
-<p>example open source status in many fields (<a href="https://x.com/jwt0625/status/1909992902190907804">video</a>):</p>
-<ul>
-  <li>paper is paywalled</li>
-  <li>code is in MATLAB, and requires the parallel computing toolbox (??)</li>
-</ul>
-
-<p>still very useful tho, this one is a real-time 3D drift correction for super-resolution microscopy.</p>
-<ul>
-  <li>video from: <a href="https://github.com/ZhengyiZ/NanoDriftGuard">NanoDriftGuard</a></li>
-  <li>Sun2025: <a href="https://doi.org/10.1016/j.optlaseng.2025.108957">NanoDriftGuard: Open-source isotropic ångström-scale active stabilization for super-resolution microscopy</a></li>
-</ul>
-
-<h1 id="photonic-processors-for-ai-acceleration">Photonic processors for AI acceleration</h1>
-
-<p>“Quad-core photonic processor” from Lightmatter</p>
-
-<p>Their “friend” Lightelligence also put out a similar work at the same time 
-<img src="/assets/images/2025/20240918_20250414/20250409_200252_0.jpg" alt="20250409_200252_0.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20250409_200252_1.jpg" alt="20250409_200252_1.jpg" /></p>
-<ul>
-  <li><a href="https://doi.org/10.1038/s41586-025-08854-x">Universal photonic artificial intelligence acceleration</a> (<a href="https://rdcu.be/eg52V">also</a>)</li>
-  <li><a href="https://lightmatter.co/blog/a-new-kind-of-computer/">A New Kind of Computer</a></li>
-  <li><a href="https://doi.org/10.1038/s41586-025-08786-6">An integrated large-scale photonic accelerator with ultralow latency</a>
-   <img src="/assets/images/2025/20240918_20250414/20250409_200456_0.jpg" alt="20250409_200456_0.jpg" /></li>
-</ul>
-
-<h1 id="optical-component-defect-detection">Optical component defect detection</h1>
-
-<p>Training YOLO to inspect optical components for you
-<img src="/assets/images/2025/20240918_20250414/20250410_003958_0.jpg" alt="20250410_003958_0.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20250410_003958_1.jpg" alt="20250410_003958_1.jpg" /></p>
-<ul>
-  <li>Huang2025: <a href="https://doi.org/10.1016/j.optlaseng.2025.108974">Surface defect detection of planar optical components based on OPT-YOLO</a></li>
-  <li>“In order to promote the development of the research field of surface defects in optical components, this article discloses some defect datasets at”</li>
-  <li><a href="https://github.com/hhewang/JLU-OPT">JLU-OPT</a></li>
-</ul>
-
-<h1 id="intercellular-mitochondrial-transfer">Intercellular mitochondrial transfer</h1>
-
-<p>mitochondria can move between cells??</p>
-
-<p>i had no idea organ donation could happen at the cellular level.
-<img src="/assets/images/2025/20240918_20250414/20250410_005226_0.jpg" alt="20250410_005226_0.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20250410_005226_1.jpg" alt="20250410_005226_1.jpg" /></p>
-<ul>
-  <li>Borcherding2023: <a href="https://doi.org/10.1038/s41586-023-06537-z">The power and potential of mitochondria transfer</a> (<a href="https://rdcu.be/eg6WZ">also</a>)</li>
-</ul>
-
-<h1 id="magic-leap-waveguide-manufacturing">Magic Leap waveguide manufacturing</h1>
-
-<p>wow Magic Leap has their own waveguide fab (<a href="https://x.com/jwt0625/status/1910360049601708393">video</a>)
-<img src="/assets/images/2025/20240918_20250414/20250410_155143_0.jpg" alt="20250410_155143_0.jpg" /></p>
-<ul>
-  <li>Magic Leap - <a href="https://magicleap.com/manufacturing">Manufacturing</a>
-   <img src="/assets/images/2025/20240918_20250414/20250410_155230_0.jpg" alt="20250410_155230_0.jpg" /></li>
-  <li>Here are some good background read:</li>
-  <li><a href="https://reddit.com/r/augmentedreality/comments/1frdjt2/meta_orion_ar_glasses_the_first_deep_dive_into/?rdt=55566">Meta Orion AR Glasses: The first DEEP DIVE into the optical architecture</a></li>
-  <li>and Karl Guttag’s blog: <a href="https://kguttag.com/2024/10/06/meta-orion-ar-glasses-pt-1-waveguides/">Meta Orion AR Glasses (Pt. 1 Waveguides)</a></li>
-</ul>
-
-<h1 id="supercritical-gas-circuit-breaker">Supercritical gas circuit breaker</h1>
-
-<p>“A high-voltage circuit breaker interrupter, like this one made by GE Vernova, stops current by mechanically creating a gap and an arc, and then blasting high-pressure gas through the gap.”</p>
-<ul>
-  <li><a href="https://youtube.com/watch?v=U4ISN6F-B8Y">How High-voltage Circuit Breakers Work</a></li>
-  <li>From <a href="https://spectrum.ieee.org/sf6-gas-replacement">First Supercritical CO2 Circuit Breaker Debuts</a></li>
-  <li>how the whole thing looks like:</li>
-  <li>IEEE Switchgear Committee, 2017 - <a href="https://ewh.ieee.org/soc/pes/switchgear/presentations/tp_files/2017-2_Tutorial_AC_HV_Circuit_Breakers_Dufournet.pdf">AC High-Voltage Circuit Breakers</a>
-   <img src="/assets/images/2025/20240918_20250414/20250411_015619_0.jpg" alt="20250411_015619_0.jpg" /></li>
-</ul>
-
-<h1 id="data-center-power-density-map">Data center power density map</h1>
-
-<p>look at Virginia
-<img src="/assets/images/2025/20240918_20250414/20250411_014112_0.jpg" alt="20250411_014112_0.jpg" /></p>
-<ul>
-  <li><a href="https://iea.org/reports/energy-and-ai">International Energy Agency report - Energy and AI</a></li>
-  <li>havent thought about MWh per wafer before
-   <img src="/assets/images/2025/20240918_20250414/20250411_014353_0.jpg" alt="20250411_014353_0.jpg" /></li>
-  <li>datacenter capacities
-   <img src="/assets/images/2025/20240918_20250414/20250411_014901_0.jpg" alt="20250411_014901_0.jpg" /></li>
-  <li>they explained why Northern Virginia
-   <img src="/assets/images/2025/20240918_20250414/20250411_015110_0.jpg" alt="20250411_015110_0.jpg" /></li>
-  <li><a href="https://vedp.org/industry/data-centers">VEDP - Data Centers</a>
-   <img src="/assets/images/2025/20240918_20250414/20250411_071841_0.jpg" alt="20250411_071841_0.jpg" /></li>
-</ul>
-
-<h1 id="2d-materials-in-integrated-photonics">2D materials in integrated photonics</h1>
-
-<blockquote>
-  <p>“I have a probe I could tap and scan, what should I do with it?”</p>
-
-  <p>“Yes.”
-<img src="/assets/images/2025/20240918_20250414/20250411_040908_0.jpg" alt="20250411_040908_0.jpg" /></p>
-  <ul>
-    <li><a href="https://arxiv.org/abs/2504.04558">Roadmap for Photonics with 2D Materials</a></li>
-  </ul>
-</blockquote>
-
-<h1 id="queryable-materials-property-database">Queryable materials property database</h1>
-<p><a href="https://x.com/jwt0625/status/1910560795274207608">video</a></p>
-
-<p>I had this random thought: why can’t I curl or wget some material properties.</p>
-
-<p>Turns out you almost can. This one is quite nice, and got built-in API. If you are confused about Brillouin Zone etc, it even got interactive plots to help you get even more confused.</p>
-
-<p>it’s just not as comprehensive or fit your need as much, but you could contribute to the properties.</p>
-<ul>
-  <li><a href="https://next-gen.materialsproject.org/materials/mp-3731?formula=LiNbO3">The Materials Project - LiNbO₃ - mp-3731</a></li>
-  <li>How is there no option for electro-optic and nonlinear optic properties..
-   <img src="/assets/images/2025/20240918_20250414/20250411_051145_0.jpg" alt="20250411_051145_0.jpg" /></li>
-</ul>
-
-<h1 id="wire-driven-mobile-robot-with-grappling">Wire-driven mobile robot with grappling</h1>
-
-<p><a href="https://x.com/jwt0625/status/1910721883781423238">video</a></p>
-
-<p>this robot moves around with “drone grappling hooks”</p>
-<ul>
-  <li><a href="https://youtube.com/watch?v=Vn5Kx3mq41g">Overcoming Physical Limitations Utilizing the Environment with a Wire-Driven Multipurpose Robot</a></li>
-</ul>
-
-<h1 id="gui-parsing-with-omniparser">GUI parsing with OmniParser</h1>
-
-<p>Trying out OmniParser on comsol gui and it froze my poor M4 mini.. so here is part of the gui
-<img src="/assets/images/2025/20240918_20250414/20250412_050804_0.jpg" alt="20250412_050804_0.jpg" /></p>
-<ul>
-  <li><a href="https://github.com/microsoft/OmniParser">OmniParser: Screen Parsing tool for Pure Vision Based GUI Agent</a></li>
-  <li>it’s unlikely aware of the structure of the components. It returns a list of components and their properties, including text from OCR, and icons from YOLO, and tries to guess what the icons mean
-   <img src="/assets/images/2025/20240918_20250414/20250412_062056_0.jpg" alt="20250412_062056_0.jpg" /></li>
-</ul>
-
-<h1 id="flexure-mechanism-in-nif-fusion-experiments">Flexure mechanism in NIF fusion experiments</h1>
-
-<p>automatic repost of sexy flexure
-<img src="/assets/images/2025/20240918_20250414/20240918_005744_0.jpg" alt="20240918_005744_0.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20240918_005744_1.jpg" alt="20240918_005744_1.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20240918_005744_2.jpg" alt="20240918_005744_2.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20240918_005744_3.jpg" alt="20240918_005744_3.jpg" />
-<img src="/assets/images/2025/20240918_20250414/20240918_005744_4.jpg" alt="20240918_005744_4.jpg" /></p>
-<ul>
-  <li>Thompson2025: <a href="https://doi.org/10.1063/10.0036508">Identifying a key culprit behind inertial confinement fusion’s ‘drive deficit’ problem</a></li>
-</ul>
-
-<h1 id="projects">Projects</h1>
-
-<p>Procrastinating:</p>
-<ul>
-  <li>Droplet walker</li>
-  <li>TabTreeTracker</li>
-  <li>Low cost robot arm</li>
-  <li>Joystick doomscrolling</li>
-</ul>
-
-<p>Planning:</p>
-<ul>
-  <li>Wave demo with ~ 300 Hz water surface wave + 3D printed components</li>
-</ul>
-
-<p>Ongoing:</p>
-<ul>
-  <li>PIC pytorch
-    <ul>
-      <li>week 3 (42): [redacted]</li>
-      <li>week 2 (41): [redacted]</li>
-      <li>week 1 (40): built a few simple components. Tested simple backprop and training.</li>
-      <li><img src="/assets/images/projects/PIC_pytorch_20250330.png" alt="PIC-torch" /></li>
-    </ul>
-  </li>
-  <li>WIMS (where is my shit):
-    <ul>
-      <li>week 4 (42): switched to a LiPo battery, it lasts several days!</li>
-      <li>week 3 (41): got a usb type-C power monitor. Sleep power too high, need debug</li>
-      <li>week 2 (40): Started wearing the camera at home &amp; send thru wifi to desktop. Need to somehow save or send the photo to my phone when outside.</li>
-      <li><img src="/assets/images/projects/WIMS-20250330.png" alt="WIMS" /></li>
-      <li>week 1 (39): I finally connected to the camera. Quality bad. Ordered new camera (OV5640) from aliexpress.</li>
-    </ul>
-  </li>
-  <li>Quantum frequency conversion plot
-    <ul>
-      <li>week 4 (41): procrastinating</li>
-      <li>week 3 (40): procrastinating</li>
-      <li>Week 2 (39): published it, currently has piezo-optomechanical approaches</li>
-      <li>Week 1 (38): Gave a talk at PsiQuantum. I like the hat.</li>
-    </ul>
-  </li>
-  <li><a href="https://github.com/jwt625/interactwave">interactive wave</a>
-    <ul>
-      <li>week 1 (37): made a python standalone library, see <a href="https://github.com/jwt625/BPM">BPM</a>.</li>
-    </ul>
-  </li>
-  <li>fiber2chip <a href="https://jwt625.github.io/tutorial/fiber2chip-history-concept/">blog</a></li>
-  <li>backyard landscaping:
-    <ul>
-      <li><a href="https://x.com/jwt0625/status/1911204437353529571">week 16 (42)</a>: continue cinder block wall, finished upper level. Had to cast another small chunk of concrete</li>
-      <li><img src="/assets/images/2025/20240918_20250414/GoX2RDzXkAA0f09.jpeg" alt="GoX2RDzXkAA0f09" /></li>
-      <li><a href="https://x.com/jwt0625/status/1908666642453963155">week 15 (41)</a>: continue cinder block wall, added geogrid and two more layers of blocks. Also tear down stair form OSB</li>
-      <li><img src="/assets/images/2025/20250225_20250406/GnzxClEbYAEqjqX.jpeg" alt="GnzxClEbYAEqjqX" /></li>
-      <li>week 14 (40): no progress this week</li>
-      <li>week 13 (39): finished stairs. Started wall with cinder block. Formed and poured concrete at the turn</li>
-      <li>week 12 (38): traveled to LA this weekend! No backyard work.</li>
-      <li>week 11 (37): working on the form of the stairs, deck joists</li>
-      <li>week 10 (36): did not work on it</li>
-      <li>week 9 (35): finished the deck joists and boarded the side of the deck</li>
-      <li>week 8 (34): finished jacuzzi base &amp; deck frame</li>
-      <li>week 7 (33): working on base for Jacuzzi</li>
-      <li>week 6 (32): new year</li>
-      <li>week 5 (31): flattened the bottom level, put down form for concrete curb. Put down linear / grass barrier, and then gravel</li>
-      <li>week 4 (30): Finished the bottom retaining wall</li>
-      <li>week 3 (29): concrete poured for retaining wall beams and deck posts, started putting on retaining wall panels</li>
-      <li>week 2 (28): dig holes, posts inside holes, worked on Living room</li>
-      <li>week 1 (27): first week</li>
-    </ul>
-  </li>
-</ul>
-
-<p>Finished:</p>
-<ul>
-  <li>(week 32:) SiPho writeup for <a href="https://x.com/byte_thrasher">avi</a>’s zine.
-    <ul>
-      <li>week 36: published on blog</li>
-    </ul>
-  </li>
-  <li>Continuing [redacted]
-    <ul>
-      <li>Week 36: This has been finished.</li>
-    </ul>
-  </li>
-</ul>
-
-<p>Gave up</p>
-<ul>
-  <li>Traveling wave excitation of mechanical ring resonator (see <a href="https://x.com/jwt0625/status/1877578653648986365">this thread</a>)</li>
-  <li><a href="https://github.com/jwt625/tt-test">Tiny Tapeout</a>
-    <ul>
-      <li>abort? (because of efabless no funding)</li>
-    </ul>
-  </li>
-</ul>]]></content><author><name>Wentao</name></author><category term="OFS" /><category term="Bioresorbable_electronics" /><category term="Phototransistor" /><category term="NeRF" /><category term="Gaussian_splatting" /><category term="Atomic_clock" /><category term="Mechanical_computing" /><category term="Metamaterials" /><category term="3D_integration" /><category term="Diamond_thermal_interface" /><category term="Photonic_crystal" /><category term="Moiré_optics" /><category term="Analog_communication" /><category term="Diffraction_ML" /><category term="Charged_droplet_dynamics" /><category term="Triboelectric_generator" /><category term="Quantum_circuit" /><category term="SLAM" /><category term="Super_resolution_microscopy" /><category term="Photonic_processor" /><category term="Optical_inspection" /><category term="Mitochondrial_transfer" /><category term="Waveguide_display" /><category term="High_voltage_breaker" /><category term="2D_material_photonics" /><category term="Materials_API" /><category term="Robotics" /><category term="GUI_OCR" /><category term="Flexure" /><summary type="html"><![CDATA[Bioresorbable optoelectronic pacemaker]]></summary></entry></feed>
+</div>]]></content><author><name>Wentao</name></author><category term="Blog" /><category term="Woodwork" /><category term="Construction" /><category term="shed" /><summary type="html"><![CDATA[This is a placeholder for the shed project I started with my friend Bryan in his backyard during Christmas 2023 and the new year. I plan to work on writing this up in the next three weeks (today is 2024/06/23).]]></summary></entry></feed>

@@ -454,4 +454,10 @@ var store = [{
         "tags": ["MZI","Laser_locking","Optics","Photonics","MEMS","OPA","LIDAR","Ohio_scanner","FaaS","Mid_IR","Silicon_photonics","Multipass_cell","Quantum_AI","Blockchain_manufacturing","OLED","NIR","Astrophotography","Lithium_niobate","SHG","Nanoimprinting","Pockels_laser","Silicide"],
         "url": "/ofs/weekly-OFS-50/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#51)",
+        "excerpt":"SNSPD alignment with silicon etch I really like that they use the process (silicon etch) and the fiber ferrule to align the SNSPD to the fiber Quantum Opus Duke - MIST - Superdense Quantum Teleportation and directly wirebonded to the bottom of a surface mount SMP connector (not exactly this...","categories": ["OFS"],
+        "tags": ["SNSPD","MEMS","Quantum_computing","P2P","LLM","Photonic_crystal_fiber","Spatial_audio","HRTF","Grating_coupler","CPU_trends","Photonics","Robotics","Thrombectomy","Co-packaged_optics","Superconducting_qubit","Silicon_etch","Glassblowing","CSAC","LIDAR","ICP_RIE","TMAH","XeF2","GaP","COMSOL","CPW","Terahertz","Machine_learning","Biocomputing"],
+        "url": "/ofs/weekly-OFS-51/",
+        "teaser": null
       }]

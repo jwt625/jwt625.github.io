@@ -305,6 +305,10 @@
 <lastmod>2025-06-08T00:00:00-07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/ofs/weekly-OFS-51/</loc>
+<lastmod>2025-06-15T00:00:00-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -759,6 +763,10 @@
 <url>
 <loc>http://localhost:4000/assets/doc/2025/Tunable_Snapshot_Spectrometer_Feasibility_Study.pdf</loc>
 <lastmod>2025-06-01T23:25:02-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/doc/2025/Ultrafast%20Computing%20With%20Nonlinear%20Photonics.pdf</loc>
+<lastmod>2025-06-12T07:42:56-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/doc/2025/VHX-5000-Brochure.pdf</loc>
