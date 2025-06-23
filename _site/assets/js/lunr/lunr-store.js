@@ -460,4 +460,10 @@ var store = [{
         "tags": ["SNSPD","MEMS","Quantum_computing","P2P","LLM","Photonic_crystal_fiber","Spatial_audio","HRTF","Grating_coupler","CPU_trends","Photonics","Robotics","Thrombectomy","Co-packaged_optics","Superconducting_qubit","Silicon_etch","Glassblowing","CSAC","LIDAR","ICP_RIE","TMAH","XeF2","GaP","COMSOL","CPW","Terahertz","Machine_learning","Biocomputing"],
         "url": "/ofs/weekly-OFS-51/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#52)",
+        "excerpt":"Single strontium ion optical clock another nice image of a single atom (A single ion of strontium (small spot between electrode tips in the center of the picture) scattering light in the VTT MIKES optical clock. Credit: Anders Wallin) Unprecedented optical clock network lays groundwork for redefining the second Lottery-winning...","categories": ["OFS"],
+        "tags": ["Optical_clock","Ion_trap","Diamond_membrane","Quantum_tech","Photonic_circuit","Waveguide","UV_photonics","Electro_optic_modulator","Photonic_crystal","Hydrophone","Metaoptics","Silicon_photonics","RF_imaging","Electromagnetic_modeling","Anechoic_chamber","Organ_transplant","In_physics_computing","Neural_network_hardware","3D_printing","MEMS_fixtures","Alumina","Cryogenic_materials","Laser_processing","DIC_microscopy","Piezo","Kapton","Nanomechanics","Bioimaging","Nitrogen_allotrope","Lithium_niobate"],
+        "url": "/ofs/weekly-OFS-52/",
+        "teaser": null
       }]

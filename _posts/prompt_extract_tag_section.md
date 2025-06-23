@@ -43,7 +43,6 @@ Here are some example tags:
   - Annealing
   - ALD
   - ALE
-
   - Photonics
   - Quantum
   - NIF
@@ -65,7 +64,6 @@ Here are some example tags:
   - Magnetorquer
   - VCSEL
   - Facebook
-
   - Qubit
   - Photonics
   - Quantum
@@ -86,7 +84,6 @@ Here are some example tags:
   - Optics
   - Camera
   - Microscopy
-
   - Robotics
   - Prosthetic
   - Fusion
@@ -102,7 +99,6 @@ Here are some example tags:
   - ifixit
   - R2R
   - NIL
-
   - Quantum
   - Stycast
   - Cryogenics
@@ -112,7 +108,6 @@ Here are some example tags:
   - Optics
   - Microwave
   - Sensing
-
     - Nanosphere
     - Satellite
     - MEMS
