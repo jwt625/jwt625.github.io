@@ -466,4 +466,10 @@ var store = [{
         "tags": ["Optical_clock","Ion_trap","Diamond_membrane","Quantum_tech","Photonic_circuit","Waveguide","UV_photonics","Electro_optic_modulator","Photonic_crystal","Hydrophone","Metaoptics","Silicon_photonics","RF_imaging","Electromagnetic_modeling","Anechoic_chamber","Organ_transplant","In_physics_computing","Neural_network_hardware","3D_printing","MEMS_fixtures","Alumina","Cryogenic_materials","Laser_processing","DIC_microscopy","Piezo","Kapton","Nanomechanics","Bioimaging","Nitrogen_allotrope","Lithium_niobate"],
         "url": "/ofs/weekly-OFS-52/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#53)",
+        "excerpt":"Cavity-integrated electro-optics circuits some nice photonic and microwave circuits from the Cavity-Integrated Electro-Optics (CIELO) project (and also the flip-chip HBAR) Cavity-Integrated Electro-Optics Femtosecond laser-assisted wet etching femtosecond laser-assisted wet etching this is a compact (and poor) Fabry-Perot interferometer inside a fiber for high-temperature sensing Gao2025: Ultracompact Fabry-Perot interferometer based on...","categories": ["OFS"],
+        "tags": ["Photonics","Microwave","Optics","MEMS","Quantum_computing","Semiconductor","Laser","Etching","HEMT","Ion_trap","Telescope","Annealing","DWDM","Tensor_processor","Filter_design","Magnet","High_speed_imaging","Wave_physics","Soliton_combs","Neuroscience","ALD"],
+        "url": "/ofs/weekly-OFS-53/",
+        "teaser": null
       }]
