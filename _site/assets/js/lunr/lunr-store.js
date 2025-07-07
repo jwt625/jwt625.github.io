@@ -472,4 +472,10 @@ var store = [{
         "tags": ["Photonics","Microwave","Optics","MEMS","Quantum_computing","Semiconductor","Laser","Etching","HEMT","Ion_trap","Telescope","Annealing","DWDM","Tensor_processor","Filter_design","Magnet","High_speed_imaging","Wave_physics","Soliton_combs","Neuroscience","ALD"],
         "url": "/ofs/weekly-OFS-53/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#54)",
+        "excerpt":"Reconfigurable plasma photonic crystals a microwave frequency photonic crystal made out of an array of plasma tubes so that it’s reconfigurable at ~us scale Fig. 1: Adamovich2017: The 2017 Plasma Roadmap: Low temperature plasma science and technology Fig. 2: Wang2016: Waveguiding and bending modes in a plasma photonic crystal bandgap...","categories": ["OFS"],
+        "tags": ["Antenna","Diamond_anvil","Superconductor","Plasma","Photonic_crystal","MEMS","Temperature_regulation","Speed_camera","FDTD","Waveguide","Robotics","Jet_powered","Biofluorescence","Lithography","Nanoimprint","Scintillator","Superconducting","Magnetic_hose","Qubit","Transmon","Microfluidic","Metasurface","Thermoelectric","Gravitational_wave","Fiber_optics","Power_MOSFET","Quantum_sensor","Vacuum_chamber"],
+        "url": "/ofs/weekly-OFS-54/",
+        "teaser": null
       }]
