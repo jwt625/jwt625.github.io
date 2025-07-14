@@ -1,0 +1,1294 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.26.2 by Michael Rose
+  Copyright 2013-2024 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>This week’s outside five sigma (#55) - Outside Five Sigma</title>
+<meta name="description" content="Cryogenic transition-edge sensor design">
+
+
+  <meta name="author" content="Wentao">
+  
+  <meta property="article:author" content="Wentao">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Outside Five Sigma">
+<meta property="og:title" content="This week’s outside five sigma (#55)">
+<meta property="og:url" content="http://localhost:4000/ofs/weekly-OFS-55/">
+
+
+  <meta property="og:description" content="Cryogenic transition-edge sensor design">
+
+
+
+  <meta property="og:image" content="http://localhost:4000/assets/images/2025/20250419_20250713/20250709_010329_0.jpg">
+
+
+
+
+
+  <meta property="article:published_time" content="2025-07-13T00:00:00-07:00">
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/ofs/weekly-OFS-55/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Outside Five Sigma Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="text/javascript">
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+
+  </head>
+
+
+  <body class="layout--single" dir="ltr">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/"><img src="/assets/images/twm.JPG" alt="Outside Five Sigma"></a>
+        
+        <a class="site-title" href="/">
+          Outside Five Sigma
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/posts/"
+                
+                
+              >Posts</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/categories/"
+                
+                
+              >Categories</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/tags/"
+                
+                
+              >Tags</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/about/"
+                
+                
+              >About</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+  
+
+
+
+
+
+
+
+<div class="page__hero--overlay"
+  style=" background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/2025/20250419_20250713/20250709_010329_0.jpg');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          This week’s outside five sigma (#55)
+
+        
+      </h1>
+      
+      
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-07-13T00:00:00-07:00">July 13, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          11 minute read
+        
+      </span>
+    
+  </p>
+
+
+      
+    </div>
+  
+  
+</div>
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person" class="h-card">
+
+  
+    <div class="author__avatar">
+      <a href="http://localhost:4000/">
+        <img src="/assets/images/bio-photo-2.jpg" alt="Wentao" itemprop="image" class="u-photo">
+      </a>
+    </div>
+  
+
+  <div class="author__content">
+    <h3 class="author__name p-name" itemprop="name">
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Wentao</a>
+    </h3>
+    
+      <div class="author__bio p-note" itemprop="description">
+        <p>Memories are the long term averages, and the outside five sigmas.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer me" itemprop="sameAs"><i class="fas fa-fw fa-link" aria-hidden="true"></i><span class="label">Google Scholar</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="This week’s outside five sigma (#55)">
+    <meta itemprop="description" content="Cryogenic transition-edge sensor design">
+    <meta itemprop="datePublished" content="2025-07-13T00:00:00-07:00">
+    
+
+    <div class="page__inner-wrap">
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#cryogenic-transition-edge-sensor-design">Cryogenic transition-edge sensor design</a></li><li><a href="#diamond-chip-fabrication-for-ion-traps">Diamond chip fabrication for ion traps</a></li><li><a href="#laser-induced-acoustic-desorption-for-nanoparticle-trapping">Laser-induced acoustic desorption for nanoparticle trapping</a></li><li><a href="#ancient-dna-facial-reconstruction-techniques">Ancient DNA facial reconstruction techniques</a></li><li><a href="#darpa-funded-lidar-development-timeline">DARPA-funded LiDAR development timeline</a></li><li><a href="#plasma-photonic-crystal-simulations">Plasma photonic crystal simulations</a></li><li><a href="#single-image-3d-reconstruction-with-ai">Single-image 3D reconstruction with AI</a></li><li><a href="#gpt-4o-in-robotic-surgery">GPT-4o in robotic surgery</a></li><li><a href="#ai-optimized-metasurface-design">AI-optimized metasurface design</a></li><li><a href="#forward-mode-optical-neural-networks">Forward-mode optical neural networks</a></li><li><a href="#precision-fluid-dispensing-measurement">Precision fluid dispensing measurement</a></li><li><a href="#llm-improvements-plot">LLM improvements plot</a></li><li><a href="#controlled-cracking-in-silicon-nitride">Controlled cracking in silicon nitride</a></li><li><a href="#cold-neutron-spectrometer-instrumentation">Cold neutron spectrometer instrumentation</a></li><li><a href="#next-generation-gravitational-wave-detectors">Next-generation gravitational wave detectors</a></li><li><a href="#high-frequency-acoustic-resonators">High-frequency acoustic resonators</a></li><li><a href="#solid-state-laser-cooling-methods">Solid-state laser cooling methods</a></li><li><a href="#fiber-mode-mixing-in-cladding-for-anti-stokes-fiber-cooling">Fiber mode mixing in cladding for anti-Stokes fiber cooling</a></li><li><a href="#projects">Projects</a></li></ul>
+            </nav>
+          </aside>
+        
+        <h1 id="cryogenic-transition-edge-sensor-design">Cryogenic transition-edge sensor design</h1>
+
+<p>Look at that precision-machined copper stage. The tasteful thickness of the gold plating. Oh my God even the island is suspended on monocrystalline silicon flexures.</p>
+
+<p>(transition-edge sensor (TES) for cryogenic decay energy spectrometry (DES, first time heard this), look at all those lil filter chips with “big” inductors)
+<img src="/assets/images/2025/20250419_20250713/20250709_010329_0.jpg" alt="20250709_010329_0.jpg" />
+<img src="/assets/images/2025/20250419_20250713/20250709_010329_1.jpg" alt="20250709_010329_1.jpg" /></p>
+<ul>
+  <li><a href="https://nist.gov/news-events/news/2025/07/new-nist-method-precisely-measures-radioactivity-tiny-samples">New NIST Method Precisely Measures Radioactivity in Tiny Samples</a></li>
+  <li><a href="https://nist.gov/programs-projects/basic-metrology-true-becquerel-new-paradigm-21st-century-radioactivity">Basic Metrology: True Becquerel - A New Paradigm for 21st Century Radioactivity Measurements</a></li>
+  <li>Carlson2024: <a href="https://doi.org/10.1007/s10909-024-03135-9">Characterization of Transition Edge Sensors for Decay Energy Spectrometry</a>
+   <img src="/assets/images/2025/20250419_20250713/20250709_010454_0.jpg" alt="20250709_010454_0.jpg" /></li>
+  <li>i want to find the filter chip..</li>
+  <li>Fitzgerald2024: <a href="https://arxiv.org/abs/2411.02565">Primary activity measurement of an Am-241 solution using microgram inkjet gravimetry and decay energy spectrometry</a>
+   <img src="/assets/images/2025/20250419_20250713/20250709_010658_0.jpg" alt="20250709_010658_0.jpg" /></li>
+  <li>sometimes we use SEM sample clips but yes</li>
+  <li>i do think it’s mainly for quick turnaround testing tho, people will do silver paste or ge varnish for more proper packaging</li>
+  <li>ive made some nice looking filters
+   <img src="/assets/images/2025/20250419_20250713/20250709_030509_0.jpg" alt="20250709_030509_0.jpg" />
+   <img src="/assets/images/2025/20250419_20250713/20250709_030509_1.jpg" alt="20250709_030509_1.jpg" />
+   <img src="/assets/images/2025/20250419_20250713/20250709_030509_2.jpg" alt="20250709_030509_2.jpg" />
+   <img src="/assets/images/2025/20250419_20250713/20250709_030509_3.jpg" alt="20250709_030509_3.jpg" /></li>
+</ul>
+
+<h1 id="diamond-chip-fabrication-for-ion-traps">Diamond chip fabrication for ion traps</h1>
+
+<p>what the hell is this, WHAT IS THIS?? HOW??
+<img src="/assets/images/2025/20250419_20250713/20250707_040926_0.jpg" alt="20250707_040926_0.jpg" /></p>
+<ul>
+  <li><a href="https://diamond-materials.com/en/downloads/">Diamond Materials</a>
+   <img src="/assets/images/2025/20250419_20250713/20250707_041111_0.jpg" alt="20250707_041111_0.jpg" /></li>
+  <li>because im curious how/where did these ion trap people got their diamond chip with cutouts like these.</li>
+  <li>“All traps were designed in-house and fabricated by Diamond Material in Germany”</li>
+  <li>Chen2017: <a href="https://nist.gov/system/files/documents/2017/12/29/chen_thesis_main.pdf">Ticking near the Zero-Point Energy: towards 1 × 10-18 Accuracy in Al+ Optical Clocks</a></li>
+  <li><a href="https://diamond-materials.com/en/products/miscellaneous/diamond-watch-components/">Ion Traps for Quantum Technologies</a></li>
+  <li>(i like the url is still “diamond watch components” but it’s actually ion traps. Guess technically it is correct 😂)
+   <img src="/assets/images/2025/20250419_20250713/20250707_041618_0.jpg" alt="20250707_041618_0.jpg" />
+   <img src="/assets/images/2025/20250419_20250713/20250707_041618_1.jpg" alt="20250707_041618_1.jpg" />
+   <img src="/assets/images/2025/20250419_20250713/20250707_041618_2.jpg" alt="20250707_041618_2.jpg" /></li>
+  <li>the newer designs of the trap chip can be seen here, i still have a lot of questions from this paper:</li>
+  <li>fibers could get charged due to scattered laser light? (ok this one is understandable)</li>
+  <li>why quartz v-groove chip? Isn’t silicon more conductive and better for discharge?</li>
+  <li>why photonic crystal fiber?</li>
+  <li>Teller2023: <a href="https://doi.org/10.1116/5.0121534">Integrating a fiber cavity into a wheel trap for strong ion–cavity coupling</a>
+   <img src="/assets/images/2025/20250419_20250713/20250707_043804_0.jpg" alt="20250707_043804_0.jpg" />
+   <img src="/assets/images/2025/20250419_20250713/20250707_043804_1.jpg" alt="20250707_043804_1.jpg" />
+   <img src="/assets/images/2025/20250419_20250713/20250707_043804_2.jpg" alt="20250707_043804_2.jpg" /></li>
+</ul>
+
+<h1 id="laser-induced-acoustic-desorption-for-nanoparticle-trapping">Laser-induced acoustic desorption for nanoparticle trapping</h1>
+
+<p>one way to load nanoparticles into an optical trap is to shock them off a metal foil with a laser pulse (LIAD: laser-induced acoustic desorption)</p>
+
+<p>is it using momentum of the light? Nope, it’s the acoustic shock wave from thermo-mechanical stress.</p>
+
+<p>typical laser pulse used: few ns, ~10 mJ, and few hundred um spot size.
+<img src="/assets/images/2025/20250419_20250713/20250707_034555_0.jpg" alt="20250707_034555_0.jpg" />
+<img src="/assets/images/2025/20250419_20250713/20250707_034555_1.jpg" alt="20250707_034555_1.jpg" />
+<img src="/assets/images/2025/20250419_20250713/20250707_034555_2.jpg" alt="20250707_034555_2.jpg" /></p>
+<ul>
+  <li>Wintermeyer2022: <a href="https://diglib.uibk.ac.at/urn/urn:nbn:at:at-ubi:1-121952">Direct loading of nanoparticles into a planar Paul trap at high vacuum utilizing LIAD / presented by Pascal Wintermeyer</a>
+   <img src="/assets/images/2025/20250419_20250713/20250707_034649_0.jpg" alt="20250707_034649_0.jpg" /></li>
+  <li>also reminds me of this old technique to get shorter laser pulses with an Al foil
+   <img src="/assets/images/2025/20250419_20250713/20250707_034919_0.jpg" alt="20250707_034919_0.jpg" /></li>
+</ul>
+
+<h1 id="ancient-dna-facial-reconstruction-techniques">Ancient DNA facial reconstruction techniques</h1>
+
+<p>how do they do these facial reconstructions..
+<img src="/assets/images/2025/20250419_20250713/20250708_014815_0.jpg" alt="20250708_014815_0.jpg" />
+<img src="/assets/images/2025/20250419_20250713/20250708_014815_1.jpg" alt="20250708_014815_1.jpg" /></p>
+<ul>
+  <li>Jacobs1015: <a href="https://doi.org/10.1038/s41586-025-09195-5">Whole-genome ancestry of an Old Kingdom Egyptian</a>
+   <img src="/assets/images/2025/20250419_20250713/20250708_015053_0.jpg" alt="20250708_015053_0.jpg" /></li>
+</ul>
+
+<h1 id="darpa-funded-lidar-development-timeline">DARPA-funded LiDAR development timeline</h1>
+
+<p>ten years from a darpa program to a product
+<img src="/assets/images/2025/20250419_20250713/20250708_022914_0.jpg" alt="20250708_022914_0.jpg" />
+<img src="/assets/images/2025/20250419_20250713/20250708_022914_1.jpg" alt="20250708_022914_1.jpg" /></p>
+<ul>
+  <li><a href="https://darpa.mil/news/2015/light-based-sensing-system">Pancaking the Telescope: Seeking a new generation of light-based sensing systems</a></li>
+  <li><a href="https://analogphotonics.com/wp-content/uploads/2025/07/LiDAR-FS-4S-RevA.pdf">FS-4S LiDAR - Solid-State Coherent Optical-Phased-Array Long-Range LiDAR</a>
+   <img src="/assets/images/2025/20250419_20250713/20250708_023033_0.jpg" alt="20250708_023033_0.jpg" /></li>
+  <li>they are going to be much more expensive than these, which i believe is wavelength sweeping + grating for one axis, and moving mirror for the other: <a href="https://voyantphotonics.com/products/">voyant</a></li>
+</ul>
+
+<h1 id="plasma-photonic-crystal-simulations">Plasma photonic crystal simulations</h1>
+
+<p>damn there are quite a few other people doing it
+<img src="/assets/images/2025/20250419_20250713/20250629_081237_0.jpg" alt="20250629_081237_0.jpg" />
+<img src="/assets/images/2025/20250419_20250713/20250629_081237_1.jpg" alt="20250629_081237_1.jpg" /></p>
+<ul>
+  <li>Liang2023: <a href="https://doi.org/10.1364/OE.460396">Study on the transmission characteristics and band structure of 2D and 3D plasma photonic crystals</a></li>
+  <li>(plot generated by 4o)
+   <img src="/assets/images/2025/20250419_20250713/20250708_025151_0.jpg" alt="20250708_025151_0.jpg" /></li>
+  <li>sadly the real ones working at photonic frequencies are only simulations so far, but they could reflect the highest power laser pulses since the reflector is already shredded apart lol</li>
+  <li>Lehmann2016: <a href="https://doi.org/10.1103/PhysRevLett.116.225002">Transient Plasma Photonic Crystals for High-Power Lasers</a>
+   <img src="/assets/images/2025/20250419_20250713/20250708_025745_0.jpg" alt="20250708_025745_0.jpg" /></li>
+</ul>
+
+<h1 id="single-image-3d-reconstruction-with-ai">Single-image 3D reconstruction with AI</h1>
+
+<p>damn, this is from a single image, not bad (<a href="https://x.com/jwt0625/status/1942816428413051240">see original tweet with videos</a>)
+<img src="/assets/images/2025/20250419_20250713/20250709_052146_0.jpg" alt="20250709_052146_0.jpg" /></p>
+<ul>
+  <li>this is using</li>
+  <li><a href="https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1">Tencent-Hunyuan: Hunyuan3D-2.1</a></li>
+  <li>wirebonds
+   <img src="/assets/images/2025/20250419_20250713/20250709_055534_0.jpg" alt="20250709_055534_0.jpg" />
+   <img src="/assets/images/2025/20250419_20250713/20250709_055534_1.jpg" alt="20250709_055534_1.jpg" /></li>
+  <li>lol i was not expecting this to work at all but it kind of did
+   <img src="/assets/images/2025/20250419_20250713/20250709_060159_0.jpg" alt="20250709_060159_0.jpg" />
+   <img src="/assets/images/2025/20250419_20250713/20250709_060159_1.jpg" alt="20250709_060159_1.jpg" /></li>
+  <li>if you can guess the shape, a NN can guess it too!</li>
+</ul>
+
+<h1 id="gpt-4o-in-robotic-surgery">GPT-4o in robotic surgery</h1>
+
+<p>your next surgery might be done by GPT-4o and a da Vinci surgical robot</p>
+
+<p>( they showed GPT-4o is not as good as their own high-level policy (yet), which they trained on one 4090 for 20 h using videos from stereo endoscope and 2 wrist cameras from 34 demonstrations )
+<img src="/assets/images/2025/20250419_20250713/20250710_042949_0.jpg" alt="20250710_042949_0.jpg" />
+<img src="/assets/images/2025/20250419_20250713/20250710_042949_1.jpg" alt="20250710_042949_1.jpg" /></p>
+<ul>
+  <li>Kim2025: <a href="https://doi.org/10.1126/scirobotics.adt5254">SRT-H: A hierarchical framework for autonomous surgery via language-conditioned imitation learning</a>
+   <img src="/assets/images/2025/20250419_20250713/20250710_043152_0.jpg" alt="20250710_043152_0.jpg" /></li>
+</ul>
+
+<h1 id="ai-optimized-metasurface-design">AI-optimized metasurface design</h1>
+
+<p>did they really choose 69 as the secret image, it’s even sideways
+<img src="/assets/images/2025/20250419_20250713/20250710_065639_0.jpg" alt="20250710_065639_0.jpg" /></p>
+<ul>
+  <li>Fu2024: <a href="https://degruyterbrill.com/document/doi/10.1515/nanoph-2023-0759/html">Unleashing the potential: AI empowered advanced metasurface research</a></li>
+</ul>
+
+<h1 id="forward-mode-optical-neural-networks">Forward-mode optical neural networks</h1>
+
+<p>you know you could have done a 3d gaussian splatting, and render your scope and AWG properly
+<img src="/assets/images/2025/20250419_20250713/20250710_072226_0.jpg" alt="20250710_072226_0.jpg" />
+<img src="/assets/images/2025/20250419_20250713/20250710_072226_1.jpg" alt="20250710_072226_1.jpg" /></p>
+<ul>
+  <li>cool idea of running the system forward for error propagation because of spatial symmetry and Lorentz reciprocity</li>
+  <li>Xue2024: <a href="https://doi.org/10.1038/s41586-024-07687-4">Fully forward mode training for optical neural networks</a>
+   <img src="/assets/images/2025/20250419_20250713/20250710_072350_0.jpg" alt="20250710_072350_0.jpg" /></li>
+</ul>
+
+<h1 id="precision-fluid-dispensing-measurement">Precision fluid dispensing measurement</h1>
+
+<p>dear mechanical engineering twitter, is this really the best setup for measuring how much you are dispensing something? why so complicated
+<img src="/assets/images/2025/20250419_20250713/20250710_152748_0.jpg" alt="20250710_152748_0.jpg" />
+<img src="/assets/images/2025/20250419_20250713/20250710_152748_1.jpg" alt="20250710_152748_1.jpg" /></p>
+<ul>
+  <li>Schulze2025: <a href="http://dx.doi.org/10.1088/1361-6501/ad3a06">Development of a high precision electrostatic force balance for measuring quantity of dispensed fluid as a new calibration standard for the becquerel</a>
+   <img src="/assets/images/2025/20250419_20250713/20250710_152858_0.jpg" alt="20250710_152858_0.jpg" /></li>
+  <li>“The goal is to measure the mass of dispensed fluid of 1 mg–5 mg with a relative uncertainty of less than 0.05%”</li>
+  <li>for comparison fujifilm Dimatix could produce droplets from 1 to 100 picoliter, or 1e-4 to 1e-6 mg</li>
+  <li>(I guess MEASURE the dispensed mass is different)</li>
+</ul>
+
+<h1 id="llm-improvements-plot">LLM improvements plot</h1>
+
+<p>this is so true and so wrong at the same time. AI will never be as capable or care as much about your niche, your outside five sigma stuff, until you take your own data and make one yourself</p>
+
+<p>find a fact on the web? I still cannot find the review paper from Yale folks (?) on 3D tunnels and cavities for superconducting qubit quantum computing
+<img src="/assets/images/2025/20250419_20250713/20250711_022616_0.jpg" alt="20250711_022616_0.jpg" /></p>
+<ul>
+  <li><a href="https://spectrum.ieee.org/large-language-model-performance">Large Language Models Are Improving Exponentially - In a few years, AI could handle complex tasks with ease</a>
+   <img src="/assets/images/2025/20250419_20250713/20250711_022721_0.jpg" alt="20250711_022721_0.jpg" /></li>
+  <li><a href="https://x.com/jwt0625/status/1943499005587062833">this thread</a> has a lot of hidden gems about AI workflows</li>
+</ul>
+
+<h1 id="controlled-cracking-in-silicon-nitride">Controlled cracking in silicon nitride</h1>
+
+<p>when you are so confident your paper is going to be a nature</p>
+
+<p>(controlled formation of oscillating cracks on LPCVD silicon nitride thin film)
+<img src="/assets/images/2025/20250419_20250713/20250711_030839_0.jpg" alt="20250711_030839_0.jpg" /></p>
+<ul>
+  <li>how come they get these beautiful cracks and i get crap cracks</li>
+  <li>Nam2012: <a href="https://doi.org/10.1038/nature11002">atterning by controlled cracking</a>
+   <img src="/assets/images/2025/20250419_20250713/20250711_031033_0.jpg" alt="20250711_031033_0.jpg" /></li>
+  <li>people do all kinds of crazy things to stop cracks</li>
+  <li>Grootes2022: <a href="https://doi.org/10.1364/OE.456834">Crack barriers for thick SiN using dicing</a></li>
+  <li>Wu2020: <a href="https://doi.org/10.1364/OE.390171">Stress-released Si3N4 fabrication process for dispersion-engineered integrated silicon photonics</a></li>
+  <li>Girardi2025: <a href="https://doi.org/10.1364/OE.563489">Superefficient microcombs at the wafer level</a>
+   <img src="/assets/images/2025/20250419_20250713/20250711_040547_0.jpg" alt="20250711_040547_0.jpg" />
+   <img src="/assets/images/2025/20250419_20250713/20250711_040547_1.jpg" alt="20250711_040547_1.jpg" />
+   <img src="/assets/images/2025/20250419_20250713/20250711_040547_2.jpg" alt="20250711_040547_2.jpg" />
+   <img src="/assets/images/2025/20250419_20250713/20250711_040547_3.jpg" alt="20250711_040547_3.jpg" /></li>
+  <li>the last one has a tasty shot of the whole wafer
+   <img src="/assets/images/2025/20250419_20250713/20250711_041131_0.jpg" alt="20250711_041131_0.jpg" /></li>
+  <li>damn they did get onto nature cover
+   <img src="/assets/images/2025/20250419_20250713/20250711_032138_0.jpg" alt="20250711_032138_0.jpg" /></li>
+  <li>they did wrote some other stuff in the SI
+   <img src="/assets/images/2025/20250419_20250713/20250712_050212_0.jpg" alt="20250712_050212_0.jpg" /></li>
+</ul>
+
+<h1 id="cold-neutron-spectrometer-instrumentation">Cold neutron spectrometer instrumentation</h1>
+
+<p>cold neutron people also have very cool detectors / spectrometer</p>
+
+<p>these cold neutrons are a few meV and have wavelengths of few angstrom. Everything about the detector system is so brute-force..
+<img src="/assets/images/2025/20250419_20250713/20250602_015839_0.jpg" alt="20250602_015839_0.jpg" />
+<img src="/assets/images/2025/20250419_20250713/20250602_015839_1.jpg" alt="20250602_015839_1.jpg" />
+<img src="/assets/images/2025/20250419_20250713/20250602_015839_2.jpg" alt="20250602_015839_2.jpg" /></p>
+<ul>
+  <li>you can use them to probe low energy excitations such as spin waves</li>
+  <li>Wang2025: <a href="https://arxiv.org/abs/2501.01143">Design and construction of the multiplexing cold neutron spectrometer BOYA with double-column Rowland focusing analyzers</a>
+   <img src="/assets/images/2025/20250419_20250713/20250712_030501_0.jpg" alt="20250712_030501_0.jpg" /></li>
+</ul>
+
+<h1 id="next-generation-gravitational-wave-detectors">Next-generation gravitational wave detectors</h1>
+
+<p>if companies are valued at (and some are asking for) trillions of dollars, why do we not have just a few next-gen LIGO yet
+<img src="/assets/images/2025/20250419_20250713/20250712_043652_0.jpg" alt="20250712_043652_0.jpg" /></p>
+<ul>
+  <li>Evans2021: <a href="https://arxiv.org/abs/2109.09882">A Horizon Study for Cosmic Explorer: Science, Observatories, and Community</a>
+   <img src="/assets/images/2025/20250419_20250713/20250712_043726_0.jpg" alt="20250712_043726_0.jpg" /></li>
+</ul>
+
+<h1 id="high-frequency-acoustic-resonators">High-frequency acoustic resonators</h1>
+
+<p>2025 vs 1988</p>
+
+<p>(using multi layer thin film to excite higher order bulk acoustic wave resonances)
+<img src="/assets/images/2025/20250419_20250713/20250712_153955_0.jpg" alt="20250712_153955_0.jpg" />
+<img src="/assets/images/2025/20250419_20250713/20250712_153955_1.jpg" alt="20250712_153955_1.jpg" /></p>
+<ul>
+  <li>Kramer2025: <a href="https://doi.org/10.1063/5.0275691">Acoustic resonators above 100 GHz</a> (<a href="https://arxiv.org/abs/2502.03632">also</a>)</li>
+  <li>Quate1990: <a href="https://apps.dtic.mil/sti/pdfs/ADA221402.pdf">Millimeter-Wave Acoustic Transducers</a>
+   <img src="/assets/images/2025/20250419_20250713/20250712_154246_0.jpg" alt="20250712_154246_0.jpg" />
+   <img src="/assets/images/2025/20250419_20250713/20250712_154246_1.jpg" alt="20250712_154246_1.jpg" />
+   <img src="/assets/images/2025/20250419_20250713/20250712_154246_2.jpg" alt="20250712_154246_2.jpg" /></li>
+  <li>sad these SEM and TEM images are so obliterated</li>
+  <li>i remember this paper because I saw a cleanroom staff in the acknowledgement. He just retired a while ago, maybe I should interview him.</li>
+  <li>LaComb1988: <a href="https://doi.org/10.1109/ULTSYM.1988.49394">Interface structure of multilayer ZnO acoustic transducers</a>
+   <img src="/assets/images/2025/20250419_20250713/20250712_154605_0.jpg" alt="20250712_154605_0.jpg" /></li>
+</ul>
+
+<h1 id="solid-state-laser-cooling-methods">Solid-state laser cooling methods</h1>
+
+<p>few hundred THz spectrum is very cold at our room temperature, that’s one major reason why laser cooling works, but it’s usually done on small things.</p>
+
+<p>TIL if you do it right, you could cool down a big block of crystals with lasers, to sub 100 K from RT, all solid-state!</p>
+
+<p>however, cooling power is only 100 mW with a 50 W laser… the best cooling results also need 22 passes, and the alignment is done in air with much lower laser power otherwise the crystal would get cooled too much and get condensation  i wonder why did they not make a cavity for the pump light with the crystal inside, but a non-resonant folded delay line instead
+<img src="/assets/images/2025/20250419_20250713/20250712_192323_0.jpg" alt="20250712_192323_0.jpg" />
+<img src="/assets/images/2025/20250419_20250713/20250712_192323_1.jpg" alt="20250712_192323_1.jpg" /></p>
+<ul>
+  <li>Melgaard2016: <a href="https://doi.org/10.1038/srep20380">Solid-state optical refrigeration to sub-100 Kelvin regime</a>
+   <img src="/assets/images/2025/20250419_20250713/20250712_192424_0.jpg" alt="20250712_192424_0.jpg" /></li>
+  <li>I want a fridge like this which also doubles as a light show</li>
+  <li>Herriott1965: <a href="https://doi.org/10.1364/AO.4.000883">Folded Optical Delay Lines</a>
+   <img src="/assets/images/2025/20250419_20250713/20250712_192733_0.jpg" alt="20250712_192733_0.jpg" />
+   <img src="/assets/images/2025/20250419_20250713/20250712_192733_1.jpg" alt="20250712_192733_1.jpg" /></li>
+  <li>this cooling technique is tempting for fiber lasers because it is cooling the fiber from the inside, and has been measured to work at atmospheric pressure albeit a small temperature drop</li>
+  <li>Knall2020: <a href="https://doi.org/10.1364/OL.384658">Laser cooling in a silica optical fiber at atmospheric pressure</a>
+   <img src="/assets/images/2025/20250419_20250713/20250712_193325_0.jpg" alt="20250712_193325_0.jpg" /></li>
+  <li>feels so wrong seeing temperature vs power with a negative slope lol</li>
+  <li>Ballato2024: <a href="http://dx.doi.org/10.1088/1361-6463/ad1ddc">Prospects and challenges for all-optical thermal management of fiber lasers</a>
+   <img src="/assets/images/2025/20250419_20250713/20250713_050120_0.jpg" alt="20250713_050120_0.jpg" /></li>
+  <li>the multi pass cavity they used (original) could get to a delay as long as 3 km, remember this is pre fiber era</li>
+</ul>
+
+<h1 id="fiber-mode-mixing-in-cladding-for-anti-stokes-fiber-cooling">Fiber mode mixing in cladding for anti-Stokes fiber cooling</h1>
+
+<p>not really semiconductor nanofab but still feng shui: which fiber cladding shapes mix the optical modes better</p>
+
+<p>(anti-Stokes-fluorescence cooling in a ZBLAN fiber with a Yb-doped cladding)
+<img src="/assets/images/2025/20250419_20250713/20250419_164307_0.jpg" alt="20250419_164307_0.jpg" />
+<img src="/assets/images/2025/20250419_20250713/20250419_164307_1.jpg" alt="20250419_164307_1.jpg" />
+<img src="/assets/images/2025/20250419_20250713/20250419_164307_2.jpg" alt="20250419_164307_2.jpg" /></p>
+<ul>
+  <li>Vigneron2021: <a href="https://doi.org/10.1117/12.2589940">Observation of anti-Stokes-fluorescence cooling in a ZBLAN fiber with a Yb-doped cladding</a>
+   <img src="/assets/images/2025/20250419_20250713/20250713_053403_0.jpg" alt="20250713_053403_0.jpg" /></li>
+  <li>fibers made by <a href="https://leverrefluore.com">Le Verre Fluoré</a>
+   <img src="/assets/images/2025/20250419_20250713/20250713_053723_0.jpg" alt="20250713_053723_0.jpg" /></li>
+</ul>
+
+<h1 id="projects">Projects</h1>
+
+<p>Events:</p>
+<ul>
+  <li>Week 52: <a href="https://ai-4-science.org/">MCP x Quantum science hackathon</a> at Stanford.</li>
+</ul>
+
+<p>Procrastinating:</p>
+<ul>
+  <li>Droplet walker</li>
+  <li>Low cost robot arm</li>
+  <li>Joystick doomscrolling</li>
+</ul>
+
+<p>Planning:</p>
+<ul>
+  <li>Writing:
+    <ul>
+      <li>cleanroom misc</li>
+      <li>SC qubit basics for the zine</li>
+    </ul>
+  </li>
+  <li>Wave demo with ~ 300 Hz water surface wave + 3D printed components</li>
+</ul>
+
+<p>Ongoing:</p>
+<ul>
+  <li>Playground:
+    <ul>
+      <li>week 55: Palace from AWS quantum
+ <img src="/assets/images/2025/20250419_20250713/palace-AWS-quantum.png" alt="palace-aws" /></li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/jwt625/TabTreeTracker">TabTreeTracker</a>
+    <ul>
+      <li>Week 54: I continued the work on tab tree tracker! Got the cluster view working:
+ <img src="/assets/images/2025/20240925_20250706/TTT-cluster.png" alt="cluster-view" /></li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/jwt625/VoiceModeTranscript">VoiceModeTrascript</a>
+    <ul>
+      <li>week 55: keep using it. Should consider start tracking different speakers. Should also consider concurrent tracking with browser activities</li>
+      <li>Week 53 &amp; 54: got basic stuff working and used it to track one interview session with chatGPT voice mode. Also been using it to track youtube videos I watch</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/jwt625/PlayGround/tree/main/20250606_keyLogging">mouse &amp; keystroke tracker</a>
+    <ul>
+      <li>week 1 (50): got basics working. Need to add chrome extension for more fine grained tracking</li>
+      <li>week 3 (52): no progress. Go fix the multi-tenant / multi-machine issue!</li>
+    </ul>
+  </li>
+  <li>3D Gaussian splatting
+    <ul>
+      <li>week 8 (48): no progress. Do the 3rd order SH!!!</li>
+      <li>week 7 (47): no progress</li>
+      <li>week 6 (46): no progress, spent some time trying to add 3rd order SH. Still not working.</li>
+      <li>week 5 (45): got data from dilfridge and a wirebonder at Stanford. The dilfridge one is not working even after tuning colmap parameters</li>
+      <li>week 4 (?) (44): reading about webGL. Need more specific goals.</li>
+      <li>week 1~3: did 3DGS on various teardowns such as transceivers and lasers / laser modules</li>
+    </ul>
+  </li>
+  <li>WIMS (where is my shit):
+    <ul>
+      <li>week 8 (46): no progress. Add the switch!</li>
+      <li>week 7 (45): getting bored of it. Need to figure out a better way to wear it, and a better way to switch it on and off instead of manually plugging &amp; unplugging the battery</li>
+      <li>week 5 (43): no progress this week, continue wearing it.</li>
+      <li>week 4 (42): switched to a LiPo battery, it lasts several days!</li>
+      <li>week 3 (41): got a usb type-C power monitor. Sleep power too high, need debug</li>
+      <li>week 2 (40): Started wearing the camera at home &amp; send thru wifi to desktop. Need to somehow save or send the photo to my phone when outside.</li>
+      <li><img src="/assets/images/projects/WIMS-20250330.png" alt="WIMS" /></li>
+      <li>week 1 (39): I finally <a href="https://github.com/jwt625/PlayGround/tree/main/20250108_arduino/wearable_camera">connected to the camera</a>. Quality bad. Ordered new camera (OV5640) from aliexpress.</li>
+    </ul>
+  </li>
+  <li>Quantum frequency conversion plot
+    <ul>
+      <li>week 4 (41): procrastinating</li>
+      <li>week 3 (40): procrastinating</li>
+      <li>Week 2 (39): published it, currently has piezo-optomechanical approaches</li>
+      <li>Week 1 (38): Gave a talk at PsiQuantum. I like the hat.</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/jwt625/interactwave">interactive wave</a>
+    <ul>
+      <li>week 1 (37): made a python standalone library, see <a href="https://github.com/jwt625/BPM">BPM</a>.</li>
+    </ul>
+  </li>
+  <li>fiber2chip <a href="https://jwt625.github.io/tutorial/fiber2chip-history-concept/">blog</a></li>
+  <li>backyard landscaping:
+    <ul>
+      <li>week 29 (55): patio almost done, adding beams to mount panels underneath</li>
+    </ul>
+    <div style="display: flex; flex-direction: row; gap: 10px;">
+   <img src="/assets/images/2025/20250419_20250713/patio-01.png" alt="Patio 1" style="width: 32%; max-width: 100%; height: auto;" />
+   <img src="/assets/images/2025/20250419_20250713/patio-02.png" alt="Patio 2" style="width: 32%; max-width: 100%; height: auto;" />
+   <img src="/assets/images/2025/20250419_20250713/patio-03.png" alt="Patio 3" style="width: 32%; max-width: 100%; height: auto;" />
+ </div>
+    <ul>
+      <li>week 28 (54): almost went, decide to take a break for another week to let the ankle heal</li>
+      <li>week 27 (53): no progress</li>
+      <li>week 26 (52): no progress</li>
+      <li>week 25 (51): taking a break</li>
+      <li>week 24 (50): taking a break</li>
+      <li>week 23 (49): conduit, planning for the porch, got all the lumber needed. Too hot. Hurt my ankle.</li>
+      <li><img src="/assets/images/2025/20241006_20250602/hanging_header_beam.png" alt="header-beam" /></li>
+      <li>week 22 (48): joists of the 3rd deck. Also figuring out electrical conduit.
+ <img src="/assets/images/2025/20250208_20250526//GrwZ-l9X0AAxusE.jpeg" alt="conduit-PVC-adapter" /></li>
+      <li>week 21 (47): no work</li>
+      <li>week 20 (46): finished deck joists</li>
+    </ul>
+    <div style="display: flex; flex-direction: row; gap: 10px;">
+   <img src="/assets/images/2025/20250505_20250512/backyard-20-1.jpeg" alt="Image 1" style="width: 32%; max-width: 100%; height: auto;" />
+   <img src="/assets/images/2025/20250505_20250512/backyard-20-2.jpeg" alt="Image 2" style="width: 32%; max-width: 100%; height: auto;" />
+   <img src="/assets/images/2025/20250505_20250512/backyard-20-3.jpeg" alt="Image 3" style="width: 32%; max-width: 100%; height: auto;" />
+ </div>
+    <ul>
+      <li>week 19 (45): finally building the deck frame for the upper deck
+ <img src="/assets/images/2025/20241230_20250505/deck-19.png" alt="backyard-19" /></li>
+      <li>week 18 (44): update railings, made a small outdoor wood stairs
+ <img src="/assets/images/2025/20240830_20250427/Gpfc0tybEAE3-WG.jpeg" alt="backyard-18" /></li>
+      <li>Week 17 (43): no progress this week</li>
+      <li><a href="https://x.com/jwt0625/status/1911204437353529571">week 16 (42)</a>: continue cinder block wall, finished upper level. Had to cast another small chunk of concrete</li>
+      <li><img src="/assets/images/2025/20240918_20250414/GoX2RDzXkAA0f09.jpeg" alt="GoX2RDzXkAA0f09" /></li>
+      <li><a href="https://x.com/jwt0625/status/1908666642453963155">week 15 (41)</a>: continue cinder block wall, added geogrid and two more layers of blocks. Also tear down stair form OSB</li>
+      <li><img src="/assets/images/2025/20250225_20250406/GnzxClEbYAEqjqX.jpeg" alt="GnzxClEbYAEqjqX" /></li>
+      <li>week 14 (40): no progress this week</li>
+      <li>week 13 (39): finished stairs. Started wall with cinder block. Formed and poured concrete at the turn</li>
+      <li>week 12 (38): traveled to LA this weekend! No backyard work.</li>
+      <li>week 11 (37): working on the form of the stairs, deck joists</li>
+      <li>week 10 (36): did not work on it</li>
+      <li>week 9 (35): finished the deck joists and boarded the side of the deck</li>
+      <li>week 8 (34): finished jacuzzi base &amp; deck frame</li>
+      <li>week 7 (33): working on base for Jacuzzi</li>
+      <li>week 6 (32): new year</li>
+      <li>week 5 (31): flattened the bottom level, put down form for concrete curb. Put down linear / grass barrier, and then gravel</li>
+      <li>week 4 (30): Finished the bottom retaining wall</li>
+      <li>week 3 (29): concrete poured for retaining wall beams and deck posts, started putting on retaining wall panels</li>
+      <li>week 2 (28): dig holes, posts inside holes, worked on Living room</li>
+      <li>week 1 (27): first week</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Finished:</p>
+<ul>
+  <li>(week 53): mic and system audio transcriber: <a href="https://github.com/jwt625/VoiceModeTranscript">ChatGPT Voice Mode Transcript Recorder</a>
+    <ul>
+      <li>the original goal was to get 4o to interview me and extract the decaying old knowledge in my head as much as possible, but now im also transcribing all audios that’s going into/thru my head at least from my computer. One of the many steps towards a context knowledge base.</li>
+      <li><img src="/assets/images/2025/20250330_20250628/transcriber-webUI.png" alt="webUI" /></li>
+      <li><img src="/assets/images/2025/20250330_20250628/database-view.png" alt="database-view" /></li>
+    </ul>
+  </li>
+  <li>(week 32): SiPho writeup for <a href="https://x.com/byte_thrasher">avi</a>’s zine.
+    <ul>
+      <li>week 36: published on blog</li>
+    </ul>
+  </li>
+  <li>Continuing [redacted]
+    <ul>
+      <li>Week 36: This has been finished.</li>
+    </ul>
+  </li>
+  <li>PIC pytorch
+    <ul>
+      <li>week 3 (42): [redacted]</li>
+      <li>week 2 (41): [redacted]</li>
+      <li>week 1 (40): built a few simple components. Tested simple backprop and training.</li>
+      <li><img src="/assets/images/projects/PIC_pytorch_20250330.png" alt="PIC-torch" /></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Gave up</p>
+<ul>
+  <li>Traveling wave excitation of mechanical ring resonator (see <a href="https://x.com/jwt0625/status/1877578653648986365">this thread</a>)</li>
+  <li><a href="https://github.com/jwt625/tt-test">Tiny Tapeout</a>
+    <ul>
+      <li>abort? (because of efabless no funding)</li>
+    </ul>
+  </li>
+</ul>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/tags/#3d-reconstruction" class="page__taxonomy-item p-category" rel="tag">3D_reconstruction</a><span class="sep">, </span>
+    
+      <a href="/tags/#acoustic-resonator" class="page__taxonomy-item p-category" rel="tag">Acoustic_resonator</a><span class="sep">, </span>
+    
+      <a href="/tags/#acoustic-shock" class="page__taxonomy-item p-category" rel="tag">Acoustic_shock</a><span class="sep">, </span>
+    
+      <a href="/tags/#crack-propagation" class="page__taxonomy-item p-category" rel="tag">Crack_propagation</a><span class="sep">, </span>
+    
+      <a href="/tags/#cryogenic" class="page__taxonomy-item p-category" rel="tag">Cryogenic</a><span class="sep">, </span>
+    
+      <a href="/tags/#cvd-diamond" class="page__taxonomy-item p-category" rel="tag">CVD_diamond</a><span class="sep">, </span>
+    
+      <a href="/tags/#darpa" class="page__taxonomy-item p-category" rel="tag">DARPA</a><span class="sep">, </span>
+    
+      <a href="/tags/#diamond-chip" class="page__taxonomy-item p-category" rel="tag">Diamond_chip</a><span class="sep">, </span>
+    
+      <a href="/tags/#facial-reconstruction" class="page__taxonomy-item p-category" rel="tag">Facial_reconstruction</a><span class="sep">, </span>
+    
+      <a href="/tags/#fiber-laser" class="page__taxonomy-item p-category" rel="tag">Fiber_laser</a><span class="sep">, </span>
+    
+      <a href="/tags/#gpt-4o" class="page__taxonomy-item p-category" rel="tag">GPT-4o</a><span class="sep">, </span>
+    
+      <a href="/tags/#ion-trap" class="page__taxonomy-item p-category" rel="tag">Ion_trap</a><span class="sep">, </span>
+    
+      <a href="/tags/#laser-cooling" class="page__taxonomy-item p-category" rel="tag">Laser_cooling</a><span class="sep">, </span>
+    
+      <a href="/tags/#laser-pulse" class="page__taxonomy-item p-category" rel="tag">Laser_pulse</a><span class="sep">, </span>
+    
+      <a href="/tags/#liad" class="page__taxonomy-item p-category" rel="tag">LIAD</a><span class="sep">, </span>
+    
+      <a href="/tags/#lidar" class="page__taxonomy-item p-category" rel="tag">LiDAR</a><span class="sep">, </span>
+    
+      <a href="/tags/#ligo" class="page__taxonomy-item p-category" rel="tag">LIGO</a><span class="sep">, </span>
+    
+      <a href="/tags/#metasurface" class="page__taxonomy-item p-category" rel="tag">Metasurface</a><span class="sep">, </span>
+    
+      <a href="/tags/#nanoparticle" class="page__taxonomy-item p-category" rel="tag">Nanoparticle</a><span class="sep">, </span>
+    
+      <a href="/tags/#neutron-spectrometer" class="page__taxonomy-item p-category" rel="tag">Neutron_spectrometer</a><span class="sep">, </span>
+    
+      <a href="/tags/#optical-neural-network" class="page__taxonomy-item p-category" rel="tag">Optical_neural_network</a><span class="sep">, </span>
+    
+      <a href="/tags/#optical-trap" class="page__taxonomy-item p-category" rel="tag">Optical_trap</a><span class="sep">, </span>
+    
+      <a href="/tags/#piezo-dispenser" class="page__taxonomy-item p-category" rel="tag">Piezo_dispenser</a><span class="sep">, </span>
+    
+      <a href="/tags/#plasma-photonic" class="page__taxonomy-item p-category" rel="tag">Plasma_photonic</a><span class="sep">, </span>
+    
+      <a href="/tags/#radioactivity" class="page__taxonomy-item p-category" rel="tag">Radioactivity</a><span class="sep">, </span>
+    
+      <a href="/tags/#silicon-nitride" class="page__taxonomy-item p-category" rel="tag">Silicon_nitride</a><span class="sep">, </span>
+    
+      <a href="/tags/#superconducting-qubit" class="page__taxonomy-item p-category" rel="tag">Superconducting_qubit</a><span class="sep">, </span>
+    
+      <a href="/tags/#surgical-robot" class="page__taxonomy-item p-category" rel="tag">Surgical_robot</a><span class="sep">, </span>
+    
+      <a href="/tags/#tes" class="page__taxonomy-item p-category" rel="tag">TES</a><span class="sep">, </span>
+    
+      <a href="/tags/#zblan-fiber" class="page__taxonomy-item p-category" rel="tag">ZBLAN_fiber</a>
+    
+    </span>
+  </p>
+
+
+
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#ofs" class="page__taxonomy-item p-category" rel="tag">OFS</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2025-07-13T00:00:00-07:00">July 13, 2025</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+
+  <a href="https://twitter.com/intent/tweet?text=This+week%27s+outside+five+sigma+%28%2355%29%20http%3A%2F%2Flocalhost%3A4000%2Fofs%2Fweekly-OFS-55%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fofs%2Fweekly-OFS-55%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/ofs/weekly-OFS-55/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/ofs/weekly-OFS-54/" class="pagination--pager" title="This week’s outside five sigma (#54)
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You May Also Enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-54/" rel="permalink">This week’s outside five sigma (#54)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-07-06T00:00:00-07:00">July 6, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          9 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2025/20240925_20250706/20250629_081237_0.jpg" alt="This week's outside five sigma (#54)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Reconfigurable plasma photonic crystals
+
+</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-53/" rel="permalink">This week’s outside five sigma (#53)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-06-29T00:00:00-07:00">June 29, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          9 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2025//20250330_20250628/20250621_062240_0.jpg" alt="This week's outside five sigma (#53)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Cavity-integrated electro-optics circuits
+
+</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-52/" rel="permalink">This week’s outside five sigma (#52)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-06-22T00:00:00-07:00">June 22, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          9 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2025/20240701_20250621/20241129_170730_0.jpg" alt="This week's outside five sigma (#52)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">Single strontium ion optical clock
+
+</p>
+
+  </article>
+</div>
+
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/ofs/weekly-OFS-51/" rel="permalink">This week’s outside five sigma (#51)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-06-15T00:00:00-07:00">June 15, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          9 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <!-- add teaser, WTJ, 20240630 -->
+    
+      <div class="post-cover">
+        <img src="/assets/images/2025/20250105_20250615/20250105_184939_2.jpg" alt="This week's outside five sigma (#51)">
+      </div>
+    
+    <p class="archive__item-excerpt" itemprop="description">SNSPD alignment with silicon etch
+
+</p>
+
+  </article>
+</div>
+
+    
+  </div>
+</div>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';" role="search">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://x.com/jwt0625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/jwt625" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://scholar.google.com/citations?user=ocbnVOMAAAAJ" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Google Scholar</a></li>
+        
+      
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2025 <a href="http://localhost:4000">Outside Five Sigma</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/ofs/weekly-OFS-55/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/ofs/weekly-OFS-55"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://jwt625.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+
+
+    <!-- add mathjax, WTJ, 20240702 -->
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+    });
+  
+  
+    MathJax.Hub.Register.MessageHook("Math Processing Error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+    MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
+      alert("Math Processing Error: "+message[1]);
+      });
+  </script>
+  
+  
+  <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+  </script>
+    
+
+  </body>
+</html>

@@ -478,4 +478,10 @@ var store = [{
         "tags": ["Antenna","Diamond_anvil","Superconductor","Plasma","Photonic_crystal","MEMS","Temperature_regulation","Speed_camera","FDTD","Waveguide","Robotics","Jet_powered","Biofluorescence","Lithography","Nanoimprint","Scintillator","Superconducting","Magnetic_hose","Qubit","Transmon","Microfluidic","Metasurface","Thermoelectric","Gravitational_wave","Fiber_optics","Power_MOSFET","Quantum_sensor","Vacuum_chamber"],
         "url": "/ofs/weekly-OFS-54/",
         "teaser": null
+      },{
+        "title": "This week's outside five sigma (#55)",
+        "excerpt":"Cryogenic transition-edge sensor design Look at that precision-machined copper stage. The tasteful thickness of the gold plating. Oh my God even the island is suspended on monocrystalline silicon flexures. (transition-edge sensor (TES) for cryogenic decay energy spectrometry (DES, first time heard this), look at all those lil filter chips with...","categories": ["OFS"],
+        "tags": ["LIAD","Nanoparticle","Optical_trap","Laser_pulse","Acoustic_shock","Diamond_chip","Ion_trap","CVD_diamond","Facial_reconstruction","DARPA","LiDAR","Plasma_photonic","TES","Cryogenic","Radioactivity","3D_reconstruction","Surgical_robot","GPT-4o","Metasurface","Optical_neural_network","Piezo_dispenser","Superconducting_qubit","Silicon_nitride","Crack_propagation","Neutron_spectrometer","LIGO","Acoustic_resonator","Laser_cooling","Fiber_laser","ZBLAN_fiber"],
+        "url": "/ofs/weekly-OFS-55/",
+        "teaser": null
       }]

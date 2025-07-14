@@ -292,7 +292,33 @@ def create_markdown(json_file, output_file):
 #%%
 # json_file = "scraped_tweets_20250420_20250427.json"
 json_file = json_filename
-output_md_file = "2025-07-06-weekly-OFS-54.md"
+
+# Automatically generate output filename with current date and next OFS index
+import glob
+
+# Get current date in YYYY-MM-DD format
+current_date = datetime.now().strftime("%Y-%m-%d")
+
+# Find all existing OFS files to determine the next index
+ofs_files = glob.glob("*-weekly-OFS-*.md")
+if ofs_files:
+    # Extract OFS numbers from filenames
+    ofs_numbers = []
+    for filename in ofs_files:
+        # Extract number after "OFS-" and before ".md"
+        import re
+        match = re.search(r'OFS-(\d+)\.md', filename)
+        if match:
+            ofs_numbers.append(int(match.group(1)))
+
+    # Get the next OFS number
+    next_ofs_number = max(ofs_numbers) + 1 if ofs_numbers else 1
+else:
+    next_ofs_number = 1
+
+output_md_file = f"{current_date}-weekly-OFS-{next_ofs_number}.md"
+print(f"Generated output filename: {output_md_file}")
+
 # output_file = "tmp.md"
 create_markdown(json_file, output_md_file)
 print(f"Markdown file '{output_md_file}' has been created.")

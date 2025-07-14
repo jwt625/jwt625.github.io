@@ -321,6 +321,10 @@
 <lastmod>2025-07-06T00:00:00-07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/ofs/weekly-OFS-55/</loc>
+<lastmod>2025-07-13T00:00:00-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about/</loc>
 </url>
 <url>
@@ -379,6 +383,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/page16/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/page17/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/assets/doc/2.9-Tim-Tiek-Brilliance.pdf</loc>
@@ -601,6 +608,10 @@
 <lastmod>2025-05-03T23:25:33-07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/assets/doc/2025/117020A-Observation%20of%20anti-Stokes-fluorescence%20cooling%20in%20a%20ZBLAN%20fiber%20with%20a%20Yb-doped%20cladding.pdf</loc>
+<lastmod>2025-07-12T22:05:29-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/assets/doc/2025/1_The_FutureXNetwork_Weldon.pdf</loc>
 <lastmod>2025-02-22T23:42:53-08:00</lastmod>
 </url>
@@ -651,6 +662,10 @@
 <url>
 <loc>http://localhost:4000/assets/doc/2025/Compass%20215M%20Data%20Sheet%20-%20Coherent.pdf</loc>
 <lastmod>2025-04-14T23:14:28-07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/doc/2025/Earl-Joseph_Hyperion-Research_Market-Update.pdf</loc>
+<lastmod>2025-07-11T22:07:43-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/doc/2025/Fabrication%20of%20an%20Rb%E2%80%93Xe%20gas%20cell%20with%20optical%20components%20attached%20by%20optical%20contact%20bonding%20for%20an%20atom%20spin%20gyroscope-ao-64-14-3988.pdf</loc>
@@ -789,6 +804,10 @@
 <lastmod>2025-03-25T00:28:29-07:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/assets/doc/2025/Seletskiy_2016_Rep._Prog._Phys._79_096401_Laser%20cooling%20in%20solids-%20advances%20and%20prospects.pdf</loc>
+<lastmod>2025-07-12T09:50:14-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/assets/doc/2025/State-of-the-art%20of%20high-power%20gyro-devices%20and%20free%20electron%20masers.pdf</loc>
 <lastmod>2025-05-04T08:55:20-07:00</lastmod>
 </url>
@@ -853,6 +872,10 @@
 <lastmod>2025-01-19T23:21:18-08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/assets/doc/2025/josaa-4-4-651-Exact%20solutions%20for%20nondiffracting%20beams.%20I.%20The%20scalar%20theory.pdf</loc>
+<lastmod>2025-07-07T19:42:24-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/assets/doc/2025/materials-16-03274-v2.pdf</loc>
 <lastmod>2025-06-07T12:46:35-07:00</lastmod>
 </url>
@@ -871,6 +894,10 @@
 <url>
 <loc>http://localhost:4000/assets/doc/2025/opn-21-7-22-laser-based-weather-control.pdf</loc>
 <lastmod>2025-01-26T22:07:09-08:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/doc/2025/s42254-025-00843-3-The%20potential%20of%20multidimensional%20photonic%20computing.pdf</loc>
+<lastmod>2025-07-13T21:49:12-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/doc/2025/soitec-universal-registration-document-2024-2025---en.pdf</loc>
