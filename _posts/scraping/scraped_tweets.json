@@ -1,972 +1,1126 @@
 [
     {
-        "url": "https://x.com/jwt0625/status/1939117408616329492",
+        "url": "https://x.com/jwt0625/status/1942067529767363026",
         "tweets": [
             {
-                "text": "just realized why this style of plots always have been slightly and subtly pissing me off, it's because these are far field patterns, and they are drawn right onto the antennas..",
+                "text": "one way to load nanoparticles into an optical trap is to shock them off a metal foil with a laser pulse (LIAD: laser-induced acoustic desorption)\n\nis it using momentum of the light? Nope, it's the acoustic shock wave from thermo-mechanical stress.\n\ntypical laser pulse used: few ns, ~10 mJ, and few hundred um spot size.",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GukgRW7XUAAGqBt?format=jpg",
-                        "local_path": "media/20250629_002311_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GvOagAgWwAA8cRx?format=jpg",
+                        "local_path": "media/20250707_034555_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GukgbxTXAAAP2tw?format=jpg",
-                        "local_path": "media/20250629_002311_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GvOb98AbIAAfT_3?format=png",
+                        "local_path": "media/20250707_034555_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvOcDaPb0AASEfF?format=jpg",
+                        "local_path": "media/20250707_034555_2.jpg"
                     }
                 ],
-                "timestamp": "2025-06-29T00:23:11+00:00"
+                "timestamp": "2025-07-07T03:45:55+00:00"
             },
             {
-                "text": "plots from [Remcom - 5G Antenna Array Design Software & Analysis](https://remcom.com/xfdtd-3d-em-simulation-software/antenna-array-design-software…)",
+                "text": "Wintermeyer2022: [Direct loading of nanoparticles into a planar Paul trap at high vacuum utilizing LIAD / presented by Pascal Wintermeyer](https://diglib.uibk.ac.at/urn/urn:nbn:at:at-ubi:1-121952…)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GukhTI_aQAAQ-Mk?format=jpg",
-                        "local_path": "media/20250629_002434_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GvOcNHnXgAAjmiF?format=jpg",
+                        "local_path": "media/20250707_034649_0.jpg"
                     }
                 ],
-                "timestamp": "2025-06-29T00:24:34+00:00"
+                "timestamp": "2025-07-07T03:46:49+00:00"
             },
             {
-                "text": "keep your balls warm",
+                "text": "also reminds me of this old technique to get shorter laser pulses with an Al foil",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj4HGK6bMAAzcrx?format=png",
+                        "local_path": "media/20250707_034919_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-07T03:49:19+00:00"
+            },
+            {
+                "text": "also reminds me of this old technique to get shorter laser pulses with an Al foil",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gj4HGK6bMAAzcrx?format=png",
+                        "local_path": "media/20250707_034919_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-07T03:49:19+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1942073446600687714",
+        "tweets": [
+            {
+                "text": "what the hell is this, WHAT IS THIS?? HOW??",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvOglpabQAA14OF?format=jpg",
+                        "local_path": "media/20250707_040926_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-07T04:09:26+00:00"
+            },
+            {
+                "text": "[Diamond Materials](https://diamond-materials.com/en/downloads/)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvOhr-Vb0AAoQ3g?format=jpg",
+                        "local_path": "media/20250707_041111_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-07T04:11:11+00:00"
+            },
+            {
+                "text": "because im curious how/where did these ion trap people got their diamond chip with cutouts like these.\n\"All traps were designed in-house and fabricated by Diamond Material in Germany\"\n\nChen2017: [Ticking near the Zero-Point Energy: towards 1 × 10-18 Accuracy in Al+ Optical",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvOiYDNbwAAgzso?format=jpg",
+                        "local_path": "media/20250707_041618_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvOixWpXQAAJnmt?format=jpg",
+                        "local_path": "media/20250707_041618_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvOiyQPa8AAH065?format=jpg",
+                        "local_path": "media/20250707_041618_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-07T04:16:18+00:00"
+            },
+            {
+                "text": "the newer designs of the trap chip can be seen here, i still have a lot of questions from this paper:\nfibers could get charged due to scattered laser light? (ok this one is understandable)\nwhy quartz v-groove chip? Isn't silicon more conductive and better for discharge?\nwhy",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvOmyHVaYAA8Zvh?format=jpg",
+                        "local_path": "media/20250707_043804_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvOm47AXsAAK-P5?format=jpg",
+                        "local_path": "media/20250707_043804_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvOm_TvaYAA4EC2?format=jpg",
+                        "local_path": "media/20250707_043804_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-07T04:38:04+00:00"
+            },
+            {
+                "text": "maybe this is it, printed/reflowed resin, and then CVD diamond",
                 "media": [],
-                "timestamp": "2025-06-29T17:02:22+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/1939224133042331853",
-        "tweets": [
-            {
-                "text": "been seeing high pressure transport measurement every once in a while (high T high P superconductor etc), but never thought about how they wire it up.\nSeems like people just do lithography on the diamond anvils as usual.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GumBsliXwAA4dSY?format=jpg",
-                        "local_path": "media/20250629_072717_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-06-29T07:27:17+00:00"
+                "timestamp": "2025-07-07T04:17:38+00:00"
             },
             {
-                "text": "Rehfuss2025: [Sub-micron circuit fabrication on diamond anvils for mesoscopic high-pressure experiments](https://doi.org/10.1063/5.0253706…)",
+                "text": "the shapes tho, ive never done it, it's low enough temperature to not burn the resist/resin?",
+                "media": [],
+                "timestamp": "2025-07-07T04:18:32+00:00"
+            },
+            {
+                "text": "[Diamond Materials](https://diamond-materials.com/en/downloads/)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GumCPbcXwAEu8nQ?format=jpg",
-                        "local_path": "media/20250629_072913_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GumCgyNbUAAlCOY?format=png",
-                        "local_path": "media/20250629_072913_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GvOhr-Vb0AAoQ3g?format=jpg",
+                        "local_path": "media/20250707_041111_0.jpg"
                     }
                 ],
-                "timestamp": "2025-06-29T07:29:13+00:00"
+                "timestamp": "2025-07-07T04:11:11+00:00"
+            },
+            {
+                "text": "because im curious how/where did these ion trap people got their diamond chip with cutouts like these.\n\"All traps were designed in-house and fabricated by Diamond Material in Germany\"\n\nChen2017: [Ticking near the Zero-Point Energy: towards 1 × 10-18 Accuracy in Al+ Optical",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvOiYDNbwAAgzso?format=jpg",
+                        "local_path": "media/20250707_041618_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvOixWpXQAAJnmt?format=jpg",
+                        "local_path": "media/20250707_041618_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvOiyQPa8AAH065?format=jpg",
+                        "local_path": "media/20250707_041618_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-07T04:16:18+00:00"
+            },
+            {
+                "text": "the newer designs of the trap chip can be seen here, i still have a lot of questions from this paper:\nfibers could get charged due to scattered laser light? (ok this one is understandable)\nwhy quartz v-groove chip? Isn't silicon more conductive and better for discharge?\nwhy",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvOmyHVaYAA8Zvh?format=jpg",
+                        "local_path": "media/20250707_043804_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvOm47AXsAAK-P5?format=jpg",
+                        "local_path": "media/20250707_043804_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvOm_TvaYAA4EC2?format=jpg",
+                        "local_path": "media/20250707_043804_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-07T04:38:04+00:00"
+            },
+            {
+                "text": "maybe this is it, printed/reflowed resin, and then CVD diamond",
+                "media": [],
+                "timestamp": "2025-07-07T04:17:38+00:00"
+            },
+            {
+                "text": "the shapes tho, ive never done it, it's low enough temperature to not burn the resist/resin?",
+                "media": [],
+                "timestamp": "2025-07-07T04:18:32+00:00"
+            },
+            {
+                "text": "it seems to imply it's diamond domes grown by cvd on a diamond wafer, i have no clue how",
+                "media": [],
+                "timestamp": "2025-07-07T07:25:56+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1939235542702686632",
+        "url": "https://x.com/jwt0625/status/1942400303741165857",
         "tweets": [
             {
-                "text": "a microwave frequency photonic crystal made out of an array of plasma tubes  so that it's reconfigurable at ~us scale",
+                "text": "how do they do these facial reconstructions..",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GumLTXsaMAA6Lq5?format=png",
+                        "url": "https://pbs.twimg.com/media/GvTKu5xaYAAtebU?format=jpg",
+                        "local_path": "media/20250708_014815_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvTKu6VaYAQLa0F?format=jpg",
+                        "local_path": "media/20250708_014815_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-08T01:48:15+00:00"
+            },
+            {
+                "text": "Jacobs1015: [Whole-genome ancestry of an Old Kingdom Egyptian](https://doi.org/10.1038/s41586-025-09195-5…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvTLYmjaYAIrIWx?format=jpg",
+                        "local_path": "media/20250708_015053_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-08T01:50:53+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1942410619187245509",
+        "tweets": [
+            {
+                "text": "ten years from a darpa program to a product",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvTUAbUXAAAB9vF?format=jpg",
+                        "local_path": "media/20250708_022914_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvTUJlKXEAAMRTy?format=jpg",
+                        "local_path": "media/20250708_022914_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-08T02:29:14+00:00"
+            },
+            {
+                "text": "[Pancaking the Telescope: Seeking a new generation of light-based sensing systems](https://darpa.mil/news/2015/light-based-sensing-system…)\n[FS-4S LiDAR - Solid-State Coherent Optical-Phased-Array Long-Range LiDAR](https://analogphotonics.com/wp-content/uploads/2025/07/LiDAR-FS-4S-RevA.pdf…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvTUPvgXAAAEX-3?format=jpg",
+                        "local_path": "media/20250708_023033_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-08T02:30:33+00:00"
+            },
+            {
+                "text": "they are going to be much more expensive than these, which i believe is wavelength sweeping + grating for one axis, and moving mirror for the other",
+                "media": [],
+                "timestamp": "2025-07-08T02:54:44+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2025-07-08T06:01:58+00:00"
+            },
+            {
+                "text": "why do they need that large of an aperture, what they have seems reasonable?",
+                "media": [],
+                "timestamp": "2025-07-09T04:33:49+00:00"
+            },
+            {
+                "text": "always has been",
+                "media": [],
+                "timestamp": "2025-07-08T15:27:45+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1942414656854974760",
+        "tweets": [
+            {
+                "text": "damn there are quite a few other people doing it",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvTXwIKb0AA78W6?format=jpg",
                         "local_path": "media/20250629_081237_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GumLk4ZWsAAbbad?format=jpg",
+                        "url": "https://pbs.twimg.com/media/GvTX0w4WAAAvNxb?format=jpg",
                         "local_path": "media/20250629_081237_1.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GumMKT-XAAE9E5e?format=jpg",
+                        "url": "https://pbs.twimg.com/media/GumLTXsaMAA6Lq5?format=png",
                         "local_path": "media/20250629_081237_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GumLk4ZWsAAbbad?format=jpg",
+                        "local_path": "media/20250629_081237_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GumMKT-XAAE9E5e?format=jpg",
+                        "local_path": "media/20250629_081237_4.jpg"
                     }
                 ],
                 "timestamp": "2025-06-29T08:12:37+00:00"
             },
             {
-                "text": "Fig. 1: Adamovich2017: [The 2017 Plasma Roadmap: Low temperature plasma science and technology](http://dx.doi.org/10.1088/1361-6463/aa76f5…)\nFig. 2: Wang2016: [Waveguiding and bending modes in a plasma photonic crystal bandgap device](https://doi.org/10.1063/1.4954668…)\nFig. 3: Wang2015: [A tunable microwave",
+                "text": "Liang2023: [Study on the transmission characteristics and band structure of 2D and 3D plasma photonic crystals](https://doi.org/10.1364/OE.460396…)\n(plot generated by 4o)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GumMrIVXoAAN_Wt?format=jpg",
-                        "local_path": "media/20250629_081443_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GvTZPhsaYAAni0m?format=jpg",
+                        "local_path": "media/20250708_025151_0.jpg"
                     }
                 ],
-                "timestamp": "2025-06-29T08:14:43+00:00"
+                "timestamp": "2025-07-08T02:51:51+00:00"
             },
             {
-                "text": "because i saw this atypical paper figure about touching a cold plasma\nKim2025: [Coordination effect in generating plasma by gliding arcmicrowave hybrid discharge in atmospheric-pressure air](https://doi.org/10.1063/5.0270575…)",
+                "text": "sadly the real ones working at photonic frequencies are only simulations so far, but they could reflect the highest power laser pulses since the reflector is already shredded apart lol\nLehmann2016: [Transient Plasma Photonic Crystals for High-Power",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GumNdmzWIAE7vDD?format=jpg",
-                        "local_path": "media/20250629_081754_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GvTaOnoX0AAwxWA?format=jpg",
+                        "local_path": "media/20250708_025745_0.jpg"
                     }
                 ],
-                "timestamp": "2025-06-29T08:17:54+00:00"
+                "timestamp": "2025-07-08T02:57:45+00:00"
             },
             {
-                "text": "will shield you from wifi as well",
+                "text": "oh god i would not be proud of the sim results in the second pic",
                 "media": [],
-                "timestamp": "2025-06-29T08:18:15+00:00"
-            },
-            {
-                "text": "only if we could directly see microwave\n(or make this 1e5x smaller)",
-                "media": [],
-                "timestamp": "2025-06-30T02:04:28+00:00"
-            },
-            {
-                "text": "it's like 3/256 of a football field",
-                "media": [],
-                "timestamp": "2025-06-30T21:05:52+00:00"
+                "timestamp": "2025-07-08T15:25:44+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1939445721671082197",
+        "url": "https://x.com/jwt0625/status/1942751425228071281",
         "tweets": [
             {
-                "text": "temperature regulation techniques for studying MEMS",
+                "text": "Look at that precision-machined copper stage. The tasteful thickness of the gold plating. Oh my God… even the island is suspended on monocrystalline silicon flexures.\n\n(transition-edge sensor (TES) for cryogenic decay energy spectrometry (DES, first time heard this), look at all those lil filter chips with \"big\" inductors)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GupLlFVXsAARfK-?format=jpg",
-                        "local_path": "media/20250629_220747_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-06-29T22:07:47+00:00"
-            },
-            {
-                "text": "Sui2025: [A review on temperature coefficient of frequency (TCf) in resonant microelectromechanical systems (MEMS)](https://doi.org/10.1063/5.0201566…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GupLzP-WoAAQBWy?format=jpg",
-                        "local_path": "media/20250629_220923_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GvYIJJ7WcAABqBL?format=jpg",
+                        "local_path": "media/20250709_010329_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GupL5lsaYAEXFXA?format=jpg",
-                        "local_path": "media/20250629_220923_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GvYIKxtaYAAi8PR?format=jpg",
+                        "local_path": "media/20250709_010329_1.jpg"
                     }
                 ],
-                "timestamp": "2025-06-29T22:09:23+00:00"
+                "timestamp": "2025-07-09T01:03:29+00:00"
             },
             {
-                "text": "i guess Al also moves around",
+                "text": "[New NIST Method Precisely Measures Radioactivity in Tiny Samples](https://nist.gov/news-events/news/2025/07/new-nist-method-precisely-measures-radioactivity-tiny-samples…)\n[Basic Metrology: True Becquerel - A New Paradigm for 21st Century Radioactivity Measurements](https://nist.gov/programs-projects/basic-metrology-true-becquerel-new-paradigm-21st-century-radioactivity…)\nCarlson2024: [Characterization of Transition Edge Sensors for Decay",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GupMz31XAAA3Hp7?format=jpg",
-                        "local_path": "media/20250629_221318_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gs5PyqRakAAgIlk?format=jpg",
-                        "local_path": "media/20250629_221318_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GvYKV8_XMAAlMQ8?format=jpg",
+                        "local_path": "media/20250709_010454_0.jpg"
                     }
                 ],
-                "timestamp": "2025-06-29T22:13:18+00:00"
+                "timestamp": "2025-07-09T01:04:54+00:00"
+            },
+            {
+                "text": "i want to find the filter chip..\nFitzgerald2024: [Primary activity measurement of an Am-241 solution using microgram inkjet gravimetry and decay energy spectrometry](https://arxiv.org/abs/2411.02565)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvYKuvJaUAABkzm?format=jpg",
+                        "local_path": "media/20250709_010658_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-09T01:06:58+00:00"
+            },
+            {
+                "text": "sometimes we use SEM sample clips but yes\ni do think it's mainly for quick turnaround testing tho, people will do silver paste or ge varnish for more proper packaging",
+                "media": [],
+                "timestamp": "2025-07-09T18:01:37+00:00"
+            },
+            {
+                "text": "ive made some nice looking ones",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GhZ1-FMbAAAopEF?format=jpg",
+                        "local_path": "media/20250709_030509_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GhZ2y-zaEAAOuOr?format=jpg",
+                        "local_path": "media/20250709_030509_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GhZ3OIUaAAAXytw?format=jpg",
+                        "local_path": "media/20250709_030509_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GhZ3baSbEAEBXJh?format=jpg",
+                        "local_path": "media/20250709_030509_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-09T03:05:09+00:00"
+            },
+            {
+                "text": "sometimes we use SEM sample clips but yes\ni do think it's mainly for quick turnaround testing tho, people will do silver paste or ge varnish for more proper packaging",
+                "media": [],
+                "timestamp": "2025-07-09T18:01:37+00:00"
+            },
+            {
+                "text": "ive made some nice looking ones",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GhZ1-FMbAAAopEF?format=jpg",
+                        "local_path": "media/20250709_030509_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GhZ2y-zaEAAOuOr?format=jpg",
+                        "local_path": "media/20250709_030509_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GhZ3OIUaAAAXytw?format=jpg",
+                        "local_path": "media/20250709_030509_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GhZ3baSbEAEBXJh?format=jpg",
+                        "local_path": "media/20250709_030509_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-09T03:05:09+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1939888352163225692",
+        "url": "https://x.com/jwt0625/status/1942816428413051240",
         "tweets": [
             {
-                "text": "biblically accurate speed camera",
+                "text": "damn, this is from a single image, not bad",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GuveJlMbcAAkkID?format=png",
-                        "local_path": "media/20240925_015944_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GuveKk7boAID3T5?format=jpg",
-                        "local_path": "media/20240925_015944_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GYSWrMRakAEjkx8?format=jpg",
-                        "local_path": "media/20240925_015944_2.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GYSWsg_akAEArdh?format=png",
-                        "local_path": "media/20240925_015944_3.jpg"
+                        "url": "https://pbs.twimg.com/media/GvZFJWCXUAA2uCO?format=jpg",
+                        "local_path": "media/20250709_052146_0.jpg"
                     }
                 ],
-                "timestamp": "2024-09-25T01:59:44+00:00"
+                "timestamp": "2025-07-09T05:21:46+00:00"
             },
             {
-                "text": "[jenoptik - Average speed cameras for section control – a new era in traffic monitoring](https://jenoptik.com/news/blog/articles/2021/05/20/average-speed-cameras-for-section-speed-control…)",
+                "text": "this is using\n[Tencent-Hunyuan: Hunyuan3D-2.1](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1…)",
                 "media": [],
-                "timestamp": "2025-07-01T03:27:13+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/1939889281826529439",
-        "tweets": [
-            {
-                "text": "really sick FDTD sim of an arrayed waveguide grating (AWG) from Flexcompute. However this AWG is weird in many ways..",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GuvewY7bEAAGd_0?format=jpg",
-                        "local_path": "media/20250701_033020_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-01T03:30:20+00:00"
+                "timestamp": "2025-07-09T05:22:54+00:00"
             },
             {
-                "text": "Minkov2024: [GPU-Accelerated Photonic Simulations](https://doi.org/10.1364/OPN.35.9.000044…)",
+                "text": "wirebonds",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GuvfFxeXYAEYc4e?format=jpg",
-                        "local_path": "media/20250701_033106_0.jpg"
+                        "url": "https://pbs.twimg.com/amplify_video_thumb/1942824500468273152/img/7JubKMQACf3pJf3i.jpg",
+                        "local_path": "media/20250709_055534_0.jpg"
                     },
-                    {
-                        "url": "https://pbs.twimg.com/media/GuvfH-naAAAEICF?format=jpg",
-                        "local_path": "media/20250701_033106_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-01T03:31:06+00:00"
-            },
-            {
-                "text": "god bless gpu clusters",
-                "media": [],
-                "timestamp": "2025-07-01T07:17:21+00:00"
-            },
-            {
-                "text": "thats one reason it's weird\nprobably just for demo-ing a sick looking fdtd",
-                "media": [],
-                "timestamp": "2025-07-01T07:11:25+00:00"
-            },
-            {
-                "text": "this is all linear, but you could probably do a lot of fun things after adding nonlinearity",
-                "media": [],
-                "timestamp": "2025-07-02T21:39:38+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/1940212282958782747",
-        "tweets": [
-            {
-                "text": "are you ready for the next gen autonomous leaf blower?\n\n( jet-powered flying humanoid robot from Artificial and Mechanical Intelligence (AMI) at Istituto Italiano di Tecnologia )",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu0ERrHXoAAUsNi?format=jpg",
-                        "local_path": "media/20250702_005350_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu0EWmSXIAAQa5V?format=jpg",
-                        "local_path": "media/20250702_005350_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-02T00:53:50+00:00"
-            },
-            {
-                "text": "Paolino2025: [Learning aerodynamics for the control of flying humanoid robots](https://doi.org/10.1038/s44172-025-00447-w…)\n[iRonCub3: First Liftoff of a Jet-Powered Humanoid Robot](https://youtube.com/watch?v=t1bNHoT4D5Q…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu0E9i7WMAAzWX0?format=jpg",
-                        "local_path": "media/20250702_005639_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu0FFNrXEAAMA5C?format=jpg",
-                        "local_path": "media/20250702_005639_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu0FIT6XgAAfGeB?format=jpg",
-                        "local_path": "media/20250702_005639_2.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu0FOkUXcAAVdlj?format=jpg",
-                        "local_path": "media/20250702_005639_3.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-02T00:56:39+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/1940268572363956693",
-        "tweets": [
-            {
-                "text": "TIL biofluorescence in fish has all kinds of colors, fish RGB display when",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu012wYXsAA08CS?format=jpg",
-                        "local_path": "media/20250702_043730_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu02S3OX0AABT0s?format=jpg",
-                        "local_path": "media/20250702_043730_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-02T04:37:30+00:00"
-            },
-            {
-                "text": "Carr2025: [Marine fishes exhibit exceptional variation in biofluorescent emission spectra](https://doi.org/10.1371/journal.pone.0316789…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu04FtfW8AABO1R?format=jpg",
-                        "local_path": "media/20250702_043818_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-02T04:38:18+00:00"
-            },
-            {
-                "text": "i like these dark background figures, more people should make dark background figures\nCarr2025: [Repeated and widespread evolution of biofluorescence in marine fishes](https://doi.org/10.1038/s41467-025-59843-7…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu04UnPXgAEPuBf?format=jpg",
-                        "local_path": "media/20250702_044036_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu04bRfXoAAdE5d?format=jpg",
-                        "local_path": "media/20250702_044036_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-02T04:40:36+00:00"
-            },
-            {
-                "text": "not sure, id guess you would get nonlinear effects/mixing depending on the actual molecules when layered since it's fluorescence",
-                "media": [],
-                "timestamp": "2025-07-03T03:59:00+00:00"
-            },
-            {
-                "text": "lool",
-                "media": [],
-                "timestamp": "2025-07-02T20:21:30+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/1940321850858598857",
-        "tweets": [
-            {
-                "text": "docling is pretty good\n(with --enrich-formula)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu1nwodW4AAKoWm?format=jpg",
-                        "local_path": "media/20250702_080913_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-02T08:09:13+00:00"
-            },
-            {
-                "text": "[Docling](https://github.com/docling-project/docling…)",
-                "media": [],
-                "timestamp": "2025-07-02T08:09:48+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/1940609762904932727",
-        "tweets": [
-            {
-                "text": "interference lithography + nanoimprint + self assembled large area nanophotonic scintillators\n(silicon mold -> PDMS mold -> UV curable polymer -> thermal evap chalcogenide)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu5tRf3XUAENNPn?format=jpg",
-                        "local_path": "media/20250703_031316_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-03T03:13:16+00:00"
-            },
-            {
-                "text": "feet\n\nMartin-Monier2025: [Large-scale self-assembled nanophotonic scintillators for X-ray imaging](https://doi.org/10.1038/s41467-025-60953-5…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu5uYUmWMAAmxpU?format=jpg",
-                        "local_path": "media/20250703_031514_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu5ueQlW8AAl9U_?format=jpg",
-                        "local_path": "media/20250703_031514_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-03T03:15:14+00:00"
-            },
-            {
-                "text": "what",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu5u7SMWAAEnye5?format=jpg",
-                        "local_path": "media/20250703_031610_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-03T03:16:10+00:00"
-            },
-            {
-                "text": "interfacing sims of (orders of magnitude) different scales is so hard they'd rather RCWA the whole thing",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu5vLGMXUAA2zA8?format=jpg",
-                        "local_path": "media/20250703_031756_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-03T03:17:56+00:00"
-            },
-            {
-                "text": "related read on enhancing scintillator emission with nanophotonics",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GbhW6t7bMAA7BrI?format=jpg",
-                        "local_path": "media/20250703_031841_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GbhYlkjacAAauir?format=jpg",
-                        "local_path": "media/20250703_031841_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GbhYqBQboAANZ_c?format=jpg",
-                        "local_path": "media/20250703_031841_2.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GbhY7QCaMAEacu_?format=jpg",
-                        "local_path": "media/20250703_031841_3.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-03T03:18:41+00:00"
-            },
-            {
-                "text": "interfacing sims of (orders of magnitude) different scales is so hard they'd rather RCWA the whole thing",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu5vLGMXUAA2zA8?format=jpg",
-                        "local_path": "media/20250703_031756_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-03T03:17:56+00:00"
-            },
-            {
-                "text": "related read on enhancing scintillator emission with nanophotonics",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GbhW6t7bMAA7BrI?format=jpg",
-                        "local_path": "media/20250703_031841_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GbhYlkjacAAauir?format=jpg",
-                        "local_path": "media/20250703_031841_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GbhYqBQboAANZ_c?format=jpg",
-                        "local_path": "media/20250703_031841_2.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GbhY7QCaMAEacu_?format=jpg",
-                        "local_path": "media/20250703_031841_3.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-03T03:18:41+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/1940644041525547294",
-        "tweets": [
-            {
-                "text": "funny magnetic hose: made with layered ferromagnetic and superconducting materials, where large permeability of the ferromagnetic layers guide the field, and the SC layers kill the radial component\n\n(the cut is to prevent flux quantization, and reduce circular eddy current)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu6MCDUXkAERrLY?format=jpg",
-                        "local_path": "media/20250703_052929_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu6MfmGWoAA-NuS?format=jpg",
-                        "local_path": "media/20250703_052929_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-03T05:29:29+00:00"
-            },
-            {
-                "text": "Gargiulo2021: [Fast flux control of 3D transmon qubits using a magnetic hose](https://doi.org/10.1063/5.0032615…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu6NmHxXYAAJGRS?format=jpg",
-                        "local_path": "media/20250703_053035_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-03T05:30:35+00:00"
-            },
-            {
-                "text": "im suspecting if the SC layers are doing anything..",
-                "media": [],
-                "timestamp": "2025-07-03T05:42:39+00:00"
-            },
-            {
-                "text": "wow ok it makes a ~10x difference",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu6U6slXYAALoGJ?format=jpg",
-                        "local_path": "media/20250703_060332_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu6U_wPXgAAxwYs?format=jpg",
-                        "local_path": "media/20250703_060332_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-03T06:03:32+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/1940799523166867563",
-        "tweets": [
-            {
-                "text": "transmon qubit chip from TU Delft",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu8ayzZa0AA_wYx?format=jpg",
-                        "local_path": "media/20250703_154719_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-03T15:47:19+00:00"
-            },
-            {
-                "text": "Dickel2018: [Scalability and modularity for transmon-based quantum processors](https://doi.org/10.4233/uuid:78155c28-3204-4130-a645-a47e89c46bc5…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu8a_0AW8AAGRKL?format=jpg",
-                        "local_path": "media/20250703_154853_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu8bGKeWAAAsdnH?format=jpg",
-                        "local_path": "media/20250703_154853_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-03T15:48:53+00:00"
-            },
-            {
-                "text": "worth the two more masks!",
-                "media": [],
-                "timestamp": "2025-07-04T08:11:07+00:00"
-            },
-            {
-                "text": "used to look dirtier before people started to focus on improving the coherence time a lot",
-                "media": [],
-                "timestamp": "2025-07-03T15:57:03+00:00"
-            },
-            {
-                "text": "it's lifted off with reflowed resist underneath\nChen2013: [Fabrication and Characterization of Aluminum Airbridges for Superconducting Microwave Circuits](https://arxiv.org/abs/1310.2325)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvDP-WQWwAAsZni?format=jpg",
-                        "local_path": "media/20250704_233728_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-04T23:37:28+00:00"
-            },
-            {
-                "text": "it's lifted off with reflowed resist underneath\nChen2013: [Fabrication and Characterization of Aluminum Airbridges for Superconducting Microwave Circuits](https://arxiv.org/abs/1310.2325)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvDP-WQWwAAsZni?format=jpg",
-                        "local_path": "media/20250704_233728_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-04T23:37:28+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/1941006115166380410",
-        "tweets": [
-            {
-                "text": "steering microwave beams with a microfluidic metasurface filled with liquid metal (eutectic gallium–indium)\n\n(why cant people just say it is simulation but instead they'll say numerically demonstrate or in silico experiments..)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu_WHulb0AEfKlc?format=jpg",
-                        "local_path": "media/20250704_052814_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu_WWKgasAAiQut?format=jpg",
-                        "local_path": "media/20250704_052814_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-04T05:28:14+00:00"
-            },
-            {
-                "text": "Gómez2025: [Programmable microfluidic metasurfaces for reconfigurable beam steering](https://doi.org/10.1063/5.0273724…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu_XKMXb0AISw2I?format=jpg",
-                        "local_path": "media/20250704_053020_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-04T05:30:20+00:00"
-            },
-            {
-                "text": "(ok this kind of sucks, no discussion on how to actually control the phase to be 0 or pi, or exploring continuous tunable phase)",
-                "media": [],
-                "timestamp": "2025-07-04T05:37:10+00:00"
-            },
-            {
-                "text": "the liquid metal microfluidics paper they cited actually has some cool demo of filling the channels with vacuum, it's going to be a slow metasurface\nLin2017: [Vacuum filling of complex microchannels with liquid metal](https://doi.org/10.1039/C7LC00426E…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu_ZSQmWgAAFQOz?format=jpg",
-                        "local_path": "media/20250704_054012_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/amplify_video_thumb/1941008946908504064/img/MvDIHW3ijvzrNNff.jpg",
-                        "local_path": "media/20250704_054012_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-04T05:40:12+00:00"
-            },
-            {
-                "text": "Gómez2025: [Programmable microfluidic metasurfaces for reconfigurable beam steering](https://doi.org/10.1063/5.0273724…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu_XKMXb0AISw2I?format=jpg",
-                        "local_path": "media/20250704_161758_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-04T16:17:58+00:00"
-            },
-            {
-                "text": "Gómez2025: [Programmable microfluidic metasurfaces for reconfigurable beam steering](https://doi.org/10.1063/5.0273724…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gu_XKMXb0AISw2I?format=jpg",
-                        "local_path": "media/20250704_161758_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-04T16:17:58+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/1941197796000006569",
-        "tweets": [
-            {
-                "text": "funny boat made with rulers and powered by thermoelectric generators",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvCFGATaAAUEYpG?format=jpg",
-                        "local_path": "media/20250704_180954_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-04T18:09:54+00:00"
-            },
-            {
-                "text": "this type of TEG is called flexible hydrogel thermocells (HTCs)\n\nLiu2025: [A robust and flexible wearable hydrogel thermocell driven by body heat fabricated by a one-step process at room temperature](https://doi.org/10.1063/5.0275858…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvCFaXOW8AAua0I?format=jpg",
-                        "local_path": "media/20250704_181201_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-04T18:12:01+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/1941223616286507335",
-        "tweets": [
-            {
-                "text": "a foundation model to predict human cognition?\nsure, when can I ctrl/cmd tab to the app or tab I want to go, instead of the stupid next or previous one?",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvCbr0yXoAARyfd?format=jpg",
-                        "local_path": "media/20250704_195230_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-04T19:52:30+00:00"
-            },
-            {
-                "text": "Binz2025: [A foundation model to predict and capture human cognition](https://doi.org/10.1038/s41586-025-09215-4…)\n\ninteresting datasets..\n[marcelbinz/Psych-101](https://huggingface.co/datasets/marcelbinz/Psych-101…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvCdEWfWwAAANBq?format=jpg",
-                        "local_path": "media/20250704_195636_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GvCdRWIWEAEy63b?format=jpg",
-                        "local_path": "media/20250704_195636_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GvCdT0daEAAmnGm?format=jpg",
-                        "local_path": "media/20250704_195636_2.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GvCdhJ0bgAAuXGa?format=jpg",
-                        "local_path": "media/20250704_195636_3.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-04T19:56:36+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/1941366941354176746",
-        "tweets": [
-            {
-                "text": "first glance: hmm 1020 Hz, why so specific\n5 seconds later: oh it's 1e20 \n\n(and here i though big stuff would always move slow and GW would always be low freq..)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvEeNxKaAAEnPpT?format=jpg",
-                        "local_path": "media/20250705_052202_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GvEecFKaAAINnPA?format=jpg",
-                        "local_path": "media/20250705_052202_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-05T05:22:02+00:00"
-            },
-            {
-                "text": "first screenshot from Aggarwal2025: [Challenges and Opportunities of Gravitational Wave Searches above 10 kHz](https://arxiv.org/abs/2501.11723)\nman everything is coupled mode theory (to first order). Conversion between photons and gravitons? Coupled mode theory.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvEfhvAb0AAdDg3?format=jpg",
-                        "local_path": "media/20250705_052518_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-05T05:25:18+00:00"
-            },
-            {
-                "text": "depending on who you are talking to \n(but lower freq definitely match intuition better)",
-                "media": [],
-                "timestamp": "2025-07-05T16:02:09+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/1941538594365342179",
-        "tweets": [
-            {
-                "text": "what you need for 48 thousands simultaneous telephone calls in ~1978, copper vs fiber, less than 10 years from when first low-loss fiber was made",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvG6SXXaAAEJL3N?format=jpg",
-                        "local_path": "media/20250705_014123_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GvDrB12bkAAV_LN?format=jpg",
-                        "local_path": "media/20250705_014123_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-05T01:41:23+00:00"
-            },
-            {
-                "text": "[Bell Labs' Henry Feinberg Demonstrates Ways of Using Light to Transmit Sound Waves, 1978](https://youtube.com/watch?v=gf2J3HTYUHE…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/amplify_video_thumb/1941539610422812673/img/Ee5XiJ41oT81VJbX.jpg",
-                        "local_path": "media/20250705_164958_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-05T16:49:58+00:00"
-            },
-            {
-                "text": "from the same era and pretty good",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/amplify_video_thumb/1941539610422812673/img/Ee5XiJ41oT81VJbX.jpg",
-                        "local_path": "media/20250705_165447_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-05T16:54:47+00:00"
-            },
-            {
-                "text": "[Bell Labs' Henry Feinberg Demonstrates Ways of Using Light to Transmit Sound Waves, 1978](https://youtube.com/watch?v=gf2J3HTYUHE…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/amplify_video_thumb/1941539610422812673/img/Ee5XiJ41oT81VJbX.jpg",
-                        "local_path": "media/20250705_164958_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-05T16:49:58+00:00"
-            },
-            {
-                "text": "from the same era and pretty good",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/amplify_video_thumb/1941539610422812673/img/Ee5XiJ41oT81VJbX.jpg",
-                        "local_path": "media/20250705_165447_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-05T16:54:47+00:00"
-            },
-            {
-                "text": "they probably picked crap twisted pair copper on purpose",
-                "media": [],
-                "timestamp": "2025-07-05T20:26:14+00:00"
-            },
-            {
-                "text": "you can watch the full video, the demo is very intuitive",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/amplify_video_thumb/1941539610422812673/img/Ee5XiJ41oT81VJbX.jpg",
-                        "local_path": "media/20250705_202759_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-05T20:27:59+00:00"
-            },
-            {
-                "text": "for now i guess, maybe one day adaptive optics will be cheap enough, and there will be enough satellites..",
-                "media": [],
-                "timestamp": "2025-07-05T20:48:03+00:00"
-            },
-            {
-                "text": "a bit more than that",
-                "media": [],
-                "timestamp": "2025-07-05T21:00:41+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/1941575196802154846",
-        "tweets": [
-            {
-                "text": "papa wirebonds and baby wirebonds\n\n(this is a power MOSFET)",
-                "media": [
                     {
                         "url": "https://pbs.twimg.com/media/GvHbaPcaAAA7hBa?format=jpg",
-                        "local_path": "media/20250705_190934_0.jpg"
+                        "local_path": "media/20250709_055534_1.jpg"
                     }
                 ],
-                "timestamp": "2025-07-05T19:09:34+00:00"
+                "timestamp": "2025-07-09T05:55:34+00:00"
             },
             {
-                "text": "Herboth2015: [Gesinterte silber-verbindungsschichten unter thermomechanischer beanspruchung](https://freidok.uni-freiburg.de/dnb/download/10421…)\n\n(Sintered Silver Interconnection Layers under Thermomechanical Stress)",
+                "text": "lol i was not expecting this to work at all but it kind of did",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GvHdFXWWQAANj_m?format=jpg",
-                        "local_path": "media/20250705_191334_0.jpg"
+                        "url": "https://pbs.twimg.com/amplify_video_thumb/1942826305390575616/img/2OHOvMb12cw3LnQ4.jpg",
+                        "local_path": "media/20250709_060159_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GvHdP2uaAAUpdTJ?format=jpg",
-                        "local_path": "media/20250705_191334_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GvZObX1aYAEIvYT?format=jpg",
+                        "local_path": "media/20250709_060159_1.jpg"
                     }
                 ],
-                "timestamp": "2025-07-05T19:13:34+00:00"
+                "timestamp": "2025-07-09T06:01:59+00:00"
             },
             {
-                "text": "they did mention silicon carbide, but these ones they were working with were silicon. No GaN",
+                "text": "if you can guess the shape, a NN can guess it too!",
                 "media": [],
-                "timestamp": "2025-07-05T19:56:33+00:00"
-            },
-            {
-                "text": "low few hundred amps",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvHmOx5aAAIruhd?format=jpg",
-                        "local_path": "media/20250705_195255_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-05T19:52:55+00:00"
-            },
-            {
-                "text": "i guess turning on and off stuff that eats a lot of power",
-                "media": [],
-                "timestamp": "2025-07-06T15:39:20+00:00"
-            },
-            {
-                "text": "to the source/power, ground should be the bottom of the chip",
-                "media": [],
-                "timestamp": "2025-07-06T16:57:02+00:00"
-            },
-            {
-                "text": "more details here",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvHdFXWWQAANj_m?format=jpg",
-                        "local_path": "media/20250705_194856_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GvHdP2uaAAUpdTJ?format=jpg",
-                        "local_path": "media/20250705_194856_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-05T19:48:56+00:00"
+                "timestamp": "2025-07-09T13:25:18+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1941755473910431805",
+        "url": "https://x.com/jwt0625/status/1943165742289162293",
         "tweets": [
             {
-                "text": "is this LTCC? never seen one this thicc\nalso they hold their uv better than how many folks hold their fibers \n\n(Miniaturized optical system for cold atom-based quantum sensors, and qualification of the adhesives)",
+                "text": "your next surgery might be done by GPT-4o and a da Vinci surgical robot\n\n( they showed GPT-4o is not as good as their own high-level policy (yet), which they trained on one 4090 for 20 h using videos from stereo endoscope and 2 wrist cameras from 34 demonstrations )",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GvJ_a7mWIAE9597?format=jpg",
-                        "local_path": "media/20250706_070555_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GveBAvuakAQUH_P?format=jpg",
+                        "local_path": "media/20250710_042949_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GvJ_zeZawAAbTZG?format=jpg",
-                        "local_path": "media/20250706_070555_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GveBBvOWoAQ6u_3?format=jpg",
+                        "local_path": "media/20250710_042949_1.jpg"
                     }
                 ],
-                "timestamp": "2025-07-06T07:05:55+00:00"
+                "timestamp": "2025-07-10T04:29:49+00:00"
             },
             {
-                "text": "Christ2023: [Micro-integrated optical systems and qualification of adhesive integration technologies for cold atomic quantum sensors](https://doi.org/10.1117/12.2689275…)",
+                "text": "Kim2025: [SRT-H: A hierarchical framework for autonomous surgery via language-conditioned imitation learning](https://doi.org/10.1126/scirobotics.adt5254…)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GvKAlUHXkAEfJcG?format=jpg",
-                        "local_path": "media/20250706_070822_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GvKA3oNaAAE4XSo?format=jpg",
-                        "local_path": "media/20250706_070822_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GveDZy_akAELQXw?format=jpg",
+                        "local_path": "media/20250710_043152_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-06T07:08:22+00:00"
+                "timestamp": "2025-07-10T04:31:52+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1941889484532097212",
+        "url": "https://x.com/jwt0625/status/1943202693977379070",
         "tweets": [
             {
-                "text": "when you complain your tiny vacuum chamber is still too heavy",
+                "text": "did they really choose 69 as the secret image, it's even sideways",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GvL6IIRXoAAQIjG?format=jpg",
-                        "local_path": "media/20250706_155826_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GvekPl4bQAABi0D?format=jpg",
+                        "local_path": "media/20250710_065639_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-06T15:58:26+00:00"
+                "timestamp": "2025-07-10T06:56:39+00:00"
             },
             {
-                "text": "Kassner2023: [Miniaturized quantum systems for inertial measurement units](https://doi.org/10.1109/ISS58390.2023.10361909…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvL6gn2WwAIj_mc?format=jpg",
-                        "local_path": "media/20250706_160002_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GvL6jjFWQAA5tmw?format=jpg",
-                        "local_path": "media/20250706_160002_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-06T16:00:02+00:00"
-            },
-            {
-                "text": "reading it because of this review on using BEC for navigation\nGersemann2025: [Developments for quantum inertial navigation systems employing Bose–Einstein condensates](https://doi.org/10.1063/5.0250666…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvL6yibWgAA57N5?format=jpg",
-                        "local_path": "media/20250706_160158_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GvL64zjaMAA1G2B?format=jpg",
-                        "local_path": "media/20250706_160158_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-06T16:01:58+00:00"
-            },
-            {
-                "text": "everything has to be extremely low outgassing. They use transient liquid phase diffusion bonding (TLPDB) because it has low melting temperature, non magnetic, and ofc low outgassing\nKassner2019: [Atom Chip technology for use under UHV conditions](https://ieeexplore.ieee.org/abstract/document/8727783…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvL7mdzaUAAO5RS?format=jpg",
-                        "local_path": "media/20250706_160803_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-06T16:08:03+00:00"
-            },
-            {
-                "text": "lol we need negative mass",
+                "text": "Fu2024: [Unleashing the potential: AI empowered advanced metasurface research](https://degruyterbrill.com/document/doi/10.1515/nanoph-2023-0759/html…)",
                 "media": [],
-                "timestamp": "2025-07-06T20:20:52+00:00"
+                "timestamp": "2025-07-10T06:58:52+00:00"
+            },
+            {
+                "text": " now i cant unsee it",
+                "media": [],
+                "timestamp": "2025-07-11T02:51:27+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2025-07-11T03:51:34+00:00"
+            },
+            {
+                "text": "did they really choose 69 as the secret image, it's even sideways",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvekPl4bQAABi0D?format=jpg",
+                        "local_path": "media/20250710_065639_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-10T06:56:39+00:00"
+            },
+            {
+                "text": "Fu2024: [Unleashing the potential: AI empowered advanced metasurface research](https://degruyterbrill.com/document/doi/10.1515/nanoph-2023-0759/html…)",
+                "media": [],
+                "timestamp": "2025-07-10T06:58:52+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1943209180640563580",
+        "tweets": [
+            {
+                "text": "you know you could have done a 3d gaussian splatting, and render your scope and AWG properly",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GveqTm0XEAAiGGm?format=jpg",
+                        "local_path": "media/20250710_072226_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GveqX4AXoAArW6s?format=jpg",
+                        "local_path": "media/20250710_072226_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-10T07:22:26+00:00"
+            },
+            {
+                "text": "cool idea of running the system forward for error propagation because of spatial symmetry and Lorentz reciprocity\nXue2024: [Fully forward mode training for optical neural networks](https://doi.org/10.1038/s41586-024-07687-4…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GveqnWybQAEefFg?format=jpg",
+                        "local_path": "media/20250710_072350_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-10T07:23:50+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1943331327056712003",
+        "tweets": [
+            {
+                "text": "dear mechanical engineering twitter, is this really the best setup for measuring how much you are dispensing something? why so complicated",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvgZOvoW8AIxNyg?format=jpg",
+                        "local_path": "media/20250710_152748_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvgZXeGakAMQEQY?format=jpg",
+                        "local_path": "media/20250710_152748_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-10T15:27:48+00:00"
+            },
+            {
+                "text": "Schulze2025: [Development of a high precision electrostatic force balance for measuring quantity of dispensed fluid as a new calibration standard for the becquerel](http://dx.doi.org/10.1088/1361-6501/ad3a06…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvgZzhwakAECTb4?format=jpg",
+                        "local_path": "media/20250710_152858_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-10T15:28:58+00:00"
+            },
+            {
+                "text": "\"The goal is to measure the mass of dispensed fluid of 1 mg–5 mg with a relative uncertainty of less than 0.05%\"\n\nfor comparison fujifilm Dimatix could produce droplets from 1 to 100 picoliter, or 1e-4 to 1e-6 mg",
+                "media": [],
+                "timestamp": "2025-07-10T15:34:00+00:00"
+            },
+            {
+                "text": "(I guess MEASURE the dispensed mass is different)",
+                "media": [],
+                "timestamp": "2025-07-10T15:36:38+00:00"
+            },
+            {
+                "text": "i use ",
+                "media": [],
+                "timestamp": "2025-07-10T15:34:41+00:00"
+            },
+            {
+                "text": "yes i was thinking about a piezo dispenser",
+                "media": [],
+                "timestamp": "2025-07-10T15:56:25+00:00"
+            },
+            {
+                "text": "they are trying smt hard",
+                "media": [],
+                "timestamp": "2025-07-11T03:52:39+00:00"
+            },
+            {
+                "text": "got a link?",
+                "media": [],
+                "timestamp": "2025-07-10T19:37:15+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2025-07-10T17:41:43+00:00"
+            },
+            {
+                "text": "they want 0.5 ug accuracy, thatd require an insanely high SNR for weighing the supply tank",
+                "media": [],
+                "timestamp": "2025-07-10T16:28:51+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1943497035010949378",
+        "tweets": [
+            {
+                "text": "this is so true and so wrong at the same time. AI will never be as capable or care as much about your niche, your outside five sigma stuff, until you take your own data and make one yourself\nfind a fact on the web? I still cannot find the review paper from Yale folks (?) on 3D tunnels and cavities for superconducting qubit quantum computing",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gviu52CakAA2klR?format=jpg",
+                        "local_path": "media/20250711_022616_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-11T02:26:16+00:00"
+            },
+            {
+                "text": "[Large Language Models Are Improving Exponentially - In a few years, AI could handle complex tasks with ease](https://spectrum.ieee.org/large-language-model-performance…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gviwf7FXYAAC_Cn?format=jpg",
+                        "local_path": "media/20250711_022721_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-11T02:27:21+00:00"
+            },
+            {
+                "text": "this is a pretty good overview",
+                "media": [],
+                "timestamp": "2025-07-11T02:34:06+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1943507701591339376",
+        "tweets": [
+            {
+                "text": "when you are so confident your paper is going to be a nature\n\n(controlled formation of oscillating cracks on LPCVD silicon nitride thin film)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gvi5b0HWgAAx-3U?format=jpg",
+                        "local_path": "media/20250711_030839_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-11T03:08:39+00:00"
+            },
+            {
+                "text": "how come they get these beautiful cracks and i get crap cracks\n\nNam2012: [atterning by controlled cracking](https://doi.org/10.1038/nature11002…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gvi6QAaWEAA33ka?format=jpg",
+                        "local_path": "media/20250711_031033_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-11T03:10:33+00:00"
+            },
+            {
+                "text": "people do all kinds of crazy things to stop cracks\n\nGrootes2022: [Crack barriers for thick SiN using dicing](https://doi.org/10.1364/OE.456834…)\nWu2020: [Stress-released Si3N4 fabrication process for dispersion-engineered integrated silicon photonics](https://doi.org/10.1364/OE.390171…)\nGirardi2025:",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvjGgORakAM1FDL?format=jpg",
+                        "local_path": "media/20250711_040547_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvjGlaeakAA21v7?format=jpg",
+                        "local_path": "media/20250711_040547_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvjGvkcakAEL2hU?format=jpg",
+                        "local_path": "media/20250711_040547_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvjG62gakAALY7-?format=jpg",
+                        "local_path": "media/20250711_040547_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-11T04:05:47+00:00"
+            },
+            {
+                "text": "the last one has a tasty shot of the whole wafer",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvjIUdGb0AAbKw5?format=jpg",
+                        "local_path": "media/20250711_041131_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-11T04:11:31+00:00"
+            },
+            {
+                "text": "damn they did",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gvi87RkakAIbztt?format=png",
+                        "local_path": "media/20250711_032138_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-11T03:21:38+00:00"
+            },
+            {
+                "text": "the last one has a tasty shot of the whole wafer",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvjIUdGb0AAbKw5?format=jpg",
+                        "local_path": "media/20250711_041131_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-11T04:11:31+00:00"
+            },
+            {
+                "text": "damn they did",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gvi87RkakAIbztt?format=png",
+                        "local_path": "media/20250711_032138_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-11T03:21:38+00:00"
+            },
+            {
+                "text": "",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvjnqGCbEAAbKFg?format=png",
+                        "local_path": "media/20250711_062821_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-11T06:28:21+00:00"
+            },
+            {
+                "text": "they did wrote some other stuff in the SI",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvodhNyWoAAd3T7?format=jpg",
+                        "local_path": "media/20250712_050212_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-12T05:02:12+00:00"
+            },
+            {
+                "text": "nah mostly avoided",
+                "media": [],
+                "timestamp": "2025-07-11T05:27:06+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1943868699079061591",
+        "tweets": [
+            {
+                "text": "cold neutron people also have very cool detectors / spectrometer\n\nthese cold neutrons are a few meV and have wavelengths of few angstrom. Everything about the detector system is so brute-force..",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gvn8yR0bsAQ9r7G?format=jpg",
+                        "local_path": "media/20250602_015839_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gvn84ttWMAARrw5?format=jpg",
+                        "local_path": "media/20250602_015839_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gvn88AiXcAAXPpO?format=jpg",
+                        "local_path": "media/20250602_015839_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GsZxoNDasAAl_M4?format=jpg",
+                        "local_path": "media/20250602_015839_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GsZxqS1a0AA0ncT?format=jpg",
+                        "local_path": "media/20250602_015839_4.jpg"
+                    }
+                ],
+                "timestamp": "2025-06-02T01:58:39+00:00"
+            },
+            {
+                "text": "you can use them to probe low energy excitations such as spin waves\nWang2025: [Design and construction of the multiplexing cold neutron spectrometer BOYA with double-column Rowland focusing analyzers](https://arxiv.org/abs/2501.01143)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvoCjgRXQAA1QtX?format=jpg",
+                        "local_path": "media/20250712_030501_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-12T03:05:01+00:00"
+            },
+            {
+                "text": "it got the right E and k",
+                "media": [],
+                "timestamp": "2025-07-12T23:22:06+00:00"
+            },
+            {
+                "text": "hey at least you can do something with neutrons",
+                "media": [],
+                "timestamp": "2025-07-12T03:06:50+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1943892291196006674",
+        "tweets": [
+            {
+                "text": "if companies are valued at (and some are asking for) trillions of dollars, why do we not have just a few next-gen LIGO yet",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvoXKapbsAAlYVA?format=jpg",
+                        "local_path": "media/20250712_043652_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-12T04:36:52+00:00"
+            },
+            {
+                "text": "Evans2021: [A Horizon Study for Cosmic Explorer: Science, Observatories, and Community](https://arxiv.org/abs/2109.09882)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvoXzVdaQAA17Iq?format=jpg",
+                        "local_path": "media/20250712_043726_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-12T04:37:26+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1944059152965530051",
+        "tweets": [
+            {
+                "text": "2025 vs 1988\n\n(using multi layer thin film to excite higher order bulk acoustic wave resonances)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvqvRzubsAQAMTd?format=jpg",
+                        "local_path": "media/20250712_153955_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvqvZMcW8AAxtjD?format=jpg",
+                        "local_path": "media/20250712_153955_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-12T15:39:55+00:00"
+            },
+            {
+                "text": "Kramer2025: [Acoustic resonators above 100 GHz](https://doi.org/10.1063/5.0275691…) ([also](https://arxiv.org/abs/2502.03632))\nQuate1990: [Millimeter-Wave Acoustic Transducers](https://apps.dtic.mil/sti/pdfs/ADA221402.pdf…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gvqvv8RbsAIUC9g?format=jpg",
+                        "local_path": "media/20250712_154246_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvqwIEDXMAA49Qc?format=jpg",
+                        "local_path": "media/20250712_154246_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvqwI9dWgAELUI_?format=jpg",
+                        "local_path": "media/20250712_154246_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-12T15:42:46+00:00"
+            },
+            {
+                "text": "sad these SEM and TEM images are so obliterated\ni remember this paper because I saw a cleanroom staff in the acknowledgement. He just retired a while ago, maybe I should interview him.\nLaComb1988: [Interface structure of multilayer ZnO acoustic",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvqwWLGbsAIIjZm?format=png",
+                        "local_path": "media/20250712_154605_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-12T15:46:05+00:00"
+            },
+            {
+                "text": "sounds like an [AOTF](https://rp-photonics.com/acousto_optic_tunable_filters.html…)",
+                "media": [],
+                "timestamp": "2025-07-12T18:41:59+00:00"
+            },
+            {
+                "text": "sounds like an [AOTF](https://rp-photonics.com/acousto_optic_tunable_filters.html…)",
+                "media": [],
+                "timestamp": "2025-07-12T18:41:59+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1944115388742308038",
+        "tweets": [
+            {
+                "text": "few hundred THz spectrum is very cold at our room temperature, that's one major reason why laser cooling works, but it's usually done on small things.\n\nTIL if you do it right, you could cool down a big block of crystals with lasers, to sub 100 K from RT, all solid-state!\n\nhowever, cooling power is only 100 mW with a 50 W laser... the best cooling results also need 22 passes, and the alignment is done in air with much lower laser power otherwise the crystal would get cooled too much and get condensation  i wonder why did they not make a cavity for the pump light with the crystal inside, but a non-resonant folded delay line instead",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvrdS-hX0AA3wX2?format=jpg",
+                        "local_path": "media/20250712_192323_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvrdaJKW8AAiGVv?format=jpg",
+                        "local_path": "media/20250712_192323_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-12T19:23:23+00:00"
+            },
+            {
+                "text": "Melgaard2016: [Solid-state optical refrigeration to sub-100 Kelvin regime](https://doi.org/10.1038/srep20380…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvriwfUXcAEshVJ?format=jpg",
+                        "local_path": "media/20250712_192424_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-12T19:24:24+00:00"
+            },
+            {
+                "text": "I want a fridge like this which also doubles as a light show\nHerriott1965: [Folded Optical Delay Lines](https://doi.org/10.1364/AO.4.000883…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvrjcuWbsAUHKVK?format=png",
+                        "local_path": "media/20250712_192733_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvrjdmOWkAA7xLn?format=png",
+                        "local_path": "media/20250712_192733_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GsqAv2waEAArdQe?format=jpg",
+                        "local_path": "media/20250712_192733_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GsqA4R-aoAEMVwj?format=jpg",
+                        "local_path": "media/20250712_192733_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GsqBCBtbIAA5jtG?format=jpg",
+                        "local_path": "media/20250712_192733_4.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-12T19:27:33+00:00"
+            },
+            {
+                "text": "this cooling technique is tempting for fiber lasers because it is cooling the fiber from the inside, and has been measured to work at atmospheric pressure albeit a small temperature drop\nKnall2020: [Laser cooling in a silica optical fiber at atmospheric",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gvrk2XDawAEAYDX?format=jpg",
+                        "local_path": "media/20250712_193325_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-12T19:33:25+00:00"
+            },
+            {
+                "text": "feels so wrong seeing temperature vs power with a negative slope lol\nBallato2024: [Prospects and challenges for all-optical thermal management of fiber lasers](http://dx.doi.org/10.1088/1361-6463/ad1ddc…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvtmrvbbsAE6Ijk?format=jpg",
+                        "local_path": "media/20250713_050120_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-13T05:01:20+00:00"
+            },
+            {
+                "text": "I want a fridge like this which also doubles as a light show\nHerriott1965: [Folded Optical Delay Lines](https://doi.org/10.1364/AO.4.000883…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvrjcuWbsAUHKVK?format=png",
+                        "local_path": "media/20250712_192733_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvrjdmOWkAA7xLn?format=png",
+                        "local_path": "media/20250712_192733_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GsqAv2waEAArdQe?format=jpg",
+                        "local_path": "media/20250712_192733_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GsqA4R-aoAEMVwj?format=jpg",
+                        "local_path": "media/20250712_192733_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GsqBCBtbIAA5jtG?format=jpg",
+                        "local_path": "media/20250712_192733_4.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-12T19:27:33+00:00"
+            },
+            {
+                "text": "this cooling technique is tempting for fiber lasers because it is cooling the fiber from the inside, and has been measured to work at atmospheric pressure albeit a small temperature drop\nKnall2020: [Laser cooling in a silica optical fiber at atmospheric",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gvrk2XDawAEAYDX?format=jpg",
+                        "local_path": "media/20250712_193325_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-12T19:33:25+00:00"
+            },
+            {
+                "text": "feels so wrong seeing temperature vs power with a negative slope lol\nBallato2024: [Prospects and challenges for all-optical thermal management of fiber lasers](http://dx.doi.org/10.1088/1361-6463/ad1ddc…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvtmrvbbsAE6Ijk?format=jpg",
+                        "local_path": "media/20250713_050120_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-13T05:01:20+00:00"
+            },
+            {
+                "text": "yes, anti-Stokes fluorescence",
+                "media": [],
+                "timestamp": "2025-07-13T14:35:12+00:00"
+            },
+            {
+                "text": "3 km\nremember this is pre fiber era",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvrjcuWbsAUHKVK?format=png",
+                        "local_path": "media/20250712_200112_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvrjdmOWkAA7xLn?format=png",
+                        "local_path": "media/20250712_200112_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-12T20:01:12+00:00"
+            },
+            {
+                "text": "agree\ntho they've also been at it for 20 years at this point, and the process has been cursed with ~5% max \"efficiency\", the energy absorbed does not always emit as a higher energy photon, and when it does it could get reabsorbed ",
+                "media": [],
+                "timestamp": "2025-07-13T02:15:46+00:00"
+            },
+            {
+                "text": "negative temperature ray",
+                "media": [],
+                "timestamp": "2025-07-13T17:46:56+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1944268633276133442",
+        "tweets": [
+            {
+                "text": "not really semiconductor nanofab but still feng shui: which fiber cladding shapes mix the optical modes better\n\n(anti-Stokes-fluorescence cooling in a ZBLAN fiber with a Yb-doped cladding)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvttaNCWwAAPnkc?format=jpg",
+                        "local_path": "media/20250419_164307_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvttjPTbsAUbxb3?format=jpg",
+                        "local_path": "media/20250419_164307_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Go6X8QYbAAMgOUs?format=jpg",
+                        "local_path": "media/20250419_164307_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-04-19T16:43:07+00:00"
+            },
+            {
+                "text": "Vigneron2021: [Observation of anti-Stokes-fluorescence cooling in a ZBLAN fiber with a Yb-doped cladding](https://doi.org/10.1117/12.2589940…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvtuSOCWUAAv91I?format=jpg",
+                        "local_path": "media/20250713_053403_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-13T05:34:03+00:00"
+            },
+            {
+                "text": "fibers made by [Le Verre Fluoré](https://leverrefluore.com)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvtvGiEWoAAHBjR?format=jpg",
+                        "local_path": "media/20250713_053723_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-13T05:37:23+00:00"
+            },
+            {
+                "text": "the ones in the second figure? they are measurements",
+                "media": [],
+                "timestamp": "2025-07-13T14:33:33+00:00"
+            },
+            {
+                "text": "fibers made by [Le Verre Fluoré](https://leverrefluore.com)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GvtvGiEWoAAHBjR?format=jpg",
+                        "local_path": "media/20250713_053723_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-13T05:37:23+00:00"
+            },
+            {
+                "text": "the ones in the second figure? they are measurements",
+                "media": [],
+                "timestamp": "2025-07-13T14:33:33+00:00"
             }
         ]
     }

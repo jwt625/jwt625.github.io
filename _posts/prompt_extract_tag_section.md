@@ -1,5 +1,5 @@
 I will give you a long post and ask you to exract tags from it. I will also give you list of example tags from past posts.
-Here are some example tags:
+Here are some example tags. Please note that these are just examples for style guidelines. Extract your own proper tags from the actual content of the blog.
 
   - PCSEL
   - Nanotube
