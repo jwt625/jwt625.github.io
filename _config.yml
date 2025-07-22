@@ -31,6 +31,14 @@ remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 
 # Encoding settings
 encoding: utf-8
+
+# Sass configuration
+sass:
+  style: compressed
+  sass_dir: _sass
+  load_paths:
+    - _sass
+    - node_modules
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -152,5 +160,4 @@ keep_files:
   # - "assets/images/2024/20240531_20241225"
 
 
-sass:
-  style: compressed
+
