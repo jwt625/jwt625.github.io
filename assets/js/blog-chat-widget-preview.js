@@ -10,6 +10,16 @@ class BlogChatWidget {
         this.apiUrl = window.CHAT_CONFIG.apiUrl + '/rag/generate-test';
         this.lastRequestTime = 0;
         this.rateLimitMs = 30000; // 30 seconds between requests
+
+        // Sample questions based on actual blog content
+        this.sampleQuestions = [
+            "What's the de Broglie wavelength of 10 kV electrons in e-beam lithography?",
+            "How do you calculate the flux quantum threading for superconducting resonator tuning?",
+            "Why do wavelength-scale acoustic waveguides need large transducers for efficient coupling?",
+            "What's the Schwinger limit for dielectric breakdown in perfect vacuum?",
+            "How does kinetic inductance in NbTiN change with magnetic flux threading?"
+        ];
+
         this.init();
     }
 
@@ -25,6 +35,9 @@ class BlogChatWidget {
         button.innerHTML = 'RAG my blog';
         button.className = 'blog-chat-button';
 
+        // Get random sample question for placeholder
+        const randomQuestion = this.sampleQuestions[Math.floor(Math.random() * this.sampleQuestions.length)];
+
         // Create modal
         const modal = document.createElement('div');
         modal.id = 'blog-chat-modal';
@@ -38,9 +51,9 @@ class BlogChatWidget {
                 <div class="blog-chat-body">
                     <div class="blog-chat-input-section">
                         <textarea id="blog-chat-input"
-                                placeholder="What would you like to know about my blog?"
+                                placeholder="${randomQuestion}"
                                 rows="3"></textarea>
-                        <button id="blog-chat-ask" class="blog-chat-ask-btn">Ask</button>
+                        <button id="blog-chat-ask" class="blog-chat-ask-btn">Show me what you got</button>
                     </div>
                     <div id="blog-chat-response" class="blog-chat-response hidden">
                         <div class="response-content"></div>
@@ -94,9 +107,20 @@ class BlogChatWidget {
                 this.closeModal();
             }
         });
+
+        // Close on ESC key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !document.getElementById('blog-chat-modal').classList.contains('hidden')) {
+                this.closeModal();
+            }
+        });
     }
 
     openModal() {
+        // Update placeholder with a new random question each time
+        const randomQuestion = this.sampleQuestions[Math.floor(Math.random() * this.sampleQuestions.length)];
+        document.getElementById('blog-chat-input').placeholder = randomQuestion;
+
         document.getElementById('blog-chat-modal').classList.remove('hidden');
         document.getElementById('blog-chat-input').focus();
     }
