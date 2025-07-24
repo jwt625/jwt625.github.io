@@ -38,9 +38,9 @@
     <!-- CUSTOM LAYOUT LOADED - Chat widget config and scripts -->
     <script>
       // Chat widget configuration
-      // TODO: Fix environment variable loading for production
+      // Using HTTPS subdomain - works from both GitHub Pages and local dev
       window.CHAT_CONFIG = {
-        apiUrl: 'http://146.235.193.141:8000'
+        apiUrl: 'https://rag-api.outside5sigma.com'
       };
       console.log('Chat widget config loaded:', window.CHAT_CONFIG);
     </script>

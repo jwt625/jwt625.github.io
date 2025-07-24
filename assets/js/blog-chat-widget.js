@@ -30,10 +30,57 @@ class BlogChatWidget {
         const isHttps = window.location.protocol === 'https:';
         const isApiHttp = this.apiUrl.startsWith('http://');
         if (isHttps && isApiHttp) {
-            console.warn('Mixed Content Warning: HTTPS site trying to access HTTP API. This may be blocked by the browser.');
+            console.warn('Mixed Content Error: HTTPS site cannot access HTTP API. Chat widget will be disabled.');
+            this.showMixedContentError();
+            return; // Don't initialize the widget
         }
 
         this.init();
+    }
+
+    showMixedContentError() {
+        // Create a simple error message instead of the full widget
+        const errorDiv = document.createElement('div');
+        errorDiv.id = 'blog-chat-error';
+        errorDiv.className = 'blog-chat-error';
+        errorDiv.innerHTML = `
+            <div class="blog-chat-error-content">
+                <h4>Chat Widget Unavailable</h4>
+                <p>The chat widget requires HTTPS API access but the server only supports HTTP.</p>
+                <p>This is a security limitation of modern browsers (Mixed Content Policy).</p>
+                <details>
+                    <summary>Technical Details</summary>
+                    <p>Site: ${window.location.protocol}//${window.location.host} (HTTPS)</p>
+                    <p>API: ${this.apiUrl} (HTTP)</p>
+                    <p>Solution: Enable HTTPS on the API server</p>
+                </details>
+            </div>
+        `;
+
+        // Add some basic styling
+        errorDiv.style.cssText = `
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            border-radius: 8px;
+            padding: 15px;
+            max-width: 300px;
+            font-size: 14px;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        `;
+
+        document.body.appendChild(errorDiv);
+
+        // Auto-hide after 10 seconds
+        setTimeout(() => {
+            if (errorDiv.parentNode) {
+                errorDiv.parentNode.removeChild(errorDiv);
+            }
+        }, 10000);
     }
 
     init() {
