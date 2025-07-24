@@ -16,9 +16,10 @@ version: "1.0"
 - **Author**: Wentao Jiang
 - **Date**: 2025-07-23
 - **Created**: 2025-07-23 22:21:48 PDT
-- **Status**: Approved
+- **Last Updated**: 2025-07-24
+- **Status**: Implemented
 - **Type**: Request for Discussion
-- **Version**: 1.0
+- **Version**: 1.1
 
 ## Abstract
 
@@ -41,6 +42,8 @@ This RFD proposes the implementation of an ephemeral chat widget for the Jekyll 
    - Floating chat button for non-intrusive access
    - Modal dialog for question input and response display
    - Clean, accessible design matching site theme
+   - Dynamic technical sample questions as placeholders
+   - ESC key support for modal dismissal
 
 2. **Response Display**:
    - Render main answer as formatted markdown
@@ -92,6 +95,8 @@ The widget will integrate with the existing RAG API using environment variable c
    - Main widget logic and API communication
    - DOM manipulation and event handling
    - Rate limiting and error handling
+   - Dynamic sample question generation
+   - Keyboard event handling (ESC key support)
 
 2. **CSS Styling** (`assets/css/blog-chat-widget.css`):
    - Widget appearance and responsive design
@@ -111,12 +116,14 @@ The widget will integrate with the existing RAG API using environment variable c
 ## User Experience Flow
 
 1. **Discovery**: User sees floating chat button on blog pages
-2. **Interaction**: Click button opens modal dialog
-3. **Query**: User types question about blog content
-4. **Processing**: Loading indicator while API processes request
-5. **Response**: Display formatted answer with source references
-6. **Navigation**: User can click source links to read full posts
-7. **Reset**: User can ask another question or close widget
+2. **Interaction**: Click button opens modal dialog with random technical sample question
+3. **Inspiration**: User sees contextually relevant placeholder questions that change each time
+4. **Query**: User types question about blog content (or uses suggested question)
+5. **Processing**: Loading indicator while API processes request
+6. **Response**: Display formatted answer with source references
+7. **Navigation**: User can click source links to read full posts
+8. **Dismissal**: User can close widget via close button, ESC key, or outside click
+9. **Reset**: User can ask another question with new sample placeholder
 
 ## Response Rendering
 
@@ -141,9 +148,60 @@ Sources:
 [Document Icon] This week's outside five sigma (#28)
 Relevance: 93% | View Post [Arrow]
 
-[Document Icon] This week's outside five sigma (#36)  
+[Document Icon] This week's outside five sigma (#36)
 Relevance: 89% | View Post [Arrow]
 ```
+
+## Dynamic Sample Questions
+
+### Purpose and Design
+
+To improve user engagement and provide inspiration for queries, the widget includes a curated set of technical sample questions that appear as placeholders in the input field. These questions are:
+
+1. **Technically Specific**: Reflect the advanced technical content of the blog
+2. **Contextually Relevant**: Based on actual blog post content and topics
+3. **Dynamically Selected**: Randomly chosen each time the modal opens
+4. **Educationally Valuable**: Demonstrate the depth of content available
+
+### Current Sample Questions
+
+The widget includes the following technically sophisticated questions:
+
+- "What's the de Broglie wavelength of 10 kV electrons in e-beam lithography?"
+- "How do you calculate the flux quantum threading for superconducting resonator tuning?"
+- "Why do wavelength-scale acoustic waveguides need large transducers for efficient coupling?"
+- "What's the Schwinger limit for dielectric breakdown in perfect vacuum?"
+- "How does kinetic inductance in NbTiN change with magnetic flux threading?"
+
+### Implementation Details
+
+- Questions are stored in a JavaScript array within the widget constructor
+- Random selection occurs in the `openModal()` method using `Math.floor(Math.random())`
+- Placeholder updates dynamically each time the modal is opened
+- Questions are designed to showcase the blog's coverage of advanced topics in:
+  - Nanofabrication and e-beam lithography
+  - Superconducting circuits and quantum physics
+  - Acoustic/mechanical waveguides and transduction
+  - Fundamental physics limits and phenomena
+  - Materials science and device physics
+
+## Accessibility and User Experience Enhancements
+
+### Keyboard Navigation Support
+
+The widget implements comprehensive keyboard accessibility:
+
+1. **ESC Key Dismissal**: Users can press the ESC key to close the modal dialog
+2. **Enter Key Submission**: Users can press Enter in the textarea to submit questions
+3. **Focus Management**: Modal automatically focuses the input field when opened
+4. **Event Handling**: Global ESC key listener only responds when modal is visible
+
+### Implementation Details
+
+- ESC key event listener attached to the document object
+- Conditional check ensures ESC only works when modal is not hidden
+- Prevents conflicts with other page elements that might use ESC
+- Maintains standard web accessibility patterns
 
 ## Security Considerations
 
@@ -164,7 +222,7 @@ Relevance: 89% | View Post [Arrow]
 ### Phase 2: Enhanced UI
 - Add CSS styling and responsive design
 - Implement loading states
-- Add keyboard navigation
+- Add keyboard navigation and ESC key support
 
 ### Phase 3: Polish
 - Optimize for mobile devices
@@ -226,6 +284,43 @@ After evaluation, the following approach was selected:
 
 ## Conclusion
 
-This ephemeral RAG chat widget will provide users with an intuitive way to discover and explore blog content through natural language queries. The implementation prioritizes simplicity, reliability, and user experience while respecting API constraints and maintaining compatibility with the existing Jekyll/GitHub Pages infrastructure.
+This ephemeral RAG chat widget provides users with an intuitive way to discover and explore blog content through natural language queries. The implementation prioritizes simplicity, reliability, and user experience while respecting API constraints and maintaining compatibility with the existing Jekyll/GitHub Pages infrastructure.
 
 The chosen architecture avoids conflicts with the default GitHub Pages build process while maintaining security through environment variable configuration.
+
+## Implementation Status
+
+**Status**: ✅ **IMPLEMENTED** (Version 1.1)
+
+### Completed Features
+
+- ✅ Core widget functionality with floating button and modal
+- ✅ API integration with RAG backend
+- ✅ Rate limiting (30 seconds between requests)
+- ✅ Error handling and user feedback
+- ✅ Responsive design and dark theme styling
+- ✅ Dynamic technical sample questions as placeholders
+- ✅ ESC key support for modal dismissal
+- ✅ Keyboard accessibility improvements
+- ✅ Environment variable configuration
+- ✅ GitHub Pages deployment
+
+### Recent Updates (v1.1 - 2025-07-24)
+
+1. **Dynamic Sample Questions**: Added 5 technically sophisticated sample questions that randomly rotate as placeholders, showcasing the blog's advanced technical content
+2. **Enhanced Keyboard Support**: Implemented ESC key functionality for modal dismissal
+3. **Improved User Experience**: Placeholder questions now update each time the modal is opened, providing fresh inspiration for users
+
+## Changelog
+
+### Version 1.1 (2025-07-24)
+- **Added**: Dynamic technical sample questions with random selection
+- **Added**: ESC key support for modal dismissal
+- **Enhanced**: Keyboard accessibility and user experience
+- **Updated**: Documentation to reflect new features
+
+### Version 1.0 (2025-07-23)
+- **Initial**: Core widget implementation
+- **Initial**: API integration and rate limiting
+- **Initial**: Basic UI and styling
+- **Initial**: Environment variable configuration
