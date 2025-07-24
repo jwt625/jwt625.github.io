@@ -153,6 +153,8 @@ use_excerpt_separator: true
 # Chat widget configuration
 # chatbot_api_url will be set via environment variable CHATBOT_API_URL
 # For local development, set CHATBOT_API_URL in your environment
+# This will be overridden by environment variable if present
+chatbot_api_url: ""
 
 keep_files:
 #   - assets

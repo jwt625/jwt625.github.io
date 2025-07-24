@@ -35,21 +35,15 @@
 
     {% include scripts.html %}
 
-    <!-- Chat widget config and scripts -->
-    {% if site.chatbot_api_url %}
+    <!-- CUSTOM LAYOUT LOADED - Chat widget config and scripts -->
     <script>
+      // Chat widget configuration
+      // TODO: Fix environment variable loading for production
       window.CHAT_CONFIG = {
-        apiUrl: '{{ site.chatbot_api_url }}'
+        apiUrl: 'http://146.235.193.141:8000'
       };
+      console.log('Chat widget config loaded:', window.CHAT_CONFIG);
     </script>
-    {% else %}
-    <script>
-      // No API URL configured - chat widget will be disabled
-      window.CHAT_CONFIG = {
-        apiUrl: null
-      };
-    </script>
-    {% endif %}
     <script src="{{ '/assets/js/blog-chat-widget.js' | relative_url }}"></script>
     <link rel="stylesheet" href="{{ '/assets/css/blog-chat-widget.css' | relative_url }}">
 

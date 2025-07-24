@@ -10,6 +10,16 @@ class BlogChatWidget {
         this.apiUrl = window.CHAT_CONFIG.apiUrl + '/rag/generate-test';
         this.lastRequestTime = 0;
         this.rateLimitMs = 30000; // 30 seconds between requests
+
+        console.log('Chat widget initialized with API URL:', this.apiUrl);
+
+        // Check for potential mixed content issues
+        const isHttps = window.location.protocol === 'https:';
+        const isApiHttp = this.apiUrl.startsWith('http://');
+        if (isHttps && isApiHttp) {
+            console.warn('Mixed Content Warning: HTTPS site trying to access HTTP API. This may be blocked by the browser.');
+        }
+
         this.init();
     }
 
@@ -24,7 +34,7 @@ class BlogChatWidget {
         button.id = 'blog-chat-button';
         button.innerHTML = 'RAG my blog';
         button.className = 'blog-chat-button';
-
+        
         // Create modal
         const modal = document.createElement('div');
         modal.id = 'blog-chat-modal';
@@ -37,7 +47,7 @@ class BlogChatWidget {
                 </div>
                 <div class="blog-chat-body">
                     <div class="blog-chat-input-section">
-                        <textarea id="blog-chat-input"
+                        <textarea id="blog-chat-input" 
                                 placeholder="What would you like to know about my blog?"
                                 rows="3"></textarea>
                         <button id="blog-chat-ask" class="blog-chat-ask-btn">Ask</button>
@@ -137,22 +147,48 @@ class BlogChatWidget {
     }
 
     async callAPI(question) {
-        const response = await fetch(this.apiUrl, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-                query: question,
-                context_limit: 3
-            })
-        });
+        console.log('Making API request to:', this.apiUrl);
+        console.log('Request payload:', { query: question, context_limit: 3 });
 
-        if (!response.ok) {
-            throw new Error(`API Error: ${response.status}`);
+        try {
+            const response = await fetch(this.apiUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                mode: 'cors',
+                body: JSON.stringify({
+                    query: question,
+                    context_limit: 3
+                })
+            });
+
+            console.log('Response status:', response.status);
+            console.log('Response headers:', response.headers);
+
+            if (!response.ok) {
+                const errorText = await response.text();
+                console.error('API Error Response:', errorText);
+                throw new Error(`API Error: ${response.status} - ${response.statusText}`);
+            }
+
+            const data = await response.json();
+            console.log('API Response:', data);
+            return data;
+        } catch (error) {
+            console.error('Fetch error:', error);
+            if (error.name === 'TypeError' && error.message.includes('Failed to fetch')) {
+                const isHttps = window.location.protocol === 'https:';
+                const isApiHttp = this.apiUrl.startsWith('http://');
+
+                if (isHttps && isApiHttp) {
+                    throw new Error(`Mixed Content Error: Cannot access HTTP API (${this.apiUrl}) from HTTPS site. Please access the site via HTTP (http://127.0.0.1:4000) or use an HTTPS API endpoint.`);
+                } else {
+                    throw new Error(`Network Error: Cannot reach API at ${this.apiUrl}. Please check if the API server is running and accessible.`);
+                }
+            }
+            throw error;
         }
-
-        return await response.json();
     }
 
     showLoading() {
@@ -194,12 +230,12 @@ class BlogChatWidget {
         }
 
         let html = '<h4>Sources:</h4>';
-
-        contextUsed.forEach((source, index) => {
+        
+        contextUsed.forEach((source) => {
             const relevance = Math.round((1 - source.distance) * 100);
             const title = source.metadata.title || 'Unknown Post';
             const url = source.metadata.url || '#';
-
+            
             html += `
                 <div class="source-item">
                     <div class="source-header">
