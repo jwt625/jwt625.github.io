@@ -125,6 +125,9 @@ class BlogChatWidget {
                         <p>Searching through blog posts...</p>
                     </div>
                 </div>
+                <div class="blog-chat-privacy-notice">
+                    <p><strong>Privacy Notice:</strong> Your questions are logged for system improvement. By using this chat, you consent to data collection as described in our <a href="/privacy-policy/" target="_blank">Privacy Policy</a>.</p>
+                </div>
             </div>
         `;
 

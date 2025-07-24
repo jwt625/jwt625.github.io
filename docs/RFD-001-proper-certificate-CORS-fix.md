@@ -225,3 +225,108 @@ Test from browser console on both:
 - `https://outside5sigma.com` (production)
 
 Both should work without CORS errors.
+
+## Mobile Browser CORS Preflight Fix
+
+### Problem Identified
+Mobile Safari and Firefox on iPhone are failing with:
+```
+Preflight response is not successful. Status code: 400
+Fetch API cannot load https://rag-api.outside5sigma.com/rag/generate-test due to access control checks.
+```
+
+This indicates the API server is returning status 400 for CORS preflight (OPTIONS) requests, which mobile browsers send before POST requests.
+
+### Required Server-Side Fix
+
+Your FastAPI server needs to properly handle CORS preflight requests:
+
+#### 1. Handle OPTIONS Requests Explicitly
+Add this to your FastAPI application:
+
+```python
+from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import Response
+
+app = FastAPI()
+
+# Configure CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:4000",
+        "http://127.0.0.1:4000",
+        "https://outside5sigma.com",
+        "https://jwt625.github.io",
+    ],
+    allow_credentials=False,
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type", "Accept"],
+    max_age=86400,  # Cache preflight for 24 hours
+)
+
+# Explicit OPTIONS handler for the RAG endpoint
+@app.options("/rag/generate-test")
+async def preflight_handler(request: Request):
+    """Handle CORS preflight requests for mobile browsers"""
+    return Response(
+        status_code=200,
+        headers={
+            "Access-Control-Allow-Origin": request.headers.get("origin", "*"),
+            "Access-Control-Allow-Methods": "POST, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type, Accept",
+            "Access-Control-Max-Age": "86400",
+        }
+    )
+```
+
+#### 2. Ensure POST Endpoint Returns Correct CORS Headers
+Make sure your existing POST endpoint includes proper headers:
+
+```python
+@app.post("/rag/generate-test")
+async def generate_test(request: YourRequestModel):
+    # Your existing logic here
+    response_data = {"answer": "...", "context_used": [...]}
+
+    # Return with explicit CORS headers for mobile compatibility
+    return JSONResponse(
+        content=response_data,
+        headers={
+            "Access-Control-Allow-Origin": "*",  # Or specific origin
+            "Access-Control-Allow-Methods": "POST, OPTIONS",
+            "Access-Control-Allow-Headers": "Content-Type, Accept",
+        }
+    )
+```
+
+#### 3. Debug Preflight Requests
+Add logging to see what's happening:
+
+```python
+import logging
+
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    logging.info(f"Request: {request.method} {request.url}")
+    logging.info(f"Headers: {dict(request.headers)}")
+
+    response = await call_next(request)
+
+    logging.info(f"Response status: {response.status_code}")
+    return response
+```
+
+### Key Requirements for Mobile CORS:
+1. **OPTIONS requests must return status 200** (not 400)
+2. **Preflight response must include all required CORS headers**
+3. **Access-Control-Max-Age should be set** to reduce preflight requests
+4. **No duplicate CORS headers** (FastAPI only, not Nginx)
+
+### Testing After Fix:
+1. Deploy the updated FastAPI code
+2. Test on iPhone Safari again
+3. Should see successful OPTIONS request followed by successful POST request
+
+The issue is definitely server-side - mobile browsers are correctly following CORS specifications that the server isn't properly supporting.

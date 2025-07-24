@@ -88,6 +88,30 @@
     color: #ecf0f1;
 }
 
+/* Privacy notice */
+.blog-chat-privacy-notice {
+    background: #1a252f;
+    border-top: 1px solid #34495e;
+    padding: 12px 20px;
+    font-size: 12px;
+    color: #bdc3c7;
+    line-height: 1.4;
+    margin-top: auto;
+}
+
+.blog-chat-privacy-notice p {
+    margin: 0;
+}
+
+.blog-chat-privacy-notice a {
+    color: #5dade2;
+    text-decoration: none;
+}
+
+.blog-chat-privacy-notice a:hover {
+    text-decoration: underline;
+}
+
 /* Body */
 .blog-chat-body {
     padding: 20px;
