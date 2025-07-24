@@ -13,3 +13,6 @@ Gemfile.lock
 *.swp
 _posts/config.json
 .temp
+
+# Environment variables
+.env

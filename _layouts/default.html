@@ -35,6 +35,24 @@
 
     {% include scripts.html %}
 
+    <!-- Chat widget config and scripts -->
+    {% if site.chatbot_api_url %}
+    <script>
+      window.CHAT_CONFIG = {
+        apiUrl: '{{ site.chatbot_api_url }}'
+      };
+    </script>
+    {% else %}
+    <script>
+      // No API URL configured - chat widget will be disabled
+      window.CHAT_CONFIG = {
+        apiUrl: null
+      };
+    </script>
+    {% endif %}
+    <script src="{{ '/assets/js/blog-chat-widget.js' | relative_url }}"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/blog-chat-widget.css' | relative_url }}">
+
     <!-- add mathjax, WTJ, 20240702 -->
     {% if page.use_math %}
     {% include mathjax-custom.html %}

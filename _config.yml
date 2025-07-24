@@ -150,6 +150,10 @@ comments:
 show_excerpts: true
 use_excerpt_separator: true
 
+# Chat widget configuration
+# chatbot_api_url will be set via environment variable CHATBOT_API_URL
+# For local development, set CHATBOT_API_URL in your environment
+
 keep_files:
 #   - assets
   - assets/images
