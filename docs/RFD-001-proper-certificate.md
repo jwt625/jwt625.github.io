@@ -142,3 +142,86 @@ Once HTTPS is working:
 1. Update the API URL in your Jekyll site
 2. Test the chat widget functionality
 3. Set up automatic certificate renewal monitoring
+
+## CORS Configuration for FastAPI
+
+### Problem
+If you get CORS errors like:
+```
+Access to fetch at 'https://rag-api.outside5sigma.com/rag/generate-test' from origin 'http://localhost:4000' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: The 'Access-Control-Allow-Origin' header contains multiple values 'http://localhost:4000, https://jwt625.github.io', but only one is allowed.
+```
+
+This means your FastAPI server is sending multiple CORS headers, which browsers reject.
+
+### Solution: Configure CORS in FastAPI
+
+Add this to your FastAPI application (usually in `main.py`):
+
+```python
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI()
+
+# Configure CORS
+origins = [
+    "http://localhost:4000",           # Local Jekyll development
+    "http://127.0.0.1:4000",          # Alternative localhost
+    "https://outside5sigma.com",       # Your main site
+    "https://jwt625.github.io",        # GitHub Pages (if still used)
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["*"],
+)
+
+# Your existing routes...
+```
+
+### Alternative: Allow All Origins (Less Secure)
+For development/testing only:
+
+```python
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all origins - use only for testing
+    allow_credentials=False,  # Must be False when using allow_origins=["*"]
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["*"],
+)
+```
+
+### Remove Nginx CORS Headers
+Make sure your nginx configuration does NOT include CORS headers:
+
+```nginx
+# In your nginx config, remove these lines if present:
+# add_header Access-Control-Allow-Origin "..." always;
+# add_header Access-Control-Allow-Methods "..." always;
+# add_header Access-Control-Allow-Headers "..." always;
+```
+
+Let FastAPI handle all CORS configuration to avoid conflicts.
+
+### Restart Services
+After making changes:
+
+```bash
+# Restart your FastAPI application
+# (however you're running it - systemd, screen, etc.)
+
+# Test nginx config and reload
+sudo nginx -t
+sudo systemctl reload nginx
+```
+
+### Testing CORS
+Test from browser console on both:
+- `http://localhost:4000` (local development)
+- `https://outside5sigma.com` (production)
+
+Both should work without CORS errors.
