@@ -1,20 +1,28 @@
-# Minimal Mistakes remote theme starter
+# Wentao's Blog
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+Personal blog covering technical tutorials, project documentation, and weekly collections of interesting readings and stuff.
 
-Contains basic configuration to get you a site with:
+## Content
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+- **Weekly OFS**: Mostly random papers because I want to close my browser tabs
+- **Tutorials**: Nanofab, optics/photonics and other waves, and more
+- **Projects**: woodwork, electronics, and software, and hopefully more robotics
+    - this category does not exist properly yet
+- **Logs**: Conference/event notes, teardowns
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+Related repositories: [Obsidian journals](https://github.com/jwt625/Obsidian-Journals) | [Playground](https://github.com/jwt625/PlayGround)
+
+---
+
+## Technical Details
+
+This site is built using the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes) and includes:
+
+- Post archives grouped by year, category, and tag
+- Site-wide search functionality
+- Author sidebar with social links
+- Responsive design and navigation
+- Math equation support for technical posts
 
 ---
 
