@@ -1,915 +1,909 @@
 [
     {
-        "url": "https://x.com/jwt0625/status/1944429754020409786",
+        "url": "https://x.com/jwt0625/status/1946975603598790742",
         "tweets": [
             {
-                "text": "superconducting quantum computing has entered the liquid cooling era\n\n(this is more for microwave-to-optical quantum transduction, where you have a pump laser shooting near the SC qubits)",
+                "text": "everything is beamsplitter, and beamsplitter is all you need",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GvwAT5WaQAA3eTm?format=jpg",
-                        "local_path": "media/20250713_161233_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GwULyJgWoAE-Lkv?format=jpg",
+                        "local_path": "media/20250623_064219_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GuG06T8X0AAripU?format=jpg",
+                        "local_path": "media/20250623_064219_1.jpg"
                     }
                 ],
-                "timestamp": "2025-07-13T16:12:33+00:00"
+                "timestamp": "2025-06-23T06:42:19+00:00"
             },
             {
-                "text": "the superfluid helium-4 improves the laser power handling by about 10 dB\n\nLi2025: [Superfluid-Cooled Transmon Qubits under Optical Excitation](https://doi.org/10.1103/q99s-lrnv…)",
+                "text": "i got excited for a sec that they actually made the pointy optomechanical crystal cavity, but it's theory and simulation\nRaniwala2025: [Spin-optomechanical cavity interfaces by deep subwavelength phonon-photon confinement](https://doi.org/10.1038/s41534-025-00999-x…)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GvwA878XoAECv0Q?format=jpg",
-                        "local_path": "media/20250713_161513_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GwUMvADW8AACG6u?format=jpg",
+                        "local_path": "media/20250720_165248_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-13T16:15:13+00:00"
+                "timestamp": "2025-07-20T16:52:48+00:00"
+            },
+            {
+                "text": "yes they are sick, one fun quote i'll steal from a prof is, you take a transparent material, and you poke air holes in it in the right way, and it became reflective. it's amazing",
+                "media": [],
+                "timestamp": "2025-07-20T17:09:19+00:00"
+            },
+            {
+                "text": "for future reference\n[DPA 8150 - Visual Effects & Compositing](https://people.computing.clemson.edu/~ekp/courses/dpa8150/assets/…)",
+                "media": [],
+                "timestamp": "2025-07-21T05:51:37+00:00"
+            },
+            {
+                "text": "yes they are sick, one fun quote i'll steal from a prof is, you take a transparent material, and you poke air holes in it in the right way, and it became reflective. it's amazing",
+                "media": [],
+                "timestamp": "2025-07-20T17:09:19+00:00"
+            },
+            {
+                "text": "for future reference\n[DPA 8150 - Visual Effects & Compositing](https://people.computing.clemson.edu/~ekp/courses/dpa8150/assets/…)",
+                "media": [],
+                "timestamp": "2025-07-21T05:51:37+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1944616734700482574",
+        "url": "https://x.com/jwt0625/status/1947109520670703746",
         "tweets": [
             {
-                "text": "hot damn, look at that 1x64 splitter, and the 8x8 fiber array, from a rare photonic compute demo thats not MNIST",
+                "text": "using bio structure for photonics seems underexplored",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GvypEooW8AAxS_-?format=jpg",
-                        "local_path": "media/20250714_043533_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gvypt60aIAAh4nW?format=jpg",
-                        "local_path": "media/20250714_043533_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GwWD1Idb0AAfR3o?format=jpg",
+                        "local_path": "media/20250721_014059_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-14T04:35:33+00:00"
+                "timestamp": "2025-07-21T01:40:59+00:00"
             },
             {
-                "text": "Xu2924: [Large-scale photonic chiplet Taichi empowers 160-TOPS/W artificial general intelligence](https://doi.org/10.1126/science.adl1203…)",
+                "text": "the benefits also seem complicated..\nDyakov2025: [Talbot effect in nanostructured diatom frustules](https://doi.org/10.1364/OPTICA.561663…)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GvyqxCBW4AAe-If?format=jpg",
-                        "local_path": "media/20250714_043638_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GwWF57EXMAEwGeo?format=jpg",
+                        "local_path": "media/20250721_014424_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-14T04:36:38+00:00"
+                "timestamp": "2025-07-21T01:44:24+00:00"
             },
             {
-                "text": "sad most area of the chip is for routing\nthe encoder/decoder weights are directly fabricated and not tunable afterwards",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvysjPpXoAA6dxN?format=jpg",
-                        "local_path": "media/20250714_044726_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gvys1YgaEAAYXMF?format=jpg",
-                        "local_path": "media/20250714_044726_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-14T04:47:26+00:00"
+                "text": "same, im saying theres not much work along this direction",
+                "media": [],
+                "timestamp": "2025-07-21T02:21:47+00:00"
             },
             {
-                "text": "checking out the paper above because of this review\nBente2025: [The potential of multidimensional photonic computing](https://doi.org/10.1038/s42254-025-00843-3…) ( [also](https://rdcu.be/ev42s) )",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gvytm4ta4AABIVG?format=jpg",
-                        "local_path": "media/20250714_045005_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-14T04:50:05+00:00"
+                "text": "damn this is sick",
+                "media": [],
+                "timestamp": "2025-07-21T15:32:52+00:00"
             },
             {
-                "text": "Performance characteristics of existing photonic processors",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GvyuZWCWYAEJqe1?format=jpg",
-                        "local_path": "media/20250714_045217_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-14T04:52:17+00:00"
+                "text": "or run it in reverse for coherent beam combining",
+                "media": [],
+                "timestamp": "2025-07-21T06:29:02+00:00"
+            },
+            {
+                "text": "wow sick, what was the original plan?\nif you dry them in some specific way they might kinda sort themselves ",
+                "media": [],
+                "timestamp": "2025-07-21T15:07:48+00:00"
+            },
+            {
+                "text": "silicon life when\nwait",
+                "media": [],
+                "timestamp": "2025-07-21T15:10:11+00:00"
+            },
+            {
+                "text": "no idea, reinforcement learning",
+                "media": [],
+                "timestamp": "2025-07-21T02:39:47+00:00"
+            },
+            {
+                "text": "or run it in reverse for coherent beam combining",
+                "media": [],
+                "timestamp": "2025-07-21T06:29:02+00:00"
+            },
+            {
+                "text": "wow sick, what was the original plan?\nif you dry them in some specific way they might kinda sort themselves ",
+                "media": [],
+                "timestamp": "2025-07-21T15:07:48+00:00"
+            },
+            {
+                "text": "silicon life when\nwait",
+                "media": [],
+                "timestamp": "2025-07-21T15:10:11+00:00"
+            },
+            {
+                "text": "no idea, reinforcement learning",
+                "media": [],
+                "timestamp": "2025-07-21T02:39:47+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1944787635412885946",
+        "url": "https://x.com/jwt0625/status/1947183072887394574",
         "tweets": [
             {
-                "text": "first time seeing connectors rendered this nicely in a schematic ",
+                "text": "a lamb wave resonator that looks like an elden ring weapon, for suppressing spurious modes",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/Gv1F6nBW4AA97xA?format=jpg",
-                        "local_path": "media/20250714_155439_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GwXIRAya8AAEnSc?format=jpg",
+                        "local_path": "media/20250721_063316_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GwXISPYW4AAzWQs?format=jpg",
+                        "local_path": "media/20250721_063316_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GwXITPrWEAAAqgJ?format=jpg",
+                        "local_path": "media/20250721_063316_2.jpg"
                     }
                 ],
-                "timestamp": "2025-07-14T15:54:39+00:00"
+                "timestamp": "2025-07-21T06:33:16+00:00"
             },
             {
-                "text": "Singh2025: [Photonic quantum information with time-bins: Principles and applications](https://arxiv.org/abs/2507.08102)",
+                "text": "i'm slowly reaching a point where I'd want something to track all papers that has hit some keywords from specified journals\nLu2025: [A piezoelectric circular crested lamb wave disk resonator with spurious mode suppression and quality factor enhancement](https://doi.org/10.1063/5.0278052…)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/Gv1GLIpXIAAlkYm?format=jpg",
-                        "local_path": "media/20250714_155537_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GwXIyCkXMAAJL1Z?format=jpg",
+                        "local_path": "media/20250721_063535_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GwXI2HPWgAAdVes?format=jpg",
+                        "local_path": "media/20250721_063535_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GwXI4YgXwAIaXcg?format=jpg",
+                        "local_path": "media/20250721_063535_2.jpg"
                     }
                 ],
-                "timestamp": "2025-07-14T15:55:37+00:00"
+                "timestamp": "2025-07-21T06:35:35+00:00"
             },
             {
-                "text": "sometimes there will also be an Eve for someone trying to eavesdrop",
-                "media": [],
-                "timestamp": "2025-07-14T17:42:25+00:00"
-            },
-            {
-                "text": "",
-                "media": [],
-                "timestamp": "2025-07-14T21:48:10+00:00"
-            },
-            {
-                "text": "this is great, it is perfect.\nwhat tool is this?",
-                "media": [],
-                "timestamp": "2025-07-15T06:50:14+00:00"
-            },
-            {
-                "text": "nope not at all, they probably already have a nice model library and rendering pipelines that feel addictive to use",
-                "media": [],
-                "timestamp": "2025-07-15T01:53:40+00:00"
+                "text": "so close",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GwXJb8wXcAAbpFD?format=jpg",
+                        "local_path": "media/20250721_063826_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GwXJwVIXAAADwYt?format=jpg",
+                        "local_path": "media/20250721_063826_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-21T06:38:26+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1944788184313049344",
+        "url": "https://x.com/jwt0625/status/1947480496562487798",
         "tweets": [
             {
-                "text": "if your mesh is so dense that it looks black, you should probably think about your life choices",
+                "text": "don't you just want one at home?",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/Gv1GZK4a8AASljc?format=jpg",
-                        "local_path": "media/20250714_155650_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-14T15:56:50+00:00"
-            },
-            {
-                "text": "it's a very brute-force thermal optic simulation of a ring resonator\nGupta2025: [Electrothermally Modulated Nanophotonic Waveguide-integrated Ring Resonator](https://arxiv.org/abs/2507.08332)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gv1GoaSXQAA4_fL?format=jpg",
-                        "local_path": "media/20250714_155810_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GwbW85ibEAAQe0m?format=jpg",
+                        "local_path": "media/20250214_021426_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/Gv1GrZEXwAEr5mT?format=jpg",
-                        "local_path": "media/20250714_155810_1.jpg"
+                        "url": "https://pbs.twimg.com/media/Gjtp5UlacAE6XFy?format=jpg",
+                        "local_path": "media/20250214_021426_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gjtp6MZbkAAfl64?format=jpg",
+                        "local_path": "media/20250214_021426_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gjtp99xbMAAYg8s?format=jpg",
+                        "local_path": "media/20250214_021426_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GjtqK96a0AAzu2C?format=jpg",
+                        "local_path": "media/20250214_021426_4.jpg"
                     }
                 ],
-                "timestamp": "2025-07-14T15:58:10+00:00"
+                "timestamp": "2025-02-14T02:14:26+00:00"
             },
             {
-                "text": "mesh everything down to 1.6e-35 meter as god intended",
-                "media": [],
-                "timestamp": "2025-07-14T18:29:34+00:00"
+                "text": "[An Ultrahigh Neutrino Detection Makes Waves](https://physics.aps.org/articles/v18/35)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GwbXTZmbEAEyV1-?format=png",
+                        "local_path": "media/20250722_021602_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/amplify_video_thumb/1947480645128884228/img/zOX-aRzleT0H578U.jpg",
+                        "local_path": "media/20250722_021602_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-22T02:16:02+00:00"
             },
             {
-                "text": "",
+                "text": "a reverse disco ball that detects light from neutrino's Cherenkov radiation",
                 "media": [],
-                "timestamp": "2025-07-14T19:56:45+00:00"
+                "timestamp": "2025-07-22T03:06:00+00:00"
             },
             {
-                "text": "thats why couplings in cQEDs could be so high, good for them ",
+                "text": "im not jealous at all",
                 "media": [],
-                "timestamp": "2025-07-14T19:58:16+00:00"
+                "timestamp": "2025-07-22T07:55:19+00:00"
             },
             {
-                "text": "thats why couplings in cQEDs could be so high, good for them ",
+                "text": "interesting correlation, were there historical reasons UW and MATC are involved in many Antarctica projects?",
                 "media": [],
-                "timestamp": "2025-07-14T19:58:16+00:00"
+                "timestamp": "2025-07-22T06:50:20+00:00"
+            },
+            {
+                "text": "[An Ultrahigh Neutrino Detection Makes Waves](https://physics.aps.org/articles/v18/35)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GwbXTZmbEAEyV1-?format=png",
+                        "local_path": "media/20250722_021602_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/amplify_video_thumb/1947480645128884228/img/zOX-aRzleT0H578U.jpg",
+                        "local_path": "media/20250722_021602_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-22T02:16:02+00:00"
+            },
+            {
+                "text": "a reverse disco ball that detects light from neutrino's Cherenkov radiation",
+                "media": [],
+                "timestamp": "2025-07-22T03:06:00+00:00"
+            },
+            {
+                "text": "im not jealous at all",
+                "media": [],
+                "timestamp": "2025-07-22T07:55:19+00:00"
+            },
+            {
+                "text": "interesting correlation, were there historical reasons UW and MATC are involved in many Antarctica projects?",
+                "media": [],
+                "timestamp": "2025-07-22T06:50:20+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1944939861104021813",
+        "url": "https://x.com/jwt0625/status/1947485689941266901",
         "tweets": [
             {
-                "text": "me doing transfer printing: wow they stick to the chip yay!\nthe Taiwanese doing transfer printing: sub 50 nm mechanical alignment to make nanoslots",
+                "text": "TIL there is also a similar style of neutrino observatory at the south pole, the drilling is done by a 5 MW Enhanced Hot Water Drill (EHWD)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/Gv3PXkJa4AIgh4X?format=jpg",
-                        "local_path": "media/20250509_042233_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GwbaT0MbEAQlQim?format=jpg",
+                        "local_path": "media/20250214_015911_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/Gqet_6ZWcAABirs?format=jpg",
-                        "local_path": "media/20250509_042233_1.jpg"
+                        "url": "https://pbs.twimg.com/media/Gwbagf4bMAAWlfc?format=jpg",
+                        "local_path": "media/20250214_015911_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GwbbArUbEAIZ_BI?format=jpg",
+                        "local_path": "media/20250214_015911_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gjtk9HxacAA08HI?format=jpg",
+                        "local_path": "media/20250214_015911_3.jpg"
                     }
                 ],
-                "timestamp": "2025-05-09T04:22:33+00:00"
+                "timestamp": "2025-02-14T01:59:11+00:00"
             },
             {
-                "text": "Lu2025: [Assembly of Photonic Crystal Nanolasers with High-Aspect-Ratio Nanoslots via Mechanically Guided Transfer Printing](https://pubs.acs.org/doi/10.1021/acsphotonics.5c00534…)",
+                "text": "[IceCube Neutrino Observatory](https://icecube.wisc.edu/science/icecube/…)\nAartsen2017: [The IceCube Neutrino Observatory: instrumentation and online systems](http://dx.doi.org/10.1088/1748-0221/12/03/P03012…)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/Gv3Qpfca4AEpr8x?format=jpg",
-                        "local_path": "media/20250715_020050_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GwbcmdFbEAA7KjL?format=jpg",
+                        "local_path": "media/20250722_023952_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gwbco7HbEAMzDkS?format=jpg",
+                        "local_path": "media/20250722_023952_1.jpg"
                     }
                 ],
-                "timestamp": "2025-07-15T02:00:50+00:00"
+                "timestamp": "2025-07-22T02:39:52+00:00"
             },
             {
-                "text": "photons and electrons in taiwan must have shorter wavelengths, their SEMs are so crisp",
+                "text": "damn 2+ meter per min, 21 kL fuel per hole\nBenson2017: [IceCube Enhanced Hot Water Drill functional description](https://doi.org/10.3189/2014AoG68A032…)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/Gv3RGWCa4AE3cmZ?format=jpg",
-                        "local_path": "media/20250715_020236_0.jpg"
+                        "url": "https://pbs.twimg.com/media/Gwbl-TJbEAEa5Mu?format=png",
+                        "local_path": "media/20250722_031949_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gwbl_kmbEAUXiND?format=png",
+                        "local_path": "media/20250722_031949_1.jpg"
                     }
                 ],
-                "timestamp": "2025-07-15T02:02:36+00:00"
+                "timestamp": "2025-07-22T03:19:49+00:00"
+            },
+            {
+                "text": "i bet there must be few thats not working in the first batch",
+                "media": [],
+                "timestamp": "2025-07-22T07:22:57+00:00"
+            },
+            {
+                "text": "sadly it's going to be much slower ",
+                "media": [],
+                "timestamp": "2025-07-22T06:21:48+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1944976092067987931",
+        "url": "https://x.com/jwt0625/status/1947682811802226747",
         "tweets": [
             {
-                "text": "more pretty pictures of this diamond ion trap chip",
+                "text": "since when are liquid crystal modulators this fast??",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/Gv3xZKAbEAAvJIP?format=jpg",
-                        "local_path": "media/20250707_041618_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GweO4HQaMAA2Js6?format=jpg",
+                        "local_path": "media/20250722_153903_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/Gv3xaIEa4AAFSqI?format=jpg",
-                        "local_path": "media/20250707_041618_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GwePDUSaoAA4kxr?format=jpg",
+                        "local_path": "media/20250722_153903_1.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GvOiYDNbwAAgzso?format=jpg",
-                        "local_path": "media/20250707_041618_2.jpg"
+                        "url": "https://pbs.twimg.com/media/GwePFwObEAUH1V9?format=png",
+                        "local_path": "media/20250722_153903_2.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GvOixWpXQAAJnmt?format=jpg",
-                        "local_path": "media/20250707_041618_3.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GvOiyQPa8AAH065?format=jpg",
-                        "local_path": "media/20250707_041618_4.jpg"
+                        "url": "https://pbs.twimg.com/media/GwePKKYbsAAJJ77?format=jpg",
+                        "local_path": "media/20250722_153903_3.jpg"
                     }
                 ],
-                "timestamp": "2025-07-07T04:16:18+00:00"
+                "timestamp": "2025-07-22T15:39:03+00:00"
             },
             {
-                "text": "[NIST Ion Clock Sets New Record for Most Accurate Clock in the World](https://nist.gov/news-events/news/2025/07/nist-ion-clock-sets-new-record-most-accurate-clock-world…)",
+                "text": "also just realized how they'd rather have a long grating coupler taper than focusing grating coupler to not deal with weird curves at \"big\" foundries\nOnural2024: [Hybrid Integration of Silicon Slot Photonics with Ferroelectric Nematic Liquid Crystal for Poling-Free Pockels-Effect",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GwePc6ibEAAhNgW?format=jpg",
+                        "local_path": "media/20250722_154209_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GweP5k9a0AAkZsL?format=jpg",
+                        "local_path": "media/20250722_154209_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-22T15:42:09+00:00"
+            },
+            {
+                "text": "that's honesty",
                 "media": [],
-                "timestamp": "2025-07-15T04:24:24+00:00"
+                "timestamp": "2025-07-22T16:19:52+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1945145576494129569",
+        "url": "https://x.com/jwt0625/status/1948204556992880899",
         "tweets": [
             {
-                "text": "sharing this to remind both you and myself, put your work out there openly, put it on your own website so you control the process. Share knowledge in all forms, from making short-form videos that capture a few second in someone's attention span, to marble sculptures that last centuries. Knowledge only lives by being shared.",
+                "text": "digital to analog converter but directly convert to optical power\n\n(only if it does not drift)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/Gv6JqpSa4AAS7De?format=jpg",
-                        "local_path": "media/20250715_153659_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GwlpkUMbgAAafId?format=jpg",
+                        "local_path": "media/20250724_021216_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-15T15:36:59+00:00"
+                "timestamp": "2025-07-24T02:12:16+00:00"
             },
             {
-                "text": "[Multi-Agent Reinforcement Learning for Inverse Design in Photonic Integrated Circuits](https://ymahlau.github.io/posts/2025/07/marl-for-inverse-design/…)",
+                "text": "Davis2025: [Digital-To-Optical Converters (DOCs) With Improved Nonlinearity for Energy-Efficient Optical Data Transmission](https://doi.org/10.23919/VLSITechnologyandCir65189.2025.11074976…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gwlp2rzbIAAujjj?format=jpg",
+                        "local_path": "media/20250724_021331_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-24T02:13:31+00:00"
+            },
+            {
+                "text": "my pleasure",
                 "media": [],
-                "timestamp": "2025-07-15T15:37:26+00:00"
+                "timestamp": "2025-07-24T02:25:49+00:00"
+            },
+            {
+                "text": "diffraction is FT, so you could do pretty much anything with SLM and DMD etc",
+                "media": [],
+                "timestamp": "2025-07-24T14:51:26+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1945299388953186605",
+        "url": "https://x.com/jwt0625/status/1948207512383087054",
         "tweets": [
             {
-                "text": "behold, a triangular prism shaped multimode interference splitter!",
+                "text": "compliant end-effector",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/Gv8XJhwa4AAlFfa?format=png",
-                        "local_path": "media/20250520_033133_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gv8XKx-a4AIkeq2?format=png",
-                        "local_path": "media/20250520_033133_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gv8XM_0WoAE00Gm?format=png",
-                        "local_path": "media/20250520_033133_2.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GrXMbWQa8AA5XlI?format=jpg",
-                        "local_path": "media/20250520_033133_3.jpg"
+                        "url": "https://pbs.twimg.com/media/GwlrluTboAAM7Gc?format=jpg",
+                        "local_path": "media/20250724_022401_0.jpg"
                     }
                 ],
-                "timestamp": "2025-05-20T03:31:33+00:00"
+                "timestamp": "2025-07-24T02:24:01+00:00"
             },
             {
-                "text": "[3D-printed splitter for multi-core fiber coupling](https://nanoscribe.com/en/news-insights/news/3d-printed-splitter-for-multi-core-fiber-coupling/…)\nBaghdasaryan2024: [Ultracompact 3D Splitter for Single-Core to Multi-Core Optical Fiber Connections Fabricated Through Direct Laser Writing in Polymer](https://doi.org/10.1002/lpor.202400089…)",
+                "text": "Hui2025: [AEROBULL: A Center-of-Mass displacing aerial vehicle enabling efficient high-force interaction](https://doi.org/10.1016/j.robot.2025.105127…)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/Gv8XljUa4AAhtkv?format=jpg",
-                        "local_path": "media/20250716_015008_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gv8X2Nla4AAx143?format=jpg",
-                        "local_path": "media/20250716_015008_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gv8X54lXsAAv-ow?format=jpg",
-                        "local_path": "media/20250716_015008_2.jpg"
+                        "url": "https://pbs.twimg.com/media/GwltCtwacAAwhVN?format=jpg",
+                        "local_path": "media/20250724_022700_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-16T01:50:08+00:00"
-            },
-            {
-                "text": "fun quiz for you: why is the taper shaped like this? why do they make it shrink faster towards the end with smaller diameter?",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gv8YbuGW4AAFLKP?format=png",
-                        "local_path": "media/20250716_015359_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-16T01:53:59+00:00"
-            },
-            {
-                "text": "they didnt remove them, you could see the fiber alignment/support structures next to it as well",
-                "media": [],
-                "timestamp": "2025-07-16T03:45:05+00:00"
-            },
-            {
-                "text": "[3D-printed splitter for multi-core fiber coupling](https://nanoscribe.com/en/news-insights/news/3d-printed-splitter-for-multi-core-fiber-coupling/…)\nBaghdasaryan2024: [Ultracompact 3D Splitter for Single-Core to Multi-Core Optical Fiber Connections Fabricated Through Direct Laser Writing in Polymer](https://doi.org/10.1002/lpor.202400089…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gv8XljUa4AAhtkv?format=jpg",
-                        "local_path": "media/20250716_015008_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gv8X2Nla4AAx143?format=jpg",
-                        "local_path": "media/20250716_015008_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gv8X54lXsAAv-ow?format=jpg",
-                        "local_path": "media/20250716_015008_2.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-16T01:50:08+00:00"
-            },
-            {
-                "text": "fun quiz for you: why is the taper shaped like this? why do they make it shrink faster towards the end with smaller diameter?",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/Gv8YbuGW4AAFLKP?format=png",
-                        "local_path": "media/20250716_015359_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-16T01:53:59+00:00"
-            },
-            {
-                "text": "they didnt remove them, you could see the fiber alignment/support structures next to it as well",
-                "media": [],
-                "timestamp": "2025-07-16T03:45:05+00:00"
+                "timestamp": "2025-07-24T02:27:00+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1945332677860843978",
+        "url": "https://x.com/jwt0625/status/1948228783389212945",
         "tweets": [
             {
-                "text": "github commit history but it's Bell inequality violation",
+                "text": "proquest also has a chatbot now??",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/Gv81l-da4AAOivv?format=jpg",
-                        "local_path": "media/20250716_040027_0.jpg"
+                        "url": "https://pbs.twimg.com/media/Gwl_rINbEAA_gD6?format=jpg",
+                        "local_path": "media/20250617_045351_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GtnrWRDakAAIJIm?format=jpg",
+                        "local_path": "media/20250617_045351_1.jpg"
                     }
                 ],
-                "timestamp": "2025-07-16T04:00:27+00:00"
-            },
-            {
-                "text": "Wang2025: [Violation of Bell Inequality with Unentangled Photons](https://arxiv.org/abs/2507.07756)",
-                "media": [],
-                "timestamp": "2025-07-16T04:00:59+00:00"
+                "timestamp": "2025-06-17T04:53:51+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1945694391320170960",
+        "url": "https://x.com/jwt0625/status/1948231391688155379",
         "tweets": [
             {
-                "text": "they are doing it!",
+                "text": "\"I am not a metallurgist, but you guys might not know how to read a look\"",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwB-oXEXwAAUEa5?format=jpg",
-                        "local_path": "media/20250710_141114_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GwB-t8CXkAAhIZ3?format=jpg",
-                        "local_path": "media/20250710_141114_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GwmB8jfbwAAtfrR?format=jpg",
+                        "local_path": "media/20250724_035854_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-10T14:11:14+00:00"
+                "timestamp": "2025-07-24T03:58:54+00:00"
             },
             {
-                "text": "Jovanovic2023: [2023 Astrophotonics Roadmap: pathways to realizing multi-functional integrated astrophotonic instruments](http://dx.doi.org/10.1088/2515-7647/ace869…)",
+                "text": "Krayzman2022: [Thin-Film 3D Resonators for Superconducting Quantum Circuits](https://proquest.com/docview/2781133654…)\n\n(under-bump metallisation between aluminium and indium)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwB--ZVWcAE5Spr?format=jpg",
-                        "local_path": "media/20250717_035956_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GwB_DwGWgAA9tYv?format=jpg",
-                        "local_path": "media/20250717_035956_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GwmCRSuaMAA2jxq?format=jpg",
+                        "local_path": "media/20250724_040113_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-17T03:59:56+00:00"
+                "timestamp": "2025-07-24T04:01:13+00:00"
             },
             {
-                "text": "the original proposal was to do low cost spectroscopy\nBentz2020: [PolyOculus:  Low‐cost  Spectroscopy  for  the  Community](https://astro.ufl.edu/wp-content/uploads/sites/58/2020/05/PolyOculus.pdf…)",
+                "text": "what the, cross-shaped crystalline silicon and sapphire chips from laser ablation",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwB__kWXUAAs38o?format=jpg",
-                        "local_path": "media/20250717_040417_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GwmDOuEbsAA9SA0?format=jpg",
+                        "local_path": "media/20250724_040529_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GwCAES0WIAATwOx?format=jpg",
-                        "local_path": "media/20250717_040417_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GwmDeklbMAAWTNy?format=jpg",
+                        "local_path": "media/20250724_040529_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GwmDlRKbUAAR3Bu?format=jpg",
+                        "local_path": "media/20250724_040529_2.jpg"
                     }
                 ],
-                "timestamp": "2025-07-17T04:04:17+00:00"
+                "timestamp": "2025-07-24T04:05:29+00:00"
+            },
+            {
+                "text": "hmm cracking of sapphire after ebeam, reason unclear, possibly because beam blanker is not working properly and charge got accumulated",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GwmFmA_a0AAhogG?format=jpg",
+                        "local_path": "media/20250724_041418_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GwmFo5gaMAAQoVO?format=png",
+                        "local_path": "media/20250724_041418_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-24T04:14:18+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1945698244430004613",
+        "url": "https://x.com/jwt0625/status/1948472563606454337",
         "tweets": [
             {
-                "text": "oh my goodness integrated optics but not really integrated",
+                "text": "thin-film BTO wafer is a thing now? people just reached internal Q above 1M",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwCBHOwXQAApdMn?format=jpg",
-                        "local_path": "media/20250717_041305_0.jpg"
+                        "url": "https://pbs.twimg.com/media/Gwpb7l-WUAA2ADZ?format=jpg",
+                        "local_path": "media/20250724_195714_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-17T04:13:05+00:00"
+                "timestamp": "2025-07-24T19:57:14+00:00"
             },
             {
-                "text": "this is \"Acquisition camera beam analyzer: the acquisition and guiding camera provides, for all four telescopes simultaneously, images of the pupil guiding lasers, a Shack-Hartman wavefront sensor, the pupil illumination, and the field\", from GRAVITY: \"a new instrument to",
+                "text": "Kim2025: [Low loss monolithic barium titanate on insulator integrated photonics with intrinsic quality factor > 1 million](https://arxiv.org/abs/2507.17150)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwCCzgQXIAAb9jf?format=jpg",
-                        "local_path": "media/20250717_041709_0.jpg"
+                        "url": "https://pbs.twimg.com/media/Gwpd1AHWMAAMSyJ?format=jpg",
+                        "local_path": "media/20250724_195934_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GwCC3W0aAAAbVqp?format=jpg",
-                        "local_path": "media/20250717_041709_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-17T04:17:09+00:00"
-            },
-            {
-                "text": "if you are into how the optics actually works\nAmorim2012: [The final design of the GRAVITY acquisition camera and associated VLTI beam monitoring strategy](https://doi.org/10.1117/12.925993…)",
-                "media": [
+                        "url": "https://pbs.twimg.com/media/Gwpd130XcAA93oN?format=jpg",
+                        "local_path": "media/20250724_195934_1.jpg"
+                    },
                     {
-                        "url": "https://pbs.twimg.com/media/GwCDecrWUAAHoA9?format=jpg",
-                        "local_path": "media/20250717_041909_0.jpg"
+                        "url": "https://pbs.twimg.com/media/Gwpd5H6WsAAd9j_?format=jpg",
+                        "local_path": "media/20250724_195934_2.jpg"
                     }
                 ],
-                "timestamp": "2025-07-17T04:19:09+00:00"
+                "timestamp": "2025-07-24T19:59:34+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1946032942658322816",
+        "url": "https://x.com/jwt0625/status/1948623754231513240",
         "tweets": [
             {
-                "text": "pretty platinum piezoresistor on silicon carbide for pressure sensing",
+                "text": "low temperature growth of wafer scale 2d materials from CDimension",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwGySj_WoAEsysM?format=jpg",
-                        "local_path": "media/20250718_022303_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-18T02:23:03+00:00"
-            },
-            {
-                "text": "works over a wide pressure range\nJiao2025: [SiC cavity-based pressure sensor with high dynamic range](https://doi.org/10.1109/JSEN.2025.3586120…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GwGyv_9aoAA9A5E?format=jpg",
-                        "local_path": "media/20250718_022442_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GwrmolfbgAQTGZ4?format=jpg",
+                        "local_path": "media/20250725_055801_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GwGy2gkacAAOgES?format=jpg",
-                        "local_path": "media/20250718_022442_1.jpg"
+                        "url": "https://pbs.twimg.com/media/Gwrmue9asAA_Wbx?format=jpg",
+                        "local_path": "media/20250725_055801_1.jpg"
                     }
                 ],
-                "timestamp": "2025-07-18T02:24:42+00:00"
+                "timestamp": "2025-07-25T05:58:01+00:00"
+            },
+            {
+                "text": "[2D Transistors Could Come Sooner Than Expected - CDimension thinks it can cut the 10-year timeline in half](https://spectrum.ieee.org/cdimensions-2d-semiconductors…)\n[CDimension materials available now](https://cdimension.com)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GwrndazaUAA0tPj?format=png",
+                        "local_path": "media/20250725_060009_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-25T06:00:09+00:00"
+            },
+            {
+                "text": "the most relevant paper from them, it's all about the custom made MOCVD\nZhu2023: [Low-thermal-budget synthesis of monolayer molybdenum disulfide for silicon back-end-of-line integration on a 200 mm platform](https://doi.org/10.1038/s41565-023-01375-6…)\n( [also](https://rdcu.be/exMeV) )",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GwroR8ZbgAIe_gk?format=jpg",
+                        "local_path": "media/20250725_060806_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GwrokJSbgAMPSJY?format=jpg",
+                        "local_path": "media/20250725_060806_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GwrosXabgAEH9CG?format=jpg",
+                        "local_path": "media/20250725_060806_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gwro3FbbgAIiA7V?format=jpg",
+                        "local_path": "media/20250725_060806_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-25T06:08:06+00:00"
+            },
+            {
+                "text": "maybe too good?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GwrnsJWaYAEzJm4?format=jpg",
+                        "local_path": "media/20250725_060133_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-25T06:01:33+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1946039715721105626",
+        "url": "https://x.com/jwt0625/status/1948636283104100447",
         "tweets": [
             {
-                "text": "interesting silicon optical bench (SiOB) from honeywell, assembling optical elements onto a micromachined silicon chip so that alignment is defined with lithography",
+                "text": "best chart of the week: which suckers suck on what",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwG4d0rbEAECHyp?format=jpg",
-                        "local_path": "media/20250718_024958_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GwryI8PagAAE-QV?format=jpg",
+                        "local_path": "media/20250725_064748_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-18T02:49:58+00:00"
+                "timestamp": "2025-07-25T06:47:48+00:00"
             },
             {
-                "text": "Sanders2016: [Fiber optic gyro development at Honeywell](https://doi.org/10.1117/12.2228893…)",
+                "text": "because they are trying to make something that really sucks under the water\nKang2025: [Mechanical underwater adhesive devices for soft substrates](https://doi.org/10.1038/s41586-025-09304-4…)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwG46T9bgAA42IN?format=jpg",
-                        "local_path": "media/20250718_025118_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GwG4_x1WAAAaCEo?format=jpg",
-                        "local_path": "media/20250718_025118_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GwryxPvaMAAElCq?format=jpg",
+                        "local_path": "media/20250725_065245_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-18T02:51:18+00:00"
+                "timestamp": "2025-07-25T06:52:45+00:00"
+            },
+            {
+                "text": "looks so nice, i want one",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/amplify_video_thumb/1948639719463739392/img/iw3UY6ItPh9GeQxM.jpg",
+                        "local_path": "media/20250725_070252_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-25T07:02:52+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1946071821297811543",
+        "url": "https://x.com/jwt0625/status/1948908746153091226",
         "tweets": [
             {
-                "text": "this figure got me thinking wow these fiber optic gyro coils look nice, and oh boy do they look nice, how the hell do you wind them like these?",
+                "text": "oof still a long way to go for VLM to process circuit diagrams.\nPretty much as good as random chance, and they are cheating by guessing according to the colors instead of tracing the wires.",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwHQKoMWgAIlZlA?format=jpg",
-                        "local_path": "media/20250718_045733_0.jpg"
+                        "url": "https://pbs.twimg.com/media/Gwvpv28bgAQQUrM?format=jpg",
+                        "local_path": "media/20250726_005028_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GwHV1S9WkAAZPEY?format=jpg",
-                        "local_path": "media/20250718_045733_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GwvpwuObgAIexVp?format=jpg",
+                        "local_path": "media/20250726_005028_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-26T00:50:28+00:00"
+            },
+            {
+                "text": "Berman2025: [VLMs have Tunnel Vision: Evaluating Nonlocal Visual Reasoning in Leading VLMs](https://arxiv.org/abs/2507.13361)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GwvqebpbgAUvCTb?format=jpg",
+                        "local_path": "media/20250726_005231_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GwHV5UdW0AAhcnS?format=jpg",
-                        "local_path": "media/20250718_045733_2.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-18T04:57:33+00:00"
-            },
-            {
-                "text": "the winding patterns are to suppress sensitivity wrt. temperature gradient and distribution\nLi2025: [Thin-film lithium niobate multi-channel multifunctional photonic integrated chip for interferometric optical gyroscope](https://doi.org/10.1364/OE.567986…)\n[coherent - IFOG",
-                "media": [],
-                "timestamp": "2025-07-18T05:02:32+00:00"
-            },
-            {
-                "text": "sixteen-pole symmetry seems to be the most common, and this paper went up to 32 in simulation\nZhang2023: [Simulation analysis of reduction effect of symmetrical winding method for multi-polar fiber ring on Shupe error](https://bhxb.buaa.edu.cn/bhzk/en/article/doi/10.13700/j.bh.1001-5965.2021.0530…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GwHX6bBW0AIyoIO?format=jpg",
-                        "local_path": "media/20250718_050749_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GwvqkyIbgAEz-Ik?format=jpg",
+                        "local_path": "media/20250726_005231_1.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GwHYWk1XgAAGOdm?format=jpg",
-                        "local_path": "media/20250718_050749_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GwvqnZgbgAYXnD1?format=jpg",
+                        "local_path": "media/20250726_005231_2.jpg"
                     }
                 ],
-                "timestamp": "2025-07-18T05:07:49+00:00"
-            },
-            {
-                "text": "I'm only getting more confused\nSharon2001: [Development of an automated fiber optic winding machine for gyroscope production](https://doi.org/10.1016/S0736-5845(00)00030-2…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GwHbtmibEAA2qjF?format=png",
-                        "local_path": "media/20250718_052300_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GwHbuXdWkAAGMX8?format=png",
-                        "local_path": "media/20250718_052300_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-18T05:23:00+00:00"
-            },
-            {
-                "text": "ok this actually make sense, the fiber has to be wound from the middle out to both ends, half CW half CCW",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GwHdA1GXgAALMzn?format=png",
-                        "local_path": "media/20250718_052850_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-18T05:28:50+00:00"
-            },
-            {
-                "text": "this is crazy\n(standard hexadecapole winding)\n[fiber coil winding method](https://youtube.com/watch?v=bMrX2zfCQBU…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/amplify_video_thumb/1946083577793306627/img/vi0BZS-rdCBOugy9.jpg",
-                        "local_path": "media/20250718_054525_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-18T05:45:25+00:00"
-            },
-            {
-                "text": "https://x.com/jwt0625/status/1946073076883738884…\nI made a mistake in this post, these windings are not for canceling out the spatial distribution of temperature, but the time varying temperature gradient\nwith the simplest winding, the CW and CCW light will see different locations at different times, and",
-                "media": [],
-                "timestamp": "2025-07-18T06:40:41+00:00"
-            },
-            {
-                "text": "I'm only getting more confused\nSharon2001: [Development of an automated fiber optic winding machine for gyroscope production](https://doi.org/10.1016/S0736-5845(00)00030-2…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GwHbtmibEAA2qjF?format=png",
-                        "local_path": "media/20250718_052300_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GwHbuXdWkAAGMX8?format=png",
-                        "local_path": "media/20250718_052300_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-18T05:23:00+00:00"
-            },
-            {
-                "text": "ok this actually make sense, the fiber has to be wound from the middle out to both ends, half CW half CCW",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GwHdA1GXgAALMzn?format=png",
-                        "local_path": "media/20250718_052850_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-18T05:28:50+00:00"
-            },
-            {
-                "text": "this is crazy\n(standard hexadecapole winding)\n[fiber coil winding method](https://youtube.com/watch?v=bMrX2zfCQBU…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/amplify_video_thumb/1946083577793306627/img/vi0BZS-rdCBOugy9.jpg",
-                        "local_path": "media/20250718_054525_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-18T05:45:25+00:00"
-            },
-            {
-                "text": "https://x.com/jwt0625/status/1946073076883738884…\nI made a mistake in this post, these windings are not for canceling out the spatial distribution of temperature, but the time varying temperature gradient\nwith the simplest winding, the CW and CCW light will see different locations at different times, and",
-                "media": [],
-                "timestamp": "2025-07-18T06:40:41+00:00"
-            },
-            {
-                "text": "i'd guess there are more materials involved, and potentially more stress from temperature change and CTE mismatch",
-                "media": [],
-                "timestamp": "2025-07-18T05:08:56+00:00"
-            },
-            {
-                "text": "they are getting close\n(ugh i remember seeing a giant table comparing MEMS and fiber optic gyro specs but cant find it now)",
-                "media": [],
-                "timestamp": "2025-07-18T16:51:22+00:00"
+                "timestamp": "2025-07-26T00:52:31+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1946408219485880776",
+        "url": "https://x.com/jwt0625/status/1948961077494235647",
         "tweets": [
             {
-                "text": "i remember seeing someone 3d printing concrete with a cybertruck but i cant find it anymore, well here is a smaller version",
+                "text": "spotted one of its cousin in the wild",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwMHaR8XMAAxCeH?format=jpg",
-                        "local_path": "media/20250719_031416_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GwwZt73bgAEQr4k?format=jpg",
+                        "local_path": "media/20240701_173013_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GwMH1MnWkAAKG6y?format=jpg",
-                        "local_path": "media/20250719_031416_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GwMH22qXAAEaq5R?format=jpg",
-                        "local_path": "media/20250719_031416_2.jpg"
+                        "url": "https://pbs.twimg.com/media/GRay9mqb0AcniFr?format=jpg",
+                        "local_path": "media/20240701_173013_1.jpg"
                     }
                 ],
-                "timestamp": "2025-07-19T03:14:16+00:00"
+                "timestamp": "2024-07-01T17:30:13+00:00"
             },
             {
-                "text": "Alhijaily2024: [Development of a mobile 3D printer and comparative evaluation against traditional gantry systems](https://doi.org/10.1007/s10845-024-02433-z…)",
+                "text": "Sun2025: [Edge-guided inverse design of digital metamaterial-based mode multiplexers for high-capacity multi-dimensional optical interconnect](https://doi.org/10.1038/s41467-025-57689-7…)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwMINzSWkAA4fp_?format=jpg",
-                        "local_path": "media/20250719_031529_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GwwaAKXbgAI0L9V?format=jpg",
+                        "local_path": "media/20250726_041929_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-19T03:15:29+00:00"
-            },
-            {
-                "text": "yes nice",
-                "media": [],
-                "timestamp": "2025-07-19T03:23:23+00:00"
-            },
-            {
-                "text": "the [Journal of Intelligent Manufacturing](https://link.springer.com/journal/10845) always has some fun stuff",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GwMRDX4WkAEpZTg?format=jpg",
-                        "local_path": "media/20250719_035410_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-19T03:54:10+00:00"
+                "timestamp": "2025-07-26T04:19:29+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1946417352033333729",
+        "url": "https://x.com/jwt0625/status/1949013367227908144",
         "tweets": [
             {
-                "text": "nasa has an Astrophysics Technology Update with some tasty photos, you could even see them ran out of proper clips in the second pic",
+                "text": "I was looking for something else, and accidentally found this piezoceramic based PCB motor that I've been struggling to find every once in a while, much more practical than the on-chip stuff.\n(should've guessed it's just called PCB motor..)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwMPYknbEAADWpz?format=jpg",
-                        "local_path": "media/20250719_035034_0.jpg"
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1906943214764085248/pu/img/xb7OUTGr8F0PF4BU.jpg",
+                        "local_path": "media/20250401_054239_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GwMP3GpbEAAyfxt?format=jpg",
-                        "local_path": "media/20250719_035034_1.jpg"
+                        "url": "https://pbs.twimg.com/tweet_video_thumb/GnbS0qbboAAzxN8.jpg",
+                        "local_path": "media/20250401_054239_1.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GwMP9yhX0AE8JSn?format=jpg",
-                        "local_path": "media/20250719_035034_2.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GwMQFdMXUAAW9JE?format=jpg",
-                        "local_path": "media/20250719_035034_3.jpg"
+                        "url": "https://pbs.twimg.com/tweet_video_thumb/GnbToZ5bsAA5ytJ.jpg",
+                        "local_path": "media/20250401_054239_2.jpg"
                     }
                 ],
-                "timestamp": "2025-07-19T03:50:34+00:00"
+                "timestamp": "2025-04-01T05:42:39+00:00"
             },
             {
-                "text": "also the ALD chamber looks like crap (as long as it's coated crap)\n[Astrophysics Technology Update 2024](https://assets.science.nasa.gov/content/dam/science/astro/technology/2024_ATU_Revision_040324B.pdf…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GwMQevXagAACIDy?format=jpg",
-                        "local_path": "media/20250719_035250_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GwMQh7EWYAA4-eA?format=jpg",
-                        "local_path": "media/20250719_035250_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GwMQl3HXMAAhwSo?format=jpg",
-                        "local_path": "media/20250719_035250_2.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GwMQsqTawAAnnhO?format=jpg",
-                        "local_path": "media/20250719_035250_3.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-19T03:52:50+00:00"
-            },
-            {
-                "text": "idk, maybe no particular reason.\nyou do want brass screws for low T ofhc parts",
+                "text": "[pcbmotor - The Coffee Cup](https://youtube.com/watch?v=SqAxjpm32qk&list=UU70dOqAKSlpbIxvmb4ncM-w&index=16&ab_channel=pcbmotor…)",
                 "media": [],
-                "timestamp": "2025-07-19T06:27:09+00:00"
+                "timestamp": "2025-07-26T07:46:37+00:00"
+            },
+            {
+                "text": "the white paper from 2018\ntheir [website](https://pcbmotor.com/about-pcbmotor/how-we-work/…) is still working",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GwxKTDJbgAApY-S?format=jpg",
+                        "local_path": "media/20250726_075144_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GwxKT41bgAEWZdb?format=jpg",
+                        "local_path": "media/20250726_075144_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GwxKUjVbgAYPrk7?format=jpg",
+                        "local_path": "media/20250726_075144_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-26T07:51:44+00:00"
+            },
+            {
+                "text": "used overpriced version of these a lot, one of the few moving mechanisms that still work under low temperature",
+                "media": [],
+                "timestamp": "2025-07-26T19:59:32+00:00"
+            },
+            {
+                "text": "used overpriced version of these a lot, one of the few moving mechanisms that still work under low temperature",
+                "media": [],
+                "timestamp": "2025-07-26T19:59:32+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1946422800199344287",
+        "url": "https://x.com/jwt0625/status/1949129863438508061",
         "tweets": [
             {
-                "text": "forget about power over fiber, we have power over death ray\n\n(800 W over 5.3 miles)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GwMUfkubEAAimnC?format=jpg",
-                        "local_path": "media/20241027_053614_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GwMUi5aXgAAHm1d?format=jpg",
-                        "local_path": "media/20241027_053614_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Ga37H4Ua8AAAhdm?format=jpg",
-                        "local_path": "media/20241027_053614_2.jpg"
-                    }
-                ],
-                "timestamp": "2024-10-27T05:36:14+00:00"
-            },
-            {
-                "text": "glad theres another picture with scale bars\n[DARPA Sets New Record for Wireless Power Beaming - The latest effort beamed 800 watts over 8.6 kilometers](https://spectrum.ieee.org/darpa-optical-wireless-power…)\n[DARPA program sets distance record for power beaming](https://darpa.mil/news/2025/darpa-program-distance-record-power-beaming…)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GwMVVveWIAETPi1?format=png",
-                        "local_path": "media/20250719_041611_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GwMV37cboAAHtKn?format=png",
-                        "local_path": "media/20250719_041611_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-19T04:16:11+00:00"
-            },
-            {
-                "text": "",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/GwM0lSxa4AA6EAH?format=jpg",
-                        "local_path": "media/20250719_062915_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-07-19T06:29:15+00:00"
-            },
-            {
-                "text": "that's pretty much what they do with microwave and mmw based power transfer!",
+                "text": "damn what other kinds of weird motors are quietly out there",
                 "media": [],
-                "timestamp": "2025-07-19T15:09:49+00:00"
+                "timestamp": "2025-07-26T15:08:16+00:00"
+            },
+            {
+                "text": "[Squiggle Motor](https://youtube.com/watch?v=_ZAm6wISuSM…)",
+                "media": [],
+                "timestamp": "2025-07-26T15:30:26+00:00"
+            },
+            {
+                "text": "the exhibition is free and fun",
+                "media": [],
+                "timestamp": "2025-07-26T19:34:13+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1946597445787631629",
+        "url": "https://x.com/jwt0625/status/1949320568270164366",
         "tweets": [
             {
-                "text": "one of the craziest process I've seen, using a silicon membrane stencil to one-step ebeam evap a whole superconducting qubit chip including the junction.\nno resist, no gunk!",
+                "text": "almost had a stroke when i saw the title \"DNA-directed assembly of graphene\"",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwOzhmFXAAEKSr0?format=jpg",
-                        "local_path": "media/20250719_154611_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GwO0DKrWsAExj8w?format=jpg",
-                        "local_path": "media/20250719_154611_1.jpg"
+                        "url": "https://pbs.twimg.com/media/Gw1gkVVbkAA3ui7?format=jpg",
+                        "local_path": "media/20250727_040654_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-19T15:46:11+00:00"
+                "timestamp": "2025-07-27T04:06:54+00:00"
             },
             {
-                "text": "Eichinger2023: [Novel methods and materials for super conducting qubits and circuits](https://nbi.ku.dk/english/theses/phd-theses/michaela-eichinger/…)",
+                "text": "Miao2025: [DNA-directed assembly of graphene homostructures](https://doi.org/10.1063/5.0282176…)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwO0d-rWkAApJW0?format=jpg",
-                        "local_path": "media/20250719_154848_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GwO0e93X0AErIW8?format=jpg",
-                        "local_path": "media/20250719_154848_1.jpg"
+                        "url": "https://pbs.twimg.com/media/Gw1hKqracAA1YjN?format=jpg",
+                        "local_path": "media/20250727_040918_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-19T15:48:48+00:00"
+                "timestamp": "2025-07-27T04:09:18+00:00"
             },
             {
-                "text": "earlier work from Yale using a similar process, but mainly just for the junctions/qubits (because they use 3D cavities)\nTsioutsios2020: [Free-standing silicon shadow masks for transmon qubit fabrication](https://doi.org/10.1063/1.5138953…)",
+                "text": "DNA origami is already a crazy enough rabbit hole",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwO1WFJXIAAh9__?format=jpg",
-                        "local_path": "media/20250719_155202_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GiqgpGAbYAA7ft2?format=jpg",
+                        "local_path": "media/20250727_041026_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GwO1XdxWkAAE7FD?format=jpg",
-                        "local_path": "media/20250719_155202_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GiqgrFabYAMokA6?format=jpg",
+                        "local_path": "media/20250727_041026_1.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GwO1YxaXgAE9cOo?format=jpg",
-                        "local_path": "media/20250719_155202_2.jpg"
+                        "url": "https://pbs.twimg.com/media/GiqgsWQbkAAztSm?format=jpg",
+                        "local_path": "media/20250727_041026_2.jpg"
                     }
                 ],
-                "timestamp": "2025-07-19T15:52:02+00:00"
+                "timestamp": "2025-07-27T04:10:26+00:00"
             },
             {
-                "text": "they did show various failure modes later, definitely not wafer scale (yet)",
+                "text": "what they had smt similar in the movie?",
                 "media": [],
-                "timestamp": "2025-07-19T16:58:07+00:00"
+                "timestamp": "2025-07-27T04:11:04+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/1946795946043703554",
+        "url": "https://x.com/jwt0625/status/1949337081609695498",
         "tweets": [
             {
-                "text": "ohh what a beautiful chirped IDT\nquiz: why is every electrode split into two?\n\n( is surface acoustic wave twitter a thing? )",
+                "text": "this is crazy (spectrogram of training data vs reproduced)\n\nnow you think about it, birds probably also feel \"this is crazy\" when they hear us talking to each other",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwRoQknWMAAfymH?format=jpg",
-                        "local_path": "media/20250720_045457_0.jpg"
+                        "url": "https://pbs.twimg.com/media/Gw1vM97akAExScZ?format=jpg",
+                        "local_path": "media/20250727_045341_0.jpg"
                     }
                 ],
-                "timestamp": "2025-07-20T04:54:57+00:00"
+                "timestamp": "2025-07-27T04:53:41+00:00"
             },
             {
-                "text": "Fujiwara2025: [Generation of a single-cycle surface acoustic wave pulse on LiNbO3 for application to thin-film materials](https://doi.org/10.1063/5.0270260…)",
+                "text": "btw the rest of the video is also amazing, go watch it",
+                "media": [],
+                "timestamp": "2025-07-27T05:23:27+00:00"
+            },
+            {
+                "text": "they make birds learn the spectrogram?",
+                "media": [],
+                "timestamp": "2025-07-27T06:07:22+00:00"
+            },
+            {
+                "text": "agree, it's not that many components, but still way better and more accurate than human",
+                "media": [],
+                "timestamp": "2025-07-27T15:05:04+00:00"
+            },
+            {
+                "text": "noo let me have the belief that i could yap faster than birds",
+                "media": [],
+                "timestamp": "2025-07-27T14:58:46+00:00"
+            },
+            {
+                "text": "IP over what??",
+                "media": [],
+                "timestamp": "2025-07-27T14:57:01+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1949645117582930263",
+        "tweets": [
+            {
+                "text": "patents on optical/photonic packaging has been rising, and esp from tsmc\n\n(sort by newest and relevance, you could see the dot com bubble burst )",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GwRo5_mbAAE7HDU?format=jpg",
-                        "local_path": "media/20250720_045641_0.jpg"
+                        "url": "https://pbs.twimg.com/media/Gw6H4UjaQAEahwH?format=jpg",
+                        "local_path": "media/20250728_013633_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gw6H5S1aIAAVT-C?format=jpg",
+                        "local_path": "media/20250728_013633_1.jpg"
                     }
                 ],
-                "timestamp": "2025-07-20T04:56:41+00:00"
+                "timestamp": "2025-07-28T01:36:33+00:00"
             },
             {
-                "text": "not familiar with wurx but i think so, they are hard to make tho depending on your frequency, feature size could be sub 100 nm",
+                "text": "[Google Patents](https://patents.google.com/?q=(G02B6%2f30)&q=(G02B6%2f42)&before=priority:20251231&after=priority:19980101&oq=(G02B6%2f30)+(G02B6%2f42)+before:priority:20251231+after:priority:19980101&sort=new…)",
                 "media": [],
-                "timestamp": "2025-07-20T16:46:13+00:00"
+                "timestamp": "2025-07-28T01:37:55+00:00"
             },
             {
-                "text": "loool",
-                "media": [],
-                "timestamp": "2025-07-20T14:19:53+00:00"
-            },
-            {
-                "text": "for electron in 2DEG or 2D materials yes, people have moved around single electrons with SAW iirc\n(and people have also used collections of electrons to wiggle SAWs)",
-                "media": [],
-                "timestamp": "2025-07-20T05:11:38+00:00"
+                "text": "theres a lot of subcategories under 6/42: Coupling light guides with opto-electronic elements\n[CPC Scheme and Definitions - Bulk Data](https://cooperativepatentclassification.org/cpcSchemeAndDefinitions/bulk…)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gw6Ih0sbgAE0FOq?format=jpg",
+                        "local_path": "media/20250728_013954_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-07-28T01:39:54+00:00"
             }
         ]
     }

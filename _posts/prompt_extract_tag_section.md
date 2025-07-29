@@ -1,5 +1,6 @@
 I will give you a long post and ask you to exract tags from it. I will also give you list of example tags from past posts.
-Here are some example tags. Please note that these are just examples for style guidelines. Extract your own proper tags from the actual content of the blog.
+
+Here are some example tags. Please note that these are just examples for style guidelines. Extract your own proper tags from the actual content of the blog. After the example tags, I will describe the requirements for generation section titles.
 
   - PCSEL
   - Nanotube
@@ -120,7 +121,11 @@ Here are some example tags. Please note that these are just examples for style g
 
 
 I will give the long blog post in the next chat. Make the list of tags more compact: deduplicate and merge similar words. Omit common ones such as compute_trends. Only keep highly technical ones. Keep the total number of tags to be less than 30.
+
 Generate them as markdown in a code block.
+
 After generating the tags, generate a compact section title for the following blog. Be concise, focus on technical aspects, avoid using fancy words with little extra information, and keep it between five and ten words.
+
 The blog is a list of ~20 sections. Generate one title for each of them, in a markdown code block. Remove the numbered list and just keep the title (i.e. the `#` for markdown)
-DO NOT include anything else in the markdown code block. Put the tags and section titles into two separate markdown code blocks accordingly. Thanks!
+DO NOT include anything else in the markdown code block. Put the tags and section titles into two separate markdown code blocks accordingly. MAKE SURE the number of section titles you extracted match with the numbered items in the blog! A missing section title would drastically increase the manual labor for post processing. Please make sure you generate as many section titles as in the numbered sections in the original blog.
+
