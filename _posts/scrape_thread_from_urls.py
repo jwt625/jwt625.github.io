@@ -15,6 +15,10 @@ import json
 import re
 from datetime import datetime
 
+print("="*60)
+print("TWITTER SCRAPING SCRIPT STARTED")
+print("="*60)
+
 #%%
 
 def get_original_media_url(url):
@@ -121,9 +125,24 @@ def scrape_thread(driver, url, media_folder, str_user_handle):
     return thread_data
 
 
-#%% login manually and keep using the same tag
-driver = webdriver.Chrome()  # Or whichever browser you're using
+print("\n" + "="*60)
+print("SECTION 1: BROWSER SETUP AND LOGIN")
+print("="*60)
 
+#%% login manually and keep using the same tag
+print("Opening Chrome browser...")
+driver = webdriver.Chrome()  # Or whichever browser you're using
+print("Browser opened successfully!")
+print("\nPlease:")
+print("1. Login to Twitter/X manually in the browser")
+print("2. Open multiple tabs with the tweet URLs you want to scrape")
+print("3. Make sure all URLs follow the pattern: https://x.com/jwt0625/status/[tweet_id]")
+print("4. Press ENTER when you're ready to continue...")
+input()
+
+print("\n" + "="*60)
+print("SECTION 2: COLLECTING URLS FROM BROWSER TABS")
+print("="*60)
 
 #%% get all urls
 
@@ -158,6 +177,12 @@ with open(filename_urls, "w") as file:
     for tweet_id, url in sorted_urls:
         file.write(url + "\n")
 
+print(f"Found and sorted {len(sorted_urls)} URLs")
+print(f"URLs saved to: {filename_urls}")
+
+print("\n" + "="*60)
+print("SECTION 3: SCRAPING TWEETS")
+print("="*60)
 
 #%% Setup
 media_folder = 'media'
@@ -189,6 +214,11 @@ with open(json_filename, 'w', encoding='utf-8') as f:
     json.dump(threads_data, f, ensure_ascii=False, indent=4)
 
 print(f"Scraped {len(threads_data)} threads.")
+print(f"Data saved to: {json_filename}")
+
+print("\n" + "="*60)
+print("SECTION 4: ORGANIZING MEDIA FILES")
+print("="*60)
 
 # %%
 
@@ -224,7 +254,7 @@ if jpg_files:
     folder_name = f"{min_date}_{max_date}"
     
     # Define target path
-    target_path = "/Users/wentaojiang/Documents/GitHub/jwt625.github.io/assets/images/2025"
+    target_path = os.path.join(os.getcwd(), "assets", "images", "2025")
     new_folder_path = os.path.join(target_path, folder_name)
     
     # Create the target directory if it doesn't exist
@@ -239,6 +269,10 @@ if jpg_files:
     print(f"Moved {len(jpg_files)} JPG files to folder: {new_folder_path}")
 else:
     print("No JPG files found in the media folder.")
+
+print("\n" + "="*60)
+print("SECTION 5: CREATING MARKDOWN FROM JSON")
+print("="*60)
 
 # %%
 
@@ -323,6 +357,9 @@ print(f"Generated output filename: {output_md_file}")
 create_markdown(json_file, output_md_file)
 print(f"Markdown file '{output_md_file}' has been created.")
 
+print("\n" + "="*60)
+print("SECTION 6: EXTRACTING TAGS AND SECTION TITLES USING LLM")
+print("="*60)
 
 # %% extract tags and section titles using deepseek
 
@@ -334,6 +371,11 @@ res = process_with_llm_from_files(config_file='config.json',
                                   prompt_file='prompt_extract_tag_section.md',
                                   content_file=output_md_file,
                                   output_file=output_file)
+print(f"LLM processing completed. Output saved to: {output_file}")
+
+print("\n" + "="*60)
+print("SECTION 7: PROCESSING MARKDOWN FILES")
+print("="*60)
 
 # %%
 
@@ -443,6 +485,10 @@ def process_markdown_files(header_file, output_file, content_file):
 process_markdown_files('standard_header.md',
                        output_file, output_md_file)
 
+print("\n" + "="*60)
+print("SECTION 8: CLEANING UP FILES")
+print("="*60)
+
 # %%
 # Move files to scraping folder
 scraping_folder = 'scraping'
@@ -460,5 +506,11 @@ for filename in os.listdir(posts_dir):
         print(f"Moved {filename} to {scraping_folder}")
 
 print("Finished moving files to scraping folder")
+
+print("\n" + "="*60)
+print("SCRIPT COMPLETED SUCCESSFULLY!")
+print("="*60)
+print(f"Final blog post created: {output_md_file}")
+print("All temporary files moved to 'scraping' folder")
 
 # %%
