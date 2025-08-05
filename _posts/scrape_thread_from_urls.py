@@ -253,8 +253,8 @@ if jpg_files:
     # Create a new folder name based on the date range
     folder_name = f"{min_date}_{max_date}"
     
-    # Define target path
-    target_path = os.path.join(os.getcwd(), "assets", "images", "2025")
+    # Define target path (go up one directory from _posts to repository root)
+    target_path = os.path.join(os.path.dirname(os.getcwd()), "assets", "images", "2025")
     new_folder_path = os.path.join(target_path, folder_name)
     
     # Create the target directory if it doesn't exist
@@ -514,3 +514,4 @@ print(f"Final blog post created: {output_md_file}")
 print("All temporary files moved to 'scraping' folder")
 
 # %%
+input()
