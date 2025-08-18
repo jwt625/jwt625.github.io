@@ -145,3 +145,34 @@ bundle exec jekyll serve --incremental
 - Build time: ~27 seconds (acceptable for development)
 - Incremental builds: Enabled for faster subsequent builds
 - Native ARM64 performance: Significantly faster than Rosetta translation
+
+---
+
+## UPDATE: 2025-08-18 - Ruby Version Availability Issue
+
+### New Problem
+After the initial fix, encountered a new issue where `.ruby-version` specified `3.3.9` but this version was not available via rbenv:
+
+```
+rbenv: version `3.3.9' is not installed (set by /Users/wentaojiang/Documents/GitHub/jwt625.github.io/.ruby-version)
+```
+
+### Root Cause
+- `.ruby-version` file contained `3.3.9`
+- `rbenv install --list` only showed `3.3.7` as the latest available 3.3.x version
+- Ruby 3.3.9 was not yet available in rbenv's ruby-build definitions
+
+### Solution Applied
+1. **Updated `.ruby-version`**: Changed from `3.3.9` to `3.3.7`
+2. **Installed Ruby 3.3.7**: `rbenv install 3.3.7`
+3. **Reinstalled gems**: `bundle install` to install gems for new Ruby version
+4. **Verified functionality**: Jekyll serve now works correctly
+
+### Current Working Configuration
+- Ruby 3.3.7 (rbenv managed)
+- Bundler 2.3.3
+- All gems properly installed for ARM64 architecture
+- Jekyll server running at http://127.0.0.1:4000
+
+### Key Lesson
+When specifying Ruby versions in `.ruby-version`, ensure the version is actually available via your Ruby version manager. Use `rbenv install --list | grep 3.3` to check available versions before setting the version file.
