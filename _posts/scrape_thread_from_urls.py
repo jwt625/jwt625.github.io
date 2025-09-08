@@ -10,6 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from selenium.webdriver.common.action_chains import ActionChains
 import time
 import json
 import re
@@ -37,9 +38,84 @@ def download_media(url, folder, filename):
 def scrape_tweet(driver, tweet_element, media_folder, tweet_timestamp):
     tweet_data = {}
 
-    # Extract tweet text
+    # Extract tweet text with full URLs
     try:
-        tweet_text = tweet_element.find_element(By.CSS_SELECTOR, 'div[data-testid="tweetText"]').text
+        tweet_text_element = tweet_element.find_element(By.CSS_SELECTOR, 'div[data-testid="tweetText"]')
+        tweet_text = tweet_text_element.text
+
+        # Find all links within the tweet text element and extract full URLs
+        try:
+            links = tweet_text_element.find_elements(By.TAG_NAME, 'a')
+            print(f"Found {len(links)} links in tweet")
+            for i, link in enumerate(links):
+                # Get the visible (potentially truncated) text
+                visible_text = link.text
+                href_url = link.get_attribute('href')
+                print(f"Link {i+1}: visible_text='{visible_text}', href='{href_url}'")
+
+                # Try to get the full URL from various attributes
+                full_url = None
+
+                # Check common attributes where Twitter might store the full URL
+                for attr in ['data-expanded-url', 'title', 'aria-label', 'data-url', 'data-original-url']:
+                    full_url = link.get_attribute(attr)
+                    if full_url and full_url.startswith('http') and not full_url.startswith('https://t.co'):
+                        break
+
+                # If we still don't have a full URL, try hovering to trigger the tooltip
+                if not full_url or full_url.startswith('https://t.co'):
+                    try:
+                        # Hover over the link to potentially trigger tooltip with full URL
+                        ActionChains(driver).move_to_element(link).perform()
+                        time.sleep(0.5)  # Wait for tooltip to appear
+
+                        # Check for tooltip or updated attributes after hover
+                        for attr in ['title', 'aria-label', 'data-expanded-url']:
+                            hover_url = link.get_attribute(attr)
+                            if hover_url and hover_url.startswith('http') and not hover_url.startswith('https://t.co'):
+                                full_url = hover_url
+                                break
+
+                        # Also check if there's a tooltip element that appeared
+                        try:
+                            tooltip_elements = driver.find_elements(By.CSS_SELECTOR, '[role="tooltip"], .tooltip, [data-testid*="tooltip"]')
+                            for tooltip in tooltip_elements:
+                                tooltip_text = tooltip.text
+                                if tooltip_text and tooltip_text.startswith('http') and not tooltip_text.startswith('https://t.co'):
+                                    full_url = tooltip_text
+                                    break
+                        except:
+                            pass
+
+                    except Exception as hover_error:
+                        print(f"Error during hover: {str(hover_error)}")
+                        pass
+
+                # Final fallback: try to extract from innerHTML or other properties
+                if not full_url or full_url.startswith('https://t.co'):
+                    try:
+                        # Check innerHTML for any embedded URLs
+                        inner_html = link.get_attribute('innerHTML')
+                        if inner_html:
+                            # Look for URLs in the HTML content
+                            import re
+                            url_pattern = r'https?://(?!t\.co)[^\s<>"\']+[^\s<>"\'.,;!?]'
+                            urls_in_html = re.findall(url_pattern, inner_html)
+                            if urls_in_html:
+                                full_url = urls_in_html[0]
+                    except:
+                        pass
+
+                # If we found a full URL and it's different from the visible text, replace it
+                if full_url and visible_text and visible_text in tweet_text:
+                    # Only replace if the visible text appears to be truncated (ends with ... or is incomplete)
+                    if visible_text.endswith('…') or visible_text.endswith('...') or len(visible_text) < len(full_url):
+                        tweet_text = tweet_text.replace(visible_text, full_url)
+                        print(f"Replaced truncated URL: '{visible_text}' -> '{full_url}'")
+
+        except Exception as e:
+            print(f"Error processing links in tweet: {str(e)}")
+
         tweet_data['text'] = tweet_text
     except NoSuchElementException:
         tweet_data['text'] = ''
