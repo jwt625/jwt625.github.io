@@ -16,3 +16,4 @@ _posts/config.json
 
 # Environment variables
 .env
+.import-manifest.yaml
