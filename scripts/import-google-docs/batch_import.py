@@ -435,9 +435,25 @@ class GoogleDocsImporter:
         # Clean up multiple consecutive empty lines
         cleaned = re.sub(r'\n\s*\n\s*\n', '\n\n', cleaned)
 
-        # Remove leading/trailing whitespace from lines
-        lines = [line.rstrip() for line in cleaned.split('\n')]
-        cleaned = '\n'.join(lines)
+        # Ensure proper paragraph spacing (double line breaks between paragraphs)
+        lines = cleaned.split('\n')
+        result_lines = []
+        for i, line in enumerate(lines):
+            result_lines.append(line.rstrip())
+            # Add extra line break after non-empty lines that are followed by non-empty lines
+            # Skip if current line is empty, next line is empty, or we're at the end
+            if (line.strip() and
+                i < len(lines) - 1 and
+                lines[i + 1].strip() and
+                not line.strip().startswith('#') and  # Don't add after headings
+                not line.strip().startswith('![') and  # Don't add after images (already handled)
+                not lines[i + 1].strip().startswith('#') and  # Don't add before headings
+                not lines[i + 1].strip().startswith('![') and  # Don't add before images
+                not line.strip().startswith('-') and  # Don't break list items
+                not lines[i + 1].strip().startswith('-')):  # Don't break list items
+                result_lines.append('')  # Add blank line for paragraph break
+
+        cleaned = '\n'.join(result_lines)
 
         # Remove any remaining empty CSS class artifacts
         cleaned = re.sub(r'\[\]\{[^}]*\}', '', cleaned)
@@ -642,27 +658,37 @@ class GoogleDocsImporter:
 
         return cleaned.strip()
 
-    def generate_front_matter(self, metadata):
+    def generate_front_matter(self, metadata, doc_slug, copied_images):
         """Generate Jekyll front matter"""
         today = datetime.now().strftime('%Y-%m-%d')
-        
+
         front_matter = {
-            'title': metadata["title"],
-            'date': today,
             'categories': metadata['categories'],
+            'date': today,
             'tags': metadata['tags'],
+            'title': metadata["title"],
             'toc': True,
+            'toc_sticky': True,
             'use_math': True
         }
 
-        if metadata['author']:
-            front_matter['author'] = metadata["author"]
         if metadata['original_date']:
             front_matter['original_date'] = metadata['original_date']
-        
+
+        # Add header section with cover image if images were copied
+        if copied_images:
+            # Use the first image as cover
+            cover_image = f"/assets/images/imported/{doc_slug}/{Path(copied_images[0]).name}"
+            front_matter['header'] = {
+                'cover': cover_image,
+                'overlay_image': cover_image,
+                'show_overlay_excerpt': False,
+                'overlay_filter': 0.5
+            }
+
         return yaml.dump(front_matter, default_flow_style=False, allow_unicode=True)
 
-    def save_jekyll_post(self, front_matter, markdown_content, doc_slug, created_files):
+    def save_jekyll_post(self, front_matter, markdown_content, doc_slug, created_files, original_date=None):
         """Save the final Jekyll post"""
         today = datetime.now().strftime('%Y-%m-%d')
         post_filename = f"{today}-{doc_slug}.md"
@@ -675,6 +701,11 @@ class GoogleDocsImporter:
                 f.write('---\n')
                 f.write(front_matter)
                 f.write('---\n\n')
+
+                # Add conversion note if original date is available
+                if original_date:
+                    f.write(f"( originally written on {original_date}, converted on {today}. )\n\n")
+
                 f.write(markdown_content)
 
             created_files.append(str(post_path.relative_to(self.blog_root)))
@@ -743,10 +774,10 @@ class GoogleDocsImporter:
             markdown_content = self.convert_to_markdown(fixed_html)
 
             # Generate front matter
-            front_matter = self.generate_front_matter(metadata)
+            front_matter = self.generate_front_matter(metadata, doc_slug, copied_images)
 
             # Save Jekyll post
-            post_path = self.save_jekyll_post(front_matter, markdown_content, doc_slug, created_files)
+            post_path = self.save_jekyll_post(front_matter, markdown_content, doc_slug, created_files, metadata.get('original_date'))
 
             # Create import session record
             import_session = {

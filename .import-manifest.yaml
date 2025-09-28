@@ -689,3 +689,19 @@ imports:
   source_zip: /Users/wentaojiang/Documents/Stanford/Personal/20190903 - WJ - Piezoelectric
     eigen mode sim with different ES boundary on metal.zip
   timestamp: '2025-09-27T13:21:18.678760'
+- doc_slug: 20250619-sc-qubits-intro
+  files_created:
+  - assets/images/imported/20250619-sc-qubits-intro/image8.png
+  - assets/images/imported/20250619-sc-qubits-intro/image9.png
+  - assets/images/imported/20250619-sc-qubits-intro/image11.png
+  - assets/images/imported/20250619-sc-qubits-intro/image10.png
+  - assets/images/imported/20250619-sc-qubits-intro/image7.png
+  - assets/images/imported/20250619-sc-qubits-intro/image6.png
+  - assets/images/imported/20250619-sc-qubits-intro/image4.png
+  - assets/images/imported/20250619-sc-qubits-intro/image5.png
+  - assets/images/imported/20250619-sc-qubits-intro/image1.png
+  - assets/images/imported/20250619-sc-qubits-intro/image2.png
+  - assets/images/imported/20250619-sc-qubits-intro/image3.png
+  - _posts/2025-09-28-20250619-sc-qubits-intro.md
+  source_zip: /Users/wentaojiang/Documents/twitter/20250619 SC qubits intro.zip
+  timestamp: '2025-09-28T16:17:44.338615'
