@@ -1,7 +1,7 @@
 ---
 categories:
 - Tutorial
-date: '2025-09-27'
+import_date: '2025-09-27'
 original_date: '2018-09-12'
 tags:
 - Lithium Niobate
