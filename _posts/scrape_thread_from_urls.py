@@ -21,6 +21,18 @@ print("="*60)
 print("TWITTER SCRAPING SCRIPT STARTED")
 print("="*60)
 
+# Load configuration
+try:
+    with open('config.json', 'r') as f:
+        config = json.load(f)
+    print("Configuration loaded successfully")
+except FileNotFoundError:
+    print("Error: config.json not found. Please ensure config.json exists in the current directory.")
+    exit(1)
+except json.JSONDecodeError as e:
+    print(f"Error: Invalid JSON in config.json: {e}")
+    exit(1)
+
 #%%
 
 def get_original_media_url(url):
@@ -39,6 +51,19 @@ def download_media(url, folder, filename):
 def scrape_tweet(driver, tweet_element, media_folder, tweet_timestamp):
     tweet_data = {}
 
+    # First, check for and click "Show more" button if present
+    try:
+        show_more_button = tweet_element.find_element(By.CSS_SELECTOR, 'button[data-testid="tweet-text-show-more-link"]')
+        if show_more_button.is_displayed():
+            print("Found 'Show more' button, clicking to expand tweet...")
+            driver.execute_script("arguments[0].click();", show_more_button)
+            time.sleep(0.5)  # Wait for content to expand
+    except NoSuchElementException:
+        # No "Show more" button found, which is fine
+        pass
+    except Exception as e:
+        print(f"Error clicking 'Show more' button: {str(e)}")
+
     # Extract tweet text with full URLs
     try:
         tweet_text_element = tweet_element.find_element(By.CSS_SELECTOR, 'div[data-testid="tweetText"]')
@@ -54,14 +79,39 @@ def scrape_tweet(driver, tweet_element, media_folder, tweet_timestamp):
                 href_url = link.get_attribute('href')
                 print(f"Link {i+1}: visible_text='{visible_text}', href='{href_url}'")
 
-                # Try to get the full URL from various attributes
+                # NEW APPROACH: Reconstruct URL from fragmented spans within the link
                 full_url = None
+                try:
+                    # Find all spans within this link
+                    spans = link.find_elements(By.TAG_NAME, 'span')
+                    if spans:
+                        # Reconstruct the URL by concatenating span texts
+                        url_parts = []
+                        for span in spans:
+                            span_text = span.text
+                            # Skip the ellipsis span
+                            if span_text and span_text not in ['…', '...']:
+                                url_parts.append(span_text)
 
-                # Check common attributes where Twitter might store the full URL
-                for attr in ['data-expanded-url', 'title', 'aria-label', 'data-url', 'data-original-url']:
-                    full_url = link.get_attribute(attr)
-                    if full_url and full_url.startswith('http') and not full_url.startswith('https://t.co'):
-                        break
+                        if url_parts:
+                            reconstructed_url = ''.join(url_parts)
+                            print(f"Reconstructed URL from spans: '{reconstructed_url}'")
+
+                            # Validate that this looks like a URL
+                            if reconstructed_url.startswith('http'):
+                                full_url = reconstructed_url
+                            elif reconstructed_url.startswith('www.') or '.' in reconstructed_url:
+                                # Add https:// if it's missing
+                                full_url = 'https://' + reconstructed_url
+                except Exception as span_error:
+                    print(f"Error reconstructing URL from spans: {str(span_error)}")
+
+                # Fallback: Try to get the full URL from various attributes
+                if not full_url:
+                    for attr in ['data-expanded-url', 'title', 'aria-label', 'data-url', 'data-original-url']:
+                        full_url = link.get_attribute(attr)
+                        if full_url and full_url.startswith('http') and not full_url.startswith('https://t.co'):
+                            break
 
                 # If we still don't have a full URL, try hovering to trigger the tooltip
                 if not full_url or full_url.startswith('https://t.co'):
@@ -90,21 +140,6 @@ def scrape_tweet(driver, tweet_element, media_folder, tweet_timestamp):
 
                     except Exception as hover_error:
                         print(f"Error during hover: {str(hover_error)}")
-                        pass
-
-                # Final fallback: try to extract from innerHTML or other properties
-                if not full_url or full_url.startswith('https://t.co'):
-                    try:
-                        # Check innerHTML for any embedded URLs
-                        inner_html = link.get_attribute('innerHTML')
-                        if inner_html:
-                            # Look for URLs in the HTML content
-                            import re
-                            url_pattern = r'https?://(?!t\.co)[^\s<>"\']+[^\s<>"\'.,;!?]'
-                            urls_in_html = re.findall(url_pattern, inner_html)
-                            if urls_in_html:
-                                full_url = urls_in_html[0]
-                    except:
                         pass
 
                 # If we found a full URL and it's different from the visible text, replace it
@@ -212,10 +247,35 @@ print("Opening Firefox browser...")
 # Firefox options to help avoid detection
 from selenium.webdriver.firefox.options import Options
 firefox_options = Options()
+
+# Use your existing Firefox profile where you're already logged in
+profile_path = config.get('firefox_profile_path')
+if not profile_path:
+    print("Error: firefox_profile_path not found in config.json")
+    exit(1)
+firefox_options.add_argument(f"--profile={profile_path}")
+
+# Set window size to appear more natural
+firefox_options.add_argument("--width=1920")
+firefox_options.add_argument("--height=1080")
+
 # Add options to make the browser less detectable
 firefox_options.set_preference("dom.webdriver.enabled", False)
 firefox_options.set_preference('useAutomationExtension', False)
 firefox_options.set_preference("general.useragent.override", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0")
+
+# Disable telemetry and data reporting (safe options)
+firefox_options.set_preference("toolkit.telemetry.enabled", False)
+firefox_options.set_preference("toolkit.telemetry.unified", False)
+firefox_options.set_preference("datareporting.healthreport.uploadEnabled", False)
+firefox_options.set_preference("datareporting.policy.dataSubmissionEnabled", False)
+
+# Network settings to appear more natural
+firefox_options.set_preference("network.http.sendRefererHeader", 2)
+firefox_options.set_preference("network.http.sendSecureXSiteReferrer", True)
+
+# Disable some automated browser indicators
+firefox_options.set_preference("media.peerconnection.enabled", False)
 
 driver = webdriver.Firefox(options=firefox_options)
 print("Browser opened successfully!")
