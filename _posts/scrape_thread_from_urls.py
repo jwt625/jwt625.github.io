@@ -79,30 +79,44 @@ def scrape_tweet(driver, tweet_element, media_folder, tweet_timestamp):
                 href_url = link.get_attribute('href')
                 print(f"Link {i+1}: visible_text='{visible_text}', href='{href_url}'")
 
-                # NEW APPROACH: Reconstruct URL from fragmented spans within the link
+                # APPROACH 1: Try to get URL from visible text first
                 full_url = None
+
+                # If visible text looks like a URL, try to reconstruct it
+                if visible_text and ('.' in visible_text or visible_text.startswith('http')):
+                    # Clean up the visible text and try to make it a complete URL
+                    clean_text = visible_text.replace('\n', '').replace('…', '').replace('...', '').strip()
+                    if clean_text:
+                        if clean_text.startswith('http'):
+                            full_url = clean_text
+                            print(f"Using visible text as URL: '{full_url}'")
+                        elif '.' in clean_text and not clean_text.startswith('.'):
+                            full_url = 'https://' + clean_text
+                            print(f"Added https:// to visible text: '{full_url}'")
+
+                # APPROACH 2: Try span reconstruction (keeping for debugging)
                 try:
-                    # Find all spans within this link
                     spans = link.find_elements(By.TAG_NAME, 'span')
                     if spans:
-                        # Reconstruct the URL by concatenating span texts
+                        print(f"Found {len(spans)} spans in link")
                         url_parts = []
-                        for span in spans:
+                        for j, span in enumerate(spans):
                             span_text = span.text
-                            # Skip the ellipsis span
+                            print(f"  Span {j+1}: '{span_text}'")
                             if span_text and span_text not in ['…', '...']:
                                 url_parts.append(span_text)
+                            elif span_text in ['…', '...']:
+                                print(f"  Found ellipsis span, URL is truncated")
+                                break
 
-                        if url_parts:
+                        if url_parts and not full_url:
                             reconstructed_url = ''.join(url_parts)
                             print(f"Reconstructed URL from spans: '{reconstructed_url}'")
-
-                            # Validate that this looks like a URL
                             if reconstructed_url.startswith('http'):
                                 full_url = reconstructed_url
-                            elif reconstructed_url.startswith('www.') or '.' in reconstructed_url:
-                                # Add https:// if it's missing
+                            elif '.' in reconstructed_url:
                                 full_url = 'https://' + reconstructed_url
+                                print(f"Added https:// prefix: '{full_url}'")
                 except Exception as span_error:
                     print(f"Error reconstructing URL from spans: {str(span_error)}")
 
@@ -113,41 +127,143 @@ def scrape_tweet(driver, tweet_element, media_folder, tweet_timestamp):
                         if full_url and full_url.startswith('http') and not full_url.startswith('https://t.co'):
                             break
 
-                # If we still don't have a full URL, try hovering to trigger the tooltip
-                if not full_url or full_url.startswith('https://t.co'):
+                # If we still don't have a full URL or it's incomplete, try more aggressive methods
+                if not full_url or full_url.startswith('https://t.co') or (full_url and ('…' in visible_text or len(visible_text) > len(full_url))):
+                    print(f"Trying hover and tooltip methods for incomplete URL: '{full_url}'")
                     try:
+                        # Scroll element into view first to avoid viewport issues
+                        driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", link)
+                        time.sleep(0.5)
+
                         # Hover over the link to potentially trigger tooltip with full URL
                         ActionChains(driver).move_to_element(link).perform()
-                        time.sleep(0.5)  # Wait for tooltip to appear
+                        time.sleep(1.0)  # Wait longer for tooltip to appear
 
                         # Check for tooltip or updated attributes after hover
-                        for attr in ['title', 'aria-label', 'data-expanded-url']:
+                        for attr in ['title', 'aria-label', 'data-expanded-url', 'data-full-url', 'data-href']:
                             hover_url = link.get_attribute(attr)
                             if hover_url and hover_url.startswith('http') and not hover_url.startswith('https://t.co'):
+                                print(f"Found full URL in {attr}: '{hover_url}'")
                                 full_url = hover_url
                                 break
 
                         # Also check if there's a tooltip element that appeared
                         try:
-                            tooltip_elements = driver.find_elements(By.CSS_SELECTOR, '[role="tooltip"], .tooltip, [data-testid*="tooltip"]')
-                            for tooltip in tooltip_elements:
-                                tooltip_text = tooltip.text
-                                if tooltip_text and tooltip_text.startswith('http') and not tooltip_text.startswith('https://t.co'):
-                                    full_url = tooltip_text
+                            # Wait a bit more for tooltip to appear
+                            time.sleep(0.5)
+
+                            tooltip_selectors = [
+                                '[role="tooltip"]',
+                                '.tooltip',
+                                '[data-testid*="tooltip"]',
+                                '[aria-describedby]',
+                                '.r-1loqt21',  # Twitter-specific tooltip class
+                                '[data-testid="HoverCard"]',
+                                '[data-testid="card.wrapper"]',
+                                '.css-1dbjc4n[role="tooltip"]',
+                                'div[style*="position: absolute"]'  # Generic positioned tooltip
+                            ]
+
+                            for selector in tooltip_selectors:
+                                tooltip_elements = driver.find_elements(By.CSS_SELECTOR, selector)
+                                for tooltip in tooltip_elements:
+                                    if tooltip.is_displayed():  # Only check visible tooltips
+                                        tooltip_text = tooltip.text.strip()
+                                        if tooltip_text and tooltip_text.startswith('http') and not tooltip_text.startswith('https://t.co'):
+                                            print(f"Found full URL in tooltip ({selector}): '{tooltip_text}'")
+                                            full_url = tooltip_text
+                                            break
+                                        # Also check tooltip attributes
+                                        for attr in ['title', 'aria-label', 'data-url']:
+                                            attr_value = tooltip.get_attribute(attr)
+                                            if attr_value and attr_value.startswith('http') and not attr_value.startswith('https://t.co'):
+                                                print(f"Found full URL in tooltip {attr}: '{attr_value}'")
+                                                full_url = attr_value
+                                                break
+                                if full_url and not full_url.startswith('https://t.co'):
                                     break
-                        except:
-                            pass
+                        except Exception as tooltip_error:
+                            print(f"Error checking tooltips: {str(tooltip_error)}")
 
                     except Exception as hover_error:
                         print(f"Error during hover: {str(hover_error)}")
                         pass
 
+                # Final fallback: try to use JavaScript and smart text parsing
+                if not full_url or full_url.startswith('https://t.co'):
+                    # Try smart parsing of visible text as last resort
+                    if visible_text and not full_url:
+                        # Remove ellipsis and clean up
+                        clean_visible = visible_text.replace('…', '').replace('...', '').replace('\n', '').strip()
+                        if clean_visible and '.' in clean_visible:
+                            # Try to guess common URL patterns
+                            if clean_visible.startswith(('doi.org/', 'arxiv.org/', 'github.com/', 'youtube.com/')):
+                                full_url = 'https://' + clean_visible
+                                print(f"Smart fallback - guessed URL: '{full_url}'")
+                            elif clean_visible.startswith(('www.')):
+                                full_url = 'https://' + clean_visible
+                                print(f"Smart fallback - added https to www: '{full_url}'")
+                            elif '/' in clean_visible and not clean_visible.startswith('http'):
+                                # Looks like a path, try adding https://
+                                full_url = 'https://' + clean_visible
+                                print(f"Smart fallback - added https to path: '{full_url}'")
+
+                    # Try JavaScript as final attempt
+                    if not full_url or full_url.startswith('https://t.co'):
+                        try:
+                            js_url = driver.execute_script("""
+                                var link = arguments[0];
+                                // Try to get the actual destination URL
+                                if (link.href && !link.href.includes('t.co')) {
+                                    return link.href;
+                                }
+                                // Try to get from data attributes
+                                var attrs = ['data-expanded-url', 'data-full-url', 'data-href', 'title'];
+                                for (var i = 0; i < attrs.length; i++) {
+                                    var url = link.getAttribute(attrs[i]);
+                                    if (url && url.startsWith('http') && !url.includes('t.co')) {
+                                        return url;
+                                    }
+                                }
+                                return null;
+                            """, link)
+
+                            if js_url and js_url.startswith('http') and not js_url.startswith('https://t.co'):
+                                print(f"Found full URL via JavaScript: '{js_url}'")
+                                full_url = js_url
+                        except Exception as js_error:
+                            print(f"Error getting URL via JavaScript: {str(js_error)}")
+
                 # If we found a full URL and it's different from the visible text, replace it
-                if full_url and visible_text and visible_text in tweet_text:
-                    # Only replace if the visible text appears to be truncated (ends with ... or is incomplete)
-                    if visible_text.endswith('…') or visible_text.endswith('...') or len(visible_text) < len(full_url):
+                if full_url and visible_text:
+                    # Check if we should replace the visible text with the full URL
+                    should_replace = False
+
+                    # Case 1: Visible text is clearly truncated (ends with ellipsis)
+                    if visible_text.endswith('…') or visible_text.endswith('...'):
+                        should_replace = True
+                        print(f"URL is truncated (ellipsis): '{visible_text}'")
+
+                    # Case 2: Full URL is significantly longer than visible text
+                    elif len(full_url) > len(visible_text) + 10:  # Allow some tolerance
+                        should_replace = True
+                        print(f"Full URL is much longer: visible={len(visible_text)}, full={len(full_url)}")
+
+                    # Case 3: Visible text doesn't start with http but full URL does
+                    elif not visible_text.startswith('http') and full_url.startswith('http'):
+                        should_replace = True
+                        print(f"Adding missing protocol: '{visible_text}' -> '{full_url}'")
+
+                    # Case 4: Visible text is a subset of the full URL
+                    elif visible_text in full_url and len(visible_text) < len(full_url):
+                        should_replace = True
+                        print(f"Visible text is subset of full URL")
+
+                    if should_replace and visible_text in tweet_text:
                         tweet_text = tweet_text.replace(visible_text, full_url)
-                        print(f"Replaced truncated URL: '{visible_text}' -> '{full_url}'")
+                        print(f"✓ Replaced URL: '{visible_text}' -> '{full_url}'")
+                    elif full_url:
+                        print(f"ℹ Full URL found but not replacing: '{visible_text}' (full: '{full_url}')")
 
         except Exception as e:
             print(f"Error processing links in tweet: {str(e)}")
@@ -279,12 +395,61 @@ firefox_options.set_preference("media.peerconnection.enabled", False)
 
 driver = webdriver.Firefox(options=firefox_options)
 print("Browser opened successfully!")
-print("\nPlease:")
-print("1. Login to Twitter/X manually in the browser")
-print("2. Open multiple tabs with the tweet URLs you want to scrape")
-print("3. Make sure all URLs follow the pattern: https://x.com/jwt0625/status/[tweet_id]")
-print("4. Press ENTER when you're ready to continue...")
-input()
+
+# Check if user wants to load URLs from existing file
+print("\n" + "="*50)
+print("URL LOADING OPTIONS")
+print("="*50)
+print("Choose an option:")
+print("1. Load URLs from existing file (skip manual collection)")
+print("2. Manually open tabs and collect URLs")
+choice = input("Enter your choice (1 or 2): ").strip()
+
+if choice == "1":
+    # Load URLs from file
+    url_file_path = input("Enter the path to the URL file (e.g., scraping/sorted_tweet_urls_20251005.txt): ").strip()
+
+    # Handle relative paths
+    if not url_file_path.startswith('/'):
+        url_file_path = os.path.join(os.getcwd(), url_file_path)
+
+    try:
+        with open(url_file_path, 'r') as f:
+            file_urls = [line.strip() for line in f if line.strip()]
+
+        print(f"✓ Loaded {len(file_urls)} URLs from {url_file_path}")
+        print("URLs will be opened one by one during scraping to avoid detection.")
+
+        # Just navigate to Twitter/X homepage to establish session
+        print("Opening Twitter/X homepage...")
+        driver.get("https://x.com")
+
+        print("\nPlease:")
+        print("1. Login to Twitter/X manually in the browser if needed")
+        print("2. Press ENTER when you're ready to continue with scraping...")
+        input()
+
+        # Skip the manual URL collection section
+        skip_manual_collection = True
+
+    except FileNotFoundError:
+        print(f"Error: File not found: {url_file_path}")
+        print("Falling back to manual URL collection...")
+        skip_manual_collection = False
+    except Exception as e:
+        print(f"Error loading URLs from file: {e}")
+        print("Falling back to manual URL collection...")
+        skip_manual_collection = False
+else:
+    skip_manual_collection = False
+
+if not skip_manual_collection:
+    print("\nPlease:")
+    print("1. Login to Twitter/X manually in the browser")
+    print("2. Open multiple tabs with the tweet URLs you want to scrape")
+    print("3. Make sure all URLs follow the pattern: https://x.com/jwt0625/status/[tweet_id]")
+    print("4. Press ENTER when you're ready to continue...")
+    input()
 
 print("\n" + "="*60)
 print("SECTION 2: COLLECTING URLS FROM BROWSER TABS")
@@ -292,39 +457,60 @@ print("="*60)
 
 #%% get all urls
 
-# Get the list of all window handles (tabs)
-window_handles = driver.window_handles
-
-# List to store valid URLs
-urls = []
-
-# Iterate through each tab and get the URL
-for handle in window_handles:
-    driver.switch_to.window(handle)
-    url = driver.current_url
-    
-    # Check if the URL matches the expected format
-    if url.startswith("https://x.com/jwt0625/status/"):
-        # Extract the numeric part at the end
+if skip_manual_collection:
+    # URLs were already loaded from file, just use them
+    print("Using URLs loaded from file...")
+    sorted_urls = []
+    for url in file_urls:
+        # Extract tweet ID for sorting
         try:
             tweet_id = int(url.split("/")[-1])
-            urls.append((tweet_id, url))  # Store as a tuple (tweet_id, url)
+            sorted_urls.append((tweet_id, url))
         except ValueError:
-            # Ignore URLs that don't end with a valid number
+            print(f"Warning: Could not extract tweet ID from {url}")
             continue
 
-# Sort the URLs based on the tweet ID (ascending order)
-sorted_urls = sorted(urls, key=lambda x: x[0])
+    # Sort by tweet ID
+    sorted_urls = sorted(sorted_urls, key=lambda x: x[0])
 
-# Export sorted URLs to a text file
-current_date = datetime.now().strftime("%Y%m%d")
-filename_urls = f"sorted_tweet_urls_{current_date}.txt"
-with open(filename_urls, "w") as file:
-    for tweet_id, url in sorted_urls:
-        file.write(url + "\n")
+    # Use the original filename for consistency
+    filename_urls = os.path.basename(url_file_path)
+    print(f"Using {len(sorted_urls)} URLs from {filename_urls}")
 
-print(f"Found and sorted {len(sorted_urls)} URLs")
-print(f"URLs saved to: {filename_urls}")
+else:
+    # Get the list of all window handles (tabs)
+    window_handles = driver.window_handles
+
+    # List to store valid URLs
+    urls = []
+
+    # Iterate through each tab and get the URL
+    for handle in window_handles:
+        driver.switch_to.window(handle)
+        url = driver.current_url
+
+        # Check if the URL matches the expected format
+        if url.startswith("https://x.com/jwt0625/status/"):
+            # Extract the numeric part at the end
+            try:
+                tweet_id = int(url.split("/")[-1])
+                urls.append((tweet_id, url))  # Store as a tuple (tweet_id, url)
+            except ValueError:
+                # Ignore URLs that don't end with a valid number
+                continue
+
+    # Sort the URLs based on the tweet ID (ascending order)
+    sorted_urls = sorted(urls, key=lambda x: x[0])
+
+    # Export sorted URLs to a text file
+    current_date = datetime.now().strftime("%Y%m%d")
+    filename_urls = f"sorted_tweet_urls_{current_date}.txt"
+    with open(filename_urls, "w") as file:
+        for tweet_id, url in sorted_urls:
+            file.write(url + "\n")
+
+    print(f"Found and sorted {len(sorted_urls)} URLs")
+    print(f"URLs saved to: {filename_urls}")
 
 print("\n" + "="*60)
 print("SECTION 3: SCRAPING TWEETS")
@@ -335,12 +521,18 @@ media_folder = 'media'
 os.makedirs(media_folder, exist_ok=True)
 str_user_handle = "@jwt0625"  # Replace with the actual user handle
 
-# Read URLs from file
-str_fn = filename_urls
-
-# str_fn = 'urls_test.txt'
-with open(str_fn, 'r') as f:
-    urls = [line.strip() for line in f if line.strip()]
+# Prepare URLs for scraping
+if skip_manual_collection:
+    # URLs were already loaded from file
+    urls = [url for tweet_id, url in sorted_urls]
+    str_fn = filename_urls
+    print(f"Using {len(urls)} URLs from loaded file")
+else:
+    # Read URLs from the newly created file
+    str_fn = filename_urls
+    with open(str_fn, 'r') as f:
+        urls = [line.strip() for line in f if line.strip()]
+    print(f"Read {len(urls)} URLs from {str_fn}")
 
 # Scrape tweets
 threads_data = []
