@@ -11,6 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.firefox.options import Options
 import time
 import json
 import re
@@ -206,8 +207,17 @@ print("SECTION 1: BROWSER SETUP AND LOGIN")
 print("="*60)
 
 #%% login manually and keep using the same tag
-print("Opening Chrome browser...")
-driver = webdriver.Chrome()  # Or whichever browser you're using
+print("Opening Firefox browser...")
+
+# Firefox options to help avoid detection
+from selenium.webdriver.firefox.options import Options
+firefox_options = Options()
+# Add options to make the browser less detectable
+firefox_options.set_preference("dom.webdriver.enabled", False)
+firefox_options.set_preference('useAutomationExtension', False)
+firefox_options.set_preference("general.useragent.override", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0")
+
+driver = webdriver.Firefox(options=firefox_options)
 print("Browser opened successfully!")
 print("\nPlease:")
 print("1. Login to Twitter/X manually in the browser")
