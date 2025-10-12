@@ -17,3 +17,4 @@ _posts/config.json
 # Environment variables
 .env
 .import-manifest.yaml
+/scripts/import-google-docs/venv/*
