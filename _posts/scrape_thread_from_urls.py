@@ -268,6 +268,8 @@ def scrape_tweet(driver, tweet_element, media_folder, tweet_timestamp):
         except Exception as e:
             print(f"Error processing links in tweet: {str(e)}")
 
+        # Clean up line breaks in the final tweet text to fix broken markdown links
+        tweet_text = re.sub(r'\s*\n\s*', ' ', tweet_text).strip()
         tweet_data['text'] = tweet_text
     except NoSuchElementException:
         tweet_data['text'] = ''
