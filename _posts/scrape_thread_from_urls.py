@@ -9,7 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from selenium.common.exceptions import TimeoutException, NoSuchElementException, StaleElementReferenceException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.firefox.options import Options
 import time
@@ -317,26 +317,39 @@ def scrape_thread(driver, url, media_folder, str_user_handle):
     while True:
         # Find all tweets from the specified user
         tweets = driver.find_elements(By.CSS_SELECTOR, 'article[data-testid="tweet"]')
-        user_tweets = [tweet for tweet in tweets if str_user_handle.lower() in tweet.find_element(By.CSS_SELECTOR, 'div[data-testid="User-Name"]').text.lower()]
-
-        for tweet in user_tweets:
-            # Check if we've already processed this tweet
-            if tweet in [t['element'] for t in thread_data['tweets']]:
+        user_tweets = []
+        for tweet in tweets:
+            try:
+                if str_user_handle.lower() in tweet.find_element(By.CSS_SELECTOR, 'div[data-testid="User-Name"]').text.lower():
+                    user_tweets.append(tweet)
+            except StaleElementReferenceException:
+                # Element became stale while filtering, skip it
                 continue
 
-            # Extract tweet timestamp
+        for tweet in user_tweets:
             try:
-                time_element = tweet.find_element(By.CSS_SELECTOR, 'time')
-                timestamp = time_element.get_attribute('datetime')
-                tweet_date = datetime.fromisoformat(timestamp.replace('Z', '+00:00'))
-                tweet_timestamp = tweet_date.isoformat()
-            except NoSuchElementException:
-                tweet_timestamp = ''
+                # Check if we've already processed this tweet
+                if tweet in [t['element'] for t in thread_data['tweets']]:
+                    continue
 
-            tweet_data = scrape_tweet(driver, tweet, media_folder, tweet_date)
-            tweet_data['timestamp'] = tweet_timestamp
-            tweet_data['element'] = tweet  # Store the element for later comparison
-            thread_data['tweets'].append(tweet_data)
+                # Extract tweet timestamp
+                try:
+                    time_element = tweet.find_element(By.CSS_SELECTOR, 'time')
+                    timestamp = time_element.get_attribute('datetime')
+                    tweet_date = datetime.fromisoformat(timestamp.replace('Z', '+00:00'))
+                    tweet_timestamp = tweet_date.isoformat()
+                except NoSuchElementException:
+                    tweet_timestamp = ''
+                    tweet_date = None
+
+                tweet_data = scrape_tweet(driver, tweet, media_folder, tweet_date)
+                tweet_data['timestamp'] = tweet_timestamp
+                tweet_data['element'] = tweet  # Store the element for later comparison
+                thread_data['tweets'].append(tweet_data)
+            except StaleElementReferenceException:
+                # Element became stale (DOM changed), skip this tweet
+                print(f"Skipping stale element (tweet will be re-processed on next scroll iteration)")
+                continue
 
         # Scroll down to bottom
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")

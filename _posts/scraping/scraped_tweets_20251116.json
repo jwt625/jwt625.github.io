@@ -1,0 +1,1086 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1987919417616056321",
+        "tweets": [
+            {
+                "text": "wait a sec i've seen this on that luxury 10 kW stove",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5aB6GVbkAAQqtB?format=jpg",
+                        "local_path": "media/20251110_162457_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5aCCbiakAAgxgs?format=jpg",
+                        "local_path": "media/20251110_162457_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-10T16:24:57+00:00"
+            },
+            {
+                "text": "Petasch2024: [Reducing emissions fromwood burning with ceramicfilters and catalysts]( https://ikts.fraunhofer.de/content/dam/ik)",
+                "media": [],
+                "timestamp": "2025-11-10T16:27:51+00:00"
+            },
+            {
+                "text": "no idea",
+                "media": [],
+                "timestamp": "2025-11-10T16:37:55+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1988092751821652227",
+        "tweets": [
+            {
+                "text": "would a photonic Ramanujan dream of epitaxy layer specs?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5cfzCpa8AAAjDS?format=jpg",
+                        "local_path": "media/20251111_035343_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-11T03:53:43+00:00"
+            },
+            {
+                "text": "Li2025: [Modified uni-travelling-carrier photodiodes with 206 GHz bandwidth and 0.81 A W−1 external responsivity]( https://doi.org/10.1038/s41566-025-01784-0) ( https://rdcu.be/ePhgd)",
+                "media": [],
+                "timestamp": "2025-11-11T03:55:16+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1988110594382459301",
+        "tweets": [
+            {
+                "text": "if anyone is going to make optical/photonic computing work and win, it's going to be a marriage between the microLED/VCSEL array folks, and the lockin camera folks. it's not going to be using modulators from telecom folks, nor SLM/DMD from display folks. You need someone that cares about every single photon, and every single electron, and those people are doing sensing at the edge like ToF cameras starved with low power consumption.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5cupSXbcAYdZxT?format=jpg",
+                        "local_path": "media/20251111_050437_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-11T05:04:37+00:00"
+            },
+            {
+                "text": "this paper made me realize i should be looking into optoelectronic devices for sensing more. Everyone will use the same trick of optical fan-out, and MAC in time domain to reduce spatial complexity. How do you win? You win by caring about every electron you use for the modulation, and every photon for the detection. Na2025: [Implementation of transformer-based LLMswith large-scale optoelectronic neurons on aCMOS image sensor platform]( https://arxiv.org/abs/2511.04136)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5cwjnpbcAMOxwl?format=jpg",
+                        "local_path": "media/20251111_051038_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-11T05:10:38+00:00"
+            },
+            {
+                "text": "it's kind of sad how little the role of the photons is playing, it's really just carrying the info as they are always destined to do, and the compute is done by the detector and demodulator, which is named by the ToF camera folks, and is basically a cmos switch right next to the detector pixel.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5cyZN0bQAAO0gk?format=jpg",
+                        "local_path": "media/20251111_051900_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-11T05:19:00+00:00"
+            },
+            {
+                "text": "nice one tho i said it's not gonna be using SLM",
+                "media": [],
+                "timestamp": "2025-11-11T15:08:43+00:00"
+            },
+            {
+                "text": "doing lockin at every pixel, not common, blew my mind when i first saw it",
+                "media": [],
+                "timestamp": "2025-11-11T05:40:01+00:00"
+            },
+            {
+                "text": "i never used one. just looks amazing..",
+                "media": [],
+                "timestamp": "2025-11-11T05:43:30+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1988288380569026824",
+        "tweets": [
+            {
+                "text": "how to calm your superconducting magnet",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5fQy-Ka8AA_ZND?format=jpg",
+                        "local_path": "media/20251111_165105_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5fRrsSacAABwRt?format=png",
+                        "local_path": "media/20251111_165105_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-11T16:51:05+00:00"
+            },
+            {
+                "text": "pretty impressive to get light all the way in and out Shi2025: [A high-flux and high-efficiency setup for magneto-infrared spectroscopy]( https://doi.org/10.1063/5.0296925)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5fSVWSawAA03m1?format=jpg",
+                        "local_path": "media/20251111_165433_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5fSbNgaoAA3qud?format=jpg",
+                        "local_path": "media/20251111_165433_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-11T16:54:33+00:00"
+            },
+            {
+                "text": "lol",
+                "media": [],
+                "timestamp": "2025-11-11T20:55:32+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1988486836877226071",
+        "tweets": [
+            {
+                "text": "some tactile displays are basically violence at mini/micro scale, theres this one by heating up tiny photoabsorbers up to 550 C inside tiny gas cells/pixels so the pixels expand, and there are ones using micro combustion. i like this light absorbers based one.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/amplify_video_thumb/1988483115153846272/img/zEIlLwRGZTv-KEZu.jpg",
+                        "local_path": "media/20251112_055940_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-12T05:59:40+00:00"
+            },
+            {
+                "text": "Linnander2025: [Tactile displays driven by projected light]( https://doi.org/10.1126/scirobotics.adv1383) ( http://www.re-touch-lab.com/s/LinnanderTactileProjectedLight.pdf)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5iGc1GbcAE1eoz?format=jpg",
+                        "local_path": "media/20251112_060123_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-12T06:01:23+00:00"
+            },
+            {
+                "text": "i guess you cant keep it on for too long it's gonna burn your finger, they've been keeping the pulse short (< 50 ms) and low duty cycle (10%)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5iHSmWaEAAHps3?format=jpg",
+                        "local_path": "media/20251112_060554_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5iHVhPbcAE-1qu?format=png",
+                        "local_path": "media/20251112_060554_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-12T06:05:54+00:00"
+            },
+            {
+                "text": "this is the micro explosion/combustion based one, what a headache to operate, even requires tiny spark gaps for each pixel!",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5iI0QabcAMMw_U?format=jpg",
+                        "local_path": "media/20251112_061147_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5iI7zQbcAIwrKv?format=jpg",
+                        "local_path": "media/20251112_061147_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5iI-SnaoAAWBAe?format=jpg",
+                        "local_path": "media/20251112_061147_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-12T06:11:47+00:00"
+            },
+            {
+                "text": "Heisser2025: [Explosion-powered eversible tactile displays]( https://doi.org/10.1126/scirobotics.adu2381)",
+                "media": [],
+                "timestamp": "2025-11-12T06:12:26+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1988646413702775292",
+        "tweets": [
+            {
+                "text": "it should be illegal to upload videos only in 360p in 2025. What a good meeting with a pathetic recording.",
+                "media": [],
+                "timestamp": "2025-11-12T16:33:46+00:00"
+            },
+            {
+                "text": "[Photonic Chips for AI: ficonTEC]( https://www.youtube.com/watch?v=JqnPiOKPcWQ)",
+                "media": [],
+                "timestamp": "2025-11-12T16:34:35+00:00"
+            },
+            {
+                "text": "not gonna work well for these technical stuff yet until there are more high res similar content",
+                "media": [],
+                "timestamp": "2025-11-12T16:41:20+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1988651666871369963",
+        "tweets": [
+            {
+                "text": "this is actually a fascinating process, and it's 10+ years old, and the longer wavelength your pump is, the shorter wavelength the HHG could go. I've never seen above 5000x HHG before...",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5kbgL1bIAAzIFu?format=jpg",
+                        "local_path": "media/20251112_074736_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5icZOUbcAAY-LG?format=jpg",
+                        "local_path": "media/20251112_074736_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-12T07:47:36+00:00"
+            },
+            {
+                "text": "Popmintchev2012: [Bright Coherent Ultrahigh Harmonics in the keV X-ray Regime from Mid-Infrared Femtosecond Lasers]( https://doi.org/10.1126/science.1218497)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5kch1eagAA7KKR?format=jpg",
+                        "local_path": "media/20251112_165621_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-12T16:56:21+00:00"
+            },
+            {
+                "text": "i need to find a few thesis on this. Hettel2024: [Compact, ultrastable, high repetition-rate 2 μm and 3 μm fiber laser for seeding mid-IR OPCPA]( https://doi.org/10.1364/OE.508127)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5kc1-_acAUZjdH?format=jpg",
+                        "local_path": "media/20251112_165839_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-12T16:58:39+00:00"
+            },
+            {
+                "text": "the derivation for wavelength square scaling is surprisingly simple",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5m2KZWbkAAg6QL?format=png",
+                        "local_path": "media/20251113_040831_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5m2YYJbAAEJnnf?format=jpg",
+                        "local_path": "media/20251113_040831_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-13T04:08:31+00:00"
+            },
+            {
+                "text": "you are telling me the electron wavefunctions during these HHG processes look like bolts??",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5m4X_tbkAADEx5?format=jpg",
+                        "local_path": "media/20251113_041741_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-13T04:17:41+00:00"
+            },
+            {
+                "text": "so cool & so scary!",
+                "media": [],
+                "timestamp": "2025-11-12T20:35:27+00:00"
+            },
+            {
+                "text": "very inefficiently",
+                "media": [],
+                "timestamp": "2025-11-13T15:27:56+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1988842282292760653",
+        "tweets": [
+            {
+                "text": "damn how small can you make these",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5nJY2vb0AAIWNa?format=jpg",
+                        "local_path": "media/20251113_053205_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5nJc_HacAEO8Ey?format=jpg",
+                        "local_path": "media/20251113_053205_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-13T05:32:05+00:00"
+            },
+            {
+                "text": "[SCD Mini Blackbird 1280]( https://www.youtube.com/watch?v=LAKJDp607tI) [Revealing the Unseen: Infrared Imaging Unveils the Secrets of Machines in Action]( https://attolloengineering.com/mwir-thermal-machines/?v=0b3b97fa6688)",
+                "media": [],
+                "timestamp": "2025-11-13T05:34:02+00:00"
+            },
+            {
+                "text": "because im flipping thru this thesis Laborde2022: [Progress in Hybrid Difractive/Refractive Solutions for Compact Space IR Imager]( https://www.proquest.com/docview/3110358135)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5nKSvqaIAAqJdN?format=jpg",
+                        "local_path": "media/20251113_053627_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-13T05:36:27+00:00"
+            },
+            {
+                "text": "oh so sexy",
+                "media": [],
+                "timestamp": "2025-11-14T01:56:22+00:00"
+            },
+            {
+                "text": "nice looks like it's been through some shit",
+                "media": [],
+                "timestamp": "2025-11-14T03:38:16+00:00"
+            },
+            {
+                "text": "i used to think this would be the smallest",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GliFe5SbAAA1fbT?format=jpg",
+                        "local_path": "media/20251113_181900_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GliFzUIa8AAI3sB?format=jpg",
+                        "local_path": "media/20251113_181900_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-13T18:19:00+00:00"
+            },
+            {
+                "text": "i used to think this would be the smallest",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GliFe5SbAAA1fbT?format=jpg",
+                        "local_path": "media/20251113_181900_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GliFzUIa8AAI3sB?format=jpg",
+                        "local_path": "media/20251113_181900_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-13T18:19:00+00:00"
+            },
+            {
+                "text": "wow nice, any of your designs in existing products?",
+                "media": [],
+                "timestamp": "2025-11-13T18:16:06+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1988873117989572718",
+        "tweets": [
+            {
+                "text": "one year of surfing the internet from one machine. 100k+ tabs from this website lmao, need to fix the active time tracking so that it does not look this bad..",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5nk_PKboAA882T?format=jpg",
+                        "local_path": "media/20251113_073437_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-13T07:34:37+00:00"
+            },
+            {
+                "text": "this one is also fun",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5nlzpUacAAzXZn?format=png",
+                        "local_path": "media/20251113_073715_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-13T07:37:15+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2025-11-14T03:55:26+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1989191112330998180",
+        "tweets": [
+            {
+                "text": "oh man what a painful image (thin film diamond on silicon, scale bar 15 um)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5sGctBbcAAKwC3?format=jpg",
+                        "local_path": "media/20251114_043813_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-14T04:38:13+00:00"
+            },
+            {
+                "text": "for tin vacancy center in a photonic crystal cavity. Lee2025: [Quantum Nanophotonic Interface for Tin-Vacancy Centers in Thin-Film Diamond]( https://arxiv.org/abs/2511.05740)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5sG97IacAI87JX?format=jpg",
+                        "local_path": "media/20251114_044023_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5sHCmnacAcg15L?format=jpg",
+                        "local_path": "media/20251114_044023_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-14T04:40:23+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1989199234147762469",
+        "tweets": [
+            {
+                "text": "this goes hard",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5sNt12acAE9csS?format=png",
+                        "local_path": "media/20251114_051029_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-14T05:10:29+00:00"
+            },
+            {
+                "text": "from a paper on using diffusion tensor imaging to map out fiber orientation on heart tissue. Hsu1998: [Magnetic resonance myocardial fiber-orientation mapping with direct histological correlation]( https://doi.org/10.1152/ajpheart.1998.274.5.H1627)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5sO6pPasAAdbfV?format=png",
+                        "local_path": "media/20251114_051648_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-14T05:16:48+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1989220704739565708",
+        "tweets": [
+            {
+                "text": "> \"Would you like me to illustrate <technical jibberish>? It’s quite elegant.\" > the visualization:",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5shQRyacAAc_Te?format=jpg",
+                        "local_path": "media/20251114_063548_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-14T06:35:48+00:00"
+            },
+            {
+                "text": "new benchmark, draw a gif for hahn echo",
+                "media": [],
+                "timestamp": "2025-11-14T06:54:06+00:00"
+            },
+            {
+                "text": "okay claude is better",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/tweet_video_thumb/G5snJIwacAAd75Q.jpg",
+                        "local_path": "media/20251114_070002_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-14T07:00:02+00:00"
+            },
+            {
+                "text": "added diffusion and z field gradient",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/tweet_video_thumb/G5stbodacAMGtPM.jpg",
+                        "local_path": "media/20251114_072732_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-14T07:27:32+00:00"
+            },
+            {
+                "text": "added magnetization, two different diffusion coefficients",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/tweet_video_thumb/G5syrmvbcAALZLC.jpg",
+                        "local_path": "media/20251114_075035_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/tweet_video_thumb/G5sysfMa4AEKks6.jpg",
+                        "local_path": "media/20251114_075035_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-14T07:50:35+00:00"
+            },
+            {
+                "text": "anisotropic diffusion along x vs z, both z field gradient",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/tweet_video_thumb/G5s9MdcacAUOT-O.jpg",
+                        "local_path": "media/20251114_083612_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/tweet_video_thumb/G5s9N0yagAAKUOR.jpg",
+                        "local_path": "media/20251114_083612_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-14T08:36:12+00:00"
+            },
+            {
+                "text": "just for fun. eventually i want to visualize diffusion tensor imaging, will take some guidance to get there",
+                "media": [],
+                "timestamp": "2025-11-14T07:03:33+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1989373881917091893",
+        "tweets": [
+            {
+                "text": "finally, a microwave isolator that is on a chip and not using magnetic materials and has more than just 5 MHz bandwidth (actually >500 MHz static bandwidth) they really missed the opportunity of a showing off photo of the chip next to a bulky circulator",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5usq3Gb0AA9hRS?format=jpg",
+                        "local_path": "media/20251018_052106_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G3hNM1hWAAA4qlY?format=jpg",
+                        "local_path": "media/20251018_052106_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G3hNp4JWUAA24D7?format=jpg",
+                        "local_path": "media/20251018_052106_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-10-18T05:21:06+00:00"
+            },
+            {
+                "text": "now the question is how annoying is it to tune and optimize the flux bias and the two pumps.. Ranadive2025: [A travelling-wave parametric amplifier isolator]( https://doi.org/10.1038/s41928-025-01489-w), [arxiv]( https://arxiv.org/abs/2406.19752)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5utVVlbkAMeduB?format=jpg",
+                        "local_path": "media/20251114_164700_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-14T16:47:00+00:00"
+            },
+            {
+                "text": "hmm i never made a proper thread about TWPA",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gm0RImQbEAAQoY9?format=jpg",
+                        "local_path": "media/20251114_165112_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-14T16:51:12+00:00"
+            },
+            {
+                "text": "it's doing a frequency conversion for the backward wave and then using a diplexer to get it out",
+                "media": [],
+                "timestamp": "2025-11-14T22:25:41+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1989534996353413552",
+        "tweets": [
+            {
+                "text": "can your VTOL drone do 4:1 payload-to-weight ratio? darpa has $6.5 million in prize money waiting for you (must weight <55 lbs excluding payload, carry >110 lbs, and finish the course in 30 min)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5w-U3iacAAF4RM?format=png",
+                        "local_path": "media/20251115_032441_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5w-XVsaEAAqLZ0?format=jpg",
+                        "local_path": "media/20251115_032441_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-15T03:24:41+00:00"
+            },
+            {
+                "text": "[DARPA Lift Challenge: Lift Beyond Limits]( https://www.darpa.mil/research/challenges/lift) [DARPA Lift Challenge]( https://www.youtube.com/watch?v=TMHjTMabWiI)",
+                "media": [],
+                "timestamp": "2025-11-15T03:25:21+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1989537666724245586",
+        "tweets": [
+            {
+                "text": "500 GHz silicon lens with \"broadband lossless matching layer\" made with laser ablation ( also nice ad for keyence )",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xBINDbkAEzFCV?format=jpg",
+                        "local_path": "media/20241227_055905_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xBWFvacAApXWQ?format=jpg",
+                        "local_path": "media/20241227_055905_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfyJCHwaUAAy4fY?format=jpg",
+                        "local_path": "media/20241227_055905_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfyJCHzakAAUlEc?format=jpg",
+                        "local_path": "media/20241227_055905_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfyJT1HawAAjcTl?format=jpg",
+                        "local_path": "media/20241227_055905_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GfyJT1NaUAA2Zyl?format=jpg",
+                        "local_path": "media/20241227_055905_5.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-27T05:59:05+00:00"
+            },
+            {
+                "text": "Bueno2022: [Lossless Matching Layer for Silicon Lens Arrays at 500 GHz Using Laser Ablated Structures]( https://doi.org/10.1109/TTHZ.2022.3202031) [also]( https://pure.tudelft.nl/ws/files/131829579/Lossless_Matching_Layer_for_Silicon_Lens_Arrays_At_500_GHz_Using_Laser_Ablated_Structures.pdf)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xCcFzbQAAjQTw?format=jpg",
+                        "local_path": "media/20251115_033723_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-15T03:37:23+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1989557531337691260",
+        "tweets": [
+            {
+                "text": "another automatic repost of semicond fab hype video",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/amplify_video_thumb/1954392670157316096/img/BkpsDPcSt-27EAvz.jpg",
+                        "local_path": "media/20250810_040439_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-08-10T04:04:39+00:00"
+            },
+            {
+                "text": "SparkNano Spatial Atomic Layer Deposition (ALD) - [SparkNano Omega™]( https://www.youtube.com/watch?v=fafBpOJv3jM)",
+                "media": [],
+                "timestamp": "2025-11-15T04:55:25+00:00"
+            },
+            {
+                "text": "wild machine and wild specs [SparkNano Webinar - spatial ALD of LiF for Li-ion Battery Manufacturing - 8 July 2025]( https://vimeo.com/1100646473/391feef18d)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xWNGYbEAApAP1?format=jpg",
+                        "local_path": "media/20251115_050522_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xWOaLaIAAiODh?format=jpg",
+                        "local_path": "media/20251115_050522_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xWPpzbkAIl8rF?format=jpg",
+                        "local_path": "media/20251115_050522_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xWRAUbkAAppb_?format=jpg",
+                        "local_path": "media/20251115_050522_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-15T05:05:22+00:00"
+            },
+            {
+                "text": "hmm never thought about ALD lithium niobate.. looks horrible. using piezoelectric force microscopy to see the domains is interesting. Østreng2013: [Atomic layer deposition of ferroelectric LiNbO3]( https://pubs.rsc.org/en/content/articlepdf/2013/tc/c3tc30271g)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xWw2naAAAlLDK?format=jpg",
+                        "local_path": "media/20251115_050918_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xXKY3bYAA63hC?format=jpg",
+                        "local_path": "media/20251115_050918_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-15T05:09:18+00:00"
+            },
+            {
+                "text": "hot damn have you ever seen a spatial ALD running with the lid open? SparkNano - [How does spatial ALD technology work?]( https://player.vimeo.com/video/1084264399?h=4f77fca41d)",
+                "media": [],
+                "timestamp": "2025-11-15T05:43:31+00:00"
+            },
+            {
+                "text": "because i was reading this review on ALD Kessels2025: [Atomic layer deposition]( https://doi.org/10.1038/s43586-025-00435-6) [also]( https://rdcu.be/eP1LQ)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xlSD9bkAIAVSB?format=jpg",
+                        "local_path": "media/20251115_061206_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xlgfbaYAA4ydn?format=jpg",
+                        "local_path": "media/20251115_061206_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-15T06:12:06+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1989587985600581961",
+        "tweets": [
+            {
+                "text": "traveling-wave parametric amplifiers, how do they work, and how to tune them. i asked your beloved sota LLM \"how do i tune a JTWPA? give me a step by step guide, as well as list of things i need, and list of things to be careful about\", and the answer is honestly quite decent, go ahead try it yourself. what i could offer, are some refs i like, some real world examples, and hopefully also trigger some real experts to tell you what i'm wrong about. maybe i'll also talk about optical parametric amplifiers, or maybe i could convince my expert friends to talk about them instead of me..",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xuzHya0AAFi9_?format=jpg",
+                        "local_path": "media/20251115_065515_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xvFatbkAI_g-i?format=jpg",
+                        "local_path": "media/20251115_065515_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xvK84a4AAcCoR?format=jpg",
+                        "local_path": "media/20251115_065515_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xvN6Fb0AAPcUw?format=png",
+                        "local_path": "media/20251115_065515_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-15T06:55:15+00:00"
+            },
+            {
+                "text": "first of all, these images are from: - Howe2025: [Kinetic Inductance Traveling Wave Parametric Amplifiers Near the Quantum Limit: Methodology and Characterization]( https://arxiv.org/abs/2507.07706) - Malnou2021: [Three-Wave Mixing Kinetic Inductance Traveling-Wave Amplifier with Near-Quantum-Limited Noise Performance]( https://doi.org/10.1103/PRXQuantum.2.010302) - [Silent Waves]( https://silent-waves.com) - Macklin2015: [A near–quantum-limited Josephson traveling-wave parametric amplifier]( https://doi.org/10.1126/science.aaa8525)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xwPebbkAANsr-?format=jpg",
+                        "local_path": "media/20251115_070028_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xwW6waIAAWlzA?format=jpg",
+                        "local_path": "media/20251115_070028_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xwtVsbkAEEj-H?format=jpg",
+                        "local_path": "media/20251115_070028_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5xwyEDbkAA7lxm?format=jpg",
+                        "local_path": "media/20251115_070028_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-15T07:00:28+00:00"
+            },
+            {
+                "text": "where should we start? maybe we should start with why do we need amplifiers. I once heard an anecdote from my advisor that he got into a fight at an old school microwave conference talking about measurement in a dilfridge, because people do not believe you can measure S11 of your device in a dilfridge, where you have ~60 dB or even higher attenuation on your input lines to kill the noise from room temperature. As a result, naively you'd get 120+ dB total attenuation roundtrip. luckily there is a type of component called circulators (interesting topic worth its own thread but not here), and you can use a different path out, and you can amplify the signal back so that your crappy classical electronic instruments at room temperature could detect what would otherwise be single quanta level attenuated further. In the following typical dilfridge setup, you can see a series of attenuators on the way down, the device under test (DUT), a circulator, and two amplifiers (and some isolators) on the way up. There are more amplifiers and filters after the signal gets out of the fridge, and then digitized if you are rich, or mixed down, filtered, and then digitized. The first amplifier is the most important one, since its noise will be amplified by all subsequent amplifiers. This is why there are a lot of effort into making good near-quantum-limited amplifiers, and TWPAs are some of the best ones. left image from Jiang2023: [Optically heralded microwave photon addition]( https://doi.org/10.1038/s41567-023-02129-w) [also]( https://www.osti.gov/servlets/purl/2327097) right image from ( https://x.com/jwt0625/status/1887067672007082350)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5x0piWbkAEn2qt?format=png",
+                        "local_path": "media/20251115_072946_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5x1NEFbgAAauWX?format=jpg",
+                        "local_path": "media/20251115_072946_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-15T07:29:46+00:00"
+            },
+            {
+                "text": "now, what is a good amplifier, and what does quantum limited amplifier mean? you also mentioned mixer, don't you feel like you should explain what a mixer is? Thankfully mixers are kind of related to amplifiers. A good amplifier is easy to define, you give me a signal, and I give you G times that signal, ideally, and G is the gain of the amplifier. The signal could have different frequencies and powers, so you'd want the amplifier to be broadband, and have high saturation power, that's a good amplifier. But there is one more thing, amplifers always add noise, so you also want the added noise to be as low as possible. Why do they always add noise? do they really have to? The answer, in principle, is actually it depends. (in practice there will always be noise added no matter what you do, tiny insertion loss on the connector? I'm sorry that is a beam splitter, and thermal noise gets added) And to answer it, some quantum jibberish is inevitable. The fastest way to arrive at the intuition, is to admit the fact that your signals are eelctromagnetic waves, and em waves follow similar rules as a simple harmonic oscillator in quantum mechanics. When you amplify the wave, you are multiplying the operators. If nothing else is added, you'll break the commutation relation of the operators, and the quantum mechanics god says, nope, you'll get at least vacuum noise added (figure 1 & 2). If an amplifier's added noise is very low single digit number of photons, people usually start calling them near quantum limited. (it's hard to say about just one amplifier, so you'll also see people talk about the system noise, and compare it to the quantum limit) Then why did i say it actually depends? That is because some amplifiers could treat different quadratures differently, and they are amplely named phase-sensitive amplifiers. One common form of them amplify one quadrature and attenuate the other one, so you'll need to know your signal for it to work well, and it will also squeeze the noise on your signal. Figure 3 shows how different kinds of noise could be visualized on top of your signal, two of them are squeezed noise (b and c). ref: Caves1982: [Quantum limits on noise in linear amplifiers]( https://painterlab.caltech.edu/wp-content/uploads/2019/06/qe_caves_limits_amplifiers.pdf) (how to quantize an em field is another interesting topic that i won't be able to do it justice here, and an over-simplified way of describing the process is: at any and every point in space-time, you can create or kill a photon, and thus you could \"assemble\" your em field with a sum of these photon creation operators weighted by the spatial-temporal form of your wave)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5x9q0laYAA6S2-?format=png",
+                        "local_path": "media/20251115_081446_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5x9-IJbkAQV_yT?format=png",
+                        "local_path": "media/20251115_081446_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5x_AH8bkAIE71y?format=png",
+                        "local_path": "media/20251115_081446_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-15T08:14:46+00:00"
+            },
+            {
+                "text": "move on to mixers, and why mixers are kind of related to parametric amplifiers? marki microwave has a nice primer on mixers, and here is the first figure from it, versus one figure from Malnou2021. There are three waves involved in both cases, LO, RF, and IF for the mixer, and pump, signal, and idler for the parametric amplifier. Both processes get the name three-wave mixing because of this, and they both use the same 2nd order nonlinearity as the dominant effect. So, can you pump a mixer real hard to get amplification? Of course (if the nonlinear element is not dissipative)! Many parametric amplifiers in the 1960s are pumping a varactor, which could also work as a mixer. I'm not so familiar with these classics, so here goes the refs if you'd like to know more: Mura1966: [An ultra-low-noise 1700-Mc Parametric amplifier system]( https://ntrs.nasa.gov/api/citations/19660010467/downloads/19660010467.pdf) Decroly1973: [Parametric Amplifiers]( https://link.springer.com/book/10.1007/978-1-349-81564-7) Chpt. Technical Aspects",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5yFFdibkAI0O5y?format=png",
+                        "local_path": "media/20251115_090413_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5yFNRfbgAEk8Fs?format=jpg",
+                        "local_path": "media/20251115_090413_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5yJYSMbkAEzs00?format=png",
+                        "local_path": "media/20251115_090413_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G5yK-bwbkAMFWu0?format=png",
+                        "local_path": "media/20251115_090413_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-15T09:04:13+00:00"
+            },
+            {
+                "text": "wait i forgot this one from PK Tien, who later went on and worked a lot on the early integrated optics stuff [1. Parametric Amplifiers]( https://nvlpubs.nist.gov/nistpubs/jres/64D/jresv64Dn6p751_A1b.pdf)",
+                "media": [],
+                "timestamp": "2025-11-15T09:16:16+00:00"
+            },
+            {
+                "text": "all the above measurements are done with a VNA, it's convenient and quick, but VNA is kind of horrible for characterizing nonlinear components. It's not a clean rf source, and it only looks at one frequency for the output. You really want a proper signal generator (SG), and a spectrum analyzer (SA): here is an example of various noise floors (y axis is dBm/Hz), red is the SA noise floor, green is with room T LNA on, blue is LNA + HEMT, and black is LNA + HEMT + JTWPA. I probably did not pump it hard enough, becuase you'd always want the noise floor to be dominated by the first and best amplifier (which gets amplified by all subsequent amplifiers). next is to repeat the above tuning and optimization with SG and SA. A probe of 4 GHz is used, that's the peak at the center. There are also other peaks and sidebands moving around, almost like they are welcoming you to the nonlinear world. The FSR of these sidebands are (some of) the standing wave modes of the whole JTWPA, and the FSR shrinks as the wave gets slower with higher pump power.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G57wuWxaYAATo0c?format=jpg",
+                        "local_path": "media/20251117_060742_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G570Yktb0AAvkyX?format=png",
+                        "local_path": "media/20251117_060742_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G570gbybcAAAFvB?format=png",
+                        "local_path": "media/20251117_060742_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-17T06:07:42+00:00"
+            },
+            {
+                "text": "It's even more fun when sweeping the pump freq and looking at a wider range of the spectrum. Does this remind you of something? yeah, mode locked lasers/solitons, and you could change the pump freq and get all kinds of wacky spectrum just like some of the optical solitons. however, i did not measure any time domain proof that the sidebands are actually coherent.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G574GJLasAAKXoJ?format=jpg",
+                        "local_path": "media/20251117_061448_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G574TZKa8AEIzeO?format=jpg",
+                        "local_path": "media/20251117_061448_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-17T06:14:48+00:00"
+            },
+            {
+                "text": "lastly, some raw data of a really weak signal with TWPA off (blue) and on (yellow), look at that rising noise floor, and the sweet gain on the actual signal. If you know what the signal should be, you can convert everything to input-referred, and get a calibrated plot like the one in the 2015 JTWPA paper.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G579-Jha8AA0OeN?format=jpg",
+                        "local_path": "media/20251117_063817_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G579_DAacAEWgrH?format=jpg",
+                        "local_path": "media/20251117_063817_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-17T06:38:17+00:00"
+            },
+            {
+                "text": "last lastly, i would like to highlight some recent development, especially on kinetic inductance based TWPA (two of the four pretty pictures in the OP), and an integrated isolator with TWPA-like nonlinear waveguide (with SNAILs). The KI based TWPA is easier to make (single layer e.g. NbTiN), and easier to operate with three-wave mixing by adding a bias current. It also has much higher P1dB, >30 higher than JTWPAs. And this isolator work is really new, not that many people are trying to solve the problem of isolators taking too much space & need to be made onto a chip, not to mention one with broad bandwidth. This one is probably annoying to operate, but exciting new way of making an on-chip isolator. Ranadive2025: [A travelling-wave parametric amplifier isolator]( https://doi.org/10.1038/s41928-025-01489-w), [arxiv]( https://arxiv.org/abs/2406.19752)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G58AwC6a4AAJeIY?format=jpg",
+                        "local_path": "media/20251117_064829_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G58AxC6boAEHOlr?format=jpg",
+                        "local_path": "media/20251117_064829_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-17T06:48:29+00:00"
+            },
+            {
+                "text": "ok one more post on general background refs: - i learnt cQED by reading Dave's thesis [Circuit Quantum Electrodynamics]( https://schusterlab.stanford.edu/static/pdfs/Schuster_thesis.pdf), this is a must read. There are many more recent reviews if you prefer up to date stuff. - I really learnt how to design various circuits with JJs after Marek's thesis [Microwave photonics in superconducting circuits]( https://doi.org/10.3929/ethz-a-010735338), especially Appendix C: A shortcut to circuit quantization. (there are many reviews on design and black box quantization as well) - i flipped through refs in this review and i think you might be better off reading it instead of this thread for history developments and prior arts: Aumentado2020: [Superconducting Parametric Amplifiers: The State of the Art in Josephson Parametric Amplifiers]( https://doi.org/10.1109/MMM.2020.2993476) good luck have fun!",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G58DzTTakAAPbxj?format=jpg",
+                        "local_path": "media/20251117_070227_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G58D0oTaIAAuwYo?format=jpg",
+                        "local_path": "media/20251117_070227_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-17T07:02:27+00:00"
+            },
+            {
+                "text": "will get there after i get some sleep",
+                "media": [],
+                "timestamp": "2025-11-15T10:02:49+00:00"
+            },
+            {
+                "text": "not these twpa, the laser is going to break a lot of the superconducting cooper pairs",
+                "media": [],
+                "timestamp": "2025-11-15T09:30:47+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1989859480788766950",
+        "tweets": [
+            {
+                "text": "damn this plot has so many remix",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G51mmo4aYAA3yc3?format=jpg",
+                        "local_path": "media/20250114_024106_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G51mpaNbkAArFAb?format=jpg",
+                        "local_path": "media/20250114_024106_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GhOId6jbAAAtvTS?format=png",
+                        "local_path": "media/20250114_024106_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GhOIldfakAAIjYh?format=jpg",
+                        "local_path": "media/20250114_024106_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-14T02:41:06+00:00"
+            },
+            {
+                "text": "Wan2025: [Integrating silicon photonics with complementary metal–oxide–semiconductor technologies]( https://doi.org/10.1038/s44287-025-00223-0) Margalit2021: [Perspective on the future of silicon photonics and electronics]( https://doi.org/10.1063/5.0050117)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G51m2sHbkAUhPIt?format=jpg",
+                        "local_path": "media/20251116_005747_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G51nPQrbkAAjIQo?format=jpg",
+                        "local_path": "media/20251116_005747_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-16T00:57:47+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1989878973975994590",
+        "tweets": [
+            {
+                "text": "compact thermal model and thermal design automation of 3D integrated circuits and external cooling",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5136q_aIAAlpHh?format=jpg",
+                        "local_path": "media/20251116_021132_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G514HSsbkAIWzdi?format=jpg",
+                        "local_path": "media/20251116_021132_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-16T02:11:32+00:00"
+            },
+            {
+                "text": "the interfacial thermal resistance and phonon transport are much more complicated than you'd expect. Like i was not expecting seeing phonon density of state. There are quite some first principle modeling works. Cao2025: [Thermal design automation (TDA) for multiscale thermal management of electronics]( https://doi.org/10.1063/5.0288828)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G515GrCaIAAx0mQ?format=jpg",
+                        "local_path": "media/20251116_021546_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G515H0YaUAAcztZ?format=jpg",
+                        "local_path": "media/20251116_021546_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-16T02:15:46+00:00"
+            },
+            {
+                "text": "think thermal is just diffusion? naive! it's just a special simplified case of boltzmann transport equation. (tho diffusion should cover most of the cases, and BTE is so general it could probably describe your dating experience)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G516Nw1bkAIr4PE?format=jpg",
+                        "local_path": "media/20251116_022326_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G516wSEa8AA3nlV?format=jpg",
+                        "local_path": "media/20251116_022326_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-16T02:23:26+00:00"
+            },
+            {
+                "text": "culture difference between different industries: > \"This paper introduces JAX-BTE, a GPU-accelerated, differentiable solver for the phonon Boltzmann Transport Equation (BTE)... significantly outperforms state-of-the-art BTE solvers...\" > \"The codes used during the current study are available from the corresponding author on reasonable request.\" Shang2025: [JAX-BTE: a GPU-accelerated differentiable solver for phonon Boltzmann transport equations]( https://doi.org/10.1038/s41524-025-01635-0)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G5176bMaUAALsTO?format=jpg",
+                        "local_path": "media/20251116_023240_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-16T02:32:40+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1989888604651622545",
+        "tweets": [
+            {
+                "text": "to all the infographic maniac here, data center life cycle assessment flow chart from Microsoft and WSP Global",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G52AUN8bkAE0OfA?format=jpg",
+                        "local_path": "media/20251116_024948_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-16T02:49:48+00:00"
+            },
+            {
+                "text": "from the supplementary information of Alissa2025: [Using life cycle assessment to drive innovation for sustainable cool clouds]( https://doi.org/10.1038/s41586-025-08832-3)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G52BkOsbkAQ7MF3?format=jpg",
+                        "local_path": "media/20251116_025306_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-16T02:53:06+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1989929710277865759",
+        "tweets": [
+            {
+                "text": "the schematics, and the actual circuit ( monolithic microwave integrated circuit (MMIC) low noise amplifier (LNA) )",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G52mB0qboAAv8bA?format=jpg",
+                        "local_path": "media/20251004_074845_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G52mPLrakAAnmo6?format=jpg",
+                        "local_path": "media/20251004_074845_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G2Zo3sjbwAA20_3?format=jpg",
+                        "local_path": "media/20251004_074845_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G2Zo4qubMAIkz40?format=jpg",
+                        "local_path": "media/20251004_074845_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-10-04T07:48:45+00:00"
+            },
+            {
+                "text": "theres more in Schleeh2013: [Cryogenic Ultra-Low Noise InP High Electron Mobility Transistors]( https://publications.lib.chalmers.se/records/fulltext/186929/186929.pdf)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G52nIwtaMAAeG0v?format=png",
+                        "local_path": "media/20251116_053602_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G52nLxTaQAAE1ok?format=jpg",
+                        "local_path": "media/20251116_053602_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-16T05:36:02+00:00"
+            },
+            {
+                "text": "the hell is this part doing, delay?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G52nqR3bkAQbCgy?format=png",
+                        "local_path": "media/20251116_053812_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-11-16T05:38:12+00:00"
+            }
+        ]
+    }
+]
