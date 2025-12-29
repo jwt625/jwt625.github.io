@@ -1,0 +1,854 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/2002919474660548726",
+        "tweets": [
+            {
+                "text": "\"PolaRiS is a evaluation framework for generalist policies. It provides tooling for reconstructing environments, evaluating models, and running experiments with minimal setup.\"",
+                "media": [],
+                "timestamp": "2025-12-22T01:49:49+00:00"
+            },
+            {
+                "text": "[PolaRiS: Scalable Real-to-Sim Evaluations for Generalist Robot Policies]( https://polaris-evals.github.io)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G8vMv81bgAEC_dx?format=jpg",
+                        "local_path": "media/20251222_015110_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-22T01:51:10+00:00"
+            },
+            {
+                "text": "[2DGS: 2D Gaussian Splatting for Geometrically Accurate Radiance Fields]( https://surfsplatting.github.io) [2D Gaussian Splatting for Geometrically Accurate Radiance Fields]( https://youtube.com/watch?v=oaHCtB6yiKU)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G8vOikWbAAAhSAD?format=jpg",
+                        "local_path": "media/20251222_015807_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-22T01:58:07+00:00"
+            },
+            {
+                "text": "it's split, there are good models that deal with one photo, and ones that deal with a few hundreds. this one you record a lot of video of the scene and objects and it uses 2d gaussian splatting etc to construct a sim world",
+                "media": [],
+                "timestamp": "2025-12-22T03:12:19+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2002957642948296884",
+        "tweets": [
+            {
+                "text": "if you believe quantum computing is going to \"work\" in the next few tens of years, do you recognize who are the infiniband and nvlink for it? we are definitely pre nvlink (2014), do you think we are also pre 1999 infiniband trade group? 1973 (ethernet)? 1969 (arpanet)? maybe we'll get nvlink first for SC qubits, and arpanet for photonic qubits (there are already a few local ones)? i guess since the qubits are not working so well yet, the networking and energy bottlenecks are not being talked about much, but good to see SC qubit literatures start to cover cooling power per qubit (we were one of the first to start talking about energy per qubit for optical networking of SC qubits), 3He volume per qubit, and capex per qubit (they only briefly brought up the electronics cost). There is also good news that there are actual examples of large scale cryogenic systems, LHC's total cooling power at 4 K is > 100 kW. The bad news is that the Coefficient of Performance (COP) is worse than 1:200, and that is even with a centralized He refrigeration plant, dilfridges' number is worse than 1:4000. Let's be gentle and assume we can mod dilfridge with centralized He plant and get 1:500, and get 1000 qubits under a 2 W @ 4 K plate, and we get 1 W facility power per qubit for cooling. They assumed 1:1500, so it's probably going to end up being 1~10 W/qubit.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G8vlsPaa0AASYAf?format=jpg",
+                        "local_path": "media/20251222_042129_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-22T04:21:29+00:00"
+            },
+            {
+                "text": "well i was thinking about networking more but the yapping turned into energy estimation. the paper is a good read. Croot2025: [Enabling Technologies for Scalable Superconducting Quantum Computing]( https://arxiv.org/abs/2512.15001)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G8vv5EAbkAAIXvS?format=jpg",
+                        "local_path": "media/20251222_042449_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G8vv_u2akAAbS6h?format=jpg",
+                        "local_path": "media/20251222_042449_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-22T04:24:49+00:00"
+            },
+            {
+                "text": "investment cost of 4.5 K refrigerators at CERN versus equivalent capacity Claudet2000: [Economics of Large Helium Cryogenic Systems: Experience from Recent Projects at CERN]( https://doi.org/10.1007/978-1-4615-4215-5_44)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G8vwsycagAAgYn-?format=png",
+                        "local_path": "media/20251222_042826_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-22T04:28:26+00:00"
+            },
+            {
+                "text": "Coefficient of performance of 4.5 K refrigerators at CERN",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G8vxNi3a8AAwCOc?format=png",
+                        "local_path": "media/20251222_042958_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-22T04:29:58+00:00"
+            },
+            {
+                "text": "lol not familiar with rare earth stuff, but they are definitely much better than any bare photonics components for ms level light storage, and more scalable than bare atoms",
+                "media": [],
+                "timestamp": "2025-12-22T20:12:40+00:00"
+            },
+            {
+                "text": "my pleasure",
+                "media": [],
+                "timestamp": "2025-12-22T05:39:25+00:00"
+            },
+            {
+                "text": "probably just walk around the exhibition",
+                "media": [],
+                "timestamp": "2025-12-22T04:40:41+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2003278857349267909",
+        "tweets": [
+            {
+                "text": "the look in the eyes, the mug, the helmet..",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G80TEBVWEAAriDL?format=jpg",
+                        "local_path": "media/20251223_013753_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-23T01:37:53+00:00"
+            },
+            {
+                "text": "Boto2018: [Moving magnetoencephalography towards real-world applications with a wearable system]( https://doi.org/10.1038/nature26147)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G80Tq-VXIAAxobn?format=jpg",
+                        "local_path": "media/20251223_013909_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-23T01:39:09+00:00"
+            },
+            {
+                "text": "you never know",
+                "media": [],
+                "timestamp": "2025-12-23T04:47:13+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2003281674432548987",
+        "tweets": [
+            {
+                "text": "\"Photograph of a diamond sample with a large (several ppm) relative concentration of NV centers illuminated with green light and fluorescing in the red.\"",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G80V8KMagAAua2o?format=jpg",
+                        "local_path": "media/20251223_014905_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-23T01:49:05+00:00"
+            },
+            {
+                "text": "Kitching2025: [Atom-based quantum sensing of electromagnetic fields]( https://doi.org/10.1364/OPTICA.569334)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G80WNrwagAIYj-e?format=jpg",
+                        "local_path": "media/20251223_015022_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-23T01:50:22+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2003657940973289889",
+        "tweets": [
+            {
+                "text": "TIL lumber sizes are in a NIST handbook",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G85sJ-ba8AA5Ckz?format=jpg",
+                        "local_path": "media/20251224_024413_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G85sRZvaMAAs5cL?format=jpg",
+                        "local_path": "media/20251224_024413_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-24T02:44:13+00:00"
+            },
+            {
+                "text": "[Uniform Laws and Regulations inthe Areas of Legal Metrology andFuel Quality]( https://www.nist.gov/pml/owm/nist-handbook-130-current-edition)",
+                "media": [],
+                "timestamp": "2025-12-24T02:44:41+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2003662862871626197",
+        "tweets": [
+            {
+                "text": "tab group cleanup Tan2022: [Co‑packaged optics (CPO): status, challenges, and solutions]( https://doi.org/10.1007/s12200-022-00055-y)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G85wVwWasAAmimG?format=png",
+                        "local_path": "media/20251224_030347_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G85wZ2KakAAVJpc?format=jpg",
+                        "local_path": "media/20251224_030347_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G85wcnqbcAAvUBh?format=jpg",
+                        "local_path": "media/20251224_030347_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G85wl1sbcAAWprk?format=png",
+                        "local_path": "media/20251224_030347_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-24T03:03:47+00:00"
+            },
+            {
+                "text": "Hu 2024: [Latest advances in VCSEL technology for next-generation data center network [Invited]]( https://doi.org/10.3788/COL202422.111401) ( https://www.opticsjournal.net/Articles/GetArticlePDF/OJff0183d301780311)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G85w_8_b0AArKlj?format=jpg",
+                        "local_path": "media/20251224_030754_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G85xC3yagAUxo-h?format=jpg",
+                        "local_path": "media/20251224_030754_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G85xP62agAEYdVj?format=jpg",
+                        "local_path": "media/20251224_030754_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G85xYmbagAsvaZW?format=jpg",
+                        "local_path": "media/20251224_030754_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-24T03:07:54+00:00"
+            },
+            {
+                "text": "Tian2025: [Photonic Integrated Circuits: Research Advances and Challenges in Interconnection and Packaging Technologies]( https://doi.org/10.3390/photonics12080821)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G85yAulaIAAQIBs?format=jpg",
+                        "local_path": "media/20251224_031115_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G85yFGjbsAAYn_O?format=jpg",
+                        "local_path": "media/20251224_031115_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G85yUvzagAQ1teN?format=jpg",
+                        "local_path": "media/20251224_031115_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G85yXFBa4AAgz4_?format=jpg",
+                        "local_path": "media/20251224_031115_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-24T03:11:15+00:00"
+            },
+            {
+                "text": "Tan2023: [Co-packaged optics (CPO): status, challenges, and solutions]( https://doi.org/10.1007/s12200-022-00055-y)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G850VSFbkAAbE90?format=jpg",
+                        "local_path": "media/20251224_032315_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G8504xSaoAAl990?format=jpg",
+                        "local_path": "media/20251224_032315_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G8505jIboAAhcYW?format=png",
+                        "local_path": "media/20251224_032315_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G851FoYagAEXTzL?format=jpg",
+                        "local_path": "media/20251224_032315_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-24T03:23:15+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2003697806146699589",
+        "tweets": [
+            {
+                "text": "tried SimFlow / OpenFOAM / ParaView combo, pretty damn nice",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G86QXQ6bAAAfI8Q?format=jpg",
+                        "local_path": "media/20251224_052238_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-24T05:22:38+00:00"
+            },
+            {
+                "text": "i was following this tutorial: [Wind around Buildings - CFD Simulation]( https://help.sim-flow.com/tutorials/buildings)",
+                "media": [],
+                "timestamp": "2025-12-24T05:23:07+00:00"
+            },
+            {
+                "text": "uggghhh",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G86WACUbAAA72Ra?format=jpg",
+                        "local_path": "media/20251224_054633_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-24T05:46:33+00:00"
+            },
+            {
+                "text": "",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G86WNbQbIAA7_2P?format=jpg",
+                        "local_path": "media/20251224_054726_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-24T05:47:26+00:00"
+            },
+            {
+                "text": "doesnt look right",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G86ZN92bwAAc6Gn?format=jpg",
+                        "local_path": "media/20251224_060041_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-24T06:00:41+00:00"
+            },
+            {
+                "text": "okay this looks about right",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G86amfGaUAEGAQJ?format=jpg",
+                        "local_path": "media/20251224_060646_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-24T06:06:46+00:00"
+            },
+            {
+                "text": "",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G86ccqCaoAAhdA-?format=jpg",
+                        "local_path": "media/20251224_061442_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-24T06:14:42+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2003731205930574148",
+        "tweets": [
+            {
+                "text": "there is a problem when you stick a Rb vapor cell to a photonic chip, you have to hit a few Rb atoms off a dispenser pill, and they would deposit onto the exposed photonic waveguide, and pretty much kills light propagation. (they had to reduce the exposed waveguide to as short as 100 um just to feel something) well if you think the other way, this would be a great Rb vapor density sensor, and if you could shoot laser at the pill to dispense Rb, you could probably also shoot laser thru the waveguide to cause desorption of the Rb thats onto the waveguide surface. hence their followup work did exactly these, a desorption laser thru the waveguide almost completely got rid of the Rb induced loss, and monitoring the propagation loss during the Rb pill activation lets them develop various weaker and fancier activation pulse sequences to target different Rb vapor densities.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G86n-KOagAIfyHA?format=jpg",
+                        "local_path": "media/20241024_012927_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G86oG_gagAYjn6K?format=jpg",
+                        "local_path": "media/20241024_012927_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GankeI7aYAAUe_K?format=jpg",
+                        "local_path": "media/20241024_012927_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GanlIDOakAAmNH9?format=jpg",
+                        "local_path": "media/20241024_012927_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GanlNRUbAAAqBZa?format=jpg",
+                        "local_path": "media/20241024_012927_4.jpg"
+                    }
+                ],
+                "timestamp": "2024-10-24T01:29:27+00:00"
+            },
+            {
+                "text": "is that.. an em dash in the title? (i changed it here) Shrestha2025: [Enabling atom-clad waveguide operation in a microfabricated alkali vapor-photonic integrated circuit]( https://arxiv.org/abs/2512.19852)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G86vSfAagAMVRRm?format=jpg",
+                        "local_path": "media/20251224_073934_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G86vUojbUAAu2jd?format=jpg",
+                        "local_path": "media/20251224_073934_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G86vaNea0AA4M9t?format=jpg",
+                        "local_path": "media/20251224_073934_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G86vsXjbUAE2pHq?format=jpg",
+                        "local_path": "media/20251224_073934_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-24T07:39:34+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2003897430342008964",
+        "tweets": [
+            {
+                "text": "before my lithium niobate (LN) appreciation thread, i gotta trash talk about it one more time: pyroelectric effect. as the name suggests, you get electric field from temperature change (but not vice versa as would be the case for a lot of other effects since here entropy is involved. The other direction is electrocaloric effect). This means you can do cool stuff with it, such as rapid heating of a chip to get 100 kV ( https://x.com/jwt0625/status/1806362394639372773), but it also means a lot of horrible unexpected stuff could happen if you don't know about it. when you bake your chip during fab on a hotplate, the electric field from the temperature change could fry the devices, or even fry and crack the whole substrate. People would add conductive coating or even wrap the chip in aluminum foil during processing to provide discharge paths. And of course it's dependent on crystal cut, and usually worse on z-cut. You'll find literature from the 1980s complaining about channel waveguide MZI drifting more on z-cut LN ( https://doi.org/10.1063/1.96640). here is another example where electric field from a LN chip ESD-ed a device on *another* chip during cooldown to 4 K ( https://x.com/jwt0625/status/1806362394639372773). They have to add shielding electrodes to protect those devices and they would survive, and the IDTs on LN chip would still get fried. pyroelectric effect also bothered me a few times, and I was not even on z-cut. I had some x-cut thin film LN devices on silicon substrate, mostly released (i.e. floating) with a few anchor points, that suddenly started mysteriously collapsing when cooling down to 4 K. I ruled out CTE mismatch because that won't explain why it suddenly started happening, but it could be pyroelectric + electrostatic pull-in because I may have moved to a new wafer with better crystal quality and worse discharge. So I put extra aluminum electrodes everywhere to short different LN components to the silicon substrate, and they stopped the collapse..",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G88-_EkakAAsk1P?format=png",
+                        "local_path": "media/20251224_183552_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G88_CebbYAASvcy?format=png",
+                        "local_path": "media/20251224_183552_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-24T18:35:52+00:00"
+            },
+            {
+                "text": "id guess not, this is a very inefficient process in terms of energy",
+                "media": [],
+                "timestamp": "2025-12-24T22:24:55+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2004007657460609326",
+        "tweets": [
+            {
+                "text": "all i want for christmas is less request for quote and more show me the price",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G8-FESmbQAAy8xX?format=png",
+                        "local_path": "media/20251225_015352_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-25T01:53:52+00:00"
+            },
+            {
+                "text": "Ibsen Photonics: [PEBBLE spectrometers - Ultra-compact and cost-efficient OEM spectrometer modules]( https://ibsen.com/products/oem-spectrometers/pebble-spectrometers/)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G8-qcdbb0AEd1Zl?format=jpg",
+                        "local_path": "media/20251225_015502_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-25T01:55:02+00:00"
+            },
+            {
+                "text": "*after two meetings and three phone calls* here's the mutual NDA please let your legal team review it",
+                "media": [],
+                "timestamp": "2025-12-26T14:23:25+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2004114816353685979",
+        "tweets": [
+            {
+                "text": "there is a gui for this thing called peacock, and its dependencies are so broke it's a freaking joke",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/Gy7ZQJfboAMaKwr?format=jpg",
+                        "local_path": "media/20250822_040533_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gy7ZVXibAAAuI69?format=jpg",
+                        "local_path": "media/20250822_040533_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gy7ZjPQboAI-1tJ?format=jpg",
+                        "local_path": "media/20250822_040533_2.jpg"
+                    }
+                ],
+                "timestamp": "2025-08-22T04:05:33+00:00"
+            },
+            {
+                "text": "if you are curious how much back and forth needed to get to this point: Initial Working Setup with peacock-trame -> Qt5 Peacock Attempt (peacock-trame seems to not have all features / GUI not as compact) -> Peacock-trame broke, cannot build examples, had to checkout older moose and rebuild 1. Install miniforge3 and create moose conda environment with Python 3.10 2. Install moose-dev from INL conda channel 3. Install peacock-trame via pip 4. Clone MOOSE repository (latest main branch, --depth 1) 5. Set PYTHONPATH to include ~/peacock-work/moose/python 6. Set build environment variables (LIBMESH_DIR, WASP_DIR, PETSC_DIR) pointing to conda libs 7. Add MOOSE_NO_CODESIGN=1 for macOS 8. Build ex08-opt executable successfully 9. Create run_peacock.sh with hit.explode() monkey patch 10. Peacock-trame mostly working but viewer not working 11. Install moose-peacock conda package in moose environment 12. Encounter Qt5/Qt6 conflict (segfault) 13. Create separate peacock-qt5 environment with VTK 9.2.6 (Qt5 only) 14. Fix duplicate RPATH in libopenblas, libgfortran, libquadmath using install_name_tool 15. Qt5 Peacock launches but Input File tab empty (executable won't run) 16. MOOSE repository deleted/corrupted during Qt5 troubleshooting 17. Attempt to rebuild with latest MOOSE main branch 18. Build fails: missing DynamicArrayWrapper and SemiDynamicSparseNumberArrayGeneric classes 19. Version mismatch: MOOSE main (Dec 2025) incompatible with conda libs (May 2025) 20. Peacock-trame broken: no executable available 21. Remove incompatible MOOSE repository 22. Clone MOOSE at 2025-09-05-release tag (May 9, 2025) matching conda package dates 23. Build ex08-opt successfully with same environment variables 24. Peacock-trame now runs with 3D mesh viewer functional",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9AQ9g2b0AcJn43?format=jpg",
+                        "local_path": "media/20251225_093053_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-25T09:30:53+00:00"
+            },
+            {
+                "text": "[MOOSE Workshop (Summer 2023, Part 1)]( https://www.youtube.com/watch?v=QPuK6OdF2hM)",
+                "media": [],
+                "timestamp": "2025-12-25T18:50:09+00:00"
+            },
+            {
+                "text": "dude why is the viewer frozen for no reason with no error msg",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9DnB8ob0AATj5i?format=jpg",
+                        "local_path": "media/20251226_005750_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-26T00:57:50+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2004249624643776570",
+        "tweets": [
+            {
+                "text": "[NSRDB: National Solar Radiation Database]( https://nsrdb.nrel.gov/data-viewer)",
+                "media": [],
+                "timestamp": "2025-12-25T17:55:22+00:00"
+            },
+            {
+                "text": "[WRDB: Wind Resource Database]( https://wrdb.nrel.gov/data-viewer)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/amplify_video_thumb/2004250045890416644/img/QktIec74sZWrtyMY.jpg",
+                        "local_path": "media/20251225_175718_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-25T17:57:18+00:00"
+            },
+            {
+                "text": "from Jones2025: [Hosting capacity considerations for the combination of wind and solar on distribution electric power systems subject to different levels of coincident operations]( https://doi.org/10.1063/5.0264545)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9CMMTfbQAAv5TQ?format=jpg",
+                        "local_path": "media/20251225_182102_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-25T18:21:02+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2004270560269029690",
+        "tweets": [
+            {
+                "text": "TIL the MOOSE folks have their own CI/CD called CIVET because github/gitlab was not good enough",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9CZJuea8AAJyVp?format=jpg",
+                        "local_path": "media/20250822_040533_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gy7ZQJfboAMaKwr?format=jpg",
+                        "local_path": "media/20250822_040533_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gy7ZVXibAAAuI69?format=jpg",
+                        "local_path": "media/20250822_040533_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gy7ZjPQboAI-1tJ?format=jpg",
+                        "local_path": "media/20250822_040533_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-08-22T04:05:33+00:00"
+            },
+            {
+                "text": "( https://civet.inl.gov/repo/8/)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9CZoU2b0AAoYsP?format=jpg",
+                        "local_path": "media/20251225_191931_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-25T19:19:31+00:00"
+            },
+            {
+                "text": "so much more responsive than github actions UI",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9CZ-e2bgAAMj4D?format=jpg",
+                        "local_path": "media/20251225_192104_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-25T19:21:04+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2004979460727341146",
+        "tweets": [
+            {
+                "text": "low performance computing in google sheet",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/ext_tw_video_thumb/1881084961102729216/pu/img/6PLvz-4EU6aGDpyG.jpg",
+                        "local_path": "media/20250119_210511_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-19T21:05:11+00:00"
+            },
+            {
+                "text": "create the x and y axis first, and then use this magic formula to fill the middle: =LET( c, COMPLEX(B$1, $A2), z_final, REDUCE(0, SEQUENCE(20), LAMBDA(z, i, IF(IFERROR(IMABS(z),0)>2, z, IMSUM(IMPRODUCT(z,z), c)) )), IF(IMABS(z_final)>2, IMABS(z_final), 0) ) written by gemini",
+                "media": [],
+                "timestamp": "2025-12-27T18:17:45+00:00"
+            },
+            {
+                "text": "doing this because i saw excel/sheets can handle complex number better than i thought Haugland2025: [A surprise to many physicists: Excel can handle complex numbers]( https://doi.org/10.1119/5.0305509)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9MjQEJaQAA4tQZ?format=jpg",
+                        "local_path": "media/20251227_183804_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-27T18:38:04+00:00"
+            },
+            {
+                "text": "damn would love a google sheet equiv and share it around",
+                "media": [],
+                "timestamp": "2025-12-28T15:53:11+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2005017335326015509",
+        "tweets": [
+            {
+                "text": "wow you can really reach feature size much smaller than wavelength with two photon polymerization (2PP) this sample is from UpNano GmbH, using a green laser at 515 nm",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9M_0xAXwAAqSNw?format=png",
+                        "local_path": "media/20251227_204558_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-27T20:45:58+00:00"
+            },
+            {
+                "text": "[NanoOne green]( https://upnano.com/nanoone-green/)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9NA_IKW8AAaNds?format=png",
+                        "local_path": "media/20251227_204744_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G9NBAugWAAEhztD?format=png",
+                        "local_path": "media/20251227_204744_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G9NBBfHXgAAqnRg?format=png",
+                        "local_path": "media/20251227_204744_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G9NBCvyWsAAYuIA?format=png",
+                        "local_path": "media/20251227_204744_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-27T20:47:44+00:00"
+            },
+            {
+                "text": "because it is used in this work on platinum microstructures Luitz2021: [High Resolution Patterning of an Organic–Inorganic Photoresin for the Fabrication of Platinum Microstructures]( http://dx.doi.org/10.1002/adma.202101992)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9NBSgcWEAAZV9q?format=jpg",
+                        "local_path": "media/20251227_204958_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-27T20:49:58+00:00"
+            },
+            {
+                "text": "which is cited by this review and caught my attention for its higher printing speed than nanoscribe. Shi2025: [Photonic Hybrid Integration: Strategies and Promises of Advanced Additive Manufacturing]( https://doi.org/10.1002/adom.202501750) this is a decent review, a lot of nice pictures and good refs inside.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9NBxCQXsAEGvUD?format=jpg",
+                        "local_path": "media/20251227_205223_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-27T20:52:23+00:00"
+            },
+            {
+                "text": "lmao",
+                "media": [],
+                "timestamp": "2025-12-28T00:38:04+00:00"
+            },
+            {
+                "text": "yeah their other ones are not green",
+                "media": [],
+                "timestamp": "2025-12-28T03:32:00+00:00"
+            },
+            {
+                "text": "then it's likely a linear process, and you can't escape the diffraction limit on resolution (unless you have weird stuff in the near field to do other kinds of nonlinear shit)",
+                "media": [],
+                "timestamp": "2025-12-28T16:05:25+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2005102063127331066",
+        "tweets": [
+            {
+                "text": "eye diagram with an eye next to it lol",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9ONscEbgAgp2Ty?format=jpg",
+                        "local_path": "media/20251228_022239_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-28T02:22:39+00:00"
+            },
+            {
+                "text": "[SHF M827 B Ultra-Broadband Amplifier]( https://shf-communication.com/wp-content/uploads/datasheet_shf_m827_b.pdf)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9ON6CBawAABed-?format=jpg",
+                        "local_path": "media/20251228_022336_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-28T02:23:36+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2005108913876975630",
+        "tweets": [
+            {
+                "text": "remember thin film PZT? now there are micro ring modulators with ~ 50 GHz bandwidth, and temperature sensitivity half of a silicon MRM. propagation loss sucks in the ring (22 dB/cm) but should get better, and not so bad in straight waveguide (6 dB/cm). EO coefficient is high and the PAM4 is driven with only 300 mV Vpp.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9OSb6jbgAInwyp?format=jpg",
+                        "local_path": "media/20250405_001814_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G9OSrjFaEAAU5XJ?format=jpg",
+                        "local_path": "media/20250405_001814_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G9OS4HHa4AAjqNY?format=jpg",
+                        "local_path": "media/20250405_001814_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GnuwLGuaAAAbx31?format=png",
+                        "local_path": "media/20250405_001814_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GnuwNumbkAAdgPO?format=png",
+                        "local_path": "media/20250405_001814_4.jpg"
+                    }
+                ],
+                "timestamp": "2025-04-05T00:18:14+00:00"
+            },
+            {
+                "text": "Yin2025: [High-speed micro-ring modulator using ferroelectric PLZT for integrated photonics]( https://doi.org/10.1063/5.0296778)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9OUTZRbgAAAQc0?format=jpg",
+                        "local_path": "media/20251228_025310_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G9OUYYnaoAAoKXE?format=jpg",
+                        "local_path": "media/20251228_025310_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G9OUcQ7awAAsaQ_?format=png",
+                        "local_path": "media/20251228_025310_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G9OUkxJbgAIjy6a?format=jpg",
+                        "local_path": "media/20251228_025310_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-28T02:53:10+00:00"
+            },
+            {
+                "text": "are you sure about the high thermal stability?",
+                "media": [],
+                "timestamp": "2025-12-28T03:34:13+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2005199033103475052",
+        "tweets": [
+            {
+                "text": "your finger press over ~10 ms closes a switch in a keyboard matrix, during which ~10¹³ electrons flow through pull-up resistors and scan circuitry. Firmware encodes the event, and a microcontroller emits a USB or Bluetooth HID report of a few dozen bytes. the OS services an interrupt in a few us, maps scan codes to characters, and updates 10²~10³ bytes of state in DRAM, stored as charge from ~10⁸ electrons on capacitors refreshed every ~60 ms. your browser constructs an HTTPS request of 1~5 kB, which the TCP/IP stack segments into ~1.5 kB payloads matched to the Ethernet MTU. These drive a network interface with SerDes operating at a few GHz, shoving 10⁶~10⁸ electrons per bit. electrical signals propagate a few cm across copper traces, then drive optical transceivers where electrons jump a semiconductor bandgap to emit 10⁶~10⁸ photons per bit at telecom wavelengths. These photons traverse access, metro, and backbone networks, undergoing a dozen electrical <-> optical conversions at endpoints and regeneration sites. these photons might further go through hundreds to thousands of kilometers of fiber, amplified every ~100 km by erbium-doped fiber amplifiers via stimulated emission, wavelength-routed by ROADMs, might even bounce off google's MEMS optical circuit switches a few times, and eventually reconverted to electrons by photodiodes at termination and routing boundaries. at the data center, packets are reassembled and delivered to inference servers where GPUs perform matrix multiplications involving ~10¹² model parameters over milliseconds, with transistors toggling at 10¹⁶~10¹⁷ times per second. those parameters were produced earlier by training runs lasting weeks to months, using ~10⁴ accelerators drawing who knows how many megawatts of power, shoving 10³⁰~10³³ electrons through transistor channels for the 10²³~10²⁵ floating-point operations. the inference result is serialized into kilobytes of data and transmitted back through the same chain, again undergoing repeated electrical - optical - electrical conversions across access, metro, and backbone networks. back on your phone or laptop or whatever, the browser parses the response, updates layout and rendering structures, and issues GPU draw calls that write millions of pixels per frame into a framebuffer at 60~120 Hz. display interfaces stream multiple gigabits per second to an OLED or microLED panel, where the pixels emit roughly 10⁸~10¹¹ visible photons per frame, driven by ~microamp currents over ~microsecond switching intervals. those photons traverse a few meters in nanoseconds, absorbed by your retinal photoreceptors, transduced into electrochemical signals, and interpreted by a ~20 W biological neural system. end-to-end, you have astronomical numbers of highly coordinated electrons and photons, and dozens of conversions between them (ofc not including training), for a single thought from the little intelligence to appear on a screen and read by you.",
+                "media": [],
+                "timestamp": "2025-12-27T17:09:40+00:00"
+            },
+            {
+                "text": "disclaimer: most of the numbers are from chatGPT and gemini, do your own math.",
+                "media": [],
+                "timestamp": "2025-12-28T08:48:23+00:00"
+            },
+            {
+                "text": "in total per gpu and sustained, shouldve made it more clear",
+                "media": [],
+                "timestamp": "2025-12-29T15:35:34+00:00"
+            },
+            {
+                "text": "skipped many steps",
+                "media": [],
+                "timestamp": "2025-12-29T03:20:30+00:00"
+            },
+            {
+                "text": "i dont know crap about browser, but i could definitely expand electrons jumping the bandgap into 8 paragraphs lol",
+                "media": [],
+                "timestamp": "2025-12-29T08:31:06+00:00"
+            },
+            {
+                "text": "damn, sorry that happened to you too",
+                "media": [],
+                "timestamp": "2025-12-28T18:20:41+00:00"
+            },
+            {
+                "text": "never thought about it this way.. makes me hate big telcos a bit less",
+                "media": [],
+                "timestamp": "2025-12-28T16:02:38+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2005502314522792046",
+        "tweets": [
+            {
+                "text": "rare case of a rough BOM from a paper. would love to see more papers doing this.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9T5jbUbwAEdixQ?format=png",
+                        "local_path": "media/20251229_045306_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-29T04:53:06+00:00"
+            },
+            {
+                "text": "Zhao2025: [Laser beams in Fabry–Perot cavities with circular apertures]( https://doi.org/10.1119/5.0271827)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9T6A4NbUAAK8R3?format=jpg",
+                        "local_path": "media/20251229_045430_0.jpg"
+                    }
+                ],
+                "timestamp": "2025-12-29T04:54:30+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2005511659662799199",
+        "tweets": [
+            {
+                "text": "here is another one from the Red Pitaya Team red pitaya is great, used a few to stabilize lasers that are 5x more expensive to cavities that are [redacted] more expensive",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G9UBVKSaMAAciM9?format=jpg",
+                        "local_path": "media/20250228_213014_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/Gk56HHBWUAAje-Z?format=jpg",
+                        "local_path": "media/20250228_213014_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-02-28T21:30:14+00:00"
+            },
+            {
+                "text": "[Build a LEGO Quantum Interferometer: Hands-On Quantum Physics for All]( https://content.redpitaya.com/blog/build-a-lego-quantum-interferometer-hands-on-quantum-physics-for-all)",
+                "media": [],
+                "timestamp": "2025-12-29T05:30:52+00:00"
+            }
+        ]
+    }
+]
