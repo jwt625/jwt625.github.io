@@ -1,0 +1,31 @@
+<!-- GLightbox for image lightbox functionality -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Initialize GLightbox for all images in page content
+    const lightbox = GLightbox({
+      selector: '.page__content img',
+      touchNavigation: true,
+      loop: true,
+      autoplayVideos: true,
+      closeButton: true,
+      zoomable: true,
+      draggable: true
+    });
+  });
+</script>
+
+<style>
+  /* Make images clickable with cursor pointer */
+  .page__content img {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+
+  .page__content img:hover {
+    opacity: 0.85;
+  }
+</style>
+

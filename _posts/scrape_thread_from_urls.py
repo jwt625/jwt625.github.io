@@ -607,7 +607,7 @@ if jpg_files:
     folder_name = f"{min_date}_{max_date}"
     
     # Define target path (go up one directory from _posts to repository root)
-    target_path = os.path.join(os.path.dirname(os.getcwd()), "assets", "images", "2025")
+    target_path = os.path.join(os.path.dirname(os.getcwd()), "assets", "images", "2026")
     new_folder_path = os.path.join(target_path, folder_name)
     
     # Create the target directory if it doesn't exist
@@ -639,7 +639,7 @@ from datetime import datetime
 
 def format_media(media_item, media_folder):
     file_name = os.path.basename(media_item['local_path'])
-    new_path = f"/assets/images/2025/{media_folder}/{file_name}"
+    new_path = f"/assets/images/2026/{media_folder}/{file_name}"
     return f"![{file_name}]({new_path})"
 
 def create_markdown(json_file, output_file):
