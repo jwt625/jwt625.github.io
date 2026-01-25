@@ -1,0 +1,187 @@
+/* Projects Timeline Styles - Dark Theme */
+
+.timeline-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.timeline-btn {
+    background: #2c3e50;
+    color: #ecf0f1;
+    border: 1px solid #34495e;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.timeline-btn:hover {
+    background: #34495e;
+    transform: translateY(-1px);
+}
+
+.timeline-wrapper {
+    position: relative;
+    padding: 20px 0;
+    overflow-x: auto;
+    overflow-y: visible;
+}
+
+/* Horizontal layout (desktop) */
+.timeline-wrapper.horizontal {
+    min-height: 200px;
+}
+
+.timeline-wrapper.horizontal .timeline-track {
+    display: flex;
+    gap: 40px;
+    padding: 40px 20px;
+    position: relative;
+}
+
+.timeline-wrapper.horizontal .timeline-track::before {
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #4a5f7a;
+}
+
+.timeline-wrapper.horizontal .timeline-item {
+    position: relative;
+    min-width: 200px;
+    flex-shrink: 0;
+}
+
+.timeline-wrapper.horizontal .timeline-marker {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 16px;
+    height: 16px;
+    background: #ecf0f1;
+    border: 3px solid #2c3e50;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.timeline-wrapper.horizontal .timeline-content {
+    text-align: center;
+}
+
+.timeline-wrapper.horizontal .timeline-date {
+    margin-bottom: 50px;
+    font-size: 12px;
+    color: #95a5a6;
+}
+
+/* Vertical layout (mobile) */
+.timeline-wrapper.vertical .timeline-track {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    position: relative;
+    padding-left: 40px;
+}
+
+.timeline-wrapper.vertical .timeline-track::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    width: 2px;
+    background: #4a5f7a;
+}
+
+.timeline-wrapper.vertical .timeline-marker {
+    position: absolute;
+    left: -20px;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    background: #ecf0f1;
+    border: 3px solid #2c3e50;
+    border-radius: 50%;
+}
+
+.timeline-wrapper.vertical .timeline-content {
+    text-align: left;
+}
+
+.timeline-wrapper.vertical .timeline-date {
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #95a5a6;
+}
+
+/* Common styles */
+.timeline-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #ecf0f1;
+    margin-bottom: 8px;
+}
+
+.timeline-detail {
+    display: none;
+    background: #2c3e50;
+    border: 1px solid #4a5f7a;
+    border-radius: 4px;
+    padding: 15px;
+    margin-top: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    max-width: 300px;
+}
+
+.timeline-item.active .timeline-detail {
+    display: block;
+}
+
+.timeline-description {
+    color: #bdc3c7;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.timeline-links {
+    font-size: 13px;
+}
+
+.timeline-links a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.timeline-links a:hover {
+    text-decoration: underline;
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Category colors */
+.category-milestone .timeline-marker {
+    background: #e74c3c;
+}
+
+.category-project .timeline-marker {
+    background: #3498db;
+}
+
+.category-playground .timeline-marker {
+    background: #2ecc71;
+}
+
