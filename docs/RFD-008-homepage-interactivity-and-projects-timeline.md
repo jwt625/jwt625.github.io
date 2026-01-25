@@ -352,6 +352,7 @@ The blog homepage currently lacks two key features:
 | 3dgs-viewer | `public/3dgs-icon.svg` | `icons/3dgs-viewer-icon.svg` |
 | GDSJam | `public/icon.svg` | `icons/gdsjam-icon.svg` |
 | SLM-Guessr | `static/icon.svg` | `icons/slm-guessr-icon.svg` |
+| bay-bridge-traffic-cam | `public/static/images/favicon.svg` | `icons/bay-bridge-traffic-cam-icon.svg` |
 | RA2 Sounds | local | `icons/RA2.png` |
 | WC3 Sounds | local | `icons/WC3.png` |
 
@@ -361,7 +362,6 @@ The blog homepage currently lacks two key features:
 - BPM
 - VoiceModeTranscript
 - DocEater
-- bay-bridge-traffic-cam
 - Age of Agents
 - QFC Plot
 
