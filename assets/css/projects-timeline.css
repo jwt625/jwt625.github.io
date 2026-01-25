@@ -33,11 +33,57 @@
     }
 }
 
+.timeline-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
 .timeline-heading {
     color: #ecf0f1;
     font-size: 28px;
-    margin-bottom: 30px;
-    text-align: center;
+    margin: 0;
+}
+
+.timeline-toggle-btn {
+    background: #2c3e50;
+    color: #ecf0f1;
+    border: 1px solid #34495e;
+    padding: 8px 16px;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.timeline-toggle-btn:hover {
+    background: #34495e;
+    transform: translateY(-1px);
+}
+
+/* Toggle button text visibility */
+.timeline-toggle-btn .toggle-hide {
+    display: inline;
+}
+
+.timeline-toggle-btn .toggle-show {
+    display: none;
+}
+
+.timeline-toggle-btn.collapsed .toggle-hide {
+    display: none;
+}
+
+.timeline-toggle-btn.collapsed .toggle-show {
+    display: inline;
+}
+
+/* Hide timeline when collapsed */
+.timeline-container.hidden {
+    display: none;
 }
 
 .timeline-controls {
@@ -397,6 +443,27 @@
     margin-bottom: 20px;
 }
 
+/* Image gallery for multiple images */
+.project-modal-image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.project-modal-image-gallery .gallery-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+/* On mobile, stack images vertically */
+@media (max-width: 768px) {
+    .project-modal-image-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
 #project-modal-description {
     color: #bdc3c7;
     font-size: 16px;
@@ -442,9 +509,18 @@
 
 /* Mobile responsive adjustments */
 @media (max-width: 768px) {
+    .timeline-header {
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
     .timeline-heading {
         font-size: 22px;
-        margin-bottom: 20px;
+    }
+
+    .timeline-toggle-btn {
+        padding: 6px 12px;
+        font-size: 13px;
     }
 
     .timeline-controls {

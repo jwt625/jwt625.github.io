@@ -12,6 +12,7 @@ class ProjectsTimeline {
         if (!this.container) return;
 
         this.createModal();
+        this.initToggle();
         this.checkResponsive();
         this.render();
         this.attachEventListeners();
@@ -21,6 +22,40 @@ class ProjectsTimeline {
             this.render();
             this.attachEventListeners();
         });
+    }
+
+    initToggle() {
+        const toggleBtn = document.getElementById('timeline-toggle-btn');
+        if (!toggleBtn) return;
+
+        // Determine default visibility based on screen size
+        const isMobile = window.innerWidth <= 768;
+        const defaultVisible = !isMobile; // Desktop: visible, Mobile: hidden
+
+        // Check localStorage for saved preference
+        const savedState = localStorage.getItem('timeline_visible');
+        const isVisible = savedState !== null ? savedState === 'true' : defaultVisible;
+
+        // Set initial state
+        this.setTimelineVisibility(isVisible);
+
+        // Add click handler
+        toggleBtn.addEventListener('click', () => {
+            const currentlyVisible = !this.container.classList.contains('hidden');
+            this.setTimelineVisibility(!currentlyVisible);
+            localStorage.setItem('timeline_visible', !currentlyVisible);
+        });
+    }
+
+    setTimelineVisibility(visible) {
+        const toggleBtn = document.getElementById('timeline-toggle-btn');
+        if (visible) {
+            this.container.classList.remove('hidden');
+            toggleBtn.classList.remove('collapsed');
+        } else {
+            this.container.classList.add('hidden');
+            toggleBtn.classList.add('collapsed');
+        }
     }
 
     createModal() {
@@ -67,8 +102,30 @@ class ProjectsTimeline {
         document.getElementById('project-modal-description').textContent = project.description;
 
         const imageContainer = document.getElementById('project-modal-image');
-        if (project.image) {
-            imageContainer.innerHTML = `<img src="${project.image}" alt="${project.name}" class="project-modal-image" />`;
+
+        // Support both single 'image' (string) and multiple 'images' (array)
+        let imagesToDisplay = [];
+        if (project.images && Array.isArray(project.images) && project.images.length > 0) {
+            // Filter out empty strings
+            imagesToDisplay = project.images.filter(img => img && img.trim() !== '');
+        } else if (project.image && project.image.trim() !== '') {
+            imagesToDisplay = [project.image];
+        }
+
+        if (imagesToDisplay.length > 0) {
+            if (imagesToDisplay.length === 1) {
+                // Single image - display as before
+                imageContainer.innerHTML = `<img src="${imagesToDisplay[0]}" alt="${project.name}" class="project-modal-image" />`;
+            } else {
+                // Multiple images - display as gallery
+                imageContainer.innerHTML = `
+                    <div class="project-modal-image-gallery">
+                        ${imagesToDisplay.map((img, idx) =>
+                            `<img src="${img}" alt="${project.name} - Image ${idx + 1}" class="project-modal-image gallery-image" />`
+                        ).join('')}
+                    </div>
+                `;
+            }
         } else {
             imageContainer.innerHTML = '';
         }
@@ -111,7 +168,8 @@ class ProjectsTimeline {
 
     // Calculate time-proportional spacing
     calculateSpacing(project1, project2) {
-        const date1 = new Date(project1.date);
+        // Use end_date if available, otherwise use start date
+        const date1 = project1.end_date ? new Date(project1.end_date) : new Date(project1.date);
         const date2 = new Date(project2.date);
         const monthsDiff = (date2.getFullYear() - date1.getFullYear()) * 12 +
                           (date2.getMonth() - date1.getMonth());
