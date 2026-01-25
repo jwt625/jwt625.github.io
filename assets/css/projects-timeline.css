@@ -1,0 +1,592 @@
+/* Projects Timeline Styles - Dark Theme */
+
+.projects-timeline-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background: #1a1a1a;
+    background-image: url('/assets/images/IMG_0800.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 40px 20px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+/* Dark overlay for better text readability */
+.projects-timeline-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(26, 26, 26, 0.65);
+    z-index: 0;
+}
+
+/* Inner container for content constraint */
+.projects-timeline-section > * {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* On mobile/tablet, keep constrained */
+@media (max-width: 1280px) {
+    .projects-timeline-section {
+        width: 100%;
+        position: static;
+        left: auto;
+        right: auto;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px;
+    }
+}
+
+.timeline-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.timeline-heading {
+    color: #ecf0f1;
+    font-size: 28px;
+    margin: 0;
+}
+
+.timeline-toggle-btn {
+    background: #2c3e50;
+    color: #ecf0f1;
+    border: 1px solid #34495e;
+    padding: 12px 20px;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+.timeline-toggle-btn:hover {
+    background: #34495e;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+}
+
+/* Toggle button text visibility */
+.timeline-toggle-btn .toggle-hide {
+    display: inline;
+}
+
+.timeline-toggle-btn .toggle-show {
+    display: none;
+}
+
+.timeline-toggle-btn.collapsed .toggle-hide {
+    display: none;
+}
+
+.timeline-toggle-btn.collapsed .toggle-show {
+    display: inline;
+}
+
+/* Hide timeline when collapsed */
+.timeline-container.hidden {
+    display: none;
+}
+
+.timeline-controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.timeline-btn {
+    background: #2c3e50;
+    color: #ecf0f1;
+    border: 1px solid #34495e;
+    padding: 12px 20px;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+.timeline-btn:hover {
+    background: #34495e;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    color: #ecf0f1;
+}
+
+.timeline-btn.active {
+    background: #34495e;
+    border-color: #4a5f7a;
+    color: #ffffff !important;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-wrapper {
+    position: relative;
+    padding: 20px 0;
+    overflow-x: auto;
+    overflow-y: visible;
+    cursor: grab;
+}
+
+.timeline-wrapper:active {
+    cursor: grabbing;
+}
+
+/* Custom scrollbar styling */
+.timeline-wrapper::-webkit-scrollbar {
+    height: 8px;
+}
+
+.timeline-wrapper::-webkit-scrollbar-track {
+    background: #1a1a1a;
+    border-radius: 0;
+}
+
+.timeline-wrapper::-webkit-scrollbar-thumb {
+    background: #4a5f7a;
+    border-radius: 0;
+}
+
+.timeline-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #5a6f8a;
+}
+
+/* Horizontal layout (desktop) */
+.timeline-wrapper.horizontal {
+    min-height: 400px;
+    position: relative;
+}
+
+.timeline-wrapper.horizontal .timeline-track {
+    display: flex;
+    padding: 150px 40px;
+    position: relative;
+    align-items: center;
+    min-width: min-content;
+}
+
+/* Horizontal axis line */
+.timeline-wrapper.horizontal .timeline-track::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #4a5f7a;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.timeline-wrapper.horizontal .timeline-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    /* Give item a minimal width - marker will be centered */
+    width: 12px;
+    height: 100%;
+}
+
+/* Marker dot on the axis - centered in the item */
+.timeline-wrapper.horizontal .timeline-marker {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    background: #ecf0f1;
+    border: 3px solid #2c3e50;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+/* Duration segment for projects with end_date (horizontal) */
+.timeline-wrapper.horizontal .timeline-duration-segment {
+    position: absolute;
+    left: 6px; /* Start from center of marker */
+    top: 50%;
+    transform: translateY(-50%);
+    height: 6px;
+    background: linear-gradient(to right, rgba(236, 240, 241, 0.6), rgba(236, 240, 241, 0.2));
+    border-radius: 0;
+    z-index: 1;
+}
+
+/* Project box container - alternating above/below */
+.timeline-wrapper.horizontal .timeline-content {
+    position: absolute;
+    width: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.timeline-wrapper.horizontal .timeline-item:nth-child(odd) .timeline-content {
+    bottom: 50%;
+    margin-bottom: 46px; /* 40px for S-curve + 6px spacing */
+}
+
+.timeline-wrapper.horizontal .timeline-item:nth-child(even) .timeline-content {
+    top: 50%;
+    margin-top: 46px; /* 40px for S-curve + 6px spacing */
+}
+
+/* S-curve connector SVG - connects marker to box */
+.timeline-wrapper.horizontal .timeline-connector {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    z-index: 2;
+}
+
+.timeline-wrapper.horizontal .timeline-item:nth-child(odd) .timeline-connector {
+    bottom: 50%;
+    margin-bottom: 6px; /* Just above the marker */
+}
+
+.timeline-wrapper.horizontal .timeline-item:nth-child(even) .timeline-connector {
+    top: 50%;
+    margin-top: 6px; /* Just below the marker */
+}
+
+/* Project title box */
+.timeline-wrapper.horizontal .timeline-box {
+    background: #2c3e50;
+    border: 2px solid #4a5f7a;
+    border-radius: 0;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.timeline-wrapper.horizontal .timeline-box:hover {
+    background: #34495e;
+    border-color: #5a6f8a;
+    transform: scale(1.05);
+}
+
+.timeline-wrapper.horizontal .timeline-date {
+    font-size: 11px;
+    color: #95a5a6;
+    margin-bottom: 5px;
+}
+
+.timeline-wrapper.horizontal .timeline-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #ecf0f1;
+}
+
+/* Vertical layout (mobile) */
+.timeline-wrapper.vertical .timeline-track {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    padding-left: 60px;
+}
+
+/* Vertical axis line */
+.timeline-wrapper.vertical .timeline-track::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 30px;
+    width: 2px;
+    background: #4a5f7a;
+}
+
+.timeline-wrapper.vertical .timeline-item {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Marker dot on the axis */
+.timeline-wrapper.vertical .timeline-marker {
+    position: absolute;
+    left: -30px;
+    top: 10px;
+    width: 12px;
+    height: 12px;
+    background: #ecf0f1;
+    border: 3px solid #2c3e50;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+/* Duration segment for projects with end_date (vertical) */
+.timeline-wrapper.vertical .timeline-duration-segment {
+    position: absolute;
+    left: -30px;
+    top: 16px; /* Start from center of marker */
+    width: 6px;
+    background: linear-gradient(to bottom, rgba(236, 240, 241, 0.6), rgba(236, 240, 241, 0.2));
+    border-radius: 0;
+    z-index: 1;
+}
+
+/* Connector line from dot to box */
+.timeline-wrapper.vertical .timeline-connector {
+    position: absolute;
+    left: -24px;
+    top: 10px;
+    width: 30px;
+    height: 2px;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.timeline-wrapper.vertical .timeline-content {
+    flex: 1;
+}
+
+/* Project box */
+.timeline-wrapper.vertical .timeline-box {
+    background: #2c3e50;
+    border: 2px solid #4a5f7a;
+    border-radius: 0;
+    padding: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.timeline-wrapper.vertical .timeline-box:hover {
+    background: #34495e;
+    border-color: #5a6f8a;
+    transform: scale(1.02);
+}
+
+.timeline-wrapper.vertical .timeline-date {
+    font-size: 11px;
+    color: #95a5a6;
+    margin-bottom: 5px;
+}
+
+.timeline-wrapper.vertical .timeline-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #ecf0f1;
+}
+
+/* Project Detail Modal */
+.project-detail-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    transition: opacity 0.3s ease;
+}
+
+.project-detail-modal.hidden {
+    display: none;
+}
+
+.project-detail-content {
+    background: #2c3e50;
+    border: 2px solid #4a5f7a;
+    border-radius: 0;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+.project-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #4a5f7a;
+}
+
+.project-detail-header h3 {
+    margin: 0;
+    color: #ecf0f1;
+    font-size: 24px;
+}
+
+.project-detail-close {
+    background: none;
+    border: none;
+    color: #ecf0f1;
+    font-size: 32px;
+    cursor: pointer;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    transition: color 0.2s ease;
+}
+
+.project-detail-close:hover {
+    color: #e74c3c;
+}
+
+.project-detail-body {
+    padding: 20px;
+}
+
+.project-modal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+/* Image gallery for multiple images */
+.project-modal-image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.project-modal-image-gallery .gallery-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+/* On mobile, stack images vertically */
+@media (max-width: 768px) {
+    .project-modal-image-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+#project-modal-description {
+    color: #bdc3c7;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#project-modal-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.project-modal-link {
+    display: inline-block;
+    background: #2c3e50;
+    color: #ecf0f1;
+    border: 1px solid #34495e;
+    padding: 12px 20px;
+    border-radius: 0;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+.project-modal-link:hover {
+    background: #34495e;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+    color: #ecf0f1;
+}
+
+
+
+/* Category colors */
+.category-milestone .timeline-marker {
+    background: #e74c3c;
+}
+
+.category-project .timeline-marker {
+    background: #3498db;
+}
+
+.category-playground .timeline-marker {
+    background: #2ecc71;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .timeline-header {
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .timeline-heading {
+        font-size: 22px;
+    }
+
+    .timeline-toggle-btn {
+        padding: 10px 16px;
+        font-size: 13px;
+    }
+
+    .timeline-controls {
+        gap: 8px;
+    }
+
+    .timeline-btn {
+        padding: 10px 16px;
+        font-size: 13px;
+    }
+
+    .timeline-wrapper.vertical .timeline-box {
+        padding: 10px;
+    }
+
+    .timeline-wrapper.vertical .timeline-title {
+        font-size: 13px;
+    }
+
+    .project-detail-content {
+        width: 95%;
+        max-height: 95vh;
+    }
+
+    .project-detail-header h3 {
+        font-size: 20px;
+    }
+
+    .project-detail-body {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,35 @@
+---
+layout: null
+---
+{
+  "filter_type": "all",
+  "total_posts": {{ site.posts.size }},
+  "total_pages": {{ site.posts.size | divided_by: 5.0 | ceil }},
+  "posts_per_page": 5,
+  "pages": [
+    {% assign posts_per_page = 5 %}
+    {% assign total_pages = site.posts.size | divided_by: posts_per_page | plus: 1 %}
+    {% for page_num in (1..total_pages) %}
+      {% assign start_idx = page_num | minus: 1 | times: posts_per_page %}
+      {% assign end_idx = start_idx | plus: posts_per_page | minus: 1 %}
+      {
+        "page_num": {{ page_num }},
+        "posts": [
+          {% for post in site.posts limit: posts_per_page offset: start_idx %}
+            {
+              "title": {{ post.title | jsonify }},
+              "url": {{ post.url | jsonify }},
+              "date": "{{ post.date | date: '%b %-d, %Y' }}",
+              "excerpt": {{ post.excerpt | strip_html | truncatewords: 50 | jsonify }},
+              "categories": {{ post.categories | jsonify }},
+              "tags": {{ post.tags | jsonify }},
+              "teaser": {{ post.header.teaser | default: "" | jsonify }},
+              "cover": {{ post.header.cover | default: "" | jsonify }}
+            }{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ]
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+

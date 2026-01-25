@@ -15,6 +15,10 @@
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
+    {% if page.layout == "home" %}
+      {% include projects-timeline.html %}
+    {% endif %}
+
     <div class="initial-content">
       {{ content }}
       {% include after-content.html %}
@@ -46,6 +50,10 @@
     </script>
     <script src="{{ '/assets/js/blog-chat-widget.js' | relative_url }}"></script>
     <link rel="stylesheet" href="{{ '/assets/css/blog-chat-widget.css' | relative_url }}">
+
+    <!-- OFS Toggle Widget -->
+    <script src="{{ '/assets/js/ofs-toggle.js' | relative_url }}"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/ofs-toggle.css' | relative_url }}">
 
     <!-- add mathjax, WTJ, 20240702 -->
     {% if page.use_math %}

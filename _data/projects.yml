@@ -1,0 +1,280 @@
+# Projects Timeline Data
+# Format: YYYY-MM for date, or YYYY-MM-DD for specific dates
+
+# Historical milestones
+- name: "Chemistry Experiments"
+  date: "2008"
+  end_date: "2010"
+  description: "Started experimenting with chemistry - picking locks, stealing chemicals from school labs, thermite reactions"
+  category: "milestone"
+  links: []
+  image: "/assets/images/ancient_history/GQQPosoaUAAE4ae.jpeg"
+
+- name: "Tsinghua University - Physics"
+  date: "2014-09"
+  end_date: "2017-06"
+  description: "Started quantum computing and nanofabrication"
+  category: "milestone"
+  links: []
+  image: "/assets/images/ancient_history/graphene_exfoliation.jpeg"
+
+- name: "Stanford PhD - Applied Physics"
+  date: "2017-09"
+  end_date: "2022-06"
+  description: "PhD at Ginzton lab and LINQS - optomechanical devices for light-sound interaction"
+  category: "milestone"
+  links:
+    - url: "https://purl.stanford.edu/mx877vv9870"
+      label: "PhD Thesis"
+  image: "/assets/images/about/OHMP_device_IMG_1128.png"
+
+# Spun-off projects from PlayGround README
+
+- name: "TabTreeTracker"
+  date: "2024-10-01"
+  description: "Chrome extension to track and visualize browser tab trees"
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/TabTreeTracker"
+      label: "GitHub"
+  image: "/assets/images/projects/TTT.png"
+
+- name: "3DGS Viewer"
+  date: "2025-11-09"
+  description: "3D Gaussian Splatting viewer - deployed web application"
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/3dgs-viewer"
+      label: "GitHub"
+    - url: "https://outside5sigma.com/3dgs-viewer"
+      label: "Live Demo"
+  image: "/assets/images/projects/3dgs-viewer.png"
+  embed_url: "https://outside5sigma.com/3dgs-viewer"
+
+- name: "GDSJam"
+  date: "2025-11-18"
+  description: "Web-based live collaborative GDSII viewer for semiconductor layout visualization. Features WebGL-accelerated rendering, P2P collaboration via WebRTC, layer visibility controls, and both web and desktop versions. Built for academics, chip design newcomers, and the photonics community to promote open-source EDA culture."
+  category: "project"
+  embed_url: "https://gdsjam.com/?url=https://huggingface.co/datasets/jwt625/gdsii/resolve/main/NTNAR04B_100nm_20210714.gds"
+  links:
+    - url: "https://github.com/jwt625/GDSJam"
+      label: "GitHub"
+    - url: "https://gdsjam.com"
+      label: "Website"
+  image: "/assets/images/projects/gdsjam.png"
+
+- name: "BPM (Beam Propagation Method)"
+  date: "2025-03-08"
+  description: "2D beam propagation simulator for integrated photonics - mode solver, waveguide structures, and PML boundary conditions with Gradio GUI"
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/BPM"
+      label: "GitHub"
+    - url: "https://huggingface.co/spaces/jwt625/BPM"
+      label: "HuggingFace Demo"
+  image: "/assets/images/projects/BPM.png"
+
+- name: "VoiceModeTranscript"
+  date: "2025-06-01"
+  description: "Real-time transcript recorder for ChatGPT voice conversations with dual audio capture, whisper.cpp streaming, and intelligent LLM deduplication. Features modular frontend architecture with 8 focused JavaScript modules, event-driven communication, and session export in multiple formats."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/VoiceModeTranscript"
+      label: "GitHub"
+  image: ""
+
+- name: "DocEater"
+  date: "2025-07-07"
+  description: "Production-ready document processing system with REST API and background file monitoring. Converts documents to Markdown using Docling, extracts images, and stores content in PostgreSQL for semantic search"
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/DocEater"
+      label: "GitHub"
+  image: "/assets/images/projects/DocEater.png"
+
+- name: "Bay Bridge Traffic Cam"
+  date: "2025-08-01"
+  description: "Real-time Bay Bridge traffic camera monitoring"
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/bay-bridge-traffic-cam"
+      label: "GitHub"
+    - url: "https://bay-bridge-traffic.com"
+      label: "Live Site"
+  image: "/assets/images/projects/BBT.png"
+
+- name: "psh (Programmable Snippet Helper)"
+  date: "2025-12-27"
+  description: "Text expansion tool with directive-based syntax for dynamic snippet expansion - reuse frequently-used prompts for LLMs without repetitive typing"
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/psh"
+      label: "GitHub"
+  image: "/assets/images/projects/psh.png"
+
+- name: "Claude Code Inspector"
+  date: "2026-01-10"
+  description: "Comprehensive tools for analyzing, tracking, and visualizing Claude Code agent workflows. Features entity extraction from request logs, agent instance tracking across conversations, workflow DAG construction, and interactive React-based viewer with D3.js force-directed graphs and Gantt charts showing parent-child relationships."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/claude-code-inspector"
+      label: "GitHub"
+  image: "/assets/images/projects/claude-code-inspector.png"
+
+- name: "SLM-Guessr"
+  date: "2026-01-15"
+  description: "Educational web application for training intuition on Spatial Light Modulator (SLM) phase masks and their corresponding 2D FFT intensity patterns. Features 150+ animated samples across 7 difficulty levels, progressive curriculum from basic gratings to complex holographic patterns, and bidirectional quiz mode for holographic optics education."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/SLM-Guessr"
+      label: "GitHub"
+    - url: "https://outside5sigma.com/SLM-Guessr"
+      label: "Play Game"
+  image: "/assets/images/projects/SLM-guessr.png"
+  embed_url: "https://outside5sigma.com/SLM-Guessr"
+
+# Additional undocumented projects
+- name: "Age of Agents"
+  date: "2026-01-04"
+  description: "Multi-agent AI system experiments"
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/age-of-agents"
+      label: "GitHub"
+  image: ""
+
+- name: "QFC Plot"
+  date: "2025-03-21"
+  description: "Interactive visualization tool for quantum frequency conversion research literature. Tracks and plots publications across piezo-optomechanics, electro-optomechanics, electro-optics, magneto-optics, and atomic approaches to microwave-optical quantum transduction. Features timeline visualization and comprehensive reference database."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/QFC-plot"
+      label: "GitHub"
+    - url: "https://outside5sigma.com/QFC-plot/"
+      label: "Live Demo"
+  image: "/assets/images/projects/QFC-plots.png"
+  embed_url: "https://outside5sigma.com/QFC-plot/"
+
+- name: "Magic Crystals"
+  date: "2026-01-01"
+  description: "Satirical science education website using crystal healing aesthetics to educate about real laser crystals and scintillators in fundamental physics research. Features 3D crystal lattice visualization with scientifically accurate atomic structures (Ti:Sapphire, Ce:LuAG, Silicon), WebGL-accelerated rendering, and build-time generation of 4,428 atoms for zero runtime cost."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/magic-crystals"
+      label: "GitHub"
+    - url: "https://quantacrystals.org"
+      label: "Live Site"
+  image: "/assets/images/projects/quanta-crystals.png"
+  embed_url: "https://quantacrystals.org"
+
+- name: "RA2 Sounds"
+  date: "2026-01-04"
+  description: "Red Alert 2 sound board and audio collection"
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/ra2-sounds"
+      label: "GitHub"
+    - url: "https://outside5sigma.com/ra2-sounds/"
+      label: "Sound Board"
+  image: "/assets/images/projects/ra2-sounds.png"
+  embed_url: "https://outside5sigma.com/ra2-sounds/"
+
+- name: "WC3 Sounds"
+  date: "2026-01-05"
+  description: "Warcraft 3 sound board and audio collection"
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/WC3-sounds"
+      label: "GitHub"
+    - url: "https://outside5sigma.com/WC3-sounds/"
+      label: "Sound Board"
+  image: "/assets/images/projects/WC3-sounds.png"
+  embed_url: "https://outside5sigma.com/WC3-sounds/"
+
+# Academic Publications (first 3 authors)
+
+- name: "Graphene Quantum Dot"
+  date: "2016-10"
+  description: "Demonstrated Coulomb oscillations in gate-controlled few-layer graphene quantum dots, exploring their potential as hosts for spin qubits. This work investigated charge transport in graphene nanostructures, advancing understanding of quantum confinement effects in two-dimensional materials. Published in Nano Letters."
+  category: "publication"
+  links:
+    - url: "https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.6b02522"
+      label: "Paper"
+  image: "/assets/images/projects/GrapheheQuantumDot_NanoLetter.png"
+
+- name: "ABC-Stacked Trilayer Graphene"
+  date: "2017-04"
+  description: "Theoretical investigation of bound state properties in ABC-stacked trilayer graphene quantum dots. Studied the unique electronic structure and quantum confinement in this specific graphene stacking configuration, revealing distinct characteristics compared to other graphene multilayer systems. Published in Journal of Physics: Condensed Matter."
+  category: "publication"
+  links:
+    - url: "https://iopscience.iop.org/article/10.1088/1361-648X/aa6aac/meta"
+      label: "Paper"
+  image: "/assets/images/projects/ABC_graphene.png"
+
+- name: "Lithium Niobate Piezo-Optomechanics"
+  date: "2019-07"
+  description: "Demonstrated lithium niobate devices with high optical and mechanical quality factors and strong optomechanical coupling for efficient optical transduction. This platform leverages the strong piezoelectric effect in thin-film lithium niobate to enable quantum transduction between microwave and optical domains. Published in Optica."
+  category: "publication"
+  links:
+    - url: "https://www.osapublishing.org/optica/abstract.cfm?uri=optica-6-7-845"
+      label: "Paper"
+  images:
+    - "/assets/images/projects/Jiang-LNOMC-cover-20190606.png"
+    - "/assets/images/projects/LN-piezo-optomechanical-crystals.png"
+
+- name: "Bidirectional Piezo-Optomechanical Transduction"
+  date: "2020-02"
+  description: "Achieved nearly three orders of magnitude improvement in microwave-to-optical conversion efficiency using on-chip piezo-optomechanical transducers. Demonstrated acousto-optic modulation with Vπ = 0.02 V and bidirectional conversion efficiency of 5.5% with blue-detuned pump, addressing challenges in quantum information transfer between superconducting and photonic systems. Published in Nature Communications."
+  category: "publication"
+  links:
+    - url: "https://www.nature.com/articles/s41467-020-14863-3"
+      label: "Paper"
+  image: "/assets/images/projects/bidirectional-piezo-optomechanical-transduction.png"
+
+- name: "Nanobenders for Tunable Nanophotonics"
+  date: "2020-08"
+  description: "Developed compact piezoelectric nanobenders that transduce tens of nanometers per volt by leveraging non-uniform electric fields from submicron electrodes. Demonstrated tuning of optical resonances by ~5 nm/V (0.6 THz/V) across 400 linewidths within 4V at CMOS-compatible voltages, enabling widely tunable nanophotonic components for complex on-chip architectures. Published in Communications Physics."
+  category: "publication"
+  links:
+    - url: "https://www.nature.com/articles/s42005-020-00412-3"
+      label: "Paper"
+  image: "/assets/images/projects/Nanobenders-tunable-nanophotonics.png"
+
+- name: "Gigahertz Phononic Circuits"
+  date: "2021-01"
+  description: "Presented a phononic integrated circuit platform on thin-film lithium niobate on sapphire, inspired by advances in integrated photonics. Utilized the strong piezoelectric effect to create gigahertz-frequency acoustic circuits for signal processing and quantum applications, enabling efficient manipulation of mechanical waves on-chip. Published in Physical Review Applied (Editor's Suggestion)."
+  category: "publication"
+  links:
+    - url: "https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.15.014039"
+      label: "Paper"
+  image: "/assets/images/projects/LiSa-GHz-phononic-circuits.png"
+
+- name: "Flip-Chip Nanomechanical Integration"
+  date: "2023-09"
+  description: "Demonstrated flexible integration of gigahertz nanomechanical resonators with superconducting microwave resonators using a bonded flip-chip method. This technique enables heterogeneous integration of different material platforms, allowing combination of high-quality mechanical resonators with superconducting quantum circuits for hybrid quantum systems. Published in Applied Physics Letters (Cover Image)."
+  category: "publication"
+  links:
+    - url: "https://pubs.aip.org/aip/apl/article-abstract/123/10/104001/2909448/Flexible-integration-of-gigahertz-nanomechanical?redirectedFrom=fulltext"
+      label: "Paper"
+  image: "/assets/images/projects/flip-chip-nanomech-integration.png"
+
+- name: "Optically Heralded Microwave Photons"
+  date: "2023-10"
+  description: "Demonstrated optically heralded microwave photon addition in a quantum transduction system, enabling verification of quantum state transfer between optical and microwave domains. This work advances quantum networking by providing a method to herald the successful creation of microwave photons using optical detection, crucial for linking superconducting quantum processors. Published in Nature Physics."
+  category: "publication"
+  links:
+    - url: "https://www.nature.com/articles/s41567-023-02129-w"
+      label: "Paper"
+  images:
+    - "/assets/images/projects/Optically-Heralded-Microwave-Photons-render.png"
+    - "/assets/images/projects/Optically-Heralded-Microwave-Photons.png"
+
+- name: "Quantum Limits Superconducting Links"
+  date: "2024-11"
+  description: "Analyzed fundamental quantum limits governing hybrid superconducting-photonic links and extended the framework to millimeter-wave frequencies. This theoretical work establishes performance bounds for quantum transduction systems, guiding the development of efficient quantum networks that connect superconducting qubits with optical photons across different frequency regimes. Published in Physical Review Applied."
+  category: "publication"
+  links:
+    - url: "https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.22.054043"
+      label: "Paper"
+  image: "/assets/images/projects/Quantum-Limits-Superconducting-Links.png"
+
