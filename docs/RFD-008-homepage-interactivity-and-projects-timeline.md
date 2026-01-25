@@ -5,6 +5,49 @@
 
 ## DevLog
 
+### 2026-01-25 - Timeline Visual Enhancement Implementation
+
+**Requirements:**
+1. Full-width layout on desktop (>1280px), constrained on mobile/tablet
+2. Floating hover cards that don't affect layout
+3. S-curve callouts connecting project boxes to axis dots
+4. Time-proportional spacing based on actual time gaps
+5. Alternating above/below layout for horizontal timeline
+6. Mobile improvements with proper spacing and image display
+
+**Progress:**
+
+1. **Layout Structure**:
+   - Moved timeline from `index.html` to `_layouts/default.html`
+   - Positioned outside `initial-content` div, directly after masthead
+   - Conditional rendering only on homepage (`page.layout == "home"`)
+   - Full-width section with viewport width breakout technique
+   - Breakpoint at 1280px for mobile/tablet constraint
+
+2. **CSS Implementation** (`assets/css/projects-timeline.css`):
+   - Full-width container styling with dark background (#1a1a1a)
+   - Horizontal layout: axis-centered dots, alternating boxes above/below
+   - Vertical layout: left-aligned axis, boxes on right
+   - SVG connector positioning for S-curves (horizontal) and straight lines (vertical)
+   - Floating detail cards with absolute positioning
+   - Responsive breakpoints at 1280px and 768px
+
+3. **JavaScript Implementation** (`assets/js/projects-timeline.js`):
+   - Time-proportional spacing: 50px (0-2mo), 100px (3-6mo), 150px (7-12mo), 200px (>1yr)
+   - S-curve SVG path generation for horizontal connectors
+   - Dynamic spacing applied via inline styles
+   - Separate rendering paths for horizontal vs vertical layouts
+
+**Current Status:**
+- Placement and size correct
+- Timeline positioned flush below masthead
+- Full-width on desktop, constrained on mobile
+
+**Known Issues:**
+- Rendering and aesthetic problems remain
+- Interactivity issues need fixing
+- Further refinement required
+
 ### 2026-01-25 - Bug Fixes and Completion
 
 **Bugs Fixed:**

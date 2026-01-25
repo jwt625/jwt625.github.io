@@ -15,6 +15,10 @@
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
+    {% if page.layout == "home" %}
+      {% include projects-timeline.html %}
+    {% endif %}
+
     <div class="initial-content">
       {{ content }}
       {% include after-content.html %}

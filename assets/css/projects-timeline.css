@@ -1,10 +1,51 @@
 /* Projects Timeline Styles - Dark Theme */
 
+.projects-timeline-section {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background: #1a1a1a;
+    padding: 40px 20px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+/* Inner container for content constraint */
+.projects-timeline-section > * {
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* On mobile/tablet, keep constrained */
+@media (max-width: 1280px) {
+    .projects-timeline-section {
+        width: 100%;
+        position: static;
+        left: auto;
+        right: auto;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px;
+    }
+}
+
+.timeline-heading {
+    color: #ecf0f1;
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 .timeline-controls {
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .timeline-btn {
@@ -32,113 +73,214 @@
 
 /* Horizontal layout (desktop) */
 .timeline-wrapper.horizontal {
-    min-height: 200px;
+    min-height: 300px;
+    position: relative;
 }
 
 .timeline-wrapper.horizontal .timeline-track {
     display: flex;
-    gap: 40px;
-    padding: 40px 20px;
+    padding: 120px 20px;
     position: relative;
+    align-items: center;
 }
 
+/* Horizontal axis line */
 .timeline-wrapper.horizontal .timeline-track::before {
     content: '';
     position: absolute;
-    top: 80px;
+    top: 50%;
     left: 0;
     right: 0;
     height: 2px;
     background: #4a5f7a;
+    transform: translateY(-50%);
 }
 
 .timeline-wrapper.horizontal .timeline-item {
     position: relative;
-    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     flex-shrink: 0;
 }
 
+/* Marker dot on the axis */
 .timeline-wrapper.horizontal .timeline-marker {
     position: absolute;
-    top: 40px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 16px;
-    height: 16px;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
     background: #ecf0f1;
     border: 3px solid #2c3e50;
     border-radius: 50%;
+    z-index: 3;
+}
+
+/* Project box container - alternating above/below */
+.timeline-wrapper.horizontal .timeline-content {
+    position: absolute;
+    width: 180px;
+}
+
+.timeline-wrapper.horizontal .timeline-item:nth-child(odd) .timeline-content {
+    bottom: 50%;
+    margin-bottom: 40px;
+}
+
+.timeline-wrapper.horizontal .timeline-item:nth-child(even) .timeline-content {
+    top: 50%;
+    margin-top: 40px;
+}
+
+/* S-curve connector SVG */
+.timeline-wrapper.horizontal .timeline-connector {
+    position: absolute;
+    left: -10px;
+    pointer-events: none;
     z-index: 2;
 }
 
-.timeline-wrapper.horizontal .timeline-content {
+.timeline-wrapper.horizontal .timeline-item:nth-child(odd) .timeline-connector {
+    bottom: 50%;
+    margin-bottom: 0;
+}
+
+.timeline-wrapper.horizontal .timeline-item:nth-child(even) .timeline-connector {
+    top: 50%;
+    margin-top: 0;
+}
+
+/* Project title box */
+.timeline-wrapper.horizontal .timeline-box {
+    background: #2c3e50;
+    border: 2px solid #4a5f7a;
+    border-radius: 4px;
+    padding: 10px;
     text-align: center;
 }
 
 .timeline-wrapper.horizontal .timeline-date {
-    margin-bottom: 50px;
-    font-size: 12px;
+    font-size: 11px;
     color: #95a5a6;
+    margin-bottom: 5px;
+}
+
+.timeline-wrapper.horizontal .timeline-title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #ecf0f1;
 }
 
 /* Vertical layout (mobile) */
 .timeline-wrapper.vertical .timeline-track {
     display: flex;
     flex-direction: column;
-    gap: 30px;
     padding: 20px;
     position: relative;
-    padding-left: 40px;
+    padding-left: 60px;
 }
 
+/* Vertical axis line */
 .timeline-wrapper.vertical .timeline-track::before {
     content: '';
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 20px;
+    left: 30px;
     width: 2px;
     background: #4a5f7a;
 }
 
+.timeline-wrapper.vertical .timeline-item {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Marker dot on the axis */
 .timeline-wrapper.vertical .timeline-marker {
     position: absolute;
-    left: -20px;
-    top: 5px;
-    width: 16px;
-    height: 16px;
+    left: -30px;
+    top: 10px;
+    width: 12px;
+    height: 12px;
     background: #ecf0f1;
     border: 3px solid #2c3e50;
     border-radius: 50%;
+    z-index: 3;
+}
+
+/* Connector line from dot to box */
+.timeline-wrapper.vertical .timeline-connector {
+    position: absolute;
+    left: -24px;
+    top: 10px;
+    width: 30px;
+    height: 2px;
+    pointer-events: none;
+    z-index: 2;
 }
 
 .timeline-wrapper.vertical .timeline-content {
-    text-align: left;
+    flex: 1;
+}
+
+/* Project box */
+.timeline-wrapper.vertical .timeline-box {
+    background: #2c3e50;
+    border: 2px solid #4a5f7a;
+    border-radius: 4px;
+    padding: 12px;
 }
 
 .timeline-wrapper.vertical .timeline-date {
-    margin-bottom: 5px;
-    font-size: 12px;
+    font-size: 11px;
     color: #95a5a6;
+    margin-bottom: 5px;
 }
 
-/* Common styles */
-.timeline-title {
+.timeline-wrapper.vertical .timeline-title {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     color: #ecf0f1;
-    margin-bottom: 8px;
 }
 
+/* Hover detail card - floating above everything */
 .timeline-detail {
     display: none;
+    position: absolute;
     background: #2c3e50;
-    border: 1px solid #4a5f7a;
-    border-radius: 4px;
+    border: 2px solid #4a5f7a;
+    border-radius: 6px;
     padding: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+    max-width: 320px;
+    z-index: 100;
+    pointer-events: none;
+}
+
+/* Position detail card for horizontal layout */
+.timeline-wrapper.horizontal .timeline-item:nth-child(odd) .timeline-detail {
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 10px;
+}
+
+.timeline-wrapper.horizontal .timeline-item:nth-child(even) .timeline-detail {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
     margin-top: 10px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    max-width: 300px;
+}
+
+/* Position detail card for vertical layout */
+.timeline-wrapper.vertical .timeline-detail {
+    left: 100%;
+    top: 0;
+    margin-left: 15px;
 }
 
 .timeline-item.active .timeline-detail {
@@ -147,18 +289,19 @@
 
 .timeline-description {
     color: #bdc3c7;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 1.5;
     margin-bottom: 10px;
 }
 
 .timeline-links {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .timeline-links a {
     color: #3498db;
     text-decoration: none;
+    margin-right: 8px;
 }
 
 .timeline-links a:hover {
@@ -185,3 +328,39 @@
     background: #2ecc71;
 }
 
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .timeline-heading {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    .timeline-controls {
+        gap: 8px;
+    }
+
+    .timeline-btn {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+
+    .timeline-wrapper.vertical .timeline-detail {
+        position: static;
+        margin-left: 0;
+        margin-top: 10px;
+        max-width: 100%;
+    }
+
+    .timeline-wrapper.vertical .timeline-box {
+        padding: 10px;
+    }
+
+    .timeline-wrapper.vertical .timeline-title {
+        font-size: 13px;
+    }
+
+    .project-image {
+        max-width: 100%;
+        display: block;
+    }
+}

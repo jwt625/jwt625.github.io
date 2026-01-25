@@ -38,9 +38,37 @@ class ProjectsTimeline {
         return `${year}-${month}`;
     }
 
+    // Calculate time-proportional spacing
+    calculateSpacing(project1, project2) {
+        const date1 = new Date(project1.date);
+        const date2 = new Date(project2.date);
+        const monthsDiff = (date2.getFullYear() - date1.getFullYear()) * 12 +
+                          (date2.getMonth() - date1.getMonth());
+
+        // Spacing units based on time gaps
+        if (monthsDiff <= 2) return 50;      // 0-2 months: unit 1
+        if (monthsDiff <= 6) return 100;     // 3-6 months: unit 2
+        if (monthsDiff <= 12) return 150;    // 7-12 months: unit 3
+        return 200;                          // >1 year: unit 4
+    }
+
+    // Generate S-curve SVG path
+    generateSCurve(isAbove) {
+        const height = 40;
+        const width = 20;
+
+        if (isAbove) {
+            // S-curve going up
+            return `M 0,${height} C ${width/2},${height} ${width/2},0 ${width},0`;
+        } else {
+            // S-curve going down
+            return `M 0,0 C ${width/2},0 ${width/2},${height} ${width},${height}`;
+        }
+    }
+
     render() {
         const visibleProjects = this.viewMonths === Infinity ? this.projects : this.getVisibleProjects();
-        
+
         this.container.innerHTML = `
             <div class="timeline-controls">
                 <button id="timeline-zoom-out" class="timeline-btn">Show All</button>
@@ -49,27 +77,54 @@ class ProjectsTimeline {
             </div>
             <div class="timeline-wrapper ${this.currentView}">
                 <div class="timeline-track">
-                    ${visibleProjects.map((project, index) => this.renderProject(project, index)).join('')}
+                    ${visibleProjects.map((project, index) =>
+                        this.renderProject(project, index, visibleProjects)).join('')}
                 </div>
             </div>
         `;
     }
 
-    renderProject(project, index) {
+    renderProject(project, index, allProjects) {
         const categoryClass = `category-${project.category}`;
-        const linksHtml = project.links.map(link => 
+        const linksHtml = project.links.map(link =>
             `<a href="${link.url}" target="_blank" rel="noopener">${link.label}</a>`
         ).join(' | ');
-        
-        const imageHtml = project.image ? 
+
+        const imageHtml = project.image ?
             `<img src="${project.image}" alt="${project.name}" class="project-image" />` : '';
 
+        // Calculate spacing from previous project
+        const spacing = index > 0 ? this.calculateSpacing(allProjects[index - 1], project) : 0;
+        const spacingStyle = this.currentView === 'horizontal'
+            ? `margin-left: ${spacing}px;`
+            : `margin-top: ${spacing}px;`;
+
+        // Determine if this item is above or below (for horizontal)
+        const isAbove = index % 2 === 0;
+
+        // S-curve connector for horizontal layout
+        const connectorHtml = this.currentView === 'horizontal'
+            ? `<svg class="timeline-connector" width="20" height="40" viewBox="0 0 20 40">
+                 <path d="${this.generateSCurve(isAbove)}"
+                       stroke="#4a5f7a"
+                       stroke-width="2"
+                       fill="none"/>
+               </svg>`
+            : `<svg class="timeline-connector" width="30" height="2" viewBox="0 0 30 2">
+                 <line x1="0" y1="1" x2="30" y2="1"
+                       stroke="#4a5f7a"
+                       stroke-width="2"/>
+               </svg>`;
+
         return `
-            <div class="timeline-item ${categoryClass}" data-index="${index}">
+            <div class="timeline-item ${categoryClass}" data-index="${index}" style="${spacingStyle}">
                 <div class="timeline-marker"></div>
+                ${connectorHtml}
                 <div class="timeline-content">
-                    <div class="timeline-date">${this.formatDate(project.date)}</div>
-                    <div class="timeline-title">${project.name}</div>
+                    <div class="timeline-box">
+                        <div class="timeline-date">${this.formatDate(project.date)}</div>
+                        <div class="timeline-title">${project.name}</div>
+                    </div>
                     <div class="timeline-detail">
                         ${imageHtml}
                         <p class="timeline-description">${project.description}</p>
