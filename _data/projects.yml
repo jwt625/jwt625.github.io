@@ -3,7 +3,7 @@
 
 # Historical milestones
 - name: "Chemistry Experiments"
-  date: "2007-01"
+  date: "2009-01"
   description: "Started experimenting with chemistry - picking locks, stealing chemicals from school labs, thermite reactions"
   category: "milestone"
   links: []
@@ -77,6 +77,15 @@
     - url: "https://github.com/jwt625/VoiceModeTranscript"
       label: "GitHub"
   image: ""
+
+- name: "DocEater"
+  date: "2025-07-07"
+  description: "Production-ready document processing system with REST API and background file monitoring. Converts documents to Markdown using Docling, extracts images, and stores content in PostgreSQL for semantic search"
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/DocEater"
+      label: "GitHub"
+  image: "/assets/images/projects/DocEater.png"
 
 - name: "Bay Bridge Traffic Cam"
   date: "2025-08-01"

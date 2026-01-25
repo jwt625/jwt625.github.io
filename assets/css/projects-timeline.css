@@ -53,7 +53,7 @@
     color: #ecf0f1;
     border: 1px solid #34495e;
     padding: 8px 16px;
-    border-radius: 4px;
+    border-radius: 0;
     cursor: pointer;
     font-size: 14px;
     transition: all 0.3s ease;
@@ -64,24 +64,55 @@
     transform: translateY(-1px);
 }
 
+.timeline-btn.active {
+    background: #3498db;
+    border-color: #2980b9;
+    font-weight: bold;
+}
+
 .timeline-wrapper {
     position: relative;
     padding: 20px 0;
     overflow-x: auto;
     overflow-y: visible;
+    cursor: grab;
+}
+
+.timeline-wrapper:active {
+    cursor: grabbing;
+}
+
+/* Custom scrollbar styling */
+.timeline-wrapper::-webkit-scrollbar {
+    height: 8px;
+}
+
+.timeline-wrapper::-webkit-scrollbar-track {
+    background: #1a1a1a;
+    border-radius: 0;
+}
+
+.timeline-wrapper::-webkit-scrollbar-thumb {
+    background: #4a5f7a;
+    border-radius: 0;
+}
+
+.timeline-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #5a6f8a;
 }
 
 /* Horizontal layout (desktop) */
 .timeline-wrapper.horizontal {
-    min-height: 300px;
+    min-height: 400px;
     position: relative;
 }
 
 .timeline-wrapper.horizontal .timeline-track {
     display: flex;
-    padding: 120px 20px;
+    padding: 150px 40px;
     position: relative;
     align-items: center;
+    min-width: min-content;
 }
 
 /* Horizontal axis line */
@@ -94,6 +125,7 @@
     height: 2px;
     background: #4a5f7a;
     transform: translateY(-50%);
+    z-index: 1;
 }
 
 .timeline-wrapper.horizontal .timeline-item {
@@ -102,13 +134,16 @@
     flex-direction: column;
     align-items: center;
     flex-shrink: 0;
+    /* Give item a minimal width - marker will be centered */
+    width: 12px;
+    height: 100%;
 }
 
-/* Marker dot on the axis */
+/* Marker dot on the axis - centered in the item */
 .timeline-wrapper.horizontal .timeline-marker {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 12px;
     height: 12px;
@@ -122,43 +157,54 @@
 .timeline-wrapper.horizontal .timeline-content {
     position: absolute;
     width: 180px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .timeline-wrapper.horizontal .timeline-item:nth-child(odd) .timeline-content {
     bottom: 50%;
-    margin-bottom: 40px;
+    margin-bottom: 46px; /* 40px for S-curve + 6px spacing */
 }
 
 .timeline-wrapper.horizontal .timeline-item:nth-child(even) .timeline-content {
     top: 50%;
-    margin-top: 40px;
+    margin-top: 46px; /* 40px for S-curve + 6px spacing */
 }
 
-/* S-curve connector SVG */
+/* S-curve connector SVG - connects marker to box */
 .timeline-wrapper.horizontal .timeline-connector {
     position: absolute;
-    left: -10px;
+    left: 50%;
+    transform: translateX(-50%);
     pointer-events: none;
     z-index: 2;
 }
 
 .timeline-wrapper.horizontal .timeline-item:nth-child(odd) .timeline-connector {
     bottom: 50%;
-    margin-bottom: 0;
+    margin-bottom: 6px; /* Just above the marker */
 }
 
 .timeline-wrapper.horizontal .timeline-item:nth-child(even) .timeline-connector {
     top: 50%;
-    margin-top: 0;
+    margin-top: 6px; /* Just below the marker */
 }
 
 /* Project title box */
 .timeline-wrapper.horizontal .timeline-box {
     background: #2c3e50;
     border: 2px solid #4a5f7a;
-    border-radius: 4px;
+    border-radius: 0;
     padding: 10px;
     text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.timeline-wrapper.horizontal .timeline-box:hover {
+    background: #34495e;
+    border-color: #5a6f8a;
+    transform: scale(1.05);
 }
 
 .timeline-wrapper.horizontal .timeline-date {
@@ -231,8 +277,16 @@
 .timeline-wrapper.vertical .timeline-box {
     background: #2c3e50;
     border: 2px solid #4a5f7a;
-    border-radius: 4px;
+    border-radius: 0;
     padding: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.timeline-wrapper.vertical .timeline-box:hover {
+    background: #34495e;
+    border-color: #5a6f8a;
+    transform: scale(1.02);
 }
 
 .timeline-wrapper.vertical .timeline-date {
@@ -247,73 +301,108 @@
     color: #ecf0f1;
 }
 
-/* Hover detail card - floating above everything */
-.timeline-detail {
+/* Project Detail Modal */
+.project-detail-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    transition: opacity 0.3s ease;
+}
+
+.project-detail-modal.hidden {
     display: none;
-    position: absolute;
+}
+
+.project-detail-content {
     background: #2c3e50;
     border: 2px solid #4a5f7a;
-    border-radius: 6px;
-    padding: 15px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-    max-width: 320px;
-    z-index: 100;
-    pointer-events: none;
+    border-radius: 0;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
 }
 
-/* Position detail card for horizontal layout */
-.timeline-wrapper.horizontal .timeline-item:nth-child(odd) .timeline-detail {
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-bottom: 10px;
+.project-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #4a5f7a;
 }
 
-.timeline-wrapper.horizontal .timeline-item:nth-child(even) .timeline-detail {
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: 10px;
+.project-detail-header h3 {
+    margin: 0;
+    color: #ecf0f1;
+    font-size: 24px;
 }
 
-/* Position detail card for vertical layout */
-.timeline-wrapper.vertical .timeline-detail {
-    left: 100%;
-    top: 0;
-    margin-left: 15px;
+.project-detail-close {
+    background: none;
+    border: none;
+    color: #ecf0f1;
+    font-size: 32px;
+    cursor: pointer;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    transition: color 0.2s ease;
 }
 
-.timeline-item.active .timeline-detail {
-    display: block;
+.project-detail-close:hover {
+    color: #e74c3c;
 }
 
-.timeline-description {
-    color: #bdc3c7;
-    font-size: 13px;
-    line-height: 1.5;
-    margin-bottom: 10px;
+.project-detail-body {
+    padding: 20px;
 }
 
-.timeline-links {
-    font-size: 12px;
-}
-
-.timeline-links a {
-    color: #3498db;
-    text-decoration: none;
-    margin-right: 8px;
-}
-
-.timeline-links a:hover {
-    text-decoration: underline;
-}
-
-.project-image {
-    max-width: 100%;
+.project-modal-image {
+    width: 100%;
     height: auto;
-    border-radius: 4px;
-    margin-bottom: 10px;
+    border-radius: 0;
+    margin-bottom: 20px;
 }
+
+#project-modal-description {
+    color: #bdc3c7;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+#project-modal-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.project-modal-link {
+    display: inline-block;
+    background: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 0;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.2s ease;
+}
+
+.project-modal-link:hover {
+    background: #2980b9;
+}
+
+
 
 /* Category colors */
 .category-milestone .timeline-marker {
@@ -344,13 +433,6 @@
         font-size: 12px;
     }
 
-    .timeline-wrapper.vertical .timeline-detail {
-        position: static;
-        margin-left: 0;
-        margin-top: 10px;
-        max-width: 100%;
-    }
-
     .timeline-wrapper.vertical .timeline-box {
         padding: 10px;
     }
@@ -359,8 +441,16 @@
         font-size: 13px;
     }
 
-    .project-image {
-        max-width: 100%;
-        display: block;
+    .project-detail-content {
+        width: 95%;
+        max-height: 95vh;
+    }
+
+    .project-detail-header h3 {
+        font-size: 20px;
+    }
+
+    .project-detail-body {
+        padding: 15px;
     }
 }
