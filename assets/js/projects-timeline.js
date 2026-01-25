@@ -168,6 +168,24 @@ class ProjectsTimeline {
         // Determine if this item is above or below (for horizontal)
         const isAbove = index % 2 === 0;
 
+        // Calculate duration segment if end_date exists
+        let durationSegment = '';
+        if (project.end_date) {
+            const startDate = new Date(project.date);
+            const endDate = new Date(project.end_date);
+            const durationMonths = (endDate.getFullYear() - startDate.getFullYear()) * 12 +
+                                   (endDate.getMonth() - startDate.getMonth());
+
+            // Calculate width based on duration
+            const segmentWidth = this.calculateDurationWidth(durationMonths);
+
+            if (this.currentView === 'horizontal') {
+                durationSegment = `<div class="timeline-duration-segment" style="width: ${segmentWidth}px;"></div>`;
+            } else {
+                durationSegment = `<div class="timeline-duration-segment vertical" style="height: ${segmentWidth}px;"></div>`;
+            }
+        }
+
         // S-curve connector for horizontal layout
         const connectorHtml = this.currentView === 'horizontal'
             ? `<svg class="timeline-connector" width="2" height="40" viewBox="0 0 2 40">
@@ -183,17 +201,26 @@ class ProjectsTimeline {
                </svg>`;
 
         return `
-            <div class="timeline-item ${categoryClass}" data-index="${index}" style="${spacingStyle}">
+            <div class="timeline-item ${categoryClass} ${project.end_date ? 'has-duration' : ''}" data-index="${index}" style="${spacingStyle}">
                 <div class="timeline-marker"></div>
+                ${durationSegment}
                 ${connectorHtml}
                 <div class="timeline-content">
                     <div class="timeline-box" data-project-index="${index}">
-                        <div class="timeline-date">${this.formatDate(project.date)}</div>
+                        <div class="timeline-date">${this.formatDate(project.date)}${project.end_date ? ' - ' + this.formatDate(project.end_date) : ''}</div>
                         <div class="timeline-title">${project.name}</div>
                     </div>
                 </div>
             </div>
         `;
+    }
+
+    calculateDurationWidth(months) {
+        // Use similar spacing logic as calculateSpacing
+        if (months <= 2) return months * 40;
+        if (months <= 6) return 80 + (months - 2) * 37.5;
+        if (months <= 12) return 230 + (months - 6) * 36.67;
+        return 450 + (months - 12) * 25;
     }
 
     attachEventListeners() {

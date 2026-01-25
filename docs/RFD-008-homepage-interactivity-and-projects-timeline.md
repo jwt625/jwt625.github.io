@@ -1,7 +1,7 @@
 # RFD-008: Homepage Interactivity and Projects Timeline
 
 ## Status
-**IN PROGRESS** - 2026-01-25
+**COMPLETE** - 2026-01-25
 
 ## DevLog
 
@@ -64,6 +64,35 @@
 - OFS toggle fully functional with proper pagination
 - Thumbnails display correctly in both all-posts and non-OFS views
 - Clean post listings without category badges on homepage
+
+### 2026-01-25 - Final Implementation
+
+**Timeline Redesign:**
+- Replaced hover cards with centered modal popup (800px width)
+- Modal closes on ESC key or click outside
+- Simplified drag-to-scroll implementation
+- Default view: Last 6 months
+- All navigation buttons functional (Show All, Last 6 Months, First, Last)
+
+**UI Polish:**
+- Sharp corners (border-radius: 0) on all buttons and containers
+- Updated heading from "Projects Timeline" to "Side Projects"
+- OFS toggle button also uses sharp corners
+
+**Duration Segments:**
+- Projects with end_date display thick visual segments on timeline
+- Horizontal layout: 6px tall segment extending right from marker
+- Vertical layout: 6px wide segment extending down from marker
+- Gradient fade effect (60% to 20% opacity)
+- Date ranges shown in timeline boxes (e.g., "Sep 2014 - Jun 2017")
+
+**Data Updates:**
+- Chemistry Experiments corrected to 2009
+- Tsinghua University: 2014-09 to 2017-06 (with duration segment)
+- Stanford PhD: 2017-09 to 2022-06 (with duration segment)
+- DocEater project added with GitHub link and preview image
+
+**Status:** All features complete and functional.
 
 ### 2026-01-25 - Initial Implementation and Redesign
 
