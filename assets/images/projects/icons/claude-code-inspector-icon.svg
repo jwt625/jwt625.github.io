@@ -1,0 +1,97 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#0a0a0a"/>
+  
+  <!-- Grid lines -->
+  <line x1="60" y1="0" x2="60" y2="200" stroke="#444" stroke-width="0.5" opacity="0.3"/>
+  <line x1="100" y1="0" x2="100" y2="200" stroke="#444" stroke-width="0.5" opacity="0.3"/>
+  <line x1="140" y1="0" x2="140" y2="200" stroke="#444" stroke-width="0.5" opacity="0.3"/>
+  <line x1="180" y1="0" x2="180" y2="200" stroke="#444" stroke-width="0.5" opacity="0.3"/>
+  
+  <!-- Agent labels sidebar -->
+  <rect x="0" y="0" width="35" height="200" fill="#0f0f0f"/>
+  <line x1="35" y1="0" x2="35" y2="200" stroke="#333" stroke-width="1"/>
+  
+  <!-- Agent label indicators -->
+  <rect x="2" y="45" width="2" height="20" fill="#4ec9b0"/>
+  <rect x="2" y="95" width="2" height="20" fill="#ce9178"/>
+  <rect x="2" y="145" width="2" height="20" fill="#569cd6"/>
+  
+  <!-- Agent label text (simplified as small rectangles) -->
+  <rect x="8" y="50" width="20" height="3" fill="#4ec9b0" opacity="0.6"/>
+  <rect x="8" y="55" width="12" height="2" fill="#666" opacity="0.8"/>
+  
+  <rect x="8" y="100" width="20" height="3" fill="#ce9178" opacity="0.6"/>
+  <rect x="8" y="105" width="12" height="2" fill="#666" opacity="0.8"/>
+  
+  <rect x="8" y="150" width="20" height="3" fill="#569cd6" opacity="0.6"/>
+  <rect x="8" y="155" width="12" height="2" fill="#666" opacity="0.8"/>
+  
+  <!-- Parent Agent (Agent 1) - Multiple request bars -->
+  <rect x="45" y="48" width="35" height="14" fill="#4ec9b0" rx="0"/>
+  <rect x="85" y="48" width="25" height="14" fill="#4ec9b0" rx="0"/>
+  <rect x="115" y="48" width="30" height="14" fill="#4ec9b0" rx="0"/>
+  <!-- Fourth request bar - after subagent merges back -->
+  <rect x="150" y="48" width="35" height="14" fill="#4ec9b0" rx="0"/>
+
+  <!-- Child Agent (Agent 2) - Spawned from parent -->
+  <rect x="95" y="98" width="40" height="14" fill="#ce9178" rx="0"/>
+  <rect x="140" y="98" width="35" height="14" fill="#ce9178" rx="0"/>
+
+  <!-- Grandchild Agent (Agent 3) - Spawned from child -->
+  <rect x="125" y="148" width="45" height="14" fill="#569cd6" rx="0"/>
+
+  <!-- Arrow marker definitions -->
+  <defs>
+    <marker id="arrowhead" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#888"/>
+    </marker>
+    <marker id="arrowhead-return" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#8b5cf6"/>
+    </marker>
+  </defs>
+
+  <!-- Spawn arrow: Parent (Agent 1, request 2) -> Child (Agent 2, start) -->
+  <!-- Thinner dashed grey arrow from parent's second request to child's first request -->
+  <path d="M 100 62 C 100 75, 95 85, 95 98"
+        stroke="#888"
+        stroke-width="1"
+        stroke-dasharray="4,3"
+        fill="none"
+        marker-end="url(#arrowhead)"
+        opacity="0.6"/>
+
+  <!-- Spawn arrow: Child (Agent 2, request 1) -> Grandchild (Agent 3, start) -->
+  <!-- Thinner dashed grey arrow from child's first request to grandchild's first request -->
+  <path d="M 115 112 C 115 125, 125 135, 125 148"
+        stroke="#888"
+        stroke-width="1"
+        stroke-dasharray="4,3"
+        fill="none"
+        marker-end="url(#arrowhead)"
+        opacity="0.6"/>
+
+  <!-- Return arrow: Grandchild (Agent 3, end) -> Child (Agent 2, request 2) -->
+  <!-- Thicker solid purple arrow showing merge back -->
+  <path d="M 155 148 C 155 135, 150 125, 150 112"
+        stroke="#8b5cf6"
+        stroke-width="2"
+        fill="none"
+        marker-end="url(#arrowhead-return)"
+        opacity="0.8"/>
+
+  <!-- Return arrow: Child (Agent 2, end) -> Parent (Agent 1, request 4) -->
+  <!-- Thicker solid purple arrow showing merge back to parent -->
+  <path d="M 165 98 C 165 85, 160 75, 160 62"
+        stroke="#8b5cf6"
+        stroke-width="2"
+        fill="none"
+        marker-end="url(#arrowhead-return)"
+        opacity="0.8"/>
+
+  <!-- Subtle glow effect on bars (hover simulation) -->
+  <rect x="95" y="98" width="40" height="14" fill="none" stroke="#ce9178" stroke-width="0.5" opacity="0.3" rx="0"/>
+</svg>
+

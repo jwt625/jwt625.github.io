@@ -179,13 +179,13 @@
 
 /* Horizontal layout (desktop) */
 .timeline-wrapper.horizontal {
-    min-height: 400px;
+    min-height: 460px;
     position: relative;
 }
 
 .timeline-wrapper.horizontal .timeline-track {
     display: flex;
-    padding: 150px 40px;
+    padding: 180px 40px 150px 40px;
     position: relative;
     align-items: center;
     min-width: min-content;
@@ -307,6 +307,14 @@
     color: #ecf0f1;
 }
 
+/* Timeline icon in horizontal boxes */
+.timeline-wrapper.horizontal .timeline-icon {
+    width: 64px;
+    height: 64px;
+    margin-top: 8px;
+    object-fit: contain;
+}
+
 /* Vertical layout (mobile) */
 .timeline-wrapper.vertical .timeline-track {
     display: flex;
@@ -398,6 +406,14 @@
     font-weight: bold;
     font-size: 14px;
     color: #ecf0f1;
+}
+
+/* Timeline icon in vertical boxes */
+.timeline-wrapper.vertical .timeline-icon {
+    width: 56px;
+    height: 56px;
+    margin-top: 8px;
+    object-fit: contain;
 }
 
 /* Project Detail Modal */

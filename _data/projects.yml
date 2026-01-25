@@ -49,6 +49,7 @@
     - url: "https://outside5sigma.com/3dgs-viewer"
       label: "Live Demo"
   image: "/assets/images/projects/3dgs-viewer.png"
+  icon: "/assets/images/projects/icons/3dgs-viewer-icon.svg"
   embed_url: "https://outside5sigma.com/3dgs-viewer"
 
 - name: "GDSJam"
@@ -62,6 +63,7 @@
     - url: "https://gdsjam.com"
       label: "Website"
   image: "/assets/images/projects/gdsjam.png"
+  icon: "/assets/images/projects/icons/gdsjam-icon.svg"
 
 - name: "BPM (Beam Propagation Method)"
   date: "2025-03-08"
@@ -111,6 +113,7 @@
     - url: "https://github.com/jwt625/psh"
       label: "GitHub"
   image: "/assets/images/projects/psh.png"
+  icon: "/assets/images/projects/icons/psh-icon.svg"
 
 - name: "Claude Code Inspector"
   date: "2026-01-10"
@@ -120,6 +123,7 @@
     - url: "https://github.com/jwt625/claude-code-inspector"
       label: "GitHub"
   image: "/assets/images/projects/claude-code-inspector.png"
+  icon: "/assets/images/projects/icons/claude-code-inspector-icon.svg"
 
 - name: "SLM-Guessr"
   date: "2026-01-15"
@@ -131,6 +135,7 @@
     - url: "https://outside5sigma.com/SLM-Guessr"
       label: "Play Game"
   image: "/assets/images/projects/SLM-guessr.png"
+  icon: "/assets/images/projects/icons/slm-guessr-icon.svg"
   embed_url: "https://outside5sigma.com/SLM-Guessr"
 
 # Additional undocumented projects
@@ -165,6 +170,7 @@
     - url: "https://quantacrystals.org"
       label: "Live Site"
   image: "/assets/images/projects/quanta-crystals.png"
+  icon: "/assets/images/projects/icons/magic-crystals-icon.svg"
   embed_url: "https://quantacrystals.org"
 
 - name: "RA2 Sounds"
@@ -177,6 +183,7 @@
     - url: "https://outside5sigma.com/ra2-sounds/"
       label: "Sound Board"
   image: "/assets/images/projects/ra2-sounds.png"
+  icon: "/assets/images/projects/icons/RA2.png"
   embed_url: "https://outside5sigma.com/ra2-sounds/"
 
 - name: "WC3 Sounds"
@@ -189,6 +196,7 @@
     - url: "https://outside5sigma.com/WC3-sounds/"
       label: "Sound Board"
   image: "/assets/images/projects/WC3-sounds.png"
+  icon: "/assets/images/projects/icons/WC3.png"
   embed_url: "https://outside5sigma.com/WC3-sounds/"
 
 # Academic Publications (first 3 authors)

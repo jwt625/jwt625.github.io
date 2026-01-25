@@ -269,6 +269,11 @@ class ProjectsTimeline {
                        stroke-width="2"/>
                </svg>`;
 
+        // Render icon if available
+        const iconHtml = project.icon && project.icon.trim() !== ''
+            ? `<img src="${project.icon}" alt="${project.name} icon" class="timeline-icon" />`
+            : '';
+
         return `
             <div class="timeline-item ${categoryClass} ${project.end_date ? 'has-duration' : ''}" data-index="${index}" style="${spacingStyle}">
                 <div class="timeline-marker"></div>
@@ -278,6 +283,7 @@ class ProjectsTimeline {
                     <div class="timeline-box" data-project-index="${index}">
                         <div class="timeline-date">${this.formatDate(project.date)}${project.end_date ? ' - ' + this.formatDate(project.end_date) : ''}</div>
                         <div class="timeline-title">${project.name}</div>
+                        ${iconHtml}
                     </div>
                 </div>
             </div>

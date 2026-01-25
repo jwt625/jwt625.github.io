@@ -5,6 +5,26 @@
 
 ## DevLog
 
+### 2026-01-25 - Project Icons Added to Timeline
+
+**Icons Fetched from Repositories:**
+- psh: `icon.svg`
+- magic-crystals: `public/assets/crystal-logo.svg`
+- claude-code-inspector: `proxy/viewer/gantt-icon.svg`
+- 3dgs-viewer: `public/3dgs-icon.svg`
+- GDSJam: `public/icon.svg`
+- SLM-Guessr: `static/icon.svg`
+
+**Icons Added Locally:**
+- RA2 Sounds: `RA2.png`
+- WC3 Sounds: `WC3.png`
+
+**Implementation:**
+- Created `assets/images/projects/icons/` directory
+- Added `icon` field to 8 projects in `_data/projects.yml`
+- Updated `renderProject()` in `assets/js/projects-timeline.js` to render icons below project titles
+- Added `.timeline-icon` CSS styles (64x64px desktop, 56x56px mobile)
+
 ### 2026-01-25 - Timeline Visual Enhancement Implementation
 
 **Requirements:**
@@ -319,6 +339,31 @@ The blog homepage currently lacks two key features:
 - Mobile layout switches to vertical
 - Dark theme styling consistent with blog
 - No performance degradation on homepage load
+
+## GitHub Repository Icon Audit
+
+**Repositories WITH icon files (implemented):**
+
+| Project | Source | Local Path |
+|---------|--------|------------|
+| psh | `icon.svg` | `icons/psh-icon.svg` |
+| magic-crystals | `public/assets/crystal-logo.svg` | `icons/magic-crystals-icon.svg` |
+| claude-code-inspector | `proxy/viewer/gantt-icon.svg` | `icons/claude-code-inspector-icon.svg` |
+| 3dgs-viewer | `public/3dgs-icon.svg` | `icons/3dgs-viewer-icon.svg` |
+| GDSJam | `public/icon.svg` | `icons/gdsjam-icon.svg` |
+| SLM-Guessr | `static/icon.svg` | `icons/slm-guessr-icon.svg` |
+| RA2 Sounds | local | `icons/RA2.png` |
+| WC3 Sounds | local | `icons/WC3.png` |
+
+**Repositories WITHOUT icon files:**
+
+- TabTreeTracker
+- BPM
+- VoiceModeTranscript
+- DocEater
+- bay-bridge-traffic-cam
+- Age of Agents
+- QFC Plot
 
 ## Related Documents
 
