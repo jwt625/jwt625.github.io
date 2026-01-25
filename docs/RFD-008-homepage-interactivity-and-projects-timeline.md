@@ -94,6 +94,38 @@
 
 **Status:** All features complete and functional.
 
+### 2026-01-25 - Project Data Updates and Multi-Image Support
+
+**Project Data Corrections:**
+- Verified and corrected repository creation dates via GitHub API:
+  - 3DGS Viewer: 2024-11-15 → 2025-11-09
+  - GDSJam: 2024-11-20 → 2025-11-18
+  - Age of Agents: 2024-12-01 → 2026-01-04
+- Fixed project descriptions based on actual repository content:
+  - psh: "Process Shell" → "Programmable Snippet Helper" (text expansion tool for LLM prompts)
+  - BPM: "Beats Per Minute" → "Beam Propagation Method" (2D photonics simulator)
+- Added 9 academic publications (2016-2024) where user was in first 3 authors
+  - Concise 5-word-max titles for timeline display
+  - Category: "publication" to distinguish from side projects
+
+**Image Assets:**
+- Added project images for QFC Plot, psh, and all 9 publications
+- Implemented backward-compatible multi-image support:
+  - Single image: `image: "/path/to/image.png"` (existing format, unchanged)
+  - Multiple images: `images: ["/path/1.png", "/path/2.png"]` (new format)
+  - JavaScript auto-detects format and renders accordingly
+  - Gallery layout for multiple images (responsive grid, mobile-friendly)
+- Updated two publications to use multi-image format:
+  - Lithium Niobate Piezo-Optomechanics: cover + detail images
+  - Optically Heralded Microwave Photons: render + original images
+
+**Technical Implementation:**
+- Modified `assets/js/projects-timeline.js` openModal() to handle both formats
+- Added `.project-modal-image-gallery` CSS with responsive grid layout
+- All existing single-image projects continue to work without changes
+
+**Status:** Timeline now includes complete academic publication history with accurate dates and images.
+
 ### 2026-01-25 - Initial Implementation and Redesign
 
 **Completed:**

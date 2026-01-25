@@ -3,7 +3,8 @@
 
 # Historical milestones
 - name: "Chemistry Experiments"
-  date: "2009-01"
+  date: "2008"
+  end_date: "2010"
   description: "Started experimenting with chemistry - picking locks, stealing chemicals from school labs, thermite reactions"
   category: "milestone"
   links: []
@@ -48,11 +49,13 @@
     - url: "https://outside5sigma.com/3dgs-viewer"
       label: "Live Demo"
   image: "/assets/images/projects/3dgs-viewer.png"
+  embed_url: "https://outside5sigma.com/3dgs-viewer"
 
 - name: "GDSJam"
   date: "2025-11-18"
-  description: "Game development jam project"
+  description: "Web-based live collaborative GDSII viewer for semiconductor layout visualization. Features WebGL-accelerated rendering, P2P collaboration via WebRTC, layer visibility controls, and both web and desktop versions. Built for academics, chip design newcomers, and the photonics community to promote open-source EDA culture."
   category: "project"
+  embed_url: "https://gdsjam.com/?url=https://huggingface.co/datasets/jwt625/gdsii/resolve/main/NTNAR04B_100nm_20210714.gds"
   links:
     - url: "https://github.com/jwt625/GDSJam"
       label: "GitHub"
@@ -73,7 +76,7 @@
 
 - name: "VoiceModeTranscript"
   date: "2025-06-01"
-  description: "Voice transcription and mode detection"
+  description: "Real-time transcript recorder for ChatGPT voice conversations with dual audio capture, whisper.cpp streaming, and intelligent LLM deduplication. Features modular frontend architecture with 8 focused JavaScript modules, event-driven communication, and session export in multiple formats."
   category: "project"
   links:
     - url: "https://github.com/jwt625/VoiceModeTranscript"
@@ -111,7 +114,7 @@
 
 - name: "Claude Code Inspector"
   date: "2026-01-10"
-  description: "Tool for inspecting and analyzing Claude-generated code"
+  description: "Comprehensive tools for analyzing, tracking, and visualizing Claude Code agent workflows. Features entity extraction from request logs, agent instance tracking across conversations, workflow DAG construction, and interactive React-based viewer with D3.js force-directed graphs and Gantt charts showing parent-child relationships."
   category: "project"
   links:
     - url: "https://github.com/jwt625/claude-code-inspector"
@@ -120,7 +123,7 @@
 
 - name: "SLM-Guessr"
   date: "2026-01-15"
-  description: "Small Language Model guessing game"
+  description: "Educational web application for training intuition on Spatial Light Modulator (SLM) phase masks and their corresponding 2D FFT intensity patterns. Features 150+ animated samples across 7 difficulty levels, progressive curriculum from basic gratings to complex holographic patterns, and bidirectional quiz mode for holographic optics education."
   category: "project"
   links:
     - url: "https://github.com/jwt625/SLM-Guessr"
@@ -128,6 +131,7 @@
     - url: "https://outside5sigma.com/SLM-Guessr"
       label: "Play Game"
   image: "/assets/images/projects/SLM-guessr.png"
+  embed_url: "https://outside5sigma.com/SLM-Guessr"
 
 # Additional undocumented projects
 - name: "Age of Agents"
@@ -141,7 +145,7 @@
 
 - name: "QFC Plot"
   date: "2025-03-21"
-  description: "Quantum Fourier Coefficient plotting tool"
+  description: "Interactive visualization tool for quantum frequency conversion research literature. Tracks and plots publications across piezo-optomechanics, electro-optomechanics, electro-optics, magneto-optics, and atomic approaches to microwave-optical quantum transduction. Features timeline visualization and comprehensive reference database."
   category: "project"
   links:
     - url: "https://github.com/jwt625/QFC-plot"
@@ -149,10 +153,11 @@
     - url: "https://outside5sigma.com/QFC-plot/"
       label: "Live Demo"
   image: "/assets/images/projects/QFC-plots.png"
+  embed_url: "https://outside5sigma.com/QFC-plot/"
 
 - name: "Magic Crystals"
   date: "2026-01-01"
-  description: "Interactive crystal visualization"
+  description: "Satirical science education website using crystal healing aesthetics to educate about real laser crystals and scintillators in fundamental physics research. Features 3D crystal lattice visualization with scientifically accurate atomic structures (Ti:Sapphire, Ce:LuAG, Silicon), WebGL-accelerated rendering, and build-time generation of 4,428 atoms for zero runtime cost."
   category: "project"
   links:
     - url: "https://github.com/jwt625/magic-crystals"
@@ -160,6 +165,7 @@
     - url: "https://quantacrystals.org"
       label: "Live Site"
   image: "/assets/images/projects/quanta-crystals.png"
+  embed_url: "https://quantacrystals.org"
 
 - name: "RA2 Sounds"
   date: "2026-01-04"
@@ -171,6 +177,7 @@
     - url: "https://outside5sigma.com/ra2-sounds/"
       label: "Sound Board"
   image: "/assets/images/projects/ra2-sounds.png"
+  embed_url: "https://outside5sigma.com/ra2-sounds/"
 
 - name: "WC3 Sounds"
   date: "2026-01-05"
@@ -182,12 +189,13 @@
     - url: "https://outside5sigma.com/WC3-sounds/"
       label: "Sound Board"
   image: "/assets/images/projects/WC3-sounds.png"
+  embed_url: "https://outside5sigma.com/WC3-sounds/"
 
 # Academic Publications (first 3 authors)
 
 - name: "Graphene Quantum Dot"
   date: "2016-10"
-  description: "Coulomb Oscillations in a Gate-Controlled Few-Layer Graphene Quantum Dot - Nano Letters"
+  description: "Demonstrated Coulomb oscillations in gate-controlled few-layer graphene quantum dots, exploring their potential as hosts for spin qubits. This work investigated charge transport in graphene nanostructures, advancing understanding of quantum confinement effects in two-dimensional materials. Published in Nano Letters."
   category: "publication"
   links:
     - url: "https://pubs.acs.org/doi/abs/10.1021/acs.nanolett.6b02522"
@@ -196,7 +204,7 @@
 
 - name: "ABC-Stacked Trilayer Graphene"
   date: "2017-04"
-  description: "Bound state properties of ABC-stacked trilayer graphene quantum dots - Journal of Physics: Condensed Matter"
+  description: "Theoretical investigation of bound state properties in ABC-stacked trilayer graphene quantum dots. Studied the unique electronic structure and quantum confinement in this specific graphene stacking configuration, revealing distinct characteristics compared to other graphene multilayer systems. Published in Journal of Physics: Condensed Matter."
   category: "publication"
   links:
     - url: "https://iopscience.iop.org/article/10.1088/1361-648X/aa6aac/meta"
@@ -205,7 +213,7 @@
 
 - name: "Lithium Niobate Piezo-Optomechanics"
   date: "2019-07"
-  description: "Lithium niobate piezo-optomechanical crystals - Optica"
+  description: "Demonstrated lithium niobate devices with high optical and mechanical quality factors and strong optomechanical coupling for efficient optical transduction. This platform leverages the strong piezoelectric effect in thin-film lithium niobate to enable quantum transduction between microwave and optical domains. Published in Optica."
   category: "publication"
   links:
     - url: "https://www.osapublishing.org/optica/abstract.cfm?uri=optica-6-7-845"
@@ -216,7 +224,7 @@
 
 - name: "Bidirectional Piezo-Optomechanical Transduction"
   date: "2020-02"
-  description: "Efficient bidirectional piezo-optomechanical transduction between microwave and optical frequency - Nature Communications"
+  description: "Achieved nearly three orders of magnitude improvement in microwave-to-optical conversion efficiency using on-chip piezo-optomechanical transducers. Demonstrated acousto-optic modulation with Vπ = 0.02 V and bidirectional conversion efficiency of 5.5% with blue-detuned pump, addressing challenges in quantum information transfer between superconducting and photonic systems. Published in Nature Communications."
   category: "publication"
   links:
     - url: "https://www.nature.com/articles/s41467-020-14863-3"
@@ -225,7 +233,7 @@
 
 - name: "Nanobenders for Tunable Nanophotonics"
   date: "2020-08"
-  description: "Nanobenders as efficient piezoelectric actuators for widely tunable nanophotonics at CMOS-level voltages - Communications Physics"
+  description: "Developed compact piezoelectric nanobenders that transduce tens of nanometers per volt by leveraging non-uniform electric fields from submicron electrodes. Demonstrated tuning of optical resonances by ~5 nm/V (0.6 THz/V) across 400 linewidths within 4V at CMOS-compatible voltages, enabling widely tunable nanophotonic components for complex on-chip architectures. Published in Communications Physics."
   category: "publication"
   links:
     - url: "https://www.nature.com/articles/s42005-020-00412-3"
@@ -234,7 +242,7 @@
 
 - name: "Gigahertz Phononic Circuits"
   date: "2021-01"
-  description: "Gigahertz phononic integrated circuits on thin-film lithium niobate on sapphire - Physical Review Applied (Editor's Suggestion)"
+  description: "Presented a phononic integrated circuit platform on thin-film lithium niobate on sapphire, inspired by advances in integrated photonics. Utilized the strong piezoelectric effect to create gigahertz-frequency acoustic circuits for signal processing and quantum applications, enabling efficient manipulation of mechanical waves on-chip. Published in Physical Review Applied (Editor's Suggestion)."
   category: "publication"
   links:
     - url: "https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.15.014039"
@@ -243,7 +251,7 @@
 
 - name: "Flip-Chip Nanomechanical Integration"
   date: "2023-09"
-  description: "Flexible integration of gigahertz nanomechanical resonators with a superconducting microwave resonator using a bonded flip-chip method - Applied Physics Letters (Cover Image)"
+  description: "Demonstrated flexible integration of gigahertz nanomechanical resonators with superconducting microwave resonators using a bonded flip-chip method. This technique enables heterogeneous integration of different material platforms, allowing combination of high-quality mechanical resonators with superconducting quantum circuits for hybrid quantum systems. Published in Applied Physics Letters (Cover Image)."
   category: "publication"
   links:
     - url: "https://pubs.aip.org/aip/apl/article-abstract/123/10/104001/2909448/Flexible-integration-of-gigahertz-nanomechanical?redirectedFrom=fulltext"
@@ -252,7 +260,7 @@
 
 - name: "Optically Heralded Microwave Photons"
   date: "2023-10"
-  description: "Optically heralded microwave photons - Nature Physics"
+  description: "Demonstrated optically heralded microwave photon addition in a quantum transduction system, enabling verification of quantum state transfer between optical and microwave domains. This work advances quantum networking by providing a method to herald the successful creation of microwave photons using optical detection, crucial for linking superconducting quantum processors. Published in Nature Physics."
   category: "publication"
   links:
     - url: "https://www.nature.com/articles/s41567-023-02129-w"
@@ -263,7 +271,7 @@
 
 - name: "Quantum Limits Superconducting Links"
   date: "2024-11"
-  description: "Quantum limits of superconducting-photonic links and their extension to millimeter waves - Physical Review Applied"
+  description: "Analyzed fundamental quantum limits governing hybrid superconducting-photonic links and extended the framework to millimeter-wave frequencies. This theoretical work establishes performance bounds for quantum transduction systems, guiding the development of efficient quantum networks that connect superconducting qubits with optical photons across different frequency regimes. Published in Physical Review Applied."
   category: "publication"
   links:
     - url: "https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.22.054043"

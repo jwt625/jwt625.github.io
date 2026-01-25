@@ -103,31 +103,42 @@ class ProjectsTimeline {
 
         const imageContainer = document.getElementById('project-modal-image');
 
-        // Support both single 'image' (string) and multiple 'images' (array)
-        let imagesToDisplay = [];
-        if (project.images && Array.isArray(project.images) && project.images.length > 0) {
-            // Filter out empty strings
-            imagesToDisplay = project.images.filter(img => img && img.trim() !== '');
-        } else if (project.image && project.image.trim() !== '') {
-            imagesToDisplay = [project.image];
-        }
-
-        if (imagesToDisplay.length > 0) {
-            if (imagesToDisplay.length === 1) {
-                // Single image - display as before
-                imageContainer.innerHTML = `<img src="${imagesToDisplay[0]}" alt="${project.name}" class="project-modal-image" />`;
-            } else {
-                // Multiple images - display as gallery
-                imageContainer.innerHTML = `
-                    <div class="project-modal-image-gallery">
-                        ${imagesToDisplay.map((img, idx) =>
-                            `<img src="${img}" alt="${project.name} - Image ${idx + 1}" class="project-modal-image gallery-image" />`
-                        ).join('')}
-                    </div>
-                `;
-            }
+        // Check if project has an embed_url for iframe
+        if (project.embed_url && project.embed_url.trim() !== '') {
+            imageContainer.innerHTML = `
+                <iframe
+                    src="${project.embed_url}"
+                    width="100%"
+                    height="600">
+                </iframe>
+            `;
         } else {
-            imageContainer.innerHTML = '';
+            // Support both single 'image' (string) and multiple 'images' (array)
+            let imagesToDisplay = [];
+            if (project.images && Array.isArray(project.images) && project.images.length > 0) {
+                // Filter out empty strings
+                imagesToDisplay = project.images.filter(img => img && img.trim() !== '');
+            } else if (project.image && project.image.trim() !== '') {
+                imagesToDisplay = [project.image];
+            }
+
+            if (imagesToDisplay.length > 0) {
+                if (imagesToDisplay.length === 1) {
+                    // Single image - display as before
+                    imageContainer.innerHTML = `<img src="${imagesToDisplay[0]}" alt="${project.name}" class="project-modal-image" />`;
+                } else {
+                    // Multiple images - display as gallery
+                    imageContainer.innerHTML = `
+                        <div class="project-modal-image-gallery">
+                            ${imagesToDisplay.map((img, idx) =>
+                                `<img src="${img}" alt="${project.name} - Image ${idx + 1}" class="project-modal-image gallery-image" />`
+                            ).join('')}
+                        </div>
+                    `;
+                }
+            } else {
+                imageContainer.innerHTML = '';
+            }
         }
 
         const linksContainer = document.getElementById('project-modal-links');
