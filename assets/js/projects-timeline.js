@@ -263,8 +263,8 @@ class ProjectsTimeline {
                        stroke-width="1.5"
                        fill="none"/>
                </svg>`
-            : `<svg class="timeline-connector" width="30" height="2" viewBox="0 0 30 2">
-                 <line x1="0" y1="1" x2="30" y2="1"
+            : `<svg class="timeline-connector" width="18" height="2" viewBox="0 0 18 2">
+                 <line x1="0" y1="1" x2="18" y2="1"
                        stroke="#4a5f7a"
                        stroke-width="2"/>
                </svg>`;

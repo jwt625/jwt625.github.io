@@ -185,7 +185,7 @@
 
 .timeline-wrapper.horizontal .timeline-track {
     display: flex;
-    padding: 180px 40px 150px 40px;
+    padding: 180px 40px 180px 40px;
     position: relative;
     align-items: center;
     min-width: min-content;
@@ -330,7 +330,7 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 30px;
+    left: 35px; /* Center of marker: padding-left(60) - marker-left(30) + marker-width(12)/2 - axis-width(2)/2 = 35 */
     width: 2px;
     background: #4a5f7a;
 }
@@ -357,7 +357,7 @@
 /* Duration segment for projects with end_date (vertical) */
 .timeline-wrapper.vertical .timeline-duration-segment {
     position: absolute;
-    left: -30px;
+    left: -27px; /* Center with axis: -30 + 3 to center the 6px segment on the 2px axis */
     top: 16px; /* Start from center of marker */
     width: 6px;
     background: linear-gradient(to bottom, rgba(236, 240, 241, 0.6), rgba(236, 240, 241, 0.2));
@@ -368,9 +368,9 @@
 /* Connector line from dot to box */
 .timeline-wrapper.vertical .timeline-connector {
     position: absolute;
-    left: -24px;
-    top: 10px;
-    width: 30px;
+    left: -18px; /* Start at marker right edge: -30 + 12 = -18 */
+    top: 15px; /* Center vertically with marker: 10 + (12/2) - (2/2) = 15 */
+    width: 18px; /* Distance to box: 60 - 30 - 12 = 18 */
     height: 2px;
     pointer-events: none;
     z-index: 2;
