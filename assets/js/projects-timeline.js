@@ -28,9 +28,8 @@ class ProjectsTimeline {
         const toggleBtn = document.getElementById('timeline-toggle-btn');
         if (!toggleBtn) return;
 
-        // Determine default visibility based on screen size
-        const isMobile = window.innerWidth <= 768;
-        const defaultVisible = !isMobile; // Desktop: visible, Mobile: hidden
+        // Default to hidden on all devices
+        const defaultVisible = false;
 
         // Check localStorage for saved preference
         const savedState = localStorage.getItem('timeline_visible');
