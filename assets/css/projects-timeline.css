@@ -315,6 +315,49 @@
     object-fit: contain;
 }
 
+/* Background image for boxes without icon but with image */
+.timeline-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.timeline-box.has-bg-image {
+    background: transparent;
+}
+
+.timeline-bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.timeline-box.has-bg-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(44, 62, 80, 0.6);
+    z-index: 1;
+}
+
+.timeline-box-content {
+    position: relative;
+    z-index: 2;
+}
+
+.timeline-box.has-bg-image:hover .timeline-bg-image {
+    opacity: 0.7;
+}
+
 /* Vertical layout (mobile) */
 .timeline-wrapper.vertical .timeline-track {
     display: flex;

@@ -269,10 +269,28 @@ class ProjectsTimeline {
                        stroke-width="2"/>
                </svg>`;
 
-        // Render icon if available
-        const iconHtml = project.icon && project.icon.trim() !== ''
+        // Render icon if available, and background image if image exists
+        const hasIcon = project.icon && project.icon.trim() !== '';
+
+        // Get first image from either 'image' (string) or 'images' (array)
+        let projectImage = '';
+        if (project.image && project.image.trim() !== '') {
+            projectImage = project.image;
+        } else if (project.images && Array.isArray(project.images) && project.images.length > 0) {
+            projectImage = project.images[0];
+        }
+        const hasImage = projectImage !== '';
+
+        const iconHtml = hasIcon
             ? `<img src="${project.icon}" alt="${project.name} icon" class="timeline-icon" />`
             : '';
+
+        // Always show background image if available (even when icon exists)
+        const bgImageHtml = hasImage
+            ? `<div class="timeline-bg-image" style="background-image: url('${projectImage}');"></div>`
+            : '';
+
+        const boxClass = hasImage ? 'has-bg-image' : '';
 
         return `
             <div class="timeline-item ${categoryClass} ${project.end_date ? 'has-duration' : ''}" data-index="${index}" style="${spacingStyle}">
@@ -280,10 +298,13 @@ class ProjectsTimeline {
                 ${durationSegment}
                 ${connectorHtml}
                 <div class="timeline-content">
-                    <div class="timeline-box" data-project-index="${index}">
-                        <div class="timeline-date">${this.formatDate(project.date)}${project.end_date ? ' - ' + this.formatDate(project.end_date) : ''}</div>
-                        <div class="timeline-title">${project.name}</div>
-                        ${iconHtml}
+                    <div class="timeline-box ${boxClass}" data-project-index="${index}">
+                        ${bgImageHtml}
+                        <div class="timeline-box-content">
+                            <div class="timeline-date">${this.formatDate(project.date)}${project.end_date ? ' - ' + this.formatDate(project.end_date) : ''}</div>
+                            <div class="timeline-title">${project.name}</div>
+                            ${iconHtml}
+                        </div>
                     </div>
                 </div>
             </div>

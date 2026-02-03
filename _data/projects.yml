@@ -158,7 +158,7 @@
       label: "GitHub"
     - url: "https://outside5sigma.com/WebSpice/"
       label: "Live Demo"
-  image: ""
+  image: "/assets/images/projects/webspice.png"
   icon: "/assets/images/projects/icons/webspice-icon.svg"
   embed_url: "https://outside5sigma.com/WebSpice/"
 
