@@ -30,6 +30,16 @@
 
 # Spun-off projects from PlayGround README
 
+- name: "Backyard Shed"
+  date: "2023-12-25"
+  end_date: "2024-01-15"
+  description: "Built an 8x8 ft shed with 4x8 ft deck in a friend's backyard. First large-scale woodworking project - foundation, framing, roofing, siding, windows, electrical, and insulation over ~15 days."
+  category: "project"
+  links:
+    - url: "https://jwt625.github.io/blog/shed/"
+      label: "Blog Post"
+  image: "/assets/images/shed-banner.JPG"
+
 - name: "TabTreeTracker"
   date: "2024-10-01"
   description: "Chrome extension to track and visualize browser tab trees"
@@ -138,6 +148,19 @@
   image: "/assets/images/projects/SLM-guessr.png"
   icon: "/assets/images/projects/icons/slm-guessr-icon.svg"
   embed_url: "https://outside5sigma.com/SLM-Guessr"
+
+- name: "WebSpice"
+  date: "2026-02-01"
+  description: "Browser-based SPICE circuit simulator with a minimal LTSpice-like GUI. Runs entirely client-side using NGSpice compiled to WebAssembly for electronic circuit simulation without installation."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/WebSpice"
+      label: "GitHub"
+    - url: "https://outside5sigma.com/WebSpice/"
+      label: "Live Demo"
+  image: ""
+  icon: "/assets/images/projects/icons/webspice-icon.svg"
+  embed_url: "https://outside5sigma.com/WebSpice/"
 
 # Additional undocumented projects
 - name: "Age of Agents"
