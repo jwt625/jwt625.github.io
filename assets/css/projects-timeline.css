@@ -354,8 +354,17 @@
     z-index: 2;
 }
 
+/* On hover, hide text/icon and show full image */
 .timeline-box.has-bg-image:hover .timeline-bg-image {
-    opacity: 0.7;
+    opacity: 1;
+}
+
+.timeline-box.has-bg-image:hover::before {
+    opacity: 0;
+}
+
+.timeline-box.has-bg-image:hover .timeline-box-content {
+    opacity: 0;
 }
 
 /* Vertical layout (mobile) */
