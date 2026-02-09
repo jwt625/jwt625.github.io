@@ -150,7 +150,7 @@
   embed_url: "https://outside5sigma.com/SLM-Guessr"
 
 - name: "WebSpice"
-  date: "2026-02-01"
+  date: "2026-02-02"
   description: "Browser-based SPICE circuit simulator with a minimal LTSpice-like GUI. Runs entirely client-side using NGSpice compiled to WebAssembly for electronic circuit simulation without installation."
   category: "project"
   links:
