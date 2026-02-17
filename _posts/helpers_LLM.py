@@ -33,7 +33,7 @@ def process_with_llm(api_url, api_key, user_prompt, user_text):
             "content": f"{user_prompt}\n\n{user_text}"
         }],
         "temperature": 0.7,
-        "max_tokens": 500,
+        "max_tokens": 4096,
     }
 
     response = requests.post(api_url, headers=headers, json=data)
