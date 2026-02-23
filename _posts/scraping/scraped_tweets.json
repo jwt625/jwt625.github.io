@@ -1,793 +1,690 @@
 [
     {
-        "url": "https://x.com/jwt0625/status/1844094690473410572",
+        "url": "https://x.com/jwt0625/status/1865573192628310328",
         "tweets": [
             {
-                "text": "“If you compete with CMOS, don’t !” -- Journal of Lightwave Technology, Volume: 34, Issue: 2, Jan 2016",
+                "text": "What's the highest dynamic range signal you've ever encountered / measured? (this is a very nice fiber bragg grating (FBG) )",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GZeKIDaaAAQgm1i?format=jpg",
-                        "local_path": "media/20241009_191650_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GePYrrNacAEMhcC?format=jpg",
+                        "local_path": "media/20241208_014444_0.jpg"
                     }
                 ],
-                "timestamp": "2024-10-09T19:16:50+00:00"
+                "timestamp": "2024-12-08T01:44:44+00:00"
             },
             {
-                "text": "Techno-Economic Comparison of Silicon Photonics and Multimode VCSELs",
+                "text": "Screenshot from Field2024: Efficient, ultra-high attenuation fiber Bragg grating filter for photon noise suppression https://arxiv.org/abs/2412.00981 They did heterodyne and got the dynamic range from a spectrum analyser.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GePZyqpbQAAIh38?format=jpg",
+                        "local_path": "media/20241208_014858_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-08T01:48:58+00:00"
+            },
+            {
+                "text": "Typical high dynamic range power meters (like Newport 2103) and avalanche photodetectors (APDs) could give you 60~70 dB. Funny typical SNSPD also gives you a similar number (10~100 Mcps max).",
                 "media": [],
-                "timestamp": "2024-10-09T19:17:23+00:00"
+                "timestamp": "2024-12-08T01:57:55+00:00"
+            },
+            {
+                "text": "If you have a good tunable attenuator, that would give you another 40~60 dB. Pulling the fiber just a bit outward of the connector is a pretty effective attenuator lol (as long as you measure it), did it a few times trying to get a ~90 dB dynamic range measurement.",
+                "media": [],
+                "timestamp": "2024-12-08T01:59:45+00:00"
+            },
+            {
+                "text": "Yeah this is pretty crazy. It's motivated by some quantum stuff, people are trying to do single photon detection of a very weak sideband while there is a strong pump nearby (~70 dB ish higher and a few GHz away)",
+                "media": [],
+                "timestamp": "2024-12-08T02:03:34+00:00"
+            },
+            {
+                "text": "so... what's the Q?",
+                "media": [],
+                "timestamp": "2024-12-08T02:05:25+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023225528904474924",
+        "tweets": [
+            {
+                "text": "ever wondered what's the S21 between you and your partner? now you know it is about -100 dB. honestly explains a lot. (at 10 MHz, between wrists)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBPwcdkboAAFDJG?format=jpg",
+                        "local_path": "media/20260216_023850_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBPwpHna0AAASu_?format=png",
+                        "local_path": "media/20260216_023850_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-16T02:38:50+00:00"
+            },
+            {
+                "text": "- Muramatsu2026: [Multiuser human body communication via inter-user contact: Evaluation of signal propagation with electromagnetic simulations and wearable measurements]( https://doi.org/10.1063/5.0315668)",
+                "media": [],
+                "timestamp": "2026-02-16T02:39:29+00:00"
+            },
+            {
+                "text": "haha thats simulation, measurement is only in the second screenshot at the two locations",
+                "media": [],
+                "timestamp": "2026-02-16T04:02:47+00:00"
+            },
+            {
+                "text": "lmao",
+                "media": [],
+                "timestamp": "2026-02-16T22:23:25+00:00"
+            },
+            {
+                "text": "get an amplifier and do 1 Hz IFBW lol",
+                "media": [],
+                "timestamp": "2026-02-16T04:04:58+00:00"
+            },
+            {
+                "text": "how much she felt divided by how  much you want her to feel",
+                "media": [],
+                "timestamp": "2026-02-16T16:20:32+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023322186141122591",
+        "tweets": [
+            {
+                "text": "im now a huge fan of codex, it's damn good at pulling stuff from arxiv, open access journals, fcc filings..",
+                "media": [],
+                "timestamp": "2026-02-16T09:02:55+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023329067324543070",
+        "tweets": [
+            {
+                "text": "if all fossil fuels on earth shall be burnt sooner or later (which i quote from a friend will happen because they generate value), spending them on launching solar panels and compute into space is the best we can and should do.",
+                "media": [],
+                "timestamp": "2026-02-16T09:30:15+00:00"
+            },
+            {
+                "text": "yes they'll still get burnt tho",
+                "media": [],
+                "timestamp": "2026-02-16T22:12:24+00:00"
+            },
+            {
+                "text": "like this from xAI as well as google's suncatcher ( https://www.nytimes.com/2026/02/10/technology/elon-musk-lunar-factory.html) ( https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/)",
+                "media": [],
+                "timestamp": "2026-02-16T16:29:32+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023509856079212591",
+        "tweets": [
+            {
+                "text": "this is sad, why did the residential stop going up? why did everything stop going up? I want a 10 kW laser at home that is constantly running, I want a LPBF running at 5 kg/h throughput. What happened in the 2000s that stopped all curves from going up?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBTy5V5bwAAO0cf?format=jpg",
+                        "local_path": "media/20260215_051209_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-15T05:12:09+00:00"
+            },
+            {
+                "text": "couldve been 4x",
+                "media": [],
+                "timestamp": "2026-02-17T18:12:58+00:00"
+            },
+            {
+                "text": "why not both",
+                "media": [],
+                "timestamp": "2026-02-17T00:40:43+00:00"
+            },
+            {
+                "text": "why not both",
+                "media": [],
+                "timestamp": "2026-02-17T00:40:43+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023681720856572004",
+        "tweets": [
+            {
+                "text": "im surprised network switch/cable errors are this low also I hate stacked bar chart, can you at least also include lines so the individual trends are more readable? - Salpekar2026: [Training LLMs with Fault Tolerant HSDP on 100,000 GPUs]( https://arxiv.org/abs/2602.00277)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBWPCY4a4AA-NKU?format=png",
+                        "local_path": "media/20260217_085135_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBWPLPAbcAAEoto?format=jpg",
+                        "local_path": "media/20260217_085135_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-17T08:51:35+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023966644653990282",
+        "tweets": [
+            {
+                "text": "are they trying to say quantum physicists are on mushrooms",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBaS44ubQAA4TmK?format=jpg",
+                        "local_path": "media/20260218_034346_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-18T03:43:46+00:00"
+            },
+            {
+                "text": "havent seen a figure with wavelength, temperature, time, frequency, year, and USD at the same time before - Kukharchyk2026: [Practical quantum tokens: challenges and perspectives]( https://arxiv.org/abs/2602.10621)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBaULoiaEAA9CHw?format=jpg",
+                        "local_path": "media/20260218_035032_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-18T03:50:32+00:00"
+            },
+            {
+                "text": "lol",
+                "media": [],
+                "timestamp": "2026-02-18T04:03:48+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023982933128650835",
+        "tweets": [
+            {
+                "text": "this is peak",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBahmtCbAAAiWai?format=jpg",
+                        "local_path": "media/20260218_022517_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBahv0OaMAAbO8L?format=png",
+                        "local_path": "media/20260218_022517_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-18T02:25:17+00:00"
+            },
+            {
+                "text": "\"INTERACTIONS OF IONS WITH MATTER This website contains software on TWO Topics: SRIM - The Stopping and Range of Ions in Matter SER - Soft Error Rates from Cosmic Rays (see bottom of this page)\" - [James Ziegler - SRIM & TRIM]( https://srim.org)",
+                "media": [],
+                "timestamp": "2026-02-18T04:50:05+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023995990009917470",
+        "tweets": [
+            {
+                "text": "look how many rings you need to mimic a fraction of the power of a very nice fiber bragg grating",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBatVNebcAAI9At?format=jpg",
+                        "local_path": "media/20241208_014444_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBath0SbcAIFxw3?format=jpg",
+                        "local_path": "media/20241208_014444_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GePYrrNacAEMhcC?format=jpg",
+                        "local_path": "media/20241208_014444_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-08T01:44:44+00:00"
+            },
+            {
+                "text": "- Hosseinnia2026: [Systematic Design and Demonstration of Multipole, Coupled-Cavity Integrated Photonic Bandpass Filters with High FSR, High-Q Single-Mode Microresonators in Low-Loss Silicon Nitride Platform]( https://arxiv.org/abs/2602.15250)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBatxdpbcAMiwss?format=jpg",
+                        "local_path": "media/20260218_054137_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-18T05:41:37+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2024368615525667307",
+        "tweets": [
+            {
+                "text": "what the heck is this orders of magnitude difference in marker size",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBgAZXfbUAMZh9Y?format=jpg",
+                        "local_path": "media/20260219_062103_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-19T06:21:03+00:00"
+            },
+            {
+                "text": "overall a very \"vague\" review - Rijo2026: [A review of solid oxide cell technologies for power, fuel, and reversible energy storage]( https://doi.org/10.1016/j.fuel.2025.137624)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBgArtSawAEnlZM?format=jpg",
+                        "local_path": "media/20260219_062224_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-19T06:22:24+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2024377386285097127",
+        "tweets": [
+            {
+                "text": "did you know hydrogen has seven different colors as well",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBgISj9a8AE2D7b?format=png",
+                        "local_path": "media/20260219_065554_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-19T06:55:54+00:00"
+            },
+            {
+                "text": "this review has much more details than the previous one. - Wolf2023: [Solid oxide electrolysis cells – current material development and industrial application]( https://doi.org/10.1039/d3ta02161k)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBgIulHbUAYExDi?format=jpg",
+                        "local_path": "media/20260219_070240_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBgJuZcbUAI8WAq?format=jpg",
+                        "local_path": "media/20260219_070240_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-19T07:02:40+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2024381168645488805",
+        "tweets": [
+            {
+                "text": "me: hey gemini, how much optical fiber manufacturing output did fiber-optic guided drones consume in 2025? gemini: blah blah it represents a vanishingly small fraction of total global manufacturing capacity—likely less than 0.1% by volume me: thats bs I heard it was 10%. How plausible is this number? gemini: In 2026, the claim that drones consume 10% of global optical fiber manufacturing capacity is no longer just a rumor—it has become a focal point of industry tension.",
+                "media": [],
+                "timestamp": "2026-02-19T07:10:56+00:00"
+            },
+            {
+                "text": "https://x.com/grok can you recognize which company is this screenshot from?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBgMh_9bUAIAGDz?format=png",
+                        "local_path": "media/20260219_071409_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-19T07:14:09+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2024662415926055173",
+        "tweets": [
+            {
+                "text": "someone foolish but not hungry is the worst kind, you can be cooking them a nice and better life, chopping it up just the right size, and spoon feeding right next to their mouth, and they still couldn't care less and wouldn't give it a try.",
+                "media": [],
+                "timestamp": "2026-02-20T01:48:31+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2024743285630353424",
+        "tweets": [
+            {
+                "text": "\"Changes in net sales to the datacenter market 4x from FY23 to FY25\" \"DFB laser chips production increased by 5 times in FY25 H2 compared to FY23\" cant wait to get some 800G transceivers from ebay in a couple of years",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBlUKA_bgAAqA2g?format=jpg",
+                        "local_path": "media/20260220_070951_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-20T07:09:51+00:00"
+            },
+            {
+                "text": "[FURUKAWA ELECTRIC CO., LTD. - Business Briefing - June 6, 2025]( https://www.furukawaelectric.com/en/ir/library/briefing/pdf/2025/20250606_communication.pdf)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBlVa0ObsAAlnG_?format=jpg",
+                        "local_path": "media/20260220_071106_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-20T07:11:06+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2025091656467538072",
+        "tweets": [
+            {
+                "text": "guess how much do you need to build a muon detector?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqSENKbIAAEfdQ?format=jpg",
+                        "local_path": "media/20260221_061409_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqSGWabUAEE44-?format=png",
+                        "local_path": "media/20260221_061409_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqSG81a4AAE2CI?format=png",
+                        "local_path": "media/20260221_061409_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-21T06:14:09+00:00"
+            },
+            {
+                "text": "about 200 bucks - Huang2024: [Low Cost Muon Telescope (LOCOMOTE)]( https://doi.org/10.22323/1.444.1619) I've made a comparator/pulse stretcher like this before lol",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqSKrAaIAAVPpC?format=png",
+                        "local_path": "media/20260221_061608_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqSSvxbgAAYp3D?format=jpg",
+                        "local_path": "media/20260221_061608_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqSU_kbkAAcuEX?format=jpg",
+                        "local_path": "media/20260221_061608_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-21T06:16:08+00:00"
+            },
+            {
+                "text": "found it",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqVT2tbwAAIXC2?format=jpg",
+                        "local_path": "media/20260221_062816_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqVVUcbgAIz4eV?format=jpg",
+                        "local_path": "media/20260221_062816_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-21T06:28:16+00:00"
             },
             {
                 "text": "",
                 "media": [],
-                "timestamp": "2024-11-29T01:41:25+00:00"
+                "timestamp": "2026-02-21T22:19:33+00:00"
+            },
+            {
+                "text": "really depends how low you need the dark count to be",
+                "media": [],
+                "timestamp": "2026-02-21T15:06:50+00:00"
+            },
+            {
+                "text": "nice, which SiPM did you get",
+                "media": [],
+                "timestamp": "2026-02-22T01:24:13+00:00"
+            },
+            {
+                "text": "really depends how low you need the dark count to be",
+                "media": [],
+                "timestamp": "2026-02-21T15:06:50+00:00"
+            },
+            {
+                "text": "nice, which SiPM did you get",
+                "media": [],
+                "timestamp": "2026-02-22T01:24:13+00:00"
+            },
+            {
+                "text": "just need to be light tight, and you correlate two clicks from two scintillators to get direction of the muon. the ones underground are for neutrinos",
+                "media": [],
+                "timestamp": "2026-02-22T00:46:31+00:00"
+            },
+            {
+                "text": "no real portable solution so far it seems, either a big accelerator or a big PW laser",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBszSG2a8AA6Sls?format=jpg",
+                        "local_path": "media/20260221_193735_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-21T19:37:35+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/2005675206707380421",
+        "url": "https://x.com/jwt0625/status/2025099139344687355",
         "tweets": [
             {
-                "text": "who knows how long it will take, but when we got low power low latency chip to chip optical interconnects, do you still need this dense of compute? does packing denser power supply and cooling still give you higher energy efficiency? why are we still making racks? i remember a compute wall concept from some OCP presentations, i should dig it out",
+                "text": "\"The Filament Extension Atomizer™ (FEA) is a unique technology designed for highly viscous or strain-hardening fluids that are otherwise difficult to atomize.\" \"A thin fluid film is processed between counter-rotating rollers of different materials rotating at 2000 rpm\" by Xerox PARC",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/G9N1F-TbgAEC1gM?format=jpg",
-                        "local_path": "media/20251228_003509_0.jpg"
+                        "url": "https://pbs.twimg.com/media/HBqYa45aoAACZHZ?format=png",
+                        "local_path": "media/20260221_064353_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-21T06:43:53+00:00"
+            },
+            {
+                "text": "- Neelakantan2020: [The effect of end-plate wetting and unpinned contact lines on the filament thinning of strain hardening fluids]( https://doi.org/10.1063/5.0018828)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqZQJqbgAEwxcG?format=jpg",
+                        "local_path": "media/20260221_064544_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-21T06:45:44+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2025234014324588624",
+        "tweets": [
+            {
+                "text": "makes me think of how the first Homo erectus who tried using fire might have looked and felt like at the time, and then i realized there's merely any social structure at the time, was there any idea of doctrine, and idea of disruptive innovation? Were fellow Homo ererctus afraid of it? or the survival benefits were so obvious and immediate and it's respected and adopted asap? to be honest the way we power society and these datacenters hasn't changed much, power is mostly from scaled up larger and hotter fires. imo the fire will continue to burn, adopting fire makes you much more likely to survive in society and on this planet no matter when or where, and there are better ways to burn stuff, and use the fire on better things",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G-7DfoCXYAAb8DL?format=jpg",
+                        "local_path": "media/20260118_053707_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-01-18T05:37:07+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2025269930720198982",
+        "tweets": [
+            {
+                "text": "very nice demo, if it's not directional enough, would still be jammable. to really be safe, you either make it highly directional, or use some very uncommon waves or particles. now hear me out, laser plasma muon source: highly directional, exotic particles, penetrate thick rocks, and muon detection is cheap.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBszSG2a8AA6Sls?format=jpg",
+                        "local_path": "media/20260218_160342_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/G9N1F-TbwAAUOd2?format=jpg",
-                        "local_path": "media/20251228_003509_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-12-28T00:35:09+00:00"
-            },
-            {
-                "text": "long term yes, in the short term the whole stack is lagging behind on how fast the compute is getting dense, like the floor to support the increasing weight of the rack..",
-                "media": [],
-                "timestamp": "2025-12-29T18:12:58+00:00"
-            },
-            {
-                "text": "yes, also not gonna be anytime soon in terms of just the cost of the link even with MMF. maybe some win overall as a single rack's power approaching a physical cap, not sure how much more we can get going beyond 1 MW racks.",
-                "media": [],
-                "timestamp": "2025-12-29T18:01:56+00:00"
-            },
-            {
-                "text": "this is what i was thinking of: [Building a Digital Twin, ASIC Emulation Platform using the OCP HPCM Wall of Compute]( https://youtube.com/watch?v=7BoEj7HwPLA)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/G9WwPOWaUAAViEo?format=jpg",
-                        "local_path": "media/20251229_181043_0.jpg"
-                    }
-                ],
-                "timestamp": "2025-12-29T18:10:43+00:00"
-            },
-            {
-                "text": "main diff is propagation loss, fiber has effective zero until you get capped by dispersion with multimode fiber etc. Copper coax/twisted pair gives you few meters at the baud rate nvlinks are running. 100% on the hearing hazard.",
-                "media": [],
-                "timestamp": "2025-12-29T17:48:28+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2020252950288126276",
-        "tweets": [
-            {
-                "text": "when i was a middle school student, my high school neighbor told me theres this magical technology that could solve all the problems in the world and it is called calculus. I felt so good looking forward to learning it soon one day and solve all the world's problems with it.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HAksKgxXYAAeZHB?format=jpg",
-                        "local_path": "media/20260207_175451_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-07T17:54:51+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2020390367263432727",
-        "tweets": [
-            {
-                "text": "i thought this is only a windows meme i guess macos also sucks.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HAneQO9acAAqD01?format=png",
-                        "local_path": "media/20260208_065255_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-08T06:52:55+00:00"
-            },
-            {
-                "text": "i was doing it, i have many other complaints about macos being too protective..",
-                "media": [],
-                "timestamp": "2026-02-08T17:17:46+00:00"
-            },
-            {
-                "text": "it's just me debugging OBS stream getting periodically killed by macos. No LLM involved.",
-                "media": [],
-                "timestamp": "2026-02-08T16:55:38+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2020421040342811100",
-        "tweets": [
-            {
-                "text": "im pissed off enough time by the horrible UI these journals have esp. you have to download the SI videos to watch them, and sometimes they have cursed format and encoding, so here is an extension to load the video inline as well as converting it using ffmpeg if needed",
-                "media": [],
-                "timestamp": "2026-02-08T08:54:48+00:00"
-            },
-            {
-                "text": "[Supplementary Video Player]( https://github.com/jwt625/PlayGround/tree/main/20260207_chrome_extension_nature_supplementary_video)",
-                "media": [],
-                "timestamp": "2026-02-08T08:57:34+00:00"
-            },
-            {
-                "text": "also got science ones, which put it in a zip file regardless of how many there are.",
-                "media": [],
-                "timestamp": "2026-02-08T10:26:21+00:00"
-            },
-            {
-                "text": "multi vid with tabs",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/amplify_video_thumb/2020449822659301376/img/8KaKqqb3UAngyFJn.jpg",
-                        "local_path": "media/20260208_104927_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-08T10:49:27+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2020453447284252892",
-        "tweets": [
-            {
-                "text": "the future is going to belong to transducers and people that make and operate them, transducers between the physical world and the digital world",
-                "media": [],
-                "timestamp": "2026-02-08T11:03:34+00:00"
-            },
-            {
-                "text": "okay maybe I'm wrong about the future belonging to transducers, maybe it belongs to wrappers and hookers",
-                "media": [],
-                "timestamp": "2026-02-08T17:10:16+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2020720381020324126",
-        "tweets": [
-            {
-                "text": "did they grind the butterfly package open lol, how did the laser facet survive this, or did they cut it open and then did the wirebonding? how?? I'm so confused. maybe they cut it, loaded & wirebonded, and then put the lid on, that could explain why the lid looks intact.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HAsJzQWbgAAcNlr?format=png",
-                        "local_path": "media/20260209_044416_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-09T04:44:16+00:00"
-            },
-            {
-                "text": "the paper is about high Q germano-silicate photonics. - Chen2026: [Towards fibre-like loss for photonic integration from violet to near-infrared]( https://doi.org/10.1038/s41586-025-09889-w)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HAsKywcawAAhz7K?format=jpg",
-                        "local_path": "media/20260209_044614_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-09T04:46:14+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2020748138680914345",
-        "tweets": [
-            {
-                "text": "TIL there are more than two dozens of quantum computing software libraries with similar scope",
-                "media": [],
-                "timestamp": "2026-02-09T06:34:34+00:00"
-            },
-            {
-                "text": "- Efthymiou2024: [Qibolab: an open-source hybrid quantum operating system]( https://doi.org/10.22331/q-2024-02-12-1247)",
-                "media": [],
-                "timestamp": "2026-02-09T06:35:18+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2021064341223870939",
-        "tweets": [
-            {
-                "text": "task failed successfully",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HAxDOZYaAAIn4JM?format=jpg",
-                        "local_path": "media/20260210_033103_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-10T03:31:03+00:00"
-            },
-            {
-                "text": "\"In the science package the optical and opto-electronic components are contained within a machined monolithic optical unit (black anodized Al6061). Each component is provided with a recessed pocket within the unit and is held in the pocket with epoxy (UHU 300). The SPDC photons were directly incident on the APDs without the use of collection lenses. The components most sensitive to alignment are the BBO crystal, and the two mirrors used to direct the photons to the detectors. In particular the BBO crystal had an angular tolerance at the order of± 100 μ rad.\" - Tang2016: [The photon pair source that survived a rocket explosion]( https://doi.org/10.1038/srep25603)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HAxEGM5aAAk7FDt?format=jpg",
-                        "local_path": "media/20260210_033505_0.jpg"
+                        "url": "https://pbs.twimg.com/media/HBc7GrfXwAA74ny?format=jpg",
+                        "local_path": "media/20260218_160342_1.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/HAxEIMwbIAA0hoc?format=jpg",
-                        "local_path": "media/20260210_033505_1.jpg"
+                        "url": "https://pbs.twimg.com/media/HBc7GvAXoAALbH5?format=jpg",
+                        "local_path": "media/20260218_160342_2.jpg"
                     }
                 ],
-                "timestamp": "2026-02-10T03:35:05+00:00"
+                "timestamp": "2026-02-18T16:03:42+00:00"
             },
             {
-                "text": "Timeline of key milestones in satellite QKD - Sidhu2021: [Advances in space quantum communications]( https://doi.org/10.1049/qtc2.12015)",
+                "text": "the catch: you just need a portable PW scale laser. [Compact laser-plasma accelerator can generate muons on demand for imaging]( https://atap.lbl.gov/news/compact-laser-plasma-accelerator-can-generate-muons-on-demand-for-imaging/) - Calvin2025: [Experimental evidence of muon production from a laser-wakefield accelerator]( https://arxiv.org/abs/2503.20904)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/HAxLO9eaoAAuz-G?format=jpg",
-                        "local_path": "media/20260210_040626_0.jpg"
+                        "url": "https://pbs.twimg.com/media/HBs1e9BbUAA7raF?format=jpg",
+                        "local_path": "media/20260221_180752_0.jpg"
                     }
                 ],
-                "timestamp": "2026-02-10T04:06:26+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2021099567224394142",
-        "tweets": [
-            {
-                "text": "160 Tb/s over 1040 km - Shimizu2026: [Ultra-wideband, High-capacity Inline-amplified Optical Transmission Using Extremely Long Wavelength Band (X-band)]( https://www.ntt-review.jp/archive/ntttechnical.php?contents=ntr202602fa2.html)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HAxi-B7aAAIBnBT?format=jpg",
-                        "local_path": "media/20260206_182319_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-06T18:23:19+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2021112787204964660",
-        "tweets": [
-            {
-                "text": "how does it feel like when an electron in a GaAs 2DEG jumps in and out of a quantum dot? Would it boast about how sketchy a trap that region was to other fellow electrons? how does it feel like when a superconducting qubit gives birth to a traveling single microwave photon that immerse itself through a TWPA? Would it get confused about all of its clones slowly appearing? how does it feel like when a high power laser pulse gets dispersed, amplified, and then compressed again? Would it leave a will to tell photons in the other beamlines this is such a worthy physical therapy session before hitting the target?",
-                "media": [],
-                "timestamp": "2026-02-10T06:43:33+00:00"
+                "timestamp": "2026-02-21T18:07:52+00:00"
             },
             {
-                "text": "[The journey of JLF’s beamlines]( https://www.youtube.com/watch?v=Y0AoJUnGFMg)",
-                "media": [],
-                "timestamp": "2026-02-10T06:44:34+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2021458230166311198",
-        "tweets": [
-            {
-                "text": "the heck is a grapefruit fiber??",
+                "text": "cheap muon detection:",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/HA2pf1saAAAcu3J?format=png",
-                        "local_path": "media/20260211_053613_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-11T05:36:13+00:00"
-            },
-            {
-                "text": "okay okay fine - Dan2026: [Ultra-wideband all-fiber microphone enabled by micro-beam and diaphragm structure]( https://doi.org/10.1364/OE.582945) - Yang2015: [An Exposed-Core Grapefruit Fibers Based Surface Plasmon Resonance Sensor]( https://doi.org/10.3390/s150717106)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HA2qQEpaAAAy3_0?format=jpg",
-                        "local_path": "media/20260211_054005_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-11T05:40:05+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2021472948830470426",
-        "tweets": [
-            {
-                "text": "another \"integrated 10 m coiled-spiral microcavity reference made of Si3N4 and embedded in SiO2\"",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HA2xN8oaIAESyuv?format=png",
-                        "local_path": "media/20250122_084023_0.jpg"
+                        "url": "https://pbs.twimg.com/media/HBqSENKbIAAEfdQ?format=jpg",
+                        "local_path": "media/20260221_181001_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/Gh4nABzaMAA3YvK?format=jpg",
-                        "local_path": "media/20250122_084023_1.jpg"
-                    }
-                ],
-                "timestamp": "2025-01-22T08:40:23+00:00"
-            },
-            {
-                "text": "- Moille2026: [Self-aligned optical microcomb emerging between octave separated lasers]( https://arxiv.org/abs/2602.05151)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HA23dvWaEAALmmG?format=jpg",
-                        "local_path": "media/20260211_063728_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-11T06:37:28+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2021476392664432694",
-        "tweets": [
-            {
-                "text": "now you know these eccosorb foams cool down just fine",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HA2568GaAAUAouW?format=png",
-                        "local_path": "media/20250828_160227_0.jpg"
+                        "url": "https://pbs.twimg.com/media/HBqSGWabUAEE44-?format=png",
+                        "local_path": "media/20260221_181001_1.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/Gzc3ECnaIAAiXt1?format=jpg",
-                        "local_path": "media/20250828_160227_1.jpg"
+                        "url": "https://pbs.twimg.com/media/HBqSG81a4AAE2CI?format=png",
+                        "local_path": "media/20260221_181001_2.jpg"
                     }
                 ],
-                "timestamp": "2025-08-28T16:02:27+00:00"
+                "timestamp": "2026-02-21T18:10:01+00:00"
             },
             {
-                "text": "- Kerschbaum2026: [Assessing the Sensitivity of Niobium- and Tantalum-Based Superconducting Qubits to Infrared Radiation]( https://arxiv.org/abs/2602.05806) [Laird - Microwave Absorbing Foams]( https://www.laird.com/products/absorbers/microwave-absorbing-foams)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HA26oyvaAAIlx4O?format=png",
-                        "local_path": "media/20260211_065118_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-11T06:51:18+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2021758594191184164",
-        "tweets": [
-            {
-                "text": "will you ever own a zettaflop? (h/t https://geohot.github.io/blog/jekyll/update/2026/01/26/own-a-zettaflop.html) figure from Kissner2024: [An All-Optical General-Purpose CPU and Optical Computer Architecture]( https://arxiv.org/abs/2403.00045)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HA66eTHaAAAMala?format=jpg",
-                        "local_path": "media/20260212_012945_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-12T01:29:45+00:00"
+                "text": "yes it is",
+                "media": [],
+                "timestamp": "2026-02-22T01:27:51+00:00"
             },
             {
                 "text": "",
                 "media": [],
-                "timestamp": "2026-02-12T02:35:04+00:00"
+                "timestamp": "2026-02-21T18:51:25+00:00"
             },
             {
-                "text": "lol if you shove those electrons real nice and tidy",
+                "text": "much much harder to detect. maybe for galaxy scale comm",
                 "media": [],
-                "timestamp": "2026-02-12T08:17:08+00:00"
+                "timestamp": "2026-02-21T18:37:52+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/2021821865917079593",
+        "url": "https://x.com/jwt0625/status/2025332161675706737",
         "tweets": [
             {
-                "text": "wow a VR femtosecond laser laboratory simulator from University of Würzburg i really like \"If an accident occurs, you are protected in an eye-safe environment. And learn how to avoid the error next time.\"",
-                "media": [],
-                "timestamp": "2026-02-12T05:41:11+00:00"
-            },
-            {
-                "text": "[Universität Würzburg - femtoPro]( https://uni-wuerzburg.de/en/femtopro) - Brixner2025: [femtoPro: real-time linear and nonlinear optics simulations]( https://doi.org/10.1364/JOSAB.564260)",
+                "text": "need more brands to do brand strategy like this",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/HA70jWQbsAAAUxz?format=jpg",
-                        "local_path": "media/20260212_054251_0.jpg"
+                        "url": "https://pbs.twimg.com/media/HBtspaGbsAAH4jV?format=jpg",
+                        "local_path": "media/20260221_220950_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBtssKNbAAA81NX?format=jpg",
+                        "local_path": "media/20260221_220950_1.jpg"
                     }
                 ],
-                "timestamp": "2026-02-12T05:42:51+00:00"
+                "timestamp": "2026-02-21T22:09:50+00:00"
             },
             {
-                "text": "lol better have realistic rendering for chopping stuff off",
+                "text": "[400 car batteries wired together!!]( https://www.youtube.com/watch?v=OC7sNfNuTNU) [AnyDesk Loves Science]( https://anydesk.com/science)",
                 "media": [],
-                "timestamp": "2026-02-12T15:55:28+00:00"
+                "timestamp": "2026-02-21T22:11:12+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/2022141798525940058",
+        "url": "https://x.com/jwt0625/status/2025627153828925803",
         "tweets": [
             {
-                "text": "Lithium niobate still domainposturing at 30 pm/V like it’s guarding the electrothrone, meanwhile tert-butyldiphenylsilyl-armored donor–π–acceptor polymers just hyperstack-sovereign the whole modulation bloodline at 1100 pm/V   Barium titanate out here ferrocore-cosplaying with perovskite pride while bis(4-dialkylaminophenyl)phenylamino chromophores dipole-ascendancymaxx straight through the waveguide economy. Oxide veterans stuck polarization-coping with bulkbrick inertia, but these site-isolated builds are steric-throneguarding, aggregation-exiling, and voltage-throning under high-κ gatekeep tech like dielectric gravity never compiled. Crystalclingers still lattice-virtue signaling while the polymer meta is n³r₃₃-overcrowning the entire electroclout hierarchy.",
+                "text": "wondering how much of these curves are going to be reflected in inference token prices. There is no traditional tariff or customs for digital service exports, and all the infra and electricity there are going to be more and more indirectly exported. We need more power generation. AI stuff aside, how are you going to run reindustrialization without electricity? also the culture problem is so deep like this autocorrelation.",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/HBAW9tKbsAEg4F5?format=png",
-                        "local_path": "media/20260213_025229_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-13T02:52:29+00:00"
-            },
-            {
-                "text": "what a cursed unit of nm^2/V^2 for poling curve slope - [Electro-Optic Activity in Excess of 1000 pm/V Achieved via Theory-Guided Organic Chromophore Design]( https://doi.org/10.1002/adma.202104174)",
-                "media": [
+                        "url": "https://pbs.twimg.com/media/HBx2diPbwAEv8Th?format=jpg",
+                        "local_path": "media/20260222_174202_0.jpg"
+                    },
                     {
-                        "url": "https://pbs.twimg.com/media/HBAXp6faEAApLZx?format=jpg",
-                        "local_path": "media/20260213_025509_0.jpg"
+                        "url": "https://pbs.twimg.com/media/HBx4-mRasAAgnRN?format=jpg",
+                        "local_path": "media/20260222_174202_1.jpg"
                     }
                 ],
-                "timestamp": "2026-02-13T02:55:09+00:00"
-            },
-            {
-                "text": "lol just wanted to try it once",
-                "media": [],
-                "timestamp": "2026-02-13T20:58:49+00:00"
+                "timestamp": "2026-02-22T17:42:02+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/2022156164017139932",
+        "url": "https://x.com/jwt0625/status/2025641764292583821",
         "tweets": [
             {
-                "text": "you can now freeze 20 ml of water within 2 h with elastocaloric effect, using cascaded tubular NiTi shape-memory alloy, and calcium chloride solution as the heat exchange fluid. - Zhou2026: [Sub-zero Celsius elastocaloric cooling via low-transition-temperature alloys]( https://doi.org/10.1038/s41586-025-09946-4)",
+                "text": "the heck i don't even get this much engagement rate irl",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/amplify_video_thumb/2022155132440653826/img/pg8usAyHrpIzVIWq.jpg",
-                        "local_path": "media/20240921_033445_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/amplify_video_thumb/2022155149209485312/img/nsklhL_xOyoAgnni.jpg",
-                        "local_path": "media/20240921_033445_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/amplify_video_thumb/2022155161410711553/img/vWH10hxl9Z6O4sIG.jpg",
-                        "local_path": "media/20240921_033445_2.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GX-E1fdaUAIExnS?format=jpg",
-                        "local_path": "media/20240921_033445_3.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GX-FhhQaUAUblVr?format=jpg",
-                        "local_path": "media/20240921_033445_4.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GX-FisobQAAByPM?format=jpg",
-                        "local_path": "media/20240921_033445_5.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GX-FlCqaUAAMc4v?format=jpg",
-                        "local_path": "media/20240921_033445_6.jpg"
+                        "url": "https://pbs.twimg.com/media/HByGU6saIAAKgmt?format=jpg",
+                        "local_path": "media/20260222_184005_0.jpg"
                     }
                 ],
-                "timestamp": "2024-09-21T03:34:45+00:00"
-            },
-            {
-                "text": "interesting shape for the NiTi tubular with microfluidic channels. the compress and release cycles of the NiTi cause it to heat up and cool down, and the heat exchange fluid changes directions accordingly.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HBAkei-bwAEiv4u?format=jpg",
-                        "local_path": "media/20260213_035557_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HBAk90_aQAAaOw5?format=jpg",
-                        "local_path": "media/20260213_035557_1.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-13T03:55:57+00:00"
-            },
-            {
-                "text": "you totally can, the annoying thing is the heat exchange has to match the (potentially varying and random) pace properly to close the cycle",
-                "media": [],
-                "timestamp": "2026-02-13T06:21:09+00:00"
+                "timestamp": "2026-02-22T18:40:05+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/2022173437217976526",
+        "url": "https://x.com/jwt0625/status/2025678219530449286",
         "tweets": [
             {
-                "text": "this is the circuit for factoring 21=3x7 ( h/t [Why haven't quantum computers factored 21 yet?]( https://algassert.com/post/2500) )",
+                "text": "TIL people make photovoltaic and battery embedded fibers, so you can make self charging power textiles, ~100 mW under indoor illumination, and a tiny 7 mAh battery, enough to power some wearable sensors. you can even wash it a few dozens of times and capacity only drops about 10%, good news for people who don't like washing their clothes often lol",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/amplify_video_thumb/2022112015624679425/img/-0Wmg2vdA2NDUbUo.jpg",
-                        "local_path": "media/20260213_005422_0.jpg"
+                        "url": "https://pbs.twimg.com/media/HBymr-xbUAAfZ7X?format=jpg",
+                        "local_path": "media/20260222_210457_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBynctdbsAA2XbM?format=jpg",
+                        "local_path": "media/20260222_210457_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBynfw-bUAAzI2F?format=jpg",
+                        "local_path": "media/20260222_210457_2.jpg"
                     }
                 ],
-                "timestamp": "2026-02-13T00:54:22+00:00"
+                "timestamp": "2026-02-22T21:04:57+00:00"
             },
             {
-                "text": "many of them \"cheat\", the blog article explains it quite well.",
+                "text": "- Zhu2023: [Indoor Photovoltaic Fiber with an Efficiency of 25.53% under 1500 Lux Illumination]( https://doi.org/10.1002/adma.202304876)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBynxyHbwAA1_Ih?format=jpg",
+                        "local_path": "media/20260222_210615_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBynypMbYAACday?format=png",
+                        "local_path": "media/20260222_210615_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-22T21:06:15+00:00"
+            },
+            {
+                "text": "because i'm flipping thru this review - Liu2026: [Scalable Production of Functional Fibers with Nanoscale Features for Smart Textiles]( https://pubs.acs.org/doi/10.1021/acsnano.4c10111)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HByoAEfbwAAVOzT?format=png",
+                        "local_path": "media/20260222_210806_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HByoOiIaEAAzXSW?format=jpg",
+                        "local_path": "media/20260222_210806_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-22T21:08:06+00:00"
+            },
+            {
+                "text": "Li ion battery in a fiber form",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HB0mmkjaUAAwi-E?format=png",
+                        "local_path": "media/20260223_061951_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-23T06:19:51+00:00"
+            },
+            {
+                "text": "idk email them and ask for a sample",
                 "media": [],
-                "timestamp": "2026-02-13T16:03:36+00:00"
-            },
-            {
-                "text": "every engineered thing at a glance feel like over-engineered, and some of them are. https://x.com/grok how many transistors do i need to factor 21?",
-                "media": [],
-                "timestamp": "2026-02-13T16:06:46+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2022190929432760729",
-        "tweets": [
-            {
-                "text": "thinking about using google's [LangExtract]( https://github.com/google/langextract) to process all the fabrication recipes from the superconducting circuits litearatures, and a day and half later I'm still in the data collection and cleanup phase.. anyway here is the citation graph of ~13k papers sourced from ~110 theses and ~150 papers",
-                "media": [],
-                "timestamp": "2026-02-13T06:07:42+00:00"
-            },
-            {
-                "text": "damn codex is so good at finding and grabbing arxiv papers, it's almost like it has practiced this many many times lol",
-                "media": [],
-                "timestamp": "2026-02-13T06:39:01+00:00"
-            },
-            {
-                "text": "little clanker didnt like me stopping it from commiting",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HBBQ_YZacAASNIH?format=png",
-                        "local_path": "media/20260213_070515_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-13T07:05:15+00:00"
-            },
-            {
-                "text": "expanded to 500 papers/theses and 20M tokens. it's not that many tokens.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HBJJz5hakAEFllc?format=png",
-                        "local_path": "media/20260214_195021_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-14T19:50:21+00:00"
-            },
-            {
-                "text": "this is a banger. many friends are trying to scale up, some with process beyond academia's wildest dreams. I'm just doing it for fun and education.",
-                "media": [],
-                "timestamp": "2026-02-14T04:08:57+00:00"
-            },
-            {
-                "text": "it helps me sourcing some more that I should consider getting full text. you could also traverse this graph for search & retrieval etc",
-                "media": [],
-                "timestamp": "2026-02-14T15:33:08+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2022224744846963129",
-        "tweets": [
-            {
-                "text": "they just enjoy ribbon bonds I have to believe, they are not even driving any significant current. (credit: S. Seidelin & J. Chiaverini/NIST) [Landmarks—Correcting Quantum Computer Errors]( https://physics.aps.org/articles/v9/65)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HBBiVeZboAA9KaK?format=png",
-                        "local_path": "media/20250325_020206_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gm2ebS_aQAEvL9V?format=jpg",
-                        "local_path": "media/20250325_020206_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/Gm2egEdbQAA28q_?format=jpg",
-                        "local_path": "media/20250325_020206_2.jpg"
-                    }
-                ],
-                "timestamp": "2025-03-25T02:02:06+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2022225490061472168",
-        "tweets": [
-            {
-                "text": "first time?",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HBBjWQXaQAA_5ij?format=png",
-                        "local_path": "media/20260212_170751_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HA-Rb71bQAAJhE0?format=jpg",
-                        "local_path": "media/20260212_170751_1.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-12T17:07:51+00:00"
-            },
-            {
-                "text": "[The Bell System Technical Journal, October 1925]( worldradiohistory.com/Archive-Bell-S …)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/G2oZ7I3bcAAF49T?format=png",
-                        "local_path": "media/20260213_082516_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-13T08:25:16+00:00"
-            },
-            {
-                "text": "also",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/G1bRRyUb0AAsMod?format=jpg",
-                        "local_path": "media/20260213_082647_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-13T08:26:47+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2022528246659846530",
-        "tweets": [
-            {
-                "text": "are your interconnects context-aware?",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HBF2qHDakAIHW9D?format=jpg",
-                        "local_path": "media/20260214_042805_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-14T04:28:05+00:00"
-            },
-            {
-                "text": "[imec - Technologies - NanoIC]( https://europractice-ic.com/technologies/nanoic/)",
-                "media": [],
-                "timestamp": "2026-02-14T04:28:38+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2022833224091865196",
-        "tweets": [
-            {
-                "text": "never thought magna tiles are this serious. they’re secretly governed by convex polyhedral cones in a 9D parameter space. some triangles close into rings. some must coexist. some are thermodynamically illegal.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HBKL3xVakAEXxdN?format=png",
-                        "local_path": "media/20260215_003957_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HBKL4ikakAAeH-s?format=jpg",
-                        "local_path": "media/20260215_003957_1.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-15T00:39:57+00:00"
-            },
-            {
-                "text": "- Hübl2026: [A polyhedral structure controls programmable self-assembly]( https://doi.org/10.1038/s41567-025-03120-3)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HBKMneMbgAA7vej?format=jpg",
-                        "local_path": "media/20260215_004215_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-15T00:42:15+00:00"
-            },
-            {
-                "text": "yeah it's not that exciting, it's 2D, it's probabilistic/not consistent, and the analysis is very bruteforce",
-                "media": [],
-                "timestamp": "2026-02-15T16:27:26+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2022840226318799334",
-        "tweets": [
-            {
-                "text": "the CSAC paper figure was from 2003, there is a prototype eval in 2007, and commercialization in 2011.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HBKRjFKaEAEJzlS?format=jpg",
-                        "local_path": "media/20240611_044020_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HBKRrA-akAEx-CH?format=jpg",
-                        "local_path": "media/20240611_044020_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HBKRts_bMAAotTt?format=jpg",
-                        "local_path": "media/20240611_044020_2.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HBKRuv6akAATwBd?format=jpg",
-                        "local_path": "media/20240611_044020_3.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GPxBseBbsAAfTZ3?format=jpg",
-                        "local_path": "media/20240611_044020_4.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GPxB5pCa0AAA26x?format=jpg",
-                        "local_path": "media/20240611_044020_5.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GPxCD3QbgAEvehP?format=jpg",
-                        "local_path": "media/20240611_044020_6.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GPxCggebMAA1RVf?format=jpg",
-                        "local_path": "media/20240611_044020_7.jpg"
-                    }
-                ],
-                "timestamp": "2024-06-11T04:40:20+00:00"
-            },
-            {
-                "text": "- Lutwak2007: [The chip-scale atomic clock-prototype evaluation]( http://time.kinali.ch/ptti/2007papers/paper27.pdf)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HBKShs3akAA7yka?format=jpg",
-                        "local_path": "media/20260215_010901_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HBKSnrDa4AAkFrn?format=png",
-                        "local_path": "media/20260215_010901_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HBKSqFqakAAKUtP?format=png",
-                        "local_path": "media/20260215_010901_2.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-15T01:09:01+00:00"
-            },
-            {
-                "text": "reading it because i saw this cute magnetic shield for CSAC, freq sensitivity on the order of 1e-11/uT. - Hong2020: [Magnetic shield integration for a chip-scale atomic clock]( http://doi.org/10.35848/1882-0786/abb642)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HBOsJJQa8AA6ykn?format=jpg",
-                        "local_path": "media/20260215_213946_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-15T21:39:46+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2022850981181214796",
-        "tweets": [
-            {
-                "text": "babe wake up we are dating in Hyper-Kamiokande today - [Kamioka Observatory, ICRR, The Univ. of Tokyo - View the 3D Tour [Cavern excavation completed, September 2025]]( https://www-sk.icrr.u-tokyo.ac.jp/en/hk/virtual/)",
-                "media": [],
-                "timestamp": "2026-02-10T23:03:05+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2023208562420556073",
-        "tweets": [
-            {
-                "text": "my former lab did a hackweek and theres a lot of fun stuff, heres screenshots of the fiber alignment bot, the Seiko Elnix 0703A freq locked to a SiTime MEMS chip, the nanofab copilot, and the RF chain simulator - [Hackweek 2026: What happens when a physics lab stops research for ~two weeks]( https://quantum-noise.ghost.io/hackweek-2026-what-happens-when-a-physics-lab-stops-research-for-two-weeks/)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HBPgToVbEAAmI71?format=jpg",
-                        "local_path": "media/20260216_005909_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HBPghoSa4AAuk1c?format=jpg",
-                        "local_path": "media/20260216_005909_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HBPgmyiaUAAM0cs?format=jpg",
-                        "local_path": "media/20260216_005909_2.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HBPgrsnbAAE2xR6?format=jpg",
-                        "local_path": "media/20260216_005909_3.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HBPaDk_agAEJBPV?format=jpg",
-                        "local_path": "media/20260216_005909_4.jpg"
-                    }
-                ],
-                "timestamp": "2026-02-16T00:59:09+00:00"
-            },
-            {
-                "text": "kind of, these all share the same feature of measuring extremely weak signals. most hardware for quantum stuff is still mostly classical (i.e. no need to use quantum to model how they work), just very low noise and often overpriced.",
-                "media": [],
-                "timestamp": "2026-02-16T03:02:50+00:00"
-            },
-            {
-                "text": "haha true these were microwave and quantum hardware engineers they got trained to be over cautious",
-                "media": [],
-                "timestamp": "2026-02-16T16:21:49+00:00"
+                "timestamp": "2026-02-22T23:04:29+00:00"
             }
         ]
     }

@@ -6,7 +6,7 @@ header:
     image: /assets/images/IMG_0800.JPG
 ---
 
-Hi there, this is Wentao. I messed with chemistry around 13, then math & physics from high school to PhD, and nanofabrication for making microwave and photonics devices between 2015 - 2024. Now I'm messing with IoT, computer vision and robotics. I plan to dump my random thoughts and projects here. I will try to have better writing than the notes I take during the projects.
+Hi there, this is Wentao. I messed with chemistry around 13, then math & physics from high school to PhD, and nanofabrication for making microwave and photonics devices between 2015 - 2024. Now I'm messing with vibe coding, IoT, computer vision, robotics, and AI Infra. I plan to dump my random thoughts and projects here. I will try to have better writing than the notes I take during the projects.
 
 For detail project notes, see my [Obsidian journals](https://github.com/jwt625/Obsidian-Journals). Feel free to clone and open in Obsidian for better visual. These journals are chaotic and might include explicit languages, comsume them at your own risk!
 
@@ -33,7 +33,8 @@ Here's a longer and fun version of my bio (maybe I should link a CV here for a s
 - I did my PhD in applied physics at Stanford from 2017 to 2022 at Ginzton lab and [LINQS](https://linqs.stanford.edu/), and has been in the bay area since 2017. My [main PhD project](https://purl.stanford.edu/mx877vv9870) involves tiny (1/100th of human hair size) devices that make light and sound run into each other as much as possible. I design, make, and characterize these devices, which got me exposed to RF/microwave, telecom optics/photonics, cryogenics, and plenty of nanofab. (I should also write up these stuff more and better.)
 ![OHMP-device](/assets/images/about/OHMP_device_IMG_1128.png)
     - (I should add more classic pictures from grad school, maybe a blog?)
+    - Update late 2025: I have since written a few blogs on some of my work during grad school, such as [silicon photonics](https://outside5sigma.com/tutorial/SiPho/), [ebeam lithography](https://outside5sigma.com/tutorial/yapping-on-ebeam-lithography/), [lithium niobate properties](https://outside5sigma.com/tutorial/ln-properties/), [how to make a superconducting coil](https://outside5sigma.com/tutorial/SC-coil/), [how to wirebond](https://outside5sigma.com/tutorial/how-to-wirebond/) and [traveling-wave parametric amplifiers](https://outside5sigma.com/tutorial/TWPA/).
 
 - I'm now into electronics (digital please save me from analog) and robotics more. Shits are getting so cheap everyone should play with them!
 - Am I also supposed to talk about work stuff? Maybe I will add more later.
-- Outside tech stuff, I play the guitar and violin (analog is too hard so I'm playing the guitar more now), try to get better at squash and tennis, and run for a half marathon every year.
+- Outside tech stuff, I enjoy [woodwork](https://outside5sigma.com/blog/shed/), play the guitar and violin (analog is too hard so I'm playing the guitar more now), try to get better at squash and tennis, and run for a half marathon every year.

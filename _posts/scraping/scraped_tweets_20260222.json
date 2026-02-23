@@ -1,0 +1,691 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1865573192628310328",
+        "tweets": [
+            {
+                "text": "What's the highest dynamic range signal you've ever encountered / measured? (this is a very nice fiber bragg grating (FBG) )",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GePYrrNacAEMhcC?format=jpg",
+                        "local_path": "media/20241208_014444_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-08T01:44:44+00:00"
+            },
+            {
+                "text": "Screenshot from Field2024: Efficient, ultra-high attenuation fiber Bragg grating filter for photon noise suppression https://arxiv.org/abs/2412.00981 They did heterodyne and got the dynamic range from a spectrum analyser.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GePZyqpbQAAIh38?format=jpg",
+                        "local_path": "media/20241208_014858_0.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-08T01:48:58+00:00"
+            },
+            {
+                "text": "Typical high dynamic range power meters (like Newport 2103) and avalanche photodetectors (APDs) could give you 60~70 dB. Funny typical SNSPD also gives you a similar number (10~100 Mcps max).",
+                "media": [],
+                "timestamp": "2024-12-08T01:57:55+00:00"
+            },
+            {
+                "text": "If you have a good tunable attenuator, that would give you another 40~60 dB. Pulling the fiber just a bit outward of the connector is a pretty effective attenuator lol (as long as you measure it), did it a few times trying to get a ~90 dB dynamic range measurement.",
+                "media": [],
+                "timestamp": "2024-12-08T01:59:45+00:00"
+            },
+            {
+                "text": "Yeah this is pretty crazy. It's motivated by some quantum stuff, people are trying to do single photon detection of a very weak sideband while there is a strong pump nearby (~70 dB ish higher and a few GHz away)",
+                "media": [],
+                "timestamp": "2024-12-08T02:03:34+00:00"
+            },
+            {
+                "text": "so... what's the Q?",
+                "media": [],
+                "timestamp": "2024-12-08T02:05:25+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023225528904474924",
+        "tweets": [
+            {
+                "text": "ever wondered what's the S21 between you and your partner? now you know it is about -100 dB. honestly explains a lot. (at 10 MHz, between wrists)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBPwcdkboAAFDJG?format=jpg",
+                        "local_path": "media/20260216_023850_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBPwpHna0AAASu_?format=png",
+                        "local_path": "media/20260216_023850_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-16T02:38:50+00:00"
+            },
+            {
+                "text": "- Muramatsu2026: [Multiuser human body communication via inter-user contact: Evaluation of signal propagation with electromagnetic simulations and wearable measurements]( https://doi.org/10.1063/5.0315668)",
+                "media": [],
+                "timestamp": "2026-02-16T02:39:29+00:00"
+            },
+            {
+                "text": "haha thats simulation, measurement is only in the second screenshot at the two locations",
+                "media": [],
+                "timestamp": "2026-02-16T04:02:47+00:00"
+            },
+            {
+                "text": "lmao",
+                "media": [],
+                "timestamp": "2026-02-16T22:23:25+00:00"
+            },
+            {
+                "text": "get an amplifier and do 1 Hz IFBW lol",
+                "media": [],
+                "timestamp": "2026-02-16T04:04:58+00:00"
+            },
+            {
+                "text": "how much she felt divided by how  much you want her to feel",
+                "media": [],
+                "timestamp": "2026-02-16T16:20:32+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023322186141122591",
+        "tweets": [
+            {
+                "text": "im now a huge fan of codex, it's damn good at pulling stuff from arxiv, open access journals, fcc filings..",
+                "media": [],
+                "timestamp": "2026-02-16T09:02:55+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023329067324543070",
+        "tweets": [
+            {
+                "text": "if all fossil fuels on earth shall be burnt sooner or later (which i quote from a friend will happen because they generate value), spending them on launching solar panels and compute into space is the best we can and should do.",
+                "media": [],
+                "timestamp": "2026-02-16T09:30:15+00:00"
+            },
+            {
+                "text": "yes they'll still get burnt tho",
+                "media": [],
+                "timestamp": "2026-02-16T22:12:24+00:00"
+            },
+            {
+                "text": "like this from xAI as well as google's suncatcher ( https://www.nytimes.com/2026/02/10/technology/elon-musk-lunar-factory.html) ( https://research.google/blog/exploring-a-space-based-scalable-ai-infrastructure-system-design/)",
+                "media": [],
+                "timestamp": "2026-02-16T16:29:32+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023509856079212591",
+        "tweets": [
+            {
+                "text": "this is sad, why did the residential stop going up? why did everything stop going up? I want a 10 kW laser at home that is constantly running, I want a LPBF running at 5 kg/h throughput. What happened in the 2000s that stopped all curves from going up?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBTy5V5bwAAO0cf?format=jpg",
+                        "local_path": "media/20260215_051209_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-15T05:12:09+00:00"
+            },
+            {
+                "text": "couldve been 4x",
+                "media": [],
+                "timestamp": "2026-02-17T18:12:58+00:00"
+            },
+            {
+                "text": "why not both",
+                "media": [],
+                "timestamp": "2026-02-17T00:40:43+00:00"
+            },
+            {
+                "text": "why not both",
+                "media": [],
+                "timestamp": "2026-02-17T00:40:43+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023681720856572004",
+        "tweets": [
+            {
+                "text": "im surprised network switch/cable errors are this low also I hate stacked bar chart, can you at least also include lines so the individual trends are more readable? - Salpekar2026: [Training LLMs with Fault Tolerant HSDP on 100,000 GPUs]( https://arxiv.org/abs/2602.00277)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBWPCY4a4AA-NKU?format=png",
+                        "local_path": "media/20260217_085135_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBWPLPAbcAAEoto?format=jpg",
+                        "local_path": "media/20260217_085135_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-17T08:51:35+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023966644653990282",
+        "tweets": [
+            {
+                "text": "are they trying to say quantum physicists are on mushrooms",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBaS44ubQAA4TmK?format=jpg",
+                        "local_path": "media/20260218_034346_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-18T03:43:46+00:00"
+            },
+            {
+                "text": "havent seen a figure with wavelength, temperature, time, frequency, year, and USD at the same time before - Kukharchyk2026: [Practical quantum tokens: challenges and perspectives]( https://arxiv.org/abs/2602.10621)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBaULoiaEAA9CHw?format=jpg",
+                        "local_path": "media/20260218_035032_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-18T03:50:32+00:00"
+            },
+            {
+                "text": "lol",
+                "media": [],
+                "timestamp": "2026-02-18T04:03:48+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023982933128650835",
+        "tweets": [
+            {
+                "text": "this is peak",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBahmtCbAAAiWai?format=jpg",
+                        "local_path": "media/20260218_022517_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBahv0OaMAAbO8L?format=png",
+                        "local_path": "media/20260218_022517_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-18T02:25:17+00:00"
+            },
+            {
+                "text": "\"INTERACTIONS OF IONS WITH MATTER This website contains software on TWO Topics: SRIM - The Stopping and Range of Ions in Matter SER - Soft Error Rates from Cosmic Rays (see bottom of this page)\" - [James Ziegler - SRIM & TRIM]( https://srim.org)",
+                "media": [],
+                "timestamp": "2026-02-18T04:50:05+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2023995990009917470",
+        "tweets": [
+            {
+                "text": "look how many rings you need to mimic a fraction of the power of a very nice fiber bragg grating",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBatVNebcAAI9At?format=jpg",
+                        "local_path": "media/20241208_014444_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBath0SbcAIFxw3?format=jpg",
+                        "local_path": "media/20241208_014444_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GePYrrNacAEMhcC?format=jpg",
+                        "local_path": "media/20241208_014444_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-12-08T01:44:44+00:00"
+            },
+            {
+                "text": "- Hosseinnia2026: [Systematic Design and Demonstration of Multipole, Coupled-Cavity Integrated Photonic Bandpass Filters with High FSR, High-Q Single-Mode Microresonators in Low-Loss Silicon Nitride Platform]( https://arxiv.org/abs/2602.15250)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBatxdpbcAMiwss?format=jpg",
+                        "local_path": "media/20260218_054137_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-18T05:41:37+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2024368615525667307",
+        "tweets": [
+            {
+                "text": "what the heck is this orders of magnitude difference in marker size",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBgAZXfbUAMZh9Y?format=jpg",
+                        "local_path": "media/20260219_062103_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-19T06:21:03+00:00"
+            },
+            {
+                "text": "overall a very \"vague\" review - Rijo2026: [A review of solid oxide cell technologies for power, fuel, and reversible energy storage]( https://doi.org/10.1016/j.fuel.2025.137624)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBgArtSawAEnlZM?format=jpg",
+                        "local_path": "media/20260219_062224_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-19T06:22:24+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2024377386285097127",
+        "tweets": [
+            {
+                "text": "did you know hydrogen has seven different colors as well",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBgISj9a8AE2D7b?format=png",
+                        "local_path": "media/20260219_065554_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-19T06:55:54+00:00"
+            },
+            {
+                "text": "this review has much more details than the previous one. - Wolf2023: [Solid oxide electrolysis cells – current material development and industrial application]( https://doi.org/10.1039/d3ta02161k)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBgIulHbUAYExDi?format=jpg",
+                        "local_path": "media/20260219_070240_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBgJuZcbUAI8WAq?format=jpg",
+                        "local_path": "media/20260219_070240_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-19T07:02:40+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2024381168645488805",
+        "tweets": [
+            {
+                "text": "me: hey gemini, how much optical fiber manufacturing output did fiber-optic guided drones consume in 2025? gemini: blah blah it represents a vanishingly small fraction of total global manufacturing capacity—likely less than 0.1% by volume me: thats bs I heard it was 10%. How plausible is this number? gemini: In 2026, the claim that drones consume 10% of global optical fiber manufacturing capacity is no longer just a rumor—it has become a focal point of industry tension.",
+                "media": [],
+                "timestamp": "2026-02-19T07:10:56+00:00"
+            },
+            {
+                "text": "https://x.com/grok can you recognize which company is this screenshot from?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBgMh_9bUAIAGDz?format=png",
+                        "local_path": "media/20260219_071409_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-19T07:14:09+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2024662415926055173",
+        "tweets": [
+            {
+                "text": "someone foolish but not hungry is the worst kind, you can be cooking them a nice and better life, chopping it up just the right size, and spoon feeding right next to their mouth, and they still couldn't care less and wouldn't give it a try.",
+                "media": [],
+                "timestamp": "2026-02-20T01:48:31+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2024743285630353424",
+        "tweets": [
+            {
+                "text": "\"Changes in net sales to the datacenter market 4x from FY23 to FY25\" \"DFB laser chips production increased by 5 times in FY25 H2 compared to FY23\" cant wait to get some 800G transceivers from ebay in a couple of years",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBlUKA_bgAAqA2g?format=jpg",
+                        "local_path": "media/20260220_070951_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-20T07:09:51+00:00"
+            },
+            {
+                "text": "[FURUKAWA ELECTRIC CO., LTD. - Business Briefing - June 6, 2025]( https://www.furukawaelectric.com/en/ir/library/briefing/pdf/2025/20250606_communication.pdf)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBlVa0ObsAAlnG_?format=jpg",
+                        "local_path": "media/20260220_071106_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-20T07:11:06+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2025091656467538072",
+        "tweets": [
+            {
+                "text": "guess how much do you need to build a muon detector?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqSENKbIAAEfdQ?format=jpg",
+                        "local_path": "media/20260221_061409_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqSGWabUAEE44-?format=png",
+                        "local_path": "media/20260221_061409_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqSG81a4AAE2CI?format=png",
+                        "local_path": "media/20260221_061409_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-21T06:14:09+00:00"
+            },
+            {
+                "text": "about 200 bucks - Huang2024: [Low Cost Muon Telescope (LOCOMOTE)]( https://doi.org/10.22323/1.444.1619) I've made a comparator/pulse stretcher like this before lol",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqSKrAaIAAVPpC?format=png",
+                        "local_path": "media/20260221_061608_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqSSvxbgAAYp3D?format=jpg",
+                        "local_path": "media/20260221_061608_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqSU_kbkAAcuEX?format=jpg",
+                        "local_path": "media/20260221_061608_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-21T06:16:08+00:00"
+            },
+            {
+                "text": "found it",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqVT2tbwAAIXC2?format=jpg",
+                        "local_path": "media/20260221_062816_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqVVUcbgAIz4eV?format=jpg",
+                        "local_path": "media/20260221_062816_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-21T06:28:16+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2026-02-21T22:19:33+00:00"
+            },
+            {
+                "text": "really depends how low you need the dark count to be",
+                "media": [],
+                "timestamp": "2026-02-21T15:06:50+00:00"
+            },
+            {
+                "text": "nice, which SiPM did you get",
+                "media": [],
+                "timestamp": "2026-02-22T01:24:13+00:00"
+            },
+            {
+                "text": "really depends how low you need the dark count to be",
+                "media": [],
+                "timestamp": "2026-02-21T15:06:50+00:00"
+            },
+            {
+                "text": "nice, which SiPM did you get",
+                "media": [],
+                "timestamp": "2026-02-22T01:24:13+00:00"
+            },
+            {
+                "text": "just need to be light tight, and you correlate two clicks from two scintillators to get direction of the muon. the ones underground are for neutrinos",
+                "media": [],
+                "timestamp": "2026-02-22T00:46:31+00:00"
+            },
+            {
+                "text": "no real portable solution so far it seems, either a big accelerator or a big PW laser",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBszSG2a8AA6Sls?format=jpg",
+                        "local_path": "media/20260221_193735_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-21T19:37:35+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2025099139344687355",
+        "tweets": [
+            {
+                "text": "\"The Filament Extension Atomizer™ (FEA) is a unique technology designed for highly viscous or strain-hardening fluids that are otherwise difficult to atomize.\" \"A thin fluid film is processed between counter-rotating rollers of different materials rotating at 2000 rpm\" by Xerox PARC",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqYa45aoAACZHZ?format=png",
+                        "local_path": "media/20260221_064353_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-21T06:43:53+00:00"
+            },
+            {
+                "text": "- Neelakantan2020: [The effect of end-plate wetting and unpinned contact lines on the filament thinning of strain hardening fluids]( https://doi.org/10.1063/5.0018828)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqZQJqbgAEwxcG?format=jpg",
+                        "local_path": "media/20260221_064544_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-21T06:45:44+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2025234014324588624",
+        "tweets": [
+            {
+                "text": "makes me think of how the first Homo erectus who tried using fire might have looked and felt like at the time, and then i realized there's merely any social structure at the time, was there any idea of doctrine, and idea of disruptive innovation? Were fellow Homo ererctus afraid of it? or the survival benefits were so obvious and immediate and it's respected and adopted asap? to be honest the way we power society and these datacenters hasn't changed much, power is mostly from scaled up larger and hotter fires. imo the fire will continue to burn, adopting fire makes you much more likely to survive in society and on this planet no matter when or where, and there are better ways to burn stuff, and use the fire on better things",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G-7DfoCXYAAb8DL?format=jpg",
+                        "local_path": "media/20260118_053707_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-01-18T05:37:07+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2025269930720198982",
+        "tweets": [
+            {
+                "text": "very nice demo, if it's not directional enough, would still be jammable. to really be safe, you either make it highly directional, or use some very uncommon waves or particles. now hear me out, laser plasma muon source: highly directional, exotic particles, penetrate thick rocks, and muon detection is cheap.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBszSG2a8AA6Sls?format=jpg",
+                        "local_path": "media/20260218_160342_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBc7GrfXwAA74ny?format=jpg",
+                        "local_path": "media/20260218_160342_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBc7GvAXoAALbH5?format=jpg",
+                        "local_path": "media/20260218_160342_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-18T16:03:42+00:00"
+            },
+            {
+                "text": "the catch: you just need a portable PW scale laser. [Compact laser-plasma accelerator can generate muons on demand for imaging]( https://atap.lbl.gov/news/compact-laser-plasma-accelerator-can-generate-muons-on-demand-for-imaging/) - Calvin2025: [Experimental evidence of muon production from a laser-wakefield accelerator]( https://arxiv.org/abs/2503.20904)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBs1e9BbUAA7raF?format=jpg",
+                        "local_path": "media/20260221_180752_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-21T18:07:52+00:00"
+            },
+            {
+                "text": "cheap muon detection:",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqSENKbIAAEfdQ?format=jpg",
+                        "local_path": "media/20260221_181001_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqSGWabUAEE44-?format=png",
+                        "local_path": "media/20260221_181001_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBqSG81a4AAE2CI?format=png",
+                        "local_path": "media/20260221_181001_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-21T18:10:01+00:00"
+            },
+            {
+                "text": "yes it is",
+                "media": [],
+                "timestamp": "2026-02-22T01:27:51+00:00"
+            },
+            {
+                "text": "",
+                "media": [],
+                "timestamp": "2026-02-21T18:51:25+00:00"
+            },
+            {
+                "text": "much much harder to detect. maybe for galaxy scale comm",
+                "media": [],
+                "timestamp": "2026-02-21T18:37:52+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2025332161675706737",
+        "tweets": [
+            {
+                "text": "need more brands to do brand strategy like this",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBtspaGbsAAH4jV?format=jpg",
+                        "local_path": "media/20260221_220950_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBtssKNbAAA81NX?format=jpg",
+                        "local_path": "media/20260221_220950_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-21T22:09:50+00:00"
+            },
+            {
+                "text": "[400 car batteries wired together!!]( https://www.youtube.com/watch?v=OC7sNfNuTNU) [AnyDesk Loves Science]( https://anydesk.com/science)",
+                "media": [],
+                "timestamp": "2026-02-21T22:11:12+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2025627153828925803",
+        "tweets": [
+            {
+                "text": "wondering how much of these curves are going to be reflected in inference token prices. There is no traditional tariff or customs for digital service exports, and all the infra and electricity there are going to be more and more indirectly exported. We need more power generation. AI stuff aside, how are you going to run reindustrialization without electricity? also the culture problem is so deep like this autocorrelation.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBx2diPbwAEv8Th?format=jpg",
+                        "local_path": "media/20260222_174202_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBx4-mRasAAgnRN?format=jpg",
+                        "local_path": "media/20260222_174202_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-22T17:42:02+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2025641764292583821",
+        "tweets": [
+            {
+                "text": "the heck i don't even get this much engagement rate irl",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HByGU6saIAAKgmt?format=jpg",
+                        "local_path": "media/20260222_184005_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-22T18:40:05+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2025678219530449286",
+        "tweets": [
+            {
+                "text": "TIL people make photovoltaic and battery embedded fibers, so you can make self charging power textiles, ~100 mW under indoor illumination, and a tiny 7 mAh battery, enough to power some wearable sensors. you can even wash it a few dozens of times and capacity only drops about 10%, good news for people who don't like washing their clothes often lol",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBymr-xbUAAfZ7X?format=jpg",
+                        "local_path": "media/20260222_210457_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBynctdbsAA2XbM?format=jpg",
+                        "local_path": "media/20260222_210457_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBynfw-bUAAzI2F?format=jpg",
+                        "local_path": "media/20260222_210457_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-22T21:04:57+00:00"
+            },
+            {
+                "text": "- Zhu2023: [Indoor Photovoltaic Fiber with an Efficiency of 25.53% under 1500 Lux Illumination]( https://doi.org/10.1002/adma.202304876)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HBynxyHbwAA1_Ih?format=jpg",
+                        "local_path": "media/20260222_210615_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HBynypMbYAACday?format=png",
+                        "local_path": "media/20260222_210615_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-22T21:06:15+00:00"
+            },
+            {
+                "text": "because i'm flipping thru this review - Liu2026: [Scalable Production of Functional Fibers with Nanoscale Features for Smart Textiles]( https://pubs.acs.org/doi/10.1021/acsnano.4c10111)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HByoAEfbwAAVOzT?format=png",
+                        "local_path": "media/20260222_210806_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HByoOiIaEAAzXSW?format=jpg",
+                        "local_path": "media/20260222_210806_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-22T21:08:06+00:00"
+            },
+            {
+                "text": "Li ion battery in a fiber form",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HB0mmkjaUAAwi-E?format=png",
+                        "local_path": "media/20260223_061951_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-02-23T06:19:51+00:00"
+            },
+            {
+                "text": "idk email them and ask for a sample",
+                "media": [],
+                "timestamp": "2026-02-22T23:04:29+00:00"
+            }
+        ]
+    }
+]
