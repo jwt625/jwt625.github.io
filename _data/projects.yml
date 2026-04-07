@@ -162,6 +162,18 @@
   icon: "/assets/images/projects/icons/webspice-icon.svg"
   embed_url: "https://outside5sigma.com/WebSpice/"
 
+- name: "USGS Minerals And Infrastructure Atlas"
+  date: "2026-04-05"
+  description: "Static interactive atlas for exploring USGS National Minerals Information Center regional GIS releases across Africa, China, Indo-Pacific, Latin America & Caribbean, and Southwest Asia."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/USGS_Minerals_Infra_Atlas"
+      label: "GitHub"
+    - url: "https://outside5sigma.com/USGS_Minerals_Infra_Atlas/"
+      label: "Live Demo"
+  image: "/assets/images/projects/USGS_Minerals_Infra_Atlas.png"
+  embed_url: "https://outside5sigma.com/USGS_Minerals_Infra_Atlas/"
+
 # Additional undocumented projects
 - name: "Age of Agents"
   date: "2026-01-04"
@@ -309,4 +321,3 @@
     - url: "https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.22.054043"
       label: "Paper"
   image: "/assets/images/projects/Quantum-Limits-Superconducting-Links.png"
-
