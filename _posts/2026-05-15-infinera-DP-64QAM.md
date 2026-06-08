@@ -1,7 +1,7 @@
 ---
 title: "Infinera 1.6T DWDM DP-64QAM Silicon Photonic Chip Analysis"
 categories:
-  - tutorial
+  - Tutorial
 tags:
 - Photonic_integrated_circuit
 - DWDM
