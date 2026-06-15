@@ -1,0 +1,48 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1915627208498086342",
+        "tweets": [
+            {
+                "text": "Cisco Finisar 400G DR4, converting 8x 50G to 4x 100G PAM4. I could see two EMLs, not sure where are the other two or they split them.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GpWpCmNbYAMnz8V?format=jpg",
+                        "local_path": "media/20250425_044131_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GpWpCm0bQAAiG85?format=jpg",
+                        "local_path": "media/20250425_044131_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GpWpCm2bYAA96R3?format=jpg",
+                        "local_path": "media/20250425_044131_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GpWpCm1bYAIVDIC?format=jpg",
+                        "local_path": "media/20250425_044131_3.jpg"
+                    }
+                ],
+                "timestamp": "2025-04-25T04:41:31+00:00"
+            },
+            {
+                "text": "not 100% sure but that'd also be my guess",
+                "media": [],
+                "timestamp": "2025-04-25T15:49:36+00:00"
+            },
+            {
+                "text": "it's 26.5626 GBd with PAM4 = 53.125 Gbps per lane (8 lanes) see e.g. [QSFP-DD Pluggable, Fiber-Optics Module 400GBASE-DR4]( https://docs.broadcom.com/doc/AFCT-91DRDDZ_400GE_DR4_QSFP-DD_Prelim_DS_Rev0.4_09042019) and also [wikipedia - Terabit Ethernet]( https://en.wikipedia.org/wiki/Terabit_Ethernet#400G_port_types)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GpZrhwLbwAAqRUu?format=png",
+                        "local_path": "media/20250425_183530_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GpZrkACbYAAgg9Y?format=png",
+                        "local_path": "media/20250425_183530_1.jpg"
+                    }
+                ],
+                "timestamp": "2025-04-25T18:35:30+00:00"
+            }
+        ]
+    }
+]
