@@ -18,3 +18,7 @@ _posts/config.json
 .env
 .import-manifest.yaml
 /scripts/import-google-docs/venv/*
+
+scripts/__pycache__/*
+data/clip_pie_charts/clip_image_embeddings.npz
+data/image_clip_index/clip_image_embeddings.npz
