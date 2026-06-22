@@ -48,6 +48,19 @@ def download_media(url, folder, filename):
         return filepath
     return None
 
+def normalize_tweet_text(text):
+    """Preserve intentional tweet line breaks while removing Selenium noise."""
+    if not text:
+        return ''
+
+    text = text.replace('\r\n', '\n').replace('\r', '\n')
+    lines = []
+    for line in text.split('\n'):
+        clean_line = re.sub(r'[ \t]+', ' ', line).strip()
+        if clean_line:
+            lines.append(clean_line)
+    return '\n'.join(lines)
+
 def scrape_tweet(driver, tweet_element, media_folder, tweet_timestamp):
     tweet_data = {}
 
@@ -268,9 +281,7 @@ def scrape_tweet(driver, tweet_element, media_folder, tweet_timestamp):
         except Exception as e:
             print(f"Error processing links in tweet: {str(e)}")
 
-        # Clean up line breaks in the final tweet text to fix broken markdown links
-        tweet_text = re.sub(r'\s*\n\s*', ' ', tweet_text).strip()
-        tweet_data['text'] = tweet_text
+        tweet_data['text'] = normalize_tweet_text(tweet_text)
     except NoSuchElementException:
         tweet_data['text'] = ''
 
@@ -642,6 +653,31 @@ def format_media(media_item, media_folder):
     new_path = f"/assets/images/2026/{media_folder}/{file_name}"
     return f"![{file_name}]({new_path})"
 
+def tweet_text_lines(text):
+    lines = normalize_tweet_text(text).split('\n')
+    cleaned_lines = []
+    for line in lines:
+        # Tweets often contain their own bullet markers. The markdown writer
+        # owns list indentation, so strip source bullets to avoid "- - ...".
+        clean_line = re.sub(r'^(?:[-*]|[•])\s+', '', line).strip()
+        if clean_line:
+            cleaned_lines.append(clean_line)
+    return cleaned_lines
+
+def write_numbered_tweet(f, index, text):
+    lines = tweet_text_lines(text)
+    if not lines:
+        f.write(f"{index}.\n")
+        return
+
+    f.write(f"{index}. {lines[0]}\n")
+    for line in lines[1:]:
+        f.write(f"   - {line}\n")
+
+def write_bulleted_tweet(f, text):
+    for line in tweet_text_lines(text):
+        f.write(f"   - {line}\n")
+
 def create_markdown(json_file, output_file):
     with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -659,7 +695,7 @@ def create_markdown(json_file, output_file):
                 continue
             # First tweet in the thread
             first_tweet = thread['tweets'][0]
-            f.write(f"{i}. {first_tweet['text']}\n")
+            write_numbered_tweet(f, i, first_tweet['text'])
             
             # Media for the first tweet
             for media in first_tweet['media']:
@@ -668,7 +704,7 @@ def create_markdown(json_file, output_file):
             # If there are more tweets in the thread
             if len(thread['tweets']) > 1:
                 for tweet in thread['tweets'][1:]:
-                    f.write(f"   - {tweet['text']}\n")
+                    write_bulleted_tweet(f, tweet['text'])
                     # Media for this tweet
                     for media in tweet['media']:
                         f.write("   " + format_media(media, media_folder) + "\n")
