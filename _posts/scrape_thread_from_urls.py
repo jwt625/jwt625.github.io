@@ -59,7 +59,16 @@ def normalize_tweet_text(text):
         clean_line = re.sub(r'[ \t]+', ' ', line).strip()
         if clean_line:
             lines.append(clean_line)
-    return '\n'.join(lines)
+
+    merged_lines = []
+    url_start = re.compile(r'^(?:https?://|www\.)')
+    for line in lines:
+        if merged_lines and merged_lines[-1].endswith('(') and url_start.match(line):
+            merged_lines[-1] += line
+        else:
+            merged_lines.append(line)
+
+    return '\n'.join(merged_lines)
 
 def scrape_tweet(driver, tweet_element, media_folder, tweet_timestamp):
     tweet_data = {}
