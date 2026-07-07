@@ -692,9 +692,17 @@ def create_markdown(json_file, output_file):
         data = json.load(f)
 
     # Determine the date range for the media folder name
-    all_dates = [datetime.fromisoformat(tweet['timestamp']) for thread in data for tweet in thread['tweets']]
-    earliest_date = min(all_dates)
-    latest_date = max(all_dates)
+    media_dates = [
+        datetime.fromisoformat(tweet['timestamp'])
+        for thread in data
+        for tweet in thread['tweets']
+        if tweet.get('timestamp') and tweet.get('media')
+    ]
+    if not media_dates:
+        raise ValueError("Cannot determine media folder: no tweets with media found")
+
+    earliest_date = min(media_dates)
+    latest_date = max(media_dates)
     media_folder = f"{earliest_date.strftime('%Y%m%d')}_{latest_date.strftime('%Y%m%d')}"
 
     with open(output_file, 'w', encoding='utf-8') as f:
