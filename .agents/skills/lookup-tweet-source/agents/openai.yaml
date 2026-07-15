@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lookup Tweet Source"
+  short_description: "Trace OFS topics back to source tweets"
+  default_prompt: "Use $lookup-tweet-source to find the original tweet URL for a topic mentioned in an OFS post."
