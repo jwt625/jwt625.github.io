@@ -20,11 +20,13 @@ header:
   overlay_filter: 0.5
 ---
 
+This tutorial is a general introduction to silicon photonics and co-packaged optics, based on materials I gathered over the years as well as some teardown images I have.
+
 ![Photonic and electronic hardware prototype](/assets/images/2025/20251219_CPO/photon-electron-hardware.webp)
 - Intel 2017 CWDM silicon photonics transceiver, photo taken by [@sokol_cc](https://x.com/sokol_cc)
 - I believe I have convinced at least a dozen ish people to buy this intel transceivers lol 
 
-A lot of things we take for granted are running on photons and electrons. People having a blog usually think about AWS, Grafana, postgres, and all the software in between, but underneath all of these are currents, voltages, and light.
+A lot of things we take for granted are running on photons and electrons. People with personal blogs usually think about AWS, Grafana, postgres, and all the software in between, but underneath all of these are currents, voltages, and light.
 
 For example, how are you seeing this page? It is stored somewhere in one of github's datacenters, sent through the internet backbone and multiple internet exchange points, received by your laptop, and finally shown by a giant array of LEDs that converts electrical currents into photons. There are dozens maybe hundreds of electrical-to-optical and optical-to-electrical conversions along the way. When some of them broke, you get longer github outages.
 
@@ -42,12 +44,21 @@ The source was sunlight. Bell reflected it from a metal membrane and spoke towar
 
 Since then, we have pushed optical communication bandwidth in several ways. First we pushed the modulation rate: how quickly we can change some property of light to encode information. Then we added wavelength-division multiplexing (WDM), which is a fancy way of saying we shove more wavelengths into the same fiber. We also added spatial-division multiplexing (SDM), i.e., using more modes, cores, or more often just more fibers.
 
+![Fiber-optic network capacity scaling](/assets/images/2025/20251219_CPO/winzer-fiber-network-scaling.jpeg)
+*Source: Winzer et al., [“Fiber-optic transmission and networking: the previous 20 and the next 20 years”](https://doi.org/10.1364/OE.26.024190) (2018).*
+
 The bad news is that communication is still not catching up with compute. Large AI models and accelerators are scaling much faster than the bandwidth of individual network links, so we end up adding more networking equipment and spending more power on moving data.
+
+![Total SerDes shipments by application](/assets/images/2025/20251219_CPO/ieee-total-serdes-shipments.jpg)
+*Serdes shipment, the volume is growing and so does the speed. Source: Weckel et al., [IEEE 802.3 Ethernet for AI assessment](https://www.ieee802.org/3/ad_hoc/E4AI/public/25_0327/weckel_e4ai_01_250327.pdf) (2025).*
 
 ![Compute and interconnect scaling](/assets/images/2025/20251219_CPO/compute-vs-interconnect-scaling.webp)
 *This is a bit of a graph crime because the y-axis is arranged to separate the curves visually. The useful point is the widening gap between compute demand and interconnect scaling. Figure from Cheng et al., [“The rise of optical interconnects in data center systems”](https://doi.org/10.1364/OE.555476).*
 
-How do we catch up with the scaling of compute and of the big AI models and their interconnects and bandwidths need? We need to shrink the conversions, make them faster and cheaper, and shink how we route light around.
+![Aggregate optical bandwidth for high-performance computing and AI systems](/assets/images/2025/20251219_CPO/taubenblatt-hpc-ai-optical-bandwidth.jpg)
+*Aggregate optical bandwidth for high-performance computing and AI systems, catching up quick with total internet bandwidths in the past. Source: Taubenblatt, [“Optical Interconnects for High-Performance Computing”](https://doi.org/10.1109/JLT.2011.2172989) (2012); extended by me and GPT-5.6.*
+
+How do we catch up with the scaling of compute and of the big AI models and their interconnects and bandwidths need? Like said before, we need faster speed per lane, more wavelengths lanes, and more physical lanes. We need to shrink the conversions, make them faster and cheaper, and shink how we route light around.
 
 
 # What is photonics?
@@ -99,6 +110,10 @@ The source is a semiconductor laser. The short version for how lasers work is th
 The important system point is that lasers are often the failure points, and silicon itself is a poor light emitter (Silicon has indirect bandgap unless you are a freak and put silicon under a lot of stress, and indirect bandgap means light need to absorb some lattice vibration to emit, much harder than direct bandgap.). A silicon-photonics process therefore needs either III-V material integrated with the silicon waveguides or an external laser coupled into the chip.
 - it is worth a whole other blog to talk about various laser integration techniques and why they almost all suck in different ways. For another day.
 - there are also rich kids who make photonic circuits on indium phosphide wafers, the most popular semiconductor laser materials. By paying more as well as working with more retarded foundries (they hand cleave/mechanically cleave the dies instead of making facets and dicing until maybe 2020, insert sivers patent here), you get to put active components onto the same chip, lasers, amplifiers, modulators, detectors... Although it might sound simple, it usually involves regrowth of the quantum well and the junctions, and is a pain in the ass in its own way.
+
+![Fraunhofer HHI 100-channel InP spectrometer PIC](/assets/images/2025/20251219_CPO/fraunhofer-100-channel-inp-spectrometer.jpg)
+*Here is a InP PIC, a  100-channel spectrometer  from Fraunhofer HHI, [HIPPIOS](https://www.hhi.fraunhofer.de/abteilungen/hybride-integration-und-sensorik/projekte/archiv/hippios.html).*
+
 
 ![Cross-section of an InP photonic-integrated-circuit platform](/assets/images/2026/20250712_20260714/20260711_174715_0.jpg)
 *Doesn't this look fun? And now imagine a grad student doing this by hand.*
@@ -194,7 +209,18 @@ On an integrated chip, this can be done with echelle gratings, arrayed-waveguide
 
 # Co-packaged optics: less copper, more fiber
 
-What we have looked at so far is a pluggable transceiver. The optical module sits at the front panel, while high-speed copper traces connect it to the switch ASIC. Those traces can be tens of centimeters long after including the package, PCB, and connectors. All these different electrical components cause loss, reflections and interferences, and good luck getting all the up-to-date S parameters from a dozen different vendors.
+What we have looked at so far is a silicon photonics pluggable transceiver. I'd like to quickly mention that most pluggables shipped are VCSELs and EMLs based ones instead of SiPho, and SiPho is more relevant for co-packaged optics.
+
+![VCSEL short-reach transceiver shipment forecast](/assets/images/2025/20251219_CPO/ieee-vcsel-sr-volume-forecast.jpg)
+*Source: [IEEE 802.3 200 Gb/s over multimode fiber CFI](https://www.ieee802.org/3/ad_hoc/ngrates/public/calls/25_0717/CFI_200GMMF_R3_250717.pdf) (2025).*
+
+![EML-based pluggable optical transceiver](/assets/images/2025/20250117_20250127_long_thread/20250122_043517_3.jpg)
+*A zoom-in shot of an EML-based pluggable optical transceiver, near the EML. (Innolight 200G QSFP56 FR4 1310 nm)*
+
+The pluggable optical module sits at the front panel, while high-speed copper traces connect it to the switch ASIC. Those traces can be tens of centimeters long after including the package, PCB, and connectors. All these different electrical components cause loss, reflections and interferences, and good luck getting all the up-to-date S parameters from a dozen different vendors.
+
+![Electrical path through a 400 Gb/s package](/assets/images/2025/20251219_CPO/ieee-400g-package-electrical-path.jpg)
+*I want to carry the bits through the quiet murmur of a Broadcom PHY, watch the driver shake out the electrons, cross the little copper bridges of CoWoS with them, descend through forests of microbumps, and wander along the green terraces of Ajinomoto substrate. I want to follow them through BGA fields, watch them gather themselves at every via, at the polished gates of Samtec and Amphenol, through every reflection, loss, and trembling discontinuity, until, at last, they arrive cleanly at your receiver, the equalizer restores their shape, the clock finds their rhythm, and I can watch your eye open. Source: Sakai et al., [IEEE 802.3 400 Gb/s per-lane package study](https://www.ieee802.org/3/400GPL/public/2605/sakai_400GPL_01a_2605.pdf) (2026).*
 
 Co-packaged optics moves the optical engines (OEs) right next to the switch ASIC (and in the future GPU/CPU/inference ASIC/memory. idk about TPU, google seems to hate CPO). The long electrical path becomes a very short package-level connection, and fiber carries the signal for the remaining distance.
 
@@ -225,6 +251,15 @@ Copper here means a high-speed PCB trace, an RF/coaxial cable etc. One easy orde
 This is why we do not use one passive high-speed copper link to go tens or hundreds of meters. The signal would be gone without repeaters, retimers, or a much lower data rate.
 
 Fiber is in a completely different propagation regime, if it is worth a Nobel price it better be really good.. Corning specifies up to 0.18 dB/km attenuation at 1550 nm for SMF-28 fiber. That corresponds to roughly 3 dB loss, or losing half the optical power, after about 17 km. Inside a data center, the loss along a normal fiber is 100% negligible compared with coupling, connectors, splitting, and the conversions at the ends (if it is not negligible then you messed it up maybe with too many tight bends).
+
+![Fiber-channel loss budget](/assets/images/2025/20251219_CPO/ieee-fiber-channel-loss-budget.jpg)
+*Here's some connector insertion losses in a typical intra data center optical link. Source: Stone et al., [IEEE 802.3 400 Gb/s per-lane fiber-path study](https://www.ieee802.org/3/400GPL/public/260630/stone_400GPL_01a_260630.pdf) (2026).*
+
+<div style="display: flex; flex-direction: row; align-items: center; gap: 10px;">
+  <img src="/assets/images/2025/20251219_CPO/fiber-attenuation-vs-wavelength-itu.png" alt="Single-mode fiber attenuation versus wavelength" style="width: 50%; height: auto;">
+  <img src="/assets/images/2025/20251219_CPO/fiber-dispersion-vs-wavelength-itu.png" alt="Single-mode fiber chromatic dispersion versus wavelength" style="width: 50%; height: auto;">
+</div>
+*Here is why we use 1.3 um and 1.5 um for fiber communication, for their low dispersion and propagation loss, accordingly. Hence all short reach datacom is running around 1.3 um. Source: ITU-T, [Optical fibres, cables and systems](https://www.itu.int/dms_pub/itu-t/oth/0B/04/T0B040000282C01PDFE.pdf).*
 
 ![A 1978 copper bundle and a fiber carrying comparable bandwidth](/assets/images/2025/20251219_CPO/copper-bundle-vs-fiber-1978.webp)
 *A very physical comparison from a [1978 Bell System film](https://www.youtube.com/watch?v=gf2J3HTYUHE): a copper bundle and the much smaller fiber replacing its aggregate capacity. Go watch this video it is good.*
@@ -317,6 +352,8 @@ Okay the short version is that you need to do a lot of begging. First, beg the s
 With electronics, you can often put a multimeter probe onto a node and measure the voltage. I wish photonics were that easy. Even a device whose only job is to split one input waveguide into two outputs depends on several dimensions, interference, reflection, wavelength, polarization, and fabrication errors.
 
 ![Simulated optical field in a compact waveguide splitter](/assets/images/2025/20251219_CPO/waveguide-splitter-simulation.gif)
+*Simulated optical field in a multimode interference (MMI) splitter*
+- quiz: what happens when you run the 1x2 MMI splitter backward with the two inputs out of phase with each other?
 
 Component design commonly uses FDTD, FEM, eigenmode solvers, and coupled-mode models. Tools include Ansys Lumerical, COMSOL, Flexcompute Tidy3D, and Photon Design. Once the components work, they are connected at circuit level using tools such as Synopsys OptSim, Lumerical INTERCONNECT, Luceda IPKISS, or GDSFactory. I promise you'll always forget something in your circuit level simulations, whether it is backreflection, other modes, or stray light. It will get better over time, you will learn your mistakes, but it will never match your measurement.
 
@@ -366,6 +403,9 @@ There are many steps to stack the dies and route signals between them. Fiber ali
 
 # What CPO changes for data centers
 
+![Meta data-center fiber pathways](/assets/images/2025/20251219_CPO/ieee-meta-fiber-pathways.jpg)
+*We have a lot of fibers inside and between data centers. Source: Stone et al., [IEEE 802.3 400 Gb/s per-lane fiber-path study](https://www.ieee802.org/3/400GPL/public/260630/stone_400GPL_01a_260630.pdf) (2026).*
+
 Practically, the two biggest reasons, power and reliability.
 
 At large cluster scale, removing pluggable transceivers and long electrical channels can save megawatts. That power can be used for more GPUs. The cooling load also falls by the same electrical power, although in practice the saved power will probably be filled with more compute and turned into heat anyway.
@@ -377,8 +417,13 @@ CPO can also simplify physical deployment. Instead of installing a pluggable tra
 
 The honest answer is probably that production behavior has to be measured (which meta has some publications). Moving optics into the switch removes some failure modes but creates a different repair model.
 
+![Optical cabling in an IBM Power 775 supercomputer rack](/assets/images/2026/20241104_20260628/20260621_161815_3.jpg)
+*Fibers go burrrr (Partially populated optical cabling in an IBM Power 775 rack). Source: Taubenblatt, [“Optical Interconnects for High-Performance Computing”](https://doi.org/10.1109/JLT.2011.2172989), Fig. 10; previously used in [OFS #105]({% post_url 2026-06-29-weekly-OFS-105 %}#optical-interconnect-volume-growth-for-ai).*
 
-# Recap
+
+# Recap and miscellaneous
+
+## Recap
 
 ![NVIDIA co-packaged-optics photonic switch and optical subsystem](/assets/images/2025/20251219_CPO/nvidia-cpo-photonic-switch.webp)
 
@@ -401,6 +446,27 @@ I did not go into the whole engineering aspects about MRM, the nonlinearities, t
 I also did not even mention VCSELs ~~and micro LEDs~~, another day!
 
 
+## Near-packaged optics and length of the link
+
+I did not talk about ner-package optics, in short it is a compromise and attempt to still shrink and reduce the electrical propagations and interfaces, by putting the EO conversion on the board instead of as aggressive as CPO (onto the organic substrate), and VCSELs are leading the charge.
+
+![200 Gb/s VCSEL link over 60 m of OM4 fiber](/assets/images/2025/20251219_CPO/ieee-200g-vcsel-60m-om4.jpg)
+*Source: Rodes et al., [IEEE 802.3 200 Gb/s over multimode fiber](https://www.ieee802.org/3/200GMMF/public/Plenary_Nov_11-2025/rodes_200gmmf_01_2511.pdf) (2025).*
+
+However VCSELs are mostly multimode, and they use multimode fiber to make the fiber alignment easier. As a result, the modal dispersion (different modes propagating at different speed) could interfere your symbols and limit the baud rate. In contrast, SiPho based CPOs are running on single mode silicon photonic waveguide and single mode fibers, and can go hundreds of meters and further. Current CPO solutions are thus all for scale-out, which loosely mean interconnects between racks. (I guess we should also talk about scale-up and scale-out..)
+
+<div style="display: flex; flex-direction: row; align-items: center; gap: 10px;">
+  <img src="/assets/images/2025/20251219_CPO/ieee-data-hall-fiber-link-lengths.jpg" alt="Data-hall fiber-link length distribution" style="width: 50%; height: auto;">
+  <img src="/assets/images/2025/20251219_CPO/ieee-smf-zero-dispersion-distribution.jpg" alt="Single-mode fiber zero-dispersion wavelength distribution" style="width: 50%; height: auto;">
+</div>
+*Source: Kuschnerov et al., [IEEE 802.3 Ethernet for AI optical-link study](https://ieee802.org/3/ad_hoc/E4AI/public/25_1023/kuschnerov_e4ai_01_251023.pdf) (2025).*
+
+
+
+
+## Startups
+
+
 # References and further reading
 
 - Robert Blum, Intel, [*High Volume Silicon Photonics for Optical I/O and Other Next Generation Applications*](https://epic-photonics.com/wp-content/uploads/2021/12/Robert-Blum-Intel.pdf) ([local PDF backup](/assets/doc/2025/20251219_CPO/robert-blum-intel-high-volume-silicon-photonics.pdf)), 2022.
@@ -412,3 +478,8 @@ I also did not even mention VCSELs ~~and micro LEDs~~, another day!
 - AIM Photonics, [Silicon Photonics Multi-Project Wafer program](https://www.aimphotonics.com/mpw).
 - ASE, [Silicon Photonics advanced-packaging overview](https://ase.aseglobal.com/silicon-photonics/).
 - Umesh Shainer, NVIDIA, [*Scaling AI Factories with Co-Packaged Optics*](https://hc2025.hotchips.org/assets/program/conference/day2/HC25_NVIDIA_Shainer_v4.pdf) ([local PDF backup](/assets/doc/2025/20251219_CPO/umesh-shainer-nvidia-scaling-ai-factories-with-cpo-hot-chips-2025.pdf)), Hot Chips 2025.
+
+
+# Revision history
+
+- **2026-08-22:** Added figures and sources on network scaling, fiber characteristics, InP photonics, electrical paths, VCSEL links, NPO, and data-center fiber deployment; reorganized the recap and miscellaneous material.
