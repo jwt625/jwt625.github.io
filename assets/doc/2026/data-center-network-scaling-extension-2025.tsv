@@ -1,0 +1,49 @@
+# Data used to reproduce and extend Fig. 14(b) of Winzer, Neilson, and
+# Chraplyvy, Optics Express 26, 24190-24239 (2018).
+#
+# series values:
+#   traffic_au  - Google aggregate server traffic, visually digitized from
+#                 the original normalized trace. No comparable public update
+#                 was found after the trace ended, so it is not extrapolated.
+#   switch_tbps - released/sampling Broadcom Ethernet switch-chip capacity.
+#   lane_tbps   - corresponding electrical interface/SerDes lane rate.
+#
+# Rows through 2018 are visually digitized from the original figure and are
+# approximate. Added observations are Broadcom product-release values:
+#   2019: Tomahawk 4, 25.6 Tb/s
+#   2020: Tomahawk 4-100G, 100 Gb/s PAM4 SerDes
+#   2022: Tomahawk 5, 51.2 Tb/s
+#   2025: Tomahawk 6, 102.4 Tb/s and 200 Gb/s PAM4 SerDes
+year	traffic_au	switch_tbps	lane_tbps
+1999.0	NaN	0.008	0.001
+2001.0	NaN	0.032	0.001
+2004.0	NaN	0.130	0.001
+2007.0	NaN	0.250	0.010
+2008.0	1.0	0.320	0.010
+2008.4	1.3	NaN	NaN
+2008.9	1.6	NaN	NaN
+2009.0	NaN	0.500	0.010
+2009.3	2.1	NaN	NaN
+2009.7	2.5	NaN	NaN
+2010.2	3.0	NaN	NaN
+2010.6	3.6	NaN	NaN
+2011.0	4.2	1.000	0.010
+2011.5	4.8	NaN	NaN
+2011.9	7.0	NaN	NaN
+2012.3	11.0	NaN	NaN
+2012.8	16.0	NaN	NaN
+2013.0	NaN	1.200	0.010
+2013.2	22.0	NaN	NaN
+2013.7	18.0	NaN	NaN
+2014.1	28.0	NaN	NaN
+2014.5	34.0	NaN	NaN
+2014.9	44.0	NaN	NaN
+2015.0	NaN	2.500	0.010
+2015.4	50.0	NaN	NaN
+2016.0	NaN	3.200	0.025
+2016.5	NaN	6.400	NaN
+2018.0	NaN	12.800	0.050
+2019.94	NaN	25.600	NaN
+2020.92	NaN	NaN	0.100
+2022.62	NaN	51.200	NaN
+2025.42	NaN	102.400	0.200

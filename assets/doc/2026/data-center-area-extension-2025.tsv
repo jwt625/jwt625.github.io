@@ -1,0 +1,32 @@
+# Observed U.S. data-center area series used for the updated chart.
+#
+# original_million_sqft: visually digitized from Fig. 14(a) of Winzer,
+# Neilson, and Chraplyvy, Optics Express 26, 24190-24239 (2018). It is
+# aggregate physical floor-plan area for Google, Facebook, AWS, and Microsoft.
+# Values are approximate because the paper does not publish the underlying table.
+#
+# dckb_hyperscale_million_sqft: annual Q4 operating Net IT space for U.S.
+# hyperscale records in the 451 Research Data Center KnowledgeBase, via the
+# aggregate-only U.S. Data Center Atlas. These are observed database values,
+# not forecasts, but Net IT space is not identical to gross building floor area.
+year	original_million_sqft	dckb_hyperscale_million_sqft
+2006	0.70	NaN
+2007	NaN	NaN
+2008	1.90	NaN
+2009	2.50	NaN
+2010	3.30	NaN
+2011	3.60	NaN
+2012	5.00	NaN
+2013	6.40	NaN
+2014	8.50	8.228720
+2015	10.50	10.688528
+2016	17.00	14.548830
+2017	22.00	16.983286
+2018	NaN	20.492247
+2019	NaN	26.458389
+2020	NaN	32.148988
+2021	NaN	41.959699
+2022	NaN	47.027399
+2023	NaN	56.697704
+2024	NaN	73.861769
+2025	NaN	92.275115
