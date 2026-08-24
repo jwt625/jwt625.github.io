@@ -20,11 +20,12 @@ header:
   overlay_filter: 0.5
 ---
 
-This tutorial is a general introduction to silicon photonics and co-packaged optics, based on materials I gathered over the years as well as some teardown images I have.
+This tutorial is a general introduction to silicon photonics and co-packaged optics, based on materials I gathered over the years as well as some [teardown images](/teardown/100G-200G-400G-800G/) I have.
 
 ![Photonic and electronic hardware prototype](/assets/images/2025/20251219_CPO/photon-electron-hardware.webp)
 - Intel 2017 CWDM silicon photonics transceiver, photo taken by [@sokol_cc](https://x.com/sokol_cc)
 - I believe I have convinced at least a dozen ish people to buy this intel transceivers lol 
+- I also have written a more low level intro on silicon photonics in this tutorial: [Selected Basics of Silicon Photonics](/tutorial/SiPho/)
 
 A lot of things we take for granted are running on photons and electrons. People with personal blogs usually think about AWS, Grafana, postgres, and all the software in between, but underneath all of these are currents, voltages, and light.
 
