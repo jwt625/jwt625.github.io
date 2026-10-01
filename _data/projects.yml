@@ -207,6 +207,84 @@
       label: "Source"
   image: "/assets/images/projects/2d-eo-fem-solver.png"
 
+- name: "OFC 2026 Conference Analysis"
+  date: "2026-03-21"
+  description: "Institution-by-topic map of OFC 2026 built from a term analysis of the conference paper archive. Includes a sortable institution matrix with university/company filters and a paper browser."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/ofc-2026"
+      label: "GitHub"
+    - url: "https://outside5sigma.com/ofc-2026/"
+      label: "Live Demo"
+  image: "/assets/images/projects/ofc-2026.png"
+
+- name: "Multipole Cow"
+  date: "2026-03-27"
+  description: "Reproduction of the spherical-harmonic surface expansion from Higher multipoles of the cow. The libigl benchmark cow is flowed along the signed-distance gradient to a near star-shaped shell, fitted with spherical harmonics up to l = 24, and reconstructed one order at a time. Includes a Three.js viewer."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/PlayGround/tree/main/20260327_multipole_cow"
+      label: "Source"
+  image: "/assets/images/projects/multipole-cow.png"
+
+- name: "Nonuniform Thermally Chirped FBG"
+  date: "2026-08-02"
+  description: "Coupled-mode / transfer-matrix reconstruction of the heated-spectrum figure from an all-fiber microheater paper (Optics Express, 2026), with a semi-analytic cylindrical-fin temperature model. The hot-spot profile is recovered by inverting six digitized heated spectral envelopes."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/PlayGround/tree/main/20260802_nonuniform_FBG"
+      label: "Source"
+  image: "/assets/images/projects/nonuniform-fbg.png"
+
+- name: "PHIELDWORKS"
+  date: "2026-09-13"
+  description: "Desktop-browser factory game about turning an industrial network into a controlled wave system. Wire emitters and phase tuners, hold field on target, defend the outpost, and commission a reusable blueprint. Runs fully client-side."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/phieldworks"
+      label: "GitHub"
+  image: "/assets/images/projects/phieldworks.png"
+
+- name: "Mode Overlap"
+  date: "2026-09-15"
+  description: "Intuition trainer for photonic mode matching. Estimate overlap and mismatch loss for Gaussian mode pairs, with a mode gallery, a 20-question speedrun, and practice mode. Waveguide modes are solved in the browser (experimental scalar quasi-TE)."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/mode-guessr"
+      label: "GitHub"
+    - url: "https://outside5sigma.com/mode-guessr/"
+      label: "Live Demo"
+  image: "/assets/images/projects/mode-overlap.png"
+
+- name: "Fruit-Fly CBC"
+  date: "2026-09-15"
+  description: "A sparse recurrent reservoir built on the MaleCNS fruit-fly connectome learns to phase-lock and steer a simulated coherent-beam-combining laser array, then tracks a second virtual fly as a moving target. Three.js bench with a far-field view. Simulation and art only; no physical laser interface."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/PlayGround/tree/main/20260915_fruit_fly_nn"
+      label: "Source"
+  image: "/assets/images/projects/fruit-fly-cbc.png"
+
+- name: "Power versus Mass"
+  date: "2026-09-26"
+  description: "Log-log comparison of whole-body or system power against mass for 40 animals, compute systems, spacecraft and transportation, with idle and peak endpoints, battery / SOFC / propellant specific-power guides, and off-scale arrows. One JSON file holds the data, provenance and estimate flags."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/PlayGround/tree/main/20260926_power_mass_plot"
+      label: "Source"
+  image: "/assets/images/projects/power-mass-plot.png"
+
+- name: "Hardware Milestones"
+  date: "2026-09-27"
+  description: "Interactive historical hardware metrics for processors, memory, networks and disks (1978-2017), with shared-unit axes, normalization, and logarithmic comparison across dual axes."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/hardware-milestones"
+      label: "GitHub"
+    - url: "https://outside5sigma.com/hardware-milestones/"
+      label: "Live Demo"
+  image: "/assets/images/projects/hardware-milestones.png"
+
 # Additional undocumented projects
 - name: "Age of Agents"
   date: "2026-01-04"
