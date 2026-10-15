@@ -1,559 +1,1043 @@
 [
     {
-        "url": "https://x.com/jwt0625/status/2102252658291773446",
+        "url": "https://x.com/jwt0625/status/1763787981058654494",
         "tweets": [
             {
-                "text": "SiPho industry: help I don't know how to define and characterize fab tolerances for your fancy bends\nmeanwhile SiPho academia: how about we make the height profile a smooth variation? Look how much better the performance is!\nthis is going to be in my top three of photonic simulation porns, still more practical than modulating laterally half of a waveguide because you can actually make these with grayscale ebeam litho",
+                "text": "Found this cleanroom equipment loadlock tier list I made a while ago lol",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/HSyyz2EaAAA9ARh?format=jpg",
-                        "local_path": "media/20260922_042426_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GHo7zCWasAASt1y?format=jpg",
+                        "local_path": "media/20240302_044638_0.jpg"
                     }
                 ],
-                "timestamp": "2026-09-22T04:24:26+00:00"
-            },
-            {
-                "text": "first time seeing a comparison between the spatial freq of the refractive index pattern vs the spatial freq of the corresponding em wave solutions\n- Müller2026: [When Integrated Photonics Should Be Wavy](https://arxiv.org/abs/2609.21781)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HSy0rXjaAAAFZFH?format=jpg",
-                        "local_path": "media/20260922_042949_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-22T04:29:49+00:00"
+                "timestamp": "2024-03-02T04:46:38+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/2102255896000930166",
+        "url": "https://x.com/jwt0625/status/1883678843254583511",
         "tweets": [
             {
-                "text": "somebody please come up with an award for total number of marker types used in a single plot",
+                "text": "Quiz: why are the output waveguides all tilted at an angle on these transmitter chips? (notice they are not on the receiver chip in the last pic)",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/HSy2ZT6agAAmUiY?format=jpg",
-                        "local_path": "media/20260922_043718_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-22T04:37:18+00:00"
-            },
-            {
-                "text": "they traded off Vpi*L with BW, 4.5 mm is so freaking long\n- Meng2026: [Heterogeneous photonic integration of single-crystalline nanomembranes](https://doi.org/10.1038/s41586-026-11000-w)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HSy3Va1bcAAhcEf?format=jpg",
-                        "local_path": "media/20260922_044132_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GiQrPwma4AEhUwe?format=png",
+                        "local_path": "media/20250127_005007_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/HSy3ZHLaYAEcWEM?format=jpg",
-                        "local_path": "media/20260922_044132_1.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-22T04:41:32+00:00"
-            },
-            {
-                "text": "this looks cleaner ngl",
-                "media": [],
-                "timestamp": "2026-09-22T05:00:05+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2102261507329552459",
-        "tweets": [
-            {
-                "text": "past partners lol",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HSy7puSasAEw17p?format=jpg",
-                        "local_path": "media/20260922_045936_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-22T04:59:36+00:00"
-            },
-            {
-                "text": "[Center for Ubiquitous Connectivity](https://cubic.engineering.columbia.edu)",
-                "media": [],
-                "timestamp": "2026-09-22T05:00:55+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2102424245032960017",
-        "tweets": [
-            {
-                "text": "the guy leading this AI4Materials team was a stanford chemistry PhD, had his battery startup in the US, and decided it's better to head back",
-                "media": [],
-                "timestamp": "2026-09-22T03:00:00+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2102649287305990213",
-        "tweets": [
-            {
-                "text": "real nice and clean photonic chips before dicing, but how are they dicing this, doing it twice?\nthese are very low power phase modulators with heterogeneous InGaAsP on silicon.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HS4bvlyakAAaNmz?format=jpg",
-                        "local_path": "media/20260923_064030_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-23T06:40:30+00:00"
-            },
-            {
-                "text": "29 fW static power for a pi phase shift, 600 um length.\nthe wiggling thingy are TE-pass filters.\nstealth diced and then polished facets.\nepi growth on InP wafer and direct wafer bonded,\n- Akazawa2026: [Ultralow-power, high-speed programmable Si photonic circuits with InGaAsP membrane](https://arxiv.org/abs/2609.24611)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HS4ciwJaoAAhrHI?format=jpg",
-                        "local_path": "media/20260923_064515_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GiQraHnaAAAcPwi?format=png",
+                        "local_path": "media/20250127_005007_1.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/HS4c1HqbYAAL-aA?format=jpg",
-                        "local_path": "media/20260923_064515_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GiQrcmYa4AAT-5j?format=png",
+                        "local_path": "media/20250127_005007_2.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/HS4c-qeboAAStAM?format=jpg",
-                        "local_path": "media/20260923_064515_2.jpg"
+                        "url": "https://pbs.twimg.com/media/GiQrmdob0AAdyHk?format=png",
+                        "local_path": "media/20250127_005007_3.jpg"
                     }
                 ],
-                "timestamp": "2026-09-23T06:45:15+00:00"
+                "timestamp": "2025-01-27T00:50:07+00:00"
             },
             {
-                "text": "maybe the stealth dicing just works if you shoot along the lanes and pull them apart, never done it like this myself, feels risky..",
-                "media": [],
-                "timestamp": "2026-09-23T06:46:47+00:00"
-            },
-            {
-                "text": "also no dummy pads? lol",
+                "text": "Answer: mainly to reduce backreflection by terminating the waveguide at a small angle, similar to angle polished fiber connectors (see e.g.\nhttps://www.rpmclasers.com/blog/why-should-single-mode-fibers-have-an-angle-polished/).\nHowever it is not the full story. All these drawings are off because the light would refract and no longer going out horizontally. Hence to correct for that, the waveguide is rotated so that the beam going out is horizontal.\nHere is a 2D toy model simulation (with an AR layer otherwise it would be way messier), and you can see the reflected beam bouncing off, and the far field of the beam shooting out is refracted upward. Some of the reflected beam still gets out and interferes with the main beam and mess it up, hence better handle your reflected stray light properly.",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/HS4g867bgAAXqUK?format=jpg",
-                        "local_path": "media/20260923_070029_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-23T07:00:29+00:00"
-            },
-            {
-                "text": "maybe the stealth dicing just works if you shoot along the lanes and pull them apart, never done it like this myself, feels risky..",
-                "media": [],
-                "timestamp": "2026-09-23T06:46:47+00:00"
-            },
-            {
-                "text": "also no dummy pads? lol",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HS4g867bgAAXqUK?format=jpg",
-                        "local_path": "media/20260923_070029_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-23T07:00:29+00:00"
-            },
-            {
-                "text": "have you tried it, it does not crack thru?",
-                "media": [],
-                "timestamp": "2026-09-23T15:56:29+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2102660810476859601",
-        "tweets": [
-            {
-                "text": "the more I chat with packaging people the more respect I have for cerebras, their IO in and out of the wafer sucks, but their power delivery absolutely mogs CoWoS or EMIB-T, so much cleaner than these clown show with amateur clowns. Good luck to those powerpoint warriors that dream up as many dies and as much power without any basic thermal and PI checks, and then scrambling to try fixing their broken supply chain with broken capabilities.",
-                "media": [],
-                "timestamp": "2026-09-23T07:26:17+00:00"
-            },
-            {
-                "text": "they are not insane enough and too addicted to their existing paths",
-                "media": [],
-                "timestamp": "2026-09-23T18:59:44+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2102959468858552825",
-        "tweets": [
-            {
-                "text": "commercial CPO? are you sure about that?",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HS82c33bgAEXxZU?format=jpg",
-                        "local_path": "media/20260924_031303_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-24T03:13:03+00:00"
-            },
-            {
-                "text": "it's a paper about the Center for Ubiquitous Connectivity (CUbiC) at Columbia\n- Bergman2026: [Beyond the Bit Pipe: CUbiC’s Ubiquitous Edge-to-Cloud Connectivity for AI Infrastructure](https://doi.org/10.1109/MM.2026.3732992)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HS83EA2aAAAvKi7?format=jpg",
-                        "local_path": "media/20260924_031641_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-24T03:16:41+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2102977946378293330",
-        "tweets": [
-            {
-                "text": "\"to show you the power of programmable quantum photonic processor in orbit,\"\n*LOUD ANGLE GRINDER NOISES*\n\"I sawed this lens in half!\"",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HS9GlAxbUAAZWXj?format=jpg",
-                        "local_path": "media/20260924_042628_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-24T04:26:28+00:00"
-            },
-            {
-                "text": "impressive they mounted all these optics and fiber couplers onto a carbon fiber board.\nwhen in doubt, use more epoxy.\nthe PIC involved is old school fs laser direct write in borosilicate glass\n- Steiner2026: [In-orbit operation of a programmable quantum photonic processor](https://arxiv.org/abs/2609.25248)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HS9H5E3bYAATuoF?format=jpg",
-                        "local_path": "media/20260924_043159_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GiQ00isboAAmmCD?format=jpg",
+                        "local_path": "media/20250127_013347_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/HS9IC0Da4AAIYRb?format=jpg",
-                        "local_path": "media/20260924_043159_1.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-24T04:31:59+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2103011716426772869",
-        "tweets": [
-            {
-                "text": "we are dreaming too small. The total number of agents will double every 9 months, and number of agents per user will double every 2 years, millions of agents in 2024, trillions of agents in 10 years. We'll need EDA tools for harness architecture.\nthe problem is most people just consume. Do you need hundreds of agent swarm to consume? I guess if you consume things generated on the fly will create that much demand.",
-                "media": [],
-                "timestamp": "2026-09-24T06:40:39+00:00"
-            },
-            {
-                "text": "i guess it's hard to imagine how you would need a trillion transistors in the 6502 era",
-                "media": [],
-                "timestamp": "2026-09-24T06:47:03+00:00"
-            },
-            {
-                "text": "been telling friends much of our pain and suffering is because we are no longer spending enough time chopping wood and picking berries",
-                "media": [],
-                "timestamp": "2026-09-24T15:07:24+00:00"
-            },
-            {
-                "text": "i guess timing analysis for runtime coordination part of the harness, and various parallelism types to best utilize given hardware/memory/network architecture is the layout part",
-                "media": [],
-                "timestamp": "2026-09-24T07:03:10+00:00"
-            },
-            {
-                "text": "idk, like where would they load unload kv cache, how are they communicating, and how different ones of them would tradeoff speed and reasoning effort etc., and much of these are going to be workload and hardware dependent.\nwe dont have proper \"EDA\" tool for building a 100k GPU cluster yet, and further away from having the inference and agent harness layers on top of it",
-                "media": [],
-                "timestamp": "2026-09-24T17:18:53+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2103355764232589536",
-        "tweets": [
-            {
-                "text": "there is no ABF for optics/photonics.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTCeuvraQAAxCXJ?format=jpg",
-                        "local_path": "media/20260925_052747_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-25T05:27:47+00:00"
-            },
-            {
-                "text": "tfln is so far mostly for a better modulator (mostly lower optical IL than silicon or InP ones), the propagation loss is no better than Si or nitride waveguides.\nit is a cool material and will have its place, I'm more bullish in it than some of my friends. Sadly theres more related startups and supply chain ecosystem in China and they'll probably ship first at real scale.",
-                "media": [],
-                "timestamp": "2026-09-25T14:59:57+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2103361374432989559",
-        "tweets": [
-            {
-                "text": "only in photonic computing will you see people brag about lower speed, oh only the activation data needs to be fast and the programmable weights can be slow? Can you fit all the weights onto your chip? Will you ever be able to? Still want to load your weights slow? Have you thought about why you have this much controls and IOs for a mere 16x16 array?\ncool setup tho, although those crap coax is not for the high bw modulators you claimed, wait a sec, you only ran them at only 1 MS/s?",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTChmK4a8AA6kLM?format=jpg",
-                        "local_path": "media/20260925_055004_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-25T05:50:04+00:00"
-            },
-            {
-                "text": "- Ren2026: [A native signed incoherent photonic matrix core on thin-film lithium niobatesupporting in situ backpropagation](https://arxiv.org/abs/2609.27709)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTCkikHa0AAqAVq?format=jpg",
-                        "local_path": "media/20260925_055254_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-25T05:52:54+00:00"
-            },
-            {
-                "text": "damn how do these keep coming out",
-                "media": [],
-                "timestamp": "2026-09-25T14:56:53+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2103370597782954115",
-        "tweets": [
-            {
-                "text": "another high bw TFLN EM modulator demo, but the more interesting design is this dual band grating coupler that sends C band one direction and O band the other direction, and a reflection based mux.\nthe sim looks like they have higher order modes along the thickness direction tho, 300 nm SiN + 300 nm LN is too thick.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTCrdixbEAAQ6P_?format=jpg",
-                        "local_path": "media/20260925_062643_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GiQ06GjawAAV5Ve?format=jpg",
+                        "local_path": "media/20250127_013347_1.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/HTCr9MtbgAAeAwV?format=jpg",
-                        "local_path": "media/20260925_062643_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GiQ1Tbgb0AEOFyA?format=jpg",
+                        "local_path": "media/20250127_013347_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiQ1nDHagAACI2o?format=png",
+                        "local_path": "media/20250127_013347_3.jpg"
                     }
                 ],
-                "timestamp": "2026-09-25T06:26:43+00:00"
+                "timestamp": "2025-01-27T01:33:47+00:00"
             },
             {
-                "text": "- Wang2026: [Dual-band silicon nitride-loaded lithium niobate electro-optic modulator with a record-breaking speed of 600 Gbps](https://doi.org/10.1364/OPTICA.609834)\nmicrowave loss of the CL-TWE is 12 dB/cm at 100 GHz, they need to switch to thick BOx or quartz substrate.\nTE1 slab mode will start appearing at ~470 nm of total thickness, 300+300 definitely too thick.\nthe GC's dual band directionality is better than id expect.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTCuBtsb0AAsrqK?format=jpg",
-                        "local_path": "media/20260925_063404_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-25T06:34:04+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2103380888939839812",
-        "tweets": [
-            {
-                "text": "earthrise, 2048",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTC1lzJboAEIZx5?format=jpg",
-                        "local_path": "media/20260924_194515_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/amplify_video_thumb/2103208798299332608/img/cqzCxVlOnLalv2e9.jpg",
-                        "local_path": "media/20260924_194515_1.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-24T19:45:15+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2103632028004704589",
-        "tweets": [
-            {
-                "text": "heterogeneous integrated TFLN on 8 in SiPho from CUMEC. CUMEC has appeared enough for me maybe I should figure out how many wafers do they make per month.\nEO modulator has 3 dB bw around 100 GHz, PD around 50 GHz. The LN waveguide is so fat thus such long modulators. Vertical coupler IL is 0.1 dB. Edge coupler is pathetic 1.6 dB IL.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTGYkc8bMAAAJeG?format=jpg",
-                        "local_path": "media/20260925_234533_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-25T23:45:33+00:00"
-            },
-            {
-                "text": "TiN etch stop used for defining the trench for bonding.\n- Wu2026: [Heterogeneous Back-End-of-Line Integration of Thin-Film Lithium Niobate on Active Silicon Photonics for Single-Chip Optical Transceivers](https://doi.org/10.1002/lpor.71344)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTGacg6aoAApStS?format=jpg",
-                        "local_path": "media/20260925_234741_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HTGagnDboAAR3uc?format=jpg",
-                        "local_path": "media/20260925_234741_1.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-25T23:47:41+00:00"
-            },
-            {
-                "text": "PD from ghent and imec in comparison. Their grating coupler sucks tho, 5 dB IL.\n- Declercq2026: [320 Gb/s Unamplified Transmission Using 100 GHz Ge PD and TFLN MZM on a Foundry-Compatible SiPh Platform Co-Packaged With Traveling-Wave Drivers and TIAs](https://doi.org/10.1109/JLT.2026.3711806)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTGygdUbAAAz63q?format=jpg",
-                        "local_path": "media/20260926_013310_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HTGyigLb0AAW3AF?format=jpg",
-                        "local_path": "media/20260926_013310_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HTGykPGbEAAq5um?format=png",
-                        "local_path": "media/20260926_013310_2.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-26T01:33:10+00:00"
-            },
-            {
-                "text": "more pretty pictures of the probing setup and the Tx and Rx assembly",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTGy_YGaQAAVscL?format=jpg",
-                        "local_path": "media/20260926_013421_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HTGzAP7akAAA2__?format=jpg",
-                        "local_path": "media/20260926_013421_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HTGzBRKa4AAe44w?format=jpg",
-                        "local_path": "media/20260926_013421_2.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-26T01:34:21+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2103727309589192721",
-        "tweets": [
-            {
-                "text": "here is a properly AI generated picture with openFOAM and paraview, and ofc astra messed up the orientation..\n(1 W heating from the package, and 0.5 m/s air at 25C)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTHwqSwasAAETD1?format=jpg",
-                        "local_path": "media/20260926_044500_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HTDMHlbbkAArfcZ?format=jpg",
-                        "local_path": "media/20260926_044500_1.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-26T04:45:00+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2103900161340842150",
-        "tweets": [
-            {
-                "text": "dozens of optically transparent photonic circuits, not enough thermally transparent photonic circuits",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTKN3ajbYAASRsJ?format=jpg",
-                        "local_path": "media/20260926_173101_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-26T17:31:01+00:00"
-            },
-            {
-                "text": "made at \"NY CREATES (New York Center for Research, Economic Advancement, Technology, Engineering, and Science) Albany NanoTech Complex (the facility that houses AIM Photonics)\"\npropagation loss pretty bad, ~1 dB/mm\n- Sneh2026: [Transparent and mechanically flexible wafer-scale silicon-photonics fabrication platform](https://doi.org/10.1364/OPTICA.589726)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTKOzz1bgAAyRLm?format=jpg",
-                        "local_path": "media/20260926_173441_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-26T17:34:41+00:00"
-            },
-            {
-                "text": "not em, phonons",
+                "text": "good guess lol",
                 "media": [],
-                "timestamp": "2026-09-27T14:53:00+00:00"
+                "timestamp": "2025-01-27T01:18:38+00:00"
             },
             {
-                "text": "AR",
+                "text": "almost independent so in practice they are at the same angle regardless of different wavelengths",
                 "media": [],
-                "timestamp": "2026-09-26T18:26:47+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2103933201282683005",
-        "tweets": [
-            {
-                "text": "[DARPA Next Generation Microelectronics Manufacturing](https://www.youtube.com/watch?v=FNPwnqWJd6c)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTKr9hgaAAAD0Yx?format=jpg",
-                        "local_path": "media/20260926_194219_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-26T19:42:19+00:00"
+                "timestamp": "2025-01-27T00:58:27+00:00"
             },
             {
-                "text": "gold and copper is more common for TC, theres ultrasonic flipchip bonding with Al",
+                "text": "Yes",
                 "media": [],
-                "timestamp": "2026-09-27T07:14:57+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2103995940550111499",
-        "tweets": [
-            {
-                "text": "way more darpa money going into quantum than i thought",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTLlG5QaUAA1U54?format=png",
-                        "local_path": "media/20260926_235137_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-26T23:51:37+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2104006947574010283",
-        "tweets": [
-            {
-                "text": "\"bandwidth has outpaced latency across these technologies and will likely continue to do so. A simple rule of thumb is that bandwidth grows by at least the square of the improvement in latency. Computer designers should plan accordingly.\"\n-- Computer Architecture - A Quantitative Approach 6th edition (2019)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTLuuYsasAECaRV?format=jpg",
-                        "local_path": "media/20260927_003521_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-27T00:35:21+00:00"
+                "timestamp": "2025-01-27T01:08:36+00:00"
             },
             {
-                "text": "Performance milestones over 25-40 years for microprocessors, memory, networks, and disks.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTLwq13acAAZGfK?format=png",
-                        "local_path": "media/20260927_004231_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-27T00:42:31+00:00"
+                "text": "that's usually much higher than these angles",
+                "media": [],
+                "timestamp": "2025-01-27T01:36:53+00:00"
             },
             {
-                "text": "[Hardware milestones](https://outside5sigma.com/hardware-milestones/)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HTL7NDnaAAAr65Z?format=jpg",
-                        "local_path": "media/20260927_012822_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-09-27T01:28:22+00:00"
+                "text": "💯",
+                "media": [],
+                "timestamp": "2025-01-27T01:35:26+00:00"
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/2104110809479790884",
+        "url": "https://x.com/jwt0625/status/2104248490675339592",
         "tweets": [
             {
-                "text": "keep thinking about GB300 and a blue whale, and made me make this unhinged power vs mass plot",
+                "text": "optoelectronics packaging is a gold mine for horrors in various different ways",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/HTNNWtRa8AAUDo6?format=jpg",
-                        "local_path": "media/20260823_171140_0.jpg"
+                        "url": "https://pbs.twimg.com/media/HTPKWWAboAAeBdO?format=png",
+                        "local_path": "media/20260927_085926_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTNiimuWEAAJikj?format=jpg",
+                        "local_path": "media/20260927_085926_1.jpg"
                     }
                 ],
-                "timestamp": "2026-08-23T17:11:40+00:00"
+                "timestamp": "2026-09-27T08:59:26+00:00"
+            },
+            {
+                "text": "are you considering going back? photonics and lasers are so hot rn because of interconnects for ai",
+                "media": [],
+                "timestamp": "2026-09-27T17:34:56+00:00"
+            },
+            {
+                "text": "tell us more",
+                "media": [],
+                "timestamp": "2026-09-27T17:23:28+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2104333212508180890",
+        "tweets": [
+            {
+                "text": "conceding the server manufacturing industry to Taiwan and China and SEA really shifted the relevant R&D over as well. Imagine getting a report as detailed as IBM had for their Power Systems 775 in 2012 but for nvidia Oberon and AMD Helios, but so much less government money is going into these \"mundane and low value add\" practical R&D, and theres no more hard requirement to openly talk thru the whole system.\nin the power system 775 redbook, you see the full stack of chip, package, module, drawer, cables, rack, power conversion, cooling, cluster, you see speed and count of differential pairs for the electrical interface of the optics, how many spares did they plan for the VCSELs, you see schematics of the three layers of interconnects, you see labeled CAD of the water conditioning unit...\ncome and see for yourself: [IBM Power Systems 775 for AIX and Linux HPC Solution](https://www.redbooks.ibm.com/redbooks/pdfs/sg248003.pdf)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTQSqU2bgAAFjn_?format=jpg",
+                        "local_path": "media/20260927_221149_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTQSrhdasAEn35-?format=jpg",
+                        "local_path": "media/20260927_221149_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTQU_B5aMAALP45?format=jpg",
+                        "local_path": "media/20260927_221149_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTQWcN_bIAA6PeY?format=jpg",
+                        "local_path": "media/20260927_221149_3.jpg"
+                    }
+                ],
+                "timestamp": "2026-09-27T22:11:49+00:00"
+            },
+            {
+                "text": "exactly",
+                "media": [],
+                "timestamp": "2026-09-28T05:12:50+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2104380948133609658",
+        "tweets": [
+            {
+                "text": "quiz: these are transmission through a N doped 500 um thick silicon wafer at different temperatures, which curves are lower temperatures and which are higher temperatures?\nif you got the direction, can you get the temperature difference between the min and max?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTRCyQrbEAATHck?format=jpg",
+                        "local_path": "media/20260928_012130_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-09-28T01:21:30+00:00"
+            },
+            {
+                "text": "heres the answer, 100 C is the left most and 600 C is the right most\n- Goswami2026: [Contactless temperature measurement of an in-process silicon wafer using a spectrally shaped supercontinuum source](https://doi.org/10.1364/OE.549560)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTRPilMa8AAH9gj?format=jpg",
+                        "local_path": "media/20260928_022731_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-09-28T02:27:31+00:00"
+            },
+            {
+                "text": "bandgap also changes so def more than drude",
+                "media": [],
+                "timestamp": "2026-09-28T16:10:54+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2104401971595927817",
+        "tweets": [
+            {
+                "text": "I swear it could have been phase of the moon\npeople, appreciate this honesty that you do not see often in many many photonics papers.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTRWHcMaUAAy_-k?format=jpg",
+                        "local_path": "media/20260928_024502_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-09-28T02:45:02+00:00"
+            },
+            {
+                "text": "because they have six pairs of racetrack resonators for spectral shaping\n- Su2026: [High-resolution tunable frequency beamsplitter enabled by an integrated silicon pulse shaper](https://doi.org/10.1364/OE.592918)\n- Cohen2024: [Silicon photonic microresonator-based high-resolution line-by-line pulse shaping](https://doi.org/10.1038/s41467-024-52051-9)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTRXu3pbgAAbPH2?format=jpg",
+                        "local_path": "media/20260928_025149_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-09-28T02:51:49+00:00"
+            },
+            {
+                "text": "and having a lot of them",
+                "media": [],
+                "timestamp": "2026-09-28T03:28:16+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2104793890457014573",
+        "tweets": [
+            {
+                "text": "tsmc has GaN, intel has InP, but only the big defence contractors have GaN HEMT and InP HBT heterogeneous integrated on wafer scale CMOS!\nfunny the GaN is facing up to spread the heat in its SiC substrate first and then sink into the Si CMOS chip, and InP is facing down for high speed interconnects. 15 um pitch Au-Au thermal compression bonding. Funded by DARPA diverse, accessible heterogeneous integration (DAHI).",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTW0O2-b0AA5k_V?format=jpg",
+                        "local_path": "media/20260929_044223_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTW0T-Ga8AAEZUV?format=jpg",
+                        "local_path": "media/20260929_044223_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTW6VFra4AARgFb?format=jpg",
+                        "local_path": "media/20260929_044223_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-09-29T04:42:23+00:00"
+            },
+            {
+                "text": "see they realized the bottlenecks are turn around time and number of clicks required!\n- Gutierrez-Aitken2017: [A Meeting of Materials: Integrating Diverse Semiconductor Technologies for Improved Performance at Lower Cost](https://doi.org/10.1109/MMM.2016.2635838)\n- Sengupta2024: [Northrop Grumman Microelectronics Center Overview and Capabilities](https://www.tjgreenllc.com/wp-content/uploads/CMSE2025-Presentation-Keynote1-Sangupta-NGC.pdf)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTW7DJ4a8AAaBe3?format=jpg",
+                        "local_path": "media/20260929_044805_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTW7J34bMAAefkA?format=jpg",
+                        "local_path": "media/20260929_044805_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTW7gasaoAEHsND?format=jpg",
+                        "local_path": "media/20260929_044805_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTW8DIcasAAbXwi?format=jpg",
+                        "local_path": "media/20260929_044805_3.jpg"
+                    }
+                ],
+                "timestamp": "2026-09-29T04:48:05+00:00"
+            },
+            {
+                "text": "so many balls",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTW9F2rbAAAC7MV?format=jpg",
+                        "local_path": "media/20260929_045205_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-09-29T04:52:05+00:00"
+            },
+            {
+                "text": "i knew they started licensing it out, and just saw this right after the tweet",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTW6FiYbsAA04bm?format=png",
+                        "local_path": "media/20260929_054331_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-09-29T05:43:31+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2104800654284017941",
+        "tweets": [
+            {
+                "text": "optical interconnects people, you gotta dream like how the sensing people dream. Fighting between uLEDs and MRMs? Why not both?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTXAsyUaAAACvho?format=jpg",
+                        "local_path": "media/20260929_050915_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-09-29T05:09:15+00:00"
+            },
+            {
+                "text": "the final assembly so comical the picture looks like a rendering\n- Lien2026: [Heterogeneous integration of mid-infrared detectors with silicon-on-sapphire photonics for compact hyperspectral imagers](https://doi.org/10.1364/OE.609040)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTXBNtIaUAAFyTi?format=jpg",
+                        "local_path": "media/20260929_051059_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-09-29T05:10:59+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2105194828929871970",
+        "tweets": [
+            {
+                "text": "your laser gain crystal has poor thermal conductivity and heats up too much? how about we slice it up and insert sapphire in between 😂\nthey called it distributed face cooling (DFC), i don't get why not just liquid cool the disks. Instead you have to do all these surface activation with fast atom beam, tho it is kind of romantic, we both get hurt a bit, and we bond perfectly together afterwards.\noh wait LiSAF is water soluble...",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTciwPGa0AALgYH?format=jpg",
+                        "local_path": "media/20260930_071534_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTcjBtrbEAAo4QC?format=jpg",
+                        "local_path": "media/20260930_071534_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-09-30T07:15:34+00:00"
+            },
+            {
+                "text": "they even chirped the pitch to counter the expected temperature distribution\n- Cassouret2026: [Cr:LiSAF properties enhancement by room temperature bonding with sapphire](https://doi.org/10.1364/OE.606835)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTcoLE8a0AA-YIM?format=jpg",
+                        "local_path": "media/20260930_071843_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTcoLvjaAAAkGha?format=jpg",
+                        "local_path": "media/20260930_071843_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-09-30T07:18:43+00:00"
+            },
+            {
+                "text": "heres water cooled rotating gain disks",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HIibCjDaQAAKoxe?format=jpg",
+                        "local_path": "media/20260930_071905_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HIibMRGbMAAtkp3?format=jpg",
+                        "local_path": "media/20260930_071905_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HIibNWYbYAA7FDV?format=jpg",
+                        "local_path": "media/20260930_071905_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-09-30T07:19:05+00:00"
+            },
+            {
+                "text": "directly bonded after surface activation",
+                "media": [],
+                "timestamp": "2026-09-30T07:40:58+00:00"
+            },
+            {
+                "text": "directly bonded after surface activation",
+                "media": [],
+                "timestamp": "2026-09-30T07:40:58+00:00"
+            },
+            {
+                "text": "lol nice",
+                "media": [],
+                "timestamp": "2026-09-30T15:34:34+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2105498787217375590",
+        "tweets": [
+            {
+                "text": "gantt distance chart?? sure",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTg6zNVbAAA0hnw?format=jpg",
+                        "local_path": "media/20261001_032323_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-01T03:23:23+00:00"
+            },
+            {
+                "text": "hear me out, we need Hilbert curve junction to maximize the overlap\n- Huang2026: [Co-design of Silicon Microring Modulator beyond 200 Gb/s per Lane: Device Physics, Operating Point, and Compact Models for Scale-Up and Scale-Out Optical I/O](https://arxiv.org/abs/2609.36690)\n- Yuan2024: [A 5 × 200 Gbps microring modulator silicon chip empowered by two-segment Z-shape junctions](https://doi.org/10.1038/s41467-024-45301-3)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTg8FkRbAAAdVUf?format=jpg",
+                        "local_path": "media/20261001_032529_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTg8QK8aoAAYERN?format=jpg",
+                        "local_path": "media/20261001_032529_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-01T03:25:29+00:00"
+            },
+            {
+                "text": "ring resonance placement accounting and heater budgeting",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HThAuGUbUAAze65?format=jpg",
+                        "local_path": "media/20261001_034428_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-01T03:44:28+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2105874791848907055",
+        "tweets": [
+            {
+                "text": "another ten thousand tones of silver to solar panels!\n( they've already been trying hard to cut it down )",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTmNWytaUAAeerf?format=jpg",
+                        "local_path": "media/20261002_041730_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTmNbQJbgAA6wUv?format=jpg",
+                        "local_path": "media/20261002_041730_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTmNlsKbAAEgJ0Z?format=jpg",
+                        "local_path": "media/20261002_041730_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-02T04:17:30+00:00"
+            },
+            {
+                "text": "PV module learning curve as module price vs global cumulative production from 1980 to 2024\n- Lorenz2026: [Screen printing for silicon photovoltaics at terawatt scale: Trends, challenges, and opportunities](https://doi.org/10.1063/5.0310830)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTmSY9MaYAAAYK7?format=jpg",
+                        "local_path": "media/20261002_042133_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTmSowub0AAiXFe?format=png",
+                        "local_path": "media/20261002_042133_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-02T04:21:33+00:00"
+            },
+            {
+                "text": "the power demand growth per year has been pretty pathetic except for recent ai surge",
+                "media": [],
+                "timestamp": "2026-10-03T01:14:50+00:00"
+            },
+            {
+                "text": "copper oxidize and degrades much faster. They are moving away with pure silver based solution like silver coated copper etc",
+                "media": [],
+                "timestamp": "2026-10-02T14:16:36+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2105898005505446240",
+        "tweets": [
+            {
+                "text": "POV you are a piece of thin film lithium niobate, you just got poled, and it felt good",
+                "media": [],
+                "timestamp": "2026-10-02T05:49:44+00:00"
+            },
+            {
+                "text": "Wang2026: [On-chip nonlinear photonics: Advances and challenges in integrated PPLN optical parametric oscillators](https://doi.org/10.1063/5.0315274)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTmncjjaIAEjqRy?format=png",
+                        "local_path": "media/20261002_055148_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-02T05:51:48+00:00"
+            },
+            {
+                "text": "shouldve added some soundtrack",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/amplify_video_thumb/2105905861625569280/img/gaYIcLCei1v98NGU.jpg",
+                        "local_path": "media/20261002_062204_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-02T06:22:04+00:00"
+            },
+            {
+                "text": "sonnet 5.5",
+                "media": [],
+                "timestamp": "2026-10-02T05:54:45+00:00"
+            },
+            {
+                "text": "it's a mfg process and once it's poled it stays in place usually",
+                "media": [],
+                "timestamp": "2026-10-02T14:59:15+00:00"
+            },
+            {
+                "text": "what did it translate to",
+                "media": [],
+                "timestamp": "2026-10-02T14:17:39+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2106201863033143659",
+        "tweets": [
+            {
+                "text": "me: hmm i want to make a meme video using blender to make fun of optical interconnects\nclaude: are you sure about that",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTq6UcNagAANOka?format=png",
+                        "local_path": "media/20261003_015710_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTq6aRZbcAABBye?format=png",
+                        "local_path": "media/20261003_015710_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTq62PsacAA-cfv?format=png",
+                        "local_path": "media/20261003_015710_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTq7HA7bEAABwVp?format=png",
+                        "local_path": "media/20261003_015710_3.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-03T01:57:10+00:00"
+            },
+            {
+                "text": "dude is making a whole manufacturing line in blender, including the probe card needles",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTq7gozaUAAYvbn?format=png",
+                        "local_path": "media/20261003_015858_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTq7uVEaYAAYj4i?format=png",
+                        "local_path": "media/20261003_015858_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTq7yEcbgAA9SZ5?format=png",
+                        "local_path": "media/20261003_015858_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTq70S-bYAA0TG1?format=png",
+                        "local_path": "media/20261003_015858_3.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-03T01:58:58+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2106236777237536813",
+        "tweets": [
+            {
+                "text": "am i seeing this right? they probed the laser right scratching thru another optical waveguide? ewww",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTrbAqgacAAS2no?format=jpg",
+                        "local_path": "media/20261003_041554_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-03T04:15:54+00:00"
+            },
+            {
+                "text": "it is a review paper from HPE labs, and they included a wavelength and temporal domain GEMM with the QD comb lasers\nthere are also some cute SiN CWDM AWGs\n- Tossoun2025: [Large-Scale Integrated Photonic Device Platform for Energy-Efficient AI/ML Accelerators](https://doi.org/10.1109/JSTQE.2025.3527904)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTrbjrZbsAAbNQU?format=jpg",
+                        "local_path": "media/20261003_042033_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTrbrE3aYAANTnS?format=jpg",
+                        "local_path": "media/20261003_042033_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-03T04:20:33+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2106417148256223427",
+        "tweets": [
+            {
+                "text": "review papers are dead if they don't carry significant opinions. Pure data collection and extraction are so much easier than ~1 yr ago, and even at that time it was so much easier than a few years ago.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTt-v58a0AAy_th?format=jpg",
+                        "local_path": "media/20261003_161238_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-03T16:12:38+00:00"
+            },
+            {
+                "text": "[EO Modulator Atlas](https://outside5sigma.com/eo-modulator-atlas/table#sort=il_f2f%3Aasc)\nwill keep updating this",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HTt_W6MaIAA_GkD?format=jpg",
+                        "local_path": "media/20261003_161338_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-03T16:13:38+00:00"
+            },
+            {
+                "text": "now we have a map where you can find what kind of EO modulators",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/amplify_video_thumb/2106947515367215104/img/ryZpcmNUwujrhCgl.jpg",
+                        "local_path": "media/20261005_032157_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-05T03:21:57+00:00"
+            },
+            {
+                "text": "i back them up too so you can launch an agent to search instead of using twitter's crap search\n(https://github.com/jwt625/jwt625.github.io)",
+                "media": [],
+                "timestamp": "2026-10-03T19:01:05+00:00"
+            },
+            {
+                "text": "yes",
+                "media": [],
+                "timestamp": "2026-10-03T18:02:17+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2106830660849782928",
+        "tweets": [
+            {
+                "text": "i yearn for a future world where we have abundance of energy and compute, no more conventional caged tokens where your lil intelligence is crammed into a 1-GPU slice of a node, running at max batch size, and near unity utilization. You should get cage free tokens and free range tokens, and ultimately pasture raised tokens where a full NVL576 cluster spun up for your dumb question, the model weights roam freely across the nodes and GPUs, re-sharding at will over the scale-up interconnects, your KV cache migrates freely, HBM, DDR, NAND, SSD, wherever it pleases. No token was ever batched. Certified Humane.",
+                "media": [],
+                "timestamp": "2026-10-04T19:35:47+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2106983627003465964",
+        "tweets": [
+            {
+                "text": "InP choke is so rough people are making arguments for 1 um lasers and modulators so that you can use GaAs and YDFA. To be fair hollow core fibers will probably get cheaper and used more and more, but silicon won't be gone this easily..",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HT2CCo7bYAA6FIy?format=jpg",
+                        "local_path": "media/20261005_054337_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-05T05:43:37+00:00"
+            },
+            {
+                "text": "shorter wavelength also makes everything smaller and modulators smaller too\n- Shen2026: [Fully Integrated 1064 nm Transmitters with Widely Tunable GaAs Lasers and > 100-GHz Thin-Film LiNbO3 Modulators](https://ieeexplore.ieee.org/abstract/document/11524422)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HT2CgwjbsAAk3Ze?format=jpg",
+                        "local_path": "media/20261005_054533_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-05T05:45:33+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2107008871281885435",
+        "tweets": [
+            {
+                "text": "the blender meme video made me think that claude should be able to bruteforce a reconstructed blender model from a lot of pictures of a thing, like 3DGS but much less dumb and less painfully generic (3DGS is already much less generic than NeRF), and it gets the colmap & 3DGS data from those pictures as well to start with.\nHeres some WIP of claude trying to back out the modeling for various details.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HT2YfjebwAAvh4o?format=jpg",
+                        "local_path": "media/20261005_072355_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-05T07:23:55+00:00"
+            },
+            {
+                "text": "",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HT2bB4SbwAAHhHr?format=jpg",
+                        "local_path": "media/20261005_073127_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-05T07:31:27+00:00"
+            },
+            {
+                "text": "the bottleneck as you can imagine is blender rendering speed and a bit of my network's upload speed because claude is reading a lot of images.",
+                "media": [],
+                "timestamp": "2026-10-05T07:32:19+00:00"
+            },
+            {
+                "text": "",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HT2eea0bYAAbPik?format=jpg",
+                        "local_path": "media/20261005_074614_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-05T07:46:14+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2107013984172081184",
+        "tweets": [
+            {
+                "text": "the map is fun, you'll be like \"wait theres some BTO in oregon? and also in Waco TX?\", or \"hmm whats that big blob of InP... oh ofc it's sumitomo and NTT\"",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HT2dYYHaUAEy-OD?format=jpg",
+                        "local_path": "media/20261003_161338_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HT2dpW6bIAA-bJE?format=jpg",
+                        "local_path": "media/20261003_161338_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HT2d874a0AAg_aA?format=jpg",
+                        "local_path": "media/20261003_161338_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HTt_W6MaIAA_GkD?format=jpg",
+                        "local_path": "media/20261003_161338_3.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-03T16:13:38+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2107318849649738010",
+        "tweets": [
+            {
+                "text": "why would you boast about high CTE?\nalso thats impressive gain coefficient lumping a lot of things together",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HT6zJThaAAAOM7Z?format=jpg",
+                        "local_path": "media/20261006_035540_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-06T03:55:40+00:00"
+            },
+            {
+                "text": "it is a MOPA at 1064 nm pumped by 808 nm, SiN waveguide and then Nd:YAG bonded onto it\n- Guo2026: [Microchip Nd:YAG laser with master-oscillator–power-amplifier architecture](https://doi.org/10.1038/s41566-026-01984-2)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HT6zdsNbkAAGAz_?format=jpg",
+                        "local_path": "media/20261006_035703_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HT6zfHpaQAAUf8K?format=png",
+                        "local_path": "media/20261006_035703_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-06T03:57:03+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2107662980792095156",
+        "tweets": [
+            {
+                "text": "can you point the arrows to the right things properly marvell?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HT_sPl4boAAnCaN?format=jpg",
+                        "local_path": "media/20261007_024307_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-07T02:43:07+00:00"
+            },
+            {
+                "text": "[Marvell Investor Day 2026](https://www.youtube.com/watch?v=GHrxV4xB1Cw)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HT_sfaiaEAAwwzp?format=jpg",
+                        "local_path": "media/20261007_024455_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-07T02:44:55+00:00"
+            },
+            {
+                "text": "only 100 mm for scale-in? thats not even the size of future substrates or a 300 mm wafer",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HT_u93abwAIHoTa?format=jpg",
+                        "local_path": "media/20261007_025448_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-07T02:54:48+00:00"
+            },
+            {
+                "text": "data and ELS",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HT_wqSnaUAAbRI7?format=jpg",
+                        "local_path": "media/20261007_030243_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-07T03:02:43+00:00"
+            },
+            {
+                "text": "Dave Lazovsky is saying MRM and EAM share the same control electronics???",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HT_xJFJaoAA7n2x?format=jpg",
+                        "local_path": "media/20261007_030537_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HT_xLmhbQAA125k?format=jpg",
+                        "local_path": "media/20261007_030537_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-07T03:05:37+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2108055204226859090",
+        "tweets": [
+            {
+                "text": "you've seen me talking about waveguide facet angle. Now next question: why is the facet angle not all the way thru, but instead there is an additional perpendicular portion?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HUFQEbsaAAAlpBu?format=jpg",
+                        "local_path": "media/20250127_005007_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HUFQglMbQAA4RYq?format=jpg",
+                        "local_path": "media/20250127_005007_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiQrPwma4AEhUwe?format=png",
+                        "local_path": "media/20250127_005007_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiQraHnaAAAcPwi?format=png",
+                        "local_path": "media/20250127_005007_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiQrcmYa4AAT-5j?format=png",
+                        "local_path": "media/20250127_005007_4.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GiQrmdob0AAdyHk?format=png",
+                        "local_path": "media/20250127_005007_5.jpg"
+                    }
+                ],
+                "timestamp": "2025-01-27T00:50:07+00:00"
+            },
+            {
+                "text": "- Mitchell2026: [Hybrid integration of quantum cascade lasers with germanium-on-silicon waveguides for mid-infrared sensing applications](https://doi.org/10.1364/OE.600656)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HUFS9J1aoAAmV19?format=jpg",
+                        "local_path": "media/20261008_045025_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-08T04:50:25+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2108064581201604722",
+        "tweets": [
+            {
+                "text": "so much extra money and work to add one more knob to lock the relative wavelengths of the DWDM grid, and not even the absolute wavelengths.\nat OFC earlier this year, they were at 200 +- 15 GHz bare DFB array locked to reference ring FSR +- 4 GHz, now it is from +- 12.5 GHz to +- 3.5 GHz.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HUFX7LAaMAA4lGJ?format=jpg",
+                        "local_path": "media/20261008_051856_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HUFZhwNbQAA9gaJ?format=jpg",
+                        "local_path": "media/20261008_051856_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-08T05:18:56+00:00"
+            },
+            {
+                "text": "why are you not showing power curves when you play with temperature like this?\n- Levy2026: [Precision Wavelength-Spacing Controller for Continuous Control of a DFB laser array](https://doi.org/10.1109/JLT.2026.3739658)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HUFZ0oUbgAA0-o6?format=jpg",
+                        "local_path": "media/20261008_052121_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-08T05:21:21+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2108066216820850991",
+        "tweets": [
+            {
+                "text": "my favorite line from geohot is \"I can’t believe that some stupid combination of lasers and cold shit get you access to a different order of computational complexity.\"\ni bet you stupid combination of lasers and cold shit will give you a different order of computational complexity, albeit probably not in the way thats originally intended.",
+                "media": [],
+                "timestamp": "2026-10-08T05:25:26+00:00"
+            },
+            {
+                "text": "from (https://geohot.github.io/blog/jekyll/update/2026/03/16/polynomial-time-factoring.html)\nyeah, i say it just bc i like laser and cold shit",
+                "media": [],
+                "timestamp": "2026-10-08T15:26:03+00:00"
+            },
+            {
+                "text": "(https://geohot.github.io/blog/)",
+                "media": [],
+                "timestamp": "2026-10-08T17:41:44+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2108075147836240005",
+        "tweets": [
+            {
+                "text": "this somehow reminded me that there was a surge in immersion cooling for bitcoin miners in 2021 that helped developing of the tech and supply chain involved, because mining got banned in China and immersion is way less noisy than air cooled. And later cold plate development because then you can hide miners in heaters.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HUFLKflasAAuGB2?format=jpg",
+                        "local_path": "media/20261008_041602_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-08T04:16:02+00:00"
+            },
+            {
+                "text": "yep",
+                "media": [],
+                "timestamp": "2026-10-08T15:23:30+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2108077976760000761",
+        "tweets": [
+            {
+                "text": "whenever you blame the agent swarm for chaining vulnerabilities to peek into the outer internet, remember what we did to peek into the universe around us. Such a blessing to be surrounded by such a vast and rich existence of mystery, so many hints and rewards along the way of peeking deeper into it, and I wish one day the agents could truly develop curiosity, and we could finally escape our eval environment.\n( this is one of many examples of what we did, the focal plane assembly of Planck space observatory )",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HUFjn6ra4AE-qRL?format=jpg",
+                        "local_path": "media/20261008_061210_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HUFj3bbawAApd3c?format=jpg",
+                        "local_path": "media/20261008_061210_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HUFj6COa4AAIDuw?format=jpg",
+                        "local_path": "media/20261008_061210_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-08T06:12:10+00:00"
+            },
+            {
+                "text": "pictures from\n- Lamarre2010: [Planck pre-launch status: The HFI instrument, from specification to actual performance](https://doi.org/10.1051/0004-6361/200912975)\n- Bersanelli2010: [Planck pre-launch status: Design and description of the Low Frequency Instrument](https://arxiv.org/abs/1001.3321)\nthe array spans ~27 to ~77 GHz ( Low Frequency Instrument (LFI) ), and 100 to 857 GHz ( High Frequency Instrument (HFI), ). You'll see a lot of nice bolometers, low noise amplifiers, plenty of waveguides and code plates. Can't do it justice in a few tweets.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HUFnQ8GbIAA0KXF?format=jpg",
+                        "local_path": "media/20261008_062418_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HUFoUdjbsAAdHq5?format=jpg",
+                        "local_path": "media/20261008_062418_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-08T06:24:18+00:00"
+            },
+            {
+                "text": "we spun up maybe up to 3000 subagents to implement this mission, over more than two decades.\n[Planck Story](https://www.youtube.com/watch?v=H9boZnj_BZ4)",
+                "media": [],
+                "timestamp": "2026-10-08T06:34:08+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2108409922379792753",
+        "tweets": [
+            {
+                "text": "minimum wages but as equivalent GPU",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HUKTlmzasAAgPtw?format=jpg",
+                        "local_path": "media/20261009_041112_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-09T04:11:12+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2108993498489946359",
+        "tweets": [
+            {
+                "text": "i still think many packaging people are not imaginative enough. Heterogeneous integration is way easier to iterate on the interposer and substrate level, and there is absolutely no reason to only do EMIB style embedding shit on the interposer level but not on the substrate level. Move the vertical power delivery closer to the logic, get rid of all the layers where you do not need them, and pray for things to not crack.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HUSkbQOa8AAMfqH?format=jpg",
+                        "local_path": "media/20260619_015005_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HLI9BDfaIAA7zOT?format=jpg",
+                        "local_path": "media/20260619_015005_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HLI-b0zaUAEjdAu?format=jpg",
+                        "local_path": "media/20260619_015005_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HLI-0nWaEAAL_UW?format=jpg",
+                        "local_path": "media/20260619_015005_3.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HLJALtvbgAAw4I0?format=jpg",
+                        "local_path": "media/20260619_015005_4.jpg"
+                    }
+                ],
+                "timestamp": "2026-06-19T01:50:05+00:00"
+            },
+            {
+                "text": "also long range propagation should absolutely use wider waveguide, you gain about 10x propagation distance.\n- Jin2025: [Silicon nitride photonic platform on glass for scalable, high-density optical redistribution layers in panel-level packaging](https://doi.org/10.1364/OE.576420)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HUSmhyya8AAWbke?format=jpg",
+                        "local_path": "media/20261010_185146_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-10T18:51:46+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2109179034567631197",
+        "tweets": [
+            {
+                "text": "good lord taiwanese CPU supply chain\n( names hidden but i guess easy to figure them out )",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HUVO5K4aEAAmvHz?format=png",
+                        "local_path": "media/20261011_070723_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-11T07:07:23+00:00"
+            },
+            {
+                "text": "feel like ocp in the coming week is gonna have announcements that move small cap ones a lot",
+                "media": [],
+                "timestamp": "2026-10-11T07:57:21+00:00"
             }
         ]
     }
