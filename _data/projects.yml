@@ -285,6 +285,30 @@
       label: "Live Demo"
   image: "/assets/images/projects/hardware-milestones.png"
 
+- name: "EO Modulator Atlas"
+  date: "2026-10-01"
+  description: "Traceable literature database and static browser explorer for electro-optic modulators: 233 papers (2012-2026) and 519 device rows across lithium niobate, lithium tantalate, barium titanate, EO polymer, InP, silicon and other platforms. Every reported metric carries an evidence locator and basis. Includes a filterable device table, metric scatter comparisons (Vpi*L, bandwidth, loss), an author geography map, and a browser cross-section solver for editable simulation configs."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/eo-modulator-atlas"
+      label: "GitHub"
+    - url: "https://outside5sigma.com/eo-modulator-atlas/"
+      label: "Live Demo"
+  image: "/assets/images/projects/eo-modulator-atlas.png"
+  embed_url: "https://outside5sigma.com/eo-modulator-atlas/"
+
+- name: "Advanced Packaging Atlas"
+  date: "2026-10-18"
+  description: "Traceable literature database and extraction pipeline for advanced semiconductor packaging: 2.5D Si interposers, organic RDL / fan-out and panel-level packaging, Si bridges, hybrid bonding, micro-bump 3D stacking, glass core, advanced substrates and co-packaged optics. 296 full-text papers distilled into 938 test vehicles with stack layers, interconnect pitch, process steps and metrics, each with a page/figure locator. Web atlas with dashboard, table, explorer, 3D and sim views."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/advanced-packaging-atlas"
+      label: "GitHub"
+    - url: "https://outside5sigma.com/advanced-packaging-atlas/"
+      label: "Live Demo"
+  image: "/assets/images/projects/advanced-packaging-atlas.png"
+  embed_url: "https://outside5sigma.com/advanced-packaging-atlas/"
+
 # Additional undocumented projects
 - name: "Age of Agents"
   date: "2026-01-04"
