@@ -40,6 +40,11 @@ before I start, you can zoom in onto the edges and see the facets were cleaved..
 - (image credit: [https://siliconpr0n.org/map/infinera/1p6tbpspic/single/infinera_1p6tbpspic_evilmonkeyz_mx_am10x.jpg](https://siliconpr0n.org/map/infinera/1p6tbpspic/single/infinera_1p6tbpspic_evilmonkeyz_mx_am10x.jpg))
 - the video is [Photonic Integrated Circuits - Inside an Infinera 1.6Tb/s PIC module](https://www.youtube.com/watch?v=zM60Vs7GhVA), should've bought some photonics stocks when I first saw this video.. 
 
+## Interactive component map
+schematic and full-resolution micrograph side by side: hover or click a component, category, or subsystem to see it in both ([open full page](/infinera-pic-map/)).
+
+<iframe src="/infinera-pic-map/" width="100%" height="720" style="border:1px solid #2a2f38;" loading="lazy" title="Infinera 1.6T PIC interactive component map"></iframe>
+
 # Lasers
 first of all, it is pretty easy to find the lasers, you know there should be at least two for the transmit, and at least two for the receive (need LO because it is coherent). And it is DWDM, so you definitely need to tune the lasers by tuning the DBR mirrors. after some quick staring, you'll realize the left half of the chip is for transmit, and the right half is for receive, and there are four lasers in total, each with DBR mirrors on the two ends. No redundancy, one laser broken and you are screwed. you can also see the little InP coupons are transfered onto the chip.
 ![20260516_063702_0.jpg](/assets/images/2026/20260516_20260521_long_thread/20260516_063702_0.jpg)
