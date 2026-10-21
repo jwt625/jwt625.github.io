@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Infinera PIC Map</title>
+<style>
+:root {
+  --bg: #0e1013; --panel: #15181d; --panel2: #1b1f26; --line: #2a2f38; --text: #d7dbe0;
+  --muted: #8a929e; --accent: #4fc3f7;
+}
+* { box-sizing: border-box; border-radius: 0; }
+html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+  font: 12px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; overflow: hidden; }
+#app { display: grid; grid-template-rows: auto 1fr; grid-template-columns: 1fr 320px; height: 100vh; }
+#bar { grid-column: 1 / 3; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; padding: 4px 8px;
+  background: var(--panel); border-bottom: 1px solid var(--line); }
+#bar .title { font-weight: 600; margin-right: 4px; white-space: nowrap; }
+#bar .title a { color: var(--muted); text-decoration: none; font-weight: 400; margin-left: 6px; }
+#bar .grp { display: flex; align-items: center; border: 1px solid var(--line); }
+#bar .lbl { color: var(--muted); margin: 0 2px 0 4px; white-space: nowrap; }
+button { background: var(--panel2); color: var(--text); border: 0; border-right: 1px solid var(--line);
+  padding: 4px 8px; font: inherit; cursor: pointer; border-radius: 0; white-space: nowrap; }
+.grp button:last-child { border-right: 0; }
+button:hover { background: #252a33; }
+button.on { background: #24384a; color: #fff; }
+input[type=range] { width: 70px; accent-color: var(--accent); }
+#panes { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); min-height: 0; }
+.pane { position: relative; overflow: hidden; background: #08090b; min-height: 0; min-width: 0; }
+#schPane { border-right: 1px solid var(--line); }
+.pane svg.stage { position: absolute; inset: 0; width: 100%; height: 100%; display: block; cursor: crosshair; user-select: none; }
+.pane.panning svg.stage { cursor: grabbing; }
+#tiles { position: absolute; inset: 0; overflow: hidden; z-index: 0; }
+#mic { z-index: 1; }
+#tiles img { position: absolute; display: block; pointer-events: none; user-select: none; image-rendering: auto; }
+.paneTag { position: absolute; left: 6px; top: 4px; color: var(--muted); pointer-events: none; z-index: 3; font-size: 11px; }
+#credit { position: absolute; right: 6px; bottom: 4px; color: var(--muted); font-size: 10px; z-index: 3; background: rgba(8,9,11,.7); padding: 0 4px; }
+#credit a { color: var(--muted); }
+#zoomInfo { position: absolute; right: 6px; top: 4px; color: var(--muted); font-size: 11px; z-index: 3; pointer-events: none; }
+#conn { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 4; }
+#side { border-left: 1px solid var(--line); background: var(--panel); display: grid; grid-template-rows: auto 1fr; min-height: 0; }
+#info { padding: 10px; border-bottom: 1px solid var(--line); height: 38vh; overflow-y: auto; }
+#info h2 { margin: 0 0 6px; font-size: 14px; font-weight: 600; }
+#info .chips { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 6px; }
+.chip { display: inline-flex; align-items: center; gap: 4px; padding: 1px 5px; border: 1px solid var(--line); background: var(--panel2); }
+.sw { display: inline-block; width: 9px; height: 9px; flex: none; }
+#info p { margin: 4px 0 8px; }
+#info .hint { color: var(--muted); }
+#info code { color: #c5cae9; }
+.ev-L { color: #9ccc65; } .ev-I { color: #ffb74d; }
+#list { overflow-y: auto; padding: 0 0 12px; }
+.tierBar { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; gap: 0; padding: 4px 8px; background: var(--panel); border-bottom: 1px solid var(--line); }
+.tierBar span { color: var(--muted); margin-right: 6px; }
+.tierBar button { border: 1px solid var(--line); border-right: 0; padding: 2px 7px; }
+.tierBar button:last-child { border-right: 1px solid var(--line); }
+.caret { display: inline-block; width: 12px; flex: none; color: var(--muted); text-align: center; cursor: pointer; }
+.caret:hover { color: #fff; }
+.gh2 { display: flex; align-items: center; gap: 6px; padding: 3px 10px; cursor: pointer; color: #c9ced6; }
+.gh2 .n, .gh .n { margin-left: auto; color: var(--muted); font-weight: 400; }
+.nm { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.gh { display: flex; align-items: center; gap: 6px; padding: 5px 10px; font-weight: 600; cursor: pointer; border-top: 1px solid var(--line); }
+.gh .n { margin-left: auto; color: var(--muted); font-weight: 400; }
+.it { display: flex; align-items: center; gap: 6px; padding: 2px 10px 2px 22px; cursor: pointer; }
+.it .cf { margin-left: auto; color: var(--muted); font-size: 11px; }
+.gh:hover, .it:hover, .gh2:hover, .gh.act, .it.act, .gh2.act { background: #222833; }
+#tip { position: fixed; pointer-events: none; background: rgba(14,16,19,.94); border: 1px solid var(--line);
+  padding: 4px 7px; display: none; z-index: 10; max-width: 320px; }
+#tip .s { color: var(--muted); }
+#cap { position: absolute; left: 0; right: 0; bottom: 0; padding: 7px 12px; background: rgba(8,9,11,.9);
+  border-top: 1px solid var(--line); display: none; font-size: 14px; z-index: 5; }
+#cap .t { font-weight: 600; font-size: 15px; margin-right: 10px; }
+#cap .k { color: var(--muted); margin-right: 10px; }
+#legendStyle { color: var(--muted); display: flex; gap: 8px; align-items: center; white-space: nowrap; }
+svg text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+#sideBtn { display: none; }
+/* narrow (e.g. iframe in a blog post): stack panes, side panel becomes a drawer */
+@media (max-width: 960px) {
+  #app { grid-template-columns: 1fr; }
+  #bar { grid-column: 1; }
+  #panes { grid-template-columns: 1fr; grid-template-rows: minmax(0, 36fr) minmax(0, 64fr); }
+  #schPane { border-right: 0; border-bottom: 1px solid var(--line); }
+  #side { position: fixed; right: 0; top: 0; bottom: 0; width: min(320px, 86vw); z-index: 20; display: none; box-shadow: -6px 0 18px rgba(0,0,0,.5); }
+  #side.open { display: grid; }
+  #sideBtn { display: inline-block; }
+  #legendStyle { display: none; }
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="bar">
+    <span class="title">Infinera 1.6T PIC map<a href="./" target="_blank" title="Open full page">full page</a></span>
+    <span class="lbl">Mode</span><span class="grp" id="modes"></span>
+    <span class="lbl">Fly</span><span class="grp" id="flyGrp"></span>
+    <span class="lbl">Show</span><span class="grp" id="toggles"></span>
+    <span class="lbl">Tour</span>
+    <span class="grp"><button id="tPrev" title="Previous step (Left)">&lt;</button><button id="tPlay" title="Play / pause (Space)">Play</button><button id="tNext" title="Next step (Right)">&gt;</button></span>
+    <input type="range" id="tDur" min="-3" max="3" step="1" value="0" title="Seconds per tour step (x2 per notch)">
+    <span id="tDurV" class="lbl">1 s</span>
+    <span class="grp"><button id="fitBtn" title="Fit both views (F)">Fit</button><button id="sideBtn">List</button></span>
+    <span id="legendStyle">
+      <span><svg width="22" height="8"><line x1="0" y1="4" x2="22" y2="4" stroke="#ccc" stroke-width="2"/></svg> labeled</span>
+      <span><svg width="22" height="8"><line x1="0" y1="4" x2="22" y2="4" stroke="#ccc" stroke-width="2" stroke-dasharray="5 3"/></svg> inferred</span>
+    </span>
+  </div>
+  <div id="panes">
+    <div class="pane" id="schPane">
+      <span class="paneTag">Schematic (functional, not to scale)</span>
+      <svg class="stage" id="sch"><g id="schBody"></g><g id="schHi" pointer-events="none"></g><g id="schHit"></g></svg>
+    </div>
+    <div class="pane" id="micPane">
+      <span class="paneTag">Micrograph</span><span id="zoomInfo"></span>
+      <div id="tiles"></div>
+      <svg class="stage" id="mic" preserveAspectRatio="none">
+        <defs><mask id="spot" maskUnits="userSpaceOnUse"><rect id="maskBg" fill="#fff"/><g id="holes"></g></mask></defs>
+        <rect id="base" fill="#000" opacity="0.25" pointer-events="none"/>
+        <g id="gOut" pointer-events="none"></g>
+        <rect id="dim" fill="#000" opacity="0" mask="url(#spot)" pointer-events="none"/>
+        <g id="gHi" pointer-events="none"></g>
+        <g id="gTag" pointer-events="none"></g>
+        <g id="gHit"></g>
+      </svg>
+      <div id="credit">Micrograph: <a href="https://siliconpr0n.org/map/infinera/1p6tbpspic/" target="_blank" rel="noopener">siliconpr0n</a> (evilmonkeyz)</div>
+    </div>
+    <svg id="conn"></svg>
+    <div id="cap"></div>
+  </div>
+  <div id="side">
+    <div id="info"></div>
+    <div id="list"></div>
+  </div>
+</div>
+<div id="tip"></div>
+<script src="data.js"></script>
+<script src="schematic.js"></script>
+<script>
+// Coordinates: micrograph shapes are full-resolution pixels of the oriented image (DATA.image.width x height).
+// Schematic shapes come from schematic.js in its own coordinate space.
+const DATA = window.PIC_DATA, SCH = window.buildSchematic(DATA);
+const IMG = DATA.image;
+const CATS = DATA.categories, SUBS = DATA.subsystems;
+const ENTS = DATA.components;
+const MODES = { ent: 'Component', cat: 'Category', sub: 'Subsystem' };
+const byId = Object.fromEntries(ENTS.map(e => [e.id, e]));
+ENTS.forEach(e => { e.kids = []; });
+ENTS.forEach(e => { if (e.parent && byId[e.parent]) byId[e.parent].kids.push(e); });
+const schByComp = {};
+SCH.items.forEach(it => (it.comps || []).forEach(id => { if (byId[id]) (schByComp[id] = schByComp[id] || []).push(it); }));
+const NS = 'http://www.w3.org/2000/svg';
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const state = { mode: 'ent', hover: null, pin: null, fly: true, outlines: true, routes: true, conn: true, tags: true, dim: true,
+  tour: { on: false, i: -1, timer: null } };
+
+// ---------- geometry ----------
+function mk(tag, attrs) { const n = document.createElementNS(NS, tag); for (const k in attrs) n.setAttribute(k, attrs[k]); return n; }
+function shapeEl(s, extra = {}) {
+  const d = s.d;
+  if (s.t === 'r') return mk('rect', { x: d[0], y: d[1], width: d[2] - d[0], height: d[3] - d[1], ...extra });
+  if (s.t === 'c') return mk('circle', { cx: d[0], cy: d[1], r: d[2], ...extra });
+  const pts = d.map(p => p.join(',')).join(' ');
+  if (s.t === 'p') return mk('polygon', { points: pts, ...extra });
+  return mk('polyline', { points: pts, fill: 'none', ...extra });
+}
+function bbox(s) {
+  const d = s.d;
+  if (s.t === 'r') return d;
+  if (s.t === 'c') return [d[0] - d[2], d[1] - d[2], d[0] + d[2], d[1] + d[2]];
+  const xs = d.map(p => p[0]), ys = d.map(p => p[1]);
+  return [Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys)];
+}
+function union(bs) { return bs.reduce((a, b) => [Math.min(a[0], b[0]), Math.min(a[1], b[1]), Math.max(a[2], b[2]), Math.max(a[3], b[3])]); }
+function center(s) {
+  if (s.t === 'l') { const d = s.d, i = Math.floor((d.length - 1) / 2), j = Math.ceil((d.length - 1) / 2); return [(d[i][0] + d[j][0]) / 2, (d[i][1] + d[j][1]) / 2]; }
+  const b = bbox(s); return [(b[0] + b[2]) / 2, (b[1] + b[3]) / 2];
+}
+const area = s => { const b = bbox(s); return s.t === 'l' ? 0 : (b[2] - b[0]) * (b[3] - b[1]); };
+
+// ---------- pan/zoom pane ----------
+class PanZoom {
+  constructor(pane, svg, full, onChange, opts = {}) {
+    this.pane = pane; this.svg = svg; this.full = full; this.onChange = onChange; this.minW = opts.minW || 50; this.maxW = opts.maxW || full[2] * 1.6;
+    this.vb = full.slice(); this.anim = null;
+    let drag = null;
+    pane.addEventListener('mousedown', ev => { if (ev.button === 0) drag = { x: ev.clientX, y: ev.clientY, vb: this.vb.slice(), moved: false }; });
+    window.addEventListener('mousemove', ev => {
+      if (!drag) return;
+      const dx = ev.clientX - drag.x, dy = ev.clientY - drag.y;
+      if (!drag.moved && Math.abs(dx) + Math.abs(dy) > 3) { drag.moved = true; pane.classList.add('panning'); }
+      if (drag.moved) { const k = this.k(); this.set([drag.vb[0] - dx * k, drag.vb[1] - dy * k, drag.vb[2], drag.vb[3]]); hideTip(); }
+    });
+    window.addEventListener('mouseup', ev => {
+      if (!drag) return;
+      const moved = drag.moved; drag = null; pane.classList.remove('panning');
+      if (!moved && pane.contains(ev.target)) onStageClick(ev);
+    });
+    pane.addEventListener('wheel', ev => {
+      ev.preventDefault();
+      const p = this.toImg(ev.clientX, ev.clientY), f = Math.exp(ev.deltaY * 0.0015);
+      const [x, y, w, h] = this.vb, nw = Math.min(Math.max(w * f, this.minW), this.maxW), nh = nw * h / w;
+      this.set([p[0] - (p[0] - x) * nw / w, p[1] - (p[1] - y) * nh / h, nw, nh]);
+    }, { passive: false });
+    pane.addEventListener('dblclick', () => this.fit());
+    // touch: one-finger pan, two-finger pinch
+    let tp = null;
+    pane.addEventListener('touchstart', ev => { tp = { t: [...ev.touches].map(t => [t.clientX, t.clientY]), vb: this.vb.slice() }; }, { passive: true });
+    pane.addEventListener('touchmove', ev => {
+      if (!tp) return; ev.preventDefault();
+      const t = [...ev.touches].map(t => [t.clientX, t.clientY]);
+      const r = pane.getBoundingClientRect(), k0 = tp.vb[2] / r.width;
+      if (t.length === 1 && tp.t.length === 1) this.set([tp.vb[0] - (t[0][0] - tp.t[0][0]) * k0, tp.vb[1] - (t[0][1] - tp.t[0][1]) * k0, tp.vb[2], tp.vb[3]]);
+      else if (t.length === 2 && tp.t.length === 2) {
+        const d0 = Math.hypot(tp.t[0][0] - tp.t[1][0], tp.t[0][1] - tp.t[1][1]), d1 = Math.hypot(t[0][0] - t[1][0], t[0][1] - t[1][1]);
+        const f = d0 / Math.max(d1, 1), cx = (tp.t[0][0] + tp.t[1][0]) / 2 - r.left, cy = (tp.t[0][1] + tp.t[1][1]) / 2 - r.top;
+        const ix = tp.vb[0] + cx * k0, iy = tp.vb[1] + cy * k0, nw = Math.min(Math.max(tp.vb[2] * f, this.minW), this.maxW), nh = nw * tp.vb[3] / tp.vb[2];
+        this.set([ix - cx * nw / r.width, iy - cy * nh / r.height, nw, nh]);
+      }
+    }, { passive: false });
+    pane.addEventListener('touchend', () => { tp = null; });
+  }
+  k() { const r = this.pane.getBoundingClientRect(); return this.vb[2] / Math.max(r.width, 1); }
+  toImg(cx, cy) { const r = this.pane.getBoundingClientRect(); return [this.vb[0] + (cx - r.left) * this.vb[2] / r.width, this.vb[1] + (cy - r.top) * this.vb[3] / r.height]; }
+  toScreen(x, y) { const r = this.pane.getBoundingClientRect(); return [r.left + (x - this.vb[0]) * r.width / this.vb[2], r.top + (y - this.vb[1]) * r.height / this.vb[3]]; }
+  aspect(vb) { // force viewBox aspect to pane aspect, keeping the center and covering vb
+    const r = this.pane.getBoundingClientRect(), a = r.height / Math.max(r.width, 1);
+    let [x, y, w, h] = vb; const cx = x + w / 2, cy = y + h / 2;
+    if (h / w > a) w = h / a; else h = w * a;
+    return [cx - w / 2, cy - h / 2, w, h];
+  }
+  set(vb) { this.vb = this.aspect(vb); this.svg.setAttribute('viewBox', this.vb.join(' ')); this.onChange(); }
+  fit() { this.animate(this.full); }
+  animate(to, ms = 500) {
+    cancelAnimationFrame(this.anim);
+    const from = this.vb.slice(), tgt = this.aspect(to), t0 = performance.now();
+    // zoom in log space for a natural feel
+    const step = t => {
+      const u = Math.min(1, (t - t0) / ms), q = u < .5 ? 2 * u * u : 1 - Math.pow(-2 * u + 2, 2) / 2;
+      const w = Math.exp(Math.log(from[2]) + (Math.log(tgt[2]) - Math.log(from[2])) * q);
+      const cx = from[0] + from[2] / 2 + (tgt[0] + tgt[2] / 2 - from[0] - from[2] / 2) * q;
+      const cy = from[1] + from[3] / 2 + (tgt[1] + tgt[3] / 2 - from[1] - from[3] / 2) * q;
+      const h = w * tgt[3] / tgt[2];
+      this.set([cx - w / 2, cy - h / 2, w, h]);
+      if (u < 1) this.anim = requestAnimationFrame(step);
+    };
+    this.anim = requestAnimationFrame(step);
+  }
+}
+
+// ---------- tiles ----------
+const tileBox = $('#tiles'), tilePool = new Map();
+const T = IMG.tile, NL = IMG.levels;
+const BASE_L = Math.max(0, NL - 4); // coarse level kept loaded underneath (1/8 res)
+function levelDims(L) { const f = Math.pow(2, NL - 1 - L); return { f, w: Math.ceil(IMG.width / f), h: Math.ceil(IMG.height / f) }; }
+function renderTiles() {
+  const r = micPane.getBoundingClientRect(), vb = mic.vb, s = r.width / vb[2], dpr = window.devicePixelRatio || 1;
+  const L = Math.max(BASE_L, Math.min(NL - 1, Math.ceil(NL - 1 + Math.log2(s * dpr) - 0.15)));
+  const want = new Set();
+  [BASE_L, L].forEach(lv => {
+    const { f, w, h } = levelDims(lv);
+    const x0 = Math.max(0, Math.floor(vb[0] / f / T)), y0 = Math.max(0, Math.floor(vb[1] / f / T));
+    const x1 = Math.min(Math.ceil(w / T) - 1, Math.floor((vb[0] + vb[2]) / f / T)), y1 = Math.min(Math.ceil(h / T) - 1, Math.floor((vb[1] + vb[3]) / f / T));
+    for (let ty = y0; ty <= y1; ty++) for (let tx = x0; tx <= x1; tx++) {
+      const key = `${lv}/${tx}_${ty}`; want.add(key);
+      let img = tilePool.get(key);
+      if (!img) {
+        img = new Image(); img.style.zIndex = lv;
+        img.src = `${IMG.tiles}/${key}.${IMG.format}`; tileBox.appendChild(img); tilePool.set(key, img);
+      }
+      const tw = Math.min(T, w - tx * T), th = Math.min(T, h - ty * T);
+      // +0.5 px overlap hides seams between neighbouring tiles
+      img.style.left = ((tx * T * f - vb[0]) * s) + 'px'; img.style.top = ((ty * T * f - vb[1]) * s) + 'px';
+      img.style.width = (tw * f * s + 0.5) + 'px'; img.style.height = (th * f * s + 0.5) + 'px';
+    }
+  });
+  for (const [key, img] of tilePool) if (!want.has(key)) { img.remove(); tilePool.delete(key); }
+  $('#zoomInfo').textContent = `${(s * 100).toPrecision(2)}% | L${L}`;
+}
+
+// ---------- groups ----------
+function groupKey(e, mode) {
+  if (mode === 'ent') return { type: 'ent', key: e.id };
+  if (mode === 'cat') return { type: 'cat', key: e.cat };
+  return { type: 'sub', key: e.sub };
+}
+function members(sel) {
+  if (!sel) return [];
+  if (sel.type === 'ent') return byId[sel.key] ? [byId[sel.key]] : [];
+  if (sel.type === 'cat') return ENTS.filter(e => e.cat === sel.key);
+  if (sel.type === 'sc') { const [s, c] = sel.key.split('|'); return ENTS.filter(e => e.sub === s && e.cat === c); }
+  return ENTS.filter(e => e.sub === sel.key);
+}
+const samesel = (a, b) => a && b && a.type === b.type && a.key === b.key;
+const selColor = (sel, e) => sel.type === 'sub' ? SUBS[sel.key].color : CATS[e.cat].color;
+function groupMeta(sel) {
+  if (sel.type === 'cat') return CATS[sel.key];
+  if (sel.type === 'sub') return SUBS[sel.key];
+  const [s, c] = sel.key.split('|');
+  return { name: `${SUBS[s].name} / ${CATS[c].name}`, color: CATS[c].color, desc: CATS[c].desc };
+}
+
+// ---------- static layers ----------
+function buildMicHit() {
+  const g = $('#gHit'); g.innerHTML = '';
+  const items = [];
+  ENTS.forEach(e => e.shapes.forEach(s => items.push({ e, s })));
+  items.sort((p, q) => (p.s.t === 'l') - (q.s.t === 'l') || area(q.s) - area(p.s)); // big areas first, routes on top
+  items.forEach(({ e, s }) => {
+    const el = s.t === 'l' ? shapeEl(s, { stroke: 'transparent', 'stroke-width': Math.max(60, (s.w || 30) * 2), 'pointer-events': 'stroke', 'stroke-linejoin': 'round' })
+      : shapeEl(s, { fill: 'transparent', 'pointer-events': 'all' });
+    el.dataset.id = e.id; g.appendChild(el);
+  });
+}
+function buildMicOutlines() {
+  const g = $('#gOut'); g.innerHTML = '';
+  ENTS.forEach(e => {
+    const isWg = e.cat === 'wg';
+    if (isWg ? !state.routes : !state.outlines) return;
+    if (['pad', 'trench'].includes(e.cat)) return;
+    e.shapes.forEach(s => g.appendChild(shapeEl(s, { fill: 'none', stroke: CATS[e.cat].color, 'stroke-width': isWg ? 1.2 : 1, opacity: isWg ? 0.35 : 0.6,
+      'vector-effect': 'non-scaling-stroke', 'stroke-dasharray': e.conf === 'I' ? '4 3' : 'none' })));
+  });
+}
+function drawSchematic() {
+  const body = $('#schBody'), hit = $('#schHit'); body.innerHTML = hit.innerHTML = '';
+  SCH.items.forEach(it => {
+    const id = (it.comps || []).find(i => byId[i]);
+    it.draw(body, id ? CATS[byId[id].cat].color : '#6b7380');
+    if (id) { const el = it.hit(); el.dataset.id = id; hit.appendChild(el); }
+  });
+}
+
+// ---------- highlight ----------
+function render() {
+  const sel = state.hover || state.pin, mem = members(sel);
+  const gHi = $('#gHi'), holes = $('#holes'), gTag = $('#gTag'), sHi = $('#schHi');
+  gHi.innerHTML = holes.innerHTML = gTag.innerHTML = sHi.innerHTML = '';
+  $('#dim').setAttribute('opacity', sel && state.dim ? 0.3 : 0);
+  const k = mic.k(), ks = sch.k();
+  const tagged = [];
+  mem.forEach(e => {
+    const col = selColor(sel, e);
+    e.shapes.forEach(s => {
+      const isL = s.t === 'l', w = s.w || 30;
+      holes.appendChild(shapeEl(s, { fill: isL ? 'none' : '#000', stroke: '#000', 'stroke-width': isL ? w + 14 * k : 10 * k, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }));
+      const dash = e.conf === 'I' ? `${6 * k} ${4 * k}` : 'none';
+      gHi.appendChild(shapeEl(s, { fill: 'none', stroke: col, 'stroke-width': Math.max(isL ? w : 0, (isL ? 7 : 6) * k), opacity: 0.25, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }));
+      gHi.appendChild(shapeEl(s, { fill: isL ? 'none' : col, 'fill-opacity': isL ? 0 : 0.12, stroke: col, 'stroke-width': (isL ? 2.6 : 2) * k,
+        'stroke-dasharray': dash, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }));
+    });
+    if (state.tags && e.shapes.length && !(e.cat === 'wg' && sel.type !== 'ent')) tagged.push({ e, col });
+    (schByComp[e.id] || []).forEach(it => it.highlight(sHi, col, ks));
+  });
+  // one tag per component, at its largest shape
+  if (tagged.length <= 60) tagged.forEach(({ e, col }) => {
+    const s = e.shapes.reduce((a, b) => (area(b) > area(a) ? b : a), e.shapes[0]), b = bbox(s);
+    const txt = e.short || e.name, w = (txt.length * 6.4 + 8) * k, h = 16 * k;
+    let x = b[0], y = b[1] - h - 2 * k;
+    gTag.appendChild(mk('rect', { x, y, width: w, height: h, fill: 'rgba(10,12,15,.88)', stroke: col, 'stroke-width': k }));
+    const t = mk('text', { x: x + 4 * k, y: y + h - 4.5 * k, fill: '#fff', 'font-size': 12 * k }); t.textContent = txt; gTag.appendChild(t);
+  });
+  drawConnectors(sel, mem);
+  renderInfo(sel, mem); markList(sel);
+}
+function drawConnectors(sel, mem) {
+  const g = $('#conn'); g.innerHTML = '';
+  if (!sel || !state.conn) return;
+  const pr = $('#panes').getBoundingClientRect(), rs = schPane.getBoundingClientRect(), rm = micPane.getBoundingClientRect();
+  const inside = (p, r) => p[0] >= r.left && p[0] <= r.right && p[1] >= r.top && p[1] <= r.bottom;
+  let n = 0;
+  for (const e of mem) {
+    if (n >= 48) break;
+    if (sel.type !== 'ent' && ['wg', 'pad'].includes(e.cat)) continue;
+    const si = schByComp[e.id]; if (!si || !e.shapes.length) continue;
+    const a = sch.toScreen(...si[0].anchor), s = e.shapes.reduce((p, q) => (area(q) > area(p) ? q : p), e.shapes[0]), b = mic.toScreen(...center(s));
+    if (!inside(a, rs) || !inside(b, rm)) continue;
+    const col = selColor(sel, e), x1 = a[0] - pr.left, y1 = a[1] - pr.top, x2 = b[0] - pr.left, y2 = b[1] - pr.top;
+    const mx = (x1 + x2) / 2;
+    g.appendChild(mk('path', { d: `M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`, fill: 'none', stroke: col, 'stroke-width': 1.3, 'stroke-dasharray': '5 4', opacity: 0.85 }));
+    [[x1, y1], [x2, y2]].forEach(([x, y]) => g.appendChild(mk('circle', { cx: x, cy: y, r: 2.8, fill: col })));
+    n++;
+  }
+}
+function flyTo(sel) {
+  const mem = members(sel), bs = [];
+  mem.forEach(e => e.shapes.forEach(s => bs.push(bbox(s))));
+  if (!bs.length) return;
+  const b = union(bs), w = b[2] - b[0], h = b[3] - b[1], pad = 0.35;
+  const minW = 1400;
+  let W = Math.max(w * (1 + pad), minW), H = Math.max(h * (1 + pad), minW * 0.6);
+  mic.animate([(b[0] + b[2]) / 2 - W / 2, (b[1] + b[3]) / 2 - H / 2, W, H]);
+}
+
+// ---------- info + list ----------
+const chip = (name, color) => `<span class="chip"><span class="sw" style="background:${color}"></span>${esc(name)}</span>`;
+function renderInfo(sel, mem) {
+  const el = $('#info');
+  if (!sel) { el.innerHTML = DATA.intro; return; }
+  if (sel.type === 'ent') {
+    const e = byId[sel.key]; if (!e) return;
+    const lab = e.labels && e.labels.length ? `<p class="hint">Die text: ${e.labels.map(l => `<code>${esc(l)}</code>`).join(' ')}</p>` : '';
+    const kids = e.kids.length ? `<p class="hint">Contains: ${e.kids.map(c => esc(c.short || c.name)).join(', ')}</p>` : '';
+    el.innerHTML = `<h2>${esc(e.name)}</h2>
+      <div class="chips">${chip(CATS[e.cat].name, CATS[e.cat].color)}${SUBS[e.sub] ? chip(SUBS[e.sub].name, SUBS[e.sub].color) : ''}<span class="chip ev-${e.conf}">${e.conf === 'L' ? 'labeled' : 'inferred'}</span></div>
+      ${e.parent && byId[e.parent] ? `<p class="hint">Part of ${esc(byId[e.parent].name)}</p>` : ''}
+      <p>${esc(e.desc || '')}</p>${lab}${kids}
+      ${schByComp[e.id] ? '' : '<p class="hint">Not drawn in the schematic.</p>'}`;
+    return;
+  }
+  const g = groupMeta(sel);
+  const by = {};
+  mem.forEach(e => { (by[e.cat] = by[e.cat] || []).push(e); });
+  const rows = Object.keys(CATS).filter(c => by[c]).map(c => {
+    const l = by[c], names = ['wg', 'pad'].includes(c) ? '' : ': ' + l.map(e => esc(e.short || e.name)).join(', ');
+    return `<p style="margin:2px 0">${chip(CATS[c].name + ' ' + l.length, CATS[c].color)}<span class="hint">${names}</span></p>`;
+  }).join('');
+  el.innerHTML = `<h2>${chip('', g.color)} ${esc(g.name)}</h2><p>${esc(g.desc || '')}</p><p class="hint">${mem.length} component${mem.length === 1 ? '' : 's'}</p>${rows}`;
+}
+// ---------- foldable tree: tier 1 group, tier 2 sub-group, tier 3 component, tier 4 child parts ----------
+const openKeys = new Set();
+let treeTier = 1;
+function treeFor(mode) {
+  const comp = (e, depth) => ({ key: 'e:' + e.id, sel: { type: 'ent', key: e.id }, name: e.name, color: CATS[e.cat].color, conf: e.conf, depth,
+    children: e.kids.map(k => comp(k, depth + 1)) });
+  const tops = list => list.filter(e => !(e.parent && byId[e.parent] && list.includes(byId[e.parent])));
+  if (mode === 'cat') return Object.keys(CATS).map(c => {
+    const inC = ENTS.filter(e => e.cat === c); if (!inC.length) return null;
+    return { key: 'c:' + c, sel: { type: 'cat', key: c }, name: CATS[c].name, color: CATS[c].color, count: inC.length, depth: 0,
+      children: Object.keys(SUBS).map(s => {
+        const l = inC.filter(e => e.sub === s); if (!l.length) return null;
+        return { key: `sc:${s}|${c}`, sel: { type: 'sc', key: `${s}|${c}` }, name: SUBS[s].name, color: SUBS[s].color, count: l.length, depth: 1,
+          children: tops(l).map(e => comp(e, 2)) };
+      }).filter(Boolean) };
+  }).filter(Boolean);
+  return Object.keys(SUBS).map(s => {
+    const inS = ENTS.filter(e => e.sub === s); if (!inS.length) return null;
+    return { key: 's:' + s, sel: { type: 'sub', key: s }, name: SUBS[s].name, color: SUBS[s].color, count: inS.length, depth: 0,
+      children: Object.keys(CATS).map(c => {
+        const l = inS.filter(e => e.cat === c); if (!l.length) return null;
+        return { key: `sc:${s}|${c}`, sel: { type: 'sc', key: `${s}|${c}` }, name: CATS[c].name, color: CATS[c].color, count: l.length, depth: 1,
+          children: tops(l).map(e => comp(e, 2)) };
+      }).filter(Boolean) };
+  }).filter(Boolean);
+}
+function walk(nodes, f) { nodes.forEach(n => { f(n); walk(n.children, f); }); }
+function setTier(t) {
+  treeTier = t; openKeys.clear();
+  walk(treeFor(state.mode), n => { if (n.children.length && n.depth < t) openKeys.add(n.key); });
+  buildList();
+}
+function buildList() {
+  const L = $('#list'), st = L.scrollTop; L.innerHTML = '';
+  const bar = document.createElement('div'); bar.className = 'tierBar';
+  bar.innerHTML = '<span>Expand</span>';
+  [[0, 'None', 'Collapse all'], [1, '1', 'Show groups'], [2, '2', 'Show sub-groups'], [3, '3', 'Show components'], [9, 'All', 'Show every part']].forEach(([t, n, tt]) => {
+    const b = document.createElement('button'); b.textContent = n; b.title = tt; b.className = treeTier === t ? 'on' : '';
+    b.onclick = () => setTier(t); bar.appendChild(b);
+  });
+  L.appendChild(bar);
+  const add = n => {
+    const row = document.createElement('div');
+    row.className = n.depth === 0 ? 'gh' : (n.children.length && n.depth === 1 ? 'gh2' : 'it');
+    row.style.paddingLeft = (6 + n.depth * 13) + 'px';
+    const isOpen = openKeys.has(n.key);
+    const caret = n.children.length ? `<span class="caret" title="${isOpen ? 'Fold' : 'Unfold'}">${isOpen ? '▾' : '▸'}</span>` : '<span class="caret"></span>';
+    const right = n.count != null ? `<span class="n">${n.count}</span>` : `<span class="cf">${n.conf === 'L' ? 'labeled' : 'inferred'}</span>`;
+    row.innerHTML = `${caret}<span class="sw" style="background:${n.color}"></span><span class="nm">${esc(n.name)}</span>${right}`;
+    bindSel(row, n.sel);
+    const cr = row.querySelector('.caret');
+    if (n.children.length) cr.addEventListener('click', ev => { ev.stopPropagation(); openKeys.has(n.key) ? openKeys.delete(n.key) : openKeys.add(n.key); treeTier = -1; buildList(); });
+    L.appendChild(row);
+    if (isOpen) n.children.forEach(add);
+  };
+  treeFor(state.mode).forEach(add);
+  L.scrollTop = st;
+  markList(state.hover || state.pin);
+}
+function revealInTree(sel) {
+  if (!sel) return;
+  const target = sel.type === 'ent' ? 'e:' + sel.key : null;
+  if (!target) return;
+  let changed = false;
+  const visit = (nodes, path) => nodes.some(n => {
+    if (n.key === target) { path.forEach(k => { if (!openKeys.has(k)) { openKeys.add(k); changed = true; } }); return true; }
+    return visit(n.children, path.concat(n.key));
+  });
+  visit(treeFor(state.mode), []);
+  if (changed) { treeTier = -1; buildList(); }
+  const row = document.querySelector(`#list [data-sel="ent:${sel.key}"]`);
+  if (row) row.scrollIntoView({ block: 'nearest' });
+}
+function bindSel(node, sel) {
+  node.dataset.sel = sel.type + ':' + sel.key;
+  node.addEventListener('mouseenter', () => { state.hover = sel; render(); });
+  node.addEventListener('mouseleave', () => { state.hover = null; render(); });
+  node.addEventListener('click', () => { stopTour(); pin(samesel(state.pin, sel) ? null : sel); });
+}
+function markList(sel) {
+  document.querySelectorAll('#list .act').forEach(n => n.classList.remove('act'));
+  if (!sel) return;
+  const n = document.querySelectorAll(`#list [data-sel="${sel.type}:${sel.key}"]`);
+  n.forEach(x => x.classList.add('act'));
+}
+function pin(sel) { state.pin = sel; if (sel && state.fly) flyTo(sel); render(); revealInTree(sel); }
+
+// ---------- hover / click ----------
+const tip = $('#tip');
+function hideTip() { tip.style.display = 'none'; }
+function onHover(ev) {
+  const id = ev.target.dataset && ev.target.dataset.id; if (!id) return;
+  const e = byId[id], sel = groupKey(e, state.mode);
+  if (!samesel(state.hover, sel)) { state.hover = sel; render(); }
+  tip.innerHTML = `<b>${esc(e.name)}</b><br><span class="s">${esc(CATS[e.cat].name)}${SUBS[e.sub] ? ' | ' + esc(SUBS[e.sub].name) : ''}</span>`;
+  tip.style.display = 'block';
+  tip.style.left = Math.min(ev.clientX + 14, innerWidth - tip.offsetWidth - 4) + 'px';
+  tip.style.top = Math.min(ev.clientY + 14, innerHeight - tip.offsetHeight - 4) + 'px';
+}
+function onLeave() { hideTip(); if (state.hover) { state.hover = null; render(); } }
+['#gHit', '#schHit'].forEach(s => { $(s).addEventListener('mousemove', onHover); $(s).addEventListener('mouseleave', onLeave); });
+function onStageClick(ev) {
+  stopTour();
+  const id = ev.target.dataset && ev.target.dataset.id;
+  if (!id) { pin(null); return; }
+  const sel = groupKey(byId[id], state.mode);
+  pin(samesel(state.pin, sel) ? null : sel);
+}
+
+// ---------- panes ----------
+const schPane = $('#schPane'), micPane = $('#micPane');
+let raf = 0;
+const schedule = () => { if (!raf) raf = requestAnimationFrame(() => { raf = 0; renderTiles(); render(); }); };
+const sch = new PanZoom(schPane, $('#sch'), SCH.viewBox, schedule, { minW: SCH.viewBox[2] / 12 });
+const mic = new PanZoom(micPane, $('#mic'), [0, 0, IMG.width, IMG.height], schedule, { minW: 300, maxW: IMG.width * 1.6 });
+['#maskBg', '#base', '#dim'].forEach(s => { const r = $(s); r.setAttribute('x', -IMG.width); r.setAttribute('y', -IMG.height); r.setAttribute('width', IMG.width * 3); r.setAttribute('height', IMG.height * 3); });
+$('#spot').setAttribute('x', -IMG.width); $('#spot').setAttribute('y', -IMG.height); $('#spot').setAttribute('width', IMG.width * 3); $('#spot').setAttribute('height', IMG.height * 3);
+
+// ---------- toolbar ----------
+function buildBar() {
+  const m = $('#modes'); m.innerHTML = '';
+  Object.entries(MODES).forEach(([k, n], i) => {
+    const b = document.createElement('button'); b.textContent = n; b.title = `Hover selects by ${n.toLowerCase()} (key ${i + 1})`;
+    b.className = state.mode === k ? 'on' : ''; b.onclick = () => setMode(k); m.appendChild(b);
+  });
+  const f = $('#flyGrp'); f.innerHTML = '';
+  const fb = document.createElement('button'); fb.textContent = state.fly ? 'On' : 'Off'; fb.className = state.fly ? 'on' : '';
+  fb.title = 'Zoom the micrograph to the selection on click and during the tour';
+  fb.onclick = () => { state.fly = !state.fly; buildBar(); }; f.appendChild(fb);
+  const t = $('#toggles'); t.innerHTML = '';
+  [['outlines', 'Outlines', 'Faint outlines of every mapped device (O)'], ['routes', 'Routes', 'Faint waveguide routes'], ['conn', 'Links', 'Connectors between schematic and micrograph'],
+   ['tags', 'Tags', 'Name tags on highlighted parts'], ['dim', 'Spotlight', 'Dim everything else']].forEach(([k, n, tt]) => {
+    const b = document.createElement('button'); b.textContent = n; b.title = tt; b.className = state[k] ? 'on' : '';
+    b.onclick = () => { state[k] = !state[k]; b.className = state[k] ? 'on' : ''; if (k === 'outlines' || k === 'routes') buildMicOutlines(); render(); }; t.appendChild(b);
+  });
+}
+function setMode(k) { state.mode = k; state.pin = null; state.hover = null; buildBar(); setTier(treeTier < 0 ? 1 : treeTier); render(); }
+$('#fitBtn').onclick = () => { sch.fit(); mic.fit(); };
+$('#sideBtn').onclick = () => $('#side').classList.toggle('open');
+
+// ---------- tour ----------
+function tourSteps() {
+  return DATA.tour.map(id => ({ type: 'ent', key: id })).filter(s => byId[s.key])
+    .concat(Object.keys(CATS).filter(k => ENTS.some(e => e.cat === k) && !['wg', 'pad', 'trench'].includes(k)).map(k => ({ type: 'cat', key: k })))
+    .concat(Object.keys(SUBS).filter(k => ENTS.some(e => e.sub === k)).map(k => ({ type: 'sub', key: k })));
+}
+function showStep(i) {
+  const steps = tourSteps(), T_ = state.tour;
+  T_.i = (i + steps.length) % steps.length;
+  const st = steps[T_.i];
+  state.hover = null; state.pin = st; if (state.fly) flyTo(st); render();
+  let title, kind, text;
+  if (st.type === 'ent') { const e = byId[st.key]; title = e.name; kind = CATS[e.cat].name; text = e.desc || ''; }
+  else { const g = groupMeta(st); title = g.name; kind = st.type === 'cat' ? 'Category' : 'Subsystem'; text = g.desc || ''; }
+  const cap = $('#cap'); cap.style.display = 'block';
+  cap.innerHTML = `<span class="t">${esc(title)}</span><span class="k">${esc(kind)} | ${T_.i + 1}/${steps.length}</span>${esc(text)}`;
+}
+// slider is log2 of seconds per step: -3..3 -> 0.125..8 s
+const stepSec = () => Math.pow(2, +$('#tDur').value);
+function playTour() {
+  const T_ = state.tour; T_.on = true; $('#tPlay').textContent = 'Pause'; $('#tPlay').className = 'on';
+  showStep(T_.i + 1); clearInterval(T_.timer); T_.timer = setInterval(() => showStep(T_.i + 1), stepSec() * 1000);
+}
+function stopTour() { const T_ = state.tour; if (!T_.on) return; T_.on = false; clearInterval(T_.timer); $('#tPlay').textContent = 'Play'; $('#tPlay').className = ''; }
+$('#tPlay').onclick = () => state.tour.on ? stopTour() : playTour();
+$('#tNext').onclick = () => { stopTour(); showStep(state.tour.i + 1); };
+$('#tPrev').onclick = () => { stopTour(); showStep(state.tour.i - 1); };
+$('#tDur').oninput = () => {
+  $('#tDurV').textContent = stepSec() + ' s';
+  const T_ = state.tour; if (T_.on) { clearInterval(T_.timer); T_.timer = setInterval(() => showStep(T_.i + 1), stepSec() * 1000); }
+};
+window.addEventListener('keydown', ev => {
+  if (ev.target.tagName === 'INPUT') return;
+  const k = ev.key;
+  if (k >= '1' && k <= '3') setMode(Object.keys(MODES)[+k - 1]);
+  else if (k === ' ') { ev.preventDefault(); state.tour.on ? stopTour() : playTour(); }
+  else if (k === 'ArrowRight') { stopTour(); showStep(state.tour.i + 1); }
+  else if (k === 'ArrowLeft') { stopTour(); showStep(state.tour.i - 1); }
+  else if (k === 'Escape') { stopTour(); state.pin = null; $('#cap').style.display = 'none'; render(); }
+  else if (k === 'o' || k === 'O') { state.outlines = !state.outlines; buildBar(); buildMicOutlines(); render(); }
+  else if (k === 'f' || k === 'F') { sch.fit(); mic.fit(); }
+});
+window.addEventListener('resize', () => { sch.set(sch.vb); mic.set(mic.vb); });
+
+// URL params for scripted captures: ?mode=cat&sel=cat:soa&mvb=x,y,w,h&svb=x,y,w,h&tour=N&fly=0
+(function init() {
+  buildBar(); setTier(1); drawSchematic(); buildMicHit(); buildMicOutlines();
+  const q = new URLSearchParams(location.search);
+  if (q.get('fly') === '0') { state.fly = false; buildBar(); }
+  if (q.get('mode') && MODES[q.get('mode')]) setMode(q.get('mode'));
+  sch.set(q.get('svb') ? q.get('svb').split(',').map(Number) : SCH.viewBox);
+  mic.set(q.get('mvb') ? q.get('mvb').split(',').map(Number) : [0, 0, IMG.width, IMG.height]);
+  if (q.get('sel')) { const [t, k] = q.get('sel').split(':'); state.pin = { type: t, key: k }; }
+  if (q.get('tour')) showStep(+q.get('tour'));
+  render();
+})();
+</script>
+</body>
+</html>
