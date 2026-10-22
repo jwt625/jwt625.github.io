@@ -303,7 +303,10 @@ function buildMicHit() {
   const g = $('#gHit'); g.innerHTML = '';
   const items = [];
   ENTS.forEach(e => e.shapes.forEach(s => items.push({ e, s })));
-  items.sort((p, q) => (p.s.t === 'l') - (q.s.t === 'l') || area(q.s) - area(p.s)); // big areas first, routes on top
+  // background (pads, trenches, test, marks) < routes < devices, so devices a route runs through stay hoverable;
+  // within a layer big areas first, lines on top
+  const layer = e => ['pad', 'trench', 'test', 'mark'].includes(e.cat) ? 0 : e.cat === 'wg' ? 1 : 2;
+  items.sort((p, q) => layer(p.e) - layer(q.e) || (p.s.t === 'l') - (q.s.t === 'l') || area(q.s) - area(p.s));
   items.forEach(({ e, s }) => {
     const el = s.t === 'l' ? shapeEl(s, { stroke: 'transparent', 'stroke-width': Math.max(60, (s.w || 30) * 2), 'pointer-events': 'stroke', 'stroke-linejoin': 'round' })
       : shapeEl(s, { fill: 'transparent', 'pointer-events': 'all' });
@@ -324,9 +327,25 @@ function drawSchematic() {
   const body = $('#schBody'), hit = $('#schHit'); body.innerHTML = hit.innerHTML = '';
   SCH.items.forEach(it => {
     const id = (it.comps || []).find(i => byId[i]);
-    it.draw(body, id ? CATS[byId[id].cat].color : '#6b7380');
-    if (id) { const el = it.hit(); el.dataset.id = id; hit.appendChild(el); }
+    if (!id) { it.draw(body, '#6b7380'); return; }
+    // neutral by default; the category-colored copy is shown only while highlighted
+    it.gN = mk('g', {}); it.gC = mk('g', { display: 'none' });
+    const col = CATS[byId[id].cat].color;
+    it.draw(it.gN, schMuted(col)); it.draw(it.gC, col);
+    body.appendChild(it.gN); body.appendChild(it.gC);
+    const el = it.hit(); el.dataset.id = id; hit.appendChild(el);
   });
+}
+const SCH_NEUTRAL = '#c3c8cf', SCH_TINT = 0.3; // muted = this fraction of the category color, rest neutral
+function schMuted(hex) {
+  const p = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16)), a = p(hex), b = p(SCH_NEUTRAL);
+  return '#' + a.map((v, i) => Math.round(v * SCH_TINT + b[i] * (1 - SCH_TINT)).toString(16).padStart(2, '0')).join('');
+}
+let schLit = [];
+function schColor(items) {
+  schLit.forEach(it => { it.gN.removeAttribute('display'); it.gC.setAttribute('display', 'none'); });
+  schLit = items.filter(it => it.gC);
+  schLit.forEach(it => { it.gN.setAttribute('display', 'none'); it.gC.removeAttribute('display'); });
 }
 
 // ---------- highlight ----------
@@ -337,6 +356,7 @@ function render() {
   $('#dim').setAttribute('opacity', sel && state.dim ? 0.3 : 0);
   const k = mic.k(), ks = sch.k();
   const tagged = [];
+  schColor(mem.flatMap(e => schByComp[e.id] || []));
   mem.forEach(e => {
     const col = selColor(sel, e);
     e.shapes.forEach(s => {
