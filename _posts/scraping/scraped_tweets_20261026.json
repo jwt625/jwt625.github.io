@@ -1,0 +1,617 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/2111712851027222897",
+        "tweets": [
+            {
+                "text": "we have RSI iterating on existing hardware, and then we have CoWoS[-S, -R, -L], CoPoS, CoWoP, SoIC[-P, -X], SoW[-P, -X], EMIB[∅, -M, -T, 3.5D], Foveros[∅, Omni, Direct, -S, -R, -B], I-Cube[-S, -E], X-Cube, H-Cube, SAINT[-S, -D, -L]...",
+                "media": [],
+                "timestamp": "2026-10-18T06:55:52+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2111904989698568250",
+        "tweets": [
+            {
+                "text": "heterogeneous integration and high efficiency coupling on and off a PIC will continue to be the bottleneck and critical component in a photonic circuit system. There is no point putting a weakly etched large area grating onto a Si/SiN PIC. It is a beautiful chip, but also painful to see you only get one of it out of a 4in wafer.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HU79rz2aQAAybF4?format=jpg",
+                        "local_path": "media/20261018_193921_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-18T19:39:21+00:00"
+            },
+            {
+                "text": "very nice details on laser attach steps.\n780 nm DBR laser die from Modulight\n- Isichenko2026: [A Photonic Integrated Light Generation, Control, and Delivery Engine for Creating Cold Atoms](https://arxiv.org/abs/2610.17918)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HU7-keUacAAvjXM?format=jpg",
+                        "local_path": "media/20261018_194531_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HU7-q5vaIAAOZSe?format=png",
+                        "local_path": "media/20261018_194531_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HU7_d-hbcAAklAo?format=jpg",
+                        "local_path": "media/20261018_194531_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-18T19:45:31+00:00"
+            },
+            {
+                "text": "the method sections are great, including stitching the mask, cleaniness characterization, backside protection etc.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HU8ASiGbcAAw3Kn?format=png",
+                        "local_path": "media/20261018_194813_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-18T19:48:13+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2112023425657286861",
+        "tweets": [
+            {
+                "text": "keep thinking about nvidia's september proposal for including CPO into 400GPL. Maybe they have given up on DWDM, probably much easier to push tsmc for MRM junction optimization than pushing shitty InP foundries on 8x DFB array. Also would make the adoption of hybrid bonding between EIC and PIC make more sense.\ni'm turning bearish for slow and wide NPO, or even NPO in general. Imagine you are in the GSM of a hyperscaler, you'd probably want PAM6 CPC to pluggables, or PAM8 CPC and go further away. Custom dense MMF fiber array? sounds like $$$ and failure mode. open CPX? Totally agree with the link flap concern, you do not want any DFB laser close to some GPU dies that could swing 40 deg C of temperature change, and ELS IL, I've heard 3 dB from a few different places too, guess theres more incompetence when theres more stuff.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HU9NObGbwAAhCyV?format=jpg",
+                        "local_path": "media/20261019_012350_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-19T01:23:50+00:00"
+            },
+            {
+                "text": "(8-wavelength DFB array)",
+                "media": [],
+                "timestamp": "2026-10-19T05:45:26+00:00"
+            },
+            {
+                "text": "no, hybrid bonding sucks. CPC + high density pluggables.",
+                "media": [],
+                "timestamp": "2026-10-19T15:27:03+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2112063486272626790",
+        "tweets": [
+            {
+                "text": "very nice 3D surface plot of the heatmap, oh wait it is the actual delamination height profile or the measured temperature lol",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HU-NLdlbIAA5qmF?format=jpg",
+                        "local_path": "media/20261019_060910_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-19T06:09:10+00:00"
+            },
+            {
+                "text": "- Baker2025: [Demonstration of Co-Packaged Optics Assembly for Fiber-Based Optical Interconnect](https://doi.org/10.1109/ECTC51687.2025.00061)\nthe year is 2025 and they only have this few number of dies? I do like the PIC inside the substrate. cmon intel can you do better and put COUPE out of its job?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HU-PcbZboAA0UwY?format=jpg",
+                        "local_path": "media/20261019_061452_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HU-Po0qa4AAjEEf?format=jpg",
+                        "local_path": "media/20261019_061452_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-19T06:14:52+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2112068290906624458",
+        "tweets": [
+            {
+                "text": "first time seeing a UR arm on a VNA probe setup, that is probing up to 220 GHz. Suddenly the arm no longer feels expensive, one might say it is actually dirt cheap.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HU-RAPdbkAA4Am0?format=jpg",
+                        "local_path": "media/20261019_062815_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-19T06:28:15+00:00"
+            },
+            {
+                "text": "ABF-Type A, temperature-dependent dielectric constant (3.4-3.5) and loss tangent (~0.003 to ~0.01) from 10 to 220 GHz.\n- Ahamed2026: [Temperature-Dependent Electrical Characterization of New ABF-Type A Material Up to 220 GHz](https://doi.org/10.1109/ECTC51846.2026.00389)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HU-ULaBa0AARjEm?format=jpg",
+                        "local_path": "media/20261019_063616_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HU-UaHAagAAxEwx?format=jpg",
+                        "local_path": "media/20261019_063616_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-19T06:36:16+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2112400397688344613",
+        "tweets": [
+            {
+                "text": "higher res of the same setup, this time characterizing silicon caps",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVDA9vna0AAQrPB?format=jpg",
+                        "local_path": "media/20261019_062815_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HU-RAPdbkAA4Am0?format=jpg",
+                        "local_path": "media/20261019_062815_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-19T06:28:15+00:00"
+            },
+            {
+                "text": "they are so cute\n- Khorasani2025: [Embedded Silicon Chip Capacitors in Glass Package for Vertical Power Delivery](https://doi.org/10.1109/ECTC51687.2025.00076)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVDBMKjagAEDmm3?format=jpg",
+                        "local_path": "media/20261020_042953_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVDBSMDaQAAiz5B?format=jpg",
+                        "local_path": "media/20261020_042953_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-20T04:29:53+00:00"
+            },
+            {
+                "text": "typical probe station except very expensive freq extenders and probes for freq up to 220 GHz, and a robotic arm holding a waveguide horn probably for different device types.",
+                "media": [],
+                "timestamp": "2026-10-20T04:38:23+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2112412374854726050",
+        "tweets": [
+            {
+                "text": "you've seen copper vias, but have you seen copper via with diamond embedded inside to improve thermal conductivity?\ncan we go to graphene transistors and diamond insulation/die/interposer/substrate core already? Come back of the great Carbon!",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVDH3ZLbkAAGSUp?format=jpg",
+                        "local_path": "media/20261020_051531_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-20T05:15:31+00:00"
+            },
+            {
+                "text": "nowadays when a figure has too many colors it feels like claude..\n- Yang2026: [Electroplated Cu-Diamond Composite Thermal Vias for Interposer-Level Heat Management in 2.5D/3D Packages](https://doi.org/10.1109/ECTC51846.2026.00115)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVDM137bwAAGISd?format=jpg",
+                        "local_path": "media/20261020_052153_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVDNCCzaAAADCYc?format=jpg",
+                        "local_path": "media/20261020_052153_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVDNPf0aoAAvWas?format=jpg",
+                        "local_path": "media/20261020_052153_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-20T05:21:53+00:00"
+            },
+            {
+                "text": "one of the best",
+                "media": [],
+                "timestamp": "2026-10-20T19:40:36+00:00"
+            },
+            {
+                "text": "no physics stopping us from making a million MPCVDs, I say 10 billion CVDs and MBEs, universal basic fabs",
+                "media": [],
+                "timestamp": "2026-10-20T19:21:42+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2112735618090562005",
+        "tweets": [
+            {
+                "text": "i got reminded recently spacexai understandably cannot use too many Chinese pluggables hence the push behind long ACC and AEC. More folks might get scared of further FCC rules and switch to CPC and copper pluggables. The Return of Copper. Or raise your own US pluggables, many are already doing it.",
+                "media": [],
+                "timestamp": "2026-10-20T21:26:08+00:00"
+            },
+            {
+                "text": "yes. Im also thinking of google brought up innolight, broadcom with eoptolink, and it is probably time they raise up us equiv like amazon with lumilens",
+                "media": [],
+                "timestamp": "2026-10-21T02:49:07+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2112779402488721875",
+        "tweets": [
+            {
+                "text": "this figure is clean so I had to ask claude to make it interactive.\nPIC from Nokia bell labs and made by AMF. Free running laser linewidths improved by 50~60 dB, yeah you read that right, MHz to 10s of Hz, at the cost of SIL plus electro-optic feedback.\nthis reminded me I should also redo my infinera 1.6T DWDM chip analysis with this style of interactive component and subsystem in addition to plain text yapping.",
+                "media": [],
+                "timestamp": "2026-10-21T05:33:57+00:00"
+            },
+            {
+                "text": "- Idjadi2026: [Ultra-stable laser with sub-Hz intrinsic linewidth using a silicon photonic chip](https://arxiv.org/abs/2610.22596)\ngood methods sections too",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVIaBhBb0AA02cX?format=png",
+                        "local_path": "media/20261021_053538_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVIaDZ_akAAyR3J?format=png",
+                        "local_path": "media/20261021_053538_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-21T05:35:38+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2113107921332805866",
+        "tweets": [
+            {
+                "text": "Do you do photonics? Do any of your friends do photonics? Here is a nice photonic chip mapped out.\n[Infinera 1.6T DWDM DP-64QAM PIC map](https://outside5sigma.com/infinera-pic-map/)\nthis is why I hate JMP and JMP users, and I even start to have similar feelings towards grafana and grafana users now.. There is so much more richness in your data and in the way you analyze and present your data. Sometimes you don't realize how differently data could be presented until you try it out. Don't drag drop the defaults and call it a day. Does it spark joy in you? It should, and it should spark joy in others too.\nmicrograph from [siliconpr0n](https://siliconpr0n.org/map/infinera/1p6tbpspic/single/infinera_1p6tbpspic_evilmonkeyz_mx_am10x.jpg)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HIa4Q2haAAExhjP?format=jpg",
+                        "local_path": "media/20260516_063253_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-05-16T06:32:53+00:00"
+            },
+            {
+                "text": "inspired by",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/amplify_video_thumb/2112752766062063616/img/HKNr1wplY_cvHrsv.jpg",
+                        "local_path": "media/20261022_162457_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-22T16:24:57+00:00"
+            },
+            {
+                "text": "🤌",
+                "media": [],
+                "timestamp": "2026-10-22T07:21:57+00:00"
+            },
+            {
+                "text": "inspired by",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/amplify_video_thumb/2112752766062063616/img/HKNr1wplY_cvHrsv.jpg",
+                        "local_path": "media/20261022_162457_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-22T16:24:57+00:00"
+            },
+            {
+                "text": "🤌",
+                "media": [],
+                "timestamp": "2026-10-22T07:21:57+00:00"
+            },
+            {
+                "text": "yes",
+                "media": [],
+                "timestamp": "2026-10-22T06:51:24+00:00"
+            },
+            {
+                "text": "my best guess is Rx LO's wavelength ref / injection locking laser input (WLL), and the SOA for variable gain (SH1 and SH2), and their shared ground SHG",
+                "media": [],
+                "timestamp": "2026-10-22T03:48:34+00:00"
+            },
+            {
+                "text": "I guess plotly and three.js",
+                "media": [],
+                "timestamp": "2026-10-22T03:56:04+00:00"
+            },
+            {
+                "text": "I love and hate grafana at the same time",
+                "media": [],
+                "timestamp": "2026-10-22T06:51:00+00:00"
+            },
+            {
+                "text": "the LLMs are really good, you can ask them for rec based on what they know about you.\ni also have this tutorial: (https://o5s.org/tutorial/silicon-photonics-and-co-packaged-optics/)",
+                "media": [],
+                "timestamp": "2026-10-22T15:07:44+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2113459458915565855",
+        "tweets": [
+            {
+                "text": "TIL people are trying to do coronagraph for exoplanet discovery with a PIC (AstroPIC!) because you can do arbitrary spatial mode mapping with grating couplers and a MZI mesh, hence you can implement the occulting disk on the chip. It's also an OPA, so maybe Taara can repurpose their OPA chip for exoplanet discovery lol.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVSDVPnaQAAD5KU?format=jpg",
+                        "local_path": "media/20261023_023615_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-23T02:36:15+00:00"
+            },
+            {
+                "text": "they've made cascaded MZI with really impressive extinction ratio... not many people have 90+ dB dynamic range optical characterization setup other than an OSA.\n- Sirbu2026: [AstroPIC: architecture overview, science yield modeling, and technology status for the Habitable Worlds Observatory](https://doi.org/10.1117/1.JATIS.12.4.041028)\n- Morgan2026: [High-contrast demonstrations with the AstroPIC integrated photonic coronagraph](https://doi.org/10.1117/1.JATIS.12.4.041028)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVSERzsaYAAeh4I?format=jpg",
+                        "local_path": "media/20261023_023929_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVSEX9NaMAAMkUs?format=jpg",
+                        "local_path": "media/20261023_023929_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVSEdd6aMAAhWkl?format=jpg",
+                        "local_path": "media/20261023_023929_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-23T02:39:29+00:00"
+            },
+            {
+                "text": "yes im a big fan of MKIDs!",
+                "media": [],
+                "timestamp": "2026-10-23T03:01:50+00:00"
+            },
+            {
+                "text": "lol nice",
+                "media": [],
+                "timestamp": "2026-10-23T15:07:57+00:00"
+            },
+            {
+                "text": "it's effectively empty",
+                "media": [],
+                "timestamp": "2026-10-23T04:10:55+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2113524577288818862",
+        "tweets": [
+            {
+                "text": "trade multimode with lower propagation loss? definitely worth the potential 10x if you have the space, have good mode filter, and manage the stray light well..",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVS-9OBbAAA2rDd?format=jpg",
+                        "local_path": "media/20261023_065501_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVS_BEcb0AAigx_?format=jpg",
+                        "local_path": "media/20261023_065501_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVS_DguasAAAtnp?format=jpg",
+                        "local_path": "media/20261023_065501_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-23T06:55:01+00:00"
+            },
+            {
+                "text": "- Hashemi2026: [Silicon Photonic Paper-Clip Spiral Waveguides With Ultra-Low Propagation and Delay Loss](https://ieeexplore.ieee.org/document/11652868)",
+                "media": [],
+                "timestamp": "2026-10-23T06:55:53+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2113843039999504784",
+        "tweets": [
+            {
+                "text": "im getting the vibe that they are trying to shove this into nature photonics.. anyways ~100 GHz channel spacing WDM thin-film lithium tantalate modulator chip from EPFL. You can dream and you can tell stories but they are unlikely to go into CPO. Both TFLN and TFLT do not win over footprint, they win over IL and bandwidth, and the crap AWG mux/demux just killed that advantage. It will get into pluggables and maybe NPO as well if you fold the electrodes. Monolithic TFLN pluggable probably starting early 2028, the chip itself for 3.2T 400GPL DR8 is almost trivial to make. Heterogeneous TFLN on SiPho maybe another 2-3 years.\na while ago I was surprised to learn that many folks are using bulk LN wafers for AR glasses, they'd rather eat the birefringence than working with SiC. Now I'm wondering why not bulk LT?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVXaAcDaAAA50gX?format=jpg",
+                        "local_path": "media/20261024_040028_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVXeh6xboAA5Yqw?format=jpg",
+                        "local_path": "media/20261024_040028_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVXfE_AbgAAj5Xj?format=jpg",
+                        "local_path": "media/20261024_040028_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-24T04:00:28+00:00"
+            },
+            {
+                "text": "ofc it is tested only up to two channels concurrent, and EDFA before detection. I do like LT more than LN, but the big players have made their pick. ECL laser power at Tx input up to 0 dBm, I'd test all 8 channels at 10 dBm at least to see if any weird TWM or FWM. Comb source looks nice but still more than 3 dB variation and not enough power after amplifier\n- Hulyal2026: [Terabit-scale wavelength-multiplexed transmitter enabled by thin-film lithium tantalate](https://arxiv.org/abs/2610.26674)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVXhImGaAAA9hsB?format=jpg",
+                        "local_path": "media/20261024_040213_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVXhQhTaYAAs4Tr?format=jpg",
+                        "local_path": "media/20261024_040213_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-24T04:02:13+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2113844262332932464",
+        "tweets": [
+            {
+                "text": "high refractive index glass now goes as high as 2.1??? damn what kind of poor souls are they doping into these glass",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVXh2m9aEAAn7CN?format=jpg",
+                        "local_path": "media/20261024_040520_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-24T04:05:20+00:00"
+            },
+            {
+                "text": "[AGC - High Refractive Index Glass Substrates](https://www.agc.com/en/products/electoric/detail/high-refractive-index.html)",
+                "media": [],
+                "timestamp": "2026-10-24T04:05:54+00:00"
+            },
+            {
+                "text": "what",
+                "media": [],
+                "timestamp": "2026-10-25T07:26:20+00:00"
+            },
+            {
+                "text": "hmm i have no idea, thats impressive",
+                "media": [],
+                "timestamp": "2026-10-24T04:20:30+00:00"
+            },
+            {
+                "text": "yeah except LN is a pain in the ass compared to glass",
+                "media": [],
+                "timestamp": "2026-10-24T07:07:18+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2113878044163367413",
+        "tweets": [
+            {
+                "text": "the absolute king of AI server slide rails",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVYAzynbEAAsXFs?format=jpg",
+                        "local_path": "media/20261024_061934_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-24T06:19:34+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2114225335508344860",
+        "tweets": [
+            {
+                "text": "random-speckle/random spectral spectrometers make some of the best looking photonic chips.\ncould also be the worst looking depending on who you ask.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVc8nrbacAATvfo?format=jpg",
+                        "local_path": "media/20261025_051935_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVc8oj1bsAA-f9i?format=jpg",
+                        "local_path": "media/20261025_051935_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVc8qwbbgAEUs3n?format=jpg",
+                        "local_path": "media/20261025_051935_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-25T05:19:35+00:00"
+            },
+            {
+                "text": "from (https://x.com/jwt0625/status/1967474005893697833) and\n- Wang2026: [Inverse-designed integrated computational spectrometer with sub-ångström resolution](https://doi.org/10.1364/OE.603614)\nsub-angstrom is kind of confusing as a spectral resolution..\nthey did particle swarm optimization to narrow the autocorrelation of the spectrum to improve resolution.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVc9BQ7bUAAuELi?format=jpg",
+                        "local_path": "media/20261025_052152_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/G03euAcbUAAKxBa?format=jpg",
+                        "local_path": "media/20261025_052152_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-25T05:21:52+00:00"
+            },
+            {
+                "text": "also",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HG-CWAIaMAACDiB?format=jpg",
+                        "local_path": "media/20261025_052202_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-25T05:22:02+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2114596725516296213",
+        "tweets": [
+            {
+                "text": "choose your fighter",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HViKeO9awAAliAY?format=jpg",
+                        "local_path": "media/20261026_055521_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HViOfWKaMAEYMMk?format=jpg",
+                        "local_path": "media/20261026_055521_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HViOgqybMAEuu7T?format=jpg",
+                        "local_path": "media/20261026_055521_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-26T05:55:21+00:00"
+            },
+            {
+                "text": "- Jiang2026: [A Holistic Study of Board Level Reliability of CoWoS-R Advanced Packaging on OCP Accelerator Modules](https://doi.org/10.1109/ECTC51846.2026.00274)\n- Ibrahim2026: [Scaling the EMIB-T Advanced Packaging Technology to Address the Future HPC/AI Demand](https://doi.org/10.1109/ECTC51846.2026.00274)\n- Mahajan2025: [Scaling EMIB—A Comprehensive Architecture Portfolio for Localized Interconnects](https://doi.org/10.1109/TED.2025.3574287)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HViPHVuaoAAq-q0?format=png",
+                        "local_path": "media/20261026_060412_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HViPe4eaUAAeJK1?format=jpg",
+                        "local_path": "media/20261026_060412_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-26T06:04:12+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2114601609959518606",
+        "tweets": [
+            {
+                "text": "dont look it up, guess when was this optical backplane from, and whats the propagation loss in dB/cm.\n( multimode gradient-index glass waveguide )",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HViR1iubsAAc2X9?format=jpg",
+                        "local_path": "media/20261026_061445_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HViR6zKbsAAA6df?format=jpg",
+                        "local_path": "media/20261026_061445_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HViSDDZaoAA-w-4?format=jpg",
+                        "local_path": "media/20261026_061445_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-26T06:14:45+00:00"
+            },
+            {
+                "text": "it is from 2015, 10+ years ago. Proopagation loss 0.07 dB/cm at 1310 nm, 2.15 dB for fiber launch. They also measured at 850 nm, 0.41 dB/cm and 2.7 dB launch IL.\n- Schröder2015: [Electro-optical backplane demonstrator with integrated multimode gradient-index thin glass waveguide panel](https://doi.org/10.1117/12.2076254)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVmPkSabAAAHs_X?format=jpg",
+                        "local_path": "media/20261027_003958_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVmPm0qa0AA1pct?format=jpg",
+                        "local_path": "media/20261027_003958_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-27T00:39:58+00:00"
+            },
+            {
+                "text": "pretty close",
+                "media": [],
+                "timestamp": "2026-10-27T04:16:08+00:00"
+            }
+        ]
+    }
+]
