@@ -311,7 +311,7 @@
 
 - name: "Interactive Patents"
   date: "2026-10-27"
-  description: "Interactive gallery of 13 classic patents rebuilt from the USPTO scans, from Cray vector registers and the Diffie-Hellman patent to PageRank, the Kilby IC, the TI DMD and the Engelbart mouse. Verbatim description and claims with column:line citations; every figure retraced as vector elements keyed to its reference numerals and linked both ways to the text. Search, sort and facets over inventors, assignees and decades."
+  description: "Interactive gallery of 13 classic patents rebuilt from the USPTO scans, from Cray vector registers and the Diffie-Hellman patent to PageRank, the Kilby IC, the TI DMD and the Engelbart mouse. Verbatim description and claims with column:line citations; every figure retraced as vector elements keyed to its reference numerals and linked both ways to the text. Search over inventors and assignees; sort, and facets by group, decade, assignee kind and country."
   category: "project"
   links:
     - url: "https://github.com/jwt625/ipatent"
