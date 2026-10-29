@@ -309,6 +309,18 @@
   image: "/assets/images/projects/advanced-packaging-atlas.png"
   embed_url: "https://outside5sigma.com/advanced-packaging-atlas/"
 
+- name: "Interactive Patents"
+  date: "2026-10-27"
+  description: "Interactive gallery of 13 classic patents rebuilt from the USPTO scans, from Cray vector registers and the Diffie-Hellman patent to PageRank, the Kilby IC, the TI DMD and the Engelbart mouse. Verbatim description and claims with column:line citations; every figure retraced as vector elements keyed to its reference numerals and linked both ways to the text. Search, sort and facets over inventors, assignees and decades."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/ipatent"
+      label: "GitHub"
+    - url: "https://outside5sigma.com/ipatent/"
+      label: "Live Demo"
+  image: "/assets/images/projects/ipatent.png"
+  embed_url: "https://outside5sigma.com/ipatent/"
+
 # Additional undocumented projects
 - name: "Age of Agents"
   date: "2026-01-04"
