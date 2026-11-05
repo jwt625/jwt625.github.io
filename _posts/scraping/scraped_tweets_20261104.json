@@ -1,0 +1,671 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/1839676095010103444",
+        "tweets": [
+            {
+                "text": "I just found the exact JEOL JBX6300 I ( and many of my labmates and friends) used so many times for sale. Even though this happened more than two years ago, and it has already been torn apart and removed, this and the pictures there still make me so sad... It's such a good ebeam.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYfXCTRaQAAdblW?format=jpg",
+                        "local_path": "media/20240927_143855_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYfXbfkaEAA0h7z?format=jpg",
+                        "local_path": "media/20240927_143855_1.jpg"
+                    }
+                ],
+                "timestamp": "2024-09-27T14:38:55+00:00"
+            },
+            {
+                "text": "Crawled all images from the site. Here are some good ones.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYfkwnfaYAERERa?format=jpg",
+                        "local_path": "media/20240927_153854_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYfk3nUa0AAqXId?format=jpg",
+                        "local_path": "media/20240927_153854_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYfk6SBbYAAHe2d?format=jpg",
+                        "local_path": "media/20240927_153854_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYflNt6bsAAGgbN?format=jpg",
+                        "local_path": "media/20240927_153854_3.jpg"
+                    }
+                ],
+                "timestamp": "2024-09-27T15:38:54+00:00"
+            },
+            {
+                "text": "😭 it's gone",
+                "media": [],
+                "timestamp": "2024-09-27T15:00:52+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/1991906605810716969",
+        "tweets": [
+            {
+                "text": "it's been more than three years and still makes me sad",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/G6SsfWtbEAE8uVB?format=jpg",
+                        "local_path": "media/20240927_143855_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYfXCTRaQAAdblW?format=jpg",
+                        "local_path": "media/20240927_143855_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYfXbfkaEAA0h7z?format=jpg",
+                        "local_path": "media/20240927_143855_2.jpg"
+                    }
+                ],
+                "timestamp": "2024-09-27T14:38:55+00:00"
+            },
+            {
+                "text": "gutted and gone",
+                "media": [],
+                "timestamp": "2025-11-21T17:22:56+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2114902610243424354",
+        "tweets": [
+            {
+                "text": "no way in hell will they actually ship this whole thing without any of the nvlinks broken during the shipment, unless... they are serious about sending a whole rack of compute in space and has made the backplane launch proof",
+                "media": [],
+                "timestamp": "2026-10-27T02:10:49+00:00"
+            },
+            {
+                "text": "do you see the solar panels? there shall be more\n- [NVIDIA GTC Berlin 2026 Keynote With CEO Jensen Huang](https://www.youtube.com/watch?v=v-NGxyPjcrE)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVmk9CJagAAQjBr?format=jpg",
+                        "local_path": "media/20261027_021217_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-27T02:12:17+00:00"
+            },
+            {
+                "text": "the more you buy, the more you save!",
+                "media": [],
+                "timestamp": "2026-10-27T15:41:56+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2114928450024927309",
+        "tweets": [
+            {
+                "text": "the chinese are asking photonics PhDs to give training class to prisoners and make them do some of the assembling work, how are you going to move optics/photonics supply chain back to the US, calling a 4 pm meeting \"in the evening\"?",
+                "media": [],
+                "timestamp": "2026-10-27T03:53:30+00:00"
+            },
+            {
+                "text": "gimme gimme ill train them well",
+                "media": [],
+                "timestamp": "2026-10-27T06:36:52+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2114985558124679661",
+        "tweets": [
+            {
+                "text": "do you see what i am seeing",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVnrcAbaoAAqHJ3?format=jpg",
+                        "local_path": "media/20261027_074026_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVntLjAbEAAjHr8?format=jpg",
+                        "local_path": "media/20261027_074026_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-27T07:40:26+00:00"
+            },
+            {
+                "text": "funny the ring aperture has the best LI perf and nicest beam. Make the current follow the mode.\n- Graziano2026: [Mode control in ring lithographic aperture VCSELs](https://doi.org/10.1063/5.0355868)\nwe still have little control over lasers, most lasers are still dumb old geometry, because we used to ask for simple things from a laser for communication, just one wavelength, one spatial mode, and one polarization. What you really want is multiple wavelength, multiple spatial modes, and both polarizations, and low noise. But the more complex they are, usually the more sensitive they are. And then the practical bottlenecks have stronger effects on what gets picked, PM fiber price, real estate around the package and the front panel..",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVnwYkDaUAEa5BQ?format=jpg",
+                        "local_path": "media/20261027_074608_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVnwjtTbcAAQXIj?format=jpg",
+                        "local_path": "media/20261027_074608_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVnwqD7aEAEwTe7?format=jpg",
+                        "local_path": "media/20261027_074608_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-27T07:46:08+00:00"
+            },
+            {
+                "text": "yeah vcsel with spatial mode filtering",
+                "media": [],
+                "timestamp": "2026-10-28T06:11:00+00:00"
+            },
+            {
+                "text": "kind of, idk if OAM only applies to free space modes",
+                "media": [],
+                "timestamp": "2026-10-27T15:41:08+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2115278939983897076",
+        "tweets": [
+            {
+                "text": "old magazine ad hits like you are not dumb",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVr64NAaEAAVQ1-?format=jpg",
+                        "local_path": "media/20261028_030613_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVr680NaUAAu8Az?format=jpg",
+                        "local_path": "media/20261028_030613_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-28T03:06:13+00:00"
+            },
+            {
+                "text": "because it is at the end of this 1971 Scientific American article on [A New Class of Diode Lasers](https://sci-hub.reatk.com/10.1038/scientificamerican0771-32)\nI used to have much more respect for laser folks than passive photonics folks, the latter many of which rework the same ideas over and over again, and simply swap the materials or wavelengths and call it something new, often also ignoring the original work that actually came up with the idea (and relearn the old lessons as consequences). But lasers, lasers have evolved so much while you are busy swapping materials or wavelengths... or are they? This shit looks exactly the same as 55 years later.. At the end of the day, you are just shoving photons and electrons.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVr7mi1bcAAk-j2?format=jpg",
+                        "local_path": "media/20261028_030913_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-28T03:09:13+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2115288220267381067",
+        "tweets": [
+            {
+                "text": "dude underestimated how much more retarded III-V i̶n̶d̶u̶s̶t̶r̶y̶material is compared to silicon",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVsC5bdbQAAkRqh?format=jpg",
+                        "local_path": "media/20261028_034306_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-28T03:43:06+00:00"
+            },
+            {
+                "text": "we are the metalorganic compounds in the MOCVD, time to deposit your intelligence and then get purged!\n- Dupuis1984: [Metalorganic Chemical Vapor Deposition of III-V Semiconductors](https://doi.org/10.1126/science.226.4675.623)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVsECi1aUAA03Yo?format=png",
+                        "local_path": "media/20261028_035314_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-28T03:53:14+00:00"
+            },
+            {
+                "text": "interesting behaviors, maybe the bots are reading each other",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVuhUXla4AANnbu?format=jpg",
+                        "local_path": "media/20261028_151320_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVuhUXkbkAAYoGO?format=jpg",
+                        "local_path": "media/20261028_151320_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVuhUXobsAACKBO?format=jpg",
+                        "local_path": "media/20261028_151320_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-28T15:13:20+00:00"
+            },
+            {
+                "text": "",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVuhcjXaYAAd9DG?format=jpg",
+                        "local_path": "media/20261028_151332_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVuhcjZakAAMfn6?format=jpg",
+                        "local_path": "media/20261028_151332_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVuhcjebMAAX92c?format=jpg",
+                        "local_path": "media/20261028_151332_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-28T15:13:32+00:00"
+            },
+            {
+                "text": "interesting behaviors, maybe the bots are reading each other",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVuhUXla4AANnbu?format=jpg",
+                        "local_path": "media/20261028_151320_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVuhUXkbkAAYoGO?format=jpg",
+                        "local_path": "media/20261028_151320_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVuhUXobsAACKBO?format=jpg",
+                        "local_path": "media/20261028_151320_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-28T15:13:20+00:00"
+            },
+            {
+                "text": "",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVuhcjXaYAAd9DG?format=jpg",
+                        "local_path": "media/20261028_151332_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVuhcjZakAAMfn6?format=jpg",
+                        "local_path": "media/20261028_151332_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVuhcjebMAAX92c?format=jpg",
+                        "local_path": "media/20261028_151332_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-28T15:13:32+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2115307233085210861",
+        "tweets": [
+            {
+                "text": "a supercomputer, that uses bare dies instead of packages, that has gold post interconnects for both mechanical and electrical connections, that does 3d stacking with laser welded vertical jumpers, that is liquid immersion cooled, and has tens of miles of wiring.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVsNmhpaAAA6VoX?format=jpg",
+                        "local_path": "media/20261028_045839_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVsSu7bbUAAtS4W?format=jpg",
+                        "local_path": "media/20261028_045839_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVsSyY8b0AA91th?format=jpg",
+                        "local_path": "media/20261028_045839_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVsS1PuagAA7DJ_?format=jpg",
+                        "local_path": "media/20261028_045839_3.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-28T04:58:39+00:00"
+            },
+            {
+                "text": "- [What's All This About Gallium Arsenide?, lecture by Seymour Cray](https://www.youtube.com/watch?v=8Z9VStbhplQ)\n- [Cray-3 supercomputer systems](https://archive.computerhistory.org/resources/access/text/2010/02/102685990-05-01-acc.pdf)\n- [CRAY 3 SUPERCOMPUTER. complete processing \"octant,\" early 1990s](https://www.bonhams.com/auction/25265/lot/64/cray-3-supercomputer-complete-processing-octant-early-1990s/)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HVsVVJ3bwAAEavL?format=jpg",
+                        "local_path": "media/20261028_050126_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HVsVV1gbkAA5UGS?format=jpg",
+                        "local_path": "media/20261028_050126_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-28T05:01:26+00:00"
+            },
+            {
+                "text": "he'd be pissed at the sloppy racks we are making rn",
+                "media": [],
+                "timestamp": "2026-10-28T05:02:45+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2115469042366792049",
+        "tweets": [
+            {
+                "text": "Impressive specs.\n3 ms switchig means no BTO. No one knows how to use us switching, and you have to redesign the whole link to not be bottlenecked by other components and steps.\nassume the couplers are as good as their previous demo, you can calculate how the IL scale with log N. Most SiPho folks will have 1.2 dB or more just from the couplers lol. ~1 dB is on par with google's OCS but they have much higher radix and different scaling. And I think the networking folks will still complain for 1 dB of IL.\nat the end of the day the big application layer players set the rules and specs, and so far they want lower latency (reduce stupid hops), higher radix to reduce the switching layers, and lower link flap rate etc.",
+                "media": [],
+                "timestamp": "2026-10-28T15:04:00+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2115695492864831865",
+        "tweets": [
+            {
+                "text": "was reading an old patent last night, and the same pain and joy struck me, such nice old school drawings, in such annoying form factor and layout, horrible experience. So I asked claude to trace some of my favorite old patents and made them interactive.\n[Interactive Patents](https://o5s.org/ipatent)\nif you want to see your favorite ones added, let me know and I'll point my claudes to them.\n(read patents at your own risk. Expired ones preferred.)",
+                "media": [],
+                "timestamp": "2026-10-29T06:41:27+00:00"
+            },
+            {
+                "text": "any specific ones?\nbtw your Goose strike sim is hilarious",
+                "media": [],
+                "timestamp": "2026-10-29T07:00:37+00:00"
+            },
+            {
+                "text": "yeah i dont understand how the lawyers could handle such retarded experience",
+                "media": [],
+                "timestamp": "2026-10-30T16:44:03+00:00"
+            },
+            {
+                "text": "yeah i dont understand how the lawyers could handle such retarded experience",
+                "media": [],
+                "timestamp": "2026-10-30T16:44:03+00:00"
+            },
+            {
+                "text": "hmm works for me",
+                "media": [],
+                "timestamp": "2026-10-29T18:46:39+00:00"
+            },
+            {
+                "text": "quite some of my followers are teachers and profs, and feel free to show it to your teacher and prof friends",
+                "media": [],
+                "timestamp": "2026-10-29T15:31:09+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2115967353259495562",
+        "tweets": [
+            {
+                "text": "first time seeing second harmonic generation inside a laser cavity, and turns out the idea is almost 60 years old. It is a nonlinear output coupler, and funny enough under ideal optimal laser operation with gain saturation, the SHG power is the same as usual max laser output power without SHG. i.e., the SHG \"autotunes\" to the optimal output coupler config, and it adapts to any pump power, where a usual laser you have to adjust the output mirror accordingly.\nthere is more nuance behind this statement, but it roughly makes sense, you want more output coupling when you get more gain from pumping harder, the optimal of which turns out to be linear wrt. intracavity intensity, and SHG loss is proportional to intensity. The SHG output is only weakly dependent of the material SHG strength when laser is well above threshold and low intracavity loss, so you can shove anything in as well as be a bit away from (quasi) phase matched.\nsadly this TFLN demo is not near this condition at all, but they still get considerable SH power. Now what if they made the SHG resonant as well?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HV1tABSbYAAL1qB?format=jpg",
+                        "local_path": "media/20261030_004144_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-30T00:41:44+00:00"
+            },
+            {
+                "text": "seems like you do not win much from making the SH resonant..\ni hate this kind of E-DBR... horrible tunable mirror, i can come up with a few different ways to tune a mirror much more effectively. I guess advantage is you are not as sensitive to the noise on the tuning voltage.\n- Chen2026: [Rubidium-Referenced Frequency-Doubled Pockels Laser with High-Speed Electro-Optic Tuning](https://arxiv.org/abs/2610.37279)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HV1tdv8bYAAHAsH?format=jpg",
+                        "local_path": "media/20261030_004617_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HV1tgwLawAATjZj?format=jpg",
+                        "local_path": "media/20261030_004617_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HV1t2gYaEAAGYzW?format=jpg",
+                        "local_path": "media/20261030_004617_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-30T00:46:17+00:00"
+            },
+            {
+                "text": "so intertwined..",
+                "media": [],
+                "timestamp": "2026-10-31T04:26:20+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2116205461276111223",
+        "tweets": [
+            {
+                "text": "from august to now, my timeline for chinese flooding the InP laser market has updated from 2-3 year to next year, and UHP maybe 1-2 more years. One of the chinese laser guys said them alone can make few times more than total market demand next year, and they were kindly asked (begged) to not do it, \"CEO's job is to put food into everyone's bowl (instead of crashing the market)\" blah blah\ntheir yield sucks and varies a lot among them, but every single one of them are way more willing to expand and eat the market.",
+                "media": [],
+                "timestamp": "2026-08-06T00:54:14+00:00"
+            },
+            {
+                "text": "CW DFBs and EMLs",
+                "media": [],
+                "timestamp": "2026-10-30T17:44:34+00:00"
+            },
+            {
+                "text": "takes time, most datacenters would be near not functional if all chinese lasers banned out right",
+                "media": [],
+                "timestamp": "2026-10-30T21:51:16+00:00"
+            },
+            {
+                "text": "already in for CW DFB. EML yield varies more.",
+                "media": [],
+                "timestamp": "2026-10-31T16:33:37+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2116391188337193013",
+        "tweets": [
+            {
+                "text": "eye candy glass interposer from eindhoven university of technology, BGA at the bottom and MPO at the top",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HV7uadubkAAvhqZ?format=jpg",
+                        "local_path": "media/20261031_044554_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HV7ubVaaAAAPP3O?format=jpg",
+                        "local_path": "media/20261031_044554_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HV7ucVfbEAES3ZV?format=jpg",
+                        "local_path": "media/20261031_044554_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-31T04:45:54+00:00"
+            },
+            {
+                "text": "how did they blow it up this bad during testing..\nglass waveguide reflection not so good, the TGV is worse.\n- Alomari2025: [Development of standardized and scalable glass-based technologyfor the next-generation electronic-photonic systems in a package](https://attend.ieee.org/repp/wp-content/uploads/sites/244/REPP-3-3-Latkowski.pdf)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HV7upnVbAAA0XM2?format=jpg",
+                        "local_path": "media/20261031_044924_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HV7uv-pbsAAj6uE?format=jpg",
+                        "local_path": "media/20261031_044924_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HV7u6fLaIAA0U9o?format=jpg",
+                        "local_path": "media/20261031_044924_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HV7vG_VbYAAQirj?format=jpg",
+                        "local_path": "media/20261031_044924_3.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-31T04:49:24+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2116571021339926820",
+        "tweets": [
+            {
+                "text": "CXMT",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HV-R5gUacAADO7Y?format=jpg",
+                        "local_path": "media/20261031_164030_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-31T16:40:30+00:00"
+            },
+            {
+                "text": "poor soul got cooled down to -100C\n- Ghaffarian2025: [NEW HALT for Electronics with Physics of Failure](https://attend.ieee.org/repp/wp-content/uploads/sites/244/REPP-4-7-Ghaffarian.pdf)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HV-SNM9bAAAq3P6?format=jpg",
+                        "local_path": "media/20261031_164323_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HV-SrS8bIAACnYr?format=jpg",
+                        "local_path": "media/20261031_164323_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-31T16:43:23+00:00"
+            },
+            {
+                "text": "they are doing accelerated aging test and just showing what kind of packaging they have on the board",
+                "media": [],
+                "timestamp": "2026-10-31T19:11:15+00:00"
+            },
+            {
+                "text": "maybe just for testing i guess",
+                "media": [],
+                "timestamp": "2026-10-31T19:10:31+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2116743457813459435",
+        "tweets": [
+            {
+                "text": "sir i think you might have used the wrong stock images and ive fixed it for you",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWAuBw5aoAAPTJO?format=jpg",
+                        "local_path": "media/20261101_040542_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWAu8oHb0AAZw02?format=jpg",
+                        "local_path": "media/20261101_040542_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-01T04:05:42+00:00"
+            },
+            {
+                "text": "Wang 2026: [Analysis of visual communication design of building energy management system under the background of artificial intelligence](https://doi.org/10.1063/5.0312836)",
+                "media": [],
+                "timestamp": "2026-11-01T04:06:24+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2116746387845153248",
+        "tweets": [
+            {
+                "text": "can you guess what do they mean when they say nuclear beavers?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWAxhX7a4AA73s4?format=jpg",
+                        "local_path": "media/20261101_041720_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-01T04:17:20+00:00"
+            },
+            {
+                "text": "they are different visualizations/representations of nuclei so that whether they are stable or not and decays in what way is shown better",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWBUQMDa0AARntU?format=jpg",
+                        "local_path": "media/20261101_064942_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWBUdivaoAAXGI5?format=jpg",
+                        "local_path": "media/20261101_064942_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-01T06:49:42+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2116781117051437286",
+        "tweets": [
+            {
+                "text": "kind of sad LLMs have collapsed the distance between intelligence and rent seeking to zero",
+                "media": [],
+                "timestamp": "2026-11-01T06:35:20+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2117499212938293423",
+        "tweets": [
+            {
+                "text": "Sheet resistance for different surface materials over 480-nm laser power",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWLeSqfacAA6u9v?format=jpg",
+                        "local_path": "media/20261103_060848_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-03T06:08:48+00:00"
+            },
+            {
+                "text": "lol amazing resolution. I mean the equipments are still recognizable.\n- Damitz2026: [Very sensitive vapor-cell quasi-DC atomic E-field sensor](https://arxiv.org/abs/2603.23751)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWLewTVa4AAHKkW?format=jpg",
+                        "local_path": "media/20261103_061215_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-03T06:12:15+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2117883651597975699",
+        "tweets": [
+            {
+                "text": "optical interconnects folks, time to wake up, optogenetics folks have better process than many of you. This is a probe with OCS and grating couplers on top of 130 nm CMOS. Hybrid bonding? No we are direcly continuing the backend process! It is even dual wavelengths of 450 nm and 638 nm. Made by imec.\nfunny the opposite requirement pushes the lasers/emitters to be external similar to CPO, for reducing heating up the tissue.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWQ5mDmaQAAnYit?format=jpg",
+                        "local_path": "media/20261104_073625_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWQ59efbcAAQr_B?format=jpg",
+                        "local_path": "media/20261104_073625_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWQ6BmabAAAinj0?format=jpg",
+                        "local_path": "media/20261104_073625_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-04T07:36:25+00:00"
+            },
+            {
+                "text": "the light blocking layer and window for electrical via reminds me of some photonic circuits for trapped ion control where you have charge blocking ground plane and window opening for the light beam lol.\n- Lakunina2026: [Neuropixels Opto: combining high-resolution electrophysiology and optogenetics](https://doi.org/10.1038/s41592-026-03076-z)\nthe process is described in\n- Neutens2023: [Dual-wavelength neural probe for simultaneous opto-stimulation and recording fabricated in a monolithically integrated CMOS/photonics technology platform](https://doi.org/10.1109/IEDM45741.2023.10413839)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWQ8Jr5aYAABvhr?format=jpg",
+                        "local_path": "media/20261104_073947_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWQ8MVAaUAA7mZp?format=jpg",
+                        "local_path": "media/20261104_073947_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWQ8csNa4AA9S_N?format=jpg",
+                        "local_path": "media/20261104_073947_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-04T07:39:47+00:00"
+            },
+            {
+                "text": "credo, astera labs, marvell, im bearish optics/photonics recently lol",
+                "media": [],
+                "timestamp": "2026-11-04T07:42:15+00:00"
+            },
+            {
+                "text": "you might say it is the whole optical/photonic industry",
+                "media": [],
+                "timestamp": "2026-11-04T16:12:23+00:00"
+            },
+            {
+                "text": "it's from imec in 2023, so probably +10 years, 2033",
+                "media": [],
+                "timestamp": "2026-11-04T08:05:09+00:00"
+            }
+        ]
+    }
+]
