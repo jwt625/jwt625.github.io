@@ -1,0 +1,4 @@
+interface:
+  display_name: "OFS Cleanup"
+  short_description: "Clean up a scraped weekly OFS draft"
+  default_prompt: "Use $ofs-cleanup to clean up the latest weekly OFS draft."
