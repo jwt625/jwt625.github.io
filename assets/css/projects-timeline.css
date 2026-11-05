@@ -146,6 +146,37 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
+.timeline-search {
+    background: #1a1a1a;
+    color: #ecf0f1;
+    border: 1px solid #4a5f7a;
+    border-radius: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    box-sizing: border-box;
+    width: 240px;
+    margin: 0;
+    padding: 12px;
+    font-size: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-search::placeholder {
+    color: #95a5a6;
+}
+
+.timeline-search:focus {
+    outline: none;
+    border-color: #ecf0f1;
+}
+
+.timeline-empty {
+    padding: 40px 20px;
+    color: #bdc3c7;
+    font-size: 14px;
+    text-align: center;
+}
+
 .timeline-wrapper {
     position: relative;
     padding: 20px 0;
@@ -185,7 +216,7 @@
 
 .timeline-wrapper.horizontal .timeline-track {
     display: flex;
-    padding: 180px 40px 180px 40px;
+    padding: 180px 40px 180px 100px; /* Left: room for half of the first 180px box */
     position: relative;
     align-items: center;
     min-width: min-content;
@@ -410,9 +441,9 @@
 .timeline-wrapper.vertical .timeline-duration-segment {
     position: absolute;
     left: -27px; /* Center with axis: -30 + 3 to center the 6px segment on the 2px axis */
-    top: 16px; /* Start from center of marker */
+    bottom: calc(100% - 16px); /* Start from center of marker, extend up: newest is at the top */
     width: 6px;
-    background: linear-gradient(to bottom, rgba(236, 240, 241, 0.6), rgba(236, 240, 241, 0.2));
+    background: linear-gradient(to top, rgba(236, 240, 241, 0.6), rgba(236, 240, 241, 0.2));
     border-radius: 0;
     z-index: 1;
 }
@@ -630,6 +661,11 @@
 
     .timeline-controls {
         gap: 8px;
+    }
+
+    .timeline-search {
+        width: 100%;
+        font-size: 16px; /* Below 16px iOS Safari zooms the page on focus */
     }
 
     .timeline-btn {

@@ -5,6 +5,7 @@ class ProjectsTimeline {
         this.projects = projects.sort((a, b) => new Date(a.date) - new Date(b.date));
         this.currentView = 'horizontal';
         this.viewMonths = 6; // Default to last 6 months
+        this.searchQuery = '';
         this.init();
     }
 
@@ -14,6 +15,8 @@ class ProjectsTimeline {
         this.createModal();
         this.initToggle();
         this.checkResponsive();
+        this.renderControls();
+        this.attachControlListeners();
         this.render();
         this.attachEventListeners();
 
@@ -160,13 +163,24 @@ class ProjectsTimeline {
         this.currentView = window.innerWidth <= 768 ? 'vertical' : 'horizontal';
     }
 
+    // Projects in display order: oldest first, newest first in the vertical layout
     getVisibleProjects() {
-        if (this.viewMonths === Infinity) {
-            return this.projects;
+        let visible = this.projects;
+        if (this.viewMonths !== Infinity) {
+            const now = new Date();
+            const cutoffDate = new Date(now.getFullYear(), now.getMonth() - this.viewMonths, 1);
+            visible = visible.filter(p => new Date(p.date) >= cutoffDate);
         }
-        const now = new Date();
-        const cutoffDate = new Date(now.getFullYear(), now.getMonth() - this.viewMonths, 1);
-        return this.projects.filter(p => new Date(p.date) >= cutoffDate);
+
+        const terms = this.searchQuery.toLowerCase().split(/\s+/).filter(Boolean);
+        if (terms.length > 0) {
+            visible = visible.filter(p => {
+                const text = `${p.name || ''} ${p.description || ''}`.toLowerCase();
+                return terms.every(term => text.includes(term));
+            });
+        }
+
+        return this.currentView === 'vertical' ? [...visible].reverse() : visible;
     }
 
     formatDate(dateStr) {
@@ -205,16 +219,33 @@ class ProjectsTimeline {
         }
     }
 
-    render() {
-        const visibleProjects = this.getVisibleProjects();
-
+    // Controls are rendered once so the search input keeps focus across re-renders
+    renderControls() {
         this.container.innerHTML = `
             <div class="timeline-controls">
-                <button id="timeline-zoom-out" class="timeline-btn ${this.viewMonths === Infinity ? 'active' : ''}">Show All</button>
-                <button id="timeline-zoom-in" class="timeline-btn ${this.viewMonths === 6 ? 'active' : ''}">Last 6 Months</button>
+                <input id="timeline-search" class="timeline-search" type="search" placeholder="Search projects" aria-label="Search projects by name and description" autocomplete="off" />
+                <button id="timeline-zoom-out" class="timeline-btn">Show All</button>
+                <button id="timeline-zoom-in" class="timeline-btn">Last 6 Months</button>
                 <button id="timeline-scroll-start" class="timeline-btn">← First</button>
                 <button id="timeline-scroll-end" class="timeline-btn">Last →</button>
             </div>
+            <div class="timeline-view"></div>
+        `;
+    }
+
+    render() {
+        const visibleProjects = this.getVisibleProjects();
+
+        document.getElementById('timeline-zoom-out').classList.toggle('active', this.viewMonths === Infinity);
+        document.getElementById('timeline-zoom-in').classList.toggle('active', this.viewMonths === 6);
+
+        const view = this.container.querySelector('.timeline-view');
+        if (visibleProjects.length === 0 && this.searchQuery.trim() !== '') {
+            view.innerHTML = '<div class="timeline-empty">No matching projects</div>';
+            return;
+        }
+
+        view.innerHTML = `
             <div class="timeline-wrapper ${this.currentView}">
                 <div class="timeline-track">
                     ${visibleProjects.map((project, index) =>
@@ -227,8 +258,14 @@ class ProjectsTimeline {
     renderProject(project, index, allProjects) {
         const categoryClass = `category-${project.category}`;
 
-        // Calculate spacing from previous project
-        const spacing = index > 0 ? this.calculateSpacing(allProjects[index - 1], project) : 0;
+        // Calculate spacing from previous project (the previous one is newer in the vertical layout)
+        let spacing = 0;
+        if (index > 0) {
+            const previous = allProjects[index - 1];
+            spacing = this.currentView === 'horizontal'
+                ? this.calculateSpacing(previous, project)
+                : this.calculateSpacing(project, previous);
+        }
         const spacingStyle = this.currentView === 'horizontal'
             ? `margin-left: ${spacing}px;`
             : `margin-top: ${spacing}px;`;
@@ -318,11 +355,34 @@ class ProjectsTimeline {
         return 450 + (months - 12) * 25;
     }
 
-    attachEventListeners() {
+    scrollToLatest() {
+        const wrapper = this.container.querySelector('.timeline-wrapper');
+        const track = this.container.querySelector('.timeline-track');
+        if (wrapper && track && this.currentView === 'horizontal') {
+            wrapper.scrollLeft = track.scrollWidth;
+        }
+    }
+
+    attachControlListeners() {
+        const search = document.getElementById('timeline-search');
         const zoomOut = document.getElementById('timeline-zoom-out');
         const zoomIn = document.getElementById('timeline-zoom-in');
         const scrollStart = document.getElementById('timeline-scroll-start');
         const scrollEnd = document.getElementById('timeline-scroll-end');
+
+        let searchTimer;
+        search.addEventListener('input', () => {
+            clearTimeout(searchTimer);
+            searchTimer = setTimeout(() => {
+                this.searchQuery = search.value;
+                if (this.searchQuery.trim() !== '') {
+                    this.viewMonths = Infinity;
+                }
+                this.render();
+                this.attachEventListeners();
+                this.scrollToLatest();
+            }, 300);
+        });
 
         if (zoomOut) {
             zoomOut.addEventListener('click', () => {
@@ -343,6 +403,10 @@ class ProjectsTimeline {
 
         if (zoomIn) {
             zoomIn.addEventListener('click', () => {
+                // Search always covers all projects, so leaving Show All ends the search
+                clearTimeout(searchTimer);
+                search.value = '';
+                this.searchQuery = '';
                 this.viewMonths = 6;
                 this.render();
                 this.attachEventListeners();
@@ -376,6 +440,9 @@ class ProjectsTimeline {
             });
         }
 
+    }
+
+    attachEventListeners() {
         // Add drag-to-scroll for horizontal timeline
         const wrapper = this.container.querySelector('.timeline-wrapper');
         if (wrapper && this.currentView === 'horizontal') {
