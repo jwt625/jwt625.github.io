@@ -355,6 +355,7 @@
     - url: "https://outside5sigma.com/applied-multiphysics/"
       label: "Live Demo"
   image: "/assets/images/projects/applied-multiphysics.png"
+  embed_url: "https://outside5sigma.com/applied-multiphysics/"
 
 # Additional undocumented projects
 - name: "Age of Agents"
