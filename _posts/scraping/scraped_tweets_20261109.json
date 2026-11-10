@@ -1,0 +1,304 @@
+[
+    {
+        "url": "https://x.com/jwt0625/status/2118203386097258571",
+        "tweets": [
+            {
+                "text": "imec also has ruby doped sapphire ball lens in a substrate via... 3.4 dB grating + ball + mirror.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWVeSZtboAADwjP?format=jpg",
+                        "local_path": "media/20261105_044656_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWVeYVSbkAQAONL?format=jpg",
+                        "local_path": "media/20261105_044656_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWVefb3bcAAIUiC?format=jpg",
+                        "local_path": "media/20261105_044656_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-05T04:46:56+00:00"
+            },
+            {
+                "text": "- Mangal2018: [Integration of Ball Lens in Through-Package Via to Enable Photonic Chip-to-Board Coupling](https://doi.org/10.1109/ECTC.2018.00175)\n- Mangal2019: [Through-substrate coupling elements for silicon-photonics-based short-reach optical interconnects](https://doi.org/10.1117/12.2510594)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWVe1ctaYAAegEc?format=jpg",
+                        "local_path": "media/20261105_044855_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWVe3L4akAEejYT?format=jpg",
+                        "local_path": "media/20261105_044855_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWVe4wRbYAAwja8?format=jpg",
+                        "local_path": "media/20261105_044855_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-05T04:48:55+00:00"
+            },
+            {
+                "text": "i mean if they can place solder balls",
+                "media": [],
+                "timestamp": "2026-11-05T15:01:23+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2118628049696723023",
+        "tweets": [
+            {
+                "text": "laser bed powder fusion 3d printed Invar36 flexure that you can directly mount interferometer optics into, from University of Waterloo",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWbgm64awAAOv3O?format=jpg",
+                        "local_path": "media/20261106_085423_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWbg1AmboAApR2-?format=jpg",
+                        "local_path": "media/20261106_085423_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-06T08:54:23+00:00"
+            },
+            {
+                "text": "they called it additive manufacturing optomechanical chassis (AMOC), and the design Loft Island\n- Tannous2026: [3D Printed Monolithic Optomechanical Chassis for an Unbalanced Field-Widened Interferometer](https://arxiv.org/abs/2611.06898)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWbhQAaasAAfCdB?format=jpg",
+                        "local_path": "media/20261106_085716_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWbhYN3aEAA7JwS?format=png",
+                        "local_path": "media/20261106_085716_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-06T08:57:16+00:00"
+            },
+            {
+                "text": "https://x.com/EdwinHwu\nhas some nice slip stick positioner design",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/GYAt2Keb0AUjzAK?format=jpg",
+                        "local_path": "media/20261106_165410_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYAt2Keb0AgtC9W?format=jpg",
+                        "local_path": "media/20261106_165410_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYAt2Keb0AkUeak?format=jpg",
+                        "local_path": "media/20261106_165410_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GYAt2KfaoAA1zLW?format=jpg",
+                        "local_path": "media/20261106_165410_3.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-06T16:54:10+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2118973253486264367",
+        "tweets": [
+            {
+                "text": "the freak is this demo, the uLEDs are still on the sapphire wafer?? Driven with a probe and minicircuit bias tee? seriously?",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWgahDoaAAIvDi3?format=jpg",
+                        "local_path": "media/20261106_174610_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWdar8cbAAAE20A?format=png",
+                        "local_path": "media/20261106_174610_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-06T17:46:10+00:00"
+            },
+            {
+                "text": "this is more of a funky wafer level test setup for the GaN uLED as is on sapphire.",
+                "media": [],
+                "timestamp": "2026-11-07T07:51:29+00:00"
+            },
+            {
+                "text": "vacuum chuck? we are going bare breadboard",
+                "media": [],
+                "timestamp": "2026-11-07T15:02:25+00:00"
+            },
+            {
+                "text": "lol could be a bullish and bearish signal at the same time",
+                "media": [],
+                "timestamp": "2026-11-07T18:45:27+00:00"
+            },
+            {
+                "text": "as grown on the sapphire wafer",
+                "media": [],
+                "timestamp": "2026-11-08T01:35:52+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2119119436385018045",
+        "tweets": [
+            {
+                "text": "this bare wafer sitting on optical breadboard \"wafer level test setup\" really shows how different industry or even same industry different era folks do things very differently.\nhere is another one: before LN became TFLN, bulk LN folks would scribe the chip/wafer name using a diamond scriber on the backside (now people do proper litho for labels and names), and when they inspect poling domains with HF etch (etch speed is different along crystal +z and -z), they put the wafer on a piece of paper, pour HF, and let its surface tension hold itself within the wafer.. maybe not everyone at the time was doing this cowboy style acid etch.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWgahDoaAAIvDi3?format=jpg",
+                        "local_path": "media/20261107_074606_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-07T07:46:06+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2119280296130724026",
+        "tweets": [
+            {
+                "text": "the slowest moving industries (in terms of their own evolution) are the most reluctant to disclose where they currently are",
+                "media": [],
+                "timestamp": "2026-11-08T04:06:11+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2119284744127119619",
+        "tweets": [
+            {
+                "text": "when you make a labyrinth on your chip, some of the waves will get addicted to certain sections of it, some of them give up finding the exit and head back out from the entrance, some of them eventually get lost, and thats how you get a filter.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWk1k0XaQAAHy75?format=jpg",
+                        "local_path": "media/20261108_042352_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-08T04:23:52+00:00"
+            },
+            {
+                "text": "it is a dual polarization wireless comm at 287 GHz with 400 Gbps and 16-QAM. Funny the modulation is easier done at telecom C band, and then \"shifted\" to 287 GHz with optical heterodyne, including the polarizations.\n- Dittmer2026: [414.7-Gbit/s Single-Aperture Dual-Polarization 287 GHz Wireless Link](https://doi.org/10.1109/TTHZ.2026.3749414)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWk3cGeaAAAGLLL?format=jpg",
+                        "local_path": "media/20261108_043220_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWk3eQ9awAACqwA?format=jpg",
+                        "local_path": "media/20261108_043220_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWk3gwqaIAISoG5?format=jpg",
+                        "local_path": "media/20261108_043220_2.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-08T04:32:20+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2119304174911541317",
+        "tweets": [
+            {
+                "text": "LLM eval leaderboard but it is silicon photonics foundries and component specs\n[Photonics Atlas - Benchmark](https://outside5sigma.com/photonics-atlas/benchmark)\n( WIP, gathered mostly from published data. Metrics not necessarily achieved simultaneously on the same chip. Most info on big commercial foundries are not public. )",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWlG0hyakAAevWs?format=jpg",
+                        "local_path": "media/20261108_054104_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-08T05:41:04+00:00"
+            },
+            {
+                "text": "did you actually check out the linked leaderboard",
+                "media": [],
+                "timestamp": "2026-11-08T15:41:33+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2119509496733265968",
+        "tweets": [
+            {
+                "text": "im getting the vibe that the chinese are more unhinged in how they mount their fibers, i shall properly survey this",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWoCfISa4AAw_1C?format=jpg",
+                        "local_path": "media/20261108_191657_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-08T19:16:57+00:00"
+            },
+            {
+                "text": "- Xie2026: [Reflective-path-enabled folded AWG on thin-film lithium niobate with 20 GHz fine channel spacing](https://doi.org/10.1364/OE.588499)",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWoDK_MasAAM3T2?format=jpg",
+                        "local_path": "media/20261108_191937_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-08T19:19:37+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2119587296601407863",
+        "tweets": [
+            {
+                "text": "3x more interest from Taiwan than US in advanced packaging, while half of my usual audience is from US",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWpJB8hbgAAebV5?format=jpg",
+                        "local_path": "media/20261021_013558_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HWpJMr_a8AAqR3P?format=jpg",
+                        "local_path": "media/20261021_013558_1.jpg"
+                    }
+                ],
+                "timestamp": "2026-10-21T01:35:58+00:00"
+            },
+            {
+                "text": "Taiwan is in the long tail",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWpJ9Y2bgAAZhcr?format=jpg",
+                        "local_path": "media/20261109_002830_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-09T00:28:30+00:00"
+            },
+            {
+                "text": "ok it was worse, i was only counting\nhttps://o5s.org..\nhttps://outside5sigma.com has more complete traffic.",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWpLVQwa0AA6kuE?format=jpg",
+                        "local_path": "media/20261109_003445_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-09T00:34:45+00:00"
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2119596592949031322",
+        "tweets": [
+            {
+                "text": "are you spending your pleasant evenings with big computers",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWpRz6CawAAfahM?format=png",
+                        "local_path": "media/20261109_010302_0.jpg"
+                    }
+                ],
+                "timestamp": "2026-11-09T01:03:02+00:00"
+            },
+            {
+                "text": "A new history of modern computing, p. 58",
+                "media": [],
+                "timestamp": "2026-11-09T01:05:11+00:00"
+            }
+        ]
+    }
+]
