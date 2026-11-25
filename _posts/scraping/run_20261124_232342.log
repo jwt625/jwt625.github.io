@@ -1,0 +1,111 @@
+============================================================
+TWITTER SCRAPING SCRIPT STARTED
+============================================================
+Configuration loaded successfully
+
+============================================================
+SECTION 1: BROWSER SETUP AND LOGIN
+============================================================
+Opening Firefox browser...
+Browser opened successfully!
+
+==================================================
+URL LOADING OPTIONS
+==================================================
+Choose an option:
+1. Load URLs from existing file (skip manual collection)
+2. Manually open tabs and collect URLs
+Enter your choice (1 or 2): Enter the path to the URL file (e.g., scraping/sorted_tweet_urls_20251005.txt): ✓ Loaded 19 URLs from /Users/wentaojiang/Documents/GitHub/jwt625.github.io/_posts/scraping/sorted_tweet_urls_20261124.txt
+URLs will be opened one by one during scraping to avoid detection.
+Opening Twitter/X homepage...
+
+Please:
+1. Login to Twitter/X manually in the browser if needed
+2. Press ENTER when you're ready to continue with scraping...
+
+============================================================
+SECTION 2: COLLECTING URLS FROM BROWSER TABS
+============================================================
+Using URLs loaded from file...
+Using 19 URLs from sorted_tweet_urls_20261124.txt
+
+============================================================
+SECTION 3: SCRAPING TWEETS
+============================================================
+Using 19 URLs from loaded file
+Logged-out layout: collected 2 tweets from https://x.com/jwt0625/status/1810310340854620662
+Logged-out layout: collected 3 tweets from https://x.com/jwt0625/status/1859478658328690881
+Logged-out layout: collected 2 tweets from https://x.com/jwt0625/status/2119984677763314061
+Logged-out layout: collected 3 tweets from https://x.com/jwt0625/status/2120307858038542463
+Logged-out layout: collected 2 tweets from https://x.com/jwt0625/status/2120419543961239756
+Logged-out layout: collected 2 tweets from https://x.com/jwt0625/status/2120424138452205669
+Logged-out layout: collected 2 tweets from https://x.com/jwt0625/status/2120446816517013897
+Logged-out layout: collected 1 tweets from https://x.com/jwt0625/status/2120545675163390037
+Logged-out layout: collected 1 tweets from https://x.com/jwt0625/status/2121103910652002602
+Logged-out layout: collected 1 tweets from https://x.com/jwt0625/status/2121119883043938743
+Logged-out layout: collected 2 tweets from https://x.com/jwt0625/status/2122052885278245069
+Logged-out layout: collected 2 tweets from https://x.com/jwt0625/status/2122106758286188890
+Logged-out layout: collected 2 tweets from https://x.com/jwt0625/status/2122204326215237758
+Logged-out layout: collected 1 tweets from https://x.com/jwt0625/status/2122720315239481486
+Logged-out layout: collected 1 tweets from https://x.com/jwt0625/status/2124011090728346097
+Logged-out layout: collected 2 tweets from https://x.com/jwt0625/status/2124013087586132216
+Logged-out layout: collected 1 tweets from https://x.com/jwt0625/status/2124019303121117354
+Logged-out layout: collected 2 tweets from https://x.com/jwt0625/status/2125109562386890893
+Logged-out layout: collected 2 tweets from https://x.com/jwt0625/status/2125138953816916056
+Scraped 19 threads.
+Data saved to: scraped_tweets_20261124.json
+
+============================================================
+SECTION 4: ORGANIZING MEDIA FILES
+============================================================
+Moved 43 JPG files to folder: /Users/wentaojiang/Documents/GitHub/jwt625.github.io/assets/images/2026/20240708_20261124
+
+============================================================
+SECTION 5: CREATING MARKDOWN FROM JSON
+============================================================
+Generated output filename: 2026-11-24-weekly-OFS-125.md
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+Markdown file '2026-11-24-weekly-OFS-125.md' has been created.
+
+============================================================
+SECTION 6: EXTRACTING TAGS AND SECTION TITLES USING LLM
+============================================================
+AI Response saved to output_20261124.md
+LLM processing completed. Output saved to: output_20261124.md
+
+============================================================
+SECTION 7: PROCESSING MARKDOWN FILES
+============================================================
+Successfully processed markdown files and updated 2026-11-24-weekly-OFS-125.md
+
+============================================================
+SECTION 8: CLEANING UP FILES
+============================================================
+Moved scraped_tweets.json to scraping
+Moved output_20261124.md to scraping
+Moved scraped_tweets_20261124.json to scraping
+Finished moving files to scraping folder
+
+============================================================
+SCRIPT COMPLETED SUCCESSFULLY!
+============================================================
+Final blog post created: 2026-11-24-weekly-OFS-125.md
+All temporary files moved to 'scraping' folder

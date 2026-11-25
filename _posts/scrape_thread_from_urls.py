@@ -15,7 +15,7 @@ from selenium.webdriver.firefox.options import Options
 import time
 import json
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 
 print("="*60)
 print("TWITTER SCRAPING SCRIPT STARTED")
@@ -69,6 +69,93 @@ def normalize_tweet_text(text):
             merged_lines.append(line)
 
     return '\n'.join(merged_lines)
+
+# Logged-out X serves a different frontend: plain <article> nodes inside <main>
+# with no data-testid attributes, no <time>, and no User-Name block. The tweet
+# body sits in div[dir="auto"][lang], media in img[src*="pbs.twimg.com/media"],
+# and the permalink on an a[href="/handle/status/<id>"] anchor.
+SSR_EXTRACT_JS = """
+return Array.from(document.querySelectorAll('main article')).map(function (a) {
+  var links = a.querySelectorAll('a[href^="/"]');
+  var author = null, statusId = null, timeText = null;
+  for (var i = 0; i < links.length; i++) {
+    var href = links[i].getAttribute('href') || '';
+    if (!author) {
+      var am = href.match(/^\\/([A-Za-z0-9_]{1,15})\\/?$/);
+      if (am) author = am[1];
+    }
+    var sm = href.match(/^\\/([A-Za-z0-9_]{1,15})\\/status\\/(\\d+)$/);
+    if (sm && !statusId) { statusId = sm[2]; timeText = (links[i].innerText || '').trim(); }
+  }
+  var texts = [];
+  a.querySelectorAll('div[dir="auto"][lang]').forEach(function (d) {
+    var t = (d.innerText || '').trim();
+    if (t) texts.push(t);
+  });
+  var images = [];
+  a.querySelectorAll('img[src*="pbs.twimg.com/media"]').forEach(function (img) {
+    var s = img.getAttribute('src');
+    if (s && images.indexOf(s) === -1) images.push(s);
+  });
+  return {author: author, text: texts.join('\\n'), images: images,
+          status_id: statusId, time_text: timeText};
+});
+"""
+
+def status_id_to_datetime(status_id):
+    """Twitter snowflake -> aware UTC datetime (exact, locale independent)."""
+    ts_ms = (int(status_id) >> 22) + 1288834974657
+    return datetime.fromtimestamp(ts_ms / 1000, tz=timezone.utc)
+
+def scrape_thread_ssr(driver, url, media_folder, str_user_handle):
+    """Collect the thread from the logged-out article layout."""
+    handle = str_user_handle.lstrip('@').lower()
+    thread_data = {'url': url, 'tweets': []}
+    seen_ids = set()
+    last_height = driver.execute_script("return document.body.scrollHeight")
+
+    while True:
+        for article in driver.execute_script(SSR_EXTRACT_JS):
+            status_id = article.get('status_id') or ''
+            if not status_id or status_id in seen_ids:
+                continue
+            if (article.get('author') or '').lower() != handle:
+                continue
+            seen_ids.add(status_id)
+
+            timestamp = status_id_to_datetime(status_id)
+            stamp = timestamp.strftime("%Y%m%d_%H%M%S")
+            tweet_data = {
+                'text': normalize_tweet_text(article.get('text') or ''),
+                'timestamp': timestamp.isoformat(),
+                'media': [],
+            }
+
+            seen_media = set()
+            for index, media_url in enumerate(article.get('images') or []):
+                original_url = get_original_media_url(media_url)
+                if original_url in seen_media:
+                    continue
+                seen_media.add(original_url)
+                filename = f"{stamp}_{index}.jpg"
+                local_path = download_media(original_url, media_folder, filename)
+                if local_path:
+                    tweet_data['media'].append({
+                        'url': original_url,
+                        'local_path': os.path.relpath(local_path, start=os.getcwd()),
+                    })
+
+            thread_data['tweets'].append(tweet_data)
+
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        time.sleep(2)
+        new_height = driver.execute_script("return document.body.scrollHeight")
+        if new_height == last_height:
+            break
+        last_height = new_height
+
+    print(f"Logged-out layout: collected {len(thread_data['tweets'])} tweets from {url}")
+    return thread_data
 
 def scrape_tweet(driver, tweet_element, media_folder, tweet_timestamp):
     tweet_data = {}
@@ -322,14 +409,24 @@ def scrape_tweet(driver, tweet_element, media_folder, tweet_timestamp):
 def scrape_thread(driver, url, media_folder, str_user_handle):
     driver.get(url)
     time.sleep(2)
-    
+
     try:
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, 'article[data-testid="tweet"]'))
         )
+        classic_layout = True
     except TimeoutException:
-        print(f"Timeout waiting for tweet to load: {url}")
-        return None
+        classic_layout = False
+
+    if not classic_layout:
+        try:
+            WebDriverWait(driver, 10).until(
+                lambda d: d.execute_script("return document.querySelectorAll('main article').length") > 0
+            )
+        except TimeoutException:
+            print(f"Timeout waiting for tweet to load: {url}")
+            return None
+        return scrape_thread_ssr(driver, url, media_folder, str_user_handle)
 
     thread_data = {'url': url, 'tweets': []}
     last_height = driver.execute_script("return document.body.scrollHeight")
@@ -395,40 +492,50 @@ print("="*60)
 #%% login manually and keep using the same tag
 print("Opening Firefox browser...")
 
-# Firefox options to help avoid detection
-from selenium.webdriver.firefox.options import Options
-firefox_options = Options()
+# Browser selection: 'chrome' uses a dedicated Chrome user-data dir, 'firefox'
+# a dedicated Firefox profile. Both are separate from the daily-use browsers so
+# automation prefs and sessions stay isolated.
+browser = config.get('browser', 'firefox').lower()
 
-# Use your existing Firefox profile where you're already logged in
-profile_path = config.get('firefox_profile_path')
-if not profile_path:
-    print("Error: firefox_profile_path not found in config.json")
-    exit(1)
-firefox_options.add_argument(f"--profile={profile_path}")
+if browser == 'chrome':
+    from selenium.webdriver.chrome.options import Options as ChromeOptions
+    chrome_options = ChromeOptions()
+    user_data_dir = config.get('chrome_user_data_dir')
+    if not user_data_dir:
+        print("Error: chrome_user_data_dir not found in config.json")
+        exit(1)
+    chrome_options.add_argument(f"--user-data-dir={user_data_dir}")
+    chrome_options.add_argument("--profile-directory=Default")
+    chrome_options.add_argument("--no-first-run")
+    chrome_options.add_argument("--no-default-browser-check")
+    chrome_options.add_argument("--disable-session-crashed-bubble")
+    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+    chrome_options.add_argument("--window-size=1920,1080")
+    driver = webdriver.Chrome(options=chrome_options)
+else:
+    from selenium.webdriver.firefox.options import Options as FirefoxOptions
+    firefox_options = FirefoxOptions()
 
-# Set window size to appear more natural
-firefox_options.add_argument("--width=1920")
-firefox_options.add_argument("--height=1080")
+    # Use the dedicated scraping Firefox profile where you are logged in.
+    # It is a separate copy of the daily profile, so Selenium's automation prefs
+    # (geckodriver writes user.js) never touch the profile you browse with.
+    profile_path = config.get('firefox_profile_path')
+    if not profile_path:
+        print("Error: firefox_profile_path not found in config.json")
+        exit(1)
+    firefox_options.add_argument(f"--profile={profile_path}")
 
-# Add options to make the browser less detectable
-firefox_options.set_preference("dom.webdriver.enabled", False)
-firefox_options.set_preference('useAutomationExtension', False)
-firefox_options.set_preference("general.useragent.override", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/115.0")
+    # Disable telemetry and data reporting (safe options)
+    firefox_options.set_preference("toolkit.telemetry.enabled", False)
+    firefox_options.set_preference("toolkit.telemetry.unified", False)
+    firefox_options.set_preference("datareporting.healthreport.uploadEnabled", False)
+    firefox_options.set_preference("datareporting.policy.dataSubmissionEnabled", False)
 
-# Disable telemetry and data reporting (safe options)
-firefox_options.set_preference("toolkit.telemetry.enabled", False)
-firefox_options.set_preference("toolkit.telemetry.unified", False)
-firefox_options.set_preference("datareporting.healthreport.uploadEnabled", False)
-firefox_options.set_preference("datareporting.policy.dataSubmissionEnabled", False)
+    # Do not spoof the User-Agent or disable WebRTC: both are strong bot signals
+    # and the spoofed UA also invalidates the UA-bound cf_clearance cookie.
+    driver = webdriver.Firefox(options=firefox_options)
 
-# Network settings to appear more natural
-firefox_options.set_preference("network.http.sendRefererHeader", 2)
-firefox_options.set_preference("network.http.sendSecureXSiteReferrer", True)
-
-# Disable some automated browser indicators
-firefox_options.set_preference("media.peerconnection.enabled", False)
-
-driver = webdriver.Firefox(options=firefox_options)
+driver.set_window_size(1920, 1080)
 print("Browser opened successfully!")
 
 # Check if user wants to load URLs from existing file

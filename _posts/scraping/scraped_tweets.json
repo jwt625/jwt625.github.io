@@ -1,303 +1,463 @@
 [
     {
-        "url": "https://x.com/jwt0625/status/2118203386097258571",
+        "url": "https://x.com/jwt0625/status/1810310340854620662",
         "tweets": [
             {
-                "text": "imec also has ruby doped sapphire ball lens in a substrate via... 3.4 dB grating + ball + mirror.",
+                "text": "Chick-fil-a has better edge compute and IoT data logging than many of your SaaS companies\nAnd they have great IT / data collection & optimization medium.com/chick-fil-atec…",
+                "timestamp": "2024-07-08T13:43:59.854000+00:00",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/HWVeSZtboAADwjP?format=jpg",
-                        "local_path": "media/20261105_044656_0.jpg"
+                        "url": "https://pbs.twimg.com/media/GR-DnFyakAA7l0f?format=jpg",
+                        "local_path": "media/20240708_134359_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/HWVeYVSbkAQAONL?format=jpg",
-                        "local_path": "media/20261105_044656_1.jpg"
+                        "url": "https://pbs.twimg.com/media/GR-Dj7jaIAEe0aI?format=jpg",
+                        "local_path": "media/20240708_134359_1.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/HWVefb3bcAAIUiC?format=jpg",
-                        "local_path": "media/20261105_044656_2.jpg"
+                        "url": "https://pbs.twimg.com/media/GR-Dj7kawAAeRTY?format=jpg",
+                        "local_path": "media/20240708_134359_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GR-Dj7iagAAy-6y?format=jpg",
+                        "local_path": "media/20240708_134359_3.jpg"
                     }
-                ],
-                "timestamp": "2026-11-05T04:46:56+00:00"
+                ]
             },
             {
-                "text": "- Mangal2018: [Integration of Ball Lens in Through-Package Via to Enable Photonic Chip-to-Board Coupling](https://doi.org/10.1109/ECTC.2018.00175)\n- Mangal2019: [Through-substrate coupling elements for silicon-photonics-based short-reach optical interconnects](https://doi.org/10.1117/12.2510594)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HWVe1ctaYAAegEc?format=jpg",
-                        "local_path": "media/20261105_044855_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HWVe3L4akAEejYT?format=jpg",
-                        "local_path": "media/20261105_044855_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HWVe4wRbYAAwja8?format=jpg",
-                        "local_path": "media/20261105_044855_2.jpg"
-                    }
-                ],
-                "timestamp": "2026-11-05T04:48:55+00:00"
-            },
-            {
-                "text": "i mean if they can place solder balls",
-                "media": [],
-                "timestamp": "2026-11-05T15:01:23+00:00"
+                "text": "I want this level of data logging, collaboration & sharing, and visualization in every academic cleanroom…",
+                "timestamp": "2024-07-08T13:57:48.032000+00:00",
+                "media": []
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/2118628049696723023",
+        "url": "https://x.com/jwt0625/status/1859478658328690881",
         "tweets": [
             {
-                "text": "laser bed powder fusion 3d printed Invar36 flexure that you can directly mount interferometer optics into, from University of Waterloo",
+                "text": "One of the most badass Fig. 1 I have ever seen.\n(and the reference cited is his own lab notebook)",
+                "timestamp": "2024-11-21T06:07:14.245000+00:00",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/HWbgm64awAAOv3O?format=jpg",
-                        "local_path": "media/20261106_085423_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HWbg1AmboAApR2-?format=jpg",
-                        "local_path": "media/20261106_085423_1.jpg"
+                        "url": "https://pbs.twimg.com/media/Gc4xrU8aYAAXzpv?format=jpg",
+                        "local_path": "media/20241121_060714_0.jpg"
                     }
-                ],
-                "timestamp": "2026-11-06T08:54:23+00:00"
+                ]
             },
             {
-                "text": "they called it additive manufacturing optomechanical chassis (AMOC), and the design Loft Island\n- Tannous2026: [3D Printed Monolithic Optomechanical Chassis for an Unbalanced Field-Widened Interferometer](https://arxiv.org/abs/2611.06898)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HWbhQAaasAAfCdB?format=jpg",
-                        "local_path": "media/20261106_085716_0.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/HWbhYN3aEAA7JwS?format=png",
-                        "local_path": "media/20261106_085716_1.jpg"
-                    }
-                ],
-                "timestamp": "2026-11-06T08:57:16+00:00"
+                "text": "Iga2018: Forty years of vertical-cavity surface-emitting laser: Invention and innovation\ndoi.org/10.7567/JJAP.5…",
+                "timestamp": "2024-11-21T06:07:55.570000+00:00",
+                "media": []
             },
             {
-                "text": "https://x.com/EdwinHwu\nhas some nice slip stick positioner design",
+                "text": "I've always wondered what light source is used in those active fiber optic HDMI/display cables. Now I know it is VCSEL\n(damn 17 bucks for some VCSELs?)",
+                "timestamp": "2024-11-21T06:30:26.350000+00:00",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/GYAt2Keb0AUjzAK?format=jpg",
-                        "local_path": "media/20261106_165410_0.jpg"
+                        "url": "https://pbs.twimg.com/media/Gc42Dl7b0AAzoYV?format=jpg",
+                        "local_path": "media/20241121_063026_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/GYAt2Keb0AgtC9W?format=jpg",
-                        "local_path": "media/20261106_165410_1.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GYAt2Keb0AkUeak?format=jpg",
-                        "local_path": "media/20261106_165410_2.jpg"
-                    },
-                    {
-                        "url": "https://pbs.twimg.com/media/GYAt2KfaoAA1zLW?format=jpg",
-                        "local_path": "media/20261106_165410_3.jpg"
+                        "url": "https://pbs.twimg.com/media/Gc425y0aAAEaNpc?format=jpg",
+                        "local_path": "media/20241121_063026_1.jpg"
                     }
-                ],
-                "timestamp": "2026-11-06T16:54:10+00:00"
+                ]
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/2118973253486264367",
+        "url": "https://x.com/jwt0625/status/2119984677763314061",
         "tweets": [
             {
-                "text": "the freak is this demo, the uLEDs are still on the sapphire wafer?? Driven with a probe and minicircuit bias tee? seriously?",
+                "text": "biblically accurate low loss waveguide crossing (that actually has shitty performance)",
+                "timestamp": "2026-11-10T02:45:09.246000+00:00",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/HWgahDoaAAIvDi3?format=jpg",
-                        "local_path": "media/20261106_174610_0.jpg"
+                        "url": "https://pbs.twimg.com/media/HWuyvAUaoAA8LQv?format=jpg",
+                        "local_path": "media/20261110_024509_0.jpg"
+                    }
+                ]
+            },
+            {
+                "text": "chip made by Applied Nanotools Inc. MPW.\nI dont trust fig. 14 which looks like arbitrarily normalized transmission..\n- Zhu2025: [Compact and low-loss on-chip silicon crossing based on subwavelength grating slot waveguides](doi.org/10.1364/OE.551…)",
+                "timestamp": "2026-11-10T02:48:27.262000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HWuy4TxaMAARNUt?format=jpg",
+                        "local_path": "media/20261110_024827_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/HWdar8cbAAAE20A?format=png",
-                        "local_path": "media/20261106_174610_1.jpg"
+                        "url": "https://pbs.twimg.com/media/HWuzG1FbsAAlPDw?format=jpg",
+                        "local_path": "media/20261110_024827_1.jpg"
                     }
-                ],
-                "timestamp": "2026-11-06T17:46:10+00:00"
-            },
-            {
-                "text": "this is more of a funky wafer level test setup for the GaN uLED as is on sapphire.",
-                "media": [],
-                "timestamp": "2026-11-07T07:51:29+00:00"
-            },
-            {
-                "text": "vacuum chuck? we are going bare breadboard",
-                "media": [],
-                "timestamp": "2026-11-07T15:02:25+00:00"
-            },
-            {
-                "text": "lol could be a bullish and bearish signal at the same time",
-                "media": [],
-                "timestamp": "2026-11-07T18:45:27+00:00"
-            },
-            {
-                "text": "as grown on the sapphire wafer",
-                "media": [],
-                "timestamp": "2026-11-08T01:35:52+00:00"
+                ]
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/2119119436385018045",
+        "url": "https://x.com/jwt0625/status/2120307858038542463",
         "tweets": [
             {
-                "text": "this bare wafer sitting on optical breadboard \"wafer level test setup\" really shows how different industry or even same industry different era folks do things very differently.\nhere is another one: before LN became TFLN, bulk LN folks would scribe the chip/wafer name using a diamond scriber on the backside (now people do proper litho for labels and names), and when they inspect poling domains with HF etch (etch speed is different along crystal +z and -z), they put the wafer on a piece of paper, pour HF, and let its surface tension hold itself within the wafer.. maybe not everyone at the time was doing this cowboy style acid etch.",
+                "text": "there are quite a few other things that are like this that are not lobotomized yet",
+                "timestamp": "2026-11-11T00:09:21.428000+00:00",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/HWgahDoaAAIvDi3?format=jpg",
-                        "local_path": "media/20261107_074606_0.jpg"
+                        "url": "https://pbs.twimg.com/media/HWzYoDrboAALofh?format=jpg",
+                        "local_path": "media/20261111_000921_0.jpg"
                     }
-                ],
-                "timestamp": "2026-11-07T07:46:06+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2119280296130724026",
-        "tweets": [
-            {
-                "text": "the slowest moving industries (in terms of their own evolution) are the most reluctant to disclose where they currently are",
-                "media": [],
-                "timestamp": "2026-11-08T04:06:11+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2119284744127119619",
-        "tweets": [
-            {
-                "text": "when you make a labyrinth on your chip, some of the waves will get addicted to certain sections of it, some of them give up finding the exit and head back out from the entrance, some of them eventually get lost, and thats how you get a filter.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HWk1k0XaQAAHy75?format=jpg",
-                        "local_path": "media/20261108_042352_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-11-08T04:23:52+00:00"
+                ]
             },
             {
-                "text": "it is a dual polarization wireless comm at 287 GHz with 400 Gbps and 16-QAM. Funny the modulation is easier done at telecom C band, and then \"shifted\" to 287 GHz with optical heterodyne, including the polarizations.\n- Dittmer2026: [414.7-Gbit/s Single-Aperture Dual-Polarization 287 GHz Wireless Link](https://doi.org/10.1109/TTHZ.2026.3749414)",
+                "text": "[Anthropic’s Initial Public Offering](ipo.anthropic.com/us/)",
+                "timestamp": "2026-11-11T00:11:01.180000+00:00",
+                "media": []
+            },
+            {
+                "text": "pov you are on QWERTZ keyboard for the first time",
+                "timestamp": "2026-11-11T00:15:09.842000+00:00",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/HWk3cGeaAAAGLLL?format=jpg",
-                        "local_path": "media/20261108_043220_0.jpg"
+                        "url": "https://pbs.twimg.com/media/HWzaBGxbQAExGe8?format=jpg",
+                        "local_path": "media/20261111_001509_0.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2120419543961239756",
+        "tweets": [
+            {
+                "text": "hmm first time seeing laser as a sensor where the sensing part is within a laser. Seems no improvement of the sensitivity but cuts down the sensor volume.",
+                "timestamp": "2026-11-11T07:33:09.427000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HW09IoNaUAAMCQV?format=jpg",
+                        "local_path": "media/20261111_073309_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/HWk3eQ9awAACqwA?format=jpg",
-                        "local_path": "media/20261108_043220_1.jpg"
+                        "url": "https://pbs.twimg.com/media/HW09M8SaYAAgFID?format=jpg",
+                        "local_path": "media/20261111_073309_1.jpg"
+                    }
+                ]
+            },
+            {
+                "text": "- Wang2026: [Monolithically Integrated Active-Cavity “Laser-as-a-Sensor”: Active Intracavity Enhancement for Oxygen Detection with a Subnanoliter Sampling Volume](doi.org/10.1021/acspho…)",
+                "timestamp": "2026-11-11T07:33:58.174000+00:00",
+                "media": []
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2120424138452205669",
+        "tweets": [
+            {
+                "text": "jumping spider eyes but it's a custom fiber array with 8 single-core fibers surrounding a four-core multicore fiber, and some dummy multimode fibers",
+                "timestamp": "2026-11-11T07:51:24.839000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HW1BzVhbcAAXZzy?format=jpg",
+                        "local_path": "media/20261111_075124_0.jpg"
+                    }
+                ]
+            },
+            {
+                "text": "it is a TPP 3d printed fan-in fan-out demo, horrible bar plot, why cant you be normal and just print out the matrices\n- Chen2026: [Low-Insertion-Loss and Ultracompact Multicore Fiber Fan-In/Out Device Fabricated by In Situ 3D Nanoprinting](doi.org/10.1021/acspho…)",
+                "timestamp": "2026-11-11T07:54:55.502000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HW1DJ9Fb0AAkNrR?format=jpg",
+                        "local_path": "media/20261111_075455_0.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/HWk3gwqaIAISoG5?format=jpg",
-                        "local_path": "media/20261108_043220_2.jpg"
-                    }
-                ],
-                "timestamp": "2026-11-08T04:32:20+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2119304174911541317",
-        "tweets": [
-            {
-                "text": "LLM eval leaderboard but it is silicon photonics foundries and component specs\n[Photonics Atlas - Benchmark](https://outside5sigma.com/photonics-atlas/benchmark)\n( WIP, gathered mostly from published data. Metrics not necessarily achieved simultaneously on the same chip. Most info on big commercial foundries are not public. )",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HWlG0hyakAAevWs?format=jpg",
-                        "local_path": "media/20261108_054104_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-11-08T05:41:04+00:00"
-            },
-            {
-                "text": "did you actually check out the linked leaderboard",
-                "media": [],
-                "timestamp": "2026-11-08T15:41:33+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2119509496733265968",
-        "tweets": [
-            {
-                "text": "im getting the vibe that the chinese are more unhinged in how they mount their fibers, i shall properly survey this",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HWoCfISa4AAw_1C?format=jpg",
-                        "local_path": "media/20261108_191657_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-11-08T19:16:57+00:00"
-            },
-            {
-                "text": "- Xie2026: [Reflective-path-enabled folded AWG on thin-film lithium niobate with 20 GHz fine channel spacing](https://doi.org/10.1364/OE.588499)",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HWoDK_MasAAM3T2?format=jpg",
-                        "local_path": "media/20261108_191937_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-11-08T19:19:37+00:00"
-            }
-        ]
-    },
-    {
-        "url": "https://x.com/jwt0625/status/2119587296601407863",
-        "tweets": [
-            {
-                "text": "3x more interest from Taiwan than US in advanced packaging, while half of my usual audience is from US",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HWpJB8hbgAAebV5?format=jpg",
-                        "local_path": "media/20261021_013558_0.jpg"
+                        "url": "https://pbs.twimg.com/media/HW1DLJSaEAAHDny?format=jpg",
+                        "local_path": "media/20261111_075455_1.jpg"
                     },
                     {
-                        "url": "https://pbs.twimg.com/media/HWpJMr_a8AAqR3P?format=jpg",
-                        "local_path": "media/20261021_013558_1.jpg"
+                        "url": "https://pbs.twimg.com/media/HW1DMEMaEAAsVtU?format=jpg",
+                        "local_path": "media/20261111_075455_2.jpg"
                     }
-                ],
-                "timestamp": "2026-10-21T01:35:58+00:00"
-            },
-            {
-                "text": "Taiwan is in the long tail",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HWpJ9Y2bgAAZhcr?format=jpg",
-                        "local_path": "media/20261109_002830_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-11-09T00:28:30+00:00"
-            },
-            {
-                "text": "ok it was worse, i was only counting\nhttps://o5s.org..\nhttps://outside5sigma.com has more complete traffic.",
-                "media": [
-                    {
-                        "url": "https://pbs.twimg.com/media/HWpLVQwa0AA6kuE?format=jpg",
-                        "local_path": "media/20261109_003445_0.jpg"
-                    }
-                ],
-                "timestamp": "2026-11-09T00:34:45+00:00"
+                ]
             }
         ]
     },
     {
-        "url": "https://x.com/jwt0625/status/2119596592949031322",
+        "url": "https://x.com/jwt0625/status/2120446816517013897",
         "tweets": [
             {
-                "text": "are you spending your pleasant evenings with big computers",
+                "text": "when EE folks make plot about AI progress lol im in tears 10.6 dB per year with a clog of points\n( last time i saw dB per year was about CPC connectors IL but i cant find that ieee802.3 presentation anymore )",
+                "timestamp": "2026-11-11T09:21:31.711000+00:00",
                 "media": [
                     {
-                        "url": "https://pbs.twimg.com/media/HWpRz6CawAAfahM?format=png",
-                        "local_path": "media/20261109_010302_0.jpg"
+                        "url": "https://pbs.twimg.com/media/HW1WcTza8AAIkSx?format=jpg",
+                        "local_path": "media/20261111_092131_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HW1WkPWa0AAe-T5?format=png",
+                        "local_path": "media/20261111_092131_1.jpg"
                     }
-                ],
-                "timestamp": "2026-11-09T01:03:02+00:00"
+                ]
             },
             {
-                "text": "A new history of modern computing, p. 58",
-                "media": [],
-                "timestamp": "2026-11-09T01:05:11+00:00"
+                "text": "always love the imagination. Multiple layers of RAM + multiple layers of (EIC+PIC), on top of XPU, maybe there is a chance for this pile to not melt if we swap the silicon oxide with diamond.\n- Yoo2026: [Hybrid Bonding and Packaging Technologies for 3D EIC-PIC Integration and Future 3D EPICs](doi.org/10.1109/JLT.20…)",
+                "timestamp": "2026-11-11T09:34:20.434000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HW1YpvUaAAA3PZQ?format=jpg",
+                        "local_path": "media/20261111_093420_0.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2120545675163390037",
+        "tweets": [
+            {
+                "text": "funny fable still struggles to match some patterns that i can match with my eyes\n$3 depth sensing",
+                "timestamp": "2026-11-11T12:34:31.446000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HW2wn0vbUAEyhv1?format=jpg",
+                        "local_path": "media/20261111_123431_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HW2DLFhXIAARRlE?format=png",
+                        "local_path": "media/20261111_123431_1.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2121103910652002602",
+        "tweets": [
+            {
+                "text": "optics and photonics milestones animated\n[Photonics Atlas - History](o5s.org/photonics-atla…)",
+                "timestamp": "2026-11-13T04:52:35.161000+00:00",
+                "media": []
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2121119883043938743",
+        "tweets": [
+            {
+                "text": "having to turn off motion reduction on ios for testing mobile website animation and I feel like the ios builtin animations are aging me 2x faster\nthis also reminded me that the three finger swipe on touchpad can speedup the swipe animation if you swipe faster, and it pissed me off so much, why cant you make it fast by default? why are you adiabatically murdering me apple?",
+                "timestamp": "2026-11-13T05:56:03.276000+00:00",
+                "media": []
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2122052885278245069",
+        "tweets": [
+            {
+                "text": "molecular vibrational energy-level transitions including fundamental and higher order overtones",
+                "timestamp": "2026-11-15T19:43:28.343000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HXMLu5QawAAfYIN?format=jpg",
+                        "local_path": "media/20261115_194328_0.jpg"
+                    }
+                ]
+            },
+            {
+                "text": "- Zhang2026: [Chip-scale differential near-infrared spectroscopy in strongly water-absorbing environments](doi.org/10.1117/1.AP.9…)",
+                "timestamp": "2026-11-15T19:44:35.308000+00:00",
+                "media": []
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2122106758286188890",
+        "tweets": [
+            {
+                "text": "wild seeing distributed acoustic sensing and RDMA together, makes me think of 1) the sensing industry is so primitive in terms of orchestrating a cluster of sensors, a lot of untapped potentials. 2) cant wait for coherent lite to get into datacom so that we can do DAS inside datacenters",
+                "timestamp": "2026-11-15T23:17:32.669000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HXM8dMhbIAARjSH?format=jpg",
+                        "local_path": "media/20261115_231732_0.jpg"
+                    }
+                ]
+            },
+            {
+                "text": "you never know how many sensors you already have until you try it out\n- Mazur2026: [Real-Time Trans-Oceanic Fiber Sensing via Convergence of Long-Reach OFDR, High-Speed Optical Networking, and RDMA-Capable Edge-GPUs](arxiv.org/abs/2611.10080)",
+                "timestamp": "2026-11-15T23:19:00.321000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HXM8-kfagAAIsU4?format=png",
+                        "local_path": "media/20261115_231900_0.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2122204326215237758",
+        "tweets": [
+            {
+                "text": "how much a single percent of erbium doping can mess up your reactive ion etching because erbium hydride has low volatility",
+                "timestamp": "2026-11-16T05:45:14.676000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HXOVSxgb0AAxzFb?format=jpg",
+                        "local_path": "media/20261116_054514_0.jpg"
+                    }
+                ]
+            },
+            {
+                "text": "- Vu2010: [Tellurium dioxide Erbium doped planar rib waveguide amplifiers with net gain and 2.8dB/cm internal gain](doi.org/10.1364/OE.18.…)",
+                "timestamp": "2026-11-16T05:46:06.193000+00:00",
+                "media": []
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2122720315239481486",
+        "tweets": [
+            {
+                "text": "been doing it for photonics papers mainly to extract components specs and foundries & suppliers, I should also start tracking conflicts and mistakes.\n[Photonic Atlas](o5s.org/photonics-atla…)\nall running on a $200 claude subscription, per paper api cost is probably 1-5 bucks\nIn my ongoing quest to find the limits of Opus 5.5, I directed it to audit my old scientific field, theoretical astrophysics. We indexed about 150,000 papers, audited 50,000 for issues, and did progressively more thorough checks on thousands more. We found nearly 1000 major",
+                "timestamp": "2026-11-17T08:35:45.815000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HXVpmrtbEAAos_I?format=jpg",
+                        "local_path": "media/20261117_083545_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HXVqBBwaMAAhCAc?format=jpg",
+                        "local_path": "media/20261117_083545_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HXUFU3qakAAbqti?format=jpg",
+                        "local_path": "media/20261117_083545_2.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2124011090728346097",
+        "tweets": [
+            {
+                "text": "John Napier was at 4e-4 sustained flops, over 20 years. Henry Briggs was about 10x faster. It is now our turn to build better machines and run more calculations.",
+                "timestamp": "2026-11-21T05:24:40.904000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HXn_jHPaQAAJjdQ?format=png",
+                        "local_path": "media/20261121_052440_0.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2124013087586132216",
+        "tweets": [
+            {
+                "text": "funny optical \"crossing\" with electrical isolation",
+                "timestamp": "2026-11-21T05:32:36.992000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HXoBajhaIAASOLs?format=jpg",
+                        "local_path": "media/20261121_053236_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HXoBocfbQAASUzf?format=jpg",
+                        "local_path": "media/20261121_053236_1.jpg"
+                    }
+                ]
+            },
+            {
+                "text": "all these topological optimization gymnastics, at the end of the day the smaller gap the lower insertion loss\n- Lahijani2026: [Electronic-photonic circuit crossings](doi.org/10.1364/OE.608…)",
+                "timestamp": "2026-11-21T05:34:09.367000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HXoC2ANbYAARNzA?format=jpg",
+                        "local_path": "media/20261121_053409_0.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2124019303121117354",
+        "tweets": [
+            {
+                "text": "is your foundry capable of making photonic processors with unclonable fingerprint?",
+                "timestamp": "2026-11-21T05:57:18.891000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HXoILPtaMAA6Z3j?format=jpg",
+                        "local_path": "media/20261121_055718_0.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2125109562386890893",
+        "tweets": [
+            {
+                "text": "reversing the heat transfer from lock-in thermography image to 3d localize the defect",
+                "timestamp": "2026-11-24T06:09:36.956000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HX3ngbJasAAz6Kj?format=jpg",
+                        "local_path": "media/20261124_060936_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HX3nvNVa8AAbFD5?format=jpg",
+                        "local_path": "media/20261124_060936_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HX3n03zbcAAJNR2?format=jpg",
+                        "local_path": "media/20261124_060936_2.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HX3n3R1a0AAQTO9?format=jpg",
+                        "local_path": "media/20261124_060936_3.jpg"
+                    }
+                ]
+            },
+            {
+                "text": "- Brand2026: [Quantitative and Nondestructive 3D Localization of Thermally Active Electrical Defects Using Lock-in Thermography](doi.org/10.1007/s11668…)",
+                "timestamp": "2026-11-24T06:10:25.147000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HX3n-TLa0AAkEBY?format=jpg",
+                        "local_path": "media/20261124_061025_0.jpg"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://x.com/jwt0625/status/2125138953816916056",
+        "tweets": [
+            {
+                "text": "seems like they did end up using a 3d printed vacuum chamber for an active mission CAITDM (Cold Atom Interferometer Thermosphere Drag Measurement)\nwhen you complain your tiny vacuum chamber is still too heavy",
+                "timestamp": "2025-07-06T15:58:26.331000+00:00",
+                "media": [
+                    {
+                        "url": "https://pbs.twimg.com/media/HX4CIYAbkAAYV7v?format=jpg",
+                        "local_path": "media/20250706_155826_0.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/HX4CXPJaUAAP7g5?format=jpg",
+                        "local_path": "media/20250706_155826_1.jpg"
+                    },
+                    {
+                        "url": "https://pbs.twimg.com/media/GvL6IIRXoAAQIjG?format=jpg",
+                        "local_path": "media/20250706_155826_2.jpg"
+                    }
+                ]
+            },
+            {
+                "text": "- Arakawa2026: [Fundamental physics with quantum sensors in space](arxiv.org/abs/2611.21997)\n[CAITDM: Measuring the Upper Atmosphere for Improved Climate Modelling](ralspace.stfc.ac.uk/case-studies/c…)",
+                "timestamp": "2026-11-24T08:07:19.925000+00:00",
+                "media": []
             }
         ]
     }

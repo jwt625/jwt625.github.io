@@ -356,6 +356,18 @@
       label: "Live Demo"
   image: "/assets/images/projects/applied-multiphysics.png"
 
+- name: "Photonic Conduct"
+  date: "2026-11-22"
+  description: "Parody corporate compliance training for photonics pitfalls, run by the fictional Five Sigma Photonics Learning Center: two narrated interactive courses, Ferroelectric Workplace Conduct and Crystal Orientation Awareness, and Feedback, Reflection and Zero Tolerance for Retaliation in the Optical Workplace. Incident videos drawn in code, scenario chats with OK / not OK popups, drag-and-drop sorting, knowledge checks and a certificate. The jokes are corporate; the physics is real: activities run an anisotropic mode solver sweep for x-cut lithium niobate, photorefractive and thermal resonance sweeps, bias drift, pyroelectric charge, Lang-Kobayashi mode hops and backscatter doublets, with literature figures and citations."
+  category: "project"
+  links:
+    - url: "https://github.com/jwt625/photonic-conduct"
+      label: "GitHub"
+    - url: "https://outside5sigma.com/photonic-conduct/"
+      label: "Live Demo"
+  image: "/assets/images/projects/photonic-conduct.png"
+  embed_url: "https://outside5sigma.com/photonic-conduct/"
+
 # Additional undocumented projects
 - name: "Age of Agents"
   date: "2026-01-04"
